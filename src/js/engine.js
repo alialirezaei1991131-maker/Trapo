@@ -1,5 +1,5 @@
 /* ==========================================================================
-   آکادمی بالینی — موتور مشترک (js/engine.js)
+   تراپو (آکادمی بالینی) — موتور مشترک (js/engine.js)
    یونا (الکترولیت) • هما (گاز خون و اسید-باز) • نگار (معاینه فیزیکی تغذیه‌محور)
 
    بدون سرور، بدون ساخت (Zero Build) و بدون ES Module: با دابل‌کلیک روی index.html
@@ -250,7 +250,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const h = document.documentElement;
         h.lang = EA.lang;
         h.dir = EA.lang === 'en' ? 'ltr' : 'rtl';
-        document.title = EA.lang === 'en' ? D.titleEn : D.titleFa;
+        // عنوان صفحه فقط داخل دوره (نه وقتی صفحه اول داده دوره را برای کیس امروز می‌خواند)؛ عنوان دوره در config است
+        if (document.body && !/\bmode-(course|calc)\b/.test(document.body.className)) return;
+        const C0 = root.EA && root.EA.C, en0 = EA.lang === 'en', BR = window.ACADEMY_BRAND;
+        document.title = ((C0 && (en0 ? C0.titleEn : C0.titleFa)) || D.titleFa || (en0 ? D.nameEn : D.nameFa) || '') + (BR ? ' • ' + (en0 ? BR.en : BR.fa) : '');
       }
       EA.applyLangDoc = applyDoc;
 
@@ -2473,7 +2476,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   /* ================= پیکربندی (قیمت‌ها و پشتیبانی را این‌جا ویرایش کنید) ================= */
   const CFG = {
-    BRAND_FA: 'آکادمی بالینی', BRAND_EN: 'Clinical Academy',
+    BRAND_FA: 'تراپو', BRAND_EN: 'Trapo',   // نام نرم‌افزار اصلی؛ یونا، هما، نگار و دوره‌های بعدی زیرمجموعه آن‌اند
+    BRAND_TAG_FA: 'آکادمی بالینی', BRAND_TAG_EN: 'Clinical academy',
     /** کلید عمومی امضای کدهای فعال‌سازی (Ed25519). این کلید فقط «بررسی» می‌کند و با آن نمی‌شود کد ساخت؛
      *  کلید خصوصی سازنده کدها فقط در فایل کلید مدیر است و هرگز داخل برنامه نیست. (برای تعویض کلید،
      *  کلید تازه را به ابتدای این فهرست اضافه کنید؛ کدهای کلید قبلی تا وقتی کلیدش این‌جا بماند معتبرند.) */
@@ -2517,6 +2521,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     /** تخفیف باندل: ۲ دوره ۱۵٪، ۳ دوره یا بیشتر ۲۵٪ */
     BUNDLE: { 1: 1, 2: 0.85, 3: 0.75 }
   };
+  window.ACADEMY_BRAND = { fa: CFG.BRAND_FA, en: CFG.BRAND_EN }; // نام نرم‌افزار در عنوان صفحه هر دوره
 
   const EPOCH = Date.UTC(2024, 0, 1);
   const TIERS = [
@@ -2915,7 +2920,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   const tierBadge = a => (a.tier ? `<span class="actb actb--${TIERS[a.tier].key}">${TIERS[a.tier].icon} ${PT(TIERS[a.tier].short, TIERS[a.tier].en)}</span>` : '');
   function vipBadge() { return summary().vip ? `<span class="acvip" title="${PT('پکیج جامع الماس', 'Diamond All-Access')}">💎 ${PT('الماس', 'Diamond')}</span>` : ''; }
   function topChips() {
-    return `<a class="chip-stat chip-home" href="${homeURL()}" aria-label="${PT('داشبورد آکادمی', 'Academy dashboard')}" title="${PT('داشبورد آکادمی', 'Academy dashboard')}">🏠</a>${summary().vip ? `<span class="chip-stat chip-vip" title="${PT('الماس', 'Diamond')}">💎</span>` : ''}`;
+    return `<a class="chip-stat chip-home" href="${homeURL()}" aria-label="${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}" title="${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}">🏠</a>${summary().vip ? `<span class="chip-stat chip-vip" title="${PT('الماس', 'Diamond')}">💎</span>` : ''}`;
   }
   function sideHTML(cid) {
     const a = access(cid);
@@ -2930,7 +2935,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <button class="acside__a" data-ac="flash">🗂️ <span>${PT('فلش‌کارت‌های مرور سریع', 'Quick-review flashcards')}</span></button>
       <button class="acside__a" data-ac="grand">🚨 <span>${PT('کیس‌های ترکیبی ICU', 'ICU grand rounds')}</span></button>
       <button class="acside__a ${!a.tier && nm ? 'acside__a--crit' : ''}" data-act="clinic">🩺 <span>${PT('کلینیک خطاها', 'Mistake clinic')}</span>${nm ? (a.tier ? `<em>${nf(nm)}</em>` : `<em class="crit">${PT(`${nf(nm)} مورد بحرانی`, `${nf(nm)} critical`)}</em>`) : ''}</button>
-      <a class="acside__a" href="${homeURL()}">🏠 <span>${PT('داشبورد آکادمی', 'Academy dashboard')}</span></a>
+      <a class="acside__a" href="${homeURL()}">🏠 <span>${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}</span></a>
       <div class="acswitch">${courses().map(c => `<a href="?course=${c.id}" class="acswitch__c ${c.id === cid ? 'is-on' : ''}" style="--cc:${c.color}" title="${c.nameFa} — ${c.subjectFa}">${c.icon}<small>${PT(c.nameFa, c.nameEn)}</small></a>`).join('')}</div>
     </div>`;
   }
@@ -3825,7 +3830,7 @@ P — Plan: …`);
     el.innerHTML = `
       <div class="dbg" aria-hidden="true"><i></i><i></i><i></i><span class="dbg__grid"></span></div>
       <header class="dbar"><div class="dwrap dbar__in">
-        <button class="dbar__logo" data-logo aria-label="${CFG.BRAND_FA}">${LOGO}<span><b>${CFG.BRAND_FA}</b><small>${list.map(c => c.nameFa).join(' • ')}</small></span></button>
+        <button class="dbar__logo" data-logo aria-label="${CFG.BRAND_FA}">${LOGO}<span><b>${CFG.BRAND_FA}</b><small>${CFG.BRAND_TAG_FA} • ${list.map(c => c.nameFa).join(' • ')}</small></span></button>
         <div class="dbar__act">
           ${sm.vip ? '<span class="acvip">💎 الماس</span>' : ''}
           <div class="dtheme" role="group" aria-label="رنگ صفحه">${[['light', '☀️', 'روشن'], ['auto', '🌗', 'خودکار'], ['dark', '🌙', 'تیره']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${t[2]}" aria-label="پوسته ${t[2]}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
@@ -4290,6 +4295,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     C.key = STORE.courseKey(id); // academy_course_<id>: کلید ثابت پیشرفت این دوره
     C.bit = D.bit;
     EA.C = C; EA.COURSE = D;
+    document.title = ((EA.lang === 'en' ? C.titleEn : C.titleFa) || D.nameFa) + ' • ' + (EA.lang === 'en' ? CFG.BRAND_EN : CFG.BRAND_FA);
     if (calc) {
       // ماشین‌حساب درون پنجره فقط می‌خواند: پیشرفت دوره را با نسخه قدیمی‌تر خودش بازنویسی نمی‌کند
       const set = Storage.prototype.setItem;
@@ -4327,7 +4333,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     MODE = 'dash';
     document.body.classList.add('mode-dash');
     applyDashTheme();
-    document.title = CFG.BRAND_FA + ' • یونا، هما، نگار';
+    document.title = CFG.BRAND_FA + ' • ' + courses().map(c => c.nameFa).join('، ');
     renderDash();
     if (!profile()) onboardModal(renderDash);
   }

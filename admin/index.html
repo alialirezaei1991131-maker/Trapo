@@ -412,10 +412,11 @@ var NACL = {};
     if (PUBKEYS.indexOf(pub) < 0) return { err: 'این کلید با کلید داخل برنامه جور نیست؛ کدهایش پذیرفته نمی‌شوند.' };
     return { sk: m[1] };
   }
-  function newData(skB64) { return { v: 1, sk: skB64, createdAt: NOW(), buyers: {}, settings: { lockMin: 15, brand: 'آکادمی بالینی تراپو', support: '' } }; }
+  function newData(skB64) { return { v: 1, sk: skB64, createdAt: NOW(), buyers: {}, settings: { lockMin: 15, brand: 'تراپو', support: '' } }; }
   async function enter(key, box, data) {
     KEY = key; BOX = box; DATA = data;
-    DATA.settings = Object.assign({ lockMin: 15, brand: 'آکادمی بالینی تراپو', support: '' }, DATA.settings || {});
+    DATA.settings = Object.assign({ lockMin: 15, brand: 'تراپو', support: '' }, DATA.settings || {});
+    if (DATA.settings.brand === 'آکادمی بالینی تراپو') DATA.settings.brand = 'تراپو'; // نام تازه نرم‌افزار
     DATA.buyers = DATA.buyers || {};
     SK = b64bytes(DATA.sk);
     try { localStorage.removeItem(LEGACY_KEY); localStorage.removeItem(FAIL_KEY); } catch (e) { /* */ } // کلید ساده قدیمی پاک می‌شود
@@ -806,7 +807,7 @@ var NACL = {};
     $('stBrand').value = S.brand; $('stSupport').value = S.support || '';
   }
   $('stLock').onclick = function (e) { var b = e.target.closest('[data-lm]'); if (b) { DATA.settings.lockMin = +b.dataset.lm; save(); renderSettings(); bump(); } };
-  $('stBrand').onchange = function () { DATA.settings.brand = $('stBrand').value.trim().slice(0, 60) || 'آکادمی بالینی تراپو'; save(); };
+  $('stBrand').onchange = function () { DATA.settings.brand = $('stBrand').value.trim().slice(0, 60) || 'تراپو'; save(); };
   $('stSupport').onchange = function () { DATA.settings.support = $('stSupport').value.trim().slice(0, 120); save(); };
   $('stExport').onclick = async function () {
     await save();
