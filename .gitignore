@@ -1,0 +1,3 @@
+node_modules/
+# کلید خصوصی مدیر هرگز در ریپو نباشد
+*admin-key*.txt

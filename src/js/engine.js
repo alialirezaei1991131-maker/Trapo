@@ -32,6 +32,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 (function () {
   const ENGINE = window.ACADEMY_ENGINE = {};
 
+  /* TweetNaCl 1.0.3 (MIT، tweetnacl.js.org) — فقط برای بررسی امضای کدهای فعال‌سازی */
+  const NACL = {};
+  !function(i){"use strict";var m=function(r,n){this.hi=0|r,this.lo=0|n},v=function(r){var n,e=new Float64Array(16);if(r)for(n=0;n<r.length;n++)e[n]=r[n];return e},a=function(){throw new Error("no PRNG")},o=new Uint8Array(16),e=new Uint8Array(32);e[0]=9;var c=v(),w=v([1]),g=v([56129,1]),y=v([30883,4953,19914,30187,55467,16705,2637,112,59544,30585,16505,36039,65139,11119,27886,20995]),l=v([61785,9906,39828,60374,45398,33411,5274,224,53552,61171,33010,6542,64743,22239,55772,9222]),t=v([54554,36645,11616,51542,42930,38181,51040,26924,56412,64982,57905,49316,21502,52590,14035,8553]),f=v([26200,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214]),s=v([41136,18958,6951,50414,58488,44335,6150,12099,55207,15867,153,11085,57099,20417,9344,11139]);function h(r,n){return r<<n|r>>>32-n}function b(r,n){var e=255&r[n+3];return(e=(e=e<<8|255&r[n+2])<<8|255&r[n+1])<<8|255&r[n+0]}function B(r,n){var e=r[n]<<24|r[n+1]<<16|r[n+2]<<8|r[n+3],t=r[n+4]<<24|r[n+5]<<16|r[n+6]<<8|r[n+7];return new m(e,t)}function p(r,n,e){var t;for(t=0;t<4;t++)r[n+t]=255&e,e>>>=8}function S(r,n,e){r[n]=e.hi>>24&255,r[n+1]=e.hi>>16&255,r[n+2]=e.hi>>8&255,r[n+3]=255&e.hi,r[n+4]=e.lo>>24&255,r[n+5]=e.lo>>16&255,r[n+6]=e.lo>>8&255,r[n+7]=255&e.lo}function u(r,n,e,t,o){var i,a=0;for(i=0;i<o;i++)a|=r[n+i]^e[t+i];return(1&a-1>>>8)-1}function A(r,n,e,t){return u(r,n,e,t,16)}function _(r,n,e,t){return u(r,n,e,t,32)}function U(r,n,e,t,o){var i,a,f,u=new Uint32Array(16),c=new Uint32Array(16),w=new Uint32Array(16),y=new Uint32Array(4);for(i=0;i<4;i++)c[5*i]=b(t,4*i),c[1+i]=b(e,4*i),c[6+i]=b(n,4*i),c[11+i]=b(e,16+4*i);for(i=0;i<16;i++)w[i]=c[i];for(i=0;i<20;i++){for(a=0;a<4;a++){for(f=0;f<4;f++)y[f]=c[(5*a+4*f)%16];for(y[1]^=h(y[0]+y[3]|0,7),y[2]^=h(y[1]+y[0]|0,9),y[3]^=h(y[2]+y[1]|0,13),y[0]^=h(y[3]+y[2]|0,18),f=0;f<4;f++)u[4*a+(a+f)%4]=y[f]}for(f=0;f<16;f++)c[f]=u[f]}if(o){for(i=0;i<16;i++)c[i]=c[i]+w[i]|0;for(i=0;i<4;i++)c[5*i]=c[5*i]-b(t,4*i)|0,c[6+i]=c[6+i]-b(n,4*i)|0;for(i=0;i<4;i++)p(r,4*i,c[5*i]),p(r,16+4*i,c[6+i])}else for(i=0;i<16;i++)p(r,4*i,c[i]+w[i]|0)}function E(r,n,e,t){U(r,n,e,t,!1)}function x(r,n,e,t){return U(r,n,e,t,!0),0}var d=new Uint8Array([101,120,112,97,110,100,32,51,50,45,98,121,116,101,32,107]);function K(r,n,e,t,o,i,a){var f,u,c=new Uint8Array(16),w=new Uint8Array(64);if(!o)return 0;for(u=0;u<16;u++)c[u]=0;for(u=0;u<8;u++)c[u]=i[u];for(;64<=o;){for(E(w,c,a,d),u=0;u<64;u++)r[n+u]=(e?e[t+u]:0)^w[u];for(f=1,u=8;u<16;u++)f=f+(255&c[u])|0,c[u]=255&f,f>>>=8;o-=64,n+=64,e&&(t+=64)}if(0<o)for(E(w,c,a,d),u=0;u<o;u++)r[n+u]=(e?e[t+u]:0)^w[u];return 0}function Y(r,n,e,t,o){return K(r,n,null,0,e,t,o)}function L(r,n,e,t,o){var i=new Uint8Array(32);return x(i,t,o,d),Y(r,n,e,t.subarray(16),i)}function T(r,n,e,t,o,i,a){var f=new Uint8Array(32);return x(f,i,a,d),K(r,n,e,t,o,i.subarray(16),f)}function k(r,n){var e,t=0;for(e=0;e<17;e++)t=t+(r[e]+n[e]|0)|0,r[e]=255&t,t>>>=8}var z=new Uint32Array([5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252]);function R(r,n,e,t,o,i){var a,f,u,c,w=new Uint32Array(17),y=new Uint32Array(17),l=new Uint32Array(17),s=new Uint32Array(17),h=new Uint32Array(17);for(u=0;u<17;u++)y[u]=l[u]=0;for(u=0;u<16;u++)y[u]=i[u];for(y[3]&=15,y[4]&=252,y[7]&=15,y[8]&=252,y[11]&=15,y[12]&=252,y[15]&=15;0<o;){for(u=0;u<17;u++)s[u]=0;for(u=0;u<16&&u<o;++u)s[u]=e[t+u];for(s[u]=1,t+=u,o-=u,k(l,s),f=0;f<17;f++)for(u=w[f]=0;u<17;u++)w[f]=w[f]+l[u]*(u<=f?y[f-u]:320*y[f+17-u]|0)|0;for(f=0;f<17;f++)l[f]=w[f];for(u=c=0;u<16;u++)c=c+l[u]|0,l[u]=255&c,c>>>=8;for(c=c+l[16]|0,l[16]=3&c,c=5*(c>>>2)|0,u=0;u<16;u++)c=c+l[u]|0,l[u]=255&c,c>>>=8;c=c+l[16]|0,l[16]=c}for(u=0;u<17;u++)h[u]=l[u];for(k(l,z),a=0|-(l[16]>>>7),u=0;u<17;u++)l[u]^=a&(h[u]^l[u]);for(u=0;u<16;u++)s[u]=i[u+16];for(s[16]=0,k(l,s),u=0;u<16;u++)r[n+u]=l[u];return 0}function P(r,n,e,t,o,i){var a=new Uint8Array(16);return R(a,0,e,t,o,i),A(r,n,a,0)}function M(r,n,e,t,o){var i;if(e<32)return-1;for(T(r,0,n,0,e,t,o),R(r,16,r,32,e-32,r),i=0;i<16;i++)r[i]=0;return 0}function N(r,n,e,t,o){var i,a=new Uint8Array(32);if(e<32)return-1;if(L(a,0,32,t,o),0!==P(n,16,n,32,e-32,a))return-1;for(T(r,0,n,0,e,t,o),i=0;i<32;i++)r[i]=0;return 0}function O(r,n){var e;for(e=0;e<16;e++)r[e]=0|n[e]}function C(r){var n,e;for(e=0;e<16;e++)r[e]+=65536,n=Math.floor(r[e]/65536),r[(e+1)*(e<15?1:0)]+=n-1+37*(n-1)*(15===e?1:0),r[e]-=65536*n}function F(r,n,e){for(var t,o=~(e-1),i=0;i<16;i++)t=o&(r[i]^n[i]),r[i]^=t,n[i]^=t}function Z(r,n){var e,t,o,i=v(),a=v();for(e=0;e<16;e++)a[e]=n[e];for(C(a),C(a),C(a),t=0;t<2;t++){for(i[0]=a[0]-65517,e=1;e<15;e++)i[e]=a[e]-65535-(i[e-1]>>16&1),i[e-1]&=65535;i[15]=a[15]-32767-(i[14]>>16&1),o=i[15]>>16&1,i[14]&=65535,F(a,i,1-o)}for(e=0;e<16;e++)r[2*e]=255&a[e],r[2*e+1]=a[e]>>8}function G(r,n){var e=new Uint8Array(32),t=new Uint8Array(32);return Z(e,r),Z(t,n),_(e,0,t,0)}function q(r){var n=new Uint8Array(32);return Z(n,r),1&n[0]}function D(r,n){var e;for(e=0;e<16;e++)r[e]=n[2*e]+(n[2*e+1]<<8);r[15]&=32767}function I(r,n,e){var t;for(t=0;t<16;t++)r[t]=n[t]+e[t]|0}function V(r,n,e){var t;for(t=0;t<16;t++)r[t]=n[t]-e[t]|0}function X(r,n,e){var t,o,i=new Float64Array(31);for(t=0;t<31;t++)i[t]=0;for(t=0;t<16;t++)for(o=0;o<16;o++)i[t+o]+=n[t]*e[o];for(t=0;t<15;t++)i[t]+=38*i[t+16];for(t=0;t<16;t++)r[t]=i[t];C(r),C(r)}function j(r,n){X(r,n,n)}function H(r,n){var e,t=v();for(e=0;e<16;e++)t[e]=n[e];for(e=253;0<=e;e--)j(t,t),2!==e&&4!==e&&X(t,t,n);for(e=0;e<16;e++)r[e]=t[e]}function J(r,n){var e,t=v();for(e=0;e<16;e++)t[e]=n[e];for(e=250;0<=e;e--)j(t,t),1!==e&&X(t,t,n);for(e=0;e<16;e++)r[e]=t[e]}function Q(r,n,e){var t,o,i=new Uint8Array(32),a=new Float64Array(80),f=v(),u=v(),c=v(),w=v(),y=v(),l=v();for(o=0;o<31;o++)i[o]=n[o];for(i[31]=127&n[31]|64,i[0]&=248,D(a,e),o=0;o<16;o++)u[o]=a[o],w[o]=f[o]=c[o]=0;for(f[0]=w[0]=1,o=254;0<=o;--o)F(f,u,t=i[o>>>3]>>>(7&o)&1),F(c,w,t),I(y,f,c),V(f,f,c),I(c,u,w),V(u,u,w),j(w,y),j(l,f),X(f,c,f),X(c,u,y),I(y,f,c),V(f,f,c),j(u,f),V(c,w,l),X(f,c,g),I(f,f,w),X(c,c,f),X(f,w,l),X(w,u,a),j(u,y),F(f,u,t),F(c,w,t);for(o=0;o<16;o++)a[o+16]=f[o],a[o+32]=c[o],a[o+48]=u[o],a[o+64]=w[o];var s=a.subarray(32),h=a.subarray(16);return H(s,s),X(h,h,s),Z(r,h),0}function W(r,n){return Q(r,n,e)}function $(r,n){return a(n,32),W(r,n)}function rr(r,n,e){var t=new Uint8Array(32);return Q(t,e,n),x(r,o,t,d)}var nr=M,er=N;function tr(){var r,n,e,t=0,o=0,i=0,a=0,f=65535;for(e=0;e<arguments.length;e++)t+=(r=arguments[e].lo)&f,o+=r>>>16,i+=(n=arguments[e].hi)&f,a+=n>>>16;return new m((i+=(o+=t>>>16)>>>16)&f|(a+=i>>>16)<<16,t&f|o<<16)}function or(r,n){return new m(r.hi>>>n,r.lo>>>n|r.hi<<32-n)}function ir(){var r,n=0,e=0;for(r=0;r<arguments.length;r++)n^=arguments[r].lo,e^=arguments[r].hi;return new m(e,n)}function ar(r,n){var e,t,o=32-n;return n<32?(e=r.hi>>>n|r.lo<<o,t=r.lo>>>n|r.hi<<o):n<64&&(e=r.lo>>>n|r.hi<<o,t=r.hi>>>n|r.lo<<o),new m(e,t)}var fr=[new m(1116352408,3609767458),new m(1899447441,602891725),new m(3049323471,3964484399),new m(3921009573,2173295548),new m(961987163,4081628472),new m(1508970993,3053834265),new m(2453635748,2937671579),new m(2870763221,3664609560),new m(3624381080,2734883394),new m(310598401,1164996542),new m(607225278,1323610764),new m(1426881987,3590304994),new m(1925078388,4068182383),new m(2162078206,991336113),new m(2614888103,633803317),new m(3248222580,3479774868),new m(3835390401,2666613458),new m(4022224774,944711139),new m(264347078,2341262773),new m(604807628,2007800933),new m(770255983,1495990901),new m(1249150122,1856431235),new m(1555081692,3175218132),new m(1996064986,2198950837),new m(2554220882,3999719339),new m(2821834349,766784016),new m(2952996808,2566594879),new m(3210313671,3203337956),new m(3336571891,1034457026),new m(3584528711,2466948901),new m(113926993,3758326383),new m(338241895,168717936),new m(666307205,1188179964),new m(773529912,1546045734),new m(1294757372,1522805485),new m(1396182291,2643833823),new m(1695183700,2343527390),new m(1986661051,1014477480),new m(2177026350,1206759142),new m(2456956037,344077627),new m(2730485921,1290863460),new m(2820302411,3158454273),new m(3259730800,3505952657),new m(3345764771,106217008),new m(3516065817,3606008344),new m(3600352804,1432725776),new m(4094571909,1467031594),new m(275423344,851169720),new m(430227734,3100823752),new m(506948616,1363258195),new m(659060556,3750685593),new m(883997877,3785050280),new m(958139571,3318307427),new m(1322822218,3812723403),new m(1537002063,2003034995),new m(1747873779,3602036899),new m(1955562222,1575990012),new m(2024104815,1125592928),new m(2227730452,2716904306),new m(2361852424,442776044),new m(2428436474,593698344),new m(2756734187,3733110249),new m(3204031479,2999351573),new m(3329325298,3815920427),new m(3391569614,3928383900),new m(3515267271,566280711),new m(3940187606,3454069534),new m(4118630271,4000239992),new m(116418474,1914138554),new m(174292421,2731055270),new m(289380356,3203993006),new m(460393269,320620315),new m(685471733,587496836),new m(852142971,1086792851),new m(1017036298,365543100),new m(1126000580,2618297676),new m(1288033470,3409855158),new m(1501505948,4234509866),new m(1607167915,987167468),new m(1816402316,1246189591)];function ur(r,n,e){var t,o,i,a=[],f=[],u=[],c=[];for(o=0;o<8;o++)a[o]=u[o]=B(r,8*o);for(var w,y,l,s,h,v,g,b,p,A,_,U,E,x,d=0;128<=e;){for(o=0;o<16;o++)c[o]=B(n,8*o+d);for(o=0;o<80;o++){for(i=0;i<8;i++)f[i]=u[i];for(t=tr(u[7],ir(ar(x=u[4],14),ar(x,18),ar(x,41)),(p=u[4],A=u[5],_=u[6],0,U=p.hi&A.hi^~p.hi&_.hi,E=p.lo&A.lo^~p.lo&_.lo,new m(U,E)),fr[o],c[o%16]),f[7]=tr(t,ir(ar(b=u[0],28),ar(b,34),ar(b,39)),(l=u[0],s=u[1],h=u[2],0,v=l.hi&s.hi^l.hi&h.hi^s.hi&h.hi,g=l.lo&s.lo^l.lo&h.lo^s.lo&h.lo,new m(v,g))),f[3]=tr(f[3],t),i=0;i<8;i++)u[(i+1)%8]=f[i];if(o%16==15)for(i=0;i<16;i++)c[i]=tr(c[i],c[(i+9)%16],ir(ar(y=c[(i+1)%16],1),ar(y,8),or(y,7)),ir(ar(w=c[(i+14)%16],19),ar(w,61),or(w,6)))}for(o=0;o<8;o++)u[o]=tr(u[o],a[o]),a[o]=u[o];d+=128,e-=128}for(o=0;o<8;o++)S(r,8*o,a[o]);return e}var cr=new Uint8Array([106,9,230,103,243,188,201,8,187,103,174,133,132,202,167,59,60,110,243,114,254,148,248,43,165,79,245,58,95,29,54,241,81,14,82,127,173,230,130,209,155,5,104,140,43,62,108,31,31,131,217,171,251,65,189,107,91,224,205,25,19,126,33,121]);function wr(r,n,e){var t,o=new Uint8Array(64),i=new Uint8Array(256),a=e;for(t=0;t<64;t++)o[t]=cr[t];for(ur(o,n,e),e%=128,t=0;t<256;t++)i[t]=0;for(t=0;t<e;t++)i[t]=n[a-e+t];for(i[e]=128,i[(e=256-128*(e<112?1:0))-9]=0,S(i,e-8,new m(a/536870912|0,a<<3)),ur(o,i,e),t=0;t<64;t++)r[t]=o[t];return 0}function yr(r,n){var e=v(),t=v(),o=v(),i=v(),a=v(),f=v(),u=v(),c=v(),w=v();V(e,r[1],r[0]),V(w,n[1],n[0]),X(e,e,w),I(t,r[0],r[1]),I(w,n[0],n[1]),X(t,t,w),X(o,r[3],n[3]),X(o,o,l),X(i,r[2],n[2]),I(i,i,i),V(a,t,e),V(f,i,o),I(u,i,o),I(c,t,e),X(r[0],a,f),X(r[1],c,u),X(r[2],u,f),X(r[3],a,c)}function lr(r,n,e){var t;for(t=0;t<4;t++)F(r[t],n[t],e)}function sr(r,n){var e=v(),t=v(),o=v();H(o,n[2]),X(e,n[0],o),X(t,n[1],o),Z(r,t),r[31]^=q(e)<<7}function hr(r,n,e){var t,o;for(O(r[0],c),O(r[1],w),O(r[2],w),O(r[3],c),o=255;0<=o;--o)lr(r,n,t=e[o/8|0]>>(7&o)&1),yr(n,r),yr(r,r),lr(r,n,t)}function vr(r,n){var e=[v(),v(),v(),v()];O(e[0],t),O(e[1],f),O(e[2],w),X(e[3],t,f),hr(r,e,n)}function gr(r,n,e){var t,o=new Uint8Array(64),i=[v(),v(),v(),v()];for(e||a(n,32),wr(o,n,32),o[0]&=248,o[31]&=127,o[31]|=64,vr(i,o),sr(r,i),t=0;t<32;t++)n[t+32]=r[t];return 0}var br=new Float64Array([237,211,245,92,26,99,18,88,214,156,247,162,222,249,222,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16]);function pr(r,n){var e,t,o,i;for(t=63;32<=t;--t){for(e=0,o=t-32,i=t-12;o<i;++o)n[o]+=e-16*n[t]*br[o-(t-32)],e=Math.floor((n[o]+128)/256),n[o]-=256*e;n[o]+=e,n[t]=0}for(o=e=0;o<32;o++)n[o]+=e-(n[31]>>4)*br[o],e=n[o]>>8,n[o]&=255;for(o=0;o<32;o++)n[o]-=e*br[o];for(t=0;t<32;t++)n[t+1]+=n[t]>>8,r[t]=255&n[t]}function Ar(r){var n,e=new Float64Array(64);for(n=0;n<64;n++)e[n]=r[n];for(n=0;n<64;n++)r[n]=0;pr(r,e)}function _r(r,n,e,t){var o,i,a=new Uint8Array(64),f=new Uint8Array(64),u=new Uint8Array(64),c=new Float64Array(64),w=[v(),v(),v(),v()];wr(a,t,32),a[0]&=248,a[31]&=127,a[31]|=64;var y=e+64;for(o=0;o<e;o++)r[64+o]=n[o];for(o=0;o<32;o++)r[32+o]=a[32+o];for(wr(u,r.subarray(32),e+32),Ar(u),vr(w,u),sr(r,w),o=32;o<64;o++)r[o]=t[o];for(wr(f,r,e+64),Ar(f),o=0;o<64;o++)c[o]=0;for(o=0;o<32;o++)c[o]=u[o];for(o=0;o<32;o++)for(i=0;i<32;i++)c[o+i]+=f[o]*a[i];return pr(r.subarray(32),c),y}function Ur(r,n,e,t){var o,i=new Uint8Array(32),a=new Uint8Array(64),f=[v(),v(),v(),v()],u=[v(),v(),v(),v()];if(e<64)return-1;if(function(r,n){var e=v(),t=v(),o=v(),i=v(),a=v(),f=v(),u=v();if(O(r[2],w),D(r[1],n),j(o,r[1]),X(i,o,y),V(o,o,r[2]),I(i,r[2],i),j(a,i),j(f,a),X(u,f,a),X(e,u,o),X(e,e,i),J(e,e),X(e,e,o),X(e,e,i),X(e,e,i),X(r[0],e,i),j(t,r[0]),X(t,t,i),G(t,o)&&X(r[0],r[0],s),j(t,r[0]),X(t,t,i),G(t,o))return 1;q(r[0])===n[31]>>7&&V(r[0],c,r[0]),X(r[3],r[0],r[1])}(u,t))return-1;for(o=0;o<e;o++)r[o]=n[o];for(o=0;o<32;o++)r[o+32]=t[o];if(wr(a,r,e),Ar(a),hr(f,u,a),vr(u,n.subarray(32)),yr(f,u),sr(i,f),e-=64,_(n,0,i,0)){for(o=0;o<e;o++)r[o]=0;return-1}for(o=0;o<e;o++)r[o]=n[o+64];return e}function Er(r,n){if(32!==r.length)throw new Error("bad key size");if(24!==n.length)throw new Error("bad nonce size")}function xr(){for(var r=0;r<arguments.length;r++)if(!(arguments[r]instanceof Uint8Array))throw new TypeError("unexpected type, use Uint8Array")}function dr(r){for(var n=0;n<r.length;n++)r[n]=0}i.lowlevel={crypto_core_hsalsa20:x,crypto_stream_xor:T,crypto_stream:L,crypto_stream_salsa20_xor:K,crypto_stream_salsa20:Y,crypto_onetimeauth:R,crypto_onetimeauth_verify:P,crypto_verify_16:A,crypto_verify_32:_,crypto_secretbox:M,crypto_secretbox_open:N,crypto_scalarmult:Q,crypto_scalarmult_base:W,crypto_box_beforenm:rr,crypto_box_afternm:nr,crypto_box:function(r,n,e,t,o,i){var a=new Uint8Array(32);return rr(a,o,i),nr(r,n,e,t,a)},crypto_box_open:function(r,n,e,t,o,i){var a=new Uint8Array(32);return rr(a,o,i),er(r,n,e,t,a)},crypto_box_keypair:$,crypto_hash:wr,crypto_sign:_r,crypto_sign_keypair:gr,crypto_sign_open:Ur,crypto_secretbox_KEYBYTES:32,crypto_secretbox_NONCEBYTES:24,crypto_secretbox_ZEROBYTES:32,crypto_secretbox_BOXZEROBYTES:16,crypto_scalarmult_BYTES:32,crypto_scalarmult_SCALARBYTES:32,crypto_box_PUBLICKEYBYTES:32,crypto_box_SECRETKEYBYTES:32,crypto_box_BEFORENMBYTES:32,crypto_box_NONCEBYTES:24,crypto_box_ZEROBYTES:32,crypto_box_BOXZEROBYTES:16,crypto_sign_BYTES:64,crypto_sign_PUBLICKEYBYTES:32,crypto_sign_SECRETKEYBYTES:64,crypto_sign_SEEDBYTES:32,crypto_hash_BYTES:64,gf:v,D:y,L:br,pack25519:Z,unpack25519:D,M:X,A:I,S:j,Z:V,pow2523:J,add:yr,set25519:O,modL:pr,scalarmult:hr,scalarbase:vr},i.randomBytes=function(r){var n=new Uint8Array(r);return a(n,r),n},i.secretbox=function(r,n,e){xr(r,n,e),Er(e,n);for(var t=new Uint8Array(32+r.length),o=new Uint8Array(t.length),i=0;i<r.length;i++)t[i+32]=r[i];return M(o,t,t.length,n,e),o.subarray(16)},i.secretbox.open=function(r,n,e){xr(r,n,e),Er(e,n);for(var t=new Uint8Array(16+r.length),o=new Uint8Array(t.length),i=0;i<r.length;i++)t[i+16]=r[i];return t.length<32||0!==N(o,t,t.length,n,e)?null:o.subarray(32)},i.secretbox.keyLength=32,i.secretbox.nonceLength=24,i.secretbox.overheadLength=16,i.scalarMult=function(r,n){if(xr(r,n),32!==r.length)throw new Error("bad n size");if(32!==n.length)throw new Error("bad p size");var e=new Uint8Array(32);return Q(e,r,n),e},i.scalarMult.base=function(r){if(xr(r),32!==r.length)throw new Error("bad n size");var n=new Uint8Array(32);return W(n,r),n},i.scalarMult.scalarLength=32,i.scalarMult.groupElementLength=32,i.box=function(r,n,e,t){var o=i.box.before(e,t);return i.secretbox(r,n,o)},i.box.before=function(r,n){xr(r,n),function(r,n){if(32!==r.length)throw new Error("bad public key size");if(32!==n.length)throw new Error("bad secret key size")}(r,n);var e=new Uint8Array(32);return rr(e,r,n),e},i.box.after=i.secretbox,i.box.open=function(r,n,e,t){var o=i.box.before(e,t);return i.secretbox.open(r,n,o)},i.box.open.after=i.secretbox.open,i.box.keyPair=function(){var r=new Uint8Array(32),n=new Uint8Array(32);return $(r,n),{publicKey:r,secretKey:n}},i.box.keyPair.fromSecretKey=function(r){if(xr(r),32!==r.length)throw new Error("bad secret key size");var n=new Uint8Array(32);return W(n,r),{publicKey:n,secretKey:new Uint8Array(r)}},i.box.publicKeyLength=32,i.box.secretKeyLength=32,i.box.sharedKeyLength=32,i.box.nonceLength=24,i.box.overheadLength=i.secretbox.overheadLength,i.sign=function(r,n){if(xr(r,n),64!==n.length)throw new Error("bad secret key size");var e=new Uint8Array(64+r.length);return _r(e,r,r.length,n),e},i.sign.open=function(r,n){if(xr(r,n),32!==n.length)throw new Error("bad public key size");var e=new Uint8Array(r.length),t=Ur(e,r,r.length,n);if(t<0)return null;for(var o=new Uint8Array(t),i=0;i<o.length;i++)o[i]=e[i];return o},i.sign.detached=function(r,n){for(var e=i.sign(r,n),t=new Uint8Array(64),o=0;o<t.length;o++)t[o]=e[o];return t},i.sign.detached.verify=function(r,n,e){if(xr(r,n,e),64!==n.length)throw new Error("bad signature size");if(32!==e.length)throw new Error("bad public key size");var t,o=new Uint8Array(64+r.length),i=new Uint8Array(64+r.length);for(t=0;t<64;t++)o[t]=n[t];for(t=0;t<r.length;t++)o[t+64]=r[t];return 0<=Ur(i,o,o.length,e)},i.sign.keyPair=function(){var r=new Uint8Array(32),n=new Uint8Array(64);return gr(r,n),{publicKey:r,secretKey:n}},i.sign.keyPair.fromSecretKey=function(r){if(xr(r),64!==r.length)throw new Error("bad secret key size");for(var n=new Uint8Array(32),e=0;e<n.length;e++)n[e]=r[32+e];return{publicKey:n,secretKey:new Uint8Array(r)}},i.sign.keyPair.fromSeed=function(r){if(xr(r),32!==r.length)throw new Error("bad seed size");for(var n=new Uint8Array(32),e=new Uint8Array(64),t=0;t<32;t++)e[t]=r[t];return gr(n,e,!0),{publicKey:n,secretKey:e}},i.sign.publicKeyLength=32,i.sign.secretKeyLength=64,i.sign.seedLength=32,i.sign.signatureLength=64,i.hash=function(r){xr(r);var n=new Uint8Array(64);return wr(n,r,r.length),n},i.hash.hashLength=64,i.verify=function(r,n){return xr(r,n),0!==r.length&&0!==n.length&&(r.length===n.length&&0===u(r,0,n,0,r.length))},i.setPRNG=function(r){a=r},function(){var o="undefined"!=typeof self?self.crypto||self.msCrypto:null;if(o&&o.getRandomValues){i.setPRNG(function(r,n){var e,t=new Uint8Array(n);for(e=0;e<n;e+=65536)o.getRandomValues(t.subarray(e,e+Math.min(n-e,65536)));for(e=0;e<n;e++)r[e]=t[e];dr(t)})}else"undefined"!=typeof require&&(o=require("crypto"))&&o.randomBytes&&i.setPRNG(function(r,n){var e,t=o.randomBytes(n);for(e=0;e<n;e++)r[e]=t[e];dr(t)})}()}(NACL);
   /* ======================================================================
      انبار داده پایدار کاربر (localStorage) — کلیدهای ثابت + مهاجرت امن
      ----------------------------------------------------------------------
@@ -2290,12 +2293,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /* ================= پیکربندی (قیمت‌ها و پشتیبانی را این‌جا ویرایش کنید) ================= */
   const CFG = {
     BRAND_FA: 'آکادمی بالینی', BRAND_EN: 'Clinical Academy',
-    /** نمک مخفی امضای کدها؛ با عوض شدنش همه کدهای قبلی باطل می‌شوند */
-    SECRET_SALT: 'ACD::Clinical-Academy::2026::5f1c9e7a-yona-homa-negar-b38d42e6',
-    /** رمز مستر توسعه‌دهنده: پکیج الماس VIP دائمی روی هر دستگاه (پیش از انتشار عمومی عوضش کنید) */
-    MASTER_CODE: 'DR-VIP-2026',
-    /** هش SHA-256 رمز ورود پنل مدیر (پیش‌فرض: ADMIN-2026) */
-    ADMIN_PIN_SHA256: 'ac1b697d502d7cdb8f5c0e1dbcb8fa62e347fdd187acc96d50f4585f5c0c9590',
+    /** کلید عمومی امضای کدهای فعال‌سازی (Ed25519). این کلید فقط «بررسی» می‌کند و با آن نمی‌شود کد ساخت؛
+     *  کلید خصوصی سازنده کدها فقط در فایل کلید مدیر است و هرگز داخل برنامه نیست. (برای تعویض کلید،
+     *  کلید تازه را به ابتدای این فهرست اضافه کنید؛ کدهای کلید قبلی تا وقتی کلیدش این‌جا بماند معتبرند.) */
+    LICENSE_KEYS: ['LNZlJrpkxzlBtHYdzIYzag82VIFejokLckHFvS05M7s='],
     WARN_DAYS: 5,            // بنر هشدار: کمتر از ۵ روز
     WARN_TRIAL_HOURS: 12,    // بنر هشدار کدهای تست ۴۸ ساعته: کمتر از ۱۲ ساعت
     CLOCK_TOLERANCE: 3600e3, // عقب کشیدن ساعت بیش از ۱ ساعت = دستکاری
@@ -2389,16 +2390,6 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     for (let i = 0; i < 8; i++) ov.setUint32(i * 4, H[i]);
     return out;
   }
-  function hmac(key, msg) {
-    let k = utf8(key); if (k.length > 64) k = sha256(k);
-    const kp = new Uint8Array(64); kp.set(k);
-    const ip = kp.map(x => x ^ 0x36), op = kp.map(x => x ^ 0x5c);
-    const m = utf8(msg);
-    const inner = new Uint8Array(64 + m.length); inner.set(ip); inner.set(m, 64);
-    const ih = sha256(inner);
-    const outer = new Uint8Array(96); outer.set(op); outer.set(ih, 64);
-    return sha256(outer);
-  }
   const hex = b => Array.from(b, x => x.toString(16).padStart(2, '0')).join('');
 
   /* ================= Base32 (کراکفورد: بدون I، L، O، U برای خوانایی) ================= */
@@ -2444,51 +2435,30 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     return id;
   }
 
-  /* ================= کد فعال‌سازی =================
-   * ۸ بایت داده که با کلید جریانی برگرفته از Device ID رمز می‌شود + ۵ بایت امضای HMAC-SHA256 با SECRET_SALT.
-   * نتیجه: ۲۱ نویسه Base32، به شکل ACD-XXXXX-XXXXX-XXXXX-XXXXXX (طول و شکل در هر دو نسخه یکی است)
-   *   نسخه ۱: [ver=1|سطح|مدت] [بیت‌مسک ۸ بیتی] [انقضا ۴ بایت] [تصادفی ۲ بایت]  ← دوره‌های ۱ تا ۸
-   *   نسخه ۲: [ver=2|سطح|مدت] [بیت‌مسک بیت ۰ تا ۷] [انقضا ۴ بایت] [بیت‌مسک بیت ۸ تا ۱۵] [تصادفی ۱ بایت] ← تا ۱۶ دوره
-   * کدهای نسخه ۱ برای همیشه معتبر می‌مانند. تا وقتی همه دوره‌های کد در ۸ بیت اول جا شوند، کد تازه هم
-   * نسخه ۱ ساخته می‌شود تا روی دستگاهی که هنوز نسخه قدیمی برنامه را دارد هم پذیرفته شود. */
-  function keystream(dev) { return sha256(CFG.SECRET_SALT + '|ks|' + normDev(dev)).slice(0, 8); }
-  function macOf(dev, plain) { return hmac(CFG.SECRET_SALT, normDev(dev) + '|' + hex(plain)).slice(0, 5); }
-  function makeCode(dev, tier, mask, durId, now) {
-    const d = DUR[durId], t = now || Date.now();
-    const expMin = d.life ? 0 : Math.ceil((t + d.ms - EPOCH) / 60000);
-    const m = tier === 3 ? ALL_MASK : mask & ALL_MASK;
-    const v2 = tier !== 3 && (m & 0xFF00) !== 0;
-    const p = new Uint8Array(8);
-    p[0] = ((v2 ? 2 : 1) << 6) | ((tier & 3) << 4) | ((durId & 7) << 1);
-    p[1] = m & 0xFF;
-    p[2] = (expMin >>> 24) & 255; p[3] = (expMin >>> 16) & 255; p[4] = (expMin >>> 8) & 255; p[5] = expMin & 255;
-    const r = new Uint8Array(2); try { crypto.getRandomValues(r); } catch (e) { r[0] = Math.random() * 256; r[1] = Math.random() * 256; }
-    p[6] = v2 ? (m >>> 8) & 255 : r[0]; p[7] = r[1];
-    const ks = keystream(dev), enc = p.map((x, i) => x ^ ks[i]);
-    const all = new Uint8Array(13); all.set(enc); all.set(macOf(dev, p), 8);
-    const s = b32enc(all);
-    return 'ACD-' + [s.slice(0, 5), s.slice(5, 10), s.slice(10, 15), s.slice(15)].join('-');
-  }
-  const isMaster = code => String(code || '').trim().toUpperCase() === CFG.MASTER_CODE;
-  /** کد را برای یک دستگاه باز می‌کند؛ اگر امضا نخواند ok:false */
+  /* ================= کد فعال‌سازی (امضای دیجیتال Ed25519) =================
+   * ۸ بایت داده [نسخه=3|سطح|مدت] [بیت‌مسک ۰ تا ۷] [انقضا ۴ بایت] [بیت‌مسک ۸ تا ۱۵] [تصادفی] + ۶۴ بایت امضا روی
+   * «داده + Device ID». برنامه فقط کلید عمومی دارد: می‌تواند کد را بررسی کند ولی نمی‌تواند کد بسازد.
+   * نتیجه: ۱۱۶ نویسه Base32 با پیشوند TRP1 (برای کپی و چسباندن). */
+  const b64bytes = s => { const bin = atob(s); const u = new Uint8Array(bin.length); for (let i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; };
+  const PUBKEYS = CFG.LICENSE_KEYS.map(b64bytes);
+  const licMsg = (dev, p) => utf8('TRAPO-LIC-1|' + normDev(dev) + '|' + hex(p));
+  /** کد را برای یک دستگاه بررسی می‌کند؛ اگر امضا نخواند ok:false */
   function parseCode(code, dev) {
-    if (isMaster(code)) return { ok: true, master: true, tier: 3, mask: ALL_MASK, durId: 5, exp: 0, life: true, issued: 0 };
-    let s = String(code || '').toUpperCase().replace(/[\s\-_]/g, '');
-    if (s.startsWith('ACD')) s = s.slice(3);
-    if (s.length !== 21) return { ok: false, err: 'format' };
-    const all = b32dec(s, 13); if (!all) return { ok: false, err: 'format' };
-    const ks = keystream(dev), p = all.slice(0, 8).map((x, i) => x ^ ks[i]);
-    const mac = macOf(dev, p);
-    for (let i = 0; i < 5; i++) if (mac[i] !== all[8 + i]) return { ok: false, err: 'sig' };
-    const ver = p[0] >> 6;
-    if (ver !== 1 && ver !== 2) return { ok: false, err: 'ver' };
+    let s = String(code || '').toUpperCase().replace(/[^0-9A-Z]/g, '');
+    if (s.length === 120 && s.startsWith('TRP1')) s = s.slice(4);
+    if (s.length !== 116) return { ok: false, err: 'format' };
+    const all = b32dec(s, 72); if (!all) return { ok: false, err: 'format' };
+    const p = all.slice(0, 8), sig = all.slice(8);
+    const msg = licMsg(dev, p);
+    if (!PUBKEYS.some(k => NACL.sign.detached.verify(msg, sig, k))) return { ok: false, err: 'sig' };
+    if ((p[0] >> 6) !== 3) return { ok: false, err: 'ver' };
     const tier = (p[0] >> 4) & 3, durId = (p[0] >> 1) & 7;
-    // الماس: همه دوره‌ها (فعلی و آینده)؛ بقیه: بیت‌مسک ۸ بیتی (نسخه ۱) یا ۱۶ بیتی (نسخه ۲)
-    const mask = tier === 3 ? ALL_MASK : ver === 2 ? p[1] | (p[6] << 8) : p[1];
+    // الماس: همه دوره‌ها (فعلی و آینده)؛ بقیه: بیت‌مسک ۱۶ بیتی
+    const mask = tier === 3 ? ALL_MASK : p[1] | (p[6] << 8);
     const expMin = ((p[2] << 24) >>> 0) + (p[3] << 16) + (p[4] << 8) + p[5];
     const d = DUR[durId] || DUR[1];
     const exp = d.life ? 0 : EPOCH + expMin * 60000;
-    return { ok: true, ver, tier, mask, durId, exp, life: !!d.life, trial: !!d.trial, issued: d.life ? 0 : exp - d.ms };
+    return { ok: true, ver: 3, tier, mask, durId, exp, life: !!d.life, trial: !!d.trial, issued: d.life ? 0 : exp - d.ms };
   }
 
   /* ================= انبار مجوزها و قفل ضد دستکاری ساعت ================= */
@@ -2559,13 +2529,13 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const code = String(raw || '').trim();
     const dev = deviceId();
     const g = parseCode(code, dev);
-    if (!g.ok) return { ok: false, msg: g.err === 'sig' ? 'این کد برای این دستگاه صادر نشده یا اشتباه تایپ شده است. برای دریافت کد درست با پشتیبانی تماس بگیر.' : 'قالب کد درست نیست. کد باید شبیه ACD-XXXXX-XXXXX-XXXXX-XXXXXX باشد.' };
+    if (!g.ok) return { ok: false, msg: g.err === 'sig' ? 'این کد برای این دستگاه صادر نشده یا ناقص کپی شده است. کد کامل را دوباره بچسبان یا با پشتیبانی تماس بگیر.' : 'قالب کد درست نیست. کد کامل را (که با TRP1 شروع می‌شود) بدون کم و زیاد بچسبان.' };
     if (!g.life && g.exp <= Date.now()) return { ok: false, msg: 'این کد منقضی شده است. برای تمدید با پشتیبانی تماس بگیرید.' };
     const o = lic();
     const norm = x => String(x).toUpperCase().replace(/[\s\-_]/g, '');
     if (o.codes.some(x => norm(x) === norm(code))) return { ok: false, msg: 'این کد قبلاً روی این دستگاه فعال شده است ✅' };
     const before = summary();
-    o.codes.push(g.master ? CFG.MASTER_CODE : code);
+    o.codes.push(code);
     if (g.tier === 3) courses().forEach(c => { o.gifts[c.id] = (o.gifts[c.id] || 0) + CFG.VIP_GEMS; });
     saveLic(o);
     clockCheck();
@@ -2729,7 +2699,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function activateModal() {
     const m = pModal(`<div class="big-i">🔑</div><h3>${PT('فعال‌سازی اشتراک', 'Activate subscription')}</h3>
       <p class="muted">${PT('کدی را که پشتیبانی برایت فرستاده وارد کن.', 'Enter the code support sent you.')}</p>
-      <input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="ACD-XXXXX-XXXXX-XXXXX-XXXXXX">
+      <input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="TRP1-… (کد کامل را این‌جا بچسبان)">
       <div class="acerr" hidden></div>
       <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>${PT('فعال‌سازی', 'Activate')}</button><button class="btn btn--ghost" data-close>${PT('انصراف', 'Cancel')}</button></div>`);
     const inp = m.el.querySelector('.acin'), err = m.el.querySelector('.acerr');
@@ -2739,109 +2709,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     inp.onkeydown = e => { if (e.key === 'Enter') go(); };
   }
 
-  /* ================= پنل مخفی رمزساز مدیر ================= */
-  let logoClicks = [];
-  function logoTap() {
-    const now = Date.now();
-    logoClicks = logoClicks.filter(t => now - t < 2500); logoClicks.push(now);
-    if (logoClicks.length >= 5) { logoClicks = []; adminGate(); }
-  }
-  function adminGate() {
-    // شاه‌کلید: اگر رمز مستر روی این دستگاه فعال شده، پنل مدیر بدون رمز جداگانه باز می‌شود
-    if (SS.get('academy.admin') === '1' || lic().codes.some(isMaster)) return keygenModal();
-    const m = pModal(`<div class="big-i">🛡️</div><h3>پنل مدیریت</h3><p class="muted">رمز مدیر یا شاه‌کلید توسعه‌دهنده را وارد کنید.</p>
-      <input class="ob__in acin" type="password" dir="ltr" autocomplete="off"><div class="acerr" hidden>رمز اشتباه است</div>
-      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>ورود</button><button class="btn btn--ghost" data-close>انصراف</button></div>`);
-    const inp = m.el.querySelector('input');
-    setTimeout(() => inp.focus(), 60);
-    const go = () => {
-      if (hex(sha256(inp.value.trim())) === CFG.ADMIN_PIN_SHA256 || isMaster(inp.value)) { SS.set('academy.admin', '1'); m.close(); keygenModal(); }
-      else { m.el.querySelector('.acerr').hidden = false; inp.value = ''; pSfx('wrong'); }
-    };
-    m.el.querySelector('[data-go]').onclick = go;
-    inp.onkeydown = e => { if (e.key === 'Enter') go(); };
-  }
-  function keygenModal() {
-    const st = { dev: '', sel: {}, tier: 1, dur: 1 };
-    const m = pModal('', { cls: 'modal--sheet modal--keygen' });
-    const card = m.el.querySelector('.modal__card');
-    function draw() {
-      card.innerHTML = `<header class="acsheet__h acsheet__h--admin"><span>🛡️</span><div><h3>رمزساز مدیر (Keygen)</h3><small>کدهای اختصاصی دستگاه، زمان‌دار و امضاشده</small></div><button class="iconbtn" data-close aria-label="بستن">✕</button></header>
-        <div class="acsheet__b">
-          <h4 class="acstep"><span>۱</span> Device ID دانشجو</h4>
-          <div class="acrow"><input class="ob__in acin" data-dev dir="ltr" placeholder="XXXX-XXXX-XXXX" value="${pesc(st.dev)}"><button class="btn btn--ghost btn--sm" data-mydev>همین دستگاه</button></div>
-          <h4 class="acstep"><span>۲</span> دوره‌ها</h4>
-          <div class="accourses">${courses().map(c => `<label class="accourse ${st.sel[c.id] || st.tier === 3 ? 'is-on' : ''}" style="--cc:${c.color}"><input type="checkbox" data-course="${c.id}" ${st.sel[c.id] || st.tier === 3 ? 'checked' : ''} ${st.tier === 3 ? 'disabled' : ''}><span class="accourse__i">${c.icon}</span><span><b>${c.nameFa}</b><small>${c.subjectFa}</small></span></label>`).join('')}</div>
-          <div class="acmask" dir="ltr">bitmask: ${(() => { let mk = 0; courses().forEach(c => { if (st.sel[c.id]) mk |= c.bit; }); if (st.tier === 3) mk = ALL_MASK; return `0x${mk.toString(16).toUpperCase().padStart(4, '0')} · ${mk.toString(2).padStart(courses().reduce((x, c) => Math.max(x, Math.log2(c.bit) + 1), 1), '0')}${st.tier === 3 ? ' (all courses, current & future)' : ''}`; })()}</div>
-          <h4 class="acstep"><span>۳</span> سطح پلن</h4>
-          <div class="seg">${TIERS.slice(1).map(t => `<button class="seg__b ${st.tier === t.id ? 'is-on' : ''}" data-tier="${t.id}">${t.icon} ${t.id === 1 ? 'آموزشی (Tier 1)' : t.id === 2 ? 'بالینی Pro + ماشین‌حساب (Tier 2)' : 'جامع الماس (Tier 3)'}</button>`).join('')}</div>
-          ${st.tier === 2 && Object.keys(st.sel).filter(k => st.sel[k]).length > 2 ? '<div class="acwarn">⚠️ در فروشگاه، Pro برای ۱ یا ۲ دوره است؛ مدیر می‌تواند استثنا بدهد.</div>' : ''}
-          <h4 class="acstep"><span>۴</span> مدت اعتبار</h4>
-          <div class="seg">${DUR.map(d => `<button class="seg__b ${st.dur === d.id ? 'is-on' : ''}" data-dur="${d.id}">${d.fa}</button>`).join('')}</div>
-          <button class="btn btn--gold btn--lg btn--block" data-gen>⚙️ تولید کد و کپی رسید دانشجو</button>
-          <div class="acout" hidden></div>
-          <details class="acdet"><summary>🔍 استعلام کد (پشتیبانی)</summary>
-            <div class="acrow"><input class="ob__in acin" data-qcode dir="ltr" placeholder="ACD-..."><input class="ob__in acin" data-qdev dir="ltr" placeholder="Device ID"><button class="btn btn--ghost btn--sm" data-query>بررسی</button></div><div class="acqout"></div></details>
-          <details class="acdet"><summary>🎓 استعلام گواهی‌نامه</summary>
-            <div class="acrow"><input class="ob__in acin" data-ccode dir="ltr" placeholder="YN-XXXX-XXXX"><button class="btn btn--ghost btn--sm" data-cquery>بررسی</button></div><div class="accout"></div></details>
-          <details class="acdet"><summary>📦 پشتیبان و انتقال داده‌های این مرورگر</summary><div class="acrow"><button class="btn btn--ghost btn--sm" data-ac="backup">دریافت کد پشتیبان</button><button class="btn btn--ghost btn--sm" data-ac="restore">بازیابی از کد</button></div></details>
-          <button class="btn btn--ghost-red btn--sm" data-logout>خروج از پنل مدیر</button>
-        </div>`;
-    }
-    card.addEventListener('input', e => { if (e.target.matches('[data-dev]')) st.dev = e.target.value; });
-    card.addEventListener('change', e => { const c = e.target.dataset.course; if (c) { st.sel[c] = e.target.checked; draw(); } });
-    card.addEventListener('click', e => {
-      const b = e.target;
-      if (b.closest('[data-mydev]')) { st.dev = deviceId(); return draw(); }
-      const t = b.closest('[data-tier]'); if (t) { st.tier = +t.dataset.tier; return draw(); }
-      const d = b.closest('[data-dur]'); if (d) { st.dur = +d.dataset.dur; return draw(); }
-      if (b.closest('[data-logout]')) { SS.set('academy.admin', ''); m.close(); return; }
-      if (b.closest('[data-query]')) {
-        const g = parseCode(card.querySelector('[data-qcode]').value, card.querySelector('[data-qdev]').value || deviceId());
-        card.querySelector('.acqout').innerHTML = g.ok ? `<div class="acok">✓ معتبر — ${TIERS[g.tier].fa} · ${maskNames(g.mask)} · ${g.life ? 'دائمی' : (g.exp > Date.now() ? 'فعال تا ' : 'منقضی در ') + fdatetime(g.exp)}${g.trial ? ' · کد تست' : ''}</div>` : '<div class="acwarn">✗ نامعتبر برای این Device ID</div>';
-        return;
-      }
-      if (b.closest('[data-cquery]')) {
-        const code = card.querySelector('[data-ccode]').value.trim().toUpperCase();
-        const all = LS.json('academy.certs', {});
-        const hit = Object.keys(all).map(k => Object.assign({ cid: k }, all[k])).find(x => x.code === code);
-        card.querySelector('.accout').innerHTML = hit ? `<div class="acok">✓ گواهی ثبت‌شده در این مرورگر: ${pesc(hit.name)} · ${pesc((AC[hit.cid] || {}).courseFa || hit.cid)} · نمره ${nf(hit.score)}٪ · ${fdate(hit.at)}</div>` : '<div class="acwarn">در حافظه این مرورگر یافت نشد. (کد رهگیری از نام، دوره، نمره و تاریخ با امضای HMAC ساخته می‌شود.)</div>';
-        return;
-      }
-      if (b.closest('[data-gen]')) {
-        const dev = normDev(st.dev);
-        if (dev.length !== 12) return pToast('Device ID باید ۱۲ نویسه باشد (XXXX-XXXX-XXXX)', 'toast--bad');
-        let mask = 0; courses().forEach(c => { if (st.sel[c.id]) mask |= c.bit; });
-        if (st.tier === 3) mask = ALL_MASK;
-        if (!mask) return pToast('دست‌کم یک دوره انتخاب کن', 'toast--bad');
-        const code = makeCode(fmtDev(dev), st.tier, mask, st.dur);
-        const g = parseCode(code, fmtDev(dev));
-        const receipt = [
-          '🎓 رسید فعال‌سازی ' + CFG.BRAND_FA,
-          '━━━━━━━━━━━━━━',
-          `📱 Device ID: ${fmtDev(dev)}`,
-          `📚 دوره‌ها: ${maskNames(mask)}`,
-          `💎 پلن: ${TIERS[st.tier].fa}`,
-          `⏳ مدت: ${DUR[st.dur].fa}`,
-          `📅 ${g.life ? 'اعتبار: دائمی ♾️' : 'معتبر تا: ' + fdatetime(g.exp)}`,
-          '',
-          '🔑 کد فعال‌سازی:',
-          code,
-          '━━━━━━━━━━━━━━',
-          'راهنما: داشبورد آکادمی ← «🔑 کد فعال‌سازی» ← کد را وارد کنید.',
-          '⚠️ این کد فقط روی همین دستگاه کار می‌کند و با کدهای قبلی شما جمع می‌شود.'
-        ].join('\n');
-        const out = card.querySelector('.acout');
-        out.hidden = false;
-        out.innerHTML = `<div class="accode" dir="ltr">${code}</div>${copyBox(receipt, 12)}<div class="acrow"><button class="btn btn--ghost btn--sm" data-cp>📋 کپی رسید</button><button class="btn btn--ghost btn--sm" data-cpc>📋 فقط کد</button>${normDev(deviceId()) === dev ? '<button class="btn btn--brand btn--sm" data-self>فعال‌سازی روی همین دستگاه</button>' : ''}</div>`;
-        out.querySelector('[data-cp]').onclick = () => copyText(receipt).then(() => pToast('📋 رسید کپی شد'));
-        out.querySelector('[data-cpc]').onclick = () => copyText(code).then(() => pToast('📋 کد کپی شد'));
-        const self = out.querySelector('[data-self]'); if (self) self.onclick = () => { const r = redeem(code); pToast(r.ok ? '✅ روی همین دستگاه فعال شد' : r.msg, r.ok ? '' : 'toast--bad'); if (r.ok) refreshAll(); };
-        copyText(receipt).then(ok => pToast(ok ? '✅ کد ساخته شد و رسید کپی شد' : 'کد ساخته شد؛ رسید را دستی کپی کن'));
-      }
-    });
-    draw();
-  }
+  /* رمزساز مدیر داخل برنامه کاربران نیست: کدها فقط با ابزار جداگانه مدیر (admin/index.html + فایل کلید) ساخته می‌شوند */
 
   /* ================= تکه‌های HTML داخل دوره: نوار کناری، چیپ‌ها، پروفایل، ابزار قفل ================= */
   const tierBadge = a => (a.tier ? `<span class="actb actb--${TIERS[a.tier].key}">${TIERS[a.tier].icon} ${PT(TIERS[a.tier].short, TIERS[a.tier].en)}</span>` : '');
@@ -3077,7 +2945,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /* ================= گواهی‌نامه: کد رهگیری و کارت استوری ================= */
   function certCode(cid, s) {
     const c = AC[cid];
-    const sig = b32enc(hmac(CFG.SECRET_SALT, ['cert', cid, s.profile.name, Math.round(s.final.score * 100), s.final.at].join('|'))).slice(0, 8);
+    const sig = b32enc(sha256(['trapo-cert', cid, s.profile.name, Math.round(s.final.score * 100), s.final.at].join('|'))).slice(0, 8);
     return c.codePrefix + '-' + sig.slice(0, 4) + '-' + sig.slice(4);
   }
   function recordCert(cid, s) {
@@ -3143,7 +3011,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       else if (/^[a-z][a-z0-9_-]*\.tools$/.test(k)) data.tools[k] = localStorage.getItem(k);
     }
     const b64 = b64enc(JSON.stringify({ v: 2, at: Date.now(), dev: deviceId(), data }));
-    return 'ACDB1.' + b64 + '.' + hex(hmac(CFG.SECRET_SALT, 'bk|' + b64)).slice(0, 16);
+    return 'ACDB2.' + b64 + '.' + hex(sha256('trapo-bk|' + b64)).slice(0, 16);
   }
   function mergeCodes(codes, seen) {
     const merged = lic();
@@ -3153,9 +3021,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   }
   function restoreString(str) {
     const s = String(str || '').replace(/\s+/g, '');
-    const m = s.match(/^ACDB1\.([A-Za-z0-9+/=]+)\.([0-9a-f]{16})$/);
-    if (!m) return { ok: false, msg: 'قالب کد پشتیبان درست نیست (باید با ACDB1. شروع شود).' };
-    if (hex(hmac(CFG.SECRET_SALT, 'bk|' + m[1])).slice(0, 16) !== m[2]) return { ok: false, msg: 'امضای امنیتی (Checksum) کد پشتیبان نمی‌خواند؛ کد ناقص کپی شده یا دستکاری شده است.' };
+    const m = s.match(/^ACDB([12])\.([A-Za-z0-9+/=]+)\.([0-9a-f]{16})$/);
+    if (!m) return { ok: false, msg: 'قالب کد پشتیبان درست نیست (باید با ACDB شروع شود).' };
+    m.splice(1, 1); // [کل، داده، چک‌سام]؛ کدهای ACDB1 قدیمی بدون بررسی چک‌سام پذیرفته می‌شوند (دسترسی فقط با کدهای امضاشده است)
+    if (/^ACDB2/.test(s) && hex(sha256('trapo-bk|' + m[1])).slice(0, 16) !== m[2]) return { ok: false, msg: 'امضای امنیتی (Checksum) کد پشتیبان نمی‌خواند؛ کد ناقص کپی شده یا دستکاری شده است.' };
     let o; try { o = JSON.parse(b64dec(m[1])); } catch (e) { return { ok: false, msg: 'کد پشتیبان خراب است.' }; }
     if (!o || (o.v !== 1 && o.v !== 2) || !o.data) return { ok: false, msg: 'نسخه کد پشتیبان پشتیبانی نمی‌شود.' };
     const K = STORE.KEYS;
@@ -3512,20 +3381,17 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     pModal(`<div class="big-i">${TIERS[g.tier].icon}</div><h3>${PT('اشتراک فعال شد! 🎉', 'Subscription activated! 🎉')}</h3>
       <div class="actable"><div><span>${PT('پلن', 'Plan')}</span><b>${PT(TIERS[g.tier].fa, TIERS[g.tier].en)}</b></div><div><span>${PT('دوره‌ها', 'Courses')}</span><b>${maskNames(g.mask)}</b></div><div><span>${PT('اعتبار', 'Valid')}</span><b>${g.life ? PT('دائمی ♾️', 'Lifetime ♾️') : PT(`تا ${fdatetime(g.exp)} (${leftText(g.exp)})`, `until ${fdatetime(g.exp)} (${leftText(g.exp)})`)}</b></div></div>
       ${g.tier === 3 ? `<div class="acok">💎 ${PT(`${nf(CFG.VIP_GEMS)} الماس هدیه در هر دوره + نشان طلایی`, `${nf(CFG.VIP_GEMS)} gift gems in each course + gold badge`)}</div>` : ''}
-      ${g.master ? `<div class="acsafe">🛡️ ${PT('شاه‌کلید توسعه‌دهنده: همه دوره‌ها و امکانات به‌صورت دائمی باز شد و پنل مدیر (۵ ضربه روی لوگو) بدون رمز جداگانه باز می‌شود.', 'Developer master key: everything is unlocked for good, and the admin panel (tap the logo 5×) opens without a separate PIN.')}</div>` : ''}
       ${r.before.owned.length ? `<p class="muted">${PT('دسترسی‌های قبلی‌ات حفظ و با این کد ترکیب شد.', 'Your previous access was kept and combined with this code.')}</p>` : ''}
       <div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${PT('عالیه!', 'Awesome!')}</button></div>`, { onClose: () => refreshAll() });
   }
   function tryRedeem(v, errEl, inp, onOk) {
     if (!v) return;
-    if (v.toUpperCase() === '#KEYGEN#') { onOk && onOk(); return adminGate(); }
     const r = redeem(v);
     if (!r.ok) {
       if (errEl) { errEl.hidden = false; errEl.textContent = r.msg; }
       if (inp) { inp.classList.add('shake'); setTimeout(() => inp.classList.remove('shake'), 400); }
       pSfx('wrong'); return;
     }
-    if (r.g.master) SS.set('academy.admin', '1');
     onOk && onOk();
     showActivated(r);
   }
@@ -3587,7 +3453,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="up__more">${list.filter(x => x.id !== c.id).map(x => `<label class="up__add ${st.sel[x.id] ? 'is-on' : ''}" style="--ac:${x.color}"><input type="checkbox" data-add="${x.id}" ${st.sel[x.id] ? 'checked' : ''}><span class="up__addm">${courseMascot(x, 'happy', 34)}</span><span><b>${x.nameFa}</b><small>${x.subjectFa}</small></span><i>${st.sel[x.id] ? '✓' : '+'}</i></label>`).join('')}</div>`}
           <div class="up__code">
             <b>🔑 کد فعال‌سازی داری؟</b>
-            <div class="acrow"><input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="ACD-XXXXX-XXXXX-XXXXX-XXXXXX"><button class="btn btn--brand" data-upact>فعال‌سازی</button></div>
+            <div class="acrow"><input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="TRP1-… (کد کامل را این‌جا بچسبان)"><button class="btn btn--brand" data-upact>فعال‌سازی</button></div>
             <div class="acerr" hidden></div>
           </div>
           <div class="acorder" hidden></div>
@@ -3623,6 +3489,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           `💰 مبلغ: ${nf(pr)} ${CFG.CURRENCY}`,
           `🔢 کد سفارش: ${id}`,
           `🕒 تاریخ: ${fdatetime(Date.now())}`,
+          `🔧 ${'TRAPO-ORDER:' + [deviceId(), st.tier, st.tier === 3 ? ALL_MASK : sel.reduce((mk, x) => mk | x.bit, 0), st.dur].join(':')}`,
           '━━━━━━━━━━━━━━',
           'لطفاً کد فعال‌سازی این دستگاه را ارسال کنید. 🙏'
         ].join('\n');
@@ -3719,7 +3586,6 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     setTimeout(() => document.body.classList.remove('printing-guide'), 600);
   }
   document.addEventListener('click', e => {
-    if (e.target.closest('[data-logo], .side .brand')) logoTap();
     const b = e.target.closest('[data-ac]');
     if (!b) return;
     const a = b.dataset.ac;
@@ -3950,7 +3816,16 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
       if (LS.raw(k + '.m') !== meta) LS.set(k + '.m', meta);
     });
   }
+  /* بازدارنده‌های ساده برای کاربران عادی (کد اصلی در نسخه کاربران درهم و ناخوانا است) */
+  function deterInspect() {
+    document.addEventListener('contextmenu', e => { if (!e.target.closest('input, textarea, [contenteditable]')) e.preventDefault(); });
+    document.addEventListener('keydown', e => {
+      const k = (e.key || '').toLowerCase(), c = e.ctrlKey || e.metaKey;
+      if (k === 'f12' || (c && e.shiftKey && (k === 'i' || k === 'j' || k === 'c')) || (c && (k === 'u' || k === 's'))) e.preventDefault();
+    }, true);
+  }
   function start() {
+    try { deterInspect(); } catch (e) { /* */ }
     // پیش از هر چیز: داده نسخه‌های قبلی به کلیدهای ثابت می‌آید و بیت دوره‌ها میخ می‌شود (بدون حذف هیچ داده‌ای)
     try { MIGRATION = STORE.migrateAndSyncState(); } catch (e) { console.error('[academy] migrate', e); }
     applyPrefs();
@@ -3979,9 +3854,9 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
 
   window.ACADEMY = {
     CFG, TIERS, DUR,
-    access, summary, deviceId, makeCode, parseCode, redeem, clockCheck,
+    access, summary, deviceId, parseCode, redeem, clockCheck,
     theme: globalTheme, setTheme: setPageTheme,
-    upsell, storeModal, upgradeModal, activateModal, keygenModal, settingsModal,
+    upsell, storeModal, upgradeModal, activateModal, settingsModal,
     sideHTML, topChips, profileHTML, lockedTools, vipBadge,
     hasProfile, autoProfile, wantIntro, restoreDialog, backupString, restoreString,
     certCode, recordCert, storyCard, needAssets,
@@ -3995,7 +3870,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
         grid.insertAdjacentHTML('beforeend', `<article class="pcard pcard--wide pcard--icu"><div class="pcard__i">🚨</div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU grand rounds')}</h3><p>${PT(`${nf(GR().length)} بیمار بدحال که الکترولیت، گاز خون و معاینه تغذیه‌محور را با هم می‌خواهند · ${nf(n)} از ${nf(GR().length)} قبول`, `${nf(GR().length)} critically ill patients combining electrolytes, blood gases and NFPE`)}</p><button class="btn ${ok ? 'btn--red' : 'btn--ghost'} btn--block" data-ac="grand">${ok ? PT('ورود به شیفت 🚑', 'Start the shift 🚑') : PT('🔒 حداقل ۲ دوره یا پکیج الماس', '🔒 2 courses or Diamond')}</button></article>`);
       }
     },
-    sha256hex: s => hex(sha256(s)), hmachex: (k, m) => hex(hmac(k, m))
+    sha256hex: s => hex(sha256(s))
   };
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start); else start();
 })();

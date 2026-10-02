@@ -1,0 +1,27 @@
+{
+  "name": "آکادمی بالینی · یونا، هما، نگار",
+  "short_name": "آکادمی بالینی",
+  "description": "آموزش بازی‌وار اصلاح الکترولیت (یونا)، تفسیر گاز خون (هما) و معاینه فیزیکی تغذیه‌محور (نگار)، با کیس‌های ترکیبی ICU؛ کاملاً آفلاین.",
+  "lang": "fa",
+  "dir": "rtl",
+  "id": "./",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "display_override": ["standalone", "minimal-ui"],
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#3b5bdb",
+  "categories": ["education", "medical"],
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ],
+  "shortcuts": [
+    { "name": "یونا · الکترولیت", "short_name": "یونا", "url": "./index.html?course=yona", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "هما · گاز خون", "short_name": "هما", "url": "./index.html?course=homa", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
+    { "name": "نگار · NFPE", "short_name": "نگار", "url": "./index.html?course=negar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+  ]
+}
