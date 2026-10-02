@@ -1793,6 +1793,91 @@ body.mode-course::before { animation: none; }
 .learn-v > .unit { content-visibility: auto; contain-intrinsic-size: auto 1900px; }
 @media print { .learn-v > .unit { content-visibility: visible; } }
 
+/* =====================================================================
+   تجربه درگیرکننده: کومبو، کد آبی، وضعیت بیمار، واکنش شخصیت، صندوقچه‌ها، کیس بعدی، پیشنهاد ارتقا
+   ===================================================================== */
+/* ---- تسلط بالینی (کومبو) ---- */
+.mastery { position: fixed; inset: 0; z-index: 60; display: grid; place-items: center; pointer-events: none; }
+.mastery__in { display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 18px 30px; border-radius: 26px; color: #fff; text-align: center;
+  background: radial-gradient(120% 140% at 50% 0%, #ffb02e, #ff6a00 55%, #e2361d); box-shadow: 0 20px 50px -12px rgba(255, 98, 0, .6), 0 0 0 6px color-mix(in srgb, #ff9d1f 30%, transparent);
+  animation: masteryIn 1.75s cubic-bezier(.2, 1.3, .3, 1) both; }
+.mastery__f { font-size: 52px; line-height: 1; animation: masteryFlame .5s ease-in-out infinite alternate; }
+.mastery__in b { font-size: 26px; font-weight: 900; letter-spacing: -.2px; }
+.mastery__in small { font-weight: 800; opacity: .92; }
+@keyframes masteryIn { 0% { opacity: 0; transform: scale(.4) rotate(-6deg); } 14% { opacity: 1; transform: scale(1.08) rotate(2deg); } 24% { transform: scale(1) rotate(0); } 78% { opacity: 1; transform: scale(1); } 100% { opacity: 0; transform: scale(.9) translateY(-30px); } }
+@keyframes masteryFlame { to { transform: scale(1.15) translateY(-3px); } }
+/* ---- واکنش شخصیت دوره در نوار پاسخ ---- */
+.fb__react { flex: none; width: 64px; height: 64px; display: grid; place-items: center; margin-inline-end: -4px; }
+.fb__react svg { width: 60px; height: auto; }
+.fb__react.is-ok { animation: reactJump .6s cubic-bezier(.3, 1.6, .5, 1) both; }
+.fb__react.is-bad { animation: reactShake .5s ease-in-out both; }
+@keyframes reactJump { 0% { transform: translateY(14px) scale(.7); opacity: 0; } 60% { transform: translateY(-8px) scale(1.06); opacity: 1; } 100% { transform: none; } }
+@keyframes reactShake { 0% { opacity: 0; } 20%, 60% { transform: translateX(-5px) rotate(-4deg); opacity: 1; } 40%, 80% { transform: translateX(5px) rotate(4deg); } 100% { transform: none; } }
+@media (max-width: 560px) { .fb__react { width: 46px; height: 46px; } .fb__react svg { width: 44px; } .fb__icon { display: none; } }
+/* ---- کد آبی ---- */
+.codeblue { position: relative; display: flex; align-items: center; gap: 10px; margin: 0 0 14px; padding: 10px 14px; border-radius: 16px; overflow: hidden; color: #fff;
+  background: linear-gradient(120deg, #1e4fd8, #2c6bff); box-shadow: 0 10px 26px -14px #1e4fd8; animation: cbPulse 1s ease-in-out infinite; }
+.codeblue__i { font-size: 26px; animation: cbSiren .5s steps(2) infinite; }
+.codeblue__x { flex: 1; display: flex; flex-direction: column; line-height: 1.5; } .codeblue__x b { font-size: 17px; font-weight: 900; } .codeblue__x small { opacity: .9; font-weight: 700; }
+.codeblue__n { font-size: 26px; font-weight: 900; min-width: 2.2em; text-align: center; font-variant-numeric: tabular-nums; }
+.codeblue__bar { position: absolute; inset-inline: 0; bottom: 0; height: 4px; background: rgba(255, 255, 255, .85); transform-origin: left; animation: cbBar var(--t) linear forwards; }
+[dir="rtl"] .codeblue__bar { transform-origin: right; }
+.codeblue.is-hot { background: linear-gradient(120deg, #d62a2a, #ff4b4b); box-shadow: 0 10px 26px -12px #d62a2a; animation-duration: .5s; }
+@keyframes cbPulse { 50% { box-shadow: 0 0 0 6px color-mix(in srgb, #2c6bff 25%, transparent), 0 10px 26px -14px #1e4fd8; } }
+@keyframes cbSiren { 50% { filter: hue-rotate(180deg) brightness(1.3); } }
+@keyframes cbBar { from { transform: scaleX(1); } to { transform: scaleX(0); } }
+.player.is-codeblue { box-shadow: inset 0 0 0 4px color-mix(in srgb, #2c6bff 45%, transparent); }
+/* ---- وضعیت حیاتی بیمار ---- */
+.vitals { --vc: #12a150; display: grid; grid-template-columns: 1fr auto auto; align-items: center; gap: 4px 12px; max-width: 720px; margin: 0 auto 12px; padding: 10px 14px;
+  border-radius: 16px; border: 1.5px solid color-mix(in srgb, var(--vc) 40%, var(--line)); background: color-mix(in srgb, var(--vc) 8%, var(--bg)); }
+.vitals--warn { --vc: #e8a317; } .vitals--crit { --vc: #e5484d; animation: cbPulse .9s ease-in-out infinite; }
+.vitals__who { display: flex; flex-direction: column; line-height: 1.5; min-width: 0; } .vitals__who b { font-weight: 900; } .vitals__who small { color: var(--muted); font-weight: 700; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.vitals__ecg { width: 96px; height: 32px; overflow: visible; } .vitals__ecg path { fill: none; stroke: var(--vc); stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
+.vitals__base { opacity: .35; } .vitals__run { stroke-width: 3 !important; stroke-dasharray: 34 140; animation: ecgRun 1.4s linear infinite; filter: drop-shadow(0 0 3px var(--vc)); }
+.vitals--warn .vitals__run { animation-duration: .9s; } .vitals--crit .vitals__run { animation-duration: .5s; }
+@keyframes ecgRun { from { stroke-dashoffset: 174; } to { stroke-dashoffset: 0; } }
+.vitals__st { font-weight: 900; color: var(--vc); padding: 3px 12px; border-radius: 99px; background: color-mix(in srgb, var(--vc) 14%, transparent); white-space: nowrap; }
+.vitals__v { display: inline-flex; flex-direction: column; font-weight: 800; font-size: 13px; } .vitals__v small { color: var(--muted); font-size: 11px; }
+.vitals__bar { grid-column: 1 / -1; height: 6px; border-radius: 99px; background: var(--bg3); overflow: hidden; }
+.vitals__bar i { display: block; width: var(--hp); height: 100%; background: var(--vc); border-radius: 99px; transition: width .6s cubic-bezier(.3, 1.4, .5, 1); }
+/* ---- پایان درس: دو صندوقچه + کیس بعدی ---- */
+.lchests { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: 520px; margin: 14px auto 6px; }
+.lchest { position: relative; display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 14px 10px 12px; border-radius: 18px; cursor: pointer; text-align: center;
+  border: 2px solid var(--line); background: var(--bg); color: var(--text); font: inherit; transition: transform .15s; animation: dfade .5s .35s both; }
+.lchest:hover { transform: translateY(-2px); }
+.lchest__i { font-size: 40px; line-height: 1.1; transition: transform .3s; }
+.lchest b { font-weight: 900; font-size: 14.5px; } .lchest small { color: var(--muted); font-weight: 700; font-size: 12.5px; line-height: 1.6; }
+.lchest--free .lchest__v { opacity: 0; transform: scale(.6); transition: .3s cubic-bezier(.3, 1.6, .5, 1); color: var(--blue-t, #1899d6); font-size: 18px; font-weight: 900; }
+.lchest--free.is-open .lchest__v { opacity: 1; transform: none; } .lchest--free.is-open .lchest__i { transform: scale(1.15) rotate(-8deg); }
+.lchest--free:not(.is-open) .lchest__i { animation: chestWiggle 1.8s ease-in-out infinite; }
+@keyframes chestWiggle { 0%, 70%, 100% { transform: none; } 78% { transform: rotate(-9deg) scale(1.05); } 86% { transform: rotate(8deg) scale(1.05); } 94% { transform: rotate(-4deg); } }
+.lchest--vip { border-color: color-mix(in srgb, #e5a500 55%, var(--line)); background: linear-gradient(160deg, color-mix(in srgb, #ffd54a 22%, var(--bg)), var(--bg) 70%); }
+.lchest--vip::after { content: ""; position: absolute; inset: 0; border-radius: inherit; background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, .45) 50%, transparent 65%); background-size: 250% 100%; animation: dshine 3.2s ease-in-out 3; pointer-events: none; }
+.lchest--vip.is-locked .lchest__i { filter: saturate(.6); }
+.lchest__lock { position: absolute; top: 8px; inset-inline-end: 10px; font-style: normal; font-size: 16px; }
+.lchest--vip.is-open .lchest__i { transform: scale(1.15); }
+.nextcase { width: 100%; max-width: 520px; margin: 8px auto 0; padding: 12px 16px; border-radius: 18px; text-align: start; border: 2px dashed color-mix(in srgb, var(--wc, var(--brand)) 50%, var(--line));
+  background: color-mix(in srgb, var(--wc, var(--brand)) 7%, var(--bg)); animation: dfade .5s .5s both; }
+.nextcase small { display: block; font-weight: 800; color: var(--wc, var(--brand)); } .nextcase b { display: block; font-size: 16.5px; font-weight: 900; margin: 2px 0; }
+.nextcase p { margin: 0; color: var(--muted); font-weight: 600; font-size: 14px; line-height: 1.9; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.nextbtn { animation: nextGlow 1.6s ease-in-out infinite; }
+@keyframes nextGlow { 50% { box-shadow: 0 0 0 6px color-mix(in srgb, var(--brand) 22%, transparent); } }
+/* ---- بنر ارتقا هنگام تمام شدن قلب‌ها ---- */
+.ohup { display: flex; flex-direction: column; align-items: center; gap: 6px; margin: 10px 0 4px; padding: 14px; border-radius: 18px; text-align: center;
+  background: linear-gradient(160deg, color-mix(in srgb, #ffd54a 26%, var(--bg)), color-mix(in srgb, #a560e8 12%, var(--bg))); border: 1.5px solid color-mix(in srgb, #e5a500 45%, var(--line)); }
+.ohup b { font-weight: 900; font-size: 15px; } .ohup span { color: var(--text); font-weight: 600; font-size: 14px; line-height: 1.9; }
+/* ---- کلینیک خطاها: نشانگر قرمز برای کاربر رایگان ---- */
+.acside__a em.crit { background: #e5484d; color: #fff; font-style: normal; font-weight: 900; font-size: 11.5px; padding: 1px 9px; border-radius: 99px; white-space: nowrap; animation: critPulse 1.6s ease-in-out infinite; }
+.acside__a--crit { border-color: color-mix(in srgb, #e5484d 45%, var(--line)) !important; }
+@keyframes critPulse { 50% { box-shadow: 0 0 0 4px color-mix(in srgb, #e5484d 25%, transparent); } }
+.dc__crit { display: inline-flex; align-items: center; gap: 6px; align-self: flex-start; margin: 2px 0 10px; padding: 5px 12px; border-radius: 99px; border: 0; cursor: pointer; font: inherit; font-weight: 800; font-size: 13px;
+  background: color-mix(in srgb, #e5484d 13%, var(--bg)); color: #d13438; animation: critPulse 1.8s ease-in-out infinite; text-decoration: none; }
+.dc__crit--ok { background: color-mix(in srgb, var(--cc) 12%, var(--bg)); color: var(--cd, var(--text)); animation: none; }
+@media (prefers-reduced-motion: reduce) { .mastery__in, .mastery__f, .codeblue, .codeblue__i, .vitals--crit, .nextbtn, .dc__crit, .acside__a em.crit, .lchest--free .lchest__i { animation: none !important; } }
+.codeblue.is-done { animation: none; background: linear-gradient(120deg, #5b6b7a, #7d8b97); box-shadow: none; }
+.codeblue.is-done .codeblue__bar { animation-play-state: paused; opacity: .4; } .codeblue.is-done .codeblue__i { animation: none; filter: grayscale(1); }
+@media (max-width: 420px) { .nextbtn .nb-x { display: none; } }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

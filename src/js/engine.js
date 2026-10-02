@@ -941,6 +941,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       function open(sess) {
         P = Object.assign({ idx: 0, done: 0, correct: 0, wrong: 0, graded: 0, combo: 0, maxCombo: 0, xp: 0, start: Date.now(), byWorld: {} }, sess);
         P.total = P.queue.length;
+        if (P.mode === 'round') P.health = 70;
         root = document.createElement('div');
         root.className = 'player';
         const w = worldOf(P.world) || null;
@@ -966,7 +967,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
       function close() {
         if (!root) return;
-        clearInterval(P && P.timer);
+        clearInterval(P && P.timer); stopCB();
         document.removeEventListener('keydown', onKey);
         root.remove(); root = null;
         if (EA.audio) EA.audio.setDuck(false);
@@ -1062,6 +1063,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             break;
         }
         body().innerHTML = `<div class="qwrap qwrap--${it.kind}">${html}</div>`;
+        engageRender(it);
         body().scrollTop = 0;
         if (it.kind === 'order') drawOrder(it);
         if (it.kind === 'num') setTimeout(() => { if (!root) return; const i = body().querySelector('input'); i && matchMedia('(pointer:fine)').matches && i.focus(); }, 50);
@@ -1192,10 +1194,123 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         return '';
       }
 
+
+      /* ======================================================================
+         تجربه درگیرکننده (Engaging UX) — در خدمت یادگیری و فروش، بدون دور زدن قفل‌ها
+         ====================================================================== */
+      const ECFG = () => (window.ACADEMY && ACADEMY.CFG) || {};
+      const REFILL = () => ECFG().HEART_REFILL_GEMS || 150;
+      const tierNow = () => (window.ACADEMY ? ACADEMY.access(C.id).tier : 3);
+      const plainTxt = h => String(h || '').replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+      /* ---- کد آبی: سؤال‌های اورژانسی تایمر ضربان‌دار دارند؛ تمام شدن وقت = پاسخ غلط ---- */
+      const CB_RE = /فوری|اولین اقدام|اقدام اول|نخستین اقدام|اورژانس|ایست قلبی|تشنج|کد آبی|شوک|\b(immediate|emergency|first action|first step|seizure|arrest|shock|urgent)\b/i;
+      function isCodeBlue(it) {
+        if (!P || P.exam || P.timed || P.mode === 'speed' || !it || it.kind === 'learn' || it.retry) return false;
+        if (it.codeBlue) return true;
+        if (!(P.mode === 'lesson' || P.mode === 'round' || P.mode === 'practice' || P.mode === 'clinic')) return false;
+        // واژه‌های اورژانسی، یا تصمیم بالینی روی پرونده واقعی بیمار (نه سؤال‌های تعریفی)
+        if (CB_RE.test((it.stage || '') + ' ' + plainTxt(it.q))) return true;
+        return P.mode === 'lesson' && !!(it.case && it.case.length) && (it.kind === 'mcq' || it.kind === 'num');
+      }
+      function stopCB() { if (P && P.cbT) { clearInterval(P.cbT); P.cbT = null; } if (root) root.classList.remove('is-codeblue'); }
+      /* ---- وضعیت حیاتی بیمار در کیس‌های زنجیره‌ای (راند بیمارستان) ---- */
+      function vitalsHTML() {
+        const r = EA.rounds && EA.rounds.find(x => x.id === P.round);
+        const h = P.health, st = h >= 65 ? ['ok', T('پایدار', 'Stable')] : h >= 35 ? ['warn', T('ناپایدار', 'Unstable')] : ['crit', T('بحرانی', 'Critical')];
+        const vit = r && r.vitals ? Object.keys(r.vitals).map(k => `<span class="vitals__v"><small>${esc(k.toUpperCase())}</small>${iso(String(r.vitals[k]))}</span>`).join('') : '';
+        return `<div class="vitals vitals--${st[0]}" style="--hp:${h}%"><div class="vitals__who"><b>💓 ${T('وضعیت حیاتی بیمار', 'Patient status')}</b><small>${r ? r.who : ''}</small></div><svg class="vitals__ecg" viewBox="0 0 120 32" aria-hidden="true"><path class="vitals__base" d="M0 18 H34 L38 18 L42 5 L47 29 L51 11 L55 18 H120"/><path class="vitals__run" d="M0 18 H34 L38 18 L42 5 L47 29 L51 11 L55 18 H120"/></svg><span class="vitals__st">${st[1]}</span>${vit}<div class="vitals__bar"><i></i></div></div>`;
+      }
+      function engageRender(it) {
+        stopCB();
+        const b = body();
+        if (P.mode === 'round') b.insertAdjacentHTML('afterbegin', vitalsHTML());
+        if (!isCodeBlue(it)) return;
+        const sec = it.codeBlue > 1 ? it.codeBlue : (it.kind === 'num' || it.kind === 'order' || it.kind === 'match') ? 75 : 40;
+        const q = b.querySelector('.qwrap');
+        q.insertAdjacentHTML('afterbegin', `<div class="codeblue" role="timer" style="--t:${sec}s"><span class="codeblue__i">🚨</span><span class="codeblue__x"><b>${T('کد آبی!', 'Code Blue!')}</b><small>${T('بیمار وقت ندارد؛ سریع و درست تصمیم بگیر', 'The patient can’t wait — decide fast and right')}</small></span><b class="codeblue__n">${fa(sec)}</b><i class="codeblue__bar"></i></div>`);
+        root.classList.add('is-codeblue');
+        const end = Date.now() + sec * 1000, n = q.querySelector('.codeblue__n'), box = q.querySelector('.codeblue');
+        P.cbT = setInterval(() => {
+          if (!P || !root) return stopCB();
+          const left = Math.max(0, Math.ceil((end - Date.now()) / 1000));
+          n.textContent = fa(left);
+          if (left <= 10) box.classList.add('is-hot');
+          if (left <= 0) {
+            stopCB();
+            if (cur() === it && !it.state) { EA.ui.toast(T('⏱ وقت کد آبی تمام شد!', '⏱ Code Blue time ran out!'), 'toast--bad'); check(true); }
+          }
+        }, 250);
+      }
+      function engageCheck(it, ok) {
+        const cb = P.cbT && body().querySelector('.codeblue');
+        stopCB();
+        if (cb) { cb.classList.add('is-done'); cb.querySelector('small').textContent = ok ? T('✓ به‌موقع و درست؛ بیمار نجات یافت', '✓ On time and right — patient saved') : T('✗ تصمیم اشتباه یا دیر', '✗ Wrong or too late'); }
+        if (P.mode === 'round' && it.kind !== 'learn') {
+          P.health = Math.max(5, Math.min(100, (P.health || 70) + (ok ? 10 : -22)));
+          const v = body().querySelector('.vitals'); if (v) v.outerHTML = vitalsHTML();
+        }
+      }
+      /* ---- پیشنهاد ارتقا هنگام تمام شدن قلب‌ها ---- */
+      const heartUpsellHTML = () => EA.S.noHearts() ? '' : `<div class="ohup"><b>♾️ ${T('خسته از تمام شدن قلب‌ها در لحظات حساس؟', 'Tired of running out of hearts at the worst moment?')}</b><span>${T('با ارتقا به پلن بالینی Pro یا VIP، قلب بی‌نهایت (♾️) و ماشین‌حساب بالینی بگیرید!', 'Upgrade to Pro or VIP for unlimited hearts (♾️) and the clinical calculators!')}</span><button class="btn btn--gold" data-ohup>👑 ${T('ارتقا به Pro / VIP', 'Upgrade to Pro / VIP')}</button></div>`;
+      function wireHeartUpsell(m, onUnlimited) {
+        const b = m.el.querySelector('[data-ohup]');
+        if (b) b.onclick = () => { sfx('tap'); EA.gate && EA.gate.upsell('hearts'); };
+        // اگر همین‌جا ارتقا داد و قلب بی‌نهایت گرفت، درس بی‌وقفه ادامه پیدا می‌کند
+        const iv = setInterval(() => {
+          if (!document.body.contains(m.el)) return clearInterval(iv);
+          if (EA.S.noHearts()) { clearInterval(iv); m.close(); onUnlimited && onUnlimited(); }
+        }, 700);
+      }
+      /* ---- پایان درس: صندوقچه درس + صندوقچه طلایی Pro/VIP + پیش‌نمایش کیس بعدی ---- */
+      function nextLessonOf(lid) {
+        const all = []; EA.worlds.forEach(w => w.lessons.forEach((l, i) => all.push({ w, l, i })));
+        const k = all.findIndex(x => x.l.id === lid);
+        return k >= 0 && k + 1 < all.length ? Object.assign({ n: k + 2 }, all[k + 1]) : null;
+      }
+      function teaserOf(l) {
+        const q = l.items.find(x => x.t !== 'learn' && x.q) || l.items.find(x => x.title) || {};
+        let t = plainTxt(q.q || q.title);
+        if (t.length > 130) t = t.slice(0, 128) + '…';
+        return t;
+      }
+      function lessonEndHTML(gems, first) {
+        const pro = tierNow() >= 2, nx = nextLessonOf(P.lesson);
+        const locked = nx && EA.gate && !EA.gate.lesson(nx.w, nx.i);
+        const vipSub = pro ? (first ? T('بزن تا باز شود ✨', 'Tap to open ✨') : T('با هر درس تازه پر می‌شود', 'Refills with every new lesson'))
+          : T('♾️ قلب بی‌نهایت • 🧮 ابزار بالینی • 💎 الماس ویژه', '♾️ unlimited hearts • 🧮 clinical tools • 💎 bonus gems');
+        return `<div class="lchests">
+            <button class="lchest lchest--free" data-lc="free"><span class="lchest__i">🎁</span><b>${T('صندوقچه درس', 'Lesson chest')}</b><small class="lchest__v">+${fa(gems)} 💎</small></button>
+            <button class="lchest lchest--vip ${pro ? '' : 'is-locked'}" data-lc="vip"><span class="lchest__i">${pro ? '👑' : '🎁'}</span>${pro ? '' : '<em class="lchest__lock">🔒</em>'}<b>${T('صندوقچه طلایی Pro/VIP', 'Golden Pro/VIP chest')}</b><small>${vipSub}</small></button>
+          </div>${nx ? `<div class="nextcase ${locked ? 'is-locked' : ''}" style="--wc:${nx.w.color}"><small>🚑 ${T('پرونده بعدی', 'Next case')} • ${T('درس', 'Lesson')} ${fa(nx.n)}</small><b>${nx.l.icon || ''} ${nx.l.title}</b><p>${teaserOf(nx.l)}</p></div>` : ''}`;
+      }
+      function lessonEndWire(queue, lid, first) {
+        const s = S(), nx = nextLessonOf(lid);
+        const fr = body().querySelector('[data-lc="free"]'), vp = body().querySelector('[data-lc="vip"]');
+        if (fr) fr.onclick = () => { if (fr.classList.contains('is-open')) return; fr.classList.add('is-open'); sfx('chest'); };
+        if (vp) vp.onclick = () => {
+          if (tierNow() < 2) { sfx('tap'); return EA.gate && EA.gate.upsell('vipchest'); }
+          if (vp.classList.contains('is-open')) return;
+          if (!first) return EA.ui.toast(T('صندوقچه طلایی با هر درس تازه پر می‌شود 👑', 'The golden chest refills with every new lesson 👑'));
+          const g = ECFG().VIP_CHEST_GEMS || 15;
+          s.gems += g; EA.S.save();
+          vp.classList.add('is-open'); vp.querySelector('small').textContent = '+' + fa(g) + ' 💎 ' + T('الماس ویژه', 'bonus gems');
+          sfx('chest'); confetti(60);
+        };
+        if (!nx) return;
+        foot().innerHTML = `<div class="foot__row"><button class="btn btn--ghost" data-cont>${T('بازگشت به مسیر', 'Back to the path')}</button><button class="btn btn--brand btn--lg nextbtn" data-next>🚀 <span class=\"nb-x\">${T('ورود به ', 'Enter ')}</span>${T(`کیس بعدی (درس ${fa(nx.n)})`, `the next case (lesson ${fa(nx.n)})`)}</button></div>`;
+        foot().querySelector('[data-cont]').onclick = () => celebrate(queue, () => { close(); EA.app.refresh('lesson'); });
+        foot().querySelector('[data-next]').onclick = () => {
+          // کاربر رایگان: قفل دور زده نمی‌شود؛ مستقیم پنجره خرید
+          if (EA.gate && !EA.gate.lesson(nx.w, nx.i)) { sfx('tap'); return EA.gate.upsell('next'); }
+          celebrate(queue, () => { close(); EA.app.refresh('lesson'); setTimeout(() => api.lesson(nx.w.id, nx.l.id), 80); });
+        };
+      }
+
       function check(skipped) {
         const it = cur();
         if (!it || it.state) return;
         const ok = grade(it, skipped);
+        engageCheck(it, ok);
         it.state = ok ? 'ok' : 'bad';
         const first = !it.retry;
         const w = it.world || P.world;
@@ -1209,7 +1324,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           st.bestCombo = Math.max(st.bestCombo, P.combo);
           P.done++;
           P.xp += it.calc ? 3 : 2;
-          if (P.combo > 0 && P.combo % 5 === 0) { P.xp += 3; showCombo(P.combo); }
+          if (P.combo >= 3 && P.combo % 3 === 0) { P.xp += 3; showCombo(P.combo); }
           if ((P.mode === 'practice' || P.mode === 'clinic') && it.key) EA.S.clearMistake(it.key);
           sfx('correct'); buzz(15);
         } else {
@@ -1238,6 +1353,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         }
         foot().className = 'player__foot fb ' + (ok ? 'fb--ok' : 'fb--bad');
         foot().innerHTML = `<div class="fb__in">
+            <div class="fb__react ${ok ? 'is-ok' : 'is-bad'}" aria-hidden="true">${mascot(ok ? 'cheer' : 'sad', 'var(--brand)', 60)}</div>
             <div class="fb__icon">${ok ? '✓' : '✗'}</div>
             <div class="fb__txt">
               <div class="fb__t">${ok ? pick(YES()) : pick(NO())}</div>
@@ -1253,10 +1369,15 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const c = root.querySelector('.pbar__combo');
         c.textContent = T(`🔥 ${fa(n)} تا پشت سر هم!`, `🔥 ${fa(n)} in a row!`);
         c.classList.remove('is-on'); void c.offsetWidth; c.classList.add('is-on');
+        const fx = document.createElement('div');
+        fx.className = 'mastery';
+        fx.innerHTML = `<div class="mastery__in"><span class="mastery__f">🔥</span><b>${T('تسلط بالینی!', 'Clinical mastery!')}</b><small>${fa(n)} ${T('پاسخ درست پشت سر هم', 'correct in a row')} • +${fa(3)} XP</small></div>`;
+        root.appendChild(fx); setTimeout(() => fx.remove(), 1800);
       }
 
       function next() {
         if (!P || P.finished) return;
+        stopCB();
         const it = cur();
         if (it && it.kind === 'learn') { P.done++; }
         if (P.mode === 'lesson' && !EA.S.noHearts() && S().hearts <= 0) return outOfHearts();
@@ -1284,12 +1405,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const m = modal(`${mascot('sad', '#FF4B4B', 90)}
           <h3>${T('قلب‌هات تموم شد!', 'You’re out of hearts!')}</h3>
           <p>${T('قلب بعدی:', 'Next heart in')} <b class="oh-t">${mmss(EA.S.nextHeartIn())}</b></p>
+          ${heartUpsellHTML()}
           <div class="modal__btns">
-            <button class="btn btn--blue btn--lg" data-refill ${s.gems < 300 ? 'disabled' : ''}>${T(`پر کردن قلب‌ها با ${fa(300)} 💎`, `Refill hearts for ${fa(300)} 💎`)}</button>
+            <button class="btn btn--blue btn--lg" data-refill ${s.gems < REFILL() ? 'disabled' : ''}>${T(`پر کردن قلب‌ها با ${fa(REFILL())} 💎`, `Refill hearts for ${fa(REFILL())} 💎`)}</button>
             <button class="btn btn--green" data-practice>${T('تمرین کن و قلب بگیر', 'Practice to earn a heart')}</button>
             <button class="btn btn--ghost" data-end>${T('پایان درس', 'End lesson')}</button>
           </div>`, { sticky: true });
-        m.el.querySelector('[data-refill]').onclick = () => { s.gems -= 300; EA.S.addHeart(5); m.close(); sfx('chest'); P.idx++; P.idx >= P.queue.length ? finish() : render(); };
+        m.el.querySelector('[data-refill]').onclick = () => { if (s.gems < REFILL()) return; s.gems -= REFILL(); EA.S.addHeart(5); m.close(); sfx('chest'); P.idx++; P.idx >= P.queue.length ? finish() : render(); };
+        wireHeartUpsell(m, () => { if (!P) return; EA.ui.toast(T('♾️ قلب بی‌نهایت فعال شد؛ ادامه بده!', '♾️ Unlimited hearts on — keep going!')); P.idx++; P.idx >= P.queue.length ? finish() : render(); });
         m.el.querySelector('[data-practice]').onclick = () => { m.close(); close(); EA.app.go('practice'); };
         m.el.querySelector('[data-end]').onclick = () => { m.close(); close(); EA.app.refresh(); };
       }
@@ -1306,12 +1429,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (P.mode === 'lesson') {
           const perfect = P.wrong === 0;
           P.xp += 10 + (perfect ? 5 : 0);
-          gems = 5 + (perfect ? 5 : 0);
+          P.firstDone = !s.done[P.lesson];
+          const cg = ECFG().CHEST_GEMS || [5, 10];
+          gems = P.firstDone ? cg[0] + Math.floor(Math.random() * (cg[1] - cg[0] + 1)) : 1;
           const stars = acc >= 0.95 ? 3 : acc >= 0.8 ? 2 : 1;
           const prev = s.done[P.lesson];
           s.done[P.lesson] = { stars: Math.max(stars, prev ? prev.stars : 0), at: Date.now() };
           s.stats.lessons++; if (perfect) s.stats.perfect++;
-          extra = `<div class="stars">${[1, 2, 3].map(i => `<span class="star ${i <= stars ? 'on' : ''}" style="--d:${i * 0.18}s">★</span>`).join('')}</div>`;
+          extra = `<div class="stars">${[1, 2, 3].map(i => `<span class="star ${i <= stars ? 'on' : ''}" style="--d:${i * 0.18}s">★</span>`).join('')}</div>` + lessonEndHTML(gems, P.firstDone);
           if (perfect) title = T('درس بی‌نقص!', 'Perfect lesson!');
         } else if (P.mode === 'checkpoint') {
           passed = acc >= EA.exam.checkpoint.pass;
@@ -1358,7 +1483,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const newChars = EA.chars.check(s);
         const badges = EA.S.checkBadges();
         EA.S.save();
-        clearInterval(P.timer);
+        clearInterval(P.timer); stopCB();
 
         const tiles = [
           ['xp', T('امتیاز', 'XP'), '⚡', fa(P.xp)],
@@ -1386,6 +1511,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         foot().querySelector('[data-cont]').onclick = () => celebrate(queue, () => { close(); if (final) EA.app.certificate(); else EA.app.refresh(mode); });
         const ag = foot().querySelector('[data-again]');
         if (ag) ag.onclick = () => { close(); EA.player.speed(); };
+        if (mode === 'lesson') lessonEndWire(queue, P.lesson, P.firstDone);
         P.finished = true;
       }
 
@@ -1424,12 +1550,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (EA.S.noHearts() || s.hearts > 0) return true;
         const m = modal(`${mascot('sad', '#FF4B4B', 90)}<h3>${T('قلبی نمانده!', 'No hearts left!')}</h3>
           <p>${T(`قلب بعدی: <b>${mmss(EA.S.nextHeartIn())}</b>. با تمرین مرور هم قلب می‌گیری.`, `Next heart in <b>${mmss(EA.S.nextHeartIn())}</b>. You can also earn one with review practice.`)}</p>
+          ${heartUpsellHTML()}
           <div class="modal__btns">
-            <button class="btn btn--blue btn--lg" data-refill ${s.gems < 300 ? 'disabled' : ''}>${T(`پر کردن با ${fa(300)} 💎`, `Refill for ${fa(300)} 💎`)}</button>
+            <button class="btn btn--blue btn--lg" data-refill ${s.gems < ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150) ? 'disabled' : ''}>${T(`پر کردن با ${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎`, `Refill for ${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎`)}</button>
             <button class="btn btn--green" data-practice>${T('تمرین کن و قلب بگیر', 'Practice to earn a heart')}</button>
             <button class="btn btn--ghost" data-close>${T('بعداً', 'Later')}</button>
           </div>`);
-        m.el.querySelector('[data-refill]').onclick = () => { s.gems -= 300; EA.S.addHeart(5); m.close(); sfx('chest'); EA.app.refresh(); };
+        m.el.querySelector('[data-refill]').onclick = () => { s.gems -= ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150); EA.S.addHeart(5); m.close(); sfx('chest'); EA.app.refresh(); };
+        wireHeartUpsell(m, () => EA.app.refresh());
         m.el.querySelector('[data-practice]').onclick = () => { m.close(); EA.app.go('practice'); };
         return false;
       }
@@ -1455,6 +1583,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         },
         /** کلینیک خطاها: فقط سؤال‌هایی که قبلاً اشتباه شده‌اند، به ترتیب تکرار فاصله‌دار */
         clinic() {
+          if (EA.gate && EA.gate.clinic && !EA.gate.clinic()) return EA.gate.upsell('clinic');
           const q = EA.S.mistakeQueue().slice(0, 15).map(keyToInst).filter(Boolean);
           if (!q.length) { EA.ui.toast(T('کلینیک خلوت است؛ هیچ خطای ثبت‌شده‌ای نداری 🎉', 'The clinic is empty — no recorded mistakes 🎉')); return; }
           open({ mode: 'clinic', queue: q });
@@ -1737,10 +1866,12 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const lvEnd = (suf === 'c' ? 1 : +suf.slice(1)) * EA.PER_LEVEL - 1;
         if (s.chests[id]) return toast(T('این صندوق را قبلاً باز کرده‌ای 📭', 'You already opened this chest 📭'));
         if (!s.done[w.lessons[lvEnd].id]) return toast(T('اول درس‌های این سطح را تمام کن 🔒', 'Finish this level’s lessons first 🔒'));
-        const g = 15 + Math.floor(Math.random() * 26);
+        const ecg = (window.ACADEMY && ACADEMY.CFG) || {}, cg = ecg.CHEST_GEMS || [5, 10];
+        const pro = !!(window.ACADEMY && ACADEMY.access(C.id).tier >= 2), bonus = pro ? (ecg.VIP_CHEST_GEMS || 15) : 0;
+        const g = cg[0] + Math.floor(Math.random() * (cg[1] - cg[0] + 1)) + bonus;
         s.chests[id] = g; s.gems += g; EA.S.save();
         sfx('chest'); confetti(90);
-        modal(`<div class="chest-open">🎁</div><h3>${T('صندوق باز شد!', 'Chest opened!')}</h3><p class="big">+${fa(g)} 💎</p><div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${T('عالیه!', 'Awesome!')}</button></div>`, { onClose: refresh });
+        modal(`<div class="chest-open">🎁</div><h3>${T('صندوق باز شد!', 'Chest opened!')}</h3><p class="big">+${fa(g)} 💎</p>${bonus ? `<p class="muted">${T(`شامل ${fa(bonus)} الماس ویژه Pro/VIP 👑`, `Includes ${fa(bonus)} Pro/VIP bonus gems 👑`)}</p>` : `<p class="muted">${T('اعضای Pro و VIP از هر صندوق الماس ویژه هم می‌گیرند 👑', 'Pro and VIP members get bonus gems from every chest 👑')}</p>`}<div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${T('عالیه!', 'Awesome!')}</button></div>`, { onClose: refresh });
       }
 
       function guide(wid) {
@@ -1911,7 +2042,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="badges">${EA.S.BADGES.map(b => `<div class="badge ${s.badges[b.id] ? 'on' : ''}" title="${b.desc}"><span>${b.icon}</span><b>${b.name}</b><small>${b.desc}</small></div>`).join('')}</div>
           <h2 class="sh">${T('فروشگاه', 'Shop')}</h2>
           <div class="shop">
-            <div class="shop__i"><span>❤️</span><div><b>${T('پر کردن قلب‌ها', 'Refill hearts')}</b><small>${T('همه قلب‌ها برمی‌گردند', 'All your hearts come back')}</small></div><button class="btn btn--blue" data-act="buy" data-item="hearts" ${s.hearts >= EA.S.MAX_HEARTS || s.gems < 300 ? 'disabled' : ''}>${fa(300)} 💎</button></div>
+            <div class="shop__i"><span>❤️</span><div><b>${T('پر کردن قلب‌ها', 'Refill hearts')}</b><small>${T('همه قلب‌ها برمی‌گردند', 'All your hearts come back')}</small></div><button class="btn btn--blue" data-act="buy" data-item="hearts" ${s.hearts >= EA.S.MAX_HEARTS || s.gems < ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150) ? 'disabled' : ''}>${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎</button></div>
             <div class="shop__i"><span>🧊</span><div><b>${T('یخ‌زدگی زنجیره', 'Streak freeze')}</b><small>${T(`یک روز غیبت، زنجیره نمی‌شکند • داری: ${fa(s.freeze)}`, `Miss a day without losing your streak • you have ${fa(s.freeze)}`)}</small></div><button class="btn btn--blue" data-act="buy" data-item="freeze" ${s.freeze >= 2 || s.gems < 200 ? 'disabled' : ''}>${fa(200)} 💎</button></div>
           </div>
           <h2 class="sh">${T('تنظیمات', 'Settings')}</h2>
@@ -1979,11 +2110,11 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           ${EA.S.noHearts() ? '' : `<p class="muted">👑 ${T('قلب بی‌نهایت در پلن Pro.', 'Unlimited hearts come with Pro.')} <a class="link" href="#" data-ac="store">${T('فروشگاه', 'Store')}</a></p>`}
           <p class="muted">${T('هر پاسخ اشتباه در درس یک قلب کم می‌کند. هر ۳۰ دقیقه یک قلب برمی‌گردد و با تمرین مرور هم قلب می‌گیری.', 'Each wrong answer in a lesson costs a heart. One heart comes back every 30 minutes, and review practice earns you one too.')}</p>
           <div class="modal__btns">
-            ${s.hearts < EA.S.MAX_HEARTS && !EA.S.noHearts() ? `<button class="btn btn--blue btn--lg" data-refill ${s.gems < 300 ? 'disabled' : ''}>${T(`پر کردن با ${fa(300)} 💎`, `Refill for ${fa(300)} 💎`)}</button><button class="btn btn--brand" data-prac>${T('تمرین و گرفتن قلب', 'Practice to earn a heart')}</button>` : ''}
+            ${s.hearts < EA.S.MAX_HEARTS && !EA.S.noHearts() ? `<button class="btn btn--blue btn--lg" data-refill ${s.gems < ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150) ? 'disabled' : ''}>${T(`پر کردن با ${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎`, `Refill for ${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎`)}</button><button class="btn btn--brand" data-prac>${T('تمرین و گرفتن قلب', 'Practice to earn a heart')}</button>` : ''}
             <button class="btn btn--ghost" data-close>${T('بستن', 'Close')}</button>
           </div>`);
         const r = m.el.querySelector('[data-refill]');
-        if (r) r.onclick = () => { s.gems -= 300; EA.S.addHeart(5); sfx('chest'); m.close(); refresh(); };
+        if (r) r.onclick = () => { s.gems -= ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150); EA.S.addHeart(5); sfx('chest'); m.close(); refresh(); };
         const p = m.el.querySelector('[data-prac]');
         if (p) p.onclick = () => { m.close(); go('practice'); };
         const t = setInterval(() => { const el = m.el.querySelector('.hm-t'); if (!document.body.contains(m.el)) return clearInterval(t); if (el) el.textContent = mmss(EA.S.nextHeartIn()); }, 1000);
@@ -2144,7 +2275,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           case 'shop': return go('profile', () => { const x = $('.shop'); x && x.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
           case 'worlds': return worldsModal();
           case 'buy':
-            if (b.dataset.item === 'hearts' && s.gems >= 300) { s.gems -= 300; EA.S.addHeart(5); }
+            if (b.dataset.item === 'hearts' && s.gems >= ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150)) { s.gems -= ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150); EA.S.addHeart(5); }
             else if (b.dataset.item === 'freeze' && s.gems >= 200) { s.gems -= 200; s.freeze++; EA.S.save(); }
             sfx('chest'); toast(T('خرید انجام شد ✅', 'Purchase complete ✅')); return refresh();
           case 'theme': s.settings.theme = b.dataset.v; if (window.ACADEMY && ACADEMY.setTheme) ACADEMY.setTheme(b.dataset.v); EA.S.save(); applyTheme(); return refresh();
@@ -2301,6 +2432,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     WARN_TRIAL_HOURS: 12,    // بنر هشدار کدهای تست ۴۸ ساعته: کمتر از ۱۲ ساعت
     CLOCK_TOLERANCE: 3600e3, // عقب کشیدن ساعت بیش از ۱ ساعت = دستکاری
     VIP_GEMS: 500,
+    /* ---- اقتصاد درون‌برنامه (محافظت از ارزش قلب بی‌نهایت Pro/VIP) ---- */
+    HEART_REFILL_GEMS: 150,  // پر کردن قلب‌ها با الماس: گران
+    CHEST_GEMS: [5, 10],     // صندوقچه درس و صندوقچه‌های مسیر: فقط کمی الماس، هرگز قلب
+    VIP_CHEST_GEMS: 15,      // صندوقچه طلایی و الماس ویژه، فقط Pro و VIP
     SUPPORT_HINT: 'این متن را برای پشتیبانی آکادمی (تلگرام / واتس‌اپ / ایمیل) بفرستید تا کد فعال‌سازی اختصاصی دستگاهتان را دریافت کنید.',
     CURRENCY: 'تومان',
     /* ---- قیمت‌گذاری (مهر ۱۴۰۵، دلار ≈ ۲۵۸ هزار تومان؛ یک کتاب مرجع پزشکی ≈ ۱٫۵ تا ۲٫۵ میلیون تومان) ----
@@ -2666,7 +2801,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     calc: ['🧮', 'تمرین محاسبات و تصویر', 'Calculation & picture practice', 1],
     guide: ['📖', 'دفترچه نکات و برگه مرجع جیبی', 'The guidebook and pocket reference', 1],
     tools: ['🩺', 'تب ابزار بالینی و ماشین‌حساب', 'Clinical tools & calculators', 2],
-    hearts: ['♾️', 'قلب بی‌نهایت', 'Unlimited hearts', 2],
+    hearts: ['♾️', 'قلب بی‌نهایت', 'Unlimited hearts', 2, 'خسته از تمام شدن قلب‌ها در لحظات حساس؟ با ارتقا به پلن بالینی Pro یا VIP، قلب بی‌نهایت (♾️) و ماشین‌حساب بالینی بگیرید!'],
+    next: ['🚑', 'کیس‌های بعدی مسیر', 'The next cases', 1, 'برای نجات بیمارِ مرحله ۲ و باز کردن کل مسیر، اشتراک خود را فعال کنید'],
+    clinic: ['🩺', 'کلینیک خطاها', 'The mistake clinic', 1, 'خطاهایت در کلینیک منتظر درمان‌اند! برای مرور هدفمند و رفع نقاط ضعفت، اشتراک خود را فعال کن'],
+    vipchest: ['👑', 'صندوقچه طلایی', 'The golden chest', 2, 'صندوقچه طلایی مخصوص Pro و VIP است: قلب بی‌نهایت (♾️)، ابزار بالینی و الماس ویژه بعد از هر درس تازه'],
     grand: ['🚨', 'شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU Grand Rounds', 9],
     fab: ['⚡', 'ماشین‌حساب سریع سر بالین', 'Bedside Quick-Calc', 2]
   };
@@ -2678,6 +2816,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     return {
       lesson: (w, i) => A().lessons || firstOK(w, i),
       final: () => A().final, tools: () => A().tools, rounds: () => A().lessons, guide: () => A().lessons, calc: () => A().lessons,
+      clinic: () => A().tier >= 1, // کلینیک خطاها فقط با اشتراک
       upsell
     };
   }
@@ -2728,7 +2867,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       </div>` : `<button class="acside__up" data-ac="store" data-course="${cid}"><span>🔓</span><b>${PT('باز کردن همه درس‌ها', 'Unlock every lesson')}</b><small>${PT('آموزشی یا Pro', 'Standard or Pro')}</small></button>`}
       <button class="acside__a acside__music ${window.EA && EA.S && EA.S.get() && EA.S.get().settings.music ? 'is-on' : ''}" data-ac="music" aria-pressed="${!!(window.EA && EA.S && EA.S.get() && EA.S.get().settings.music)}">${window.EA && EA.S && EA.S.get() && EA.S.get().settings.music ? '🎵' : '🔇'} <span>${PT('موسیقی', 'Music')}</span><span class="acside__sw" aria-hidden="true"></span></button>
       <button class="acside__a" data-ac="grand">🚨 <span>${PT('کیس‌های ترکیبی ICU', 'ICU grand rounds')}</span></button>
-      <button class="acside__a" data-act="clinic">🩺 <span>${PT('کلینیک خطاها', 'Mistake clinic')}</span>${nm ? `<em>${nf(nm)}</em>` : ''}</button>
+      <button class="acside__a ${!a.tier && nm ? 'acside__a--crit' : ''}" data-act="clinic">🩺 <span>${PT('کلینیک خطاها', 'Mistake clinic')}</span>${nm ? (a.tier ? `<em>${nf(nm)}</em>` : `<em class="crit">${PT(`${nf(nm)} مورد بحرانی`, `${nf(nm)} critical`)}</em>`) : ''}</button>
       <a class="acside__a" href="${homeURL()}">🏠 <span>${PT('داشبورد آکادمی', 'Academy dashboard')}</span></a>
       <div class="acswitch">${courses().map(c => `<a href="?course=${c.id}" class="acswitch__c ${c.id === cid ? 'is-on' : ''}" style="--cc:${c.color}" title="${c.nameFa} — ${c.subjectFa}">${c.icon}<small>${PT(c.nameFa, c.nameEn)}</small></a>`).join('')}</div>
     </div>`;
@@ -2796,7 +2935,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const total = rows.reduce((a, r) => a + r.n, 0);
     pModal(`<div class="big-i">🩺</div><h3>کلینیک خطاها</h3>
       <p class="muted">هر سؤالی که اشتباه جواب بدهی خودکار این‌جا ذخیره می‌شود. مرور با تکرار فاصله‌دار انجام می‌شود و با پاسخ درست، از فهرست خطاها حذف می‌شود.</p>
-      <div class="acclin">${rows.map(r => `<div class="acclin__r" style="--cc:${r.c.color}"><span class="acclin__i">${r.c.icon}</span><span class="acclin__t"><b>${r.c.nameFa}</b><small>${r.n ? `${nf(r.n)} خطای ثبت‌شده${r.rep ? ` • ${nf(r.rep)} مورد تکراری` : ''}` : 'بدون خطا 🎉'}</small></span>${r.n ? `<a class="btn btn--brand btn--sm" href="?course=${r.c.id}&run=clinic">شروع ویزیت</a>` : ''}</div>`).join('')}</div>
+      <div class="acclin">${rows.map(r => `<div class="acclin__r" style="--cc:${r.c.color}"><span class="acclin__i">${r.c.icon}</span><span class="acclin__t"><b>${r.c.nameFa}</b><small>${r.n ? `${nf(r.n)} خطای ثبت‌شده${r.rep ? ` • ${nf(r.rep)} مورد تکراری` : ''}` : 'بدون خطا 🎉'}</small></span>${r.n ? (access(r.c.id).tier ? `<a class="btn btn--brand btn--sm" href="?course=${r.c.id}&run=clinic">شروع ویزیت</a>` : `<button class="btn btn--gold btn--sm" data-ac="upsell" data-course="${r.c.id}" data-why="clinic">🔓 باز کردن کلینیک</button>`) : ''}</div>`).join('')}</div>
       ${total ? '' : '<p class="acok">هیچ خطایی ثبت نشده؛ عالی پیش می‌روی!</p>'}
       <div class="modal__btns"><button class="btn btn--ghost" data-close>بستن</button></div>`);
   }
@@ -3217,6 +3356,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <p class="dc__sub">${c.subjectFa}</p>
         <p class="dc__tag">${cat(c).tagline || c.descFa}</p>
         <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? `${nf(done)} از ${nf(total)} درس • ${nf(pct)}٪` : `${nf(total)} درس • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`}</span></div>
+        ${(() => { const nm = s && s.mistakes ? s.mistakes.length : 0; if (!nm) return ''; return a && a.tier ? `<a class="dc__crit dc__crit--ok" href="?course=${c.id}&run=clinic">🩺 ${nf(nm)} خطا برای مرور در کلینیک</a>` : `<button class="dc__crit" data-ac="upsell" data-course="${c.id}" data-why="clinic">🩺 کلینیک خطاها: ${nf(nm)} مورد بحرانی</button>`; })()}
         <div class="dc__cta">
           <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? 'ادامه یادگیری' : a && a.tier ? 'شروع دوره' : 'شروع رایگان'}</a>
           <button class="dc__more" data-more="${c.id}" aria-label="معرفی و جزئیات دوره ${c.nameFa}"><span class="dc__more-i" aria-hidden="true">i</span><span class="dc__more-t"><b>معرفی دوره</b><small>مسیر، اهداف و ابزارها</small></span><i class="dc__chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></i></button>
@@ -3422,7 +3562,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <button class="iconbtn up__x" data-close aria-label="بستن">✕</button>
           <div class="up__m">${courseMascot(c, 'cheer', 96)}</div>
           <div class="up__t">
-            <small>${w ? `🔒 ${w[1]} در اشتراک فعلی‌ات باز نیست` : '👑 ارتقا و فعال‌سازی دوره'}</small>
+            <small>${w ? (w[4] ? `${w[0]} ${w[4]}` : `🔒 ${w[1]} در اشتراک فعلی‌ات باز نیست`) : '👑 ارتقا و فعال‌سازی دوره'}</small>
             <h3>${c.nameFa} <span>• ${c.subjectFa}</span></h3>
             <p>${k.tagline || c.descFa}</p>
             ${a.tier ? `<span class="up__now">اشتراک فعلی: ${tierBadge(a)}${!a.life ? ` <em>${leftText(a.expiry)} مانده</em>` : ''}</span>` : ''}
