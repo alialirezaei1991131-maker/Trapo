@@ -1,7 +1,7 @@
 {
   "name": "trapo",
   "private": true,
-  "description": "Trapo clinical academy — protected build tooling",
+  "description": "Therapo (تراپو) clinical academy — protected build tooling",
   "scripts": {
     "build": "node tools/build.js"
   },

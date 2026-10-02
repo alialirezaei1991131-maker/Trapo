@@ -47,7 +47,7 @@ for (const rel of walk(SRC)) {
   if (shouldObfuscate(rel)) {
     const t0 = Date.now();
     const code = JO.obfuscate(fs.readFileSync(from, 'utf8'), OPTS).getObfuscatedCode();
-    fs.writeFileSync(to, '/* Trapo Clinical Academy — © All rights reserved. */\n' + code);
+    fs.writeFileSync(to, '/* Therapo (تراپو) Clinical Academy — © All rights reserved. */\n' + code);
     console.log('obfuscated', rel, Math.round(fs.statSync(from).size / 1024) + 'KB →', Math.round(code.length / 1024) + 'KB', (Date.now() - t0) + 'ms');
     n++;
   } else fs.copyFileSync(from, to);
