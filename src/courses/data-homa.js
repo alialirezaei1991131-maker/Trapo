@@ -21,7 +21,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const fa = (n, d) => EA.fa(n, d);
       return {
         id: 'homa', bit: 2, key: 'academy_course_homa', langs: ["fa"], startWorld: 'o2', codePrefix: 'HM',
-        nameFa: 'هما', nameEn: 'Homa', titleFa: 'هما · آموزش تفسیر گازهای خون', titleEn: 'Homa · Blood Gas Interpretation',
+        nameFa: 'هما', nameEn: 'Homa', titleFa: 'هما • آموزش تفسیر گازهای خون', titleEn: 'Homa • Blood Gas Interpretation',
 
         /* ---------- وضعیت: عنوان سطح‌ها، نقش رقبای لیگ و نشان‌ها ---------- */
         state: {
@@ -109,7 +109,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           return `<div class="lab">
             <div class="lab__h"><span class="lab__k">${kind}</span>${o.o2 ? `<span class="lab__o2">🫁 ${esc(o.o2)}</span>` : ''}</div>
             ${typeof o.pH === 'number' ? phScale(o.pH) : ''}
-            <div class="lab__g">${rows.map(r => `<div class="lab__c ${r[3] ? 'is-' + r[3] : ''}"><span class="lab__n" dir="ltr">${r[0]}</span><b dir="ltr">${r[1]}${flag(r[3])}</b><small dir="ltr">${r[2]}${r[2] ? ' · ' : ''}${r[4]}</small></div>`).join('')}</div>
+            <div class="lab__g">${rows.map(r => `<div class="lab__c ${r[3] ? 'is-' + r[3] : ''}"><span class="lab__n" dir="ltr">${r[0]}</span><b dir="ltr">${r[1]}${flag(r[3])}</b><small dir="ltr">${r[2]}${r[2] ? ' • ' : ''}${r[4]}</small></div>`).join('')}</div>
           </div>`;
         }
           return { phScale, labCard };
@@ -137,7 +137,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         },
         cert: function (s) {
           return {
-            kicker: `<small class="cert__kicker">${T('هما · آکادمی تفسیر گازهای خون', '')}</small>`,
+            kicker: `<small class="cert__kicker">${T('هما • آکادمی تفسیر گازهای خون', '')}</small>`,
             body: `<p>${T(`دوره آموزشی <b>تفسیر گازهای خون شریانی و وریدی (ABG و VBG)</b> شامل اکسیژناسیون و تبادل گاز، اصول اسید و باز، اسیدوز متابولیک و آنیون گپ، اختلالات تنفسی و آلکالوز، و نمونه‌گیری و گاز خون نوزادان را با موفقیت به پایان رساند و در امتحان نهایی نمره <b>${fa(Math.round(s.final.score * 100))}٪</b> کسب کرد.`, `has successfully completed the course <b>Diagnosis and Correction of Electrolyte Disorders</b>, covering sodium, potassium, calcium, magnesium and phosphate, with a final exam score of <b>${fa(Math.round(s.final.score * 100))}%</b>.`)}</p>`
           };
         },
@@ -170,8 +170,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <h1 class="land__h">گاز خون را<br><em>مثل یک داستان بخوان</em></h1>
         <p class="land__p">سلام، من <b>هما</b> هستم؛ گلبولی که اکسیژن را به همه‌جا می‌برد. این‌جا فرمول حفظ نمی‌کنی؛ مثل پزشک کشیک تمرین می‌کنی: درس‌های سه‌دقیقه‌ای، بازخورد فوری، ${fa(EA.rounds.length)} بیمار از کتاب «ABG در بالین»، و تفسیرگری که هر گاز خون را قدم‌به‌قدم برایت باز می‌کند.</p>
         <div class="land__cta"><button class="btn btn--brand btn--lg" data-land="start">${startLbl}</button>
-          ${back ? `<span class="land__me">${avatar()}<span><b>خوش برگشتی ${esc(s.profile.name)}!</b><small>🔥 ${fa(s.streak)} روز · ⚡ ${fa(s.xp)} امتیاز · سطح ${fa(lv.n)}: ${lv.title}</small></span></span>`
-            : `<small class="land__free">بدون ثبت‌نام · بدون اینترنت · از همین گوشی</small><button class="btn btn--ghost" data-land="import">پیشرفت قبلی را بازیابی کن</button>`}</div>
+          ${back ? `<span class="land__me">${avatar()}<span><b>خوش برگشتی ${esc(s.profile.name)}!</b><small>🔥 ${fa(s.streak)} روز • ⚡ ${fa(s.xp)} امتیاز • سطح ${fa(lv.n)}: ${lv.title}</small></span></span>`
+            : `<small class="land__free">بدون ثبت‌نام • بدون اینترنت • از همین گوشی</small><button class="btn btn--ghost" data-land="import">پیشرفت قبلی را بازیابی کن</button>`}</div>
       </section>
       <section class="land__nums">
         ${[[fa(EA.worlds.length), 'دنیای گاز خون'], [fa(EA.worlds.length * 3), 'سطح نام‌دار'], [fa(lessons), 'درس کوتاه'], [fa(qs) + '+', 'سؤال و مرحله بالینی'], [fa(EA.rounds.length), 'بیمار برای مدیریت'], [fa(EA.tools.TOOLS.length), 'ابزار و تفسیرگر']].map(x => `<div><b>${x[0]}</b><small>${x[1]}</small></div>`).join('')}
@@ -470,7 +470,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const lowP = pco2 < 35, highP = pco2 > 45, lowB = hco3 < 22, highB = hco3 > 26;
     const pTxt = highP ? 'بالا (به سمت اسیدوز)' : lowP ? 'پایین (به سمت آلکالوز)' : 'طبیعی';
     const bTxt = highB ? 'بالا (به سمت آلکالوز)' : lowB ? 'پایین (به سمت اسیدوز)' : 'طبیعی';
-    out.steps.push(`<b>PCO₂:</b> ${fa(pco2)} mmHg ← ${pTxt} · <b>HCO₃:</b> ${fa(hco3)} mEq/L ← ${bTxt}`);
+    out.steps.push(`<b>PCO₂:</b> ${fa(pco2)} mmHg ← ${pTxt} • <b>HCO₃:</b> ${fa(hco3)} mEq/L ← ${bTxt}`);
 
     /* ۳. اختلال اولیه */
     let prim = null; const add = [];
@@ -527,7 +527,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     } else if (prim === 'racid') {
       const a = F.racid(pco2, false), c = F.racid(pco2, true);
       out.comp = { acute: a, chronic: c };
-      out.steps.push(`<b>جبران کلیوی:</b> HCO₃ مورد انتظار ← حاد: ${n(24)} + ${n(0.1)} × ${fa(pco2 - 40)} = ${r1(a)} · مزمن: ${n(24)} + ${n(0.4)} × ${fa(pco2 - 40)} = ${r1(c)}`);
+      out.steps.push(`<b>جبران کلیوی:</b> HCO₃ مورد انتظار ← حاد: ${n(24)} + ${n(0.1)} × ${fa(pco2 - 40)} = ${r1(a)} • مزمن: ${n(24)} + ${n(0.4)} × ${fa(pco2 - 40)} = ${r1(c)}`);
       if (v.chronic === 'acute' && hco3 > a + 3 || hco3 > c + 2) { out.disorders.push('malk'); out.steps.push(`HCO₃ بیمار (${fa(hco3)}) از حد انتظار بالاتر است ← <b>آلکالوز متابولیک همراه</b>`); }
       else if (hco3 < a - 3) { out.disorders.push('macid'); out.steps.push(`HCO₃ بیمار (${fa(hco3)}) حتی از حالت حاد کمتر است ← <b>اسیدوز متابولیک همراه</b>`); }
       else if (hco3 <= a + 2) out.steps.push('HCO₃ در حد حاد است ← <b>اسیدوز تنفسی حاد</b> (هنوز فرصت جبران کلیوی نبوده)');
@@ -537,7 +537,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     } else if (prim === 'ralk') {
       const a = F.ralk(pco2, false), c = Math.max(12, F.ralk(pco2, true));
       out.comp = { acute: a, chronic: c };
-      out.steps.push(`<b>جبران کلیوی:</b> HCO₃ مورد انتظار ← حاد: ${n(24)} − ${n(0.2)} × ${fa(40 - pco2)} = ${r1(a)} · مزمن: ${n(24)} − ${n(0.4)} × ${fa(40 - pco2)} = ${r1(c)}`);
+      out.steps.push(`<b>جبران کلیوی:</b> HCO₃ مورد انتظار ← حاد: ${n(24)} − ${n(0.2)} × ${fa(40 - pco2)} = ${r1(a)} • مزمن: ${n(24)} − ${n(0.4)} × ${fa(40 - pco2)} = ${r1(c)}`);
       out.chronicity = hco3 >= a - 3 ? 'acute' : hco3 <= c + 2 ? 'chronic' : 'mid';
       if (hco3 > a + 3) { out.disorders.push('malk'); out.steps.push(`HCO₃ بیمار (${fa(hco3)}) بیش از حد انتظار است ← <b>آلکالوز متابولیک همراه</b>`); }
       else if (hco3 < c - 2) { out.disorders.push('macid'); out.steps.push(`HCO₃ بیمار (${fa(hco3)}) کمتر از حد انتظار است ← <b>اسیدوز متابولیک همراه</b>`); }
@@ -594,7 +594,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const TT = { t1: 'نارسایی (اختلال) تنفسی نوع ۱', t2a: 'نارسایی تنفسی نوع ۲ حاد', t2c: 'نارسایی تنفسی نوع ۲ مزمن', hv1: 'هیپرونتیلاسیون اولیه', hv2: 'هیپرونتیلاسیون ثانویه (جبران اسیدوز متابولیک)', ok: 'تبادل گاز طبیعی' };
       if (type === 't2c' && pH < 7.35) TT.t2c = 'نارسایی تنفسی نوع ۲ حاد روی مزمن';
       out.gas = { type, label: TT[type], pa, aa, pf, room, low };
-      out.steps.push(`<b>تبادل گاز:</b> PaO₂ = ${fa(v.po2, 0)} ${room ? 'در هوای اتاق' : `با FiO₂ ${fa(fio2 * 100, 0)}٪`} ← ${low ? 'پایین' : 'کافی'} · PaCO₂ ${pTxt} ← <b>${TT[type]}</b>`);
+      out.steps.push(`<b>تبادل گاز:</b> PaO₂ = ${fa(v.po2, 0)} ${room ? 'در هوای اتاق' : `با FiO₂ ${fa(fio2 * 100, 0)}٪`} ← ${low ? 'پایین' : 'کافی'} • PaCO₂ ${pTxt} ← <b>${TT[type]}</b>`);
       if (room) {
         const s = F.hypoxSev(v.po2);
         if (s) { out.gas.sev = s; out.steps.push(`شدت هیپوکسمی: <b>${s.label}</b> (معادل SaO₂ حدود ${s.sat})`); }
@@ -606,7 +606,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       } else {
         const ps = F.pfSev(pf);
         out.gas.sev = ps;
-        out.steps.push(`<b>PaO₂/FiO₂:</b> ${fa(v.po2, 0)} ÷ ${fa(fio2, 2)} = <b>${fa(pf, 0)}</b> ${ps ? `← اختلال اکسیژناسیون ${ps.label}` : '← طبیعی (بیش از ۳۰۰)'} · PaO₂ مورد انتظار با این FiO₂ حدود ${fa(F.expPao2(fio2 * 100), 0)}`);
+        out.steps.push(`<b>PaO₂/FiO₂:</b> ${fa(v.po2, 0)} ÷ ${fa(fio2, 2)} = <b>${fa(pf, 0)}</b> ${ps ? `← اختلال اکسیژناسیون ${ps.label}` : '← طبیعی (بیش از ۳۰۰)'} • PaO₂ مورد انتظار با این FiO₂ حدود ${fa(F.expPao2(fio2 * 100), 0)}`);
       }
       if (v.po2 > pa + 5) out.warn.push('PaO₂ از فشار اکسیژن حبابچه‌ای بیشتر است که ممکن نیست؛ FiO₂ یا نمونه را بررسی کن.');
       if (type === 't2a' || type === 't2c') out.notes.push('در نارسایی نوع ۲، پالس اکسیمتری جانشین ABG نیست؛ PaCO₂ را پایش کن و اکسیژن را کنترل‌شده بده (هدف SpO₂ ۸۸ تا ۹۲٪ در بیمار مستعد هیپرکاپنی).');
@@ -917,7 +917,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const g = gas(p, h);
     const opts = ['اسیدوز تنفسی حاد', 'اسیدوز تنفسی مزمن (جبران‌شده)', 'اسیدوز تنفسی + اسیدوز متابولیک', 'اسیدوز تنفسی + آلکالوز متابولیک'];
     const a = { a: 0, c: 1, am: 2, ma: 3 }[kind];
-    return { kind: 'mcq', q: 'HCO₃ مورد انتظار را حساب کن. تفسیر درست؟', lab: g, opts: [opts[a]].concat(opts.filter((_, i) => i !== a)), a: 0, why: `حاد: ${n(24)} + ${n(0.1)} × ${fa(p - 40)} = ${fa(F.racid(p, false))} · مزمن: ${n(24)} + ${n(0.4)} × ${fa(p - 40)} = ${fa(F.racid(p, true))}؛ HCO₃ بیمار ${fa(h)} ← <b>${opts[a]}</b>` };
+    return { kind: 'mcq', q: 'HCO₃ مورد انتظار را حساب کن. تفسیر درست؟', lab: g, opts: [opts[a]].concat(opts.filter((_, i) => i !== a)), a: 0, why: `حاد: ${n(24)} + ${n(0.1)} × ${fa(p - 40)} = ${fa(F.racid(p, false))} • مزمن: ${n(24)} + ${n(0.4)} × ${fa(p - 40)} = ${fa(F.racid(p, true))}؛ HCO₃ بیمار ${fa(h)} ← <b>${opts[a]}</b>` };
   };
 
   /* ===== VBG ===== */
@@ -1219,8 +1219,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       {
         id: 'ph7', title: 'تفسیر گام‌به‌گام', icon: '🪜', items: [
           L('قاعده طلایی کتاب', '<b>تبادل گاز</b> و <b>وضعیت اسید و باز</b> را جداگانه تفسیر کن.<br><br>تبادل گاز: PaO₂ ← PaCO₂ ← HCO₃<br>اسید و باز: <b>pH ← PaCO₂ ← HCO₃</b><br><br>و قبل از همه: آیا نمونه واقعاً شریانی و عددها هم‌خوان‌اند؟'),
-          L('فلوچارت pH پایین', '<ol class="algo"><li>pH < ۷٫۳۵ (اسیدمی). PaCO₂ بالاست؟</li><li><b>بله</b> ← اسیدوز تنفسی. HCO₃ بالا: جبران نسبی · طبیعی: جبران‌نشده · <b>پایین: تنفسی + متابولیک مختلط</b></li><li><b>خیر</b> ← HCO₃ پایین است؟ بله: اسیدوز متابولیک (PaCO₂ پایین: جبران نسبی · طبیعی: جبران‌نشده)</li></ol>'),
-          L('فلوچارت pH بالا و طبیعی', '<b>pH > ۷٫۴۵</b>: PaCO₂ پایین؟ ← آلکالوز تنفسی (HCO₃ پایین: نسبی · طبیعی: جبران‌نشده · بالا: مختلط). وگرنه HCO₃ بالا ← آلکالوز متابولیک (PaCO₂ بالا: نسبی).<br><br><b>pH طبیعی</b>:<br>• هر دو بالا ← اسیدوز تنفسی جبران‌شده یا آلکالوز متابولیک جبران‌شده<br>• هر دو پایین ← اسیدوز متابولیک جبران‌شده یا آلکالوز تنفسی جبران‌شده<br>• برای انتخاب: سمت ۷٫۴۰'),
+          L('فلوچارت pH پایین', '<ol class="algo"><li>pH < ۷٫۳۵ (اسیدمی). PaCO₂ بالاست؟</li><li><b>بله</b> ← اسیدوز تنفسی. HCO₃ بالا: جبران نسبی • طبیعی: جبران‌نشده • <b>پایین: تنفسی + متابولیک مختلط</b></li><li><b>خیر</b> ← HCO₃ پایین است؟ بله: اسیدوز متابولیک (PaCO₂ پایین: جبران نسبی • طبیعی: جبران‌نشده)</li></ol>'),
+          L('فلوچارت pH بالا و طبیعی', '<b>pH > ۷٫۴۵</b>: PaCO₂ پایین؟ ← آلکالوز تنفسی (HCO₃ پایین: نسبی • طبیعی: جبران‌نشده • بالا: مختلط). وگرنه HCO₃ بالا ← آلکالوز متابولیک (PaCO₂ بالا: نسبی).<br><br><b>pH طبیعی</b>:<br>• هر دو بالا ← اسیدوز تنفسی جبران‌شده یا آلکالوز متابولیک جبران‌شده<br>• هر دو پایین ← اسیدوز متابولیک جبران‌شده یا آلکالوز تنفسی جبران‌شده<br>• برای انتخاب: سمت ۷٫۴۰'),
           O('شش گام تفسیر (اسلایدها) را مرتب کن', ['تعیین وضعیت pH', 'بررسی PCO₂', 'بررسی HCO₃', 'یافتن جزء هم‌جهت با pH (اختلال اولیه)', 'یافتن جزء خلاف جهت (جبران)', 'بررسی اکسیژناسیون']),
           M('pH = ۷٫۳۰، PCO₂ = ۳۰، HCO₃ = ۱۴٫۵، PO₂ = ۹۵. تفسیر کامل؟', ['اسیدوز متابولیک با جبران نسبی تنفسی، اکسیژناسیون طبیعی', 'اسیدوز تنفسی با هیپوکسی', 'آلکالوز تنفسی', 'اسیدوز مختلط'], 'HCO₃ پایین هم‌جهت با pH (اولیه)؛ PCO₂ پایین خلاف جهت (جبران)؛ pH هنوز پایین ← نسبی.', null, { pH: 7.30, pco2: 30, po2: 95, hco3: 14.5 }),
           M('pH = ۷٫۵۹، PCO₂ = ۴۹، HCO₃ = ۴۸٫۲، PO₂ = ۵۸٫۷ (هوای اتاق). تفسیر کامل؟', ['آلکالوز متابولیک با جبران نسبی تنفسی و هیپوکسمی متوسط', 'اسیدوز تنفسی', 'آلکالوز تنفسی با هیپوکسی', 'طبیعی'], 'HCO₃ بالا pH را توضیح می‌دهد؛ PCO₂ بالا جبران است؛ PaO₂ ۴۰ تا ۵۹ = متوسط (مثال اسلایدها).', null, { pH: 7.59, pco2: 49, po2: 58.7, hco3: 48.2 }),
@@ -2296,7 +2296,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (r.ag) out.rows.push(['آنیون گپ' + (ok(v.alb) ? ' اصلاح‌شده' : ''), r1(r.ag.agc) + ' mEq/L' + (r.ag.high ? ' ▲' : '')]);
         if (r.ag && ok(r.ag.delta)) out.rows.push(['نسبت دلتا', fa(r.ag.delta, 2)]);
         if (r.comp && ok(r.comp.exp)) out.rows.push(['جبران مورد انتظار', `PCO₂ ≈ ${r1(r.comp.lo)} تا ${r1(r.comp.hi)} mmHg`]);
-        if (r.comp && ok(r.comp.acute)) out.rows.push(['HCO₃ مورد انتظار', `حاد ${r1(r.comp.acute)} · مزمن ${r1(r.comp.chronic)}`]);
+        if (r.comp && ok(r.comp.acute)) out.rows.push(['HCO₃ مورد انتظار', `حاد ${r1(r.comp.acute)} • مزمن ${r1(r.comp.chronic)}`]);
         if (r.gas && r.gas.room) out.rows.push(['گرادیان A–a', fa(r.gas.aa, 0) + ' mmHg']);
         if (r.gas && !r.gas.room) out.rows.push(['PaO₂/FiO₂', fa(r.gas.pf, 0)]);
         out.rows.push(['[H⁺] از pH', fa(r.valid.hm, 0) + ' nEq/L']);
@@ -2389,14 +2389,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         }
         const up = v.mode === 'racid';
         const a = up ? F.racid(v.pco2, false) : F.ralk(v.pco2, false), c = up ? F.racid(v.pco2, true) : Math.max(12, F.ralk(v.pco2, true));
-        out.rows.push(['HCO₃ مورد انتظار', `حاد ${r1(a)} · مزمن ${r1(c)} mEq/L`, HERO]);
+        out.rows.push(['HCO₃ مورد انتظار', `حاد ${r1(a)} • مزمن ${r1(c)} mEq/L`, HERO]);
         out.steps.push(up ? `حاد: ${n(24)} + ${n(0.1)} × (${fa(v.pco2)} − ${n(40)}) = <b>${r1(a)}</b>` : `حاد: ${n(24)} − ${n(0.2)} × (${n(40)} − ${fa(v.pco2)}) = <b>${r1(a)}</b>`,
           up ? `مزمن: ${n(24)} + ${n(0.4)} × (${fa(v.pco2)} − ${n(40)}) = <b>${r1(c)}</b>` : `مزمن: ${n(24)} − ${n(0.4)} × (${n(40)} − ${fa(v.pco2)}) = <b>${r1(c)}</b>`);
         let verdict;
         if (up) verdict = v.hco3 < a - 3 ? 'اسیدوز متابولیک همراه' : v.hco3 > c + 2 ? 'آلکالوز متابولیک همراه' : v.hco3 <= a + 3 ? 'حاد' : v.hco3 >= c - 2 ? 'مزمن (جبران‌شده)' : 'حاد روی مزمن یا در حال جبران';
         else verdict = v.hco3 > a + 3 ? 'آلکالوز متابولیک همراه' : v.hco3 < c - 2 ? 'اسیدوز متابولیک همراه' : v.hco3 >= a - 3 ? 'حاد' : v.hco3 <= c + 2 ? 'مزمن' : 'در حال جبران';
         out.rows.push(['HCO₃ بیمار', fa(v.hco3) + ' mEq/L'], ['نتیجه', verdict]);
-        if (up) out.rows.push(['pH مورد انتظار', `حاد ${fa(F.racidPh(v.pco2, false), 2)} · مزمن ${fa(F.racidPh(v.pco2, true), 2)}`]);
+        if (up) out.rows.push(['pH مورد انتظار', `حاد ${fa(F.racidPh(v.pco2, false), 2)} • مزمن ${fa(F.racidPh(v.pco2, true), 2)}`]);
         if (up && v.pco2 <= 45) out.warn.push('PCO₂ بالا نیست؛ مطمئنی اسیدوز تنفسی وجود دارد؟');
         if (!up && v.pco2 >= 35) out.warn.push('PCO₂ پایین نیست؛ مطمئنی آلکالوز تنفسی وجود دارد؟');
         out.ok.push('رمز: «۱-۴ بالا، ۲-۴ پایین» به ازای هر ۱۰ mmHg تغییر PCO₂.');

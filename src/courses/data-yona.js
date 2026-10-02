@@ -21,7 +21,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const fa = (n, d) => EA.fa(n, d);
       return {
         id: 'yona', bit: 1, key: 'academy_course_yona', langs: ["fa", "en"], startWorld: 'na', codePrefix: 'YN',
-        nameFa: 'یونا', nameEn: 'Yona', titleFa: 'یونا · آموزش اصلاح الکترولیت', titleEn: 'Yona · Learn Electrolyte Correction',
+        nameFa: 'یونا', nameEn: 'Yona', titleFa: 'یونا • آموزش اصلاح الکترولیت', titleEn: 'Yona • Learn Electrolyte Correction',
 
         /* ---------- وضعیت: عنوان سطح‌ها، نقش رقبای لیگ و نشان‌ها ---------- */
         state: {
@@ -120,7 +120,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         },
         cert: function (s) {
           return {
-            kicker: `<small class="cert__kicker">${T('یونا · آکادمی اصلاح الکترولیت', 'Yona · Electrolyte Correction Academy')}</small>`,
+            kicker: `<small class="cert__kicker">${T('یونا • آکادمی اصلاح الکترولیت', 'Yona • Electrolyte Correction Academy')}</small>`,
             body: `<p>${T(`دوره آموزشی <b>تشخیص و اصلاح اختلالات الکترولیت</b> شامل سدیم، پتاسیم، کلسیم، منیزیم و فسفر را با موفقیت به پایان رساند و در امتحان نهایی نمره <b>${fa(Math.round(s.final.score * 100))}٪</b> کسب کرد.`, `has successfully completed the course <b>Diagnosis and Correction of Electrolyte Disorders</b>, covering sodium, potassium, calcium, magnesium and phosphate, with a final exam score of <b>${fa(Math.round(s.final.score * 100))}%</b>.`)}</p>`
           };
         },
@@ -157,8 +157,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <h1 class="land__h">${T('یک بار یاد بگیر،<br><em>برای همیشه بلد باش</em>', 'Learn it once.<br><em>Know it for good.</em>')}</h1>
         <p class="land__p">${T('تو همین حالا بهترین راه را انتخاب کردی. این‌جا فرمول حفظ نمی‌کنی؛ مثل یک پزشک کشیک تمرین می‌کنی: درس‌های سه‌دقیقه‌ای، بازخورد فوری، و بیمارانی که خودت باید مدیریتشان کنی.', 'You’ve just chosen the best way to learn. Here you don’t memorize formulas — you practice like the doctor on call: three-minute lessons, instant feedback, and patients you manage yourself.')}</p>
         <div class="land__cta"><button class="btn btn--green btn--lg" data-land="start">${startLbl}</button>
-          ${back ? `<span class="land__me">${avatar()}<span><b>${T(`خوش برگشتی ${esc(s.profile.name)}!`, `Welcome back, ${esc(s.profile.name)}!`)}</b><small>${T(`🔥 ${fa(s.streak)} روز · ⚡ ${fa(s.xp)} امتیاز · سطح ${fa(lv.n)}: ${lv.title}`, `🔥 ${fa(s.streak)}-day streak · ⚡ ${fa(s.xp)} XP · Level ${fa(lv.n)}: ${lv.title}`)}</small></span></span>`
-            : `<small class="land__free">${T('بدون ثبت‌نام · بدون اینترنت · از همین گوشی', 'No sign-up · Works offline · Right on your phone')}</small><button class="btn btn--ghost" data-land="import">${T('پیشرفت قبلی را بازیابی کن', 'Restore earlier progress')}</button>`}</div>
+          ${back ? `<span class="land__me">${avatar()}<span><b>${T(`خوش برگشتی ${esc(s.profile.name)}!`, `Welcome back, ${esc(s.profile.name)}!`)}</b><small>${T(`🔥 ${fa(s.streak)} روز • ⚡ ${fa(s.xp)} امتیاز • سطح ${fa(lv.n)}: ${lv.title}`, `🔥 ${fa(s.streak)}-day streak • ⚡ ${fa(s.xp)} XP • Level ${fa(lv.n)}: ${lv.title}`)}</small></span></span>`
+            : `<small class="land__free">${T('بدون ثبت‌نام • بدون اینترنت • از همین گوشی', 'No sign-up • Works offline • Right on your phone')}</small><button class="btn btn--ghost" data-land="import">${T('پیشرفت قبلی را بازیابی کن', 'Restore earlier progress')}</button>`}</div>
       </section>
       <section class="land__nums">
         ${[[fa(EA.worlds.length), T('دنیای الکترولیت', 'Electrolyte worlds')], [fa(EA.worlds.length * 3), T('سطح نام‌دار', 'Named levels')], [fa(lessons), T('درس کوتاه', 'Bite-sized lessons')], [fa(qs) + '+', T('سؤال و مرحله بالینی', 'Questions & clinical steps')], [fa(EA.rounds.length), T('بیمار برای مدیریت', 'Patients to manage')], [fa(EA.chars.list.length), T('کاراکتر', 'Characters')]].map(n => `<div><b>${n[0]}</b><small>${n[1]}</small></div>`).join('')}

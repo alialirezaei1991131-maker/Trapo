@@ -3,92 +3,250 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- امنیت: این صفحه به هیچ جای اینترنت وصل نمی‌شود (connect-src 'none') و فقط فایل‌های خودش را بارگذاری می‌کند -->
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'self' file:; style-src 'unsafe-inline' 'self' file:; font-src data: 'self' file:; img-src data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
+<meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow">
 <title>پنل مدیر تراپو</title>
 <!--
-  پنل مدیر تراپو — فقط برای صاحب برنامه. این پوشه (admin) را هرگز به کاربران ندهید.
-  کار: ساخت کد فعال‌سازی امضاشده برای دستگاه هر مشتری، بررسی کدها.
-  کلید خصوصی داخل این فایل نیست؛ هر بار (یا یک بار با «به خاطر بسپار») فایل trapo-admin-key.txt را بارگذاری کنید.
-  فهرست دوره‌ها از ../app/courses خوانده می‌شود؛ با افزودن دوره تازه، خط script همان دوره را پایین همین فایل هم اضافه کنید.
+  پنل مدیر تراپو — فقط برای سازنده. پوشه admin را هرگز به کاربران ندهید.
+  • کلید خصوصی و فهرست خریداران فقط به‌صورت رمزشده (AES-256-GCM، کلید از رمز شما با PBKDF2-SHA256) در همین مرورگر ذخیره می‌شوند.
+  • هیچ ارتباط اینترنتی ندارد؛ پشتیبان هم یک فایل رمزشده است.
+  • فهرست دوره‌ها از فایل‌های خود برنامه (../app/courses) خوانده می‌شود؛ برای دوره تازه خط script آن را پایین همین فایل اضافه کنید.
 -->
 <link rel="stylesheet" href="../app/css/fonts.css">
 <style>
-:root { --bg: #f6f7fb; --card: #fff; --tx: #263238; --mu: #6f7a80; --ln: #e3e7ee; --pr: #3b5bdb; --ok: #2f9e44; --bad: #e03131; --gold: #e5a500; }
-@media (prefers-color-scheme: dark) { :root { --bg: #131f24; --card: #1b2a31; --tx: #f1f7fb; --mu: #9fb1ba; --ln: #37464f; } }
+:root { --bg: #f4f6fb; --bg2: #eef1f7; --card: #fff; --tx: #1f2a33; --mu: #6b7785; --ln: #e2e7ef; --pr: #4f46e5; --pr2: #eef0ff; --ok: #12a150; --okb: #e3f8ec; --warn: #b7791f; --warnb: #fff4dd; --bad: #d64545; --badb: #fde8e8; --gold: #e5a500; --sh: 0 1px 2px rgba(16,24,40,.05), 0 8px 24px -12px rgba(16,24,40,.18); }
+@media (prefers-color-scheme: dark) { :root { --bg: #0f171c; --bg2: #16222a; --card: #18252d; --tx: #eef4f8; --mu: #9aabb7; --ln: #2c3c46; --pr: #8b85ff; --pr2: #23264a; --okb: #123524; --warnb: #3a2e12; --badb: #3d1c1e; --sh: none; } }
 * { box-sizing: border-box; }
-body { margin: 0; background: var(--bg); color: var(--tx); font: 500 15px/1.8 Vazirmatn, Tahoma, system-ui, sans-serif; }
-.wrap { max-width: 860px; margin: 0 auto; padding: 20px 16px 60px; }
-h1 { font-size: 24px; margin: 6px 0 2px; } h2 { font-size: 17px; margin: 0 0 10px; display: flex; gap: 8px; align-items: center; }
-h2 span { display: inline-grid; place-items: center; width: 26px; height: 26px; border-radius: 50%; background: var(--pr); color: #fff; font-size: 14px; }
-.sub { color: var(--mu); margin: 0 0 18px; }
-.card { background: var(--card); border: 1.5px solid var(--ln); border-radius: 18px; padding: 18px; margin: 14px 0; }
-textarea, input[type=text] { width: 100%; border: 1.5px solid var(--ln); border-radius: 12px; padding: 10px 12px; font: inherit; background: var(--bg); color: var(--tx); }
-textarea { min-height: 90px; resize: vertical; }
-.ltr { direction: ltr; text-align: left; font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
-.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin-top: 10px; }
-button { font: inherit; font-weight: 800; border: 0; border-radius: 12px; padding: 9px 16px; cursor: pointer; background: var(--ln); color: var(--tx); }
-button.pr { background: var(--pr); color: #fff; } button.gold { background: var(--gold); color: #222; } button.on { background: var(--pr); color: #fff; }
-button:disabled { opacity: .5; cursor: default; }
-.chips { display: flex; flex-wrap: wrap; gap: 8px; }
-.chip { display: flex; align-items: center; gap: 8px; border: 1.5px solid var(--ln); border-radius: 14px; padding: 8px 12px; cursor: pointer; }
-.chip.on { border-color: var(--cc, var(--pr)); background: color-mix(in srgb, var(--cc, var(--pr)) 12%, transparent); }
-.chip input { accent-color: var(--cc, var(--pr)); }
-.msg { margin-top: 10px; padding: 10px 12px; border-radius: 12px; font-weight: 700; }
-.ok { background: color-mix(in srgb, var(--ok) 14%, transparent); color: var(--ok); }
-.bad { background: color-mix(in srgb, var(--bad) 14%, transparent); color: var(--bad); }
-.warn { background: color-mix(in srgb, var(--gold) 18%, transparent); }
-.code { word-break: break-all; background: var(--bg); border: 1.5px dashed var(--pr); border-radius: 12px; padding: 12px; margin-top: 10px; }
-.muted { color: var(--mu); font-size: 13px; }
+html, body { margin: 0; background: var(--bg); color: var(--tx); font: 500 15px/1.75 Vazirmatn, Tahoma, system-ui, sans-serif; }
+button, input, textarea, select { font: inherit; color: inherit; }
 .hide { display: none !important; }
+.wrap { max-width: 1040px; margin: 0 auto; padding: 0 16px 60px; }
+/* ---- نوار بالا ---- */
+.top { position: sticky; top: 0; z-index: 5; background: color-mix(in srgb, var(--bg) 92%, transparent); border-bottom: 1px solid var(--ln); }
+.top__in { max-width: 1040px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 900; font-size: 18px; }
+.brand i { width: 36px; height: 36px; border-radius: 11px; display: grid; place-items: center; font-style: normal; background: linear-gradient(135deg, #58cc02, #12b3a8 55%, #8e2c6e); color: #fff; }
+.brand small { display: block; font-weight: 600; font-size: 12px; color: var(--mu); line-height: 1.3; }
+.tabs { display: flex; gap: 4px; margin-inline-start: auto; background: var(--bg2); padding: 4px; border-radius: 14px; overflow-x: auto; }
+.tab { border: 0; background: none; padding: 7px 14px; border-radius: 10px; font-weight: 800; cursor: pointer; white-space: nowrap; color: var(--mu); }
+.tab.on { background: var(--card); color: var(--tx); box-shadow: var(--sh); }
+.lockbtn { border: 1.5px solid var(--ln); background: var(--card); border-radius: 12px; padding: 7px 12px; cursor: pointer; font-weight: 800; }
+/* ---- اجزا ---- */
+h2 { font-size: 20px; margin: 22px 0 4px; } .lead { color: var(--mu); margin: 0 0 14px; }
+.card { background: var(--card); border: 1px solid var(--ln); border-radius: 18px; padding: 18px; margin: 12px 0; box-shadow: var(--sh); }
+.card h3 { margin: 0 0 10px; font-size: 16px; display: flex; align-items: center; gap: 8px; }
+.grid2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px; }
+label.f { display: block; font-weight: 700; font-size: 13px; color: var(--mu); }
+label.f > input, label.f > textarea, label.f > select { margin-top: 4px; }
+input[type=text], input[type=password], input[type=search], input[type=number], textarea, select { width: 100%; border: 1.5px solid var(--ln); border-radius: 12px; padding: 10px 12px; background: var(--bg); outline: none; }
+input:focus, textarea:focus, select:focus { border-color: var(--pr); }
+textarea { resize: vertical; min-height: 120px; }
+.ltr { direction: ltr; text-align: left; font-family: ui-monospace, Consolas, monospace; font-size: 13px; }
+.btn { border: 0; border-radius: 12px; padding: 10px 18px; font-weight: 800; cursor: pointer; background: var(--bg2); }
+.btn:disabled { opacity: .5; cursor: default; }
+.btn--pr { background: var(--pr); color: #fff; } .btn--gold { background: var(--gold); color: #1d1d1d; } .btn--bad { background: var(--badb); color: var(--bad); }
+.btn--lg { padding: 13px 22px; font-size: 16px; } .btn--sm { padding: 6px 12px; font-size: 13px; }
+.row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+.seg { display: flex; flex-wrap: wrap; gap: 6px; }
+.seg button { border: 1.5px solid var(--ln); background: var(--card); border-radius: 11px; padding: 7px 12px; cursor: pointer; font-weight: 700; }
+.seg button.on { border-color: var(--pr); background: var(--pr2); color: var(--pr); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; border: 1.5px solid var(--ln); border-radius: 12px; padding: 6px 12px; cursor: pointer; user-select: none; }
+.chip.on { border-color: var(--cc, var(--pr)); background: color-mix(in srgb, var(--cc, var(--pr)) 13%, transparent); }
+.chip input { accent-color: var(--cc, var(--pr)); }
+.msg { padding: 10px 14px; border-radius: 12px; font-weight: 700; margin: 8px 0; }
+.ok { background: var(--okb); color: var(--ok); } .bad { background: var(--badb); color: var(--bad); } .warn { background: var(--warnb); color: var(--warn); } .info { background: var(--pr2); color: var(--pr); }
+.muted { color: var(--mu); font-size: 13px; }
+.badge { display: inline-flex; align-items: center; gap: 4px; font-size: 12px; font-weight: 800; padding: 2px 10px; border-radius: 99px; white-space: nowrap; }
+.b-ok { background: var(--okb); color: var(--ok); } .b-warn { background: var(--warnb); color: var(--warn); } .b-bad { background: var(--badb); color: var(--bad); } .b-life { background: color-mix(in srgb, var(--gold) 20%, transparent); color: #9a6b00; } .b-mu { background: var(--bg2); color: var(--mu); }
+/* ---- قفل ---- */
+.gate { min-height: 100vh; display: grid; place-items: center; padding: 20px; }
+.gate .card { width: min(460px, 100%); padding: 26px; }
+.gate h1 { font-size: 22px; margin: 6px 0; text-align: center; } .gate .lead { text-align: center; }
+.gate .ico { font-size: 44px; text-align: center; }
+.step { display: flex; gap: 10px; align-items: flex-start; margin: 14px 0; }
+.step b.n { flex: none; width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--pr); color: #fff; font-size: 13px; }
+.filebtn { display: inline-flex; align-items: center; gap: 8px; border: 1.5px dashed var(--pr); color: var(--pr); border-radius: 12px; padding: 10px 14px; cursor: pointer; font-weight: 800; }
+/* ---- صدور ---- */
+.preview { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; }
+.kv { background: var(--bg); border-radius: 12px; padding: 8px 12px; }
+.kv span { display: block; font-size: 12px; color: var(--mu); font-weight: 700; } .kv b { word-break: break-word; }
+.ready { white-space: pre-wrap; background: var(--bg); border: 1.5px dashed var(--pr); border-radius: 14px; padding: 14px; min-height: 0; font-size: 14px; }
+/* ---- خریداران ---- */
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.stat { background: var(--card); border: 1px solid var(--ln); border-radius: 16px; padding: 12px 14px; box-shadow: var(--sh); cursor: pointer; }
+.stat b { display: block; font-size: 24px; font-weight: 900; } .stat span { color: var(--mu); font-size: 13px; font-weight: 700; }
+.stat.on { outline: 2px solid var(--pr); }
+.tools { display: flex; flex-wrap: wrap; gap: 8px; margin: 14px 0 6px; align-items: center; }
+.tools input[type=search] { flex: 1 1 240px; }
+.buyer { background: var(--card); border: 1px solid var(--ln); border-radius: 18px; margin: 10px 0; box-shadow: var(--sh); overflow: hidden; }
+.buyer__h { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 14px 16px; cursor: pointer; }
+.av { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; font-weight: 900; color: #fff; flex: none; }
+.buyer__n { flex: 1 1 180px; min-width: 0; } .buyer__n b { display: block; } .buyer__n small { color: var(--mu); }
+.buyer__b { border-top: 1px solid var(--ln); padding: 14px 16px; background: color-mix(in srgb, var(--bg) 55%, var(--card)); }
+.cst { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: 8px; margin: 4px 0 12px; }
+.cs { border: 1px solid var(--ln); border-radius: 14px; padding: 10px 12px; background: var(--card); }
+.cs__t { display: flex; justify-content: space-between; gap: 6px; align-items: center; font-weight: 800; }
+.bar { height: 6px; border-radius: 99px; background: var(--bg2); margin-top: 8px; overflow: hidden; } .bar i { display: block; height: 100%; border-radius: 99px; background: var(--cc, var(--pr)); }
+table.codes { width: 100%; border-collapse: collapse; font-size: 13px; }
+table.codes th, table.codes td { text-align: start; padding: 7px 6px; border-bottom: 1px solid var(--ln); vertical-align: top; }
+table.codes th { color: var(--mu); font-weight: 800; }
+.empty { text-align: center; color: var(--mu); padding: 40px 10px; }
+.toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1f2a33; color: #fff; padding: 10px 18px; border-radius: 12px; font-weight: 800; z-index: 50; box-shadow: var(--sh); }
+@media (max-width: 640px) { .top__in { flex-wrap: wrap; } .tabs { order: 3; width: 100%; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); } .tab { padding: 7px 4px; font-size: 13px; } .lockbtn { margin-inline-start: auto; } }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <h1>🛡️ پنل مدیر تراپو</h1>
-  <p class="sub">ساخت کد فعال‌سازی امضاشده برای هر مشتری. این صفحه را به هیچ‌کس ندهید.</p>
 
-  <div class="card" id="keyCard">
-    <h2><span>🔑</span> کلید مدیر</h2>
-    <div id="keyState" class="msg bad">کلید بارگذاری نشده است.</div>
-    <div class="row" id="keyLoad">
-      <label class="chip"><input type="file" id="keyFile" accept=".txt,text/plain" hidden>📄 انتخاب فایل trapo-admin-key.txt</label>
-      <label class="chip"><input type="checkbox" id="keyRemember" checked> روی همین مرورگر به خاطر بسپار</label>
-    </div>
-    <div class="row hide" id="keyForget"><button id="forget">فراموش کردن کلید روی این مرورگر</button></div>
+<!-- ======== راه‌اندازی بار اول ======== -->
+<section class="gate hide" id="setup">
+  <div class="card">
+    <div class="ico">🛡️</div>
+    <h1>راه‌اندازی پنل مدیر</h1>
+    <p class="lead">فقط یک بار. بعد از این فقط رمز خودت را وارد می‌کنی.</p>
+    <div class="step"><b class="n">۱</b><div style="flex:1">
+      <b>فایل کلید مدیر</b><div class="muted">همان فایل <span class="ltr">trapo-admin-key.txt</span></div>
+      <label class="filebtn" style="margin-top:8px"><input type="file" id="sKeyFile" accept=".txt,text/plain" hidden>📄 انتخاب فایل کلید</label>
+      <div id="sKeyMsg"></div>
+    </div></div>
+    <div class="step"><b class="n">۲</b><div style="flex:1">
+      <b>یک رمز برای پنل انتخاب کن</b><div class="muted">حداقل ۸ نویسه. این رمز جایی ذخیره نمی‌شود؛ فراموشش نکن.</div>
+      <input type="password" id="sPass" autocomplete="new-password" placeholder="رمز پنل" style="margin-top:8px">
+      <input type="password" id="sPass2" autocomplete="new-password" placeholder="تکرار رمز" style="margin-top:8px">
+    </div></div>
+    <div id="sErr"></div>
+    <button class="btn btn--pr btn--lg" id="sGo" style="width:100%">🔐 ساخت گاوصندوق و ورود</button>
+    <p class="muted" style="margin-top:12px">یا اگر پشتیبان رمزشده پنل را داری: <label class="filebtn" style="padding:4px 10px"><input type="file" id="sBackup" accept=".trapo,application/json" hidden>بازیابی از پشتیبان</label></p>
   </div>
+</section>
 
-  <div id="main" class="hide">
-    <div class="card">
-      <h2><span>۱</span> سفارش مشتری یا Device ID</h2>
-      <textarea id="order" placeholder="متن سفارشی که مشتری فرستاده را کامل این‌جا بچسبانید (یا فقط Device ID مثل ABCD-EFGH-JKMN)"></textarea>
-      <div id="orderInfo" class="muted"></div>
-    </div>
-    <div class="card">
-      <h2><span>۲</span> دوره‌ها</h2>
-      <div class="chips" id="courses"></div>
-      <div class="muted ltr" id="maskInfo"></div>
-    </div>
-    <div class="card">
-      <h2><span>۳</span> پلن و مدت</h2>
-      <div class="row" id="tiers"></div>
-      <div class="row" id="durs"></div>
-    </div>
-    <div class="card">
-      <button class="gold" id="gen">⚙️ ساخت کد و کپی رسید مشتری</button>
-      <div id="out" class="hide">
-        <div class="code ltr" id="code"></div>
-        <textarea id="receipt" class="" rows="12" readonly></textarea>
-        <div class="row"><button id="cpReceipt">📋 کپی رسید</button><button id="cpCode">📋 فقط کد</button></div>
+<!-- ======== قفل ======== -->
+<section class="gate hide" id="lock">
+  <div class="card">
+    <div class="ico">🔒</div>
+    <h1>پنل مدیر تراپو</h1>
+    <p class="lead">برای ورود رمز پنل را وارد کن.</p>
+    <input type="password" id="lPass" autocomplete="current-password" placeholder="رمز پنل">
+    <div id="lErr"></div>
+    <button class="btn btn--pr btn--lg" id="lGo" style="width:100%;margin-top:12px">ورود</button>
+    <details style="margin-top:14px"><summary class="muted" style="cursor:pointer">رمز را فراموش کرده‌ام</summary>
+      <p class="muted">رمز قابل بازیابی نیست (برای امنیت خودت). می‌توانی با فایل کلید و یک رمز تازه دوباره راه‌اندازی کنی؛ فهرست خریداران فقط اگر فایل پشتیبان داشته باشی برمی‌گردد.</p>
+      <button class="btn btn--bad btn--sm" id="lReset">پاک کردن گاوصندوق و راه‌اندازی دوباره</button>
+    </details>
+  </div>
+</section>
+
+<!-- ======== پنل ======== -->
+<div id="app" class="hide">
+  <header class="top"><div class="top__in">
+    <div class="brand"><i>✚</i><div>پنل مدیر تراپو<small id="hdrSub"></small></div></div>
+    <nav class="tabs" id="tabs">
+      <button class="tab on" data-tab="issue">🧾 صدور کد</button>
+      <button class="tab" data-tab="buyers">👥 خریداران</button>
+      <button class="tab" data-tab="check">🔍 بررسی کد</button>
+      <button class="tab" data-tab="settings">⚙️ تنظیمات</button>
+    </nav>
+    <button class="lockbtn" id="lockNow" title="قفل">🔒</button>
+  </div></header>
+
+  <main class="wrap">
+    <!-- صدور -->
+    <section data-pane="issue">
+      <h2>صدور کد از روی پیام خریدار</h2>
+      <p class="lead">پیام سفارشی که خریدار از داخل برنامه فرستاده را کامل این‌جا بچسبان؛ بقیه‌اش خودکار است.</p>
+      <div class="card">
+        <textarea id="iMsg" placeholder="🧾 سفارش اشتراک ...&#10;📱 شناسه دستگاه (Device ID): XXXX-XXXX-XXXX&#10;..."></textarea>
+        <div class="row" style="margin-top:8px"><button class="btn btn--sm" id="iPaste">📋 چسباندن از کلیپ‌بورد</button><button class="btn btn--sm" id="iClear">پاک کردن</button><span class="muted">یا بدون پیام، مشخصات را پایین دستی پر کن.</span></div>
+        <div id="iParse"></div>
       </div>
-      <div id="genErr" class="msg bad hide"></div>
-    </div>
-    <div class="card">
-      <h2><span>🔍</span> بررسی یک کد</h2>
-      <textarea id="chkCode" class="ltr" placeholder="TRP1-..."></textarea>
-      <div class="row"><input type="text" id="chkDev" class="ltr" placeholder="Device ID" style="max-width:220px"><button id="chk">بررسی</button></div>
-      <div id="chkOut"></div>
-    </div>
-  </div>
+      <div class="card">
+        <h3>👤 مشخصات خریدار</h3>
+        <div class="grid2">
+          <label class="f">نام<input type="text" id="iName" placeholder="نام خریدار"></label>
+          <label class="f">راه ارتباط (اختیاری)<input type="text" id="iContact" placeholder="تلگرام / شماره"></label>
+          <label class="f">Device ID<input type="text" id="iDev" class="ltr" placeholder="XXXX-XXXX-XXXX"></label>
+          <label class="f">مبلغ دریافتی (تومان)<input type="text" id="iPrice" inputmode="numeric" placeholder="مثلاً 1790000"></label>
+        </div>
+        <div id="iBuyerNote"></div>
+      </div>
+      <div class="card">
+        <h3>📚 دوره‌ها</h3>
+        <div class="chips" id="iCourses"></div>
+        <h3 style="margin-top:16px">💎 پلن</h3>
+        <div class="seg" id="iTiers"></div>
+        <h3 style="margin-top:16px">⏳ مدت</h3>
+        <div class="seg" id="iDurs"></div>
+        <label class="f" style="margin-top:14px">یادداشت خصوصی (فقط برای خودت)<input type="text" id="iNote" placeholder="مثلاً: تخفیف دانشجویی"></label>
+      </div>
+      <div id="iErr"></div>
+      <button class="btn btn--gold btn--lg" id="iGo" style="width:100%">⚙️ ساخت کد و پیام آماده</button>
+      <div class="card hide" id="iOut">
+        <h3>✅ پیام آماده برای خریدار <span class="badge b-ok">در فهرست خریداران ثبت شد</span></h3>
+        <div class="ready" id="iReady"></div>
+        <div class="row" style="margin-top:10px"><button class="btn btn--pr" id="iCopy">📋 کپی پیام کامل</button><button class="btn" id="iCopyCode">📋 فقط کد</button><button class="btn" id="iNew">سفارش بعدی</button></div>
+      </div>
+    </section>
+
+    <!-- خریداران -->
+    <section data-pane="buyers" class="hide">
+      <h2>خریداران</h2>
+      <p class="lead">وضعیت هر خریدار دقیقاً همان چیزی است که برنامه خودش نشان می‌دهد (همه کدهایش با هم جمع می‌شوند).</p>
+      <div class="stats" id="bStats"></div>
+      <div class="tools">
+        <input type="search" id="bSearch" placeholder="جست‌وجو: نام، Device ID، شماره سفارش، راه ارتباط">
+        <select id="bSort" style="width:auto"><option value="exp">زودترین پایان اشتراک</option><option value="new">جدیدترین خرید</option><option value="name">نام</option></select>
+      </div>
+      <div id="bList"></div>
+    </section>
+
+    <!-- بررسی -->
+    <section data-pane="check" class="hide">
+      <h2>بررسی یک کد</h2>
+      <p class="lead">کدی که خریدار می‌گوید کار نمی‌کند را این‌جا بچسبان.</p>
+      <div class="card">
+        <label class="f">کد فعال‌سازی<textarea id="cCode" class="ltr" style="min-height:80px" placeholder="TRP1-..."></textarea></label>
+        <label class="f" style="margin-top:10px">Device ID دستگاه خریدار<input type="text" id="cDev" class="ltr" placeholder="XXXX-XXXX-XXXX"></label>
+        <button class="btn btn--pr" id="cGo" style="margin-top:12px">بررسی</button>
+        <div id="cOut"></div>
+      </div>
+    </section>
+
+    <!-- تنظیمات -->
+    <section data-pane="settings" class="hide">
+      <h2>تنظیمات و امنیت</h2>
+      <div class="card">
+        <h3>💾 پشتیبان رمزشده</h3>
+        <p class="muted">همه چیز (کلید مدیر و فهرست خریداران) در یک فایل رمزشده با رمز فعلی پنل. بدون رمز قابل خواندن نیست. هر چند وقت یک بار بگیر و جای امن نگه دار.</p>
+        <div class="row"><button class="btn btn--pr" id="stExport">⬇️ دریافت فایل پشتیبان</button><label class="btn"><input type="file" id="stImport" accept=".trapo,application/json" hidden>⬆️ ادغام خریداران از پشتیبان</label></div>
+        <div id="stBkMsg"></div>
+      </div>
+      <div class="card">
+        <h3>🔐 رمز پنل</h3>
+        <div class="grid2">
+          <input type="password" id="stOld" autocomplete="current-password" placeholder="رمز فعلی">
+          <input type="password" id="stNew" autocomplete="new-password" placeholder="رمز تازه (حداقل ۸ نویسه)">
+          <input type="password" id="stNew2" autocomplete="new-password" placeholder="تکرار رمز تازه">
+        </div>
+        <button class="btn" id="stPass" style="margin-top:10px">تغییر رمز</button>
+        <div id="stPassMsg"></div>
+      </div>
+      <div class="card">
+        <h3>🕒 قفل خودکار</h3>
+        <div class="seg" id="stLock"></div>
+        <h3 style="margin-top:16px">🏷️ نام برند در پیام خریدار</h3>
+        <input type="text" id="stBrand">
+        <h3 style="margin-top:16px">💬 راه ارتباط پشتیبانی در پیام (اختیاری)</h3>
+        <input type="text" id="stSupport" placeholder="مثلاً: پشتیبانی تلگرام @trapo_support">
+      </div>
+      <div class="card">
+        <h3>⚠️ خطرناک</h3>
+        <p class="muted">پاک کردن کامل پنل از این مرورگر (کلید مدیر و همه خریداران). فقط اگر پشتیبان داری.</p>
+        <button class="btn btn--bad" id="stWipe">پاک کردن همه داده‌های پنل</button>
+      </div>
+    </section>
+  </main>
 </div>
 
 <script>
@@ -96,145 +254,547 @@ button:disabled { opacity: .5; cursor: default; }
 var NACL = {};
 !function(i){"use strict";var m=function(r,n){this.hi=0|r,this.lo=0|n},v=function(r){var n,e=new Float64Array(16);if(r)for(n=0;n<r.length;n++)e[n]=r[n];return e},a=function(){throw new Error("no PRNG")},o=new Uint8Array(16),e=new Uint8Array(32);e[0]=9;var c=v(),w=v([1]),g=v([56129,1]),y=v([30883,4953,19914,30187,55467,16705,2637,112,59544,30585,16505,36039,65139,11119,27886,20995]),l=v([61785,9906,39828,60374,45398,33411,5274,224,53552,61171,33010,6542,64743,22239,55772,9222]),t=v([54554,36645,11616,51542,42930,38181,51040,26924,56412,64982,57905,49316,21502,52590,14035,8553]),f=v([26200,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214,26214]),s=v([41136,18958,6951,50414,58488,44335,6150,12099,55207,15867,153,11085,57099,20417,9344,11139]);function h(r,n){return r<<n|r>>>32-n}function b(r,n){var e=255&r[n+3];return(e=(e=e<<8|255&r[n+2])<<8|255&r[n+1])<<8|255&r[n+0]}function B(r,n){var e=r[n]<<24|r[n+1]<<16|r[n+2]<<8|r[n+3],t=r[n+4]<<24|r[n+5]<<16|r[n+6]<<8|r[n+7];return new m(e,t)}function p(r,n,e){var t;for(t=0;t<4;t++)r[n+t]=255&e,e>>>=8}function S(r,n,e){r[n]=e.hi>>24&255,r[n+1]=e.hi>>16&255,r[n+2]=e.hi>>8&255,r[n+3]=255&e.hi,r[n+4]=e.lo>>24&255,r[n+5]=e.lo>>16&255,r[n+6]=e.lo>>8&255,r[n+7]=255&e.lo}function u(r,n,e,t,o){var i,a=0;for(i=0;i<o;i++)a|=r[n+i]^e[t+i];return(1&a-1>>>8)-1}function A(r,n,e,t){return u(r,n,e,t,16)}function _(r,n,e,t){return u(r,n,e,t,32)}function U(r,n,e,t,o){var i,a,f,u=new Uint32Array(16),c=new Uint32Array(16),w=new Uint32Array(16),y=new Uint32Array(4);for(i=0;i<4;i++)c[5*i]=b(t,4*i),c[1+i]=b(e,4*i),c[6+i]=b(n,4*i),c[11+i]=b(e,16+4*i);for(i=0;i<16;i++)w[i]=c[i];for(i=0;i<20;i++){for(a=0;a<4;a++){for(f=0;f<4;f++)y[f]=c[(5*a+4*f)%16];for(y[1]^=h(y[0]+y[3]|0,7),y[2]^=h(y[1]+y[0]|0,9),y[3]^=h(y[2]+y[1]|0,13),y[0]^=h(y[3]+y[2]|0,18),f=0;f<4;f++)u[4*a+(a+f)%4]=y[f]}for(f=0;f<16;f++)c[f]=u[f]}if(o){for(i=0;i<16;i++)c[i]=c[i]+w[i]|0;for(i=0;i<4;i++)c[5*i]=c[5*i]-b(t,4*i)|0,c[6+i]=c[6+i]-b(n,4*i)|0;for(i=0;i<4;i++)p(r,4*i,c[5*i]),p(r,16+4*i,c[6+i])}else for(i=0;i<16;i++)p(r,4*i,c[i]+w[i]|0)}function E(r,n,e,t){U(r,n,e,t,!1)}function x(r,n,e,t){return U(r,n,e,t,!0),0}var d=new Uint8Array([101,120,112,97,110,100,32,51,50,45,98,121,116,101,32,107]);function K(r,n,e,t,o,i,a){var f,u,c=new Uint8Array(16),w=new Uint8Array(64);if(!o)return 0;for(u=0;u<16;u++)c[u]=0;for(u=0;u<8;u++)c[u]=i[u];for(;64<=o;){for(E(w,c,a,d),u=0;u<64;u++)r[n+u]=(e?e[t+u]:0)^w[u];for(f=1,u=8;u<16;u++)f=f+(255&c[u])|0,c[u]=255&f,f>>>=8;o-=64,n+=64,e&&(t+=64)}if(0<o)for(E(w,c,a,d),u=0;u<o;u++)r[n+u]=(e?e[t+u]:0)^w[u];return 0}function Y(r,n,e,t,o){return K(r,n,null,0,e,t,o)}function L(r,n,e,t,o){var i=new Uint8Array(32);return x(i,t,o,d),Y(r,n,e,t.subarray(16),i)}function T(r,n,e,t,o,i,a){var f=new Uint8Array(32);return x(f,i,a,d),K(r,n,e,t,o,i.subarray(16),f)}function k(r,n){var e,t=0;for(e=0;e<17;e++)t=t+(r[e]+n[e]|0)|0,r[e]=255&t,t>>>=8}var z=new Uint32Array([5,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,252]);function R(r,n,e,t,o,i){var a,f,u,c,w=new Uint32Array(17),y=new Uint32Array(17),l=new Uint32Array(17),s=new Uint32Array(17),h=new Uint32Array(17);for(u=0;u<17;u++)y[u]=l[u]=0;for(u=0;u<16;u++)y[u]=i[u];for(y[3]&=15,y[4]&=252,y[7]&=15,y[8]&=252,y[11]&=15,y[12]&=252,y[15]&=15;0<o;){for(u=0;u<17;u++)s[u]=0;for(u=0;u<16&&u<o;++u)s[u]=e[t+u];for(s[u]=1,t+=u,o-=u,k(l,s),f=0;f<17;f++)for(u=w[f]=0;u<17;u++)w[f]=w[f]+l[u]*(u<=f?y[f-u]:320*y[f+17-u]|0)|0;for(f=0;f<17;f++)l[f]=w[f];for(u=c=0;u<16;u++)c=c+l[u]|0,l[u]=255&c,c>>>=8;for(c=c+l[16]|0,l[16]=3&c,c=5*(c>>>2)|0,u=0;u<16;u++)c=c+l[u]|0,l[u]=255&c,c>>>=8;c=c+l[16]|0,l[16]=c}for(u=0;u<17;u++)h[u]=l[u];for(k(l,z),a=0|-(l[16]>>>7),u=0;u<17;u++)l[u]^=a&(h[u]^l[u]);for(u=0;u<16;u++)s[u]=i[u+16];for(s[16]=0,k(l,s),u=0;u<16;u++)r[n+u]=l[u];return 0}function P(r,n,e,t,o,i){var a=new Uint8Array(16);return R(a,0,e,t,o,i),A(r,n,a,0)}function M(r,n,e,t,o){var i;if(e<32)return-1;for(T(r,0,n,0,e,t,o),R(r,16,r,32,e-32,r),i=0;i<16;i++)r[i]=0;return 0}function N(r,n,e,t,o){var i,a=new Uint8Array(32);if(e<32)return-1;if(L(a,0,32,t,o),0!==P(n,16,n,32,e-32,a))return-1;for(T(r,0,n,0,e,t,o),i=0;i<32;i++)r[i]=0;return 0}function O(r,n){var e;for(e=0;e<16;e++)r[e]=0|n[e]}function C(r){var n,e;for(e=0;e<16;e++)r[e]+=65536,n=Math.floor(r[e]/65536),r[(e+1)*(e<15?1:0)]+=n-1+37*(n-1)*(15===e?1:0),r[e]-=65536*n}function F(r,n,e){for(var t,o=~(e-1),i=0;i<16;i++)t=o&(r[i]^n[i]),r[i]^=t,n[i]^=t}function Z(r,n){var e,t,o,i=v(),a=v();for(e=0;e<16;e++)a[e]=n[e];for(C(a),C(a),C(a),t=0;t<2;t++){for(i[0]=a[0]-65517,e=1;e<15;e++)i[e]=a[e]-65535-(i[e-1]>>16&1),i[e-1]&=65535;i[15]=a[15]-32767-(i[14]>>16&1),o=i[15]>>16&1,i[14]&=65535,F(a,i,1-o)}for(e=0;e<16;e++)r[2*e]=255&a[e],r[2*e+1]=a[e]>>8}function G(r,n){var e=new Uint8Array(32),t=new Uint8Array(32);return Z(e,r),Z(t,n),_(e,0,t,0)}function q(r){var n=new Uint8Array(32);return Z(n,r),1&n[0]}function D(r,n){var e;for(e=0;e<16;e++)r[e]=n[2*e]+(n[2*e+1]<<8);r[15]&=32767}function I(r,n,e){var t;for(t=0;t<16;t++)r[t]=n[t]+e[t]|0}function V(r,n,e){var t;for(t=0;t<16;t++)r[t]=n[t]-e[t]|0}function X(r,n,e){var t,o,i=new Float64Array(31);for(t=0;t<31;t++)i[t]=0;for(t=0;t<16;t++)for(o=0;o<16;o++)i[t+o]+=n[t]*e[o];for(t=0;t<15;t++)i[t]+=38*i[t+16];for(t=0;t<16;t++)r[t]=i[t];C(r),C(r)}function j(r,n){X(r,n,n)}function H(r,n){var e,t=v();for(e=0;e<16;e++)t[e]=n[e];for(e=253;0<=e;e--)j(t,t),2!==e&&4!==e&&X(t,t,n);for(e=0;e<16;e++)r[e]=t[e]}function J(r,n){var e,t=v();for(e=0;e<16;e++)t[e]=n[e];for(e=250;0<=e;e--)j(t,t),1!==e&&X(t,t,n);for(e=0;e<16;e++)r[e]=t[e]}function Q(r,n,e){var t,o,i=new Uint8Array(32),a=new Float64Array(80),f=v(),u=v(),c=v(),w=v(),y=v(),l=v();for(o=0;o<31;o++)i[o]=n[o];for(i[31]=127&n[31]|64,i[0]&=248,D(a,e),o=0;o<16;o++)u[o]=a[o],w[o]=f[o]=c[o]=0;for(f[0]=w[0]=1,o=254;0<=o;--o)F(f,u,t=i[o>>>3]>>>(7&o)&1),F(c,w,t),I(y,f,c),V(f,f,c),I(c,u,w),V(u,u,w),j(w,y),j(l,f),X(f,c,f),X(c,u,y),I(y,f,c),V(f,f,c),j(u,f),V(c,w,l),X(f,c,g),I(f,f,w),X(c,c,f),X(f,w,l),X(w,u,a),j(u,y),F(f,u,t),F(c,w,t);for(o=0;o<16;o++)a[o+16]=f[o],a[o+32]=c[o],a[o+48]=u[o],a[o+64]=w[o];var s=a.subarray(32),h=a.subarray(16);return H(s,s),X(h,h,s),Z(r,h),0}function W(r,n){return Q(r,n,e)}function $(r,n){return a(n,32),W(r,n)}function rr(r,n,e){var t=new Uint8Array(32);return Q(t,e,n),x(r,o,t,d)}var nr=M,er=N;function tr(){var r,n,e,t=0,o=0,i=0,a=0,f=65535;for(e=0;e<arguments.length;e++)t+=(r=arguments[e].lo)&f,o+=r>>>16,i+=(n=arguments[e].hi)&f,a+=n>>>16;return new m((i+=(o+=t>>>16)>>>16)&f|(a+=i>>>16)<<16,t&f|o<<16)}function or(r,n){return new m(r.hi>>>n,r.lo>>>n|r.hi<<32-n)}function ir(){var r,n=0,e=0;for(r=0;r<arguments.length;r++)n^=arguments[r].lo,e^=arguments[r].hi;return new m(e,n)}function ar(r,n){var e,t,o=32-n;return n<32?(e=r.hi>>>n|r.lo<<o,t=r.lo>>>n|r.hi<<o):n<64&&(e=r.lo>>>n|r.hi<<o,t=r.hi>>>n|r.lo<<o),new m(e,t)}var fr=[new m(1116352408,3609767458),new m(1899447441,602891725),new m(3049323471,3964484399),new m(3921009573,2173295548),new m(961987163,4081628472),new m(1508970993,3053834265),new m(2453635748,2937671579),new m(2870763221,3664609560),new m(3624381080,2734883394),new m(310598401,1164996542),new m(607225278,1323610764),new m(1426881987,3590304994),new m(1925078388,4068182383),new m(2162078206,991336113),new m(2614888103,633803317),new m(3248222580,3479774868),new m(3835390401,2666613458),new m(4022224774,944711139),new m(264347078,2341262773),new m(604807628,2007800933),new m(770255983,1495990901),new m(1249150122,1856431235),new m(1555081692,3175218132),new m(1996064986,2198950837),new m(2554220882,3999719339),new m(2821834349,766784016),new m(2952996808,2566594879),new m(3210313671,3203337956),new m(3336571891,1034457026),new m(3584528711,2466948901),new m(113926993,3758326383),new m(338241895,168717936),new m(666307205,1188179964),new m(773529912,1546045734),new m(1294757372,1522805485),new m(1396182291,2643833823),new m(1695183700,2343527390),new m(1986661051,1014477480),new m(2177026350,1206759142),new m(2456956037,344077627),new m(2730485921,1290863460),new m(2820302411,3158454273),new m(3259730800,3505952657),new m(3345764771,106217008),new m(3516065817,3606008344),new m(3600352804,1432725776),new m(4094571909,1467031594),new m(275423344,851169720),new m(430227734,3100823752),new m(506948616,1363258195),new m(659060556,3750685593),new m(883997877,3785050280),new m(958139571,3318307427),new m(1322822218,3812723403),new m(1537002063,2003034995),new m(1747873779,3602036899),new m(1955562222,1575990012),new m(2024104815,1125592928),new m(2227730452,2716904306),new m(2361852424,442776044),new m(2428436474,593698344),new m(2756734187,3733110249),new m(3204031479,2999351573),new m(3329325298,3815920427),new m(3391569614,3928383900),new m(3515267271,566280711),new m(3940187606,3454069534),new m(4118630271,4000239992),new m(116418474,1914138554),new m(174292421,2731055270),new m(289380356,3203993006),new m(460393269,320620315),new m(685471733,587496836),new m(852142971,1086792851),new m(1017036298,365543100),new m(1126000580,2618297676),new m(1288033470,3409855158),new m(1501505948,4234509866),new m(1607167915,987167468),new m(1816402316,1246189591)];function ur(r,n,e){var t,o,i,a=[],f=[],u=[],c=[];for(o=0;o<8;o++)a[o]=u[o]=B(r,8*o);for(var w,y,l,s,h,v,g,b,p,A,_,U,E,x,d=0;128<=e;){for(o=0;o<16;o++)c[o]=B(n,8*o+d);for(o=0;o<80;o++){for(i=0;i<8;i++)f[i]=u[i];for(t=tr(u[7],ir(ar(x=u[4],14),ar(x,18),ar(x,41)),(p=u[4],A=u[5],_=u[6],0,U=p.hi&A.hi^~p.hi&_.hi,E=p.lo&A.lo^~p.lo&_.lo,new m(U,E)),fr[o],c[o%16]),f[7]=tr(t,ir(ar(b=u[0],28),ar(b,34),ar(b,39)),(l=u[0],s=u[1],h=u[2],0,v=l.hi&s.hi^l.hi&h.hi^s.hi&h.hi,g=l.lo&s.lo^l.lo&h.lo^s.lo&h.lo,new m(v,g))),f[3]=tr(f[3],t),i=0;i<8;i++)u[(i+1)%8]=f[i];if(o%16==15)for(i=0;i<16;i++)c[i]=tr(c[i],c[(i+9)%16],ir(ar(y=c[(i+1)%16],1),ar(y,8),or(y,7)),ir(ar(w=c[(i+14)%16],19),ar(w,61),or(w,6)))}for(o=0;o<8;o++)u[o]=tr(u[o],a[o]),a[o]=u[o];d+=128,e-=128}for(o=0;o<8;o++)S(r,8*o,a[o]);return e}var cr=new Uint8Array([106,9,230,103,243,188,201,8,187,103,174,133,132,202,167,59,60,110,243,114,254,148,248,43,165,79,245,58,95,29,54,241,81,14,82,127,173,230,130,209,155,5,104,140,43,62,108,31,31,131,217,171,251,65,189,107,91,224,205,25,19,126,33,121]);function wr(r,n,e){var t,o=new Uint8Array(64),i=new Uint8Array(256),a=e;for(t=0;t<64;t++)o[t]=cr[t];for(ur(o,n,e),e%=128,t=0;t<256;t++)i[t]=0;for(t=0;t<e;t++)i[t]=n[a-e+t];for(i[e]=128,i[(e=256-128*(e<112?1:0))-9]=0,S(i,e-8,new m(a/536870912|0,a<<3)),ur(o,i,e),t=0;t<64;t++)r[t]=o[t];return 0}function yr(r,n){var e=v(),t=v(),o=v(),i=v(),a=v(),f=v(),u=v(),c=v(),w=v();V(e,r[1],r[0]),V(w,n[1],n[0]),X(e,e,w),I(t,r[0],r[1]),I(w,n[0],n[1]),X(t,t,w),X(o,r[3],n[3]),X(o,o,l),X(i,r[2],n[2]),I(i,i,i),V(a,t,e),V(f,i,o),I(u,i,o),I(c,t,e),X(r[0],a,f),X(r[1],c,u),X(r[2],u,f),X(r[3],a,c)}function lr(r,n,e){var t;for(t=0;t<4;t++)F(r[t],n[t],e)}function sr(r,n){var e=v(),t=v(),o=v();H(o,n[2]),X(e,n[0],o),X(t,n[1],o),Z(r,t),r[31]^=q(e)<<7}function hr(r,n,e){var t,o;for(O(r[0],c),O(r[1],w),O(r[2],w),O(r[3],c),o=255;0<=o;--o)lr(r,n,t=e[o/8|0]>>(7&o)&1),yr(n,r),yr(r,r),lr(r,n,t)}function vr(r,n){var e=[v(),v(),v(),v()];O(e[0],t),O(e[1],f),O(e[2],w),X(e[3],t,f),hr(r,e,n)}function gr(r,n,e){var t,o=new Uint8Array(64),i=[v(),v(),v(),v()];for(e||a(n,32),wr(o,n,32),o[0]&=248,o[31]&=127,o[31]|=64,vr(i,o),sr(r,i),t=0;t<32;t++)n[t+32]=r[t];return 0}var br=new Float64Array([237,211,245,92,26,99,18,88,214,156,247,162,222,249,222,20,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,16]);function pr(r,n){var e,t,o,i;for(t=63;32<=t;--t){for(e=0,o=t-32,i=t-12;o<i;++o)n[o]+=e-16*n[t]*br[o-(t-32)],e=Math.floor((n[o]+128)/256),n[o]-=256*e;n[o]+=e,n[t]=0}for(o=e=0;o<32;o++)n[o]+=e-(n[31]>>4)*br[o],e=n[o]>>8,n[o]&=255;for(o=0;o<32;o++)n[o]-=e*br[o];for(t=0;t<32;t++)n[t+1]+=n[t]>>8,r[t]=255&n[t]}function Ar(r){var n,e=new Float64Array(64);for(n=0;n<64;n++)e[n]=r[n];for(n=0;n<64;n++)r[n]=0;pr(r,e)}function _r(r,n,e,t){var o,i,a=new Uint8Array(64),f=new Uint8Array(64),u=new Uint8Array(64),c=new Float64Array(64),w=[v(),v(),v(),v()];wr(a,t,32),a[0]&=248,a[31]&=127,a[31]|=64;var y=e+64;for(o=0;o<e;o++)r[64+o]=n[o];for(o=0;o<32;o++)r[32+o]=a[32+o];for(wr(u,r.subarray(32),e+32),Ar(u),vr(w,u),sr(r,w),o=32;o<64;o++)r[o]=t[o];for(wr(f,r,e+64),Ar(f),o=0;o<64;o++)c[o]=0;for(o=0;o<32;o++)c[o]=u[o];for(o=0;o<32;o++)for(i=0;i<32;i++)c[o+i]+=f[o]*a[i];return pr(r.subarray(32),c),y}function Ur(r,n,e,t){var o,i=new Uint8Array(32),a=new Uint8Array(64),f=[v(),v(),v(),v()],u=[v(),v(),v(),v()];if(e<64)return-1;if(function(r,n){var e=v(),t=v(),o=v(),i=v(),a=v(),f=v(),u=v();if(O(r[2],w),D(r[1],n),j(o,r[1]),X(i,o,y),V(o,o,r[2]),I(i,r[2],i),j(a,i),j(f,a),X(u,f,a),X(e,u,o),X(e,e,i),J(e,e),X(e,e,o),X(e,e,i),X(e,e,i),X(r[0],e,i),j(t,r[0]),X(t,t,i),G(t,o)&&X(r[0],r[0],s),j(t,r[0]),X(t,t,i),G(t,o))return 1;q(r[0])===n[31]>>7&&V(r[0],c,r[0]),X(r[3],r[0],r[1])}(u,t))return-1;for(o=0;o<e;o++)r[o]=n[o];for(o=0;o<32;o++)r[o+32]=t[o];if(wr(a,r,e),Ar(a),hr(f,u,a),vr(u,n.subarray(32)),yr(f,u),sr(i,f),e-=64,_(n,0,i,0)){for(o=0;o<e;o++)r[o]=0;return-1}for(o=0;o<e;o++)r[o]=n[o+64];return e}function Er(r,n){if(32!==r.length)throw new Error("bad key size");if(24!==n.length)throw new Error("bad nonce size")}function xr(){for(var r=0;r<arguments.length;r++)if(!(arguments[r]instanceof Uint8Array))throw new TypeError("unexpected type, use Uint8Array")}function dr(r){for(var n=0;n<r.length;n++)r[n]=0}i.lowlevel={crypto_core_hsalsa20:x,crypto_stream_xor:T,crypto_stream:L,crypto_stream_salsa20_xor:K,crypto_stream_salsa20:Y,crypto_onetimeauth:R,crypto_onetimeauth_verify:P,crypto_verify_16:A,crypto_verify_32:_,crypto_secretbox:M,crypto_secretbox_open:N,crypto_scalarmult:Q,crypto_scalarmult_base:W,crypto_box_beforenm:rr,crypto_box_afternm:nr,crypto_box:function(r,n,e,t,o,i){var a=new Uint8Array(32);return rr(a,o,i),nr(r,n,e,t,a)},crypto_box_open:function(r,n,e,t,o,i){var a=new Uint8Array(32);return rr(a,o,i),er(r,n,e,t,a)},crypto_box_keypair:$,crypto_hash:wr,crypto_sign:_r,crypto_sign_keypair:gr,crypto_sign_open:Ur,crypto_secretbox_KEYBYTES:32,crypto_secretbox_NONCEBYTES:24,crypto_secretbox_ZEROBYTES:32,crypto_secretbox_BOXZEROBYTES:16,crypto_scalarmult_BYTES:32,crypto_scalarmult_SCALARBYTES:32,crypto_box_PUBLICKEYBYTES:32,crypto_box_SECRETKEYBYTES:32,crypto_box_BEFORENMBYTES:32,crypto_box_NONCEBYTES:24,crypto_box_ZEROBYTES:32,crypto_box_BOXZEROBYTES:16,crypto_sign_BYTES:64,crypto_sign_PUBLICKEYBYTES:32,crypto_sign_SECRETKEYBYTES:64,crypto_sign_SEEDBYTES:32,crypto_hash_BYTES:64,gf:v,D:y,L:br,pack25519:Z,unpack25519:D,M:X,A:I,S:j,Z:V,pow2523:J,add:yr,set25519:O,modL:pr,scalarmult:hr,scalarbase:vr},i.randomBytes=function(r){var n=new Uint8Array(r);return a(n,r),n},i.secretbox=function(r,n,e){xr(r,n,e),Er(e,n);for(var t=new Uint8Array(32+r.length),o=new Uint8Array(t.length),i=0;i<r.length;i++)t[i+32]=r[i];return M(o,t,t.length,n,e),o.subarray(16)},i.secretbox.open=function(r,n,e){xr(r,n,e),Er(e,n);for(var t=new Uint8Array(16+r.length),o=new Uint8Array(t.length),i=0;i<r.length;i++)t[i+16]=r[i];return t.length<32||0!==N(o,t,t.length,n,e)?null:o.subarray(32)},i.secretbox.keyLength=32,i.secretbox.nonceLength=24,i.secretbox.overheadLength=16,i.scalarMult=function(r,n){if(xr(r,n),32!==r.length)throw new Error("bad n size");if(32!==n.length)throw new Error("bad p size");var e=new Uint8Array(32);return Q(e,r,n),e},i.scalarMult.base=function(r){if(xr(r),32!==r.length)throw new Error("bad n size");var n=new Uint8Array(32);return W(n,r),n},i.scalarMult.scalarLength=32,i.scalarMult.groupElementLength=32,i.box=function(r,n,e,t){var o=i.box.before(e,t);return i.secretbox(r,n,o)},i.box.before=function(r,n){xr(r,n),function(r,n){if(32!==r.length)throw new Error("bad public key size");if(32!==n.length)throw new Error("bad secret key size")}(r,n);var e=new Uint8Array(32);return rr(e,r,n),e},i.box.after=i.secretbox,i.box.open=function(r,n,e,t){var o=i.box.before(e,t);return i.secretbox.open(r,n,o)},i.box.open.after=i.secretbox.open,i.box.keyPair=function(){var r=new Uint8Array(32),n=new Uint8Array(32);return $(r,n),{publicKey:r,secretKey:n}},i.box.keyPair.fromSecretKey=function(r){if(xr(r),32!==r.length)throw new Error("bad secret key size");var n=new Uint8Array(32);return W(n,r),{publicKey:n,secretKey:new Uint8Array(r)}},i.box.publicKeyLength=32,i.box.secretKeyLength=32,i.box.sharedKeyLength=32,i.box.nonceLength=24,i.box.overheadLength=i.secretbox.overheadLength,i.sign=function(r,n){if(xr(r,n),64!==n.length)throw new Error("bad secret key size");var e=new Uint8Array(64+r.length);return _r(e,r,r.length,n),e},i.sign.open=function(r,n){if(xr(r,n),32!==n.length)throw new Error("bad public key size");var e=new Uint8Array(r.length),t=Ur(e,r,r.length,n);if(t<0)return null;for(var o=new Uint8Array(t),i=0;i<o.length;i++)o[i]=e[i];return o},i.sign.detached=function(r,n){for(var e=i.sign(r,n),t=new Uint8Array(64),o=0;o<t.length;o++)t[o]=e[o];return t},i.sign.detached.verify=function(r,n,e){if(xr(r,n,e),64!==n.length)throw new Error("bad signature size");if(32!==e.length)throw new Error("bad public key size");var t,o=new Uint8Array(64+r.length),i=new Uint8Array(64+r.length);for(t=0;t<64;t++)o[t]=n[t];for(t=0;t<r.length;t++)o[t+64]=r[t];return 0<=Ur(i,o,o.length,e)},i.sign.keyPair=function(){var r=new Uint8Array(32),n=new Uint8Array(64);return gr(r,n),{publicKey:r,secretKey:n}},i.sign.keyPair.fromSecretKey=function(r){if(xr(r),64!==r.length)throw new Error("bad secret key size");for(var n=new Uint8Array(32),e=0;e<n.length;e++)n[e]=r[32+e];return{publicKey:n,secretKey:new Uint8Array(r)}},i.sign.keyPair.fromSeed=function(r){if(xr(r),32!==r.length)throw new Error("bad seed size");for(var n=new Uint8Array(32),e=new Uint8Array(64),t=0;t<32;t++)e[t]=r[t];return gr(n,e,!0),{publicKey:n,secretKey:e}},i.sign.publicKeyLength=32,i.sign.secretKeyLength=64,i.sign.seedLength=32,i.sign.signatureLength=64,i.hash=function(r){xr(r);var n=new Uint8Array(64);return wr(n,r,r.length),n},i.hash.hashLength=64,i.verify=function(r,n){return xr(r,n),0!==r.length&&0!==n.length&&(r.length===n.length&&0===u(r,0,n,0,r.length))},i.setPRNG=function(r){a=r},function(){var o="undefined"!=typeof self?self.crypto||self.msCrypto:null;if(o&&o.getRandomValues){i.setPRNG(function(r,n){var e,t=new Uint8Array(n);for(e=0;e<n;e+=65536)o.getRandomValues(t.subarray(e,e+Math.min(n-e,65536)));for(e=0;e<n;e++)r[e]=t[e];dr(t)})}else"undefined"!=typeof require&&(o=require("crypto"))&&o.randomBytes&&i.setPRNG(function(r,n){var e,t=o.randomBytes(n);for(e=0;e<n;e++)r[e]=t[e];dr(t)})}()}(NACL);
 </script>
-<!-- دوره‌ها (همان فایل‌های برنامه؛ دوره تازه = یک خط تازه این‌جا هم) -->
+<!-- دوره‌ها: همان فایل‌های برنامه (دوره تازه = یک خط تازه این‌جا هم) -->
 <script src="../app/courses/data-yona.js"></script>
 <script src="../app/courses/data-homa.js"></script>
 <script src="../app/courses/data-negar.js"></script>
 <script>
 (function () {
   'use strict';
-  var PUBKEYS = ["LNZlJrpkxzlBtHYdzIYzag82VIFejokLckHFvS05M7s="];  // باید با LICENSE_KEYS داخل برنامه یکی باشد
-  var BRAND = 'آکادمی بالینی تراپو';
+  /* ================= ثابت‌ها (همان قرارداد برنامه) ================= */
+  var PUBKEYS = ["LNZlJrpkxzlBtHYdzIYzag82VIFejokLckHFvS05M7s="];
+  var VAULT_KEY = 'trapo_admin_vault_v1', LEGACY_KEY = 'trapo_admin_key', FAIL_KEY = 'trapo_admin_fails';
+  var KDF_ITER = 310000, AAD = 'TRAPO-VAULT-1';
   var EPOCH = Date.UTC(2024, 0, 1), ALL_MASK = 0xFFFF;
-  var TIERS = { 1: 'پلن آموزشی (Tier 1)', 2: 'پلن Pro بالینی (Tier 2)', 3: 'پکیج جامع الماس (Tier 3) — همه دوره‌های فعلی و آینده' };
+  var TIERS = { 1: { fa: 'پلن آموزشی', short: 'آموزشی', icon: '📘' }, 2: { fa: 'پلن Pro (بالینی حرفه‌ای)', short: 'Pro', icon: '🩺' }, 3: { fa: 'پکیج جامع الماس (همه دوره‌ها)', short: 'الماس', icon: '💎' } };
   var DUR = [
-    { id: 0, fa: '۴۸ ساعت (تست)', ms: 48 * 36e5 }, { id: 1, fa: '۱ ماهه', ms: 30 * 864e5 }, { id: 2, fa: '۳ ماهه', ms: 90 * 864e5 },
-    { id: 3, fa: '۶ ماهه', ms: 180 * 864e5 }, { id: 4, fa: '۱ ساله', ms: 365 * 864e5 }, { id: 5, fa: 'دائمی', ms: 0, life: true }
+    { id: 0, fa: '۴۸ ساعت (تست)', ms: 48 * 36e5 }, { id: 1, fa: '۱ ماهه (۳۰ روز)', ms: 30 * 864e5 }, { id: 2, fa: '۳ ماهه (۹۰ روز)', ms: 90 * 864e5 },
+    { id: 3, fa: '۶ ماهه (۱۸۰ روز)', ms: 180 * 864e5 }, { id: 4, fa: '۱ ساله (۳۶۵ روز)', ms: 365 * 864e5 }, { id: 5, fa: 'دائمی', ms: 0, life: true }
   ];
+  var WARN_DAYS = 5;
+  var NOW = function () { return Date.now() + (window.__trapoSkew || 0); };
+
+  /* ================= ابزارها ================= */
+  var $ = function (id) { return document.getElementById(id); };
+  var enc = new TextEncoder(), dec = new TextDecoder();
+  var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
+  var fa2en = function (s) { return String(s || '').replace(/[۰-۹]/g, function (d) { return d.charCodeAt(0) - 1776; }).replace(/[٠-٩]/g, function (d) { return d.charCodeAt(0) - 1632; }); };
+  var nf = function (n) { return Number(n || 0).toLocaleString('fa-IR'); };
+  var fdate = function (t) { try { return new Intl.DateTimeFormat('fa-IR', { dateStyle: 'long' }).format(new Date(t)); } catch (e) { return new Date(t).toISOString().slice(0, 10); } };
+  var fdt = function (t) { try { return new Intl.DateTimeFormat('fa-IR', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(t)); } catch (e) { return new Date(t).toISOString(); } };
   var B32 = '0123456789ABCDEFGHJKMNPQRSTVWXYZ';
   function b32enc(bytes) { var bits = 0, val = 0, out = ''; for (var i = 0; i < bytes.length; i++) { val = (val << 8) | bytes[i]; bits += 8; while (bits >= 5) { out += B32[(val >>> (bits - 5)) & 31]; bits -= 5; } val &= (1 << bits) - 1; } if (bits > 0) out += B32[(val << (5 - bits)) & 31]; return out; }
   function b32dec(str, n) { var s = str.toUpperCase().replace(/O/g, '0').replace(/[IL]/g, '1'), bits = 0, val = 0, out = []; for (var i = 0; i < s.length; i++) { var v = B32.indexOf(s[i]); if (v < 0) return null; val = (val << 5) | v; bits += 5; if (bits >= 8) { out.push((val >>> (bits - 8)) & 255); bits -= 8; val &= (1 << bits) - 1; } } return out.length >= n ? new Uint8Array(out.slice(0, n)) : null; }
   var hex = function (b) { return Array.prototype.map.call(b, function (x) { return x.toString(16).padStart(2, '0'); }).join(''); };
-  var utf8 = function (s) { return new TextEncoder().encode(String(s)); };
-  var b64bytes = function (s) { var bin = atob(s.trim()), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; };
-  var b64of = function (u) { var s = ''; for (var i = 0; i < u.length; i++) s += String.fromCharCode(u[i]); return btoa(s); };
+  function b64of(u) { var s = ''; for (var i = 0; i < u.length; i += 0x8000) s += String.fromCharCode.apply(null, u.subarray(i, i + 0x8000)); return btoa(s); }
+  function b64bytes(s) { var bin = atob(String(s).trim()), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; }
   var normDev = function (s) { return String(s || '').toUpperCase().replace(/[^0-9A-Z]/g, '').replace(/O/g, '0').replace(/[IL]/g, '1'); };
-  var fmtDev = function (s) { return normDev(s).match(/.{1,4}/g).join('-'); };
-  var licMsg = function (dev, p) { return utf8('TRAPO-LIC-1|' + normDev(dev) + '|' + hex(p)); };
-  var fdt = function (t) { try { return new Intl.DateTimeFormat('fa-IR', { dateStyle: 'medium', timeStyle: 'short' }).format(new Date(t)); } catch (e) { return new Date(t).toISOString(); } };
+  var fmtDev = function (s) { var n = normDev(s); return n.length === 12 ? n.match(/.{4}/g).join('-') : String(s || '').trim(); };
+  var toast = function (t) { var e = document.createElement('div'); e.className = 'toast'; e.textContent = t; document.body.appendChild(e); setTimeout(function () { e.remove(); }, 2200); };
+  function copy(t) {
+    var fb = function () { var a = document.createElement('textarea'); a.value = t; a.style.position = 'fixed'; a.style.opacity = '0'; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); } catch (e) { /* */ } a.remove(); };
+    try { if (navigator.clipboard) navigator.clipboard.writeText(t).catch(fb); else fb(); } catch (e) { fb(); }
+    toast('📋 کپی شد');
+  }
 
-  /** همان قالب برنامه: ۸ بایت داده + ۶۴ بایت امضای Ed25519 روی «داده + Device ID» */
+  /* ================= کد فعال‌سازی (همان قالب برنامه) ================= */
+  var licMsg = function (dev, p) { return enc.encode('TRAPO-LIC-1|' + normDev(dev) + '|' + hex(p)); };
   function makeCode(sk, dev, tier, mask, durId, now) {
-    var d = DUR[durId], t = now || Date.now();
+    var d = DUR[durId], t = now || NOW();
     var expMin = d.life ? 0 : Math.ceil((t + d.ms - EPOCH) / 60000);
     var m = tier === 3 ? ALL_MASK : mask & ALL_MASK;
     var p = new Uint8Array(8), r = new Uint8Array(1); crypto.getRandomValues(r);
     p[0] = (3 << 6) | ((tier & 3) << 4) | ((durId & 7) << 1);
     p[1] = m & 255; p[2] = (expMin >>> 24) & 255; p[3] = (expMin >>> 16) & 255; p[4] = (expMin >>> 8) & 255; p[5] = expMin & 255;
     p[6] = (m >>> 8) & 255; p[7] = r[0];
-    var sig = NACL.sign.detached(licMsg(dev, p), sk);
-    var all = new Uint8Array(72); all.set(p); all.set(sig, 8);
+    var all = new Uint8Array(72); all.set(p); all.set(NACL.sign.detached(licMsg(dev, p), sk), 8);
     return 'TRP1-' + b32enc(all).match(/.{1,8}/g).join('-');
   }
   function parseCode(code, dev) {
     var s = String(code || '').toUpperCase().replace(/[^0-9A-Z]/g, '');
     if (s.length === 120 && s.indexOf('TRP1') === 0) s = s.slice(4);
-    if (s.length !== 116) return { ok: false, err: 'قالب کد درست نیست (طول)' };
+    if (s.length !== 116) return { ok: false, err: 'قالب کد درست نیست (کد ناقص کپی شده)' };
     var all = b32dec(s, 72); if (!all) return { ok: false, err: 'قالب کد درست نیست' };
     var p = all.slice(0, 8), sig = all.slice(8), msg = licMsg(dev, p);
-    if (!PUBKEYS.some(function (k) { return NACL.sign.detached.verify(msg, sig, b64bytes(k)); })) return { ok: false, err: 'امضا برای این Device ID معتبر نیست' };
+    if (!PUBKEYS.some(function (k) { return NACL.sign.detached.verify(msg, sig, b64bytes(k)); })) return { ok: false, err: 'این کد برای این Device ID نیست، یا یک نویسه‌اش تغییر کرده است' };
     var tier = (p[0] >> 4) & 3, durId = (p[0] >> 1) & 7, mask = tier === 3 ? ALL_MASK : p[1] | (p[6] << 8);
     var expMin = ((p[2] << 24) >>> 0) + (p[3] << 16) + (p[4] << 8) + p[5], d = DUR[durId] || DUR[1];
     return { ok: true, tier: tier, mask: mask, durId: durId, life: !!d.life, exp: d.life ? 0 : EPOCH + expMin * 60000 };
   }
 
-  /* ---------- دوره‌ها ---------- */
+  /* ================= دوره‌ها (از فایل‌های برنامه) ================= */
   var AC = window.ACADEMY_COURSES || {};
-  var list = Object.keys(AC).map(function (k) { return AC[k]; }).filter(function (c) { return c && c.id; })
-    .map(function (c) { return { id: c.id, fa: c.nameFa, sub: c.subjectFa || '', bit: c.bitFlag || c.bit, color: c.color || '#3b5bdb', icon: c.icon || '📘', order: c.order || 99 }; })
+  var COURSES = Object.keys(AC).map(function (k) { return AC[k]; }).filter(function (c) { return c && c.id; })
+    .map(function (c) { return { id: c.id, fa: c.nameFa, sub: c.subjectFa || '', bit: c.bitFlag || c.bit, color: c.color || '#4f46e5', icon: c.icon || '📘', order: c.order || 99 }; })
     .sort(function (a, b) { return a.order - b.order; });
-  var names = function (mask) { return mask === ALL_MASK ? 'همه دوره‌ها (فعلی و آینده)' : list.filter(function (c) { return mask & c.bit; }).map(function (c) { return c.fa; }).join('، ') || ('bitmask ' + mask); };
+  function maskNames(mask) {
+    if ((mask & ALL_MASK) === ALL_MASK) return 'همه دوره‌ها (فعلی و آینده)';
+    var known = COURSES.filter(function (c) { return mask & c.bit; }).map(function (c) { return c.fa; });
+    var unk = 0; COURSES.forEach(function (c) { unk |= c.bit; }); unk = mask & ~unk;
+    if (unk) known.push('دوره با بیت ' + unk);
+    return known.join('، ') || '—';
+  }
 
-  /* ---------- کلید ---------- */
-  var SK = null, $ = function (id) { return document.getElementById(id); };
-  function setKey(text, remember) {
+  /* ================= گاوصندوق رمزشده ================= */
+  var KEY = null, BOX = null, DATA = null, SK = null;
+  async function deriveKey(pass, salt, iter) {
+    var base = await crypto.subtle.importKey('raw', enc.encode(String(pass).normalize('NFC')), 'PBKDF2', false, ['deriveKey']);
+    return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: salt, iterations: iter, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, false, ['encrypt', 'decrypt']);
+  }
+  async function sealWith(key, salt, iter, obj) {
+    var iv = crypto.getRandomValues(new Uint8Array(12));
+    var ct = new Uint8Array(await crypto.subtle.encrypt({ name: 'AES-GCM', iv: iv, additionalData: enc.encode(AAD) }, key, enc.encode(JSON.stringify(obj))));
+    return { v: 1, kdf: 'PBKDF2-SHA256', iter: iter, salt: b64of(salt), iv: b64of(iv), ct: b64of(ct) };
+  }
+  async function openBox(key, box) {
+    var pt = await crypto.subtle.decrypt({ name: 'AES-GCM', iv: b64bytes(box.iv), additionalData: enc.encode(AAD) }, key, b64bytes(box.ct));
+    return JSON.parse(dec.decode(pt));
+  }
+  var readVault = function () { try { return JSON.parse(localStorage.getItem(VAULT_KEY) || 'null'); } catch (e) { return null; } };
+  var saving = Promise.resolve();
+  function save() {
+    // ذخیره پشت‌سرهم (بدون هم‌پوشانی)؛ هر بار IV تازه
+    saving = saving.then(async function () {
+      var box = await sealWith(KEY, b64bytes(BOX.salt), BOX.iter, DATA);
+      localStorage.setItem(VAULT_KEY, JSON.stringify(box)); BOX = box;
+    }).catch(function (e) { console.error(e); toast('⚠️ ذخیره نشد'); });
+    return saving;
+  }
+  function parseKeyFile(text) {
     var m = /TRAPO-ADMIN-KEY-1\s+([A-Za-z0-9+/=]{80,})/.exec(String(text || ''));
-    if (!m) return keyMsg('فایل کلید معتبر نیست.', false);
-    var sk; try { sk = b64bytes(m[1]); } catch (e) { return keyMsg('فایل کلید خراب است.', false); }
-    if (sk.length !== 64) return keyMsg('فایل کلید خراب است.', false);
+    if (!m) return { err: 'این فایل کلید مدیر تراپو نیست.' };
+    var sk; try { sk = b64bytes(m[1]); } catch (e) { return { err: 'فایل کلید خراب است.' }; }
+    if (sk.length !== 64) return { err: 'فایل کلید خراب است.' };
     var pub = b64of(NACL.sign.keyPair.fromSecretKey(sk).publicKey);
-    if (PUBKEYS.indexOf(pub) < 0) return keyMsg('این کلید با کلید داخل برنامه جور نیست؛ کدهایش در برنامه پذیرفته نمی‌شوند.', false);
-    SK = sk;
-    try { if (remember) localStorage.setItem('trapo_admin_key', 'TRAPO-ADMIN-KEY-1\n' + m[1]); } catch (e) { /* */ }
-    keyMsg('✓ کلید مدیر بارگذاری شد و با برنامه جور است.', true);
-    $('main').classList.remove('hide'); $('keyLoad').classList.add('hide'); $('keyForget').classList.remove('hide');
+    if (PUBKEYS.indexOf(pub) < 0) return { err: 'این کلید با کلید داخل برنامه جور نیست؛ کدهایش پذیرفته نمی‌شوند.' };
+    return { sk: m[1] };
   }
-  function keyMsg(t, ok) { var e = $('keyState'); e.textContent = t; e.className = 'msg ' + (ok ? 'ok' : 'bad'); }
-  $('keyFile').onchange = function (e) { var f = e.target.files[0]; if (f) f.text().then(function (t) { setKey(t, $('keyRemember').checked); }); };
-  $('forget').onclick = function () { try { localStorage.removeItem('trapo_admin_key'); } catch (e) { /* */ } location.reload(); };
-  try { var saved = localStorage.getItem('trapo_admin_key'); if (saved) setKey(saved, false); } catch (e) { /* */ }
+  function newData(skB64) { return { v: 1, sk: skB64, createdAt: NOW(), buyers: {}, settings: { lockMin: 15, brand: 'آکادمی بالینی تراپو', support: '' } }; }
+  async function enter(key, box, data) {
+    KEY = key; BOX = box; DATA = data;
+    DATA.settings = Object.assign({ lockMin: 15, brand: 'آکادمی بالینی تراپو', support: '' }, DATA.settings || {});
+    DATA.buyers = DATA.buyers || {};
+    SK = b64bytes(DATA.sk);
+    try { localStorage.removeItem(LEGACY_KEY); localStorage.removeItem(FAIL_KEY); } catch (e) { /* */ } // کلید ساده قدیمی پاک می‌شود
+    show('app'); bump(); renderAll();
+  }
+  function lock() {
+    if (SK) SK.fill(0);
+    KEY = null; DATA = null; SK = null;
+    ['iMsg', 'iName', 'iContact', 'iDev', 'iPrice', 'iNote', 'cCode', 'cDev', 'lPass', 'stOld', 'stNew', 'stNew2'].forEach(function (id) { var e = $(id); if (e) e.value = ''; });
+    $('iOut').classList.add('hide'); $('iReady').textContent = ''; $('bList').innerHTML = '';
+    show(readVault() ? 'lock' : 'setup');
+  }
+  function show(which) { ['setup', 'lock', 'app'].forEach(function (k) { $(k).classList.toggle('hide', k !== which); }); if (which === 'lock') setTimeout(function () { $('lPass').focus(); }, 30); }
 
-  /* ---------- فرم ---------- */
-  var st = { dev: '', sel: {}, tier: 1, dur: 1 };
-  function draw() {
-    $('courses').innerHTML = list.map(function (c) {
-      var on = st.tier === 3 || st.sel[c.id];
-      return '<label class="chip ' + (on ? 'on' : '') + '" style="--cc:' + c.color + '"><input type="checkbox" data-c="' + c.id + '"' + (on ? ' checked' : '') + (st.tier === 3 ? ' disabled' : '') + '> ' + c.icon + ' <b>' + c.fa + '</b> <span class="muted">' + c.sub + '</span></label>';
-    }).join('');
-    var mk = mask();
-    $('maskInfo').textContent = 'bitmask: 0x' + mk.toString(16).toUpperCase().padStart(4, '0') + (st.tier === 3 ? ' (all courses, current & future)' : '');
-    $('tiers').innerHTML = [1, 2, 3].map(function (t) { return '<button data-t="' + t + '" class="' + (st.tier === t ? 'on' : '') + '">' + TIERS[t] + '</button>'; }).join('');
-    $('durs').innerHTML = DUR.map(function (d) { return '<button data-d="' + d.id + '" class="' + (st.dur === d.id ? 'on' : '') + '">' + d.fa + '</button>'; }).join('');
+  /* ---------- قفل خودکار ---------- */
+  var idleT = null;
+  function bump() { clearTimeout(idleT); if (DATA) idleT = setTimeout(function () { lock(); toast('🔒 به‌خاطر بی‌کاری قفل شد'); }, (DATA.settings.lockMin || 15) * 60000); }
+  ['pointerdown', 'keydown', 'wheel', 'touchstart'].forEach(function (ev) { document.addEventListener(ev, function () { if (DATA) bump(); }, { passive: true }); });
+
+  /* ---------- راه‌اندازی ---------- */
+  var setupSk = null;
+  function setupMsg(id, t, cls) { $(id).innerHTML = t ? '<div class="msg ' + cls + '">' + esc(t) + '</div>' : ''; }
+  $('sKeyFile').onchange = function (e) {
+    var f = e.target.files[0]; if (!f) return;
+    f.text().then(function (t) { var r = parseKeyFile(t); setupSk = r.sk || null; setupMsg('sKeyMsg', r.err || '✓ کلید درست است و با برنامه جور است.', r.err ? 'bad' : 'ok'); });
+  };
+  $('sGo').onclick = async function () {
+    var p = $('sPass').value, p2 = $('sPass2').value;
+    if (!setupSk) return setupMsg('sErr', 'اول فایل کلید را انتخاب کن.', 'bad');
+    if (p.length < 8) return setupMsg('sErr', 'رمز حداقل ۸ نویسه باشد.', 'bad');
+    if (p !== p2) return setupMsg('sErr', 'رمز و تکرارش یکی نیستند.', 'bad');
+    $('sGo').disabled = true;
+    var salt = crypto.getRandomValues(new Uint8Array(16)), key = await deriveKey(p, salt, KDF_ITER), data = newData(setupSk);
+    var box = await sealWith(key, salt, KDF_ITER, data);
+    localStorage.setItem(VAULT_KEY, JSON.stringify(box));
+    setupSk = null; $('sPass').value = $('sPass2').value = ''; $('sGo').disabled = false;
+    await enter(key, box, data);
+    toast('🔐 گاوصندوق ساخته شد');
+  };
+  // کلید ساده‌ای که نسخه قبلی پنل نگه داشته بود: خودکار برای راه‌اندازی استفاده می‌شود و بعد پاک می‌شود
+  try { var legacy = localStorage.getItem(LEGACY_KEY); if (legacy) { var lr = parseKeyFile(legacy); if (lr.sk) { setupSk = lr.sk; setupMsg('sKeyMsg', '✓ کلید ذخیره‌شده نسخه قبلی پنل پیدا شد؛ فقط رمز را انتخاب کن.', 'ok'); } } } catch (e) { /* */ }
+
+  /* ---------- ورود ---------- */
+  async function tryUnlock() {
+    var box = readVault(); if (!box) return show('setup');
+    var fails = +(localStorage.getItem(FAIL_KEY) || 0);
+    var wait = fails >= 5 ? Math.min(60, Math.pow(2, fails - 4)) : 0;
+    $('lGo').disabled = true;
+    try {
+      if (wait) { setupMsg('lErr', 'چند بار اشتباه شد؛ ' + nf(wait) + ' ثانیه صبر…', 'warn'); await new Promise(function (r) { setTimeout(r, wait * 1000); }); }
+      var key = await deriveKey($('lPass').value, b64bytes(box.salt), box.iter || KDF_ITER);
+      var data = await openBox(key, box);
+      $('lPass').value = ''; setupMsg('lErr', '');
+      await enter(key, box, data);
+    } catch (e) {
+      localStorage.setItem(FAIL_KEY, String(fails + 1));
+      setupMsg('lErr', 'رمز اشتباه است.', 'bad'); $('lPass').value = ''; $('lPass').focus();
+    } finally { $('lGo').disabled = false; }
   }
-  function mask() { if (st.tier === 3) return ALL_MASK; var m = 0; list.forEach(function (c) { if (st.sel[c.id]) m |= c.bit; }); return m; }
-  $('courses').onchange = function (e) { var c = e.target.dataset.c; if (c) { st.sel[c] = e.target.checked; draw(); } };
-  $('tiers').onclick = function (e) { var b = e.target.closest('[data-t]'); if (b) { st.tier = +b.dataset.t; draw(); } };
-  $('durs').onclick = function (e) { var b = e.target.closest('[data-d]'); if (b) { st.dur = +b.dataset.d; draw(); } };
-  $('order').oninput = function () {
-    var t = $('order').value, info = [];
-    var o = /TRAPO-ORDER:([0-9A-Z-]{12,16}):(\d):(\d+):(\d)/i.exec(t);
-    if (o) {
-      st.dev = o[1]; st.tier = +o[2] || 1; st.dur = +o[4];
-      st.sel = {}; list.forEach(function (c) { if (+o[3] & c.bit) st.sel[c.id] = true; });
-      info.push('✓ سفارش خوانده شد: ' + names(+o[3]) + ' · ' + TIERS[st.tier] + ' · ' + DUR[st.dur].fa);
-    } else {
-      var d = /([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4})/i.exec(t);
-      if (d) st.dev = d[1];
-    }
-    info.unshift(st.dev ? 'Device ID: ' + fmtDev(st.dev) : 'Device ID پیدا نشد.');
-    $('orderInfo').textContent = info.join(' — ');
-    draw();
+  $('lGo').onclick = tryUnlock;
+  $('lPass').onkeydown = function (e) { if (e.key === 'Enter') tryUnlock(); };
+  $('lReset').onclick = function () {
+    if (prompt('برای پاک کردن گاوصندوق و راه‌اندازی دوباره، کلمه «پاک» را بنویس:') !== 'پاک') return;
+    localStorage.removeItem(VAULT_KEY); localStorage.removeItem(FAIL_KEY); show('setup');
   };
-  $('gen').onclick = function () {
-    var err = $('genErr'); err.classList.add('hide');
-    var fail = function (t) { err.textContent = t; err.classList.remove('hide'); };
-    if (!SK) return fail('اول کلید مدیر را بارگذاری کنید.');
-    if (normDev(st.dev).length !== 12) return fail('Device ID باید ۱۲ نویسه باشد (XXXX-XXXX-XXXX). متن سفارش مشتری را بچسبانید.');
-    var mk = mask(); if (!mk) return fail('دست‌کم یک دوره انتخاب کنید.');
-    var dev = fmtDev(st.dev), code = makeCode(SK, dev, st.tier, mk, st.dur), g = parseCode(code, dev);
+  $('lockNow').onclick = function () { lock(); };
+  document.addEventListener('visibilitychange', function () { if (document.hidden && DATA && DATA.settings.lockMin <= 5) lock(); });
+
+  /* ================= زبانه‌ها ================= */
+  $('tabs').onclick = function (e) {
+    var b = e.target.closest('[data-tab]'); if (!b) return;
+    document.querySelectorAll('.tab').forEach(function (x) { x.classList.toggle('on', x === b); });
+    document.querySelectorAll('[data-pane]').forEach(function (p) { p.classList.toggle('hide', p.dataset.pane !== b.dataset.tab); });
+    if (b.dataset.tab === 'buyers') renderBuyers();
+    if (b.dataset.tab === 'settings') renderSettings();
+    window.scrollTo(0, 0);
+  };
+  function goTab(t) { document.querySelector('.tab[data-tab="' + t + '"]').click(); }
+
+  /* ================= خواندن پیام سفارش ================= */
+  function parseOrder(text) {
+    var t = fa2en(text), o = {};
+    var m = /TRAPO-ORDER:([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}):(\d):(\d+):(\d)/i.exec(t);
+    if (m) { o.dev = m[1].toUpperCase(); o.tier = +m[2]; o.mask = +m[3]; o.dur = +m[4]; o.full = true; }
+    else { var d = /\b([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4})\b/i.exec(t); if (d) o.dev = d[1].toUpperCase(); }
+    var n = /نام\s*:\s*(.+)/.exec(text); if (n) { var nm = n[1].trim(); if (nm && nm !== '—' && nm !== '-') o.name = nm.slice(0, 80); }
+    var pr = /مبلغ\s*:\s*([\d,٬.\s]+)/.exec(t); if (pr) { var v = +pr[1].replace(/[^\d]/g, ''); if (v) o.price = v; }
+    var id = /(ORD-[0-9A-Z]{6})/i.exec(t); if (id) o.order = id[1].toUpperCase();
+    var dt = /تاریخ\s*:\s*(.+)/.exec(text); if (dt) o.orderDate = dt[1].trim().slice(0, 60);
+    return o;
+  }
+  var IS = { dev: '', name: '', contact: '', price: '', sel: {}, tier: 1, dur: 1, order: '', orderDate: '', note: '' };
+  function issueReset() { IS = { dev: '', name: '', contact: '', price: '', sel: {}, tier: 1, dur: 1, order: '', orderDate: '', note: '' }; $('iMsg').value = ''; $('iParse').innerHTML = ''; $('iOut').classList.add('hide'); syncIssueInputs(); renderIssue(); }
+  function syncIssueInputs() { $('iName').value = IS.name; $('iContact').value = IS.contact; $('iDev').value = IS.dev; $('iPrice').value = IS.price ? String(IS.price) : ''; $('iNote').value = IS.note; }
+  $('iMsg').oninput = function () {
+    var t = $('iMsg').value.trim();
+    if (!t) { $('iParse').innerHTML = ''; return; }
+    var o = parseOrder(t), got = [];
+    if (o.dev) { IS.dev = o.dev; got.push('دستگاه'); }
+    if (o.name) { IS.name = o.name; got.push('نام'); }
+    if (o.full) { IS.tier = o.tier >= 1 && o.tier <= 3 ? o.tier : 1; IS.dur = DUR[o.dur] ? o.dur : 1; IS.sel = {}; COURSES.forEach(function (c) { if (o.mask & c.bit) IS.sel[c.id] = true; }); got.push('دوره‌ها، پلن و مدت'); }
+    if (o.price) { IS.price = o.price; got.push('مبلغ'); }
+    IS.order = o.order || ''; IS.orderDate = o.orderDate || '';
+    syncIssueInputs(); renderIssue();
+    var html = got.length ? '<div class="msg ok">✓ از پیام خوانده شد: ' + esc(got.join('، ')) + (o.order ? ' • سفارش ' + esc(o.order) : '') + '</div>' : '<div class="msg warn">پیام سفارش شناخته نشد؛ مشخصات را پایین دستی پر کن.</div>';
+    if (o.dev && !o.full) html += '<div class="msg warn">پیام کامل نبود؛ دوره‌ها، پلن و مدت را خودت انتخاب کن.</div>';
+    var dupe = o.order && findOrder(o.order);
+    if (dupe) html += '<div class="msg warn">⚠️ برای این سفارش (' + esc(o.order) + ') قبلاً در ' + esc(fdt(dupe.c.issuedAt)) + ' کد صادر شده است. <button class="btn btn--sm" data-reuse="' + esc(o.order) + '">نمایش همان پیام</button></div>';
+    $('iParse').innerHTML = html;
+  };
+  $('iParse').onclick = function (e) { var b = e.target.closest('[data-reuse]'); if (b) { var f = findOrder(b.dataset.reuse); if (f) showReady(f.b, f.c); } };
+  $('iPaste').onclick = function () {
+    if (!navigator.clipboard || !navigator.clipboard.readText) return toast('مرورگر اجازه نداد؛ با Ctrl+V بچسبان');
+    navigator.clipboard.readText().then(function (t) { $('iMsg').value = t; $('iMsg').oninput(); }).catch(function () { toast('مرورگر اجازه نداد؛ با Ctrl+V بچسبان'); });
+  };
+  $('iClear').onclick = issueReset;
+  $('iNew').onclick = function () { issueReset(); window.scrollTo(0, 0); $('iMsg').focus(); };
+  ['iName', 'iContact', 'iDev', 'iPrice', 'iNote'].forEach(function (id) {
+    $(id).addEventListener('input', function () {
+      IS.name = $('iName').value; IS.contact = $('iContact').value; IS.dev = $('iDev').value; IS.note = $('iNote').value;
+      IS.price = +fa2en($('iPrice').value).replace(/[^\d]/g, '') || '';
+      if (id === 'iDev') renderBuyerNote();
+    });
+  });
+  function issueMask() { if (IS.tier === 3) return ALL_MASK; var m = 0; COURSES.forEach(function (c) { if (IS.sel[c.id]) m |= c.bit; }); return m; }
+  function renderIssue() {
+    $('iCourses').innerHTML = COURSES.map(function (c) {
+      var on = IS.tier === 3 || IS.sel[c.id];
+      return '<label class="chip ' + (on ? 'on' : '') + '" style="--cc:' + c.color + '"><input type="checkbox" data-c="' + c.id + '"' + (on ? ' checked' : '') + (IS.tier === 3 ? ' disabled' : '') + '> ' + c.icon + ' <b>' + esc(c.fa) + '</b> <span class="muted">' + esc(c.sub) + '</span></label>';
+    }).join('');
+    $('iTiers').innerHTML = [1, 2, 3].map(function (t) { return '<button data-t="' + t + '" class="' + (IS.tier === t ? 'on' : '') + '">' + TIERS[t].icon + ' ' + TIERS[t].fa + '</button>'; }).join('');
+    $('iDurs').innerHTML = DUR.map(function (d) { return '<button data-d="' + d.id + '" class="' + (IS.dur === d.id ? 'on' : '') + '">' + d.fa + '</button>'; }).join('');
+    renderBuyerNote();
+  }
+  function renderBuyerNote() {
+    var b = DATA && DATA.buyers[normDev(IS.dev)];
+    $('iBuyerNote').innerHTML = b ? '<div class="msg info">👤 خریدار قبلی: <b>' + esc(b.name || 'بی‌نام') + '</b> • ' + nf(b.codes.length) + ' کد قبلی • کد تازه با اشتراک‌های قبلی‌اش جمع می‌شود.</div>' : '';
+  }
+  $('iCourses').onchange = function (e) { var c = e.target.dataset.c; if (c) { IS.sel[c] = e.target.checked; renderIssue(); } };
+  $('iTiers').onclick = function (e) { var b = e.target.closest('[data-t]'); if (b) { IS.tier = +b.dataset.t; renderIssue(); } };
+  $('iDurs').onclick = function (e) { var b = e.target.closest('[data-d]'); if (b) { IS.dur = +b.dataset.d; renderIssue(); } };
+
+  /* ================= صدور و ثبت ================= */
+  $('iGo').onclick = function () {
+    var fail = function (t) { $('iErr').innerHTML = '<div class="msg bad">' + esc(t) + '</div>'; };
+    $('iErr').innerHTML = '';
+    if (!SK) return fail('پنل قفل است.');
+    var dev = normDev(IS.dev);
+    if (dev.length !== 12) return fail('Device ID باید ۱۲ نویسه باشد (مثل ABCD-EFGH-JKMN). پیام کامل خریدار را بچسبان.');
+    var mask = issueMask(); if (!mask) return fail('دست‌کم یک دوره انتخاب کن.');
+    var devF = fmtDev(dev), now = NOW();
+    var code = makeCode(SK, devF, IS.tier, mask, IS.dur, now), g = parseCode(code, devF);
     if (!g.ok) return fail('خطای داخلی در ساخت کد: ' + g.err);
-    var receipt = [
-      '🎓 رسید فعال‌سازی ' + BRAND, '━━━━━━━━━━━━━━',
-      '📱 Device ID: ' + dev, '📚 دوره‌ها: ' + names(mk), '💎 پلن: ' + TIERS[st.tier], '⏳ مدت: ' + DUR[st.dur].fa,
-      '📅 ' + (g.life ? 'اعتبار: دائمی ♾️' : 'معتبر تا: ' + fdt(g.exp)), '',
-      '🔑 کد فعال‌سازی (کامل کپی کنید):', code, '━━━━━━━━━━━━━━',
-      'راهنما: در برنامه «🔑 کد فعال‌سازی» را بزنید و کد بالا را کامل بچسبانید.',
-      '⚠️ این کد فقط روی همین دستگاه کار می‌کند و با کدهای قبلی شما جمع می‌شود.'
-    ].join('\n');
-    $('code').textContent = code; $('receipt').value = receipt; $('out').classList.remove('hide');
-    copy(receipt);
+    var b = DATA.buyers[dev] || (DATA.buyers[dev] = { dev: devF, name: '', contact: '', note: '', firstAt: now, codes: [] });
+    if (IS.name) b.name = IS.name.trim().slice(0, 80);
+    if (IS.contact) b.contact = IS.contact.trim().slice(0, 80);
+    var c = { code: code, tier: IS.tier, mask: mask, dur: IS.dur, issuedAt: now, exp: g.exp, life: g.life, price: +IS.price || 0, order: IS.order || '', orderDate: IS.orderDate || '', note: (IS.note || '').trim().slice(0, 160) };
+    b.codes.push(c);
+    save();
+    showReady(b, c);
+    copy(readyText(b, c));
   };
-  function copy(t) { (navigator.clipboard ? navigator.clipboard.writeText(t) : Promise.reject()).catch(function () { var a = document.createElement('textarea'); a.value = t; document.body.appendChild(a); a.select(); try { document.execCommand('copy'); } catch (e) { /* */ } a.remove(); }); }
-  $('cpReceipt').onclick = function () { copy($('receipt').value); };
-  $('cpCode').onclick = function () { copy($('code').textContent); };
-  $('chk').onclick = function () {
-    var g = parseCode($('chkCode').value, $('chkDev').value || st.dev);
-    $('chkOut').innerHTML = g.ok
-      ? '<div class="msg ok">✓ معتبر — ' + TIERS[g.tier] + ' · ' + names(g.mask) + ' · ' + (g.life ? 'دائمی' : (g.exp > Date.now() ? 'فعال تا ' : 'منقضی در ') + fdt(g.exp)) + '</div>'
-      : '<div class="msg bad">✗ ' + g.err + '</div>';
+  function readyText(b, c) {
+    var S = DATA.settings;
+    return [
+      'سلام' + (b.name ? ' ' + b.name + ' عزیز' : '') + ' 🌷',
+      'اشتراک شما در «' + S.brand + '» آماده است ✅',
+      '',
+      '📚 دوره‌ها: ' + maskNames(c.mask),
+      '💎 پلن: ' + TIERS[c.tier].fa,
+      '⏳ مدت: ' + DUR[c.dur].fa,
+      '📅 ' + (c.life ? 'اعتبار: دائمی ♾️' : 'معتبر تا: ' + fdate(c.exp)),
+      c.order ? '🔢 شماره سفارش: ' + c.order : null,
+      '📱 دستگاه: ' + b.dev,
+      '',
+      '🔑 کد فعال‌سازی (کامل کپی کنید):',
+      c.code,
+      '',
+      'راهنما: برنامه را باز کنید ← «🔑 کد فعال‌سازی» ← کد بالا را بچسبانید ← «فعال‌سازی».',
+      '⚠️ این کد فقط روی همان دستگاهی کار می‌کند که سفارش از آن ثبت شده و با اشتراک‌های قبلی شما جمع می‌شود.',
+      S.support ? '💬 ' + S.support : null
+    ].filter(function (x) { return x !== null; }).join('\n');
+  }
+  var LAST = null;
+  function showReady(b, c) {
+    LAST = { b: b, c: c };
+    $('iReady').textContent = readyText(b, c);
+    $('iOut').classList.remove('hide');
+    setTimeout(function () { $('iOut').scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 30);
+  }
+  $('iCopy').onclick = function () { if (LAST) copy(readyText(LAST.b, LAST.c)); };
+  $('iCopyCode').onclick = function () { if (LAST) copy(LAST.c.code); };
+  function findOrder(id) {
+    if (!DATA || !id) return null;
+    for (var k in DATA.buyers) { var b = DATA.buyers[k]; for (var i = 0; i < b.codes.length; i++) if (b.codes[i].order === id) return { b: b, c: b.codes[i] }; }
+    return null;
+  }
+
+  /* ================= وضعیت هر خریدار (همان منطق برنامه) ================= */
+  function buyerState(b) {
+    var now = NOW(), per = {}, ids = COURSES.map(function (c) { return c.id; });
+    COURSES.forEach(function (c) { per[c.id] = { tier: 0, exp: -1, life: false, start: null }; });
+    b.codes.forEach(function (x) {
+      var on = x.life || x.exp > now;
+      COURSES.forEach(function (c) {
+        if (!(x.tier === 3 || (x.mask & c.bit))) return;
+        var a = per[c.id];
+        if (on) { a.tier = Math.max(a.tier, x.tier); if (x.life) a.life = true; else a.exp = Math.max(a.exp, x.exp); }
+        a.start = a.start == null ? x.issuedAt : Math.min(a.start, x.issuedAt);
+        a.lastExp = Math.max(a.lastExp || 0, x.life ? Infinity : x.exp);
+      });
+    });
+    var active = ids.filter(function (id) { return per[id].tier > 0; });
+    var exps = active.filter(function (id) { return !per[id].life; }).map(function (id) { return per[id].exp; });
+    var soon = exps.length ? Math.min.apply(null, exps) : null;
+    var status = !active.length ? 'expired' : (soon !== null && soon - now < WARN_DAYS * 864e5 ? 'soon' : (exps.length ? 'active' : 'life'));
+    var lastAt = Math.max.apply(null, b.codes.map(function (x) { return x.issuedAt; }));
+    var paid = b.codes.reduce(function (s, x) { return s + (x.price || 0); }, 0);
+    return { per: per, active: active, soon: soon, status: status, lastAt: lastAt, paid: paid };
+  }
+  function remain(t) {
+    var ms = t - NOW();
+    if (ms <= 0) return 'تمام شده';
+    var d = Math.floor(ms / 864e5), h = Math.floor((ms % 864e5) / 36e5), m = Math.floor((ms % 36e5) / 6e4);
+    if (d >= 3) return nf(d) + ' روز';
+    if (d >= 1) return nf(d) + ' روز و ' + nf(h) + ' ساعت';
+    if (h >= 1) return nf(h) + ' ساعت و ' + nf(m) + ' دقیقه';
+    return nf(Math.max(1, m)) + ' دقیقه';
+  }
+  var STATUS = { active: ['b-ok', '● فعال'], soon: ['b-warn', '⏳ رو به اتمام'], expired: ['b-bad', '○ منقضی'], life: ['b-life', '♾️ دائمی'] };
+
+  /* ================= صفحه خریداران ================= */
+  var BF = { q: '', st: 'all', sort: 'exp', open: {} };
+  function renderBuyers() {
+    if (!DATA) return;
+    var list = Object.keys(DATA.buyers).map(function (k) { var b = DATA.buyers[k]; return { b: b, s: buyerState(b) }; });
+    var now = NOW(), month = now - 30 * 864e5;
+    var cnt = { all: list.length, active: 0, soon: 0, expired: 0 }, rev = 0, rev30 = 0, n30 = 0;
+    list.forEach(function (x) {
+      if (x.s.status === 'expired') cnt.expired++; else { cnt.active++; if (x.s.status === 'soon') cnt.soon++; }
+      x.b.codes.forEach(function (c) { rev += c.price || 0; if (c.issuedAt >= month) { rev30 += c.price || 0; n30++; } });
+    });
+    var stat = function (k, n, t) { return '<div class="stat ' + (BF.st === k ? 'on' : '') + '" data-st="' + k + '"><b>' + nf(n) + '</b><span>' + t + '</span></div>'; };
+    $('bStats').innerHTML = stat('all', cnt.all, 'همه خریداران') + stat('active', cnt.active, 'اشتراک فعال') + stat('soon', cnt.soon, 'کمتر از ' + nf(WARN_DAYS) + ' روز مانده') + stat('expired', cnt.expired, 'منقضی‌شده')
+      + '<div class="stat" style="cursor:default"><b>' + nf(rev30) + '</b><span>فروش ۳۰ روز اخیر (تومان)، تعداد کد: ' + nf(n30) + '</span></div>'
+      + '<div class="stat" style="cursor:default"><b>' + nf(rev) + '</b><span>کل فروش ثبت‌شده (تومان)</span></div>';
+    var q = fa2en(BF.q).trim().toLowerCase();
+    list = list.filter(function (x) {
+      if (BF.st === 'active' && x.s.status === 'expired') return false;
+      if (BF.st === 'soon' && x.s.status !== 'soon') return false;
+      if (BF.st === 'expired' && x.s.status !== 'expired') return false;
+      if (!q) return true;
+      var hay = [x.b.name, x.b.dev, x.b.contact, x.b.note].concat(x.b.codes.map(function (c) { return c.order + ' ' + c.note; })).join(' ').toLowerCase();
+      return hay.indexOf(q) >= 0 || normDev(hay).indexOf(normDev(q)) >= 0 && normDev(q).length >= 4;
+    });
+    list.sort(function (a, b) {
+      if (BF.sort === 'new') return b.s.lastAt - a.s.lastAt;
+      if (BF.sort === 'name') return String(a.b.name).localeCompare(String(b.b.name), 'fa');
+      var ka = a.s.status === 'expired' ? 9e15 : (a.s.soon == null ? 8e15 : a.s.soon), kb = b.s.status === 'expired' ? 9e15 : (b.s.soon == null ? 8e15 : b.s.soon);
+      return ka - kb;
+    });
+    if (!list.length) { $('bList').innerHTML = '<div class="empty">' + (cnt.all ? 'خریداری با این جست‌وجو یا فیلتر پیدا نشد.' : 'هنوز کدی صادر نکرده‌ای. از زبانه «صدور کد» شروع کن.') + '</div>'; return; }
+    $('bList').innerHTML = list.map(buyerCard).join('');
+  }
+  function buyerCard(x) {
+    var b = x.b, s = x.s, st = STATUS[s.status], k = normDev(b.dev);
+    var hue = parseInt(k.slice(0, 4), 36) % 360;
+    var sub = s.status === 'expired' ? 'آخرین اشتراک تمام شده' : (s.soon != null ? 'نزدیک‌ترین پایان: ' + remain(s.soon) : 'همه اشتراک‌ها دائمی');
+    var h = '<div class="buyer" data-dev="' + k + '"><div class="buyer__h" data-toggle="' + k + '">'
+      + '<div class="av" style="background:hsl(' + hue + ' 55% 48%)">' + esc((b.name || '؟').trim().charAt(0)) + '</div>'
+      + '<div class="buyer__n"><b>' + esc(b.name || 'بی‌نام') + '</b><small class="ltr" style="direction:ltr">' + esc(b.dev) + '</small>' + (b.contact ? ' <small>• ' + esc(b.contact) + '</small>' : '') + '</div>'
+      + '<span class="badge ' + st[0] + '">' + st[1] + '</span><span class="muted">' + sub + '</span></div>';
+    if (BF.open[k]) h += buyerBody(b, s);
+    return h + '</div>';
+  }
+  function buyerBody(b, s) {
+    var k = normDev(b.dev), now = NOW();
+    var cs = COURSES.map(function (c) {
+      var a = s.per[c.id];
+      if (!a.tier && a.start == null) return '<div class="cs" style="opacity:.55"><div class="cs__t"><span>' + c.icon + ' ' + esc(c.fa) + '</span><span class="badge b-mu">دمو (خریداری نشده)</span></div></div>';
+      if (!a.tier) return '<div class="cs"><div class="cs__t"><span>' + c.icon + ' ' + esc(c.fa) + '</span><span class="badge b-bad">منقضی</span></div><div class="muted">پایان: ' + (a.lastExp === Infinity ? '—' : esc(fdate(a.lastExp))) + '</div></div>';
+      var tot = a.life ? 1 : Math.max(1, a.exp - a.start), left = a.life ? 1 : Math.max(0, a.exp - now), pct = a.life ? 100 : Math.round(left / tot * 100);
+      var warn = !a.life && left < WARN_DAYS * 864e5;
+      return '<div class="cs" style="--cc:' + c.color + '"><div class="cs__t"><span>' + c.icon + ' ' + esc(c.fa) + '</span><span class="badge ' + (a.life ? 'b-life' : warn ? 'b-warn' : 'b-ok') + '">' + TIERS[a.tier].icon + ' ' + TIERS[a.tier].short + '</span></div>'
+        + '<div class="muted">' + (a.life ? 'دائمی ♾️' : 'مانده: <b>' + remain(a.exp) + '</b> • تا ' + esc(fdate(a.exp))) + '</div><div class="bar"><i style="width:' + pct + '%"></i></div></div>';
+    }).join('');
+    var rows = b.codes.slice().sort(function (x, y) { return y.issuedAt - x.issuedAt; }).map(function (c, i) {
+      var on = c.life || c.exp > now, idx = b.codes.indexOf(c);
+      return '<tr><td>' + esc(fdt(c.issuedAt)) + (c.order ? '<div class="muted ltr">' + esc(c.order) + '</div>' : '') + '</td><td>' + esc(maskNames(c.mask)) + '<div class="muted">' + TIERS[c.tier].fa + ' • ' + DUR[c.dur].fa + '</div>' + (c.note ? '<div class="muted">📝 ' + esc(c.note) + '</div>' : '') + '</td>'
+        + '<td>' + (c.life ? '<span class="badge b-life">دائمی</span>' : '<span class="badge ' + (on ? 'b-ok' : 'b-bad') + '">' + (on ? 'فعال • ' + remain(c.exp) : 'منقضی') + '</span><div class="muted">' + esc(fdate(c.exp)) + '</div>') + '</td>'
+        + '<td>' + (c.price ? nf(c.price) : '—') + '</td>'
+        + '<td><button class="btn btn--sm" data-cmsg="' + k + ':' + idx + '">📋 پیام</button> <button class="btn btn--sm" data-ccode="' + k + ':' + idx + '">کد</button></td></tr>';
+    }).join('');
+    return '<div class="buyer__b">'
+      + '<div class="cst">' + cs + '</div>'
+      + '<div class="row" style="margin-bottom:12px"><button class="btn btn--pr btn--sm" data-renew="' + k + '">🔁 تمدید / ارتقا / دوره تازه</button><button class="btn btn--sm" data-edit="' + k + '">✏️ ویرایش مشخصات</button><span class="muted">جمع پرداختی: ' + nf(s.paid) + ' تومان • اولین خرید: ' + esc(fdate(b.firstAt)) + '</span></div>'
+      + (b.note ? '<div class="msg info">📝 ' + esc(b.note) + '</div>' : '')
+      + '<div style="overflow-x:auto"><table class="codes"><thead><tr><th>صدور</th><th>دوره و پلن</th><th>وضعیت</th><th>مبلغ</th><th></th></tr></thead><tbody>' + rows + '</tbody></table></div>'
+      + '<div class="row" style="margin-top:10px"><button class="btn btn--bad btn--sm" data-del="' + k + '">حذف این خریدار از فهرست</button></div>'
+      + '</div>';
+  }
+  $('bStats').onclick = function (e) { var s = e.target.closest('[data-st]'); if (s) { BF.st = s.dataset.st; renderBuyers(); } };
+  $('bSearch').oninput = function () { BF.q = $('bSearch').value; renderBuyers(); };
+  $('bSort').onchange = function () { BF.sort = $('bSort').value; renderBuyers(); };
+  $('bList').onclick = function (e) {
+    var t;
+    if ((t = e.target.closest('[data-cmsg]'))) { var p = t.dataset.cmsg.split(':'), b = DATA.buyers[p[0]]; copy(readyText(b, b.codes[+p[1]])); return; }
+    if ((t = e.target.closest('[data-ccode]'))) { var q = t.dataset.ccode.split(':'); copy(DATA.buyers[q[0]].codes[+q[1]].code); return; }
+    if ((t = e.target.closest('[data-renew]'))) {
+      var rb = DATA.buyers[t.dataset.renew];
+      issueReset(); IS.dev = rb.dev; IS.name = rb.name || ''; IS.contact = rb.contact || '';
+      var last = rb.codes[rb.codes.length - 1]; if (last) { IS.tier = last.tier; IS.dur = last.dur; COURSES.forEach(function (c) { if (last.mask & c.bit) IS.sel[c.id] = true; }); }
+      syncIssueInputs(); renderIssue(); goTab('issue'); toast('مشخصات خریدار پر شد؛ پلن و مدت را انتخاب کن');
+      return;
+    }
+    if ((t = e.target.closest('[data-edit]'))) {
+      var eb = DATA.buyers[t.dataset.edit];
+      var nm = prompt('نام خریدار:', eb.name || ''); if (nm === null) return;
+      var ct = prompt('راه ارتباط (تلگرام / شماره):', eb.contact || ''); if (ct === null) return;
+      var nt = prompt('یادداشت خصوصی:', eb.note || ''); if (nt === null) return;
+      eb.name = nm.trim().slice(0, 80); eb.contact = ct.trim().slice(0, 80); eb.note = nt.trim().slice(0, 300);
+      save(); renderBuyers(); return;
+    }
+    if ((t = e.target.closest('[data-del]'))) {
+      var db = DATA.buyers[t.dataset.del];
+      if (!confirm('«' + (db.name || db.dev) + '» از فهرست حذف شود؟ (کدهایش در برنامه خریدار همچنان کار می‌کنند)')) return;
+      delete DATA.buyers[t.dataset.del]; save(); renderBuyers(); return;
+    }
+    if ((t = e.target.closest('[data-toggle]'))) { var k = t.dataset.toggle; BF.open[k] = !BF.open[k]; renderBuyers(); }
   };
-  draw();
-  window.TRAPO_ADMIN = { makeCode: makeCode, parseCode: parseCode }; // برای آزمون خودکار
+  setInterval(function () { if (DATA && !document.querySelector('[data-pane="buyers"]').classList.contains('hide')) renderBuyers(); }, 60000);
+
+  /* ================= بررسی کد ================= */
+  $('cGo').onclick = function () {
+    var code = $('cCode').value, dev = $('cDev').value, out = $('cOut');
+    var hit = null; if (DATA) for (var k in DATA.buyers) DATA.buyers[k].codes.forEach(function (c) { if (c.code.replace(/[^0-9A-Z]/g, '') === String(code).toUpperCase().replace(/[^0-9A-Z]/g, '')) hit = { b: DATA.buyers[k], c: c }; });
+    if (!dev && hit) dev = hit.b.dev;
+    if (!dev) { out.innerHTML = '<div class="msg warn">Device ID دستگاه خریدار را هم بنویس (این کد در فهرست خریداران نیست).</div>'; return; }
+    var g = parseCode(code, dev), now = NOW(), h = '';
+    if (!g.ok) h = '<div class="msg bad">✗ ' + esc(g.err) + '</div>' + (hit ? '<div class="msg info">این کد برای ' + esc(hit.b.name || 'بی‌نام') + ' با دستگاه ' + esc(hit.b.dev) + ' صادر شده؛ احتمالاً خریدار برنامه را روی دستگاه یا مرورگر دیگری باز کرده است.</div>' : '');
+    else h = '<div class="msg ' + (g.life || g.exp > now ? 'ok' : 'bad') + '">' + (g.life || g.exp > now ? '✓ معتبر و فعال' : '✓ معتبر ولی منقضی شده') + ' — ' + TIERS[g.tier].fa + ' • ' + esc(maskNames(g.mask)) + ' • ' + (g.life ? 'دائمی' : (g.exp > now ? 'مانده ' + remain(g.exp) + ' (تا ' + fdate(g.exp) + ')' : 'پایان در ' + fdate(g.exp))) + '</div>'
+      + (hit ? '<div class="msg info">👤 صادرشده برای ' + esc(hit.b.name || 'بی‌نام') + ' در ' + esc(fdt(hit.c.issuedAt)) + (hit.c.order ? ' • ' + esc(hit.c.order) : '') + '</div>' : '<div class="msg warn">این کد در فهرست خریداران این پنل نیست.</div>');
+    out.innerHTML = h;
+  };
+
+  /* ================= تنظیمات ================= */
+  function renderSettings() {
+    var S = DATA.settings;
+    $('stLock').innerHTML = [5, 15, 30, 60].map(function (m) { return '<button data-lm="' + m + '" class="' + (S.lockMin === m ? 'on' : '') + '">' + nf(m) + ' دقیقه</button>'; }).join('');
+    $('stBrand').value = S.brand; $('stSupport').value = S.support || '';
+  }
+  $('stLock').onclick = function (e) { var b = e.target.closest('[data-lm]'); if (b) { DATA.settings.lockMin = +b.dataset.lm; save(); renderSettings(); bump(); } };
+  $('stBrand').onchange = function () { DATA.settings.brand = $('stBrand').value.trim().slice(0, 60) || 'آکادمی بالینی تراپو'; save(); };
+  $('stSupport').onchange = function () { DATA.settings.support = $('stSupport').value.trim().slice(0, 120); save(); };
+  $('stExport').onclick = async function () {
+    await save();
+    var blob = new Blob([JSON.stringify({ type: 'trapo-admin-backup', at: NOW(), box: BOX })], { type: 'application/json' });
+    var a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = 'trapo-admin-backup-' + new Date().toISOString().slice(0, 10) + '.trapo';
+    document.body.appendChild(a); a.click(); a.remove(); setTimeout(function () { URL.revokeObjectURL(a.href); }, 2000);
+    $('stBkMsg').innerHTML = '<div class="msg ok">✓ فایل پشتیبان رمزشده دانلود شد. با رمز فعلی پنل باز می‌شود.</div>';
+  };
+  async function readBackup(file, pass) {
+    var o = JSON.parse(await file.text());
+    if (!o || o.type !== 'trapo-admin-backup' || !o.box) throw new Error('format');
+    var key = await deriveKey(pass, b64bytes(o.box.salt), o.box.iter || KDF_ITER);
+    return { key: key, box: o.box, data: await openBox(key, o.box) };
+  }
+  function mergeBuyers(into, from) {
+    var added = 0;
+    Object.keys(from || {}).forEach(function (k) {
+      var src = from[k], dst = into[k];
+      if (!dst) { into[k] = src; added += src.codes.length; return; }
+      ['name', 'contact', 'note'].forEach(function (f) { if (!dst[f] && src[f]) dst[f] = src[f]; });
+      dst.firstAt = Math.min(dst.firstAt || Infinity, src.firstAt || Infinity);
+      src.codes.forEach(function (c) { if (!dst.codes.some(function (x) { return x.code === c.code; })) { dst.codes.push(c); added++; } });
+    });
+    return added;
+  }
+  $('stImport').onchange = async function (e) {
+    var f = e.target.files[0]; e.target.value = ''; if (!f) return;
+    var p = prompt('رمز پنلی که این پشتیبان با آن ساخته شده:'); if (!p) return;
+    try { var r = await readBackup(f, p); var n = mergeBuyers(DATA.buyers, r.data.buyers); await save(); $('stBkMsg').innerHTML = '<div class="msg ok">✓ ' + nf(n) + ' کد از پشتیبان اضافه شد.</div>'; }
+    catch (err) { $('stBkMsg').innerHTML = '<div class="msg bad">فایل پشتیبان باز نشد (رمز اشتباه یا فایل خراب).</div>'; }
+  };
+  $('sBackup').onchange = async function (e) {
+    var f = e.target.files[0]; e.target.value = ''; if (!f) return;
+    var p = prompt('رمز پنلی که این پشتیبان با آن ساخته شده:'); if (!p) return;
+    try {
+      var r = await readBackup(f, p);
+      if (PUBKEYS.indexOf(b64of(NACL.sign.keyPair.fromSecretKey(b64bytes(r.data.sk)).publicKey)) < 0) throw new Error('key');
+      localStorage.setItem(VAULT_KEY, JSON.stringify(r.box)); await enter(r.key, r.box, r.data); toast('✓ پنل از پشتیبان بازیابی شد');
+    } catch (err) { setupMsg('sErr', 'پشتیبان باز نشد (رمز اشتباه یا فایل خراب).', 'bad'); }
+  };
+  $('stPass').onclick = async function () {
+    var msg = function (t, c) { $('stPassMsg').innerHTML = '<div class="msg ' + c + '">' + esc(t) + '</div>'; };
+    try { await openBox(await deriveKey($('stOld').value, b64bytes(BOX.salt), BOX.iter), BOX); } catch (e) { return msg('رمز فعلی اشتباه است.', 'bad'); }
+    var p = $('stNew').value; if (p.length < 8) return msg('رمز تازه حداقل ۸ نویسه باشد.', 'bad'); if (p !== $('stNew2').value) return msg('رمز تازه و تکرارش یکی نیستند.', 'bad');
+    var salt = crypto.getRandomValues(new Uint8Array(16));
+    KEY = await deriveKey(p, salt, KDF_ITER); BOX = { salt: b64of(salt), iter: KDF_ITER };
+    await save();
+    $('stOld').value = $('stNew').value = $('stNew2').value = '';
+    msg('✓ رمز عوض شد. پشتیبان‌های قبلی با رمز قبلی باز می‌شوند؛ یک پشتیبان تازه بگیر.', 'ok');
+  };
+  $('stWipe').onclick = function () {
+    if (prompt('همه داده‌های پنل از این مرورگر پاک می‌شود. برای تأیید کلمه «پاک» را بنویس:') !== 'پاک') return;
+    localStorage.removeItem(VAULT_KEY); localStorage.removeItem(LEGACY_KEY); localStorage.removeItem(FAIL_KEY); lock(); show('setup');
+  };
+
+  function renderAll() {
+    $('hdrSub').textContent = 'خریداران: ' + nf(Object.keys(DATA.buyers).length) + '  |  دوره‌ها: ' + nf(COURSES.length);
+    renderIssue(); renderBuyers(); renderSettings();
+  }
+  var _rb = renderBuyers; renderBuyers = function () { _rb(); if (DATA) $('hdrSub').textContent = 'خریداران: ' + nf(Object.keys(DATA.buyers).length) + '  |  دوره‌ها: ' + nf(COURSES.length); };
+
+  /* ================= شروع ================= */
+  if (!window.crypto || !crypto.subtle) {
+    document.body.innerHTML = '<div class="gate"><div class="card"><h1>مرورگر پشتیبانی نمی‌کند</h1><p class="lead">این پنل را با کروم یا اج به‌روز باز کن.</p></div></div>';
+    return;
+  }
+  show(readVault() ? 'lock' : 'setup');
+  // برای آزمون خودکار: جلو بردن ساعت پنل (بدون هیچ دسترسی به کلید یا داده)
+  window.__trapoAdminTest = { lock: lock, unlocked: function () { return !!DATA; } };
 })();
 </script>
 </body>

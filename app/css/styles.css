@@ -5,7 +5,7 @@
    ۳. اجزای پلتفرم: داشبورد، بنر انقضا، فروشگاه، رمزساز، قفل‌ها، کلینیک، ICU، گواهی، ماشین‌حساب شناور
    ۴. چاپ استاندارد بیمارستانی A4 (برگه مرجع جیبی و گواهی‌نامه)
    تم روز/شب: data-theme="light|dark" روی <html>، در غیر این صورت تنظیم سیستم.
-   تم هر دوره: data-course="yona|homa|negar" روی <html> (سبز #58cc02 · فیروزه‌ای #12b3a8 · آلویی #8e2c6e)
+   تم هر دوره: data-course="yona|homa|negar" روی <html> (سبز #58cc02 • فیروزه‌ای #12b3a8 • آلویی #8e2c6e)
    ========================================================================== */
 
 /* ---------- ۱. توکن‌های پایه پلتفرم ---------- */
@@ -696,7 +696,7 @@ html, body { overscroll-behavior-y: none; }
 .lw p { opacity: .95; font-weight: 600; font-size: 14px; }
 .lw ol { margin: 8px 0 0; padding: 0; list-style: none; counter-reset: l; display: flex; flex-direction: column; gap: 4px; }
 .lw li { counter-increment: l; background: rgba(255, 255, 255, .18); border-radius: 10px; padding: 2px 10px; font-weight: 700; font-size: 14px; }
-.lw li::before { content: "سطح " counter(l, persian) " · "; opacity: .85; }
+.lw li::before { content: "سطح " counter(l, persian) " • "; opacity: .85; }
 .land__chars { display: flex; flex-wrap: wrap; justify-content: center; gap: 6px; }
 .land__chars figure { margin: 0; display: flex; flex-direction: column; align-items: center; width: 96px; }
 .land__chars figcaption { font-weight: 800; font-size: 14px; }
@@ -918,7 +918,7 @@ p, li, .bubble, .learn__body, .fb__why { text-wrap: pretty; }
 :root[lang="fa"] .land__h { line-height: 1.35; }
 :root[lang="en"] .order-ans li::before { content: counter(o); }
 :root[lang="en"] .tsteps li::before { content: counter(s); }
-:root[lang="en"] .lw li::before { content: "Level " counter(l) " · "; }
+:root[lang="en"] .lw li::before { content: "Level " counter(l) " • "; }
 .chip-lang { gap: 6px; font-size: 14px; padding: 6px 10px; border: 2px solid var(--line); box-shadow: 0 2px 0 var(--line); }
 .chip-lang b { font-weight: 800; }
 .ob__top .chip-lang { flex: none; }

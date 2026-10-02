@@ -23,7 +23,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const fa = (n, d) => EA.fa(n, d);
       return {
         id: 'negar', bit: 4, key: 'academy_course_negar', langs: ["fa", "en"], startWorld: 'hx', codePrefix: 'NG',
-        nameFa: 'نگار', nameEn: 'Negar', titleFa: 'نگار · آموزش معاینه فیزیکی تغذیه‌محور', titleEn: 'Negar · Learn the Nutrition-Focused Physical Exam',
+        nameFa: 'نگار', nameEn: 'Negar', titleFa: 'نگار • آموزش معاینه فیزیکی تغذیه‌محور', titleEn: 'Negar • Learn the Nutrition-Focused Physical Exam',
 
         /* ---------- وضعیت: عنوان سطح‌ها، نقش رقبای لیگ و نشان‌ها ---------- */
         state: {
@@ -137,7 +137,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         },
         cert: function (s) {
           return {
-            kicker: `<small class="cert__kicker">${T('نگار · آکادمی معاینه تغذیه‌محور', 'Negar · Nutrition-Focused Physical Exam Academy')}</small>`,
+            kicker: `<small class="cert__kicker">${T('نگار • آکادمی معاینه تغذیه‌محور', 'Negar • Nutrition-Focused Physical Exam Academy')}</small>`,
             body: `<p>${T(`دوره آموزشی <b>معاینه فیزیکی تغذیه‌محور بزرگسالان (NFPE)</b> شامل معیارهای سوءتغذیه، التهاب و مستندسازی، معاینه عضله و چربی، ارزیابی مایعات، و وضعیت عملکردی و ریزمغذی‌ها را با موفقیت به پایان رساند و در امتحان نهایی نمره <b>${fa(Math.round(s.final.score * 100))}٪</b> کسب کرد.`, `has successfully completed the course <b>Nutrition-Focused Physical Exam for Adults (NFPE)</b>, covering the malnutrition characteristics, inflammation and documentation, muscle and fat examination, fluid assessment, and functional and micronutrient status, with a final exam score of <b>${fa(Math.round(s.final.score * 100))}%</b>.`)}</p>`
           };
         },
@@ -171,8 +171,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <h1 class="land__h">${T('بدن بیمار را<br><em>مثل یک کتاب بخوان</em>', 'Read your patient’s body<br><em>like a book</em>')}</h1>
         <p class="land__p">${T(`سلام، من <b>نگار</b> هستم؛ ذره‌بینی که با دقت نگاه می‌کند. این‌جا معاینه را فقط نمی‌خوانی؛ تمرینش می‌کنی: درس‌های سه‌دقیقه‌ای، ${fa(EA.IMG_USED.size)} تصویر بالینی، ${fa(EA.rounds.length)} بیمار برای ارزیابی و ابزاری که معیارهای سوءتغذیه را برایت می‌سنجد.`, `Hi, I’m <b>Negar</b>, a magnifying glass that looks closely. Here you don’t just read about the exam, you practice it: three-minute lessons, ${fa(EA.IMG_USED.size)} clinical pictures, ${fa(EA.rounds.length)} patients to assess and a tool that applies the malnutrition criteria for you.`)}</p>
         <div class="land__cta"><button class="btn btn--brand btn--lg" data-land="start">${startLbl}</button>
-          ${back ? `<span class="land__me">${avatar()}<span><b>${T(`خوش برگشتی ${esc(s.profile.name)}!`, `Welcome back, ${esc(s.profile.name)}!`)}</b><small>${T(`🔥 ${fa(s.streak)} روز · ⚡ ${fa(s.xp)} امتیاز · سطح ${fa(lv.n)}: ${lv.title}`, `🔥 ${fa(s.streak)} days · ⚡ ${fa(s.xp)} XP · Level ${fa(lv.n)}: ${lv.title}`)}</small></span></span>`
-            : `<small class="land__free">${T('بدون ثبت‌نام · بدون اینترنت · از همین گوشی', 'No sign-up · Works offline · Right on your phone')}</small><button class="btn btn--ghost" data-land="import">${T('پیشرفت قبلی را بازیابی کن', 'Restore previous progress')}</button>`}</div>
+          ${back ? `<span class="land__me">${avatar()}<span><b>${T(`خوش برگشتی ${esc(s.profile.name)}!`, `Welcome back, ${esc(s.profile.name)}!`)}</b><small>${T(`🔥 ${fa(s.streak)} روز • ⚡ ${fa(s.xp)} امتیاز • سطح ${fa(lv.n)}: ${lv.title}`, `🔥 ${fa(s.streak)} days • ⚡ ${fa(s.xp)} XP • Level ${fa(lv.n)}: ${lv.title}`)}</small></span></span>`
+            : `<small class="land__free">${T('بدون ثبت‌نام • بدون اینترنت • از همین گوشی', 'No sign-up • Works offline • Right on your phone')}</small><button class="btn btn--ghost" data-land="import">${T('پیشرفت قبلی را بازیابی کن', 'Restore previous progress')}</button>`}</div>
       </section>
       <section class="land__nums">
         ${[[fa(EA.worlds.length), T('دنیای معاینه', 'Exam worlds')], [fa(EA.worlds.length * 3), T('سطح نام‌دار', 'Named levels')], [fa(lessons), T('درس کوتاه', 'Bite-sized lessons')], [fa(qs) + '+', T('سؤال و مرحله بالینی', 'Questions & clinical steps')], [fa(EA.rounds.length), T('بیمار برای مدیریت', 'Patients to manage')], [fa(EA.tools.TOOLS.length), T('ابزار ارزیابی', 'Assessment tools')]].map(x => `<div><b>${x[0]}</b><small>${x[1]}</small></div>`).join('')}
@@ -423,8 +423,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
    */
   function classify(o) {
     const ctx = o.ctx, items = [];
-    if (o.intake && isFinite(o.intake.pct) && isFinite(o.intake.days)) items.push({ k: 'intake', level: intakeLevel(ctx, o.intake.pct, o.intake.days), label: T('دریافت ناکافی انرژی', 'Insufficient energy intake'), val: `${fa(o.intake.pct, 0)}${pc()} · ${fa(o.intake.days, 0)} ${T('روز', 'd')}` });
-    if (o.wt && isFinite(o.wt.pct) && isFinite(o.wt.days)) { const w = weightLevel(ctx, o.wt.pct, o.wt.days); items.push({ k: 'wt', level: w.level, label: T('کاهش وزن', 'Weight loss'), val: `${fa(o.wt.pct, 1)}${pc()} · ${fa(o.wt.days, 0)} ${T('روز', 'd')}`, win: w.win }); }
+    if (o.intake && isFinite(o.intake.pct) && isFinite(o.intake.days)) items.push({ k: 'intake', level: intakeLevel(ctx, o.intake.pct, o.intake.days), label: T('دریافت ناکافی انرژی', 'Insufficient energy intake'), val: `${fa(o.intake.pct, 0)}${pc()} • ${fa(o.intake.days, 0)} ${T('روز', 'd')}` });
+    if (o.wt && isFinite(o.wt.pct) && isFinite(o.wt.days)) { const w = weightLevel(ctx, o.wt.pct, o.wt.days); items.push({ k: 'wt', level: w.level, label: T('کاهش وزن', 'Weight loss'), val: `${fa(o.wt.pct, 1)}${pc()} • ${fa(o.wt.days, 0)} ${T('روز', 'd')}`, win: w.win }); }
     if (o.muscle != null) items.push({ k: 'muscle', level: mfLevel(ctx, +o.muscle), label: T('از دست رفتن عضله', 'Muscle loss'), val: SEV_NAMES()[+o.muscle] });
     if (o.fat != null) items.push({ k: 'fat', level: mfLevel(ctx, +o.fat), label: T('از دست رفتن چربی زیرپوستی', 'Subcutaneous fat loss'), val: SEV_NAMES()[+o.fat] });
     if (o.fluid != null) items.push({ k: 'fluid', level: fluidLevel(ctx, +o.fluid), label: T('تجمع مایع', 'Fluid accumulation'), val: SEV_NAMES()[+o.fluid] });
@@ -625,7 +625,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       kind: 'mcq', q: T('بر پایه معیارهای سوءتغذیه، چه تشخیصی را به پزشک پیشنهاد می‌کنی؟', 'Using the malnutrition characteristics, what diagnosis do you recommend to the physician?'), case: rows,
       opts: opts(right, wrong), a: 0,
       why: r.items.map(x => `${x.label}: <b>${x.level ? LV[x.level]() : T('—', '—')}</b>`).join('<br>') + '<br>' +
-        T(`ویژگی‌های شدید: ${fa(r.nSev)} · ویژگی‌های دست‌کم متوسط: ${fa(r.nMod)}. برای هر تشخیص دست‌کم دو ویژگی لازم است؛ قدرت چنگش فقط پشتیبان «شدید» است.`, `Severe characteristics: ${fa(r.nSev)} · at least moderate: ${fa(r.nMod)}. Each diagnosis needs at least two characteristics; grip strength only supports “severe”.`) + ` ${AR()} <b>${right}</b>`
+        T(`ویژگی‌های شدید: ${fa(r.nSev)} • ویژگی‌های دست‌کم متوسط: ${fa(r.nMod)}. برای هر تشخیص دست‌کم دو ویژگی لازم است؛ قدرت چنگش فقط پشتیبان «شدید» است.`, `Severe characteristics: ${fa(r.nSev)} • at least moderate: ${fa(r.nMod)}. Each diagnosis needs at least two characteristics; grip strength only supports “severe”.`) + ` ${AR()} <b>${right}</b>`
     };
   };
   const LABS = [
@@ -858,7 +858,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         id: 'hx4', title: 'کاهش وزن', icon: '⚖️', items: [
           L('درصد کاهش وزن', 'کاهش وزن همیشه به صورت <b>درصدی از وزن پایه (معمول)</b> و در یک <b>بازه زمانی</b> بیان می‌شود:<br><div class="fx" dir="ltr">% = (usual − current) ÷ usual × 100</div>مقدار، درصد و <b>سرعت</b> تغییر وزن همه مهم‌اند. کارشناس تغذیه وزن را کنار یافته‌های دیگر و به‌خصوص <b>کم‌آبی یا پرآبی بدن</b> تفسیر می‌کند.'),
           N('h.wl'),
-          L('آستانه‌های کاهش وزن', tbl([['زمینه', 'متوسط', 'شدید'], ['حاد', '۱ تا ۲٪ در ۱ هفته · ۵٪ در ۱ ماه · ۷٫۵٪ در ۳ ماه', 'بیش از ۲٪ در ۱ هفته · بیش از ۵٪ در ۱ ماه · بیش از ۷٫۵٪ در ۳ ماه'], ['مزمن و اجتماعی', '۵٪ در ۱ ماه · ۷٫۵٪ در ۳ ماه · ۱۰٪ در ۶ ماه · ۲۰٪ در ۱ سال', 'بیش از ۵٪ · ۷٫۵٪ · ۱۰٪ · ۲۰٪ در همان بازه‌ها']]) + '<small>آستانه‌ها یک عددند («۵٪» در برابر «بیش از ۵٪»)؛ ابزارهای نگار درصد را با دقت همان آستانه گرد می‌کنند.</small>'),
+          L('آستانه‌های کاهش وزن', tbl([['زمینه', 'متوسط', 'شدید'], ['حاد', '۱ تا ۲٪ در ۱ هفته • ۵٪ در ۱ ماه • ۷٫۵٪ در ۳ ماه', 'بیش از ۲٪ در ۱ هفته • بیش از ۵٪ در ۱ ماه • بیش از ۷٫۵٪ در ۳ ماه'], ['مزمن و اجتماعی', '۵٪ در ۱ ماه • ۷٫۵٪ در ۳ ماه • ۱۰٪ در ۶ ماه • ۲۰٪ در ۱ سال', 'بیش از ۵٪ • ۷٫۵٪ • ۱۰٪ • ۲۰٪ در همان بازه‌ها']]) + '<small>آستانه‌ها یک عددند («۵٪» در برابر «بیش از ۵٪»)؛ ابزارهای نگار درصد را با دقت همان آستانه گرد می‌کنند.</small>'),
           M('بیمار با سرطان (بیماری مزمن) در ۶ ماه ۱۲٪ وزنش را از دست داده است. این کاهش وزن؟', ['پشتیبان سوءتغذیه شدید', 'پشتیبان سوءتغذیه متوسط', 'معیار را کامل نمی‌کند', 'در بیماری مزمن کاهش وزن معیار نیست'], 'مزمن: بیش از ۱۰٪ در ۶ ماه ← شدید.'),
           N('h.wlc'),
           T('در زمینه حاد، کاهش ۳٪ وزن در یک هفته معیار «شدید» را کامل می‌کند.', true, 'حاد: بیش از ۲٪ در ۱ هفته ← شدید.'),
@@ -1278,7 +1278,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           L('روش کار', '۱. جایی از اندام تحتانی را پیدا کن که پوست روی <b>استخوان</b> است: ساق، قوزک یا پشت پا<br>۲. با <b>بالشتک انگشت یا شست</b> و فشار متوسط، دست‌کم <b>۵ ثانیه</b> فشار بده<br>۳. انگشت را بردار و فرورفتگی را ببین:<br>  • <b>عمقش</b> چقدر است؟<br>  • <b>چقدر طول می‌کشد</b> پر شود؟<br>  • ادم <b>تا کجای پا</b> بالا رفته؟' + pic('tip-pitting')),
           O('مراحل درجه‌بندی ادم گوده‌گذار را مرتب کن', ['پیدا کردن پوست روی استخوان (ساق یا پشت پا)', 'فشار متوسط با بالشتک انگشت دست‌کم ۵ ثانیه', 'برداشتن انگشت و دیدن عمق گوده', 'زمان‌گیری تا پر شدن و دیدن گستره ادم'], 'ترتیب درست ارزیابی کیفیت ادم.'),
           L('درجه‌بندی: سه روش', pic(['edema0', 'edema1', 'edema2', 'edema3', 'edema4'], ['بدون ادم', '۱+', '۲+', '۳+', '۴+']) + tbl([['درجه', 'روش ۱', 'روش ۲', 'روش ۳ (گستره)'], ['۱+', 'گوده خفیف بدون تغییر شکل، سریع ناپدید می‌شود', 'به‌سختی دیده می‌شود، برگشت فوری', 'خفیف؛ فقط مچ و پاها'], ['۲+', 'گوده عمیق‌تر، ۱۰ تا ۲۵ ثانیه بعد ناپدید', 'چند ثانیه تا برگشت', 'متوسط؛ ساق و دست‌ها'], ['۳+', 'گوده عمیق، اندام پر و متورم؛ بیش از ۱ دقیقه', 'حدود ۱۰ تا ۱۲ ثانیه تا برگشت', 'شدید؛ عمومی، شامل اندام بالا و صورت'], ['۴+', 'بسیار عمیق، اندام بدشکل؛ ۲ تا ۵ دقیقه', 'گوده ۸ میلی‌متری، بیش از ۲۰ ثانیه', '—']])),
-          L('عمق گوده', pic(['pit1', 'pit2', 'pit3', 'pit4'], ['۱+ · ۲ mm', '۲+ · ۴ mm', '۳+ · ۶ mm', '۴+ · ۸ mm']) + '<small>درجه‌بندی ادم ذهنی است؛ ولی استفاده از یک مقیاس ثابت ثبت تغییرات در طول زمان را ممکن می‌کند.</small>'),
+          L('عمق گوده', pic(['pit1', 'pit2', 'pit3', 'pit4'], ['۱+ • ۲ mm', '۲+ • ۴ mm', '۳+ • ۶ mm', '۴+ • ۸ mm']) + '<small>درجه‌بندی ادم ذهنی است؛ ولی استفاده از یک مقیاس ثابت ثبت تغییرات در طول زمان را ممکن می‌کند.</small>'),
           M('این تصویر کدام درجه ادم است؟', ['۴+', '۲+', '۱+', 'بدون ادم'], 'گوده بسیار عمیق و پهن ← ۴+.', null, { k: 'edema4' }),
           N('f.grade'),
           T('در روش ۱، ادم ۲+ گوده‌ای است که ۱۰ تا ۲۵ ثانیه بعد ناپدید می‌شود.', true, 'درست.'),
@@ -1882,7 +1882,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     hx4: { title: 'Weight loss', items: [
       L('Percentage weight loss', 'Weight loss is always expressed as a <b>percentage of baseline (usual) weight</b> over a <b>period of time</b>:<br><div class="fx" dir="ltr">% = (usual − current) ÷ usual × 100</div>The amount, the percentage and the <b>rate</b> of change all matter. The dietitian interprets weight alongside other findings, especially <b>under- or overhydration</b>.'),
       N('h.wl'),
-      L('Weight-loss thresholds in each context', tbl([['Context', 'Moderate', 'Severe'], ['Acute', '1–2% in 1 week · 5% in 1 month · 7.5% in 3 months', '>2% in 1 week · >5% in 1 month · >7.5% in 3 months'], ['Chronic and social', '5% in 1 month · 7.5% in 3 months · 10% in 6 months · 20% in 1 year', '>5% · >7.5% · >10% · >20% in the same periods']]) + '<small>The thresholds are single numbers (“5%” versus “more than 5%”); Negar’s tools round the percentage to the precision of the cut-point.</small>'),
+      L('Weight-loss thresholds in each context', tbl([['Context', 'Moderate', 'Severe'], ['Acute', '1–2% in 1 week • 5% in 1 month • 7.5% in 3 months', '>2% in 1 week • >5% in 1 month • >7.5% in 3 months'], ['Chronic and social', '5% in 1 month • 7.5% in 3 months • 10% in 6 months • 20% in 1 year', '>5% • >7.5% • >10% • >20% in the same periods']]) + '<small>The thresholds are single numbers (“5%” versus “more than 5%”); Negar’s tools round the percentage to the precision of the cut-point.</small>'),
       M('A patient with cancer (chronic illness) has lost 12% of body weight in 6 months. This weight loss…', ['Supports severe malnutrition', 'Supports moderate malnutrition', 'Does not meet the criterion', 'Weight loss is not a criterion in chronic illness'], 'Chronic: more than 10% in 6 months → severe.'),
       N('h.wlc'),
       T('In the acute context, a 3% weight loss in one week meets the “severe” criterion.', true, 'Acute: more than 2% in 1 week → severe.'),
@@ -2236,7 +2236,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       L('Technique', '1. Find an area of the lower extremity where the skin lies over <b>bone</b>: the shin, the malleolus or the top of the foot<br>2. With the <b>pad of your finger or thumb</b> and moderate pressure, press for at least <b>5 seconds</b><br>3. Lift your finger and look at the indentation:<br>  • how <b>deep</b> is it?<br>  • how <b>long</b> does it take to refill?<br>  • <b>how far up</b> the leg does the edema go?' + pic('tip-pitting')),
       O('Put the steps of grading pitting edema in order', ['Find skin over bone (shin or top of the foot)', 'Press with a finger pad and moderate pressure for at least 5 seconds', 'Lift the finger and look at the depth of the pit', 'Time the refill and note how far the edema extends'], 'The correct order for assessing the quality of edema.'),
       L('Grading: three methods', pic(['edema0', 'edema1', 'edema2', 'edema3', 'edema4'], ['No edema', '1+', '2+', '3+', '4+']) + tbl([['Grade', 'Method 1', 'Method 2', 'Method 3 (extent)'], ['1+', 'Slight pitting without distortion, rapidly disappears', 'Barely detectable, immediate rebound', 'Mild; ankles and feet only'], ['2+', 'Somewhat deeper pit, gone 10–25 s later', 'A few seconds to rebound', 'Moderate; lower legs and hands'], ['3+', 'Deep pit, limb looks full and swollen; over 1 min', 'About 10–12 s to rebound', 'Severe; generalized, including upper limbs and face'], ['4+', 'Very deep, limb grossly misshapen; 2–5 min', '8-mm pit, over 20 s to rebound', '—']])),
-      L('Pit depth', pic(['pit1', 'pit2', 'pit3', 'pit4'], ['1+ · 2 mm', '2+ · 4 mm', '3+ · 6 mm', '4+ · 8 mm']) + '<small>Edema grading is subjective, but using one consistent scale makes it possible to record changes over time.</small>'),
+      L('Pit depth', pic(['pit1', 'pit2', 'pit3', 'pit4'], ['1+ • 2 mm', '2+ • 4 mm', '3+ • 6 mm', '4+ • 8 mm']) + '<small>Edema grading is subjective, but using one consistent scale makes it possible to record changes over time.</small>'),
       M('What grade of edema is this?', ['4+', '2+', '1+', 'No edema'], 'A very deep, wide pit → 4+.'),
       N('f.grade'),
       T('In method 1, 2+ edema is a pit that disappears 10–25 seconds later.', true, 'Correct.'),
@@ -2772,7 +2772,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const out = { rows: [], steps: [], warn: [], ok: [] };
         if (!(v.usual > 0)) { out.warn.push(T('وزن معمول باید بیشتر از صفر باشد.', 'Usual weight must be above zero.')); return out; }
         const p = F.wlPct(v.usual, v.cur), d = +v.days;
-        out.rows.push([T('کاهش وزن', 'Weight loss'), `${fa(p, 1)}${pc()} · ${fa(v.usual - v.cur, 1)} kg`, HERO]);
+        out.rows.push([T('کاهش وزن', 'Weight loss'), `${fa(p, 1)}${pc()} • ${fa(v.usual - v.cur, 1)} kg`, HERO]);
         out.rows.push([T('وزن فعلی / وزن معمول', 'Current / usual weight'), `${fa(F.ubwPct(v.usual, v.cur), 1)}${pc()}`]);
         if (ok(v.h) && v.h > 0) out.rows.push(['BMI', `${fa(F.bmi(v.cur, v.h), 1)} kg/m²`]);
         A.CTX.forEach(c => { const w = A.weightLevel(c, p, d); out.rows.push([A.ctxCap(c), w.win ? LVN(w.level) : T('بازه تعریف نشده', 'period not defined')]); });
@@ -2800,7 +2800,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const p = F.intakePct(v.kcal, v.req);
         out.rows.push([T('دریافت', 'Intake'), `${fa(p, 0)}${pc()} ${T('نیاز', 'of needs')}`, HERO]);
         A.CTX.forEach(c => out.rows.push([A.ctxCap(c), LVN(A.intakeLevel(c, p, v.days))]));
-        out.steps.push(`${fa(v.kcal)} ÷ ${fa(v.req)} × ${fa(100)} = <b>${fa(p, 0)}${pc()}</b> · ${fa(v.days)} ${T('روز', 'days')}`);
+        out.steps.push(`${fa(v.kcal)} ÷ ${fa(v.req)} × ${fa(100)} = <b>${fa(p, 0)}${pc()}</b> • ${fa(v.days)} ${T('روز', 'days')}`);
         out.steps.push(T('حاد: کمتر از ۷۵٪ برای بیش از ۷ روز (متوسط)؛ ۵۰٪ یا کمتر برای ۵ روز یا بیشتر (شدید).', 'Acute: <75% for >7 days (moderate); ≤50% for ≥5 days (severe).'));
         out.steps.push(T('مزمن: ۷۵٪ یا کمتر برای دست‌کم ۱ ماه (برای متوسط و شدید عملاً یک آستانه وجود دارد).', 'Chronic: ≤75% for at least 1 month (moderate and severe effectively share one cut-point).'));
         out.steps.push(T('اجتماعی: کمتر از ۷۵٪ برای ۳ ماه یا بیشتر (متوسط)؛ ۵۰٪ یا کمتر برای ۱ ماه یا بیشتر (شدید).', 'Social: <75% for ≥3 months (moderate); ≤50% for ≥1 month (severe).'));

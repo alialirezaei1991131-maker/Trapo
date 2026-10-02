@@ -1,6 +1,6 @@
 /* ==========================================================================
    آکادمی بالینی — موتور مشترک (js/engine.js)
-   یونا (الکترولیت) · هما (گاز خون و اسید-باز) · نگار (معاینه فیزیکی تغذیه‌محور)
+   یونا (الکترولیت) • هما (گاز خون و اسید-باز) • نگار (معاینه فیزیکی تغذیه‌محور)
 
    بدون سرور، بدون ساخت (Zero Build) و بدون ES Module: با دابل‌کلیک روی index.html
    (پروتکل file://) اجرا می‌شود. هیچ fetch() یا import ندارد.
@@ -698,7 +698,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             }
           }
           const ni = NAMES.indexOf(pool[i % pool.length]), si = Math.floor(r() * SURN.length), ri = Math.floor(r() * ROLES.length), ci = Math.floor(r() * CITIES.length);
-          out.push({ name: en() ? NAMES_EN[ni] + SURN_EN[si] : NAMES[ni] + SURN[si], tag: en() ? ROLES_EN[ri] + ' · ' + CITIES_EN[ci] : ROLES[ri] + ' · ' + CITIES[ci], key: 'r' + i, xp, hue: Math.floor(r() * 360), i });
+          out.push({ name: en() ? NAMES_EN[ni] + SURN_EN[si] : NAMES[ni] + SURN[si], tag: en() ? ROLES_EN[ri] + ' • ' + CITIES_EN[ci] : ROLES[ri] + ' • ' + CITIES[ci], key: 'r' + i, xp, hue: Math.floor(r() * 360), i });
         }
         return out;
       }
@@ -846,7 +846,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       function zoom(img) {
         const fig = img.closest('figure'), cap = fig && fig.querySelector('figcaption');
         const lab = img.parentNode.querySelector('.fig__l');
-        modal(`<img class="zoom__img" src="${img.src}" alt="" draggable="false">${lab || cap ? `<p class="zoom__cap">${lab ? lab.innerHTML : ''}${lab && cap ? ' · ' : ''}${cap ? cap.innerHTML : ''}</p>` : ''}<div class="modal__btns"><button class="btn btn--brand" data-close>${EA.T('بستن', 'Close')}</button></div>`, { cls: 'modal--zoom' });
+        modal(`<img class="zoom__img" src="${img.src}" alt="" draggable="false">${lab || cap ? `<p class="zoom__cap">${lab ? lab.innerHTML : ''}${lab && cap ? ' • ' : ''}${cap ? cap.innerHTML : ''}</p>` : ''}<div class="modal__btns"><button class="btn btn--brand" data-close>${EA.T('بستن', 'Close')}</button></div>`, { cls: 'modal--zoom' });
       }
 
       /** همراه کاربر: کاراکتر انتخاب‌شده، یا خود شخصیت دوره */
@@ -986,7 +986,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (P.timed) meta.innerHTML = `<span class="p-timer">⏱ ${mmss(P.endsAt - Date.now())}</span>`;
         else if (P.mode === 'lesson') meta.innerHTML = EA.S.noHearts() ? '<span class="p-hearts">❤️ ∞</span>' : `<span class="p-hearts">❤️ ${fa(S().hearts)}</span>`;
         else meta.innerHTML = `<span class="p-count">${fa(Math.min(P.idx + 1, P.total))} / ${fa(P.total)}</span>`;
-        if (P.mode === 'speed') meta.innerHTML = `<span class="p-timer">⚡ ${fa(P.correct)} · ${mmss(P.endsAt - Date.now())}</span>`;
+        if (P.mode === 'speed') meta.innerHTML = `<span class="p-timer">⚡ ${fa(P.correct)} • ${mmss(P.endsAt - Date.now())}</span>`;
       }
 
       function tickTimer() {
@@ -1396,7 +1396,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (e.type === 'streak') html = `<div class="cel"><div class="cel__fire">🔥</div><div class="cel__n">${fa(e.n)}</div><h2>${T('روز زنجیره!', e.n === 1 ? 'day streak!' : 'day streak!')}</h2><p>${e.n === 1 ? T('زنجیره‌ات شروع شد. فردا هم بیا تا خاموش نشود!', 'Your streak has started. Come back tomorrow to keep it alive!') : T('آتشت روشن است! هر روز فقط چند دقیقه.', 'Your fire is burning! Just a few minutes a day.')}</p></div>`;
         else if (e.type === 'goal') html = `<div class="cel">${mascot('cheer', '#FFC800', 110)}<h2>${T('هدف روزانه کامل شد!', 'Daily goal reached!')}</h2><p>${T(`+${fa(10)} 💎 جایزه گرفتی.`, `You earned +${fa(10)} 💎.`)}</p></div>`;
         else if (e.type === 'level') { const lv = EA.S.level(); html = `<div class="cel"><div class="cel__lv">${fa(e.n)}</div><h2>${T('سطح', 'Level')} ${fa(e.n)}!</h2><p>${T('عنوان تازه:', 'New title:')} <b>${lv.title}</b></p></div>`; }
-        else if (e.type === 'badge') html = `<div class="cel"><div class="cel__badge">${e.b.icon}</div><h2>${T('نشان تازه:', 'New badge:')} ${e.b.name}</h2><p>${e.b.desc} · +${fa(20)} 💎</p></div>`;
+        else if (e.type === 'badge') html = `<div class="cel"><div class="cel__badge">${e.b.icon}</div><h2>${T('نشان تازه:', 'New badge:')} ${e.b.name}</h2><p>${e.b.desc} • +${fa(20)} 💎</p></div>`;
         else if (e.type === 'char') html = charReveal(e.c);
         body().innerHTML = html;
         sfx({ badge: 'chest', level: 'level', char: 'char', streak: 'streak', goal: 'done' }[e.type] || 'done');
@@ -1592,7 +1592,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             <div class="lmini"><span class="medal" style="--mc:${tier.color}">${medal()}</span><div>${T(`رتبه <b>${fa(rank)}</b> از ${fa(table.length)}`, `Rank <b>${fa(rank)}</b> of ${fa(table.length)}`)}<br><small>${T(`${fa(EA.S.weekXp(s.league.week))} امتیاز این هفته`, `${fa(EA.S.weekXp(s.league.week))} XP this week`)}</small></div></div>
           </a>
           <div class="card rcard">
-            <div class="rcard__h"><h3>${T('سطح', 'Level')} ${fa(lv.n)} · ${lv.title}</h3></div>
+            <div class="rcard__h"><h3>${T('سطح', 'Level')} ${fa(lv.n)} • ${lv.title}</h3></div>
             <div class="bar bar--xp"><i style="width:${lv.pct * 100}%"></i></div>
             <small>${fa(S().xp - lv.cur)} / ${fa(lv.nxt - lv.cur)} ${T('تا سطح بعد', 'to the next level')}</small>
           </div>
@@ -1693,7 +1693,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           ${EA.worlds.map((w, wi) => `
             <section class="unit" id="u-${w.id}" style="--wc:${w.color};--wd:${w.dark};--wl:${w.light}">
               <div class="unit__b">
-                <div class="unit__txt"><small>${T('دنیای', 'World')} ${fa(wi + 1)} · <bdi>${w.sym}</bdi></small><h2>${w.name}</h2><p>${w.sub}</p></div>
+                <div class="unit__txt"><small>${T('دنیای', 'World')} ${fa(wi + 1)} • <bdi>${w.sym}</bdi></small><h2>${w.name}</h2><p>${w.sub}</p></div>
                 <button class="unit__guide" data-act="guide" data-w="${w.id}"><span>📖</span> ${T('نکات', 'Guide')}</button>
               </div>
               <div class="path">${pathNodes(w, wi)}</div>
@@ -1721,7 +1721,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         pop.className = 'pop pop--' + st;
         pop.style.setProperty('--wc', w.color); pop.style.setProperty('--wd', w.dark);
         const lv = Math.floor(i / EA.PER_LEVEL);
-        pop.innerHTML = `<small class="pop__k">${T('سطح', 'Level')} ${fa(lv + 1)} · ${w.levels[lv]}</small><h4>${l.title}</h4><p>${T(`درس ${fa(i % EA.PER_LEVEL + 1)} از ${fa(EA.PER_LEVEL)} این سطح · ${fa(n)} سؤال`, `Lesson ${fa(i % EA.PER_LEVEL + 1)} of ${fa(EA.PER_LEVEL)} in this level · ${fa(n)} questions`)}</p>
+        pop.innerHTML = `<small class="pop__k">${T('سطح', 'Level')} ${fa(lv + 1)} • ${w.levels[lv]}</small><h4>${l.title}</h4><p>${T(`درس ${fa(i % EA.PER_LEVEL + 1)} از ${fa(EA.PER_LEVEL)} این سطح • ${fa(n)} سؤال`, `Lesson ${fa(i % EA.PER_LEVEL + 1)} of ${fa(EA.PER_LEVEL)} in this level • ${fa(n)} questions`)}</p>
           ${pay ? `<p class="pop__pay">👑 ${T('🔒 با پلن آموزشی یا Pro همه درس‌ها باز می‌شوند.', '🔒 The Standard or Pro plan unlocks every lesson.')}</p><button class="btn btn--white btn--block" data-ac="upsell" data-why="lesson">🔓 ${T('باز کردن قفل', 'Unlock')}</button>`
             : st === 'locked' ? `<button class="btn btn--block" disabled>${T('اول درس قبلی را تمام کن', 'Finish the previous lesson first')}</button>`
             : `<button class="btn btn--white btn--block" data-act="start" data-w="${w.id}" data-l="${l.id}">${st === 'done' ? T(`تکرار +${fa(10)} امتیاز`, `Practice again +${fa(10)} XP`) : T(`شروع +${fa(15)} امتیاز`, `Start +${fa(15)} XP`)}</button>`}`;
@@ -1808,7 +1808,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             : T(`${fa(gap)} امتیاز تا منطقه صعود فاصله داری؛ یک درس کافی است!`, `You’re ${fa(gap)} XP from the promotion zone; one lesson will do it!`);
         return `<section class="league">
           <div class="tiers">${EA.S.TIERS.map((t, i) => `<span class="medal ${i === s.league.tier ? 'is-cur' : i > s.league.tier ? 'is-lock' : ''}" style="--mc:${i > s.league.tier ? 'var(--line)' : t.color}" title="${t.name}">${medal()}</span>`).join('')}</div>
-          <header class="vhead vhead--c"><h1>${T(`لیگ ${tier.name}`, `${tier.name} League`)}</h1><p>${T(`${fa(GROUP)} نفر در این گروه · ${fa(UP)} نفر اول صعود می‌کنند · ${fa(days)} روز و ${fa(hours)} ساعت مانده`, `${fa(GROUP)} players in this group · top ${fa(UP)} are promoted · ${fa(days)} days ${fa(hours)} hours left`)}</p></header>
+          <header class="vhead vhead--c"><h1>${T(`لیگ ${tier.name}`, `${tier.name} League`)}</h1><p>${T(`${fa(GROUP)} نفر در این گروه • ${fa(UP)} نفر اول صعود می‌کنند • ${fa(days)} روز و ${fa(hours)} ساعت مانده`, `${fa(GROUP)} players in this group • top ${fa(UP)} are promoted • ${fa(days)} days ${fa(hours)} hours left`)}</p></header>
           <div class="lgoal ${myI < UP ? 'is-up' : ''}"><span class="lgoal__r">${fa(myI + 1)}</span><div><b>${T('رتبه تو در این هفته', 'Your rank this week')}</b><small>${goalLine}</small></div><a href="#/learn" class="btn btn--brand btn--sm">${T('یک درس دیگر', 'One more lesson')}</a></div>
           <ol class="ltable">${table.map((r, i) => {
             const zone = i === UP ? `<li class="lzone lzone--up">⬆ ${T('منطقه صعود', 'Promotion zone')}</li>` : i === GROUP - DOWN && s.league.tier > 0 ? `<li class="lzone lzone--down">⬇ ${T('منطقه سقوط', 'Demotion zone')}</li>` : '';
@@ -1836,7 +1836,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
               const c = EA.chars.forLevel(w.id, lv), has = s.chars && s.chars[c.id], me = s.companion === c.id;
               return `<button class="ccard ${has ? 'is-got' : ''} ${me ? 'is-buddy' : ''}" data-act="char" data-id="${c.id}" style="--wc:${w.color}">
                 <span class="ccard__art">${EA.chars.draw(c, 'happy', 80, !has)}${has ? '' : '<span class="ccard__q">?</span>'}</span>
-                <b>${has ? c.name : T('؟؟؟', '???')}</b><small>${T('سطح', 'Level')} ${fa(lv + 1)} · ${lvName}</small>${me ? `<span class="ccard__tag">${T('همراه', 'Companion')}</span>` : ''}
+                <b>${has ? c.name : T('؟؟؟', '???')}</b><small>${T('سطح', 'Level')} ${fa(lv + 1)} • ${lvName}</small>${me ? `<span class="ccard__tag">${T('همراه', 'Companion')}</span>` : ''}
               </button>`;
             }).join('')}</div>`).join('')}
         </section>`;
@@ -1845,7 +1845,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const c = EA.chars.byId(id), w = worldOf(c.w), s = S(), has = s.chars && s.chars[c.id];
         const m = modal(`<div class="cmodal" style="--wc:${w.color}">
             <div class="cel__stage">${has ? '<div class="cel__rays"></div>' : ''}${EA.chars.draw(c, has ? 'cheer' : 'happy', 140, !has)}</div>
-            <small class="cel__k">${T(`دنیای ${w.name} · سطح ${fa(c.lv + 1)}: ${w.levels[c.lv]}`, `${w.name} world · Level ${fa(c.lv + 1)}: ${w.levels[c.lv]}`)}</small>
+            <small class="cel__k">${T(`دنیای ${w.name} • سطح ${fa(c.lv + 1)}: ${w.levels[c.lv]}`, `${w.name} world • Level ${fa(c.lv + 1)}: ${w.levels[c.lv]}`)}</small>
             <h3>${has ? c.name : T('این کاراکتر هنوز قفل است', 'This character is still locked')}</h3>
             ${has ? `<p class="cel__title">${c.title}</p><p>${c.bio}</p>` : `<p>${T(`سه درس سطح «${w.levels[c.lv]}» از دنیای ${w.name} را تمام کن تا این کاراکتر باز شود.`, `Finish the three lessons of the “${w.levels[c.lv]}” level in the ${w.name} world to unlock this character.`)}</p>`}
           </div>
@@ -1900,8 +1900,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
               <input type="file" id="ph-in" accept="image/*" data-photo hidden>
               ${s.profile.photo ? `<button class="link link--btn" data-act="rmphoto">${T('حذف عکس', 'Remove photo')}</button>` : `<label class="link link--btn" for="ph-in">${T('افزودن عکس', 'Add a photo')}</label>`}
             </div>
-            <div><h1>${esc(s.profile.name)} ${window.ACADEMY ? ACADEMY.vipBadge() : ''}</h1><p>${esc(roleName(s.profile.role))} · ${T('عضو از', 'Member since')} ${joined}</p>
-              <div class="lvl"><b>${T('سطح', 'Level')} ${fa(lv.n)} · ${lv.title}</b><div class="bar bar--xp"><i style="width:${lv.pct * 100}%"></i></div></div></div>
+            <div><h1>${esc(s.profile.name)} ${window.ACADEMY ? ACADEMY.vipBadge() : ''}</h1><p>${esc(roleName(s.profile.role))} • ${T('عضو از', 'Member since')} ${joined}</p>
+              <div class="lvl"><b>${T('سطح', 'Level')} ${fa(lv.n)} • ${lv.title}</b><div class="bar bar--xp"><i style="width:${lv.pct * 100}%"></i></div></div></div>
           </header>
           ${window.ACADEMY ? ACADEMY.profileHTML(C.id) : ''}
           <h2 class="sh">${T('آمار', 'Stats')}</h2>
@@ -1912,7 +1912,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <h2 class="sh">${T('فروشگاه', 'Shop')}</h2>
           <div class="shop">
             <div class="shop__i"><span>❤️</span><div><b>${T('پر کردن قلب‌ها', 'Refill hearts')}</b><small>${T('همه قلب‌ها برمی‌گردند', 'All your hearts come back')}</small></div><button class="btn btn--blue" data-act="buy" data-item="hearts" ${s.hearts >= EA.S.MAX_HEARTS || s.gems < 300 ? 'disabled' : ''}>${fa(300)} 💎</button></div>
-            <div class="shop__i"><span>🧊</span><div><b>${T('یخ‌زدگی زنجیره', 'Streak freeze')}</b><small>${T(`یک روز غیبت، زنجیره نمی‌شکند · داری: ${fa(s.freeze)}`, `Miss a day without losing your streak · you have ${fa(s.freeze)}`)}</small></div><button class="btn btn--blue" data-act="buy" data-item="freeze" ${s.freeze >= 2 || s.gems < 200 ? 'disabled' : ''}>${fa(200)} 💎</button></div>
+            <div class="shop__i"><span>🧊</span><div><b>${T('یخ‌زدگی زنجیره', 'Streak freeze')}</b><small>${T(`یک روز غیبت، زنجیره نمی‌شکند • داری: ${fa(s.freeze)}`, `Miss a day without losing your streak • you have ${fa(s.freeze)}`)}</small></div><button class="btn btn--blue" data-act="buy" data-item="freeze" ${s.freeze >= 2 || s.gems < 200 ? 'disabled' : ''}>${fa(200)} 💎</button></div>
           </div>
           <h2 class="sh">${T('تنظیمات', 'Settings')}</h2>
           <div class="settings">
@@ -1923,7 +1923,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             <div class="set"><span>♾️ ${T('قلب بی‌نهایت', 'Unlimited hearts')} <small>${EA.S.noHearts() ? T('فعال در پلن Pro', 'Active with Pro') : T('🔒 Pro', '🔒 Pro')}</small></span>${EA.S.noHearts() ? '<b class="okchip">∞ ❤️</b>' : `<button class="btn btn--gold btn--sm" data-ac="upsell" data-why="hearts">👑 ${T('ارتقا', 'Upgrade')}</button>`}</div>
             ${C.langs.length < 2 ? '' : `<div class="set"><span>🌐 ${T('زبان', 'Language')} ${T('<small lang="en">Language</small>', '<small lang="fa">زبان</small>')}</span><div class="seg">${[['fa', 'فارسی'], ['en', 'English']].map(l => `<button class="seg__b ${EA.lang === l[0] ? 'is-on' : ''}" data-act="lang" data-v="${l[0]}" lang="${l[0]}">${l[1]}</button>`).join('')}</div></div>`}
             <div class="set"><span>🌓 ${T('پوسته', 'Theme')}</span><div class="seg">${[['auto', T('خودکار', 'Auto')], ['light', T('روشن', 'Light')], ['dark', T('تیره', 'Dark')]].map(t => `<button class="seg__b ${s.settings.theme === t[0] ? 'is-on' : ''}" data-act="theme" data-v="${t[0]}">${t[1]}</button>`).join('')}</div></div>
-            <div class="set set--col"><span>🎯 ${T('هدف روزانه', 'Daily goal')}</span><div class="seg">${GOALS().map(g => `<button class="seg__b ${s.profile.goal === g[0] ? 'is-on' : ''}" data-act="goal" data-v="${g[0]}">${g[1]} · ${fa(g[0])}</button>`).join('')}</div></div>
+            <div class="set set--col"><span>🎯 ${T('هدف روزانه', 'Daily goal')}</span><div class="seg">${GOALS().map(g => `<button class="seg__b ${s.profile.goal === g[0] ? 'is-on' : ''}" data-act="goal" data-v="${g[0]}">${g[1]} • ${fa(g[0])}</button>`).join('')}</div></div>
             <div class="set"><span>✏️ ${T('نام', 'Name')}</span><button class="btn btn--ghost btn--sm" data-act="rename">${T('تغییر نام', 'Change name')}</button></div>
             <div class="set"><span>🗑️ ${T('شروع از اول', 'Start over')}</span><button class="btn btn--ghost-red btn--sm" data-act="reset">${T('پاک کردن همه پیشرفت', 'Erase all progress')}</button></div>
           </div>
@@ -1966,8 +1966,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const days = Array.from({ length: 7 }, (_, i) => { const d = new Date(); d.setDate(d.getDate() - 6 + i); return d; });
         const wd = new Intl.DateTimeFormat(LOC(), { weekday: 'narrow' });
         modal(`<div class="cel__fire sm">🔥</div><h3>${T(`${fa(s.streak)} روز زنجیره`, `${fa(s.streak)}-day streak`)}</h3>
-          <div class="week">${days.map(d => { const x = s.daily[EA.S.day(d)] > 0; return `<div class="week__d ${x ? 'on' : ''}"><small>${wd.format(d)}</small><span>${x ? '🔥' : '·'}</span></div>`; }).join('')}</div>
-          <p>${T(`بهترین زنجیره: <b>${fa(s.bestStreak)}</b> روز · یخ‌زدگی: ${fa(s.freeze)} 🧊`, `Best streak: <b>${fa(s.bestStreak)}</b> days · freezes: ${fa(s.freeze)} 🧊`)}</p>
+          <div class="week">${days.map(d => { const x = s.daily[EA.S.day(d)] > 0; return `<div class="week__d ${x ? 'on' : ''}"><small>${wd.format(d)}</small><span>${x ? '🔥' : '•'}</span></div>`; }).join('')}</div>
+          <p>${T(`بهترین زنجیره: <b>${fa(s.bestStreak)}</b> روز • یخ‌زدگی: ${fa(s.freeze)} 🧊`, `Best streak: <b>${fa(s.bestStreak)}</b> days • freezes: ${fa(s.freeze)} 🧊`)}</p>
           <p class="muted">${T('هر روز دست‌کم یک درس یا تمرین انجام بده تا آتش خاموش نشود.', 'Do at least one lesson or practice every day to keep the fire burning.')}</p>
           <div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${T('باشه!', 'Got it!')}</button></div>`);
       }
@@ -2630,7 +2630,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const ms = warn.exp - now, inH = ms < 864e5;
     const el = document.createElement('div');
     el.className = 'acbanner no-print';
-    el.innerHTML = `<span class="acbanner__i">⏳</span><span class="acbanner__t">${PT(`تنها ${inH ? nf(Math.max(1, Math.ceil(ms / 36e5))) + ' ساعت' : nf(daysLeft(warn.exp)) + ' روز'} تا پایان اعتبار اشتراک شما باقی مانده است`, `Only ${inH ? nf(Math.max(1, Math.ceil(ms / 36e5))) + ' hours' : nf(daysLeft(warn.exp)) + ' days'} left on your subscription`)} <small>(${PT(warn.c.nameFa, warn.c.nameEn)}${warn.trial ? PT(' · کد تست', ' · trial') : ''})</small></span><button class="acbanner__b" data-ac="store">${PT('تمدید اشتراک', 'Renew')}</button><button class="acbanner__x" data-ac="banneroff" aria-label="${PT('بستن', 'Close')}">✕</button>`;
+    el.innerHTML = `<span class="acbanner__i">⏳</span><span class="acbanner__t">${PT(`تنها ${inH ? nf(Math.max(1, Math.ceil(ms / 36e5))) + ' ساعت' : nf(daysLeft(warn.exp)) + ' روز'} تا پایان اعتبار اشتراک شما باقی مانده است`, `Only ${inH ? nf(Math.max(1, Math.ceil(ms / 36e5))) + ' hours' : nf(daysLeft(warn.exp)) + ' days'} left on your subscription`)} <small>(${PT(warn.c.nameFa, warn.c.nameEn)}${warn.trial ? PT(' • کد تست', ' • trial') : ''})</small></span><button class="acbanner__b" data-ac="store">${PT('تمدید اشتراک', 'Renew')}</button><button class="acbanner__x" data-ac="banneroff" aria-label="${PT('بستن', 'Close')}">✕</button>`;
     document.body.insertBefore(el, document.body.firstChild);
   }
 
@@ -2742,7 +2742,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <div class="acprof__row"><span>${PT('روزهای باقی‌مانده', 'Time left')}</span><b>${a.tier ? (a.life ? PT('دائمی ♾️', 'Lifetime ♾️') : leftText(a.expiry)) : '—'}</b></div>
         ${a.tier && !a.life ? `<div class="acprof__row"><span>${PT('پایان اعتبار', 'Expires')}</span><b>${fdatetime(a.expiry)}</b></div>` : ''}
         <div class="acprof__row"><span>${PT('ابزار بالینی / قلب بی‌نهایت', 'Tools / unlimited hearts')}</span><b>${a.tools ? '✓ / ♾️' : '🔒 / ۵'}</b></div>
-        <div class="acprof__row"><span>${PT('همه دوره‌ها', 'All courses')}</span><b>${courses().map(c => `${c.icon} ${sm.per[c.id].tier ? TIERS[sm.per[c.id].tier].short : '🔒'}`).join(' · ')}</b></div>
+        <div class="acprof__row"><span>${PT('همه دوره‌ها', 'All courses')}</span><b>${courses().map(c => `${c.icon} ${sm.per[c.id].tier ? TIERS[sm.per[c.id].tier].short : '🔒'}`).join(' • ')}</b></div>
         <div class="acprof__btns"><button class="btn btn--gold btn--sm" data-ac="store" data-course="${cid}">👑 ${PT('ارتقا / تمدید', 'Upgrade / renew')}</button><button class="btn btn--ghost btn--sm" data-ac="settings">⚙️ ${PT('تنظیمات نمایش', 'Display settings')}</button></div>
       </div>
     </div>`;
@@ -2796,7 +2796,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const total = rows.reduce((a, r) => a + r.n, 0);
     pModal(`<div class="big-i">🩺</div><h3>کلینیک خطاها</h3>
       <p class="muted">هر سؤالی که اشتباه جواب بدهی خودکار این‌جا ذخیره می‌شود. مرور با تکرار فاصله‌دار انجام می‌شود و با پاسخ درست، از فهرست خطاها حذف می‌شود.</p>
-      <div class="acclin">${rows.map(r => `<div class="acclin__r" style="--cc:${r.c.color}"><span class="acclin__i">${r.c.icon}</span><span class="acclin__t"><b>${r.c.nameFa}</b><small>${r.n ? `${nf(r.n)} خطای ثبت‌شده${r.rep ? ` · ${nf(r.rep)} مورد تکراری` : ''}` : 'بدون خطا 🎉'}</small></span>${r.n ? `<a class="btn btn--brand btn--sm" href="?course=${r.c.id}&run=clinic">شروع ویزیت</a>` : ''}</div>`).join('')}</div>
+      <div class="acclin">${rows.map(r => `<div class="acclin__r" style="--cc:${r.c.color}"><span class="acclin__i">${r.c.icon}</span><span class="acclin__t"><b>${r.c.nameFa}</b><small>${r.n ? `${nf(r.n)} خطای ثبت‌شده${r.rep ? ` • ${nf(r.rep)} مورد تکراری` : ''}` : 'بدون خطا 🎉'}</small></span>${r.n ? `<a class="btn btn--brand btn--sm" href="?course=${r.c.id}&run=clinic">شروع ویزیت</a>` : ''}</div>`).join('')}</div>
       ${total ? '' : '<p class="acok">هیچ خطایی ثبت نشده؛ عالی پیش می‌روی!</p>'}
       <div class="modal__btns"><button class="btn btn--ghost" data-close>بستن</button></div>`);
   }
@@ -2817,7 +2817,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const keys = Object.keys(o).filter(k => GNORM[k]);
     return `<div class="glab"><div class="glab__h"><span>${pesc(o.kind || 'ABG / Lab')}</span>${o.o2 ? `<small>🫁 ${pesc(o.o2)}</small>` : ''}</div><div class="glab__g">${keys.map(k => {
       const n = GNORM[k], v = o[k], f = k === 'fio2' ? '' : v < n[0] ? 'L' : v > n[1] ? 'H' : '';
-      return `<div class="glab__c ${f ? 'is-' + f : ''}"><span dir="ltr">${n[4] || 'pH'}</span><b dir="ltr">${typeof v === 'number' ? v.toFixed(n[3]) : pesc(v)}${f === 'H' ? ' ▲' : f === 'L' ? ' ▼' : ''}</b><small dir="ltr">${n[2]}${k === 'fio2' ? '' : ` · ${n[0]}–${n[1]}`}</small></div>`;
+      return `<div class="glab__c ${f ? 'is-' + f : ''}"><span dir="ltr">${n[4] || 'pH'}</span><b dir="ltr">${typeof v === 'number' ? v.toFixed(n[3]) : pesc(v)}${f === 'H' ? ' ▲' : f === 'L' ? ' ▼' : ''}</b><small dir="ltr">${n[2]}${k === 'fio2' ? '' : ` • ${n[0]}–${n[1]}`}</small></div>`;
     }).join('')}</div></div>`;
   }
   function gFig(f) {
@@ -2871,7 +2871,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     function render() {
       const s = steps[P.i]; top();
       const dm = domOf(s.d);
-      let h = `<span class="qtag qtag--stage" style="--dc:${dm[2]}">${dm[0]} ${dm[1]} · مرحله ${nf(P.i + 1)}: ${s.stage}</span><h2 class="q">${s.q}</h2>${gFig(s.fig)}${gCase(s.case)}${gLab(s.lab)}`;
+      let h = `<span class="qtag qtag--stage" style="--dc:${dm[2]}">${dm[0]} ${dm[1]} • مرحله ${nf(P.i + 1)}: ${s.stage}</span><h2 class="q">${s.q}</h2>${gFig(s.fig)}${gCase(s.case)}${gLab(s.lab)}`;
       if (s.t === 'mcq') h += `<div class="opts">${s.view.map((o, i) => `<button class="opt" data-g="sel" data-i="${i}"><kbd>${nf(i + 1)}</kbd><span>${o}</span></button>`).join('')}</div>`;
       if (s.t === 'tf') h += `<div class="opts opts--tf"><button class="opt opt--tf" data-g="sel" data-i="1"><span>✓ درست</span></button><button class="opt opt--tf" data-g="sel" data-i="0"><span>✗ نادرست</span></button></div>`;
       if (s.t === 'num') h += `<label class="numin"><input type="text" inputmode="decimal" dir="ltr" autocomplete="off" placeholder="عدد"><span class="numin__u">${s.unit || ''}</span></label>`;
@@ -2976,7 +2976,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       g.fillStyle = '#6f7a80'; g.font = font(700, 38); g.fillText('نمره امتحان نهایی', W / 2, ly + 270);
       g.font = font(600, 34); g.fillText('تاریخ: ' + o.date, W / 2, 1560);
       g.direction = 'ltr'; g.font = '700 36px Nunito, monospace'; g.fillStyle = '#3c3c3c'; g.fillText('Tracking code: ' + o.code, W / 2, 1615);
-      g.direction = 'rtl'; g.fillStyle = '#fff'; g.font = font(800, 44); g.fillText(o.brand + ' · ' + CFG.BRAND_FA, W / 2, 1780);
+      g.direction = 'rtl'; g.fillStyle = '#fff'; g.font = font(800, 44); g.fillText(o.brand + ' • ' + CFG.BRAND_FA, W / 2, 1780);
       const url = cv.toDataURL('image/png');
       const m = pModal(`<h3>📸 کارت استوری گواهی</h3><img class="acstory" src="${url}" alt="کارت استوری گواهی"><div class="modal__btns"><a class="btn btn--brand btn--lg" href="${url}" download="certificate-story-${o.code}.png">⬇️ ذخیره تصویر</a>${navigator.canShare ? '<button class="btn btn--gold" data-share>📤 اشتراک‌گذاری</button>' : ''}<button class="btn btn--ghost" data-close>بستن</button></div>`, { cls: 'modal--story' });
       const sh = m.el.querySelector('[data-share]');
@@ -3052,7 +3052,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function backupModal() {
     const str = backupString();
     const m = pModal(`<div class="big-i">📦</div><h3>${PT('کد پشتیبان', 'Backup code')}</h3><p class="muted">${PT('همه پیشرفت سه دوره، پروفایل، گواهی‌ها، کلینیک خطاها و کدهای اشتراک در این رشته (Base64 با امضای امنیتی) است. آن را جایی امن نگه دار یا روی دستگاه دیگر بازیابی کن.', 'All progress, profile, certificates and subscription codes in one signed Base64 string.')}</p>
-      ${copyBox(str, 6)}<p class="muted acsmall">${PT(`حجم: ${nf(Math.round(str.length / 1024))} کیلوبایت · کد اشتراک روی دستگاه دیگر به کد تازه نیاز دارد.`, `Size: ${nf(Math.round(str.length / 1024))} KB · a new device needs a new subscription code.`)}</p>
+      ${copyBox(str, 6)}<p class="muted acsmall">${PT(`حجم: ${nf(Math.round(str.length / 1024))} کیلوبایت • کد اشتراک روی دستگاه دیگر به کد تازه نیاز دارد.`, `Size: ${nf(Math.round(str.length / 1024))} KB • a new device needs a new subscription code.`)}</p>
       <div class="modal__btns"><button class="btn btn--brand btn--lg" data-cp>📋 ${PT('کپی کد پشتیبان', 'Copy backup code')}</button><a class="btn btn--ghost" download="academy-backup-${new Date().toISOString().slice(0, 10)}.txt" href="data:text/plain;charset=utf-8,${encodeURIComponent(str)}">⬇️ ${PT('ذخیره فایل', 'Save file')}</a><button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></div>`);
     m.el.querySelector('[data-cp]').onclick = () => copyText(str).then(ok => pToast(ok ? '📋 ' + PT('کد پشتیبان کپی شد', 'Copied') : PT('از کادر دستی کپی کن', 'Copy it manually'), ok ? '' : 'toast--bad'));
   }
@@ -3216,7 +3216,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <h2>${c.nameFa}<small dir="ltr">${c.nameEn}</small></h2>
         <p class="dc__sub">${c.subjectFa}</p>
         <p class="dc__tag">${cat(c).tagline || c.descFa}</p>
-        <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? `${nf(done)} از ${nf(total)} درس · ${nf(pct)}٪` : `${nf(total)} درس · ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`}</span></div>
+        <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? `${nf(done)} از ${nf(total)} درس • ${nf(pct)}٪` : `${nf(total)} درس • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`}</span></div>
         <div class="dc__cta">
           <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? 'ادامه یادگیری' : a && a.tier ? 'شروع دوره' : 'شروع رایگان'}</a>
           <button class="dc__more" data-more="${c.id}" aria-label="معرفی و جزئیات دوره ${c.nameFa}"><span class="dc__more-i" aria-hidden="true">i</span><span class="dc__more-t"><b>معرفی دوره</b><small>مسیر، اهداف و ابزارها</small></span><i class="dc__chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></i></button>
@@ -3238,7 +3238,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     return `<section class="dd" data-dd="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light}">
       <header class="dd__head">
         <div class="dd__m">${courseMascot(c, 'cheer', 92)}</div>
-        <div class="dd__t"><small>${c.subjectFa}</small><h3>${c.nameFa} · ${c.courseFa}</h3><p>${k.about || c.descFa}</p>
+        <div class="dd__t"><small>${c.subjectFa}</small><h3>${c.nameFa} • ${c.courseFa}</h3><p>${k.about || c.descFa}</p>
           ${k.highlights && k.highlights.length ? `<div class="dd__hl">${k.highlights.map(h => `<span>✦ ${h}</span>`).join('')}</div>` : ''}</div>
         <button class="iconbtn dd__x" data-more="${c.id}" aria-label="بستن جزئیات">✕</button>
       </header>
@@ -3257,7 +3257,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <h4 class="dd__th">🧮 ابزارهای بالینی و ماشین‌حساب‌ها ${a.tools ? '<span class="actb actb--pro">باز است</span>' : '<span class="actb actb--lock">🔒 Pro</span>'}</h4>
       <div class="dd__tools">${k.tools.map(t => `<div class="dd__tool" style="--tc:${t.color}"><span dir="ltr">${t.sym}</span><div><b>${t.name}</b><small>${t.desc}</small></div></div>`).join('')}</div>
       <div class="dd__foot">
-        <div class="dd__acc">${a.tier ? `${tierBadge(a)} <span>${a.life ? 'اشتراک دائمی ♾️' : `${leftText(a.expiry)} باقی‌مانده · تا ${fdate(a.expiry)}`}</span>` : ''}</div>
+        <div class="dd__acc">${a.tier ? `${tierBadge(a)} <span>${a.life ? 'اشتراک دائمی ♾️' : `${leftText(a.expiry)} باقی‌مانده • تا ${fdate(a.expiry)}`}</span>` : ''}</div>
         <div class="dd__act">
           <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? 'ادامه یادگیری' : 'شروع دوره'} ←</a>
           ${a.tools ? `<a class="btn btn--ghost" href="?course=${c.id}#/tools">🧮 ابزارها</a>` : ''}
@@ -3295,7 +3295,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     el.innerHTML = `
       <div class="dbg" aria-hidden="true"><i></i><i></i><i></i><span class="dbg__grid"></span></div>
       <header class="dbar"><div class="dwrap dbar__in">
-        <button class="dbar__logo" data-logo aria-label="${CFG.BRAND_FA}">${LOGO}<span><b>${CFG.BRAND_FA}</b><small>${list.map(c => c.nameFa).join(' · ')}</small></span></button>
+        <button class="dbar__logo" data-logo aria-label="${CFG.BRAND_FA}">${LOGO}<span><b>${CFG.BRAND_FA}</b><small>${list.map(c => c.nameFa).join(' • ')}</small></span></button>
         <div class="dbar__act">
           ${sm.vip ? '<span class="acvip">💎 الماس</span>' : ''}
           <div class="dtheme" role="group" aria-label="رنگ صفحه">${[['light', '☀️', 'روشن'], ['auto', '🌗', 'خودکار'], ['dark', '🌙', 'تیره']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${t[2]}" aria-label="پوسته ${t[2]}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
@@ -3306,7 +3306,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <div class="dwrap">
         <section class="dhero">
           <div class="dhero__txt">
-            <span class="dchip"><i></i>آموزش بالینی بازی‌وار · کاملاً آفلاین</span>
+            <span class="dchip"><i></i>آموزش بالینی بازی‌وار • کاملاً آفلاین</span>
             <small>${p.name ? `سلام ${pesc(p.name)} 👋` : 'خوش آمدی 👋'}</small>
             <h1>امروز کدام مهارت بالینی را <em>تمرین کنیم؟</em></h1>
             <p>هر دوره یک مسیر کامل است: درس‌های سه‌دقیقه‌ای، بیمارهای واقعی‌نما، ماشین‌حساب بالینی و گواهی پایان دوره. روی هر دوره بزن تا جزئیاتش را ببینی.</p>
@@ -3423,7 +3423,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="up__m">${courseMascot(c, 'cheer', 96)}</div>
           <div class="up__t">
             <small>${w ? `🔒 ${w[1]} در اشتراک فعلی‌ات باز نیست` : '👑 ارتقا و فعال‌سازی دوره'}</small>
-            <h3>${c.nameFa} <span>· ${c.subjectFa}</span></h3>
+            <h3>${c.nameFa} <span>• ${c.subjectFa}</span></h3>
             <p>${k.tagline || c.descFa}</p>
             ${a.tier ? `<span class="up__now">اشتراک فعلی: ${tierBadge(a)}${!a.life ? ` <em>${leftText(a.expiry)} مانده</em>` : ''}</span>` : ''}
           </div>
@@ -3449,7 +3449,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <h4 class="acstep"><span>۲</span> مدت اعتبار</h4>
           <div class="up__durs">${[1, 2, 3, 4].map(d => `<button class="up__dur ${st.dur === d ? 'is-on' : ''}" data-dur="${d}"><b>${DUR[d].short}</b><small>${d > 1 && save(d) > 0 ? `${nf(save(d))}٪ صرفه‌جویی` : 'بدون تعهد'}</small></button>`).join('')}</div>
           ${st.tier === 3 ? `<div class="acok">💎 پکیج الماس همه دوره‌های فعلی (${list.map(x => x.nameFa).join('، ')}) و دوره‌های آینده را باز می‌کند.</div>` : `
-          <h4 class="acstep"><span>۳</span> دوره‌های دیگر را هم اضافه کن <small>۲ دوره ۱۵٪ · ۳ دوره ۲۵٪ تخفیف${st.tier === 2 ? ' · Pro حداکثر ۲ دوره' : ''}</small></h4>
+          <h4 class="acstep"><span>۳</span> دوره‌های دیگر را هم اضافه کن <small>۲ دوره ۱۵٪ • ۳ دوره ۲۵٪ تخفیف${st.tier === 2 ? ' • Pro حداکثر ۲ دوره' : ''}</small></h4>
           <div class="up__more">${list.filter(x => x.id !== c.id).map(x => `<label class="up__add ${st.sel[x.id] ? 'is-on' : ''}" style="--ac:${x.color}"><input type="checkbox" data-add="${x.id}" ${st.sel[x.id] ? 'checked' : ''}><span class="up__addm">${courseMascot(x, 'happy', 34)}</span><span><b>${x.nameFa}</b><small>${x.subjectFa}</small></span><i>${st.sel[x.id] ? '✓' : '+'}</i></label>`).join('')}</div>`}
           <div class="up__code">
             <b>🔑 کد فعال‌سازی داری؟</b>
@@ -3459,7 +3459,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="acorder" hidden></div>
         </div>
         <footer class="up__sum">
-          <div><small>${TIERS[st.tier].short} · ${DUR[st.dur].short} · ${st.tier === 3 ? 'همه دوره‌ها' : `${nf(n)} دوره`} · روزی حدود ${nf(Math.round(p / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان</small><span>${full > p ? `<s>${nf(full)}</s>` : ''}<b>${nf(p)}</b> <i>${CFG.CURRENCY}</i></span></div>
+          <div><small>${TIERS[st.tier].short} • ${DUR[st.dur].short} • ${st.tier === 3 ? 'همه دوره‌ها' : `${nf(n)} دوره`} • روزی حدود ${nf(Math.round(p / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان</small><span>${full > p ? `<s>${nf(full)}</s>` : ''}<b>${nf(p)}</b> <i>${CFG.CURRENCY}</i></span></div>
           <button class="btn btn--gold btn--lg" data-order>🧾 ثبت سفارش و دریافت کد</button>
         </footer>`;
       if (keepScroll) card.querySelector('.up__b').scrollTop = y;
@@ -3774,7 +3774,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     MODE = 'dash';
     document.body.classList.add('mode-dash');
     applyDashTheme();
-    document.title = CFG.BRAND_FA + ' · یونا، هما، نگار';
+    document.title = CFG.BRAND_FA + ' • یونا، هما، نگار';
     renderDash();
     if (!profile()) onboardModal(renderDash);
   }
@@ -3867,7 +3867,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
       const grid = view === 'practice' && document.querySelector('#view .pgrid');
       if (grid && !grid.querySelector('.pcard--icu')) {
         const ok = summary().grand, g = LS.json('academy.grand', {}), n = GR().filter(x => g[x.id] && g[x.id].passed).length;
-        grid.insertAdjacentHTML('beforeend', `<article class="pcard pcard--wide pcard--icu"><div class="pcard__i">🚨</div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU grand rounds')}</h3><p>${PT(`${nf(GR().length)} بیمار بدحال که الکترولیت، گاز خون و معاینه تغذیه‌محور را با هم می‌خواهند · ${nf(n)} از ${nf(GR().length)} قبول`, `${nf(GR().length)} critically ill patients combining electrolytes, blood gases and NFPE`)}</p><button class="btn ${ok ? 'btn--red' : 'btn--ghost'} btn--block" data-ac="grand">${ok ? PT('ورود به شیفت 🚑', 'Start the shift 🚑') : PT('🔒 حداقل ۲ دوره یا پکیج الماس', '🔒 2 courses or Diamond')}</button></article>`);
+        grid.insertAdjacentHTML('beforeend', `<article class="pcard pcard--wide pcard--icu"><div class="pcard__i">🚨</div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU grand rounds')}</h3><p>${PT(`${nf(GR().length)} بیمار بدحال که الکترولیت، گاز خون و معاینه تغذیه‌محور را با هم می‌خواهند • ${nf(n)} از ${nf(GR().length)} قبول`, `${nf(GR().length)} critically ill patients combining electrolytes, blood gases and NFPE`)}</p><button class="btn ${ok ? 'btn--red' : 'btn--ghost'} btn--block" data-ac="grand">${ok ? PT('ورود به شیفت 🚑', 'Start the shift 🚑') : PT('🔒 حداقل ۲ دوره یا پکیج الماس', '🔒 2 courses or Diamond')}</button></article>`);
       }
     },
     sha256hex: s => hex(sha256(s))
