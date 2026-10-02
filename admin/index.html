@@ -95,7 +95,7 @@ table.codes th, table.codes td { text-align: start; padding: 7px 6px; border-bot
 table.codes th { color: var(--mu); font-weight: 800; }
 .empty { text-align: center; color: var(--mu); padding: 40px 10px; }
 .toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1f2a33; color: #fff; padding: 10px 18px; border-radius: 12px; font-weight: 800; z-index: 50; box-shadow: var(--sh); }
-@media (max-width: 640px) { .top__in { flex-wrap: wrap; } .tabs { order: 3; width: 100%; margin: 0; display: grid; grid-template-columns: repeat(4, 1fr); } .tab { padding: 7px 4px; font-size: 13px; } .lockbtn { margin-inline-start: auto; } }
+@media (max-width: 640px) { .top__in { flex-wrap: wrap; } .tabs { order: 3; width: 100%; margin: 0; display: grid; grid-template-columns: repeat(5, 1fr); } .tab { padding: 7px 4px; font-size: 13px; } .lockbtn { margin-inline-start: auto; } }
 </style>
 </head>
 <body>
@@ -145,6 +145,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
     <nav class="tabs" id="tabs">
       <button class="tab on" data-tab="issue">🧾 صدور کد</button>
       <button class="tab" data-tab="buyers">👥 خریداران</button>
+      <button class="tab" data-tab="promo">🎁 کد تخفیف</button>
       <button class="tab" data-tab="check">🔍 بررسی کد</button>
       <button class="tab" data-tab="settings">⚙️ تنظیمات</button>
     </nav>
@@ -199,6 +200,25 @@ table.codes th { color: var(--mu); font-weight: 800; }
         <select id="bSort" style="width:auto"><option value="exp">زودترین پایان اشتراک</option><option value="new">جدیدترین خرید</option><option value="name">نام</option></select>
       </div>
       <div id="bList"></div>
+    </section>
+
+    <!-- کد تخفیف -->
+    <section data-pane="promo" class="hide">
+      <h2>کدهای تخفیف و کمپین</h2>
+      <p class="lead">خریدار کد را در پنجره خرید برنامه وارد می‌کند؛ قیمت با تخفیف و نام کد در متن سفارشش می‌آید و این پنل هنگام صدور، اعتبارش را بررسی می‌کند.</p>
+      <div class="card">
+        <h3>➕ ساخت کد کمپین تازه</h3>
+        <div class="grid2">
+          <label class="f">نام کد (حروف انگلیسی و عدد، ۲ تا ۱۲)<input type="text" id="pName" class="ltr" maxlength="12" placeholder="NOWRUZ"></label>
+          <label class="f">درصد تخفیف (۱ تا ۶۰)<input type="number" id="pPct" min="1" max="60" value="25"></label>
+          <label class="f">مهلت (روز)<input type="number" id="pDays" min="1" max="3650" value="14"></label>
+          <label class="f">برای پلن‌های<select id="pPlan"><option value="A">همه پلن‌ها</option><option value="P">Pro و الماس</option><option value="V">فقط پکیج الماس</option></select></label>
+        </div>
+        <label class="f" style="margin-top:10px">توضیح برای خودت (اختیاری)<input type="text" id="pNote" maxlength="80" placeholder="مثلاً: کانال تلگرام، تبلیغ نوروز"></label>
+        <button class="btn btn--gold" id="pGo" style="margin-top:12px">🎁 ساخت کد</button>
+        <div id="pOut"></div>
+      </div>
+      <div class="card"><h3>📋 کدهای تو</h3><div id="pList"></div></div>
     </section>
 
     <!-- بررسی -->
@@ -321,6 +341,29 @@ var NACL = {};
     var expMin = ((p[2] << 24) >>> 0) + (p[3] << 16) + (p[4] << 8) + p[5], d = DUR[durId] || DUR[1];
     return { ok: true, tier: tier, mask: mask, durId: durId, life: !!d.life, exp: d.life ? 0 : EPOCH + expMin * 60000 };
   }
+
+  /* ================= کد تخفیف (همان قرارداد برنامه) =================
+   * کدهای ثابت باید با CFG.PROMOS داخل برنامه یکی باشند. کد کمپین: NAME-PPEEEP-TTTT */
+  var BUILTIN_PROMOS = { MED20: { pct: 20, plan: 'A', fa: 'تخفیف دانشجویان پزشکی' }, VIP30: { pct: 30, plan: 'V', fa: 'تخفیف ویژه پکیج الماس' } };
+  var PLAN_FA = { A: 'همه پلن‌ها', P: 'Pro و الماس', V: 'فقط الماس' };
+  async function sha256b(str) { return new Uint8Array(await crypto.subtle.digest('SHA-256', enc.encode(str))); }
+  async function promoTag(name, pp, eee, p) { return b32enc(await sha256b('TRAPO-PROMO-1|' + name + '|' + pp + '|' + eee + '|' + p)).slice(0, 4); }
+  function eeeOf(days) { var v = days, o = ''; for (var i = 0; i < 3; i++) { o = B32[v % 32] + o; v = Math.floor(v / 32); } return o; }
+  async function makePromo(name, pct, daysValid, plan) {
+    var expDay = Math.floor((NOW() - EPOCH) / 864e5) + daysValid;
+    var pp = String(pct).padStart(2, '0'), eee = eeeOf(expDay);
+    return { code: name + '-' + pp + eee + plan + '-' + (await promoTag(name, pp, eee, plan)), until: EPOCH + (expDay + 1) * 864e5 };
+  }
+  async function checkPromo(code) {
+    var c = String(code || '').toUpperCase().replace(/\s+/g, '');
+    var b = BUILTIN_PROMOS[c]; if (b) return { ok: true, code: c, pct: b.pct, plan: b.plan, label: b.fa, builtin: true };
+    var m = /^([A-Z0-9]{2,12})-(\d{2})([0-9A-Z]{3})([APV])-([0-9A-Z]{4})$/.exec(c);
+    if (!m || (await promoTag(m[1], m[2], m[3], m[4])) !== m[5]) return { ok: false, code: c, err: 'ساختار یا برچسب کنترلی کد درست نیست (ممکن است جعلی باشد)' };
+    var days = m[3].split('').reduce(function (v, ch) { return v * 32 + B32.indexOf(ch); }, 0), until = EPOCH + (days + 1) * 864e5;
+    var mine = DATA && (DATA.promos || []).some(function (x) { return x.code === c; });
+    return { ok: until > NOW(), expired: until <= NOW(), code: c, pct: +m[2], plan: m[4], until: until, mine: mine, err: until <= NOW() ? 'مهلت این کد تمام شده است' : '' };
+  }
+  function promoUses(code) { var n = 0, sum = 0; if (DATA) for (var k in DATA.buyers) DATA.buyers[k].codes.forEach(function (c) { if (c.promo === code) { n++; sum += c.price || 0; } }); return { n: n, sum: sum }; }
 
   /* ================= دوره‌ها (از فایل‌های برنامه) ================= */
   var AC = window.ACADEMY_COURSES || {};
@@ -448,6 +491,7 @@ var NACL = {};
     document.querySelectorAll('[data-pane]').forEach(function (p) { p.classList.toggle('hide', p.dataset.pane !== b.dataset.tab); });
     if (b.dataset.tab === 'buyers') renderBuyers();
     if (b.dataset.tab === 'settings') renderSettings();
+    if (b.dataset.tab === 'promo') renderPromos();
     window.scrollTo(0, 0);
   };
   function goTab(t) { document.querySelector('.tab[data-tab="' + t + '"]').click(); }
@@ -462,10 +506,12 @@ var NACL = {};
     var pr = /مبلغ\s*:\s*([\d,٬.\s]+)/.exec(t); if (pr) { var v = +pr[1].replace(/[^\d]/g, ''); if (v) o.price = v; }
     var id = /(ORD-[0-9A-Z]{6})/i.exec(t); if (id) o.order = id[1].toUpperCase();
     var dt = /تاریخ\s*:\s*(.+)/.exec(text); if (dt) o.orderDate = dt[1].trim().slice(0, 60);
+    var pm = /TRAPO-PROMO:([A-Z0-9-]{2,24}):(\d{1,2}):(\d+)/i.exec(t); if (pm) o.promo = { code: pm[1].toUpperCase(), pct: +pm[2], final: +pm[3] };
+    var bp = /قیمت پایه\s*:\s*([\d,٬.\s]+)/.exec(t); if (bp) o.basePrice = +bp[1].replace(/[^\d]/g, '');
     return o;
   }
-  var IS = { dev: '', name: '', contact: '', price: '', sel: {}, tier: 1, dur: 1, order: '', orderDate: '', note: '' };
-  function issueReset() { IS = { dev: '', name: '', contact: '', price: '', sel: {}, tier: 1, dur: 1, order: '', orderDate: '', note: '' }; $('iMsg').value = ''; $('iParse').innerHTML = ''; $('iOut').classList.add('hide'); syncIssueInputs(); renderIssue(); }
+  var IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 1, dur: 1, order: '', orderDate: '', note: '', promo: '' };
+  function issueReset() { IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 1, dur: 1, order: '', orderDate: '', note: '', promo: '' }; $('iMsg').value = ''; $('iParse').innerHTML = ''; $('iOut').classList.add('hide'); syncIssueInputs(); renderIssue(); }
   function syncIssueInputs() { $('iName').value = IS.name; $('iContact').value = IS.contact; $('iDev').value = IS.dev; $('iPrice').value = IS.price ? String(IS.price) : ''; $('iNote').value = IS.note; }
   $('iMsg').oninput = function () {
     var t = $('iMsg').value.trim();
@@ -473,15 +519,26 @@ var NACL = {};
     var o = parseOrder(t), got = [];
     if (o.dev) { IS.dev = o.dev; got.push('دستگاه'); }
     if (o.name) { IS.name = o.name; got.push('نام'); }
-    if (o.full) { IS.tier = o.tier >= 1 && o.tier <= 3 ? o.tier : 1; IS.dur = DUR[o.dur] ? o.dur : 1; IS.sel = {}; COURSES.forEach(function (c) { if (o.mask & c.bit) IS.sel[c.id] = true; }); got.push('دوره‌ها، پلن و مدت'); }
+    if (o.full) { IS.tier = o.tier >= 1 && o.tier <= 3 ? o.tier : 1; IS.dur = DUR[o.dur] ? o.dur : 1; IS.sel = {}; var kb = 0; COURSES.forEach(function (c) { kb |= c.bit; if (o.mask & c.bit) IS.sel[c.id] = true; }); IS.extra = o.mask & ~kb & ALL_MASK; got.push('دوره‌ها، پلن و مدت'); }
     if (o.price) { IS.price = o.price; got.push('مبلغ'); }
-    IS.order = o.order || ''; IS.orderDate = o.orderDate || '';
+    IS.order = o.order || ''; IS.orderDate = o.orderDate || ''; IS.promo = o.promo ? o.promo.code : '';
     syncIssueInputs(); renderIssue();
     var html = got.length ? '<div class="msg ok">✓ از پیام خوانده شد: ' + esc(got.join('، ')) + (o.order ? ' • سفارش ' + esc(o.order) : '') + '</div>' : '<div class="msg warn">پیام سفارش شناخته نشد؛ مشخصات را پایین دستی پر کن.</div>';
     if (o.dev && !o.full) html += '<div class="msg warn">پیام کامل نبود؛ دوره‌ها، پلن و مدت را خودت انتخاب کن.</div>';
     var dupe = o.order && findOrder(o.order);
     if (dupe) html += '<div class="msg warn">⚠️ برای این سفارش (' + esc(o.order) + ') قبلاً در ' + esc(fdt(dupe.c.issuedAt)) + ' کد صادر شده است. <button class="btn btn--sm" data-reuse="' + esc(o.order) + '">نمایش همان پیام</button></div>';
     $('iParse').innerHTML = html;
+    if (o.promo) {
+      var pr = o.promo;
+      checkPromo(pr.code).then(function (r) {
+        var plans = r.ok ? ({ A: [1, 2, 3], P: [2, 3], V: [3] })[r.plan] : [];
+        var fitsPlan = !o.full || plans.indexOf(o.tier) >= 0, pctOk = r.ok && r.pct === pr.pct;
+        var good = r.ok && fitsPlan && pctOk;
+        $('iParse').insertAdjacentHTML('beforeend', '<div class="msg ' + (good ? 'ok' : 'warn') + '">🎁 کد تخفیف <b class="ltr">' + esc(pr.code) + '</b> (' + nf(pr.pct) + '٪) ' +
+          (good ? '✓ معتبر' + (r.builtin ? ' — کد ثابت' : r.mine ? ' — کمپین خودت' : '') + (o.basePrice ? ' • پایه ' + nf(o.basePrice) + ' ← نهایی ' + nf(pr.final) + ' تومان' : '')
+            : '⚠️ ' + esc(r.err || (!pctOk ? 'درصد پیام با درصد واقعی کد یکی نیست' : 'این کد برای این پلن نیست')) + ' — مبلغ دریافتی را با قیمت پایه بررسی کن') + '</div>');
+      });
+    }
   };
   $('iParse').onclick = function (e) { var b = e.target.closest('[data-reuse]'); if (b) { var f = findOrder(b.dataset.reuse); if (f) showReady(f.b, f.c); } };
   $('iPaste').onclick = function () {
@@ -497,12 +554,12 @@ var NACL = {};
       if (id === 'iDev') renderBuyerNote();
     });
   });
-  function issueMask() { if (IS.tier === 3) return ALL_MASK; var m = 0; COURSES.forEach(function (c) { if (IS.sel[c.id]) m |= c.bit; }); return m; }
+  function issueMask() { if (IS.tier === 3) return ALL_MASK; var m = IS.extra || 0; COURSES.forEach(function (c) { if (IS.sel[c.id]) m |= c.bit; }); return m; }
   function renderIssue() {
     $('iCourses').innerHTML = COURSES.map(function (c) {
       var on = IS.tier === 3 || IS.sel[c.id];
       return '<label class="chip ' + (on ? 'on' : '') + '" style="--cc:' + c.color + '"><input type="checkbox" data-c="' + c.id + '"' + (on ? ' checked' : '') + (IS.tier === 3 ? ' disabled' : '') + '> ' + c.icon + ' <b>' + esc(c.fa) + '</b> <span class="muted">' + esc(c.sub) + '</span></label>';
-    }).join('');
+    }).join('') + (IS.extra && IS.tier !== 3 ? '<label class="chip on" title="فایل این دوره هنوز به پنل اضافه نشده؛ بیتش از پیام سفارش خوانده شد و در کد حفظ می‌شود"><input type="checkbox" data-xc checked> 🆕 <b>دوره تازه (بیت ' + nf(IS.extra) + ')</b> <span class="muted">از پیام سفارش</span></label>' : '');
     $('iTiers').innerHTML = [1, 2, 3].map(function (t) { return '<button data-t="' + t + '" class="' + (IS.tier === t ? 'on' : '') + '">' + TIERS[t].icon + ' ' + TIERS[t].fa + '</button>'; }).join('');
     $('iDurs').innerHTML = DUR.map(function (d) { return '<button data-d="' + d.id + '" class="' + (IS.dur === d.id ? 'on' : '') + '">' + d.fa + '</button>'; }).join('');
     renderBuyerNote();
@@ -511,7 +568,7 @@ var NACL = {};
     var b = DATA && DATA.buyers[normDev(IS.dev)];
     $('iBuyerNote').innerHTML = b ? '<div class="msg info">👤 خریدار قبلی: <b>' + esc(b.name || 'بی‌نام') + '</b> • ' + nf(b.codes.length) + ' کد قبلی • کد تازه با اشتراک‌های قبلی‌اش جمع می‌شود.</div>' : '';
   }
-  $('iCourses').onchange = function (e) { var c = e.target.dataset.c; if (c) { IS.sel[c] = e.target.checked; renderIssue(); } };
+  $('iCourses').onchange = function (e) { if (e.target.hasAttribute('data-xc')) { if (!e.target.checked) IS.extra = 0; renderIssue(); return; } var c = e.target.dataset.c; if (c) { IS.sel[c] = e.target.checked; renderIssue(); } };
   $('iTiers').onclick = function (e) { var b = e.target.closest('[data-t]'); if (b) { IS.tier = +b.dataset.t; renderIssue(); } };
   $('iDurs').onclick = function (e) { var b = e.target.closest('[data-d]'); if (b) { IS.dur = +b.dataset.d; renderIssue(); } };
 
@@ -529,7 +586,7 @@ var NACL = {};
     var b = DATA.buyers[dev] || (DATA.buyers[dev] = { dev: devF, name: '', contact: '', note: '', firstAt: now, codes: [] });
     if (IS.name) b.name = IS.name.trim().slice(0, 80);
     if (IS.contact) b.contact = IS.contact.trim().slice(0, 80);
-    var c = { code: code, tier: IS.tier, mask: mask, dur: IS.dur, issuedAt: now, exp: g.exp, life: g.life, price: +IS.price || 0, order: IS.order || '', orderDate: IS.orderDate || '', note: (IS.note || '').trim().slice(0, 160) };
+    var c = { code: code, tier: IS.tier, mask: mask, dur: IS.dur, issuedAt: now, exp: g.exp, life: g.life, price: +IS.price || 0, order: IS.order || '', orderDate: IS.orderDate || '', note: (IS.note || '').trim().slice(0, 160), promo: IS.promo || '' };
     b.codes.push(c);
     save();
     showReady(b, c);
@@ -663,7 +720,7 @@ var NACL = {};
       var on = c.life || c.exp > now, idx = b.codes.indexOf(c);
       return '<tr><td>' + esc(fdt(c.issuedAt)) + (c.order ? '<div class="muted ltr">' + esc(c.order) + '</div>' : '') + '</td><td>' + esc(maskNames(c.mask)) + '<div class="muted">' + TIERS[c.tier].fa + ' • ' + DUR[c.dur].fa + '</div>' + (c.note ? '<div class="muted">📝 ' + esc(c.note) + '</div>' : '') + '</td>'
         + '<td>' + (c.life ? '<span class="badge b-life">دائمی</span>' : '<span class="badge ' + (on ? 'b-ok' : 'b-bad') + '">' + (on ? 'فعال • ' + remain(c.exp) : 'منقضی') + '</span><div class="muted">' + esc(fdate(c.exp)) + '</div>') + '</td>'
-        + '<td>' + (c.price ? nf(c.price) : '—') + '</td>'
+        + '<td>' + (c.price ? nf(c.price) : '—') + (c.promo ? '<div><span class="badge b-life ltr">🎁 ' + esc(c.promo) + '</span></div>' : '') + '</td>'
         + '<td><button class="btn btn--sm" data-cmsg="' + k + ':' + idx + '">📋 پیام</button> <button class="btn btn--sm" data-ccode="' + k + ':' + idx + '">کد</button></td></tr>';
     }).join('');
     return '<div class="buyer__b">'
@@ -717,6 +774,30 @@ var NACL = {};
       + (hit ? '<div class="msg info">👤 صادرشده برای ' + esc(hit.b.name || 'بی‌نام') + ' در ' + esc(fdt(hit.c.issuedAt)) + (hit.c.order ? ' • ' + esc(hit.c.order) : '') + '</div>' : '<div class="msg warn">این کد در فهرست خریداران این پنل نیست.</div>');
     out.innerHTML = h;
   };
+
+  /* ================= کدهای تخفیف ================= */
+  function renderPromos() {
+    if (!DATA) return;
+    DATA.promos = DATA.promos || [];
+    var rows = Object.keys(BUILTIN_PROMOS).map(function (k) { var b = BUILTIN_PROMOS[k], u = promoUses(k); return '<tr><td class="ltr"><b>' + k + '</b></td><td>' + nf(b.pct) + '٪</td><td>' + PLAN_FA[b.plan] + '</td><td>ثابت (داخل برنامه)</td><td>' + nf(u.n) + ' فروش • ' + nf(u.sum) + '</td><td><button class="btn btn--sm" data-pcopy="' + k + '">📋</button></td></tr>'; })
+      .concat(DATA.promos.slice().reverse().map(function (p) { var u = promoUses(p.code), live = p.until > NOW(); return '<tr><td class="ltr"><b>' + esc(p.code) + '</b>' + (p.note ? '<div class="muted" style="direction:rtl">' + esc(p.note) + '</div>' : '') + '</td><td>' + nf(p.pct) + '٪</td><td>' + PLAN_FA[p.plan] + '</td><td><span class="badge ' + (live ? 'b-ok' : 'b-bad') + '">' + (live ? 'تا ' + fdate(p.until) : 'منقضی') + '</span></td><td>' + nf(u.n) + ' فروش • ' + nf(u.sum) + '</td><td><button class="btn btn--sm" data-pcopy="' + esc(p.code) + '">📋</button></td></tr>'; }));
+    $('pList').innerHTML = '<div style="overflow-x:auto"><table class="codes"><thead><tr><th>کد</th><th>تخفیف</th><th>پلن</th><th>مهلت</th><th>استفاده</th><th></th></tr></thead><tbody>' + rows.join('') + '</tbody></table></div>';
+  }
+  $('pGo').onclick = async function () {
+    var name = $('pName').value.toUpperCase().replace(/[^A-Z0-9]/g, ''), pct = Math.round(+$('pPct').value), days = Math.round(+$('pDays').value), plan = $('pPlan').value;
+    var fail = function (t) { $('pOut').innerHTML = '<div class="msg bad">' + esc(t) + '</div>'; };
+    if (name.length < 2 || name.length > 12) return fail('نام کد ۲ تا ۱۲ حرف انگلیسی یا عدد باشد.');
+    if (BUILTIN_PROMOS[name]) return fail('این نام برای کد ثابت برنامه است؛ نام دیگری بگذار.');
+    if (!(pct >= 1 && pct <= 60)) return fail('درصد باید بین ۱ و ۶۰ باشد.');
+    if (!(days >= 1 && days <= 3650)) return fail('مهلت باید بین ۱ و ۳۶۵۰ روز باشد.');
+    var r = await makePromo(name, pct, days, plan);
+    DATA.promos = DATA.promos || [];
+    DATA.promos.push({ code: r.code, name: name, pct: pct, plan: plan, until: r.until, note: $('pNote').value.trim().slice(0, 80), createdAt: NOW() });
+    save(); renderPromos();
+    $('pOut').innerHTML = '<div class="msg ok">✓ کد ساخته شد: <b class="ltr">' + esc(r.code) + '</b> — ' + nf(pct) + '٪ برای ' + PLAN_FA[plan] + ' تا ' + esc(fdate(r.until)) + ' (کپی شد)</div>';
+    copy(r.code);
+  };
+  $('pList').onclick = function (e) { var b = e.target.closest('[data-pcopy]'); if (b) copy(b.dataset.pcopy); };
 
   /* ================= تنظیمات ================= */
   function renderSettings() {

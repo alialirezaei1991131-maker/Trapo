@@ -1878,6 +1878,106 @@ body.mode-course::before { animation: none; }
 .codeblue.is-done .codeblue__bar { animation-play-state: paused; opacity: .4; } .codeblue.is-done .codeblue__i { animation: none; filter: grayscale(1); }
 @media (max-width: 420px) { .nextbtn .nb-x { display: none; } }
 
+/* =====================================================================
+   فاز ارزش افزوده: متن پرونده، کد تخفیف، کیس روزانه، فلش‌کارت، یادداشت شخصی، لیگ پویا
+   ===================================================================== */
+/* ---- متن استاندارد پرونده / برگ مشاوره ---- */
+.cnote { position: relative; margin-top: 14px; border-radius: 18px; border: 1.5px solid color-mix(in srgb, var(--tc, var(--brand)) 40%, var(--line)); background: color-mix(in srgb, var(--tc, var(--brand)) 5%, var(--bg)); overflow: hidden; }
+.cnote__h { display: flex; flex-direction: column; gap: 2px; padding: 12px 16px 8px; border-bottom: 1px dashed var(--line); }
+.cnote__h b { font-weight: 900; font-size: 15px; } .cnote__h small { color: var(--muted); font-weight: 700; }
+.cnote__t { margin: 0; padding: 12px 16px; white-space: pre-wrap; word-break: break-word; font: 600 13.5px/2 Vazirmatn, Tahoma, sans-serif; color: var(--text); max-height: 420px; overflow: auto; }
+.cnote.is-empty .cnote__t { color: var(--muted); }
+.cnote__btns { display: flex; flex-wrap: wrap; gap: 8px; padding: 0 16px 14px; } .cnote__btns:empty { display: none; }
+.cnote.is-locked .cnote__t { filter: blur(4.5px); user-select: none; pointer-events: none; max-height: 220px; }
+.cnote__lock { position: absolute; inset: 52px 0 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 16px; text-align: center;
+  background: linear-gradient(180deg, color-mix(in srgb, var(--bg) 30%, transparent), color-mix(in srgb, var(--bg) 88%, transparent) 45%); }
+.cnote__lock span { font-size: 30px; } .cnote__lock b { font-weight: 900; } .cnote__lock small { color: var(--muted); font-weight: 700; max-width: 420px; line-height: 1.9; }
+.aclock__note { max-width: 640px; margin: 18px auto 0; }
+/* ---- کد تخفیف ---- */
+.up__promo { margin: 16px 0 6px; padding: 12px 14px; border-radius: 16px; border: 1.5px dashed color-mix(in srgb, #e5a500 50%, var(--line)); background: color-mix(in srgb, #ffd54a 9%, var(--bg)); }
+.up__promo > b { display: block; font-weight: 900; margin-bottom: 6px; }
+.up__promo.is-ok { border-style: solid; border-color: color-mix(in srgb, var(--green, #58cc02) 55%, var(--line)); background: color-mix(in srgb, var(--green, #58cc02) 9%, var(--bg)); }
+.up__promoon { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-weight: 800; }
+.up__promosave { display: block; color: var(--green-t, #3f8a05); font-weight: 800; margin-top: 4px; }
+.up__off { font-style: normal; font-weight: 900; font-size: 12px; color: #fff; background: #e5484d; border-radius: 99px; padding: 1px 8px; margin-inline-start: 6px; }
+.up__pp s, .up__sum s { opacity: .55; font-weight: 600; margin-inline-end: 4px; }
+/* ---- کیس بالینی امروز ---- */
+.dcase { position: relative; margin: 18px 0 6px; padding: 16px 18px; border-radius: 24px; background: var(--bg); border: 1.5px solid color-mix(in srgb, var(--cc) 35%, var(--line));
+  box-shadow: 0 14px 34px -24px var(--cc), 0 0 0 4px color-mix(in srgb, var(--cc) 8%, transparent); animation: dfade .6s cubic-bezier(.2, .8, .2, 1) both; overflow: hidden; }
+.dcase::before { content: ""; position: absolute; inset: 0 0 auto; height: 4px; background: linear-gradient(90deg, #ffc800, var(--cc), #ffc800); background-size: 200% 100%; animation: dshine 4s linear 3; }
+.dcase__h { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; }
+.dcase__star { font-size: 30px; animation: masteryFlame 1.2s ease-in-out 4 alternate; }
+.dcase__h > div { flex: 1; min-width: 180px; display: flex; flex-direction: column; } .dcase__h b { font-weight: 900; font-size: 17px; } .dcase__h small { color: var(--muted); font-weight: 700; }
+.dcase__rw { font-weight: 900; font-size: 13px; color: #9a6b00; background: color-mix(in srgb, #ffc800 22%, transparent); padding: 4px 12px; border-radius: 99px; white-space: nowrap; }
+.dcase__q { margin: 12px 0 10px; font-weight: 800; font-size: 16px; line-height: 2; }
+.dcase__opts { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 8px; } .dcase__opts--tf { grid-template-columns: 1fr 1fr; }
+.dcase__o { display: flex; align-items: center; gap: 10px; text-align: start; padding: 10px 12px; border-radius: 14px; border: 2px solid var(--line); background: var(--bg); color: var(--text); font: inherit; font-weight: 700; cursor: pointer; line-height: 1.8; transition: transform .12s, border-color .12s; }
+.dcase__o:hover:not(:disabled) { transform: translateY(-2px); border-color: var(--cc); }
+.dcase__o kbd { flex: none; width: 26px; height: 26px; display: grid; place-items: center; border-radius: 8px; border: 1.5px solid var(--line); font: 800 13px/1 inherit; }
+.dcase__o.is-right { border-color: #58cc02; background: color-mix(in srgb, #58cc02 13%, var(--bg)); } .dcase__o.is-wrong { border-color: #ff4b4b; background: color-mix(in srgb, #ff4b4b 12%, var(--bg)); }
+.dcase__o:disabled { cursor: default; }
+.dcase__res { margin-top: 12px; font-weight: 700; line-height: 1.9; } .dcase__hint { margin: 10px 0 0; color: var(--muted); font-weight: 700; font-size: 13px; }
+.dcase__why { margin-top: 8px; } .dcase__why summary { cursor: pointer; font-weight: 800; color: var(--cd, var(--text)); } .dcase__why div { margin-top: 6px; line-height: 2; color: var(--text); font-weight: 600; }
+/* ---- فلش‌کارت ---- */
+.fc { position: fixed; inset: 0; z-index: 55; background: var(--bg); display: grid; grid-template-rows: auto auto 1fr auto; animation: slideUp .25s cubic-bezier(.2, .8, .2, 1); }
+.fc__top { display: grid; grid-template-columns: auto 1fr; align-items: center; gap: 4px 12px; padding: calc(10px + env(safe-area-inset-top)) 16px 8px; max-width: 900px; width: 100%; margin: 0 auto; }
+.fc__ttl b { display: block; font-weight: 900; font-size: 17px; } .fc__ttl small { color: var(--muted); font-weight: 700; }
+.fc__bar { grid-column: 1 / -1; height: 8px; border-radius: 99px; background: var(--bg3); overflow: hidden; } .fc__bar i { display: block; height: 100%; background: var(--brand); border-radius: 99px; transition: width .4s; }
+.fc__ws { display: flex; gap: 6px; overflow-x: auto; padding: 4px 16px 8px; max-width: 900px; width: 100%; margin: 0 auto; scrollbar-width: none; }
+.fc__w { flex: none; display: inline-flex; align-items: center; gap: 6px; padding: 5px 12px; border-radius: 99px; border: 1.5px solid var(--line); background: var(--bg); color: var(--text); font: inherit; font-weight: 800; font-size: 13px; cursor: pointer; }
+.fc__w b { color: var(--wc); } .fc__w.is-on { border-color: var(--wc); background: color-mix(in srgb, var(--wc) 12%, var(--bg)); }
+.fc__stage { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 8px 16px; min-height: 0; overflow: auto; }
+.fc__card { position: relative; width: min(560px, 100%); height: min(380px, 56vh); perspective: 1400px; cursor: pointer; outline: none; }
+.fc__in { position: absolute; inset: 0; transition: transform .6s cubic-bezier(.3, 1.3, .4, 1); transform-style: preserve-3d; }
+.fc__card.is-flipped .fc__in { transform: rotateY(180deg); }
+.fc__face { position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border-radius: 26px; padding: 22px; display: flex; flex-direction: column; overflow: auto;
+  border: 2px solid color-mix(in srgb, var(--wc) 45%, var(--line)); box-shadow: 0 10px 0 color-mix(in srgb, var(--wc) 35%, transparent), 0 24px 40px -26px var(--wc); }
+.fc__face--f { align-items: center; justify-content: center; text-align: center; background: radial-gradient(120% 90% at 50% 0%, color-mix(in srgb, var(--wc) 16%, var(--bg)), var(--bg)); }
+.fc__face--f h2 { font-size: clamp(19px, 2.6vw, 25px); font-weight: 900; line-height: 1.8; margin: 12px 0; }
+.fc__face--f small { color: var(--muted); font-weight: 700; }
+.fc__face--b { transform: rotateY(180deg); background: var(--bg); }
+.fc__face--b .fc__k { color: var(--wc); }
+.fc__k { font-weight: 900; font-size: 13px; color: var(--muted); }
+.fc__body { margin-top: 10px; line-height: 2.05; font-weight: 600; } .fc__body table { width: 100%; border-collapse: collapse; } .fc__body td, .fc__body th { border-bottom: 1px solid var(--line); padding: 4px 6px; }
+.fc__f { padding: 10px 12px; border-radius: 12px; background: var(--bg2); font-weight: 700; } .fc__ans { margin-top: 10px; font-weight: 700; }
+.fc__seen { position: absolute; top: 14px; inset-inline-end: 16px; font-style: normal; font-weight: 800; font-size: 12px; color: var(--green-t, #3f8a05); }
+.fc__pos { color: var(--muted); font-weight: 800; margin: 12px 0 0; }
+.fc__card.is-locked .fc__face--f > *:not(.fc__k) { filter: blur(6px); }
+.fc__lock { position: absolute; inset: 0; z-index: 2; border-radius: 26px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; padding: 24px; text-align: center; background: color-mix(in srgb, var(--bg) 55%, transparent); }
+.fc__lock span { font-size: 38px; } .fc__lock b { font-weight: 900; font-size: 17px; } .fc__lock small { color: var(--muted); font-weight: 700; line-height: 1.9; max-width: 400px; }
+.fc__foot { display: flex; justify-content: center; gap: 10px; padding: 12px 16px calc(14px + env(safe-area-inset-bottom)); border-top: 2px solid var(--line); }
+.fc__foot .btn { min-width: 150px; }
+.fc__done { text-align: center; } .fc__done h2 { font-weight: 900; }
+.pcard--flash { background: linear-gradient(140deg, color-mix(in srgb, var(--brand) 12%, var(--bg)), var(--bg) 70%); }
+@media (prefers-reduced-motion: reduce) { .fc__in { transition: none; } }
+/* ---- یادداشت شخصی ---- */
+.fb__note { align-self: flex-start; margin-top: 8px; border: 1.5px dashed currentColor; background: transparent; color: inherit; border-radius: 12px; padding: 4px 12px; font: inherit; font-weight: 800; font-size: 13px; cursor: pointer; opacity: .85; }
+.fb__note.has { border-style: solid; background: color-mix(in srgb, currentColor 10%, transparent); opacity: 1; }
+.fb__txt { display: flex; flex-direction: column; }
+.pnote { text-align: start; width: 100%; } .pnote h3 { text-align: center; }
+.pnote__q { color: var(--muted); font-weight: 700; font-size: 14px; line-height: 1.9; background: var(--bg2); border-radius: 12px; padding: 8px 12px; }
+.pnote textarea, .acbox { width: 100%; min-height: 130px; border: 2px solid var(--line); border-radius: 14px; padding: 10px 12px; background: var(--bg); color: var(--text); font: 600 15px/1.9 Vazirmatn, Tahoma, sans-serif; resize: vertical; }
+.acnotes { margin-top: 18px; }
+.acnotes__tools { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+.acnote { border: 1.5px solid var(--line); border-radius: 16px; padding: 12px 14px; margin: 8px 0; background: var(--bg); }
+.acnote__q { margin: 0; color: var(--muted); font-weight: 700; font-size: 13.5px; line-height: 1.9; } .acnote__a { margin: 4px 0 0; color: var(--green-t, #3f8a05); font-weight: 700; font-size: 13px; }
+.acnote__t { margin-top: 8px; padding: 8px 12px; border-radius: 12px; background: color-mix(in srgb, #ffc800 12%, var(--bg)); border-inline-start: 4px solid #ffc800; font-weight: 700; line-height: 1.9; white-space: pre-wrap; }
+.acnote footer { display: flex; justify-content: space-between; align-items: center; margin-top: 6px; } .acnote footer small { color: var(--muted); font-weight: 700; }
+.acnotes__empty { line-height: 2; }
+/* ---- لیگ پویا ---- */
+.lalert { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 12px; margin: 0 0 12px; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, #ff4b4b 10%, var(--bg)); border: 1.5px solid color-mix(in srgb, #ff4b4b 40%, var(--line)); animation: dfade .5s both; }
+.lalert b { font-weight: 900; color: #d13438; } .lalert small { flex: 1; min-width: 200px; color: var(--text); font-weight: 700; } 
+.lrow__live { display: inline-block; width: 8px; height: 8px; border-radius: 50%; background: #2fbf4a; margin-inline-start: 6px; vertical-align: middle; box-shadow: 0 0 0 0 rgba(47, 191, 74, .6); animation: livePing 1.6s infinite; }
+@keyframes livePing { 70% { box-shadow: 0 0 0 7px rgba(47, 191, 74, 0); } 100% { box-shadow: 0 0 0 0 rgba(47, 191, 74, 0); } }
+/* ---- چاپ متن پرونده و یادداشت‌ها ---- */
+.acprint { display: none; }
+@media print {
+  body.printing-text > *:not(.acprint) { display: none !important; }
+  body.printing-text .acprint { display: block; padding: 0 6mm; color: #000; }
+  .acprint h1 { font-size: 18pt; margin: 0 0 2mm; } .acprint__m { color: #555; margin: 0 0 6mm; }
+  .acprint pre { white-space: pre-wrap; font: 600 11pt/1.9 Vazirmatn, Tahoma, sans-serif; border: 1px solid #bbb; border-radius: 3mm; padding: 4mm 5mm; margin: 0 0 4mm; page-break-inside: avoid; }
+}
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

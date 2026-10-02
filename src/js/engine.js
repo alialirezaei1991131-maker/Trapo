@@ -674,31 +674,52 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         for (let i = 0; i < 7; i++) { const d = new Date(start); d.setDate(d.getDate() + i); sum += S.daily[day(d)] || 0; }
         return sum;
       }
-      /** رقبای گروه این هفته؛ امتیازشان در طول روز با جلسه‌های تمرین بالا می‌رود */
+      /** رقبای گروه این هفته؛ امتیازشان واقع‌گرایانه و تدریجی بالا می‌رود:
+       *  هر جلسه تمرین ۱۲ تا ۲۶ دقیقه طول می‌کشد و امتیازش دقیقه‌به‌دقیقه اضافه می‌شود؛ پنجشنبه و جمعه خلوت‌تر،
+       *  روز آخر هفته فشار پایانی؛ دو رقیب «تعقیب‌کننده» با کمی تأخیر پیشرفت خود کاربر را دنبال می‌کنند (۷۸ تا ۹۷٪)
+       *  تا حفظ رتبه برتر تمرین روزانه بخواهد ولی همیشه شدنی بماند. امتیاز هیچ رقیبی هرگز کم نمی‌شود. */
+      function userLagged(ws, now) {
+        const start = new Date(ws + 'T00:00');
+        let sum = 0;
+        for (let i = 0; i < 7; i++) {
+          const d = new Date(start); d.setDate(d.getDate() + i);
+          const t = d.getTime(), v = S.daily[day(d)] || 0;
+          if (t + 864e5 <= now) sum += v; else if (t <= now) sum += v * Math.min(1, (now - t) / (18 * 36e5));
+        }
+        return sum;
+      }
       function rivals(ws, tier, at) {
         const seed = hash(ws + ':' + tier + ':' + ((S.profile && S.profile.name) || ''));
         const rnd = seeded(seed);
         const pool = NAMES.slice().sort(() => rnd() - 0.5);
         const start = new Date(ws + 'T00:00').getTime();
         const now = at == null ? Date.now() : at;
+        const DOW = [1, 1, 1, 1, 0.8, 0.55, 1]; // getDay(): یکشنبه تا شنبه
+        const mine = userLagged(ws, now);
         const out = [];
         for (let i = 0; i < GROUP - 1; i++) {
           const r = seeded(seed + i * 7919);
-          const drive = r() < 0.15 ? 0.25 : r() < 0.35 ? 0.6 : 1 + r() * 0.8;   // کم‌کار، معمولی، پرکار
+          const chaser = i < 2;
+          const drive = chaser ? 0.35 : r() < 0.15 ? 0.25 : r() < 0.35 ? 0.6 : 1 + r() * 0.8;   // کم‌کار، معمولی، پرکار
           const perSession = 8 + r() * (18 + tier * 9);
           const earlyBird = r() < 0.5;
-          let xp = 0;
+          let xp = 0, live = false;
           for (let d = 0; d < 7; d++) {
+            const d0 = start + d * 864e5;
+            const f = DOW[new Date(d0).getDay()] * (d === 6 ? 1.35 : 1);
             const dr = seeded(seed + i * 131 + d * 17);
-            const sessions = dr() < 0.12 * (2 - drive) ? 0 : 1 + Math.floor(dr() * 3 * drive);
+            const sessions = dr() < 0.12 * (2 - drive) ? 0 : 1 + Math.floor(dr() * 3 * drive * f);
             for (let k = 0; k < sessions; k++) {
               const hour = earlyBird ? 6 + dr() * 10 : 12 + dr() * 11.5;
-              const t = start + d * 864e5 + hour * 36e5;
-              if (t <= now) xp += Math.round(perSession * (0.6 + dr() * 0.9));
+              const t0 = d0 + hour * 36e5, dur = (12 + dr() * 14) * 6e4;
+              const gain = Math.round(perSession * (0.6 + dr() * 0.9) * f);
+              if (now >= t0 + dur) xp += gain;
+              else if (now > t0) { xp += Math.floor(gain * (now - t0) / dur); live = true; }
             }
           }
+          if (chaser && mine > 0) xp += Math.round(mine * (0.78 + r() * 0.19));
           const ni = NAMES.indexOf(pool[i % pool.length]), si = Math.floor(r() * SURN.length), ri = Math.floor(r() * ROLES.length), ci = Math.floor(r() * CITIES.length);
-          out.push({ name: en() ? NAMES_EN[ni] + SURN_EN[si] : NAMES[ni] + SURN[si], tag: en() ? ROLES_EN[ri] + ' • ' + CITIES_EN[ci] : ROLES[ri] + ' • ' + CITIES[ci], key: 'r' + i, xp, hue: Math.floor(r() * 360), i });
+          out.push({ name: en() ? NAMES_EN[ni] + SURN_EN[si] : NAMES[ni] + SURN[si], tag: en() ? ROLES_EN[ri] + ' • ' + CITIES_EN[ci] : ROLES[ri] + ' • ' + CITIES[ci], key: 'r' + i, xp, live, hue: Math.floor(r() * 360), i });
         }
         return out;
       }
@@ -1210,6 +1231,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (!(P.mode === 'lesson' || P.mode === 'round' || P.mode === 'practice' || P.mode === 'clinic')) return false;
         // واژه‌های اورژانسی، یا تصمیم بالینی روی پرونده واقعی بیمار (نه سؤال‌های تعریفی)
         if (CB_RE.test((it.stage || '') + ' ' + plainTxt(it.q))) return true;
+        // راند بیمارستان: مرحله‌های درمان و اقدام زیر فشار زمان
+        if (P.mode === 'round' && /^(درمان|اقدام|ارزیابی اولیه|پایش فوری|treatment|action|initial assessment)/i.test(String(it.stage || '').trim())) return true;
         return P.mode === 'lesson' && !!(it.case && it.case.length) && (it.kind === 'mcq' || it.kind === 'num');
       }
       function stopCB() { if (P && P.cbT) { clearInterval(P.cbT); P.cbT = null; } if (root) root.classList.remove('is-codeblue'); }
@@ -1306,6 +1329,31 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         };
       }
 
+
+      /* ---- یادداشت شخصی زیر هر سؤال (در پروفایل جمع می‌شود و در پشتیبان ذخیره) ---- */
+      const nkey = it => it.key || ('q:' + Array.from(plainTxt(it.q)).reduce((h, c) => (h * 33 + c.charCodeAt(0)) | 0, 5381));
+      const hasNote = it => !!(S().pnotes && S().pnotes[nkey(it)] && S().pnotes[nkey(it)].t);
+      function noteBtnHTML(it) { return `<button type="button" class="fb__note ${hasNote(it) ? 'has' : ''}" data-pn>📝 ${hasNote(it) ? T('یادداشت تو', 'Your note') : T('یادداشت شخصی', 'Personal note')}</button>`; }
+      function openNote(it) {
+        if (!it) return;
+        const s = S(), k = nkey(it), old = (s.pnotes && s.pnotes[k]) || null;
+        const m = modal(`<div class="pnote"><h3>📝 ${T('یادداشت شخصی', 'Personal note')}</h3>
+            <p class="pnote__q" dir="auto">${esc(plainTxt(it.q || it.title).slice(0, 220))}</p>
+            <textarea maxlength="2000" dir="auto" placeholder="${T('نکته‌ای که می‌خواهی یادت بماند… (فقط برای خودت، در پروفایل جمع می‌شود)', 'A point you want to remember… (only for you; collected in your profile)')}">${esc(old ? old.t : '')}</textarea>
+            <div class="modal__btns"><button class="btn btn--brand" data-sv>💾 ${T('ذخیره', 'Save')}</button>${old ? `<button class="btn btn--ghost-red" data-del>🗑️ ${T('حذف', 'Delete')}</button>` : ''}<button class="btn btn--ghost" data-close>${T('انصراف', 'Cancel')}</button></div></div>`);
+        const ta = m.el.querySelector('textarea'); setTimeout(() => ta.focus(), 60);
+        const after = () => { const b = root && root.querySelector('[data-pn]'); if (b) b.outerHTML = noteBtnHTML(it); };
+        m.el.querySelector('[data-sv]').onclick = () => {
+          const v = ta.value.trim();
+          s.pnotes = s.pnotes || {};
+          if (v) s.pnotes[k] = { t: v.slice(0, 2000), q: plainTxt(it.q || it.title).slice(0, 300), a: plainTxt(rightText(it)).slice(0, 200), w: it.world || (P && P.world) || null, at: Date.now() };
+          else delete s.pnotes[k];
+          EA.S.save(); m.close(); after(); EA.ui.toast(T('📝 یادداشت ذخیره شد', '📝 Note saved'));
+        };
+        const del = m.el.querySelector('[data-del]');
+        if (del) del.onclick = () => { delete s.pnotes[k]; EA.S.save(); m.close(); after(); EA.ui.toast(T('یادداشت حذف شد', 'Note deleted')); };
+      }
+      document.addEventListener('click', e => { const b = e.target.closest('.player [data-pn]'); if (b && P) openNote(cur()); });
       function check(skipped) {
         const it = cur();
         if (!it || it.state) return;
@@ -1359,6 +1407,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
               <div class="fb__t">${ok ? pick(YES()) : pick(NO())}</div>
               ${ok ? '' : `<div class="fb__ans"><b>${T('پاسخ درست:', 'Correct answer:')}</b> ${rightText(it)}</div>`}
               ${it.why ? `<details class="fb__why" ${ok && !it.calc ? '' : 'open'}><summary>${T('چرا؟', 'Why?')}</summary><div>${it.why}</div></details>` : ''}
+              ${noteBtnHTML(it)}
             </div>
           </div>
           <button class="btn ${ok ? 'btn--green' : 'btn--red'} btn--lg fb__btn" data-p="next">${T('ادامه', 'Continue')}</button>`;
@@ -1941,6 +1990,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="tiers">${EA.S.TIERS.map((t, i) => `<span class="medal ${i === s.league.tier ? 'is-cur' : i > s.league.tier ? 'is-lock' : ''}" style="--mc:${i > s.league.tier ? 'var(--line)' : t.color}" title="${t.name}">${medal()}</span>`).join('')}</div>
           <header class="vhead vhead--c"><h1>${T(`لیگ ${tier.name}`, `${tier.name} League`)}</h1><p>${T(`${fa(GROUP)} نفر در این گروه • ${fa(UP)} نفر اول صعود می‌کنند • ${fa(days)} روز و ${fa(hours)} ساعت مانده`, `${fa(GROUP)} players in this group • top ${fa(UP)} are promoted • ${fa(days)} days ${fa(hours)} hours left`)}</p></header>
           <div class="lgoal ${myI < UP ? 'is-up' : ''}"><span class="lgoal__r">${fa(myI + 1)}</span><div><b>${T('رتبه تو در این هفته', 'Your rank this week')}</b><small>${goalLine}</small></div><a href="#/learn" class="btn btn--brand btn--sm">${T('یک درس دیگر', 'One more lesson')}</a></div>
+          ${(() => { const mv = moves[myI]; if (!(mv < 0)) return ''; const by = table.filter((r, i) => i < myI && moves[i] > 0 && !r.me).map(r => r.name); const prevRank = myI + 1 + mv; return `<div class="lalert"><b>⚠️ ${by.length ? esc(by.slice(0, 2).join(T('، ', ', '))) + T(' از تو جلو زد', ' overtook you') : T('رتبه‌ات پایین آمد', 'You dropped')}!</b><small>${T(`رتبه ${fa(prevRank)} ← ${fa(myI + 1)}؛ یک درس کوتاه تا پس گرفتن جایگاهت.`, `Rank ${fa(prevRank)} → ${fa(myI + 1)}; one short lesson to win it back.`)}</small><a href="#/learn" class="btn btn--brand btn--sm">⚡ ${T('پس بگیر', 'Win it back')}</a></div>`; })()}
           <ol class="ltable">${table.map((r, i) => {
             const zone = i === UP ? `<li class="lzone lzone--up">⬆ ${T('منطقه صعود', 'Promotion zone')}</li>` : i === GROUP - DOWN && s.league.tier > 0 ? `<li class="lzone lzone--down">⬇ ${T('منطقه سقوط', 'Demotion zone')}</li>` : '';
             const init = esc(r.name.trim()[0] || '?');
@@ -1948,7 +1998,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             return `${zone}<li class="lrow ${r.me ? 'is-me' : ''} ${i < UP ? 'is-up' : ''}">
               <span class="lrow__n ${i < 3 ? 'top' + (i + 1) : ''}">${i < 3 ? ['🥇', '🥈', '🥉'][i] : fa(i + 1)}</span>
               ${r.me ? avatar() : `<span class="avatar" style="--h:${r.hue}">${init}</span>`}
-              <span class="lrow__nm"><b>${esc(r.name)}</b><small>${esc(r.tag)}</small></span>
+              <span class="lrow__nm"><b>${esc(r.name)}${r.live ? `<i class="lrow__live" title="${T('همین حالا در حال تمرین', 'Practicing right now')}"></i>` : ''}</b><small>${r.live ? T('🟢 در حال تمرین • ', '🟢 practicing • ') : ''}${esc(r.tag)}</small></span>
               <span class="lrow__mv ${mv > 0 ? 'up' : mv < 0 ? 'down' : ''}">${mv > 0 ? '▲' + fa(mv) : mv < 0 ? '▼' + fa(-mv) : ''}</span>
               <span class="lrow__xp">${fa(r.xp)}<small> ${T('امتیاز', 'XP')}</small></span>
             </li>`;
@@ -2436,6 +2486,15 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     HEART_REFILL_GEMS: 150,  // پر کردن قلب‌ها با الماس: گران
     CHEST_GEMS: [5, 10],     // صندوقچه درس و صندوقچه‌های مسیر: فقط کمی الماس، هرگز قلب
     VIP_CHEST_GEMS: 15,      // صندوقچه طلایی و الماس ویژه، فقط Pro و VIP
+    /* ---- کیس بالینی امروز و فلش‌کارت ---- */
+    DAILY_CASE_XP: 15, DAILY_CASE_GEMS: 5,
+    FLASH_DEMO_CARDS: 3,     // کارت‌های رایگان دسته فلش‌کارت در حالت دمو
+    /* ---- کدهای تخفیف ثابت (کدهای سفارشی کمپین را پنل مدیر می‌سازد) ----
+     *   plans: پلن‌هایی که کد رویشان اثر دارد (۱ آموزشی، ۲ Pro، ۳ الماس)؛ until: پایان مهلت (اختیاری، میلی‌ثانیه) */
+    PROMOS: {
+      MED20: { pct: 20, plans: [1, 2, 3], fa: 'تخفیف دانشجویان پزشکی', en: 'Medical student discount' },
+      VIP30: { pct: 30, plans: [3], fa: 'تخفیف ویژه پکیج الماس', en: 'Diamond package discount' }
+    },
     SUPPORT_HINT: 'این متن را برای پشتیبانی آکادمی (تلگرام / واتس‌اپ / ایمیل) بفرستید تا کد فعال‌سازی اختصاصی دستگاهتان را دریافت کنید.',
     CURRENCY: 'تومان',
     /* ---- قیمت‌گذاری (مهر ۱۴۰۵، دلار ≈ ۲۵۸ هزار تومان؛ یک کتاب مرجع پزشکی ≈ ۱٫۵ تا ۲٫۵ میلیون تومان) ----
@@ -2804,6 +2863,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     hearts: ['♾️', 'قلب بی‌نهایت', 'Unlimited hearts', 2, 'خسته از تمام شدن قلب‌ها در لحظات حساس؟ با ارتقا به پلن بالینی Pro یا VIP، قلب بی‌نهایت (♾️) و ماشین‌حساب بالینی بگیرید!'],
     next: ['🚑', 'کیس‌های بعدی مسیر', 'The next cases', 1, 'برای نجات بیمارِ مرحله ۲ و باز کردن کل مسیر، اشتراک خود را فعال کنید'],
     clinic: ['🩺', 'کلینیک خطاها', 'The mistake clinic', 1, 'خطاهایت در کلینیک منتظر درمان‌اند! برای مرور هدفمند و رفع نقاط ضعفت، اشتراک خود را فعال کن'],
+    flash: ['🗂️', 'دسته کامل فلش‌کارت‌ها', 'The full flashcard deck', 1, 'فقط ۳ کارت اول رایگان است؛ برای مرور همه نکات طلایی، فرمول‌ها و مقادیر بحرانی شب امتحان، اشتراک این دوره را فعال کن'],
+    note: ['📋', 'متن آماده پرونده و برگ مشاوره', 'Ready-made chart text', 2, 'با پلن Pro یا VIP نتیجه هر محاسبه به متن استاندارد پرونده و برگ مشاوره تبدیل می‌شود که با یک کلیک کپی می‌کنی'],
     vipchest: ['👑', 'صندوقچه طلایی', 'The golden chest', 2, 'صندوقچه طلایی مخصوص Pro و VIP است: قلب بی‌نهایت (♾️)، ابزار بالینی و الماس ویژه بعد از هر درس تازه'],
     grand: ['🚨', 'شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU Grand Rounds', 9],
     fab: ['⚡', 'ماشین‌حساب سریع سر بالین', 'Bedside Quick-Calc', 2]
@@ -2866,6 +2927,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         ${a.tier < 3 ? `<div class="acside__btns"><button class="btn btn--gold btn--sm" data-ac="store" data-course="${cid}">👑 ${PT('ارتقا', 'Upgrade')}</button></div>` : ''}
       </div>` : `<button class="acside__up" data-ac="store" data-course="${cid}"><span>🔓</span><b>${PT('باز کردن همه درس‌ها', 'Unlock every lesson')}</b><small>${PT('آموزشی یا Pro', 'Standard or Pro')}</small></button>`}
       <button class="acside__a acside__music ${window.EA && EA.S && EA.S.get() && EA.S.get().settings.music ? 'is-on' : ''}" data-ac="music" aria-pressed="${!!(window.EA && EA.S && EA.S.get() && EA.S.get().settings.music)}">${window.EA && EA.S && EA.S.get() && EA.S.get().settings.music ? '🎵' : '🔇'} <span>${PT('موسیقی', 'Music')}</span><span class="acside__sw" aria-hidden="true"></span></button>
+      <button class="acside__a" data-ac="flash">🗂️ <span>${PT('فلش‌کارت‌های مرور سریع', 'Quick-review flashcards')}</span></button>
       <button class="acside__a" data-ac="grand">🚨 <span>${PT('کیس‌های ترکیبی ICU', 'ICU grand rounds')}</span></button>
       <button class="acside__a ${!a.tier && nm ? 'acside__a--crit' : ''}" data-act="clinic">🩺 <span>${PT('کلینیک خطاها', 'Mistake clinic')}</span>${nm ? (a.tier ? `<em>${nf(nm)}</em>` : `<em class="crit">${PT(`${nf(nm)} مورد بحرانی`, `${nf(nm)} critical`)}</em>`) : ''}</button>
       <a class="acside__a" href="${homeURL()}">🏠 <span>${PT('داشبورد آکادمی', 'Academy dashboard')}</span></a>
@@ -2884,7 +2946,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <div class="acprof__row"><span>${PT('همه دوره‌ها', 'All courses')}</span><b>${courses().map(c => `${c.icon} ${sm.per[c.id].tier ? TIERS[sm.per[c.id].tier].short : '🔒'}`).join(' • ')}</b></div>
         <div class="acprof__btns"><button class="btn btn--gold btn--sm" data-ac="store" data-course="${cid}">👑 ${PT('ارتقا / تمدید', 'Upgrade / renew')}</button><button class="btn btn--ghost btn--sm" data-ac="settings">⚙️ ${PT('تنظیمات نمایش', 'Display settings')}</button></div>
       </div>
-    </div>`;
+    </div>${notesHTML()}`;
   }
   function lockedTools(cid) {
     const c = AC[cid];
@@ -2893,6 +2955,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <div class="aclock__card"><div class="big-i">🔒</div><h3>🔒 ${PT('ویژه پلن Pro', 'Pro plan')}</h3>
         <ul class="aclist"><li>🧮 ${PT('ماشین‌حساب‌ها با راه‌حل گام‌به‌گام و شدت', 'Calculators with step-by-step solutions')}</li><li>⚡ ${PT('دکمه شناور «ماشین‌حساب سریع سر بالین» در هر صفحه', 'Floating bedside Quick-Calc on every page')}</li><li>♾️ ${PT('قلب بی‌نهایت', 'Unlimited hearts')}</li></ul>
         <div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="store" data-tier="2" data-course="${cid}" data-why="tools">👑 ${PT('ارتقا به Pro', 'Upgrade to Pro')}</button><button class="btn btn--brand" data-ac="activate">🔑 ${PT('کد دارم', 'I have a code')}</button></div></div>
+      <div class="aclock__note">${noteBoxHTML(NOTE_SAMPLE(), true)}</div>
     </section>`;
   }
 
@@ -3328,6 +3391,333 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   }
 
 
+  /* ######################################################################
+     فاز ارزش افزوده: متن پرونده بالینی، کد تخفیف، فلش‌کارت شب امتحان،
+     یادداشت شخصی، کیس بالینی امروز (همه دوره‌ها، فعلی و آینده)
+     ###################################################################### */
+  const plainOf = h => String(h == null ? '' : h).replace(/<br\s*\/?>/gi, '\n').replace(/<[^>]+>/g, ' ').replace(/&nbsp;/g, ' ').replace(/&lt;/g, '<').replace(/&gt;/g, '>').replace(/&amp;/g, '&').replace(/[ \t]+/g, ' ').replace(/ *\n */g, '\n').trim();
+  const djb = s => { let h = 5381; for (let i = 0; i < s.length; i++) h = (h * 33 + s.charCodeAt(i)) | 0; return h >>> 0; };
+  const curState = () => (window.EA && EA.S && EA.S.get && EA.S.get()) || null;
+
+  /* ================= ۱. متن استاندارد پرونده بالینی (ابزارها، ویژه Pro/VIP) =================
+   * از خود فرم و نتیجه هر ابزار (ساختار یکسان در همه دوره‌ها: .tform / .thero / .ttile / .note) ساخته می‌شود؛
+   * پس هر ابزار تازه در هر دوره تازه هم خودکار متن پرونده دارد. */
+  const txtOf = el => (el ? el.textContent : '').replace(/\s+/g, ' ').trim();
+  function panelData(panel) {
+    const d = { tool: txtOf(panel.querySelector('.tpanel__h h2')), mode: txtOf(panel.querySelector('.tmode.is-on')), inputs: [], hero: null, rows: [], warn: [], tips: [] };
+    panel.querySelectorAll('.tform .fld').forEach(f => {
+      const lab = f.querySelector('.fld__l');
+      const unit = lab && lab.querySelector('small') ? txtOf(lab.querySelector('small')) : '';
+      const name = lab ? txtOf(lab).replace(unit, '').trim() : '';
+      if (f.classList.contains('fld--chk')) { const c = f.querySelector('input'); if (c && c.checked) d.inputs.push('✔ ' + txtOf(f.querySelector('span'))); return; }
+      const sel = f.querySelector('select'); if (sel) { d.inputs.push(`${name}: ${sel.options[sel.selectedIndex] ? txtOf(sel.options[sel.selectedIndex]) : ''}`); return; }
+      const seg = f.querySelector('.seg__b.is-on'); if (seg) { d.inputs.push(`${name}: ${txtOf(seg)}`); return; }
+      const inp = f.querySelector('input'); if (inp && String(inp.value).trim() !== '') d.inputs.push(`${name}: ${inp.value.trim()}${unit ? ' ' + unit : ''}`);
+    });
+    const res = panel.querySelector('.tout .tres');
+    if (!res || res.classList.contains('tres--empty')) return d;
+    const h = res.querySelector('.thero');
+    if (h) d.hero = { k: txtOf(h.querySelector('small')), v: txtOf(h.querySelector('b')), sev: txtOf(h.querySelector('.sevc')) };
+    res.querySelectorAll('.ttile').forEach(t => d.rows.push(`${txtOf(t.querySelector('small'))}: ${txtOf(t.querySelector('b'))}`));
+    res.querySelectorAll('.note').forEach(n => (n.classList.contains('note--warn') ? d.warn : d.tips).push(txtOf(n).replace(/^[⚠️💡\s]+/u, '')));
+    return d;
+  }
+  function clinicalNote(d) {
+    const en = PT(false, true), dt = fdatetime(Date.now()), L = [];
+    const B = s => '• ' + s;
+    L.push(`📋 ${d.tool}${d.mode ? ' — ' + d.mode : ''}`);
+    L.push((en ? 'Date/time: ' : 'تاریخ و ساعت: ') + dt);
+    L.push('');
+    L.push(en ? 'S/O — Patient data:' : 'داده‌های بیمار (S/O):');
+    d.inputs.forEach(x => L.push(B(x)));
+    L.push('');
+    L.push(en ? 'A — Assessment:' : 'ارزیابی (A):');
+    if (d.hero) L.push(B(`${d.hero.k}: ${d.hero.v}${d.hero.sev ? (en ? ` (severity: ${d.hero.sev})` : ` (شدت: ${d.hero.sev})`) : ''}`));
+    d.rows.forEach(x => L.push(B(x)));
+    if (d.tips.length) { L.push(''); L.push(en ? 'P — Plan / recommendations:' : 'برنامه و توصیه‌ها (P):'); d.tips.forEach(x => L.push(B(x))); }
+    if (d.warn.length) { L.push(''); L.push(en ? '⚠️ Safety alerts:' : '⚠️ هشدارهای ایمنی:'); d.warn.forEach(x => L.push(B(x))); }
+    L.push('');
+    L.push(en ? `— Calculated with the ${CFG.BRAND_EN} educational tool; confirm doses and orders with the attending physician and local protocol.`
+      : `— محاسبه با ابزار آموزشی ${CFG.BRAND_FA}؛ دوز و دستور نهایی با نظر پزشک معالج و پروتکل بخش تطبیق داده شود.`);
+    return L.join('\n');
+  }
+  const CN_TITLE = () => PT('📋 متن استاندارد جهت ثبت در پرونده / برگ مشاوره', '📋 Standard text for the chart / consult sheet');
+  function noteBoxHTML(text, locked) {
+    return `<section class="cnote ${locked ? 'is-locked' : ''}" aria-label="${CN_TITLE()}">
+      <header class="cnote__h"><b>${CN_TITLE()}</b><small>${locked ? PT('ویژه پلن Pro و VIP', 'Pro & VIP feature') : PT('خودکار از همین عددها؛ قبل از ثبت بازبینی کن', 'Built from these numbers; review before charting')}</small></header>
+      <pre class="cnote__t" dir="auto">${pesc(text)}</pre>
+      <div class="cnote__btns">${locked ? '' : `<button type="button" class="btn btn--brand btn--sm" data-cn="copy">📋 ${PT('کپی متن پرونده', 'Copy chart text')}</button><button type="button" class="btn btn--ghost btn--sm" data-cn="print">🖨️ ${PT('چاپ', 'Print')}</button>`}</div>
+      ${locked ? `<div class="cnote__lock"><span>🔒</span><b>${PT('متن پرونده و برگ مشاوره آماده', 'Ready-made chart & consult text')}</b><small>${PT('با پلن Pro یا VIP، نتیجه هر محاسبه به یک یادداشت استاندارد S/O/A/P تبدیل می‌شود که با یک کلیک کپی می‌کنی.', 'With Pro or VIP, every calculation becomes a standard S/O/A/P note you copy in one click.')}</small><button type="button" class="btn btn--gold btn--sm" data-ac="store" data-tier="2" data-why="note">👑 ${PT('ارتقا به Pro / VIP', 'Upgrade to Pro / VIP')}</button></div>` : ''}
+    </section>`;
+  }
+  const NOTE_SAMPLE = () => PT(`📋 سدیم — هیپوناترمی
+تاریخ و ساعت: …
+
+داده‌های بیمار (S/O):
+• جنس: زن • سن: ۷۲ سال • وزن: ۵۵ kg
+• سدیم سرم: ۱۱۴ mEq/L • مایع: سالین ۳٪
+
+ارزیابی (A):
+• افزایش مورد انتظار سدیم با ۱ لیتر: ۱۵٫۵ mEq/L (شدید)
+• حجم برای رسیدن به هدف: …
+
+برنامه و توصیه‌ها (P):
+• بولوس ۱۰۰ تا ۱۵۰ میلی‌لیتر طی ۱۰ تا ۲۰ دقیقه …`, `📋 Sodium — Hyponatremia
+S/O — Patient data: …
+A — Assessment: …
+P — Plan: …`);
+  /** بعد از نمایش تب ابزارها: کادر متن پرونده کنار نتیجه، با هر تغییر عدد به‌روز می‌شود */
+  let cnObs = null;
+  function attachClinicalNote(cid) {
+    const panel = document.querySelector('#view .tools .tpanel'); if (!panel) return;
+    const out = panel.querySelector('.tout'); if (!out) return;
+    const ok = access(cid).tools;
+    const draw = () => {
+      const d = panelData(panel);
+      const ready = !!(d.hero || d.rows.length);
+      const text = ok ? (ready ? clinicalNote(d) : PT('پس از وارد کردن همه عددهای لازم، متن پرونده این‌جا ساخته می‌شود.', 'Enter all required values and the chart text appears here.')) : NOTE_SAMPLE();
+      let box = panel.querySelector('.cnote');
+      const html = noteBoxHTML(text, !ok);
+      if (!box) { out.insertAdjacentHTML('afterend', html); box = panel.querySelector('.cnote'); }
+      else if (box.querySelector('.cnote__t').textContent !== text) box.querySelector('.cnote__t').textContent = text;
+      box.classList.toggle('is-empty', ok && !ready);
+    };
+    draw();
+    if (cnObs) cnObs.disconnect();
+    cnObs = new MutationObserver(() => { cnObs.disconnect(); draw(); cnObs.observe(out, { childList: true, subtree: true, characterData: true }); });
+    cnObs.observe(out, { childList: true, subtree: true, characterData: true });
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.cnote [data-cn]'); if (!b) return;
+    const t = b.closest('.cnote').querySelector('.cnote__t').textContent;
+    if (b.dataset.cn === 'copy') return copyText(t).then(ok => pToast(ok ? '📋 ' + PT('متن پرونده کپی شد', 'Chart text copied') : PT('از کادر دستی کپی کن', 'Copy it manually'), ok ? '' : 'toast--bad'));
+    printText(PT('متن پرونده بالینی', 'Clinical chart text'), [t]);
+  });
+  /** چاپ متن‌های ساده (متن پرونده، یادداشت‌ها) در A4 بدون بقیه صفحه */
+  function printText(title, blocks) {
+    const box = document.createElement('div');
+    box.className = 'acprint';
+    box.innerHTML = `<h1>${pesc(title)}</h1><p class="acprint__m">${pesc(CFG.BRAND_FA)} • ${pesc(fdatetime(Date.now()))}</p>` + blocks.map(b => `<pre dir="auto">${pesc(b)}</pre>`).join('');
+    document.body.appendChild(box);
+    document.body.classList.add('printing-text');
+    window.print();
+    setTimeout(() => { document.body.classList.remove('printing-text'); box.remove(); }, 700);
+  }
+
+  /* ================= ۲. کد تخفیف آفلاین =================
+   * کدهای ثابت در CFG.PROMOS و کدهای سفارشی که پنل مدیر می‌سازد: NAME-PPEEEP-TTTT
+   *   PP درصد (۰۱ تا ۶۰)، EEE روز انقضا از ۱ ژانویه ۲۰۲۴ (Base32)، P پلن (A همه، P پرو و الماس، V فقط الماس)،
+   *   TTTT برچسب کنترلی. تخفیف فقط روی مبلغ سفارش اثر دارد؛ پنل مدیر هر کد را هنگام صدور دوباره بررسی می‌کند. */
+  const PROMO_PLANS = { A: [1, 2, 3], P: [2, 3], V: [3] };
+  const promoTag = (name, pp, eee, p) => b32enc(sha256('TRAPO-PROMO-1|' + name + '|' + pp + '|' + eee + '|' + p)).slice(0, 4);
+  function parsePromo(raw) {
+    const code = String(raw || '').toUpperCase().replace(/\s+/g, '').replace(/[–—_]/g, '-');
+    if (!code) return null;
+    const fixed = CFG.PROMOS[code];
+    if (fixed) {
+      if (fixed.until && Date.now() > fixed.until) return { ok: false, code, err: PT('مهلت این کد تخفیف تمام شده است.', 'This promo code has expired.') };
+      return { ok: true, code, pct: fixed.pct, plans: fixed.plans || [1, 2, 3], label: PT(fixed.fa || '', fixed.en || fixed.fa || '') };
+    }
+    const m = /^([A-Z0-9]{2,12})-(\d{2})([0-9A-Z]{3})([APV])-([0-9A-Z]{4})$/.exec(code);
+    if (!m) return { ok: false, code, err: PT('این کد تخفیف معتبر نیست.', 'This promo code is not valid.') };
+    if (promoTag(m[1], m[2], m[3], m[4]) !== m[5]) return { ok: false, code, err: PT('این کد تخفیف معتبر نیست.', 'This promo code is not valid.') };
+    const pct = +m[2], days = m[3].split('').reduce((v, ch) => v * 32 + B32.indexOf(ch), 0);
+    if (!(pct >= 1 && pct <= 60)) return { ok: false, code, err: PT('این کد تخفیف معتبر نیست.', 'This promo code is not valid.') };
+    if (EPOCH + (days + 1) * 864e5 < Date.now()) return { ok: false, code, err: PT('مهلت این کد تخفیف تمام شده است.', 'This promo code has expired.') };
+    return { ok: true, code, pct, plans: PROMO_PLANS[m[4]], label: PT(`کمپین ${m[1]}`, `${m[1]} campaign`), until: EPOCH + (days + 1) * 864e5 };
+  }
+  const promoFits = (pr, tier) => !!(pr && pr.ok && pr.plans.indexOf(tier) >= 0);
+  const promoPrice = (p, pr) => Math.round(p * (1 - pr.pct / 100) / 10000) * 10000;
+
+  /* ================= ۴. فلش‌کارت شب امتحان ================= */
+  const FC_DEMO = () => CFG.FLASH_DEMO_CARDS || 3;
+  function flashDeck() {
+    if (!(window.EA && EA.worlds)) return [];
+    const out = [];
+    EA.worlds.forEach(w => w.lessons.forEach(l => l.items.forEach((it, i) => {
+      const id = l.id + ':' + i;
+      if (it.t === 'learn' && it.title && it.body) out.push({ id, w, kind: 'gold', front: it.title, back: it.body });
+      else if (it.t === 'numS' && it.hint) out.push({ id, w, kind: 'calc', front: plainOf(it.q), back: `<div class="fc__f" dir="auto">${it.hint}</div><div class="fc__ans">${PT('پاسخ این مثال:', 'Answer for this example:')} <b dir="ltr">${EA.fa ? EA.fa(it.ans, 2) : it.ans} ${it.unit || ''}</b></div>` });
+    })));
+    return out;
+  }
+  function flashModal() {
+    if (!(window.EA && EA.worlds && EA.S)) return;
+    const cid = EA.COURSE.id, s = EA.S.get();
+    s.flash = s.flash || {};
+    const full = flashDeck(), open = () => access(cid).lessons;
+    const demoIds = new Set(full.slice(0, FC_DEMO()).map(c => c.id));
+    const st = { w: 'all', queue: [], i: 0, flipped: false, known: 0, again: 0 };
+    const root = document.createElement('div');
+    root.className = 'fc'; root.setAttribute('role', 'dialog'); root.setAttribute('aria-modal', 'true');
+    document.body.appendChild(root); document.body.classList.add('no-scroll');
+    const deck = () => full.filter(c => st.w === 'all' || c.w.id === st.w);
+    function build() {
+      const d = deck();
+      const rank = c => { const f = s.flash[c.id]; return f && f.k ? 2 : f && f.r ? 0 : 1; };
+      st.queue = d.slice().sort((a, b) => rank(a) - rank(b) || full.indexOf(a) - full.indexOf(b));
+      st.i = 0; st.flipped = false; st.known = 0; st.again = 0;
+    }
+    function locked(c) { return !open() && !demoIds.has(c.id); }
+    function draw() {
+      const d = deck(), c = st.queue[st.i];
+      const knownAll = d.filter(x => s.flash[x.id] && s.flash[x.id].k).length;
+      root.innerHTML = `<header class="fc__top">
+          <button class="iconbtn" data-fc="x" aria-label="${PT('بستن', 'Close')}">✕</button>
+          <div class="fc__ttl"><b>🗂️ ${PT('فلش‌کارت‌های مرور سریع', 'Quick-review flashcards')}</b><small>${PT(`${nf(d.length)} کارت • بلدم: ${nf(knownAll)}`, `${nf(d.length)} cards • known: ${nf(knownAll)}`)}${open() ? '' : PT(` • ${nf(FC_DEMO())} کارت اول رایگان`, ` • first ${nf(FC_DEMO())} free`)}</small></div>
+          <div class="fc__bar"><i style="width:${st.queue.length ? Math.round(st.i / st.queue.length * 100) : 0}%"></i></div>
+        </header>
+        <nav class="fc__ws">${[['all', '🗂️', PT('همه', 'All'), 'var(--brand)']].concat(EA.worlds.map(w => [w.id, w.sym, w.name, w.color])).map(x => `<button class="fc__w ${st.w === x[0] ? 'is-on' : ''}" data-fcw="${x[0]}" style="--wc:${x[3]}"><b dir="ltr">${x[1]}</b><span>${x[2]}</span></button>`).join('')}</nav>
+        <main class="fc__stage">${c ? cardHTML(c) : doneHTML()}</main>
+        <footer class="fc__foot">${c ? (locked(c) ? `<button class="btn btn--gold btn--lg" data-ac="store" data-course="${cid}" data-why="flash">👑 ${PT('باز کردن همه کارت‌ها', 'Unlock every card')}</button>`
+          : st.flipped ? `<button class="btn btn--ghost btn--lg fc__again" data-fc="again">🔄 ${PT('مرور مجدد', 'Review again')}</button><button class="btn btn--green btn--lg" data-fc="know">✅ ${PT('بلدم', 'I know it')}</button>`
+            : `<button class="btn btn--brand btn--lg" data-fc="flip">↻ ${PT('برگرداندن کارت', 'Flip the card')}</button>`) : `<button class="btn btn--brand btn--lg" data-fc="restart">🔁 ${PT('یک دور دیگر', 'Another round')}</button>`}</footer>`;
+    }
+    function cardHTML(c) {
+      const k = s.flash[c.id], lk = locked(c);
+      return `<div class="fc__card ${st.flipped ? 'is-flipped' : ''} ${lk ? 'is-locked' : ''}" style="--wc:${c.w.color}" data-fc="${lk ? '' : 'flip'}" tabindex="0">
+          <div class="fc__in">
+            <div class="fc__face fc__face--f"><span class="fc__k">${c.kind === 'calc' ? '🧮 ' + PT('فرمول', 'Formula') : '⭐ ' + PT('نکته طلایی', 'Key point')} • ${c.w.name}</span><h2 dir="auto">${c.front}</h2><small>${lk ? '' : PT('بزن تا برگردد', 'Tap to flip')}</small>${k && k.k ? `<em class="fc__seen">✅ ${PT('بلد بودی', 'Known')}</em>` : ''}</div>
+            <div class="fc__face fc__face--b"><span class="fc__k">${c.front}</span><div class="fc__body" dir="auto">${c.back}</div></div>
+          </div>
+          ${lk ? `<div class="fc__lock"><span>🔒</span><b>${PT('بقیه کارت‌ها با اشتراک این دوره', 'The rest of the deck comes with a subscription')}</b><small>${PT(`فقط ${nf(FC_DEMO())} کارت اول رایگان است. همه نکات طلایی، فرمول‌ها و مقادیر بحرانی شب امتحان با پلن آموزشی، Pro یا الماس.`, `Only the first ${nf(FC_DEMO())} cards are free. Every key point, formula and critical value comes with Standard, Pro or Diamond.`)}</small></div>` : ''}
+        </div>
+        <p class="fc__pos">${nf(st.i + 1)} / ${nf(st.queue.length)}</p>`;
+    }
+    function doneHTML() {
+      return `<div class="fc__done">${EA.ui && EA.ui.mascot ? EA.ui.mascot('cheer', 'var(--brand)', 110) : '🎉'}<h2>${PT('این دور تمام شد!', 'Round complete!')}</h2><p>${PT(`بلدم: ${nf(st.known)} • مرور مجدد: ${nf(st.again)}`, `Known: ${nf(st.known)} • Review again: ${nf(st.again)}`)}</p></div>`;
+    }
+    function act(a) {
+      const c = st.queue[st.i];
+      if (a === 'x') return close();
+      if (a === 'restart') { build(); return draw(); }
+      if (!c || locked(c)) { if (c && locked(c)) upgradeModal(cid, 'flash'); return; }
+      if (a === 'flip') { st.flipped = !st.flipped; pSfx('tap'); const el = root.querySelector('.fc__card'); if (el) el.classList.toggle('is-flipped', st.flipped); return drawFoot(); }
+      if (a === 'know') { s.flash[c.id] = { k: (s.flash[c.id] && s.flash[c.id].k || 0) + 1, at: Date.now() }; st.known++; pSfx('correct'); }
+      if (a === 'again') { const f = s.flash[c.id] || {}; s.flash[c.id] = { k: 0, r: (f.r || 0) + 1, at: Date.now() }; st.again++; st.queue.push(c); pSfx('tap'); }
+      EA.S.save(); st.i++; st.flipped = false; draw();
+    }
+    function drawFoot() { const keep = root.querySelector('.fc__stage').innerHTML; draw(); root.querySelector('.fc__stage').innerHTML = keep; }
+    function close() { root.remove(); document.body.classList.remove('no-scroll'); document.removeEventListener('keydown', key, true); }
+    function key(e) {
+      if (!document.body.contains(root) || document.querySelector('.modal')) return;
+      if (e.key === 'Escape') return close();
+      if (e.key === ' ' || e.key === 'Enter') { e.preventDefault(); return act('flip'); }
+      if (st.flipped && (e.key === '1' || e.key === 'ArrowRight')) return act('again');
+      if (st.flipped && (e.key === '2' || e.key === 'ArrowLeft')) return act('know');
+    }
+    root.addEventListener('click', e => {
+      const w = e.target.closest('[data-fcw]'); if (w) { st.w = w.dataset.fcw; build(); pSfx('select'); return draw(); }
+      const b = e.target.closest('[data-fc]'); if (b && b.dataset.fc) act(b.dataset.fc);
+      else if (e.target.closest('.fc__card.is-locked')) upgradeModal(cid, 'flash');
+    });
+    document.addEventListener('keydown', key, true);
+    build(); draw();
+  }
+  function flashCardHTML(cid) {
+    const n = flashDeck().length, s = curState(), known = s && s.flash ? Object.keys(s.flash).filter(k => s.flash[k].k).length : 0, op = access(cid).lessons;
+    return `<article class="pcard pcard--wide pcard--flash"><div class="pcard__i">🗂️</div><h3>${PT('فلش‌کارت‌های مرور سریع (شب امتحان)', 'Quick-review flashcards (exam night)')}</h3>
+      <p>${PT(`${nf(n)} کارت دوطرفه از نکات طلایی، فرمول‌ها و مقادیر بحرانی • بلدم: ${nf(known)}`, `${nf(n)} two-sided cards: key points, formulas and critical values • known: ${nf(known)}`)}${op ? '' : PT(` • ${nf(FC_DEMO())} کارت اول رایگان`, ` • first ${nf(FC_DEMO())} free`)}</p>
+      <button class="btn btn--brand btn--block" data-ac="flash">🗂️ ${PT('شروع مرور', 'Start reviewing')}</button></article>`;
+  }
+
+  /* ================= ۵. یادداشت‌های شخصی بالینی (پروفایل، چاپ، پشتیبان) ================= */
+  function personalNotes() {
+    const s = curState(); if (!s || !s.pnotes) return [];
+    return Object.keys(s.pnotes).map(k => Object.assign({ key: k }, s.pnotes[k])).filter(n => n.t).sort((a, b) => b.at - a.at);
+  }
+  function notesHTML() {
+    const list = personalNotes();
+    return `<div class="acnotes"><h2 class="sh">📝 ${PT('یادداشت‌های شخصی بالینی من', 'My personal clinical notes')}</h2>
+      ${list.length ? `<div class="acnotes__tools"><span class="muted">${PT(`${nf(list.length)} یادداشت`, `${nf(list.length)} notes`)}</span><button class="btn btn--ghost btn--sm" data-pnp>🖨️ ${PT('چاپ همه', 'Print all')}</button></div>
+        ${list.map(n => `<article class="acnote" data-pnk="${pesc(n.key)}"><p class="acnote__q" dir="auto">${pesc(n.q || '')}</p>${n.a ? `<p class="acnote__a">✓ ${pesc(n.a)}</p>` : ''}<div class="acnote__t" dir="auto">${pesc(n.t)}</div><footer><small>${pesc(fdate(n.at))}</small><span><button class="btn btn--ghost btn--sm" data-pne>✏️ ${PT('ویرایش', 'Edit')}</button><button class="btn btn--ghost btn--sm" data-pnd>🗑️</button></span></footer></article>`).join('')}`
+        : `<p class="muted acnotes__empty">${PT('بعد از جواب دادن به هر سؤال، دکمه «📝 یادداشت شخصی» را بزن تا نکته خودت را زیر همان سؤال ثبت کنی. همه این‌جا جمع می‌شوند و قابل چاپ‌اند.', 'After answering any question, tap “📝 Personal note” to save your own point under it. They all gather here and can be printed.')}</p>`}
+    </div>`;
+  }
+  document.addEventListener('click', e => {
+    if (!e.target.closest('.acnotes')) return;
+    const s = curState(); if (!s) return;
+    if (e.target.closest('[data-pnp]')) return printText(PT('یادداشت‌های شخصی بالینی', 'Personal clinical notes') + ' — ' + (EA.COURSE ? PT(EA.COURSE.nameFa, EA.COURSE.nameEn) : ''), personalNotes().map(n => `${n.q || ''}${n.a ? '\n✓ ' + n.a : ''}\n\n📝 ${n.t}\n(${fdate(n.at)})`));
+    const card = e.target.closest('[data-pnk]'); if (!card) return;
+    const k = card.dataset.pnk, n = s.pnotes && s.pnotes[k]; if (!n) return;
+    if (e.target.closest('[data-pnd]')) { if (!confirm(PT('این یادداشت پاک شود؟', 'Delete this note?'))) return; delete s.pnotes[k]; EA.S.save(); card.remove(); return pToast(PT('یادداشت پاک شد', 'Note deleted')); }
+    if (e.target.closest('[data-pne]')) {
+      const m = pModal(`<h3>✏️ ${PT('ویرایش یادداشت', 'Edit note')}</h3><p class="muted" dir="auto">${pesc(n.q || '')}</p><textarea class="acbox" rows="6" maxlength="2000" dir="auto">${pesc(n.t)}</textarea><div class="modal__btns"><button class="btn btn--brand" data-sv>${PT('ذخیره', 'Save')}</button><button class="btn btn--ghost" data-close>${PT('انصراف', 'Cancel')}</button></div>`);
+      m.el.querySelector('[data-sv]').onclick = () => { const v = m.el.querySelector('textarea').value.trim(); if (v) { n.t = v.slice(0, 2000); n.at = Date.now(); EA.S.save(); card.querySelector('.acnote__t').textContent = n.t; } m.close(); };
+    }
+  });
+
+  /* ================= ۶. کیس بالینی امروز (صفحه اول) =================
+   * هر روز (new Date().toDateString()) به‌صورت قطعی یک سؤال از یکی از دوره‌ها؛ یک بار در روز؛ +XP و الماس به همان دوره. */
+  let DC_CACHE = null;
+  function dailyCase() {
+    const day = new Date().toDateString();
+    if (DC_CACHE && DC_CACHE.day === day) return DC_CACHE;
+    const list = courses(); if (!list.length) return null;
+    const h = djb('TRAPO-DAILY|' + day);
+    const c = list[h % list.length];
+    const prev = window.EA;
+    let pick = null;
+    try {
+      window.EA = {};
+      ENGINE.lang(c); c.content();
+      const items = [];
+      EA.worlds.forEach(w => w.lessons.forEach(l => l.items.forEach((it, i) => {
+        if ((it.t === 'mcq' && it.opts && it.opts.length >= 3) || it.t === 'tf') items.push({ it, key: l.id + ':' + i, w: { id: w.id, name: w.name, color: w.color, sym: w.sym } });
+      })));
+      const x = items[(h >>> 7) % items.length];
+      if (x) {
+        const it = x.it;
+        let opts = it.t === 'tf' ? [PT('درست', 'True'), PT('نادرست', 'False')] : it.opts.slice(), right = it.t === 'tf' ? (it.a ? 0 : 1) : (it.a || 0);
+        if (it.t === 'mcq') { const ord = opts.map((_, i) => i).sort((a, b) => djb(day + a) - djb(day + b)); opts = ord.map(i => it.opts[i]); right = ord.indexOf(right); }
+        pick = { day, cid: c.id, key: x.key, w: x.w, kind: it.t, q: it.q, opts, right, why: it.why || '', tfText: it.t === 'tf' };
+      }
+    } catch (err) { console.warn('[academy] daily case', err); } finally { window.EA = prev; }
+    DC_CACHE = pick;
+    return pick;
+  }
+  const DC_XP = () => CFG.DAILY_CASE_XP || 15, DC_GEMS = () => CFG.DAILY_CASE_GEMS || 5;
+  function dailyCaseHTML() {
+    const d = dailyCase(); if (!d) return '';
+    const c = AC[d.cid], done = LS.json('academy.dcase', null), solved = done && done.day === d.day ? done : null;
+    const opts = d.opts.map((o, i) => {
+      const cls = solved ? (i === d.right ? 'is-right' : i === solved.pick ? 'is-wrong' : '') : '';
+      return `<button class="dcase__o ${cls}" data-dco="${i}" ${solved ? 'disabled' : ''}><kbd>${nf(i + 1)}</kbd><span>${o}</span></button>`;
+    }).join('');
+    return `<section class="dcase ${solved ? (solved.ok ? 'is-ok' : 'is-bad') : ''}" style="--cc:${c.color};--cd:${c.dark};--wc:${d.w.color}" aria-label="کیس بالینی امروز">
+      <header class="dcase__h"><span class="dcase__star">🌟</span><div><b>کیس بالینی امروز</b><small>${c.icon} ${c.nameFa} • ${d.w.name} • ${fdate(Date.now())}</small></div><span class="dcase__rw"><bdi>+${nf(DC_XP())} XP</bdi> • <bdi>+${nf(DC_GEMS())} 💎</bdi></span></header>
+      <div class="dcase__q" dir="auto">${d.tfText ? 'درست یا نادرست؟ ' : ''}${d.q}</div>
+      <div class="dcase__opts ${d.tfText ? 'dcase__opts--tf' : ''}">${opts}</div>
+      ${solved ? `<div class="dcase__res">${solved.ok ? `🎉 <b>آفرین دکتر!</b> +${nf(DC_XP())} XP و +${nf(DC_GEMS())} 💎 در دوره ${c.nameFa} ذخیره شد${solved.claimed ? '' : ' (با ورود به دوره دریافت می‌کنی)'}.` : `<b>این بار نشد.</b> پاسخ درست مشخص شده است.`} <span class="muted">کیس بعدی: فردا 🌅</span></div>${d.why ? `<details class="dcase__why" open><summary>چرا؟</summary><div dir="auto">${d.why}</div></details>` : ''}` : `<p class="dcase__hint">فقط یک بار در روز می‌توانی جواب بدهی؛ با دقت انتخاب کن.</p>`}
+    </section>`;
+  }
+  document.addEventListener('click', e => {
+    const b = e.target.closest('.dcase [data-dco]'); if (!b || b.disabled) return;
+    const d = dailyCase(); if (!d) return;
+    const done = LS.json('academy.dcase', null); if (done && done.day === d.day) return;
+    const i = +b.dataset.dco, ok = i === d.right;
+    LS.put('academy.dcase', { day: d.day, cid: d.cid, key: d.key, pick: i, ok, at: Date.now(), claimed: false });
+    if (ok) {
+      const rw = LS.json('academy.rewards', {}) || {};
+      const r = rw[d.cid] || { xp: 0, gems: 0 }; r.xp += DC_XP(); r.gems += DC_GEMS(); rw[d.cid] = r;
+      LS.put('academy.rewards', rw);
+      pSfx('done'); pConfetti(90);
+    } else pSfx('wrong');
+    const sec = b.closest('.dcase'); if (sec) sec.outerHTML = dailyCaseHTML();
+  });
+  /** پاداش‌های کیس روزانه هنگام ورود به همان دوره به حسابش اضافه می‌شود */
+  function claimRewards(cid) {
+    const rw = LS.json('academy.rewards', {}) || {}, r = rw[cid];
+    if (!r || !(r.xp || r.gems) || !(window.EA && EA.S)) return;
+    const s = EA.S.get();
+    s.gems = (s.gems || 0) + (r.gems || 0);
+    try { if (r.xp) EA.S.addXp(r.xp); } catch (e) { s.xp = (s.xp || 0) + r.xp; }
+    EA.S.save();
+    delete rw[cid]; LS.put('academy.rewards', rw);
+    const dc = LS.json('academy.dcase', null); if (dc && dc.cid === cid) { dc.claimed = true; LS.put('academy.dcase', dc); }
+    setTimeout(() => EA.ui && EA.ui.toast(PT(`🌟 پاداش کیس روزانه: +${nf(r.xp)} XP و +${nf(r.gems)} 💎`, `🌟 Daily case reward: +${nf(r.xp)} XP and +${nf(r.gems)} 💎`)), 1100);
+  }
+
   /* ================= صفحه اول: فقط دوره‌ها (کارت + جزئیات بازشونده) ================= */
   const LOGO = `<svg viewBox="0 0 64 64" width="42" height="42" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>`;
   /** شخصیت هر دوره (قطره یونا، گلبول بال‌دار هما، ذره‌بین نگار) از فایل داده خودش؛ بدون بارگذاری کل دوره */
@@ -3444,6 +3834,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         </div>
       </div></header>
       <div class="dwrap">
+        ${dailyCaseHTML()}
         <section class="dhero">
           <div class="dhero__txt">
             <span class="dchip"><i></i>آموزش بالینی بازی‌وار • کاملاً آفلاین</span>
@@ -3543,7 +3934,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const need = w ? w[3] : 0;
     const st = {
       tier: +tierPick || (need === 9 ? 3 : need === 2 ? Math.max(2, Math.min(3, a.tier + 1)) : Math.min(3, Math.max(1, a.tier + 1))),
-      dur: 1, sel: { [c.id]: true }
+      dur: 1, sel: { [c.id]: true }, promo: null, promoIn: '', promoErr: ''
     };
     const m = pModal('', { cls: 'modal--sheet modal--up' });
     const card = m.el.querySelector('.modal__card');
@@ -3557,6 +3948,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const p = price(st.tier, ids, st.dur), full = st.tier === 3 ? p : ids.reduce((s, id) => s + price(st.tier, [id], st.dur), 0);
       const perMonth = d => Math.round(price(st.tier, ids, d) / [0, 1, 3, 6, 12][d] / 1000) * 1000;
       const save = d => { const base = perMonth(1); return base ? Math.round((1 - perMonth(d) / base) * 100) : 0; };
+      const pr = st.promo, fits = promoFits(pr, st.tier), fin = fits ? promoPrice(p, pr) : p;
+      const planNames = ps => ps.map(t => TIERS[t].short).join('، ');
       card.innerHTML = `
         <header class="up__hero">
           <button class="iconbtn up__x" data-close aria-label="بستن">✕</button>
@@ -3582,7 +3975,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
               ${t === (need === 9 ? 3 : need === 2 ? 2 : need ? 1 : -1) ? '<span class="up__rec">پیشنهاد برای همین بخش</span>' : t === 3 ? '<span class="up__rec up__rec--gold">کامل‌ترین</span>' : ''}
               ${a.tier === t ? '<span class="up__cur">فعال فعلی</span>' : ''}
               <span class="up__pi">${T0.icon}</span><b>${T0.short}</b><small>${t === 3 ? 'همه دوره‌ها' : t === 2 ? 'بالینی حرفه‌ای' : 'آموزشی کامل'}</small>
-              <span class="up__pp">${nf(pp)} <i>${CFG.CURRENCY}</i></span>
+              <span class="up__pp">${promoFits(st.promo, t) ? `<s>${nf(pp)}</s> ${nf(promoPrice(pp, st.promo))}` : nf(pp)} <i>${CFG.CURRENCY}</i></span>
               <ul>${PLAN_FEAT[t].map(f => `<li class="${f[0] === '✗' ? 'no' : ''}"><i>${f[0]}</i>${f[1]}</li>`).join('')}</ul>
             </button>`;
           }).join('')}</div>
@@ -3591,6 +3984,11 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           ${st.tier === 3 ? `<div class="acok">💎 پکیج الماس همه دوره‌های فعلی (${list.map(x => x.nameFa).join('، ')}) و دوره‌های آینده را باز می‌کند.</div>` : `
           <h4 class="acstep"><span>۳</span> دوره‌های دیگر را هم اضافه کن <small>۲ دوره ۱۵٪ • ۳ دوره ۲۵٪ تخفیف${st.tier === 2 ? ' • Pro حداکثر ۲ دوره' : ''}</small></h4>
           <div class="up__more">${list.filter(x => x.id !== c.id).map(x => `<label class="up__add ${st.sel[x.id] ? 'is-on' : ''}" style="--ac:${x.color}"><input type="checkbox" data-add="${x.id}" ${st.sel[x.id] ? 'checked' : ''}><span class="up__addm">${courseMascot(x, 'happy', 34)}</span><span><b>${x.nameFa}</b><small>${x.subjectFa}</small></span><i>${st.sel[x.id] ? '✓' : '+'}</i></label>`).join('')}</div>`}
+          <div class="up__promo ${pr && pr.ok ? (fits ? 'is-ok' : 'is-warn') : ''}">
+            <b>🎁 کد تخفیف</b>
+            ${pr && pr.ok ? `<div class="up__promoon"><span>✓ <b dir="ltr">${pesc(pr.code)}</b> — ${nf(pr.pct)}٪ تخفیف${pr.label ? ` <small>(${pesc(pr.label)})</small>` : ''}</span><button class="iconbtn" data-promox aria-label="حذف کد تخفیف">✕</button></div>${fits ? `<small class="up__promosave">${nf(p - fin)} ${CFG.CURRENCY} صرفه‌جویی 🎉</small>` : `<div class="acwarn">این کد فقط برای ${planNames(pr.plans)} است؛ پلن را عوض کن تا اعمال شود.</div>`}`
+            : `<div class="acrow"><input class="ob__in acin" data-promo dir="ltr" autocomplete="off" spellcheck="false" value="${pesc(st.promoIn)}" placeholder="مثلاً MED20"><button class="btn btn--ghost" data-promoapply>اعمال</button></div>${st.promoErr ? `<div class="acerr">${pesc(st.promoErr)}</div>` : ''}`}
+          </div>
           <div class="up__code">
             <b>🔑 کد فعال‌سازی داری؟</b>
             <div class="acrow"><input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="TRP1-… (کد کامل را این‌جا بچسبان)"><button class="btn btn--brand" data-upact>فعال‌سازی</button></div>
@@ -3599,7 +3997,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="acorder" hidden></div>
         </div>
         <footer class="up__sum">
-          <div><small>${TIERS[st.tier].short} • ${DUR[st.dur].short} • ${st.tier === 3 ? 'همه دوره‌ها' : `${nf(n)} دوره`} • روزی حدود ${nf(Math.round(p / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان</small><span>${full > p ? `<s>${nf(full)}</s>` : ''}<b>${nf(p)}</b> <i>${CFG.CURRENCY}</i></span></div>
+          <div><small>${TIERS[st.tier].short} • ${DUR[st.dur].short} • ${st.tier === 3 ? 'همه دوره‌ها' : `${nf(n)} دوره`} • روزی حدود ${nf(Math.round(fin / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان</small><span>${fits || full > p ? `<s>${nf(Math.max(full, p))}</s>` : ''}<b>${nf(fin)}</b> <i>${CFG.CURRENCY}</i>${fits ? `<em class="up__off">−${nf(pr.pct)}٪</em>` : ''}</span></div>
           <button class="btn btn--gold btn--lg" data-order>🧾 ثبت سفارش و دریافت کد</button>
         </footer>`;
       if (keepScroll) card.querySelector('.up__b').scrollTop = y;
@@ -3613,10 +4011,20 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         pSfx('select'); return draw(true);
       }
       const d = e.target.closest('[data-dur]'); if (d) { st.dur = +d.dataset.dur; pSfx('select'); return draw(true); }
+      if (e.target.closest('[data-promoapply]')) {
+        const inp = card.querySelector('[data-promo]'), v = inp ? inp.value.trim() : '';
+        st.promoIn = v;
+        if (!v) { st.promoErr = 'کد تخفیف را بنویس.'; return draw(true); }
+        const r = parsePromo(v);
+        if (r && r.ok) { st.promo = r; st.promoErr = ''; pSfx('done'); if (!promoFits(r, st.tier) && r.plans.length === 1) st.tier = r.plans[0]; }
+        else { st.promo = null; st.promoErr = (r && r.err) || 'این کد تخفیف معتبر نیست.'; pSfx('wrong'); }
+        return draw(true);
+      }
+      if (e.target.closest('[data-promox]')) { st.promo = null; st.promoIn = ''; st.promoErr = ''; pSfx('tap'); return draw(true); }
       if (e.target.closest('[data-upact]')) { const inp = card.querySelector('.up__code input'); return tryRedeem(inp.value.trim(), card.querySelector('.up__code .acerr'), inp, () => m.close()); }
       if (e.target.closest('[data-order]')) {
         const sel = list.filter(x => st.sel[x.id]);
-        const pr = price(st.tier, sel.map(x => x.id), st.dur);
+        const base = price(st.tier, sel.map(x => x.id), st.dur), promo = promoFits(st.promo, st.tier) ? st.promo : null, pr = promo ? promoPrice(base, promo) : base;
         const id = 'ORD-' + b32enc(sha256(deviceId() + Date.now() + Math.random())).slice(0, 6);
         const txt = [
           '🧾 سفارش اشتراک ' + CFG.BRAND_FA,
@@ -3626,13 +4034,16 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           `📚 دوره‌ها: ${st.tier === 3 ? 'همه دوره‌ها (' + list.map(x => x.nameFa).join('، ') + ' + دوره‌های آینده)' : sel.map(x => `${x.nameFa} (${x.subjectFa})`).join('، ')}`,
           `💎 پلن: ${TIERS[st.tier].fa} — Tier ${st.tier}`,
           `⏳ مدت اعتبار: ${DUR[st.dur].fa}`,
+          promo ? `🏷️ قیمت پایه: ${nf(base)} ${CFG.CURRENCY}` : null,
+          promo ? `🎁 کد تخفیف: ${promo.code} (${nf(promo.pct)}٪ تخفیف${promo.label ? ' — ' + promo.label : ''})` : null,
           `💰 مبلغ: ${nf(pr)} ${CFG.CURRENCY}`,
           `🔢 کد سفارش: ${id}`,
           `🕒 تاریخ: ${fdatetime(Date.now())}`,
           `🔧 ${'TRAPO-ORDER:' + [deviceId(), st.tier, st.tier === 3 ? ALL_MASK : sel.reduce((mk, x) => mk | x.bit, 0), st.dur].join(':')}`,
+          promo ? `🔧 TRAPO-PROMO:${promo.code}:${promo.pct}:${pr}` : null,
           '━━━━━━━━━━━━━━',
           'لطفاً کد فعال‌سازی این دستگاه را ارسال کنید. 🙏'
-        ].join('\n');
+        ].filter(x => x !== null).join('\n');
         const box = card.querySelector('.acorder');
         box.hidden = false;
         box.innerHTML = `<h4>✅ سفارش ساخته شد و در کلیپ‌بورد کپی شد</h4>${copyBox(txt, 11)}<p class="muted acsmall">${CFG.SUPPORT_HINT}</p><button class="btn btn--ghost btn--sm" data-copyorder>📋 کپی دوباره</button>`;
@@ -3648,7 +4059,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       if (st.tier === 2 && list.filter(y => st.sel[y.id]).length > 2) { st.sel[x] = false; pToast('پلن Pro حداکثر ۲ دوره است؛ برای هر ۳ دوره پکیج الماس را انتخاب کن', 'toast--bad'); }
       pSfx('select'); draw(true);
     });
-    card.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('.up__code input')) card.querySelector('[data-upact]').click(); });
+    card.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('.up__code input')) card.querySelector('[data-upact]').click(); if (e.key === 'Enter' && e.target.matches('[data-promo]')) card.querySelector('[data-promoapply]').click(); });
     draw();
   }
 
@@ -3737,6 +4148,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       case 'upsell': return upgradeModal(b.dataset.course || null, b.dataset.why || 'lesson');
       case 'clinic': return clinicModal();
       case 'grand': return needAssets(courses(), grandModal);
+      case 'flash': return flashModal();
       case 'backup': return backupModal();
       case 'restore': return restoreDialog();
       case 'quickcalc': return quickCalc();
@@ -3901,6 +4313,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     if (pm !== undefined && s.settings.music !== pm) { s.settings.music = pm; EA.S.save(); try { EA.audio.syncMusic(); } catch (e) { /* */ } }
     syncMusicUI(false);
     const g = claimGifts(id, s);
+    if (!calc) claimRewards(id);
     if (g) { EA.S.save(); setTimeout(() => EA.ui.toast(`💎 +${nf(g)} ${PT('الماس هدیه پکیج الماس', 'Diamond gift gems')}`), 900); EA.app.refresh(); }
     if (!calc) setTimeout(qcWarm, 2500);
     const run = params.get('run');
@@ -3999,12 +4412,14 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     upsell, storeModal, upgradeModal, activateModal, settingsModal,
     sideHTML, topChips, profileHTML, lockedTools, vipBadge,
     hasProfile, autoProfile, wantIntro, restoreDialog, backupString, restoreString,
-    certCode, recordCert, storyCard, needAssets,
+    certCode, recordCert, storyCard, needAssets, dailyCase,
     store: STORE, migration: () => MIGRATION, courses,
     afterRender: (cid, view) => {
       fab(); syncMusicUI(false); requestAnimationFrame(stickyFit); guardAnims();
       // کیس‌های ترکیبی ICU فقط داخل دوره‌ها: کارت ویژه در تب تمرین
+      if (view === 'tools') attachClinicalNote(cid);
       const grid = view === 'practice' && document.querySelector('#view .pgrid');
+      if (grid && !grid.querySelector('.pcard--flash')) grid.insertAdjacentHTML('afterbegin', flashCardHTML(cid));
       if (grid && !grid.querySelector('.pcard--icu')) {
         const ok = summary().grand, g = LS.json('academy.grand', {}), n = GR().filter(x => g[x.id] && g[x.id].passed).length;
         grid.insertAdjacentHTML('beforeend', `<article class="pcard pcard--wide pcard--icu"><div class="pcard__i">🚨</div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU grand rounds')}</h3><p>${PT(`${nf(GR().length)} بیمار بدحال که الکترولیت، گاز خون و معاینه تغذیه‌محور را با هم می‌خواهند • ${nf(n)} از ${nf(GR().length)} قبول`, `${nf(GR().length)} critically ill patients combining electrolytes, blood gases and NFPE`)}</p><button class="btn ${ok ? 'btn--red' : 'btn--ghost'} btn--block" data-ac="grand">${ok ? PT('ورود به شیفت 🚑', 'Start the shift 🚑') : PT('🔒 حداقل ۲ دوره یا پکیج الماس', '🔒 2 courses or Diamond')}</button></article>`);
