@@ -1706,7 +1706,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const NAV = () => [['learn', T('یادگیری', 'Learn')], ['practice', T('تمرین', 'Practice')], ['chars', T('کاراکترها', 'Characters')], ['tools', T('ابزارها', 'Tools')], ['league', T('لیگ', 'League')], ['profile', T('پروفایل', 'Profile')]];
       /* نقش کاربر به فارسی ذخیره می‌شود (سازگاری با نسخه‌های قبلی) و با زبان فعلی نمایش داده می‌شود */
       const ROLES = C.obRoles;
-      const roleName = r => { const x = ROLES.find(p => p[0] === r || p[1] === r); return x ? T(x[0], x[1]) : r; };
+      const roleName = r => { const x = ROLES.find(p => p[0] === r || p[1] === r); return x ? T(x[0], x[1]) : (window.ACADEMY && ACADEMY.roleName ? ACADEMY.roleName(r) : r); };
       const GOALS = () => [[20, T('راحت', 'Casual'), T('۵ دقیقه در روز', '5 minutes a day')], [50, T('معمولی', 'Regular'), T('۱۰ دقیقه در روز', '10 minutes a day')], [100, T('جدی', 'Serious'), T('۲۰ دقیقه در روز', '20 minutes a day')], [150, T('دیوانه‌وار', 'Intense'), T('۳۰ دقیقه در روز', '30 minutes a day')]];
 
       let view = 'learn';
@@ -2500,7 +2500,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       VIP30: { pct: 30, plans: [3], fa: 'تخفیف ویژه پکیج الماس', en: 'Diamond package discount' }
     },
     SUPPORT_HINT: 'این متن را برای پشتیبانی آکادمی (تلگرام / واتس‌اپ / ایمیل) بفرستید تا کد فعال‌سازی اختصاصی دستگاهتان را دریافت کنید.',
-    CURRENCY: 'تومان',
+    SUPPORT_HINT_EN: 'Send this text to support (Telegram / WhatsApp / email) to receive the activation code for your device.',
+    CURRENCY: 'تومان', CURRENCY_EN: 'Toman',
     /* ---- قیمت‌گذاری (مهر ۱۴۰۵، دلار ≈ ۲۵۸ هزار تومان؛ یک کتاب مرجع پزشکی ≈ ۱٫۵ تا ۲٫۵ میلیون تومان) ----
      * قیمت پایه یک ماه برای هر دوره و هر پلن؛ هر دوره به نسبت حجم و ارزش محتوایش قیمت جدا دارد:
      *   هما  بیشترین محتوا (۲۹ کیس + تفسیرگر کامل ABG/VBG) ← گران‌ترین
@@ -2525,19 +2526,23 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   const EPOCH = Date.UTC(2024, 0, 1);
   const TIERS = [
-    { id: 0, key: 'demo', fa: 'دمو (رایگان)', en: 'Demo (free)', short: 'دمو', icon: '🆓', color: '#9aa9b1' },
-    { id: 1, key: 'std', fa: 'پلن آموزشی', en: 'Standard', short: 'آموزشی', icon: '📘', color: '#1cb0f6' },
-    { id: 2, key: 'pro', fa: 'پلن Pro (بالینی حرفه‌ای)', en: 'Pro', short: 'Pro', icon: '🩺', color: '#a560e8' },
-    { id: 3, key: 'vip', fa: 'پکیج جامع الماس (همه دوره‌ها)', en: 'Diamond All-Access', short: 'الماس', icon: '💎', color: '#e5a500' }
+    { id: 0, key: 'demo', fa: 'دمو (رایگان)', en: 'Demo (free)', short: 'دمو', shortEn: 'Demo', icon: '🆓', color: '#9aa9b1' },
+    { id: 1, key: 'std', fa: 'پلن آموزشی', en: 'Standard', short: 'آموزشی', shortEn: 'Standard', icon: '📘', color: '#1cb0f6' },
+    { id: 2, key: 'pro', fa: 'پلن Pro (بالینی حرفه‌ای)', en: 'Pro (clinical professional)', short: 'Pro', shortEn: 'Pro', icon: '🩺', color: '#a560e8' },
+    { id: 3, key: 'vip', fa: 'پکیج جامع الماس (همه دوره‌ها)', en: 'Diamond All-Access (every course)', short: 'الماس', shortEn: 'Diamond', icon: '💎', color: '#e5a500' }
   ];
   const DUR = [
-    { id: 0, fa: '۴۸ ساعت (هدیه تست الماس)', short: '۴۸ ساعته', ms: 48 * 36e5, trial: true },
-    { id: 1, fa: '۱ ماهه (۳۰ روز)', short: '۱ ماهه', ms: 30 * 864e5 },
-    { id: 2, fa: '۳ ماهه (۹۰ روز)', short: '۳ ماهه', ms: 90 * 864e5 },
-    { id: 3, fa: '۶ ماهه (۱۸۰ روز)', short: '۶ ماهه', ms: 180 * 864e5 },
-    { id: 4, fa: '۱ ساله (۳۶۵ روز)', short: '۱ ساله', ms: 365 * 864e5 },
-    { id: 5, fa: 'دائمی (Lifetime)', short: 'دائمی', ms: 0, life: true }
+    { id: 0, fa: '۴۸ ساعت (هدیه تست الماس)', en: '48 hours (Diamond trial gift)', short: '۴۸ ساعته', shortEn: '48 hours', ms: 48 * 36e5, trial: true },
+    { id: 1, fa: '۱ ماهه (۳۰ روز)', en: '1 month (30 days)', short: '۱ ماهه', shortEn: '1 month', ms: 30 * 864e5 },
+    { id: 2, fa: '۳ ماهه (۹۰ روز)', en: '3 months (90 days)', short: '۳ ماهه', shortEn: '3 months', ms: 90 * 864e5 },
+    { id: 3, fa: '۶ ماهه (۱۸۰ روز)', en: '6 months (180 days)', short: '۶ ماهه', shortEn: '6 months', ms: 180 * 864e5 },
+    { id: 4, fa: '۱ ساله (۳۶۵ روز)', en: '1 year (365 days)', short: '۱ ساله', shortEn: '1 year', ms: 365 * 864e5 },
+    { id: 5, fa: 'دائمی (Lifetime)', en: 'Lifetime', short: 'دائمی', shortEn: 'Lifetime', ms: 0, life: true }
   ];
+  /** نام کوتاه پلن و مدت به زبان رابط */
+  const tShort = t => PT(TIERS[t].short, TIERS[t].shortEn);
+  const dShort = d => PT(DUR[d].short, DUR[d].shortEn);
+  const CUR = () => PT(CFG.CURRENCY, CFG.CURRENCY_EN);
   /** بیت‌مسک ۱۶ دوره (یونا 1، هما 2، نگار 4، دوره‌های آینده 8، 16، … 32768).
    *  پکیج الماس (Tier 3) به بیت‌مسک وابسته نیست: همه دوره‌های فعلی و آینده را تا پایان مهلتش باز می‌کند. */
   const ALL_MASK = 0xFFFF;
@@ -2547,7 +2552,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /** همه دوره‌های ثبت‌شده و معتبر (هر فایل data-*.js که اضافه شود، خودکار این‌جا می‌آید) */
   const courses = () => STORE.registry().list;
   const $$ = (s, r) => (r || document).querySelector(s);
-  const PT = (fa, en) => (window.EA && window.EA.lang === 'en' && en != null ? en : fa);
+  /** زبان رابط: داخل دوره همان زبان دوره، بیرون از دوره (صفحه اول، پنجره‌ها) تنظیم سراسری academy.lang */
+  const UILANG = () => (window.EA && window.EA.COURSE && window.EA.lang ? window.EA.lang : (STORE.LS.raw('academy.lang') === 'en' ? 'en' : 'fa'));
+  const PT = (fa, en) => (UILANG() === 'en' && en != null ? en : fa);
   const nf = (n, d) => { const v = Number(n); if (!isFinite(v)) return String(n); return v.toLocaleString(PT('fa-IR', 'en-US'), { maximumFractionDigits: d == null ? 0 : d }); };
   const pesc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fdate = (t, opt) => { try { return new Intl.DateTimeFormat(PT('fa-IR', 'en-US'), opt || { dateStyle: 'medium' }).format(new Date(t)); } catch (e) { return new Date(t).toISOString().slice(0, 10); } };
@@ -2728,11 +2735,11 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const code = String(raw || '').trim();
     const dev = deviceId();
     const g = parseCode(code, dev);
-    if (!g.ok) return { ok: false, msg: g.err === 'sig' ? 'این کد برای این دستگاه صادر نشده یا ناقص کپی شده است. کد کامل را دوباره بچسبان یا با پشتیبانی تماس بگیر.' : 'قالب کد درست نیست. کد کامل را (که با TRP1 شروع می‌شود) بدون کم و زیاد بچسبان.' };
-    if (!g.life && g.exp <= Date.now()) return { ok: false, msg: 'این کد منقضی شده است. برای تمدید با پشتیبانی تماس بگیرید.' };
+    if (!g.ok) return { ok: false, msg: g.err === 'sig' ? PT('این کد برای این دستگاه صادر نشده یا ناقص کپی شده است. کد کامل را دوباره بچسبان یا با پشتیبانی تماس بگیر.', 'This code was not issued for this device or was copied incompletely. Paste the full code again or contact support.') : PT('قالب کد درست نیست. کد کامل را (که با TRP1 شروع می‌شود) بدون کم و زیاد بچسبان.', 'The code format is wrong. Paste the full code (starting with TRP1) exactly as sent.') };
+    if (!g.life && g.exp <= Date.now()) return { ok: false, msg: PT('این کد منقضی شده است. برای تمدید با پشتیبانی تماس بگیرید.', 'This code has expired. Contact support to renew.') };
     const o = lic();
     const norm = x => String(x).toUpperCase().replace(/[\s\-_]/g, '');
-    if (o.codes.some(x => norm(x) === norm(code))) return { ok: false, msg: 'این کد قبلاً روی این دستگاه فعال شده است ✅' };
+    if (o.codes.some(x => norm(x) === norm(code))) return { ok: false, msg: PT('این کد قبلاً روی این دستگاه فعال شده است ✅', 'This code is already active on this device ✅') };
     const before = summary();
     o.codes.push(code);
     if (g.tier === 3) courses().forEach(c => { o.gifts[c.id] = (o.gifts[c.id] || 0) + CFG.VIP_GEMS; });
@@ -2865,12 +2872,12 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     calc: ['🧮', 'تمرین محاسبات و تصویر', 'Calculation & picture practice', 1],
     guide: ['📖', 'دفترچه نکات و برگه مرجع جیبی', 'The guidebook and pocket reference', 1],
     tools: ['🩺', 'تب ابزار بالینی و ماشین‌حساب', 'Clinical tools & calculators', 2],
-    hearts: ['♾️', 'قلب بی‌نهایت', 'Unlimited hearts', 2, 'خسته از تمام شدن قلب‌ها در لحظات حساس؟ با ارتقا به پلن بالینی Pro یا VIP، قلب بی‌نهایت (♾️) و ماشین‌حساب بالینی بگیرید!'],
-    next: ['🚑', 'کیس‌های بعدی مسیر', 'The next cases', 1, 'برای نجات بیمارِ مرحله ۲ و باز کردن کل مسیر، اشتراک خود را فعال کنید'],
-    clinic: ['🩺', 'کلینیک خطاها', 'The mistake clinic', 1, 'خطاهایت در کلینیک منتظر درمان‌اند! برای مرور هدفمند و رفع نقاط ضعفت، اشتراک خود را فعال کن'],
-    flash: ['🗂️', 'دسته کامل فلش‌کارت‌ها', 'The full flashcard deck', 1, 'فقط ۳ کارت اول رایگان است؛ برای مرور همه نکات طلایی، فرمول‌ها و مقادیر بحرانی شب امتحان، اشتراک این دوره را فعال کن'],
-    note: ['📋', 'متن آماده پرونده و برگ مشاوره', 'Ready-made chart text', 2, 'با پلن Pro یا VIP نتیجه هر محاسبه به متن استاندارد پرونده و برگ مشاوره تبدیل می‌شود که با یک کلیک کپی می‌کنی'],
-    vipchest: ['👑', 'صندوقچه طلایی', 'The golden chest', 2, 'صندوقچه طلایی مخصوص Pro و VIP است: قلب بی‌نهایت (♾️)، ابزار بالینی و الماس ویژه بعد از هر درس تازه'],
+    hearts: ['♾️', 'قلب بی‌نهایت', 'Unlimited hearts', 2, 'خسته از تمام شدن قلب‌ها در لحظات حساس؟ با ارتقا به پلن بالینی Pro یا VIP، قلب بی‌نهایت (♾️) و ماشین‌حساب بالینی بگیرید!', 'Tired of running out of hearts at critical moments? Upgrade to the clinical Pro plan or VIP for unlimited hearts (♾️) and the clinical calculators!'],
+    next: ['🚑', 'کیس‌های بعدی مسیر', 'The next cases', 1, 'برای نجات بیمارِ مرحله ۲ و باز کردن کل مسیر، اشتراک خود را فعال کنید', 'Activate your subscription to save the patient in stage 2 and unlock the whole path'],
+    clinic: ['🩺', 'کلینیک خطاها', 'The mistake clinic', 1, 'خطاهایت در کلینیک منتظر درمان‌اند! برای مرور هدفمند و رفع نقاط ضعفت، اشتراک خود را فعال کن', 'Your mistakes are waiting in the clinic! Activate your subscription for targeted review of your weak spots'],
+    flash: ['🗂️', 'دسته کامل فلش‌کارت‌ها', 'The full flashcard deck', 1, 'فقط ۳ کارت اول رایگان است؛ برای مرور همه نکات طلایی، فرمول‌ها و مقادیر بحرانی شب امتحان، اشتراک این دوره را فعال کن', 'Only the first 3 cards are free; activate this course to review every key point, formula and critical value before the exam'],
+    note: ['📋', 'متن آماده پرونده و برگ مشاوره', 'Ready-made chart text', 2, 'با پلن Pro یا VIP نتیجه هر محاسبه به متن استاندارد پرونده و برگ مشاوره تبدیل می‌شود که با یک کلیک کپی می‌کنی', 'With Pro or VIP every calculation becomes a standard chart and consult note you copy in one click'],
+    vipchest: ['👑', 'صندوقچه طلایی', 'The golden chest', 2, 'صندوقچه طلایی مخصوص Pro و VIP است: قلب بی‌نهایت (♾️)، ابزار بالینی و الماس ویژه بعد از هر درس تازه', 'The golden chest is for Pro and VIP: unlimited hearts (♾️), clinical tools and bonus gems after every new lesson'],
     grand: ['🚨', 'شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU Grand Rounds', 9],
     fab: ['⚡', 'ماشین‌حساب سریع سر بالین', 'Bedside Quick-Calc', 2]
   };
@@ -2904,7 +2911,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function activateModal() {
     const m = pModal(`<div class="big-i">🔑</div><h3>${PT('فعال‌سازی اشتراک', 'Activate subscription')}</h3>
       <p class="muted">${PT('کدی را که پشتیبانی برایت فرستاده وارد کن.', 'Enter the code support sent you.')}</p>
-      <input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="TRP1-… (کد کامل را این‌جا بچسبان)">
+      <input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="${PT('TRP1-… (کد کامل را این‌جا بچسبان)', 'TRP1-… (paste the full code here)')}">
       <div class="acerr" hidden></div>
       <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>${PT('فعال‌سازی', 'Activate')}</button><button class="btn btn--ghost" data-close>${PT('انصراف', 'Cancel')}</button></div>`);
     const inp = m.el.querySelector('.acin'), err = m.el.querySelector('.acerr');
@@ -2917,7 +2924,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /* رمزساز مدیر داخل برنامه کاربران نیست: کدها فقط با ابزار جداگانه مدیر (admin/index.html + فایل کلید) ساخته می‌شوند */
 
   /* ================= تکه‌های HTML داخل دوره: نوار کناری، چیپ‌ها، پروفایل، ابزار قفل ================= */
-  const tierBadge = a => (a.tier ? `<span class="actb actb--${TIERS[a.tier].key}">${TIERS[a.tier].icon} ${PT(TIERS[a.tier].short, TIERS[a.tier].en)}</span>` : '');
+  const tierBadge = a => (a.tier ? `<span class="actb actb--${TIERS[a.tier].key}">${TIERS[a.tier].icon} ${tShort(a.tier)}</span>` : '');
   function vipBadge() { return summary().vip ? `<span class="acvip" title="${PT('پکیج جامع الماس', 'Diamond All-Access')}">💎 ${PT('الماس', 'Diamond')}</span>` : ''; }
   function topChips() {
     return `<a class="chip-stat chip-home" href="${homeURL()}" aria-label="${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}" title="${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}">🏠</a>${summary().vip ? `<span class="chip-stat chip-vip" title="${PT('الماس', 'Diamond')}">💎</span>` : ''}`;
@@ -2936,7 +2943,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <button class="acside__a" data-ac="grand">🚨 <span>${PT('کیس‌های ترکیبی ICU', 'ICU grand rounds')}</span></button>
       <button class="acside__a ${!a.tier && nm ? 'acside__a--crit' : ''}" data-act="clinic">🩺 <span>${PT('کلینیک خطاها', 'Mistake clinic')}</span>${nm ? (a.tier ? `<em>${nf(nm)}</em>` : `<em class="crit">${PT(`${nf(nm)} مورد بحرانی`, `${nf(nm)} critical`)}</em>`) : ''}</button>
       <a class="acside__a" href="${homeURL()}">🏠 <span>${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}</span></a>
-      <div class="acswitch">${courses().map(c => `<a href="?course=${c.id}" class="acswitch__c ${c.id === cid ? 'is-on' : ''}" style="--cc:${c.color}" title="${c.nameFa} — ${c.subjectFa}">${c.icon}<small>${PT(c.nameFa, c.nameEn)}</small></a>`).join('')}</div>
+      <div class="acswitch">${courses().map(c => `<a href="?course=${c.id}" class="acswitch__c ${c.id === cid ? 'is-on' : ''}" style="--cc:${c.color}" title="${PT(c.nameFa + ' — ' + c.subjectFa, c.nameEn + ' — ' + (c.subjectEn || ''))}">${c.icon}<small>${PT(c.nameFa, c.nameEn)}</small></a>`).join('')}</div>
     </div>`;
   }
   function profileHTML(cid) {
@@ -2947,8 +2954,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <div class="acprof__row"><span>${PT('این دوره', 'This course')}</span>${tierBadge(a) || '🔒'}</div>
         <div class="acprof__row"><span>${PT('روزهای باقی‌مانده', 'Time left')}</span><b>${a.tier ? (a.life ? PT('دائمی ♾️', 'Lifetime ♾️') : leftText(a.expiry)) : '—'}</b></div>
         ${a.tier && !a.life ? `<div class="acprof__row"><span>${PT('پایان اعتبار', 'Expires')}</span><b>${fdatetime(a.expiry)}</b></div>` : ''}
-        <div class="acprof__row"><span>${PT('ابزار بالینی / قلب بی‌نهایت', 'Tools / unlimited hearts')}</span><b>${a.tools ? '✓ / ♾️' : '🔒 / ۵'}</b></div>
-        <div class="acprof__row"><span>${PT('همه دوره‌ها', 'All courses')}</span><b>${courses().map(c => `${c.icon} ${sm.per[c.id].tier ? TIERS[sm.per[c.id].tier].short : '🔒'}`).join(' • ')}</b></div>
+        <div class="acprof__row"><span>${PT('ابزار بالینی / قلب بی‌نهایت', 'Tools / unlimited hearts')}</span><b>${a.tools ? '✓ / ♾️' : '🔒 / ' + nf(5)}</b></div>
+        <div class="acprof__row"><span>${PT('همه دوره‌ها', 'All courses')}</span><b>${courses().map(c => `${c.icon} ${sm.per[c.id].tier ? tShort(sm.per[c.id].tier) : '🔒'}`).join(' • ')}</b></div>
         <div class="acprof__btns"><button class="btn btn--gold btn--sm" data-ac="store" data-course="${cid}">👑 ${PT('ارتقا / تمدید', 'Upgrade / renew')}</button><button class="btn btn--ghost btn--sm" data-ac="settings">⚙️ ${PT('تنظیمات نمایش', 'Display settings')}</button></div>
       </div>
     </div>${notesHTML()}`;
@@ -2956,7 +2963,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function lockedTools(cid) {
     const c = AC[cid];
     return `<section class="tools aclock">
-      <header class="vhead"><h1>${PT('ابزار بالینی و ماشین‌حساب', 'Clinical tools & calculators')}</h1><p>${PT(c.toolsFa, 'Bedside calculators with step-by-step solutions')}</p></header>
+      <header class="vhead"><h1>${PT('ابزار بالینی و ماشین‌حساب', 'Clinical tools & calculators')}</h1><p>${PT(c.toolsFa, c.toolsEn || 'Bedside calculators with step-by-step solutions')}</p></header>
       <div class="aclock__card"><div class="big-i">🔒</div><h3>🔒 ${PT('ویژه پلن Pro', 'Pro plan')}</h3>
         <ul class="aclist"><li>🧮 ${PT('ماشین‌حساب‌ها با راه‌حل گام‌به‌گام و شدت', 'Calculators with step-by-step solutions')}</li><li>⚡ ${PT('دکمه شناور «ماشین‌حساب سریع سر بالین» در هر صفحه', 'Floating bedside Quick-Calc on every page')}</li><li>♾️ ${PT('قلب بی‌نهایت', 'Unlimited hearts')}</li></ul>
         <div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="store" data-tier="2" data-course="${cid}" data-why="tools">👑 ${PT('ارتقا به Pro', 'Upgrade to Pro')}</button><button class="btn btn--brand" data-ac="activate">🔑 ${PT('کد دارم', 'I have a code')}</button></div></div>
@@ -2976,15 +2983,18 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   const wantIntro = () => params.get('intro') === '1';
   const homeURL = () => location.pathname.split('/').pop() || 'index.html';
   const ROLES_P = ['دانشجوی پزشکی', 'انترن یا رزیدنت', 'پزشک', 'پرستار', 'کارشناس تغذیه', 'داروساز', 'هوشبری / تنفس‌درمانی', 'سایر'];
+  const ROLES_EN = ['Medical student', 'Intern or resident', 'Physician', 'Nurse', 'Dietitian', 'Pharmacist', 'Anesthesia / respiratory therapy', 'Other'];
+  /** نقش ذخیره‌شده (فارسی) به زبان رابط؛ نقش‌های دوره‌ها هم با همین نگاشت ترجمه می‌شوند */
+  const roleName = r => { const i = ROLES_P.indexOf(r); return i >= 0 ? PT(r, ROLES_EN[i]) : r; };
   function onboardModal(after) {
     const d = { name: '', role: '' };
     // اگر قبلاً در یکی از دوره‌ها نام داده، همان را پیشنهاد بده
     courses().some(c => { const s = courseState(c.id); if (s && s.profile) { d.name = s.profile.name; d.photo = s.profile.photo; return true; } return false; });
-    const m = pModal(`<div class="acob__m">${['💧', '🫁', '🔍'].map(x => `<span>${x}</span>`).join('')}</div><h3>به ${CFG.BRAND_FA} خوش آمدی!</h3>
-      <p class="muted">یونا (الکترولیت)، هما (گاز خون) و نگار (معاینه تغذیه‌محور) در یک پلتفرم. نامت روی گواهی‌نامه‌ها چاپ می‌شود.</p>
-      <input class="ob__in acin" maxlength="40" placeholder="نام و نام خانوادگی" value="${pesc(d.name)}">
-      <div class="ob__grid acroles">${ROLES_P.map(r => `<button class="ob__opt" data-role="${r}">${r}</button>`).join('')}</div>
-      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>بزن بریم! 🚀</button></div>`, { sticky: true });
+    const m = pModal(`<div class="acob__m">${['💧', '🫁', '🔍'].map(x => `<span>${x}</span>`).join('')}</div><h3>${PT(`به ${CFG.BRAND_FA} خوش آمدی!`, `Welcome to ${CFG.BRAND_EN}!`)}</h3>
+      <p class="muted">${PT(`${courses().map(c => `${c.nameFa} (${c.domainFa || c.subjectFa})`).join('، ')} در یک پلتفرم. نامت روی گواهی‌نامه‌ها چاپ می‌شود.`, `${courses().map(c => `${c.nameEn} (${c.subjectEn || c.domainEn || c.nameEn})`).join(', ')} in one platform. Your name is printed on your certificates.`)}</p>
+      <input class="ob__in acin" maxlength="40" placeholder="${PT('نام و نام خانوادگی', 'Full name')}" value="${pesc(d.name)}">
+      <div class="ob__grid acroles">${ROLES_P.map(r => `<button class="ob__opt" data-role="${r}">${roleName(r)}</button>`).join('')}</div>
+      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>${PT('بزن بریم! 🚀', 'Let’s go! 🚀')}</button></div>`, { sticky: true });
     const inp = m.el.querySelector('input'); setTimeout(() => inp.focus(), 80);
     m.el.querySelector('.acroles').onclick = e => { const b = e.target.closest('[data-role]'); if (!b) return; d.role = b.dataset.role; m.el.querySelectorAll('[data-role]').forEach(x => x.classList.toggle('is-sel', x === b)); };
     const go = () => {
@@ -3001,18 +3011,23 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function clinicModal() {
     const rows = courses().map(c => { const s = courseState(c.id); const n = s && s.mistakes ? s.mistakes.length : 0; const meta = (s && s.mMeta) || {}; const rep = Object.keys(meta).filter(k => meta[k].n >= 2).length; return { c, n, rep }; });
     const total = rows.reduce((a, r) => a + r.n, 0);
-    pModal(`<div class="big-i">🩺</div><h3>کلینیک خطاها</h3>
-      <p class="muted">هر سؤالی که اشتباه جواب بدهی خودکار این‌جا ذخیره می‌شود. مرور با تکرار فاصله‌دار انجام می‌شود و با پاسخ درست، از فهرست خطاها حذف می‌شود.</p>
-      <div class="acclin">${rows.map(r => `<div class="acclin__r" style="--cc:${r.c.color}"><span class="acclin__i">${r.c.icon}</span><span class="acclin__t"><b>${r.c.nameFa}</b><small>${r.n ? `${nf(r.n)} خطای ثبت‌شده${r.rep ? ` • ${nf(r.rep)} مورد تکراری` : ''}` : 'بدون خطا 🎉'}</small></span>${r.n ? (access(r.c.id).tier ? `<a class="btn btn--brand btn--sm" href="?course=${r.c.id}&run=clinic">شروع ویزیت</a>` : `<button class="btn btn--gold btn--sm" data-ac="upsell" data-course="${r.c.id}" data-why="clinic">🔓 باز کردن کلینیک</button>`) : ''}</div>`).join('')}</div>
-      ${total ? '' : '<p class="acok">هیچ خطایی ثبت نشده؛ عالی پیش می‌روی!</p>'}
-      <div class="modal__btns"><button class="btn btn--ghost" data-close>بستن</button></div>`);
+    pModal(`<div class="big-i">🩺</div><h3>${PT('کلینیک خطاها', 'Mistake clinic')}</h3>
+      <p class="muted">${PT('هر سؤالی که اشتباه جواب بدهی خودکار این‌جا ذخیره می‌شود. مرور با تکرار فاصله‌دار انجام می‌شود و با پاسخ درست، از فهرست خطاها حذف می‌شود.', 'Every question you get wrong is saved here automatically. Review uses spaced repetition, and a correct answer removes it from the list.')}</p>
+      <div class="acclin">${rows.map(r => `<div class="acclin__r" style="--cc:${r.c.color}"><span class="acclin__i">${r.c.icon}</span><span class="acclin__t"><b>${PT(r.c.nameFa, r.c.nameEn)}</b><small>${r.n ? PT(`${nf(r.n)} خطای ثبت‌شده${r.rep ? ` • ${nf(r.rep)} مورد تکراری` : ''}`, `${nf(r.n)} saved mistake${r.n === 1 ? '' : 's'}${r.rep ? ` • ${nf(r.rep)} repeated` : ''}`) : PT('بدون خطا 🎉', 'No mistakes 🎉')}</small></span>${r.n ? (access(r.c.id).tier ? `<a class="btn btn--brand btn--sm" href="?course=${r.c.id}&run=clinic">${PT('شروع ویزیت', 'Start visit')}</a>` : `<button class="btn btn--gold btn--sm" data-ac="upsell" data-course="${r.c.id}" data-why="clinic">🔓 ${PT('باز کردن کلینیک', 'Unlock the clinic')}</button>`) : ''}</div>`).join('')}</div>
+      ${total ? '' : `<p class="acok">${PT('هیچ خطایی ثبت نشده؛ عالی پیش می‌روی!', 'No mistakes recorded — great work!')}</p>`}
+      <div class="modal__btns"><button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></div>`);
   }
 
   /* ================= شیفت اورژانس: کیس‌های ترکیبی ICU ================= */
   const GR = () => (window.ACADEMY_GRAND_ROUNDS && window.ACADEMY_GRAND_ROUNDS.cases) || [];
-  const DOM = { yona: ['💧', 'الکترولیت', '#58cc02'], homa: ['🫁', 'گاز خون', '#12b3a8'], negar: ['🔍', 'NFPE', '#8e2c6e'], all: ['🧠', 'جمع‌بندی', '#e5a500'] };
-  /** برچسب حوزه هر مرحله ICU؛ دوره‌های آینده برچسبشان را از فایل خودشان می‌گیرند (domainFa، icon، color) */
-  const domOf = d => DOM[d] || (AC[d] ? [AC[d].icon || '📘', AC[d].domainFa || AC[d].subjectFa || AC[d].nameFa, AC[d].color || DOM.all[2]] : DOM.all);
+  const DOM0 = { yona: ['💧', 'الکترولیت', '#58cc02', 'Electrolytes'], homa: ['🫁', 'گاز خون', '#12b3a8', 'Blood gas'], negar: ['🔍', 'NFPE', '#8e2c6e', 'NFPE'], all: ['🧠', 'جمع‌بندی', '#e5a500', 'Synthesis'] };
+  /** برچسب حوزه هر مرحله ICU؛ دوره‌های آینده برچسبشان را از فایل خودشان می‌گیرند (domainFa/domainEn، icon، color) */
+  const domOf = d => { const x = DOM0[d]; if (x) return [x[0], PT(x[1], x[3]), x[2]]; return AC[d] ? [AC[d].icon || '📘', PT(AC[d].domainFa || AC[d].subjectFa || AC[d].nameFa, AC[d].domainEn || AC[d].subjectEn || AC[d].nameEn), AC[d].color || DOM0.all[2]] : domOf('all'); };
+  const DOM = new Proxy({}, { get: (_, d) => domOf(d) });
+  /** متن دوزبانه کیس‌های ICU: رشته ساده (فارسی) یا { fa, en } */
+  const GT = x => (x && typeof x === 'object' && !Array.isArray(x) && 'fa' in x ? PT(x.fa, x.en) : x);
+  /** کیس ICU به زبان رابط (فیلدهای en کنار فیلدهای فارسی در data-grand-rounds.js) */
+  const gLoc = c => { if (!c || UILANG() !== 'en' || !c.en) return c; const e = c.en; return Object.assign({}, c, e, { steps: c.steps.map((s, i) => Object.assign({}, s, (e.steps || [])[i] || {})) }); };
   const GNORM = {
     pH: [7.35, 7.45, '', 2], pco2: [35, 45, 'mmHg', 0, 'PaCO₂'], po2: [80, 100, 'mmHg', 0, 'PaO₂'], hco3: [22, 26, 'mEq/L', 0, 'HCO₃⁻'], be: [-2, 2, 'mEq/L', 0, 'BE'],
     sao2: [95, 100, '%', 0, 'SaO₂'], lac: [0.5, 2, 'mmol/L', 1, 'Lactate'], na: [135, 145, 'mEq/L', 0, 'Na⁺'], k: [3.5, 5, 'mEq/L', 1, 'K⁺'], cl: [98, 106, 'mEq/L', 0, 'Cl⁻'],
@@ -3035,15 +3050,15 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const ls = f.l ? [].concat(f.l) : [];
     return `<figure class="gfig">${ks.map((k, i) => `<div class="gfig__i"><img src="${IMG[k]}" alt="${pesc(ls[i] || f.cap || '')}" draggable="false">${ls[i] ? `<span>${ls[i]}</span>` : ''}</div>`).join('')}${f.cap ? `<figcaption>${f.cap}</figcaption>` : ''}</figure>`;
   }
-  const gCase = c => (c && c.length ? `<div class="case"><div class="case__h">🩺 پرونده بیمار</div>${c.map(r => `<div class="case__r"><span>${r[0]}</span><b>${r[1]}</b></div>`).join('')}</div>` : '');
+  const gCase = c => (c && c.length ? `<div class="case"><div class="case__h">🩺 ${PT('پرونده بیمار', 'Patient chart')}</div>${c.map(r => `<div class="case__r"><span>${r[0]}</span><b>${r[1]}</b></div>`).join('')}</div>` : '');
   function grandModal() {
     const sm = summary();
     const prog = LS.json('academy.grand', {});
-    const m = pModal(`<header class="acsheet__h acsheet__h--icu"><span>🚨</span><div><h3>شیفت اورژانس: کیس‌های ترکیبی ICU</h3><small>Grand Rounds — الکترولیت + گاز خون + معاینه تغذیه‌محور در یک بیمار</small></div><button class="iconbtn" data-close aria-label="بستن">✕</button></header>
+    const m = pModal(`<header class="acsheet__h acsheet__h--icu"><span>🚨</span><div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU emergency shift: combined cases')}</h3><small>${PT('Grand Rounds — الکترولیت + گاز خون + معاینه تغذیه‌محور در یک بیمار', 'Grand Rounds — electrolytes + blood gas + nutrition-focused exam in one patient')}</small></div><button class="iconbtn" data-close aria-label="${PT('بستن', 'Close')}">✕</button></header>
       <div class="acsheet__b">
-        ${sm.grand ? '' : '<div class="acwarn">🔒 این بخش با داشتن حداقل ۲ دوره (پلن آموزشی یا Pro) یا پکیج الماس باز می‌شود. پیش‌نمایش کیس‌ها را ببین:</div>'}
-        <div class="gcases">${GR().map((c, i) => { const p = prog[c.id]; return `<button class="gcase ${p && p.passed ? 'is-done' : ''}" data-gcase="${c.id}"><span class="gcase__n">${nf(i + 1)}</span><span class="gcase__t"><b>${c.title}</b><small>${c.who}</small><span class="gcase__tags">${c.domains.map(d => `<i style="--dc:${DOM[d][2]}">${DOM[d][0]} ${DOM[d][1]}</i>`).join('')}</span></span><span class="gcase__s">${p ? (p.passed ? '✓ ' : '') + nf(Math.round(p.best * 100)) + '٪' : nf(c.steps.length) + ' مرحله'}</span></button>`; }).join('')}</div>
-        ${sm.grand ? '' : '<div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="store" data-tier="3">💎 پکیج الماس</button></div>'}
+        ${sm.grand ? '' : `<div class="acwarn">${PT('🔒 این بخش با داشتن حداقل ۲ دوره (پلن آموزشی یا Pro) یا پکیج الماس باز می‌شود. پیش‌نمایش کیس‌ها را ببین:', '🔒 This section unlocks with at least 2 courses (Standard or Pro) or the Diamond package. Preview the cases:')}</div>`}
+        <div class="gcases">${GR().map(gLoc).map((c, i) => { const p = prog[c.id]; return `<button class="gcase ${p && p.passed ? 'is-done' : ''}" data-gcase="${c.id}"><span class="gcase__n">${nf(i + 1)}</span><span class="gcase__t"><b>${c.title}</b><small>${c.who}</small><span class="gcase__tags">${c.domains.map(d => `<i style="--dc:${DOM[d][2]}">${DOM[d][0]} ${DOM[d][1]}</i>`).join('')}</span></span><span class="gcase__s">${p ? (p.passed ? '✓ ' : '') + nf(Math.round(p.best * 100)) + PT('٪', '%') : PT(nf(c.steps.length) + ' مرحله', nf(c.steps.length) + ' steps')}</span></button>`; }).join('')}</div>
+        ${sm.grand ? '' : `<div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="store" data-tier="3">💎 ${PT('پکیج الماس', 'Diamond package')}</button></div>`}
       </div>`, { cls: 'modal--sheet' });
     m.el.addEventListener('click', e => {
       const b = e.target.closest('[data-gcase]'); if (!b) return;
@@ -3052,7 +3067,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     });
   }
   function grandRun(id) {
-    const c = GR().find(x => x.id === id); if (!c) return;
+    const c = gLoc(GR().find(x => x.id === id)); if (!c) return;
     const shuffle = a => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
     const steps = c.steps.map(s => {
       const o = Object.assign({}, s);
@@ -3064,30 +3079,30 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const root = document.createElement('div');
     root.className = 'player gplayer';
     root.style.setProperty('--wc', '#e5484d'); root.style.setProperty('--wd', '#b4282d');
-    root.innerHTML = `<header class="player__top"><button class="iconbtn" data-g="quit" aria-label="خروج">✕</button><div class="pbar"><i></i></div><div class="p-meta"><span class="p-count"></span></div></header><div class="player__body"></div><footer class="player__foot"></footer>`;
+    root.innerHTML = `<header class="player__top"><button class="iconbtn" data-g="quit" aria-label="${PT('خروج', 'Quit')}">✕</button><div class="pbar"><i></i></div><div class="p-meta"><span class="p-count"></span></div></header><div class="player__body"></div><footer class="player__foot"></footer>`;
     document.body.appendChild(root); document.body.classList.add('no-scroll');
     const body = root.querySelector('.player__body'), foot = root.querySelector('.player__foot');
     const top = () => { root.querySelector('.pbar i').style.width = Math.max(3, (P.i + 1) / P.n * 100) + '%'; root.querySelector('.p-count').textContent = P.i < 0 ? '🚑' : nf(P.i + 1) + ' / ' + nf(P.n); };
     const close = () => { root.remove(); document.body.classList.remove('no-scroll'); if (MODE === 'dash') renderDash(); };
     function brief() {
       top();
-      body.innerHTML = `<div class="qwrap"><div class="learn"><article class="learn__card"><span class="qtag qtag--stage">🚨 شیفت اورژانس ICU</span><h2>${c.title}</h2><div class="learn__body"><div class="rbrief"><b>${c.who}</b><p>${c.brief}</p></div>${gFig(c.fig)}${gCase(c.chart)}${gLab(c.lab)}<p class="muted">در هر مرحله یکی از سه مهارت (💧 الکترولیت، 🫁 گاز خون، 🔍 NFPE) را به کار می‌گیری. توضیح هر پاسخ را بخوان؛ برای قبولی ۷۰٪ لازم است.</p></div></article></div></div>`;
+      body.innerHTML = `<div class="qwrap"><div class="learn"><article class="learn__card"><span class="qtag qtag--stage">🚨 ${PT('شیفت اورژانس ICU', 'ICU emergency shift')}</span><h2>${c.title}</h2><div class="learn__body"><div class="rbrief"><b>${c.who}</b><p>${c.brief}</p></div>${gFig(c.fig)}${gCase(c.chart)}${gLab(c.lab)}<p class="muted">${PT('در هر مرحله یکی از سه مهارت (💧 الکترولیت، 🫁 گاز خون، 🔍 NFPE) را به کار می‌گیری. توضیح هر پاسخ را بخوان؛ برای قبولی ۷۰٪ لازم است.', 'Each step uses one of three skills (💧 electrolytes, 🫁 blood gas, 🔍 NFPE). Read the explanation after every answer; 70% is needed to pass.')}</p></div></article></div></div>`;
       foot.className = 'player__foot';
-      foot.innerHTML = `<div class="foot__row"><span></span><button class="btn btn--wc btn--lg" data-g="next">شروع ویزیت 🚑</button></div>`;
+      foot.innerHTML = `<div class="foot__row"><span></span><button class="btn btn--wc btn--lg" data-g="next">${PT('شروع ویزیت 🚑', 'Start the visit 🚑')}</button></div>`;
     }
     function render() {
       const s = steps[P.i]; top();
       const dm = domOf(s.d);
-      let h = `<span class="qtag qtag--stage" style="--dc:${dm[2]}">${dm[0]} ${dm[1]} • مرحله ${nf(P.i + 1)}: ${s.stage}</span><h2 class="q">${s.q}</h2>${gFig(s.fig)}${gCase(s.case)}${gLab(s.lab)}`;
+      let h = `<span class="qtag qtag--stage" style="--dc:${dm[2]}">${dm[0]} ${dm[1]} • ${PT('مرحله', 'Step')} ${nf(P.i + 1)}: ${s.stage}</span><h2 class="q">${s.q}</h2>${gFig(s.fig)}${gCase(s.case)}${gLab(s.lab)}`;
       if (s.t === 'mcq') h += `<div class="opts">${s.view.map((o, i) => `<button class="opt" data-g="sel" data-i="${i}"><kbd>${nf(i + 1)}</kbd><span>${o}</span></button>`).join('')}</div>`;
-      if (s.t === 'tf') h += `<div class="opts opts--tf"><button class="opt opt--tf" data-g="sel" data-i="1"><span>✓ درست</span></button><button class="opt opt--tf" data-g="sel" data-i="0"><span>✗ نادرست</span></button></div>`;
-      if (s.t === 'num') h += `<label class="numin"><input type="text" inputmode="decimal" dir="ltr" autocomplete="off" placeholder="عدد"><span class="numin__u">${s.unit || ''}</span></label>`;
+      if (s.t === 'tf') h += `<div class="opts opts--tf"><button class="opt opt--tf" data-g="sel" data-i="1"><span>✓ ${PT('درست', 'True')}</span></button><button class="opt opt--tf" data-g="sel" data-i="0"><span>✗ ${PT('نادرست', 'False')}</span></button></div>`;
+      if (s.t === 'num') h += `<label class="numin"><input type="text" inputmode="decimal" dir="ltr" autocomplete="off" placeholder="${PT('عدد', 'Number')}"><span class="numin__u">${s.unit || ''}</span></label>`;
       if (s.t === 'order') h += `<ol class="order-ans"></ol><div class="chips chips--col order-bank"></div>`;
       body.innerHTML = `<div class="qwrap">${h}</div>`; body.scrollTop = 0;
       s.sel = null; s.state = null;
       if (s.t === 'order') drawOrder(s);
       foot.className = 'player__foot';
-      foot.innerHTML = `<div class="foot__row"><button class="btn btn--ghost" data-g="skip">نمی‌دانم</button><button class="btn btn--wc btn--lg" data-g="check" disabled>بررسی</button></div>`;
+      foot.innerHTML = `<div class="foot__row"><button class="btn btn--ghost" data-g="skip">${PT('نمی‌دانم', 'I don’t know')}</button><button class="btn btn--wc btn--lg" data-g="check" disabled>${PT('بررسی', 'Check')}</button></div>`;
     }
     function drawOrder(s) {
       body.querySelector('.order-ans').innerHTML = s.ans.map((x, i) => `<li><button class="chip chip--on" data-g="oOut" data-i="${i}">${x}</button></li>`).join('') + Array.from({ length: s.steps.length - s.ans.length }, () => '<li class="ghost"></li>').join('');
@@ -3109,9 +3124,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const d = s.d || 'all'; P.by[d] = P.by[d] || { ok: 0, n: 0 }; P.by[d].n++; if (ok) P.by[d].ok++;
       body.querySelectorAll('[data-g="sel"]').forEach(x => { const i = +x.dataset.i; const right = s.t === 'mcq' ? i === s.correct : (i === 1) === s.a; if (right) x.classList.add('is-right'); else if (i === s.sel) x.classList.add('is-wrong'); x.disabled = true; });
       if (s.t === 'num') { const inp = body.querySelector('input'); inp.disabled = true; inp.parentNode.classList.add(ok ? 'is-right' : 'is-wrong'); }
-      const right = s.t === 'mcq' ? s.opts[0] : s.t === 'tf' ? (s.a ? 'درست' : 'نادرست') : s.t === 'num' ? `${nf(s.ans, 2)} ${s.unit || ''}` : '<ol class="fb__ol">' + s.steps.map(x => `<li>${x}</li>`).join('') + '</ol>';
+      const right = s.t === 'mcq' ? s.opts[0] : s.t === 'tf' ? (s.a ? PT('درست', 'True') : PT('نادرست', 'False')) : s.t === 'num' ? `${nf(s.ans, 2)} ${s.unit || ''}` : '<ol class="fb__ol">' + s.steps.map(x => `<li>${x}</li>`).join('') + '</ol>';
       foot.className = 'player__foot fb ' + (ok ? 'fb--ok' : 'fb--bad');
-      foot.innerHTML = `<div class="fb__in"><div class="fb__icon">${ok ? '✓' : '✗'}</div><div class="fb__txt"><div class="fb__t">${ok ? 'تصمیم درست! 👏' : 'این تصمیم بهترین نبود'}</div>${ok ? '' : `<div class="fb__ans"><b>پاسخ درست:</b> ${right}</div>`}${s.why ? `<details class="fb__why" open><summary>چرا؟</summary><div>${s.why}</div></details>` : ''}</div></div><button class="btn ${ok ? 'btn--green' : 'btn--red'} btn--lg fb__btn" data-g="next">ادامه</button>`;
+      foot.innerHTML = `<div class="fb__in"><div class="fb__icon">${ok ? '✓' : '✗'}</div><div class="fb__txt"><div class="fb__t">${ok ? PT('تصمیم درست! 👏', 'Right call! 👏') : PT('این تصمیم بهترین نبود', 'Not the best decision')}</div>${ok ? '' : `<div class="fb__ans"><b>${PT('پاسخ درست:', 'Correct answer:')}</b> ${right}</div>`}${s.why ? `<details class="fb__why" open><summary>${PT('چرا؟', 'Why?')}</summary><div>${s.why}</div></details>` : ''}</div></div><button class="btn ${ok ? 'btn--green' : 'btn--red'} btn--lg fb__btn" data-g="next">${PT('ادامه', 'Continue')}</button>`;
       pSfx(ok ? 'correct' : 'wrong');
     }
     function finish() {
@@ -3121,20 +3136,20 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       prog[c.id] = { best: Math.max(acc, prev ? prev.best : 0), passed: passed || !!(prev && prev.passed), at: Date.now() };
       LS.put('academy.grand', prog);
       root.querySelector('.pbar i').style.width = '100%';
-      body.innerHTML = `<div class="res ${passed ? '' : 'res--fail'}"><div class="res__m"><div class="big-i">${passed ? '🏆' : '🚑'}</div></div><h2 class="res__t">${passed ? 'بیمار را از بحران عبور دادی! 🩺' : 'بیمار به مراقبت بیشتری نیاز داشت'}</h2>
+      body.innerHTML = `<div class="res ${passed ? '' : 'res--fail'}"><div class="res__m"><div class="big-i">${passed ? '🏆' : '🚑'}</div></div><h2 class="res__t">${passed ? PT('بیمار را از بحران عبور دادی! 🩺', 'You got the patient through the crisis! 🩺') : PT('بیمار به مراقبت بیشتری نیاز داشت', 'The patient needed more care')}</h2>
         <p class="res__sub">${c.title}</p>
         <div class="bw">${Object.keys(P.by).map(d => { const r = P.by[d], dm = domOf(d); return `<div class="bw__r"><span class="bw__s" style="background:${dm[2]}">${dm[0]}</span><span class="bw__bar"><i style="width:${r.ok / r.n * 100}%;background:${dm[2]}"></i></span><b>${nf(r.ok)}/${nf(r.n)}</b></div>`; }).join('')}</div>
-        <div class="tiles"><div class="tile tile--acc"><div class="tile__h">نمره</div><div class="tile__v">🎯 ${nf(Math.round(acc * 100))}٪</div></div><div class="tile tile--time"><div class="tile__h">زمان</div><div class="tile__v">⏱ ${nf(Math.round((Date.now() - P.start) / 60000))} دقیقه</div></div></div>
+        <div class="tiles"><div class="tile tile--acc"><div class="tile__h">${PT('نمره', 'Score')}</div><div class="tile__v">🎯 ${nf(Math.round(acc * 100))}${PT('٪', '%')}</div></div><div class="tile tile--time"><div class="tile__h">${PT('زمان', 'Time')}</div><div class="tile__v">⏱ ${nf(Math.round((Date.now() - P.start) / 60000))} ${PT('دقیقه', 'min')}</div></div></div>
         ${c.pearl ? `<div class="note">💡 ${c.pearl}</div>` : ''}</div>`;
       foot.className = 'player__foot';
-      foot.innerHTML = `<div class="foot__row"><button class="btn btn--ghost" data-g="again">تکرار کیس</button><button class="btn btn--brand btn--lg" data-g="done">ادامه</button></div>`;
+      foot.innerHTML = `<div class="foot__row"><button class="btn btn--ghost" data-g="again">${PT('تکرار کیس', 'Repeat case')}</button><button class="btn btn--brand btn--lg" data-g="done">${PT('ادامه', 'Continue')}</button></div>`;
       if (passed) pConfetti(); pSfx(passed ? 'done' : 'fail');
-      if (Object.keys(prog).filter(k => prog[k].passed).length >= GR().length && passed) pToast('🏅 نشان «فرمانده شیفت ICU» گرفتی!');
+      if (Object.keys(prog).filter(k => prog[k].passed).length >= GR().length && passed) pToast(PT('🏅 نشان «فرمانده شیفت ICU» گرفتی!', '🏅 You earned the “ICU Shift Commander” badge!'));
     }
     root.addEventListener('click', e => {
       const b = e.target.closest('[data-g]'); if (!b) return;
       const a = b.dataset.g, s = steps[P.i];
-      if (a === 'quit') { if (P.i < 0 || confirm('از این کیس خارج شوی؟ پیشرفت این ویزیت ذخیره نمی‌شود.')) close(); return; }
+      if (a === 'quit') { if (P.i < 0 || confirm(PT('از این کیس خارج شوی؟ پیشرفت این ویزیت ذخیره نمی‌شود.', 'Leave this case? Progress in this visit will not be saved.'))) close(); return; }
       if (a === 'done') return close();
       if (a === 'again') { root.remove(); document.body.classList.remove('no-scroll'); return grandRun(id); }
       if (a === 'next') { P.i++; return P.i >= P.n ? finish() : render(); }
@@ -3169,30 +3184,31 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       g.globalAlpha = 0.12; g.fillStyle = '#fff'; for (let i = 0; i < 14; i++) { g.beginPath(); g.arc((i * 211) % W, (i * 397) % H, 40 + (i * 37) % 120, 0, 7); g.fill(); } g.globalAlpha = 1;
       const x = 80, y = 260, w = W - 160, h = 1400, r = 56;
       g.fillStyle = '#fff'; g.beginPath(); g.moveTo(x + r, y); g.arcTo(x + w, y, x + w, y + h, r); g.arcTo(x + w, y + h, x, y + h, r); g.arcTo(x, y + h, x, y, r); g.arcTo(x, y, x + w, y, r); g.fill();
-      g.direction = 'rtl'; g.textAlign = 'center'; g.fillStyle = '#fff';
-      g.font = font(900, 64); g.fillText(CFG.BRAND_FA, W / 2, 170);
+      const dir = PT('rtl', 'ltr');
+      g.direction = dir; g.textAlign = 'center'; g.fillStyle = '#fff';
+      g.font = font(900, 64); g.fillText(PT(CFG.BRAND_FA, CFG.BRAND_EN), W / 2, 170);
       if (mascotImg) g.drawImage(mascotImg, W / 2 - 110, 300, 220, 275);
-      g.fillStyle = o.dark || '#333'; g.font = font(900, 76); g.fillText('گواهی پایان دوره 🎓', W / 2, 680);
-      g.fillStyle = '#6f7a80'; g.font = font(600, 40); g.fillText('بدین‌وسیله گواهی می‌شود', W / 2, 770);
+      g.fillStyle = o.dark || '#333'; g.font = font(900, 76); g.fillText(PT('گواهی پایان دوره 🎓', 'Certificate of completion 🎓'), W / 2, 680);
+      g.fillStyle = '#6f7a80'; g.font = font(600, 40); g.fillText(PT('بدین‌وسیله گواهی می‌شود', 'This certifies that'), W / 2, 770);
       g.fillStyle = '#222'; g.font = font(900, 84); g.fillText(o.name, W / 2, 890, w - 80);
-      g.fillStyle = '#6f7a80'; g.font = font(600, 40); g.fillText('دوره آموزشی', W / 2, 990);
+      g.fillStyle = '#6f7a80'; g.font = font(600, 40); g.fillText(PT('دوره آموزشی', 'has completed the course'), W / 2, 990);
       g.fillStyle = o.dark || '#333'; g.font = font(800, 46);
       const words = o.course.split(' '); let line = '', ly = 1060;
       words.forEach(wd => { const t = line ? line + ' ' + wd : wd; if (g.measureText(t).width > w - 120) { g.fillText(line, W / 2, ly); line = wd; ly += 62; } else line = t; }); g.fillText(line, W / 2, ly);
-      g.fillStyle = o.color; g.font = font(900, 150); g.fillText(nf(o.score) + '٪', W / 2, ly + 210);
-      g.fillStyle = '#6f7a80'; g.font = font(700, 38); g.fillText('نمره امتحان نهایی', W / 2, ly + 270);
-      g.font = font(600, 34); g.fillText('تاریخ: ' + o.date, W / 2, 1560);
+      g.fillStyle = o.color; g.font = font(900, 150); g.fillText(nf(o.score) + PT('٪', '%'), W / 2, ly + 210);
+      g.fillStyle = '#6f7a80'; g.font = font(700, 38); g.fillText(PT('نمره امتحان نهایی', 'Final exam score'), W / 2, ly + 270);
+      g.font = font(600, 34); g.fillText(PT('تاریخ: ', 'Date: ') + o.date, W / 2, 1560);
       g.direction = 'ltr'; g.font = '700 36px Nunito, monospace'; g.fillStyle = '#3c3c3c'; g.fillText('Tracking code: ' + o.code, W / 2, 1615);
-      g.direction = 'rtl'; g.fillStyle = '#fff'; g.font = font(800, 44); g.fillText(o.brand + ' • ' + CFG.BRAND_FA, W / 2, 1780);
+      g.direction = dir; g.fillStyle = '#fff'; g.font = font(800, 44); g.fillText(o.brand + ' • ' + PT(CFG.BRAND_FA, CFG.BRAND_EN), W / 2, 1780);
       const url = cv.toDataURL('image/png');
-      const m = pModal(`<h3>📸 کارت استوری گواهی</h3><img class="acstory" src="${url}" alt="کارت استوری گواهی"><div class="modal__btns"><a class="btn btn--brand btn--lg" href="${url}" download="certificate-story-${o.code}.png">⬇️ ذخیره تصویر</a>${navigator.canShare ? '<button class="btn btn--gold" data-share>📤 اشتراک‌گذاری</button>' : ''}<button class="btn btn--ghost" data-close>بستن</button></div>`, { cls: 'modal--story' });
+      const m = pModal(`<h3>📸 ${PT('کارت استوری گواهی', 'Certificate story card')}</h3><img class="acstory" src="${url}" alt="${PT('کارت استوری گواهی', 'Certificate story card')}"><div class="modal__btns"><a class="btn btn--brand btn--lg" href="${url}" download="certificate-story-${o.code}.png">⬇️ ${PT('ذخیره تصویر', 'Save image')}</a>${navigator.canShare ? `<button class="btn btn--gold" data-share>📤 ${PT('اشتراک‌گذاری', 'Share')}</button>` : ''}<button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></div>`, { cls: 'modal--story' });
       const sh = m.el.querySelector('[data-share]');
       if (sh) sh.onclick = () => {
         const bin = atob(url.split(',')[1]), arr = new Uint8Array(bin.length);
         for (let i = 0; i < bin.length; i++) arr[i] = bin.charCodeAt(i);
         const f = new File([arr], 'certificate.png', { type: 'image/png' });
-        if (navigator.canShare({ files: [f] })) navigator.share({ files: [f], title: 'گواهی پایان دوره' }).catch(() => { /* لغو شد */ });
-        else pToast('اشتراک فایل در این مرورگر ممکن نیست؛ تصویر را ذخیره کن', 'toast--bad');
+        if (navigator.canShare({ files: [f] })) navigator.share({ files: [f], title: PT('گواهی پایان دوره', 'Certificate of completion') }).catch(() => { /* لغو شد */ });
+        else pToast(PT('اشتراک فایل در این مرورگر ممکن نیست؛ تصویر را ذخیره کن', 'This browser can’t share files; save the image instead'), 'toast--bad');
       };
     };
     const go = () => {
@@ -3229,11 +3245,11 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function restoreString(str) {
     const s = String(str || '').replace(/\s+/g, '');
     const m = s.match(/^ACDB([12])\.([A-Za-z0-9+/=]+)\.([0-9a-f]{16})$/);
-    if (!m) return { ok: false, msg: 'قالب کد پشتیبان درست نیست (باید با ACDB شروع شود).' };
+    if (!m) return { ok: false, msg: PT('قالب کد پشتیبان درست نیست (باید با ACDB شروع شود).', 'This is not a valid backup code (it must start with ACDB).') };
     m.splice(1, 1); // [کل، داده، چک‌سام]؛ کدهای ACDB1 قدیمی بدون بررسی چک‌سام پذیرفته می‌شوند (دسترسی فقط با کدهای امضاشده است)
-    if (/^ACDB2/.test(s) && hex(sha256('trapo-bk|' + m[1])).slice(0, 16) !== m[2]) return { ok: false, msg: 'امضای امنیتی (Checksum) کد پشتیبان نمی‌خواند؛ کد ناقص کپی شده یا دستکاری شده است.' };
-    let o; try { o = JSON.parse(b64dec(m[1])); } catch (e) { return { ok: false, msg: 'کد پشتیبان خراب است.' }; }
-    if (!o || (o.v !== 1 && o.v !== 2) || !o.data) return { ok: false, msg: 'نسخه کد پشتیبان پشتیبانی نمی‌شود.' };
+    if (/^ACDB2/.test(s) && hex(sha256('trapo-bk|' + m[1])).slice(0, 16) !== m[2]) return { ok: false, msg: PT('امضای امنیتی (Checksum) کد پشتیبان نمی‌خواند؛ کد ناقص کپی شده یا دستکاری شده است.', 'The backup checksum does not match; the code was copied incompletely or altered.') };
+    let o; try { o = JSON.parse(b64dec(m[1])); } catch (e) { return { ok: false, msg: PT('کد پشتیبان خراب است.', 'The backup code is corrupted.') }; }
+    if (!o || (o.v !== 1 && o.v !== 2) || !o.data) return { ok: false, msg: PT('نسخه کد پشتیبان پشتیبانی نمی‌شود.', 'This backup version is not supported.') };
     const K = STORE.KEYS;
     if (o.v === 2) {
       const d = o.data, g = d.global || {};
@@ -3322,7 +3338,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   function qcShow(id) {
     const q = qcBuild(), sm = summary();
     q.cur = id;
-    q.card.querySelector('.acqtabs').innerHTML = courses().map(c => `<button class="acqtab ${c.id === id ? 'is-on' : ''}" ${sm.per[c.id].tools ? `data-qc="${c.id}"` : 'disabled'} style="--cc:${c.color}">${c.icon} ${c.toolsFa}${sm.per[c.id].tools ? '' : ' 🔒'}</button>`).join('');
+    q.card.querySelector('.acqtabs').innerHTML = courses().map(c => `<button class="acqtab ${c.id === id ? 'is-on' : ''}" ${sm.per[c.id].tools ? `data-qc="${c.id}"` : 'disabled'} style="--cc:${c.color}">${c.icon} ${PT(c.toolsFa, c.toolsEn || c.nameEn)}${sm.per[c.id].tools ? '' : ' 🔒'}</button>`).join('');
     let f = q.card.querySelector(`.acframe[data-c="${id}"]`);
     if (!f) { f = document.createElement('iframe'); f.className = 'acframe'; f.dataset.c = id; f.title = PT('ماشین‌حساب', 'Calculator'); f.src = '?calc=' + id; q.card.appendChild(f); }
     q.card.querySelectorAll('.acframe').forEach(x => { x.hidden = x !== f; });
@@ -3521,7 +3537,7 @@ P — Plan: …`);
     const fixed = CFG.PROMOS[code];
     if (fixed) {
       if (fixed.until && Date.now() > fixed.until) return { ok: false, code, err: PT('مهلت این کد تخفیف تمام شده است.', 'This promo code has expired.') };
-      return { ok: true, code, pct: fixed.pct, plans: fixed.plans || [1, 2, 3], label: PT(fixed.fa || '', fixed.en || fixed.fa || '') };
+      return { ok: true, code, pct: fixed.pct, plans: fixed.plans || [1, 2, 3], label: fixed.fa || '', labelEn: fixed.en || fixed.fa || '' };
     }
     const m = /^([A-Z0-9]{2,12})-(\d{2})([0-9A-Z]{3})([APV])-([0-9A-Z]{4})$/.exec(code);
     if (!m) return { ok: false, code, err: PT('این کد تخفیف معتبر نیست.', 'This promo code is not valid.') };
@@ -3529,7 +3545,7 @@ P — Plan: …`);
     const pct = +m[2], days = m[3].split('').reduce((v, ch) => v * 32 + B32.indexOf(ch), 0);
     if (!(pct >= 1 && pct <= 60)) return { ok: false, code, err: PT('این کد تخفیف معتبر نیست.', 'This promo code is not valid.') };
     if (EPOCH + (days + 1) * 864e5 < Date.now()) return { ok: false, code, err: PT('مهلت این کد تخفیف تمام شده است.', 'This promo code has expired.') };
-    return { ok: true, code, pct, plans: PROMO_PLANS[m[4]], label: PT(`کمپین ${m[1]}`, `${m[1]} campaign`), until: EPOCH + (days + 1) * 864e5 };
+    return { ok: true, code, pct, plans: PROMO_PLANS[m[4]], label: `کمپین ${m[1]}`, labelEn: `${m[1]} campaign`, until: EPOCH + (days + 1) * 864e5 };
   }
   const promoFits = (pr, tier) => !!(pr && pr.ok && pr.plans.indexOf(tier) >= 0);
   const promoPrice = (p, pr) => Math.round(p * (1 - pr.pct / 100) / 10000) * 10000;
@@ -3657,7 +3673,7 @@ P — Plan: …`);
   let DC_CACHE = null;
   function dailyCase() {
     const day = new Date().toDateString();
-    if (DC_CACHE && DC_CACHE.day === day) return DC_CACHE;
+    if (DC_CACHE && DC_CACHE.day === day && DC_CACHE.lang === UILANG()) return DC_CACHE;
     const list = courses(); if (!list.length) return null;
     const h = djb('TRAPO-DAILY|' + day);
     const c = list[h % list.length];
@@ -3675,7 +3691,7 @@ P — Plan: …`);
         const it = x.it;
         let opts = it.t === 'tf' ? [PT('درست', 'True'), PT('نادرست', 'False')] : it.opts.slice(), right = it.t === 'tf' ? (it.a ? 0 : 1) : (it.a || 0);
         if (it.t === 'mcq') { const ord = opts.map((_, i) => i).sort((a, b) => djb(day + a) - djb(day + b)); opts = ord.map(i => it.opts[i]); right = ord.indexOf(right); }
-        pick = { day, cid: c.id, key: x.key, w: x.w, kind: it.t, q: it.q, opts, right, why: it.why || '', tfText: it.t === 'tf' };
+        pick = { day, lang: UILANG(), cid: c.id, key: x.key, w: x.w, kind: it.t, q: it.q, opts, right, why: it.why || '', tfText: it.t === 'tf' };
       }
     } catch (err) { console.warn('[academy] daily case', err); } finally { window.EA = prev; }
     DC_CACHE = pick;
@@ -3689,11 +3705,11 @@ P — Plan: …`);
       const cls = solved ? (i === d.right ? 'is-right' : i === solved.pick ? 'is-wrong' : '') : '';
       return `<button class="dcase__o ${cls}" data-dco="${i}" ${solved ? 'disabled' : ''}><kbd>${nf(i + 1)}</kbd><span>${o}</span></button>`;
     }).join('');
-    return `<section class="dcase ${solved ? (solved.ok ? 'is-ok' : 'is-bad') : ''}" style="--cc:${c.color};--cd:${c.dark};--wc:${d.w.color}" aria-label="کیس بالینی امروز">
-      <header class="dcase__h"><span class="dcase__star">🌟</span><div><b>کیس بالینی امروز</b><small>${c.icon} ${c.nameFa} • ${d.w.name} • ${fdate(Date.now())}</small></div><span class="dcase__rw"><bdi>+${nf(DC_XP())} XP</bdi> • <bdi>+${nf(DC_GEMS())} 💎</bdi></span></header>
-      <div class="dcase__q" dir="auto">${d.tfText ? 'درست یا نادرست؟ ' : ''}${d.q}</div>
+    return `<section class="dcase ${solved ? (solved.ok ? 'is-ok' : 'is-bad') : ''}" style="--cc:${c.color};--cd:${c.dark};--wc:${d.w.color}" aria-label="${PT('کیس بالینی امروز', 'Today’s clinical case')}">
+      <header class="dcase__h"><span class="dcase__star">🌟</span><div><b>${PT('کیس بالینی امروز', 'Today’s clinical case')}</b><small>${c.icon} ${PT(c.nameFa, c.nameEn)} • ${d.w.name} • ${fdate(Date.now())}</small></div><span class="dcase__rw"><bdi>+${nf(DC_XP())} XP</bdi> • <bdi>+${nf(DC_GEMS())} 💎</bdi></span></header>
+      <div class="dcase__q" dir="auto">${d.tfText ? PT('درست یا نادرست؟ ', 'True or false? ') : ''}${d.q}</div>
       <div class="dcase__opts ${d.tfText ? 'dcase__opts--tf' : ''}">${opts}</div>
-      ${solved ? `<div class="dcase__res">${solved.ok ? `🎉 <b>آفرین دکتر!</b> +${nf(DC_XP())} XP و +${nf(DC_GEMS())} 💎 در دوره ${c.nameFa} ذخیره شد${solved.claimed ? '' : ' (با ورود به دوره دریافت می‌کنی)'}.` : `<b>این بار نشد.</b> پاسخ درست مشخص شده است.`} <span class="muted">کیس بعدی: فردا 🌅</span></div>${d.why ? `<details class="dcase__why" open><summary>چرا؟</summary><div dir="auto">${d.why}</div></details>` : ''}` : `<p class="dcase__hint">فقط یک بار در روز می‌توانی جواب بدهی؛ با دقت انتخاب کن.</p>`}
+      ${solved ? `<div class="dcase__res">${solved.ok ? PT(`🎉 <b>آفرین دکتر!</b> +${nf(DC_XP())} XP و +${nf(DC_GEMS())} 💎 در دوره ${c.nameFa} ذخیره شد${solved.claimed ? '' : ' (با ورود به دوره دریافت می‌کنی)'}.`, `🎉 <b>Well done, doctor!</b> +${nf(DC_XP())} XP and +${nf(DC_GEMS())} 💎 saved to ${c.nameEn}${solved.claimed ? '' : ' (you’ll receive them when you open the course)'}.`) : PT(`<b>این بار نشد.</b> پاسخ درست مشخص شده است.`, `<b>Not this time.</b> The correct answer is marked.`)} <span class="muted">${PT('کیس بعدی: فردا 🌅', 'Next case: tomorrow 🌅')}</span></div>${d.why ? `<details class="dcase__why" open><summary>${PT('چرا؟', 'Why?')}</summary><div dir="auto">${d.why}</div></details>` : ''}` : `<p class="dcase__hint">${PT('فقط یک بار در روز می‌توانی جواب بدهی؛ با دقت انتخاب کن.', 'You can answer only once a day — choose carefully.')}</p>`}
     </section>`;
   }
   document.addEventListener('click', e => {
@@ -3734,69 +3750,81 @@ P — Plan: …`);
       return mascotFns[c.id](mood || 'happy', c.color, size || 120);
     } catch (e) { return `<span class="dc__emoji" style="font-size:${(size || 120) * 0.6}px">${c.icon}</span>`; }
   }
-  const cat = c => c.catalog || { worlds: [], tools: [], outcomes: [], highlights: [] };
+  const cat0 = c => c.catalog || { worlds: [], tools: [], outcomes: [], highlights: [] };
+  /** کاتالوگ دوره به زبان رابط: متن انگلیسی (catalog.en) روی فیلدهای فارسی؛ نماد، رنگ و ترتیب از نسخه اصلی */
+  const cat = c => {
+    const k = cat0(c), e = k.en;
+    if (UILANG() !== 'en' || !e || typeof e !== 'object') return k;
+    const byId = (list, id, i) => (list || []).find(x => x.id === id) || (list || [])[i] || {};
+    return Object.assign({}, k, e, {
+      worlds: k.worlds.map((w, i) => Object.assign({}, w, byId(e.worlds, w.id, i), { sym: w.sym, color: w.color })),
+      tools: k.tools.map((t, i) => Object.assign({}, t, byId(e.tools, t.id, i), { sym: t.sym, color: t.color })),
+      outcomes: e.outcomes || k.outcomes, highlights: e.highlights || k.highlights
+    });
+  };
+  const cName = c => PT(c.nameFa, c.nameEn), cSubj = c => PT(c.subjectFa, c.subjectEn || c.subjectFa), cDesc = c => PT(c.descFa, c.descEn || c.descFa);
 
   function dCard(c, a, i) {
     const s = courseState(c.id), st = c.stats || {};
     const done = s && s.done ? Object.keys(s.done).length : 0, total = st.lessons || 45, pct = Math.round(done / total * 100);
     const fin = s && s.final && s.final.passed;
-    return `<article class="dc" data-dc="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light};--d:${(i || 0) * 110}ms" tabindex="0" aria-expanded="false" aria-label="${c.nameFa} — ${c.subjectFa}">
+    return `<article class="dc" data-dc="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light};--d:${(i || 0) * 110}ms" tabindex="0" aria-expanded="false" aria-label="${cName(c)} — ${cSubj(c)}">
       <div class="dc__art">
         <div class="dc__orbit" aria-hidden="true">${cat(c).worlds.map((w, i) => `<span style="--i:${i};--n:${cat(c).worlds.length};--wc:${w.color}">${w.sym}</span>`).join('')}</div>
         <div class="dc__m">${courseMascot(c, 'happy', 112)}</div>
-        <div class="dc__badges">${tierBadge(a)}${fin ? '<span class="actb actb--cert">🎓 گواهی</span>' : ''}</div>
+        <div class="dc__badges">${tierBadge(a)}${fin ? `<span class="actb actb--cert">🎓 ${PT('گواهی', 'Certified')}</span>` : ''}</div>
       </div>
       <div class="dc__body">
-        <h2>${c.nameFa}<small dir="ltr">${c.nameEn}</small></h2>
-        <p class="dc__sub">${c.subjectFa}</p>
-        <p class="dc__tag">${cat(c).tagline || c.descFa}</p>
-        <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? `${nf(done)} از ${nf(total)} درس • ${nf(pct)}٪` : `${nf(total)} درس • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`}</span></div>
-        ${(() => { const nm = s && s.mistakes ? s.mistakes.length : 0; if (!nm) return ''; return a && a.tier ? `<a class="dc__crit dc__crit--ok" href="?course=${c.id}&run=clinic">🩺 ${nf(nm)} خطا برای مرور در کلینیک</a>` : `<button class="dc__crit" data-ac="upsell" data-course="${c.id}" data-why="clinic">🩺 کلینیک خطاها: ${nf(nm)} مورد بحرانی</button>`; })()}
+        <h2>${cName(c)}<small dir="${PT('ltr', 'rtl')}" lang="${PT('en', 'fa')}">${PT(c.nameEn, c.nameFa)}</small></h2>
+        <p class="dc__sub">${cSubj(c)}</p>
+        <p class="dc__tag">${cat(c).tagline || cDesc(c)}</p>
+        <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? PT(`${nf(done)} از ${nf(total)} درس • ${nf(pct)}٪`, `${nf(done)} of ${nf(total)} lessons • ${nf(pct)}%`) : PT(`${nf(total)} درس • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`, `${nf(total)} lessons • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ questions`)}</span></div>
+        ${(() => { const nm = s && s.mistakes ? s.mistakes.length : 0; if (!nm) return ''; return a && a.tier ? `<a class="dc__crit dc__crit--ok" href="?course=${c.id}&run=clinic">🩺 ${PT(`${nf(nm)} خطا برای مرور در کلینیک`, `${nf(nm)} mistakes to review in the clinic`)}</a>` : `<button class="dc__crit" data-ac="upsell" data-course="${c.id}" data-why="clinic">🩺 ${PT(`کلینیک خطاها: ${nf(nm)} مورد بحرانی`, `Mistake clinic: ${nf(nm)} critical`)}</button>`; })()}
         <div class="dc__cta">
-          <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? 'ادامه یادگیری' : a && a.tier ? 'شروع دوره' : 'شروع رایگان'}</a>
-          <button class="dc__more" data-more="${c.id}" aria-label="معرفی و جزئیات دوره ${c.nameFa}"><span class="dc__more-i" aria-hidden="true">i</span><span class="dc__more-t"><b>معرفی دوره</b><small>مسیر، اهداف و ابزارها</small></span><i class="dc__chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></i></button>
+          <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? PT('ادامه یادگیری', 'Continue learning') : a && a.tier ? PT('شروع دوره', 'Start the course') : PT('شروع رایگان', 'Start free')}</a>
+          <button class="dc__more" data-more="${c.id}" aria-label="${PT(`معرفی و جزئیات دوره ${c.nameFa}`, `About the ${c.nameEn} course`)}"><span class="dc__more-i" aria-hidden="true">i</span><span class="dc__more-t"><b>${PT('معرفی دوره', 'About the course')}</b><small>${PT('مسیر، اهداف و ابزارها', 'Path, goals and tools')}</small></span><i class="dc__chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></i></button>
         </div>
       </div>
     </article>`;
   }
   function soonCard(i) {
-    return `<article class="dc dc--soon" style="--d:${(i || 0) * 110}ms" aria-label="دوره‌های جدید به‌زودی">
+    return `<article class="dc dc--soon" style="--d:${(i || 0) * 110}ms" aria-label="${PT('دوره‌های جدید به‌زودی', 'New courses coming soon')}">
       <div class="dc__art"><div class="dc__soon" aria-hidden="true"><span>✨</span><i></i><i></i><i></i></div></div>
-      <div class="dc__body"><h2>به‌زودی</h2><p class="dc__sub">دوره‌های تازه در راه است</p>
-        <p class="dc__tag">مباحث بالینی تازه به‌زودی به آکادمی اضافه می‌شوند. پکیج الماس همه دوره‌های آینده را هم بدون هزینه اضافه شامل می‌شود.</p></div>
+      <div class="dc__body"><h2>${PT('به‌زودی', 'Coming soon')}</h2><p class="dc__sub">${PT('دوره‌های تازه در راه است', 'New courses are on the way')}</p>
+        <p class="dc__tag">${PT('مباحث بالینی تازه به‌زودی به آکادمی اضافه می‌شوند. پکیج الماس همه دوره‌های آینده را هم بدون هزینه اضافه شامل می‌شود.', 'New clinical topics are coming to the academy soon. The Diamond package includes every future course at no extra cost.')}</p></div>
     </article>`;
   }
   function dDetail(c) {
     const a = access(c.id), st = c.stats || {}, k = cat(c);
     const s = courseState(c.id), done = s && s.done ? Object.keys(s.done).length : 0;
-    const nums = [['🌍', nf(st.worlds || 5), 'دنیا'], ['🧗', nf(st.levels || 15), 'سطح'], ['📚', nf(st.lessons || 45), 'درس'], ['❓', nf((st.questions || 0) + (st.roundSteps || 0)) + '+', 'سؤال و مرحله'], ['🏥', nf(st.rounds || 0), 'بیمار در راند'], ['🧮', nf(k.tools.length), 'ابزار بالینی'], ['🧸', nf(st.chars || 15), 'کاراکتر']];
+    const nums = [['🌍', nf(st.worlds || 5), PT('دنیا', 'worlds')], ['🧗', nf(st.levels || 15), PT('سطح', 'levels')], ['📚', nf(st.lessons || 45), PT('درس', 'lessons')], ['❓', nf((st.questions || 0) + (st.roundSteps || 0)) + '+', PT('سؤال و مرحله', 'questions & steps')], ['🏥', nf(st.rounds || 0), PT('بیمار در راند', 'round patients')], ['🧮', nf(k.tools.length), PT('ابزار بالینی', 'clinical tools')], ['🧸', nf(st.chars || 15), PT('کاراکتر', 'characters')]];
     return `<section class="dd" data-dd="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light}">
       <header class="dd__head">
         <div class="dd__m">${courseMascot(c, 'cheer', 92)}</div>
-        <div class="dd__t"><small>${c.subjectFa}</small><h3>${c.nameFa} • ${c.courseFa}</h3><p>${k.about || c.descFa}</p>
+        <div class="dd__t"><small>${cSubj(c)}</small><h3>${cName(c)} • ${PT(c.courseFa, c.courseEn || c.courseFa)}</h3><p>${k.about || cDesc(c)}</p>
           ${k.highlights && k.highlights.length ? `<div class="dd__hl">${k.highlights.map(h => `<span>✦ ${h}</span>`).join('')}</div>` : ''}</div>
-        <button class="iconbtn dd__x" data-more="${c.id}" aria-label="بستن جزئیات">✕</button>
+        <button class="iconbtn dd__x" data-more="${c.id}" aria-label="${PT('بستن جزئیات', 'Close details')}">✕</button>
       </header>
       <div class="dd__nums">${nums.map(n => `<div><span>${n[0]}</span><b>${n[1]}</b><small>${n[2]}</small></div>`).join('')}</div>
       <div class="dd__grid">
         <div class="dd__col">
-          <h4>🗺️ مسیر یادگیری: ${nf(k.worlds.length)} دنیا، ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} سطح</h4>
-          <ol class="dd__worlds">${k.worlds.map((w, i) => `<li style="--wc:${w.color}"><span class="dd__sym" dir="ltr">${w.sym}</span><div><b>دنیای ${nf(i + 1)}: ${w.name}</b><small>${w.sub}</small><em>${w.levels.map((l, j) => `<i>${nf(j + 1)}. ${l}</i>`).join('')}</em></div></li>`).join('')}</ol>
+          <h4>🗺️ ${PT(`مسیر یادگیری: ${nf(k.worlds.length)} دنیا، ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} سطح`, `Learning path: ${nf(k.worlds.length)} worlds, ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} levels`)}</h4>
+          <ol class="dd__worlds">${k.worlds.map((w, i) => `<li style="--wc:${w.color}"><span class="dd__sym" dir="ltr">${w.sym}</span><div><b>${PT('دنیای', 'World')} ${nf(i + 1)}: ${w.name}</b><small>${w.sub}</small><em>${w.levels.map((l, j) => `<i>${nf(j + 1)}. ${l}</i>`).join('')}</em></div></li>`).join('')}</ol>
         </div>
         <div class="dd__col">
-          <h4>🎯 در پایان دوره می‌توانی…</h4>
+          <h4>🎯 ${PT('در پایان دوره می‌توانی…', 'By the end of the course you can…')}</h4>
           <ul class="dd__out">${k.outcomes.map(o => `<li>${o}</li>`).join('')}</ul>
-          <h4>👥 مناسب برای</h4><p class="dd__aud">${k.audience || ''}</p>
+          <h4>👥 ${PT('مناسب برای', 'Who it’s for')}</h4><p class="dd__aud">${k.audience || ''}</p>
         </div>
       </div>
-      <h4 class="dd__th">🧮 ابزارهای بالینی و ماشین‌حساب‌ها ${a.tools ? '<span class="actb actb--pro">باز است</span>' : '<span class="actb actb--lock">🔒 Pro</span>'}</h4>
+      <h4 class="dd__th">🧮 ${PT('ابزارهای بالینی و ماشین‌حساب‌ها', 'Clinical tools & calculators')} ${a.tools ? `<span class="actb actb--pro">${PT('باز است', 'Unlocked')}</span>` : '<span class="actb actb--lock">🔒 Pro</span>'}</h4>
       <div class="dd__tools">${k.tools.map(t => `<div class="dd__tool" style="--tc:${t.color}"><span dir="ltr">${t.sym}</span><div><b>${t.name}</b><small>${t.desc}</small></div></div>`).join('')}</div>
       <div class="dd__foot">
-        <div class="dd__acc">${a.tier ? `${tierBadge(a)} <span>${a.life ? 'اشتراک دائمی ♾️' : `${leftText(a.expiry)} باقی‌مانده • تا ${fdate(a.expiry)}`}</span>` : ''}</div>
+        <div class="dd__acc">${a.tier ? `${tierBadge(a)} <span>${a.life ? PT('اشتراک دائمی ♾️', 'Lifetime ♾️') : PT(`${leftText(a.expiry)} باقی‌مانده • تا ${fdate(a.expiry)}`, `${leftText(a.expiry)} left • until ${fdate(a.expiry)}`)}</span>` : ''}</div>
         <div class="dd__act">
-          <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? 'ادامه یادگیری' : 'شروع دوره'} ←</a>
-          ${a.tools ? `<a class="btn btn--ghost" href="?course=${c.id}#/tools">🧮 ابزارها</a>` : ''}
-          ${a.tier < 3 ? `<button class="btn btn--gold" data-ac="store" data-course="${c.id}">👑 ${a.tier ? 'ارتقا / تمدید' : 'فعال‌سازی کامل'}</button>` : ''}
+          <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? PT('ادامه یادگیری', 'Continue learning') : PT('شروع دوره', 'Start the course')} ${PT('←', '→')}</a>
+          ${a.tools ? `<a class="btn btn--ghost" href="?course=${c.id}#/tools">🧮 ${PT('ابزارها', 'Tools')}</a>` : ''}
+          ${a.tier < 3 ? `<button class="btn btn--gold" data-ac="store" data-course="${c.id}">👑 ${a.tier ? PT('ارتقا / تمدید', 'Upgrade / renew') : PT('فعال‌سازی کامل', 'Unlock everything')}</button>` : ''}
         </div>
       </div>
     </section>`;
@@ -3830,37 +3858,38 @@ P — Plan: …`);
     el.innerHTML = `
       <div class="dbg" aria-hidden="true"><i></i><i></i><i></i><span class="dbg__grid"></span></div>
       <header class="dbar"><div class="dwrap dbar__in">
-        <button class="dbar__logo" data-logo aria-label="${CFG.BRAND_FA}">${LOGO}<span><b>${CFG.BRAND_FA}</b><small>${CFG.BRAND_TAG_FA} • ${list.map(c => c.nameFa).join(' • ')}</small></span></button>
+        <button class="dbar__logo" data-logo aria-label="${PT(CFG.BRAND_FA, CFG.BRAND_EN)}">${LOGO}<span><b>${PT(CFG.BRAND_FA, CFG.BRAND_EN)}</b><small>${PT(CFG.BRAND_TAG_FA, CFG.BRAND_TAG_EN)} • ${list.map(cName).join(' • ')}</small></span></button>
         <div class="dbar__act">
-          ${sm.vip ? '<span class="acvip">💎 الماس</span>' : ''}
-          <div class="dtheme" role="group" aria-label="رنگ صفحه">${[['light', '☀️', 'روشن'], ['auto', '🌗', 'خودکار'], ['dark', '🌙', 'تیره']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${t[2]}" aria-label="پوسته ${t[2]}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
-          <button class="dbtn" data-ac="activate"><span aria-hidden="true">🔑</span><b>کد فعال‌سازی</b></button>
-          <button class="dbtn dbtn--icon" data-ac="settings" aria-label="تنظیمات">⚙️</button>
+          ${sm.vip ? `<span class="acvip">💎 ${PT('الماس', 'Diamond')}</span>` : ''}
+          <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT('پوسته ' + t[2], t[3] + ' theme')}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
+          <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('EN', 'فا')}</b></button>
+          <button class="dbtn" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
+          <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
         </div>
       </div></header>
       <div class="dwrap">
         ${dailyCaseHTML()}
         <section class="dhero">
           <div class="dhero__txt">
-            <span class="dchip"><i></i>آموزش بالینی بازی‌وار • کاملاً آفلاین</span>
-            <small>${p.name ? `سلام ${pesc(p.name)} 👋` : 'خوش آمدی 👋'}</small>
-            <h1>امروز کدام مهارت بالینی را <em>تمرین کنیم؟</em></h1>
-            <p>هر دوره یک مسیر کامل است: درس‌های سه‌دقیقه‌ای، بیمارهای واقعی‌نما، ماشین‌حساب بالینی و گواهی پایان دوره. روی هر دوره بزن تا جزئیاتش را ببینی.</p>
+            <span class="dchip"><i></i>${PT('آموزش بالینی بازی‌وار • کاملاً آفلاین', 'Game-based clinical learning • fully offline')}</span>
+            <small>${p.name ? PT(`سلام ${pesc(p.name)} 👋`, `Hi ${pesc(p.name)} 👋`) : PT('خوش آمدی 👋', 'Welcome 👋')}</small>
+            <h1>${PT('امروز کدام مهارت بالینی را <em>تمرین کنیم؟</em>', 'Which clinical skill shall we <em>practise today?</em>')}</h1>
+            <p>${PT('هر دوره یک مسیر کامل است: درس‌های سه‌دقیقه‌ای، بیمارهای واقعی‌نما، ماشین‌حساب بالینی و گواهی پایان دوره. روی هر دوره بزن تا جزئیاتش را ببینی.', 'Each course is a complete path: three-minute lessons, realistic patients, clinical calculators and a certificate of completion. Tap a course to see the details.')}</p>
             <div class="dhero__cta">
-              ${last && AC[last] ? `<a class="dcont" href="?course=${last}" style="--cc:${AC[last].color};--cd:${AC[last].dark}"><span class="dcont__m">${courseMascot(AC[last], 'happy', 30)}</span><span>ادامه از <b>${AC[last].nameFa}</b></span><i aria-hidden="true">←</i></a>` : ''}
-              <a class="dgo" href="#dcourses">مشاهده دوره‌ها <i aria-hidden="true">↓</i></a>
+              ${last && AC[last] ? `<a class="dcont" href="?course=${last}" style="--cc:${AC[last].color};--cd:${AC[last].dark}"><span class="dcont__m">${courseMascot(AC[last], 'happy', 30)}</span><span>${PT('ادامه از', 'Continue')} <b>${cName(AC[last])}</b></span><i aria-hidden="true">${PT('←', '→')}</i></a>` : ''}
+              <a class="dgo" href="#dcourses">${PT('مشاهده دوره‌ها', 'See the courses')} <i aria-hidden="true">↓</i></a>
             </div>
-            <ul class="dhero__nums">${[[list.length, 'دوره'], [tot.l, 'درس کوتاه'], [tot.q, 'سؤال و مرحله'], [tot.r, 'بیمار در راند'], [tot.t, 'ابزار بالینی']].map((x, i) => `<li style="--d:${i * 90 + 300}ms"><b data-count="${x[0]}">${nf(x[0])}</b><small>${x[1]}</small></li>`).join('')}</ul>
+            <ul class="dhero__nums">${[[list.length, PT('دوره', 'courses')], [tot.l, PT('درس کوتاه', 'short lessons')], [tot.q, PT('سؤال و مرحله', 'questions & steps')], [tot.r, PT('بیمار در راند', 'round patients')], [tot.t, PT('ابزار بالینی', 'clinical tools')]].map((x, i) => `<li style="--d:${i * 90 + 300}ms"><b data-count="${x[0]}">${nf(x[0])}</b><small>${x[1]}</small></li>`).join('')}</ul>
           </div>
           <div class="dhero__art" aria-hidden="true">
             <span class="dring dring--1"></span><span class="dring dring--2"></span><span class="dring dring--3"></span>
-            ${list.slice(0, 3).map((c, i) => `<div class="dhm dhm--${i}" style="--cc:${c.color};--cd:${c.dark}"><div class="dhm__in">${courseMascot(c, i === 1 ? 'cheer' : 'happy', 108)}</div><span>${c.nameFa}</span></div>`).join('')}
+            ${list.slice(0, 3).map((c, i) => `<div class="dhm dhm--${i}" style="--cc:${c.color};--cd:${c.dark}"><div class="dhm__in">${courseMascot(c, i === 1 ? 'cheer' : 'happy', 108)}</div><span>${cName(c)}</span></div>`).join('')}
           </div>
         </section>
         <svg class="decg" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="ecgg" x1="0" x2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><path d="M0 40 H330 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H760 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H1200"/></svg>
-        <div class="dsec"><h2>دوره‌ها</h2><p>برای دیدن معرفی کامل، مسیر یادگیری و ابزارها روی هر دوره بزن.</p></div>
-        <section class="dcourses" id="dcourses" aria-label="دوره‌ها">${list.map((c, i) => dCard(c, sm.per[c.id], i)).join('')}${soonCard(list.length)}</section>
-        <footer class="dfoot">${CFG.BRAND_FA} ابزار آموزشی است و جایگزین قضاوت بالینی، دستور پزشک یا پروتکل بیمارستان نیست.</footer>
+        <div class="dsec"><h2>${PT('دوره‌ها', 'Courses')}</h2><p>${PT('برای دیدن معرفی کامل، مسیر یادگیری و ابزارها روی هر دوره بزن.', 'Tap a course for the full introduction, learning path and tools.')}</p></div>
+        <section class="dcourses" id="dcourses" aria-label="${PT('دوره‌ها', 'Courses')}">${list.map((c, i) => dCard(c, sm.per[c.id], i)).join('')}${soonCard(list.length)}</section>
+        <footer class="dfoot">${PT(`${CFG.BRAND_FA} ابزار آموزشی است و جایگزین قضاوت بالینی، دستور پزشک یا پروتکل بیمارستان نیست.`, `${CFG.BRAND_EN} is an educational tool and does not replace clinical judgement, physician orders or hospital protocols.`)}</footer>
       </div>`;
     if (openId) toggleDetail(openId);
     countUp(el);
@@ -3883,6 +3912,8 @@ P — Plan: …`);
     const card = e.target.closest('.dc[data-dc]');
     if (card && !e.target.closest('a, button')) toggleDetail(card.dataset.dc);
   });
+  // دکمه زبان سربرگ صفحه اول
+  document.addEventListener('click', e => { const b = e.target.closest('[data-dlang]'); if (b) setUILang(b.dataset.dlang); });
   document.addEventListener('click', e => {
     const t = MODE === 'dash' && e.target.closest('[data-dtheme]');
     if (!t) return;
@@ -3906,11 +3937,11 @@ P — Plan: …`);
   });
 
   /* ================= پنجره ارتقا: معرفی همان دوره + انتخاب پلن + فعال‌سازی ================= */
-  const PLAN_FEAT = {
-    1: [['✓', 'همه ۴۵ درس و ۱۵ سطح'], ['✓', 'آزمون مرحله‌ها و امتحان نهایی'], ['✓', 'گواهی پایان دوره و کارت استوری'], ['✓', 'راند بیمارستان و دفترچه نکات'], ['✗', 'ماشین‌حساب و ابزار بالینی'], ['✗', 'قلب بی‌نهایت']],
-    2: [['✓', 'همه امکانات پلن آموزشی'], ['✓', 'ماشین‌حساب و ابزار بالینی'], ['✓', 'ماشین‌حساب شناور سر بالین'], ['✓', 'قلب بی‌نهایت ♾️'], ['•', 'برای ۱ یا ۲ دوره']],
-    3: [['✓', 'همه دوره‌ها، حتی دوره‌های آینده'], ['✓', 'همه ابزارها و قلب بی‌نهایت'], ['✓', 'کیس‌های ترکیبی ICU'], ['✓', `${nf(CFG.VIP_GEMS)} الماس هدیه در هر دوره`], ['✓', 'نشان طلایی الماس']]
-  };
+  const PLAN_FEAT = () => ({
+    1: [['✓', PT('همه ۴۵ درس و ۱۵ سطح', 'All 45 lessons and 15 levels')], ['✓', PT('آزمون مرحله‌ها و امتحان نهایی', 'Checkpoints and the final exam')], ['✓', PT('گواهی پایان دوره و کارت استوری', 'Certificate and story card')], ['✓', PT('راند بیمارستان و دفترچه نکات', 'Hospital rounds and the guidebook')], ['✗', PT('ماشین‌حساب و ابزار بالینی', 'Calculators and clinical tools')], ['✗', PT('قلب بی‌نهایت', 'Unlimited hearts')]],
+    2: [['✓', PT('همه امکانات پلن آموزشی', 'Everything in Standard')], ['✓', PT('ماشین‌حساب و ابزار بالینی', 'Calculators and clinical tools')], ['✓', PT('ماشین‌حساب شناور سر بالین', 'Floating bedside Quick-Calc')], ['✓', PT('قلب بی‌نهایت ♾️', 'Unlimited hearts ♾️')], ['•', PT('برای ۱ یا ۲ دوره', 'For 1 or 2 courses')]],
+    3: [['✓', PT('همه دوره‌ها، حتی دوره‌های آینده', 'Every course, including future ones')], ['✓', PT('همه ابزارها و قلب بی‌نهایت', 'All tools and unlimited hearts')], ['✓', PT('کیس‌های ترکیبی ICU', 'ICU combined cases')], ['✓', PT(`${nf(CFG.VIP_GEMS)} الماس هدیه در هر دوره`, `${nf(CFG.VIP_GEMS)} gift gems in each course`)], ['✓', PT('نشان طلایی الماس', 'Gold Diamond badge')]]
+  });
   function showActivated(r) {
     const g = r.g;
     pConfetti(140); pSfx('done');
@@ -3954,56 +3985,56 @@ P — Plan: …`);
       const perMonth = d => Math.round(price(st.tier, ids, d) / [0, 1, 3, 6, 12][d] / 1000) * 1000;
       const save = d => { const base = perMonth(1); return base ? Math.round((1 - perMonth(d) / base) * 100) : 0; };
       const pr = st.promo, fits = promoFits(pr, st.tier), fin = fits ? promoPrice(p, pr) : p;
-      const planNames = ps => ps.map(t => TIERS[t].short).join('، ');
+      const planNames = ps => ps.map(tShort).join(PT('، ', ', '));
       card.innerHTML = `
         <header class="up__hero">
-          <button class="iconbtn up__x" data-close aria-label="بستن">✕</button>
+          <button class="iconbtn up__x" data-close aria-label="${PT('بستن', 'Close')}">✕</button>
           <div class="up__m">${courseMascot(c, 'cheer', 96)}</div>
           <div class="up__t">
-            <small>${w ? (w[4] ? `${w[0]} ${w[4]}` : `🔒 ${w[1]} در اشتراک فعلی‌ات باز نیست`) : '👑 ارتقا و فعال‌سازی دوره'}</small>
-            <h3>${c.nameFa} <span>• ${c.subjectFa}</span></h3>
-            <p>${k.tagline || c.descFa}</p>
-            ${a.tier ? `<span class="up__now">اشتراک فعلی: ${tierBadge(a)}${!a.life ? ` <em>${leftText(a.expiry)} مانده</em>` : ''}</span>` : ''}
+            <small>${w ? (w[4] ? `${w[0]} ${PT(w[4], w[5] || w[4])}` : PT(`🔒 ${w[1]} در اشتراک فعلی‌ات باز نیست`, `🔒 ${w[2]} ${/s$/.test(w[2]) && !/^The /.test(w[2]) ? 'are' : 'is'} not included in your current plan`)) : PT('👑 ارتقا و فعال‌سازی دوره', '👑 Upgrade & activate')}</small>
+            <h3>${cName(c)} <span>• ${cSubj(c)}</span></h3>
+            <p>${k.tagline || cDesc(c)}</p>
+            ${a.tier ? `<span class="up__now">${PT('اشتراک فعلی:', 'Current plan:')} ${tierBadge(a)}${!a.life ? ` <em>${PT(`${leftText(a.expiry)} مانده`, `${leftText(a.expiry)} left`)}</em>` : ''}</span>` : ''}
           </div>
         </header>
         <div class="up__b">
           <details class="up__intro" ${a.tier || innerWidth < 640 ? '' : 'open'}>
-            <summary>📖 معرفی دوره ${c.nameFa}</summary>
-            <p>${k.about || c.descFa}</p>
+            <summary>📖 ${PT(`معرفی دوره ${c.nameFa}`, `About ${c.nameEn}`)}</summary>
+            <p>${k.about || cDesc(c)}</p>
             <div class="up__chips">${k.worlds.map(x => `<span style="--wc:${x.color}"><b dir="ltr">${x.sym}</b>${x.name}</span>`).join('')}</div>
             <ul class="dd__out dd__out--sm">${k.outcomes.slice(0, 4).map(o => `<li>${o}</li>`).join('')}</ul>
           </details>
-          <h4 class="acstep"><span>۱</span> پلن را انتخاب کن</h4>
+          <h4 class="acstep"><span>${nf(1)}</span> ${PT('پلن را انتخاب کن', 'Choose a plan')}</h4>
           <div class="up__plans">${[1, 2, 3].map(t => {
             const T0 = TIERS[t], pp = price(t, t === 2 ? ids.slice(0, 2) : ids, st.dur);
             return `<button class="up__plan up__plan--${T0.key} ${st.tier === t ? 'is-on' : ''}" data-tier="${t}" aria-pressed="${st.tier === t}">
-              ${t === (need === 9 ? 3 : need === 2 ? 2 : need ? 1 : -1) ? '<span class="up__rec">پیشنهاد برای همین بخش</span>' : t === 3 ? '<span class="up__rec up__rec--gold">کامل‌ترین</span>' : ''}
-              ${a.tier === t ? '<span class="up__cur">فعال فعلی</span>' : ''}
-              <span class="up__pi">${T0.icon}</span><b>${T0.short}</b><small>${t === 3 ? 'همه دوره‌ها' : t === 2 ? 'بالینی حرفه‌ای' : 'آموزشی کامل'}</small>
-              <span class="up__pp">${promoFits(st.promo, t) ? `<s>${nf(pp)}</s> ${nf(promoPrice(pp, st.promo))}` : nf(pp)} <i>${CFG.CURRENCY}</i></span>
-              <ul>${PLAN_FEAT[t].map(f => `<li class="${f[0] === '✗' ? 'no' : ''}"><i>${f[0]}</i>${f[1]}</li>`).join('')}</ul>
+              ${t === (need === 9 ? 3 : need === 2 ? 2 : need ? 1 : -1) ? `<span class="up__rec">${PT('پیشنهاد برای همین بخش', 'Recommended for this')}</span>` : t === 3 ? `<span class="up__rec up__rec--gold">${PT('کامل‌ترین', 'Most complete')}</span>` : ''}
+              ${a.tier === t ? `<span class="up__cur">${PT('فعال فعلی', 'Current')}</span>` : ''}
+              <span class="up__pi">${T0.icon}</span><b>${tShort(t)}</b><small>${t === 3 ? PT('همه دوره‌ها', 'Every course') : t === 2 ? PT('بالینی حرفه‌ای', 'Clinical professional') : PT('آموزشی کامل', 'Complete learning')}</small>
+              <span class="up__pp">${promoFits(st.promo, t) ? `<s>${nf(pp)}</s> ${nf(promoPrice(pp, st.promo))}` : nf(pp)} <i>${CUR()}</i></span>
+              <ul>${PLAN_FEAT()[t].map(f => `<li class="${f[0] === '✗' ? 'no' : ''}"><i>${f[0]}</i>${f[1]}</li>`).join('')}</ul>
             </button>`;
           }).join('')}</div>
-          <h4 class="acstep"><span>۲</span> مدت اعتبار</h4>
-          <div class="up__durs">${[1, 2, 3, 4].map(d => `<button class="up__dur ${st.dur === d ? 'is-on' : ''}" data-dur="${d}"><b>${DUR[d].short}</b><small>${d > 1 && save(d) > 0 ? `${nf(save(d))}٪ صرفه‌جویی` : 'بدون تعهد'}</small></button>`).join('')}</div>
-          ${st.tier === 3 ? `<div class="acok">💎 پکیج الماس همه دوره‌های فعلی (${list.map(x => x.nameFa).join('، ')}) و دوره‌های آینده را باز می‌کند.</div>` : `
-          <h4 class="acstep"><span>۳</span> دوره‌های دیگر را هم اضافه کن <small>۲ دوره ۱۵٪ • ۳ دوره ۲۵٪ تخفیف${st.tier === 2 ? ' • Pro حداکثر ۲ دوره' : ''}</small></h4>
-          <div class="up__more">${list.filter(x => x.id !== c.id).map(x => `<label class="up__add ${st.sel[x.id] ? 'is-on' : ''}" style="--ac:${x.color}"><input type="checkbox" data-add="${x.id}" ${st.sel[x.id] ? 'checked' : ''}><span class="up__addm">${courseMascot(x, 'happy', 34)}</span><span><b>${x.nameFa}</b><small>${x.subjectFa}</small></span><i>${st.sel[x.id] ? '✓' : '+'}</i></label>`).join('')}</div>`}
+          <h4 class="acstep"><span>${nf(2)}</span> ${PT('مدت اعتبار', 'Duration')}</h4>
+          <div class="up__durs">${[1, 2, 3, 4].map(d => `<button class="up__dur ${st.dur === d ? 'is-on' : ''}" data-dur="${d}"><b>${dShort(d)}</b><small>${d > 1 && save(d) > 0 ? PT(`${nf(save(d))}٪ صرفه‌جویی`, `save ${nf(save(d))}%`) : PT('بدون تعهد', 'No commitment')}</small></button>`).join('')}</div>
+          ${st.tier === 3 ? `<div class="acok">💎 ${PT(`پکیج الماس همه دوره‌های فعلی (${list.map(x => x.nameFa).join('، ')}) و دوره‌های آینده را باز می‌کند.`, `The Diamond package unlocks every current course (${list.map(x => x.nameEn).join(', ')}) and every future course.`)}</div>` : `
+          <h4 class="acstep"><span>${nf(3)}</span> ${PT('دوره‌های دیگر را هم اضافه کن', 'Add other courses')} <small>${PT(`۲ دوره ۱۵٪ • ۳ دوره ۲۵٪ تخفیف${st.tier === 2 ? ' • Pro حداکثر ۲ دوره' : ''}`, `2 courses 15% • 3 courses 25% off${st.tier === 2 ? ' • Pro covers up to 2 courses' : ''}`)}</small></h4>
+          <div class="up__more">${list.filter(x => x.id !== c.id).map(x => `<label class="up__add ${st.sel[x.id] ? 'is-on' : ''}" style="--ac:${x.color}"><input type="checkbox" data-add="${x.id}" ${st.sel[x.id] ? 'checked' : ''}><span class="up__addm">${courseMascot(x, 'happy', 34)}</span><span><b>${cName(x)}</b><small>${cSubj(x)}</small></span><i>${st.sel[x.id] ? '✓' : '+'}</i></label>`).join('')}</div>`}
           <div class="up__promo ${pr && pr.ok ? (fits ? 'is-ok' : 'is-warn') : ''}">
-            <b>🎁 کد تخفیف</b>
-            ${pr && pr.ok ? `<div class="up__promoon"><span>✓ <b dir="ltr">${pesc(pr.code)}</b> — ${nf(pr.pct)}٪ تخفیف${pr.label ? ` <small>(${pesc(pr.label)})</small>` : ''}</span><button class="iconbtn" data-promox aria-label="حذف کد تخفیف">✕</button></div>${fits ? `<small class="up__promosave">${nf(p - fin)} ${CFG.CURRENCY} صرفه‌جویی 🎉</small>` : `<div class="acwarn">این کد فقط برای ${planNames(pr.plans)} است؛ پلن را عوض کن تا اعمال شود.</div>`}`
-            : `<div class="acrow"><input class="ob__in acin" data-promo dir="ltr" autocomplete="off" spellcheck="false" value="${pesc(st.promoIn)}" placeholder="مثلاً MED20"><button class="btn btn--ghost" data-promoapply>اعمال</button></div>${st.promoErr ? `<div class="acerr">${pesc(st.promoErr)}</div>` : ''}`}
+            <b>🎁 ${PT('کد تخفیف', 'Discount code')}</b>
+            ${pr && pr.ok ? `<div class="up__promoon"><span>✓ <b dir="ltr">${pesc(pr.code)}</b> — ${PT(`${nf(pr.pct)}٪ تخفیف`, `${nf(pr.pct)}% off`)}${pr.label ? ` <small>(${pesc(PT(pr.label, pr.labelEn || pr.label))})</small>` : ''}</span><button class="iconbtn" data-promox aria-label="${PT('حذف کد تخفیف', 'Remove discount code')}">✕</button></div>${fits ? `<small class="up__promosave">${PT(`${nf(p - fin)} ${CUR()} صرفه‌جویی 🎉`, `You save ${nf(p - fin)} ${CUR()} 🎉`)}</small>` : `<div class="acwarn">${PT(`این کد فقط برای ${planNames(pr.plans)} است؛ پلن را عوض کن تا اعمال شود.`, `This code is only for ${planNames(pr.plans)}; change the plan to apply it.`)}</div>`}`
+            : `<div class="acrow"><input class="ob__in acin" data-promo dir="ltr" autocomplete="off" spellcheck="false" value="${pesc(st.promoIn)}" placeholder="${PT('مثلاً MED20', 'e.g. MED20')}"><button class="btn btn--ghost" data-promoapply>${PT('اعمال', 'Apply')}</button></div>${st.promoErr ? `<div class="acerr">${pesc(st.promoErr)}</div>` : ''}`}
           </div>
           <div class="up__code">
-            <b>🔑 کد فعال‌سازی داری؟</b>
-            <div class="acrow"><input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="TRP1-… (کد کامل را این‌جا بچسبان)"><button class="btn btn--brand" data-upact>فعال‌سازی</button></div>
+            <b>🔑 ${PT('کد فعال‌سازی داری؟', 'Have an activation code?')}</b>
+            <div class="acrow"><input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="${PT('TRP1-… (کد کامل را این‌جا بچسبان)', 'TRP1-… (paste the full code here)')}"><button class="btn btn--brand" data-upact>${PT('فعال‌سازی', 'Activate')}</button></div>
             <div class="acerr" hidden></div>
           </div>
           <div class="acorder" hidden></div>
         </div>
         <footer class="up__sum">
-          <div><small>${TIERS[st.tier].short} • ${DUR[st.dur].short} • ${st.tier === 3 ? 'همه دوره‌ها' : `${nf(n)} دوره`} • روزی حدود ${nf(Math.round(fin / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان</small><span>${fits || full > p ? `<s>${nf(Math.max(full, p))}</s>` : ''}<b>${nf(fin)}</b> <i>${CFG.CURRENCY}</i>${fits ? `<em class="up__off">−${nf(pr.pct)}٪</em>` : ''}</span></div>
-          <button class="btn btn--gold btn--lg" data-order>🧾 ثبت سفارش و دریافت کد</button>
+          <div><small>${tShort(st.tier)} • ${dShort(st.dur)} • ${st.tier === 3 ? PT('همه دوره‌ها', 'every course') : PT(`${nf(n)} دوره`, `${nf(n)} course${n === 1 ? '' : 's'}`)} • ${PT(`روزی حدود ${nf(Math.round(fin / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان`, `about ${nf(Math.round(fin / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} Toman a day`)}</small><span>${fits || full > p ? `<s>${nf(Math.max(full, p))}</s>` : ''}<b>${nf(fin)}</b> <i>${CUR()}</i>${fits ? `<em class="up__off">−${nf(pr.pct)}${PT('٪', '%')}</em>` : ''}</span></div>
+          <button class="btn btn--gold btn--lg" data-order>🧾 ${PT('ثبت سفارش و دریافت کد', 'Place order & get a code')}</button>
         </footer>`;
       if (keepScroll) card.querySelector('.up__b').scrollTop = y;
     }
@@ -4019,10 +4050,10 @@ P — Plan: …`);
       if (e.target.closest('[data-promoapply]')) {
         const inp = card.querySelector('[data-promo]'), v = inp ? inp.value.trim() : '';
         st.promoIn = v;
-        if (!v) { st.promoErr = 'کد تخفیف را بنویس.'; return draw(true); }
+        if (!v) { st.promoErr = PT('کد تخفیف را بنویس.', 'Type a discount code.'); return draw(true); }
         const r = parsePromo(v);
         if (r && r.ok) { st.promo = r; st.promoErr = ''; pSfx('done'); if (!promoFits(r, st.tier) && r.plans.length === 1) st.tier = r.plans[0]; }
-        else { st.promo = null; st.promoErr = (r && r.err) || 'این کد تخفیف معتبر نیست.'; pSfx('wrong'); }
+        else { st.promo = null; st.promoErr = (r && r.err) || PT('این کد تخفیف معتبر نیست.', 'This discount code is not valid.'); pSfx('wrong'); }
         return draw(true);
       }
       if (e.target.closest('[data-promox]')) { st.promo = null; st.promoIn = ''; st.promoErr = ''; pSfx('tap'); return draw(true); }
@@ -4031,29 +4062,30 @@ P — Plan: …`);
         const sel = list.filter(x => st.sel[x.id]);
         const base = price(st.tier, sel.map(x => x.id), st.dur), promo = promoFits(st.promo, st.tier) ? st.promo : null, pr = promo ? promoPrice(base, promo) : base;
         const id = 'ORD-' + b32enc(sha256(deviceId() + Date.now() + Math.random())).slice(0, 6);
+        // پیام سفارش به زبان رابط؛ پنل مدیر هر دو زبان را می‌خواند (خط‌های ماشینی TRAPO-ORDER/TRAPO-PROMO یکسان‌اند)
         const txt = [
-          '🧾 سفارش اشتراک ' + CFG.BRAND_FA,
+          PT('🧾 سفارش اشتراک ' + CFG.BRAND_FA, '🧾 ' + CFG.BRAND_EN + ' subscription order'),
           '━━━━━━━━━━━━━━',
-          `👤 نام: ${(profile() && profile().name) || '—'}`,
-          `📱 شناسه دستگاه (Device ID): ${deviceId()}`,
-          `📚 دوره‌ها: ${st.tier === 3 ? 'همه دوره‌ها (' + list.map(x => x.nameFa).join('، ') + ' + دوره‌های آینده)' : sel.map(x => `${x.nameFa} (${x.subjectFa})`).join('، ')}`,
-          `💎 پلن: ${TIERS[st.tier].fa} — Tier ${st.tier}`,
-          `⏳ مدت اعتبار: ${DUR[st.dur].fa}`,
-          promo ? `🏷️ قیمت پایه: ${nf(base)} ${CFG.CURRENCY}` : null,
-          promo ? `🎁 کد تخفیف: ${promo.code} (${nf(promo.pct)}٪ تخفیف${promo.label ? ' — ' + promo.label : ''})` : null,
-          `💰 مبلغ: ${nf(pr)} ${CFG.CURRENCY}`,
-          `🔢 کد سفارش: ${id}`,
-          `🕒 تاریخ: ${fdatetime(Date.now())}`,
+          `👤 ${PT('نام', 'Name')}: ${(profile() && profile().name) || '—'}`,
+          `📱 ${PT('شناسه دستگاه', 'Device')} (Device ID): ${deviceId()}`,
+          `📚 ${PT('دوره‌ها', 'Courses')}: ${st.tier === 3 ? PT('همه دوره‌ها (' + list.map(x => x.nameFa).join('، ') + ' + دوره‌های آینده)', 'All courses (' + list.map(x => x.nameEn).join(', ') + ' + future courses)') : sel.map(x => `${cName(x)} (${cSubj(x)})`).join(PT('، ', ', '))}`,
+          `💎 ${PT('پلن', 'Plan')}: ${PT(TIERS[st.tier].fa, TIERS[st.tier].en)} — Tier ${st.tier}`,
+          `⏳ ${PT('مدت اعتبار', 'Duration')}: ${PT(DUR[st.dur].fa, DUR[st.dur].en)}`,
+          promo ? `🏷️ ${PT('قیمت پایه', 'Base price')}: ${nf(base)} ${CUR()}` : null,
+          promo ? `🎁 ${PT('کد تخفیف', 'Discount code')}: ${promo.code} (${PT(`${nf(promo.pct)}٪ تخفیف`, `${nf(promo.pct)}% off`)}${promo.label ? ' — ' + PT(promo.label, promo.labelEn || promo.label) : ''})` : null,
+          `💰 ${PT('مبلغ', 'Amount')}: ${nf(pr)} ${CUR()}`,
+          `🔢 ${PT('کد سفارش', 'Order ID')}: ${id}`,
+          `🕒 ${PT('تاریخ', 'Date')}: ${fdatetime(Date.now())}`,
           `🔧 ${'TRAPO-ORDER:' + [deviceId(), st.tier, st.tier === 3 ? ALL_MASK : sel.reduce((mk, x) => mk | x.bit, 0), st.dur].join(':')}`,
           promo ? `🔧 TRAPO-PROMO:${promo.code}:${promo.pct}:${pr}` : null,
           '━━━━━━━━━━━━━━',
-          'لطفاً کد فعال‌سازی این دستگاه را ارسال کنید. 🙏'
+          PT('لطفاً کد فعال‌سازی این دستگاه را ارسال کنید. 🙏', 'Please send the activation code for this device. 🙏')
         ].filter(x => x !== null).join('\n');
         const box = card.querySelector('.acorder');
         box.hidden = false;
-        box.innerHTML = `<h4>✅ سفارش ساخته شد و در کلیپ‌بورد کپی شد</h4>${copyBox(txt, 11)}<p class="muted acsmall">${CFG.SUPPORT_HINT}</p><button class="btn btn--ghost btn--sm" data-copyorder>📋 کپی دوباره</button>`;
-        box.querySelector('[data-copyorder]').onclick = () => copyText(txt).then(ok => pToast(ok ? '📋 کپی شد' : 'متن را دستی کپی کن', ok ? '' : 'toast--bad'));
-        copyText(txt).then(ok => pToast(ok ? '📋 متن سفارش کپی شد؛ برای پشتیبانی بفرست' : 'متن را از کادر دستی کپی کن', ok ? '' : 'toast--bad'));
+        box.innerHTML = `<h4>✅ ${PT('سفارش ساخته شد و در کلیپ‌بورد کپی شد', 'Order created and copied to the clipboard')}</h4>${copyBox(txt, 11)}<p class="muted acsmall">${PT(CFG.SUPPORT_HINT, CFG.SUPPORT_HINT_EN)}</p><button class="btn btn--ghost btn--sm" data-copyorder>📋 ${PT('کپی دوباره', 'Copy again')}</button>`;
+        box.querySelector('[data-copyorder]').onclick = () => copyText(txt).then(ok => pToast(ok ? PT('📋 کپی شد', '📋 Copied') : PT('متن را دستی کپی کن', 'Copy the text manually'), ok ? '' : 'toast--bad'));
+        copyText(txt).then(ok => pToast(ok ? PT('📋 متن سفارش کپی شد؛ برای پشتیبانی بفرست', '📋 Order copied — send it to support') : PT('متن را از کادر دستی کپی کن', 'Copy the text from the box'), ok ? '' : 'toast--bad'));
         setTimeout(() => box.scrollIntoView({ behavior: 'smooth', block: 'center' }), 60);
         pSfx('done');
       }
@@ -4061,7 +4093,7 @@ P — Plan: …`);
     card.addEventListener('change', e => {
       const x = e.target.dataset.add; if (!x) return;
       st.sel[x] = e.target.checked;
-      if (st.tier === 2 && list.filter(y => st.sel[y.id]).length > 2) { st.sel[x] = false; pToast('پلن Pro حداکثر ۲ دوره است؛ برای هر ۳ دوره پکیج الماس را انتخاب کن', 'toast--bad'); }
+      if (st.tier === 2 && list.filter(y => st.sel[y.id]).length > 2) { st.sel[x] = false; pToast(PT('پلن Pro حداکثر ۲ دوره است؛ برای هر ۳ دوره پکیج الماس را انتخاب کن', 'Pro covers up to 2 courses; choose the Diamond package for all of them'), 'toast--bad'); }
       pSfx('select'); draw(true);
     });
     card.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('.up__code input')) card.querySelector('[data-upact]').click(); if (e.key === 'Enter' && e.target.matches('[data-promo]')) card.querySelector('[data-promoapply]').click(); });
@@ -4091,7 +4123,7 @@ P — Plan: …`);
               <div class="seg">${[['auto', 'خودکار', 'Auto'], ['light', 'روشن', 'Light'], ['dark', 'تیره', 'Dark']].map(x => `<button class="seg__b ${t === x[0] ? 'is-on' : ''}" data-ptheme="${x[0]}">${PT(x[1], x[2])}</button>`).join('')}</div></div>
             <label class="setc__r"><span>✨ ${PT('انیمیشن‌ها', 'Animations')}<small>${PT('خاموش کردن، حرکت‌ها را برای تمرکز یا گوشی‌های ضعیف کم می‌کند', 'Turn off for focus or slower phones')}</small></span><input type="checkbox" class="sw" data-motion ${p.motion ? 'checked' : ''}></label>
             ${MODE === 'dash' ? `<div class="setc__r"><span>✏️ ${PT('نام روی گواهی‌ها', 'Name on certificates')}<small>${pesc(pr.name || '—')}</small></span><button class="btn btn--ghost btn--sm" data-rename>${PT('تغییر', 'Change')}</button></div>` : ''}
-            <div class="setc__r"><span>🌐 ${PT('زبان دوره‌ها', 'Course language')}<small>${PT('برای یونا و نگار؛ هما فقط فارسی است', 'For Yona and Negar; Homa is Persian only')}</small></span>
+            <div class="setc__r"><span>🌐 ${PT('زبان برنامه', 'App language')}<small>${PT('صفحه اول، پنجره‌ها و همه دوره‌ها؛ بلافاصله عوض می‌شود', 'Home, windows and every course — switches instantly')}</small></span>
               <div class="seg">${[['fa', 'فارسی'], ['en', 'English']].map(l => `<button class="seg__b ${(LS.raw('academy.lang') || 'fa') === l[0] ? 'is-on' : ''}" data-lang="${l[0]}" lang="${l[0]}">${l[1]}</button>`).join('')}</div></div>
             <label class="setc__r"><span>🎵 ${PT('موسیقی پس‌زمینه', 'Background music')}<small>${PT('آرام و بی‌کلام، داخل همه دوره‌ها', 'Calm and wordless, in every course')}</small></span><input type="checkbox" class="sw" data-gmusic ${prefs().music !== false ? 'checked' : ''}></label>
           </div>
@@ -4100,7 +4132,7 @@ P — Plan: …`);
     card.addEventListener('click', e => {
       const z = e.target.closest('[data-zoom]'); if (z) { const p = prefs(); p.zoom = +z.dataset.zoom; LS.put(PREF_KEY, p); applyPrefs(); return draw(); }
       const t = e.target.closest('[data-ptheme]'); if (t) { setPageTheme(t.dataset.ptheme); return draw(); }
-      const lg = e.target.closest('[data-lang]'); if (lg) { LS.set('academy.lang', lg.dataset.lang); if (window.EA && EA.setLang && EA.COURSE && EA.COURSE.langs.indexOf('en') >= 0) EA.setLang(lg.dataset.lang); return draw(); }
+      const lg = e.target.closest('[data-lang]'); if (lg) { setUILang(lg.dataset.lang); if (card.isConnected) draw(); return; }
       if (e.target.closest('[data-rename]')) {
         const v = prompt(PT('نام و نام خانوادگی (روی گواهی‌ها چاپ می‌شود):', 'Full name:'), (profile() || {}).name || '');
         if (v && v.trim()) { const p = profile() || { role: 'سایر', goal: 50, joined: Date.now() }; p.name = v.trim(); LS.put('academy.profile', p); renderDash(); draw(); }
@@ -4116,9 +4148,31 @@ P — Plan: …`);
     const t = LS.raw('academy.theme') || 'auto';
     const n = t === 'auto' ? 'dark' : t === 'dark' ? 'light' : 'auto';
     setPageTheme(n);
-    pToast(n === 'auto' ? '🌓 پوسته خودکار' : n === 'dark' ? '🌙 پوسته تیره' : '☀️ پوسته روشن');
+    pToast(n === 'auto' ? PT('🌓 پوسته خودکار', '🌓 Auto theme') : n === 'dark' ? PT('🌙 پوسته تیره', '🌙 Dark theme') : PT('☀️ پوسته روشن', '☀️ Light theme'));
+  }
+  const dashTitle = () => { document.title = PT(CFG.BRAND_FA, CFG.BRAND_EN) + ' • ' + courses().map(c => PT(c.nameFa, c.nameEn)).join(PT('، ', ', ')); };
+  /** تغییر زبان سراسری: بلافاصله و بدون بارگذاری دوباره، روی صفحه اول، دوره باز، نوار کناری، بنر و دکمه شناور */
+  function setUILang(l) {
+    if (l !== 'en' && l !== 'fa') return;
+    LS.set('academy.lang', l);
+    if (MODE === 'course' || MODE === 'calc') {
+      // دوره خودش (با EA.setLang) همه صفحه، نوار کناری و پنجره‌ها را از نو می‌کشد
+      if (window.EA && EA.setLang) EA.setLang(l);
+    } else {
+      document.querySelectorAll('.modal:not(.modal--set) , .pop').forEach(x => x.remove());
+      applyDashLang(); dashTitle(); renderDash();
+    }
+    banner(); fab();
+    document.querySelectorAll('.toasts .toast').forEach(x => x.remove()); // اعلان‌های زبان قبلی
+    pToast(PT('🌐 زبان: فارسی', '🌐 Language: English'));
+  }
+  /** جهت و زبان سند صفحه اول (فارسی راست‌به‌چپ، انگلیسی چپ‌به‌راست) */
+  function applyDashLang() {
+    const en = UILANG() === 'en', h = document.documentElement;
+    h.lang = en ? 'en' : 'fa'; h.dir = en ? 'ltr' : 'rtl';
   }
   function applyDashTheme() {
+    applyDashLang();
     const t = globalTheme();
     if (t === 'auto') delete document.documentElement.dataset.theme; else document.documentElement.dataset.theme = t;
   }
@@ -4160,7 +4214,7 @@ P — Plan: …`);
       case 'printguide': return printGuide();
       case 'music': if (window.EA && EA.app) { EA.app.toggleMusic(); syncMusicUI(true); } return;
       case 'theme': return toggleDashTheme();
-      case 'copydev': return copyText(deviceId()).then(() => pToast('📋 شناسه دستگاه کپی شد'));
+      case 'copydev': return copyText(deviceId()).then(() => pToast(PT('📋 شناسه دستگاه کپی شد', '📋 Device ID copied')));
       case 'banneroff': SS.set('academy.banner.off', '1'); return banner();
     }
   });
@@ -4333,7 +4387,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     MODE = 'dash';
     document.body.classList.add('mode-dash');
     applyDashTheme();
-    document.title = CFG.BRAND_FA + ' • ' + courses().map(c => c.nameFa).join('، ');
+    dashTitle();
     renderDash();
     if (!profile()) onboardModal(renderDash);
   }
@@ -4353,7 +4407,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     const D = AC[id];
     b.setAttribute('data-c', id);
     b.firstChild.innerHTML = courseMascot(D, 'happy', 120);
-    b.lastChild.textContent = D.nameFa;
+    b.lastChild.textContent = PT(D.nameFa, D.nameEn);
     b.className = 'is-on is-enter';
     const go = () => { location.href = a.href; };
     if (document.documentElement.classList.contains('no-motion') || matchMedia('(prefers-reduced-motion: reduce)').matches) go(); else setTimeout(go, 170);
@@ -4418,7 +4472,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     upsell, storeModal, upgradeModal, activateModal, settingsModal,
     sideHTML, topChips, profileHTML, lockedTools, vipBadge,
     hasProfile, autoProfile, wantIntro, restoreDialog, backupString, restoreString,
-    certCode, recordCert, storyCard, needAssets, dailyCase,
+    certCode, recordCert, storyCard, needAssets, dailyCase, setUILang, uiLang: UILANG, roleName,
     store: STORE, migration: () => MIGRATION, courses,
     afterRender: (cid, view) => {
       fab(); syncMusicUI(false); requestAnimationFrame(stickyFit); guardAnims();

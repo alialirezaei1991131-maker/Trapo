@@ -23,6 +23,8 @@
   try {
     var g = JSON.parse(localStorage.getItem('academy_global_state') || '{}') || {}, t = g.theme || localStorage.getItem('academy.theme');
     if (t === 'dark' || t === 'light') h.setAttribute('data-theme', t);
+    // زبان برنامه هم همین حالا (بدون پرش راست‌به‌چپ ← چپ‌به‌راست)
+    if ((g.lang || localStorage.getItem('academy.lang')) === 'en') { h.setAttribute('lang', 'en'); h.setAttribute('dir', 'ltr'); }
   } catch (e) { /* */ }
   if (q) { h.setAttribute('data-course', q[2]); h.setAttribute('data-skin', q[2]); }
 })();
@@ -66,7 +68,7 @@ html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
   var N = { yona: ['یونا', 'Yona'], homa: ['هما', 'Homa'], negar: ['نگار', 'Negar'] }, en = false, art = '', m = null;
   try {
     var g = JSON.parse(localStorage.getItem('academy_global_state') || '{}') || {}, k = JSON.parse(localStorage.getItem('academy_cache') || '{}') || {};
-    en = (g.lang || localStorage.getItem('academy.lang')) === 'en' && c !== 'homa';
+    en = (g.lang || localStorage.getItem('academy.lang')) === 'en';
     art = k['art.' + c] || localStorage.getItem('academy.art.' + c) || '';
     m = JSON.parse(k['art.' + c + '.m'] || 'null');
   } catch (e) { /* */ }

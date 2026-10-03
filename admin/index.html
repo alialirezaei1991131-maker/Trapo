@@ -503,12 +503,12 @@ var NACL = {};
     var m = /TRAPO-ORDER:([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}):(\d):(\d+):(\d)/i.exec(t);
     if (m) { o.dev = m[1].toUpperCase(); o.tier = +m[2]; o.mask = +m[3]; o.dur = +m[4]; o.full = true; }
     else { var d = /\b([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4})\b/i.exec(t); if (d) o.dev = d[1].toUpperCase(); }
-    var n = /نام\s*:\s*(.+)/.exec(text); if (n) { var nm = n[1].trim(); if (nm && nm !== '—' && nm !== '-') o.name = nm.slice(0, 80); }
-    var pr = /مبلغ\s*:\s*([\d,٬.\s]+)/.exec(t); if (pr) { var v = +pr[1].replace(/[^\d]/g, ''); if (v) o.price = v; }
+    var n = /(?:^|\n)\s*(?:👤\s*)?(?:نام|Name)\s*:\s*(.+)/.exec(text); if (n) { var nm = n[1].trim(); if (nm && nm !== '—' && nm !== '-') o.name = nm.slice(0, 80); }
+    var pr = /(?:مبلغ|Amount)\s*:\s*([\d,٬.\s]+)/.exec(t); if (pr) { var v = +pr[1].replace(/[^\d]/g, ''); if (v) o.price = v; }
     var id = /(ORD-[0-9A-Z]{6})/i.exec(t); if (id) o.order = id[1].toUpperCase();
-    var dt = /تاریخ\s*:\s*(.+)/.exec(text); if (dt) o.orderDate = dt[1].trim().slice(0, 60);
+    var dt = /(?:تاریخ|Date)\s*:\s*(.+)/.exec(text); if (dt) o.orderDate = dt[1].trim().slice(0, 60);
     var pm = /TRAPO-PROMO:([A-Z0-9-]{2,24}):(\d{1,2}):(\d+)/i.exec(t); if (pm) o.promo = { code: pm[1].toUpperCase(), pct: +pm[2], final: +pm[3] };
-    var bp = /قیمت پایه\s*:\s*([\d,٬.\s]+)/.exec(t); if (bp) o.basePrice = +bp[1].replace(/[^\d]/g, '');
+    var bp = /(?:قیمت پایه|Base price)\s*:\s*([\d,٬.\s]+)/.exec(t); if (bp) o.basePrice = +bp[1].replace(/[^\d]/g, '');
     return o;
   }
   var IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 1, dur: 1, order: '', orderDate: '', note: '', promo: '' };
