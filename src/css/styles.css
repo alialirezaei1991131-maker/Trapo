@@ -2012,6 +2012,10 @@ body.mode-course::before { animation: none; }
 .acsrv-credit { display: flex; gap: 8px; align-items: center; margin: 0 0 10px; font-weight: 700; cursor: pointer; }
 .acsum p { margin: 4px 0; }
 
+/* حیطه‌ای که فعلاً فقط محتوای فارسی دارد (در حالت انگلیسی) */
+.actb--fa { background: var(--bg2); color: var(--muted); border: 1px solid var(--line); }
+.suite__fa { display: block; margin-top: 6px; font-weight: 700; color: var(--muted); }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

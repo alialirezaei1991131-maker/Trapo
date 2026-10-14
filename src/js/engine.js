@@ -3917,8 +3917,11 @@ P — Plan: …`);
   /** پرانتز لاتین درون متن فارسی کارت (مثل «(Disease and Treatment)») جدا و چپ‌به‌راست */
   const bil = s => String(s == null ? '' : s).replace(/\(([A-Za-z][^()]*)\)/g, '<bdi dir="ltr">($1)</bdi>');
   /** کارت هر حیطه در صفحه انتخاب (همان کارت دوره‌های صفحه اول + قفل پیش‌نیاز) */
+  /** حیطه‌ای که محتوای انگلیسی ندارد: در حالت انگلیسی برچسب «محتوا به فارسی» می‌گیرد */
+  const faOnly = d => UILANG() === 'en' && (d.langs || []).indexOf('en') < 0;
   function subCard(d, i) {
-    const html = dCard(d, access(d.id), i);
+    let html = dCard(d, access(d.id), i);
+    if (faOnly(d)) html = html.replace('<div class="dc__badges">', '<div class="dc__badges"><span class="actb actb--fa" lang="fa">Persian content • فارسی</span>');
     if (prereqDone(d)) return html;
     return html.replace('<article class="dc"', '<article class="dc dc--prereq"').replace('<div class="dc__badges">', `<div class="dc__badges"><span class="actb actb--lock">🔒 ${PT(`پس از ${SUBC[d.prereq].nameFa}`, `After ${SUBC[d.prereq].nameEn}`)}</span>`);
   }
@@ -3968,7 +3971,7 @@ P — Plan: …`);
             <div class="suite__pre"><div class="dc__bar"><i style="width:${Math.max(Math.round(pi.done / pi.total * 100), pi.done ? 4 : 0)}%"></i></div><small>${PT(`${nf(pi.done)} از ${nf(pi.total)} درس`, `${nf(pi.done)} of ${nf(pi.total)} lessons`)}</small></div></div>
           <a class="btn btn--cc btn--lg" style="--cc:${pre.color};--cd:${pre.dark}" href="?course=${pre.id}">${pi.done ? PT('ادامه', 'Continue') : PT('شروع', 'Start')} ${PT('←', '→')}</a>
         </section>` : ''}
-        <div class="dsec"><h2>${PT('حیطه‌ها', 'Modules')}</h2><p>${PT('هر حیطه یک دوره کامل است با درس، تمرین، واژه‌نامه، کارت لایتنر، راند بالینی، کاراکتر، لیگ و گواهی. روی هر حیطه بزن تا جزئیاتش را ببینی.', 'Each module is a complete course with lessons, practice, a dictionary, Leitner cards, clinical rounds, characters, a league and a certificate. Tap a module for details.')}</p></div>
+        <div class="dsec"><h2>${PT('حیطه‌ها', 'Modules')}</h2><p>${PT('هر حیطه یک دوره کامل است با درس، تمرین، واژه‌نامه، کارت لایتنر، راند بالینی، کاراکتر، لیگ و گواهی. روی هر حیطه بزن تا جزئیاتش را ببینی.', 'Each module is a complete course with lessons, practice, a dictionary, Leitner cards, clinical rounds, characters, a league and a certificate. Tap a module for details.')}${subs.some(faOnly) ? ' <b class="suite__fa">The lessons in these modules are taught in Persian: every medical term stays in English, explained in Persian. The menus and tools follow your language setting.</b>' : ''}</p></div>
         <section class="dcourses suite__grid" id="dcourses" aria-label="${PT('حیطه‌ها', 'Modules')}">${subs.map((d, i) => subCard(d, i)).join('')}</section>
         <footer class="dfoot">${PT(`${CFG.BRAND_FA} ابزار آموزشی است و جایگزین منابع رسمی، قضاوت بالینی یا دستور پزشک نیست.`, `${CFG.BRAND_EN} is an educational tool and does not replace official references, clinical judgment or a physician’s orders.`)}</footer>
       </div>`;

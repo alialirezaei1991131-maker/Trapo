@@ -66,7 +66,7 @@ window.ACADEMY_SUBCOURSES = window.ACADEMY_SUBCOURSES || {};
       });
 
       return {
-        id: M.id, bit: M.bit, key: 'academy_course_' + M.id, langs: ['fa', 'en'], startWorld: M.start, codePrefix: M.prefix,
+        id: M.id, bit: M.bit, key: 'academy_course_' + M.id, langs: M.langs || ['fa'], startWorld: M.start, codePrefix: M.prefix,
         nameFa: M.nameFa, nameEn: M.nameEn, titleFa: M.titleFa, titleEn: M.titleEn,
         term: true,
         state: {
@@ -832,7 +832,7 @@ window.ACADEMY_SUBCOURSES = window.ACADEMY_SUBCOURSES || {};
     config: function () { return { mascot: MASCOTS.lexa }; }, content: function () { }, tools: function () { }
   };
   MODULES.forEach(m => {
-    SUB[m.id] = Object.assign({ parent: 'termino', bitFlag: AC.termino.bitFlag, bit: AC.termino.bitFlag, icon: AC.termino.icon, langs: ['fa', 'en'],
+    SUB[m.id] = Object.assign({ parent: 'termino', bitFlag: AC.termino.bitFlag, bit: AC.termino.bitFlag, icon: AC.termino.icon, langs: m.langs || ['fa'],
       courseFa: m.subjectFa, courseEn: m.subjectEn, descFa: m.kickerFa, descEn: m.subjectEn, toolsFa: AC.termino.toolsFa, toolsEn: AC.termino.toolsEn, mascotFn: MASCOTS[m.mod],
       assets: ['courses/termino/' + m.mod + '-img.js', 'courses/termino/' + m.mod + '.js'], skin: 'negar' }, m, { catalog: { worlds: m.worlds, tools: [], outcomes: [] } });
   });
