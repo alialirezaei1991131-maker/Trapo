@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>تراپو • یونا، هما، نگار</title>
+<meta name="description" content="تراپو (Therapo)، آکادمی بالینی بازی‌وار: یونا (اصلاح اختلالات الکترولیتی)، هما (تفسیر گازهای خون و اسید-باز) و نگار (معاینه فیزیکی تغذیه‌محور NFPE)؛ با مسیر یادگیری، کیس‌های بیمارستانی، ماشین‌حساب بالینی، کیس‌های ترکیبی ICU، کلینیک خطاها و گواهی‌نامه. کاملاً آفلاین.">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#3b5bdb">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="تراپو">
+<meta name="format-detection" content="telephone=no">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" type="image/svg+xml" href="icons/icon.svg">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<script nonce="{{NONCE}}">
+/* پیش از هر چیز: رنگ صفحه (روشن/تیره) و دوره همین حالا روی html می‌نشیند تا هنگام رفتن از صفحه اول به دوره
+   صفحه سفید یا پرش رنگ دیده نشود (فایل‌های دوره و موتور بعد از این بارگذاری می‌شوند). */
+(function () {
+  var h = document.documentElement, q = /[?&](course|calc)=(\w+)/.exec(location.search);
+  try {
+    var g = JSON.parse(localStorage.getItem('academy_global_state') || '{}') || {}, t = g.theme || localStorage.getItem('academy.theme');
+    if (t === 'dark' || t === 'light') h.setAttribute('data-theme', t);
+    // زبان برنامه هم همین حالا (بدون پرش راست‌به‌چپ ← چپ‌به‌راست)
+    if ((g.lang || localStorage.getItem('academy.lang')) === 'en') { h.setAttribute('lang', 'en'); h.setAttribute('dir', 'ltr'); }
+  } catch (e) { /* */ }
+  if (q) { h.setAttribute('data-course', q[2]); h.setAttribute('data-skin', q[2]); }
+})();
+</script>
+<style>
+/* صفحه ورود به دوره (پیش از styles.css): پس‌زمینه هم‌رنگ پوسته + شخصیت و نوار بارگذاری دوره */
+html { background: #fff; color-scheme: light; }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) { background: #131f24; color-scheme: dark; } }
+html[data-theme="dark"] { background: #131f24; color-scheme: dark; }
+#boot { display: none; }
+#boot.is-on { --c: #3b5bdb; --bg: #fff; --tx: #3c3c3c; display: flex; position: fixed; inset: 0; z-index: 2147483000; flex-direction: column; align-items: center; justify-content: center; gap: 18px; background: var(--bg); color: var(--tx); font: 800 22px/1.4 Vazirmatn, Tahoma, system-ui, sans-serif; }
+@media (prefers-color-scheme: dark) { html:not([data-theme="light"]) #boot.is-on { --bg: #131f24; --tx: #f1f7fb; } }
+html[data-theme="dark"] #boot.is-on { --bg: #131f24; --tx: #f1f7fb; }
+#boot[data-c="yona"] { --c: #58cc02; } #boot[data-c="homa"] { --c: #12b3a8; } #boot[data-c="negar"] { --c: #8e2c6e; }
+html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
+.boot__art { position: relative; width: 150px; height: 150px; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--c) 26%, transparent), transparent); animation: bootPop .45s cubic-bezier(.2, 1.4, .4, 1) both; }
+.boot__art::before { content: ""; position: absolute; inset: 6px; border-radius: 50%; border: 3px solid color-mix(in srgb, var(--c) 30%, transparent); border-top-color: var(--c); animation: bootSpin 1s linear infinite; }
+.boot__art > * { animation: bootFloat 1.6s ease-in-out infinite; }
+.boot__art svg { width: 108px; height: auto; display: block; }
+.boot__dot { width: 46px; height: 46px; border-radius: 50%; background: var(--c); }
+.boot__n { color: var(--c); letter-spacing: .02em; animation: bootPop .45s .08s cubic-bezier(.2, 1.4, .4, 1) both; }
+#boot.is-enter { animation: bootIn .18s ease-out both; }
+#boot.is-out { opacity: 0; transition: opacity .28s ease; pointer-events: none; }
+@keyframes bootPop { from { opacity: 0; transform: scale(.8); } }
+@keyframes bootSpin { to { transform: rotate(360deg); } }
+@keyframes bootFloat { 50% { transform: translateY(-6px); } }
+@keyframes bootIn { from { opacity: 0; } }
+@media (prefers-reduced-motion: reduce) { .boot__art, .boot__art::before, .boot__art > *, .boot__n, #boot.is-enter { animation: none; } }
+</style>
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<div id="boot" aria-hidden="true"><div class="boot__art"></div><b class="boot__n"></b></div>
+<script nonce="{{NONCE}}">
+(function () {
+  var c = document.documentElement.getAttribute('data-course'), b = document.getElementById('boot');
+  if (!c || !/[?&]course=/.test(location.search)) return;
+  // نام، رنگ و شخصیت هر دوره (حتی دوره‌های آینده) از کش موتور در academy_cache خوانده می‌شود
+  var N = { yona: ['یونا', 'Yona'], homa: ['هما', 'Homa'], negar: ['نگار', 'Negar'] }, en = false, art = '', m = null;
+  try {
+    var g = JSON.parse(localStorage.getItem('academy_global_state') || '{}') || {}, k = JSON.parse(localStorage.getItem('academy_cache') || '{}') || {};
+    en = (g.lang || localStorage.getItem('academy.lang')) === 'en';
+    art = k['art.' + c] || localStorage.getItem('academy.art.' + c) || '';
+    m = JSON.parse(k['art.' + c + '.m'] || 'null');
+  } catch (e) { /* */ }
+  var nm = m || N[c];
+  b.setAttribute('data-c', c);
+  if (m && m[2]) b.style.setProperty('--c', m[2]);
+  b.firstChild.innerHTML = art || '<i class="boot__dot"></i>';
+  b.lastChild.textContent = nm ? nm[en ? 1 : 0] : '';
+  b.className = 'is-on';
+})();
+</script>
+
+
+<div id="dash" class="dash" aria-live="polite"></div>
+
+
+<div class="app">
+  <aside class="side" id="side"></aside>
+  <div class="main">
+    <header class="top" id="top"></header>
+    <main class="view" id="view"></main>
+  </div>
+  <aside class="rail" id="rail"></aside>
+  <nav class="bnav" id="bnav"></nav>
+</div>
+
+
+
+<noscript><p style="padding:24px;text-align:center">برای اجرای تراپو، جاوااسکریپت مرورگر را روشن کنید. • Please enable JavaScript.</p></noscript>
+
+
+<script nonce="{{NONCE}}">window.TRAPO_SERVER = {{CFG}};</script>
+<script src="loader.js?v={{VER}}"></script>
+</body>
+</html>

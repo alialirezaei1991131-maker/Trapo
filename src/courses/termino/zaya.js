@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_zaya;
   D.css = ".edd{display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0;}\n.edd__in{display: flex; flex-direction: column; gap: 6px; flex: 1 1 150px; min-width: 0; font-weight: 800; color: var(--muted);}\n.edd__in input{width: 100%; min-width: 0; font: inherit; font-size: 18px; font-weight: 900; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; text-align: left; direction: ltr; font-family: Nunito, system-ui, sans-serif;}\n.edd__in input:focus{outline: none; border-color: var(--brand);}\n.edd__out{display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: 8px; margin: 8px 0 12px;}\n.edd__c{padding: 10px 12px; border-radius: 16px; background: color-mix(in srgb, var(--brand) 10%, var(--bg)); border: 2px solid color-mix(in srgb, var(--brand) 35%, var(--line)); min-width: 0;}\n.edd__c b{display: block; font-size: 20px; color: var(--brand-t); overflow-wrap: anywhere;}\n.edd__c small{display: block; color: var(--muted); font-weight: 700; overflow-wrap: anywhere;}\n.edd__c span{display: block; font-weight: 800; margin-bottom: 2px;}\n.edd__note{color: var(--muted); font-weight: 700; margin: 0 0 10px;}\n.edd__h{margin: 16px 0 4px; font-size: 16px;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* زایا — پیکربندی اپ: هر متن، نام، کلید ذخیره‌سازی، شخصیت و ابزار ویژه‌ای که موتور مشترک (engine/) از اپ می‌خواهد.
@@ -1574,6 +1575,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* زایا — دنیای ۰: زبان زایش (پایه همه دنیاها)
  * سطح ۱: بخش‌های دستگاه تولیدمثل • سطح ۲: ریشه‌های اصلی • سطح ۳: پیشوندها، پسوندها و دام‌های همزاد
  * سازنده‌ها در core.js توضیح داده شده‌اند؛ گزینه اول هر سؤال درست است و در اجرا به‌هم می‌ریزد. */
@@ -1720,6 +1722,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* زایا — دنیای ۱: دستگاه تناسلی زنانه
  * سطح ۱: اندام‌های درونی • سطح ۲: اندام‌های بیرونی و پستان • سطح ۳: چرخه و هورمون‌ها */
 (function (root) {
@@ -1865,6 +1869,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* زایا — دنیای ۲: دستگاه تناسلی مردانه
  * سطح ۱: بیضه و اسپرم • سطح ۲: مجاری و غدد • سطح ۳: آلت و بلوغ */
 (function (root) {
@@ -2010,6 +2016,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* زایا — دنیای ۳: بارداری و زایمان
  * سطح ۱: لقاح تا جنین • سطح ۲: شمارش بارداری • سطح ۳: زایمان و نوزاد */
 (function (root) {
@@ -2155,6 +2163,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* زایا — دنیای ۴: بیماری‌ها و عفونت‌های آمیزشی
  * سطح ۱: بیماری‌های زنان • سطح ۲: بیماری‌های مردان • سطح ۳: عوارض بارداری و عفونت‌های آمیزشی */
 (function (root) {
@@ -2300,6 +2310,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* زایا — دنیای ۵: تشخیص، درمان و پیشگیری
  * سطح ۱: آزمایش‌ها و تصویربرداری • سطح ۲: جراحی‌ها • سطح ۳: پیشگیری از بارداری و درمان نازایی */
 (function (root) {
@@ -2445,6 +2457,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* زایا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2665,6 +2678,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* زایا — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی و تمرین‌های فایل‌های پیوست آمده‌اند: Case Study کتاب Cohen (Abigail، Dexter)، Case Study 16-1 (Naomi)،
  * Case Study 16-2 (Ruth)، Case Study 15-1 (Derek)، Case Study 15-2 (Diego)، Exercise 15-9، Chart Note کتاب Gylys،
@@ -2941,6 +2955,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* زایا — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

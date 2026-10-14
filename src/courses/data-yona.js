@@ -745,6 +745,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
 
+/*<<PV-DATA>>*/
 /* یونا — محتوای آموزشی پنج دنیای الکترولیت
  * سازنده‌های کوتاه:
  *   L(عنوان، متن)                  کارت آموزشی
@@ -1119,7 +1120,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* یونا — درس‌های تکمیلی و سطح‌بندی هر دنیا
  * هر دنیا ۹ درس دارد در سه سطح (هر سطح ۳ درس). این فایل پس از content.js بارگذاری می‌شود،
  * درس‌های تازه را اضافه می‌کند و ترتیب نهایی را می‌چیند. شناسه درس‌های قبلی تغییر نمی‌کند
@@ -1422,6 +1425,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
 /* یونا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۵ کاراکتر).
@@ -1573,6 +1577,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
 
+/*<<PV-DATA>>*/
 /* یونا — راند بیمارستان: کیس‌های چندمرحله‌ای مدیریت بیمار
  * هر کیس یک بیمار است که از ارزیابی تا پایش، قدم‌به‌قدم مدیریت می‌شود.
  * همچنین در ابتدای درس آی‌سی‌یو هر دنیا یک «الگوریتم مدیریت» اضافه می‌شود. */
@@ -1677,7 +1682,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Yona — English course content
  * Mirrors the Persian course exactly: same lesson ids, same item order and types,
  * so progress, review keys and characters work identically in both languages.
@@ -2247,6 +2254,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش؛ در برنامه کاری نمی‌کند
 
 /* یونا — نکته‌های کوتاه بالینی که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */

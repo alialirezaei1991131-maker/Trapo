@@ -1007,6 +1007,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
 
+/*<<PV-DATA>>*/
 /* هما — دنیای ۱: اکسیژن و تبادل گاز
  * سازنده‌های کوتاه (مشترک در همه فایل‌های محتوا):
  *   L(عنوان، متن)                         کارت آموزشی
@@ -1162,7 +1163,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* هما — دنیای ۲: اصول اسید و باز و تفسیر گام‌به‌گام
  * منابع: کتاب «ABG در بالین» (فصل‌های ۳، ۷ و ۸)، فلوچارت تفسیر اسید و باز (سینا مرادی، medjuu)،
  * جزوه دکتر ژیان (رمزهای ۲۴ و ۴۰، راستی‌آزمایی)، اسلایدهای تفسیر ABG (شش گام). */
@@ -1297,7 +1300,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* هما — دنیای ۳: اسیدوز متابولیک و آنیون گپ
  * منابع: کتاب «ABG در بالین» (فصل ۴ و تمرین‌های ۱۴ تا ۲۱)، فلوچارت medjuu (آنیون گپ ادرار، اسمولار گپ)،
  * جزوه دکتر ژیان (علل و درمان اسیدوز متابولیک)، و به‌روزرسانی با راهنمای ADA برای کتواسیدوز. */
@@ -1431,7 +1436,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* هما — دنیای ۴: اختلالات تنفسی و آلکالوز متابولیک
  * منابع: کتاب «ABG در بالین» (فصل ۴ و تمرین‌های ۲، ۶، ۸، ۹، ۱۱، ۲۲ و ۲۳)، جزوه دکتر ژیان
  * (علل آلکالوز متابولیک و تنفسی، اندیکاسیون انتوباسیون، base excess در COPD)، و به‌روزرسانی با
@@ -1564,7 +1571,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* هما — دنیای ۵: VBG، نمونه‌گیری و نوزادان
  * منابع: کتاب «ABG در بالین» (فصل‌های ۵ و ۶ و تمرین ۲۴)، جزوه تفسیر ABG و VBG دکتر رضا ژیان و
  * دکتر شایان سیگاری (VBG، base excess، دام‌های نمونه‌گیری)، اسلایدهای تفسیر ABG نوزادان (الهه راستکار). */
@@ -1703,6 +1712,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   };
   EA.PER_LEVEL = 3;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
 /* هما — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۵ کاراکتر).
@@ -1857,6 +1867,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
 
+/*<<PV-DATA>>*/
 /* هما — راند بیمارستان: کیس‌های چندمرحله‌ای بر پایه ۲۵ تمرین «ABG در بالین» و چند کیس تکمیلی
  * هر کیس: شرح حال، کارت کامل گاز خون (lab) و چند مرحله تصمیم‌گیری.
  * عددهای آزمایش همان عددهای کتاب‌اند (گاهی بی‌کربنات استاندارد گزارش شده و با pH کاملاً نمی‌خواند). */
@@ -2226,6 +2237,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /* هر مرحله کارت آزمایش کیس را هم نشان دهد */
   EA.rounds.forEach(r => r.steps.forEach(s => { if (!s.lab && r.lab) s.lab = r.lab; }));
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
 /* هما — نکته‌های کوتاه بالینی که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
@@ -2316,6 +2328,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   EA.tips = { list: TIPS, next, mount, html };
 })();
 
+/*<<PV-DATA>>*/
 /* هما — نسخه انگلیسی محتوا (Homa — English course content)
  * ساخته‌شده از فرهنگ ترجمه (i18n/homa_overlay.py). هر رشته فارسی دنیاها، درس‌ها و راندها با معادل
  * انگلیسی‌اش عوض می‌شود؛ ساختار، ترتیب، پاسخ‌ها، عددها و کارت‌های آزمایش همان نسخه فارسی است تا پیشرفت،
@@ -2336,6 +2349,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   EA.worlds = EA.W[EA.lang] || faWorlds;
   EA.rounds = EA.RD[EA.lang] || faRounds;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش؛ در برنامه کاری نمی‌کند
     },
 
     /* ================= ابزارهای بالینی و ماشین‌حساب‌ها ================= */

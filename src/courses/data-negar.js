@@ -773,6 +773,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
 
+/*<<PV-DATA>>*/
 /* نگار — دنیای ۱: آمادگی و ارزیابی (فصل ۱ و ۲ کتاب)
  * سازنده‌های کوتاه (مشترک در همه فایل‌های محتوا):
  *   L(عنوان، متن)                             کارت آموزشی
@@ -937,7 +938,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* نگار — دنیای ۲: التهاب و مستندسازی (فصل ۳ و پیوست ۲ کتاب) */
 (function (root) {
   const EA = root.EA;
@@ -1066,7 +1069,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* نگار — دنیای ۳: معاینه عضله و چربی زیرپوستی (فصل ۴ کتاب)
  * تصویرهای سه‌گانه (طبیعی، خفیف تا متوسط، شدید) از شکل‌های ۴-۲ کتاب‌اند. */
 (function (root) {
@@ -1199,7 +1204,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* نگار — دنیای ۴: ارزیابی وضعیت مایعات؛ تجمع مایع و دهیدراتاسیون (فصل ۵ کتاب) */
 (function (root) {
   const EA = root.EA;
@@ -1328,7 +1335,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* نگار — دنیای ۵: وضعیت عملکردی و ریزمغذی‌ها (فصل ۶ و ۷ و پیوست ۱ کتاب)
  * نشانه‌ها و تصویرهایشان از جدول‌های ۷-۱ تا ۷-۴ کتاب‌اند. */
 (function (root) {
@@ -1459,6 +1468,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   };
   EA.PER_LEVEL = 3;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
 /* نگار — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۵ کاراکتر).
@@ -1617,6 +1627,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
 
+/*<<PV-DATA>>*/
 /* نگار — راند بیمارستان: کیس‌های چندمرحله‌ای ارزیابی و مستندسازی سوءتغذیه
  * هر کیس: شرح حال، پرونده (chart)، گاهی یک تصویر (fig) و چند مرحله تصمیم‌گیری.
  * پاسخ‌ها با تابع EA.aspen.classify هم‌خوان‌اند (آزمون محتوا این را بررسی می‌کند: o). */
@@ -1835,7 +1846,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — English content, world 1: Preparation & assessment
  * Mirrors content-hx.js exactly: same lesson ids, same item order and types.
  * Pictures inside questions are copied from the Persian items by content-en.js. */
@@ -1949,7 +1962,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ] }
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — English content, world 2: Inflammation & documentation (mirrors content-inf.js) */
 (function (root) {
   const EA = root.EA;
@@ -2058,7 +2073,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ] }
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — English content, world 3: Muscle & fat (mirrors content-mf.js; question pictures are shared) */
 (function (root) {
   const EA = root.EA;
@@ -2169,7 +2186,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ] }
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — English content, world 4: Fluid status (mirrors content-fl.js; question pictures are shared) */
 (function (root) {
   const EA = root.EA;
@@ -2278,7 +2297,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ] }
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — English content, world 5: Function & micronutrients (mirrors content-mn.js; question pictures are shared) */
 (function (root) {
   const EA = root.EA;
@@ -2381,7 +2402,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     ] }
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — English hospital rounds (mirrors rounds.js step by step; pictures and answers are shared) */
 (function (root) {
   const EA = root.EA;
@@ -2546,7 +2569,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       ] }
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 
+/*<<PV-DATA>>*/
 /* Negar — builds the English worlds and hospital rounds from the en-*.js files.
  * Every English lesson must mirror its Persian twin item by item (same count and type),
  * so progress, mistake keys and characters work identically in both languages.
@@ -2602,6 +2627,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش؛ در برنامه کاری نمی‌کند
 
 /* نگار — نکته‌های کوتاه بالینی که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */

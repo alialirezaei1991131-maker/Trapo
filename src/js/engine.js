@@ -2760,6 +2760,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   const fmtDev = s => s.match(/.{1,4}/g).join('-');
   const normDev = s => String(s || '').toUpperCase().replace(/[^0-9A-Z]/g, '').replace(/O/g, '0').replace(/[IL]/g, '1');
   function deviceId() {
+    // نسخه هاست: شناسه ثابت حساب کاربری (کدهای فعال‌سازی به حساب گره می‌خورند، نه به مرورگر)
+    if (window.TRAPO_SERVER && window.TRAPO_SERVER.user) return window.TRAPO_SERVER.user.dev;
     let id = LS.raw('academy.device');
     if (!id || normDev(id).length !== 12) { id = fmtDev(b32enc(sha256('dev|' + fingerprint())).slice(0, 12)); LS.set('academy.device', id); }
     return id;
@@ -3083,7 +3085,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         <div class="acprof__row"><span>${PT('همه دوره‌ها', 'All courses')}</span><b>${courses().map(c => `${c.icon} ${sm.per[c.id].tier ? tShort(sm.per[c.id].tier) : '🔒'}`).join(' • ')}</b></div>
         <div class="acprof__btns"><button class="btn btn--gold btn--sm" data-ac="store" data-course="${cid}">👑 ${PT('ارتقا / تمدید', 'Upgrade / renew')}</button><button class="btn btn--ghost btn--sm" data-ac="settings">⚙️ ${PT('تنظیمات نمایش', 'Display settings')}</button></div>
       </div>
-    </div>${notesHTML()}`;
+    </div>${SRV ? inviteHTML() : ''}${notesHTML()}`;
   }
   function lockedTools(cid) {
     const c = courseDef(cid);
@@ -3985,6 +3987,7 @@ P — Plan: …`);
     renderSuite(D);
     const need = params.get('need');
     if (need && SUBC[need] && !prereqDone(SUBC[need])) setTimeout(() => lockModal(SUBC[need]), 300);
+    else if (params.get('up') && SUBC[params.get('up')]) setTimeout(() => upgradeModal(D.id), 300);
     const run = params.get('run'), last = LS.raw('academy.last.' + D.id);
     if (run && last && SUBC[last]) location.replace('?course=' + last + '&run=' + encodeURIComponent(run));
   }
@@ -3996,6 +3999,152 @@ P — Plan: …`);
     const d = m && SUBC[m[1]];
     if (d && !prereqDone(d)) { e.preventDefault(); e.stopImmediatePropagation(); lockModal(d); }
   }, true);
+
+  /* ================= حالت سرور (نسخه هاست): حساب کاربری، کد فعال‌سازی، سفارش، دعوت دوستان و همگام‌سازی =================
+   * فقط وقتی فعال است که صفحه از سرور تراپو آمده باشد (window.TRAPO_SERVER را سرور می‌گذارد).
+   * نسخه آفلاین (app/index.html) بدون هیچ تغییری مثل قبل کار می‌کند. */
+  const SRV = window.TRAPO_SERVER || null;
+  async function api(a, body) {
+    const opt = { credentials: 'same-origin', headers: { 'Accept': 'application/json' } };
+    if (body !== undefined) { opt.method = 'POST'; opt.headers['Content-Type'] = 'application/json'; opt.headers['X-CSRF'] = SRV.csrf; opt.body = JSON.stringify(body); }
+    let r;
+    try { r = await fetch('api/?a=' + a, opt); } catch (e) { return { ok: false, err: 'network' }; }
+    if (r.status === 401) { setTimeout(() => location.reload(), 1500); }
+    try { return await r.json(); } catch (e) { return { ok: false, err: 'server' }; }
+  }
+  const SRV_ERR = {
+    network: ['اتصال به سرور برقرار نشد؛ اینترنت را بررسی کن.', 'Could not reach the server — check your connection.'],
+    auth: ['نشست تمام شده؛ دوباره وارد شو.', 'Your session has ended — please sign in again.'],
+    rate_limited: ['تعداد درخواست‌ها زیاد بود؛ چند دقیقه دیگر دوباره امتحان کن.', 'Too many attempts — try again in a few minutes.'],
+    code_format: ['کد ناقص است؛ کد کامل را دوباره بچسبان.', 'The code is incomplete — paste the full code again.'],
+    code_sig: ['این کد برای حساب شما صادر نشده یا ناقص کپی شده است.', 'This code was not issued for your account or was copied incompletely.'],
+    code_ver: ['نسخه این کد قدیمی است؛ با پشتیبانی تماس بگیر.', 'This code version is outdated — contact support.'],
+    code_expired: ['این کد منقضی شده است.', 'This code has expired.'],
+    code_already: ['این کد قبلاً روی حسابت فعال شده است ✅', 'This code is already active on your account ✅'],
+    code_used: ['این کد قبلاً برای حساب دیگری ثبت شده است.', 'This code is already registered to another account.'],
+    promo_invalid: ['این کد تخفیف معتبر نیست.', 'This discount code is not valid.'],
+    promo_expired: ['مهلت این کد تخفیف تمام شده است.', 'This discount code has expired.'],
+    promo_used_up: ['ظرفیت این کد تخفیف تمام شده است.', 'This discount code has been used up.'],
+    promo_plan: ['این کد برای این پلن نیست.', 'This code doesn’t apply to this plan.'],
+    pro_max_two: ['پلن Pro حداکثر ۲ دوره است.', 'Pro covers up to 2 courses.'],
+    credit: ['اعتبار کیف پول تغییر کرده؛ دوباره امتحان کن.', 'Your wallet credit changed — please try again.'],
+    bad_credentials: ['رمز فعلی درست نیست.', 'The current password is wrong.'],
+    pass_short: ['رمز تازه حداقل ۸ نویسه باشد.', 'The new password must be at least 8 characters.'],
+    pass_weak: ['این رمز خیلی ساده است.', 'This password is too simple.']
+  };
+  const srvMsg = err => { const e = SRV_ERR[err] || ['خطایی پیش آمد؛ دوباره امتحان کن.', 'Something went wrong — please try again.']; return PT(e[0], e[1]); };
+
+  /** کدهای فعال‌سازی ثبت‌شده روی سرور، منبع اصلی مجوز روی هر دستگاه همین حساب است */
+  function srvInit() {
+    if (!SRV) return;
+    const o = lic();
+    const norm = x => String(x).toUpperCase().replace(/[^0-9A-Z]/g, '');
+    const have = o.codes.map(norm);
+    (SRV.codes || []).forEach(c => { if (have.indexOf(norm(c)) < 0) { o.codes.push(c); if (parseCode(c, deviceId()).tier === 3) courses().forEach(x => { o.gifts[x.id] = (o.gifts[x.id] || 0) + CFG.VIP_GEMS; }); } });
+    // کد محلی‌ای که سرور نمی‌شناسد (مثلاً از نسخه آفلاین با شناسه دیگر) برای این حساب معتبر نیست
+    o.codes = o.codes.filter(c => parseCode(c, deviceId()).ok);
+    saveLic(o);
+    if (!LS.json('academy.profile', null) && SRV.user && SRV.user.name) LS.put('academy.profile', { name: SRV.user.name, role: 'سایر', goal: 50, joined: (SRV.user.since || 0) * 1000 || Date.now() });
+  }
+  async function srvRedeem(v, errEl, inp, onOk) {
+    const r = await api('redeem', { code: v });
+    if (!r.ok) {
+      if (r.err === 'code_already') { const x = redeem(v); if (x.ok) { onOk && onOk(); return showActivated(x); } }
+      if (errEl) { errEl.hidden = false; errEl.textContent = srvMsg(r.err); }
+      if (inp) { inp.classList.add('shake'); setTimeout(() => inp.classList.remove('shake'), 400); }
+      return pSfx('wrong');
+    }
+    SRV.codes = r.codes;
+    const x = redeem(v); // ثبت محلی برای اجرای آفلاین همین جلسه و هدیه الماس
+    onOk && onOk();
+    showActivated(x.ok ? x : { ok: true, g: r.grant, before: summary(), after: summary() });
+  }
+  /** سفارش روی سرور: مبلغ نهایی، تخفیف دوست و اعتبار کیف پول را سرور حساب می‌کند */
+  async function srvOrder(req, box) {
+    box.hidden = false;
+    box.innerHTML = `<p class="muted">⏳ ${PT('در حال ثبت سفارش…', 'Placing your order…')}</p>`;
+    const r = await api('order', Object.assign({ lang: UILANG() }, req));
+    if (!r.ok) { box.innerHTML = `<div class="acerr">${pesc(srvMsg(r.err))}</div>`; return pSfx('wrong'); }
+    box.innerHTML = `<h4>✅ ${PT(`سفارش ${r.order} ثبت شد`, `Order ${r.order} placed`)}</h4>
+      <div class="acsum">${r.pct ? `<p>🏷️ ${PT('قیمت پایه', 'Base price')}: <s>${nf(r.base)}</s> ${CUR()} • ${r.refPct ? PT(`🤝 تخفیف دعوت دوست ${nf(r.refPct)}٪`, `🤝 friend invite ${nf(r.refPct)}% off`) : PT(`🎁 ${pesc(r.promo.code)} ${nf(r.pct)}٪`, `🎁 ${pesc(r.promo.code)} ${nf(r.pct)}% off`)}</p>` : ''}
+        ${r.creditUsed ? `<p>👛 ${PT('اعتبار کیف پول', 'Wallet credit')}: −${nf(r.creditUsed)} ${CUR()}</p>` : ''}
+        <p><b>💰 ${PT('مبلغ قابل پرداخت', 'Amount to pay')}: ${nf(r.final)} ${CUR()}</b></p></div>
+      ${copyBox(r.message, 9)}<p class="muted acsmall">${PT(CFG.SUPPORT_HINT, CFG.SUPPORT_HINT_EN)}</p>
+      <button class="btn btn--brand" data-copyorder>📋 ${PT('کپی متن سفارش', 'Copy order text')}</button>`;
+    box.querySelector('[data-copyorder]').onclick = () => copyText(r.message).then(ok => pToast(ok ? PT('📋 کپی شد', '📋 Copied') : PT('متن را دستی کپی کن', 'Copy the text manually'), ok ? '' : 'toast--bad'));
+    copyText(r.message);
+    if (r.creditUsed && SRV.referral) SRV.referral.credit = Math.max(0, SRV.referral.credit - r.creditUsed);
+    pSfx('done');
+  }
+  /** بررسی کد تخفیف با سرور (کدهای کمپین فقط روی سرور معتبرند) */
+  async function srvPromo(code, st, draw, list) {
+    const r = await api('quote', { tier: st.tier, dur: st.dur, courses: list.filter(x => st.sel[x.id]).map(x => x.id), promo: code });
+    if (r.ok && r.promo) { st.promo = { ok: true, code: r.promo.code, pct: r.promo.pct, plans: r.promo.plans, label: r.promo.label, labelEn: r.promo.labelEn }; st.promoErr = ''; pSfx('done'); }
+    else if (r.ok && r.promoBeaten) { st.promo = null; st.promoErr = PT(`تخفیف دعوت دوستت (${nf(r.refPct)}٪) بیشتر است و همان اعمال می‌شود.`, `Your friend-invite discount (${nf(r.refPct)}%) is larger, so it applies instead.`); }
+    else { st.promo = null; st.promoErr = srvMsg(r.promoErr || r.err); pSfx('wrong'); }
+    draw(true);
+  }
+  /** کارت «دعوت دوستان» (پروفایل، تنظیمات، صفحه اول) */
+  function inviteHTML(compact) {
+    const R = SRV && SRV.referral; if (!R) return '';
+    return `<section class="acinv ${compact ? 'acinv--c' : ''}">
+      <div class="acinv__h"><span class="acinv__i">🎁</span><div><b>${PT('دوستانت را دعوت کن، اعتبار بگیر', 'Invite friends, earn credit')}</b>
+        <small>${PT(`دوستت با کد تو ${nf(R.friendPct)}٪ تخفیف اولین خرید می‌گیرد و تو ${nf(R.rewardPct)}٪ مبلغ خریدش را اعتبار کیف پول.`, `Your friend gets ${nf(R.friendPct)}% off their first purchase with your code, and you get ${nf(R.rewardPct)}% of it as wallet credit.`)}</small></div></div>
+      <div class="acinv__code"><code dir="ltr">${pesc(R.code)}</code><button class="btn btn--brand btn--sm" data-srv="copylink">🔗 ${PT('کپی لینک دعوت', 'Copy invite link')}</button><button class="btn btn--ghost btn--sm" data-srv="copycode">📋 ${PT('کپی کد', 'Copy code')}</button></div>
+      <div class="acinv__nums"><div><b>${nf(R.joined)}</b><small>${PT('دوست ثبت‌نام‌کرده', 'friends joined')}</small></div><div><b>${nf(R.paid)}</b><small>${PT('خرید موفق', 'purchases')}</small></div><div><b>${nf(R.credit)}</b><small>${PT('اعتبار کیف پول', 'wallet credit')} (${CUR()})</small></div></div>
+      ${R.myFriendPct ? `<p class="acinv__mine">🤝 ${PT(`تو با دعوت یک دوست آمده‌ای: ${nf(R.myFriendPct)}٪ تخفیف اولین خریدت خودکار اعمال می‌شود.`, `You joined through a friend: ${nf(R.myFriendPct)}% off your first purchase is applied automatically.`)}</p>` : ''}
+    </section>`;
+  }
+  function accountHTML() {
+    if (!SRV) return '';
+    return `<div class="setc">
+      <div class="setc__r"><span>👤 ${PT('حساب کاربری', 'Account')}<small dir="ltr">${pesc(SRV.user.login)}</small></span><button class="btn btn--ghost btn--sm" data-srv="logout">${PT('خروج از حساب', 'Sign out')}</button></div>
+      <div class="setc__r"><span>🔒 ${PT('تغییر رمز', 'Change password')}<small>${PT('همه دستگاه‌های دیگر خارج می‌شوند', 'Signs out all other devices')}</small></span><button class="btn btn--ghost btn--sm" data-srv="pass">${PT('تغییر', 'Change')}</button></div>
+      <div class="setc__r"><span>🪪 ${PT('شناسه حساب', 'Account ID')}<small>${PT('برای صدور کد فعال‌سازی', 'Used to issue activation codes')}</small></span><code dir="ltr">${pesc(SRV.user.dev)}</code></div>
+    </div>${inviteHTML(true)}`;
+  }
+  document.addEventListener('click', async e => {
+    const b = e.target.closest('[data-srv]'); if (!b || !SRV) return;
+    const act = b.dataset.srv, R = SRV.referral || {};
+    if (act === 'copylink') return copyText(R.link).then(ok => pToast(ok ? PT('🔗 لینک دعوت کپی شد', '🔗 Invite link copied') : R.link));
+    if (act === 'copycode') return copyText(R.code).then(ok => pToast(ok ? PT('📋 کد معرف کپی شد', '📋 Referral code copied') : R.code));
+    if (act === 'logout') { if (!confirm(PT('از حساب خارج شوی؟', 'Sign out?'))) return; await api('logout', {}); location.href = './'; return; }
+    if (act === 'pass') {
+      const m = pModal(`<h3>🔒 ${PT('تغییر رمز', 'Change password')}</h3>
+        <input class="ob__in" type="password" data-po autocomplete="current-password" placeholder="${PT('رمز فعلی', 'Current password')}">
+        <input class="ob__in" type="password" data-pn autocomplete="new-password" placeholder="${PT('رمز تازه (حداقل ۸ نویسه)', 'New password (8+ characters)')}">
+        <div class="acerr" hidden></div>
+        <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>${PT('ذخیره', 'Save')}</button><button class="btn btn--ghost" data-close>${PT('انصراف', 'Cancel')}</button></div>`);
+      m.el.querySelector('[data-go]').onclick = async () => {
+        const r = await api('password', { old: m.el.querySelector('[data-po]').value, new: m.el.querySelector('[data-pn]').value });
+        if (!r.ok) { const er = m.el.querySelector('.acerr'); er.hidden = false; er.textContent = srvMsg(r.err); return; }
+        m.close(); pToast(PT('✅ رمز تازه ذخیره شد', '✅ New password saved'));
+      };
+    }
+  });
+
+  /* ---------- همگام‌سازی پیشرفت با سرور: هر تغییر کلیدهای academy_* چند ثانیه بعد فرستاده می‌شود ---------- */
+  const SYNC_RE = /^academy_(course_[a-z0-9_]{2,24}|global_state)$/;
+  const syncMeta = () => { try { return JSON.parse(localStorage.getItem('academy.sync') || '{}') || {}; } catch (e) { return {}; } };
+  let syncDirty = {}, syncT = null;
+  function syncFlush(keep) {
+    clearTimeout(syncT); syncT = null;
+    const keys = Object.keys(syncDirty); if (!keys.length || !SRV) return;
+    const items = {}, meta = syncMeta();
+    keys.forEach(k => { const v = localStorage.getItem(k); if (v != null && v.length < 300000) items[k] = { v, at: syncDirty[k] }; meta[k] = syncDirty[k]; });
+    syncDirty = {};
+    try { localStorage.setItem('academy.sync', JSON.stringify(meta)); } catch (e) { /* */ }
+    fetch('api/?a=progress_put', { method: 'POST', keepalive: !!keep, credentials: 'same-origin', headers: { 'Content-Type': 'application/json', 'X-CSRF': SRV.csrf }, body: JSON.stringify({ items }) }).catch(() => { });
+  }
+  if (SRV) {
+    const set = Storage.prototype.setItem;
+    Storage.prototype.setItem = function (k, v) {
+      set.call(this, k, v);
+      if (this === localStorage && SYNC_RE.test(k)) { syncDirty[k] = Date.now(); if (!syncT) syncT = setTimeout(syncFlush, 4000); }
+    };
+    addEventListener('pagehide', () => syncFlush(true));
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') syncFlush(true); });
+  }
 
   /* ================= صفحه اول: فقط دوره‌ها (کارت + جزئیات بازشونده) ================= */
   const LOGO = `<svg viewBox="0 0 64 64" width="42" height="42" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>`;
@@ -4129,6 +4278,7 @@ P — Plan: …`);
       </div></header>
       <div class="dwrap">
         ${dailyCaseHTML()}
+        ${SRV ? inviteHTML(true) : ''}
         <section class="dhero">
           <div class="dhero__txt">
             <span class="dchip"><i></i>${PT('آموزش بالینی بازی‌وار • کاملاً آفلاین', 'Game-based clinical learning • fully offline')}</span>
@@ -4213,6 +4363,7 @@ P — Plan: …`);
   }
   function tryRedeem(v, errEl, inp, onOk) {
     if (!v) return;
+    if (SRV) return srvRedeem(v, errEl, inp, onOk);
     const r = redeem(v);
     if (!r.ok) {
       if (errEl) { errEl.hidden = false; errEl.textContent = r.msg; }
@@ -4294,6 +4445,8 @@ P — Plan: …`);
         </div>
         <footer class="up__sum">
           <div><small>${tShort(st.tier)} • ${dShort(st.dur)} • ${st.tier === 3 ? PT('همه دوره‌ها', 'every course') : PT(`${nf(n)} دوره`, `${nf(n)} course${n === 1 ? '' : 's'}`)} • ${PT(`روزی حدود ${nf(Math.round(fin / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} تومان`, `about ${nf(Math.round(fin / [0, 30, 90, 180, 365][st.dur] / 1000) * 1000)} Toman a day`)}</small><span>${fits || full > p ? `<s>${nf(Math.max(full, p))}</s>` : ''}<b>${nf(fin)}</b> <i>${CUR()}</i>${fits ? `<em class="up__off">−${nf(pr.pct)}${PT('٪', '%')}</em>` : ''}</span></div>
+          ${SRV && SRV.referral && SRV.referral.myFriendPct ? `<p class="acsrv-note">🤝 ${PT(`تخفیف دعوت دوست (${nf(SRV.referral.myFriendPct)}٪) هنگام ثبت سفارش اعمال می‌شود (اگر از کد تخفیفت بیشتر باشد).`, `Your friend-invite discount (${nf(SRV.referral.myFriendPct)}%) is applied when you order (if it beats your promo code).`)}</p>` : ''}
+          ${SRV && SRV.referral && SRV.referral.credit > 0 ? `<label class="acsrv-credit"><input type="checkbox" data-usecredit checked> 👛 ${PT(`استفاده از اعتبار کیف پول (${nf(SRV.referral.credit)} ${CUR()})`, `Use wallet credit (${nf(SRV.referral.credit)} ${CUR()})`)}</label>` : ''}
           <button class="btn btn--gold btn--lg" data-order>🧾 ${PT('ثبت سفارش و دریافت کد', 'Place order & get a code')}</button>
         </footer>`;
       if (keepScroll) card.querySelector('.up__b').scrollTop = y;
@@ -4311,6 +4464,7 @@ P — Plan: …`);
         const inp = card.querySelector('[data-promo]'), v = inp ? inp.value.trim() : '';
         st.promoIn = v;
         if (!v) { st.promoErr = PT('کد تخفیف را بنویس.', 'Type a discount code.'); return draw(true); }
+        if (SRV) return srvPromo(v, st, draw, list);
         const r = parsePromo(v);
         if (r && r.ok) { st.promo = r; st.promoErr = ''; pSfx('done'); if (!promoFits(r, st.tier) && r.plans.length === 1) st.tier = r.plans[0]; }
         else { st.promo = null; st.promoErr = (r && r.err) || PT('این کد تخفیف معتبر نیست.', 'This discount code is not valid.'); pSfx('wrong'); }
@@ -4320,6 +4474,7 @@ P — Plan: …`);
       if (e.target.closest('[data-upact]')) { const inp = card.querySelector('.up__code input'); return tryRedeem(inp.value.trim(), card.querySelector('.up__code .acerr'), inp, () => m.close()); }
       if (e.target.closest('[data-order]')) {
         const sel = list.filter(x => st.sel[x.id]);
+        if (SRV) return srvOrder({ tier: st.tier, dur: st.dur, courses: sel.map(x => x.id), promo: st.promo ? st.promo.code : '', use_credit: !!(card.querySelector('[data-usecredit]') || {}).checked }, card.querySelector('.acorder'));
         const base = price(st.tier, sel.map(x => x.id), st.dur), promo = promoFits(st.promo, st.tier) ? st.promo : null, pr = promo ? promoPrice(base, promo) : base;
         const id = 'ORD-' + b32enc(sha256(deviceId() + Date.now() + Math.random())).slice(0, 6);
         // پیام سفارش به زبان رابط؛ پنل مدیر هر دو زبان را می‌خواند (خط‌های ماشینی TRAPO-ORDER/TRAPO-PROMO یکسان‌اند)
@@ -4385,6 +4540,7 @@ P — Plan: …`);
             ${MODE === 'dash' ? `<div class="setc__r"><span>✏️ ${PT('نام روی گواهی‌ها', 'Name on certificates')}<small>${pesc(pr.name || '—')}</small></span><button class="btn btn--ghost btn--sm" data-rename>${PT('تغییر', 'Change')}</button></div>` : ''}
             <div class="setc__r"><span>🌐 ${PT('زبان برنامه', 'App language')}<small>${PT('صفحه اول، پنجره‌ها و همه دوره‌ها؛ بلافاصله عوض می‌شود', 'Home, windows and every course — switches instantly')}</small></span>
               <div class="seg">${[['fa', 'فارسی'], ['en', 'English']].map(l => `<button class="seg__b ${(LS.raw('academy.lang') || 'fa') === l[0] ? 'is-on' : ''}" data-lang="${l[0]}" lang="${l[0]}">${l[1]}</button>`).join('')}</div></div>
+            ${SRV ? '</div>' + accountHTML() + '<div class="setc">' : ''}
             <label class="setc__r"><span>🎵 ${PT('موسیقی پس‌زمینه', 'Background music')}<small>${PT('آرام و بی‌کلام، داخل همه دوره‌ها', 'Calm and wordless, in every course')}</small></span><input type="checkbox" class="sw" data-gmusic ${prefs().music !== false ? 'checked' : ''}></label>
           </div>
         </div>`;
@@ -4587,8 +4743,10 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
   /** فایل‌های جانبی دوره (مثل تصویرهای بالینی) فقط هنگام نیاز: assets: ['courses/data-x-img.js'] */
   function needAssets(list, cb) {
     const srcs = [];
-    [].concat(list).forEach(D => (D && D.assets || []).forEach(src => { if (srcs.indexOf(src) < 0 && !document.querySelector(`script[src="${src}"]`)) srcs.push(src); }));
+    [].concat(list).forEach(D => (D && D.assets || []).forEach(src => { if (srcs.indexOf(src) < 0 && !document.querySelector(`script[src="${src}"]`) && !(window.TRAPO_LOADED && TRAPO_LOADED[src])) srcs.push(src); }));
     if (!srcs.length) return cb();
+    // نسخه هاست: فایل‌ها رمزنگاری‌شده از سرور گرفته و بعد اجرا می‌شوند
+    if (window.TRAPO_LOAD) return window.TRAPO_LOAD(srcs).then(cb, () => cb());
     let left = srcs.length;
     srcs.forEach(src => {
       const el = document.createElement('script');
@@ -4602,9 +4760,12 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     const D = courseDef(id);
     if (isSuite(D)) return bootSuite(D);
     if (D.parent && !calc && !prereqDone(D)) { location.replace('?course=' + D.parent + '&need=' + id); return; }
-    if ((D.assets || []).some(src => !document.querySelector(`script[src="${src}"]`))) {
+    const missing = src => !document.querySelector(`script[src="${src}"]`) && !(window.TRAPO_LOADED && TRAPO_LOADED[src]);
+    if ((D.assets || []).some(missing)) {
       return needAssets(D, () => { bootCourse(id, calc); hideBoot(); fab(); banner(); });
     }
+    // حیطه‌ای که سرور فایلش را نداد (اشتراک ندارد یا تمام شده): برگشت به صفحه حیطه‌ها با پنجره خرید
+    if (D.parent && !D.ready) { location.replace('?course=' + D.parent + '&up=' + id); return; }
     document.documentElement.dataset.course = id;
     ensureSkin(D);
     document.body.classList.add(calc ? 'mode-calc' : 'mode-course');
@@ -4714,6 +4875,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     try { initEmojiFix(); } catch (e) { /* */ }
     deviceId();
     const ok = clockCheck();
+    try { srvInit(); } catch (e) { console.error('[academy] server sync', e); }
     const calc = params.get('calc'), cid = params.get('course');
     const known = id => !!id && (courses().some(c => c.id === id) || (!!SUBC[id] && courses().some(c => c.id === SUBC[id].parent)));
     if (known(calc)) { MODE = 'calc'; bootCourse(calc, true); if (!ok) tamperModal(); return; }
@@ -4728,7 +4890,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     banner(); fab(); expiryNotice();
     hideBoot();
     setTimeout(() => { try { cacheArt(); } catch (e) { /* */ } }, 1500);
-    if (location.protocol.startsWith('http') && 'serviceWorker' in navigator) {
+    if (location.protocol.startsWith('http') && 'serviceWorker' in navigator && !SRV) {
       window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { /* بدون حالت آفلاین */ }); });
     }
   }

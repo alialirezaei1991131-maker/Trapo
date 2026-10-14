@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_tapesh;
   D.css = ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #d6304f, #f08c00); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #4f5bd5, #e03131, #f08c00, #0c8599, #ae3ec9, #2f9e44); border-radius: 20px;}\n[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}\ntable.ref .ref__v{font-family: Nunito, system-ui, sans-serif; font-weight: 800; white-space: nowrap; text-align: left;}\n.recap{margin: 8px 0 4px; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, var(--wc, var(--brand)) 9%, var(--bg)); border: 2px solid color-mix(in srgb, var(--wc, var(--brand)) 35%, var(--line));}\n.recap__h{display: block; font-size: 14px; font-weight: 900; color: color-mix(in srgb, var(--wc, var(--brand)) 80%, var(--text)); margin-bottom: 6px;}\n.recap ul{margin: 0; padding: 0; list-style: none; display: grid; gap: 8px;}\n.recap li{position: relative; padding-inline-start: 24px; font-size: 15px; line-height: 1.8;}\n.recap li::before{content: \"✓\"; position: absolute; inset-inline-start: 2px; top: 0; font-weight: 900; color: var(--green-t);}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* تپش — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1520,6 +1521,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* تپش — دنیای ۱: زبان قلب (پایه همه دنیاها)
  * پیش از ورود به ساختمان قلب، ضربان، رگ‌ها، بیماری‌ها و درمان، «دستور زبان» واژه‌های قلب و عروق را یاد می‌گیریم:
  * ریشه‌های قلب، رگ و بیماری؛ پسوندهای بیماری، تشخیص و درمان؛ پیشوندها؛ جمع و صفت؛ متخصصان و اختصارهای پرونده.
@@ -1673,6 +1675,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تپش — دنیای ۲: ساختمان قلب
  * از جای قلب در قفسه سینه شروع می‌کنیم، لایه‌های دیواره و پریکارد را می‌شناسیم، بعد به چهار حفره و چهار دریچه می‌رسیم
  * و در پایان مسیر خون از بزرگ‌سیاهرگ‌ها تا آئورت و سرخرگ‌های کرونر را دنبال می‌کنیم.
@@ -1827,6 +1831,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تپش — دنیای ۳: ضربان و نوار قلب
  * سیستم هدایت الکتریکی (از گره سینوسی تا رشته‌های پورکنژ)، چرخه قلب، خواندن موج‌ها و کاغذ نوار قلب،
  * ریتم سینوسی، فشار خون، نبض و صداهای قلب و ابزارهای پایش ضربان.
@@ -1979,6 +1985,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تپش — دنیای ۴: رگ‌ها و گردش خون
  * انواع رگ و لایه‌های دیواره، تنگ و گشاد شدن رگ، گردش ریوی و عمومی، گردش کرونری و جانبی،
  * گردش خون جنین، نقشه سرخرگ‌ها و سیاهرگ‌های بدن و دستگاه لنفاوی. */
@@ -2129,6 +2137,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تپش — دنیای ۵: بیماری‌های قلب و رگ
  * از تنگ شدن سرخرگ‌ها (آترواسکلروز، بیماری کرونر، سکته قلبی) شروع می‌کنیم، سپس آریتمی‌ها، بیماری دریچه‌ها،
  * نقص‌های مادرزادی و نارسایی قلب را می‌بینیم و در پایان فشار خون، آنوریسم، لخته، سکته مغزی و بیماری سیاهرگ‌ها. */
@@ -2280,6 +2290,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تپش — دنیای ۶: تشخیص و درمان
  * ابزارهای تشخیص و آزمایش‌های خون، تصویربرداری رگ و کاتتریزاسیون؛ بالن، استنت و جراحی رگ و قلب؛
  * داروهای قلب، فشار، لخته و چربی؛ ضربان‌ساز، شوک و احیای قلبی-ریوی. */
@@ -2429,6 +2441,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* تپش — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2608,6 +2621,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* تپش — راند بالینی: پرونده‌های چندمرحله‌ای
  * پرونده‌ها از مطالعات موردی فصل‌های پیوست (مرد ۵۶ ساله با درد قفسه سینه، خانم تاگارت و تعویض دریچه میترال،
  * یادداشت‌های پرونده بخش قلب) و موقعیت‌های رایج بالینی ساخته شده‌اند؛ هدف: به کار بردن واژه‌های قلب و عروق در دل یک پرونده واقعی.
@@ -2808,6 +2822,8 @@
   ];
 
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* تپش — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

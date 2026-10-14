@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_mahar;
   D.css = ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #7048e8, #e64980); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #4f5bd5, #e03131, #f08c00, #0c8599, #ae3ec9, #2f9e44); border-radius: 20px;}\n.land__h em{font-style: normal; background: linear-gradient(90deg, var(--brand), #ae3ec9 55%, var(--coral)); -webkit-background-clip: text; background-clip: text; color: transparent;}\n[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}\ntable.ref .ref__v{font-family: Nunito, system-ui, sans-serif; font-weight: 800; white-space: nowrap; text-align: left;}\n.recap{margin: 8px 0 4px; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, var(--wc, var(--brand)) 9%, var(--bg)); border: 2px solid color-mix(in srgb, var(--wc, var(--brand)) 35%, var(--line));}\n.recap__h{display: block; font-size: 14px; font-weight: 900; color: color-mix(in srgb, var(--wc, var(--brand)) 80%, var(--text)); margin-bottom: 6px;}\n.recap ul{margin: 0; padding: 0; list-style: none; display: grid; gap: 8px;}\n.recap li{position: relative; padding-inline-start: 24px; font-size: 15px; line-height: 1.8;}\n.recap li::before{content: \"✓\"; position: absolute; inset-inline-start: 2px; top: 0; font-weight: 900; color: var(--green-t);}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* مهار — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1533,6 +1534,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* مهار — دنیای ۱: زبان سرطان (پایه همه دنیاها)
  * پیش از سلول، نام‌گذاری، نشانه‌ها، تشخیص و درمان، «دستور زبان» واژه‌های سرطان را یاد می‌گیریم:
  * ریشه‌های تومور و بافت، پسوندهای رشد و بیماری و جراحی، پیشوندها، جمع و صفت، تیم درمان و اختصارهای پرونده.
@@ -1684,6 +1686,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* مهار — دنیای ۲: سلول و رشد تومور
  * از تقسیم مهارشده سلول طبیعی شروع می‌کنیم، تمایز و تفاوت خوش‌خیم و بدخیم (جدول ۲۰-۱) را می‌بینیم،
  * پله‌های تغییر سلول را از hyperplasia تا سرطان مهاجم دنبال می‌کنیم و در پایان پیدایش و گسترش سرطان را.
@@ -1831,6 +1835,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* مهار — دنیای ۳: نام‌گذاری تومورها
  * قاعده اصلی کتاب: نام تومور از بافت مبدأ می‌آید (جدول‌های ۲۰-۲، ۲۰-۳ و ۲۰-۴)؛
  * ریشه + ‎-oma برای خوش‌خیم، ‎-carcinoma برای بافت پوششی، ‎-sarcoma برای بافت همبند،
@@ -1979,6 +1985,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* مهار — دنیای ۴: نشانه‌ها و غربالگری
  * نشانه‌های هشدار سرطان (CAUTION)، نشانه‌ها در هر اندام (فهرست «Screening and Early Detection» کتاب)،
  * نشانه‌های عمومی، ضایعه‌های پیش‌سرطانی (جدول ۲۰-۴)، خال‌ها و ABCDE، نشانه‌های پستان، غربالگری و نشانگرهای تومور. */
@@ -2124,6 +2132,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* مهار — دنیای ۵: تشخیص و مرحله‌بندی
  * نمونه‌برداری‌ها و غده نگهبان، آندوسکوپی‌ها و تصویربرداری (جدول ۲۰-۵ کتاب)،
  * گیرنده‌ها و درجه تومور، مرحله‌بندی TNM و مرحله‌های ۰ تا ۴ سرطان پستان (شکل ۲۰-۴). */
@@ -2270,6 +2280,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* مهار — دنیای ۶: درمان سرطان
  * جراحی (جدول ۲۰-۵)، جراحی پستان و عارضه‌اش (شکل ۲۰-۹)، پرتودرمانی، شیمی‌درمانی و عارضه‌ها،
  * هورمون‌درمانی و ایمونوتراپی، پیوند سلول بنیادی، زمان‌بندی درمان و هدف‌های درمان (جدول ۲۰-۶). */
@@ -2419,6 +2431,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* مهار — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2609,6 +2622,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* مهار — راند بالینی: پرونده‌های چندمرحله‌ای
  * پرونده اول از «خلاصه ترخیص» فصل Cancer Medicine (کارسینوم پاپیلاری تیروئید و درمان با ید ۱۳۱) گرفته شده
  * و بقیه از موقعیت‌های رایج بالینی سرطان ساخته شده‌اند؛ هدف: به کار بردن واژه‌های سرطان در دل یک پرونده واقعی.
@@ -2800,6 +2814,8 @@
 
 
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* مهار — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

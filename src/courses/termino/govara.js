@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_govara;
   D.css = ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #c2410c, #f59f00); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #4f5bd5, #e03131, #f08c00, #0c8599, #ae3ec9, #2f9e44); border-radius: 20px;}\n.land__h em{font-style: normal; background: linear-gradient(90deg, var(--brand), #ae3ec9 55%, var(--coral)); -webkit-background-clip: text; background-clip: text; color: transparent;}\n[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}\ntable.ref .ref__v{font-family: Nunito, system-ui, sans-serif; font-weight: 800; white-space: nowrap; text-align: left;}\n.recap{margin: 8px 0 4px; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, var(--wc, var(--brand)) 9%, var(--bg)); border: 2px solid color-mix(in srgb, var(--wc, var(--brand)) 35%, var(--line));}\n.recap__h{display: block; font-size: 14px; font-weight: 900; color: color-mix(in srgb, var(--wc, var(--brand)) 80%, var(--text)); margin-bottom: 6px;}\n.recap ul{margin: 0; padding: 0; list-style: none; display: grid; gap: 8px;}\n.recap li{position: relative; padding-inline-start: 24px; font-size: 15px; line-height: 1.8;}\n.recap li::before{content: \"✓\"; position: absolute; inset-inline-start: 2px; top: 0; font-weight: 900; color: var(--green-t);}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* گوارا — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1753,6 +1754,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* گوارا — دنیای ۱: زبان گوارش
  * ساختار واژه، ریشه‌های دهان (جدول ۱۳-۱)، ریشه‌های لوله گوارش (جدول ۱۳-۲)، ریشه‌های اندام‌های کمکی (جدول ۱۳-۳)،
  * پسوندهای علامت و جراحی، صفت‌ها، جمع‌ها و واژه‌های شبیه (جعبه ۱۳-۳).
@@ -1919,6 +1921,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* گوارا — دنیای ۲: دهان تا معده
  * کار دستگاه گوارش، حفره دهان، دندان‌ها، بزاق و جویدن، حلق و بلع، مری و حرکت دودی، بخش‌های معده، شیره معده و آنزیم‌ها.
  * منابع: فصل Digestive System (شکل‌های دستگاه گوارش، دهان، دندان، غدد بزاقی، حلق، معده؛ جعبه ۱۳-۱ و ۱۳-۲؛ واژه‌های کلیدی).
@@ -2079,6 +2083,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* گوارا — دنیای ۳: روده‌ها و اندام‌های کمکی
  * روده باریک و پرزها، صفاق و مزانتر، روده بزرگ و دفع، ربع‌ها و نواحی شکم، کبد، کیسه صفرا و مجاری، پانکراس.
  * منابع: فصل Digestive System (شکل‌های روده باریک و بزرگ، پرز، صفاق، کبد و مجاری صفرا، نواحی شکم؛ جعبه ۱۳-۴).
@@ -2238,6 +2244,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* گوارا — دنیای ۴: بیماری‌های دهان، مری و معده
  * علامت‌های گوارش بالا، بلع و هضم دشوار، گاز و اشتها، پوسیدگی و لثه، ضایعه‌های دهان، شکاف‌ها و غدد بزاقی،
  * ریفلاکس و مری، زخم پپتیک و بیماری‌های معده.
@@ -2400,6 +2408,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* گوارا — دنیای ۵: بیماری‌های روده، کبد و صفرا
  * علامت‌های روده و رنگ مدفوع، بیماری التهابی روده، سلیاک و دیورتیکول و آپاندیسیت، پولیپ و سرطان روده،
  * انسداد روده، فتق و بواسیر و فیستول، هپاتیت و یرقان، سیروز، سنگ صفرا و پانکراتیت.
@@ -2561,6 +2571,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* گوارا — دنیای ۶: تشخیص، جراحی و دارو
  * آندوسکوپی‌ها، تصویربرداری، آزمایش‌ها، برداشتن‌ها، برش و ترمیم و سنگ‌شکنی، استومی و آناستوموز،
  * بیلروت و جراحی چاقی، لوله‌ها و تغذیه، داروهای گوارش.
@@ -2723,6 +2735,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* گوارا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2932,6 +2945,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* گوارا — راند بالینی: پرونده‌های چندمرحله‌ای
  * پرونده‌ها از مطالعه‌های موردی فصل‌های Digestive System گرفته و ساده شده‌اند (ریفلاکس آبه، کوله‌سیستکتومی هدر،
  * کولونوسکوپی سم، زخم پپتیک با ملنا، سرطان سیگموئید، کولیت و پروکتیت، گزارش خون‌ریزی رکتوم، معاینه دندان و …)؛
@@ -3124,6 +3138,8 @@
 
 
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* گوارا — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

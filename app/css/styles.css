@@ -1995,6 +1995,23 @@ body.mode-course::before { animation: none; }
 .actb--lock { background: var(--bg3); color: var(--muted); }
 .dc__sub bdi, .dc__tag bdi { unicode-bidi: isolate; }
 
+/* ---------- نسخه هاست: دعوت دوستان، کیف پول، حساب ---------- */
+.acinv { margin: 18px 0; padding: 18px; border-radius: 20px; background: linear-gradient(120deg, color-mix(in srgb, var(--gold, #ffc800) 18%, var(--bg)), var(--bg)); border: 2px solid color-mix(in srgb, var(--gold, #ffc800) 45%, transparent); }
+.acinv--c { margin: 12px 0; padding: 14px; }
+.acinv__h { display: flex; gap: 12px; align-items: flex-start; }
+.acinv__i { font-size: 30px; line-height: 1; }
+.acinv__h small { display: block; color: var(--muted); line-height: 1.8; margin-top: 2px; }
+.acinv__code { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
+.acinv__code code { font: 900 20px/1 Nunito, system-ui, sans-serif; letter-spacing: 2px; padding: 8px 14px; border-radius: 12px; background: var(--bg2); border: 2px dashed var(--line); }
+.acinv__nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; }
+.acinv__nums div { padding: 8px; border-radius: 12px; background: var(--bg2); }
+.acinv__nums b { display: block; font-size: 20px; }
+.acinv__nums small { color: var(--muted); font-size: 12px; }
+.acinv__mine { margin: 10px 0 0; font-weight: 700; color: var(--green-t, #2b7a0b); }
+.acsrv-note { margin: 0 0 8px; font-size: 13px; color: var(--muted); line-height: 1.8; }
+.acsrv-credit { display: flex; gap: 8px; align-items: center; margin: 0 0 10px; font-weight: 700; cursor: pointer; }
+.acsum p { margin: 4px 0; }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

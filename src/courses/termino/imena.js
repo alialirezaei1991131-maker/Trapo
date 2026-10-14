@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_imena;
   D.css = ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #c8243f, #12a594); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #c8243f, #e5476b, #ff7a45, #12a594, #18a6d9, #7b5ce0); border-radius: 20px;}\n[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* ایمنا — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1442,6 +1443,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* ایمنا — دنیای ۰: زبان پزشکی (پایه همه دنیاها)
  * پیش از ورود به خون، لنف و ایمنی، «دستور زبان» واژه‌های پزشکی را یاد می‌گیریم:
  * قطعه‌های واژه، پیشوندهای دوقلو، ریشه‌های رنگ و جای بدن، پسوندهای بیماری و روش، جمع‌های لاتین، تلفظ و دام‌های همزاد.
@@ -1593,6 +1595,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* ایمنا — دنیای ۱: خون و سلول‌های خونی
  * منابع: فصل‌های Blood / The Blood System / Blood and Immunity / Blood, Lymphatic, and Immune Systems (فایل‌های پیوست)
  * سازنده‌ها در core.js توضیح داده شده‌اند؛ گزینه اول هر سؤال درست است و در اجرا به‌هم می‌ریزد. */
@@ -1753,6 +1757,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* ایمنا — دنیای ۲: هموستاز، گروه خونی و انتقال خون */
 (function (root) {
   const EA = root.EA;
@@ -1898,6 +1904,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* ایمنا — دنیای ۳: دستگاه لنفاوی */
 (function (root) {
   const EA = root.EA;
@@ -2047,6 +2055,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* ایمنا — دنیای ۴: ایمنی */
 (function (root) {
   const EA = root.EA;
@@ -2196,6 +2206,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* ایمنا — دنیای ۵: آزمایش، درمان و مراقبت ویژه
  * بخش ICU و ایمونونوتریشن از نسخه غنی‌شده داده‌ها (SIRS، سپسیس، طوفان سایتوکینی، PCT، hs-CRP، هپسیدین، گلوتامین، آرژینین، امگا-۳) آمده است. */
 (function (root) {
@@ -2343,6 +2355,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* ایمنا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2501,6 +2514,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* ایمنا — راند بالینی: پرونده‌های چندمرحله‌ای
  * هر کیس از مطالعات موردی فایل‌های پیوست آمده (Dianne Love، Lisa، Ada، John Latella، Olivia و بقیه)؛
  * هدف: به کار بردن واژه‌ها، اختصارها و آزمایش‌ها در دل یک پرونده واقعی.
@@ -2685,6 +2699,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* ایمنا — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

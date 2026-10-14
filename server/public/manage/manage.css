@@ -1,0 +1,24 @@
+.mg { max-width: 1100px; margin: 0 auto; padding: 18px 16px 60px; }
+.mg__login { margin: 10vh auto 0; }
+.mg__bar { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; justify-content: space-between; padding: 12px 16px; background: var(--card); border-radius: 18px; border: 1px solid var(--line); margin-bottom: 16px; }
+.mg__tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.mg__tabs button, .mg__seg button, .mg__btns button, .mg__out, .mg__t button { font: inherit; font-weight: 700; border: 1px solid var(--line); background: var(--bg); color: var(--ink); border-radius: 12px; padding: 8px 14px; cursor: pointer; }
+.mg__tabs .is-on, .mg__seg .is-on { background: var(--brand); color: #fff; border-color: var(--brand); }
+.mg__nums { display: grid; grid-template-columns: repeat(auto-fill, minmax(170px, 1fr)); gap: 10px; margin-bottom: 18px; }
+.mg__nums div { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 14px; }
+.mg__nums b { display: block; font-size: 22px; }
+.mg__nums small { color: var(--muted); }
+.mg__t { width: 100%; border-collapse: collapse; background: var(--card); border-radius: 14px; overflow: hidden; font-size: 14px; }
+.mg__t th, .mg__t td { padding: 9px 10px; border-bottom: 1px solid var(--line); text-align: start; }
+.mg__seg { display: flex; gap: 6px; margin-bottom: 12px; flex-wrap: wrap; }
+.mg__o { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px 14px; margin-bottom: 10px; }
+.mg__o header { display: flex; justify-content: space-between; gap: 8px; flex-wrap: wrap; margin-bottom: 6px; }
+.mg__o p { margin: 4px 0; line-height: 1.8; }
+.mg__o code { background: var(--bg); padding: 1px 6px; border-radius: 6px; }
+.mg__btns { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 8px; }
+.mg__btns .au__go { padding: 8px 14px; font-size: 14px; box-shadow: none; margin: 0; }
+.mg__pf { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.mg__pf input, .mg__pf select { font: inherit; padding: 9px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); }
+.mg__pf .au__go { padding: 9px 16px; font-size: 15px; box-shadow: none; margin: 0; }
+.mg__muted { color: var(--muted); }
+.mg__toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1f2a2e; color: #fff; padding: 10px 16px; border-radius: 12px; z-index: 9; }

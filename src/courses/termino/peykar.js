@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_peykar;
   D.css = ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #2f5fd0, #12a594); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #2f5fd0, #4f5bd5, #d6457a, #e07a1f, #12a594, #7b5ce0); border-radius: 20px;}\n[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}\ntable.ref .ref__v{font-family: Nunito, system-ui, sans-serif; font-weight: 800; white-space: nowrap; text-align: left;}\n.recap{margin: 8px 0 4px; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, var(--wc, var(--brand)) 9%, var(--bg)); border: 2px solid color-mix(in srgb, var(--wc, var(--brand)) 35%, var(--line));}\n.recap__h{display: block; font-size: 14px; font-weight: 900; color: color-mix(in srgb, var(--wc, var(--brand)) 80%, var(--text)); margin-bottom: 6px;}\n.recap ul{margin: 0; padding: 0; list-style: none; display: grid; gap: 8px;}\n.recap li{position: relative; padding-inline-start: 24px; font-size: 15px; line-height: 1.8;}\n.recap li::before{content: \"✓\"; position: absolute; inset-inline-start: 2px; top: 0; font-weight: 900; color: var(--green-t);}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* پیکر — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1369,6 +1370,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* پیکر — دنیای ۱: زبان بدن (پایه همه دنیاها)
  * پیش از ورود به سلول، بافت، دستگاه‌ها و نقشه بدن، «دستور زبان» واژه‌های آناتومی را یاد می‌گیریم:
  * قطعه‌های واژه، پیشوندهای جا، پسوندهای صفت‌ساز، منافذ بدن، قاعده‌های جمع، راه‌های دارو، همزادهای گیج‌کننده و اختصارهای پرونده.
@@ -1523,6 +1525,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* پیکر — دنیای ۲: سازمان‌یابی بدن و سلول
  * از علوم بدن و پله‌های سازمان‌یابی (سلول ← بافت ← اندام ← دستگاه ← موجود زنده) تا ساختار سلول، DNA، تقسیم و رشد غیرطبیعی.
  * منابع: An Org Chart to Live By، Body Organization، Body Structure6، Organization of the Body و Basic Body Structure. */
@@ -1674,6 +1678,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* پیکر — دنیای ۳: بافت‌ها و غشاها
  * چهار بافت اصلی (پوششی، همبند، عضلانی، عصبی)، غشاهای جداری و احشایی، پوست به‌عنوان یک اندام و آسیب‌های بافتی.
  * منابع: Body Organization5، Body Organs and Parts، Basic Body Structure، Body Structure6 و Body Structure. */
@@ -1825,6 +1831,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* پیکر — دنیای ۴: دستگاه‌ها و اندام‌ها
  * نقشه دستگاه‌های بدن، ریشه‌های اندام‌ها در هر دستگاه (با جدول‌های ریشه کتاب) و تخصص‌های پزشکی مربوط.
  * منابع: Basic Body Structure (جدول‌های ریشه هر دستگاه)، Body Organization5، Body Organs and Parts و The Human Body An Orientation. */
@@ -1976,6 +1984,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* پیکر — دنیای ۵: جهت‌ها، صفحه‌ها و وضعیت‌ها
  * وضعیت آناتومیک، جفت‌های جهت، صفحه‌های بدن، حرکت‌ها، وضعیت‌های بیمار و روش‌های تصویربرداری.
  * منابع: Body Structure، Body Organization، The Human Body An Orientation، Organization of the Body و An Org Chart to Live By. */
@@ -2127,6 +2137,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* پیکر — دنیای ۶: حفره‌ها و نواحی بدن
  * حفره‌های پشتی و جلویی، قفسه سینه و شکم-لگن، نه ناحیه و چهار ربع شکم، ستون مهره‌ها و نواحی سطحی بدن.
  * منابع: An Org Chart to Live By، Body Organization، Body Structure، Organization of the Body، The Human Body An Orientation. */
@@ -2279,6 +2291,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* پیکر — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2449,6 +2462,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* پیکر — راند بالینی: پرونده‌های چندمرحله‌ای
  * پرونده‌ها از مطالعات موردی فایل‌های پیوست (کودک با جسم خارجی در بینی، زکریا، بیمار سلیاک، کتی رایلی، ارجاع‌های فصل
  * Body Organization5) و موقعیت‌های رایج بالینی ساخته شده‌اند؛ هدف: به کار بردن واژه‌های ساختار بدن در دل یک پرونده واقعی.
@@ -2639,6 +2653,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* پیکر — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

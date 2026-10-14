@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_nephra;
   D.css = ".kf{display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; margin: 10px 0;}\n.kf__in{display: flex; flex-direction: column; gap: 6px; flex: 1 1 120px; min-width: 0; font-weight: 800; color: var(--muted);}\n.kf__in input{width: 100%; min-width: 0; font: inherit; font-size: 18px; font-weight: 900; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; text-align: left; direction: ltr; font-family: Nunito, system-ui, sans-serif;}\n.kf__in input:focus{outline: none; border-color: var(--brand);}\n.kf__sxs{display: flex; gap: 8px; margin: 10px 0 0; flex-wrap: wrap;}\n.kf__sx{flex: 1 1 100px; font: inherit; font-weight: 900; padding: 9px 12px; border-radius: 14px; border: 2px solid var(--line); background: var(--bg); color: var(--text); cursor: pointer;}\n.kf__sx.is-on{border-color: var(--brand); background: color-mix(in srgb, var(--brand) 14%, var(--bg)); color: var(--brand-t);}\n.kf__out{display: grid; grid-template-columns: repeat(auto-fit, minmax(118px, 1fr)); gap: 8px; margin: 8px 0 10px;}\n.kf__c{--k: var(--brand); padding: 10px 12px; border-radius: 16px; background: color-mix(in srgb, var(--k) 10%, var(--bg)); border: 2px solid color-mix(in srgb, var(--k) 38%, var(--line)); min-width: 0;}\n.kf__c b{display: block; font-size: 19px; color: var(--k); overflow-wrap: anywhere;}\n.kf__c small{display: block; color: var(--muted); font-weight: 700; overflow-wrap: anywhere;}\n.kf__c span{display: block; font-weight: 800; margin-bottom: 2px;}\n.kf__bar{height: 12px; border-radius: 8px; background: var(--line); overflow: hidden; margin: 0 0 8px; direction: ltr;}\n.kf__bar i{display: block; height: 100%; border-radius: 8px;}\n.kf__note{color: var(--muted); font-weight: 700; margin: 0 0 10px;}\n.kf__h{margin: 16px 0 4px; font-size: 16px;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* نِفرا — پیکربندی اپ: هر متن، نام، کلید ذخیره‌سازی، شخصیت و ابزار ویژه‌ای که موتور مشترک (engine/) از اپ می‌خواهد.
@@ -1800,6 +1801,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* نِفرا — دنیای ۰: زبان کلیه (پایه همه دنیاها)
  * سطح ۱: دستگاه و متخصصان • سطح ۲: ریشه‌های کلیه و مجاری • سطح ۳: پیشوندها، پسوندها و دام‌ها
  * سازنده‌ها در core.js توضیح داده شده‌اند؛ گزینه اول هر سؤال درست است و در اجرا به‌هم می‌ریزد. */
@@ -1946,6 +1948,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نِفرا — دنیای ۱: کلیه و نفرون
  * سطح ۱: کلیه از بیرون و درون • سطح ۲: نفرون و ساخت ادرار • سطح ۳: خون، هورمون‌ها و هم‌ایستایی */
 (function (root) {
@@ -2091,6 +2095,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نِفرا — دنیای ۲: مثانه و دفع ادرار
  * سطح ۱: میزنای و مثانه • سطح ۲: پیشابراه و ادرار کردن • سطح ۳: اختلال‌های دفع و ساختار */
 (function (root) {
@@ -2236,6 +2242,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نِفرا — دنیای ۳: ادرار و نشانه‌ها
  * سطح ۱: ادرار و آزمایش آن • سطح ۲: حجم و دفع ادرار • سطح ۳: ادرار غیرطبیعی و خون */
 (function (root) {
@@ -2381,6 +2389,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نِفرا — دنیای ۴: بیماری‌های ادراری
  * سطح ۱: عفونت و التهاب • سطح ۲: سنگ و نارسایی • سطح ۳: کیست، ناهنجاری و تومور */
 (function (root) {
@@ -2526,6 +2536,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نِفرا — دنیای ۵: تشخیص و درمان
  * سطح ۱: تصویربرداری و آندوسکوپی • سطح ۲: سونداژ، دیالیز و سنگ‌شکنی • سطح ۳: جراحی، پیوند و دارو */
 (function (root) {
@@ -2671,6 +2683,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* نِفرا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2917,6 +2930,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* نِفرا — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی و تمرین‌های فایل‌های پیوست آمده‌اند: Case Study کتاب Cohen (بی‌اختیاری استرسی Jade، Case Study 14-1
  * سنگ کلیه Helen و Case Study 14-2 نارسایی کلیه Adrien)، Case Study، Discharge Summary و Chart Note Transcription کتاب Fremgen،
@@ -3192,6 +3206,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* نِفرا — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

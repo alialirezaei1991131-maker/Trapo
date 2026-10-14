@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_hormona;
   D.css = "[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}\ntable.mini td .en-text, table.mini td[dir=\"ltr\"]{overflow-wrap: anywhere;}\n.vs__c bdi.nw, table.mini bdi.nw, .wbx bdi.nw, .match bdi.nw, .chip bdi.nw, .opt bdi.nw, .rcard2 bdi.nw, .dict__t bdi.nw{white-space: normal; overflow-wrap: anywhere;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* هورمونا — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1429,6 +1430,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* هورمونا — دنیای ۰: زبان هورمون‌ها (پایه همه دنیاها)
  * پیش از رفتن سراغ تک‌تک غدد، دو چیز را یاد می‌گیریم: «دستگاه درون‌ریز چطور کار می‌کند» و «واژه‌هایش چطور ساخته می‌شوند».
  * سطح ۱: پیام‌رسان‌ها، گیرنده‌ها، بازخورد و نقشه غدد • سطح ۲: قطعه‌های واژه، ریشه‌های غدد و پیشوندها • سطح ۳: پسوندها و دام‌های همزاد.
@@ -1584,6 +1586,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* هورمونا — دنیای ۱: هیپوتالاموس و هیپوفیز
  * منابع: فصل‌های Endocrine System پیوست (Pituitary and hypothalamus، Pituitary Disorders، Box 9-4)
  * سطح ۱: فرمانده و ارکستر • سطح ۲: هورمون‌های هیپوفیز • سطح ۳: اختلال‌های هیپوفیز
@@ -1739,6 +1743,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* هورمونا — دنیای ۲: تیروئید و پاراتیروئید
  * منابع: فصل‌های Endocrine System پیوست (Thyroid، Parathyroid، Graves disease، Case Study Jasmine و Beth)
  * سطح ۱: پروانه گردن • سطح ۲: پرکار، کم‌کار، گواتر • سطح ۳: کلسیم، آزمایش و درمان
@@ -1896,6 +1902,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* هورمونا — دنیای ۳: غدد فوق‌کلیه
  * منابع: فصل‌های Endocrine System پیوست (Adrenals، Cushing، Addison، Pheochromocytoma، Chart note Cushing)
  * سطح ۱: کلاهی روی کلیه • سطح ۲: پرکاری قشر • سطح ۳: کم‌کاری، تومور و درمان
@@ -2052,6 +2060,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* هورمونا — دنیای ۴: پانکراس و دیابت
  * منابع: فصل‌های Endocrine System پیوست (Pancreas، Diabetes mellitus، Discharge Summary، Kelly Post، Maria، Infected Foot)
  * سطح ۱: جزایر شیرین • سطح ۲: دیابت شیرین • سطح ۳: عوارض و درمان
@@ -2210,6 +2220,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* هورمونا — دنیای ۵: غدد دیگر، تشخیص و درمان
  * منابع: فصل‌های Endocrine System پیوست (Pineal، Thymus، Gonads، Diagnostic/Laboratory terms، Surgical، Pharmacology، Box 9-4، Progress Note)
  * سطح ۱: غدد کم‌صدا • سطح ۲: آزمایشگاه و تصویربرداری • سطح ۳: درمان و جمع‌بندی
@@ -2361,6 +2373,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* هورمونا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2543,6 +2556,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* هورمونا — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی فایل‌های پیوست آمده‌اند (Jasmine، Beth، Marcy Capell، Kelly Post، Discharge Summary، Consultation Report،
  * Infected Foot، Progress Note و بقیه)؛ جایی که داده منبع با فیزیولوژی ناسازگار بود (مثلاً TSH بالا همراه با پرکاری)، اصلاح شده است.
@@ -2732,6 +2746,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* هورمونا — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

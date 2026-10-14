@@ -33,7 +33,7 @@ const OPTS = {
   target: 'browser',
   sourceMap: false
 };
-const shouldObfuscate = rel => rel === path.join('js', 'engine.js') || (/^courses[\\/](data-.*|termino[\\/][a-z]+)\.js$/.test(rel) && !/-img\.js$/.test(rel));
+const shouldObfuscate = rel => rel === path.join('js', 'engine.js') || (/^courses[\\/](data-.*|termino[\\/][a-z]+(\.preview)?)\.js$/.test(rel) && !/-img\.js$/.test(rel));
 
 function walk(dir, base = '') {
   return fs.readdirSync(dir, { withFileTypes: true }).flatMap(d => d.isDirectory() ? walk(path.join(dir, d.name), path.join(base, d.name)) : [path.join(base, d.name)]);

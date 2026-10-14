@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_derma;
   D.css = ".burn{display: flex; flex-direction: column; gap: 6px; margin: 10px 0;}\n.burn__r{display: flex; justify-content: space-between; align-items: center; gap: 10px; padding: 6px 10px; border: 2px solid var(--line); border-radius: 14px; flex-wrap: wrap;}\n.burn__n{font-weight: 800; min-width: 0;}\n.burn__n small{color: var(--muted); font-weight: 700; margin-inline-start: 4px;}\n.burn__r .seg{flex-shrink: 0;}\n.burn__out{display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; padding: 12px 16px; border-radius: 16px; background: color-mix(in srgb, #C8423C 12%, var(--bg)); border: 2px solid color-mix(in srgb, #C8423C 40%, var(--line)); margin-bottom: 12px;}\n.burn__out b{font-size: 28px; color: #C8423C;}\n.burn__out small{flex-basis: 100%; color: var(--muted); font-weight: 700;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* درما — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1474,6 +1475,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* درما — دنیای ۰: زبان پوست (پایه همه دنیاها)
  * پیش از رفتن سراغ لایه‌ها و بیماری‌ها، دو چیز را یاد می‌گیریم: «پوست چه می‌کند» و «واژه‌هایش چطور ساخته می‌شوند».
  * سطح ۱: پوست، بزرگ‌ترین اندام • سطح ۲: ریشه‌های پوست و رنگ‌ها • سطح ۳: پیشوندها، پسوندها و دام‌های همزاد
@@ -1620,6 +1622,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* درما — دنیای ۱: لایه‌های پوست
  * منابع: Integumentary System در total.txt و PDFهای پیوست (Epidermis، Dermis، Subcutaneous tissue، Wound healing)
  * سطح ۱: اپیدرم • سطح ۲: درم • سطح ۳: زیرجلدی، ترمیم و راه‌های تزریق
@@ -1767,6 +1771,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* درما — دنیای ۲: ضمائم پوست (مو، ناخن و غدد)
  * منابع: Accessory organs در total.txt و PDFهای پیوست (Hair، Nails، Sudoriferous and Sebaceous glands، Beau lines، Paronychia)
  * سطح ۱: مو • سطح ۲: ناخن • سطح ۳: غدد عرق و چربی
@@ -1914,6 +1920,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* درما — دنیای ۳: ضایعه‌ها و نشانه‌ها
  * منابع: Skin lesions (Box 4-2، Figure 3-7 تا 3-16)، Symptoms and signs در total.txt و PDFهای پیوست
  * سطح ۱: ضایعه‌های اولیه مسطح و برجسته • سطح ۲: مایع، ثانویه و فرورفته • سطح ۳: رنگ‌ها و نشانه‌ها
@@ -2061,6 +2069,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* درما — دنیای ۴: بیماری‌های پوست
  * منابع: Pathological conditions در total.txt و PDFهای پیوست (Infections، Dermatitis، Psoriasis، Acne، SLE، Burns، Rule of nines،
  * Pressure ulcer و Case Study: Kathleen's Pressure Ulcer)
@@ -2209,6 +2219,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* درما — دنیای ۵: تومورها، تشخیص و درمان
  * منابع: Neoplasms، Diagnostic/Laboratory tests، Surgical procedures، Pharmacology و Abbreviations در total.txt و PDFهای پیوست
  * (Case Study 4-1 BCC، Dermatology Consultation Report، Chart notes)
@@ -2359,6 +2371,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* درما — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2557,6 +2570,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* درما — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی فایل‌های پیوست آمده‌اند (Kathleen's Pressure Ulcer، Case Study 4-1 Joanne (BCC)، SLE workup،
  * Pearson Consultation Report (cellulitis)، Exercise 4-9 (impetigo)، Lin Cave، Rose Arlia، Dermatology Consultation Report،
@@ -2803,6 +2817,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* درما — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

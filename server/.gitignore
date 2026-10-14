@@ -1,0 +1,4 @@
+# رمزها و داده کاربران هرگز در گیت
+config.php
+data/*
+!data/.htaccess

@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_timar;
   D.css = ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #0c8f7f, #1c7ed6); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #4f5bd5, #e03131, #f08c00, #0c8599, #ae3ec9, #2f9e44); border-radius: 20px;}\n.land__h em{font-style: normal; background: linear-gradient(90deg, var(--brand), #ae3ec9 55%, var(--coral)); -webkit-background-clip: text; background-clip: text; color: transparent;}\n[lang=\"fa\"]{font-family: Vazirmatn, Tahoma, system-ui, sans-serif;}\ntable.ref .ref__v{font-family: Nunito, system-ui, sans-serif; font-weight: 800; white-space: nowrap; text-align: left;}\n.recap{margin: 8px 0 4px; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, var(--wc, var(--brand)) 9%, var(--bg)); border: 2px solid color-mix(in srgb, var(--wc, var(--brand)) 35%, var(--line));}\n.recap__h{display: block; font-size: 14px; font-weight: 900; color: color-mix(in srgb, var(--wc, var(--brand)) 80%, var(--text)); margin-bottom: 6px;}\n.recap ul{margin: 0; padding: 0; list-style: none; display: grid; gap: 8px;}\n.recap li{position: relative; padding-inline-start: 24px; font-size: 15px; line-height: 1.8;}\n.recap li::before{content: \"✓\"; position: absolute; inset-inline-start: 2px; top: 0; font-weight: 900; color: var(--green-t);}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* تیمار — هسته: فضای نام، متن‌ها، رقم فارسی و سازنده‌های کوتاه محتوا
@@ -1941,6 +1942,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* تیمار — دنیای ۱: زبان بیماری (پایه همه دنیاها)
  * پیش از میکروب‌ها، پاسخ بدن، معاینه، جراحی و دارو، «دستور زبان» واژه‌های بیماری را یاد می‌گیریم:
  * ریشه‌های بیماری، پیشوندها، پسوندهای بیماری و واژه‌هایی که خودشان پسوند می‌شوند.
@@ -2104,6 +2106,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تیمار — دنیای ۲: میکروب‌ها و انواع بیماری
  * انواع بیماری، علت و سیر بیماری، نام‌گذاری بیماری‌ها، شکل و رنگ باکتری‌ها، ویروس و قارچ و انگل‌ها،
  * راه‌های ورود میکروب، شیوع (endemic تا pandemic) و عفونت بیمارستانی.
@@ -2264,6 +2268,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تیمار — دنیای ۳: پاسخ بدن به بیماری
  * التهاب و چهار نشانه‌اش، ادم و تجمع مایع، فاگوسیتوز و چرک، ایمنی ذاتی و اکتسابی، نئوپلاسم خوش‌خیم و بدخیم،
  * تغییرات رشد سلول، ضایعه‌ها و مرگ بافت، فتق و افتادگی.
@@ -2422,6 +2428,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تیمار — دنیای ۴: معاینه و تشخیص
  * نشانه و علامت، شرح حال و اختصارهایش، معاینه فیزیکی (IPPA)، علائم حیاتی و فشار خون، نشانه‌های بالینی،
  * ابزارهای ‎-scope و پسوندهای ثبت و اندازه‌گیری، ریشه‌های نیروهای فیزیکی و روش‌های تصویربرداری.
@@ -2585,6 +2593,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تیمار — دنیای ۵: جراحی و درمان
  * پسوندهای جراحی (جدول ۳-۸)، هدف‌های جراحی و بیوپسی، مسیر بیمار پیش و پس از عمل، ابزارهای جراحی (جعبه ۳-۶)،
  * لوله‌ها و شست‌وشو، درمان و پیش‌آگهی و سرطان، و طب مکمل و جایگزین.
@@ -2745,6 +2755,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* تیمار — دنیای ۶: دارو و نسخه
  * دارو و نسخه، نام ژنریک و تجاری، منابع اطلاعات دارویی، عارضه و تداخل، تحمل و وابستگی، داروی گیاهی،
  * راه‌های تجویز (جعبه ۳-۷)، شکل‌های دارو (جعبه ۳-۸)، داروهای تزریقی (جعبه ۳-۹)، اجزای واژه دارو (جدول ۳-۹) و اختصارهای نسخه.
@@ -2906,6 +2918,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* تیمار — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -3104,6 +3117,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* تیمار — راند بالینی: پرونده‌های چندمرحله‌ای
  * سه پرونده از کیس‌های فصل Disease and Treatment گرفته شده‌اند (آسیب اسکیت ماری، اندوکاردیت رابرت و نسخه‌های آسم چلسی)
  * و بقیه از موقعیت‌های رایج بخش ساخته شده‌اند؛ هدف: به کار بردن واژه‌های بیماری و درمان در دل یک پرونده واقعی.
@@ -3295,6 +3309,8 @@
 
 
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* تیمار — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

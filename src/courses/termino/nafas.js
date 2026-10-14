@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_nafas;
   D.css = ".spi{display: flex; flex-wrap: wrap; gap: 10px; margin: 10px 0;}\n.spi .rom__in{flex: 1 1 140px;}\n.spi__f{display: flex; align-items: center; gap: 6px; min-width: 0;}\n.spi__f i{flex-shrink: 0; font-style: normal; font-weight: 800; color: var(--muted); font-family: Arial, Helvetica, sans-serif; direction: ltr;}\n.rom__in{display: flex; flex-direction: column; gap: 6px; min-width: 0; font-weight: 800; color: var(--muted);}\n.rom__in input{width: 100%; min-width: 0; font: inherit; font-size: 20px; font-weight: 900; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; text-align: left; font-family: Nunito, system-ui, sans-serif;}\n.rom__in input:focus{outline: none; border-color: #17a398;}\n.rom__out{display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; padding: 12px 16px; border-radius: 16px; background: color-mix(in srgb, #17a398 12%, var(--bg)); border: 2px solid color-mix(in srgb, #17a398 40%, var(--line)); margin-bottom: 12px;}\n.rom__out b{font-size: 24px; color: #17a398;}\n.rom__out small{flex-basis: 100%; color: var(--muted); font-weight: 700;}\n.rom__h{margin: 16px 0 4px; font-size: 16px;}\n.tsc--ok{color: #46a302 !important;}\n.tsc--mid{color: #e5a500 !important;}\n.tsc--bad{color: #c2413a !important;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* نَفَس — پیکربندی اپ: هر متن، نام، کلید ذخیره‌سازی، شخصیت و ابزار ویژه‌ای که موتور مشترک (engine/) از اپ می‌خواهد.
@@ -1468,6 +1469,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* نَفَس — دنیای ۰: زبان تنفس (پایه همه دنیاها)
  * پیش از رفتن سراغ بینی و ریه‌ها دو چیز را یاد می‌گیریم: «دستگاه تنفس چه می‌کند» و «واژه‌هایش چطور ساخته می‌شوند».
  * سطح ۱: مسیر هوا و تبادل گاز • سطح ۲: ریشه‌های اصلی • سطح ۳: پیشوندها، پسوندها و دام‌های همزاد
@@ -1615,6 +1617,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نَفَس — دنیای ۱: تنفس فوقانی
  * سطح ۱: بینی و سینوس‌ها • سطح ۲: حلق و حنجره • سطح ۳: بیماری‌ها و جراحی‌های مجرای فوقانی */
 (function (root) {
@@ -1760,6 +1764,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نَفَس — دنیای ۲: تنفس تحتانی
  * سطح ۱: نای و درخت نایژه‌ای • سطح ۲: ریه‌ها و آلوئول • سطح ۳: پرده جنب، میان‌سینه و دیافراگم */
 (function (root) {
@@ -1905,6 +1911,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نَفَس — دنیای ۳: تهویه و نشانه‌ها
  * سطح ۱: الگوهای تنفس • سطح ۲: اکسیژن، سرفه و خلط • سطح ۳: صداهای ریه و حجم‌های ریوی */
 (function (root) {
@@ -2050,6 +2058,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نَفَس — دنیای ۴: بیماری‌های تنفسی
  * سطح ۱: بیماری‌های انسدادی (آسم، COPD) • سطح ۲: عفونت‌ها (پنومونی، سل، سیاه‌سرفه) • سطح ۳: جنب، نوزادان، غبار و سرطان */
 (function (root) {
@@ -2195,6 +2205,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نَفَس — دنیای ۵: تشخیص و درمان
  * سطح ۱: آزمون‌ها و تصویربرداری • سطح ۲: راه هوایی و اکسیژن • سطح ۳: دارو، جراحی و پرونده */
 (function (root) {
@@ -2340,6 +2352,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* نَفَس — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2548,6 +2561,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* نَفَس — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی و تمرین‌های فایل‌های پیوست آمده‌اند: Pearson ER Record (Chart Note Transcription)، Pulmonology Consultation Report،
  * Case Study آلیسون (Preoperative Respiratory Testing)، Case Study 12-1 (Giant Cell Sarcoma)، Case Study 12-2 (Terminal Dyspnea)،
@@ -2795,6 +2809,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* نَفَس — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

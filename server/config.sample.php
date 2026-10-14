@@ -1,0 +1,71 @@
+<?php
+/*
+ * تراپو — تنظیمات سرور
+ * این فایل را به نام config.php کنار همین فایل کپی کنید و مقدارها را عوض کنید.
+ * config.php هرگز نباید داخل پوشه public باشد و هرگز در گیت ثبت نمی‌شود.
+ *
+ * ساخت مقدارهای تصادفی:  php -r "echo bin2hex(random_bytes(32)), PHP_EOL;"
+ * ساخت هش رمز پنل مدیریت: php -r "echo password_hash('رمز-خیلی-قوی', PASSWORD_DEFAULT), PHP_EOL;"
+ */
+return [
+    /* نشانی کامل سایت (بدون / پایانی)؛ کوکی‌ها فقط روی HTTPS فرستاده می‌شوند */
+    'base_url' => 'https://example.com',
+
+    /* پایگاه داده: SQLite (پیش‌فرض، بی‌نیاز از تنظیم) یا MySQL */
+    'db' => [
+        'driver' => 'sqlite',                                   // 'sqlite' یا 'mysql'
+        'sqlite_path' => __DIR__ . '/data/trapo.sqlite',        // بیرون از public
+        'mysql_dsn' => 'mysql:host=localhost;dbname=trapo;charset=utf8mb4',
+        'mysql_user' => 'trapo',
+        'mysql_pass' => '',
+    ],
+
+    /* کلید مخفی سرور (۶۴ نویسه hex): امضای نشست‌ها، CSRF و کد معرف‌ها */
+    'app_secret' => 'CHANGE-ME-64-HEX',
+
+    /* کلید عمومی امضای کدهای فعال‌سازی (همان LICENSE_KEYS برنامه). کلید خصوصی فقط در پنل آفلاین مدیر است. */
+    'license_public_keys' => ['LNZlJrpkxzlBtHYdzIYzag82VIFejokLckHFvS05M7s='],
+
+    /* پنل مدیریت سرور (/manage): هش رمز و (اختیاری) فهرست IP مجاز */
+    'manage_password_hash' => '',
+    'manage_ip_allow' => [],                                    // مثلاً ['1.2.3.4']؛ خالی = همه
+
+    /* نشست و امنیت */
+    'session_days' => 30,
+    'max_sessions_per_user' => 3,                               // ورود هم‌زمان روی چند دستگاه
+    'login_max_attempts' => 6,                                  // در ۱۵ دقیقه برای هر IP + شناسه
+    'register_max_per_ip_day' => 8,
+
+    /* سیستم معرف (ارجاع) */
+    'referral' => [
+        'friend_discount_pct' => 15,                            // تخفیف دوستی که با کد معرف می‌آید (اولین خرید)
+        'referrer_reward_pct' => 20,                            // اعتبار معرف از مبلغ پرداختی دوست (تومان)
+        'reward_cap' => 2000000,                                // سقف اعتبار هر معرف از یک خرید
+        'max_credit_use_pct' => 50,                             // حداکثر سهم اعتبار در پرداخت هر سفارش
+    ],
+
+    /* کدهای تخفیف ثابت (کدهای کمپین را از پنل مدیریت سرور بسازید) */
+    'promos' => [
+        'MED20' => ['pct' => 20, 'plans' => [1, 2, 3], 'fa' => 'تخفیف دانشجویان پزشکی', 'en' => 'Medical student discount'],
+        'VIP30' => ['pct' => 30, 'plans' => [3], 'fa' => 'تخفیف ویژه پکیج الماس', 'en' => 'Diamond package discount'],
+    ],
+    /* کدهای کمپین قدیمی (ساخت پنل آفلاین) با برچسب عمومی قابل جعل‌اند؛ فقط در صورت نیاز روشن کنید */
+    'allow_legacy_promos' => false,
+
+    /* قیمت‌ها (تومان) — باید با برنامه یکی باشد؛ سرور مبلغ را خودش حساب می‌کند و به عدد کاربر اعتماد نمی‌کند */
+    'prices' => [
+        'yona' => [1 => 590000, 2 => 890000],
+        'homa' => [1 => 690000, 2 => 990000],
+        'negar' => [1 => 640000, 2 => 940000],
+        'termino' => [1 => 990000, 2 => 1390000],
+        '_default' => [1 => 590000, 2 => 890000],
+        '_diamond' => 1790000,
+        '_dur_mult' => [1 => 1, 2 => 2.5, 3 => 4.4, 4 => 7.5],
+        '_bundle' => [1 => 1, 2 => 0.85, 3 => 0.75],
+    ],
+    /* بیت هر دوره در کدهای فعال‌سازی (همان bitFlag فایل‌های دوره) */
+    'course_bits' => ['yona' => 1, 'homa' => 2, 'negar' => 4, 'termino' => 8],
+
+    /* پیام‌رسانی (اختیاری): ارسال کد تأیید با پیامک — خالی = خاموش */
+    'sms' => ['provider' => '', 'api_key' => '', 'sender' => ''],
+];

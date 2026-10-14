@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_neuro;
   D.css = ".gcs__h{display: flex; align-items: center; gap: 8px; margin: 14px 0 6px; font-size: 15px;}\n.gcs__h i{flex-shrink: 0; font-style: normal; display: inline-grid; place-items: center; min-width: 28px; height: 28px; padding: 0 6px; border-radius: 9px; background: var(--brand-l); color: var(--brand-t); font-family: Arial, Helvetica, sans-serif; font-weight: 900;}\n.gcs__h b{min-width: 0;}\n.gcs__row{display: flex; flex-direction: column; gap: 6px;}\n.gcs__o{display: flex; align-items: center; gap: 10px; width: 100%; text-align: start; font: inherit; color: var(--text); background: var(--card); border: 2px solid var(--line); border-bottom-width: 4px; border-radius: 14px; padding: 8px 12px; cursor: pointer; min-width: 0;}\n.gcs__o span{flex: 1 1 auto; min-width: 0; overflow-wrap: anywhere; font-weight: 700;}\n.gcs__o em{flex-shrink: 0; font-style: normal; display: inline-grid; place-items: center; width: 30px; height: 30px; border-radius: 50%; background: var(--bg); border: 2px solid var(--line); font-weight: 900; font-family: Arial, Helvetica, sans-serif;}\n.gcs__o.is-on{border-color: var(--brand); background: var(--brand-l);}\n.gcs__o.is-on em{background: var(--brand); border-color: var(--brand); color: #fff;}\n.gcs__out{display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; padding: 12px 16px; border-radius: 16px; background: color-mix(in srgb, var(--brand) 12%, var(--bg)); border: 2px solid color-mix(in srgb, var(--brand) 40%, var(--line)); margin: 8px 0 12px; position: sticky; top: 0; z-index: 2;}\n.gcs__out b{font-size: 26px; color: var(--brand-t); font-family: Arial, Helvetica, sans-serif;}\n.gcs__out small{flex-basis: 100%; color: var(--muted); font-weight: 700;}\n.tsc--ok{color: #46a302 !important;}\n.tsc--mid{color: #e5a500 !important;}\n.tsc--bad{color: #c2413a !important;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* نورو — پیکربندی اپ: هر متن، نام، کلید ذخیره‌سازی، شخصیت و ابزار ویژه‌ای که موتور مشترک (engine/) از اپ می‌خواهد.
@@ -1533,6 +1534,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* نورو — دنیای ۰: زبان عصب (پایه همه دنیاها)
  * پیش از رفتن سراغ مغز و نخاع دو چیز را یاد می‌گیریم: «دستگاه عصبی چه بخش‌هایی دارد» و «واژه‌هایش چطور ساخته می‌شوند».
  * سطح ۱: بخش‌های دستگاه عصبی • سطح ۲: ریشه‌های اصلی • سطح ۳: پیشوندها، پسوندها و دام‌های همزاد
@@ -1680,6 +1682,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نورو — دنیای ۱: مغز و نخاع (دستگاه عصبی مرکزی)
  * سطح ۱: مغز و لوب‌ها • سطح ۲: پرده‌ها، بطن‌ها و CSF • سطح ۳: نخاع و سطوح آن */
 (function (root) {
@@ -1825,6 +1829,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نورو — دنیای ۲: اعصاب محیطی و خودکار
  * سطح ۱: نورون، سیناپس و میلین • سطح ۲: اعصاب جمجمه‌ای و نخاعی • سطح ۳: رفلکس و دستگاه خودکار */
 (function (root) {
@@ -1970,6 +1976,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نورو — دنیای ۳: نشانه‌ها و بیماری‌های عصبی
  * سطح ۱: نشانه‌های عصبی • سطح ۲: سکته، خونریزی، ضربه و تشنج • سطح ۳: بیماری‌های مادرزادی، تحلیل‌برنده، عفونی و تومورها */
 (function (root) {
@@ -2115,6 +2123,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نورو — دنیای ۴: سلامت روان
  * سطح ۱: پایه‌ها؛ روان‌پریشی و آشفتگی ذهن • سطح ۲: اضطراب و خلق • سطح ۳: اسکیزوفرنی، رشد، خوردن و درمان
  * لحن درس‌ها محترمانه و بدون برچسب‌زنی است: «بیمار مبتلا به…» نه «بیمار روانی». */
@@ -2261,6 +2271,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* نورو — دنیای ۵: تشخیص و درمان
  * سطح ۱: معاینه و آزمون‌ها • سطح ۲: تصویربرداری و جراحی • سطح ۳: دارو، توان‌بخشی و اختصارهای پرونده */
 (function (root) {
@@ -2406,6 +2418,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* نورو — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2620,6 +2633,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* نورو — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی و تمرین‌های فایل‌های پیوست آمده‌اند: Case Study ویلیام (Spinal Cord Injury)، Case Study 7-1 (CVA)، Case Study 7-2
  * (Neuroleptic Malignant Syndrome)، Exercise 7-9 (ER record)، Discharge Summary و Consultation Report و Case Study خانم Anna Moore (Fremgen)،
@@ -2895,6 +2909,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* نورو — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

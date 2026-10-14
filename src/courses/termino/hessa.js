@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_hessa;
   D.css = ".va{display: flex; flex-wrap: wrap; align-items: flex-end; gap: 10px; margin: 10px 0;}\n.va__in{display: flex; flex-direction: column; gap: 6px; flex: 1 1 130px; min-width: 0; font-weight: 800; color: var(--muted);}\n.va__in input{width: 100%; min-width: 0; font: inherit; font-size: 18px; font-weight: 900; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; text-align: left; direction: ltr; font-family: Nunito, system-ui, sans-serif;}\n.va__in input:focus{outline: none; border-color: var(--brand);}\n.va__slash{flex: 0 0 auto; font-size: 26px; color: var(--muted); padding-bottom: 8px; font-family: Arial, system-ui, sans-serif;}\n.va__out{display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 8px; margin: 8px 0 12px;}\n.va__c{padding: 10px 12px; border-radius: 16px; background: color-mix(in srgb, var(--brand) 10%, var(--bg)); border: 2px solid color-mix(in srgb, var(--brand) 35%, var(--line)); min-width: 0;}\n.va__c b{display: block; font-size: 19px; color: var(--brand-t); overflow-wrap: anywhere;}\n.va__c small{display: block; color: var(--muted); font-weight: 700; overflow-wrap: anywhere;}\n.va__c span{display: block; font-weight: 800; margin-bottom: 2px;}\n.va__note{color: var(--muted); font-weight: 700; margin: 0 0 10px;}\n.va__h{margin: 16px 0 4px; font-size: 16px;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* حِسّا — پیکربندی اپ: هر متن، نام، کلید ذخیره‌سازی، شخصیت و ابزار ویژه‌ای که موتور مشترک (engine/) از اپ می‌خواهد.
@@ -1647,6 +1648,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* حِسّا — دنیای ۰: زبان حواس (پایه همه دنیاها)
  * سطح ۱: حواس و متخصصان • سطح ۲: ریشه‌های چشم و گوش • سطح ۳: پیشوندها، پسوندها و دام‌ها
  * سازنده‌ها در core.js توضیح داده شده‌اند؛ گزینه اول هر سؤال درست است و در اجرا به‌هم می‌ریزد. */
@@ -1793,6 +1795,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* حِسّا — دنیای ۱: چشم، ساختار و بینایی
  * سطح ۱: کره چشم • سطح ۲: ساختارهای محافظ و حرکت • سطح ۳: نور و بینایی */
 (function (root) {
@@ -1938,6 +1942,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* حِسّا — دنیای ۲: بیماری‌های چشم
  * سطح ۱: عیب انکساری و عدسی • سطح ۲: شبکیه، فشار و میدان بینایی • سطح ۳: پلک، عضله و التهاب */
 (function (root) {
@@ -2083,6 +2089,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* حِسّا — دنیای ۳: گوش، شنوایی و تعادل
  * سطح ۱: گوش بیرونی و میانی • سطح ۲: گوش درونی • سطح ۳: شنیدن و تعادل */
 (function (root) {
@@ -2228,6 +2236,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* حِسّا — دنیای ۴: بیماری‌های گوش
  * سطح ۱: التهاب‌های گوش • سطح ۲: کم‌شنوایی • سطح ۳: وزوز، سرگیجه و تومور */
 (function (root) {
@@ -2373,6 +2383,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* حِسّا — دنیای ۵: تشخیص و درمان
  * سطح ۱: معاینه و آزمون‌های چشم • سطح ۲: جراحی و درمان چشم • سطح ۳: آزمون‌ها و درمان‌های گوش */
 (function (root) {
@@ -2518,6 +2530,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* حِسّا — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -2754,6 +2767,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* حِسّا — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی و تمرین‌های فایل‌های پیوست آمده‌اند: Case Study کتاب Cohen (Kelly’s Amblyopia و Case Study 8-1)،
  * Ophthalmology Consultation، Chart Note Transcription (Pearson) و Case Study نوازنده (Fremgen)، Chart Note کلستئاتوما (Gylys)،
@@ -3029,6 +3043,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* حِسّا — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {

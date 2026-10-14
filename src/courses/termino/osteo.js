@@ -3,6 +3,7 @@
 (function (SUB) {
   const D = SUB.tm_osteo;
   D.css = ".rom__m{margin: 10px 0;}\n.rom{display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin: 6px 0 10px;}\n.rom__g{width: 160px; height: 100px; flex-shrink: 0;}\n.rom__in{display: flex; flex-direction: column; gap: 6px; flex: 1 1 140px; min-width: 0; font-weight: 800; color: var(--muted);}\n.rom__in input{width: 100%; font: inherit; font-size: 22px; font-weight: 900; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; text-align: left; font-family: Nunito, system-ui, sans-serif;}\n.rom__in input:focus{outline: none; border-color: #1e9e8f;}\n.rom__in--t{flex-direction: row; align-items: center; gap: 10px; margin: 8px 0;}\n.rom__in--t span{flex-shrink: 0; font-family: Arial, Helvetica, sans-serif;}\n.rom__out{display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 10px; padding: 12px 16px; border-radius: 16px; background: color-mix(in srgb, #1e9e8f 12%, var(--bg)); border: 2px solid color-mix(in srgb, #1e9e8f 40%, var(--line)); margin-bottom: 12px;}\n.rom__out b{font-size: 26px; color: #1e9e8f;}\n.rom__out small{flex-basis: 100%; color: var(--muted); font-weight: 700;}\n.rom__out--t b{font-size: 20px;}\n.rom__h{margin: 16px 0 4px; font-size: 16px;}\n.tsc--ok{color: #46a302 !important;}\n.tsc--mid{color: #e5a500 !important;}\n.tsc--bad{color: #c2413a !important;}";
+  D.ready = true; // فایل این حیطه رسیده است (نسخه هاست بدون اشتراک آن را نمی‌دهد)
   D.content = function () {
     window.EA.IMG = D.IMG;
 /* اُستئو — پیکربندی اپ: هر متن، نام، کلید ذخیره‌سازی، شخصیت و ابزار ویژه‌ای که موتور مشترک (engine/) از اپ می‌خواهد.
@@ -2029,6 +2030,7 @@
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* اُستئو — دنیای ۰: زبان استخوان و عضله (پایه همه دنیاها)
  * پیش از رفتن سراغ استخوان‌ها و عضله‌ها دو چیز را یاد می‌گیریم: «دستگاه حرکتی چه می‌کند» و «واژه‌هایش چطور ساخته می‌شوند».
  * سطح ۱: دستگاه حرکتی • سطح ۲: ریشه‌های اصلی • سطح ۳: پیشوندها، پسوندها و دام‌های همزاد
@@ -2174,6 +2176,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* اُستئو — دنیای ۱: استخوان
  * سطح ۱: بافت و ساختار استخوان • سطح ۲: شکل و نشانه‌های استخوان • سطح ۳: بیماری‌های استخوان */
 (function (root) {
@@ -2319,6 +2323,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* اُستئو — دنیای ۲: اسکلت
  * سطح ۱: اسکلت محوری، جمجمه و صورت • سطح ۲: ستون مهره و قفسه سینه • سطح ۳: اندام‌ها و لگن */
 (function (root) {
@@ -2464,6 +2470,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* اُستئو — دنیای ۳: مفاصل و حرکت
  * سطح ۱: انواع مفصل و مفصل سینوویال • سطح ۲: حرکت‌های مفصل • سطح ۳: بیماری‌ها، تشخیص و جراحی مفصل */
 (function (root) {
@@ -2609,6 +2617,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* اُستئو — دنیای ۴: عضلات
  * سطح ۱: بافت و ساختار عضله • سطح ۲: عضلات مهم بدن • سطح ۳: نشانه‌ها، بیماری‌ها و تشخیص عضله */
 (function (root) {
@@ -2754,6 +2764,8 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+/*<<PV-DATA>>*/
 /* اُستئو — دنیای ۵: شکستگی، تشخیص و درمان
  * سطح ۱: انواع شکستگی و ترمیم • سطح ۲: تصویربرداری، آزمایش و پرونده ارتوپدی • سطح ۳: جراحی، دارو و توان‌بخشی */
 (function (root) {
@@ -2899,6 +2911,7 @@
     ]
   });
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
 /* اُستئو — کاراکترهای قابل جمع‌آوری
  * هر دنیا سه سطح دارد و تمام کردن هر سطح یک کاراکتر هدیه می‌دهد (۱۸ کاراکتر).
  * همه با SVG ساخته می‌شوند؛ هر کاراکتر چهره‌ای دارد که حالت (خوشحال، ناراحت، …) می‌گیرد
@@ -3103,6 +3116,7 @@
   EA.chars = { list: CHARS, draw, byId, forLevel, check, levelDone, levelLessons, levelOfLesson };
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<<PV-DATA>>*/
 /* اُستئو — راند بالینی: پرونده‌های چندمرحله‌ای
  * کیس‌ها از مطالعات موردی و گزارش‌های فایل‌های پیوست آمده‌اند: Thomas's Brachial Plexus Injury، Case Study 6-1 (Rotator Cuff Tear)،
  * Case Study 6-2 (Wake-Up Test)، Rachel's Idiopathic Adolescent Scoliosis، Case Study 5-1 (TMJ Arthroplasty)، Case Study 5-2 (Osteogenesis Imperfecta)،
@@ -3350,6 +3364,8 @@
     }
   ];
 })(typeof window !== 'undefined' ? window : globalThis);
+/*<</PV-DATA>>*/
+      window.__PREVIEW_CAPTURE && window.__PREVIEW_CAPTURE(window.EA); // فقط هنگام ساخت نسخه پیش‌نمایش
 /* اُستئو — نکته‌های کوتاه که خودبه‌خود عوض می‌شوند
  * هر بار از یک دسته برزده‌شده برداشته می‌شود تا تکراری دیده نشود. */
 (function () {
