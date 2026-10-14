@@ -546,7 +546,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           xp: 0, gems: 100, hearts: MAX_HEARTS, heartsAt: Date.now(),
           streak: 0, bestStreak: 0, lastDay: null, freeze: 0,
           daily: {}, done: {}, chests: {}, checkpoints: {}, final: null,
-          mistakes: [], badges: {}, chars: {}, companion: null, rounds: {},
+          mistakes: [], badges: {}, chars: {}, companion: null, rounds: {}, cards: {}, fav: {},
           stats: { correct: 0, wrong: 0, calcs: 0, perfect: 0, lessons: 0, bestCombo: 0, bestSpeed: 0, seconds: 0 },
           settings: { sound: true, music: true, sfxVol: 0.8, musicVol: 0.4, theme: 'auto', noHearts: false },
           league: { week: day(weekStart()), tier: 0, lastResult: null }
@@ -585,6 +585,15 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
       /** قلب بی‌نهایت فقط برای پلن Pro و پکیج الماس (قفل هوشمند آکادمی) */
       function noHearts() { return !!(window.ACADEMY && window.ACADEMY.access(C.id).infinite); }
+      /* ---------- جعبه لایتنر کارت‌های واژه (دوره‌های ترمینولوژی): خانه ۰ تا ۵ ---------- */
+      function cardBox(id) { return (S.cards && S.cards[id]) || 0; }
+      function cardMark(id, known) {
+        S.cards = S.cards || {};
+        const b = cardBox(id);
+        S.cards[id] = known ? Math.min(5, b + 1) : 0;
+        save();
+        return S.cards[id];
+      }
       function nextHeartIn() { return S.hearts >= MAX_HEARTS ? 0 : Math.max(0, HEART_MS - (Date.now() - S.heartsAt)); }
       function loseHeart() {
         if (noHearts()) return;
@@ -633,6 +642,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         t(S.bestStreak >= 3, 'streak3');
         t(S.bestStreak >= 7, 'streak7');
         t(S.stats.calcs >= 10, 'calc10');
+        if (C.term) t(Object.values(S.cards || {}).filter(b => b >= 4).length >= 50, 'cards50');
         t(S.stats.calcs >= 50, 'calc50');
         t(S.stats.bestSpeed >= 15, 'speed15');
         t(S.stats.bestCombo >= 10, 'combo10');
@@ -756,7 +766,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       EA.S = {
         get: () => S, load, save, reset, tick, day, weekStart, level, addXp, award, checkBadges,
         loseHeart, addHeart, nextHeartIn, lessonState, worldDone, worldProgress, finalUnlocked,
-        recordMistake, clearMistake, mistakeQueue, noHearts, leagueTable, leagueMoves, weekXp, LEAGUE: { GROUP, UP, DOWN },
+        recordMistake, clearMistake, mistakeQueue, noHearts, cardBox, cardMark, leagueTable, leagueMoves, weekXp, LEAGUE: { GROUP, UP, DOWN },
         MAX_HEARTS, TIERS, BADGES, LEVELS, TITLES, KEY
       };
 
@@ -852,7 +862,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const UNIT_RUN = C.unitRun;
       const iso = s => {
         const t = String(s);
-        return LETTERS.test(t.replace(/<[^>]*>/g, '')) ? t.replace(UNIT_RUN, '<bdi dir="ltr">$1</bdi>') : `<bdi dir="ltr">${t}</bdi>`;
+        return LETTERS.test(t.replace(/<[^>]*>/g, '')) ? (C.term && EA.bi ? EA.bi(t.replace(UNIT_RUN, '<bdi dir="ltr">$1</bdi>')) : t.replace(UNIT_RUN, '<bdi dir="ltr">$1</bdi>')) : `<bdi dir="ltr">${t}</bdi>`;
       };
       const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
       const shuffle = a => { const b = a.slice(); for (let i = b.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [b[i], b[j]] = [b[j], b[i]]; } return b; };
@@ -880,9 +890,57 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         return c ? EA.chars.draw(c, mood, size) : mascot(mood, color || 'var(--wc)', size);
       }
 
+
+      /* ---------- دوره‌های ترمینولوژی: شکل‌های SVG، شکل درون متن و متن دوزبانه ---------- */
+      /** کارت شکل: f = { a: کلید شکل SVG (EA.art) یا تصویر (EA.IMG)، l: برچسب‌ها، cap: توضیح } */
+      function figCardT(f) {
+        const ks = [].concat(f.a), ls = f.l ? [].concat(f.l) : [];
+        const isArt = k => EA.ART_KEYS && EA.ART_KEYS.includes(k);
+        const one = (k, alt) => (isArt(k) ? EA.art(k) : `<img src="${EA.img(k)}" alt="${esc(alt)}" draggable="false" loading="lazy">`);
+        const wide = ks.length > 1 && ks.some(k => isArt(k) && !/^cell-/.test(k));
+        return `<figure class="fig fig--n${ks.length}${wide ? ' fig--wide' : ''}">${ks.map((k, i) => `<div class="fig__i${isArt(k) ? '' : ' fig__i--photo'}" data-zoom role="button" tabindex="0" aria-label="${esc(ls[i] || f.cap || '')}">${one(k, ls[i] || f.cap || '')}${ls[i] ? `<span class="fig__l">${EA.bi(ls[i])}</span>` : ''}</div>`).join('')}${f.cap ? `<figcaption>${EA.bi(f.cap)}</figcaption>` : ''}</figure>`;
+      }
+      /** شکل‌هایی که درون متن کارت آموزشی جاسازی شده‌اند (<!--fig:...-->) */
+      function figs(html) {
+        return String(html).replace(/<!--fig:([^>]*)-->/g, (_, j) => { try { return figCardT(JSON.parse(decodeURIComponent(j))); } catch (e) { return ''; } });
+      }
+      /** بزرگ‌نمایی شکل SVG یا تصویر */
+      function zoomT(el) {
+        const fig = el.closest('figure'), cap = fig && fig.querySelector('figcaption');
+        const lab = el.querySelector('.fig__l');
+        const art = el.querySelector('svg.art') || el.querySelector('img');
+        modal(`<div class="zoom__img">${art ? art.outerHTML.replace(' loading="lazy"', '') : ''}</div>${lab || cap ? `<p class="zoom__cap">${lab ? lab.innerHTML : ''}${lab && cap ? ' • ' : ''}${cap ? cap.innerHTML : ''}</p>` : ''}<div class="modal__btns"><button class="btn btn--ghost" data-close>${EA.T('بستن', 'Close')}</button></div>`, { cls: 'modal--zoom' });
+      }
+      /* هر تکه لاتین بیرون از bdi در صفحه‌های دوره ترمینولوژی در <bdi dir="ltr"> می‌رود
+       * تا واژه انگلیسی، پرانتز و فلش در جمله فارسی جابه‌جا نشوند (ابزارها، نکته‌ها، کارت‌ها، پنجره‌ها). */
+      const BI_SKIP = 'bdi,[dir="ltr"],svg,script,style,textarea,input,select,option,code,kbd,title,.wb,.no-bi';
+      const HAS_LAT = /[A-Za-z]/;
+      function biText(t) {
+        const p = t.parentElement;
+        if (!p || !HAS_LAT.test(t.data) || p.closest(BI_SKIP) || p.closest('#academy-root, .acside, .modal--up')) return;
+        const html = EA.bi(t.data.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;'));
+        if (html.indexOf('<bdi') < 0) return;
+        const tpl = document.createElement('template');
+        tpl.innerHTML = html;
+        t.replaceWith(tpl.content);
+      }
+      function biNode(n) {
+        if (EA.lang === 'en') return; // در رابط انگلیسی همه‌چیز چپ‌به‌راست است
+        if (n.nodeType === 3) return biText(n);
+        if (n.nodeType !== 1 || n.closest(BI_SKIP)) return;
+        const w = document.createTreeWalker(n, NodeFilter.SHOW_TEXT), list = [];
+        while (w.nextNode()) if (HAS_LAT.test(w.currentNode.data)) list.push(w.currentNode);
+        list.forEach(biText);
+      }
+      if (C.term && typeof MutationObserver !== 'undefined' && typeof document !== 'undefined' && EA.bi) {
+        new MutationObserver(ms => ms.forEach(m => m.addedNodes.forEach(biNode))).observe(document.documentElement, { childList: true, subtree: true });
+        if (document.body) biNode(document.body); else document.addEventListener('DOMContentLoaded', () => biNode(document.body));
+      }
+
       /** کارت آزمایش گاز خون (هما) در فایل داده هما تعریف می‌شود؛ پیش‌فرض: هیچ */
       const labCard = () => '', phScale = () => '';
       EA.ui = { buddy, sfx, buzz, confetti, mascot, modal, toast, ring, esc, iso, shuffle, mmss, figCard, zoom, labCard, phScale };
+      if (C.term) Object.assign(EA.ui, { figCard: f => (f ? (f.a ? figCardT(f) : figCard(f)) : ''), figs, zoom: el => (el.tagName === 'IMG' && !el.closest('.fig__i[data-zoom]') ? zoom(el) : zoomT(el.closest('[data-zoom]') || el)) });
       Object.assign(EA.ui, C.uiExtra ? C.uiExtra() : {});
     })();
   };
@@ -896,6 +954,18 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const EA = window.EA;
       const { sfx, buzz, confetti, mascot, buddy, modal, esc, iso, shuffle, mmss, figCard } = EA.ui;
       const labCard = o => EA.ui.labCard(o);
+      /* ---------- دوره‌های ترمینولوژی: متن دوزبانه، شکل درون کارت و دو نوع سؤال املا و واژه‌سازی ---------- */
+      const TERM = !!C.term;
+      const BI = x => (TERM && x != null ? EA.bi(x) : x);
+      const FG = x => (TERM && EA.ui.figs ? EA.ui.figs(x) : x);
+      /* گزینه تمام‌انگلیسی: بلوک چپ‌به‌راست؛ گزینه فارسی یا دوزبانه: تکه‌های لاتین جدا با bdi */
+      const LT = x => (!TERM ? x : /<bdi|dir="ltr"/.test(String(x)) ? x : /[\u0600-\u06FF]/.test(String(x)) ? EA.bi(x) : `<bdi dir="ltr" class="en-block${EA.isSym && EA.isSym(String(x).trim()) ? ' sym' : ''}">${x}</bdi>`);
+      const spellNorm = v => String(v || '').toLowerCase().replace(/[’']/g, "'").replace(/[-\s]+/g, ' ').trim();
+      function prepBuild(src) {
+        let bank = shuffle(src.parts.concat(src.extra || []));
+        for (let i = 0; i < 5 && bank.slice(0, src.parts.length).join('|') === src.parts.join('|'); i++) bank = shuffle(bank);
+        return { parts: src.parts, bank };
+      }
       const fa = (n, d) => EA.fa(n, d);
       const S = () => EA.S.get();
       const T = EA.T;
@@ -916,11 +986,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           const g = EA.gen[src.gen]();
           const o = Object.assign({ key: 'gen:' + src.gen, calc: true }, m, g);
           if (g.kind === 'mcq') Object.assign(o, prepMcq(g));
+          if (g.kind === 'build') Object.assign(o, prepBuild(g));
           return o;
         }
         const base = Object.assign({ q: src.q, why: src.why, case: src.case, lab: src.lab, fig: src.fig, stage: src.stage }, m);
         switch (src.t) {
           case 'numS': return Object.assign(base, { kind: 'num', calc: true, ans: src.ans, tol: src.tol, unit: src.unit, hint: src.hint });
+          case 'spell': return Object.assign(base, { kind: 'spell', ans: [].concat(src.ans), hint: src.hint });
+          case 'build': return Object.assign(base, { kind: 'build' }, prepBuild(src));
           case 'learn': return Object.assign(base, { kind: 'learn', title: src.title, body: src.body });
           case 'mcq': return Object.assign(base, { kind: 'mcq' }, prepMcq(src));
           case 'tf': return Object.assign(base, { kind: 'tf', ans: src.a });
@@ -1032,22 +1105,22 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         updateTop();
         let html = '';
         const tag = it.stage ? `<span class="qtag qtag--stage">🩺 ${T('مرحله', 'Step')} ${fa(P.idx + (P.mode === 'round' ? 0 : 1))}: ${it.stage}</span>`
-          : it.calc ? `<span class="qtag qtag--calc">🧮 ${T('محاسبه', 'Calculation')}</span>` : it.retry ? `<span class="qtag qtag--retry">🔁 ${T('دوباره', 'Retry')}</span>` : '';
+          : it.calc ? (TERM ? `<span class="qtag qtag--calc">🔤 ${C.calcTag(it.tag)}</span>` : `<span class="qtag qtag--calc">🧮 ${T('محاسبه', 'Calculation')}</span>`) : it.retry ? `<span class="qtag qtag--retry">🔁 ${T('دوباره', 'Retry')}</span>` : '';
         switch (it.kind) {
           case 'learn':
             html = `<div class="learn">
                 <div class="learn__who">${buddy('happy', 72)}<div class="bubble">${it.bubble || T('نکته تازه! 👇', 'New idea! 👇')}</div></div>
-                <article class="learn__card"><h2>${it.title}</h2><div class="learn__body">${it.body}</div></article>
+                <article class="learn__card"><h2>${BI(it.title)}</h2><div class="learn__body">${FG(BI(it.body))}</div></article>
               </div>`;
             break;
           case 'mcq':
-            html = `${tag}<h2 class="q">${it.q}</h2>${labCard(it.lab)}${figCard(it.fig)}${caseCard(it.case)}
-              <div class="opts">${it.opts.map((o, i) => `<button class="opt" data-p="sel" data-i="${i}"><kbd>${fa(i + 1)}</kbd><span>${o}</span></button>`).join('')}</div>`;
+            html = `${tag}<h2 class="q">${BI(it.q)}</h2>${labCard(it.lab)}${figCard(it.fig)}${caseCard(it.case)}
+              <div class="opts">${it.opts.map((o, i) => `<button class="opt" data-p="sel" data-i="${i}"><kbd>${fa(i + 1)}</kbd><span>${LT(o)}</span></button>`).join('')}</div>`;
             break;
           case 'tf':
             html = `${tag}<div class="tf">
                 <div class="tf__who">${buddy('think', 84)}</div>
-                <div class="bubble bubble--big">${it.q}</div>
+                <div class="bubble bubble--big">${BI(it.q)}</div>
               </div>${labCard(it.lab)}${figCard(it.fig)}${caseCard(it.case)}
               <h3 class="q q--sm">${T('این جمله درست است یا نادرست؟', 'Is this statement true or false?')}</h3>
               <div class="opts opts--tf">
@@ -1056,25 +1129,38 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
               </div>`;
             break;
           case 'fill': {
-            const [a, b] = it.q.split('___');
+            const [a, b] = it.q.split('___').map(BI);
             html = `${tag}<h3 class="q q--sm">${T('جای خالی را پر کن', 'Fill in the blank')}</h3>
               <p class="fill">${a}<span class="slot" data-p="unsel">&nbsp;</span>${b || ''}</p>
-              <div class="chips">${it.chips.map((c, i) => `<button class="chip" data-p="sel" data-i="${i}">${c}</button>`).join('')}</div>`;
+              <div class="chips">${it.chips.map((c, i) => `<button class="chip" data-p="sel" data-i="${i}">${LT(c)}</button>`).join('')}</div>`;
             break;
           }
           case 'order':
             it.ans = [];
-            html = `${tag}<h2 class="q">${it.q}</h2>
+            html = `${tag}<h2 class="q">${BI(it.q)}</h2>
               <ol class="order-ans"></ol>
               <div class="chips chips--col order-bank"></div>`;
             break;
           case 'match':
             it.ok = []; it.mis = 0; it.pickL = null; it.pickR = null;
-            html = `${tag}<h2 class="q">${it.q}</h2>
+            html = `${tag}<h2 class="q">${BI(it.q)}</h2>
               <div class="match">
-                <div class="match__col">${it.L.map(i => `<button class="mbtn" data-p="mL" data-i="${i}">${it.pairs[i][0]}</button>`).join('')}</div>
-                <div class="match__col">${it.R.map(i => `<button class="mbtn" data-p="mR" data-i="${i}">${it.pairs[i][1]}</button>`).join('')}</div>
+                <div class="match__col">${it.L.map(i => `<button class="mbtn" data-p="mL" data-i="${i}">${LT(it.pairs[i][0])}</button>`).join('')}</div>
+                <div class="match__col">${it.R.map(i => `<button class="mbtn" data-p="mR" data-i="${i}">${LT(it.pairs[i][1])}</button>`).join('')}</div>
               </div>`;
+            break;
+          case 'spell':
+            html = `${tag}<h2 class="q">${BI(it.q)}</h2>${figCard(it.fig)}${caseCard(it.case)}
+              <label class="numin numin--spell">
+                <input type="text" autocomplete="off" autocapitalize="off" autocorrect="off" spellcheck="false" dir="ltr" lang="en" placeholder="${T('واژه را بنویس…', 'type the term…')}" aria-label="${T('املای واژه', 'Spelling')}">
+              </label>
+              ${it.hint ? `<button class="hintbtn" data-p="hint">💡 ${T('راهنما (تلفظ)', 'Hint (pronunciation)')}</button><div class="hint" hidden><span dir="ltr">${it.hint}</span></div>` : ''}`;
+            break;
+          case 'build':
+            it.ans = [];
+            html = `${tag}<h2 class="q">${BI(it.q)}</h2>
+              <div class="build-ans" dir="ltr"></div>
+              <div class="chips build-bank" dir="ltr"></div>`;
             break;
           case 'num':
             html = `${tag}<h2 class="q">${it.q}</h2>${labCard(it.lab)}${figCard(it.fig)}${caseCard(it.case)}
@@ -1090,6 +1176,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         engageRender(it);
         body().scrollTop = 0;
         if (it.kind === 'order') drawOrder(it);
+        if (it.kind === 'build') drawBuild(it);
+        if (it.kind === 'spell') setTimeout(() => { if (!root) return; const i = body().querySelector('input'); i && matchMedia('(pointer:fine)').matches && i.focus(); }, 50);
         if (it.kind === 'num') setTimeout(() => { if (!root) return; const i = body().querySelector('input'); i && matchMedia('(pointer:fine)').matches && i.focus(); }, 50);
         if (P.mode === 'speed') { foot().innerHTML = ''; return; }
         foot().className = 'player__foot';
@@ -1100,11 +1188,19 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       }
 
       function drawOrder(it) {
-        body().querySelector('.order-ans').innerHTML = it.ans.map((s, i) => `<li><button class="chip chip--on" data-p="oOut" data-i="${i}">${s}</button></li>`).join('') +
+        body().querySelector('.order-ans').innerHTML = it.ans.map((s, i) => `<li><button class="chip chip--on" data-p="oOut" data-i="${i}">${LT(s)}</button></li>`).join('') +
           Array.from({ length: it.steps.length - it.ans.length }, () => '<li class="ghost"></li>').join('');
         const left = it.bank.filter(s => !it.ans.includes(s));
-        body().querySelector('.order-bank').innerHTML = left.map(s => `<button class="chip" data-p="oIn" data-s="${esc(s)}">${s}</button>`).join('');
+        body().querySelector('.order-bank').innerHTML = left.map(s => `<button class="chip" data-p="oIn" data-s="${esc(s)}">${LT(s)}</button>`).join('');
         setCheck(it.ans.length === it.steps.length);
+      }
+
+      function drawBuild(it) {
+        const a = body().querySelector('.build-ans');
+        a.innerHTML = it.ans.length ? it.ans.map((s, i) => `<button class="chip chip--part chip--on" data-p="bOut" data-i="${i}">${s}</button>`).join('<i class="build-plus">+</i>') : `<span class="build-ph">${T('اجزای واژه را به ترتیب لمس کن', 'Tap the word parts in order')}</span>`;
+        const used = it.ans.slice();
+        body().querySelector('.build-bank').innerHTML = it.bank.map((s, i) => { const k = used.indexOf(s); if (k >= 0) { used.splice(k, 1); return ''; } return `<button class="chip chip--part" data-p="bIn" data-i="${i}">${s}</button>`; }).join('');
+        setCheck(it.ans.length > 0);
       }
 
       function setCheck(on) { const b = foot().querySelector('[data-p="check"]'); if (b) b.disabled = !on; }
@@ -1112,6 +1208,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       /* ---------- رویدادها ---------- */
       function onInput(e) {
         const it = cur();
+        if (it && it.kind === 'spell' && !it.state) { it.sel = e.target.value; setCheck(e.target.value.trim() !== ''); return; }
         if (!it || it.kind !== 'num' || it.state) return;
         const v = evalExpr(e.target.value);
         it.sel = v;
@@ -1144,7 +1241,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           sfx('select');
           it.sel = +b.dataset.i;
           body().querySelectorAll('[data-p="sel"]').forEach(x => x.classList.toggle('is-sel', x === b));
-          if (it.kind === 'fill') { const sl = body().querySelector('.slot'); sl.textContent = it.chips[it.sel]; sl.classList.add('is-full'); }
+          if (it.kind === 'fill') { const sl = body().querySelector('.slot'); if (TERM) sl.innerHTML = LT(it.chips[it.sel]); else sl.textContent = it.chips[it.sel]; sl.classList.add('is-full'); }
           if (P.mode === 'speed') return check();
           setCheck(true);
         } else if (act === 'unsel' && it.kind === 'fill') {
@@ -1152,6 +1249,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           body().querySelectorAll('.chip').forEach(x => x.classList.remove('is-sel')); setCheck(false);
         } else if (act === 'oIn') { sfx('tap'); it.ans.push(b.dataset.s); drawOrder(it); }
         else if (act === 'oOut') { sfx('tap'); it.ans.splice(+b.dataset.i, 1); drawOrder(it); }
+        else if (act === 'bIn') { sfx('tap'); it.ans.push(it.bank[+b.dataset.i]); drawBuild(it); }
+        else if (act === 'bOut') { sfx('tap'); it.ans.splice(+b.dataset.i, 1); drawBuild(it); }
         else if (act === 'mL' || act === 'mR') matchTap(it, b, act === 'mL' ? 'pickL' : 'pickR');
       }
 
@@ -1203,16 +1302,20 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           case 'order': return it.ans.join('|') === it.steps.join('|');
           case 'match': return it.mis === 0;
           case 'num': return Math.abs(it.sel - it.ans) <= (it.tol || 0) + 1e-9;
+          case 'spell': return it.ans.some(a => spellNorm(a) === spellNorm(it.sel));
+          case 'build': return it.ans.join('|') === it.parts.join('|');
         }
         return false;
       }
       function rightText(it) {
         switch (it.kind) {
-          case 'mcq': return it.opts[it.correct];
+          case 'mcq': return LT(it.opts[it.correct]);
           case 'tf': return it.ans ? T('درست', 'True') : T('نادرست', 'False');
-          case 'fill': return it.right;
-          case 'order': return '<ol class="fb__ol">' + it.steps.map(s => `<li>${s}</li>`).join('') + '</ol>';
-          case 'match': return it.pairs.map(p => `${p[0]} ${T('←', '→')} ${p[1]}`).join('<br>');
+          case 'fill': return LT(it.right);
+          case 'order': return '<ol class="fb__ol">' + it.steps.map(s => `<li>${LT(s)}</li>`).join('') + '</ol>';
+          case 'match': return it.pairs.map(p => `${LT(p[0])} ${T('←', '→')} ${LT(p[1])}`).join('<br>');
+          case 'spell': return `<b dir="ltr">${it.ans[0]}</b>`;
+          case 'build': return `<span dir="ltr">${it.parts.join(' + ')}</span>`;
           case 'num': return iso(`${fa(it.ans, 2)} ${it.unit}`);
         }
         return '';
@@ -1394,6 +1497,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (it.kind === 'fill') btns.forEach((x, i) => { if (it.chips[i] === it.right) x.classList.add('is-right'); else if (i === it.sel) x.classList.add('is-wrong'); x.disabled = true; });
         if (it.kind === 'num') { const inp = body().querySelector('input'); inp.disabled = true; inp.parentNode.classList.add(ok ? 'is-right' : 'is-wrong'); }
         if (it.kind === 'order') body().querySelectorAll('.chip').forEach(x => x.disabled = true);
+        if (it.kind === 'spell') { const inp = body().querySelector('input'); inp.disabled = true; inp.parentNode.classList.add(ok ? 'is-right' : 'is-wrong'); }
+        if (it.kind === 'build') body().querySelectorAll('.chip').forEach(x => { x.disabled = true; if (x.closest('.build-ans')) x.classList.add(ok ? 'is-right' : 'is-wrong'); });
         updateTop();
 
         if (P.mode === 'speed') { setTimeout(() => P && next(), ok ? 250 : 700); return; }
@@ -1409,7 +1514,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
             <div class="fb__txt">
               <div class="fb__t">${ok ? pick(YES()) : pick(NO())}</div>
               ${ok ? '' : `<div class="fb__ans"><b>${T('پاسخ درست:', 'Correct answer:')}</b> ${rightText(it)}</div>`}
-              ${it.why ? `<details class="fb__why" ${ok && !it.calc ? '' : 'open'}><summary>${T('چرا؟', 'Why?')}</summary><div>${it.why}</div></details>` : ''}
+              ${it.why ? `<details class="fb__why" ${ok && !it.calc ? '' : 'open'}><summary>${T('چرا؟', 'Why?')}</summary><div>${BI(it.why)}</div></details>` : ''}
               ${noteBtnHTML(it)}
             </div>
           </div>
@@ -1520,7 +1625,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           s.rounds = s.rounds || {};
           const prev = s.rounds[P.round];
           s.rounds[P.round] = { best: Math.max(acc, prev ? prev.best : 0), passed: passed || !!(prev && prev.passed), at: Date.now() };
-          title = passed ? T('بیمار را عالی مدیریت کردی! 🩺', 'You managed this patient brilliantly! 🩺') : T('بیمار نیاز به مراقبت بیشتری داشت', 'This patient needed better care');
+          title = TERM ? (passed ? T('پرونده را عالی خواندی! 🩺', 'You read this chart brilliantly! 🩺') : T('این پرونده دقت بیشتری می‌خواست', 'This chart needed a closer read')) : passed ? T('بیمار را عالی مدیریت کردی! 🩺', 'You managed this patient brilliantly! 🩺') : T('بیمار نیاز به مراقبت بیشتری داشت', 'This patient needed better care');
           mood = passed ? 'cheer' : 'sad';
           extra = `<p class="res__sub">${passed ? T('تصمیم‌هایت در هر مرحله درست بود؛ این یعنی آمادگی برای بخش واقعی.', 'Your decisions were right at every step; you’re ready for the real ward.') : T('توضیح هر مرحله را دوباره بخوان و کیس را تکرار کن.', 'Reread the explanation for each step and try the case again.')}</p>`;
         } else if (P.mode === 'speed') {
@@ -1674,7 +1779,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         },
         active: () => !!P,
         _cur: () => P && !P.finished ? P.queue[P.idx] : null,
-        _inst: inst, _grade: grade, _evalExpr: evalExpr, _sample: sample, _keyToInst: keyToInst
+        _inst: inst, _spellNorm: spellNorm, _grade: grade, _evalExpr: evalExpr, _sample: sample, _keyToInst: keyToInst
       };
       EA.player = api;
     })();
@@ -1703,7 +1808,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         chars: C.icons.chars,
         profile: '<svg viewBox="0 0 32 32"><circle cx="16" cy="11" r="6" fill="#FF4B8B"/><path d="M5 28a11 11 0 0 1 22 0z" fill="#D93A72"/></svg>'
       };
-      const NAV = () => [['learn', T('یادگیری', 'Learn')], ['practice', T('تمرین', 'Practice')], ['chars', T('کاراکترها', 'Characters')], ['tools', T('ابزارها', 'Tools')], ['league', T('لیگ', 'League')], ['profile', T('پروفایل', 'Profile')]];
+      const NAV = () => [['learn', T('یادگیری', 'Learn')], ['practice', T('تمرین', 'Practice')], ['chars', T('کاراکترها', 'Characters')], ['tools', C.navTools ? C.navTools() : T('ابزارها', 'Tools')], ['league', T('لیگ', 'League')], ['profile', T('پروفایل', 'Profile')]];
       /* نقش کاربر به فارسی ذخیره می‌شود (سازگاری با نسخه‌های قبلی) و با زبان فعلی نمایش داده می‌شود */
       const ROLES = C.obRoles;
       const roleName = r => { const x = ROLES.find(p => p[0] === r || p[1] === r); return x ? T(x[0], x[1]) : (window.ACADEMY && ACADEMY.roleName ? ACADEMY.roleName(r) : r); };
@@ -1714,6 +1819,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       const EMBED = false;
       const NAME = () => T(C.nameFa, C.nameEn);
       const G = () => EA.gate;
+      /* دوره‌های ترمینولوژی: متن دوزبانه و شکل درون کارت‌های دفترچه نکات */
+      const BI = x => (C.term && x != null ? EA.bi(x) : x);
+      const FG = x => (C.term && EA.ui.figs ? EA.ui.figs(x) : x);
 
       /* ---------- پوسته ---------- */
       function applyTheme() {
@@ -1932,7 +2040,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         const cards = w.lessons.flatMap(l => l.items.filter(x => x.t === 'learn').map(x => ({ l, x })));
         modal(`<div class="guide" style="--wc:${w.color};--wl:${w.light}">
             <header class="guide__h"><span class="wsym">${w.sym}</span><div><h3>${T(`دفترچه نکات ${w.name}`, `${w.name} guidebook`)}</h3><small>${T(`${fa(cards.length)} نکته کلیدی`, `${fa(cards.length)} key ideas`)}</small></div><button class="iconbtn no-print" data-ac="printguide" title="${T('چاپ برگه مرجع جیبی (A4)', 'Print pocket reference (A4)')}" aria-label="${T('چاپ', 'Print')}">🖨️</button><button class="iconbtn no-print" data-close aria-label="${T('بستن', 'Close')}">✕</button></header>
-            <div class="guide__b">${w.lessons.map(l => `<h4>${l.icon} ${l.title}</h4>${l.items.filter(x => x.t === 'learn').map(x => `<article class="gcard"><h5>${x.title}</h5><div>${x.body}</div></article>`).join('')}`).join('')}</div>
+            <div class="guide__b">${w.lessons.map(l => `<h4>${l.icon} ${l.title}</h4>${l.items.filter(x => x.t === 'learn').map(x => `<article class="gcard"><h5>${BI(x.title)}</h5><div>${FG(BI(x.body))}</div></article>`).join('')}`).join('')}</div>
           </div>`, { cls: 'modal--sheet' });
       }
 
@@ -1955,8 +2063,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
               ${PR.calc}
               ${G().calc() ? `<div class="wpick">${EA.worlds.map(w => `<button class="wpick__b" data-act="calc" data-w="${w.id}" style="--wc:${w.color};--wd:${w.dark}">${w.sym}</button>`).join('')}<button class="wpick__b wpick__b--all" data-act="calc" data-w="">${T('همه', 'All')}</button></div>` : lock('calc')}
             </article>
+            ${PR.extra ? PR.extra(G) : ''}
             <article class="pcard pcard--wide pcard--round">
-              <div class="pcard__i">🏥</div><h3>${T('راند بیمارستان', 'Hospital rounds')}</h3>
+              <div class="pcard__i">🏥</div><h3>${C.term ? T('راند بالینی', 'Clinical rounds') : T('راند بیمارستان', 'Hospital rounds')}</h3>
               ${G().rounds() ? PR.rounds : lock('rounds')}
             </article>
             <article class="pcard pcard--gold">
@@ -2323,6 +2432,13 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           case 'practice': return EA.player.practice();
           case 'calc': return EA.player.calc(b.dataset.w || null);
           case 'speed': return EA.player.speed();
+          case 'cards': {
+            if (!G().calc()) return G().upsell('calc');
+            let w = b.dataset.w || null;
+            /* دنیایی که واژه کارت‌دار ندارد: کارت‌های همه دنیاها */
+            if (w && EA.lex && !EA.lex.TERMS.some(t => t.fa && t.d && t.w === w)) { w = null; toast(T('این دنیا کارت واژه جدا ندارد؛ کارت‌های همه دنیاها را مرور کن.', 'This world has no word cards of its own; here are cards from every world.')); }
+            return EA.cards && EA.cards.open(w);
+          }
           case 'streak': return streakModal();
           case 'hearts': return heartsModal();
           case 'shop': return go('profile', () => { const x = $('.shop'); x && x.scrollIntoView({ behavior: 'smooth', block: 'center' }); });
@@ -2444,7 +2560,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (sel && sel.rangeCount && !editable(document.activeElement) && String(sel).length) sel.removeAllRanges();
       });
 
-      document.addEventListener('click', e => { const im = e.target.closest && e.target.closest('img[data-zoom]'); if (im && !im.closest('.modal--zoom')) { e.stopPropagation(); EA.ui.zoom(im); } }, true);
+      document.addEventListener('click', e => { const im = e.target.closest && e.target.closest(C.term ? '[data-zoom]' : 'img[data-zoom]'); if (im && !im.closest('.modal--zoom')) { e.stopPropagation(); EA.ui.zoom(im); } }, true);
       document.addEventListener('click', onClick);
       document.addEventListener('change', onChange);
       document.addEventListener('input', onInput);
@@ -2511,8 +2627,12 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     PRICE: {
       yona: { 1: 590000, 2: 890000 },
       homa: { 1: 690000, 2: 990000 },
-      negar: { 1: 640000, 2: 940000 }
+      negar: { 1: 640000, 2: 940000 },
+      /* ترمینو: ۱۵ حیطه ترمینولوژی در یک اشتراک؛ گران‌تر از یک دوره تک ولی ارزان‌تر از پکیج الماس */
+      termino: { 1: 990000, 2: 1390000 }
     },
+    /** پیش‌نیاز دوره‌های مجموعه‌ای (ترمینو): 'final' = قبولی امتحان نهایی حیطه مقدمه، 'lessons' = تمام کردن همه درس‌هایش */
+    PREREQ_RULE: 'final',
     /** قیمت پیش‌فرض دوره‌های آینده (یا در فایل دوره: price: { 1: …, 2: … }) */
     PRICE_DEFAULT: { 1: 590000, 2: 890000 },
     /** پکیج جامع الماس (همه دوره‌های فعلی و آینده + کیس‌های ICU) برای یک ماه */
@@ -2549,6 +2669,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   /* ================= ابزارهای کوچک ================= */
   const AC = window.ACADEMY_COURSES;
+  /** حیطه‌های یک دوره مجموعه‌ای (مثل ۱۵ حیطه ترمینو): خودشان در صفحه اول نیستند و اشتراکشان همان دوره مادر است */
+  const SUBC = window.ACADEMY_SUBCOURSES = window.ACADEMY_SUBCOURSES || {};
+  const rootOf = id => (id && SUBC[id] && SUBC[id].parent) || id;
+  const courseDef = id => AC[id] || SUBC[id];
   /** همه دوره‌های ثبت‌شده و معتبر (هر فایل data-*.js که اضافه شود، خودکار این‌جا می‌آید) */
   const courses = () => STORE.registry().list;
   const $$ = (s, r) => (r || document).querySelector(s);
@@ -2696,7 +2820,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /** دسترسی یک دوره: بالاترین سطح میان کدهای فعالی که بیت این دوره را دارند (OR بیتی) و دورترین تاریخ انقضا */
   function access(cid) {
     if (TAMPER) return Object.assign({}, DEMO_ACCESS, { blocked: true });
-    const c = courses().find(x => x.id === cid); if (!c) return DEMO_ACCESS;
+    const c = courses().find(x => x.id === rootOf(cid)); if (!c) return DEMO_ACCESS;
     const now = Date.now();
     let tier = 0, exp = -1, life = false, trialOnly = true, vip = false;
     grants().forEach(g => {
@@ -2943,7 +3067,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <button class="acside__a" data-ac="grand">🚨 <span>${PT('کیس‌های ترکیبی ICU', 'ICU grand rounds')}</span></button>
       <button class="acside__a ${!a.tier && nm ? 'acside__a--crit' : ''}" data-act="clinic">🩺 <span>${PT('کلینیک خطاها', 'Mistake clinic')}</span>${nm ? (a.tier ? `<em>${nf(nm)}</em>` : `<em class="crit">${PT(`${nf(nm)} مورد بحرانی`, `${nf(nm)} critical`)}</em>`) : ''}</button>
       <a class="acside__a" href="${homeURL()}">🏠 <span>${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}</span></a>
-      <div class="acswitch">${courses().map(c => `<a href="?course=${c.id}" class="acswitch__c ${c.id === cid ? 'is-on' : ''}" style="--cc:${c.color}" title="${PT(c.nameFa + ' — ' + c.subjectFa, c.nameEn + ' — ' + (c.subjectEn || ''))}">${c.icon}<small>${PT(c.nameFa, c.nameEn)}</small></a>`).join('')}</div>
+      ${SUBC[cid] ? `<a class="acside__a" href="?course=${SUBC[cid].parent}">🧩 <span>${PT(`همه حیطه‌های ${AC[SUBC[cid].parent].nameFa}`, `All ${AC[SUBC[cid].parent].nameEn} modules`)}</span></a>` : ''}
+      <div class="acswitch">${courses().map(c => `<a href="?course=${c.id}" class="acswitch__c ${c.id === rootOf(cid) ? 'is-on' : ''}" style="--cc:${c.color}" title="${PT(c.nameFa + ' — ' + c.subjectFa, c.nameEn + ' — ' + (c.subjectEn || ''))}">${c.icon}<small>${PT(c.nameFa, c.nameEn)}</small></a>`).join('')}</div>
     </div>`;
   }
   function profileHTML(cid) {
@@ -2961,7 +3086,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     </div>${notesHTML()}`;
   }
   function lockedTools(cid) {
-    const c = AC[cid];
+    const c = courseDef(cid);
     return `<section class="tools aclock">
       <header class="vhead"><h1>${PT('ابزار بالینی و ماشین‌حساب', 'Clinical tools & calculators')}</h1><p>${PT(c.toolsFa, c.toolsEn || 'Bedside calculators with step-by-step solutions')}</p></header>
       <div class="aclock__card"><div class="big-i">🔒</div><h3>🔒 ${PT('ویژه پلن Pro', 'Pro plan')}</h3>
@@ -2973,7 +3098,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   /* ================= پروفایل آکادمی و خواندن پیشرفت دوره‌ها ================= */
   const profile = () => LS.json('academy.profile', null);
-  const courseState = cid => LS.json(STORE.courseKey(cid), null);
+  const courseState = cid => (AC[cid] && AC[cid].kind === 'suite' ? suiteState(AC[cid]) : LS.json(STORE.courseKey(cid), null));
   function hasProfile() { return !!profile(); }
   function autoProfile(C, s) {
     const p = profile(); if (!p || !s) return false;
@@ -3166,7 +3291,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   /* ================= گواهی‌نامه: کد رهگیری و کارت استوری ================= */
   function certCode(cid, s) {
-    const c = AC[cid];
+    const c = courseDef(cid);
     const sig = b32enc(sha256(['trapo-cert', cid, s.profile.name, Math.round(s.final.score * 100), s.final.at].join('|'))).slice(0, 8);
     return c.codePrefix + '-' + sig.slice(0, 4) + '-' + sig.slice(4);
   }
@@ -3334,11 +3459,18 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     QC.card = card;
     return QC;
   }
+  /** دوره مجموعه‌ای ابزارش را از یک حیطه می‌گیرد: حیطه فعلی، آخرین حیطه دیده‌شده یا مقدمه */
+  function qcTarget(c) {
+    if (!c || c.kind !== 'suite') return c && c.id;
+    const cur = window.EA && EA.COURSE && EA.COURSE.parent === c.id ? EA.COURSE.id : null;
+    const last = LS.raw('academy.last.' + c.id);
+    return cur || (last && SUBC[last] ? last : c.modules[0].id);
+  }
   /** iframe دوره را می‌سازد (اگر نبود) و نمایان می‌کند */
   function qcShow(id) {
     const q = qcBuild(), sm = summary();
     q.cur = id;
-    q.card.querySelector('.acqtabs').innerHTML = courses().map(c => `<button class="acqtab ${c.id === id ? 'is-on' : ''}" ${sm.per[c.id].tools ? `data-qc="${c.id}"` : 'disabled'} style="--cc:${c.color}">${c.icon} ${PT(c.toolsFa, c.toolsEn || c.nameEn)}${sm.per[c.id].tools ? '' : ' 🔒'}</button>`).join('');
+    q.card.querySelector('.acqtabs').innerHTML = courses().map(c => `<button class="acqtab ${c.id === rootOf(id) ? 'is-on' : ''}" ${sm.per[c.id].tools ? `data-qc="${qcTarget(c)}"` : 'disabled'} style="--cc:${c.color}">${c.icon} ${PT(c.toolsFa, c.toolsEn || c.nameEn)}${sm.per[c.id].tools ? '' : ' 🔒'}</button>`).join('');
     let f = q.card.querySelector(`.acframe[data-c="${id}"]`);
     if (!f) { f = document.createElement('iframe'); f.className = 'acframe'; f.dataset.c = id; f.title = PT('ماشین‌حساب', 'Calculator'); f.src = '?calc=' + id; q.card.appendChild(f); }
     q.card.querySelectorAll('.acframe').forEach(x => { x.hidden = x !== f; });
@@ -3355,7 +3487,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const sm = summary();
     const list = courses().filter(c => sm.per[c.id].tools);
     if (!list.length) return upsell('fab');
-    const cur = pick && sm.per[pick] && sm.per[pick].tools ? pick : (QC && QC.cur && sm.per[QC.cur] && sm.per[QC.cur].tools ? QC.cur : (window.EA && EA.COURSE && sm.per[EA.COURSE.id].tools ? EA.COURSE.id : list[0].id));
+    const ok = x => !!x && access(x).tools;
+    const cur = ok(pick) ? pick : (QC && ok(QC.cur) ? QC.cur : (window.EA && EA.COURSE && ok(EA.COURSE.id) ? EA.COURSE.id : qcTarget(list[0])));
     const q = qcShow(cur);
     q.open = true;
     q.el.className = 'modal modal--sheet modal--calc acqc';
@@ -3367,7 +3500,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     if (MODE !== 'course' || !(window.EA && EA.COURSE)) return;
     const n = navigator, id = EA.COURSE.id;
     if ((n.deviceMemory && n.deviceMemory < 4) || (n.connection && n.connection.saveData)) return;
-    if (!summary().per[id].tools || (QC && QC.card.querySelector(`.acframe[data-c="${id}"]`) && QC.sig === qcSig())) return;
+    if (!access(id).tools || (QC && QC.card.querySelector(`.acframe[data-c="${id}"]`) && QC.sig === qcSig())) return;
     const go = () => { if (!(QC && QC.open)) qcShow(id); };
     if (window.requestIdleCallback) requestIdleCallback(go, { timeout: 4000 }); else setTimeout(go, 1500);
   }
@@ -3674,7 +3807,8 @@ P — Plan: …`);
   function dailyCase() {
     const day = new Date().toDateString();
     if (DC_CACHE && DC_CACHE.day === day && DC_CACHE.lang === UILANG()) return DC_CACHE;
-    const list = courses(); if (!list.length) return null;
+    // دوره‌های مجموعه‌ای (ترمینو) محتوایشان را فقط هنگام ورود به هر حیطه بارگذاری می‌کنند؛ کیس روزانه از دوره‌های تک
+    const list = courses().filter(c => c.kind !== 'suite'); if (!list.length) return null;
     const h = djb('TRAPO-DAILY|' + day);
     const c = list[h % list.length];
     const prev = window.EA;
@@ -3739,6 +3873,130 @@ P — Plan: …`);
     setTimeout(() => EA.ui && EA.ui.toast(PT(`🌟 پاداش کیس روزانه: +${nf(r.xp)} XP و +${nf(r.gems)} 💎`, `🌟 Daily case reward: +${nf(r.xp)} XP and +${nf(r.gems)} 💎`)), 1100);
   }
 
+  /* ================= دوره‌های مجموعه‌ای (ترمینو): صفحه انتخاب حیطه، پیش‌نیاز و پیشرفت کل =================
+   * دوره مجموعه‌ای یک کارت در صفحه اول دارد؛ با ورود، صفحه انتخاب حیطه‌ها باز می‌شود.
+   * هر حیطه یک دوره کامل با همه امکانات است (پیشرفت، قلب، لیگ، کاراکتر، کلینیک خطا، گواهی …)
+   * ولی اشتراکش همان اشتراک دوره مادر است و حیطه «مقدمه» پیش‌نیاز همه حیطه‌های دیگر است. */
+  let SUITE = null;
+  const isSuite = c => !!(c && c.kind === 'suite');
+  const subsOf = c => (c && c.modules ? c.modules.map(m => SUBC[m.id]).filter(Boolean) : []);
+  const subState = id => LS.json(STORE.courseKey(id), null);
+  /** پیشرفت حیطه پیش‌نیاز: درس‌های تمام‌شده، کل درس‌ها و قبولی امتحان نهایی */
+  function prereqInfo(sub) {
+    const P = sub && sub.prereq ? SUBC[sub.prereq] : null;
+    if (!P) return null;
+    const s = subState(P.id) || {}, total = (P.stats || {}).lessons || 1, done = Object.keys(s.done || {}).length;
+    return { P, done, total, passed: !!(s.final && s.final.passed) };
+  }
+  /** آیا پیش‌نیاز این حیطه گذرانده شده؟ (قاعده در CFG.PREREQ_RULE) */
+  function prereqDone(sub) {
+    const i = prereqInfo(sub);
+    if (!i) return true;
+    return CFG.PREREQ_RULE === 'lessons' ? i.done >= i.total || i.passed : i.passed;
+  }
+  /** وضعیت کل دوره مجموعه‌ای برای کارت صفحه اول: درس‌ها و خطاهای همه حیطه‌ها، گواهی وقتی همه گذرانده شوند */
+  function suiteState(c) {
+    const subs = subsOf(c), all = subs.map(d => [d, subState(d.id)]).filter(x => x[1]);
+    if (!all.length) return null;
+    const done = {}, mistakes = [];
+    all.forEach(([d, s]) => { Object.keys(s.done || {}).forEach(k => { done[d.id + ':' + k] = s.done[k]; }); (s.mistakes || []).forEach(k => mistakes.push(d.id + ':' + k)); });
+    const passed = subs.length && subs.every(d => { const s = subState(d.id); return s && s.final && s.final.passed; });
+    const prof = all.map(x => x[1]).find(s => s.profile);
+    return { done, mistakes, final: passed ? { passed: true } : null, profile: prof ? prof.profile : null };
+  }
+  function lockModal(sub) {
+    const i = prereqInfo(sub);
+    const P = i.P, pct = Math.round(i.done / i.total * 100);
+    pModal(`<div class="big-i">🧩</div><h3>${PT(`اول «${P.nameFa}» را تمام کن`, `Finish “${P.nameEn}” first`)}</h3>
+      <p>${PT(`«${P.nameFa}» (مقدمه ترمینولوژی) پیش‌نیاز همه حیطه‌هاست: ساخت واژه، ریشه، پیشوند و پسوند را آن‌جا یاد می‌گیری و بعد ${sub.nameFa} و بقیه حیطه‌ها را خیلی راحت‌تر می‌خوانی.`, `“${P.nameEn}” (Introduction to terminology) is the prerequisite for every module: you learn word building, roots, prefixes and suffixes there, and then ${sub.nameEn} and the other modules become much easier.`)}</p>
+      <div class="suite__pre"><div class="dc__bar"><i style="width:${Math.max(pct, i.done ? 4 : 0)}%"></i></div><small>${PT(`${nf(i.done)} از ${nf(i.total)} درس • ${CFG.PREREQ_RULE === 'lessons' ? 'همه درس‌ها را تمام کن' : 'امتحان نهایی را قبول شو'}`, `${nf(i.done)} of ${nf(i.total)} lessons • ${CFG.PREREQ_RULE === 'lessons' ? 'finish every lesson' : 'pass the final exam'}`)}</small></div>
+      <div class="modal__btns"><a class="btn btn--brand btn--lg" href="?course=${P.id}">${PT(`رفتن به ${P.nameFa}`, `Go to ${P.nameEn}`)} ${PT('←', '→')}</a><button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></div>`);
+  }
+  /** پرانتز لاتین درون متن فارسی کارت (مثل «(Disease and Treatment)») جدا و چپ‌به‌راست */
+  const bil = s => String(s == null ? '' : s).replace(/\(([A-Za-z][^()]*)\)/g, '<bdi dir="ltr">($1)</bdi>');
+  /** کارت هر حیطه در صفحه انتخاب (همان کارت دوره‌های صفحه اول + قفل پیش‌نیاز) */
+  function subCard(d, i) {
+    const html = dCard(d, access(d.id), i);
+    if (prereqDone(d)) return html;
+    return html.replace('<article class="dc"', '<article class="dc dc--prereq"').replace('<div class="dc__badges">', `<div class="dc__badges"><span class="actb actb--lock">🔒 ${PT(`پس از ${SUBC[d.prereq].nameFa}`, `After ${SUBC[d.prereq].nameEn}`)}</span>`);
+  }
+  function renderSuite(c) {
+    const el = $$('#dash'); if (!el) return;
+    const openDd = el.querySelector('.dd'), openId = openDd ? openDd.dataset.dd : null;
+    const subs = subsOf(c), a = access(c.id), th = LS.raw('academy.theme') || 'auto';
+    const pre = subs.find(d => !d.prereq), pi = prereqInfo(subs.find(d => d.prereq));
+    const lastSub = LS.raw('academy.last.' + c.id), L = lastSub && SUBC[lastSub] ? SUBC[lastSub] : null;
+    const doneMods = subs.filter(d => { const s = subState(d.id); return s && s.final && s.final.passed; }).length;
+    const lessonsDone = subs.reduce((x, d) => x + Object.keys((subState(d.id) || {}).done || {}).length, 0);
+    const st = c.stats || {};
+    el.innerHTML = `
+      <div class="dbg" aria-hidden="true"><i></i><i></i><i></i><span class="dbg__grid"></span></div>
+      <header class="dbar"><div class="dwrap dbar__in">
+        <a class="dbar__logo" href="${homeURL()}" aria-label="${PT('خانه ' + CFG.BRAND_FA, CFG.BRAND_EN + ' home')}">${LOGO}<span><b>${PT(CFG.BRAND_FA, CFG.BRAND_EN)}</b><small>${PT('بازگشت به همه دوره‌ها', 'Back to all courses')}</small></span></a>
+        <div class="dbar__act">
+          ${a.tier ? tierBadge(a) : ''}
+          <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT(t[2], t[3])}">${t[1]}</button>`).join('')}</div>
+          <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('English', 'فارسی')}</b></button>
+          <button class="dbtn" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
+          <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
+        </div>
+      </div></header>
+      <div class="dwrap suite" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light}">
+        <section class="dhero suite__hero">
+          <div class="dhero__txt">
+            <span class="dchip"><i></i>${PT(`${nf(subs.length)} حیطه • ${nf(st.lessons || 0)} درس • ${nf(st.terms || 0)} واژه`, `${nf(subs.length)} modules • ${nf(st.lessons || 0)} lessons • ${nf(st.terms || 0)} terms`)}</span>
+            <small>${cSubj(c)}</small>
+            <h1>${cName(c)} <em>${PT('ترمینولوژی پزشکی', 'Medical terminology')}</em></h1>
+            <p>${cat(c).about || cDesc(c)}</p>
+            <div class="dhero__cta">
+              ${L ? `<a class="dcont" href="?course=${L.id}" style="--cc:${L.color};--cd:${L.dark}"><span class="dcont__m">${L.mascotFn('happy', L.color, 30)}</span><span>${PT('ادامه از', 'Continue')} <b>${PT(L.nameFa, L.nameEn)}</b></span><i aria-hidden="true">${PT('←', '→')}</i></a>` : ''}
+              ${a.tier ? '' : `<button class="btn btn--gold btn--lg" data-ac="store" data-course="${c.id}">👑 ${PT('باز کردن هر ۱۵ حیطه', 'Unlock all 15 modules')}</button>`}
+            </div>
+            <ul class="dhero__nums">${[[doneMods, PT('حیطه کامل‌شده', 'modules completed')], [lessonsDone, PT('درس گذرانده', 'lessons done')], [st.questions + st.roundSteps, PT('سؤال و مرحله', 'questions & steps')], [st.rounds, PT('پرونده بالینی', 'clinical charts')]].map(n => `<li><b data-count="${n[0]}">${nf(n[0])}</b><small>${n[1]}</small></li>`).join('')}</ul>
+          </div>
+          <div class="dhero__art" aria-hidden="true">
+            <span class="dring dring--1"></span><span class="dring dring--2"></span><span class="dring dring--3"></span>
+            ${[subs[1], pre, subs[2]].filter(Boolean).map((d, i) => `<div class="dhm dhm--${i}" style="--cc:${d.color};--cd:${d.dark}"><div class="dhm__in">${d.mascotFn(i === 1 ? 'cheer' : 'happy', d.color, 108)}</div><span>${PT(d.nameFa, d.nameEn)}</span></div>`).join('')}
+          </div>
+        </section>
+        ${pi && !pi.passed ? `<section class="suite__gate">
+          <div class="suite__gate-m">${pre.mascotFn('cheer', pre.color, 64)}</div>
+          <div><b>${PT(`از «${pre.nameFa}» شروع کن`, `Start with “${pre.nameEn}”`)}</b>
+            <p>${PT(`مقدمه ترمینولوژی پیش‌نیاز همه حیطه‌هاست. ${CFG.PREREQ_RULE === 'lessons' ? 'وقتی همه درس‌هایش را تمام کنی' : 'وقتی امتحان نهایی‌اش را قبول شوی'}، ${nf(subs.length - 1)} حیطه دیگر باز می‌شوند.`, `The introduction is the prerequisite for every module. Once you ${CFG.PREREQ_RULE === 'lessons' ? 'finish all its lessons' : 'pass its final exam'}, the other ${nf(subs.length - 1)} modules open up.`)}</p>
+            <div class="suite__pre"><div class="dc__bar"><i style="width:${Math.max(Math.round(pi.done / pi.total * 100), pi.done ? 4 : 0)}%"></i></div><small>${PT(`${nf(pi.done)} از ${nf(pi.total)} درس`, `${nf(pi.done)} of ${nf(pi.total)} lessons`)}</small></div></div>
+          <a class="btn btn--cc btn--lg" style="--cc:${pre.color};--cd:${pre.dark}" href="?course=${pre.id}">${pi.done ? PT('ادامه', 'Continue') : PT('شروع', 'Start')} ${PT('←', '→')}</a>
+        </section>` : ''}
+        <div class="dsec"><h2>${PT('حیطه‌ها', 'Modules')}</h2><p>${PT('هر حیطه یک دوره کامل است با درس، تمرین، واژه‌نامه، کارت لایتنر، راند بالینی، کاراکتر، لیگ و گواهی. روی هر حیطه بزن تا جزئیاتش را ببینی.', 'Each module is a complete course with lessons, practice, a dictionary, Leitner cards, clinical rounds, characters, a league and a certificate. Tap a module for details.')}</p></div>
+        <section class="dcourses suite__grid" id="dcourses" aria-label="${PT('حیطه‌ها', 'Modules')}">${subs.map((d, i) => subCard(d, i)).join('')}</section>
+        <footer class="dfoot">${PT(`${CFG.BRAND_FA} ابزار آموزشی است و جایگزین منابع رسمی، قضاوت بالینی یا دستور پزشک نیست.`, `${CFG.BRAND_EN} is an educational tool and does not replace official references, clinical judgment or a physician’s orders.`)}</footer>
+      </div>`;
+    if (openId) toggleDetail(openId);
+    countUp(el);
+    guardAnims();
+  }
+  function bootSuite(D) {
+    MODE = 'dash';
+    SUITE = D;
+    document.documentElement.dataset.course = D.id;
+    document.body.classList.add('mode-dash');
+    applyDashTheme();
+    document.title = PT(D.titleFa, D.titleEn) + ' • ' + PT(CFG.BRAND_FA, CFG.BRAND_EN);
+    LS.set('academy.last', D.id);
+    renderSuite(D);
+    const need = params.get('need');
+    if (need && SUBC[need] && !prereqDone(SUBC[need])) setTimeout(() => lockModal(SUBC[need]), 300);
+    const run = params.get('run'), last = LS.raw('academy.last.' + D.id);
+    if (run && last && SUBC[last]) location.replace('?course=' + last + '&run=' + encodeURIComponent(run));
+  }
+  /** ورود به حیطه‌ای که پیش‌نیازش گذرانده نشده: پنجره راهنما به‌جای ورود */
+  document.addEventListener('click', e => {
+    if (MODE !== 'dash' || !SUITE) return;
+    const a = e.target.closest('a[href^="?course="]'); if (!a) return;
+    const m = /^\?course=(\w+)/.exec(a.getAttribute('href'));
+    const d = m && SUBC[m[1]];
+    if (d && !prereqDone(d)) { e.preventDefault(); e.stopImmediatePropagation(); lockModal(d); }
+  }, true);
+
   /* ================= صفحه اول: فقط دوره‌ها (کارت + جزئیات بازشونده) ================= */
   const LOGO = `<svg viewBox="0 0 64 64" width="42" height="42" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>`;
   /** شخصیت هر دوره (قطره یونا، گلبول بال‌دار هما، ذره‌بین نگار) از فایل داده خودش؛ بدون بارگذاری کل دوره */
@@ -3746,6 +4004,7 @@ P — Plan: …`);
   const mascotFns = {};
   function courseMascot(c, mood, size) {
     try {
+      if (c.mascotFn) return c.mascotFn(mood || 'happy', c.color, size || 120); // حیطه‌های دوره مجموعه‌ای
       if (!mascotFns[c.id]) mascotFns[c.id] = c.config(FAKE_EA).mascot;
       return mascotFns[c.id](mood || 'happy', c.color, size || 120);
     } catch (e) { return `<span class="dc__emoji" style="font-size:${(size || 120) * 0.6}px">${c.icon}</span>`; }
@@ -3776,8 +4035,8 @@ P — Plan: …`);
       </div>
       <div class="dc__body">
         <h2>${cName(c)}<small dir="${PT('ltr', 'rtl')}" lang="${PT('en', 'fa')}">${PT(c.nameEn, c.nameFa)}</small></h2>
-        <p class="dc__sub">${cSubj(c)}</p>
-        <p class="dc__tag">${cat(c).tagline || cDesc(c)}</p>
+        <p class="dc__sub">${c.parent ? bil(cSubj(c)) : cSubj(c)}</p>
+        <p class="dc__tag">${c.parent ? bil(cat(c).tagline || cDesc(c)) : cat(c).tagline || cDesc(c)}</p>
         <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? PT(`${nf(done)} از ${nf(total)} درس • ${nf(pct)}٪`, `${nf(done)} of ${nf(total)} lessons • ${nf(pct)}%`) : PT(`${nf(total)} درس • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`, `${nf(total)} lessons • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ questions`)}</span></div>
         ${(() => { const nm = s && s.mistakes ? s.mistakes.length : 0; if (!nm) return ''; return a && a.tier ? `<a class="dc__crit dc__crit--ok" href="?course=${c.id}&run=clinic">🩺 ${PT(`${nf(nm)} خطا برای مرور در کلینیک`, `${nf(nm)} mistakes to review in the clinic`)}</a>` : `<button class="dc__crit" data-ac="upsell" data-course="${c.id}" data-why="clinic">🩺 ${PT(`کلینیک خطاها: ${nf(nm)} مورد بحرانی`, `Mistake clinic: ${nf(nm)} critical`)}</button>`; })()}
         <div class="dc__cta">
@@ -3808,8 +4067,8 @@ P — Plan: …`);
       <div class="dd__nums">${nums.map(n => `<div><span>${n[0]}</span><b>${n[1]}</b><small>${n[2]}</small></div>`).join('')}</div>
       <div class="dd__grid">
         <div class="dd__col">
-          <h4>🗺️ ${PT(`مسیر یادگیری: ${nf(k.worlds.length)} دنیا، ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} سطح`, `Learning path: ${nf(k.worlds.length)} worlds, ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} levels`)}</h4>
-          <ol class="dd__worlds">${k.worlds.map((w, i) => `<li style="--wc:${w.color}"><span class="dd__sym" dir="ltr">${w.sym}</span><div><b>${PT('دنیای', 'World')} ${nf(i + 1)}: ${w.name}</b><small>${w.sub}</small><em>${w.levels.map((l, j) => `<i>${nf(j + 1)}. ${l}</i>`).join('')}</em></div></li>`).join('')}</ol>
+          <h4>🗺️ ${isSuite(c) ? PT(`${nf(k.worlds.length)} حیطه، ${nf(st.worlds)} دنیا (${PT('مقدمه پیش‌نیاز همه', '')})`, `${nf(k.worlds.length)} modules, ${nf(st.worlds)} worlds (the introduction comes first)`) : PT(`مسیر یادگیری: ${nf(k.worlds.length)} دنیا، ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} سطح`, `Learning path: ${nf(k.worlds.length)} worlds, ${nf(k.worlds.reduce((x, w) => x + w.levels.length, 0))} levels`)}</h4>
+          <ol class="dd__worlds">${k.worlds.map((w, i) => `<li style="--wc:${w.color}"><span class="dd__sym" dir="ltr">${w.sym}</span><div><b>${isSuite(c) ? PT('حیطه', 'Module') : PT('دنیای', 'World')} ${nf(i + 1)}: ${w.name}</b><small>${w.sub}</small><em>${w.levels.map((l, j) => `<i>${nf(j + 1)}. ${l}</i>`).join('')}</em></div></li>`).join('')}</ol>
         </div>
         <div class="dd__col">
           <h4>🎯 ${PT('در پایان دوره می‌توانی…', 'By the end of the course you can…')}</h4>
@@ -3841,7 +4100,7 @@ P — Plan: …`);
     const cols = Math.max(1, getComputedStyle(grid).gridTemplateColumns.split(' ').filter(Boolean).length);
     const idx = items.indexOf(card);
     const end = items[Math.min(items.length - 1, Math.floor(idx / cols) * cols + cols - 1)];
-    const tmp = document.createElement('div'); tmp.innerHTML = dDetail(AC[id]);
+    const tmp = document.createElement('div'); tmp.innerHTML = dDetail(courseDef(id));
     const node = tmp.firstElementChild;
     end.after(node);
     card.classList.add('is-open'); card.setAttribute('aria-expanded', 'true');
@@ -3849,6 +4108,7 @@ P — Plan: …`);
     setTimeout(() => node.scrollIntoView({ behavior: 'smooth', block: 'nearest' }), 120);
   }
   function renderDash() {
+    if (SUITE) return renderSuite(SUITE); // صفحه انتخاب حیطه دوره مجموعه‌ای
     const el = $$('#dash'); if (!el) return;
     const openDd = el.querySelector('.dd'), openId = openDd ? openDd.dataset.dd : null;
     const p = profile() || {}, sm = summary(), list = courses();
@@ -3965,7 +4225,7 @@ P — Plan: …`);
   function upgradeModal(cid, why, tierPick) {
     document.querySelectorAll('.modal').forEach(x => { if (!x.classList.contains('modal--tamper')) x.remove(); });
     const list = courses();
-    const c = AC[cid] || (window.EA && EA.COURSE && AC[EA.COURSE.id]) || list[0];
+    const c = AC[rootOf(cid)] || (window.EA && EA.COURSE && AC[rootOf(EA.COURSE.id)]) || list[0];
     const a = access(c.id), k = cat(c), w = why && WHY[why];
     const need = w ? w[3] : 0;
     const st = {
@@ -4150,7 +4410,7 @@ P — Plan: …`);
     setPageTheme(n);
     pToast(n === 'auto' ? PT('🌓 پوسته خودکار', '🌓 Auto theme') : n === 'dark' ? PT('🌙 پوسته تیره', '🌙 Dark theme') : PT('☀️ پوسته روشن', '☀️ Light theme'));
   }
-  const dashTitle = () => { document.title = PT(CFG.BRAND_FA, CFG.BRAND_EN) + ' • ' + courses().map(c => PT(c.nameFa, c.nameEn)).join(PT('، ', ', ')); };
+  const dashTitle = () => { document.title = SUITE ? PT(SUITE.titleFa, SUITE.titleEn) + ' • ' + PT(CFG.BRAND_FA, CFG.BRAND_EN) : PT(CFG.BRAND_FA, CFG.BRAND_EN) + ' • ' + courses().map(c => PT(c.nameFa, c.nameEn)).join(PT('، ', ', ')); };
   /** تغییر زبان سراسری: بلافاصله و بدون بارگذاری دوباره، روی صفحه اول، دوره باز، نوار کناری، بنر و دکمه شناور */
   function setUILang(l) {
     if (l !== 'en' && l !== 'fa') return;
@@ -4303,6 +4563,12 @@ P — Plan: …`);
    *  (خواندن قواعد CSS روی file:// مجاز نیست؛ پس قواعد پایه در زمان ساخت به data-skin گره خورده‌اند) */
   function ensureSkin(D) {
     const h = document.documentElement, id = D.id;
+    /* حیطه‌های دوره مجموعه‌ای: سبک مشترک دوره مادر (مثل جعبه واژه‌سازی و شکل‌ها) + سبک‌های ویژه همان حیطه */
+    [['suite-css-' + D.parent, D.parent && AC[D.parent] && AC[D.parent].css], ['sub-css-' + id, D.parent && D.css]].forEach(([k, css]) => {
+      if (!css || document.getElementById(k)) return;
+      const st = document.createElement('style'); st.id = k; st.textContent = css; document.head.appendChild(st);
+    });
+    if (D.parent) h.dataset.suite = D.parent;
     h.dataset.skin = id;
     const own = getComputedStyle(h).getPropertyValue('--course-css').trim() === '1';
     if (own) return;
@@ -4333,7 +4599,9 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
   }
 
   function bootCourse(id, calc) {
-    const D = AC[id];
+    const D = courseDef(id);
+    if (isSuite(D)) return bootSuite(D);
+    if (D.parent && !calc && !prereqDone(D)) { location.replace('?course=' + D.parent + '&need=' + id); return; }
     if ((D.assets || []).some(src => !document.querySelector(`script[src="${src}"]`))) {
       return needAssets(D, () => { bootCourse(id, calc); hideBoot(); fab(); banner(); });
     }
@@ -4341,7 +4609,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     ensureSkin(D);
     document.body.classList.add(calc ? 'mode-calc' : 'mode-course');
     setMetaColor(D.color);
-    if (!calc) LS.set('academy.last', id);
+    if (!calc) { LS.set('academy.last', rootOf(id)); if (D.parent) LS.set('academy.last.' + D.parent, id); }
     window.EA = {};
     ENGINE.lang(D);
     D.content();
@@ -4404,7 +4672,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     if (e.defaultPrevented || e.button || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey || a.target === '_blank') return;
     const b = document.getElementById('boot'); if (!b) return;
     e.preventDefault();
-    const D = AC[id];
+    const D = courseDef(id);
     b.setAttribute('data-c', id);
     b.firstChild.innerHTML = courseMascot(D, 'happy', 120);
     b.lastChild.textContent = PT(D.nameFa, D.nameEn);
@@ -4416,7 +4684,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     if (MODE !== 'dash') return;
     const a = e.target.closest('a[href^="?course="]'); if (!a) return;
     const m = /^\?course=(\w+)/.exec(a.getAttribute('href'));
-    if (m && AC[m[1]]) enterCourse(a, m[1], e);
+    if (m && courseDef(m[1])) enterCourse(a, m[1], e);
   });
   // برگشت با دکمه Back (صفحه از حافظه مرورگر برمی‌گردد): صفحه ورود نباید روی صفحه اول بماند
   window.addEventListener('pageshow', e => { if (e.persisted && MODE === 'dash') { const b = document.getElementById('boot'); if (b) b.className = ''; } });
@@ -4447,7 +4715,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     deviceId();
     const ok = clockCheck();
     const calc = params.get('calc'), cid = params.get('course');
-    const known = id => !!id && courses().some(c => c.id === id);
+    const known = id => !!id && (courses().some(c => c.id === id) || (!!SUBC[id] && courses().some(c => c.id === SUBC[id].parent)));
     if (known(calc)) { MODE = 'calc'; bootCourse(calc, true); if (!ok) tamperModal(); return; }
     if (known(cid)) {
       MODE = 'course';

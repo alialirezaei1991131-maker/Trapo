@@ -1,0 +1,839 @@
+/* تراپو — دوره «ترمینو» (ترمینولوژی پزشکی): یک دوره در صفحه اول، ۱۵ حیطه درون آن
+ * این فایل سبک است و فقط فهرست حیطه‌ها، کیت مشترک و سبک‌ها را ثبت می‌کند؛ محتوای هر حیطه
+ * (courses/termino/<حیطه>.js) هنگام ورود به همان حیطه بارگذاری می‌شود.
+ * «لِکسا» (مقدمه ترمینولوژی) پیش‌نیاز همه حیطه‌های دیگر است؛ همه حیطه‌ها با اشتراک همین دوره (bitFlag 8) باز می‌شوند. */
+window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
+window.ACADEMY_SUBCOURSES = window.ACADEMY_SUBCOURSES || {};
+(function (AC, SUB) {
+  /* =====================================================================
+     کیت مشترک ترمینولوژی: پیکربندی موتور مشترک تراپو را از EA.APP هر حیطه می‌سازد
+     (صفحه معرفی، آشنایی، تمرین، گواهی، نشان‌ها، راند بالینی و برچسب سؤال‌های واژه‌نامه).
+     هر متن ثابت رابط دوزبانه است؛ متن‌های اختصاصی هر حیطه از EA.APP و ترجمه‌اش از EA.APP.en می‌آید.
+     ===================================================================== */
+  const KIT = {
+    /** متن اختصاصی حیطه به زبان رابط: EA.APP.en[k] در انگلیسی، وگرنه همان فارسی */
+    at(EA, k) {
+      const A = EA.APP, en = EA.lang === 'en' && A.en ? A.en[k] : undefined;
+      return en != null ? en : A[k];
+    },
+    config(EA, M) {
+      const T = EA.T;
+      const fa = (n, d) => EA.fa(n, d);
+      const A = EA.APP;
+      const AT = k => KIT.at(EA, k);
+      const NAME = () => T(M.nameFa, M.nameEn);
+      const TAGS = {
+        term: ['واژه تازه از واژه‌نامه', 'New dictionary term'], def: ['تعریف انگلیسی', 'English definition'], spell: ['املای واژه', 'Spelling'],
+        root: ['ریشه و پسوند', 'Roots & suffixes'], build: ['واژه‌سازی', 'Word building'], abbr: ['اختصار', 'Abbreviation']
+      };
+      const wp = (act, G) => `<div class="wpick">${EA.worlds.map(w => `<button class="wpick__b" data-act="${act}" data-w="${w.id}" style="--wc:${w.color};--wd:${w.dark}" title="${w.name}">${w.sym}</button>`).join('')}<button class="wpick__b wpick__b--all" data-act="${act}" data-w="">${T('همه', 'All')}</button></div>`;
+      const badgesEn = {
+        first: [null, 'Finish your first lesson'], perfect3: ['Flawless', 'Finish three lessons without a mistake'], streak3: ['Warming Up', '3-day streak'],
+        streak7: ['Volcano', '7-day streak'], calc10: ['Word Opener', '10 correct dictionary questions'], calc50: ['Living Dictionary', '50 correct dictionary questions'],
+        speed15: ['Lightning Fast', '15 correct answers in the speed challenge'], combo10: ['Sharpshooter', '10 correct answers in a row'],
+        cards50: ['Leitner Box', 'Bring 50 cards to the “I know it” box'], xp1000: ['Thousand Club', 'Earn 1000 XP'],
+        rounds: ['Skilled On-Call', 'Pass every clinical-round case'], final: ['Terminology Master', 'Pass the final exam']
+      };
+      const WB = A.worldBadges || {}, WBE = (A.en && A.en.worldBadges) || {};
+      const badges = [
+        { id: 'first', icon: A.firstBadge[0], name: A.firstBadge[1], desc: 'اولین درس را تمام کن' },
+        { id: 'perfect3', icon: '💯', name: 'بی‌نقص', desc: 'سه درس را بدون اشتباه تمام کن' },
+        { id: 'streak3', icon: '🔥', name: 'گرم شدی', desc: 'زنجیره ۳ روزه' },
+        { id: 'streak7', icon: '🌋', name: 'آتشفشان', desc: 'زنجیره ۷ روزه' },
+        { id: 'calc10', icon: '🔤', name: 'واژه‌باز', desc: '۱۰ سؤال واژه‌نامه‌ای درست' },
+        { id: 'calc50', icon: '🧠', name: 'فرهنگ‌نامه زنده', desc: '۵۰ سؤال واژه‌نامه‌ای درست' },
+        { id: 'speed15', icon: '⚡', name: 'برق‌آسا', desc: 'در چالش سرعت ۱۵ جواب درست بده' },
+        { id: 'combo10', icon: '🎯', name: 'تک‌تیرانداز', desc: '۱۰ جواب درست پشت سر هم' },
+        { id: 'cards50', icon: '🗂️', name: 'جعبه لایتنر', desc: '۵۰ کارت را به خانه «بلدم» برسان' },
+        ...EA.worlds.map(w => ({ id: 'w_' + w.id, icon: (WB[w.id] || ['🏅'])[0], name: (WB[w.id] || [0, w.name])[1], desc: `آزمون دنیای ${w.name} را قبول شو` })),
+        { id: 'xp1000', icon: '🏅', name: 'هزار امتیاز', desc: '۱۰۰۰ امتیاز جمع کن' },
+        { id: 'rounds', icon: '🩺', name: 'کشیک ماهر', desc: 'همه کیس‌های راند بالینی را قبول شو' },
+        { id: 'final', icon: '🎓', name: 'استاد ترمینولوژی', desc: 'امتحان نهایی را قبول شو' }
+      ];
+      /* نسخه انگلیسی نشان‌ها (نام نشان دنیا از ترجمه EA.APP یا نام انگلیسی همان دنیا) */
+      const bEn = {};
+      badges.forEach(b => {
+        if (b.id.startsWith('w_')) {
+          const wid = b.id.slice(2), w = EA.worlds.find(x => x.id === wid);
+          const wn = () => (EA.W && EA.W.en ? (EA.W.en.find(x => x.id === wid) || {}).name : '') || (w && w.name) || wid;
+          bEn[b.id] = [WBE[wid] || null, null, wn];
+        } else bEn[b.id] = badgesEn[b.id];
+      });
+      badges.forEach(b => {
+        const f = { name: b.name, desc: b.desc }, e = bEn[b.id] || [];
+        Object.defineProperty(b, 'name', { get: () => (EA.lang === 'en' ? e[0] || (b.id === 'first' && A.en && A.en.firstBadge) || f.name : f.name), enumerable: true });
+        Object.defineProperty(b, 'desc', { get: () => (EA.lang === 'en' ? (e[2] ? `Pass the ${e[2]()} checkpoint` : e[1] || f.desc) : f.desc), enumerable: true });
+      });
+
+      return {
+        id: M.id, bit: M.bit, key: 'academy_course_' + M.id, langs: ['fa', 'en'], startWorld: M.start, codePrefix: M.prefix,
+        nameFa: M.nameFa, nameEn: M.nameEn, titleFa: M.titleFa, titleEn: M.titleEn,
+        term: true,
+        state: {
+          titles: A.titles,
+          titlesEn: (A.en && A.en.titles) || null,
+          roles: A.leagueRoles,
+          rolesEn: (A.en && A.en.leagueRoles) || null,
+          badges,
+          badgesEn: null
+        },
+        confetti: A.confetti,
+        unitRun: M.unitRun,
+        mascot: M.mascot,
+        uiExtra: () => ({}),
+        numPlaceholder: () => T('عدد یا عبارت', 'Number or expression'),
+        calcTag: tag => T((TAGS[tag] || ['واژه‌نامه', 'Dictionary'])[0], (TAGS[tag] || ['واژه‌نامه', 'Dictionary'])[1]),
+        navTools: () => T('واژه‌نامه', 'Dictionary'),
+        roundBrief: function (r, figCard, caseCard) {
+          return { kind: 'learn', title: T(`پرونده: ${r.title}`, `Case: ${r.title}`), bubble: T('بیمار تازه رسید! 🚑', 'A new patient just arrived! 🚑'), body: `<div class="rbrief"><b>${r.who}</b><p>${r.brief}</p></div>${figCard(r.fig)}${caseCard(r.chart)}<p>${T('در هر مرحله بهترین پاسخ را انتخاب کن و توضیح هر پاسخ را بخوان؛ این‌جا واژه‌ها را در پرونده یک بیمار واقعی به کار می‌بری.', 'At each step pick the best answer and read the explanation — here you use the terms on a real patient’s chart.')}</p>` };
+        },
+        icons: {
+          tools: '<svg viewBox="0 0 32 32"><path d="M5 6a3 3 0 0 1 3-3h17v23H8a3 3 0 0 0-3 3z" fill="#6C3FD1"/><path d="M5 29a3 3 0 0 1 3-3h17v3z" fill="#96172D"/><text x="15.5" y="18" font-size="10" font-weight="900" fill="#fff" text-anchor="middle" font-family="Nunito,sans-serif">Aa</text></svg>',
+          chars: '<svg viewBox="0 0 32 32"><ellipse cx="16" cy="18" rx="12" ry="11" fill="#FF6B57"/><ellipse cx="16" cy="19" rx="7" ry="5" fill="#000" opacity=".1"/><circle cx="12.5" cy="17" r="2" fill="#fff"/><circle cx="19.5" cy="17" r="2" fill="#fff"/><path d="M13 22q3 2.5 6 0" stroke="#fff" stroke-width="1.8" fill="none" stroke-linecap="round"/><path d="m25 3 1.2 2.8L29 7l-2.8 1.2L25 11l-1.2-2.8L21 7l2.8-1.2z" fill="#FFC800"/></svg>'
+        },
+        obRoles: (A.obRoles || [['دانشجوی پزشکی', ''], ['دانشجوی پرستاری یا مامایی', ''], ['علوم آزمایشگاهی', ''], ['تغذیه', ''], ['پرستار یا پزشک', ''], ['سایر', '']]).map((r, i) => [r[0], r[1] || ['Medical student', 'Nursing or midwifery student', 'Laboratory sciences', 'Nutrition', 'Nurse or physician', 'Other'][i] || 'Other']),
+        practice: function (h) {
+          const { s } = h;
+          const cards = s.cards || {}, mastered = Object.values(cards).filter(b => b >= 4).length, seen = Object.keys(cards).length;
+          return {
+            calc: `<div class="pcard__i">🔤</div><h3>${T('تمرین واژه‌نامه', 'Dictionary practice')}</h3>
+          <p>${T(`سؤال‌های تازه در هر بار از ${fa(EA.lex.TERMS.length)} واژه: معنی، تعریف انگلیسی، املا، ریشه‌ها، واژه‌سازی و اختصارها. دنیا را انتخاب کن:`, `Fresh questions every time from ${fa(EA.lex.TERMS.length)} terms: meaning, English definition, spelling, roots, word building and abbreviations. Pick a world:`)}</p>`,
+            rounds: `<p>${T(`${fa(EA.rounds.length)} پرونده واقعی از کتاب‌ها؛ شرح حال و آزمایش‌ها را بخوان و واژه‌ها را در بالین به کار ببر.`, `${fa(EA.rounds.length)} real charts from the textbooks — read the history and the labs and put the terms to work at the bedside.`)}</p>
+          <div class="rgroups">${EA.worlds.map(w => { const rs = EA.rounds.filter(r => r.w === w.id); if (!rs.length) return ''; return `<div class="rgroup"><div class="rgroup__h"><span class="wsym" style="--wc:${w.color};--wd:${w.dark}">${w.sym}</span><b>${w.name}</b><small>${T(`${fa(rs.length)} بیمار`, `${fa(rs.length)} ${rs.length === 1 ? 'patient' : 'patients'}`)}</small></div><div class="rlist">${rs.map(r => { const st = (s.rounds || {})[r.id]; return `<button class="rcase ${st && st.passed ? 'is-done' : ''}" data-act="round" data-id="${r.id}" style="--wc:${w.color};--wd:${w.dark}"><span class="rcase__t"><b>${r.title}</b><small>${r.who}</small></span><span class="rcase__s">${st ? (st.passed ? '✓ ' : '') + fa(Math.round(st.best * 100)) + T('٪', '%') : T(`${fa(r.steps.length)} مرحله`, `${fa(r.steps.length)} steps`)}</span></button>`; }).join('')}</div></div>`; }).join('')}</div>`,
+            guide: `<p>${T('همه کارت‌های آموزشی، جدول‌ها و شکل‌های هر دنیا در یک نگاه.', 'Every teaching card, table and figure of each world at a glance.')}</p>`,
+            extra: G => `<article class="pcard pcard--green">
+          <div class="pcard__i">🗂️</div><h3>${T('کارت‌های واژه (لایتنر)', 'Word cards (Leitner)')}</h3>
+          <p>${T(`${fa(15)} کارت در هر دسته؛ واژه‌هایی که بلد نیستی زودتر برمی‌گردند.`, `${fa(15)} cards per deck; the words you don’t know come back sooner.`)} ${seen ? T(`تا حالا ${fa(seen)} واژه دیده‌ای و ${fa(mastered)} واژه در خانه‌های آخرند.`, `You’ve seen ${fa(seen)} words so far and ${fa(mastered)} are in the last boxes.`) : T('از کدام دنیا شروع کنیم؟', 'Which world shall we start with?')}</p>
+          ${G().calc() ? wp('cards', G) : `<div class="paylock"><span>🔒</span><p>${T('با پلن آموزشی یا Pro باز می‌شود.', 'Unlocks with Standard or Pro.')}</p><button class="btn btn--gold btn--sm" data-ac="upsell" data-why="calc">👑 ${T('ارتقا', 'Upgrade')}</button></div>`}
+        </article>`
+          };
+        },
+        cert: function (s) {
+          const ws = EA.worlds.map(w => w.name);
+          return {
+            kicker: `<small class="cert__kicker">${T(`${M.nameFa} • آکادمی ترمینولوژی پزشکی تراپو`, `${M.nameEn} • Therapo Medical Terminology Academy`)}</small>`,
+            body: `<p>${T(`دوره آموزشی <b>${A.subject}</b> شامل ${ws.slice(0, -1).join('، ')}، و ${ws[ws.length - 1]} را با موفقیت به پایان رساند و در امتحان نهایی نمره <b>${fa(Math.round(s.final.score * 100))}٪</b> کسب کرد.`, `has successfully completed the course <b>${AT('subject')}</b>, covering ${ws.slice(0, -1).join(', ')} and ${ws[ws.length - 1]}, scoring <b>${fa(Math.round(s.final.score * 100))}%</b> on the final exam.`)}</p>`
+          };
+        },
+        landing: function (h) {
+          const { S, mascot, avatar, musicIcon, langBtn, esc } = h;
+          const s = S(), back = !!s.profile;
+          const demo = KIT.demo(EA);
+          const lessons = EA.worlds.reduce((a, w) => a + w.lessons.length, 0);
+          const qs = EA.worlds.reduce((a, w) => a + w.lessons.reduce((b, l) => b + l.items.filter(x => x.t !== 'learn').length, 0), 0) + EA.rounds.reduce((a, r) => a + r.steps.length, 0);
+          const mols = EA.worlds.map(w => [w.sym, w.color]);
+          const order = [0, 1, 2, 3].sort(() => Math.random() - 0.5);
+          const startLbl = back ? T('ادامه یادگیری', 'Continue learning') : T('همین حالا شروع کن', 'Start now — it’s free');
+          const lv = back ? EA.S.level() : null;
+          const nFig = Object.keys(EA.IMG || {}).length + (EA.ART_KEYS || []).length;
+          const intro = EA.lang === 'en' && A.en
+            ? `${A.en.hello || ''} Here you don’t memorize terms — you <b>decode</b> them: you learn the roots, prefixes and suffixes and read every new word on your own. ${fa(EA.lex.TERMS.length)} terms with pronunciation, ${fa(nFig)} teaching pictures and figures, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`
+            : A.landP ? A.landP() : `${A.hello} این‌جا واژه‌ها را حفظ نمی‌کنی؛ <b>رمزگشایی</b>‌شان می‌کنی: ریشه، پیشوند و پسوند را می‌شناسی و هر واژه تازه را خودت می‌خوانی. ${fa(EA.lex.TERMS.length)} واژه با تلفظ و معنی فارسی، ${fa(nFig)} تصویر و شکل آموزشی، ${fa(EA.rounds.length)} پرونده بالینی و کارت‌های لایتنر منتظرت هستند.`;
+          const html = `
+      <header class="land__bar"><span class="brand">${mascot('happy', 'var(--brand)', 30)}<span>${NAME()}</span></span>
+        <span class="land__bar-r">${langBtn('data-land="lang"')}<button class="chip-stat chip-stat--music ${s.settings.music ? 'is-on' : ''}" data-act="music" aria-label="${T('موسیقی', 'Music')}">${musicIcon()}</button><button class="btn btn--brand btn--sm" data-land="start">${back ? T('ادامه', 'Continue') : T('شروع', 'Start')}</button></span></header>
+      <section class="land__hero">
+        <div class="land__orbit" aria-hidden="true">
+          <div class="land__yona">${mascot('cheer', 'var(--brand)', 150)}</div>
+          ${mols.map((x, i) => `<span class="ion" style="--i:${i};--c:${x[1]}"><b dir="ltr">${x[0]}</b></span>`).join('')}
+        </div>
+        <span class="land__kicker">${AT('kicker')}</span>
+        <h1 class="land__h">${T('هر واژه پزشکی<br><em>یک پازل است</em>', 'Every medical term<br><em>is a puzzle</em>')}</h1>
+        <p class="land__p">${intro}</p>
+        <div class="land__cta"><button class="btn btn--brand btn--lg" data-land="start">${startLbl}</button>
+          ${back ? `<span class="land__me">${avatar()}<span><b>${T(`خوش برگشتی ${esc(s.profile.name)}!`, `Welcome back, ${esc(s.profile.name)}!`)}</b><small>${T(`🔥 ${fa(s.streak)} روز • ⚡ ${fa(s.xp)} امتیاز • سطح ${fa(lv.n)}: ${lv.title}`, `🔥 ${fa(s.streak)}-day streak • ⚡ ${fa(s.xp)} XP • Level ${fa(lv.n)}: ${lv.title}`)}</small></span></span>`
+            : `<small class="land__free">${T('بدون ثبت‌نام • از همین گوشی', 'No hassle • Right on your phone')}</small><button class="btn btn--ghost" data-land="import">${T('پیشرفت قبلی را بازیابی کن', 'Restore earlier progress')}</button>`}</div>
+      </section>
+      <section class="land__nums">
+        ${[[fa(EA.worlds.length), T('دنیای یادگیری', 'Learning worlds')], [fa(lessons), T('درس کوتاه', 'Bite-sized lessons')], [fa(qs) + '+', T('سؤال و مرحله', 'Questions & steps')], [fa(EA.lex.TERMS.length), T('واژه با تلفظ', 'Terms with pronunciation')], [fa(EA.lex.ROOTS.length), T('ریشه و پسوند', 'Roots & affixes')], [fa(EA.lex.ABBR.length), T('اختصار', 'Abbreviations')]].map(x => `<div><b>${x[0]}</b><small>${x[1]}</small></div>`).join('')}
+      </section>
+      <section class="land__sec">
+        <h2>${T('همین حالا یک واژه را رمزگشایی کن', 'Decode a term right now')}</h2>
+        <div class="demo">
+          ${EA.ui.figCard(demo.fig)}
+          <h3 class="q q--sm">${demo.q}</h3>
+          <div class="opts">${order.map(k => `<button class="opt" data-demo="${k}"><span>${demo.opts[k]}</span></button>`).join('')}</div>
+          <div class="demo__fb" hidden></div>
+        </div>
+      </section>
+      <section class="land__sec">
+        <h2>${T('چرا این روش بهترین راه است؟', 'Why is this the best way to learn?')}</h2>
+        <p class="land__sub">${T(`${M.nameFa} بر پایه اصولی ساخته شده که پژوهش‌های یادگیری بارها اثرشان را نشان داده‌اند.`, `${M.nameEn} is built on principles that learning research has confirmed again and again.`)}</p>
+        <div class="land__why">${[
+          ['🧩', T('واژه‌سازی', 'Word building'), T('با حدود صد ریشه و پسوند، صدها واژه را بدون حفظ کردن می‌فهمی؛ حتی واژه‌هایی که هرگز ندیده‌ای.', 'With about a hundred roots and suffixes you understand hundreds of terms without memorizing — even words you have never seen.')],
+          ['🧠', T('یادآوری فعال', 'Active recall'), T('به جای خواندن، جواب می‌دهی و می‌نویسی. هر بار که از حافظه بیرون می‌کشی، آن واژه محکم‌تر می‌شود.', 'Instead of rereading, you answer and type. Every time you pull a word from memory, it sticks a little more firmly.')],
+          ['🗂️', T('جعبه لایتنر', 'Leitner box'), T('کارت‌هایی که بلد نیستی زودتر برمی‌گردند و آن‌هایی که بلدی کم‌کم کنار می‌روند.', 'Cards you don’t know come back sooner, and the ones you know gradually step aside.')],
+          ['👁️', T('یادگیری با چشم', 'Learning by sight'), AT('eyes')]
+        ].map(x => `<article><span>${x[0]}</span><b>${x[1]}</b><p>${x[2]}</p></article>`).join('')}</div>
+      </section>
+      <section class="land__sec">
+        <h2>${T('در پایان دوره تو می‌توانی…', 'By the end of the course, you’ll be able to…')}</h2>
+        <ul class="land__out">${AT('outcomes').map(x => `<li>${x}</li>`).join('')}</ul>
+      </section>
+      <section class="land__sec">
+        <h2>${T('مسیرت این شکلی است', 'Here’s how your journey works')}</h2>
+        <ol class="land__steps">${[
+          [T('یاد بگیر', 'Learn'), T('کارت‌های کوتاه با شکل، جدول و رمزهای به‌یادماندنی، قدم‌به‌قدم روی یک مسیر پیچان.', 'Short cards with figures, tables and memorable tricks, one step at a time along a winding path.')],
+          [T('تمرین کن', 'Practice'), T('هشت نوع سؤال، از چندگزینه‌ای و جفت‌کردن تا املای واژه و ساختن واژه از ریشه‌ها؛ سؤال‌های واژه‌نامه هر بار تازه‌اند.', 'Eight question types, from multiple choice and matching to spelling and building words from roots; dictionary questions are fresh every time.')],
+          [T('در بالین به کار ببر', 'Use it at the bedside'), T('راند بالینی: پرونده بیمار را بخوان و واژه‌ها، آزمایش‌ها و درمان‌ها را تفسیر کن.', 'Clinical rounds: read a patient’s chart and interpret the terms, tests and treatments.')],
+          [T('امتحان بده و گواهی بگیر', 'Pass the exam, earn a certificate'), T('با هر سطح یک کاراکتر، با هر دنیا یک نشان، و در پایان گواهی با نام خودت.', 'A character for every level, a badge for every world, and a certificate in your name at the finish.')]
+        ].map((x, i) => `<li><span>${fa(i + 1)}</span><div><b>${x[0]}</b><p>${x[1]}</p></div></li>`).join('')}</ol>
+      </section>
+      <section class="land__sec">
+        <h2>${T(`${fa(EA.worlds.length)} دنیا، ${fa(EA.worlds.length * 3)} سطح`, `${fa(EA.worlds.length)} worlds, ${fa(EA.worlds.length * 3)} levels`)}</h2>
+        <div class="land__worlds">${EA.worlds.map(w => `<article class="lw" style="--wc:${w.color};--wd:${w.dark}">
+          <span class="wsym">${w.sym}</span><h3>${w.name}</h3><p>${w.sub}</p>
+          <ol>${w.levels.map(x => `<li>${x}</li>`).join('')}</ol></article>`).join('')}</div>
+      </section>
+      <section class="land__sec">
+        <h2>${T('کاراکترها را جمع کن', 'Collect the characters')}</h2>
+        <p class="land__sub">${T('هر سطح که تمام شود، یک کاراکتر تازه به تو می‌پیوندد و می‌تواند همراهت در درس‌ها باشد.', 'Finish a level and a new character joins you — and can keep you company during lessons.')}</p>
+        <div class="land__chars">${EA.chars.list.filter(c => c.lv === 0).map(c => `<figure>${EA.chars.draw(c, 'happy', 76)}<figcaption>${c.name}</figcaption></figure>`).join('')}
+          ${EA.chars.list.filter(c => c.lv > 0).slice(0, 3).map(c => `<figure class="is-lock">${EA.chars.draw(c, 'happy', 76, true)}<figcaption>???</figcaption></figure>`).join('')}</div>
+      </section>
+      <section class="land__sec">
+        <h2>${T('آیا می‌دانستی؟', 'Did you know?')}</h2>
+        <div class="tip tip--land" role="button" tabindex="0" title="${T('نکته بعدی', 'Next tip')}"><div class="tip__body"></div></div>
+      </section>
+      <section class="land__sec">
+        <h2>${T('همه چیزهایی که یک بازی خوب لازم دارد', 'Everything a great game needs')}</h2>
+        <div class="land__feat">${[
+          ['❤️', T('قلب‌ها', 'Hearts'), T('هر اشتباه یک قلب؛ با تمرین برمی‌گردد', 'Each mistake costs a heart; practice wins it back')],
+          ['🔥', T('زنجیره روزانه', 'Daily streak'), T('هر روز چند دقیقه، آتشت روشن می‌ماند', 'A few minutes a day keeps your flame burning')],
+          ['🏆', T('لیگ هفتگی', 'Weekly league'), T(`${fa(30)} نفر در هر گروه، از برنز تا الماس`, `${fa(30)} players per group, from Bronze to Diamond`)],
+          ['📚', T('واژه‌نامه و تجزیه‌گر', 'Dictionary & word parser'), T('جست‌وجوی فارسی و انگلیسی، تلفظ و شکستن واژه', 'Persian and English search, pronunciation and word breakdown')],
+          ['🎵', T('موسیقی تمرکز', 'Focus music'), T('آرام و بی‌کلام؛ با یک لمس قطع می‌شود', 'Calm and wordless; one tap to mute')],
+          ['🎓', T('گواهی پایان دوره', 'Course certificate'), T('با نام و تاریخ شمسی', 'With your name and completion date')]
+        ].map(x => `<div><span>${x[0]}</span><b>${x[1]}</b><small>${x[2]}</small></div>`).join('')}</div>
+      </section>
+      <section class="land__end">
+        ${mascot('cheer', 'var(--brand)', 110)}
+        <h2>${back ? T('درس بعدی منتظرت است', 'Your next lesson is waiting') : T('اولین درس کمتر از ۳ دقیقه است', 'Your first lesson takes less than 3 minutes')}</h2>
+        <p class="land__p">${AT('endText')}</p>
+        <button class="btn btn--brand btn--lg" data-land="start">${startLbl}</button>
+        <p class="disclaimer">${AT('disclaimer')}</p>
+      </section>
+      <div class="land__sticky"><button class="btn btn--brand btn--lg btn--block" data-land="start">${startLbl}</button></div>`;
+          return { html, demo };
+        },
+        demoFeedback: function (good, demo) {
+          return `<b>${good ? T('✓ آفرین! دقیقاً همین.', '✓ Well done — exactly right.') : T('✗ نزدیک بود؛ پاسخ درست: ', '✗ Close! The right answer: ') + demo.opts[0]}</b><p>${demo.why}</p><button class="btn btn--brand" data-land="start">${good ? T('تو آماده‌ای؛ بیا ادامه بدهیم', 'You’re ready — let’s keep going') : T('بیا با هم یادش بگیریم', 'Let’s learn it together')}</button>`;
+        },
+        obSteps: function (h) {
+          const { d, bubble, esc, GOALS } = h;
+          const ROLES = this.obRoles;
+          return [
+            () => `${bubble(AT('obHello'))}
+        <input class="ob__in" id="ob-name" maxlength="40" placeholder="${T('نام تو', 'Your name')}" value="${esc(d.name)}" autocomplete="given-name">
+        <div class="ob__btns"><button class="btn btn--brand btn--lg btn--block" data-ob="name">${T('ادامه', 'Continue')}</button></div>`,
+            () => `${bubble(T(`خوشبختم ${esc(d.name)}! یک عکس برای پروفایلت می‌گذاری؟ (اختیاری)`, `Nice to meet you, ${esc(d.name)}! Want to add a profile photo? (optional)`))}
+        <div class="ob__photo"><label class="avpick" for="ob-ph">${d.photo ? `<span class="avatar avatar--xl"><img src="${d.photo}" alt="" draggable="false"></span>` : `<span class="avatar avatar--xl" style="--h:170">${esc(d.name[0] || '?')}</span>`}<span class="avpick__cam" aria-hidden="true">📷</span></label>
+        <input type="file" id="ob-ph" accept="image/*" hidden><label class="link link--btn" for="ob-ph">${d.photo ? T('تغییر عکس', 'Change photo') : T('انتخاب عکس از گالری', 'Choose a photo from your gallery')}</label></div>
+        <div class="ob__btns"><button class="btn btn--brand btn--lg btn--block" data-ob="next">${d.photo ? T('ادامه', 'Continue') : T('فعلاً نه، ادامه', 'Not now, continue')}</button></div>`,
+            () => `${bubble(T('در چه رشته‌ای درس می‌خوانی یا کار می‌کنی؟', 'What do you study or work in?'))}
+        <div class="ob__grid">${ROLES.map((r, i) => `<button class="ob__opt ${d.role === r[0] ? 'is-sel' : ''}" data-ob="role" data-v="${i}">${T(r[0], r[1])}</button>`).join('')}</div>`,
+            () => `${bubble(T('هدف روزانه‌ات چقدر باشد؟', 'How big should your daily goal be?'))}
+        <div class="ob__list">${GOALS().map(g => `<button class="ob__opt ob__opt--row ${d.goal === g[0] ? 'is-sel' : ''}" data-ob="goal" data-v="${g[0]}"><b>${g[1]}</b><span>${g[2]}</span></button>`).join('')}</div>
+        <div class="ob__btns"><button class="btn btn--brand btn--lg btn--block" data-ob="next">${T('ادامه', 'Continue')}</button></div>`,
+            () => `${bubble(AT('obWorld'))}
+        <div class="wlist">${EA.worlds.map(w => `<button class="wcard ${d.start === w.id ? 'is-sel' : ''}" data-ob="start" data-v="${w.id}" style="--wc:${w.color};--wd:${w.dark};--wl:${w.light}"><span class="wsym">${w.sym}</span><span><b>${w.name}</b><small>${w.sub}</small></span></button>`).join('')}</div>
+        <div class="ob__btns"><button class="btn btn--brand btn--lg btn--block" data-ob="finish">${T('بزن بریم! 🚀', 'Let’s go! 🚀')}</button></div>`
+          ];
+        }
+      };
+    },
+    /** سؤال نمونه صفحه معرفی (انگلیسی از EA.APP.en.demo) */
+    demo(EA) {
+      const A = EA.APP;
+      return EA.lang === 'en' && A.en && A.en.demo ? A.en.demo() : A.demo();
+    }
+  };
+
+  const MODULES = [{"id": "tm_lexa", "mod": "lexa", "order": 1, "nameFa": "لِکسا", "nameEn": "Lexa", "titleFa": "لِکسا • مقدمه ترمینولوژی پزشکی: ساخت واژه، پیشوند، ریشه و پسوند", "titleEn": "Lexa • Introduction to Medical Terminology: Word Building, Prefixes, Roots and Suffixes", "subjectFa": "مقدمه ترمینولوژی پزشکی: ریشه، پیشوند، پسوند، واکه رابط، جمع، اختصار و زبان پرونده", "subjectEn": "Introduction to Medical Terminology: Word Building, Prefixes, Roots and Suffixes", "shortEn": "Introduction", "kickerFa": "🧩 ترمینولوژی پزشکی: الفبای واژه‌سازی", "color": "#4b4fc4", "dark": "#383b93", "light": "#e9eaf8", "codePrefix": "LX", "startWorld": "bs", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 18, "roundSteps": 132, "chars": 18, "terms": 332, "roots": 185, "abbr": 94, "figs": 104, "firstLesson": "bs1"}, "worlds": [{"id": "bs", "sym": "Ab", "name": "الفبای زبان پزشکی", "sub": "زبان پزشکی از کجا آمده، چهار جزء هر واژه، واکه رابط، ترجمه واژه از پسوند و تلفظ درست", "color": "#4B4FC4", "levels": ["زبان پزشکی و ریشه تاریخی", "چهار جزء واژه", "ترجمه و تلفظ"]}, {"id": "rt", "sym": "Rt", "name": "ریشه‌ها: نقشه بدن", "sub": "ریشه‌های سر، تنه و اندام‌ها، از یاخته تا دستگاه، ریشه‌های رنگ، خون و شکل باکتری‌ها", "color": "#2B86C5", "levels": ["ریشه‌های اندام‌ها", "از یاخته تا دستگاه", "رنگ، خون و باکتری"]}, {"id": "sf", "sym": "Sf", "name": "پسوندها", "sub": "پسوندهای بیماری و نشانه، ابزار و روش تشخیص، جراحی، صفت‌سازها و پسوندهای رشته و متخصص", "color": "#8A5CB3", "levels": ["بیماری و نشانه", "تشخیص و سنجش", "جراحی، صفت و رشته"]}, {"id": "pf", "sym": "Pf", "name": "پیشوندها", "sub": "پیشوندهای عدد و زمان، جا و جهت، راه‌های تزریق، نفی و ضد، جفت‌های متضاد، حرکت‌ها و وضعیت‌های بیمار", "color": "#C9A12C", "levels": ["عدد و زمان", "جا و جهت", "نفی، متضاد و حرکت"]}, {"id": "rl", "sym": "Rl", "name": "قواعد و تله‌ها", "sub": "جمع بستن واژه‌های لاتین و یونانی، اختصار و سرواژه، نام‌واژه‌ها، هم‌آواها، تله‌های املایی و شکستن واژه‌های بلند", "color": "#E2683C", "levels": ["جمع بستن", "کوته‌نوشت و هم‌آوا", "تله‌ها و واژه‌های بلند"]}, {"id": "hs", "sym": "Hs", "name": "در بیمارستان", "sub": "پرونده پزشکی و یادداشت‌ها، محیط‌های درمان و رازداری، نام دارو، نسخه، دفعات و راه مصرف، اختصارهای ممنوع و تیم درمان", "color": "#17A398", "levels": ["پرونده و محیط درمان", "دارو و نسخه", "تیم درمان و گزارش‌ها"]}], "prereq": null}, {"id": "tm_peykar", "mod": "peykar", "order": 2, "nameFa": "پیکر", "nameEn": "Peykar", "titleFa": "پیکر • ترمینولوژی ساختار بدن", "titleEn": "Peykar • Body Structure", "subjectFa": "ترمینولوژی پزشکی ساختار بدن", "subjectEn": "Body Structure", "shortEn": "Body structure", "kickerFa": "🧭 ترمینولوژی پزشکی: ساختار بدن (Body Structure)", "color": "#2f5fd0", "dark": "#23479c", "light": "#e6ecf9", "codePrefix": "PK", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 405, "rounds": 12, "roundSteps": 73, "chars": 18, "terms": 278, "roots": 188, "abbr": 54, "figs": 90, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان بدن", "sub": "قطعه‌های واژه، پیشوندهای جا، منافذ بدن، جمع‌های لاتین، راه‌های دارو و اختصارهای پرونده", "color": "#4F5BD5", "levels": ["قطعه‌های پازل", "منافذ و جمع‌ها", "زبان بالینی"]}, {"id": "og", "sym": "Cyt", "name": "سازمان‌یابی و سلول", "sub": "علوم بدن، پله‌های سازمان‌یابی، متابولیسم، ساختار سلول، DNA، میتوز و رشد غیرطبیعی", "color": "#D6457A", "levels": ["از سلول تا انسان", "درون سلول", "ژن، تقسیم و آزمایشگاه"]}, {"id": "ts", "sym": "Hist", "name": "بافت‌ها و غشاها", "sub": "بافت پوششی، همبند، عضلانی و عصبی، غشاهای جداری و احشایی، پوست و آسیب‌های بافتی", "color": "#E07A1F", "levels": ["چهار بافت اصلی", "عضله، عصب و غشا", "پوست و آسیب بافت"]}, {"id": "sy", "sym": "Sys", "name": "دستگاه‌ها و اندام‌ها", "sub": "دستگاه‌های بدن، اندام‌ها و ریشه‌هایشان، از پوست و اسکلت تا غدد، و تخصص‌های پزشکی", "color": "#12A594", "levels": ["نقشه دستگاه‌ها", "گردش، تنفس و گوارش", "دفع، کنترل و تخصص‌ها"]}, {"id": "dr", "sym": "Dir", "name": "جهت، صفحه و وضعیت", "sub": "وضعیت آناتومیک، جفت‌های جهت، صفحه‌های بدن، حرکت‌ها، وضعیت‌های بیمار و تصویربرداری", "color": "#1899D6", "levels": ["وضعیت آناتومیک و جهت‌ها", "صفحه‌ها و حرکت", "وضعیت بیمار و تصویربرداری"]}, {"id": "cv", "sym": "Cav", "name": "حفره‌ها و نواحی", "sub": "حفره‌های پشتی و جلویی، دیافراگم، نه ناحیه و چهار ربع شکم، ستون مهره‌ها و نواحی سطحی بدن", "color": "#7B5CE0", "levels": ["حفره‌های بدن", "نقشه شکم", "ستون مهره‌ها و نواحی سطحی"]}], "prereq": "tm_lexa"}, {"id": "tm_timar", "mod": "timar", "order": 3, "nameFa": "تیمار", "nameEn": "Timar", "titleFa": "تیمار • ترمینولوژی بیماری و درمان", "titleEn": "Timar • Disease and Treatment", "subjectFa": "ترمینولوژی پزشکی بیماری و درمان (Disease and Treatment)", "subjectEn": "Disease and Treatment", "shortEn": "Disease & treatment", "kickerFa": "🩺 ترمینولوژی پزشکی: بیماری و درمان (Disease and Treatment)", "color": "#0c8f7f", "dark": "#096b5f", "light": "#e2f2f0", "codePrefix": "TM", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 459, "rounds": 12, "roundSteps": 72, "chars": 18, "terms": 441, "roots": 211, "abbr": 165, "figs": 84, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان بیماری", "sub": "ریشه‌های بیماری، پیشوندها، پسوندهای درد و التهاب و پارگی، و واژه‌هایی مثل stenosis و malacia که خودشان پسوند می‌شوند", "color": "#4C6EF5", "levels": ["ریشه‌های بیماری", "پیشوندها و پسوندها", "واژه‌هایی که پسوند می‌شوند"]}, {"id": "mc", "sym": "Mic", "name": "میکروب‌ها و انواع بیماری", "sub": "هفت گروه بیماری، حاد و مزمن، باکتری‌های گرد و میله‌ای و مارپیچی، ویروس و قارچ و انگل‌ها، راه ورود میکروب، همه‌گیری و عفونت بیمارستانی", "color": "#40C057", "levels": ["انواع و سیر بیماری", "میکروب‌ها", "گسترش عفونت"]}, {"id": "rs", "sym": "Path", "name": "پاسخ بدن به بیماری", "sub": "التهاب و ادم، فاگوسیتوز و چرک، ایمنی ذاتی و اکتسابی، تومور خوش‌خیم و بدخیم، تغییرات رشد سلول، ضایعه‌ها، فتق و افتادگی", "color": "#F76707", "levels": ["التهاب و دفاع", "نئوپلاسم و رشد سلول", "ضایعه‌ها و تغییرات ساختاری"]}, {"id": "dx", "sym": "Dx", "name": "معاینه و تشخیص", "sub": "شرح حال و اختصارهایش، نگاه و لمس و دق و سمع، علائم حیاتی و فشار خون، نشانه‌های بالینی، ابزارهای ‎-scope و تصویربرداری", "color": "#1098AD", "levels": ["شرح حال و معاینه", "علائم حیاتی و نشانه‌ها", "ابزارها و تصویربرداری"]}, {"id": "tx", "sym": "Tx", "name": "جراحی و درمان", "sub": "برداشتن و برش و دهانه، کشیدن مایع، ترمیم و ثابت کردن، اتاق عمل و ابزارها، کاتتر و شست‌وشو، درمان و پیش‌آگهی و طب مکمل", "color": "#E64980", "levels": ["پسوندهای جراحی", "اتاق عمل و ابزارها", "درمان‌ها و طب مکمل"]}, {"id": "rx", "sym": "Rx", "name": "دارو و نسخه", "sub": "دارو و نسخه، نام ژنریک و تجاری، عارضه و تداخل، راه‌های تجویز و زاویه تزریق، شکل‌های دارو، اجزای واژه دارو و اختصارهای bid تا prn", "color": "#7950F2", "levels": ["دارو و ایمنی", "راه‌ها و شکل‌های دارو", "زبان نسخه"]}], "prereq": "tm_lexa"}, {"id": "tm_derma", "mod": "derma", "order": 4, "nameFa": "درما", "nameEn": "Derma", "titleFa": "درما • ترمینولوژی پوست", "titleEn": "Derma • Integumentary System: Skin, Hair, Nails and Glands", "subjectFa": "ترمینولوژی پزشکی دستگاه پوششی (پوست، مو، ناخن و غدد پوستی)", "subjectEn": "Integumentary System: Skin, Hair, Nails and Glands", "shortEn": "Skin", "kickerFa": "🧴 ترمینولوژی پزشکی: پوست، مو، ناخن و غدد پوستی", "color": "#d9643a", "dark": "#a34b2c", "light": "#faece7", "codePrefix": "DR", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 433, "rounds": 16, "roundSteps": 96, "chars": 18, "terms": 275, "roots": 132, "abbr": 46, "figs": 80, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان پوست", "sub": "پوست چه می‌کند و واژه‌هایش چطور ساخته می‌شوند: ریشه، پیشوند، پسوند و رنگ‌ها", "color": "#D9643A", "levels": ["پوست، بزرگ‌ترین اندام", "ریشه‌های پوست", "پیشوندها و پسوندها"]}, {"id": "ly", "sym": "Ly", "name": "لایه‌های پوست", "sub": "اپیدرم و پنج طبقه‌اش، ملانین، درم و گیرنده‌ها، چربی زیرجلدی، ترمیم زخم و راه‌های تزریق", "color": "#D9506E", "levels": ["اپیدرم", "درم", "زیرجلدی و ترمیم"]}, {"id": "ac", "sym": "Ac", "name": "ضمائم پوست", "sub": "مو و فولیکول، ناخن و بیماری‌هایش، غدد عرق و چربی، آکنه و تعریق", "color": "#A0673A", "levels": ["مو", "ناخن", "غدد پوست"]}, {"id": "le", "sym": "Le", "name": "ضایعه‌ها و نشانه‌ها", "sub": "ماکول تا تومور، تاول و چرک، دلمه و زخم، رنگ‌های پوست، خونریزی زیر پوست و خارش", "color": "#D48A00", "levels": ["ضایعه‌های اولیه", "مایع، ثانویه و فرورفته", "رنگ‌ها و نشانه‌ها"]}, {"id": "ds", "sym": "Ds", "name": "بیماری‌های پوست", "sub": "عفونت‌های باکتریایی، قارچی و ویروسی، انگل‌ها، اگزما و پسوریازیس، آکنه، لوپوس، سوختگی و زخم بستر", "color": "#C8423C", "levels": ["عفونت‌ها و انگل‌ها", "التهاب و خودایمنی", "سوختگی و زخم"]}, {"id": "tx", "sym": "Tx", "name": "تومور، تشخیص و درمان", "sub": "خال و تومورهای خوش‌خیم، سه سرطان پوست و ABCDE، بیوپسی و آزمون‌های پوستی، جراحی، پیوند و داروها", "color": "#1F9E8F", "levels": ["تومورهای پوست", "تشخیص و پرونده", "درمان"]}], "prereq": "tm_lexa"}, {"id": "tm_osteo", "mod": "osteo", "order": 5, "nameFa": "اُستئو", "nameEn": "Osteo", "titleFa": "اُستئو • ترمینولوژی اسکلتی-عضلانی", "titleEn": "Osteo • Musculoskeletal System", "subjectFa": "ترمینولوژی پزشکی دستگاه اسکلتی-عضلانی (استخوان، مفصل، عضله و تاندون)", "subjectEn": "Musculoskeletal System", "shortEn": "Musculoskeletal", "kickerFa": "🦴 ترمینولوژی پزشکی: استخوان، مفصل، عضله و تاندون", "color": "#c2413a", "dark": "#92312c", "light": "#f8e8e7", "codePrefix": "OS", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 430, "rounds": 16, "roundSteps": 96, "chars": 18, "terms": 374, "roots": 176, "abbr": 60, "figs": 78, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان استخوان و عضله", "sub": "دستگاه حرکتی چه می‌کند و واژه‌هایش چطور ساخته می‌شوند: ریشه، پیشوند، پسوند و جهت‌ها", "color": "#C2413A", "levels": ["دستگاه حرکتی", "ریشه‌های اصلی", "پیشوندها و پسوندها"]}, {"id": "bn", "sym": "Bn", "name": "استخوان", "sub": "سلول‌ها، بافت و ساختار استخوان، شکل‌ها و نشانه‌ها، و بیماری‌هایی مثل پوکی و نرمی استخوان", "color": "#B07D2E", "levels": ["بافت و ساختار استخوان", "شکل و نشانه‌ها", "بیماری‌های استخوان"]}, {"id": "sk", "sym": "Sk", "name": "اسکلت", "sub": "نام استخوان‌ها از جمجمه تا انگشت پا: جمجمه، ستون مهره، قفسه سینه، اندام‌ها و لگن", "color": "#3F7FBF", "levels": ["جمجمه و اسکلت محوری", "ستون مهره و قفسه سینه", "اندام‌ها و لگن"]}, {"id": "jt", "sym": "Jt", "name": "مفاصل و حرکت", "sub": "انواع مفصل، اجزای مفصل سینوویال، واژه‌های حرکت (فلکشن، ابداکشن…) و آرتریت، دررفتگی و جراحی مفصل", "color": "#1E9E8F", "levels": ["انواع مفصل", "حرکت‌های مفصل", "بیماری و جراحی مفصل"]}, {"id": "mu", "sym": "Mu", "name": "عضلات", "sub": "سه نوع بافت عضله، مبدأ و انتها، نام‌گذاری و عضلات مهم بدن، ضعف و فلج، دیستروفی و آسیب‌های تاندون", "color": "#D64F6E", "levels": ["بافت و ساختار عضله", "عضلات مهم بدن", "بیماری و تشخیص عضله"]}, {"id": "fx", "sym": "Fx", "name": "شکستگی، تشخیص و درمان", "sub": "انواع شکستگی و جوش خوردن، رادیوگرافی تا DXA، جااندازی و ORIF، قطع عضو و پروتز، دارو، فیزیوتراپی و اختصارهای پرونده", "color": "#7B5CD6", "levels": ["شکستگی و ترمیم", "تشخیص و پرونده", "جراحی، دارو و توان‌بخشی"]}], "prereq": "tm_lexa"}, {"id": "tm_tapesh", "mod": "tapesh", "order": 6, "nameFa": "تپش", "nameEn": "Tapesh", "titleFa": "تپش • ترمینولوژی قلب و عروق", "titleEn": "Tapesh • Cardiovascular System", "subjectFa": "ترمینولوژی پزشکی دستگاه قلب و عروق", "subjectEn": "Cardiovascular System", "shortEn": "Cardiovascular", "kickerFa": "❤️ ترمینولوژی پزشکی: دستگاه قلب و عروق (Cardiovascular System)", "color": "#d6304f", "dark": "#a0243b", "light": "#fae6ea", "codePrefix": "TP", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 385, "rounds": 12, "roundSteps": 82, "chars": 18, "terms": 298, "roots": 123, "abbr": 86, "figs": 95, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان قلب", "sub": "ریشه‌های قلب، رگ و بیماری، پسوندها و پیشوندها، جمع و صفت، متخصصان و اختصارهای پرونده", "color": "#4F5BD5", "levels": ["ریشه‌های قلب و رگ", "پسوندها و پیشوندها", "زبان پرونده"]}, {"id": "an", "sym": "Ana", "name": "ساختمان قلب", "sub": "جای قلب، لایه‌های دیواره و پریکارد، چهار حفره و چهار دریچه، رگ‌های بزرگ، مسیر خون و سرخرگ‌های کرونر", "color": "#E03131", "levels": ["جا و دیواره قلب", "حفره‌ها و دریچه‌ها", "مسیر خون و کرونرها"]}, {"id": "ep", "sym": "ECG", "name": "ضربان و نوار قلب", "sub": "سیستم هدایت، چرخه قلب، موج‌ها و کاغذ نوار قلب، ریتم، فشار خون، نبض و پایش ضربان", "color": "#F08C00", "levels": ["برق قلب", "نوار قلب", "فشار، نبض و پایش"]}, {"id": "vc", "sym": "Vas", "name": "رگ‌ها و گردش خون", "sub": "سرخرگ، مویرگ و سیاهرگ، لایه‌های دیواره رگ، گردش ریوی و عمومی، گردش جنین، نقشه رگ‌های بدن و لنف", "color": "#0C8599", "levels": ["انواع رگ", "گردش‌های خون", "نقشه رگ‌ها و لنف"]}, {"id": "ds", "sym": "Path", "name": "بیماری‌های قلب و رگ", "sub": "آترواسکلروز، بیماری کرونر و سکته قلبی، آریتمی‌ها، دریچه‌ها و نقص‌های مادرزادی، نارسایی قلب، فشار خون، آنوریسم، لخته و واریس", "color": "#AE3EC9", "levels": ["رگ‌های تنگ و بسته", "ریتم، دریچه و ماهیچه", "فشار، لخته و سیاهرگ"]}, {"id": "tx", "sym": "Rx", "name": "تشخیص و درمان", "sub": "اکو، آزمایش‌ها، آنژیوگرافی و کاتتریزاسیون، بالن و استنت، جراحی رگ و قلب، داروها، ضربان‌ساز، شوک و احیا", "color": "#2F9E44", "levels": ["تشخیص و تصویربرداری", "باز کردن رگ و جراحی", "دارو، ضربان‌ساز و احیا"]}], "prereq": "tm_lexa"}, {"id": "tm_imena", "mod": "imena", "order": 7, "nameFa": "ایمنا", "nameEn": "Imena", "titleFa": "ایمنا • ترمینولوژی خون، لنف و ایمنی", "titleEn": "Imena • Blood, Lymphatic and Immune Systems", "subjectFa": "ترمینولوژی پزشکی خون، دستگاه لنفاوی و ایمنی", "subjectEn": "Blood, Lymphatic and Immune Systems", "shortEn": "Blood & immunity", "kickerFa": "🩸 ترمینولوژی پزشکی: خون، دستگاه لنفاوی و ایمنی", "color": "#c8243f", "dark": "#961b2f", "light": "#f8e5e8", "codePrefix": "IM", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 424, "rounds": 12, "roundSteps": 71, "chars": 18, "terms": 347, "roots": 112, "abbr": 76, "figs": 81, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان پزشکی", "sub": "رمز واژه‌سازی: قطعه‌ها، پیشوندها، پسوندها، جمع‌ها، تلفظ و دام‌های همزاد", "color": "#4F5BD5", "levels": ["قطعه‌های پازل", "پسوندها در عمل", "مثل یک حرفه‌ای"]}, {"id": "hb", "sym": "Hb", "name": "خون و سلول‌ها", "sub": "ریشه‌های خون، پلاسما، گلبول‌ها، خون‌سازی و بیماری‌های خون", "color": "#E5374F", "levels": ["اجزای خون", "گلبول‌ها و خون‌سازی", "بیماری‌های خون"]}, {"id": "co", "sym": "PT", "name": "هموستاز و انتقال خون", "sub": "پلاکت، آبشار انعقاد، لخته، گروه‌های خونی، ترانسفیوژن و خونریزی‌ها", "color": "#7B5CE0", "levels": ["پلاکت و انعقاد", "گروه‌های خونی", "انتقال خون و خونریزی"]}, {"id": "ly", "sym": "Ly", "name": "دستگاه لنفاوی", "sub": "لنف، رگ‌ها و مجاری، گره‌ها، طحال، تیموس، لوزه‌ها، لنف‌ادم و لنفوم", "color": "#12A594", "levels": ["لنف و رگ‌ها", "اندام‌های لنفاوی", "بیماری‌ها و روش‌ها"]}, {"id": "im", "sym": "Ig", "name": "ایمنی", "sub": "دفاع ذاتی، لنفوسیت‌ها، آنتی‌بادی، آلرژی، خودایمنی و HIV", "color": "#1899D6", "levels": ["دفاع ذاتی و اکتسابی", "لنفوسیت‌ها و آنتی‌بادی", "آلرژی، خودایمنی و نقص ایمنی"]}, {"id": "dx", "sym": "Lab", "name": "آزمایش، درمان و ICU", "sub": "CBC و آزمایش‌های تخصصی، داروها، پیوند، SIRS و سپسیس، آهن و ایمونونوتریشن", "color": "#E58A00", "levels": ["آزمایش‌ها", "درمان‌ها", "مراقبت ویژه و ایمونونوتریشن"]}], "prereq": "tm_lexa"}, {"id": "tm_nafas", "mod": "nafas", "order": 8, "nameFa": "نَفَس", "nameEn": "Nafas", "titleFa": "نَفَس • ترمینولوژی دستگاه تنفس", "titleEn": "Nafas • Respiratory System", "subjectFa": "ترمینولوژی پزشکی دستگاه تنفس (بینی، حلق، حنجره، نای، نایژه‌ها و ریه‌ها)", "subjectEn": "Respiratory System", "shortEn": "Respiratory", "kickerFa": "🫁 ترمینولوژی پزشکی: بینی، حلق، حنجره، نای و ریه‌ها", "color": "#2e9bd6", "dark": "#2274a0", "light": "#e6f3fa", "codePrefix": "NF", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 16, "roundSteps": 96, "chars": 18, "terms": 239, "roots": 101, "abbr": 60, "figs": 48, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان تنفس", "sub": "دستگاه تنفس چه می‌کند و واژه‌هایش چطور ساخته می‌شوند: ریشه، پیشوند، پسوند و مسیر هوا", "color": "#2E9BD6", "levels": ["مسیر هوا و تبادل گاز", "ریشه‌های اصلی", "پیشوندها و پسوندها"]}, {"id": "up", "sym": "Up", "name": "تنفس فوقانی", "sub": "بینی، سینوس‌ها، حلق، لوزه‌ها و حنجره؛ و بیماری‌ها و جراحی‌هایشان", "color": "#E0708C", "levels": ["بینی و سینوس‌ها", "حلق و حنجره", "بیماری و جراحی فوقانی"]}, {"id": "lo", "sym": "Lo", "name": "تنفس تحتانی", "sub": "نای، نایژه‌ها، آلوئول‌ها، لوب‌های ریه، پرده جنب، میان‌سینه و دیافراگم", "color": "#8E6BD8", "levels": ["نای و درخت نایژه‌ای", "ریه‌ها و آلوئول", "جنب، میان‌سینه و دیافراگم"]}, {"id": "br", "sym": "Br", "name": "تهویه و نشانه‌ها", "sub": "الگوهای تنفس، کمبود اکسیژن، سرفه و خلط، صداهای ریه هنگام سمع و حجم‌ها و ظرفیت‌های ریه", "color": "#17A398", "levels": ["الگوهای تنفس", "اکسیژن، سرفه و خلط", "صداهای ریه و حجم‌ها"]}, {"id": "ds", "sym": "Ds", "name": "بیماری‌های تنفسی", "sub": "آسم و COPD، پنومونی و سل، فیبروز سیستیک، پنوموتوراکس و افیوژن، بیماری‌های غباری و سرطان ریه", "color": "#E07A3A", "levels": ["آسم و COPD", "عفونت‌های ریه", "جنب، نوزاد، غبار و سرطان"]}, {"id": "tx", "sym": "Tx", "name": "تشخیص و درمان", "sub": "اسپیرومتری، ABG و پالس‌اکسیمتری، برونکوسکوپی و توراسنتز، اینتوباسیون و تراکئوستومی، اکسیژن، داروها، جراحی‌های ریه و اختصارهای پرونده", "color": "#3D6FD6", "levels": ["آزمون‌ها و تصویربرداری", "راه هوایی و اکسیژن", "دارو، جراحی و پرونده"]}], "prereq": "tm_lexa"}, {"id": "tm_govara", "mod": "govara", "order": 9, "nameFa": "گوارا", "nameEn": "Govara", "titleFa": "گوارا • ترمینولوژی دستگاه گوارش", "titleEn": "Govara • Digestive System", "subjectFa": "ترمینولوژی پزشکی دستگاه گوارش (Digestive System)", "subjectEn": "Digestive System", "shortEn": "Digestive", "kickerFa": "🍽️ ترمینولوژی پزشکی: دستگاه گوارش (Digestive System)", "color": "#c2410c", "dark": "#923109", "light": "#f8e8e2", "codePrefix": "GV", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 12, "roundSteps": 72, "chars": 18, "terms": 386, "roots": 154, "abbr": 53, "figs": 99, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان گوارش", "sub": "ساختار واژه، ریشه‌های دهان، لوله گوارش و کبد و صفرا، پسوندهای علامت و جراحی، صفت‌ها، جمع‌ها و واژه‌های شبیه", "color": "#4C6EF5", "levels": ["ساختار واژه و ریشه‌های دهان", "ریشه‌های لوله گوارش و اندام‌های کمکی", "پسوندها، صفت‌ها و جمع‌ها"]}, {"id": "mo", "sym": "Oro", "name": "دهان تا معده", "sub": "لوله گوارش و کارهایش، دهان و دندان، بزاق، حلق و بلع، مری و حرکت دودی، معده و شیره آن", "color": "#E8590C", "levels": ["گوارش، دهان و دندان", "بزاق، حلق و مری", "معده و آنزیم‌ها"]}, {"id": "bw", "sym": "Gut", "name": "روده‌ها و اندام‌های کمکی", "sub": "دوازدهه، ژژونوم و ایلئوم، پرزها و جذب، صفاق، روده بزرگ و دفع، ربع‌های شکم، کبد، صفرا و پانکراس", "color": "#2F9E44", "levels": ["روده باریک و صفاق", "روده بزرگ و نقشه شکم", "کبد، صفرا و پانکراس"]}, {"id": "up", "sym": "Up", "name": "بیماری‌های دهان، مری و معده", "sub": "تهوع و استفراغ، سختی بلع و سوءهاضمه، گاز و اشتها، پوسیدگی و لثه، آفت و برفک، ریفلاکس، فتق هیاتال و زخم پپتیک", "color": "#C2255C", "levels": ["علامت‌های گوارش بالا", "بیماری‌های دهان و دندان", "مری و معده"]}, {"id": "lo", "sym": "Low", "name": "بیماری‌های روده، کبد و صفرا", "sub": "اسهال و خون در مدفوع، کرون و کولیت، سلیاک، دیورتیکول، پولیپ و سرطان، انسداد، فتق و بواسیر، هپاتیت، سیروز و سنگ صفرا", "color": "#7950F2", "levels": ["بیماری‌های روده", "پولیپ، انسداد و ناحیه مقعد", "کبد، صفرا و پانکراس"]}, {"id": "tx", "sym": "Tx", "name": "تشخیص، جراحی و دارو", "sub": "آندوسکوپی و تصویربرداری، آزمایش‌ها، برداشتن و ترمیم، استومی و آناستوموز، بیلروت و جراحی چاقی، لوله‌ها و تغذیه، داروهای گوارش", "color": "#1098AD", "levels": ["آندوسکوپی، تصویربرداری و آزمایش", "جراحی‌ها و دهانه‌ها", "لوله‌ها، تغذیه و داروها"]}], "prereq": "tm_lexa"}, {"id": "tm_nephra", "mod": "nephra", "order": 10, "nameFa": "نِفرا", "nameEn": "Nephra", "titleFa": "نِفرا • ترمینولوژی دستگاه ادراری: کلیه و مجاری ادرار", "titleEn": "Nephra • Urinary System: Kidneys and Urinary Tract", "subjectFa": "ترمینولوژی پزشکی دستگاه ادراری: کلیه، نفرون، میزنای، مثانه، پیشابراه و ادرار", "subjectEn": "Urinary System: Kidneys and Urinary Tract", "shortEn": "Urinary", "kickerFa": "🫘 ترمینولوژی پزشکی: دستگاه ادراری", "color": "#b0413e", "dark": "#84312e", "light": "#f6e8e8", "codePrefix": "NE", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 18, "roundSteps": 108, "chars": 18, "terms": 283, "roots": 101, "abbr": 59, "figs": 93, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان کلیه", "sub": "اندام‌های دستگاه ادراری، اورولوژیست و نفرولوژیست، و ساخت واژه‌ها از ریشه، پیشوند و پسوند", "color": "#B0413E", "levels": ["دستگاه و متخصصان", "ریشه‌های کلیه و مجاری", "پیشوندها، پسوندها و دام‌ها"]}, {"id": "kd", "sym": "Kd", "name": "کلیه و نفرون", "sub": "جای کلیه، قشر و مغز، کالیس و لگنچه، نفرون و گلومرول، سه گام ساخت ادرار، رگ‌ها و هورمون‌های کلیه", "color": "#6D4BC3", "levels": ["کلیه از بیرون و درون", "نفرون و ساخت ادرار", "خون، هورمون‌ها و هم‌ایستایی"]}, {"id": "tr", "sym": "Tr", "name": "مثانه و دفع ادرار", "sub": "میزنای و حرکات دودی، مثانه و مثلث آن، اسفنکترها، پیشابراه زن و مرد، رفلکس ادرار، بی‌اختیاری و احتباس", "color": "#2B86C5", "levels": ["میزنای و مثانه", "پیشابراه و ادرار کردن", "اختلال‌های دفع و ساختار"]}, {"id": "ur", "sym": "Ur", "name": "ادرار و نشانه‌ها", "sub": "ترکیب و رنگ ادرار، آزمایش ادرار، وزن مخصوص، حجم ادرار، نشانه‌های ‎-uria‎، اوره و کراتینین، سدیم و پتاسیم", "color": "#C99A06", "levels": ["ادرار و آزمایش آن", "حجم و دفع ادرار", "ادرار غیرطبیعی و خون"]}, {"id": "dz", "sym": "Dz", "name": "بیماری‌های ادراری", "sub": "عفونت ادراری و پیلونفریت، گلومرولونفریت و سندرم نفروتیک، سنگ و هیدرونفروز، نارسایی کلیه، کلیه پلی‌کیستیک و تومورها", "color": "#E2683C", "levels": ["عفونت و التهاب", "سنگ و نارسایی", "کیست، ناهنجاری و تومور"]}, {"id": "tx", "sym": "Tx", "name": "تشخیص و درمان", "sub": "KUB، IVP و پیلوگرافی، سیستوسکوپی، سونداژ، همودیالیز و دیالیز صفاقی، سنگ‌شکنی، جراحی‌های کلیه و مثانه، پیوند و داروها", "color": "#17A398", "levels": ["تصویربرداری و آندوسکوپی", "سونداژ، دیالیز و سنگ‌شکنی", "جراحی، پیوند و دارو"]}], "prereq": "tm_lexa"}, {"id": "tm_zaya", "mod": "zaya", "order": 11, "nameFa": "زایا", "nameEn": "Zaya", "titleFa": "زایا • ترمینولوژی دستگاه تولیدمثل، بارداری و زایمان", "titleEn": "Zaya • Reproductive System, Pregnancy and Childbirth", "subjectFa": "ترمینولوژی پزشکی دستگاه تولیدمثل زنانه و مردانه، بارداری و زایمان", "subjectEn": "Reproductive System, Pregnancy and Childbirth", "shortEn": "Reproductive", "kickerFa": "🌸 ترمینولوژی پزشکی: تولیدمثل، بارداری و زایمان", "color": "#b8457a", "dark": "#8a345c", "light": "#f6e9ef", "codePrefix": "ZY", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 18, "roundSteps": 108, "chars": 18, "terms": 263, "roots": 113, "abbr": 72, "figs": 74, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان زایش", "sub": "دستگاه تولیدمثل چه بخش‌هایی دارد و واژه‌هایش چطور ساخته می‌شوند: ریشه، پیشوند، پسوند و هورمون‌ها", "color": "#B8457A", "levels": ["بخش‌های دستگاه تولیدمثل", "ریشه‌های اصلی", "پیشوندها و پسوندها"]}, {"id": "fm", "sym": "Fm", "name": "دستگاه تناسلی زنانه", "sub": "تخمدان، لوله‌های رحم، رحم و دهانه آن، واژن و فرج، پستان، چرخه قاعدگی و یائسگی", "color": "#E46A8E", "levels": ["اندام‌های درونی", "اندام‌های بیرونی و پستان", "چرخه و هورمون‌ها"]}, {"id": "ml", "sym": "Ml", "name": "دستگاه تناسلی مردانه", "sub": "بیضه و کیسه بیضه، اسپرم، اپیدیدیم و مجرای وابران، پروستات و غدد، آلت تناسلی و بلوغ", "color": "#2E86C1", "levels": ["بیضه و اسپرم", "مجاری و غدد", "آلت و بلوغ"]}, {"id": "pg", "sym": "Pg", "name": "بارداری و زایمان", "sub": "لقاح و لانه‌گزینی، رویان و جنین، جفت و پرده‌ها، گراویدا و پارا، تاریخ زایمان، مراحل زایمان، نمایش جنین، پس از زایمان و نوزاد", "color": "#E8913A", "levels": ["لقاح تا جنین", "شمارش بارداری", "زایمان و نوزاد"]}, {"id": "ds", "sym": "Ds", "name": "بیماری‌ها و عفونت‌های آمیزشی", "sub": "اختلال‌های قاعدگی، فیبروم و افتادگی رحم، سرطان‌ها، بیماری‌های بیضه و پروستات، بارداری خارج رحمی و مشکلات جفت، عفونت‌های آمیزشی", "color": "#8E6BD8", "levels": ["بیماری‌های زنان", "بیماری‌های مردان", "عوارض بارداری و عفونت‌ها"]}, {"id": "tx", "sym": "Tx", "name": "تشخیص، درمان و پیشگیری", "sub": "پاپ اسمیر و کولپوسکوپی، ماموگرافی و سونوگرافی، آزمایش‌های پیش از تولد، PSA و بیوپسی، هیسترکتومی، TURP، سزارین، پیشگیری از بارداری و IVF", "color": "#17A398", "levels": ["آزمایش‌ها و تصویربرداری", "جراحی‌ها", "پیشگیری و باروری"]}], "prereq": "tm_lexa"}, {"id": "tm_hormona", "mod": "hormona", "order": 12, "nameFa": "هورمونا", "nameEn": "Hormona", "titleFa": "هورمونا • ترمینولوژی غدد درون‌ریز", "titleEn": "Hormona • Endocrine System", "subjectFa": "ترمینولوژی پزشکی دستگاه درون‌ریز (غدد و هورمون‌ها)", "subjectEn": "Endocrine System", "shortEn": "Endocrine", "kickerFa": "🦋 ترمینولوژی پزشکی: دستگاه درون‌ریز، غدد و هورمون‌ها", "color": "#6c3fd1", "dark": "#512f9d", "light": "#ede8f9", "codePrefix": "HO", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 431, "rounds": 12, "roundSteps": 72, "chars": 18, "terms": 321, "roots": 113, "abbr": 62, "figs": 51, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان هورمون‌ها", "sub": "پیام‌رسان‌های شیمیایی، نقشه غدد و رمز واژه‌سازی: ریشه‌ها، پیشوندها، پسوندها و دام‌های همزاد", "color": "#4F5BD5", "levels": ["پیام‌رسان‌های شیمیایی", "قطعه‌های پازل", "مثل یک حرفه‌ای"]}, {"id": "hp", "sym": "Hp", "name": "هیپوتالاموس و هیپوفیز", "sub": "فرمانده‌های مغزی، هورمون‌های محرک، هورمون رشد، ADH و اختلال‌های هیپوفیز", "color": "#8E44D9", "levels": ["فرمانده و ارکستر", "هورمون‌های هیپوفیز", "اختلال‌های هیپوفیز"]}, {"id": "th", "sym": "Th", "name": "تیروئید و پاراتیروئید", "sub": "پروانه گردن، T3 و T4، ید، کلسیم، پرکاری و کم‌کاری، گواتر، آزمایش‌ها و جراحی", "color": "#0FA3A3", "levels": ["پروانه گردن", "پرکار، کم‌کار، گواتر", "کلسیم، آزمایش و درمان"]}, {"id": "ad", "sym": "Ad", "name": "غدد فوق‌کلیه", "sub": "قشر و مدولا، کورتیزول، آلدوسترون، آدرنالین، کوشینگ، آدیسون و تومورهای فوق‌کلیه", "color": "#E8892B", "levels": ["کلاهی روی کلیه", "پرکاری قشر", "کم‌کاری، تومور و درمان"]}, {"id": "pa", "sym": "Pa", "name": "پانکراس و دیابت", "sub": "جزایر لانگرهانس، انسولین و گلوکاگون، انواع دیابت، آزمایش‌های قند، عوارض و درمان", "color": "#1E88E5", "levels": ["جزایر شیرین", "دیابت شیرین", "عوارض و درمان"]}, {"id": "dx", "sym": "Dx", "name": "غدد دیگر، تشخیص و درمان", "sub": "اپی‌فیز، تیموس، غدد جنسی، آزمایش‌ها و تصویربرداری، جراحی‌ها، داروها و جمع‌بندی پرکاری و کم‌کاری", "color": "#D94F7B", "levels": ["غدد کم‌صدا", "آزمایشگاه و تصویربرداری", "درمان و جمع‌بندی"]}], "prereq": "tm_lexa"}, {"id": "tm_neuro", "mod": "neuro", "order": 13, "nameFa": "نورو", "nameEn": "Neuro", "titleFa": "نورو • ترمینولوژی دستگاه عصبی و سلامت روان", "titleEn": "Neuro • Nervous System and Mental Health", "subjectFa": "ترمینولوژی پزشکی دستگاه عصبی و سلامت روان (مغز، نخاع، اعصاب و اختلال‌های روانی)", "subjectEn": "Nervous System and Mental Health", "shortEn": "Nervous system", "kickerFa": "🧠 ترمینولوژی پزشکی: مغز، نخاع، اعصاب و سلامت روان", "color": "#6c4fd0", "dark": "#513b9c", "light": "#edeaf9", "codePrefix": "NU", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 18, "roundSteps": 108, "chars": 18, "terms": 277, "roots": 108, "abbr": 66, "figs": 53, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان عصب", "sub": "دستگاه عصبی چه بخش‌هایی دارد و واژه‌هایش چطور ساخته می‌شوند: ریشه، پیشوند و پسوند", "color": "#6C4FD0", "levels": ["بخش‌های دستگاه عصبی", "ریشه‌های اصلی", "پیشوندها و پسوندها"]}, {"id": "cn", "sym": "Cn", "name": "مغز و نخاع", "sub": "مخ و لوب‌ها، مخچه، ساقه مغز، مننژ، بطن‌ها و مایع مغزی-نخاعی، و نخاع", "color": "#E0708C", "levels": ["مغز و لوب‌ها", "پرده‌ها، بطن‌ها و CSF", "نخاع"]}, {"id": "pn", "sym": "Pn", "name": "اعصاب محیطی و خودکار", "sub": "نورون و سیناپس، اعصاب جمجمه‌ای و نخاعی، درماتوم‌ها، قوس رفلکس، سمپاتیک و پاراسمپاتیک", "color": "#E89A1E", "levels": ["نورون، سیناپس و میلین", "اعصاب جمجمه‌ای و نخاعی", "رفلکس و دستگاه خودکار"]}, {"id": "ds", "sym": "Ds", "name": "نشانه‌ها و بیماری‌های عصبی", "sub": "فلج و ضعف، اختلال گفتار و حس، کما، سکته مغزی، هماتوم، صرع، پارکینسون، آلزایمر، ام‌اس، مننژیت و تومورها", "color": "#D9534F", "levels": ["نشانه‌های عصبی", "سکته، ضربه و تشنج", "بیماری‌ها و تومورها"]}, {"id": "ps", "sym": "Ps", "name": "سلامت روان", "sub": "اضطراب، فوبیا، وسواس، افسردگی و دوقطبی، اسکیزوفرنی، اوتیسم و ADHD، اختلال‌های خوردن، روان‌درمانی و داروها", "color": "#17A398", "levels": ["پایه‌ها و روان‌پریشی", "اضطراب و خلق", "اختلال‌های دیگر و درمان"]}, {"id": "tx", "sym": "Tx", "name": "تشخیص و درمان", "sub": "معاینه عصبی و گلاسگو، EEG و EMG، پونکسیون کمری، CT و MRI و PET، کرانیوتومی و لامینکتومی، شانت، داروها و توان‌بخشی", "color": "#3D6FD6", "levels": ["معاینه و آزمون‌ها", "تصویربرداری و جراحی", "دارو، توان‌بخشی و پرونده"]}], "prereq": "tm_lexa"}, {"id": "tm_hessa", "mod": "hessa", "order": 14, "nameFa": "حِسّا", "nameEn": "Hessa", "titleFa": "حِسّا • ترمینولوژی حواس ویژه: چشم و گوش", "titleEn": "Hessa • Special Senses: Eyes and Ears", "subjectFa": "ترمینولوژی پزشکی حواس ویژه: چشم، بینایی، گوش، شنوایی و تعادل", "subjectEn": "Special Senses: Eyes and Ears", "shortEn": "Eyes & ears", "kickerFa": "👁️ ترمینولوژی پزشکی: چشم و گوش", "color": "#1e88a8", "dark": "#16667e", "light": "#e4f1f5", "codePrefix": "HS", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 432, "rounds": 18, "roundSteps": 108, "chars": 18, "terms": 242, "roots": 93, "abbr": 63, "figs": 91, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان حواس", "sub": "پنج حس و اندام‌هایشان، متخصصان چشم و گوش، و ساخت واژه‌ها از ریشه، پیشوند و پسوند", "color": "#1E88A8", "levels": ["حواس و متخصصان", "ریشه‌های چشم و گوش", "پیشوندها، پسوندها و دام‌ها"]}, {"id": "ey", "sym": "Ey", "name": "چشم: ساختار و بینایی", "sub": "لایه‌های کره چشم، قرنیه، عنبیه، عدسی و شبکیه، پلک و دستگاه اشکی، عضلات چشم، انکسار، تطابق و مسیر بینایی", "color": "#3B6FD4", "levels": ["کره چشم", "ساختارهای محافظ و حرکت", "نور و بینایی"]}, {"id": "vd", "sym": "Vd", "name": "بیماری‌های چشم", "sub": "نزدیک‌بینی و دوربینی، آب مروارید، گلوکوم، بیماری‌های شبکیه، استرابیسم و تنبلی چشم، بیماری‌های پلک و التهاب‌های چشم", "color": "#8E6BD8", "levels": ["عیب انکساری و عدسی", "شبکیه، فشار و میدان بینایی", "پلک، عضله و التهاب"]}, {"id": "er", "sym": "Er", "name": "گوش: شنوایی و تعادل", "sub": "لاله و مجرای گوش، پرده گوش و استخوانچه‌ها، شیپور استاش، حلزون و اندام کورتی، مسیر صدا، دسی‌بل و هرتز، و دستگاه تعادل", "color": "#E8913A", "levels": ["گوش بیرونی و میانی", "گوش درونی", "شنیدن و تعادل"]}, {"id": "hd", "sym": "Hd", "name": "بیماری‌های گوش", "sub": "اوتیت بیرونی، میانی و درونی، ماستوئیدیت، کم‌شنوایی انتقالی و حسی-عصبی، پیرگوشی، اتواسکلروز، وزوز، سرگیجه، بیماری منیر و تومورها", "color": "#D9534F", "levels": ["التهاب‌های گوش", "کم‌شنوایی", "وزوز، سرگیجه و تومور"]}, {"id": "tx", "sym": "Tx", "name": "تشخیص و درمان", "sub": "چارت اسنلن، افتالموسکوپی و تونومتری، جراحی آب مروارید، لیزیک، جراحی شبکیه و پلک، اتوسکوپی، آزمون دیاپازون، ادیومتری، میرنگوتومی، سمعک و کاشت حلزون", "color": "#17A398", "levels": ["معاینه و آزمون‌های چشم", "جراحی و درمان چشم", "آزمون‌ها و درمان‌های گوش"]}], "prereq": "tm_lexa"}, {"id": "tm_mahar", "mod": "mahar", "order": 15, "nameFa": "مهار", "nameEn": "Mahar", "titleFa": "مهار • ترمینولوژی سرطان", "titleEn": "Mahar • Cancer Medicine", "subjectFa": "ترمینولوژی پزشکی سرطان (Cancer Medicine)", "subjectEn": "Cancer Medicine", "shortEn": "Oncology", "kickerFa": "🎗️ ترمینولوژی پزشکی: سرطان (Cancer Medicine)", "color": "#7048e8", "dark": "#5436ae", "light": "#eee9fc", "codePrefix": "MH", "startWorld": "lx", "stats": {"worlds": 6, "levels": 18, "lessons": 54, "questions": 392, "rounds": 12, "roundSteps": 72, "chars": 18, "terms": 283, "roots": 139, "abbr": 67, "figs": 44, "firstLesson": "lx1"}, "worlds": [{"id": "lx", "sym": "Lx", "name": "زبان سرطان", "sub": "ریشه‌های تومور و بافت، پسوندهای رشد، تشخیص و جراحی، پیشوندها، جمع و صفت، تیم درمان و اختصارهای پرونده", "color": "#4C6EF5", "levels": ["ریشه‌های سرطان", "پسوندها و پیشوندها", "زبان پرونده"]}, {"id": "cl", "sym": "Cell", "name": "سلول و رشد تومور", "sub": "تقسیم مهارشده، تمایز، خوش‌خیم و بدخیم، پله‌های تغییر سلول، ژن‌ها و سرطان‌زاها، متاستاز", "color": "#12B886", "levels": ["رشد طبیعی و سرطانی", "تغییرات سلول", "پیدایش و گسترش"]}, {"id": "nm", "sym": "Name", "name": "نام‌گذاری تومورها", "sub": "قاعده نام‌گذاری، تومورهای خوش‌خیم، کارسینوم‌ها و سارکوم‌ها، لوسمی و لنفوم، تومورهای جنینی و نام‌های ویژه", "color": "#F76707", "levels": ["قاعده و خوش‌خیم‌ها", "کارسینوم و سارکوم", "خون، لنف و نام‌های ویژه"]}, {"id": "sx", "sym": "Sx", "name": "نشانه‌ها و غربالگری", "sub": "هفت نشانه هشدار، نشانه‌ها در اندام‌ها، ضایعه‌های پیش‌سرطانی، خال‌ها و پستان، غربالگری و نشانگرهای تومور", "color": "#E64980", "levels": ["نشانه‌های هشدار", "پیش‌سرطان، خال و پستان", "غربالگری"]}, {"id": "dx", "sym": "Dx", "name": "تشخیص و مرحله‌بندی", "sub": "بیوپسی‌ها و غده نگهبان، آندوسکوپی، تصویربرداری، گیرنده‌ها، درجه و مرحله‌بندی TNM", "color": "#1C7ED6", "levels": ["نمونه‌برداری", "دیدن درون بدن", "درجه و مرحله"]}, {"id": "tx", "sym": "Rx", "name": "درمان سرطان", "sub": "جراحی، پرتودرمانی، شیمی‌درمانی و عارضه‌ها، هورمون‌درمانی و ایمونوتراپی، پیوند سلول بنیادی و هدف‌های درمان", "color": "#7048E8", "levels": ["جراحی", "پرتو و دارو", "رویکرد و پیامد"]}], "prereq": "tm_lexa"}];
+  /* شخصیت هر حیطه (بدون بارگذاری محتوای حیطه) */
+  const MASCOTS = {
+    lexa: (function () { const EA = { APP: { mascot: (cx, cy) => {
+      const x = cx - 46, y = cy - 40, w = 92, h = 96;
+      const d = `M${x} ${y} H${cx - 14} C${cx - 18} ${y - 18} ${cx + 18} ${y - 18} ${cx + 14} ${y} H${x + w} V${cy - 6} C${x + w + 20} ${cy - 12} ${x + w + 20} ${cy + 22} ${x + w} ${cy + 16} V${y + h} H${x} V${cy + 16} C${x + 16} ${cy + 22} ${x + 16} ${cy - 12} ${x} ${cy - 6} Z`;
+      return `
+        <path d="${d}" fill="#7FB2E5" stroke="var(--c)" stroke-width="2.4" stroke-linejoin="round"/>
+        <path d="M${x + 10} ${y + 10} H${cx - 18}" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".5"/>
+        <path d="M${x + 8} ${y + h - 8} H${x + w - 8}" stroke="#3B78B8" stroke-width="3" stroke-linecap="round" opacity=".35"/>
+        <path class="negar-spark" d="M14 26 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+`;
+    } } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    peykar: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#14214a';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona peykar yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <ellipse cx="${cx}" cy="${cy}" rx="50" ry="48" fill="var(--c)"/>
+        <ellipse cx="${cx}" cy="${cy}" rx="50" ry="48" fill="#000" opacity=".1"/>
+        <ellipse cx="${cx}" cy="${cy - 3}" rx="45" ry="42" fill="var(--c)"/>
+        <ellipse cx="${cx}" cy="${cy + 4}" rx="31" ry="27" fill="#000" opacity=".09"/>
+        <ellipse cx="${cx}" cy="${cy + 2}" rx="31" ry="26" fill="#fff" opacity=".1"/>
+        <path d="M${cx - 34} ${cy - 18} A40 38 0 0 1 ${cx - 8} ${cy - 40}" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55"/>
+        <circle cx="${cx + 30}" cy="${cy - 26}" r="6" fill="#fff" opacity=".18"/><circle cx="${cx - 30}" cy="${cy + 26}" r="4" fill="#fff" opacity=".18"/><ellipse cx="${cx + 33}" cy="${cy + 2}" rx="5" ry="2.6" fill="#fff" opacity=".2" transform="rotate(-30 ${cx + 33} ${cy + 2})"/>
+        <g transform="translate(102 108)"><circle r="16" fill="#FFC800" stroke="#fff" stroke-width="3"/><path d="M0 -10 V10 M-10 0 H10" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/><path d="M0 -10 l-3 4 h6z" fill="#fff"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    timar: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#14214a';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona timar yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <rect x="16" y="14" width="84" height="124" rx="42" fill="#000" opacity=".14" transform="translate(0 3)"/>
+        <rect x="16" y="14" width="84" height="124" rx="42" fill="var(--c)"/>
+        <path d="M17.8 108 H98.2 A42 42 0 0 1 17.8 108 Z" fill="#f4fbf9"/>
+        <path d="M17.8 108 H98.2" stroke="#000" stroke-opacity=".18" stroke-width="3"/>
+        <rect x="16" y="14" width="84" height="124" rx="42" fill="none" stroke="#000" stroke-opacity=".12" stroke-width="2"/>
+        <circle cx="40" cy="119" r="2.6" fill="var(--c)" opacity=".45"/><circle cx="58" cy="127" r="2.6" fill="var(--c)" opacity=".45"/><circle cx="76" cy="119" r="2.6" fill="var(--c)" opacity=".45"/>
+        <path d="M27 56 C29 38 38 26 50 23" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".5"/>
+        <g transform="translate(100 112)"><circle r="17" fill="#FFC800" stroke="#fff" stroke-width="3"/><path d="M0 -9 V9 M-9 0 H9" stroke="#fff" stroke-width="5" stroke-linecap="round"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    derma: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona derma yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <path d="M${cx + 12} 34 q-2 -16 10 -28" stroke="#5a2e1c" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+        <rect x="14" y="32" width="88" height="98" rx="24" fill="var(--c)"/>
+        <path d="M14 60 q11 -9 22 0 t22 0 t22 0 t22 0 V56 a24 24 0 0 0 -24 -24 H38 a24 24 0 0 0 -24 24Z" fill="#fff" opacity=".22"/>
+        <path d="M14 60 q11 -9 22 0 t22 0 t22 0 t22 0" stroke="#000" stroke-opacity=".12" stroke-width="2" fill="none"/>
+        <g fill="#fff" opacity=".28"><circle cx="30" cy="118" r="6"/><circle cx="46" cy="121" r="6"/><circle cx="70" cy="121" r="6"/><circle cx="86" cy="118" r="6"/></g>
+        <rect x="14" y="32" width="88" height="98" rx="24" fill="#000" opacity=".06"/>
+        <path d="M${cx - 34} ${cy - 30} L${cx - 22} ${cy - 40}" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".5"/>
+        <g transform="translate(90 102)"><circle r="11" fill="#FFC800" stroke="#fff" stroke-width="2.5"/>${[0, 1, 2, 3, 4, 5, 6, 7].map(i => `<path d="M${(Math.cos(i * Math.PI / 4) * 14).toFixed(1)} ${(Math.sin(i * Math.PI / 4) * 14).toFixed(1)} L${(Math.cos(i * Math.PI / 4) * 18).toFixed(1)} ${(Math.sin(i * Math.PI / 4) * 18).toFixed(1)}" stroke="#FFC800" stroke-width="3" stroke-linecap="round"/>`).join('')}${''}<text x="0" y="3.5" font-size="8" font-weight="900" text-anchor="middle" fill="#7a4a00" font-family="Arial, sans-serif">SPF</text></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    osteo: (function () { const EA = { APP: { mascot: (cx, cy) => `
+        <g fill="#F3E4C4">
+          <circle cx="${cx - 26}" cy="34" r="19"/><circle cx="${cx + 26}" cy="34" r="19"/>
+          <circle cx="${cx - 26}" cy="124" r="18"/><circle cx="${cx + 26}" cy="124" r="18"/>
+          <rect x="${cx - 36}" y="36" width="72" height="88" rx="22"/>
+        </g>
+        <path d="M${cx + 30} 44 C${cx + 38} 70 ${cx + 38} 98 ${cx + 30} 122 Q${cx + 44} 128 ${cx + 40} 138 Q${cx + 50} 120 ${cx + 44} 110 C${cx + 46} 90 ${cx + 46} 66 ${cx + 44} 48 Q${cx + 52} 34 ${cx + 40} 22 Q${cx + 42} 36 ${cx + 30} 44Z" fill="#D9C092" opacity=".55"/>
+        <path d="M${cx - 30} 40 Q${cx - 36} 30 ${cx - 30} 22" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".7"/>
+        <path d="M${cx - 26} 58 V108" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".45"/>
+        <path d="M${cx - 44} 44 Q${cx} 32 ${cx + 44} 44 L${cx + 44} 54 Q${cx} 42 ${cx - 44} 54Z" fill="var(--c)"/>
+        <path d="M${cx + 42} 46 q12 2 16 12 M${cx + 42} 50 q14 -4 20 4" stroke="var(--c)" stroke-width="4.5" fill="none" stroke-linecap="round"/>
+        <g transform="translate(${cx + 34} 132) rotate(-18)"><rect x="-13" y="-2.5" width="26" height="5" rx="2.5" fill="#6f7a80"/><rect x="-17" y="-8" width="7" height="16" rx="2.5" fill="var(--c)"/><rect x="10" y="-8" width="7" height="16" rx="2.5" fill="var(--c)"/></g>
+        <path class="negar-spark" d="M104 70 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+` } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    tapesh: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#14214a';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona tapesh yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <path d="M58 124 C22 102 6 78 8 54 C10 30 32 20 48 30 C53 33 56 37 58 41 C60 37 63 33 68 30 C84 20 106 30 108 54 C110 78 94 102 58 124Z" fill="var(--c)"/>
+        <path d="M58 124 C22 102 6 78 8 54 C10 30 32 20 48 30 C53 33 56 37 58 41 C60 37 63 33 68 30 C84 20 106 30 108 54 C110 78 94 102 58 124Z" fill="#000" opacity=".12"/>
+        <path d="M58 118 C27 98 13 77 15 56 C17 36 35 28 48 36 C53 39 56 43 58 47 C60 43 63 39 68 36 C81 28 99 36 101 56 C103 77 89 98 58 118Z" fill="var(--c)"/>
+        <path d="M58 47 C56 60 57 84 58 112" stroke="#000" stroke-width="2.2" fill="none" opacity=".08" stroke-linecap="round"/>
+        <ellipse cx="${cx}" cy="${cy + 8}" rx="30" ry="25" fill="#fff" opacity=".08"/>
+        <path d="M22 50 C24 38 34 32 44 36" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55"/>
+        <circle cx="${cx + 32}" cy="${cy - 26}" r="5" fill="#fff" opacity=".2"/><ellipse cx="${cx + 34}" cy="${cy + 6}" rx="5" ry="2.6" fill="#fff" opacity=".2" transform="rotate(-30 ${cx + 34} ${cy + 6})"/>
+        <g transform="translate(100 112)"><circle r="17" fill="#FFC800" stroke="#fff" stroke-width="3"/><path d="M-12 1 H-6 L-3 -4 L0 1 L3 -11 L6 9 L8 1 H12" stroke="#fff" stroke-width="2.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    imena: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona imena yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <ellipse cx="${cx}" cy="${cy}" rx="50" ry="48" fill="var(--c)"/>
+        <ellipse cx="${cx}" cy="${cy}" rx="50" ry="48" fill="#000" opacity=".1"/>
+        <ellipse cx="${cx}" cy="${cy - 3}" rx="45" ry="42" fill="var(--c)"/>
+        <ellipse cx="${cx}" cy="${cy + 4}" rx="31" ry="27" fill="#000" opacity=".09"/>
+        <ellipse cx="${cx}" cy="${cy + 2}" rx="31" ry="26" fill="#fff" opacity=".1"/>
+        <path d="M${cx - 34} ${cy - 18} A40 38 0 0 1 ${cx - 8} ${cy - 40}" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55"/>
+        <g transform="translate(88 92)"><path d="M14 0 L28 6 V17 C28 26 21 32 14 35 C7 32 0 26 0 17 V6 Z" fill="#12A594" stroke="#fff" stroke-width="3"/><path d="M8 17 l4.5 4.5 8 -9" stroke="#fff" stroke-width="3.6" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    nafas: (function () { const EA = { APP: { mascot: (cx, cy) => `
+        <rect x="${cx - 6}" y="10" width="12" height="34" rx="6" fill="var(--c)"/>
+        ${[16, 23, 30, 37].map(y => `<path d="M${cx - 6} ${y} h12" stroke="#fff" stroke-width="2.2" opacity=".55"/>`).join('')}
+        <path d="M${cx} 42 C${cx - 8} 48 ${cx - 14} 50 ${cx - 20} 56 M${cx} 42 C${cx + 8} 48 ${cx + 14} 50 ${cx + 20} 56" stroke="var(--c)" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path d="M${cx - 3} 52 C${cx - 22} 34 ${cx - 50} 46 ${cx - 50} 84 C${cx - 50} 116 ${cx - 46} 136 ${cx - 26} 138 C${cx - 10} 140 ${cx - 2} 128 ${cx - 2} 110 Z" fill="#F4A6B8" stroke="#D97890" stroke-width="2"/>
+        <path d="M${cx + 3} 52 C${cx + 22} 34 ${cx + 50} 46 ${cx + 50} 84 C${cx + 50} 116 ${cx + 46} 136 ${cx + 26} 138 C${cx + 10} 140 ${cx + 2} 128 ${cx + 2} 110 Z" fill="#F4A6B8" stroke="#D97890" stroke-width="2"/>
+        <path d="M${cx - 40} 70 C${cx - 38} 56 ${cx - 30} 50 ${cx - 22} 50" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".55"/>
+        <path d="M${cx - 46} 112 q10 4 16 -2 M${cx + 46} 112 q-10 4 -16 -2" stroke="#D97890" stroke-width="1.6" fill="none" opacity=".7"/>
+        <g transform="translate(${cx + 46} 28)"><circle r="12" fill="#E3F4FC" stroke="var(--c)" stroke-width="2.5"/><text x="0" y="4.5" font-size="11" font-weight="900" text-anchor="middle" fill="var(--c)" font-family="Arial, sans-serif">O₂</text></g>
+        <circle cx="${cx + 30}" cy="12" r="4" fill="#E3F4FC" stroke="var(--c)" stroke-width="1.5"/>
+        <path class="negar-spark" d="M14 26 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+` } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    govara: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#14214a';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona govara yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <path d="M60 34 C60 22 64 13 72 5" stroke="var(--c)" stroke-width="15" fill="none" stroke-linecap="round"/>
+        <path d="M60 34 C60 22 64 13 72 5" stroke="#000" stroke-opacity=".12" stroke-width="15" fill="none" stroke-linecap="round"/>
+        <path d="M22 102 C10 108 7 120 12 132" stroke="var(--c)" stroke-width="13" fill="none" stroke-linecap="round"/>
+        <path d="M50 30 C70 18 98 26 106 52 C116 86 98 126 62 129 C34 132 13 115 13 93 C13 75 27 67 37 61 C45 55 40 38 50 30 Z" fill="#000" opacity=".14" transform="translate(0 3)"/>
+        <path d="M50 30 C70 18 98 26 106 52 C116 86 98 126 62 129 C34 132 13 115 13 93 C13 75 27 67 37 61 C45 55 40 38 50 30 Z" fill="var(--c)"/>
+        <path d="M24 104 C34 122 70 128 92 110" stroke="#fff" stroke-width="3" fill="none" stroke-linecap="round" opacity=".35"/>
+        <path d="M30 114 C44 126 70 128 86 120" stroke="#fff" stroke-width="2.4" fill="none" stroke-linecap="round" opacity=".25"/>
+        <path d="M58 36 C74 30 92 36 98 50" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".5"/>
+        <g transform="translate(100 112)"><circle r="17" fill="#FFC800" stroke="#fff" stroke-width="3"/><ellipse cx="0" cy="-5" rx="5" ry="6.5" fill="#fff"/><path d="M0 0 V11" stroke="#fff" stroke-width="3.4" stroke-linecap="round"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    nephra: (function () { const EA = { APP: { mascot: (cx, cy) => `
+        <path d="M${cx + 24} ${cy + 8} C${cx + 34} ${cy + 22} ${cx + 30} ${cy + 40} ${cx + 38} ${cy + 54}" stroke="#E7C26B" stroke-width="6" fill="none" stroke-linecap="round"/>
+        <path transform="translate(${cx - 3} ${cy + 6}) scale(1.22 0.9)" d="M-6 -60 C26 -64 40 -40 38 -18 C36 -8 24 -6 22 0 C24 6 36 8 38 18 C40 40 26 64 -6 60 C-34 56 -44 28 -44 0 C-44 -28 -34 -56 -6 -60Z" fill="#C8574F" stroke="var(--c)" stroke-width="2.4"/>
+        <path transform="translate(${cx - 3} ${cy + 6}) scale(1.22 0.9)" d="M-30 -40 C-38 -24 -38 -4 -34 10" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".45"/>
+        <path d="M${cx + 8} ${cy - 66} C${cx + 16} ${cy - 54} ${cx + 20} ${cy - 46} ${cx + 20} ${cy - 40} A12 12 0 0 1 ${cx - 4} ${cy - 40} C${cx - 4} ${cy - 46} ${cx} ${cy - 54} ${cx + 8} ${cy - 66}Z" fill="#7CC4EF" stroke="#3E95C9" stroke-width="1.6"/>
+        <ellipse cx="${cx + 3}" cy="${cy - 44}" rx="3" ry="5" fill="#fff" opacity=".7"/>
+        <path class="negar-spark" d="M14 26 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+` } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    zaya: (function () { const EA = { APP: { mascot: (cx, cy) => `
+        ${Array.from({ length: 13 }, (_, i) => { const a = i / 14 * Math.PI * 2; return `<circle cx="${(cx + Math.cos(a) * 48).toFixed(1)}" cy="${(cy + 4 + Math.sin(a) * 48).toFixed(1)}" r="8" fill="#FDE3C8" stroke="#E8B48A" stroke-width="1.4"/>`; }).join('')}
+        <circle cx="${cx}" cy="${cy + 4}" r="41" fill="#FFFFFF" opacity=".9"/>
+        <circle cx="${cx}" cy="${cy + 4}" r="37" fill="#FBD0DD" stroke="var(--c)" stroke-width="2.4"/>
+        <path d="M${cx - 30} ${cy - 18} C${cx - 24} ${cy - 30} ${cx - 12} ${cy - 34} ${cx - 2} ${cy - 34}" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".6"/>
+        <path class="negar-spark" d="M14 26 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+` } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    hormona: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona hormona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <path d="M98.7 97.5 L58.0 121.0 L17.3 97.5 L17.3 50.5 L58.0 27.0 L98.7 50.5Z" fill="var(--c)" stroke="var(--c)" stroke-width="12" stroke-linejoin="round"/>
+        <path d="M98.7 97.5 L58.0 121.0 L17.3 97.5 L17.3 50.5 L58.0 27.0 L98.7 50.5Z" fill="#000" opacity=".1" stroke="#000" stroke-opacity=".1" stroke-width="12" stroke-linejoin="round"/>
+        <path d="M96.1 93.0 L58.0 115.0 L19.9 93.0 L19.9 49.0 L58.0 27.0 L96.1 49.0Z" fill="var(--c)" stroke="var(--c)" stroke-width="10" stroke-linejoin="round"/>
+        <path d="M82.2 92.0 L58.0 106.0 L33.8 92.0 L33.8 64.0 L58.0 50.0 L82.2 64.0Z" fill="#000" opacity=".08" stroke="#000" stroke-opacity=".08" stroke-width="8" stroke-linejoin="round"/>
+        <path d="M${cx - 36} ${cy - 22} L${cx - 14} ${cy - 40}" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".5"/>
+        <g transform="translate(86 96) rotate(-30)"><circle cx="8" cy="8" r="8" fill="#FFC800" stroke="#fff" stroke-width="2.5"/><circle cx="8" cy="8" r="3" fill="#fff"/><path d="M15 8 h20 M29 8 v7 M23 8 v5" stroke="#FFC800" stroke-width="5" stroke-linecap="round"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    neuro: (function () { const EA = { APP: { mascot: (cx, cy) => `
+        <path d="M${cx} 30 C${cx - 14} 18 ${cx - 40} 22 ${cx - 44} 40 C${cx - 60} 46 ${cx - 62} 70 ${cx - 52} 82 C${cx - 58} 102 ${cx - 44} 122 ${cx - 24} 120 C${cx - 16} 134 ${cx - 2} 132 ${cx} 124 C${cx + 2} 132 ${cx + 16} 134 ${cx + 24} 120 C${cx + 44} 122 ${cx + 58} 102 ${cx + 52} 82 C${cx + 62} 70 ${cx + 60} 46 ${cx + 44} 40 C${cx + 40} 22 ${cx + 14} 18 ${cx} 30 Z" fill="#F6B3C6" stroke="#D97890" stroke-width="2.2"/>
+        <path d="M${cx} 32 V122" stroke="#D97890" stroke-width="2" opacity=".7"/>
+        <path d="M${cx - 40} 52 q10 -8 18 0 q8 8 16 -2 M${cx + 40} 52 q-10 -8 -18 0 q-8 8 -16 -2 M${cx - 52} 96 q8 -6 14 2 M${cx + 52} 96 q-8 -6 -14 2 M${cx - 30} 30 q6 8 14 4 M${cx + 30} 30 q-6 8 -14 4" stroke="#D97890" stroke-width="2" fill="none" stroke-linecap="round" opacity=".75"/>
+        <path d="M${cx - 44} 46 C${cx - 40} 36 ${cx - 30} 30 ${cx - 22} 30" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".55"/>
+        <path d="M${cx + 54} 6 l-10 16 h8 l-6 14 14 -18 h-8 l6 -12 z" fill="#FFC800" stroke="var(--c)" stroke-width="1.6" stroke-linejoin="round"/>
+        <path class="negar-spark" d="M14 26 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+` } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    hessa: (function () { const EA = { APP: { mascot: (cx, cy) => `
+        <path d="M${cx - 40} ${cy - 2} C${cx - 58} ${cy - 18} ${cx - 62} ${cy + 14} ${cx - 48} ${cy + 24} C${cx - 42} ${cy + 28} ${cx - 38} ${cy + 18} ${cx - 40} ${cy + 10}Z" fill="#F6D2B8" stroke="#D9A988" stroke-width="2"/>
+        <path d="M${cx + 40} ${cy - 2} C${cx + 58} ${cy - 18} ${cx + 62} ${cy + 14} ${cx + 48} ${cy + 24} C${cx + 42} ${cy + 28} ${cx + 38} ${cy + 18} ${cx + 40} ${cy + 10}Z" fill="#F6D2B8" stroke="#D9A988" stroke-width="2"/>
+        <circle cx="${cx}" cy="${cy + 4}" r="42" fill="#FBFDFF" stroke="var(--c)" stroke-width="2.6"/>
+        <path d="M${cx - 26} ${cy - 26} C${cx - 14} ${cy - 40} ${cx + 14} ${cy - 40} ${cx + 26} ${cy - 26} C${cx + 14} ${cy - 32} ${cx - 14} ${cy - 32} ${cx - 26} ${cy - 26}Z" fill="#2F8FB0" opacity=".9"/>
+        <path d="M${cx - 22} ${cy + 30} C${cx - 10} ${cy + 36} ${cx + 10} ${cy + 36} ${cx + 22} ${cy + 30}" stroke="#E79A9A" stroke-width="1.6" fill="none" opacity=".7"/>
+        <path d="M${cx + 28} ${cy - 18} l6 -2 M${cx + 32} ${cy - 8} l7 1" stroke="#E07A6A" stroke-width="1.3" opacity=".55"/>
+        <path d="M${cx - 30} ${cy - 10} C${cx - 28} ${cy - 22} ${cx - 20} ${cy - 30} ${cx - 10} ${cy - 32}" stroke="#fff" stroke-width="5" fill="none" stroke-linecap="round" opacity=".8"/>
+        <path class="negar-spark" d="M14 26 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+` } }; return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#3a0d16';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">${EA.APP.mascot(cx, cy)}
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+    mahar: (function () { return function (mood, color, size) {
+    const c = color || 'var(--brand)';
+    const m = mood || 'happy';
+    const ink = '#14214a';
+    const cx = 58, cy = 74;
+    const my = cy + 19;
+    const mouths = {
+      happy: `<path d="M${cx - 11} ${my} Q${cx} ${my + 11} ${cx + 11} ${my}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      cheer: `<path d="M${cx - 13} ${my - 3} Q${cx} ${my + 20} ${cx + 13} ${my - 3} Z" fill="${ink}"/><path d="M${cx - 6} ${my + 7} Q${cx} ${my + 11} ${cx + 6} ${my + 7}" fill="#ff8a9a"/>`,
+      sad: `<path d="M${cx - 10} ${my + 7} Q${cx} ${my - 3} ${cx + 10} ${my + 7}" stroke="${ink}" stroke-width="4" fill="none" stroke-linecap="round"/>`,
+      wow: `<ellipse cx="${cx}" cy="${my + 3}" rx="6" ry="8" fill="${ink}"/>`,
+      think: `<path d="M${cx - 9} ${my + 4} L${cx + 9} ${my + 1}" stroke="${ink}" stroke-width="4" stroke-linecap="round"/>`
+    };
+    const brows = m === 'think' ? `<path d="M${cx - 21} ${cy - 15} L${cx - 9} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 8} ${cy - 13} L${cx + 21} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>`
+      : m === 'sad' ? `<path d="M${cx - 21} ${cy - 11} L${cx - 9} ${cy - 15}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/><path d="M${cx + 9} ${cy - 15} L${cx + 21} ${cy - 11}" stroke="${ink}" stroke-width="3.5" stroke-linecap="round"/>` : '';
+    const tear = m === 'sad' ? `<path d="M${cx + 22} ${cy + 8} q4 8 0 12 q-4 -4 0 -12z" fill="#8fdcff"/>` : '';
+    const eyes = m === 'cheer'
+      ? `<path d="M${cx - 20} ${cy + 2} Q${cx - 13} ${cy - 8} ${cx - 6} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/><path d="M${cx + 6} ${cy + 2} Q${cx + 13} ${cy - 8} ${cx + 20} ${cy + 2}" stroke="${ink}" stroke-width="4.5" fill="none" stroke-linecap="round"/>`
+      : `<g class="yona-eyes"><ellipse cx="${cx - 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><ellipse cx="${cx + 13}" cy="${cy}" rx="8" ry="10" fill="#fff"/><circle cx="${cx - (m === 'think' ? 10 : 12)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx + (m === 'think' ? 16 : 14)}" cy="${cy + (m === 'think' ? -3 : 2)}" r="4.6" fill="#1d1d1d"/><circle cx="${cx - 10}" cy="${cy - 1}" r="1.7" fill="#fff"/><circle cx="${cx + 16}" cy="${cy - 1}" r="1.7" fill="#fff"/></g>`;
+    return `<svg class="yona mahar yona--${m}" viewBox="0 0 120 150" width="${size || 120}" height="${(size || 120) * 1.25}" aria-hidden="true" style="--c:${c}">
+      <ellipse cx="60" cy="144" rx="32" ry="5" fill="currentColor" opacity=".12"/>
+      <g class="yona-body">
+        <path d="M58 24 C90 22 112 46 110 78 C108 108 86 126 58 126 C28 126 6 106 6 78 C6 46 26 26 58 24Z" fill="var(--c)"/>
+        <path d="M58 24 C90 22 112 46 110 78 C108 108 86 126 58 126 C28 126 6 106 6 78 C6 46 26 26 58 24Z" fill="#000" opacity=".12"/>
+        <path d="M58 31 C86 29 104 50 103 78 C102 104 82 119 58 119 C32 119 13 102 13 78 C13 51 30 33 58 31Z" fill="var(--c)"/>
+        <path d="M58 31 C86 29 104 50 103 78 C102 104 82 119 58 119 C32 119 13 102 13 78 C13 51 30 33 58 31Z" fill="none" stroke="#fff" stroke-width="2" stroke-dasharray="2 7" opacity=".45" stroke-linecap="round"/>
+        <ellipse cx="${cx}" cy="${cy + 8}" rx="30" ry="25" fill="#fff" opacity=".08"/>
+        <path d="M22 56 C25 42 36 34 48 34" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round" opacity=".55"/>
+        <ellipse cx="${cx + 30}" cy="${cy - 28}" rx="7" ry="4.5" fill="#fff" opacity=".18" transform="rotate(-25 ${cx + 30} ${cy - 28})"/><circle cx="${cx - 30}" cy="${cy + 30}" r="4" fill="#fff" opacity=".18"/><circle cx="${cx + 36}" cy="${cy + 6}" r="3" fill="#fff" opacity=".2"/>
+        <g transform="translate(100 112)"><circle r="17" fill="#FFC800" stroke="#fff" stroke-width="3"/><path d="M0 -10 C-6 -10 -8 -4 -6 0 L4 11 M0 -10 C6 -10 8 -4 6 0 L-4 11" stroke="#fff" stroke-width="3.4" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+        <path class="negar-spark" d="M100 18 l2.6 6.4 6.4 2.6 -6.4 2.6 -2.6 6.4 -2.6 -6.4 -6.4 -2.6 6.4 -2.6z" fill="#FFC800"/>
+        ${brows}${eyes}
+        <ellipse cx="${cx - 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/><ellipse cx="${cx + 25}" cy="${cy + 14}" rx="6" ry="3.6" fill="#ff9fb0" opacity=".75"/>
+        ${mouths[m] || mouths.happy}${tear}
+      </g>
+    </svg>`;
+  }; })(),
+  };
+  AC.termino = {
+    /* bitFlag: بیت یکتای این دوره در کدهای فعال‌سازی. هرگز عوض نشود. */
+    id: 'termino', bitFlag: 8, order: 4, kind: 'suite',
+    nameFa: "ترمینو",
+    nameEn: "Termino",
+    subjectFa: "ترمینولوژی پزشکی",
+    subjectEn: "Medical terminology",
+    courseFa: "ترمینولوژی پزشکی: ۱۵ حیطه از مقدمه تا سرطان",
+    courseEn: "Medical Terminology: 15 Body Systems, From Basics to Oncology",
+    descFa: "ساخت واژه پزشکی با ریشه، پیشوند و پسوند؛ سپس ۱۴ دستگاه بدن، بیماری‌ها، تشخیص و درمان.",
+    descEn: "Build medical words from roots, prefixes and suffixes, then master 14 body systems, diseases, diagnosis and treatment.",
+    toolsFa: "واژه‌نامه، تجزیه‌گر واژه، ریشه‌ها و اختصارها",
+    toolsEn: "Dictionary, word parser, roots and abbreviations",
+    domainEn: "Medical terminology",
+    titleFa: "ترمینو • آکادمی ترمینولوژی پزشکی",
+    titleEn: "Termino • Medical Terminology Academy",
+    icon: '🧩', color: '#4b4fc4', dark: '#33369a', light: '#e7e8fb', langs: ['fa', 'en'], codePrefix: 'TR',
+    stats: {"worlds": 90, "levels": 270, "lessons": 810, "questions": 6383, "rounds": 222, "roundSteps": 1366, "chars": 270, "terms": 4639, "modules": 15, "firstLesson": "bs1"},
+    catalog: {"tagline": "هر واژه پزشکی یک پازل است؛ ۱۵ حیطه، از ساخت واژه تا سرطان", "about": "ترمینو زبان پزشکی را از پایه می‌سازد: در «لِکسا» یاد می‌گیری هر واژه را به پیشوند، ریشه، واکه رابط و پسوند بشکنی؛ بعد در ۱۴ حیطه دیگر، از ساختار بدن، بیماری و درمان تا پوست، اسکلت و عضله، قلب و عروق، خون و ایمنی، تنفس، گوارش، کلیه، تولیدمثل، غدد، دستگاه عصبی، چشم و گوش و سرطان، همان مهارت را روی واژه‌های واقعی هر دستگاه به کار می‌بری. هر حیطه یک دوره کامل است با شکل‌های دوزبانه، املای واژه، واژه‌سازی از ریشه، کارت‌های لایتنر، واژه‌نامه و تجزیه‌گر، و پرونده‌های بالینی از کتاب‌های مرجع.", "audience": "دانشجوی پزشکی، پرستاری، مامایی، داروسازی، علوم آزمایشگاهی، تغذیه، مدارک پزشکی و منشی پزشکی؛ هر کسی که می‌خواهد پرونده و گزارش پزشکی انگلیسی را بخواند", "highlights": ["۱۵ حیطه در یک اشتراک", "بیش از ۴٬۶۰۰ واژه با تلفظ و معنی فارسی", "۲۲۲ پرونده بالینی و صدها شکل آموزشی"], "outcomes": ["هر واژه پزشکی ناآشنا را به پیشوند، ریشه و پسوند بشکنی و معنی‌اش را خودت بسازی", "واژه‌های ۱۴ دستگاه بدن، بیماری‌ها، آزمایش‌ها، جراحی‌ها و داروها را درست بخوانی و بنویسی", "واژه‌های لاتین و یونانی را جمع ببندی، تلفظ کنی و از تله‌های املایی دور بمانی", "اختصارهای پرونده و نسخه را بخوانی و اختصارهای ممنوع را بشناسی", "شرح حال، گزارش آزمایش و یادداشت بالینی انگلیسی را مثل زبان مادری بفهمی", "با گواهی جداگانه هر حیطه، مهارتت را نشان دهی"], "tools": [{"id": "dict", "sym": "Aa", "name": "واژه‌نامه دوزبانه", "desc": "جست‌وجوی فارسی و انگلیسی با تلفظ، تعریف و ریشه هر واژه", "color": "#4b4fc4"}, {"id": "parse", "sym": "✂", "name": "تجزیه‌گر واژه", "desc": "هر واژه پزشکی را به پیشوند، ریشه و پسوند می‌شکند", "color": "#d9643a"}, {"id": "roots", "sym": "√", "name": "ریشه‌ها و پسوندها", "desc": "فهرست ریشه، پیشوند و پسوند هر حیطه با مثال", "color": "#12a594"}, {"id": "abbr", "sym": "Rx", "name": "اختصارها", "desc": "اختصارهای پرونده و نسخه، همراه فهرست اختصارهای ممنوع", "color": "#c8243f"}, {"id": "cards", "sym": "🗂", "name": "کارت‌های لایتنر", "desc": "مرور فاصله‌دار واژه‌ها در ۶ خانه", "color": "#ff9600"}], "worlds": [{"id": "tm_lexa", "sym": "Lx", "name": "لِکسا", "sub": "مقدمه ترمینولوژی پزشکی: ریشه، پیشوند، پسوند، واکه رابط، جمع، اختصار و زبان پرونده", "color": "#4b4fc4", "levels": ["الفبای زبان پزشکی", "ریشه‌ها: نقشه بدن", "پسوندها", "پیشوندها", "قواعد و تله‌ها", "در بیمارستان"]}, {"id": "tm_peykar", "sym": "Pk", "name": "پیکر", "sub": "ترمینولوژی پزشکی ساختار بدن", "color": "#2f5fd0", "levels": ["زبان بدن", "سازمان‌یابی و سلول", "بافت‌ها و غشاها", "دستگاه‌ها و اندام‌ها", "جهت، صفحه و وضعیت", "حفره‌ها و نواحی"]}, {"id": "tm_timar", "sym": "Tm", "name": "تیمار", "sub": "ترمینولوژی پزشکی بیماری و درمان (Disease and Treatment)", "color": "#0c8f7f", "levels": ["زبان بیماری", "میکروب‌ها و انواع بیماری", "پاسخ بدن به بیماری", "معاینه و تشخیص", "جراحی و درمان", "دارو و نسخه"]}, {"id": "tm_derma", "sym": "Dr", "name": "درما", "sub": "ترمینولوژی پزشکی دستگاه پوششی (پوست، مو، ناخن و غدد پوستی)", "color": "#d9643a", "levels": ["زبان پوست", "لایه‌های پوست", "ضمائم پوست", "ضایعه‌ها و نشانه‌ها", "بیماری‌های پوست", "تومور، تشخیص و درمان"]}, {"id": "tm_osteo", "sym": "Os", "name": "اُستئو", "sub": "ترمینولوژی پزشکی دستگاه اسکلتی-عضلانی (استخوان، مفصل، عضله و تاندون)", "color": "#c2413a", "levels": ["زبان استخوان و عضله", "استخوان", "اسکلت", "مفاصل و حرکت", "عضلات", "شکستگی، تشخیص و درمان"]}, {"id": "tm_tapesh", "sym": "Tp", "name": "تپش", "sub": "ترمینولوژی پزشکی دستگاه قلب و عروق", "color": "#d6304f", "levels": ["زبان قلب", "ساختمان قلب", "ضربان و نوار قلب", "رگ‌ها و گردش خون", "بیماری‌های قلب و رگ", "تشخیص و درمان"]}, {"id": "tm_imena", "sym": "Im", "name": "ایمنا", "sub": "ترمینولوژی پزشکی خون، دستگاه لنفاوی و ایمنی", "color": "#c8243f", "levels": ["زبان پزشکی", "خون و سلول‌ها", "هموستاز و انتقال خون", "دستگاه لنفاوی", "ایمنی", "آزمایش، درمان و ICU"]}, {"id": "tm_nafas", "sym": "Nf", "name": "نَفَس", "sub": "ترمینولوژی پزشکی دستگاه تنفس (بینی، حلق، حنجره، نای، نایژه‌ها و ریه‌ها)", "color": "#2e9bd6", "levels": ["زبان تنفس", "تنفس فوقانی", "تنفس تحتانی", "تهویه و نشانه‌ها", "بیماری‌های تنفسی", "تشخیص و درمان"]}, {"id": "tm_govara", "sym": "Gv", "name": "گوارا", "sub": "ترمینولوژی پزشکی دستگاه گوارش (Digestive System)", "color": "#c2410c", "levels": ["زبان گوارش", "دهان تا معده", "روده‌ها و اندام‌های کمکی", "بیماری‌های دهان، مری و معده", "بیماری‌های روده، کبد و صفرا", "تشخیص، جراحی و دارو"]}, {"id": "tm_nephra", "sym": "Ne", "name": "نِفرا", "sub": "ترمینولوژی پزشکی دستگاه ادراری: کلیه، نفرون، میزنای، مثانه، پیشابراه و ادرار", "color": "#b0413e", "levels": ["زبان کلیه", "کلیه و نفرون", "مثانه و دفع ادرار", "ادرار و نشانه‌ها", "بیماری‌های ادراری", "تشخیص و درمان"]}, {"id": "tm_zaya", "sym": "Zy", "name": "زایا", "sub": "ترمینولوژی پزشکی دستگاه تولیدمثل زنانه و مردانه، بارداری و زایمان", "color": "#b8457a", "levels": ["زبان زایش", "دستگاه تناسلی زنانه", "دستگاه تناسلی مردانه", "بارداری و زایمان", "بیماری‌ها و عفونت‌های آمیزشی", "تشخیص، درمان و پیشگیری"]}, {"id": "tm_hormona", "sym": "Ho", "name": "هورمونا", "sub": "ترمینولوژی پزشکی دستگاه درون‌ریز (غدد و هورمون‌ها)", "color": "#6c3fd1", "levels": ["زبان هورمون‌ها", "هیپوتالاموس و هیپوفیز", "تیروئید و پاراتیروئید", "غدد فوق‌کلیه", "پانکراس و دیابت", "غدد دیگر، تشخیص و درمان"]}, {"id": "tm_neuro", "sym": "Nu", "name": "نورو", "sub": "ترمینولوژی پزشکی دستگاه عصبی و سلامت روان (مغز، نخاع، اعصاب و اختلال‌های روانی)", "color": "#6c4fd0", "levels": ["زبان عصب", "مغز و نخاع", "اعصاب محیطی و خودکار", "نشانه‌ها و بیماری‌های عصبی", "سلامت روان", "تشخیص و درمان"]}, {"id": "tm_hessa", "sym": "Hs", "name": "حِسّا", "sub": "ترمینولوژی پزشکی حواس ویژه: چشم، بینایی، گوش، شنوایی و تعادل", "color": "#1e88a8", "levels": ["زبان حواس", "چشم: ساختار و بینایی", "بیماری‌های چشم", "گوش: شنوایی و تعادل", "بیماری‌های گوش", "تشخیص و درمان"]}, {"id": "tm_mahar", "sym": "Mh", "name": "مهار", "sub": "ترمینولوژی پزشکی سرطان (Cancer Medicine)", "color": "#7048e8", "levels": ["زبان سرطان", "سلول و رشد تومور", "نام‌گذاری تومورها", "نشانه‌ها و غربالگری", "تشخیص و مرحله‌بندی", "درمان سرطان"]}], "en": {"tagline": "Every medical term is a puzzle — 15 modules, from word building to oncology", "about": "Termino builds the language of medicine from the ground up. In “Lexa” you learn to break any term into prefix, root, combining vowel and suffix; then, across 14 more modules — body structure, disease and treatment, skin, bones and muscles, heart and vessels, blood and immunity, breathing, digestion, kidneys, reproduction, hormones, the nervous system, eyes and ears, and cancer — you apply that skill to the real vocabulary of each system. Every module is a complete course with bilingual figures, spelling practice, word building from roots, Leitner cards, a dictionary and word parser, and clinical charts from reference textbooks.", "audience": "Students of medicine, nursing, midwifery, pharmacy, laboratory sciences, nutrition, health information and medical office work — anyone who wants to read English medical records and reports", "highlights": ["15 modules in one subscription", "4,600+ terms with pronunciation and meaning", "222 clinical charts and hundreds of teaching figures"], "outcomes": ["Break any unfamiliar medical term into prefix, root and suffix and work out its meaning yourself", "Read and spell the vocabulary of 14 body systems, diseases, tests, surgeries and drugs correctly", "Pluralize and pronounce Latin and Greek terms and avoid common spelling traps", "Read chart and prescription abbreviations and recognize the do-not-use list", "Understand English histories, lab reports and clinical notes as if they were your native language", "Show your skill with a separate certificate for every module"], "tools": [{"id": "dict", "name": "Bilingual dictionary", "desc": "Persian and English search with the pronunciation, definition and roots of every term"}, {"id": "parse", "name": "Word parser", "desc": "Breaks any medical term into prefix, root and suffix"}, {"id": "roots", "name": "Roots & suffixes", "desc": "Each module’s roots, prefixes and suffixes with examples"}, {"id": "abbr", "name": "Abbreviations", "desc": "Chart and prescription abbreviations, with the do-not-use list"}, {"id": "cards", "name": "Leitner cards", "desc": "Spaced review of the terms across 6 boxes"}], "worlds": [{"id": "tm_lexa", "name": "Lexa", "sub": "Introduction to Medical Terminology: Word Building, Prefixes, Roots and Suffixes", "levels": ["الفبای زبان پزشکی", "ریشه‌ها: نقشه بدن", "پسوندها", "پیشوندها", "قواعد و تله‌ها", "در بیمارستان"]}, {"id": "tm_peykar", "name": "Peykar", "sub": "Body Structure", "levels": ["زبان بدن", "سازمان‌یابی و سلول", "بافت‌ها و غشاها", "دستگاه‌ها و اندام‌ها", "جهت، صفحه و وضعیت", "حفره‌ها و نواحی"]}, {"id": "tm_timar", "name": "Timar", "sub": "Disease and Treatment", "levels": ["زبان بیماری", "میکروب‌ها و انواع بیماری", "پاسخ بدن به بیماری", "معاینه و تشخیص", "جراحی و درمان", "دارو و نسخه"]}, {"id": "tm_derma", "name": "Derma", "sub": "Integumentary System: Skin, Hair, Nails and Glands", "levels": ["زبان پوست", "لایه‌های پوست", "ضمائم پوست", "ضایعه‌ها و نشانه‌ها", "بیماری‌های پوست", "تومور، تشخیص و درمان"]}, {"id": "tm_osteo", "name": "Osteo", "sub": "Musculoskeletal System", "levels": ["زبان استخوان و عضله", "استخوان", "اسکلت", "مفاصل و حرکت", "عضلات", "شکستگی، تشخیص و درمان"]}, {"id": "tm_tapesh", "name": "Tapesh", "sub": "Cardiovascular System", "levels": ["زبان قلب", "ساختمان قلب", "ضربان و نوار قلب", "رگ‌ها و گردش خون", "بیماری‌های قلب و رگ", "تشخیص و درمان"]}, {"id": "tm_imena", "name": "Imena", "sub": "Blood, Lymphatic and Immune Systems", "levels": ["زبان پزشکی", "خون و سلول‌ها", "هموستاز و انتقال خون", "دستگاه لنفاوی", "ایمنی", "آزمایش، درمان و ICU"]}, {"id": "tm_nafas", "name": "Nafas", "sub": "Respiratory System", "levels": ["زبان تنفس", "تنفس فوقانی", "تنفس تحتانی", "تهویه و نشانه‌ها", "بیماری‌های تنفسی", "تشخیص و درمان"]}, {"id": "tm_govara", "name": "Govara", "sub": "Digestive System", "levels": ["زبان گوارش", "دهان تا معده", "روده‌ها و اندام‌های کمکی", "بیماری‌های دهان، مری و معده", "بیماری‌های روده، کبد و صفرا", "تشخیص، جراحی و دارو"]}, {"id": "tm_nephra", "name": "Nephra", "sub": "Urinary System: Kidneys and Urinary Tract", "levels": ["زبان کلیه", "کلیه و نفرون", "مثانه و دفع ادرار", "ادرار و نشانه‌ها", "بیماری‌های ادراری", "تشخیص و درمان"]}, {"id": "tm_zaya", "name": "Zaya", "sub": "Reproductive System, Pregnancy and Childbirth", "levels": ["زبان زایش", "دستگاه تناسلی زنانه", "دستگاه تناسلی مردانه", "بارداری و زایمان", "بیماری‌ها و عفونت‌های آمیزشی", "تشخیص، درمان و پیشگیری"]}, {"id": "tm_hormona", "name": "Hormona", "sub": "Endocrine System", "levels": ["زبان هورمون‌ها", "هیپوتالاموس و هیپوفیز", "تیروئید و پاراتیروئید", "غدد فوق‌کلیه", "پانکراس و دیابت", "غدد دیگر، تشخیص و درمان"]}, {"id": "tm_neuro", "name": "Neuro", "sub": "Nervous System and Mental Health", "levels": ["زبان عصب", "مغز و نخاع", "اعصاب محیطی و خودکار", "نشانه‌ها و بیماری‌های عصبی", "سلامت روان", "تشخیص و درمان"]}, {"id": "tm_hessa", "name": "Hessa", "sub": "Special Senses: Eyes and Ears", "levels": ["زبان حواس", "چشم: ساختار و بینایی", "بیماری‌های چشم", "گوش: شنوایی و تعادل", "بیماری‌های گوش", "تشخیص و درمان"]}, {"id": "tm_mahar", "name": "Mahar", "sub": "Cancer Medicine", "levels": ["زبان سرطان", "سلول و رشد تومور", "نام‌گذاری تومورها", "نشانه‌ها و غربالگری", "تشخیص و مرحله‌بندی", "درمان سرطان"]}]}},
+    prereq: 'tm_lexa',
+    modules: MODULES,
+    kit: KIT,
+    css: ".certbar{width: 100%; margin-top: 16px; display: flex; justify-content: space-between; align-items: center; gap: 8px; border: 0; border-radius: 16px; padding: 14px 18px; font-weight: 800; background: linear-gradient(120deg, #6c3fd1, #0fa3a3); color: #fff; box-shadow: 0 4px 0 var(--brand-d); text-align: start;}\n.cert{width: 100%; padding: 10px; background: linear-gradient(135deg, #4f5bd5, #8e44d9, #0fa3a3, #e8892b, #1e88e5, #d94f7b); border-radius: 20px;}\n.cert h2{font-size: 32px; color: #a31b33;}\n[lang=\"fa\"]{font-family: Vazirmatn, Nunito, Inter, system-ui, sans-serif;}\n.en, [dir=\"ltr\"]{unicode-bidi: isolate;}\n.en{font-family: Nunito, Vazirmatn, system-ui, sans-serif;}\n.pron{display: inline-block; color: var(--muted); font-family: \"Segoe UI\", Nunito, system-ui, sans-serif; font-size: .9em; font-weight: 600;}\n.defen{display: block; color: var(--muted); font-family: Nunito, system-ui, sans-serif; font-size: 14.5px; line-height: 1.6; text-align: left; margin: 4px 0;}\n.defq{display: block; margin-top: 10px; padding: 12px 14px; border-radius: 14px; background: var(--bg2); border-inline-start: 4px solid var(--wc, var(--brand)); font-family: Nunito, system-ui, sans-serif; font-size: 17px; font-weight: 700; line-height: 1.6; text-align: left;}\n.q .en b, .opt .en, .chip .en{font-family: Nunito, Vazirmatn, system-ui, sans-serif;}\n.wb{display: inline-flex; flex-wrap: wrap; align-items: center; gap: 4px; margin: 4px 0; font-family: Nunito, system-ui, sans-serif;}\n.wb i{font-style: normal; color: var(--muted); font-weight: 900;}\n.wb__p{padding: 2px 10px; border-radius: 10px; font-weight: 900; font-size: 15px;}\n.wb__p--pre{background: var(--blue-l); color: var(--blue-t);}\n.wb__p--root{background: var(--brand-l); color: var(--brand-t);}\n.wb__p--suf{background: var(--green-l); color: var(--green-t);}\n.wbx{display: flex; flex-wrap: wrap; gap: 6px; margin: 8px 0 2px;}\n.wbx span{background: var(--bg2); border: 2px solid var(--line); border-radius: 12px; padding: 2px 10px; font-size: 14px; font-weight: 600;}\n.wbx b{font-family: Nunito, system-ui, sans-serif; color: var(--brand-t); margin-inline-end: 4px;}\n.art{display: block; width: 100%; height: auto; max-height: 280px;}\n.fig__i{cursor: zoom-in;}\n.fig--n1 .art{max-height: 300px;}\n.zoom__img .art{max-height: 70vh;}\n.zoom__img img{display: block; width: 100%; max-height: 70vh; object-fit: contain; border-radius: 10px;}\n.fig__i--photo{padding: 4px;}\n.fig__i--photo img{border-radius: 10px;}\n.learn__body .fig--n1{max-width: 520px;}\n.zoom__img{padding: 8px;}\n.numin--spell input{font-family: Nunito, system-ui, sans-serif; font-size: 22px; letter-spacing: .3px; text-align: left;}\n.numin--spell input::placeholder{font-family: Nunito, system-ui, sans-serif; text-align: left;}\n.hintbtn--c{align-self: center;}\n.build-ans{min-height: 64px; display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 6px; padding: 12px; border: 2px dashed var(--line2); border-radius: 18px; background: var(--bg2);}\n.build-ph{color: var(--muted); font-weight: 700; direction: rtl;}\n.build-plus{font-style: normal; font-weight: 900; color: var(--muted);}\n.build-bank{padding-top: 6px;}\n.chip--part{font-family: Nunito, system-ui, sans-serif; font-weight: 800; font-size: 17px; min-width: 64px; text-align: center;}\n.chip--part.chip--on{width: auto; border-color: var(--wc); color: var(--wc); background: var(--bg);}\n.chip--part.is-right{border-color: var(--green); color: var(--green-t); background: var(--green-l);}\n.chip--part.is-wrong{border-color: var(--red); color: var(--red-t); background: var(--red-l);}\n.fcard{perspective: 1200px; cursor: pointer; outline: none;}\n.fcard__in{position: relative; min-height: 300px; transition: transform .5s cubic-bezier(.3, 1.2, .5, 1); transform-style: preserve-3d;}\n.fcard.is-flip .fcard__in{transform: rotateY(180deg);}\n.fcard__f, .fcard__b{position: absolute; inset: 0; backface-visibility: hidden; -webkit-backface-visibility: hidden; border: 2px solid var(--wc); border-bottom-width: 6px; border-radius: 24px; background: color-mix(in srgb, var(--wc) 7%, var(--bg)); padding: 22px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 10px; text-align: center; overflow-y: auto;}\n.fcard__b{transform: rotateY(180deg); justify-content: flex-start;}\n.fcard__w{position: absolute; top: 14px; inset-inline-start: 14px; background: var(--wc); color: #fff; border-radius: 9px; padding: 2px 8px; font-weight: 900; font-size: 13px; font-family: Nunito, sans-serif;}\n.fcard__box{position: absolute; top: 14px; inset-inline-end: 14px; color: var(--gold-d); letter-spacing: 2px; font-size: 12px;}\n.fcard__t{font-family: Nunito, system-ui, sans-serif; font-size: clamp(26px, 7vw, 38px); font-weight: 900; color: color-mix(in srgb, var(--wc) 75%, var(--text)); line-height: 1.2; overflow-wrap: anywhere;}\n.fcard__t--sm{font-size: 22px;}\n.fcard__h{color: var(--muted); font-weight: 700;}\n.tback{display: flex; flex-direction: column; align-items: center; gap: 6px; width: 100%;}\n.tback__fa{font-size: 20px;}\n.tback .defen{text-align: center;}\n.tback__c{color: var(--muted); font-weight: 700;}\n.tchips{display: flex; flex-wrap: wrap; gap: 6px; justify-content: center;}\n.tchip{border: 2px solid var(--line); background: var(--bg); border-radius: 99px; padding: 1px 10px; font-weight: 800; font-size: 13px; font-family: Nunito, system-ui, sans-serif;}\n.tchips--btn .tchip{cursor: pointer;}\n.tchips--btn .tchip:hover{border-color: var(--tc); color: var(--tc);}\n.tpane{padding: 16px; display: flex; flex-direction: column; gap: 12px;}\n.tsearch{display: flex; align-items: center; gap: 8px; border: 2px solid var(--line); border-bottom-width: 4px; border-radius: 16px; padding: 0 14px; background: var(--bg);}\n.tsearch:focus-within{border-color: var(--tc);}\n.tsearch input{flex: 1; min-width: 0; border: 0; outline: none; background: none; padding: 12px 0; font-size: 17px; font-weight: 700;}\n.tsearch--big input{font-size: 22px; font-family: Nunito, system-ui, sans-serif;}\n.seg--w{gap: 6px;}\n.seg--w .seg__b{display: inline-flex; align-items: center; gap: 4px; padding: 4px 8px;}\n.wsym--xs{min-width: 30px; height: 24px; font-size: 12px; border-radius: 7px; box-shadow: none; padding: 0 5px;}\n.tcount{color: var(--muted); font-weight: 700; font-size: 14px;}\n.dict{list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 6px;}\n.dict__i{border: 2px solid var(--line); border-radius: 16px; overflow: hidden;}\n.dict__i.is-open{border-color: var(--tc);}\n.dict__h{width: 100%; display: flex; align-items: center; gap: 10px; background: var(--bg); border: 0; padding: 10px 12px; text-align: start;}\n.dict__h:hover{background: var(--bg2);}\n.dict__t{flex: 1; min-width: 0; display: flex; flex-direction: column; line-height: 1.45;}\n.dict__t b{font-family: Nunito, system-ui, sans-serif; font-size: 17px; text-align: right;}\n.dict__t small{color: var(--muted); font-weight: 600;}\n.dict__box{color: var(--gold-d); font-size: 10px; letter-spacing: 1px;}\n.dict__b{padding: 4px 14px 14px; display: flex; flex-direction: column; gap: 6px; border-top: 2px dashed var(--line);}\n.dict__b .tback{align-items: flex-start;}\n.dict__b .tback .defen{text-align: left;}\n.dict__b .tchips{justify-content: flex-start;}\n.dict__act{display: flex; flex-wrap: wrap; gap: 6px;}\n.parse{border: 2px solid var(--line); border-radius: 18px; padding: 14px; display: flex; flex-direction: column; gap: 10px;}\n.parse__w{display: flex; flex-wrap: wrap; align-items: stretch; justify-content: center; gap: 6px;}\n.parse__w > i{align-self: center; font-style: normal; font-weight: 900; color: var(--muted);}\n.pp{display: flex; flex-direction: column; align-items: center; gap: 2px; padding: 6px 12px; border-radius: 14px; border: 2px solid transparent; min-width: 64px;}\n.pp b{font-family: Nunito, system-ui, sans-serif; font-size: 20px; font-weight: 900;}\n.pp small{font-weight: 700; font-size: 12.5px; max-width: 140px; text-align: center;}\n.pp--prefix{background: var(--blue-l); color: var(--blue-t);}\n.pp--root{background: var(--brand-l); color: var(--brand-t);}\n.pp--suffix{background: var(--green-l); color: var(--green-t);}\n.pp--gap{border: 2px dashed var(--line2); color: var(--muted);}\n.parse__m{text-align: center; font-weight: 600;}\n.parse__t{background: var(--bg2); border-radius: 14px; padding: 10px 12px;}\n.parse__t b{font-family: Nunito, system-ui, sans-serif;}\n.tgh{font-size: 17px; margin-top: 6px;}\n.tgh small{color: var(--muted); font-weight: 700; font-size: 13px;}\n.rgrid{display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 8px;}\n.rcard2{display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: start; border: 2px solid var(--line); border-bottom-width: 4px; border-radius: 14px; background: var(--bg); padding: 8px 12px;}\n.rcard2 b{font-family: Nunito, system-ui, sans-serif; font-size: 16px; direction: ltr;}\n.rcard2 span{font-weight: 700; font-size: 14px;}\n.rcard2 small{color: var(--muted); font-size: 12px; font-family: Nunito, system-ui, sans-serif; direction: ltr;}\n.rcard2--prefix b{color: var(--blue-t);}\n.rcard2--root b{color: var(--brand-t);}\n.rcard2--suffix b{color: var(--green-t);}\n.rcard2:hover{border-color: var(--tc);}\ntable.abbr td:first-child{font-family: Nunito, system-ui, sans-serif; color: var(--brand-t); white-space: nowrap;}\n.abbr__f{font-family: Nunito, system-ui, sans-serif; font-weight: 700;}\ntable.ref .ref__v{font-family: Nunito, system-ui, sans-serif; font-weight: 800; text-align: left;}\ntable.ref .ref__v span{white-space: nowrap;}\ntable.mini{--wc: var(--tc, var(--brand));}\n@media (max-width: 480px){table.ref td:last-child{font-size: 13px;}}\n@media (max-width: 480px){.rgrid{grid-template-columns: 1fr 1fr;}}\n.fig__i{position: relative; transition: border-color .15s, transform .15s;}\n.fig__i:hover{border-color: var(--line2);}\n.fig__i::after{content: ''; position: absolute; inset-inline-start: 6px; top: 6px; width: 24px; height: 24px; border-radius: 8px; background: rgba(255,255,255,.88) url(\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%235b6b73' stroke-width='2.4' stroke-linecap='round'%3E%3Ccircle cx='10.5' cy='10.5' r='6'/%3E%3Cpath d='M15 15l5 5M10.5 8v5M8 10.5h5'/%3E%3C/svg%3E\") center / 16px no-repeat; box-shadow: 0 1px 4px rgba(0,0,0,.12); opacity: 0; transition: opacity .15s; pointer-events: none;}\n.fig__i:hover::after, .fig__i:focus-visible::after{opacity: 1;}\n@media (hover: none){.fig__i::after{opacity: .9;}}\n.fig--n1 .fig__i .art{max-height: 340px;}\n.learn__body .fig--n1:has(.art){max-width: 560px;}\n@media (max-width: 560px){.fig--wide{--n: 1;}}\n@media (max-width: 560px){.fig--n2.fig--wide .fig__i{padding: 8px;}}\n.memo, .pearl{position: relative; margin: 12px 0 4px; padding: 10px 14px 10px; border-radius: 16px; font-size: 15px; line-height: 1.85;}\n.memo{background: color-mix(in srgb, var(--purple) 11%, var(--bg)); border: 2px dashed color-mix(in srgb, var(--purple) 45%, var(--line));}\n.pearl{background: color-mix(in srgb, var(--coral) 10%, var(--bg)); border: 2px solid color-mix(in srgb, var(--coral) 40%, var(--line));}\n.memo__h, .pearl__h{display: block; font-size: 13px; font-weight: 900; letter-spacing: .2px; margin-bottom: 2px;}\n.memo__h{color: color-mix(in srgb, var(--purple) 80%, var(--text));}\n.pearl__h{color: color-mix(in srgb, var(--coral) 80%, var(--text));}\n.vs{display: grid; grid-template-columns: 1fr auto 1fr; align-items: stretch; gap: 8px; margin: 12px 0;}\n.vs__c{display: flex; flex-direction: column; gap: 4px; padding: 10px 12px; border-radius: 16px; background: var(--blue-l); border: 2px solid color-mix(in srgb, var(--blue) 35%, var(--line)); min-width: 0;}\n.vs__c--b{background: var(--brand-l); border-color: color-mix(in srgb, var(--brand) 35%, var(--line));}\n.vs__c b{font-family: Nunito, Vazirmatn, system-ui, sans-serif; font-size: 16px; font-weight: 900; direction: ltr; text-align: center; color: var(--blue-t);}\n.vs__c--b b{color: var(--brand-t);}\n.vs__c span{font-size: 14px; line-height: 1.7; text-align: center;}\n.vs__x{align-self: center; font-style: normal; font-weight: 900; font-size: 12px; color: #fff; background: var(--text); border-radius: 99px; padding: 4px 7px; font-family: Nunito, system-ui, sans-serif;}\n.kchips{display: flex; flex-wrap: wrap; gap: 6px; margin: 10px 0 2px;}\n.kchip{flex: none; display: inline-flex; align-items: center; gap: 5px; border: 2px solid var(--line); background: var(--bg); border-radius: 99px; padding: 4px 12px; font-weight: 700; font-size: 13.5px; white-space: nowrap;}\n.kchip i{font-style: normal;}\n.kchip small{background: var(--bg2); border-radius: 99px; padding: 0 7px; font-weight: 800; color: var(--muted);}\n.kchip.is-on{border-color: var(--tc, var(--brand)); background: color-mix(in srgb, var(--tc, var(--brand)) 12%, var(--bg)); color: var(--text);}\n.kchip.is-on small{background: var(--bg);}\n.kchip--tag{padding: 1px 10px; font-size: 12.5px; margin-bottom: 4px; pointer-events: none;}\n@media (max-width: 470px){.wjump__p{display: none;}}\nbdi.nw{white-space: nowrap;}\n.en-text{direction: ltr; unicode-bidi: isolate; text-align: left; display: inline-block; word-wrap: break-word; overflow-wrap: anywhere; max-width: 100%;}\n.rcard2{min-width: 0; overflow: hidden;}\n.rcard2 .en-text{align-self: stretch;}\n.dict__t .en-text{align-self: flex-start; text-align: right;}\ntable.mini td .en-text, table.mini td[dir=\"ltr\"]{overflow-wrap: break-word; word-break: break-word;}\n.wsym, .kchip i, .ttab__s, .tip__el, .node__i, .land__why span, .land__feat span, .land__steps span, .dict__h > .wsym, .rcard2 i, .opt kbd, .tback__w{flex-shrink: 0;}\n.vs__c bdi.nw, .wbx bdi.nw, .match bdi.nw, .chip bdi.nw, .opt bdi.nw, .rcard2 bdi.nw, .dict__t bdi.nw{white-space: normal; overflow-wrap: anywhere;}\ntable.mini bdi.nw{white-space: normal; overflow-wrap: break-word;}\n.vs__c, .vs__c b, .match__col, .chip, .opt span{min-width: 0; overflow-wrap: anywhere;}\n.sym, bdi.sym, table.abbr td:first-child, .wsym, .ttab__s, .tip__el{font-family: Arial, \"Helvetica Neue\", system-ui, sans-serif; letter-spacing: .02em;}\n.sym{font-weight: 700;}\n.snav__a i, .bnav__a i, .kchip i, .ob__opt i, .land__why article > span, .land__feat > div > span, .wcard .wsym, .dict__h .wsym, .tip__el, .lvlb__c, .memo__h, .pearl__h{flex-shrink: 0;}\n.memo, .pearl, .vs__c, .rcard2, .dict__t, .opt, .chip, .match button{overflow-wrap: anywhere; word-wrap: break-word; min-width: 0;}\n.en-block{direction: ltr; unicode-bidi: isolate; overflow-wrap: anywhere; word-wrap: break-word;}\n.opt .en-block, .chip .en-block, .mbtn .en-block{display: block; text-align: left; min-width: 0;}\n.opt > span{flex: 1 1 auto; min-width: 0;}\n.opt kbd{flex-shrink: 0;}\ntable.mini, table.mini *{overflow-wrap: break-word;}\n.pl__in{display: flex; flex-direction: column; gap: 6px; margin: 10px 0 8px; font-weight: 800; color: var(--muted);}\n.pl__in input{width: 100%; min-width: 0; box-sizing: border-box; font: inherit; font-size: 18px; font-weight: 900; color: var(--text); background: var(--bg); border: 2px solid var(--line); border-radius: 14px; padding: 8px 12px; text-align: left; direction: ltr; font-family: Nunito, Inter, system-ui, sans-serif;}\n.pl__in input:focus{outline: none; border-color: var(--brand);}\n.pl__ex{display: flex; flex-wrap: wrap; gap: 6px; margin: 0 0 10px;}\n.pl__chip{flex: 0 0 auto; font: inherit; font-size: 13px; font-weight: 800; padding: 5px 10px; border-radius: 999px; border: 2px solid var(--line); background: var(--bg); color: var(--text); cursor: pointer; font-family: Nunito, Inter, system-ui, sans-serif;}\n.pl__chip:hover{border-color: var(--brand);}\n.pl__res{display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px; padding: 12px; border-radius: 16px; background: var(--brand-l); margin: 0 0 6px;}\n.pl__s, .pl__p{font-family: Nunito, Inter, system-ui, sans-serif; font-size: 20px; overflow-wrap: anywhere; min-width: 0;}\n.pl__s{color: var(--muted); font-weight: 800;}\n.pl__p{color: var(--brand-t); font-weight: 900;}\n.pl__ar{flex-shrink: 0; color: var(--muted); font-weight: 900;}\n.pl__note{color: var(--muted); font-weight: 700; margin: 0 0 10px;}\n.pl__h{margin: 18px 0 4px; font-size: 16px;}\n.rx__cs{display: flex; flex-wrap: wrap; gap: 6px; margin: 4px 0 8px; direction: ltr;}\n.rx__c{display: flex; flex-direction: column; align-items: center; gap: 1px; padding: 5px 9px; border-radius: 12px; background: color-mix(in srgb, #17a398 12%, var(--bg)); border: 2px solid color-mix(in srgb, #17a398 40%, var(--line)); min-width: 0; max-width: 100%;}\n.rx__c b{font-family: Nunito, Inter, system-ui, sans-serif; font-size: 15px; overflow-wrap: anywhere;}\n.rx__c small{direction: rtl; color: var(--muted); font-weight: 700; font-size: 12px; text-align: center;}\n.rx__c.is-name{background: var(--bg); border-color: var(--line);}\n.rx__c.is-warn{background: color-mix(in srgb, #d9443a 12%, var(--bg)); border-color: #d9443a;}\n.rx__c.is-warn b{color: #d9443a;}\n.rx__sent{font-weight: 800; padding: 10px 12px; border-radius: 14px; background: var(--brand-l); margin: 0 0 8px; overflow-wrap: anywhere;}\n.rx__warn{margin: 0 0 10px; padding: 8px 28px 8px 12px; border-radius: 14px; background: color-mix(in srgb, #d9443a 10%, var(--bg)); color: #b8332b; font-weight: 800;}",
+    /* دوره مجموعه‌ای است: خودش موتور را اجرا نمی‌کند؛ با ورود، صفحه انتخاب حیطه نشان داده می‌شود */
+    config: function () { return { mascot: MASCOTS.lexa }; }, content: function () { }, tools: function () { }
+  };
+  MODULES.forEach(m => {
+    SUB[m.id] = Object.assign({ parent: 'termino', bitFlag: AC.termino.bitFlag, bit: AC.termino.bitFlag, icon: AC.termino.icon, langs: ['fa', 'en'],
+      courseFa: m.subjectFa, courseEn: m.subjectEn, descFa: m.kickerFa, descEn: m.subjectEn, toolsFa: AC.termino.toolsFa, toolsEn: AC.termino.toolsEn, mascotFn: MASCOTS[m.mod],
+      assets: ['courses/termino/' + m.mod + '-img.js', 'courses/termino/' + m.mod + '.js'], skin: 'negar' }, m, { catalog: { worlds: m.worlds, tools: [], outcomes: [] } });
+  });
+})(window.ACADEMY_COURSES, window.ACADEMY_SUBCOURSES);

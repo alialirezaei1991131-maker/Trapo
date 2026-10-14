@@ -1978,6 +1978,23 @@ body.mode-course::before { animation: none; }
   .acprint pre { white-space: pre-wrap; font: 600 11pt/1.9 Vazirmatn, Tahoma, sans-serif; border: 1px solid #bbb; border-radius: 3mm; padding: 4mm 5mm; margin: 0 0 4mm; page-break-inside: avoid; }
 }
 
+/* ---------- دوره مجموعه‌ای (ترمینو): صفحه انتخاب حیطه، پیش‌نیاز و قفل ---------- */
+.suite__gate { display: flex; align-items: center; gap: 18px; margin: 4px 0 22px; padding: 18px 20px; border-radius: 22px;
+  background: linear-gradient(120deg, color-mix(in srgb, var(--cc) 14%, var(--bg)), var(--bg)); border: 2px solid color-mix(in srgb, var(--cc) 35%, transparent);
+  box-shadow: 0 6px 24px color-mix(in srgb, var(--cc) 16%, transparent); }
+.suite__gate > div:nth-child(2) { flex: 1; min-width: 0; }
+.suite__gate b { font-size: 18px; }
+.suite__gate p { margin: 4px 0 10px; color: var(--muted); line-height: 1.8; }
+.suite__gate-m { flex: none; }
+.suite__pre { display: grid; gap: 6px; }
+.suite__pre small { color: var(--muted); font-weight: 700; }
+.modal .suite__pre { margin: 10px 0 4px; --cc: var(--brand); }
+@media (max-width: 640px) { .suite__gate { flex-wrap: wrap; } .suite__gate .btn { width: 100%; } }
+.dc--prereq .dc__m, .dc--prereq .dc__orbit { filter: grayscale(.65); opacity: .75; }
+.dc--prereq .btn--cc { background: var(--bg3); color: var(--muted); box-shadow: 0 4px 0 var(--line); }
+.actb--lock { background: var(--bg3); color: var(--muted); }
+.dc__sub bdi, .dc__tag bdi { unicode-bidi: isolate; }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

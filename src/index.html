@@ -108,12 +108,14 @@ html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
 <script src="courses/data-yona.js"></script>
 <script src="courses/data-homa.js"></script>
 <script src="courses/data-negar.js"></script>
+<!-- ترمینو (ترمینولوژی پزشکی): یک دوره با ۱۵ حیطه؛ محتوای هر حیطه (courses/termino/*.js) فقط هنگام ورود به همان حیطه -->
+<script src="courses/data-termino.js"></script>
 <script>
 /* فایل‌های جانبی دوره (مثل ۲ مگابایت تصویر بالینی نگار: assets در فایل دوره) فقط برای همان دوره همراه صفحه
    می‌آیند؛ صفحه اول و دوره‌های دیگر سبک‌تر باز می‌شوند. دوره‌هایی که بعد از این خط اضافه شوند، فایل جانبی‌شان
    را موتور خودش هنگام ورود بارگذاری می‌کند. */
 (function () {
-  var q = /[?&](?:course|calc)=([\w-]+)/.exec(location.search), c = q && window.ACADEMY_COURSES[q[1]];
+  var q = /[?&](?:course|calc)=([\w-]+)/.exec(location.search), c = q && (window.ACADEMY_COURSES[q[1]] || (window.ACADEMY_SUBCOURSES || {})[q[1]]);
   if (c && c.assets) c.assets.forEach(function (src) { document.write('<script src="' + src + '"><\/script>'); });
 })();
 </script>
