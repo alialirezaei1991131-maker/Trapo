@@ -1,0 +1,249 @@
+8515acf2	Neurological Signs
+345a1215	Stroke, Injury and Seizure
+790c7755	Diseases and Tumours
+9bc6c7e9	Paralysis and Weakness
+ef42fd85	⟦0⟧⟦1⟧ means loss of muscle function. The prefix tells where the paralysis is:<br>• ⟦2⟧: one limb<br>• ⟦3⟧: one half of the body (usually after a stroke)<br>• ⟦4⟧: both legs and the lower body (thoracic or lumbar spinal cord injury)<br>• ⟦5⟧: all four limbs (cervical spinal cord injury); also called ⟦6⟧
+449f47c2	Floppy or stiff?
+f0b6ef69	⟦0⟧: a floppy muscle without tone<br>⟦1⟧: a stiff muscle with exaggerated reflexes⟦2⟧⟦3⟧
+7938ba93	Case Study in Cohen’s book: 12-year-old William fractured C6 diving into a shallow pool; his legs were flaccid and there was a risk of quadriplegia.
+904cbc98	quadri = four, as in a quad bike; para = beside; the two legs side by side.
+1dfbd4ea	What paralysis does a cervical spinal cord injury (such as C6) mostly cause?
+ab739743	The neck is above the nerves of the arms and legs.
+e5b1c5af	Spinal cord injury below the neck.
+f829c971	flaccid means a floppy muscle without tone.
+64d95931	Unlike spastic.
+e8791846	Types of paralysis.
+72c25330	Build a word meaning “paralysis of one limb”
+38427485	Another name for quadriplegia is ___.
+5c3b329e	tetra- = four.
+df638347	Spell the term for loss of muscle function
+88d0a147	Speech, Sensation and Coordination
+ae25ec8f	Speech and movement
+d50cb255	difficult articulation from weak speech muscles
+244aaebe	lack of movement coordination (tax/o = order)
+d33a62c7	inability to perform purposeful movement
+a3d7a180	inability to recognise objects (gnos/o = knowing)
+e5f2f11e	Sensation and balance
+03acc311	tingling and pins and needles
+1a5e6d67	excessive sensitivity
+577e39a2	spinning dizziness
+99509f57	fainting, brief loss of consciousness
+f717bdd4	Chart Note in Gylys’s book: three days ago the patient had vertigo, and with the stroke developed aphasia and diplopia.
+a8bf0072	a language problem in the brain
+1dacf9cb	a problem of the articulation muscles
+7f11bece	lack of coordination
+e5568913	tingling
+83c15dcb	a- + tax/o (order).
+5bcc5a88	Which word means “double vision”?
+468a7db7	paresthesia means a sensation of tingling and pins and needles.
+54458bc1	para- (abnormal) + -esthesia.
+a73eb406	Build a word meaning “abnormal sensation (tingling)”
+de1004a9	inability to recognise
+fc86a175	difficult articulation
+16b57379	Spinning dizziness is called ___.
+4ec9b408	Spell the term for seeing two images of one object
+41b910b8	Consciousness, Memory and Pain
+7644574d	unusual drowsiness and sluggishness
+8fbe878c	unconscious; does not respond
+39b47f4f	deep unconsciousness without waking
+8be9f97e	progressive decline of memory and thinking
+45b77462	Pain and headache
+f60d1827	⟦0⟧ → ⟦1⟧: headache (⟦2⟧)<br>⟦3⟧: severe, usually one-sided headache with nausea; sometimes with an ⟦4⟧ (a warning sign such as flashes of light)<br>⟦5⟧ → ⟦6⟧: absence of pain⟦7⟧
+702da71b	The book’s APPLY scenario: 9-year-old Josie fell from a 14-foot slide and was “asleep” for a few moments; a brief loss of consciousness means a doctor must see her (possible concussion).
+53349f3a	What is deep unconsciousness from which the patient does not wake called?
+8e3c58e7	Coma.
+7c2f6074	de- + ment/o (mind).
+6c0ecf39	Josie was unconscious for a few moments after the fall, so she must see a doctor.
+c7594015	Put the levels of consciousness in order from highest to lowest
+75c00893	Alert to coma.
+396a9460	sluggishness
+524c5932	Consciousness and pain.
+0d987a4b	Jane in Case Study 7-2 was very ___; that is, drowsy and sluggish.
+c7850efe	Spell the term for a severe one-sided headache with nausea
+42e55a94	A one-sided headache.
+cf7f8a99	Stroke (CVA)
+43e93697	Two types of stroke
+72d02fb6	⟦0⟧A ⟦1⟧ is brain damage caused by an interrupted blood supply:<br>• ⟦2⟧: a clot blocks the vessel; ⟦3⟧ (a clot formed in place) or ⟦4⟧ (a travelling clot)<br>• ⟦5⟧: the vessel ruptures and bleeds<br>Tissue that gets no blood develops ⟦6⟧ and then an ⟦7⟧ (tissue death).
+8cd6f5fe	Types of stroke
+d5d58415	Warning and treatment
+86471010	⟦0⟧: stroke symptoms that disappear in less than 24 hours; a serious warning.⟦1⟧⟦2⟧
+14bca662	Brain haemorrhage on CT
+8a3fac2f	CT: haemorrhagic stroke
+2b69ee6d	Case Study 7-1 in Cohen’s book: Allen, 62, reached the ED within 15 minutes with right hemiplegia and aphasia; the CT showed no bleeding, so it was an ischemic stroke and he received fibrinolytic therapy.
+144b5f9b	What most often causes an ischaemic stroke?
+a8d28247	thrombosis (a clot)
+caf7b5a5	TIA means…
+a27e03dc	transient ischaemic attack; symptoms that resolve within 24 hours
+c3579ccd	haemorrhagic stroke
+102014a4	Before giving a clot-dissolving drug, bleeding must be ruled out with a CT scan.
+43146618	A clot-dissolving drug makes bleeding worse.
+7471fea4	Put Allen’s treatment steps in order
+b8636ab8	lack of blood supply
+1ed52130	dead tissue
+7b59747b	blockage by a travelling clot
+8d90deab	Stroke.
+b51a166f	A ___ drug dissolves the clot.
+f45ea29a	Spell the term for a local lack of blood supply
+959575da	Aneurysm and Haematoma
+d712de8d	⟦0⟧An ⟦1⟧ is a local bulge in the wall of an artery; if it ruptures, it causes a subarachnoid haemorrhage and a haemorrhagic stroke.⟦2⟧
+0b6c0928	Aneurysm in the circle of Willis
+6b83a1c1	Aneurysm on a brain artery
+e70f4305	⟦0⟧A ⟦1⟧ is a collection of blood:<br>• ⟦2⟧: between the skull and the dura; usually from a torn artery<br>• ⟦3⟧: beneath the dura; usually from a torn vein<br>• ⟦4⟧: within the brain tissue⟦5⟧
+3346a18d	Brain haematomas
+29fd0e17	Case Study 7-1: “collection of blood below the dura mater” means a subdural hematoma.
+ec4299d4	What is a bulge in the wall of an artery called?
+11d2ade4	A local dilation.
+d3e40628	What is a collection of blood beneath the dura called?
+ccbc92a6	sub- = beneath.
+b2f9b734	An epidural hematoma lies between the skull and the dura.
+ea107642	epi- = upon.
+1cea8672	Match each haematoma to its location
+f9fea788	bleeding beneath the arachnoid
+04469e27	Where the blood is.
+f941f1b3	The correct spelling is ___.
+d297f519	The book’s Exercise: a localized dilation of an artery.
+ae0f4ea9	Spell the term for a collection of blood in tissue
+5ffaac5c	Head Injury and Seizure
+ee5e0bd9	Traumatic injuries
+175122c4	temporary brain dysfunction after a blow; often with brief unconsciousness
+c49d007a	bruising of brain tissue
+b9c5e119	brain injury from an external force
+2b06b60a	spinal cord injury; paralysis below the level of injury
+1b602490	Epilepsy and seizures
+0450c37a	⟦0⟧A ⟦1⟧ is a sudden storm of electrical activity in the brain. ⟦2⟧ means recurrent seizures.<br>• ⟦3⟧: the body stiffens, then jerks; grand mal<br>• ⟦4⟧: staring for a few seconds; petit mal⟦5⟧
+fd9f0d5e	Seizures and epilepsy
+b87e3f6f	The book’s APPLY scenario: during Mrs April Johnson’s seizure, the time of onset, duration, body movements and consciousness must be watched closely and recorded, because they identify the type of seizure.
+49cc5375	What is a disease with recurrent seizures called?
+16ec0f9e	What is a temporary brain dysfunction after a blow to the head called?
+4b22faa6	Concussion.
+16f0f292	In an absence seizure the patient stares for a few seconds.
+704ff6c9	Petit mal.
+aef9732a	Put the stages of a tonic-clonic seizure in order
+bba2bdc1	From warning sign to drowsiness.
+be8bf154	mild brain injury
+1a8d7fde	Injuries.
+77cdd356	The book’s Exercise: ei.
+7e5c3d3d	Congenital Diseases
+4d4d76cb	Failure of the neural tube to close
+19eea4de	⟦0⟧⟦1⟧: the spine does not close completely around the spinal cord.<br>• ⟦2⟧: hidden, with no protrusion<br>• ⟦3⟧: protrusion of the membranes<br>• ⟦4⟧: protrusion of the spinal cord and membranes; the most severe<br>⟦5⟧: absence of the brain at birth
+badcdf83	Hydrocephalus and cerebral palsy
+563fc27c	⟦0⟧⟦1⟧ → ⟦2⟧: CSF builds up in the ventricles and the baby’s head enlarges.⟦3⟧⟦4⟧: a disorder of movement and posture from brain damage before, during or shortly after birth.
+33b3807c	greatly enlarged ventricles
+3038c4d0	Brain section in hydrocephalus
+16cc6016	What is the protrusion of the spinal cord and membranes through a gap in the spine called?
+1d59392b	CSF building up in the ventricles
+d701e3e9	a brain tumour
+9c2fb8aa	brain haemorrhage
+bbeab118	hydr/o (water) + cephal/o (head).
+d85bfb8f	Spina bifida occulta has no protrusion.
+8e57163a	occulta = hidden.
+b73033d2	Build a word meaning “hernia of the brain membranes”
+d630663c	absence of the brain
+9ce731ec	water on the brain
+dbd7a9a1	split spine
+8e01b781	Congenital.
+055f8547	The abbreviation ___ means cerebral palsy.
+92afb2c7	Spell the term for CSF building up in the brain’s ventricles
+4d72914c	Five important diseases
+f3b1f99a	Main sign
+616023ca	progressive memory loss; the most common cause of dementia
+f631ea0d	tremor, rigidity, slowness; dopamine deficiency
+5c0dc6a0	myelin destruction; weakness, numbness, blurred vision
+80cb2e2b	motor neuron degeneration; weakness and atrophy
+05894ba8	hereditary; dance-like movements and dementia
+0667f859	Scenarios
+5bbfd489	Normal brain and brain in Alzheimer’s
+e782b8c6	Brain atrophy in Alzheimer’s
+b7c7853c	The book’s APPLY scenario: Jose Gutierrez has trouble buttoning his clothes and remembering things, and he limps; his blood pressure is normal. An EEG, blood tests and reflex tests confirmed the diagnosis of Parkinson disease.
+52081f18	Mrs Amy Shine, 49, tested positive for Huntington chorea; it is a hereditary, progressive disease, and treatment only controls the symptoms.
+bce08f9e	Dopamine deficiency causes which disease?
+02f7b767	Tremor and slow movement.
+8ab0c22e	What is destroyed in MS?
+1a0c7bda	heart muscle
+f0931dec	Alzheimer’s is the most common cause of dementia.
+ed1cb75a	Put Jose Gutierrez’s findings in the order they were discovered
+16909921	The book’s scenario.
+45e3cb1a	Match each disease to its sign
+85e9da9c	tremor and slowness
+bb7f1198	Degenerative diseases.
+ff0598d0	Muscle weakness with early fatigue at the nerve–muscle junction is ___.
+aa2897a2	Spell the term for progressive loss of memory and thinking
+e88add2d	Infection, Nerves and Tumours
+cbd21a95	Infections and nerve diseases
+ab72c74e	inflammation of the meninges; fever, headache, stiff neck
+4a3ce03b	inflammation of the brain, often viral
+16702fe2	inflammation of the grey matter of the spinal cord (poli/o = grey)
+ce71b405	sudden paralysis of the facial nerve
+dc03da74	immune attack on the peripheral nerves; ascending weakness
+ccccbace	The book’s APPLY scenario: the doctor tells Jaime Shew’s family that he has viral meningitis and his symptoms will improve in a few days; viral meningitis is usually treated with rest, fluids and painkillers.
+c29f41ff	Brain tumours
+48ace254	⟦0⟧• ⟦1⟧: a tumour of the supporting cells<br>• ⟦2⟧: a tumour of the star-shaped astrocytes<br>• ⟦3⟧: the most malignant glioma<br>• ⟦4⟧: a usually benign tumour of the meninges⟦5⟧
+ded3e561	A cerebellar tumour that has pushed the brainstem forward
+0a9bd705	MRI: brain tumour
+1e4e5ff3	In the closed skull, even a benign tumour is dangerous because of pressure (ICP); that is why the size of a tumour matters.
+b0bfb83e	Which is inflammation of the grey matter of the spinal cord?
+029e65c5	What is a tumour of the star-shaped brain cells called?
+63b80a04	astro = star.
+b51a39d1	A meningioma is usually benign and slow-growing.
+3a417d4f	A tumour of the meninges.
+764ecd80	Build a word meaning “tumour of glia”
+4d8281ba	inflammation of the meninges
+619840c5	facial nerve palsy
+7590ba69	Infection and nerves.
+0217ac81	Shooting facial pain along the fifth nerve is ___.
+07486bc7	Spell the term for inflammation of the meninges
+32ce288f	Anxiety, phobias, obsessions, depression and bipolar disorder, schizophrenia, autism and ADHD, eating disorders, psychotherapy and medicines
+9df182c1	Basics and Psychosis
+2ddf85e5	Anxiety and Mood
+07f8ad33	Other Disorders and Treatment
+8d2ee472	The big picture
+4b59a2b7	⟦0⟧⟦1⟧ means emotional and psychological well-being. Mental disorders are grouped into several families: anxiety, mood, psychotic, developmental, and eating and somatic symptom disorders. The official reference for the classification is the ⟦2⟧.
+04f569fa	Two older terms
+d2106473	⟦0⟧⟦1⟧ → ⟦2⟧<br>⟦3⟧ → ⟦4⟧: of mental origin⟦5⟧
+483d8311	anxiety without losing touch with reality
+30de79e1	losing touch with reality
+3a4fed15	psychosis = the mind “detaches” from reality; neurosis = the mind is worried but stays in reality.
+0c189ce4	What is the official reference for classifying mental disorders?
+b3657f5f	a state of losing touch with reality
+0232d317	mild anxiety
+1cbf441e	an eating disorder
+5eacf04b	psychogenic means of mental origin.
+d80fd090	Build a word meaning “of mental origin”
+d38316b3	Match each disorder to its family
+f3c037d7	The adjective ___ means “relating to psychiatry or mental disorder”.
+3160d142	Spell the term for losing touch with reality
+d4d29ec7	Delusion, Hallucination and Paranoia
+2900f0b6	Three signs of psychosis
+3e70551e	a false, fixed belief
+db3e9bd2	the belief that others are out to harm them
+85143254	seeing or hearing something that is not there
+b60016bf	hearing voices
+66779054	suspicion and a sense of threat
+a5c0c8df	Watch out
+fcfc7bed	an error of belief (thought)
+ebd86b41	an error of the senses (seeing, hearing)
+2fb1152e	Delusion = Do believe (belief); Hallucination = Hear or see (senses).
+f16e68d1	Case Study 7-2: Jane, 21, had “chronic paranoid schizophrenia”; paranoid means with a sense of threat and persecution.
+9ba18f18	What is hearing a voice that is not there called?
+91c7078a	An error of the senses.
+2baa846c	seeing something that is not there
+41479f07	An error of thought.
+b1cb43e1	paranoia means a groundless feeling of being threatened and persecuted by others.
+4b3bf214	Put the path from sign to diagnosis in order
+5022870a	The assessment process.
+08a4fd60	false belief
+155c1087	sensory illusion
+8b595b7e	suspicion
+c2f153eb	Psychosis.
+d945953a	The adjective “with a sense of threat” is ___.
+18ff7370	Spell the term for perceiving something that is not there
+cc3ca737	Two l’s, one c.
+35f27efa	Confusion and Disorientation
+545774d3	Delirium or dementia?
+0ce99f48	⟦0⟧⟦1⟧ is a sudden disturbance with confusion and restlessness. ⟦2⟧ means the patient does not know the time, place or themselves.
+64d55d37	sudden, temporary, from illness or medicine
+c7dc9d8a	gradual, progressive, such as Alzheimer’s
+f5f6a503	An older woman
+a4e43190	Case Study in Fremgen’s book: Mrs Anna Moore, 83, came to the ER with aphasia, left hemiparesis, syncope and delirium; the CT showed an infarct of the right hemisphere: a stroke (CVA) in the middle cerebral artery.
+08b34f37	Delirium is like a sudden storm and dementia like a slow sunset.
+12779b36	What is a sudden disturbance of the mind, often from illness or medicine, called?

@@ -1,0 +1,43 @@
+# match puzzles: right side must not repeat the left side
+13e4162f@neuro#3	physician for mental disorders
+728d16d4@neuro#4	tough outer layer
+26bd9ba4@neuro#3	web-like middle layer
+da5add56@neuro#3	delicate inner layer
+c3f55905@neuro#3	all three membranes together
+8c40fff8@neuro#2	channel in the centre of the cord
+a056988e@neuro#2	capillary wall that blocks harmful substances
+fb74ad45@neuro#2	5 pairs in the lower back
+727379c2@neuro#3	change that triggers a response
+c97bbc86@neuro#2	structure that senses the change
+793bdd84@neuro#2	electrical message along a nerve
+db6a802f@neuro#2	muscle or gland that responds
+c03d2a52@neuro#5	white fatty coating of the axon
+15c6da7c@neuro#2	cell that makes myelin in the PNS
+7c561bb9@neuro#6	where a spinal nerve leaves the cord
+9d18d087@neuro#4	cluster of cell bodies outside the CNS
+d49a3024@neuro#3	network of joining nerves
+2fc51193@neuro#3	relating to the neck
+91b1c64e@neuro#1	body-controlling, voluntary
+aaed3cdd@neuro#1	self-governing, involuntary
+f29f4bbe@neuro#2	relating to the wandering nerve
+cd8a3720@neuro#4	loss of memory
+ad0963ef@neuro#3	movement disorder from brain damage around birth
+cd8a3720@neuro#7	loss of memory
+52cf4aef@neuro#3	worry and fear
+75d8b778@neuro#1	sudden surge of intense fear
+907847f9@neuro#3	fear of enclosed spaces
+1e9ff8aa@neuro#2	lasting sadness
+dc96e801@neuro#1	excessive elation
+13e4162f@neuro#4	physician for mental disorders
+be1bcd62@neuro#2	constant fear of having a serious illness
+b1e96c83@neuro#5	drawing CSF from the lower back
+26e8b3fa@neuro#4	removal of a nerve
+3e7d5414@neuro#3	cutting a nerve root
+dfaaf4bb@neuro#1	membrane lining the abdomen
+26e8b3fa@neuro#5	removal of a nerve
+add7cdcb@neuro#2	floppy, without tone
+e0acf86a@neuro#1	involuntary trembling
+0e2c3d85@neuro#1	progressive loss of memory and thinking
+86a55f92@neuro#1	gradually wearing away
+618bc8c7@neuro#1	caused by a virus
+52cf4aef@neuro#6	worry and fear

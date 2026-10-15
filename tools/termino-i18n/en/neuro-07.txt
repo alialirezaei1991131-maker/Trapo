@@ -1,0 +1,250 @@
+c8a6ce11	nerve suture (-rrhaphy)
+ac402708	cutting a nerve root for pain or spasticity
+801e379a	-rrhaphy is suturing and -rrhexis is rupture; both begin with rrh.
+510f01f0	-rrhaphy = suture.
+9e9ee0e3	To relieve pressure on the spinal cord, the vertebral lamina is removed; this operation is…
+db76498d	spinal fusion means joining vertebrae together.
+9d41f542	Stability of the spine.
+b6f3852e	Build a word meaning “surgical repair of a nerve”
+dce33968	fusing the vertebrae
+56a3f30b	Nerve surgery.
+76cd33d6	The Discharge Summary patient became completely paralysed at the ___ level.
+ce164252	Spell the term for removal of the vertebral lamina
+3311b728	Shunts and Vessel Surgery
+d48c7aca	⟦0⟧⟦1⟧: a tube with a one-way valve that drains excess CSF from a brain ventricle to the abdomen; the treatment for hydrocephalus.⟦2⟧
+095f5594	A child with hydrocephalus
+1daefcdb	Preventing and treating stroke
+d7112984	• ⟦0⟧: removing plaque from the inner wall of the carotid artery to prevent a stroke<br>• ⟦1⟧: a clot-dissolving drug (such as ⟦2⟧) given soon after an ischaemic stroke⟦3⟧
+14aa24ee	endarterectomy means “removal from inside an artery”: endo + arter + ectomy.
+b805f61f	What is the surgical treatment for hydrocephalus?
+6db079bf	Draining CSF to the abdomen.
+7d2114ec	What is removing plaque from the carotid artery called?
+bd8953bb	Preventing stroke.
+bfe3615f	A clot-dissolving drug is not given in a haemorrhagic stroke.
+797c12c9	It makes the bleeding worse.
+cbb4399a	Put the path of CSF through a VP shunt in order
+a11cf8f2	From ventricle to abdomen.
+7604a8f8	neck artery
+78a8af2b	Shunts and vessels.
+1870796b	The abbreviation ___ means the clot-dissolving drug tissue plasminogen activator.
+a98d3c19	Spell the term for a tube that diverts fluid to another place
+cd319d17	A bypass route.
+99729a01	Drug groups
+37e84be0	painkiller; reduces pain without loss of consciousness
+d45d666b	a strong painkiller with a risk of dependence, such as morphine
+a0bf0671	local anaesthesia or general anaesthesia (GA)
+145ae041	anticonvulsant, such as phenytoin and diazepam
+c5a41fb5	sleep-inducing (hypn/o = sleep)
+50eb83c6	A few more drugs
+77fd4560	calming
+5d7b4565	muscle relaxant, such as dantrolene
+fc7ddb0d	raising dopamine in Parkinson’s, such as levodopa
+4809a1c5	The book’s APPLY scenario: pain management is a delicate art; narcotic painkillers are strong but carry a risk of dependence and side effects.
+5b842f9d	reduces pain, consciousness remains
+2c7c18a9	removes sensation; sometimes consciousness too
+bd2bf0b2	Which drug prevents seizures?
+049ba85b	The book’s drug table: phenobarbital and diazepam.
+c58ca2a9	A painkiller that reduces pain without causing euphoria is…
+7a91251b	The book’s exercise: without inducing a euphoric state.
+7fe9cedb	A hypnotic is a sleep-inducing drug.
+cf955ce5	Build a word meaning “absence of pain”
+1911759c	Neuro drugs.
+3885b63c	A strong painkiller that causes euphoria and dependence is a ___.
+1c1d73c9	narc/o = stupor.
+2b6dbcaa	Spell the term for a drug that prevents seizures
+fa6602f3	Rehabilitation and Record Abbreviations
+c99c1c00	⟦0⟧ is a programme to restore ability after illness or injury:<br>• ⟦1⟧: exercise and movement for strength and walking<br>• ⟦2⟧: retraining everyday tasks<br>• ⟦3⟧: electrical nerve stimulation through the skin to reduce pain⟦4⟧
+f1dcd7f1	After three weeks of intensive rehabilitation, William was able to take a few small steps and move his shoulders, arms and fingers.
+ddd16403	The book’s APPLY scenario: “Mr. Jones presents to the ED after a motor vehicle accident. Experienced TIA last week; may now have a CVA. Will evaluate for SCI and get MRI, MRA, and EEG. Concerned ICP is elevated. May have a CSF leak.”
+56f5a0a7	Retraining everyday tasks such as dressing is the work of which therapy?
+e28ff2fb	What is TENS for?
+890d0ddc	reducing pain by electrical nerve stimulation
+a0f86c84	recording brain electricity
+f5c3fd0d	imaging the spinal cord
+26f18fe5	treating depression
+fffa9b63	In Mr Jones’s note, the doctor is worried that the pressure inside the skull is high.
+54cb7b55	Put the path of treating a spinal cord injury in order
+57c067ed	From the emergency department to home.
+e4c91bde	leak of cerebrospinal fluid
+08e78c3c	Mr Jones’s note.
+99506c35	The abbreviation ___ means physical therapy.
+c948e245	Brainy
+d604183a	A Beginner Brain
+9203ed8e	Weighs about 1,400 grams and has eighty-six billion neurons; every thought, movement and memory starts with him.
+43675490	Master of neur/o and encephal/o
+ca53dd46	A living dictionary that breaks every neuro word into root, prefix and suffix and never mixes up myel/o and my/o.
+3f5d1e4b	Tells -plegia from -paresis and fits hemi-, para- and quadri- together like puzzle pieces.
+eb42bad0	Skully
+94204c81	The Brain’s Bony Shield
+12c07e7b	The eight bones of the skull that enclose the brain; crani/o is his name.
+7164a343	Trimeni
+e99d6d74	The Three-Layer Guardian
+cee2bdaa	Has the dura mater, arachnoid and pia mater together and holds CSF in the subarachnoid space.
+1cf5abeb	Spiny
+340e079e	The Spinal Highway
+1ba83486	Shelters the spinal cord in the vertebral canal; 31 pairs of spinal nerves leave from both sides.
+61aa260e	Neuri
+9175ee97	The Messenger Cell
+77ee171e	Receives messages with her dendrites and sends them along her long axon to the terminals.
+e4179381	Sparky
+918ab1e9	The Speedy Impulse
+e10f1e16	Jumps from node to node along the myelin sheath and arrives at more than 100 metres per second.
+91c7d64a	Libra
+a2107413	One pan of her scale is “fight or flight” and the other “rest and digest”; she keeps homeostasis.
+d84bb2f9	Ruby
+8dfa73c4	The Stroke Alarm
+2db965b7	Knows that every minute counts in a stroke; takes TIA seriously and wants the clot-dissolving drug on time.
+627ab3d6	Myeli
+d6522bb0	The Insulating Sheath
+91531987	Wrapped around the axons so messages travel fast; in MS a hard plaque takes her place.
+0f2aa204	Stormy
+b4644029	The Epilepsy Detective
+fa720969	Knows the brain’s electrical storm; tells aura, tonic-clonic and absence seizures apart on the EEG.
+cc6968bf	Luna
+ca2e683d	Knows insomnia and narcolepsy and knows that good sleep is half of mental health.
+3389ee5d	Bubbles
+d0cd4442	The Talking Companion
+afabda35	A fan of psychotherapy and CBT; names anxiety, phobias and obsessions with kindness.
+d5b7aca8	Psyche
+3398899b	Psyche, Symbol of the Mind
+e7fe0706	In Greek, psyche means both “soul” and “butterfly”; she knows depression, mania and schizophrenia well.
+6ef29f79	The Wave Reader
+6b890bdc	Knows alpha, beta and delta waves and finds the storm of a seizure on the EEG.
+859cda16	Capsy
+f2abf027	The Neuro Pharmacist
+a105eb58	Tells analgesics, anticonvulsants and hypnotics apart and knows the right dose.
+1a868316	Scripty
+a259675b	Master of the Neurology Record
+59b8453a	Reads CVA, TIA, GCS and LP at a glance and accompanies the patient from the emergency department to rehabilitation.
+0032daa1	Jumbled speech and right-sided weakness
+23e6498d	J.D., an 85-year-old woman
+6c701500	J.D. has come to the emergency department because she can hardly speak. Her daughter says her speech has been jumbled for a few days and she answers every question with just “How do you do?”. This has happened before and got better. This morning she woke up with weakness on the right side of her body. Assessment: probable history of TIA; now a CVA with dysphasia and right hemiparesis.
+9ca89f39	a completed stroke
+3b962395	CVA means…
+b7d395c2	heart vessel disease
+f40f6c1d	Break down dysphasia: match each piece to its meaning
+70456945	What is the difference between hemiparesis and hemiplegia?
+bc0ccf3d	the first is weakness of half the body and the second is complete paralysis of it
+d716beaa	the first is paralysis of both legs
+dab6571a	the second occurs only in children
+8ff03813	-paresis is weakness and -plegia is paralysis.
+95cb3687	side
+fed585fb	Right-sided weakness means the left hemisphere of the brain has probably been damaged.
+50eaa345	Write the term for one-sided weakness of the body
+c5bbe450	An emergency note full of abbreviations
+9abc0344	The doctor’s note: “Mr. Jones presents to the emergency department after a motor vehicle accident. Experienced TIA last week; may now have a CVA. Will evaluate for SCI and get MRI, MRA, and EEG. Concerned ICP is elevated. May have a CSF leak.” You need to rewrite it in full words.
+acacd004	soft tissue image
+194e8231	image of the vessels
+337c5503	quick image of bleeding
+50b628b7	The tests ordered.
+ffbfeb21	“Concerned ICP is elevated” means…
+60f0a430	the doctor is worried that the pressure inside the skull is high
+eed611b3	the blood pressure is low
+1d51fe0d	the spinal fluid has decreased
+cf112f39	a stroke has been ruled out
+5265863f	CSF leak means…
+c36c3a5f	leak = escape of fluid.
+3c274fd5	A TIA last week raises the risk of a completed stroke (CVA).
+c4775c9e	A TIA is a warning.
+a51bf9e5	Spell the adjective for the blood vessels of the brain
+38cc0995	Head injury and difficulty reading
+fa18a1fa	Mr Robert Jones has had a head injury. He can barely read and is easily distracted. You need to say which part of the brain has probably been injured and what other signs you might see.
+2f0780e4	Difficulty reading (interpreting images) relates mostly to which lobe?
+33368ea2	The centre of vision.
+ef61d6c2	Distractibility and problems with concentration and planning relate mostly to which lobe?
+126dbed9	The frontal lobe.
+071070c0	Function
+fbb6fa4d	concentration and personality
+4701b39a	touch and pain
+fa4eb415	The four lobes.
+68c4cc31	Which other sign is also seen in frontal lobe injury?
+fb2daa50	a change in personality
+3fc8cb13	double vision only
+121ca354	complete deafness
+4e459981	paralysis of the legs
+717a087f	Personality and behaviour.
+84071916	To look for structural brain damage after a blow, CT or MRI is appropriate.
+d5478647	Spell the name of the lobe at the back of the head
+fabc24bf	occipit = back of the head.
+416b6190	A fall from the slide
+513d790a	Josie Martin, a 9-year-old girl
+9947481c	Josie fell from a 14-foot slide during break time. The children say she was “asleep” for a few moments after the fall. She is awake now but looks tired.
+4913e840	Decision
+1fd64adf	Should Josie see a doctor?
+98ca099a	yes; loss of consciousness after a head injury is serious
+b61c0ee3	no; she has woken up
+d2dda3bf	only if she cries
+c4210e7d	only tomorrow
+911642c2	Assessing for concussion.
+41fe5ba7	What is a temporary brain dysfunction after a blow called?
+ca9d19f1	Why is tiredness after a blow worrying?
+c0317e84	it may be a sign of bleeding and rising ICP
+a57bc385	it is a sign of lack of sleep
+0c41a312	it is a sign of hunger
+6661a931	An epidural or subdural haematoma.
+a52071eb	loss of consciousness
+4b685c22	blood on the dura
+9841cd68	consciousness scale
+739e844e	Head injury.
+d6e6be3a	Protection
+d1334d99	The skull, meninges and CSF protect the brain from blows.
+9e8e4683	Protective layers.
+48eb3d02	Spell the term for a temporary brain dysfunction after a blow
+478d8ad9	Two s’s.
+bdc7fafa	A mass in the cortex of the right hemisphere
+3730a7c6	A 38-year-old woman
+b0e8b2b6	Pearson Hospital consultation report: the patient was referred to a “specialist in diseases of the nervous system”; she has “difficulty speaking”, “loss of movement on one side of the body” and “severe involuntary muscle contractions”. “Recording of the brain’s electrical activity” and “a needle puncture in the lower back to withdraw fluid” were normal; but “an injection of radioactive isotopes” showed a mass in the “outer layer of the largest part of the brain” on the right. The diagnosis was an “astrocyte tumour”; it was treated with a “skull incision” and “extreme cold”.
+d26b0c3b	specialist of the nervous system
+62cefd44	loss of movement on one side
+358563fb	severe involuntary contraction
+d76b6474	Match each procedure to its term
+e029b160	drawing fluid from the lower back
+ec82a4c2	isotope injection
+467011fa	extreme cold
+511c6a49	“The outer layer of the largest part of the brain” means…
+a45956ab	The cerebral cortex.
+2fc903dc	What is an “astrocyte tumour” called?
+3bd9eaa8	The mass is in the right hemisphere and the patient’s weakness was in the left limbs.
+8901e48e	Write the term for a surgical incision into the skull
+f5f52b92	Afferent and efferent class
+48b99b50	Nursing students
+78a6b8c1	You have been asked to explain to a class the difference between afferent and efferent neurons and to show it with an example such as touching a hot stove.
+1df5249c	Definition
+eba89ead	What does an afferent neuron do?
+528c5e60	it carries the sensory message towards the CNS
+6c8428ac	it carries the command to the muscle
+4449494f	it connects two neurons in the CNS
+54ccf1fe	it makes myelin
+0ed5933b	What does an efferent neuron do?
+41923776	it carries the motor command from the CNS to the muscle
+4f27a814	it carries sensation to the brain
+15846b81	it senses pain
+aa230024	ef- = away from.
+11d28422	Put the path of pulling the hand away from a hot stove in order
+970f69cf	The reflex arc.
+fb1859ad	sensory, towards the CNS
+0e56f12e	motor, away from the CNS
+5f5a089a	connector within the CNS
+e35cf207	Neurons.
+7c81600a	Reflex
+a5dc2718	When pulling the hand away, the message may turn back at the spinal cord before reaching the brain.
+6eb288f8	A spinal reflex.
+4863ecf9	Spell the term for neurons that carry signals towards the CNS
+06d84abd	Three years ago, Mr Allen injured the nerves of his leg in a car accident. A neurosurgeon operated to repair the nerves, with partial success. After physiotherapy, his walking improved.
+8255c297	Assessment
+172a4ea4	Where else could the leg nerve injury come from that the surgeon should check?
+cc7eb8e1	the lumbosacral nerve roots and the sciatic nerve
+f10224fe	the cranial nerves
+07217d2e	the cervical spinal cord only
+ad3e7145	The path of the leg nerves.
+da7c24fd	Which is the largest nerve of the leg?
+863d9b60	Match each nerve operation to its meaning
+e6588b37	freeing a nerve
+fc9f926a	Why was physiotherapy prescribed for him?
+ebd6a02c	to restore muscle strength and walking
+3a7f2ffb	to treat an infection
+b7febec0	for better sleep
+69da2599	to lower blood pressure
+99b4b8ad	A neurosurgeon operates on the brain, spinal cord and nerves.
+3d71c625	A nerve surgeon.
+cea12712	Spell the term for a surgeon of the brain, spinal cord and nerves

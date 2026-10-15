@@ -1,0 +1,255 @@
+47c75c9f	in the middle, H-shaped
+487d36bc	all around
+3aa49f65	only in the roots
+b839c5ee	on the meninges
+f64f5304	Unlike the brain.
+895645f5	From which horn of the spinal cord do motor commands leave?
+f1ae9290	The anterior horn.
+bbd34ae4	White matter is made of myelinated axons.
+d1da3ec3	Myelin is white.
+833da4a5	Put the path of pain sensation from the skin to the brain in order
+5d4070c2	Sensation enters from the back.
+ea7e0044	sensation in
+7e902375	movement out
+1c3323b1	myelinated axon
+7a1d8800	Cross-section of the spinal cord.
+4aec01a7	The root ___ means spinal cord.
+e31631a7	Spell the term for the column of nerve tissue inside the spine
+7d0887b1	spin/o = spine.
+121c6dc2	Levels of the Spinal Cord
+f7eb6746	⟦0⟧The spinal cord runs from the medulla oblongata down to the second lumbar vertebra (⟦1⟧). Thirty-one pairs of spinal nerves leave it:<br>8 cervical (⟦2⟧), 12 thoracic (⟦3⟧), 5 lumbar (⟦4⟧), 5 sacral (⟦5⟧) and 1 coccygeal.
+a6023795	Below the end of the spinal cord, the nerve roots run down like a horse’s tail: the ⟦0⟧.⟦1⟧⟦2⟧
+a7d4aa6d	The numbers are like a working day: 8 a.m. (C8), 12 noon (T12), 5 p.m. (L5), 5 p.m. (S5)!
+afdc6c78	In the Discharge Summary in Fremgen’s book, an L2 fracture with spinal cord injury caused complete paraplegia at the L2 level.
+0e64ad80	What are the nerve roots below the end of the spinal cord called?
+c90718bc	The cauda equina.
+d0567e4a	In adults the spinal cord continues to about the L2 vertebra.
+1381961d	That is why an LP is done lower down.
+31173783	Put the groups of spinal nerves in order from top to bottom
+6b3b842f	C, T, L, S, Co.
+39153bab	Match each group to its number
+971e9251	8 pairs
+62133ec8	1 pair
+fc19b0ad	Counting the nerves.
+a8b7d78f	C6 means the sixth ___ vertebra or nerve.
+9344904d	Spell the Latin term for the “horse’s tail” of nerve roots
+1e4e45dc	Latin: horse’s tail.
+67e3b7e5	Adjectives of Brain and Spinal Cord
+8679aea4	Relating to…
+7a2c87f6	relating to the cerebrum
+20e729e8	relating to the cerebellum
+bddc657a	relating to the thalamus
+3a117141	relating to the meninges
+40768f8c	relating to the medulla oblongata
+a33f0c13	relating to the cortex
+546f9e0f	⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧ and ⟦4⟧ all mean “relating to”.<br>⟦5⟧ → ⟦6⟧<br>⟦7⟧ → ⟦8⟧⟦9⟧⟦10⟧
+88aa50a8	To find the organ, remove the adjective suffix: cerebellar minus -ar gives cerebell, that is, the cerebellum.
+528d5c60	⟦0⟧ means relating to…
+80c263c6	Which means “relating to the thalamus”?
+e6e53861	The suffixes -al and -ic both mean “relating to”.
+71e61b62	cerebral, thalamic.
+745641b6	Build a word meaning “relating to the cerebellum”
+a6b89341	Match each adjective to its organ
+ea831325	Adjectives.
+4b7c51c7	A stroke is also called a ___ accident.
+7e579c32	Spell the term meaning relating to the brain and spinal cord
+abdd1757	Peripheral and Autonomic Nerves
+1af482f4	Peripheral nerves
+1827abc6	Neuron and synapse, cranial and spinal nerves, dermatomes, the reflex arc, sympathetic and parasympathetic
+cccf0c13	Neuron, Synapse and Myelin
+a5208236	Cranial and Spinal Nerves
+67cc35c9	Reflexes and the Autonomic System
+aa9067ef	From Stimulus to Response
+bbcb9019	A ⟦0⟧ is a change inside or outside the body, such as heat or touch. A ⟦1⟧ senses it and produces an ⟦2⟧ (nerve impulse). Finally the ⟦3⟧ (a muscle or gland) responds.
+3a2b1c6c	⟦0⟧• ⟦1⟧: a sensory neuron; carries the message <b>towards</b> the CNS (⟦2⟧ = towards)<br>• ⟦3⟧: a motor neuron; carries the message <b>away from</b> the CNS to muscles and glands (⟦4⟧ = away from)<br>• ⟦5⟧: a connecting neuron within the CNS⟦6⟧⟦7⟧
+406fbb7c	Afferent = Arrive; Efferent = Exit.
+d07842c4	The book’s APPLY scenario: “Explain to the class how afferent and efferent differ”; the answer is this direction of the message.
+54b2d9c6	Where does an ⟦0⟧ carry the message?
+bb4dc3f1	towards the CNS
+841b7947	from the CNS to a muscle
+42d02647	from a muscle to a gland
+c093ad50	between two muscles
+4bf8b5ce	af- = towards.
+4b7a8c73	What is the neuron that carries the message to a muscle called?
+5c0d09a1	ef- = away from the CNS.
+b93d67de	An effector is a muscle or gland that responds to a nerve command.
+c99ec729	The responding organ.
+da52ef7c	Put the steps of a nerve response in order
+84607b88	From stimulus to response.
+384dcce6	A connecting neuron within the spinal cord and brain is called an ___.
+973d1dab	Spell the term for a change that triggers a nerve response
+70918d3c	Plural: stimuli.
+68243828	Synapse and Neurotransmitters
+f975a7e5	A chemical bridge
+b7d90172	⟦0⟧A ⟦1⟧ is the junction between two neurons (or a neuron and a muscle). The axon terminal releases a ⟦2⟧, which crosses the ⟦3⟧ and binds to receptors on the next cell.
+1e8260c4	Important transmitters
+1b383997	Transmitter
+503515c6	muscle movement and the parasympathetic system
+da145417	movement and the sense of reward; low in Parkinson’s
+2db3186a	mood, sleep and appetite; low in depression
+f917d419	Remember Dopamine by its “D”: Drive and Doing; a shortage slows movement.
+a2a6c830	SSRIs treat depression by keeping serotonin high in the synapse.
+8ab5c9c0	Which transmitter falls in Parkinson’s disease?
+50722d5a	Dopamine deficiency.
+da54998c	Where is the message passed from one neuron to the next?
+6b65bd77	The synapse.
+2f66bb9f	Serotonin affects mood, sleep and appetite.
+7b4e9818	Its deficiency is linked to depression.
+43978b0b	Put the steps of message transfer at the synapse in order
+a43d4200	From terminal to receptor.
+7e6849eb	Match each transmitter to its role
+34217d89	muscle movement
+91f5cd28	movement and reward
+63a14c51	mood and sleep
+48f8ae36	where the transmitter binds
+b487a5b8	Transmitters.
+ba40fc08	The abbreviation ___ means acetylcholine.
+33c7cd56	Spell the term for a chemical messenger released at a synapse
+7254a4df	Myelin and the Nerve–Muscle Junction
+ba2278d8	⟦0⟧The ⟦1⟧ is the white fatty sheath around the axon. In the PNS it is made by the ⟦2⟧. The message <b>jumps</b> from one gap between the sheaths to the next and arrives faster.
+8ab517a0	Myelin sheath on the axon
+c76ffcd8	Nerve and muscle
+0df05ae2	⟦0⟧ → ⟦1⟧: relating to nerve and muscle. The ⟦2⟧ is where a motor neuron commands a muscle fibre using ⟦3⟧.⟦4⟧⟦5⟧
+12596690	Myelin is like the plastic coating on an electric wire; if it is lost, the wires short-circuit (MS).
+e650bacc	In myasthenia gravis this very nerve–muscle junction fails, and the muscles tire quickly.
+4c4a8439	In the peripheral nervous system, which cell makes myelin?
+19b5eb74	The Schwann cell.
+a17b5dd8	relating to nerve and muscle
+a267fe69	inflammation of nerve and muscle
+00b2429a	Myelin increases the speed of the message.
+d85c6620	The message jumps from node to node.
+58a4dabb	Build a word meaning “relating to nerve and muscle”
+a3cd720a	nerve–muscle junction
+ef729a87	long fibre of the neuron
+957aee7f	Myelin and muscle.
+4baa7036	The disease that destroys myelin in the CNS is ___.
+d75566b5	Spell the name of the white fatty coating around axons
+d0a83471	List
+443b4473	⟦0⟧The ⟦1⟧ come directly out of the brain and are numbered with Roman numerals (⟦2⟧ to ⟦3⟧).
+91500ca7	A few important nerves
+871f9eca	facial sensation and chewing
+60bda67c	facial movements; damaged in Bell’s palsy
+0ed06b77	heart, lungs and digestive tract
+0329bdb1	vagus means “wandering”, because it travels from the neck to the abdomen.
+3f274664	In the Practice Exercises of Fremgen’s book, you have to match all 12 nerves to their functions.
+e3017377	Which is the nerve of vision?
+a5c95b29	optic = vision.
+5e95c703	Which nerve supplies most of the chest and abdominal organs?
+84b6140a	The wandering nerve.
+ddb30d9a	The facial nerve controls the movements of the facial muscles.
+119afb73	The seventh nerve.
+b3f2d534	Put these nerves in numerical order
+9182c4d4	I, II, V, VII, X, XII.
+3049c42f	Match each nerve to its function
+e7752032	facial sensation
+ab9b0d64	Cranial nerves.
+18fa88b4	The fifth nerve, with three branches, is called the ___ nerve.
+ddcaaa01	tri = three.
+9ee8bdd2	Spell the name of the “wandering” tenth cranial nerve
+d7a3f6e4	Roots, Ganglia and Plexuses
+c7d2a653	From the spinal cord to the limbs
+67c996c5	Each spinal nerve leaves the spinal cord by a ⟦0⟧. A ⟦1⟧ (plural: ⟦2⟧) is a cluster of cell bodies outside the CNS. Nerves join one another in a ⟦3⟧ (network), such as the brachial (⟦4⟧) and lumbosacral (⟦5⟧) plexuses.
+c79b8d1d	The ⟦0⟧ is the largest nerve in the body and runs from the lower back to the back of the leg. Pain along its path is called ⟦1⟧.⟦2⟧ → ⟦3⟧: inflammation of a nerve root⟦4⟧⟦5⟧
+5e8bae63	A plexus is like a junction of cables; a ganglion is like a small station by the road.
+b7ec34e5	The book’s APPLY scenario: Mr Randy Allen’s leg was injured in an accident; the surgeon must check the lumbar roots, the lumbosacral plexus and the sciatic nerve.
+ccd779fd	Which is the largest nerve in the body?
+70a6d60e	The sciatic nerve.
+46f3536f	Such as the brachial plexus.
+98c93241	A ganglion is a cluster of cell bodies outside the CNS.
+2aaf864b	Plural: ganglia.
+609cbf74	Build a word meaning “inflammation of a nerve root”
+70dedc00	pain of the sciatic nerve
+84c02d22	Peripheral nerves.
+04320b14	The adjective “relating to a ganglion” is ___.
+bb491c6e	Spell the term for a network of nerves
+c3cb5073	Map of the Skin
+635969cf	⟦0⟧A ⟦1⟧ is an area of skin that receives sensation from only one spinal nerve. By testing sensation over the dermatomes, the doctor finds the level of a spinal cord or root injury.
+3e4fc568	Shingles on a dermatome
+a32f4eac	⟦0⟧The chickenpox virus sleeps for years in a nerve ganglion and may wake up: ⟦1⟧ (shingles), with a painful rash on just one dermatome and one side of the body.⟦2⟧
+6df26c08	Shingles rash
+35559a61	Shingles (herpes zoster)
+590576e9	derm/o is skin and -tome means section; dermatome = “skin section”.
+b8fafdf8	an area of skin supplied with sensation by one spinal nerve
+47aabd0e	a layer of the meninges
+db60cc63	The sensory map of the skin.
+eedf4488	A painful rash along one dermatome is a sign of which disease?
+68a3660f	Shingles.
+1b28bdca	Shingles usually affects only one side of the body.
+0ac3c6be	Along one dermatome.
+5aae11fa	Put the path of shingles reawakening in order
+c355a8c6	Chickenpox → dormancy → shingles.
+6c418c5c	sensory area of skin
+24a133d9	Dermatome and shingles.
+de6286f0	The common name of herpes zoster is ___.
+41cb5d72	Spell the term for a skin area supplied by one spinal nerve
+af5ec25e	Automatic Response
+e069d155	⟦0⟧A ⟦1⟧ is a fast, automatic response to a stimulus that needs only a few cells. The ⟦2⟧ has five parts: receptor, sensory neuron, spinal cord, motor neuron and muscle (effector).
+1aeda7a9	Knee-jerk reflex arc
+cac5b294	Reflexes in the examination
+ca264397	⟦0⟧: muscle contraction when the tendon is tapped, such as the knee jerk (⟦1⟧).<br>⟦2⟧⟦3⟧: when a nail is drawn along the sole, the big toe goes up and the toes fan out. It is normal in babies but in adults it is a sign of motor neuron damage.⟦4⟧
+984d518c	Cohen’s Pretest: “A simple response that requires few cells is a reflex”.
+a98ed9bc	What is a simple response that needs only a few cells called?
+5811adc1	Cohen’s Pretest.
+8a528879	What does a Babinski sign mean in an adult?
+25877f36	motor neuron damage
+7b439077	it is completely normal
+c83e413d	a broken foot
+5292d55e	Normal in a baby, abnormal in an adult.
+66587c9b	DTR stands for deep tendon reflex.
+c0e5a035	Deep tendon reflex.
+a7cdd9ea	Put the parts of the reflex arc in order
+47c5121f	Five parts.
+88936a4b	knee jerk
+67b3ff66	big toe going up
+4fd5b786	Reflexes.
+4a6c6b37	In the book’s scenario, Dr Stanley performed several ___ tests and confirmed Parkinson’s.
+3249ca57	Spell the term for a fast automatic response to a stimulus
+5508c433	An automatic reaction.
+d3c9540b	Fight or Flight; Rest and Digest
+4d25d9c1	The autonomic system
+0f1fdfc4	⟦0⟧The ⟦1⟧ controls the involuntary work of the heart, smooth muscle and glands and has two opposing parts:<br>• ⟦2⟧: “fight or flight”; fast heartbeat, dilated pupils, sweating<br>• ⟦3⟧: “rest and digest”; slow heartbeat, active digestion
+569c704a	A scenario
+6e3717dc	The book’s APPLY scenario: Mrs Gina Jones says that in every stressful situation her heart and breathing speed up and she sweats, and she thinks she has a mental disorder. The nurse explains that this is the normal response of the sympathetic system to stress.
+885c6eb7	Sympathetic = Stress and Speed; Parasympathetic = Peace and Pause.
+c0390101	Which system is active in the “fight or flight” response?
+4381021e	The sympathetic system.
+88ee3aed	What effect does the parasympathetic system have on the heart rate?
+c2436fe3	it slows it
+0aa27684	it speeds it up
+e312f6d5	it stops it
+813661b2	it has no effect
+54430cef	Mrs Gina Jones’s fast heartbeat and sweating under stress are a normal sympathetic response.
+d816b119	Not necessarily a mental disorder.
+7b4a9f07	Put the events of the stress response in order
+ee660461	Stress, response, calm.
+e71d7735	Match each effect to its system
+23a2de9a	sympathetic
+5a2a7467	parasympathetic
+e4e1fa45	involuntary functions
+f3044e63	Two opposing forces.
+062ed9d1	The abbreviation ___ means autonomic nervous system.
+906f9b8f	Spell the name of the “fight or flight” division of the autonomic system
+02946faa	sym- = together.
+67a53d70	Somatic or Autonomic?
+044403f2	Voluntary and involuntary
+f7229dee	⟦0⟧⟦1⟧ → ⟦2⟧: relating to the body
+3bf447f1	skeletal muscles
+3d21bd5a	heart, smooth muscle, glands
+4c066162	Together with the endocrine system, the nervous system maintains ⟦0⟧, a stable internal state (temperature, sugar, pressure). ⟦1⟧ means relating to the vagus nerve, the main arm of the parasympathetic system.⟦2⟧⟦3⟧
+f840d49d	somatic = soma (body) and autonomic = auto (self); one you choose to do, the other works by itself.
+08efa180	Cohen’s Pretest: “Involuntary responses are controlled by the autonomic nervous system”.
+a52852b1	Which division controls involuntary responses?
+2df753c3	a stable internal state of the body
+eace09e1	a response to stress
+be2253b2	a type of reflex
+6d8fb5df	producing a neurotransmitter
+2f74b84f	homeo = same + stasis = standing still.
+2bdaa190	Moving a finger at will is the work of the somatic system.
+769071a8	Skeletal muscles.
+b58f7e85	Build a word meaning “relating to the body”
+91b1c64e	somatic, voluntary
+aaed3cdd	autonomic
+3c02ac00	Somatic and autonomic.
+c49988aa	The abbreviation ___ means somatic nervous system.
+3178698c	Neurological Signs and Diseases
+7a67aff6	Paralysis and weakness, speech and sensory disorders, coma, stroke, haematoma, epilepsy, Parkinson’s, Alzheimer’s, MS, meningitis and tumours

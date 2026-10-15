@@ -1,0 +1,330 @@
+9275a7f7	attack, seizure
+0bee8b43	memory
+ef7def25	intense fear
+070e1077	madness, obsession
+b41af3f8	vision
+850cee18	destruction, freeing
+2fc82882	destroying agent
+79a87a7f	writing, record
+9c691485	amyotrophic lateral sclerosis
+c8b27772	cervical nerves 1 to 8
+1eff95fb	chronic traumatic encephalopathy
+3a8e86c6	cerebrovascular disease
+e7ea0c1c	electroconvulsive therapy
+57fb7775	EEG recording
+ef3a0339	general anaesthesia
+745cdcdd	intracranial pressure
+5ec0cfe8	lumbar nerves 1 to 5
+4dd2ebf8	lower motor neuron
+2d290816	level of consciousness; loss of consciousness
+b1e96c83	lumbar puncture
+15ad910e	monoamine oxidase inhibitor
+8a02887a	neurological intensive care unit
+1bcab857	rapid eye movement sleep
+5bf87ee5	selective serotonin reuptake inhibitor
+8221e7b7	thoracic nerves 1 to 12
+aa95f63c	transcutaneous electrical nerve stimulation
+6aac5227	clot-dissolving drug
+396b553c	upper motor neuron
+8f22503c	visual evoked potential
+ebd032bc	ventriculoperitoneal (shunt)
+e977361c	Structures of the nervous system
+07606bc0	Nerve function and physiology
+69914c99	Neurological diseases
+2f9cd0fb	Mental disorders
+10bb86b5	Diagnosis and examination
+696c86f5	Nervous system: central (CNS) and peripheral (PNS)
+fbe9d7f4	peripheral nerve
+6be02146	brain + spinal cord
+ae9aec2c	nerves outside the CNS
+1fa8d133	prefix: half
+60dfbc52	root: paralysis
+d4f1bda0	condition of paralysis
+aabd1622	half of the body
+a3bb2a53	Map of roots: one root for each part
+4d0c0d54	Two tricky pairs
+c684663c	weakness, partial paralysis
+54e004b0	spinal cord (or bone marrow)
+5cb6fc4f	myel/o has “el” and my/o does not; one letter, two different organs
+9bda2b02	Neuron: the basic cell of the nervous system
+f187da36	direction of the nerve impulse
+89fb6b97	dendrites
+4901ca4a	terminals
+f1e8a83d	Lobes of the cerebrum (side view; frontal on the left)
+e25da2f4	parietal
+041adeec	central sulcus
+9f29d06e	lateral sulcus
+a0125244	Lobes of the brain
+ffbf1ddd	Midline section of the brain (sagittal)
+034070c0	Midline section of the brain
+ccafbc0a	Each area of the cerebral cortex, one job
+5c7355c2	voluntary movement
+acddec41	touch and pain sensation
+fcf340de	planning, personality
+91545377	producing speech
+20092dea	understanding speech
+65302d0d	vision (reading)
+ab6052b4	balance and coordination
+3cf7de66	Functions of the brain areas
+26a991df	Meninges: three protective membranes of the brain and spinal cord
+d0814643	scalp
+ceaed5c3	skull bone
+a300cf7c	subarachnoid space (CSF)
+6f157f51	cerebral cortex
+5f9a758b	From outside in: dura mater, arachnoid, pia mater
+c3f55905	Meninges
+a15964d1	Ventricles of the brain and CSF flow
+00e8cadf	lateral ventricle
+84797df0	third ventricle
+440917e8	fourth ventricle
+a0ca04f9	choroid plexus: makes CSF
+8c40fff8	central canal of the spinal cord
+996fbdb4	CSF floats and protects the brain and spinal cord
+e0addbd3	Ventricles of the brain
+13fb4cb4	Cross-section of the spinal cord: grey and white matter
+62873cf5	sensory root
+b587c449	dorsal horn (sensory)
+f3db24e0	dorsal root ganglion
+6baedf30	anterior horn (motor)
+1c6225d3	motor root
+d7156f96	Sensation enters from the back and motor commands leave from the front
+44181d40	Cross-section of the spinal cord
+ff163bd5	31 pairs of spinal nerves
+8e842e7c	8 cervical pairs
+94f12fd4	12 thoracic pairs
+fb74ad45	5 lumbar pairs
+9c0e5a80	5 sacral pairs
+e573e17e	end of the spinal cord (L1–L2)
+ab832887	+ 1 coccygeal pair
+cf6cd3e5	Synapse: the message passes from one neuron to the next
+cf62df37	direction of the message
+c53239b1	axon terminal
+c15037f4	vesicles • transmitter sacs
+9c11cb57	synaptic cleft
+dfa4fbcc	receptors
+0ad0e6b6	Synapse
+0e257a8c	Knee-jerk reflex arc (patellar reflex)
+482d1399	1. Receptor (tendon stretch)
+71718e1e	2. Sensory (afferent) neuron
+4d5c2163	3. Spinal cord
+95fb3997	4. Motor (efferent) neuron
+0eda166f	5. Quadriceps muscle
+b97a8b53	Reflex arc
+c3bcb7aa	smell
+6536ee1d	eye movement, pupil
+94ba4109	eye movement
+55acb803	facial sensation, chewing
+64fa9ca0	turning the eye outwards
+05887069	facial movements
+c9ae998f	hearing and balance
+74d207ae	swallowing, taste
+4939a704	chest and abdominal organs
+ba82194b	neck and shoulder muscles
+5619667b	tongue movement
+e810eb55	The 12 pairs of cranial nerves
+ac64f447	Autonomic system: two opposing forces
+ce79e158	fight or flight (stress)
+e3760b30	rest and digest
+a5595788	pupil constricted
+19c339b0	slow heartbeat
+77f3ba8c	bronchi open
+8295cbcd	bronchi narrowed
+23771fdb	digestion slowed
+fe8da8ef	digestion active
+e3dc1b2a	sweating and high blood sugar
+21566fb6	saliva secretion
+25f0566b	bladder relaxed
+2cbd36ec	Sympathetic and parasympathetic
+574add34	Dermatomes: each skin area, one spinal nerve
+da2f986f	Shingles causes a rash along one dermatome
+ef66d066	Dermatomes
+739c609f	Afferent towards the CNS, efferent away from the CNS
+9566ece7	skin receptor
+5c5c96fd	muscle or gland
+4bb43e2b	afferent: sensory
+b9b9006d	efferent: motor
+c03e0055	AF = Arrive • EF = Exit
+de4bbeb6	Afferent and efferent
+64f32b5c	Types of paralysis (red = paralysed part)
+6a3dcdb4	one limb
+e4a687f9	both legs and lower body
+eec43a63	The suffix -plegia means complete paralysis and -paresis means weakness
+f768679a	Stroke (CVA): blockage or bleeding
+02264d37	Ischaemic stroke: a clot blocks the vessel
+a9837d3a	Haemorrhagic stroke: the vessel ruptures
+5c7f2d88	TIA: stroke symptoms that resolve in less than 24 hours (a warning)
+9892c0f1	Types of stroke
+034fed33	Brain haematomas: the location of the blood matters
+e9685ba3	between the skull and the dura
+2449d082	beneath the dura
+51e4619a	within the brain tissue
+681ca247	The prefix epi means on, sub means below and intra means within
+b6f2c0f1	Haematomas
+595f9f08	Aneurysm: a bulge in the wall of a brain artery
+ca27f206	Aneurysm
+36012a1e	circle of Willis beneath the brain
+af4da8ea	basilar artery
+61f4b3de	Ruptured aneurysm → subarachnoid haemorrhage (haemorrhagic stroke)
+831041ad	Seizures and epilepsy: an electrical storm in the brain
+096f411d	during a seizure
+9b80e7b0	stiffening then jerking
+fd5454ee	grand mal
+3c946c96	brief staring
+393ac1f6	petit mal
+829ec00f	warning sign
+c485625b	before the attack
+b6249ac7	Types of seizure
+5d0d0a43	Spina bifida: failure of the spine to close
+11b484aa	hidden (occulta)
+073fb738	protrusion of the membranes
+38b597f4	spinal cord and membranes
+940543dd	The suffix -cele means hernia or protrusion
+449afb5f	Spina bifida
+33d67d80	Hydrocephalus: CSF builds up in the ventricles
+9e77e277	normal ventricles
+3ffee126	enlarged ventricles, large head
+76f714a7	treatment: ventriculoperitoneal shunt (VP shunt)
+36041207	Hydrocephalus
+0ec754f5	MS: destruction of the myelin sheath
+b4a5ed81	healthy axon
+c1706544	axon in MS
+e0613221	hard plaque (sclerosis)
+b005c78c	loss of myelin
+a3c8b145	The message slows or stops: weakness, numbness, blurred vision
+04ecd366	MS
+b723f182	Neurodegenerative diseases
+ea52d1bf	memory loss, dementia
+5409ea29	tremor, rigidity, slowness
+598a8a94	dopamine deficiency
+bbda9871	myelin destruction
+6746b07a	relapsing episodes
+e5fab65e	motor neuron degeneration
+48443002	weakness and atrophy
+d776cae9	dance-like movements
+bb58e31e	hereditary (chorea)
+abaf0f02	Degenerative diseases
+5bda6a40	Families of mental disorders
+17182ef4	anxiety
+aeac0054	mood
+d0fbae5c	psychotic
+65ee89b9	developmental
+b7cfad83	eating and somatic symptoms
+ac98ab26	The “fight or flight” response in anxiety
+39461eac	fast heartbeat (tachycardia)
+c131a73c	fast breathing (tachypnea)
+f5e0abb2	sweating (diaphoresis)
+003cb058	worry, restlessness
+9ca7875f	the sympathetic system is activated
+a2c877e7	A normal response to stress; when it is groundless and persistent, it is an anxiety disorder
+c36ef9b8	Mood: depression, normal and mania
+02a33e41	mania
+2807ca97	normal mood
+f2d5ed9d	depression
+2841b9a5	time (weeks and months)
+31deb5a4	Bipolar disorder: swinging between two poles
+a3991f38	Mood swings
+1b757caf	Psychiatric drugs
+c9d2e535	antidepressant
+d312fea8	such as SSRIs
+3f71a72b	calming
+6dd3ef6d	antipsychotic
+e4a076c9	mood stabilising
+f3da1fc4	such as lithium
+dcbcd713	for ADHD
+769c6469	-phobia: intense, irrational fear
+8f3edefe	fear of crowded, open places
+e3a03df2	fear of night and darkness
+65902082	fear of spiders
+1c18afde	fear of heights
+73f6761e	agora in Greek means marketplace; claustr means closed
+1ac7fe11	Phobias
+5cf4311d	EEG: recording the electrical activity of the brain
+b9435e4a	alpha: awake and relaxed
+a458afa5	beta: alert and active
+7fc25b9a	delta: deep sleep
+50b5c721	seizure: irregular and large
+8155cdcf	electrodes on the head
+b849e840	The word electroencephalography means the method of recording the brain’s electricity
+b6920bcd	Lumbar puncture (LP): a CSF sample from the lower back
+3cb98e05	needle between L3 and L4
+312da93d	end of the spinal cord (L1–L2)
+ea0b22de	The needle goes in below the end of the spinal cord so the cord is not injured
+0987d2e2	Brain imaging
+4f3fc8fa	fast; shows bleeding
+da6a5db3	soft tissue detail
+2aa8d11f	picture of brain activity
+878f6f0b	colours = metabolism
+d2e5a08c	Glasgow Coma Scale (GCS): 3 to 15
+9684ac72	eye opening
+3bc8c18e	1 to 4
+40890c3f	verbal response
+bb965378	motor response
+ea1045e2	1 to 6
+91fa23bd	moderate
+8f97f17d	8 or less
+175a31e5	severe (coma)
+e2819a47	Glasgow scale
+9a581c8d	Skull and spine operations
+daa5ad7d	cutting and opening the skull
+fdeff5bb	removing the vertebral lamina
+d88c8bc6	Nerve surgery
+367b41aa	Ventriculoperitoneal shunt (VP shunt)
+76be178d	one-way valve
+298811f0	tube under the skin
+272ec55f	peritoneal cavity (abdomen)
+15f07da8	Treating hydrocephalus: excess CSF drains into the abdomen
+7a088c00	Shunt
+e99b6849	Nervous system drugs
+27b36214	analgesic (painkiller)
+c9df4ff6	without anaesthesia
+5accdd6c	numbness or anaesthesia
+bf3f838e	anticonvulsant
+fa18269e	for epilepsy
+aac04a54	hypn/o = sleep
+08d50c42	ischaemic stroke
+8b740c1f	raising dopamine
+9f0db1f2	Parkinson’s
+f50a8df8	Neuro drugs
+8d450426	Language of Nerves
+d4e59d1c	What parts the nervous system has and how its words are built: root, prefix and suffix
+df830874	Parts of the Nervous System
+c71eb25e	Central and Peripheral
+8d6ef302	Two big divisions
+d80bc8b3	⟦0⟧The nervous system receives messages, analyses them and gives commands. It has two parts:<br>• ⟦1⟧: the brain and spinal cord<br>• ⟦2⟧: all the nerves outside the brain and spinal cord; 12 pairs of cranial nerves and 31 pairs of spinal nerves
+395ffa14	Central and peripheral nervous systems
+3458deac	diseases of the nervous system; does not operate
+93ab7eb9	surgery on the brain, spinal cord and nerves
+7bca1e16	physician for mental disorders; prescribes medicines
+42ce1706	psychologist; testing and psychotherapy
+f313a639	A neurologist treats with medicines and examination; a neurosurgeon with the scalpel.
+61e04919	In William’s record (a Case Study in Cohen’s book), his care team included a pediatrician, a neurosurgeon, a neurologist and a PM&R specialist.
+92c466b7	What does the central nervous system (CNS) consist of?
+712c5270	the brain and cranial nerves
+426f68c5	the spinal cord and spinal nerves
+98faaa5a	a specialist in diseases of the nervous system
+47a54001	neur/o (nerve) + -logist (specialist).
+bb7b94cb	Cranial and spinal nerves are part of the peripheral nervous system (PNS).
+401298c3	Everything outside the brain and spinal cord = PNS.
+69556cb1	Match each part to its group
+9f18aea1	Two divisions and two specialists.
+91e61eca	The abbreviation ___ means peripheral nervous system.
+fff6671b	Put the path of a sensory message in order
+fc8771c3	From the receptor to the brain.
+5c26543e	Spell the term for a doctor who treats brain and nerve disorders
+d558fac6	Neuron: The Messenger Cell
+4a4fcbe9	Structure of the neuron
+be6c20cb	⟦0⟧⟦1⟧ is the basic cell of the nervous system:<br>• ⟦2⟧: branches that <b>receive</b> the message<br>• ⟦3⟧: the cell body with the nucleus<br>• ⟦4⟧: the long fibre that carries the message <b>away</b> from the cell body<br>• ⟦5⟧: the white fatty sheath around the axon that speeds the message up
+eafa37e5	The nerve and its supporters
+95cd2808	⟦0⟧ is a bundle of axons outside the CNS.<br>⟦1⟧ → ⟦2⟧: supporting cells that hold and nourish the neurons (⟦3⟧ = glue).⟦4⟧⟦5⟧
+18c99604	A Dendrite, like a tree (dendr/o), gathers the message, and an Axon, like a cable, carries it away.
+d838b2b8	The brain tumour glioma grows from these supporting cells, not from the neurons themselves.
+6df73066	Which part of the neuron brings the message towards the cell body?
+2b82eeca	dendr/o = tree; the receiving branches.
+d5bdcf0b	What does the ⟦0⟧ do?
+bb89e379	insulates the axon and speeds the message
+171a366d	makes neurotransmitters
+c2ff07a7	feeds the brain
+1ad28c52	receives messages from another neuron
+1e400a70	A white fatty sheath.
+91be7471	Glia (neuroglia) are the supporting cells of the nervous system.
+8a6d78ea	gli/o = glue.

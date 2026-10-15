@@ -1,0 +1,330 @@
+2077caf6	Neuro
+22efe0ec	Neuro • Nervous System and Mental Health Terminology
+69c65f14	Medical terminology of the nervous system and mental health (brain, spinal cord, nerves and mental disorders)
+4cb6b467	🧠 Medical terminology: Brain, Spinal Cord, Nerves and Mental Health
+ea547666	Hi, I’m <b>Neuro</b>, a smiling brain who always carries a nerve spark ⚡ along!
+261a5f71	Neuro is a learning tool and does not replace examination, clinical judgement or a physician’s orders.
+1d572b05	Dozens of bilingual figures and clinical pictures, from the neuron and synapse to the brain lobes, meninges, reflex arc, haematomas, MRI and EEG.
+f9980dc1	Break every neuro word into prefix, root and suffix and say what it means
+de3f5dfb	Point out the brain lobes, brainstem, cerebellum, meninges, ventricles and spinal cord on a figure
+9c613da1	Explain the neuron, synapse, reflex arc, cranial nerves and autonomic system
+6bcaf465	Tell stroke, epilepsy, Parkinson’s, Alzheimer’s, MS and other neurological diseases apart
+77073274	Recognise anxiety, mood and psychotic disorders and their medicines
+9d0376c4	Read EEG, lumbar puncture, CT and MRI, the Glasgow scale, operations and record abbreviations
+907e6804	Just 5 minutes a day. A few weeks from now you’ll read a neurology note like a familiar story.
+da4152fc	Hi! I’m Neuro, a smiling brain 🧠 What’s your name?
+87e88ff2	Which world shall we start with? If you’re new, “Language of Nerves” is the best start; the basic roots and the parts of the nervous system are taught there!
+1e5c8e31	The word <b dir="ltr">hemiplegia</b> means…
+2a5036fb	weakness of one limb
+ae3f7442	paralysis of both legs
+dc35453f	⟦0⟧<br><b>hemi-</b> = half, <b>-plegia</b> = paralysis. So it means <b>paralysis of one half of the body</b>, for example after a stroke. Start the meaning from the suffix!
+47942953	New Spark
+7baaeb58	Curious Dendrite
+587e004c	Speedy Axon
+883263a0	Guardian of the Meninges
+0b576e8d	Synapse Master
+6300c915	Cranial Nerve Guide
+b2fc88a8	Reflex Hunter
+c3bec002	EEG Reader
+34457aee	Stroke Detective
+855d0f79	Mental Health Companion
+72bb5715	Glasgow Master
+60f2f9f9	Neurology Legend
+1d398e00	psychology student
+3fcfef3a	neurology resident
+3855ff2d	EEG technologist
+0840a9a1	speech therapy student
+97b6048a	First Spark
+24477a9b	Brain Map Reader
+8e7b782a	Impulse Master
+906a161d	Nerve Detective
+d4cfda8e	Mind Companion
+297ec4a4	Search: neur, brain, seizure…
+a43af9eb	Search: encephal, nerve, -plegia…
+b3208021	Search: CVA, spinal cord, EEG…
+2ddd5a40	⚕️ Neuro is a learning tool; the dictionary and Glasgow score do not replace a neurological examination and clinical judgement.
+d0f7f2c1	Eye opening
+c9d7eaa8	Opens spontaneously
+5260f04f	Opens to voice
+4f046c10	Only to painful stimulus
+f0ea32d2	No response
+ca17e133	Verbal response
+7b08d492	Oriented to time and place
+c70fa63a	Confused
+a7332e28	Inappropriate words
+b3cdb76f	Incomprehensible sounds
+c4fac79d	No sounds
+c67adb8d	Motor response
+0639f3eb	Obeys commands
+1e3203dd	Localises pain
+5b37a909	Withdraws from pain
+cfe42bb3	Abnormal flexion (decorticate)
+be05e56f	Abnormal extension (decerebrate)
+ceaac099	No movement
+ba93d6a2	<b>⟦0⟧</b><span>out of 15</span><small>Choose one option for each of the three parts E, V and M.</small>
+e1893bf8	Mild brain injury
+0b0a8dff	Consciousness close to normal; keep monitoring neurological signs.
+976e87a3	Moderate injury
+d1f65cf2	Reduced consciousness; needs careful assessment and a CT scan.
+ccc9af5c	Severe injury (coma)
+2992d512	A score of 8 or less: the airway is at risk; intensive care is needed.
+0ad0b8b9	<b class="tsc--⟦0⟧">⟦1⟧</b><span>out of 15 • <bdi dir="ltr">E⟦2⟧ V⟦3⟧ M⟦4⟧</bdi></span><small><b class="tsc--⟦5⟧" style="font-size:inherit">⟦6⟧</b>; ⟦7⟧</small>
+ea95af8b	Glasgow Coma Scale
+b303219c	<div class="tpane"><p class="muted">Choose the patient’s best response for each part; the Glasgow score runs from 3 to 15.</p>⏎    <div class="gcs__out" aria-live="polite">⟦0⟧</div>⏎    ⟦1⟧⏎    <table class="mini"><tr><th>Score</th><th>Interpretation</th></tr>⏎      <tr><td>13 to 15</td><td>Mild injury</td></tr><tr><td>9 to 12</td><td>Moderate injury</td></tr><tr><td>8 or less</td><td>Severe injury; coma</td></tr></table>⏎    ⟦2⟧⏎    <p class="muted">The Glasgow score is part of the neurological examination, and treatment decisions rest with the physician.</p></div>
+93732142	The three parts of the Glasgow scale
+82b38120	absence seizure (petit mal)
+906116e0	acetylcholine
+9d31ef10	sensory neuron carrying signals in
+32342e9b	inability to recognise objects
+67515d83	fear of open and crowded places
+cd8a3720	amnesia
+8f48e2dd	amyotrophic lateral sclerosis (ALS)
+fc61dd6a	pain-relieving drug
+d892cbed	absence of the brain
+36a0971c	loss of sensation or consciousness
+73a910ca	drug that removes sensation or consciousness
+f436452b	aneurysm (bulging of an artery)
+734ef7da	drug against seizures
+23a7bc64	drug against depression
+2afbfc10	antipsychotic drug
+52cf4aef	anxiety
+ce302e84	anti-anxiety drug
+47480bc1	loss of language ability
+ad4e37cc	inability to carry out learned movements
+26bd9ba4	arachnoid
+0cca04d2	astrocytoma
+2033a601	lack of movement coordination
+14c79289	attention-deficit/hyperactivity disorder
+e9f1cae9	warning sensation before an attack
+5b92e283	autism spectrum disorder
+393166b8	autonomic nervous system
+fbe2afa9	axon
+6a45db1b	Babinski sign
+3a4791d1	facial nerve palsy
+f8f3e196	bipolar disorder
+a056988e	blood–brain barrier
+27bc2841	brainstem
+7d75bf55	Broca area
+d8a5d84b	binge eating with purging
+86319cec	carotid endarterectomy
+ee3153c5	carotid ultrasound
+40d1786e	cauda equina
+8d97f372	cell body
+08e8520a	relating to the cerebellum
+f34038e0	cerebellum
+67a9482b	cerebral angiography
+c58c2cc4	cerebral cortex
+d8f014f6	cerebral hemisphere
+ad0963ef	cerebral palsy
+873c3c9a	cerebrospinal
+72775993	cerebrospinal fluid
+d6e69608	choroid plexus
+907847f9	claustrophobia
+c39baa84	cognitive behavioural therapy
+b56ea0b8	coma
+f6e3e0f6	concussion
+ab0df25b	contusion of the brain
+388de17e	convulsion
+36248eed	corpus callosum
+250e9bc1	cranial nerves
+c54d67ae	craniectomy
+b9a8e2d2	incision into the skull
+c917b79c	Creutzfeldt–Jakob disease
+b7906f34	cryosurgery
+788607be	delirium (acute confusion)
+cc0bed05	delusion
+78a931d5	dementia
+30622dc7	dendrite
+1e9ff8aa	depression
+fa7a4256	dermatome
+bd5f3131	Diagnostic and Statistical Manual of Mental Disorders
+5584edda	diencephalon
+cc0662fa	double vision
+1d678f20	disorientation
+449e2630	dopamine
+304a1f80	dopaminergic drugs
+728d16d4	dura mater
+b189d1c3	difficulty articulating speech
+258a61c1	dyslexia
+d6ce972a	dysphasia
+db6a802f	effector
+da9efc53	motor neuron carrying signals out
+2e962ceb	electroconvulsive therapy (ECT)
+6ed18e8f	electroencephalogram
+2417e47b	electroencephalography
+0f94e0cc	electromyography (EMG)
+bfc80699	embolus
+0e5e0576	inflammation of the brain
+c65800e8	any disease of the brain
+a614e6f9	epidural haematoma
+cde6c59f	epidural space
+d4721659	epilepsy
+4f95b1bc	evoked potentials
+6d1d9295	facial nerve
+add7cdcb	flaccid
+b1c6c0bb	frontal lobe
+9d18d087	ganglion
+edeb3577	ganglionic
+3dd59614	generalised anxiety disorder
+acc08449	glioblastoma
+35287577	glioma
+f177419a	grey matter
+34a6c224	Guillain–Barré syndrome
+fb1d7f97	gyrus
+9330ca45	hallucination
+7587464f	weakness of one side of the body
+4f711443	paralysis of one side of the body
+2676abe6	shingles (herpes zoster)
+2a6424f2	Huntington chorea
+e713d3cc	hydrocephalus (water on the brain)
+f73b4de1	excessive sensitivity to sensation
+4044d814	sleep-inducing drug
+be1bcd62	hypochondriasis
+793bdd84	nerve impulse
+009b3935	infarct (dead tissue)
+d0a91987	insomnia
+5f5edec8	interneuron
+fc1dd334	intracranial
+b9c4bc82	local lack of blood supply
+517fef9b	removal of the vertebral lamina
+488e7bb8	drowsiness and sluggishness
+00963c04	level of consciousness
+d4869f34	limbic system
+f7ace9d8	drawing spinal fluid with a needle in the lower back
+1037768d	MR angiography
+80baa483	magnetic resonance imaging (MRI)
+daccbb02	mania
+98937016	medulla oblongata
+adf7f3ad	meningeal
+f0130d5f	membranes of the brain
+730398c7	meningioma
+f1912e45	inflammation of the brain membranes
+4ece689f	protrusion of the meninges
+a3e596aa	mental health
+b485eac3	midbrain
+63da7bca	migraine
+cdbf283f	paralysis of one limb
+89a88aec	mood stabiliser
+2a706403	motor
+0de9eb2a	multiple sclerosis (MS)
+0dab6c4e	muscle relaxant
+c03d2a52	myelin sheath
+690435a6	inflammation of the spinal cord
+c4370f1b	myelography
+6fa294e8	myelomeningocele
+8e97e23b	sudden attacks of sleep
+1267a16c	narcotic drug
+679d6c46	nerve conduction study
+7c561bb9	nerve root
+37f0632c	nerve pain
+26e8b3fa	neurectomy
+d839ab45	inflammation of a nerve
+76c7410a	supporting cells of nerve tissue
+f2f6e9e6	tree
+f2f23865	neuroleptic
+a448e762	neuroleptic malignant syndrome
+51029ab0	neurologic
+b958dd4c	neurological examination
+eec79c43	brain and nerve specialist
+484042e6	study of the nervous system
+3ea0f412	freeing or destroying a nerve
+371a514a	neuromuscular
+871da575	neuron (nerve cell)
+e66db7f8	nerve repair
+cf904250	nerve suture
+bf7669ae	neurosis
+5ab0f60f	neurosurgeon
+bd05f3d5	neurosurgery
+499dfa4c	neurotransmitter
+eadb5aee	obsessive-compulsive disorder
+4dbecb23	occipital lobe
+dbfca8df	optic nerve
+14a8eb5e	panic disorder
+82b42134	paranoia
+3178bbb0	paralysis of both legs and lower body
+8f590ef0	parasympathetic nervous system
+660d534e	tingling and pins and needles
+f9c1e294	parietal lobe
+978e41ed	peripheral nervous system
+9dd1ba98	personality disorder
+5f9a2a6b	phobia
+da5add56	pia mater
+d49a3024	nerve plexus
+63e997d5	inflammation of many nerves
+6b2ec4f3	pons
+8412423e	positron emission tomography (PET)
+6ce20490	post-traumatic stress disorder
+44396b3b	psychiatric, mental
+673f9d89	psychogenic
+c8f6af81	psychologist
+4433eeac	psychosis
+8d0ba6d6	psychotherapy
+8ea99c47	paralysis of all four limbs
+b6deb8b7	inflammation of a nerve root
+a9d83964	disease of a nerve root
+f1cb6850	reflex
+49a4a273	reflex arc
+2e802f07	Reye syndrome
+3e7d5414	rhizotomy
+1e44294d	schizophrenia
+15c6da7c	Schwann cell
+02d59684	sciatic nerve
+e3b473ac	sciatica (pain along the sciatic nerve)
+116eef77	seasonal affective disorder
+e413daa2	sedative drug
+919c7ab0	serotonin
+ab0206bc	somatic nervous system
+de93fb13	somatic symptom disorder
+7f7ba74a	spasticity (muscle stiffness)
+766be5f0	spina bifida (split spine)
+dc122df6	spinal nerves
+97c3157f	stereotactic radiosurgery
+09f175ba	stimulant drug
+727379c2	stimulus
+53559437	subarachnoid space
+b1ab6c5a	subdural haematoma
+36f7c2d8	subdural space
+b0a4159c	substance use disorder
+ee51ee3b	sympathectomy
+53a9616d	sympathetic nervous system
+5d48d850	synapse
+9d1126af	fainting
+172cf4f2	temporal lobe
+18375eca	thalamic
+a68178c9	clot-dissolving therapy
+32436cc6	blood clot formation in a vessel
+2d139942	tonic-clonic seizure (grand mal)
+5e256e7b	transcutaneous electrical nerve stimulation (TENS)
+9e98b704	transient ischaemic attack (mini-stroke)
+02e8a85f	traumatic brain injury
+af41d9fd	tremor
+e931f43e	trigeminal nerve
+6db59162	trigeminal neuralgia
+202029d7	unconscious
+f29f4bbe	vagal
+95058fa7	ventricle of the brain
+2abe278e	ventriculoperitoneal shunt
+3da074db	dizziness with a spinning sensation
+e74ab68c	Wernicke area
+37975f02	white matter
+d82edd62	decrease, loss
+ae3a2434	difficult, abnormal
+eb34eab7	not, in
+224f3db3	beside, abnormal
+29c012c3	nerve supporting cell (glue)
+31046680	membranes of the brain
+4e040e41	spine, spinal cord
+61da6b39	cerebrum, brain
+c02a2662	blood vessel
+a8cf5c21	prevention, deficiency
+940f8094	order, coordination
+5f08805d	knowing
+44b41fc4	joint; articulation
+b3d433e8	vertebral lamina
+d3fa8fec	travelling clot
+cebf721e	psyche, mind
+50ab3aa6	mind
+b8f63731	split
+99593ccd	numbness, stupor
+05172102	star
+c753b203	sympathetic nerve

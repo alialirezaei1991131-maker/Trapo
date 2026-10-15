@@ -1,0 +1,7 @@
+# overrides: world names
+4da7eedb@neuro#3	Brain and Spinal Cord
+4da7eedb@neuro#4	Brain and Spinal Cord
+a3e596aa@neuro#3	Mental Health
+a3e596aa@neuro#4	Mental Health
+e712189f@neuro#1	Diagnosis and Treatment
+e712189f@neuro#2	Diagnosis and Treatment

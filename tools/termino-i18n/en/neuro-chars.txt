@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+c948e245@neuro#1	Brainy
+66270c64@neuro#1	Rooty
+43063b0b@neuro#1	Puzzly
+eb42bad0@neuro#1	Skully
+7164a343@neuro#1	Trimeni
+1cf5abeb@neuro#1	Spiny
+61aa260e@neuro#1	Neuri
+e4179381@neuro#1	Sparky
+91c7d64a@neuro#1	Libra
+d84bb2f9@neuro#1	Ruby
+627ab3d6@neuro#1	Myeli
+0f2aa204@neuro#1	Stormy
+cc6968bf@neuro#1	Luna
+3389ee5d@neuro#1	Bubbles
+d5b7aca8@neuro#1	Psyche
+57fb7775@neuro#4	Wavy
+859cda16@neuro#1	Capsy
+1a868316@neuro#1	Scripty

@@ -1,0 +1,19 @@
+54281c50	A meningocele is a protrusion of the membranes and a myelomeningocele a protrusion of the spinal cord and membranes.
+5deafce0	Meningitis usually shows itself with fever, headache and a stiff neck.
+af424c52	A delusion is an error of belief and a hallucination an error of the senses.
+a7b5673d	A phobia is an intense, persistent, irrational fear of something specific.
+b4e2e2b7	In OCD, an obsession is a repeated thought and a compulsion a repeated act.
+9eef2ad7	Bipolar disorder means swinging between mania and depression.
+f29377c4	Schizophrenia does not mean split personality; it means the mind detaching from reality.
+7bef28be	A neuroleptic is an antipsychotic drug; NMS is a rare, dangerous reaction to it.
+8e517aa7	SSRIs keep more serotonin in the synapse and ease depression.
+5ec9bd46	Delirium is sudden and temporary, but dementia is gradual and progressive.
+e78d7cb1	The GCS runs from 3 to 15; 8 or less means severe injury.
+4d031125	EEG records the electricity of the brain and EMG that of muscle.
+b13c111c	A lumbar puncture is usually done between L3 and L4, below the end of the spinal cord.
+c05f3866	CT shows bleeding quickly and MRI shows soft tissue detail.
+b393590b	A craniotomy is an incision into the skull and a craniectomy removal of part of it.
+3fd56894	laminectomy means removing the vertebral lamina to relieve pressure on the spinal cord.
+d3eeeceb	-rrhaphy means suture; neurorrhaphy is suturing a nerve.
+5e51bb9a	An analgesic reduces pain and an anesthetic removes sensation.
+5e9a6351	PT restores strength and walking and OT restores everyday tasks.

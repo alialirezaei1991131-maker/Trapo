@@ -1,0 +1,225 @@
+197f515a	Diving into a shallow pool
+eb87e8cf	William, a 12-year-old boy
+2a1a10c1	At a birthday party, William dived head first into a shallow concrete pool. He complains of (c/o) severe head and neck pain; his arms move slightly and he cannot move his legs. His blood pressure was low and his heart rate slow. His legs were flaccid and his toes did not move. Diagnosis: a burst fracture of the C6 vertebra that may lead to quadriplegia.
+743234fb	Level
+89ece479	Which vertebra is C6?
+fb05cd4a	the sixth cervical vertebra
+cbd4293f	the sixth thoracic vertebra
+9049cbc0	the sixth cranial nerve
+c2af227d	the sixth lumbar vertebra
+c2dcaec8	What paralysis can a cervical spinal cord injury cause?
+7502aecf	All four limbs.
+5e263954	William’s record.
+a895261e	Team
+c862c7d6	Match each team member to their job
+56fccb12	spine surgery
+49842f12	nerve disease
+864d314a	psychological counselling
+f62c2965	During rehabilitation, William received counselling for depression and anxiety.
+e6eb1c88	Spell the term for paralysis of all four limbs
+fe9f7617	Acute ischaemic stroke
+ceae920a	Allen, a 62-year-old man
+b16508e9	Allen came to the ED with right hemiplegia and aphasia. He has a history of high blood pressure and recent TIAs. He arrived by ambulance 15 minutes after the right-sided weakness began. A rapid assessment and neurological examination with the GCS were done. A CT without contrast showed no intracerebral or subarachnoid bleeding. Diagnosis: probable acute ischemic stroke, with fibrinolytic treatment. He was monitored in the NICU for 48 hours and discharged with a prognosis of full recovery.
+76fce6c7	What usually causes an ischaemic stroke?
+833455f5	What is the aim of fibrinolytic treatment?
+9ba0009b	stabilising blood cells
+7246ba27	stimulating clotting
+e5599e9d	Match each meaning to the term in the record
+e3705a32	blood beneath the dura
+f179d807	neurological intensive care
+a91cd68d	Which is the general term for any disorder of brain tissue?
+cc544e9b	Spell the adjective for a lack of blood supply
+83588718	Middle cerebral artery stroke
+07c65ddf	Anna Moore, an 83-year-old woman
+bfe3527a	Mrs Moore came to the ER with aphasia, left-sided hemiparesis, syncope and delirium. Her daughter found her like this at home. She has a history of hypertension, atherosclerosis and diabetes mellitus. A brain scan showed an infarct in the right hemisphere of the brain: a CVA in the middle cerebral artery.
+f700169a	acute mental confusion
+58dd3d31	Case Study in Fremgen’s book.
+fce7ab63	infarct means…
+4ed7eb36	dead tissue caused by a cut-off blood supply
+35ff7f9f	Tissue death.
+23240c0d	atherosclerosis means…
+1d6ffe09	hardening and narrowing of the arteries with plaque
+b6409354	The groundwork for a stroke.
+f1bfd7fb	An infarct of the right hemisphere fits with weakness of the left side of the body.
+c9599f91	Causes
+55447416	Put the four common causes of CVA from the book in this order
+cee4fa73	Figure 12-10 in Fremgen’s book.
+a2a544bd	Spell the term for an area of dead tissue from lost blood supply
+14647a51	Dead tissue.
+9d885245	A seizure on the ward
+3003b322	Mrs April Johnson is having a seizure. You need to know what to observe and record, and why an exact description of the seizure matters.
+2ea126b6	What should you record during a seizure?
+0f6c3007	the time of onset, duration, body movements and level of consciousness
+aade9c57	only the colour of the patient’s clothes
+0ebb158b	only the morning blood pressure
+af1e9848	nothing; just wait
+4cd612b2	A full description.
+68948a1d	Importance
+eccffe4d	Why does an exact description matter?
+d7c9d592	it identifies the type of seizure and the treatment
+d2ba8e83	it is enough to fill in the record
+8662396d	it is needed for insurance
+bd4ecc3c	it does not matter
+99a97fc5	Diagnosing the type of epilepsy.
+469faf15	drowsiness after the seizure
+d4fdeee4	Seizures.
+24b6f371	Anticonvulsant.
+962a6bcf	An EEG is used to investigate epilepsy.
+b19c901d	Irregular waves.
+9db2369f	Spell the term for a sudden electrical storm in the brain
+76f5d9ee	Buttons that won’t fasten
+bddbfbd6	Over the past few months, Mr Gutierrez has had trouble buttoning his shirt and remembering things, and he limps; his fingers are numb. He has no history of stroke, and his blood pressure has always been normal. Dr Stanley performed an EEG, blood tests and several reflex tests and confirmed Parkinson disease. He asked the patient to record his walking, vision, speech and tremor every day for three weeks.
+8535c2f6	A shortage of which transmitter causes Parkinson’s?
+16347880	Dopamine.
+648f8570	Why did the doctor ask the patient to record his symptoms for three weeks?
+6e09f1f9	to see the course of the disease and the effect of the medicines
+d36d17b3	to keep the patient busy
+5de97d45	for insurance
+1af811ef	to diagnose a stroke
+924491b7	Monitoring the response to treatment.
+e0acf86a	tremor
+c2319e3e	limping
+1011a5b0	What does the EEG examine in this patient?
+6fac7d34	the electrical activity of the brain
+1aad4181	blood flow in the legs
+a86cfeaa	Ruled out
+3ade4b1f	His normal blood pressure made a stroke less likely.
+3e32ab64	The doctor suspected another disease.
+0e42f5c7	Spell the term for involuntary trembling
+ffa6e5c3	Involuntary trembling.
+77d72f0c	A positive genetic test
+f71c04c6	Mrs Amy Shine, 49
+d6c11d6a	Mrs Shine has tested positive for Huntington chorea. She asks the nurse what symptoms she will develop and what she can do to stop the disease progressing.
+95dd2b2a	What kind of disease is Huntington chorea?
+03cf8d36	hereditary and degenerative
+70168ec8	stroke
+5b081773	Genetic.
+410e6475	chorea means…
+515318b4	involuntary dance-like movements
+730f8193	tremor at rest
+a3af8edd	chorea = dance.
+3b251a99	Answer
+db594506	Which is the nurse’s correct answer about the progression of the disease?
+566250fd	there is no cure; treating symptoms and support help
+cc104528	exercise prevents it completely
+012213e4	it is treated with antibiotics
+2217267b	no follow-up is needed
+e609ff3c	Progressive.
+0e2c3d85	dementia
+907b7dc1	Dementia can also develop in Huntington chorea.
+fee78023	Motor and mental.
+a5bc12d5	Spell the term for involuntary dance-like movements
+864ded6b	ch sounds like k.
+d0432868	Viral meningitis
+1ff38887	The doctor tells Jaime’s family that he has viral meningitis and his symptoms will settle in a few days. You need to explain what this disease is, what signs it has and how it is treated.
+ec062e09	viral meningitis means…
+65d8bd1c	viral inflammation of the membranes of the brain and spinal cord
+aebb250f	a tumour of the meninges
+1c056584	inflammation of the facial nerve
+fb6e199c	Which group of signs is common in meningitis?
+f1f3fa51	fever, headache and stiff neck
+81cf1138	double vision and tremor
+9e64c20e	paralysis of one leg
+db6046ec	The classic triad.
+daa84596	How is viral meningitis usually treated?
+a0ee747f	rest, fluids and painkillers
+f08bb928	emergency surgery
+eb23963d	a VP shunt
+379a1b29	Supportive treatment.
+bff97022	Which test examines the CSF to diagnose meningitis?
+fd9d6667	Meningitis.
+514117a6	Write the term for inflammation of the brain and spinal cord membranes
+2eae30c9	A racing heart in stressful situations
+a233b357	Mrs Gina Jones has come to the clinic and says that every time she is in a stressful situation, her heart rate and breathing rate go up and she sweats. She is worried she has a mental disorder and wants medicine. How should the nurse respond?
+1fc61c02	Mrs Jones’s symptoms are the work of which system?
+f62a0a03	Which is the nurse’s appropriate response?
+93d20cb5	this is the body’s normal response to stress; if it becomes groundless or constant, further assessment is needed
+9bb4bf0c	she definitely has a mental disorder
+9a298d85	she must take an antipsychotic drug right away
+38ff6377	no explanation is needed
+ce6555ab	Patient education.
+64897a7d	Match each symptom to its medical term
+76d96b58	The stress response.
+f139ec1f	If worry is groundless, intense and lasts for months, it may be GAD.
+861a97a7	Generalised anxiety.
+3a85425c	Which drug-free treatment is effective for anxiety?
+c5017347	Cognitive behavioural therapy.
+cab4d26e	Write the term for worry and fear with a racing heart and sweating
+9e64155f	The x sounds like “gz”.
+774540d6	Jane, a 21-year-old woman
+c1a68689	Jane, who has chronic paranoid schizophrenia, was admitted with a diagnosis of pneumonia. Her mother says she has been very lethargic for three days and has a fever of 104 °F and muscular rigidity. Her medicines are Haldol and Cogentin, and her psychiatrist changed her neuroleptic last week. Second diagnosis: neuroleptic malignant syndrome. The drugs were stopped, IV fluids were given and she was treated with bromocriptine and dantrolene. After 5 days she was transferred to a mental health centre, and the neuroleptic was restarted at a low dose.
+da960f65	NMS is linked to taking which drug?
+44f061fd	Jane had symptoms in involuntary functions and in movement outside the pyramidal tract; these functions are…
+cf5151e8	autonomic and extrapyramidal
+de06a5e0	autonomic and voluntary
+a56f362f	extrapyramidal and pyramidal
+0fab5f02	autonomic and neuroleptic
+a3ab20bb	doctor for mental disorders
+3cd1eb21	What kind of drug is dantrolene?
+0d792628	a muscle relaxant and antispasmodic
+85cc09a3	a narcotic painkiller
+d346a126	paranoid means with a sense of threat and persecution.
+0acc83a4	Write the name of Jane’s chronic psychotic disorder
+2dce79a3	L2 fracture and paraplegia
+eebb2cfa	A 23-year-old man
+f4cc1961	Discharge summary: after a motorcycle accident he was unconscious for 35 minutes, and on regaining consciousness he felt complete numbness and paralysis below the waist. CT showed extensive bone destruction at the fracture site and a transected spinal cord. A lumbar laminectomy with spinal fusion was performed to stabilise the fracture and remove the epidural hematoma. After two months of physiotherapy and occupational therapy he was transferred to a rehabilitation centre.
+d13c841a	paraplegia means…
+5b8fe50f	paralysis of one arm
+1bbaeedb	Match each term in the discharge summary to its meaning
+122b331c	comminuted fracture means…
+78237c5d	a fracture crushed into several pieces
+fbab0323	a cracked fracture
+f44b0420	an open fracture
+688a69b4	Crushed.
+ffdefebd	Put the course of treatment in order
+2120c62d	PT means physical therapy and OT means occupational therapy.
+6238f3e1	Spell the term for paralysis of both legs and the lower body
+a08c0531	A stroke in a patient with cancer
+5af7721a	A woman admitted to Riverside Hospital
+53216deb	Chart note: the patient was admitted with a sudden stroke. Three days ago she had vertigo. Because of advanced adenocarcinoma of the head of the pancreas with liver metastases, her daughter cares for her at home. She fell to the floor, her right arm and leg became paralysed and she developed aphasia. She has no problem with deglutition. At the onset of the stroke she also had diplopia. Diagnosis: stroke, probably due to a metastatic brain lesion or cerebrovascular disease.
+fb751081	Chart Note Analysis in Gylys’s book.
+dcc9649a	What is paralysis of the right arm and leg called?
+78a66da8	One half of the body.
+02165759	CVD means…
+154f809d	heart valve disease
+268d75c9	metastatic lesion of the brain means…
+41d6e253	a brain lesion that cancer has reached from elsewhere
+f5a7c524	a primary brain tumour
+fb22db75	a brain abscess
+f8a1016b	Metastasis.
+8d7328dc	To tell a metastatic lesion from a vascular stroke, a brain CT or MRI is needed.
+8ec8db1c	Spell the term for a spinning dizziness
+e84d8796	Spinning dizziness.
+fedf11f6	The nervous system has two parts: the CNS (brain and spinal cord) and the PNS (all the nerves outside them).
+25c84925	Start the meaning from the suffix: hemi/pleg/ia means “condition of paralysis of half the body”.
+d84510ec	neur/o is nerve, encephal/o brain, myel/o spinal cord, mening/o the brain membranes and crani/o the skull.
+25ba531a	myel/o means spinal cord but my/o means muscle; myelitis is different from myositis.
+b6af9c78	-plegia is complete paralysis and -paresis is weakness or partial paralysis.
+87f7a791	-phasia means speech and -phagia means swallowing; aphasia and aphagia are two different things.
+06336c52	A neurologist treats with medicines and examination; a neurosurgeon with surgery.
+9d4024ac	A psychiatrist is a physician and prescribes medicines; a psychologist does psychotherapy and testing.
+8c9f400c	The brain has about 86 billion neurons.
+67fdc6a9	The cerebrum is the largest part of the brain, and the cerebellum controls balance and coordination.
+8f04081c	The brainstem has three parts: the midbrain, pons and medulla oblongata.
+3a2d4580	The medulla oblongata controls breathing and heart rate.
+c40c1d13	The meninges from outside in: dura mater, arachnoid and pia mater.
+58191c6f	CSF is made in the choroid plexus of the ventricles and keeps the brain afloat.
+f5c8e646	Broca area produces speech and Wernicke area understands it.
+2c194269	Each hemisphere of the brain controls the opposite half of the body.
+8083cf65	In the brain the grey matter is on the outside, but in the spinal cord it is in the middle and shaped like a butterfly.
+4a5f0095	In adults the spinal cord reaches about the L2 vertebra, and below it is the cauda equina.
+e005b456	We have 12 pairs of cranial nerves and 31 pairs of spinal nerves.
+e09d6e1a	Afferent carries the message towards the CNS and efferent away from it.
+e7b2e443	The dendrite receives the message and the axon carries it away.
+dd9a5649	The myelin sheath is like the coating on an electric wire and makes the message faster.
+eb649031	The vagus nerve (X) supplies most of the chest and abdominal organs.
+2357773c	Sympathetic means “fight or flight” and parasympathetic “rest and digest”.
+39491757	A Babinski sign is normal in a baby, but in an adult it is a sign of motor neuron damage.
+9d8eef1f	Shingles (herpes zoster) causes a painful rash along one dermatome on one side of the body.
+cf819e53	A CVA is a stroke; either ischaemic (a clot) or haemorrhagic.
+da77d085	A TIA is stroke symptoms that resolve within 24 hours; a serious warning.
+ff8adc0f	An epidural hematoma is above the dura and a subdural one is below it.
+f7402b99	epilepsy means recurrent seizures; -lepsy means attack.
+07f18240	Parkinson’s comes from a lack of dopamine: tremor, rigidity and slow movement.
+4bda1b4a	In MS the myelin sheath is destroyed and replaced by hard plaque.
+4b7332d6	hydrocephalus means CSF building up in the ventricles; it is treated with a VP shunt.

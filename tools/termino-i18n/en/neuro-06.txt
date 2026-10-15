@@ -1,0 +1,235 @@
+7ff6cfdc	Sudden onset.
+cd8982e3	A patient who does not know where they are or what day it is has…
+a07381b2	Disorientation.
+b85eb830	Dementia is usually gradual and progressive.
+ff775080	Unlike delirium.
+722d111a	Match each word to its feature
+be49e577	sudden
+9b7fd928	progressive
+d0add238	losing track of time and place
+edddbd76	Mental confusion.
+fc6dd7a5	In Anna Moore’s record, which sign means “fainting”?
+3aa6f70a	Anna Moore had left-sided weakness; that is, left ___.
+ad631085	Spell the term for a sudden, temporary state of confusion
+9c0f4147	Acute confusion.
+a64a17fc	Anxiety and Panic
+4345df66	The anxious body
+5b56720b	⟦0⟧⟦1⟧ is a feeling of worry and fear with a fast heartbeat, fast breathing and sweating; the same as the sympathetic response. When it is groundless, intense and persistent, it is a disorder.
+0863bb65	Two disorders
+57d26fed	• ⟦0⟧: constant, excessive worry about everyday things for months<br>• ⟦1⟧: sudden attacks of intense fear with palpitations, shortness of breath and chest pain⟦2⟧⟦3⟧
+01bc82bf	Mrs Gina Jones (the book’s scenario) has symptoms only in stressful situations; this is a normal response and not necessarily a disorder.
+8956e55b	GAD = worry like never-ending rain; panic = like a sudden thunderbolt.
+726c8f6f	What is constant, excessive worry about everyday things called?
+52cba906	A sudden attack of intense fear with palpitations is a sign of what?
+331ba7c9	A panic attack.
+ead13c8d	The fast heartbeat and sweating of anxiety are the work of the sympathetic system.
+43214f1c	Fight or flight.
+ae113253	Put a panic attack in order
+5d93697d	Peaks within minutes.
+17112b8d	generalised anxiety
+75d8b778	panic attack
+18fb225d	Anxiety.
+89b6dcd9	A drug against anxiety is called an ___.
+eaa4c28a	Spell the term for a feeling of worry and fear
+ecb45644	The x sounds like “gz”.
+e26594d2	Phobia, Obsession and PTSD
+ca572268	Phobia
+a53f1863	⟦0⟧A ⟦1⟧ is an intense, persistent, irrational fear of something specific.<br>⟦2⟧: fear of crowded, open places • ⟦3⟧: fear of enclosed spaces • ⟦4⟧: sensitivity to light
+f0ec2dad	Obsession and trauma
+94a5dba8	• ⟦0⟧: unwanted recurring thoughts (⟦1⟧) and repeated acts (⟦2⟧), such as washing the hands again and again<br>• ⟦3⟧: anxiety, nightmares and flashbacks after a terrifying event⟦4⟧⟦5⟧
+d0a230a9	An Obsession is in the mind and a Compulsion is in the hands.
+8cb5649c	Cohen’s Pretest: “An extreme, persistent fear is a phobia”.
+49254a7a	What is an intense, persistent fear of something specific called?
+de9c18aa	Which is the fear of enclosed spaces?
+4f9f149d	claustr = closed.
+012cb731	In OCD, repeated hand-washing is a compulsion.
+3d1d8674	A repeated behaviour.
+f0db9117	Build a word meaning “fear of open and crowded places”
+aff4f492	fear of crowded places
+e9b3f079	obsessive-compulsive
+65958e37	post-traumatic stress
+b01bda4d	Anxiety disorders.
+25678092	The abbreviation ___ means post-traumatic stress disorder.
+25a25657	Spell the term for an intense, irrational fear
+f70cc6fb	ph sounds like f.
+8ced4646	Depression and Bipolar Disorder
+f648531d	Mood
+c1cb08e7	⟦0⟧• ⟦1⟧: lasting sadness, loss of interest, low energy and hopelessness<br>• ⟦2⟧: excessive excitement and elation, rapid speech and little sleep<br>• ⟦3⟧: alternating episodes of mania and depression
+f4ca6052	⟦0⟧: depression in the dark winter months. The suffix ⟦1⟧ appears in other words too, such as ⟦2⟧ (delusions of grandeur).⟦3⟧⟦4⟧
+6bf6dbf6	bipolar means “two poles”, like a magnet with two ends: mania and depression.
+c1d8fd00	After his spinal cord injury, William (Case Study in Cohen’s book) developed depression and anxiety and received psychological counselling.
+42860343	What is a disorder with alternating episodes of mania and depression called?
+80b9e2c7	Two poles.
+eaf352d2	excessive excitement and elation
+7bf6e30b	lasting sadness
+b8d2e223	Mania.
+32403ab1	SAD is a type of depression in the dark months of the year.
+6fa02844	Put the mood cycle of bipolar disorder in order
+ee6f2521	Swinging between two poles.
+dc96e801	mania
+7d5d036b	Mood disorders.
+c11cb793	An ___ drug, such as an SSRI, treats depression.
+646642cd	Spell the term for lasting sadness and loss of interest
+e02ceadb	Schizophrenia and Its Medicines
+df83821c	⟦0⟧ → ⟦1⟧: a psychotic disorder with delusions, hallucinations, disorganised thinking and withdrawal (⟦2⟧ = split, ⟦3⟧ = mind). The main treatment is an ⟦4⟧, also called a ⟦5⟧.
+9e835cd6	A dangerous reaction
+df7716be	⟦0⟧: a rare, dangerous reaction to antipsychotic drugs with high fever, muscle rigidity and altered consciousness.⟦1⟧⟦2⟧
+6a3699db	Case Study 7-2 in Cohen’s book: Jane came in with a fever of 104 °F, lethargy and muscular rigidity; her neuroleptic drug had been changed the week before. The drugs were stopped and she was treated with IV fluids, bromocriptine and dantrolene.
+5b8d7732	Schizophrenia does not mean “split personality”; it means the mind splits from reality.
+74dbbed3	Which drug group is the main treatment for schizophrenia?
+85b0eb47	Which drugs is NMS linked to?
+1bb37c86	antipsychotic drugs
+b4d55689	clot-dissolving drugs
+599badb4	painkillers
+183fd727	A neuroleptic is the same as an antipsychotic.
+27dfb6d6	Haldol (haloperidol) is an example.
+f8c43fe0	Put Jane’s treatment in order
+d2e9248d	Match each word in Jane’s record to its meaning
+933a8554	drowsy and sluggish
+cd3e271e	against spasm
+e8c1c915	The abbreviation ___ means neuroleptic malignant syndrome.
+752ea389	Spell the term for a psychotic disorder with a mind split from reality
+0a4675fa	Development, Eating and Somatic Symptoms
+ab20d4b6	Developmental disorders
+55a7d047	• ⟦0⟧: difficulty with social communication and speech, with repetitive behaviours (⟦1⟧ = self)<br>• ⟦2⟧: inattention, impulsivity and hyperactivity starting in childhood
+e82898b3	Eating and the body
+2bf0bcf6	Disorder
+22c5569c	intense fear of fatness and starving oneself
+11a80c02	binge eating followed by purging such as vomiting
+7db21b48	physical symptoms with excessive worry
+2391c813	constant worry about having a serious illness
+0818d7f3	an- + orexia means “no appetite”; but in anorexia nervosa the appetite is there and the patient does not eat for fear of gaining weight.
+4a3bd173	Which developmental disorder involves difficulty with social communication and repetitive behaviour?
+43e4c08e	Binge eating followed by deliberate vomiting is a sign of which?
+a2dfd1c2	Purging.
+7bd24828	ADHD usually starts in childhood.
+d9ccc9d8	Match each disorder to its meaning
+78c85053	autism spectrum
+16d734fe	attention deficit-hyperactivity
+58188a2f	Other disorders.
+e300045d	The root aut/o in autism means…
+829a32a9	car
+85ddc0a8	The abbreviation ___ means somatic symptom disorder.
+3ffb93d7	Spell the term for self-starvation from an intense fear of fatness
+4a2f76a4	Treatment in Mental Health
+23b0675b	Talking and treatment
+5f1d592d	• ⟦0⟧: treatment by talking with a trained therapist<br>• ⟦1⟧: changing unhelpful thoughts and behaviours<br>• ⟦2⟧: a controlled electric current under anaesthesia for severe depression
+6c5dc4a3	bipolar disorder; such as lithium
+ce3331fc	The abbreviation SSRI means selective serotonin reuptake inhibitor; it keeps more serotonin in the synapse.
+d8ff6d36	What is treatment by changing unhelpful thoughts and behaviours called?
+eee05544	Which drug stabilises mood in bipolar disorder?
+eb64de8f	ECT is used for severe depression and is done under anaesthesia.
+fce344c9	Build a word meaning “treatment of the mind (by talking)”
+851df96e	Psychiatric drugs.
+33c335b7	The abbreviation ___ means electroconvulsive therapy.
+3b79f656	Spell the term for treatment by talking with a therapist
+3351bb96	Neurological examination and Glasgow scale, EEG and EMG, lumbar puncture, CT, MRI and PET, craniotomy and laminectomy, shunts, drugs and rehabilitation
+6ae29dd4	Examination and Tests
+bb7a4b49	Drugs, Rehabilitation and Records
+040410f3	Neurological Examination and Glasgow Scale
+ec9668ff	The ⟦0⟧ assesses: mental status and ⟦1⟧, cranial nerves, muscle strength, sensation, reflexes (⟦2⟧ and Babinski) and coordination and walking (⟦3⟧).
+91fe5e64	⟦0⟧The ⟦1⟧ scores the level of consciousness from 3 to 15: eye opening (⟦2⟧ 1 to 4), verbal response (⟦3⟧ 1 to 5) and motor response (⟦4⟧ 1 to 6). A score of 8 or less means severe injury.⟦5⟧
+5ab00743	Case Study 7-1: in the ED a GCS was taken for Allen to see whether he was suitable for clot-dissolving treatment. Try the “Glasgow Coma Scale” tool in the Tools section!
+497447ff	What is the highest GCS score?
+4511747b	A GCS score of 8 or less means…
+1a831599	severe brain injury (coma)
+416fc2c8	mild injury
+91a60230	full consciousness
+55bbc9e6	a measurement error
+60d9a7b2	The airway is at risk.
+148ab0fe	The GCS has three parts: eyes, verbal and motor.
+741bd744	E, V, M.
+4d5aef34	Put the parts of the GCS in their usual order
+a090c4da	Match each part to its highest score
+ce923595	Scores.
+1f598e3b	The abbreviation ___ means level of consciousness.
+90408b5d	Spell the phrase for how alert and awake a patient is
+c3d6b03b	conscious = awake and aware.
+0c581b22	EEG and Nerve Tests
+be12db48	⟦0⟧⟦1⟧ → ⟦2⟧: recording the electrical activity of the brain with electrodes on the head. Its result is an ⟦3⟧. In a seizure, irregular, large waves are seen.
+4fb6cac4	Other tests
+05e2172a	⟦0⟧• ⟦1⟧: recording the electrical activity of muscle<br>• ⟦2⟧: the speed at which a nerve conducts its message<br>• ⟦3⟧: the brain’s response to sound, light or touch, such as ⟦4⟧⟦5⟧
+713085cd	EEG electrodes on the head
+bff9e772	-graphy is the recording method and -gram is the tracing itself.
+a234780c	Which is a tool for examining the electrical activity of the brain?
+f33d68e4	What does EMG record?
+f04fd0f8	electrical activity of muscle
+6fe6b121	brain activity
+072edb6a	blood flow in the brain
+d2584b42	CSF pressure
+e01de7b5	An electroencephalogram is the recorded tracing itself.
+0a9b126e	-gram = writing, record.
+6d930a1f	Build a word meaning “method of recording the brain’s electricity”
+cef776af	brain electricity
+77649e34	muscle electricity
+5b519921	nerve conduction speed
+4a3a39f5	the brain’s response to light
+6103674e	Electrical tests.
+2c3c7565	The doctor ordered an ___ of the brain for Mr Gutierrez.
+ae01562e	Spell the term for the recorded tracing of the brain’s electrical activity
+5a56d4f5	Drawing Spinal Fluid
+d221c752	⟦0⟧⟦1⟧ or ⟦2⟧: a needle is passed between the lumbar vertebrae (usually ⟦3⟧) into the subarachnoid space, and CSF is taken for testing (for example in meningitis). The needle goes in below the end of the spinal cord (⟦4⟧) so the cord is not injured.
+28c50258	⟦0⟧The patient lies on their side and pulls the knees up to the chest to open the spaces between the vertebrae.⟦1⟧
+07fe7b31	Side-lying position for an LP
+ba9cfe13	In the Consultation Report in Fremgen’s book, the phrase “puncture with a needle into the low back to withdraw fluid” means lumbar puncture; its result was normal.
+c10df84b	Between which vertebrae is the LP needle usually inserted?
+924c728c	L3 and L4
+ca03c874	C1 and C2
+b2c5e276	T6 and T7
+2accf8dd	S1 and S2
+8aa15183	Below the end of the spinal cord.
+b5b1bfab	What is taken in an LP?
+387d2c81	arterial blood
+471605c6	nerve tissue
+bce85f12	The LP needle goes in below the end of the spinal cord so the cord is not injured.
+85306296	The cord reaches about L2.
+155a31ba	Put the steps of an LP in order
+7e966661	The puncture procedure.
+f43c39ca	another name for LP
+3643749c	the CSF space
+526f9c94	third lumbar vertebra
+54c27281	The abbreviation ___ means lumbar puncture.
+56aeafbb	Spell the procedure for drawing CSF with a needle in the lower back
+0006bb16	lumb/o = lower back.
+406bfbd5	Three main methods
+ad7caaa7	⟦0⟧• ⟦1⟧: fast; shows bleeding well<br>• ⟦2⟧: detail of the soft tissue of the brain and spinal cord; ⟦3⟧ for the vessels<br>• ⟦4⟧: with a radioactive tracer, shows the activity and metabolism of the brain
+996f3c1c	CT, MRI and PET
+001730cb	A few real images
+e24c0461	⟦0⟧⟦1⟧⟦2⟧: an image of the brain vessels with contrast; ⟦3⟧: an image of the spinal cord with contrast; ⟦4⟧: ultrasound of the neck arteries.
+68eb773d	Tumour in the upper right of the brain
+2daeae35	Reduced brain activity caused by cocaine
+2deed562	PET: the effect of cocaine on the brain
+7ec70150	Which method shows the activity and metabolism of the brain?
+e81f58fe	What is MRA used to see?
+e8f0fdca	brain waves
+4420a8cd	nerve speed
+f184dc7a	CT is good for quickly finding bleeding in the brain.
+943cf616	Build a word meaning “method of imaging the spinal cord”
+e597f2bf	In the book’s Consultation Report, “injection with radioactive isotopes” is for ___.
+aa2524e0	A radioactive substance.
+a7602af8	Spell the term for imaging the spinal cord with contrast
+1106bffd	Skull Surgery
+ce2cb109	Opening the skull
+17633d77	⟦0⟧⟦1⟧ → ⟦2⟧: cutting into the skull to reach the brain<br>⟦3⟧ → ⟦4⟧: removing part of the skull
+f1473ee2	Skull operations
+55439a5e	Without open surgery
+498868c3	⟦0⟧: precise beams that destroy a tumour without open surgery.<br>⟦1⟧ → ⟦2⟧: surgery with extreme cold.⟦3⟧⟦4⟧
+492c2e1f	Consultation Report in Fremgen’s book: a 38-year-old woman with an astrocytoma in the cortex of the right hemisphere; a “right skull incision” (craniotomy) was performed and the tumour was destroyed with “extreme cold” (cryosurgery).
+29e6f856	Malignant tumour in the left hemisphere
+7e87d559	Image of a brain tumour
+a0662b52	cutting into the skull
+7f5082f6	removing skull bone
+bf93c180	repairing the skull
+413d0939	X-ray of the skull
+87b6cfc2	What is destroying a tumour with extreme cold called?
+482d0fc4	Stereotactic radiosurgery is done without opening the skull.
+b329f4c2	Precise beams.
+2fb4f8d7	Put the treatment of the 38-year-old woman (Consultation Report) in order
+5c303f18	The book’s report.
+b08f55f0	Match each phrase in the record to its medical term
+42f0a803	Removing part of the skull is a ___.
+23c66ff2	-ectomy = removal.
+87138bd9	Spell the term for cutting into the skull to reach the brain
+564a0de2	Spine and Nerve Surgery
+8a23a391	⟦0⟧ → ⟦1⟧: removing the vertebral lamina to relieve pressure on the spinal cord or roots<br>⟦2⟧: joining two or more vertebrae for spinal stability⟦3⟧
+fbf3ee22	Discharge Summary in Fremgen’s book: a 23-year-old man, after a motorcycle accident, had a burst fracture of L2 with an epidural hematoma and complete paraplegia; a lumbar laminectomy with spinal fusion was performed.

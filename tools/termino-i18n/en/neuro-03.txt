@@ -1,0 +1,257 @@
+510e6b83	Put the path of a message through a neuron in order
+72d20323	Receive, process, send.
+edcff91a	receiving the message
+fa1acf75	carrying the message
+5e8463ee	insulation
+fbacb02b	support
+d6e1cb5e	Parts of nerve tissue.
+e6335714	The long fibre of a neuron that carries the message away is called the ___.
+99f7f542	neur/o = nerve.
+9c0f5200	⟦0⟧Every word is built from pieces:<br>• <b>Root</b>: the core meaning; e.g. ⟦1⟧ = nerve<br>• <b>Prefix</b>: at the start of the word; e.g. ⟦2⟧ = half<br>• <b>Suffix</b>: at the end of the word; e.g. ⟦3⟧ = inflammation<br>• <b>Combining vowel</b> (usually ⟦4⟧): ⟦5⟧
+fc091624	Start the meaning from the <b>suffix</b>, then the <b>prefix</b>, and finally the <b>root</b>:<br>⟦0⟧ → “inflammation of a nerve”<br>⟦1⟧ → “paralysis of half the body”<br>⟦2⟧ → “disease of the brain”⟦3⟧
+e6973a3e	If the suffix begins with a vowel, the combining vowel is dropped: neur/o + -itis becomes neuritis, not neuroitis.
+9e9fa01b	disease of the brain
+4f5ba1f5	hemi- = half
+d32e6b2a	-plegia = paralysis
+38978277	-ia = condition
+bf814340	he- = blood
+47f4803f	In encephalitis the combining vowel o has been dropped.
+6ab73fdb	encephal + itis = inflammation of the brain.
+a47d69d7	Build a word meaning “disease of the brain”
+ca6ea6e7	Read the meaning of hemiplegia with the golden rule; put the steps in order
+2e65b5dc	-ia: condition
+813b9758	-pleg: paralysis
+76c8811a	hemi-: half
+1ac13012	result: condition of paralysis of half the body
+7df377d7	Suffix → root → prefix.
+6e39f50e	the o in neurology
+24fdde84	Spell the term for inflammation of the brain
+d4099cf7	Roots of Nerve and Spinal Cord
+7b2c8da2	Five common roots
+ef2cb7fd	supporting cell
+0b361002	A few example words
+f21a2074	⟦0⟧ → ⟦1⟧: pain along a nerve<br>⟦2⟧ → ⟦3⟧: inflammation of the spinal cord<br>⟦4⟧ → ⟦5⟧: inflammation of the membranes of the brain and spinal cord<br>⟦6⟧ → ⟦7⟧: disease of a spinal nerve root⟦8⟧
+be6e70f3	In Case Study 7-1 of the book, one of the terms asked for was “inflammation of the meninges”: meningitis.
+44ef5e69	In the nervous system, the root ⟦0⟧ means…
+ea85940e	myelin
+9f823697	myel/o = spinal cord; in bone it means bone marrow.
+c7443da1	Which word means “pain along a nerve”?
+06b67e0b	meningitis means inflammation of the membranes of the brain and spinal cord.
+e4a22c06	mening/o = meninges.
+541c09a6	Build a word meaning “disease of a nerve root”
+afb1026c	Roots of nerve and spinal cord.
+8551d7db	The root ___ means the supporting cell (glue) of the nervous system.
+408ac93d	glioma = tumour of glia.
+9bc2c920	Spell the term for inflammation of the spinal cord
+31f99f12	Roots of Brain and Head
+15fe3558	brain (the whole brain)
+6a742801	cerebrum; the largest part of the brain
+ec945184	⟦0⟧ → ⟦1⟧: relating to the brain and spinal cord<br>⟦2⟧ → ⟦3⟧: within the skull<br>⟦4⟧ → ⟦5⟧: headache⟦6⟧
+6432e577	encephal/o means “inside the head” (en = in, cephal = head); that is, the brain.
+4f9c6768	cranium = skull.
+19d165bf	Which word means “headache”?
+750218f2	cerebell/o means cerebellum and cerebr/o means cerebrum.
+1ccd949a	The cerebellum is smaller and lies behind the cerebrum.
+0aa1788a	Build a word meaning “within the skull”
+7d9f4670	Roots of the head.
+c6786926	The word ___ means “relating to the brain and spinal cord”.
+753c241d	Spell the term meaning within the skull
+5b8cf1c2	Mind, Sensation and Movement
+eea0decc	Roots of mind and sensation
+4cb6f7cc	A few words
+adea6dac	⟦0⟧ → ⟦1⟧: treatment of the mind (⟦2⟧ = treatment)<br>⟦3⟧ → ⟦4⟧: loss of sensation<br>⟦5⟧ → ⟦6⟧: inability to sleep⟦7⟧⟦8⟧
+69644bc9	In Greek, psyche means both “soul” and “butterfly”; psych begins with a silent p.
+caa344d3	In Jane’s record (Case Study 7-2), the psychiatrist had changed her medicine.
+3b6770cf	anesthesia = loss of sensation.
+f6d47fa0	sleepiness
+d2ed2a19	sleep attack
+360593e1	sleepwalking
+b1272550	in- (not) + somn/o (sleep) + -ia.
+d0b84ce9	psychiatry is the branch of medicine that treats mental disorders.
+2f413480	Build a word meaning “loss of sensation”
+75d54732	coordination
+bac1e7ed	Mind, sensation and movement.
+e5312bef	The root ___ means “treatment, physician”.
+26b20570	psychiatry, pediatrics.
+ea1b6d97	Spell the term for the branch of medicine treating mental disorders
+f48b667d	Neuro Prefixes
+d6990587	beside; abnormal
+ef3b4279	Where the prefixes sit
+b3afb3d4	epidural is above the dura and subdural is below it, like the upper and lower floors of a building.
+b5de9c6b	inability to speak or understand speech
+71fa0e7d	difficult speech
+f7ef28ec	rapid speech
+1dfde513	inability to read
+587c8524	a- (without) + -phasia (speech).
+d77b7197	Which prefix means “four”?
+af3ceed2	quadriplegia = paralysis of all four limbs.
+0e1fc170	subdural means beneath the dura mater.
+f284eb69	sub- = beneath; dur/o = dura mater.
+8a8a99c7	Build a word meaning “inflammation of many nerves”
+2c48c809	Basic prefixes.
+a80c4ff9	A speech disorder (speech becoming difficult) is called ___.
+7c88b081	Spell the term for loss of language ability
+14a855c3	Neuro Suffixes
+9cc73f09	Symptom suffixes
+f07f0a20	narcolepsy means “sleep attack”: narc/o is stupor and -lepsy is seizure.
+5720770a	weakness or partial paralysis
+7edd73a0	hemiparesis = weakness of half the body.
+2a87c751	loss of language
+cf8ef7c5	a- + -mnesia (memory).
+23d52723	The suffix -lepsy means attack or seizure.
+9c545c13	epilepsy, narcolepsy.
+d4706447	Build a word meaning “tumour of the brain membranes”
+792ed0a4	Basic suffixes.
+6da061d7	Protrusion of the brain membranes through a gap in the bone is called a ___.
+430b04de	Spell the term for a disorder of recurrent seizures
+ba65dd2c	Other pairs
+3a29ae2f	speech (talking)
+bbd4f130	swallowing (eating)
+aee60839	talking, chatter
+c6dd924b	aphasia means unable to speak and aphagia means unable to swallow; phas = phrase and phag = eat.
+128f2b05	⟦0⟧ means inflammation of…
+740fe35c	my/o = muscle; myel/o = spinal cord.
+fa322349	What is weakness of one side of the body without complete paralysis called?
+6f7bf28d	-paresis = weakness.
+f71f0e5e	dysphagia means difficulty swallowing, not speaking.
+26aabd65	-phagia = eating, swallowing.
+f24478aa	Build a word meaning “paralysis of half the body”
+92cbd613	swallowing
+1f8e9729	Look-alike traps.
+94880a3d	In Exercise 7-9, the patient had right-sided weakness after a stroke; that is, ___.
+cf2f8055	weakness = -paresis.
+ddecbc68	Spell the term for weakness of one side of the body
+47bc4525	Cerebrum and lobes, cerebellum, brainstem, meninges, ventricles and CSF, and the spinal cord
+914180a5	Brain and Lobes
+67292edb	Membranes, Ventricles and CSF
+b32614bd	Lobes of the Cerebrum
+d6bbebb2	Cerebrum and the two hemispheres
+84af7894	⟦0⟧⟦1⟧ is the largest part of the brain and is divided into left and right halves, each a ⟦2⟧. Its surface is full of folds:<br>• ⟦3⟧ (plural: ⟦4⟧): a ridge<br>• ⟦5⟧ (plural: ⟦6⟧): a shallow groove<br>• ⟦7⟧: a deep cleft, like the one between the two hemispheres
+fe2d6d54	Main job
+d9e34779	voluntary movement, planning, personality, speech
+3614c354	touch, pain and temperature
+c05e1fd4	hearing, smell, understanding speech
+007a431c	vision and interpreting images
+db1ff03e	Front to back: “frontal, parietal, occipital”; and the temporal lobe is beside the ear.
+e20396b4	The ⟦0⟧ is a broad band of white fibres that joins the two hemispheres.
+81d8d713	Which is the largest part of the brain?
+c58264d7	Cohen’s Pretest: The largest part of the brain is the cerebrum.
+bafb8d47	In which lobe is vision processed?
+968a430e	The occipital lobe.
+12398400	gyri are the ridges and sulci the grooves on the surface of the cerebrum.
+78f25837	gyrus = raised fold.
+f3e23248	Put the lobes in order from front to back
+94f2b7d8	Frontal, parietal, occipital.
+9f9b9c50	Match each lobe to its job
+1e3a3f64	touch
+64995379	The four lobes of the cerebrum.
+9ada2e6f	The white band that joins the two hemispheres is called the ___.
+2c1410e5	Corpus callosum.
+69221ff5	Spell the term for the largest part of the brain
+83b3a548	Each Part, One Job
+c5b3984f	Centres of the cerebral cortex
+603b69d1	⟦0⟧The ⟦1⟧ is the thin layer of grey matter covering the cerebrum. Some important centres:<br>• ⟦2⟧: in front of the central sulcus; voluntary movement<br>• ⟦3⟧: behind the central sulcus; touch and pain<br>• ⟦4⟧: in the left frontal lobe; producing speech<br>• ⟦5⟧: in the temporal lobe; understanding speech
+76dd44b3	Left and right
+903359d4	Each hemisphere controls the <b>opposite</b> half of the body. Damage to the left hemisphere → paralysis of the right side and often ⟦0⟧.⟦1⟧⟦2⟧
+93db3157	Broca = Build (building sentences); Wernicke = Word meaning (understanding words).
+fd49ecf0	The book’s APPLY scenario: after a blow to the head, Mr Robert Jones has trouble reading and is easily distracted; so the occipital lobe (reading and vision) and the frontal lobe have probably been injured.
+84bcbe2d	Which is the centre for producing speech?
+ee5a0426	Broca, in the left frontal lobe.
+0a2e905c	Damage to the left hemisphere usually paralyses which side of the body?
+0bd32001	Crossed control.
+94d0864f	Wernicke area is involved in understanding speech.
+581ba95e	In the temporal lobe.
+200cf1c6	After a blow to the head, Mr Robert Jones can barely read; which lobe has probably been injured?
+ed1a9bd6	Reading depends on vision.
+879603b2	Match each centre to its job
+9978118b	Centres of the cerebral cortex.
+48720b8d	The grey layer covering the cerebrum is called the ___.
+053e311e	cortic/o = cortex.
+0149281a	Spell the term for the grey outer layer of the cerebrum
+05a7ce79	cortex = outer layer.
+f2b65d6d	Diencephalon, Brainstem and Cerebellum
+b48af0b5	The middle parts
+b39d4463	⟦0⟧The ⟦1⟧ has two parts:<br>• ⟦2⟧: a relay station for sensory messages to the cerebral cortex<br>• ⟦3⟧: below the thalamus; body temperature, hunger, thirst, sleep and the pituitary gland
+2de4f209	Brainstem and cerebellum
+5f579b82	The ⟦0⟧ has three parts: ⟦1⟧, ⟦2⟧ and ⟦3⟧. The medulla oblongata controls breathing, heart rate and blood pressure.<br>The ⟦4⟧ lies behind the brainstem and regulates balance and coordination of movement.⟦5⟧⟦6⟧
+e1521842	The brainstem from top to bottom: midbrain, pons, medulla; like the stem of a flower reaching down to the spinal cord.
+4e1f0354	Cohen’s Pretest: the midbrain, pons and medulla oblongata together make up the brainstem.
+50188bea	What are the midbrain, pons and medulla oblongata together called?
+cde3f4a3	The brainstem.
+6dbcf7e6	Which part controls balance and coordination of movement?
+7a6dae7a	The cerebellum.
+7158300d	The hypothalamus regulates body temperature, thirst and hunger.
+13aaf876	hypo- = below + thalamus.
+82ffc5ae	Put the brainstem in order from top to bottom
+4eb22535	Midbrain, pons, medulla, spinal cord.
+c761a0e7	sensory relay
+f6ee043e	temperature and thirst
+08909f86	balance
+26982d82	Deep parts of the brain.
+ac406dd6	Build a word meaning “below the thalamus”
+8ef7eb12	Spell the term for the “little brain” that controls balance
+561f6677	Meninges: Three Protective Membranes
+4f959712	⟦0⟧The ⟦1⟧ are three membranes around the brain and spinal cord (from outside in):<br>• ⟦2⟧: tough and firm (“tough mother”)<br>• ⟦3⟧: the web-like middle layer<br>• ⟦4⟧: thin and attached to the brain (“tender mother”)
+fa5ff872	Spaces
+db06d898	Space
+02d7b4d9	above the dura
+b35db2cc	epidural anaesthesia
+8c4c0bf9	beneath the arachnoid
+7fb218ba	filled with CSF
+cf074b52	Order from the outside: DAP; that is, Dura, Arachnoid, Pia.
+94d820e5	Which is the outermost layer of the meninges?
+0ccb6641	The dura mater.
+6d956fe1	In which space does cerebrospinal fluid flow?
+22dbe952	Beneath the arachnoid.
+effa9ef2	The pia mater is attached to the surface of the brain.
+f769b6d9	The pia mater.
+0f77e95a	Put the layers in order from outside in
+090cd56b	Match each layer to its description
+436e847e	Three membranes.
+3921ac00	The word ___ means “relating to the meninges”.
+ba64a9c4	Spell the term for the tough outermost layer of the meninges
+a78b8ae5	dur/o = hard.
+b711051f	Ventricles and Cerebrospinal Fluid
+5498329f	Four ventricles
+c8793682	⟦0⟧A ⟦1⟧ is one of the four cavities inside the brain: two lateral ventricles, the third ventricle and the fourth ventricle. The ⟦2⟧ in the ventricles makes ⟦3⟧.
+3c07372f	The job of CSF
+337ba8cd	CSF is a clear fluid that fills the ventricles, the subarachnoid space and the central canal of the spinal cord, floating the brain and protecting it from blows.⟦0⟧⟦1⟧
+63bb5edc	ventricul/o = ventricle; intraventricular means within a ventricle.
+bbfd5bad	If the flow of CSF is blocked, the ventricles enlarge: hydrocephalus. In Mr Jones’s scenario, too, the doctor was worried about a CSF leak.
+c3b3c6b8	Where is CSF made?
+56ec6fcb	A network of capillaries inside the ventricles.
+4e2c9c09	How many ventricles does the brain have?
+de238c3d	twelve
+372fc75a	Two lateral, the third and the fourth.
+35c8d8b7	CSF keeps the brain and spinal cord afloat and protects them from blows.
+7ada0fa0	A fluid shock absorber.
+20559ed0	Build a word meaning “within a ventricle”
+e011af9a	makes CSF
+0ca0462f	Ventricles and fluid.
+e4c321ca	The abbreviation ___ means cerebrospinal fluid.
+3a7cd6e6	Skull and Protective Barriers
+635e0e4d	Layered protection
+627e07e4	The brain is protected by several layers: the ⟦0⟧ (skull), the meninges, CSF and the ⟦1⟧, a layer of brain capillaries that keeps out many harmful substances and microbes.
+55260f1d	⟦0⟧ → ⟦1⟧: pressure inside the skull. A tumour, bleeding or brain swelling raises ICP and threatens the patient’s life.⟦2⟧⟦3⟧
+c23a675e	The skull is a closed box; anything new inside it raises the pressure.
+def78d61	The book’s APPLY scenario: “Concerned ICP is elevated”; that is, the doctor is worried that the pressure inside the skull has risen.
+995f0a0c	ICP means…
+cc844b75	What does the blood–brain barrier do?
+fc600705	It keeps many harmful substances out of the brain
+e86fd74e	It makes CSF
+17223e9c	It pumps blood to the brain
+461fd319	It attaches the brain to the skull
+8c15565e	Bleeding inside the skull can raise ICP.
+624a69ca	A closed box.
+068667dc	Put the protective layers in order from outside in
+1fa88daa	Skin, bone, membrane, fluid, brain.
+35fb2c9d	within the skull
+635ecc21	Protection of the brain.
+a4a0f8dd	The root ___ means skull.
+07825f0d	⟦0⟧The ⟦1⟧ is a column of nerve tissue. In cross-section:<br>• ⟦2⟧: in the middle, shaped like an H or a butterfly; full of cell bodies<br>• ⟦3⟧: all around it; myelinated axons that carry messages up and down
+adf50f64	Horns and roots
+fb89f143	dorsal horn; sensation comes in
+3a60fc11	anterior horn; motor commands go out
+18c42715	dorsal root ganglion; cell bodies of sensory neurons
+f5a0243e	In the brain the grey matter is on the outside (the cortex), but in the spinal cord it is in the middle; the other way round!
+dcaf8f0a	Where is the grey matter in the spinal cord?
