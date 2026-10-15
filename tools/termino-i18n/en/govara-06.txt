@@ -1,0 +1,206 @@
+a9bb8894	yellow bile pigment
+cf4748fd	breaking fat into droplets
+c47832ec	The vessels that carry blood from the intestines to the liver first are called the ___.
+6f87d13f	portal = gateway.
+fa07baec	Spell the term for the organ that makes bile
+013f3b92	Adjective: hepatic.
+6c6dcf50	Gallbladder and ducts
+26825ff6	⟦0⟧The liver sends bile out through the <b>hepatic duct</b>. Bile travels through the <b>cystic duct</b> to the <b>gallbladder</b>, where it is stored and concentrated.
+23f14572	Liver, gallbladder, pancreas and ducts
+56bc89d8	From the gallbladder to the duodenum
+e9b1131f	⟦0⟧After a fatty meal the gallbladder contracts and bile flows through the <b>common bile duct</b> (CBD) into the duodenum. The pancreatic duct opens beside it at the <b>duodenal papilla</b>, and the <b>sphincter of Oddi</b> controls this opening.
+a53afb2b	Put the route of bile in order, from production to use
+3209ed0a	Made in the liver, stored in the gallbladder, used in the duodenum.
+58bce403	The common bile duct.
+6bd5f0e2	The gallbladder makes bile.
+81c0f643	False; the liver makes it, and the gallbladder stores and concentrates it.
+b18adbb7	Match each duct to its job
+2789a016	brings bile from the liver
+71d5593a	goes to the gallbladder and back
+df4587e1	empties bile into the duodenum
+494efb4f	Roots along the route
+710c6303	any bile duct
+874175a5	cholecyst = chole (bile) + cyst (sac); cystic duct likewise means the duct of the “sac”.
+5d0c159b	What is the shared opening of bile and pancreatic juice into the duodenum called?
+eb33d5d4	papilla of Vater; the sphincter of Oddi closes it.
+a14f2c9e	The sphincter at the opening of the bile duct into the duodenum is the ___.
+85c6559d	Spell the term for the sac that stores bile
+433213b3	gall + bladder; one word.
+0a769837	Two glands in one organ
+66104ad0	⟦0⟧The <b>pancreas</b> lies behind the stomach. Its exocrine part pours <b>pancreatic juice</b> through the <b>pancreatic duct</b> into the duodenum, and its endocrine part releases <b>insulin</b> and glucagon into the blood.
+eb858067	Which pancreatic hormone lowers blood sugar?
+e5ef56e7	digests starch
+47c26ad3	digests fat
+72c1bd10	neutralising the acid in chyme
+165efed8	In pancreatic inflammation, blood amylase and lipase rise; these are the tests ordered to diagnose pancreatitis.
+1428c55b	Match each part of pancreatic juice to its job
+47d66b02	neutralising acid
+519c1e48	The bicarbonate in pancreatic juice neutralises the acid of chyme in the duodenum.
+d0c643ee	So the enzymes can work.
+6f6d4f8d	Where does the ⟦0⟧ carry pancreatic juice?
+bbc52324	Into the duodenum, beside the CBD.
+bd89031a	The name “pancreas”
+60626130	In Greek, pancreas means “all flesh” (pan + kreas), because of its fleshy look. Its traditional Persian name is lowzol-me’deh.⟦0⟧
+ce9e3953	exocrine: enzymes into the duodenum
+d5f9e8dc	endocrine: insulin into the blood
+a3b9aef6	What does the endocrine part of the pancreas make?
+4ba06347	insulin and glucagon
+78193f69	amylase and lipase
+edf28dc1	endocrine = hormones into the blood.
+1852a077	Review of the “Liver, bile and pancreas” level
+d18148a0	Liver: bile, glycogen, detoxification; the hepatic portal system carries blood from the gut to the liver
+55bdc267	bile is not an enzyme; it emulsifies fat • bilirubin comes from old red cells
+b9b48134	hepatic duct → cystic duct ↔ gallbladder → common bile duct → duodenum; its opening has the sphincter of Oddi
+65671961	pancreas: amylase, lipase, protease and bicarbonate into the duodenum; insulin and glucagon into the blood
+296f720d	The pancreatic enzyme that digests fat is ___.
+c5d80b83	Spell the term for the organ that makes insulin and digestive enzymes
+62eb8311	Upper GI
+c73f296d	Nausea and vomiting, difficult swallowing and indigestion, gas and appetite, decay and gums, mouth ulcers and thrush, reflux, hiatal hernia and peptic ulcer
+f91bad73	Diseases of the mouth and teeth
+006a8e19	Nausea, vomiting, heartburn
+c9e8bd8a	⟦0⟧<b>Nausea</b> (from the Greek word for seasickness) is the unpleasant feeling that comes before <b>emesis</b>, or vomiting. In records, “N&V” means nausea and vomiting.
+4f1ffd60	nausea and vomiting; feeling sick and being sick
+83593965	Types of vomiting
+97026322	severe, repeated vomiting; as in hyperemesis gravidarum in pregnancy
+fb91e5f9	vomiting blood; sometimes brown like coffee grounds
+27fbc9a1	return of stomach contents to the mouth without straining
+e6f9c31d	regurgitation means food coming back up into the mouth without straining.
+ed4d4b6d	re- (back) + gurgitare (to flow).
+98bd5f61	Heartburn and belching
+4bcb80ba	<b>Pyrosis</b> is the same as <b>heartburn</b>: a burning behind the breastbone when acid comes back up into the oesophagus. <b>Eructation</b> means belching, releasing stomach gas through the mouth.⟦0⟧
+b9ae04bd	pyr/o means fire: pyrosis is “fire” behind the breastbone.
+8040e4e1	food coming back into the mouth
+309d7bfd	The patient says, “My chest burns after meals.” Which term fits?
+ec7915e3	The medical term for belching is ___.
+a949d606	Spell the term for the queasy feeling before vomiting
+9e40642a	nausea; from the Greek nausia.
+4dca9032	Difficult swallowing and digestion
+75f3f87f	The -phagia family
+12960a08	⟦0⟧⟦1⟧ means eating or swallowing: <b>dysphagia</b> is difficulty swallowing, <b>aphagia</b> inability to swallow, <b>odynophagia</b> painful swallowing, <b>polyphagia</b> overeating and <b>aerophagia</b> swallowing air.
+68eb1842	odyn/o (pain) + -phagia.
+6daa9570	complete inability to swallow
+98454817	a- (without) + -phagia.
+1b34fee0	Difficult digestion
+6d8a25c8	<b>Dyspepsia</b> is indigestion, or “stomach pain after meals”, and <b>bradypepsia</b> is slow digestion (brady- means slow). <b>Postprandial</b> means after a meal.⟦0⟧
+cc043a5d	Mr Rezaei had dyspepsia for years and felt better with antacids, until his stomach ulcer bled.
+0c026c98	dysphagia and dysphasia mean the same thing.
+68e5403f	False; dysphagia is difficulty swallowing and dysphasia is difficulty speaking.
+873bf428	Watch out for sound-alikes
+5f98001b	difficulty swallowing; g as in gag
+c8e99465	difficulty speaking; s as in speak
+7ba1c80d	A patient with oesophageal cancer has trouble swallowing food. Which term fits?
+fda71a2f	phag = swallowing.
+e8326cad	Swallowing too much air while eating is ___.
+2e7a858b	Build a word meaning “slow digestion”
+2ba2dbc1	Spell the term for difficulty swallowing
+9d9f66a5	Gas, appetite and weight
+18b01be4	Gas
+85349b65	<b>Flatulence</b> is excess gas in the stomach or intestines, and <b>flatus</b> is gas passed through the anus. <b>Borborygmus</b> is the rumbling sound of gas moving through the intestines.⟦0⟧
+5382d2eb	excess gas in the GI tract
+b428583a	gas passed through the anus
+957ae835	rumbling of the intestines
+126e4815	abdominal bloating
+1113312e	It sounds like its name!
+0dfa0efc	flatus means gas passed through the anus.
+a814e625	<b>Anorexia</b> means loss of appetite, a symptom (an- + orex/o). <b>Anorexia nervosa</b> is a mental illness: refusing to eat out of fear of gaining weight. <b>Bulimia</b> is binge eating followed by deliberate vomiting.⟦0⟧
+48e43064	anorexia is a symptom; with nervosa it becomes a disease.
+59627b74	binge eating then deliberate vomiting
+74aa08c8	simple loss of appetite
+0fba4539	weight loss from cancer
+768cfc0f	Thinness and obesity
+60d587b8	<b>Cachexia</b> is severe weight loss and wasting in chronic diseases such as cancer. <b>Obesity</b> means excess body fat, usually a BMI of 30 or more.⟦0⟧
+8d84dca6	BMI, or body mass index = weight in kilograms ÷ height in metres squared. Sources differ slightly on the cut-off for obesity; most say 30.
+06832181	extreme wasting in illness
+4c810bba	body mass index; weight relative to height
+543a1d38	Review of the “Upper GI symptoms” level
+a0464c37	nausea → emesis • hyperemesis severe • hematemesis bloody • regurgitation without straining
+4ba3e151	pyrosis = heartburn • eructation = belching
+59d9912e	dysphagia, aphagia, odynophagia, polyphagia, aerophagia • dyspepsia, bradypepsia
+1cd1d5b2	flatulence and flatus • borborygmus • anorexia, anorexia nervosa, bulimia, cachexia, obesity
+21b6103d	Severe weight loss and wasting in advanced cancer is called ___.
+da93efaa	cac/o (bad) + -hexia (condition).
+cc51bc46	Spell the term for loss of appetite
+e5967400	Decay and gums
+92694781	⟦0⟧<b>Dental plaque</b> is a sticky layer of bacteria on the teeth. The bacteria’s acid eats into the enamel and causes <b>dental caries</b> (decay); if it reaches the pulp, a tooth abscess develops.
+d76c579b	Put the progress of decay in order
+51c7945a	From the surface inwards.
+0698e464	tartar on the teeth
+ab569e74	In Latin, caries means decay.
+9fd3ca74	<b>Gingivitis</b> is inflammation of the gums, usually caused by plaque. If untreated it becomes <b>periodontitis</b>: destruction of the gum and the bone that holds the tooth, the most common cause of tooth loss.
+f7f65d64	periodontitis can cause tooth loss.
+feee9e25	A few other problems
+7622cc45	dry mouth from reduced saliva
+d18fdc59	grinding of the teeth, mostly during sleep
+aa4d282e	upper and lower teeth not meeting properly
+4d1a12f4	xerostomia is common in older patients and in those who have had head and neck radiotherapy, and it increases decay.
+c07f73c4	xer/o (dry) + stom/o (mouth) + -ia.
+43e1572d	Inflammation of the gums is called ___.
+4c24cee0	Build a word meaning “dry mouth”
+bf4051d5	xer/o + stom/o + -ia = xerostomia; stom/o is a short form of stomat/o.
+44298052	Spell the term for grinding the teeth
+c8a8838a	brux = grinding the teeth + -ism.
+fc360818	Mouth ulcers, thrush and white patches
+01c6a69b	Six mouth lesions
+45054ed5	⟦0⟧⟦1⟧An <b>aphthous ulcer</b>, or canker sore, is a small, painful ulcer of the oral mucosa.
+2b568d6e	⟦0⟧ is the same as…
+40df0475	mouth ulcer (canker sore)
+28d5f3a6	thrush
+b54aee29	precancerous white patch
+a76f39c5	A small, painful mouth ulcer.
+684648ca	Telling the white patches apart
+dd418f46	thrush: a Candida fungal infection; a white patch that wipes off
+5052ce9a	a firm white patch that does not wipe off; precancerous
+9c1b3e3a	leuk/o means white and plak means plaque: leukoplakia is a “white plaque”.
+b7ddb1a9	leukoplakia is a precancerous lesion.
+079bb5fb	Especially in smokers; it needs a biopsy.
+304971ab	White patches that wipe off in a baby’s mouth, caused by the fungus Candida…
+2d4294f7	Lips and tongue
+4486f7b4	cold sore on the lip caused by HSV-1
+b13029bc	cracks at the corners of the mouth, often from vitamin B deficiency
+802d1541	ulcerating, bleeding infection of the gums
+9f9f7b36	Match each lesion to its meaning
+b86b1c9a	Which one does ⟦0⟧ cause?
+b33bd1e7	A firm, precancerous white patch in the mouth is ___.
+d2dd5355	Spell the term for a fungal white coating in the mouth
+64ca2837	Clefts and salivary glands
+c064dc6a	Cleft lip and palate
+16e50704	<b>Cleft lip</b> is a congenital split of the upper lip and <b>cleft palate</b> a congenital split in the roof of the mouth; they are often seen together and are repaired surgically: ⟦0⟧ repairs the lip and ⟦1⟧ the palate.
+3444110d	surgical repair of the palate
+9cf0d40a	removal of the palate
+98350d25	incision of the lip
+92229698	cheiloplasty means repair of the lip.
+30f218a4	Tongue-tie
+33afbec6	<b>Ankyloglossia</b>, or tongue-tie, is a short frenulum that limits tongue movement and makes breastfeeding hard for a newborn.⟦0⟧
+b91375c4	ankyl/o means bent or stuck: a tongue stuck to the floor of the mouth.
+903c58ec	tongue-tie; a short frenulum
+85ac545d	inflammation of the parotid gland; as in mumps
+24c64897	A salivary stone is usually in the submandibular gland and causes swelling and pain while eating.
+5ec5eae3	inflamed parotid
+85891576	Which gland does mumps mostly inflame?
+d49c0459	Review of the “Diseases of the mouth and teeth” level
+91b375dc	plaque → dental caries and then abscess • gingivitis → periodontitis
+af9f75f6	halitosis, xerostomia, bruxism, malocclusion
+0d0c1644	aphthous ulcer, thrush, leukoplakia (precancerous), herpes labialis, cheilosis, Vincent disease
+c534e900	cleft lip and cleft palate • ankyloglossia • sialadenitis, parotitis, sialolith
+036bc347	Inflammation of a salivary gland is called ___.
+6f6a306c	Spell the term for surgical repair of the lip
+1e4649a2	Reflux and the oesophagus
+dc62b714	⟦0⟧<b>Gastroesophageal reflux disease</b> (GERD) is the chronic backflow of stomach acid into the oesophagus because the LES does not close properly. Its main symptom is heartburn.
+28027597	Reflux and oesophagitis
+d43d834f	⟦0⟧ comes from weakness of which sphincter?
+1127942f	If reflux continues
+87d65f6b	⟦0⟧Acid inflames the oesophagus (<b>esophagitis</b>), and over the years the oesophageal lining changes: <b>Barrett esophagus</b>, a precancerous condition.
+d694fb22	Put the reflux chain in order
+c63c3644	weak LES
+6fcb4785	acid reflux
+888b2638	From cause to precancerous outcome.
+4be5b063	Barrett esophagus is a precancerous change in the oesophageal lining in chronic reflux.
+2409070c	It needs follow-up with EGD.
+7d610306	Hiatal hernia and achalasia
+3d460100	⟦0⟧In a <b>hiatal hernia</b>, part of the stomach moves up through the oesophageal opening in the diaphragm into the chest, which makes reflux worse. In <b>achalasia</b>, the opposite happens: the LES does not relax and food does not reach the stomach. <b>Esophageal atresia</b> is a congenital closure of the oesophagus in a newborn.⟦1⟧
+c77cab3f	LES too open
+2c3da5e8	LES too closed
+15257961	failure of the LES to relax during swallowing
+0168f0b8	perforation of the oesophagus
+23e96a21	a- (without) + chalasia (relaxation).
+cc771345	Match each disease to its meaning

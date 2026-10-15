@@ -1,0 +1,227 @@
+7a0cb1ca	Spell the term for the stomach’s exit opening
+549c0a63	Gastric juice and chyme
+0ae10738	⟦0⟧<b>Gastric juice</b> contains <b>hydrochloric acid</b> (HCl), the enzyme <b>pepsin</b> for protein, <b>intrinsic factor</b> for vitamin B12 absorption and <b>mucus</b> (a protective coating).
+e54303ee	fibre
+29acf2dd	pepsin is activated by HCl.
+807c60fc	hydrochloric acid; stomach acid
+6079830c	Hydrochloric acid.
+11d9e1f7	Chyme
+d73e30a2	In the stomach, food is churned and mixed with gastric juice into a thick liquid called <b>chyme</b>, which passes little by little through the pylorus into the duodenum. The stomach absorbs almost no food.
+f6119695	Most food absorption happens in the stomach.
+ceec6bee	False; most absorption happens in the small intestine.
+c22197b2	Without <b>intrinsic factor</b>, vitamin B12 is not absorbed and <b>pernicious anemia</b> develops.⟦0⟧
+6c2ddba6	After a total gastrectomy, the patient must receive B12 by injection because intrinsic factor is no longer made.
+64ef327d	Match each part of gastric juice to its job
+6f5eac86	activating pepsin
+fdc131d9	B12 absorption
+0a5b6222	protecting the wall
+46f446a8	semi-digested food leaving the stomach
+3ed310dd	chewed mouthful in the mouth
+07b5b2a8	chyme moves on to the duodenum.
+1ad3bebc	The thick liquid of semi-digested food in the stomach is ___.
+3517fe9b	Spell the term for the stomach’s protein-digesting enzyme
+7c5edd83	peps = digestion.
+9a0f72f3	Digestion map
+c989debf	⟦0⟧Starch is digested from the mouth by salivary amylase, protein in the stomach by pepsin, and all three food groups in the duodenum by pancreatic enzymes; absorption happens in the small intestine.
+dd101220	Where does protein digestion begin?
+fb99ccac	pepsin in the stomach.
+471ab8c2	Where does starch digestion begin?
+2b0e35e2	Enzymes ending in -ase
+677d4e53	starch (amyl/o)
+f42def13	fat (lip/o)
+1063a043	protein in the stomach; the exception without -ase
+d36b29d5	root + -ase = the enzyme that digests that substance: lip/o + -ase = lipase.
+d304a109	Match each enzyme to its food
+83cac593	lipase is the enzyme that digests fat.
+abc73feb	The sphincters at a glance
+be432024	From the mouth to the duodenum, food passes through two gates: the <b>LES</b> and the <b>pyloric sphincter</b>.⟦0⟧
+7f67ad93	entry to the stomach; stops acid flowing back into the oesophagus
+f17881a6	exit from the stomach; lets chyme through little by little
+a3d75962	Which order is correct?
+81be7653	bolus in the oesophagus → chyme in the stomach → duodenum
+300d3b0d	chyme in the mouth → bolus in the stomach
+99ba4c46	bile in the mouth → chyme in the oesophagus
+d9836770	bolus in the colon → chyme in the mouth
+2d1e8054	The bolus reaches the stomach and becomes chyme.
+b77655a4	Review of the “Stomach and enzymes” level
+71599f1f	Stomach: cardia, fundus, body, antrum, pylorus; folds: rugae
+0c7b183d	gastric juice: HCl, pepsin, intrinsic factor (B12), mucus
+65154c42	chyme passes through the pylorus into the duodenum; most absorption is in the small intestine
+0bc6fe31	amylase starch • pepsin and protease protein • lipase fat
+e23d8923	Build a word meaning “fat-digesting enzyme”
+aac357da	Spell the term for a protein that speeds up digestion
+4ae53ed8	en- + zym (yeast).
+a31e200c	The Intestines and Accessory Organs
+04f5dbae	Duodenum, jejunum and ileum, villi and absorption, peritoneum, the large intestine and defecation, abdominal quadrants, liver, bile and pancreas
+6757506c	Small intestine and peritoneum
+4d62ed08	Large intestine and the abdominal map
+0a1fae1d	Three parts of the small intestine
+bf63b3ad	D, J, I
+d0d03c87	⟦0⟧The <b>small intestine</b> is a long, coiled tube from the pylorus to the caecum: the <b>duodenum</b>, <b>jejunum</b> and <b>ileum</b>.⟦1⟧
+df83a778	Remember the order with DJI: Duodenum, Jejunum, Ileum.
+a77d2428	Order the parts of the small intestine from the stomach downwards
+cae1eebf	Duodenum, jejunum, ileum.
+b112d0be	the shortest part; bile and pancreatic juice drain into it
+9d74ee25	the longest part, just before the caecum
+c299825f	part of the large intestine
+4c8b1aa5	part of the stomach
+e2ae5db1	duodeni means “twelve fingers”.
+7cd11d24	What do the names say?
+728776b0	Origin of the name
+1bed09a3	twelve finger-widths long
+68dda007	empty; it was usually found empty after death
+0f96bf41	twisted; the longest part, reaching the caecum
+17ab28e2	In Latin, jejunum means “empty”.
+2c24fa3f	The last part of the small intestine, joined to the caecum, is…
+3c3bbb79	ileum; ilium is the hip bone.
+b9e28390	Intestine or bowel
+aa878c3b	⟦0⟧ and ⟦1⟧ mean the same. The small intestine is “small” because its diameter is smaller, not because it is shorter.⟦2⟧
+797e198f	In a record, small bowel obstruction means a blockage of the small intestine.
+c8c40172	twelve fingers
+372a8ea7	empty
+05270cb1	final part; joins the caecum
+de11842e	The middle part of the small intestine is the ___.
+598fce2a	duodenum, jejunum, ileum.
+eaae4608	Spell the term for the first part of the small intestine
+fbfabe22	Villi and absorption
+74b3cf65	Little fingers of absorption
+336e699e	⟦0⟧The wall of the small intestine has millions of finger-like projections called <b>villi</b> (singular villus) that greatly increase the absorbing surface.
+760f8d55	Small intestine wall and villi
+35892349	What do ⟦0⟧ do?
+9ee83979	increase the absorbing surface of the small intestine
+e70518ed	make stomach acid
+9a45eaa7	move stool along
+6f119f01	store bile
+ce303db1	villi = little fingers of absorption.
+04432adc	Inside a villus
+13d8b388	⟦0⟧In each villus, blood capillaries absorb sugars and protein, and a lymphatic capillary called the <b>lacteal</b> absorbs fat.
+4d79ba32	What does the ⟦0⟧ absorb?
+ea5140b8	salt
+05cd7ec7	lacteal = the lymphatic capillary of a villus.
+749f5554	Fats are absorbed mainly through the lymphatic vessel of the villus (lacteal).
+ddfab6c8	Not directly through a blood capillary.
+c6cbde8c	<b>Absorption</b> is the passage of digested material through the gut wall into blood and lymph. Most absorption is in the small intestine; the <b>ileum</b> absorbs vitamin B12 and bile salts.⟦0⟧
+8d5b98f3	breaking food into small molecules
+4ba5ff7a	passage of molecules into blood and lymph
+df499c4f	In which part is vitamin B12 absorbed?
+3e9923cd	In the ileum, with the help of intrinsic factor from the stomach.
+fb84a8da	The final valve
+0192c02f	At the end of the ileum is the <b>ileocecal valve</b>, which lets the contents of the small intestine into the caecum and stops them flowing back.
+fef23cfd	lymphatic capillary of a villus
+3bc9e54a	valve between ileum and caecum
+de0b143e	The lymphatic capillary inside an intestinal villus is called the ___.
+791b6d6f	Spell the term for the passage of digested material into the blood
+11400fcb	Peritoneum and mesentery
+db470e0d	The great membrane of the abdomen
+df18d94c	⟦0⟧The <b>peritoneum</b> is a two-layered membrane: the parietal layer lines the abdominal wall and the visceral layer covers the organs. Between them is the <b>peritoneal cavity</b> with a little slippery fluid.
+62f7fcf7	Peritoneal cavity
+a2e4e18e	membrane lining the abdominal cavity and its organs
+c8622734	part of the small intestine
+467bcd7f	a gland in the abdomen
+e1d29063	ligament of the liver
+6a4824c9	peri- (around) + teinein (to stretch).
+3527f785	Folds of the peritoneum
+96013bf6	Fold
+16bd4f45	attaches the small intestine to the back wall of the abdomen
+b8e1537a	attaches the colon to the back wall
+d68f329f	an apron hanging from the stomach over the intestines
+55f97ef0	mes- means middle: mesentery is “middle of the intestine” and mesocolon “middle of the colon”.
+a5a46811	Match each fold to its job
+ce5fdc41	holding the small intestine
+b97c6a98	holding the colon
+87c2c879	apron over the intestines
+702848ea	peritoneal fold that holds the small intestine
+ec0b3f44	muscular wall of the intestine
+4f336c90	The greater omentum hangs like an apron from the stomach over the intestines.
+e2b78b92	omentum = apron.
+7c5d39cd	When the peritoneum is inflamed
+aa3d7172	A burst appendix or a perforated stomach ulcer can cause <b>peritonitis</b> (inflammation of the peritoneum), which is an emergency. Excess fluid in the peritoneal cavity is called <b>ascites</b>.⟦0⟧
+00709b1b	A hard, painful, board-like abdomen is a sign of peritonitis.
+9fc74575	Review of the “Small intestine and peritoneum” level
+cf5a419b	Small intestine: duodenum, jejunum, ileum (DJI)
+70f93006	villi increase the absorbing surface; the lacteal absorbs fat; the ileum absorbs vitamin B12
+8c3c62ae	ileocecal valve between the ileum and caecum
+dc5e0863	peritoneum has two layers; mesentery, mesocolon and greater omentum are its folds; peritonitis is its inflammation
+843984db	The peritoneal fold that attaches the colon to the back wall is the ___.
+28948f0a	Spell the term for the membrane lining the abdominal cavity
+211c2bab	Parts of the large intestine
+cec6011c	From caecum to rectum
+4df651f6	⟦0⟧The <b>large intestine</b> begins with the <b>cecum</b>, from which the <b>appendix</b> hangs; then comes the <b>colon</b> with its four parts, ascending, transverse, descending and sigmoid, and finally the <b>rectum</b> and <b>anus</b>.
+779d8fb6	Put the parts of the colon in order
+f21f7d41	Ascending, transverse, descending, sigmoid.
+5fecab1f	S-shaped; just before the rectum
+0b387ae5	straight and vertical
+74621578	horizontal across the upper abdomen
+9cb8c6d4	a pouch on the right side
+ab6b25d5	sigma = the Greek letter S.
+22c048e3	Two bends
+3690d62c	The colon has two bends: the <b>hepatic flexure</b> on the right beside the liver and the <b>splenic flexure</b> on the left beside the spleen.⟦0⟧
+35df97a4	right bend beside the liver
+c574963e	left bend beside the spleen
+ebdbef4b	start of the large intestine
+cea76c78	just before the rectum
+de55c2fb	The appendix is attached to the sigmoid colon.
+d2307e64	False; it is attached to the caecum in the lower right abdomen.
+54960eda	Names
+c699cb10	blind; a closed pouch
+88e93520	hanging; vermiform means worm-shaped
+d7830b50	cecum = blind; like a dead-end alley at the start of the large intestine.
+918d48d8	Which part of the large intestine runs horizontally from right to left?
+02f39dc6	The appendix hangs from the ___.
+28f6ee78	cecum = the pouch at the start of the large intestine.
+97e349fe	Spell the term for the pouch at the start of the large intestine
+eb826c62	Water, stool and defecation
+35ebc9d5	What does the large intestine do?
+27f86f3f	⟦0⟧The large intestine absorbs water and electrolytes, its bacteria make vitamin K, and it turns what is left into <b>feces</b> or stool.
+0cb1ffd4	Where the parts sit in the abdomen
+d21bc75e	The main job of the large intestine is…
+f4d1863a	absorbing water and forming stool
+1c3e8f85	secreting insulin
+4efe005f	Water and electrolytes.
+8caa73da	The bacteria of the large intestine make vitamin K.
+70c54bc6	And some B vitamins.
+9c8d39f9	Stool collects in the rectum and leaves through the anal canal by <b>defecation</b>, or bowel movement, written BM in records. The anus has two sphincters: internal (involuntary) and external (voluntary).⟦0⟧
+e24b3ef5	After abdominal surgery, the nurse records the first BM and the bowel sounds to make sure the bowel is working again.
+77b5aeb9	bowel movement; passing stool
+fbd80de0	where stool collects
+545ad323	final opening
+f6f5c7ba	Which anal sphincter is voluntary?
+baa2da2f	The external is voluntary and the internal involuntary.
+f10f3301	Stool at a glance
+2042322f	Normal stool is brown; the colour comes from bile pigments. In the diseases world you will see that stool colour is an important clue.⟦0⟧
+ff7d0049	the stool itself
+ce4dd870	the act of expelling it
+fb5c52cb	The passing of stool from the rectum is called ___.
+2e5f035c	Spell the term for stool
+c69c3687	feces; adjective: fecal.
+4d282c8f	⟦0⟧Two perpendicular lines through the navel divide the abdomen into four quadrants: <b>RUQ</b>, <b>LUQ</b>, <b>RLQ</b> and <b>LLQ</b>. Right and left are always from the patient’s point of view.
+0ba3a80f	In which quadrant are the liver and gallbladder mostly found?
+5806f3e7	⟦0⟧For more detail, the abdomen is also divided into nine regions. The three middle regions: <b>epigastric</b> (pit of the stomach), <b>umbilical</b> (navel) and <b>hypogastric</b> (lower abdomen).
+b8e98644	Order the three middle abdominal regions from top to bottom
+627a0c63	epi- above, hypo- below.
+be75451f	When facing the patient, their right quadrant is on the left of the picture.
+97522148	Always named from the patient’s point of view.
+5b920cd6	Review of the “Large intestine and the abdominal map” level
+f5148acc	cecum → ascending → transverse → descending → sigmoid → rectum → anus; the appendix is attached to the caecum
+5432a107	hepatic flexure on the right and splenic flexure on the left
+a3e461a4	The large intestine absorbs water; feces, defecation, BM
+810eb1b2	RUQ, LUQ, RLQ, LLQ from the patient’s view; epigastric, umbilical, hypogastric
+d0aa21d8	The region above the navel and below the breastbone, the pit of the stomach, is the ___ region.
+d179c738	Spell the term for one quarter of the abdomen
+875bda17	quadr = four.
+842823c9	The largest gland
+1f9f5495	⟦0⟧The <b>liver</b> sits in the right upper quadrant under the diaphragm. It makes bile, stores sugar as <b>glycogen</b>, detoxifies and makes blood proteins. Life is impossible without a liver.
+3b7315a4	In what form does the liver store extra sugar?
+0d256a17	glyc/o (sugar) + -gen.
+d61e67a6	Bile and bilirubin
+29ad3772	<b>Bile</b> is a yellow-green fluid that breaks fat into tiny droplets (<b>emulsification</b>). Its colour comes from <b>bilirubin</b>, which comes from the breakdown of old red blood cells.
+57ae09b8	Where does ⟦0⟧ come from?
+299a2a40	breakdown of old red blood cells
+e9007a7b	pancreatic secretion
+0b8e9a9a	gut bacteria
+9b884fb6	The bile pigment.
+124c32e3	Bile is a digestive enzyme and breaks fat down chemically.
+10fbb90d	False; bile is not an enzyme and only breaks fat into tiny droplets (emulsification).
+0917c62a	The portal system
+17392559	The <b>hepatic portal system</b> carries blood full of absorbed nutrients from the intestines and stomach to the liver first, to be processed and detoxified.⟦0⟧
+93ebfdb8	In liver disease the blood enzymes ALT and AST rise; the test for them is called an LFT.

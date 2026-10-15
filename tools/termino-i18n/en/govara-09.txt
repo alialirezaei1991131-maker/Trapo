@@ -1,0 +1,218 @@
+3e9f6ec3	Hernia repair with sutures is ___.
+262cf59a	Build a word meaning “incision of the common bile duct”
+13cfc981	Spell the term for crushing a stone
+5bfb121b	Stomas and anastomoses
+9abf2f2a	opening on the skin
+01a38c90	An <b>ostomy</b> is an opening that the surgeon makes from an organ to the abdominal wall, and the <b>stoma</b> (Greek for “mouth”) is the opening on the skin itself. Stool collects in a bag.⟦0⟧
+f30f4ef8	A sigmoid colostomy, B transverse colostomy, C ileostomy
+7b76fbe8	surgical opening on the abdominal skin
+d0eaf3e0	bag for collecting stool
+a3c0bdaa	Naming each ostomy
+07d7a25a	⟦0⟧A colostomy is named after the part brought to the skin, and there are four types: ascending, transverse, descending and sigmoid colostomy. In the same way, ⟦1⟧ is from the ileum, ⟦2⟧ from the jejunum and ⟦3⟧ from the stomach.
+ee7ab402	Names of ostomies
+8c245b83	Match each ostomy to its organ
+de5eae46	In an ileostomy the stool is looser than in a sigmoid colostomy.
+abbda021	The higher the opening, the less water has been absorbed.
+7991afe7	Joining two organs
+4f9bc312	An <b>anastomosis</b>, plural anastomoses, is the surgical joining of two hollow organs, and both roots appear in its name:⟦0⟧
+f96cfbf1	Connection
+6bd4825d	stomach to duodenum
+8244187e	stomach to jejunum
+a8f6d64a	stomach to intestine
+131bf301	colon to rectum
+f2bc76cd	removal of the colon and rectum
+261023e0	repair of the rectum
+53924c0c	Which one is an anastomosis?
+ae5ba35f	Two roots = two organs joined.
+2241bd76	Review of the “Operations and openings” level
+15a7fbd2	-ectomy: gastrectomy, colectomy, cholecystectomy, appendectomy, polypectomy, hemorrhoidectomy
+a729f157	-tomy: laparotomy, choledochotomy, vagotomy • -rrhaphy and -plasty: herniorrhaphy, pyloroplasty
+a763f7d9	lithotripsy and ESWL crush stones
+70a3785d	ostomy and stoma: ileostomy, colostomy, gastrostomy • anastomosis: gastrojejunostomy, coloproctostomy
+aa2f2f08	An opening of the colon on the abdominal wall is a ___.
+4f3e9473	Spell the term for an opening of the ileum on the abdominal skin
+5ebbcb7e	Billroth and weight-loss surgery
+2a6336b4	Billroth I and II
+338b2661	⟦0⟧After the lower part of the stomach is removed (for example for an ulcer or cancer), the stomach must be joined to the intestine again: in <b>Billroth I</b> to the duodenum and in <b>Billroth II</b> to the jejunum.
+525f34e4	Which anastomosis is ⟦0⟧?
+b80e456d	Stomach to jejunum.
+90e0f984	Billroth II diagram
+515c0063	⟦0⟧In the diagram, the dashed line shows the removed part of the stomach, and the jejunum is joined to the remaining stomach.
+f9c6ad55	In Billroth I the stomach is joined to the duodenum.
+ec9d96e1	⟦0⟧<b>Bariatric surgery</b> (bar/o = weight) is for severe obesity: <b>gastric banding</b> (Lap-Band) makes the stomach smaller with a ring around its upper part, and <b>gastric bypass</b> joins a small stomach pouch to the jejunum.
+d9bd65b6	A banded stomach, B gastric bypass
+018a31e6	⟦0⟧In gastric bypass, food skips most of the stomach and the duodenum, so less is eaten and less is absorbed.⟦1⟧
+7b0f9477	After a bypass, absorption of vitamin B12 and iron drops and the patient needs supplements.
+27b182b6	Match each operation to its feature
+8376f96f	adjustable ring around the top of the stomach
+8ca7e620	small stomach pouch joined to the jejunum
+16bfc096	⟦0⟧ relates to the treatment of…
+481a8727	obesity (weight)
+b017071c	Operations to treat severe obesity are called ___.
+6486d7f1	bar/o = weight.
+a27d3c6a	Spell the adjective for weight-loss surgery
+72dafb0f	When the patient cannot eat
+303bb1d6	⟦0⟧A <b>nasogastric tube</b> (NG tube) runs from the nose to the stomach: for feeding (<b>gavage</b>), washing out (<b>lavage</b>) or emptying the stomach.
+f83a48c0	NG tube on an X-ray
+ab1ffa37	⟦0⟧Before each NG feed, the tube’s position is checked by X-ray or by testing the aspirate for stomach acid, to make sure it is not in the lung.
+d55bc251	NG tube on a radiograph
+d26cba7d	liquid feeding through a tube into the stomach
+f43dd9a6	washing out the stomach
+5bd941f5	emptying the bladder
+6c042da8	washing out the stomach through a tube
+56354f60	tube feeding
+c9f6a773	incision of the stomach
+dd1fe463	PEG and TPN
+b833932c	⟦0⟧A <b>PEG tube</b> is placed through the abdominal skin into the stomach with the help of an endoscope, for long-term feeding. In <b>TPN</b> all of the patient’s nutrition is given through a vein and the GI tract is bypassed (hyperalimentation).
+0db5115e	PEG tube
+61501238	nose to stomach
+dec4e0f0	skin to stomach with an endoscope
+e4e6578a	complete nutrition via a vein
+ce897d79	fluid via the rectum
+098f3a63	NPO and enemas
+ae6d91e8	<b>NPO</b> (nil per os) means nothing by mouth; it is ordered before surgery and endoscopy. An <b>enema</b> is fluid introduced through the rectum to clear the bowel or give a drug.⟦0⟧
+ad97a546	TPN means feeding through a nasogastric tube.
+96b6cc7d	False; TPN is total intravenous nutrition.
+e06ce9cb	The order “nothing by mouth” before an operation is ___.
+cf31da2d	Spell the term for washing out the stomach
+f8ed6f90	Reducing acid
+50ad78a2	⟦0⟧An <b>antacid</b> neutralises acid already made; an <b>H2 blocker</b> (H2 antagonist) blocks the histamine receptor, and a <b>PPI</b> (proton pump inhibitor) inhibits the cell’s acid pump. They are used for GERD and peptic ulcer.
+5356e33a	Such as omeprazole.
+389c1530	blocking the H2 receptor
+1178bf3e	inhibiting the proton pump
+f26c38b5	Paired drugs
+20e1b96b	⟦0⟧An <b>emetic</b> induces vomiting and an <b>antiemetic</b> prevents nausea and vomiting. A <b>laxative</b> eases defecation and a <b>cathartic</b> is a strong purgative; an <b>antidiarrheal</b> treats diarrhoea.
+67558860	A patient has severe nausea after chemotherapy. Which drug class?
+8dbaa92b	An emetic is an anti-vomiting drug.
+e620918b	False; an emetic induces vomiting; the anti-vomiting drug is an antiemetic.
+08c0319a	Gas and cramps
+5deaadc6	⟦0⟧ such as simethicone reduces gas, ⟦1⟧ relaxes intestinal muscle cramps and ⟦2⟧ softens the stool.⟦3⟧
+c4f37cc0	PONV means postoperative nausea and vomiting; it is usually prevented with an antiemetic.
+78e8b830	easing defecation
+f425f7c9	treating diarrhoea
+8b73e64c	reducing gas
+2e080155	relaxing intestinal cramps
+7cb5a387	pain after meals
+1dd69398	bleeding after surgery
+3a4dafcc	constipation after surgery
+c2043e60	Review of the “Tubes, feeding and drugs” level
+818326fc	Billroth I to the duodenum and Billroth II to the jejunum • bariatric: gastric banding and gastric bypass
+bf6fa353	NG tube: gavage feeding and lavage washing • PEG through the skin • TPN via a vein • NPO
+4da2316c	antacid neutralises • H2 blocker and PPI reduce acid
+a7ad2ef7	emetic and antiemetic • laxative, cathartic and antidiarrheal • antiflatulent, antispasmodic, stool softener
+611781a5	A drug that neutralises acid already made in the stomach is an ___.
+6513db37	Spell the term for a drug against nausea and vomiting
+9d4fabfc	Rootpicker
+f4da71e2	Breaker of digestive words
+188f6ea0	Splits every digestive term into pieces: gastr/o stomach, enter/o intestine, hepat/o liver and cholecyst/o gallbladder; and starts the meaning from the suffix.
+1a8ccb6a	Suffixbook
+f667f7a5	Notebook of symptom suffixes
+eae246e8	Knows by heart -emesis vomiting, -pepsia digestion, -phagia swallowing, -prandial meal and -lithiasis stones.
+973f5113	Linky
+0cda6a72	Master of naming connections
+1ab25308	Knows that both organs appear in the name of an anastomosis (gastrojejunostomy) and that the plural of diverticulum is diverticula.
+81c77b1e	Toothy
+601860ae	Guardian of the mouth
+739aeefc	The incisor cuts, the canine tears and the molar grinds; counts twenty baby teeth and thirty-two permanent ones.
+968d2803	Droplet
+393298f1	Drop of saliva
+869d81fa	Comes from the parotid, submandibular and sublingual glands, moistens the bolus and knows peristalsis carries it to the stomach.
+d349e3b6	Tummy
+26d8d010	The acid mill
+ed73f072	Knows the cardia, fundus, body, antrum and pylorus; turns food into chyme with HCl and pepsin.
+755da656	Villy
+6b913711	Absorber of the small intestine
+17f134fa	Names the duodenum, jejunum and ileum in order and absorbs digested food with villi and lacteals.
+ac54e380	Quadro
+c89e695e	Finds the RUQ and LLQ, tells the hepatic flexure from the splenic flexure and knows the appendix is in the lower right quadrant.
+63cb4aaa	Livey
+9f25f929	The bile factory
+0336e4ff	Makes bile and sends it through the hepatic and cystic ducts to the common bile duct; its friend the pancreas supplies amylase and lipase.
+92aa26fe	Queasy
+844ac683	Symptom spotter
+90bd922b	Tells nausea, emesis, dyspepsia, dysphagia and eructation apart and knows hematemesis means vomiting blood.
+76caa2c5	Gumguard
+db5f2b92	Guardian of mouth and gums
+7d01c7b1	Knows caries, gingivitis, periodontitis, aphthous ulcers and thrush, and knows leukoplakia is a precancerous lesion.
+e55e2001	Pylori
+d6bf029c	The stomach-ulcer bacterium
+5035006f	It is H. pylori itself, the main cause of peptic ulcers; it also knows GERD, Barrett esophagus and hiatal hernia well.
+7322ebb9	Flary
+4e0b8a4e	Spotter of bowel diseases
+1d986a4a	Tells Crohn disease and ulcerative colitis apart from IBS, recognises coeliac disease by gluten and never mixes up diverticulosis with diverticulitis.
+3721159e	Knotty
+2a3384e6	Master of bowel obstruction
+cee11249	Volvulus is twisting, intussusception telescoping and ileus a standstill of the bowel; it also knows haemorrhoids and fistulas.
+98d1797d	Pebble
+1ca4fdba	Detective of liver and bile
+243d987c	Tells cholelithiasis from choledocholithiasis, knows the five types of hepatitis and knows cirrhosis leads to ascites.
+8d311fff	The eye inside the tube
+69e3a0e7	Performs EGD, colonoscopy, sigmoidoscopy and ERCP, and knows a barium swallow images the oesophagus and stomach.
+b38c3995	Master of GI surgery
+66a46024	Knows appendectomy, cholecystectomy, colostomy and gastrojejunostomy, and tells Billroth I from Billroth II.
+19d453bc	GI pharmacist
+8cc9fda3	Knows antacids, PPIs, H2 blockers, antiemetics, laxatives and antidiarrheals, and tells NG, PEG and TPN apart.
+3dce1645	Rectal bleeding report
+92a3cc92	A 50-year-old man with blood in the stool
+24ad184f	Mr Amini’s sigmoidoscopy report is full of compound terms. His history mentions regional enteritis, appendicitis and an ileostomy. Break each term into its root and suffix.
+27d75495	Complaints he does not have
+28c8171c	dysphagia, postprandial distress, hematemesis
+dcdc8a6a	enteritis; ileostomy and appendectomy
+6d10cd68	sigmoidoscopy; anorectal region normal
+b73bd694	Impression
+dff09443	bleeding polyp or diverticulum
+86c99da5	dys- (difficult) + -phagia (swallowing). Don’t confuse it with dysphasia (speech).
+25dc3532	postprandial means…
+9d6a8d2b	post- (after) + -prandial (meal).
+a3f56c28	ileal opening on the skin
+419d7460	anorectal relates to…
+209de2b3	the anus and rectum
+8c784011	the liver and bile
+1ef34aee	an/o (anus) + rect/o (rectum) + -al.
+35cc24d3	The plural of diverticulum is diverticula.
+8395f8bf	Spell the term for looking inside the sigmoid colon
+4ecd9946	A teenager’s record
+311b4be7	A 15-year-old girl, history review
+1f361ee5	Setareh is reading her medical record and does not understand the terms: proctitis, colitis, partial colectomy and anoplasty. Explain them to her in plain language.
+f0d3f3cf	Past illnesses
+713544dc	proctitis; colitis
+a40eadf6	Operations
+29879bf8	partial colectomy; anoplasty
+a410e152	Current complaint
+88e7d3e7	yearly colonoscopy
+a1f45383	proctitis means inflammation of…
+67ce198a	proct/o = rectum and anus; don’t confuse it with prostat/o (prostate).
+9fd5b36c	colitis means inflammation of…
+1b3173d5	col/o + -itis. Bile is chol/e.
+55a78e5d	repair of the anus
+2978e638	partial colectomy means removal of part of the colon.
+7dd953da	partial = part; -ectomy = removal.
+bdb6dbad	colonoscopy means…
+473c3bad	looking inside the colon with an endoscope
+31090e76	coloured X-ray of the colon
+b4154a92	repair of the colon
+703f0db7	Spell the term for surgical repair of the anus
+3ca27ecb	Routine dental check-up
+c084e12d	A 22-year-old woman in for scaling
+c0d8818a	After scaling, the dental hygienist noticed slight swelling beside the lower left third molar. An X-ray shows decay in the same tooth.
+13c87eea	Work done
+236bf87f	removal of calculus, plaque and stains
+239e83d3	pink gingivae; no gingivitis
+3ca3a0de	dental caries in a third molar
+0cd71464	Tooth structure
+5af2d584	Decay
+4006644b	A third molar is the same as…
+ae719b72	front tooth
+df9dba23	baby tooth
+a1f469f5	The third molar is the last permanent tooth and comes in at about age 17.
+30c987ff	dental caries means…
+a8d6c7a8	caries means decay; the acid from plaque bacteria eats into the enamel.
+4d702212	The plural of gingiva is gingivae.
+b7bd013e	Order the progress of decay from the surface inwards
+38b4f031	plaque on the tooth
+e1e9991b	decay of the enamel
+720b7799	reaching the dentin
+3a0b9b17	pulp infection and abscess
+53490a2f	From outside to inside: enamel, dentin, pulp.
+6f865282	In a prescription, po means…
+6736291c	Spell the term for inflammation of the gums

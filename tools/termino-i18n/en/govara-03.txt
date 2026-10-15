@@ -1,0 +1,271 @@
+d1ab8b4e	normal colour
+54148a9b	If the liver is diseased or the bile duct is blocked:
+9e3c6a19	yellow skin and whites of the eyes, dark urine
+ab8437be	If bile does not reach the gut, the stool turns pale (clay-colored)
+d015481d	Bilirubin and jaundice
+9c93e638	swollen oesophageal veins; bleeding
+0d860955	fluid in the abdomen
+90b7ce05	cirrhosis: a scarred, hardened liver
+e2149382	alcohol, hepatitis B and C, fat
+87a35eae	high pressure in the portal vein
+939b954e	cirrh/o means yellowish-orange; the colour of a cirrhotic liver
+c16a45c0	Consequences of cirrhosis
+bdd73209	Each term points to a place on the bile route
+874eb488	stone in the common duct
+ee037229	inflammation of the bile ducts
+77b17606	colicky RUQ pain after a fatty meal = biliary colic
+98d42dd6	Bile terms
+e5f28165	hernia: each hernia is named after its location
+2dcc16a5	stomach through the diaphragm opening
+822aa1f8	at a surgical incision site
+537e3a14	strangulated: blood supply cut off; emergency
+529e8c7d	Where hernias occur
+be2c4107	Colorectal cancer: the deeper, the more advanced
+68e214b0	confined to the mucosa
+106914d2	into the muscle layer
+b3113e96	lymph nodes involved
+cbefe258	Most cancers start from a polyp; polypectomy during colonoscopy prevents them
+0a5d5280	Dukes stages
+16784494	Endoscopies are named after the part they view
+3a314e09	mouth →
+ce36bdc2	from the anus to the caecum
+c7aca312	capsule endoscopy, using a swallowed camera capsule, also views the small intestine
+db1b6809	The endoscopy family
+3ceaeaf5	barium swallow: oesophagus, stomach and duodenum
+5aa47103	barium via the rectum: colon
+d6aa13f8	endoscope + contrast: bile and pancreatic ducts
+04074277	needle through the skin into a bile duct in the liver
+42b16b50	MRI of the bile ducts without an endoscope
+74b4b307	ultrasound; the main test for gallstones
+77e3c7fe	3D image of the colon with CT
+5be0ec17	Imaging in digestive diseases
+57b84268	GI imaging
+9deee221	-ectomy on each organ
+82f1f154	haemorrhoids
+9db497f1	In American usage, removal of the appendix is appendectomy, not appendicectomy
+766a832e	Map of removals
+3c227b61	After removing the lower part of the stomach, what should it be joined to?
+8501f1fc	Billroth
+a61b621f	nose to stomach; feeding (gavage) or washing (lavage) and suction
+08335880	through the abdominal skin into the stomach, with the help of an endoscope
+99682136	through the skin into the jejunum
+a06da830	complete nutrition through a vein; the GI tract is bypassed
+5551e6ed	nothing by mouth (before surgery and endoscopy)
+0e7d5966	when the patient cannot eat
+e283baf5	Tubes and feeding
+1faddc99	Three ways to reduce stomach acid
+de8f27c7	acid-producing cell of the stomach wall
+b330abea	acid produced
+c8f18b5d	neutralises it
+c4cbe2ee	inhibits the
+9ec7bd55	proton pump
+c057b94b	blocks the
+591a4110	H2 receptor
+5637f5aa	Acid-reducing drugs
+a9f091cb	induces vomiting
+1e007e28	prevents nausea and vomiting
+b6236738	eases defecation (laxative)
+501f20c2	treats diarrhoea
+b1c5ef37	softens the stool
+65d3aaa3	reduces intestinal cramping
+7ef9923a	reduces gas and bloating
+894b9170	Paired GI drugs
+9074a68e	anti- means against: emetic versus antiemetic
+f4df6f5a	Drug pairs
+088fdff5	Language of Digestion
+b3efe1d7	Word structure, mouth roots, the GI tract, liver and bile, symptom and surgical suffixes, adjectives, plurals and look-alike words
+9cd5da1e	Word structure and mouth roots
+3302a7a4	Roots of the GI tract and accessory organs
+763e0cbb	Suffixes, adjectives and plurals
+93490824	Break a word apart
+92dbb972	A digestive term has three parts
+e473b6ee	Most digestive terms are built from a <b>root</b> (the organ), a <b>combining vowel</b> and a <b>suffix</b> (what happened).⟦0⟧Read the meaning from the end: in ⟦1⟧ the root <b>cholecyst/o</b> is the gallbladder and the suffix <b>-ectomy</b> is removal; so it means “removal of the gallbladder”.
+1321e23d	When does the combining vowel drop?
+2e1dd842	⟦0⟧ = <b>gastroscopy</b> (looking inside the stomach); but ⟦1⟧ = <b>gastritis</b>, not gastroitis.⟦2⟧
+a59ab963	A suffix that begins with a vowel, such as -itis, -ectomy and -algia, pushes the o aside.
+45b9c527	gastr/o (stomach) + -itis (inflammation).
+8de337bf	In ⟦0⟧, which part is the suffix?
+52a0ba7c	-scopy: looking inside
+210d87a6	-gastr: stomach
+1598c8fb	-o: combining vowel
+d4123f83	-copy: duplicate
+03c8db44	⟦0⟧ = <b>gastroenteritis</b>: inflammation of the stomach and intestines. ⟦1⟧ is the study of the stomach and intestines, and its doctor is the ⟦2⟧.⟦3⟧
+675c0a83	The specialist in digestive diseases is the gastroenterologist; in Iran the title “GI subspecialist” is also used.
+80b8f1a4	In gastroenteritis, an o also comes between the two roots.
+e7b24ef5	gastr + o + enter + itis: an o always comes between two roots.
+53877bc2	doctor specialising in digestive diseases
+f937e337	dental surgeon
+5c88da50	paediatric liver specialist
+2b934cc1	Inflammation of the stomach and intestines is called ___.
+cffa00cd	Build a word meaning “removal of the gallbladder”
+e9dd594c	cholecyst/o + -ectomy = cholecystectomy; the o drops before -ectomy.
+f7a78a56	Spell the term for inflammation of the stomach
+6677fb92	gastr/o + -itis; no o.
+6264a8bf	Mouth, lips and teeth
+aeb0531f	⟦0⟧The mouth has two roots: <b>or/o</b> and <b>stomat/o</b>. ⟦1⟧ means relating to the mouth and ⟦2⟧ means inflammation of the oral mucosa.⟦3⟧
+47c11f71	stomat/o looks like stomach but means “mouth”; the stomach is gastr/o.
+207d6caa	stomat/o = mouth.
+fbc7034e	Around the mouth and cheek
+dddb71b0	Parts
+44fe35a7	inside the cheek
+00019ce0	stone in a salivary gland or duct
+00b757ad	circum- (around) + or/o + -al.
+d20f4756	Lips and teeth
+0974aa6c	The lips have two roots: <b>labi/o</b> and <b>cheil/o</b>; the teeth have two as well: <b>dent/o</b> or dent/i, and <b>odont/o</b>.⟦0⟧
+569541d5	without teeth (e- = without)
+03230270	dentist who straightens the teeth (orth/o = straight)
+40cba302	treatment of the tissues around the teeth
+3e549bd4	specialist in straightening teeth
+5553acce	Which root means the same as dent/o?
+bd36c43b	dent/o = odont/o = tooth.
+82ee542e	<b>gingiv/o</b> means gum: ⟦0⟧ is inflammation of the gums and ⟦1⟧ is removal of part of the gum.⟦2⟧
+a4bd85d6	A dental hygienist removes tartar and plaque so that gingivitis does not develop.
+010bc291	gingivitis means inflammation of the tongue.
+0307e385	False; gingiv/o is the gum. Inflammation of the tongue is glossitis.
+ecd2c798	Build a word meaning “toothache”
+e9a6733b	Spell the term for a specialist in straightening teeth
+12816a93	Tongue, jaw, palate and saliva
+5b353c30	The tongue has two roots
+a89dd4e4	<b>gloss/o</b> (Greek) and <b>lingu/o</b> (Latin) both mean tongue.⟦0⟧⟦1⟧
+64048d5f	paralysis of the tongue (-plegia)
+f04da83e	under the tongue (hypo-)
+2dd7a891	beneath the tongue (sub-)
+34b83b71	relating to one half of the tongue (hemi-)
+71df5ce8	Nitroglycerin tablets are sublingual: they dissolve under the tongue.
+556ef5af	gloss/o + -plegia (paralysis).
+7d8e8fcd	hypoglossal and sublingual both mean under the tongue.
+354ed2ae	hypo- and sub- both mean below.
+e232a3aa	<b>gnath/o</b> means jaw: ⟦0⟧ is a protruding jaw (pro- = forward), ⟦1⟧ a small jaw and ⟦2⟧ absence of the jaw.
+fad29303	absence of teeth
+15ef8d99	enlarged tongue
+e891e26f	paralysis of the jaw
+01d2d8f9	Palate, uvula and saliva
+86834ea6	palatorrhaphy: suturing of the palate
+c2d20640	uvulectomy: removal of the uvula
+f904b702	sialolith: salivary stone (lith/o means stone) • sialogram: X-ray of the salivary glands • sialorrhea: excessive saliva
+a719a6ed	sial/o + lith (stone).
+1f1ba368	Suturing the palate, for example in a cleft palate, is called ___.
+a849c54a	palat/o + -rrhaphy (suture).
+0f26fd66	Review of the “Word structure and mouth roots” level
+fd11221c	Read the meaning from the end; before a vowel suffix the o drops: gastritis
+7eb6a2d4	Mouth or/o and stomat/o • cheek bucc/o • lips labi/o and cheil/o
+06caa6cd	Teeth dent/o and odont/o • gums gingiv/o • jaw gnath/o
+b7f8594e	Tongue gloss/o and lingu/o • palate palat/o • uvula uvul/o • saliva sial/o
+4cb39247	Build a word meaning “salivary stone”
+208e2b95	Spell the term for under the tongue, using the prefix sub-
+a04ad5cb	From the oesophagus to the small intestine
+c3b7b6a9	Roots in the order food travels
+81c7d799	⟦0⟧First half of the route: <b>esophag/o</b> oesophagus, <b>gastr/o</b> stomach, <b>pylor/o</b> pylorus, <b>enter/o</b> intestine (mostly the small intestine), <b>duoden/o</b>, <b>jejun/o</b> and <b>ile/o</b>.
+49437cb1	Oesophagus and stomach
+1d12d161	stomach pain; same as gastrodynia
+2ccb181b	partial paralysis of the stomach; slow gastric emptying
+d820f66d	sudden spasm of the pylorus
+11ecddb1	widening of the oesophagus
+75638542	paralysis of the oesophagus
+dbb3915a	esophag/o + -stenosis (narrowing).
+4a9d1d49	gastralgia and gastrodynia both mean stomach pain.
+b8f650d8	any disease of the intestine
+83816dd6	bloody diarrhoea; dys- + enter/o + -y
+8c48616e	ileum with an e is the intestine, like the e in enteric; ilium with an i is the hip bone, like the i in hip.
+4bd8f17e	Which one is the ileum?
+79e9a1eb	first part of the large intestine
+d53f97da	opening of the stomach
+855ebaf0	ileum is the intestine; ilium is the hip bone.
+3a384308	Bloody diarrhoea caused by intestinal inflammation is called ___.
+03acd9ab	Build a word meaning “inflammation of the stomach and duodenum”
+628bdd9e	Spell the term for narrowing of the oesophagus
+58666efe	Large intestine, rectum and anus
+b6e650cf	Second half of the route
+f567fc0e	<b>cec/o</b> caecum, <b>col/o</b> and <b>colon/o</b> colon, <b>sigmoid/o</b> sigmoid colon, <b>rect/o</b> rectum, <b>proct/o</b> rectum and anus, and <b>an/o</b> anus.⟦0⟧
+a5d6d7c6	Don’t confuse proct/o with prostat/o (prostate); proctology is the study of the rectum and anus.
+5a3c103d	Terms
+ba78ea18	drooping of the caecum (-ptosis)
+1a8d999f	irrigation of the colon (-clysis)
+4ac9674a	herniation of the rectum into the vagina (-cele)
+d68d7cfa	surgical fixation of the rectum (-pexy)
+6fd2f21b	prolapse of the rectum and anus
+cb237ba0	hernia of the rectum
+0cae94f4	narrowing of the rectum
+4357a0ac	incision of the rectum
+ea68faee	rect/o + -cele (hernia, protrusion).
+83a3af6f	looking inside the rectum
+cfd50e47	removal of the rectum
+2e5152f4	proct/o + -pexy (fixation).
+ceeb4417	⟦0⟧ means around the anus (peri- + an/o + -al) and ⟦1⟧ means relating to the anus and rectum.⟦2⟧
+f447415b	root: anus; anal
+e302e5a8	prefix: without; anorexia
+73c45cd2	In anorexia, an- is the root for anus.
+12214165	False; anorexia is the prefix an- (without) + orex/o (appetite).
+4c4fa277	Which root means “colon”?
+820a9528	col/o and colon/o = colon; chol/e is bile.
+04b84cd9	Build a word meaning “prolapse of the rectum and anus”
+0f07cabd	Spell the term for around the anus
+5768f0b9	Roots of the accessory organs
+b4708889	⟦0⟧<b>hepat/o</b> liver; <b>chol/e</b> and <b>bili</b> bile; <b>cholecyst/o</b> gallbladder; <b>cholangi/o</b> bile duct; <b>choledoch/o</b> common bile duct; <b>pancreat/o</b> pancreas.
+53d37add	liver cell
+89c4a621	any disease of the liver
+5e9d6ab7	originating in the liver
+ad7e65dc	hepat/o + -cyte (cell).
+e9e7549e	Bile and ducts
+c6acb9f2	stagnation of bile flow
+54847269	X-ray of the gallbladder
+705d2812	chol/e with an e is the exception; and chole is the same as gall (bile): cholecyst = gall + bladder.
+dd130026	excessive bile secretion
+d564d9a1	chol/e + -stasis (standing still).
+6d0a4dad	Inflammation of the gallbladder is spelled colecystitis.
+47894856	False; cholecystitis is correct. col/o is the colon.
+021bc963	⟦0⟧ means destruction of pancreatic tissue and ⟦1⟧ means acting on the pancreas.⟦2⟧
+fca4512f	In medical records, CBD is the common bile duct and GB is the gallbladder.
+f2c6d65e	A tumour of a bile duct is called ___.
+15d128b7	Review of the “Roots of the GI tract and accessory organs” level
+77de63e2	Oesophagus esophag/o • stomach gastr/o • pylorus pylor/o • intestine enter/o
+66a8eb58	Duodenum duoden/o • jejunum jejun/o • ileum ile/o (not ili/o, the hip bone)
+c36b261c	Caecum cec/o • colon col/o and colon/o • sigmoid sigmoid/o • rectum rect/o • rectum and anus proct/o • anus an/o
+4f2d5d29	Liver hepat/o • bile chol/e and bili • gallbladder cholecyst/o • ducts cholangi/o and choledoch/o • pancreas pancreat/o
+67c8ae73	Build a word meaning “gallstone”
+913bb06b	Spell the term for relating to bile
+ebca2659	Eight GI symptom suffixes
+61de11f9	hematemesis: vomiting blood
+0a8cb392	dyspepsia: indigestion
+03638109	dysphagia: difficulty swallowing
+afb0c474	postprandial: after a meal
+5fdc767d	blood in the stool
+d9287727	hemat/o (blood) + -emesis (vomiting).
+8bf77288	during swallowing
+616c82f3	after defecation
+00eca73f	Discharge and flow
+3ac80d37	hematochezia: bright blood in the stool
+ca858893	diarrhea • steatorrhea: fatty stool
+c93ca9ee	-rrhea and -rrhaphy have a double r: diarrhea, herniorrhaphy.
+55cf46a9	Pain, enlargement, narrowing
+9fe553c2	cholecystalgia: gallbladder pain
+45e6cc29	splenomegaly: enlarged spleen
+d57c86f4	cholangiectasis: dilation of a bile duct
+d0964274	narrowing of a bile duct
+171b0ba5	stone in a bile duct
+9912c4be	inflammation of a bile duct
+2a9137d4	cholangi/o + -ectasis (dilation).
+b6330f20	steatorrhea means fatty stool.
+fcb0ab7f	steat/o (fat) + -rrhea (flow).
+29975327	Bright red blood in the stool is called ___.
+a715aa73	Build a word meaning “gallbladder pain”
+f9c6f7ac	Spell the term for indigestion
+85651e1b	Surgical and specialty suffixes
+65717825	laparotomy: incision of the abdomen
+16676465	incision of the abdominal wall
+eae719c4	removal of the abdomen
+1cc4fdc1	repair of the abdomen
+edd67160	lapar/o (abdominal wall) + -tomy (incision).
+7b3c394e	repair of the pylorus
+9ed5e3ea	One organ or two?
+9488b3ee	⟦0⟧When one organ opens onto the skin, only one root is used: ⟦1⟧. When two organs are joined, both roots are used: ⟦2⟧. This connection is called an <b>anastomosis</b>.
+7ffcc824	surgical connection of the stomach to the jejunum
+094d43f4	jejunal opening on the skin
+5d50c63c	removal of the stomach and jejunum
+aefd4cef	incision of the jejunum
+6460f84f	Two roots + -stomy = anastomosis.
+6c160aef	ileostomy means joining the ileum to the abdominal wall and making an opening on the skin.
+406df622	One root + -stomy = an opening to the outside.
+6993eac4	Specialties
+33f836b6	study and treatment of digestive diseases
+72838ec9	treatment of diseases of the rectum and anus

@@ -1,0 +1,227 @@
+8ca7ff60	Stomach upset after meals
+dab936ba	A 19-year-old man with indigestion
+159ebcc0	At the clinic Tom says, “My stomach is upset, food goes down with difficulty and I have diarrhoea.” The doctor wants to explain the route of food to him.
+65631135	Complaint 1
+a50af534	Complaint 2
+79d69b84	Complaint 3
+cd0b1c9d	The route of food
+58dfbf01	Put the route of food in order, starting from the mouth
+4ceb216f	Mouth, pharynx, oesophagus, stomach, small intestine, large intestine.
+0037927d	The involuntary wave-like movement that pushes food along is…
+dba47aeb	peristalsis = wave-like movement of the gut.
+bc67bfe9	epigastric means…
+d66e4682	above the stomach; the pit of the stomach
+96bee2d0	around the navel
+cd00fe2c	epi- (upon, above) + gastr/o + -ic.
+2b54b533	Sphincter
+a6784e82	The sphincter between the oesophagus and stomach is called the LES and stops acid flowing back.
+f85cda2c	Spell the term for the food pipe
+38a5f926	Right-sided pain
+f926e099	An 18-year-old woman in the emergency department
+643e7b57	Jennifer is clutching her right side and writhing in pain. The nurse suspects gallbladder inflammation, but the doctor says every organ in that quadrant must be considered.
+f15a527d	Site of pain
+b0f6faa0	nausea after fatty meals
+229fbcab	Suggested test
+5ef6a64e	RUQ means…
+4b8ee68e	umbilical region
+b03cba7d	Which organ is in the RUQ?
+e5da4a84	liver and gallbladder
+e19bd4f0	The liver and gallbladder are in the right upper quadrant.
+05029968	Put the route of bile in order
+1002c0fa	The liver makes bile and empties it through the hepatic duct and common duct into the duodenum.
+faa842e5	cholecystitis means…
+b5e685fd	The pain that moved down
+cc574ef3	A 12-year-old boy with abdominal pain
+e275a741	Arash’s pain began around the navel and a few hours later moved to the lower right abdomen. He has a mild fever and loss of appetite. The doctor sketches a map of the large intestine.
+c3cf20fa	Pain onset
+01613c04	Current site
+4cd0c9ce	anorexia, nausea, mild fever
+94dd641b	peritonitis if the appendix bursts
+ca65111e	The umbilical region is the region…
+2dfa9b0f	pit of the stomach
+56c8b846	below the ribs
+b0b3ab1d	Which part of the large intestine is the appendix attached to?
+a9a5a363	The appendix hangs from the caecum, in the RLQ.
+6bedbe59	Put the parts of the large intestine in order from the start
+0f81e0c7	Caecum, ascending, transverse, descending, sigmoid, rectum.
+97e7a6b2	peritonitis means inflammation of…
+fa182a94	the peritoneum; the membrane lining the abdominal cavity
+622c9043	The ileocecal valve is between the ileum and caecum.
+d2780e76	A 51-year-old man with reflux
+75d9c96c	Abe has had heartburn for years and treated himself with antacids and H2 blockers. An EGD showed oesophagitis, but he did not take his PPI regularly. A second EGD showed moderate esophagitis and a small hiatal hernia.
+89ac9ea7	heartburn; regurgitation
+1ed11239	First EGD
+8e760b33	Second EGD
+d943f322	PPI 40 mg daily
+76cdc8a4	GERD means…
+f9592c25	Another name for heartburn is…
+1cb10d48	pyr/o = fire; burning behind the breastbone.
+5c3e76d3	EGD means looking inside…
+c22519d2	neutralises acid already made
+e42333bb	blocks the H2 receptor
+1830d4bb	inhibits the proton pump
+8e986e94	In a hiatal hernia, part of the stomach moves up through the diaphragm opening into the chest.
+fa5f4282	hiatus = the oesophageal opening in the diaphragm.
+e14c5a04	Spell the term for inflammation of the oesophagus
+30e43149	Black stool
+47c1f76e	A 56-year-old man with epigastric pain
+b66a2998	Mr Rezaei had dyspepsia for years and felt better with antacids. For two weeks the pain has been worse and his stool is black and tarry. A CBC shows anaemia.
+1f18721a	melena; epigastric pain
+d00c278a	positive FOBT; positive H. pylori
+a25fe8eb	a bleeding 1.5 cm gastric ulcer
+17ce2758	Recommendation
+c6f29c19	Peptic ulcers
+e2c7abf2	melena means…
+650fdd48	black, tarry stool with digested blood
+c2509878	bright red blood in the stool
+0969ff6f	melan/o = black; a sign of upper GI bleeding.
+b018be47	Which bacterium is the main cause of peptic ulcers?
+080444b6	H. pylori infects the stomach wall.
+7c97b7fc	What is the FOBT for?
+a705eeae	finding hidden blood in the stool
+8ad5ca6d	counting blood cells
+5bc8c2dd	finding parasites
+7795b189	measuring liver enzymes
+557b33b3	A peptic ulcer occurs only in the stomach.
+cb9d9e49	False; it also occurs in the oesophagus or duodenum.
+fc13b116	gastrectomy means…
+a45db5ba	removal of part or all of the stomach
+fe3cf4b0	stomach opening on the skin
+36c7a980	Spell the term for looking inside the stomach
+4bf1c908	Chronic diarrhoea
+c5d07f95	A 24-year-old man with mucoid diarrhoea
+57c27912	For several months Sam has had mucoid diarrhoea, indigestion and mouth ulcers. A barium enema showed irregularities and the doctor first suspected IBS. Colonoscopy showed granulomatous ulcerating lesions.
+cd1eec18	mucoid stools, dyspepsia, aphthous ulcers
+4f32cf7b	irregular bowel wall
+ea44e1e9	IBD; biopsy
+965820b7	Crohn disease and colitis
+cb25ad03	In this record, BE means…
+6ad49ad0	barium enema: a contrast X-ray of the colon with barium given through the rectum.
+7f221efe	Which two diseases does IBD include?
+87af0252	IBS and celiac disease
+9226940c	GERD and Barrett esophagus
+bc842ef9	diverticulosis and hemorrhoids
+923c7775	In IBS, the bowel wall has visible ulcers and damage.
+35105c21	False; IBS is a functional disorder with no visible damage.
+3edec07a	Comparison
+deb4072d	patchy, anywhere in the GI tract
+4c2cbcfc	continuous, colon and rectum only
+e22a1f95	no visible damage
+3cef4683	aphthous ulcer means…
+6fa86477	canker sore; a small, painful mouth ulcer
+4e089072	Spell the term for an endoscopic view of the colon
+74d4d1ef	Jaundice after travel
+2e85460d	A 30-year-old woman with jaundice
+b67ccd14	After a trip during which she drank contaminated water, Mrs Noori has nausea, vomiting and tiredness, and her eyes have turned yellow. She has not had a BM for three days. The doctor has ordered LFTs and an HAV test.
+2da49ce5	N&V; jaundice; fatigue
+43d76bf4	Last BM
+28cbaf10	three days ago
+5568bbfa	LFT, ALT, AST
+188b466e	Hepatitis A to E
+79476f7e	jaundice means…
+ad3771dc	yellowing of the skin and eyes
+b847e09a	Its other name is icterus; caused by raised bilirubin.
+efe08ab8	BM means…
+5906ab1e	LFT means…
+5dcf7674	blood fat test
+dc18e235	stool test
+949c2bbb	liver X-ray
+f643bc2a	liver function tests: ALT, AST and bilirubin.
+ca9c7ff5	Transmission
+c11b8129	Hepatitis A is transmitted by the faecal-oral route.
+3accd961	Contaminated water and food; hepatitis E as well.
+8396b344	Hepatitis
+bec692cf	Match each type to its route of transmission
+e549c073	blood and sexual contact
+f5549f97	only together with hepatitis B
+f6ca424b	A 42-year-old woman with RUQ pain
+ee345fd3	Heather has nausea, bloating, belching, fever and RUQ pain that spreads below the shoulder blade. Murphy sign is positive, she has turned yellow and her stool is pale. ERCP and ultrasound showed stones and gallbladder inflammation.
+28b980e3	N&V, flatulence, eructation
+b5b7ffe1	positive Murphy sign; jaundice
+3b3ecf75	cholecystitis with cholelithiasis
+a7a87545	laparoscopic cholecystectomy; then open
+df6385e6	Where the stones lodge
+04b1b301	eructation means…
+bedeba50	Releasing stomach gas through the mouth.
+564421b0	cholelithiasis means…
+0a7c5327	Which ducts does ERCP show?
+b201c509	liver blood vessels
+47dbf40e	Pale (clay-colored) stool means bile is not reaching the gut.
+ba7d3ab4	Bile pigment makes stool brown.
+52750fa5	Put the steps of Heather’s operation in order
+9812a625	laparoscopic cholecystectomy begun
+5433c3a5	converted to open cholecystectomy
+b3d80295	NG tube placed
+07240f12	The laparoscopic operation was converted to open, then the ducts were imaged.
+d2039b6d	Spell the term for removal of the gallbladder
+ca258eea	Constipation and a colon mass
+e7769b72	A 74-year-old woman with lower abdominal pain
+6a05ba2a	Mrs Amiri has severe lower abdominal pain and constipation. Her gallbladder was removed ten years ago and she has chronic reflux. Her abdomen contains fluid. A barium enema showed multiple polyps and a colonoscopy biopsy confirmed sigmoid cancer.
+b2a77b13	cholecystectomy; GERD
+6cf24bad	Stoma sites
+04552905	ascites means…
+8e5ba29a	Fluid in the abdomen.
+c4f39a47	polyposis means…
+fdc48fd2	a single polyp
+3c2fea80	Naming
+899a0ef2	A colostomy is named after the part of the colon brought to the skin, such as a sigmoid colostomy.
+4cce0d1f	Ascending, transverse, descending or sigmoid colostomy.
+fa44c6f9	Stage
+3e478d52	In Dukes C, the cancer…
+a5726b29	has reached the lymph nodes
+fd5494ee	is only in the mucosa
+7a2e4959	has reached the muscle but the nodes are clear
+ed808101	A mucosa, B muscle, C lymph nodes.
+59b9050d	Spell the term for an opening of the colon on the skin
+5a500fab	Start the meaning from the suffix: cholecystectomy means “removal” + “gallbladder”.
+bdd2ea61	chol/e takes the combining vowel e, not o: cholelith is a gallstone and cholelithiasis is gallstone disease.
+e30a57fa	stomat/o looks like stomach but means “mouth”; the stomach is gastr/o.
+b0d2b8a7	ile/o is the ileum of the intestine and ili/o the hip bone; remember the e in ileum with the e in enteric.
+838df93e	-ectomy is removal, -tomy incision and -stomy making an opening: colectomy, colotomy, colostomy.
+8e1f1582	dysphagia with a g is difficulty swallowing and dysphasia with an s is difficulty speaking; g as in gag and s as in speak.
+2571f1eb	Saliva comes from three pairs of glands: parotid, submandibular and sublingual.
+9c79d61e	Swallowing is called deglutition and chewing mastication; the chewed mouthful is a bolus.
+b27e8e48	The LES is the cardiac sphincter; if it does not close properly, acid flows back into the oesophagus.
+411e0d07	The stomach from top to bottom: cardia, fundus, body, antrum and pylorus; its inner folds are rugae.
+ef52c224	A child has 20 baby teeth and an adult 32 permanent teeth; the wisdom tooth is the third molar.
+1745001f	Remember the order of the small intestine with DJI: duodenum, jejunum and ileum.
+f3bad62b	jejunum means “empty”, because it was always found empty at dissection.
+6e0b24bb	villi enlarge the absorbing surface of the small intestine, and the lacteal in each villus absorbs fat.
+71e8a54e	The colon has four parts: ascending, transverse, descending and sigmoid; the bend beside the liver is the hepatic flexure.
+ccd02cf8	Bile is made in the liver, stored in the gallbladder and reaches the duodenum through the common bile duct.
+46e9b8ac	melena is black, tarry stool and hematochezia is bright red blood in the stool.
+12cd9e69	hematemesis means vomiting blood; hemat/o is blood and -emesis is vomiting.
+888a1dfe	pyrosis is heartburn: a burning in the pit of the stomach when stomach acid flows back into the oesophagus.
+ad2bc6e4	H. pylori is the main bacterium behind peptic ulcers, and NSAIDs are the other important cause.
+79cce9db	eructation is belching and flatus is gas passed through the anus.
+a1c0117f	volvulus is twisting of the bowel and intussusception is the bowel sliding into itself like a telescope.
+9bbd8f74	diverticulosis means having the pouches and diverticulitis means inflammation of those pouches.
+0fbba1c7	Hepatitis A and E are transmitted by the faecal-oral route and B, C and D through blood.
+81a22217	Crohn disease affects any part of the GI tract in patches; ulcerative colitis affects only the colon and rectum, continuously.
+d0f0bee0	jaundice and icterus mean the same: yellowing of the skin and eyes from raised bilirubin.
+0b571e43	EGD means viewing the oesophagus, stomach and duodenum with one endoscope: esophagogastroduodenoscopy.
+514ea5b3	Both organs appear in the name of an anastomosis: gastrojejunostomy; an ostomy to the skin names only one: ileostomy.
+ac83069c	An emetic induces vomiting and an antiemetic prevents it.
+c6006ae2	PPIs and H2 blockers both reduce stomach acid; an antacid neutralises acid already made.
+d19fdd41	NPO means “nothing by mouth”; it is usually ordered before surgery and endoscopy.
+026ae9ef	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Govara is a learning tool and does not replace medical references or clinical judgement.</p>⏎    </section>
+c60c423e	Search: ulcer, bile, colon…
+785d77a7	Search: gastr, liver, -ectomy…
+4c3de938	Search: GERD, ulcer, EGD…
+6648e86b	the straight final section of the large bowel
+f2df25ee	first part of the small intestine
+bf4a7357	“empty gut”; middle part of the small intestine
+51f23c74	final part of the small intestine (not to be confused with ilium, the hip bone)
+032a7303	“blind gut”; the appendix is attached to it
+70036482	the colon’s rising, crosswise and falling parts
+50fcfc70	bend beside the liver (right) / bend beside the spleen (left)
+d81ed83b	S-shaped final stretch of the colon
+7263748f	duct formed by the joining of the liver’s ducts
+e2637d1b	main shared bile channel; drains into the duodenum
+239b7d44	bile duct
+cbca61dd	the entire colon
+5d233312	bile and pancreatic ducts with contrast
+ea230d09	upper right: liver, gallbladder
+22cc7d31	upper left: stomach, spleen
+386652b3	lower right: appendix
+2a2bf9fb	lower left: sigmoid colon

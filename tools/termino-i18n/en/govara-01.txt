@@ -1,0 +1,330 @@
+20ab43e8	Govara
+94926611	Govara • Digestive Terminology
+f628572e	Medical terminology of the digestive system
+be42b047	🍽️ Medical terminology: The Digestive System
+791aba01	Hi, I’m <b>Govara</b>;
+26089cf6	Hi, I’m <b>Govara</b>, a stomach that digests everything well! Here you’ll follow the path of food from the mouth to the large intestine, get to know the liver, gallbladder and pancreas, name diseases such as GERD, stomach ulcer, gallstones and hepatitis, and understand endoscopy, surgery and digestive drugs; and you’ll <b>decode</b> every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ textbook pictures, ⟦2⟧ teaching figures, ⟦3⟧ clinical charts and Leitner cards are waiting for you.
+1ce11242	Govara is an educational tool and does not replace medical references, clinical judgment or a physician’s orders.
+703fd3e7	Dozens of teaching figures and textbook pictures, from the mouth, teeth and stomach to the intestinal villi, bile ducts, endoscopy and types of stoma.
+174754b2	Break every digestive word into root and suffix and build new words with roots such as gastr/o, enter/o, hepat/o and cholecyst/o
+efe5ab3a	Explain the path of food from the mouth, oesophagus and stomach to the small and large intestine, naming each part exactly
+90d15b1d	Describe the work of the liver, gallbladder, bile ducts and pancreas with the right words
+2bcdf33d	Recognise digestive signs and diseases: dysphagia, GERD, peptic ulcer, IBD, cirrhosis and cholelithiasis
+e17a1eb7	Read endoscopies, barium studies, ERCP and digestive tests in a chart
+a227409f	Understand surgery and stomas, feeding tubes, digestive drugs and their abbreviations
+3655917f	Just 5 minutes a day. A few weeks from now you’ll read an endoscopy report and a digestive patient’s chart like your mother tongue.
+c197759f	Hi! I’m Govara, a stomach that digests everything well 🍽️ What’s your name?
+6398aace	Which world shall we start with? If you’re new, “Language of Digestion” is the best start; the word-building parts are taught there!
+63a2b79a	The surgery form says: <b dir="ltr">cholecystectomy</b>. It means…
+fddada1f	removal of the gallbladder
+4b413ddc	inflammation of the gallbladder
+a6e24709	gallbladder stones
+b1e1a4d7	imaging of the gallbladder
+77adffa9	⟦0⟧<br><b>cholecyst/o</b> = gallbladder • <b>-ectomy</b> = removal. So it means <b>removal of the gallbladder</b>, the commonest treatment for gallstones. With <b>-itis</b> (cholecystitis) it would be inflammation of the gallbladder, and with <b>-graphy</b> imaging of it. Start the meaning from the suffix!
+b236c245	First Bite
+1b849e59	Tooth Expert
+7097032e	Stomach Explorer
+a94f5118	Bowel Traveller
+ad97b2d8	Liver’s Friend
+986770c2	Ulcer Hunter
+6366169c	Bile Detective
+fb6324b5	Endoscope in Hand
+d245dbbf	Digestive Pharmacologist
+3516f9d0	Head of Govara
+8f95db03	Master of the Language of Digestion
+69d2a0d9	Dental hygienist
+0c99e989	Gastroenterology nurse
+d6871a6a	Mouth Expert
+4a80dedd	Endoscopist
+523b68c2	failure of the lower oesophageal sphincter to relax
+dbebb8c3	absence of stomach acid
+7a2b96f3	swallowing air
+5d2f6c6b	congenital absence of the jaw
+484be2c5	starch-digesting enzyme in saliva
+cc38e6e6	abnormal passage from the anal canal to the skin
+75caf862	surgical joining of two hollow structures
+760e3053	tongue-tie
+c19e5cec	relating to the anus and rectum
+6e8e0769	loss of appetite
+8e6b9bf1	eating disorder of self-starvation
+3720fcbe	drug neutralising stomach acid
+c541fcd8	drug against diarrhoea
+220de3f2	drug against nausea and vomiting
+7c454c49	drug relieving intestinal gas
+402cd1ab	drug relieving gut cramps
+979aad80	lower part of the stomach
+015f0060	mouth ulcer
+ab3a77ce	removal of the appendix
+1298f0ed	appendicitis
+9ee81003	ascending colon
+e64f3ab7	weight-loss surgery
+1da70e9a	barium enema
+410440be	X-ray study after swallowing barium
+86e43640	precancerous change of the lower oesophagus lining
+08ace62b	bile
+3c290f64	biliary
+e2eaa2cf	biliary colic
+bb4aa8d7	formation of bile
+e43d7864	stomach joined to the duodenum after partial removal
+d2dcbf4f	Billroth II
+7be3dd8c	chewed mass of food ready to swallow
+8b15b3b9	rumbling of the stomach
+bd4255c9	slow digestion
+53994f03	tooth grinding
+f869a8c7	relating to the cheek
+28ad771b	relating to the cheek and pharynx
+82e3cde3	binge eating followed by vomiting
+bf40af8c	extreme wasting
+6b8bc924	canine tooth
+9d1fb52e	swallowed camera pill imaging the gut
+25ad540f	entry part of the stomach
+97c55a52	strong laxative
+b3adceed	drooping of the caecum
+ed5d4cb5	pouch at the start of the large intestine
+62565be2	coeliac disease
+6d919c4b	bone-like covering of the tooth root
+3a9a8248	inflammation of the lips
+216bf28c	surgical repair of the lip
+28897199	cracking at the corners of the mouth
+81096f80	dilation of a bile duct
+1bc15fcc	X-ray image of the bile ducts
+a7f96796	imaging of the bile ducts
+c2cc4ea2	bile duct tumour
+8bbdb149	inflammation of the bile ducts
+eaf40a50	gallbladder pain
+e1608618	X-ray image of the gallbladder
+153759a2	X-ray imaging of the gallbladder
+43c5514a	relating to the common bile duct
+cd384b15	stone in the common bile duct
+0dd7b611	incision of a bile duct to remove a stone
+23950064	incision of the common bile duct
+2c1045dc	gallstone
+45ca10c4	crushing of gallstones
+d4baa458	nuclear scan of the gallbladder
+18933f7b	stopped bile flow
+885adda3	semi-digested food leaving the stomach
+55cdb901	around the mouth
+a6ad2267	scarring of the liver
+9ea41471	congenital split in the upper lip
+34bdf7c3	cleft palate
+13e753b7	removal of the colon
+d1b08172	inflammation of the colon
+441035d8	irrigation of the colon
+e20da129	colon
+e0463764	joining the colon to the rectum
+15861238	colorectal cancer
+3d62ba10	common bile duct
+ef606652	constipation
+42e1db39	Crohn disease
+cb79d95d	visible part of a tooth above the gum
+c1f83c5a	duct from the gallbladder
+9a9e1b81	milk teeth
+98f90b38	bowel movement
+de41344e	tooth decay
+ce65e901	sticky bacterial film on teeth
+4491f1af	toothache
+0b1bc33b	hard layer under the enamel
+b43475c1	descending colon
+204a11db	breakdown of food for absorption
+54c6a702	removal of a diverticulum
+463ac0af	inflammation of diverticula
+d60daea8	many pouches in the colon wall
+a44d272d	pouch in the bowel wall
+94c82cc4	opening of the bile and pancreatic ducts into the duodenum
+226beafb	duodenal ulcer
+cdbbd63b	inflammation of the duodenum
+72c824da	indigestion
+9f361297	difficulty swallowing
+b4d41c2d	without teeth
+325b449a	drug that causes vomiting
+802fdcb9	breaking fat into tiny droplets
+b5552a00	hard outer coating of the tooth crown
+42a26ecd	ERCP (endoscopic imaging of bile and pancreatic ducts)
+e2ac53be	inflammation of the intestine and liver
+c694fe57	intestinal disease
+39713998	viewing the small intestine with a scope
+88529268	upper middle region of the abdomen
+526bac2b	flap covering the larynx when swallowing
+8c87835a	belching
+c40e6d45	relating to the oesophagus
+d4afab1d	congenital closure of the oesophagus
+2fe502ff	opening in the diaphragm for the oesophagus
+fda6a86a	oesophageal varices
+a4815ec3	removal of the oesophagus
+8da070a4	inflammation of the oesophagus
+ba0b000a	upper endoscopy (oesophagus, stomach and duodenum)
+bff00b5b	viewing the oesophagus with a scope
+c18056ec	narrowing of the oesophagus
+903f0853	familial adenomatous polyposis
+49caf5ad	faecal incontinence
+1b6c8866	faecal occult blood test
+ad29ae37	faeces
+1376338a	flatulence
+4fdf1258	gas passed from the bowel
+adaedd55	fold under the tongue
+15228336	domed upper part of the stomach
+ef260f10	removal of the stomach
+064a2e88	adjustable band around the upper stomach
+1e846932	gastric bypass
+15195bca	stomach cancer
+dd276707	gastric juice
+c02775f3	inflammation of the stomach and duodenum
+d054dc65	joining the stomach to the duodenum
+2be219bc	joining the stomach to the intestine
+ff12844b	relating to the stomach and oesophagus
+10190cd8	joining the stomach to the jejunum
+645b6ea1	partial paralysis of the stomach
+b77e5188	opening into the stomach through the abdominal wall
+1053dd70	tube feeding
+dcfff83d	removal of part of the gums
+5dc9a3e7	removal of the tongue
+a773262d	inflammation of the tongue
+f8bb933a	paralysis of the tongue
+c4127bec	suture of the tongue
+dce0fdd6	stored form of glucose
+3ba330d2	fatty apron hanging from the stomach
+ca07221f	H2 receptor blocker
+23a7fbb6	bad breath
+65518370	hard palate
+ed7b8744	Helicobacter pylori
+e0b6e702	vomiting blood
+fd3f005b	bright red blood in the stool
+d39b1a2b	relating to half of the tongue
+43e5f1e3	removal of haemorrhoids
+3456f7e7	hepatic duct
+21f110b7	right bend of the colon near the liver
+8826fed1	removal of a liver lobe
+5db0d58d	veins carrying gut blood to the liver
+7e0b3ed3	inflammation of the liver
+41f1941c	liver cell
+3558d0bb	originating in the liver
+2969ef6e	study of the liver
+a6c7bf43	liver tumour
+2a590a36	liver disease
+7c8da318	cold sore
+fb2844cc	hydrochloric acid
+337bd64c	raised bilirubin in the blood
+018db514	excessive vomiting
+84f2490e	lower middle region of the abdomen
+ebc09d8b	under the tongue
+b31e65a8	inflammation of the ileum
+1a7f1f28	relating to the ileum and caecum
+7970b9a9	ileocaecal valve
+1863f707	opening of the ileum through the abdominal wall
+ddc1bdb8	last part of the small intestine
+a00f231d	halted movement of the bowel
+e5cb7cba	front cutting tooth
+9cd2c78a	inflammatory bowel disease
+27ec4c98	taking food into the mouth
+b82bd0c4	inguinal hernia
+ee00dd10	bowel obstruction
+52f98865	telescoping of the bowel into itself
+077e4625	irritable bowel syndrome
+b3e4b7a7	inflammation of the jejunum
+d530ede0	opening of the jejunum through the abdominal wall
+ce3d2a3b	middle part of the small intestine
+93c45610	labial
+416c2aea	labiodental
+36b0f661	lymph capillary in a villus
+4d22d480	inability to digest milk sugar
+05c3c5d0	keyhole removal of the gallbladder
+4af714e0	opening the abdomen
+c0296b58	washing out the stomach
+98ac8588	laxative
+95c23db5	white patches in the mouth
+a3883faa	fat-digesting enzyme
+257d6473	liver function tests
+5b6cd660	liver transplant
+1ad7d009	lower oesophageal sphincter
+7f2a9fd7	malocclusion
+a84ca215	pressure measurement
+87ae6be7	chewing
+de1ce4d2	abnormally enlarged colon
+69a25137	black, tarry stool
+a7765459	fold attaching the gut to the abdominal wall
+08f4cb72	fold attaching the colon to the back wall
+2cbf8410	small jaw
+c708694f	molar tooth
+8600fb96	Murphy sign
+896dd654	relating to the muscle layer of the gut
+c19d25b3	tube from the nose into the stomach
+14cd5df8	nausea
+37a5d817	nothing by mouth
+1ec83757	obesity
+2772060e	severe constipation
+bf6e39e0	occult blood
+3d987533	painful swallowing
+99189970	oral cavity
+10df80ad	relating to the mouth and tongue
+41e90621	orthodontics
+26d397f5	dentist who straightens teeth
+e563524c	surgical opening onto the skin
+0d0bba15	stool test for parasites and eggs
+673161b3	palatine
+166f6355	repair of the palate
+8e13f6cd	suture of the palate
+68285bcf	gland making digestive juice and insulin
+516b99f7	pancreatic duct
+d9057114	pancreatic juice
+cb1bd217	inflammation of the pancreas
+95a9c767	destruction of the pancreas
+52bfdd21	acting on the pancreas
+c7a6c42c	small bumps on the tongue
+07caf5bc	drawing fluid from the abdomen
+b6ccf36d	salivary gland in front of the ear
+f0bcc864	inflammation of the parotid gland
+31c91655	protein-digesting stomach enzyme
+fc0efc0a	peptic ulcer
+df8e604d	percutaneous endoscopic gastrostomy
+4e8012ec	percutaneous transhepatic cholangiography
+1a8ec1aa	around the anus
+2946f38a	around a tooth
+64a6b04b	dentistry of the gums and tooth supports
+f5e844ee	inflammation of the tissues around a tooth
+428dcc90	wave-like muscle movement of the gut
+ca6f6169	permanent teeth
+dd41d417	hair-containing cyst above the buttocks
+bc84e73f	overeating
+d0107027	many polyps
+90750fec	portal hypertension
+6f565c4b	premolar tooth
+84920dcf	inflammation of the rectum
+03ec3e19	branch of medicine for the rectum and anus
+9b4e9bf1	surgical fixation of the rectum
+f791cd9a	rectal prolapse
+54617d56	viewing the rectum with a scope
+babb8ea4	viewing the rectum and sigmoid colon
+9bcd805d	having a forward-jutting jaw
+76f4e0dc	protein-digesting enzyme
+c9d9d294	proton pump inhibitor
+7f535ba1	soft inner core of a tooth
+571496f6	pyloric sphincter
+82a93e12	pyloric stenosis
+0dfc1fc9	surgical widening of the pylorus
+478cc68d	spasm of the pylorus
+6317493e	stomach outlet to the duodenum
+7c466ef1	burning feeling behind the breastbone
+bf7d7243	abdominal quadrant
+9a88598e	rectal wall bulging into the vagina
+cdb46482	last part of the large intestine
+0c89f5f0	backward flow
+b39607f5	stomach contents returning to the mouth
+547ba4cf	folds of the stomach lining
+4e00f795	saliva
+7cf6fa6d	salivary gland
+093419f5	inflammation of a salivary gland
+17fea1b4	X-ray image of the salivary glands
+09c3eb29	X-ray imaging of the salivary glands
+aa7b73ba	salivary stone
+b32c5697	excess saliva
+20907d46	viewing the sigmoid colon with a scope
+166af109	soft palate
+3a86ec94	ring-shaped muscle that closes an opening
+15380928	sphincter of Oddi
+f710db7b	left bend of the colon near the spleen
+6c00a00a	fatty stools
+c6734ee8	surgical opening on the skin
+84faf652	inflammation of the mouth lining
+564d18b2	mouth disease
+1e6a8353	surgical repair of the mouth
+72bcb2e7	stool culture

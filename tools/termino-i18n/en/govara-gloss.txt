@@ -1,0 +1,98 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+96f6211a@govara#1	passage of digested food into blood and lymph
+1298f0ed@govara#1	inflammation of the worm-like pouch off the caecum
+63d5280f@govara#1	worm-like pouch hanging from the caecum
+9ee81003@govara#1	part of the large bowel rising on the right
+1da70e9a@govara#1	contrast X-ray of the large bowel via the rectum
+08ace62b@govara#1	yellow-green fluid from the liver that emulsifies fat
+3c290f64@govara#1	relating to bile or its ducts
+e2eaa2cf@govara#1	sudden RUQ pain from a blocked gallbladder outlet
+d2dcbf4f@govara#1	stomach remnant joined to the jejunum
+b605f4cf@govara#1	everyday word for the gut
+6b8bc924@govara#1	pointed tearing tooth; cuspid
+34bdf7c3@govara#1	congenital split in the roof of the mouth
+e20da129@govara#1	main part of the large bowel
+15861238@govara#1	malignancy of the large bowel and rectum
+3d62ba10@govara#1	main channel carrying bile into the duodenum
+ef606652@govara#1	infrequent, hard, difficult stools
+42e1db39@govara#1	patchy inflammation anywhere in the GI tract
+69d2a0d9@govara#2	clinician who scales teeth and teaches oral care
+b43475c1@govara#1	part of the large bowel running down on the left
+226beafb@govara#1	peptic sore in the first part of the small bowel
+7bdde02e@govara#1	first, shortest part of the small bowel
+0cafc058@govara#1	fluid introduced through the rectum
+fda6a86a@govara#1	swollen veins in the food pipe from portal hypertension
+62aab310@govara#1	muscular food pipe from pharynx to stomach
+903f0853@govara#1	inherited condition with hundreds of colon polyps
+1376338a@govara#1	excess gas in the stomach or bowel
+80418403@govara#1	sac under the liver that stores bile
+d930dc89@govara#1	pain in the stomach
+1e846932@govara#1	small stomach pouch joined to the jejunum
+dd276707@govara#1	acid, pepsin and mucus secreted by the stomach
+d930dc89@govara#2	stomach ache (synonym)
+65518370@govara#1	bony front part of the roof of the mouth
+da7fdf90@govara#1	burning behind the breastbone from acid reflux
+ed7b8744@govara#1	bacterium behind most peptic ulcers
+326ef58d@govara#1	varicose veins of the rectum and anus
+3456f7e7@govara#1	duct carrying bile out of the liver
+70657d0a@govara#1	stomach pushing up through the diaphragm opening
+fb2844cc@govara#1	strong acid of the stomach; HCl
+ebc09d8b@govara#1	below the tongue (Greek prefix)
+e77822b2@govara#1	yellow discoloration (Greek-derived)
+9cd2c78a@govara#1	Crohn disease and ulcerative colitis together
+b82bd0c4@govara#1	bulge through the groin wall
+f2013060@govara#1	pancreatic hormone that lowers blood sugar
+b605f4cf@govara#2	the gut from pylorus to anus
+077e4625@govara#1	functional gut disorder with pain and altered stools
+e77822b2@govara#2	yellowing of the skin and eyes
+93c45610@govara#1	relating to the lips
+416c2aea@govara#1	relating to the lips and teeth
+0e71b837@govara#1	caecum, colon and rectum
+a929ae40@govara#1	lowest part of the throat, above the larynx
+98ac8588@govara#1	drug that eases defecation
+ec6b2402@govara#1	largest gland; makes bile and stores glycogen
+257d6473@govara#1	blood tests of ALT, AST and bilirubin
+5b6cd660@govara#1	replacing a failed liver with a donor organ
+7f2a9fd7@govara#1	upper and lower teeth not meeting properly
+c708694f@govara#1	large back grinding tooth
+8600fb96@govara#1	breath held in pain when the gallbladder is pressed
+5af5079c@govara#1	part of the throat behind the nose
+14cd5df8@govara#1	queasy feeling before vomiting
+37a5d817@govara#1	no food or drink; NPO
+1ec83757@govara#1	excess body fat; BMI 30 or more
+bf6e39e0@govara#1	hidden blood found only by testing
+99189970@govara#1	the mouth and its contents
+20e298bd@govara#1	part of the throat behind the mouth
+41e90621@govara#1	straightening the teeth
+998028e6@govara#1	roof of the mouth
+673161b3@govara#1	relating to the roof of the mouth
+516b99f7@govara#1	duct carrying enzymes from the pancreas to the duodenum
+d9057114@govara#1	enzymes and bicarbonate from the pancreas
+fc0efc0a@govara#1	sore in an acid-exposed lining
+df8e604d@govara#1	feeding tube through the skin into the stomach
+4e8012ec@govara#1	bile-duct X-ray with a needle through the liver
+dfaaf4bb@govara#1	membrane lining the abdomen and its organs
+ca6f6169@govara#1	the 32 adult teeth
+73c65828@govara#1	stalked growth from the mucosa
+90750fec@govara#1	high pressure in the liver’s inflow vein
+6f565c4b@govara#1	bicuspid grinding tooth in front of the molars
+c9d9d294@govara#1	drug blocking the acid pump of stomach cells
+571496f6@govara#1	muscle ring at the stomach outlet
+82a93e12@govara#1	thickened, narrowed stomach outlet in infants
+bf7d7243@govara#1	one quarter of the abdomen
+4e00f795@govara#1	watery secretion of the mouth glands
+7cf6fa6d@govara#1	gland producing spit
+800c72bf@govara#1	S-shaped last part of the large bowel
+dfd34a30@govara#1	duodenum, jejunum and ileum
+166af109@govara#1	muscular back part of the roof of the mouth
+15380928@govara#1	muscle ring at the bile-duct opening in the duodenum
+dcf32245@govara#1	J-shaped sac between the food pipe and duodenum
+72bcb2e7@govara#1	growing bacteria from a faeces sample
+0b110cfd@govara#1	beneath the tongue (Latin prefix)
+da186cba@govara#1	muscular organ of taste and speech
+79f911d9@govara#1	complete feeding through a vein
+a6b3a872@govara#1	part of the large bowel crossing the upper abdomen
+816c0a9f@govara#1	relating to the navel
+6645054c@govara#1	bulge at the navel
+6211592c@govara#1	barium swallow X-ray
+b92c377b@govara#1	finger-like projections lining the small bowel

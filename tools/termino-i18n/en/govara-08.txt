@@ -1,0 +1,218 @@
+fb0007f7	A strangulated hernia is an emergency because the blood supply to the bowel has been cut off.
+7a5e43dc	strangulate = to choke.
+2c712670	⟦0⟧<b>Hemorrhoids</b> are varicose veins in the rectum and anus, internal or external. They can cause bright blood in the stool (hematochezia).⟦1⟧
+00eff296	Internal and external haemorrhoids
+af076b4c	hem/o (blood) + rhoids (flowing): veins that blood flows from.
+1266ea0d	varicose veins of the rectum and anus
+e2e61692	Fistulas and pilonidal cysts
+92ad1836	A <b>fistula</b> is an abnormal passage between two organs or from an organ to the skin; an ⟦0⟧ opens from the anal canal to the skin beside it. A <b>pilonidal cyst</b> is a hair-containing cyst at the base of the spine.⟦1⟧
+4fcd0ec3	abnormal passage between two surfaces
+d647bf8d	small crack or split
+d84b22a1	anal varicose veins
+f5b8419a	abnormal passage beside the anus
+27e707c9	A patient with Crohn disease has an abnormal passage between the bowel and the skin. It is called…
+5800a350	fistula; common in Crohn disease.
+33a9a682	Review of the “Polyps, obstruction and the anal region” level
+8044c875	polyp, polyposis, FAP; most cancers start from a polyp; Dukes A, B, C
+0c8299cf	obstruction: volvulus twist • intussusception telescope • ileus standstill • adhesion sticking • megacolon
+597f2fdb	hernia: inguinal, umbilical, hiatal; strangulated = emergency
+3ca7c853	hemorrhoids anal varices • fistula abnormal passage • pilonidal cyst
+0f7dfc4d	A hernia of the bowel at the navel is an ___.
+5bd618a0	Spell the term for varicose veins of the rectum and anus
+7f2dfa91	hem/o + rrhoids; double rr.
+118cb809	Hepatitis and jaundice
+692cbf3b	Viral hepatitis
+7f035022	<b>Hepatitis</b> is inflammation of the liver, mostly caused by viruses.⟦0⟧⟦1⟧
+9d7040e4	A and E by mouth (water and food); B, C and D through blood. The vowels A and E take the “mouth” route.
+35299a96	How is hepatitis A transmitted?
+b8d08155	faecal-oral; contaminated water and food
+6e435d7a	blood and needles
+14700f34	sexual contact
+88ec6746	mosquito bite
+00b5abb2	Which type of hepatitis is seen only together with hepatitis B?
+f26dde71	There is a vaccine for hepatitis C.
+55ce8f26	False; there is no vaccine, but it is now curable with drugs.
+6379a12d	Match each type of hepatitis to its route of transmission
+dd94309d	contaminated water and food
+60180a98	blood and shared needles
+67ac324c	contaminated water
+4002fb5d	⟦0⟧<b>Jaundice</b> (or <b>icterus</b>) is yellowing of the skin and the whites of the eyes from a raised blood bilirubin (<b>hyperbilirubinemia</b>).
+b5b2a3d3	Yellow whites of the eyes
+85cca5f0	Why do we turn yellow?
+c7d766a2	⟦0⟧If the liver is diseased or the bile duct is blocked, bilirubin builds up in the blood. If bile does not reach the gut, the stool becomes pale and clay-like.
+2f9ce1b4	yellowing of skin and eyes
+eeb6f188	A raised blood bilirubin is called ___.
+dead78fb	Spell the term for yellowing of the skin and eyes
+8e6e637b	From the French jaune: yellow.
+68a2bead	Cirrhosis and its consequences
+7daa4e6c	The scarred liver
+79806710	⟦0⟧In <b>cirrhosis</b>, scar tissue replaces liver cells and the liver becomes hard and small. Main causes: alcohol, hepatitis B and C, and fatty liver.⟦1⟧
+9f832776	In Greek, cirrh/o means yellowish-orange; the colour of a cirrhotic liver.
+579c7d54	Which is not a cause of cirrhosis?
+f4d884da	hepatitis C
+1a2380bd	hepatitis B
+d62cacc3	Cirrhosis is a chronic liver disease.
+ca98bb88	The scarred liver obstructs blood flow, and pressure rises in the portal vein (<b>portal hypertension</b>). As a result:⟦0⟧
+28e8fb2c	swollen oesophageal veins; may bleed heavily
+1024ff97	esophageal varices are a consequence of portal hypertension.
+1e8a37f4	The oesophageal veins become dilated and fragile.
+664f3479	Match each consequence to its meaning
+aba38470	fluid collecting in the peritoneal cavity
+98298ada	oesophageal bleeding
+4a9ccb67	From the Greek word for a belly-shaped bag.
+51b7bf07	<b>Hepatoma</b> is a liver tumour that may appear after cirrhosis or chronic hepatitis B and C.⟦0⟧
+a66bc8ea	For large ascites, fluid is drawn from the abdomen with a needle: paracentesis.
+686f9509	The chronic disease in which scar tissue replaces liver cells is ___.
+282239af	Spell the term for a scarred, hardened liver
+7a522ba9	cirrh/o + -osis; rrh.
+cb968ae2	Gallstones and pancreatitis
+b25387ef	⟦0⟧<b>Cholelithiasis</b> means stones in the gallbladder. Most stones cause no symptoms; ultrasound is the best test.
+d0548db5	A gallbladder full of stones
+0eab587c	Stones on ultrasound
+f116277c	Each term, one place
+a7c0cb61	stone in the common bile duct
+fdec5db3	stone removal
+d2f3bb3d	stone in the gallbladder
+5d1539d9	stone in the common duct
+a6a06989	inflammation of the ducts
+366de7fb	Biliary colic and Murphy sign
+cfa16a21	<b>Biliary colic</b> is a sudden, severe RUQ pain after a fatty meal that spreads to the right shoulder blade. In <b>Murphy sign</b> the patient catches their breath in pain when the gallbladder is pressed during a deep breath; a sign of cholecystitis.⟦0⟧
+9e25afa4	A stone in the common duct blocks the bile: it causes jaundice and pale stool, as in Heather’s case.
+cd683398	A positive Murphy sign is a sign of gallbladder inflammation.
+82b9df22	Pancreatitis
+c2a71d89	<b>Pancreatitis</b> is inflammation of the pancreas; the pancreatic enzymes digest the pancreas itself. Two common causes: gallstones and alcohol. Blood amylase and lipase rise.
+015d3a8b	Which tests rise in pancreatitis?
+95d4f9e2	ALT and AST
+4257f0fe	bilirubin and albumin
+f39bc4bf	The pancreatic enzymes.
+bcebe1bf	hepatitis A and E by mouth; B, C and D through blood; D only with B
+ee3d617a	jaundice = icterus = hyperbilirubinemia; pale stool means bile is not reaching the gut
+b94d5f4a	cirrhosis → portal hypertension → varices, ascites and splenomegaly; hepatoma
+8286eceb	cholelithiasis, choledocholithiasis, cholecystitis, cholangitis, biliary colic, Murphy sign • pancreatitis
+573d5ffb	Inflammation of the pancreas is called ___.
+3836b9d0	Spell the term for the disease of having gallstones in the gallbladder
+70c4ca93	Diagnosis, Surgery and Drugs
+14269b30	Endoscopy and imaging, tests, removal and repair, stomas and anastomoses, Billroth and weight-loss surgery, tubes and feeding, GI drugs
+658cdf03	Endoscopy, imaging and tests
+f2157011	Operations and openings
+5fc353b2	Tubes, feeding and drugs
+41330af0	Endoscopies
+a1deabbb	Looking inside the GI tract
+8367b283	<b>Endoscopy</b> means looking inside an organ with an <b>endoscope</b>, a flexible tube with a light and camera. Each endoscopy is named after the part it views.⟦0⟧
+5d7375d8	Which parts does ⟦0⟧ show?
+ac0f712a	the whole colon
+2af3a83e	bile ducts
+1f4776ff	Upper endoscopy
+5fabc904	⟦0⟧⟦1⟧ views the oesophagus, ⟦2⟧ the stomach and ⟦3⟧ all three: oesophagus, stomach and duodenum. Beforehand the patient is NPO and the throat is numbed.
+25586515	Gastroscopy
+0009960f	Build a word meaning “looking inside the oesophagus, stomach and duodenum”
+fed9fd18	Lower endoscopy
+e1c7f52d	View of the caecum
+d1a31aeb	What it shows
+9b0ed923	the whole colon up to the caecum
+70a89e70	rectum and sigmoid
+7e73fb3f	Match each method to the part it views
+646ae7e2	Capsule, small intestine and abdomen
+3eccd0aa	In <b>capsule endoscopy</b> the patient swallows a camera capsule that photographs the small intestine. ⟦0⟧ means looking inside the small intestine and ⟦1⟧ means looking inside the abdominal cavity through a small incision.⟦2⟧
+5d19c425	Colonoscopy is done to screen for bowel cancer, and polyps are removed on the spot.
+58b0fd4e	viewing the abdominal cavity with an endoscope through a small incision
+ad8c4507	large abdominal incision
+4cb2cead	coloured X-ray of the bowel
+0aa7367d	lapar/o (abdominal wall) + -scopy.
+141181b2	In capsule endoscopy, the patient swallows a capsule containing a camera.
+4e2d0812	To view the small intestine.
+fd2a35db	Spell the term for looking inside the whole colon
+2b6ae9dd	With contrast
+8054e2e4	⟦0⟧Barium is a contrast medium that shows up white on X-rays. In a <b>barium swallow</b>, or upper GI series (UGI), the patient drinks barium; in a <b>barium enema</b> (BE), barium is given through the rectum.
+42ea55d9	X-ray of the colon with barium
+b335fae3	⟦0⟧A barium enema shows the shape of the colon, polyps, strictures and diverticula.
+9515c4c3	Colon filled with barium
+b65e0f68	Bowel damage on barium enema
+11963560	Which method is chosen to view the oesophagus and stomach on X-ray?
+04e27cca	barium enema; barium given through the rectum
+fafa5f95	Bile and pancreatic ducts
+45eb49bf	⟦0⟧In <b>ERCP</b> an endoscope goes down to the duodenum, a catheter enters the ducts backwards (retrograde) from the papilla and contrast is injected. In <b>PTC</b> a needle enters the duct through the skin and liver. <b>MRCP</b> shows the same ducts with MRI and no endoscope. For gallstones, <b>abdominal ultrasonography</b> is the main test.
+b849eab5	endoscope and contrast through the papilla
+c97c679e	needle through the skin into a bile duct
+925d03a2	MRI without an endoscope
+c5b6861b	main test for gallstones
+5ba42c14	A few words with -graphy and -gram
+57ff45f1	imaging of the bile ducts
+b66fff69	imaging of the gallbladder
+2ee8f97a	imaging of the salivary glands
+dc5d7f53	-graphy is the procedure and -gram the image obtained: cholangiography → cholangiogram.
+abfc659b	Abdominal ultrasound is the main test for finding gallstones.
+b32c9061	Imaging the bile ducts with contrast is ___.
+6b484b93	Spell the term for fluid introduced into the rectum
+9b6d5e3d	Liver tests
+99def77e	<b>Liver function tests</b> (LFT) measure the enzymes <b>ALT</b> and <b>AST</b>, bilirubin and alkaline phosphatase. In liver damage, ALT and AST rise.
+59d49085	liver function tests; blood tests of liver health
+c319af89	ALT, AST and bilirubin.
+eca9503e	Stool tests
+71226c73	What it looks for
+82dab47e	hidden blood in the stool (stool guaiac)
+98be207e	disease-causing bacteria
+00aa69da	parasites and their eggs
+772d29ee	Before an FOBT, patients are sometimes asked not to eat red meat for a few days to avoid a false positive.
+cb03ef7a	Match each test to its purpose
+f9e10ec5	liver function
+50dac5ca	O&P means examining the stool for parasites and their eggs.
+ced43784	Samples and pressure
+52503458	A <b>biopsy</b> is the removal of a small piece of tissue for the microscope, for example during colonoscopy. <b>Manometry</b> measures muscle pressure in the oesophagus or anus. <b>Paracentesis</b> is drawing off ascitic fluid with a needle.
+6c9fcc9f	What does ⟦0⟧ measure?
+a39bd2b3	muscle pressure, for example in the oesophagus
+4ca5b53e	blood sugar
+a0ddd80f	liver enzymes
+378fd062	man/o (pressure) + -metry (measurement).
+6ace8e40	drawing off abdominal fluid with a needle
+c2b21bd8	liver tissue sampling
+76b92d92	Review of the “Endoscopy, imaging and tests” level
+abbf5060	EGD, esophagoscopy, gastroscopy • colonoscopy, sigmoidoscopy, proctoscopy • capsule endoscopy, laparoscopy
+c541eea0	barium swallow (UGI) upper and barium enema (BE) lower
+9b7ae26c	ERCP, PTC and MRCP for the bile ducts; ultrasonography for gallstones
+65b1f42b	LFT with ALT and AST • FOBT, stool culture, O&P • biopsy, manometry, paracentesis
+4e94c8c9	Removing a small piece of tissue for the microscope is a ___.
+78160f9c	Spell the term for drawing off abdominal fluid with a needle
+d845f04d	Removals
+84c67a6e	all or part of the stomach
+6f3ea6d5	all or part of the colon
+ecbb9b7a	part of the oesophagus
+9b34ed09	one lobe of the liver
+6a5d9e31	removal of all or part of the colon
+75ef70ae	colon opening on the skin
+882cfe98	incision of the colon
+2e7e4a77	looking inside the colon
+09e969f1	⟦0⟧<b>Appendectomy</b> is the removal of an inflamed appendix: A the diseased appendix, B the incision site and C its removal.
+2327d653	appendectomy means removal of the appendix.
+167fcc51	The gallbladder by laparoscope
+1667605c	<b>Laparoscopic cholecystectomy</b> removes the gallbladder through a few small incisions using a laparoscope. Sometimes, as in Heather’s case, the operation is converted to an open one.⟦0⟧
+83313e20	After the gallbladder is removed, bile flows straight from the liver into the duodenum, and the patient can lead a normal life.
+2fc40a90	Smaller removals
+92829d57	removing a polyp with a wire loop
+e9edb762	polyp; often with a wire loop during colonoscopy
+0f2afdb2	part of the gum
+d07a294f	Removal of one lobe of the liver…
+90f8c7a2	Removal of the gallbladder is called ___.
+e56e9fb8	Spell the term for removal of a polyp
+2af345ae	Incision, repair and stone crushing
+152b8b8c	Incisions
+b618df33	incision of the abdominal wall; exploratory laparotomy to search for disease
+2da049c4	incision of the common duct to remove a stone
+87bfb106	cutting branches of the vagus nerve to reduce acid
+1b3fa9e7	incision of the common bile duct to remove a stone
+32ebe188	crushing a gallstone
+316f0830	What is ⟦0⟧ for?
+823b3869	reducing stomach acid secretion
+b6fefc8f	treating gallstones
+81704fd2	vag/o (vagus nerve) + -tomy.
+86c769e0	Repairs
+ea626157	hernia repair with sutures; same as hernioplasty
+39e9a9fb	widening and repair of the pylorus
+0383c2a7	-rrhaphy sutures, -plasty repairs, -pexy fixes in place.
+98c985cf	cutting the vagus nerve
+f914082d	<b>Lithotripsy</b> means crushing a stone. In ESWL, shock waves from outside the body break up the stone. ⟦0⟧ means crushing a gallstone.⟦1⟧
+04f7dc6e	incision to remove a stone
+38440e87	endoscopy of the bile ducts
+b52f2243	coloured image of the ducts
+8b318906	lithotripsy means an incision to remove a stone.
+ba9d44f2	False; -tripsy is crushing. The incision is lithotomy.

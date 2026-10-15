@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+9d4fabfc@govara#1	Rootpicker
+1a8ccb6a@govara#1	Suffixbook
+973f5113@govara#1	Linky
+81c77b1e@govara#1	Toothy
+968d2803@govara#1	Droplet
+d349e3b6@govara#1	Tummy
+755da656@govara#1	Villy
+ac54e380@govara#1	Quadro
+63cb4aaa@govara#1	Livey
+92aa26fe@govara#1	Queasy
+76caa2c5@govara#1	Gumguard
+e55e2001@govara#1	Pylori
+7322ebb9@govara#1	Flary
+3721159e@govara#1	Knotty
+98d1797d@govara#1	Pebble
+0ba9b472@govara#2	Scopey
+b294db3e@govara#1	Glovey
+c8c0728f@govara#1	Capsy

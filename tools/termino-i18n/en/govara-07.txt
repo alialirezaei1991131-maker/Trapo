@@ -1,0 +1,200 @@
+6a13edfa	stomach moving up through the diaphragm opening
+eee7687a	LES failing to relax
+a646108d	congenital closure of the oesophagus
+47ea4f7a	The chronic backflow of stomach acid into the oesophagus is called ___.
+7f04bfa2	Spell the term for the backflow of stomach contents into the oesophagus
+949043ef	re- (back) + flux (flow).
+2d67c0a8	Where does an ulcer form?
+b8c7be6a	⟦0⟧A <b>peptic ulcer</b> is a sore in the lining that is exposed to acid and pepsin: the oesophagus, the stomach (<b>gastric ulcer</b>) or the duodenum (<b>duodenal ulcer</b>).
+351e903b	Sites of peptic ulcers
+c60ff3bc	What is a peptic ulcer in the duodenum called?
+46558979	Two main causes
+2f3e35da	⟦0⟧Most ulcers are caused by <b>Helicobacter pylori</b> infection or by NSAID drugs such as ibuprofen and aspirin. In records, PUD means peptic ulcer disease.
+ed05c732	Gastric juice and ulcers
+e7d3dc79	Which two factors cause most peptic ulcers?
+66ae8d6e	H. pylori and NSAIDs
+a3456e82	smoking and coffee
+203a15e1	stress and spicy food
+e4af40fd	viruses and fungi
+f5f3019a	A bacterial infection and non-steroidal anti-inflammatory drugs.
+ce8df66d	An ulcer caused by H. pylori is treated with antibiotics.
+d701284b	Together with an acid-reducing drug.
+7bf8bf26	How deep?
+93c6cfe1	⟦0⟧Damage that stays in the mucosa is an <b>erosion</b>. If an ulcer goes right through the wall (<b>perforation</b>), stomach contents spill into the peritoneum and peritonitis develops; emergency surgery is needed. A bleeding ulcer may cause hematemesis or melena.
+22ecaa2b	damage confined to the mucosa
+100f5f33	deeper sore
+231a9d34	bacterium that infects the stomach wall
+27b495d8	stomach enzyme
+04609215	antacid drug
+4b52803f	part of the pylorus
+2712115a	A peptic ulcer in the stomach is called a ___.
+cf3b550e	Spell the term for an open sore in the lining
+9c25d3c5	ulcer; adjective: ulcerative.
+a7b2640d	Diseases of the stomach
+6a5640ec	<b>Gastritis</b> is inflammation of the stomach lining, and <b>gastroenteritis</b> is inflammation of the stomach and intestines, usually from a virus or contaminated food, with nausea, vomiting, abdominal cramps and diarrhoea.
+28ee2f87	Which symptoms does ⟦0⟧ usually bring?
+5369c337	nausea, vomiting, abdominal cramps and diarrhoea
+4f0602f6	jaundice and itching
+5b8ed006	difficulty swallowing and heartburn
+1cfd75e5	constipation and bright red blood
+5bd75aeb	⟦0⟧In <b>pyloric stenosis</b> the pyloric muscle thickens and the passage narrows. A baby a few weeks old has <b>projectile vomiting</b> after feeds.⟦1⟧
+d532be94	The treatment for pyloric stenosis in babies is surgery: pyloromyotomy (cutting the pyloric muscle).
+fd366bc1	Projectile vomiting is seen in pyloric stenosis in babies.
+ed15d099	widening of the pylorus
+ba93dddd	inflammation of the pylorus
+ddfaa31f	Acid and B12
+dcf78091	<b>Achlorhydria</b> means no HCl in the stomach. If the stomach does not make intrinsic factor, B12 is not absorbed and <b>pernicious anemia</b> develops. <b>Gastric carcinoma</b> is stomach cancer.⟦0⟧
+d9204402	a- (without) + chlor (chlorine) + hydr (water) + -ia: a stomach without hydrochloric acid.
+f9647be2	anaemia from failure to absorb B12
+6b7d5bb6	Anaemia caused by a lack of intrinsic factor…
+1c7693a8	B12 is not absorbed.
+0ac8abd3	Review of the “Oesophagus and stomach” level
+c9fe14a5	GERD: weak LES, then reflux → esophagitis → Barrett esophagus
+ee226b55	hiatal hernia: the stomach rises through the diaphragm • achalasia: the LES does not relax
+f48b26fb	peptic ulcer in the oesophagus, stomach or duodenum; causes H. pylori and NSAIDs; perforation → peritonitis
+0da98306	gastritis, gastroenteritis, pyloric stenosis (projectile vomiting), achlorhydria, pernicious anemia
+1b2afeeb	Absence of hydrochloric acid in the stomach is ___.
+57c99748	Spell the term for inflammation of the stomach and intestines
+36fc6d49	Diseases of the Intestines, Liver and Bile
+2bbb7509	Lower GI
+a2a9064c	Diarrhoea and blood in the stool, Crohn disease and colitis, coeliac disease, diverticula, polyps and cancer, obstruction, hernias and haemorrhoids, hepatitis, cirrhosis and gallstones
+e5a94cd2	Intestinal diseases
+27930463	Polyps, obstruction and the anal region
+fff189e5	Diarrhoea and constipation
+274cbc67	<b>Diarrhea</b> is the frequent passing of loose or watery stool. <b>Constipation</b> is infrequent, difficult passing of hard, dry stool, and <b>obstipation</b> is severe constipation, often from an obstruction.⟦0⟧
+c04b8540	dia- means through and -rrhea means flow: diarrhea is “flowing through”.
+8172d5a6	severe constipation, often from an obstruction
+0cb5420f	severe diarrhoea
+a8e9cc03	⟦0⟧<b>Melena</b> is black, tarry stool containing digested blood, a sign of upper GI bleeding. <b>Hematochezia</b> is bright red blood, a sign of lower bleeding. <b>Occult blood</b> is hidden blood that can only be found by testing.
+801aec07	Black, tarry stool is mainly a sign of bleeding where?
+557eb95d	melena: the blood has been digested on its way and turned black.
+f4d4440d	black, tarry stool
+e170754d	hidden blood
+d9ae7f66	occult blood cannot be seen with the eye and needs a test.
+c67b1402	occult = hidden; the FOBT test.
+21563af1	Two more symptoms
+7e8ace67	<b>Tenesmus</b> is a constant, painful urge to empty the bowel, common in colitis. <b>Fecal incontinence</b> means inability to hold in stool.⟦0⟧
+ebb4fd29	Hidden blood in the stool can be the first sign of colorectal cancer; that is why it is tested for in adult screening.
+935093a7	constant urge to empty the bowel
+820a550d	bowel sounds
+595ca955	urinary incontinence
+f347c2d4	Common in ulcerative colitis.
+98194fe0	Fatty, floating stool is called ___.
+c16d3a88	Spell the term for frequent loose, watery stools
+04c4f18b	dia- + -rrhea; double rr.
+d31b4b41	<b>Inflammatory bowel disease</b> (IBD) covers two chronic inflammatory, autoimmune diseases: <b>Crohn disease</b> and <b>ulcerative colitis</b>.⟦0⟧
+2e816d81	Which two diseases make up ⟦0⟧?
+481a0b6c	Crohn disease and ulcerative colitis
+47a39a6f	IBS and GERD
+e381bcec	celiac disease and lactose intolerance
+a31dba46	diverticulitis and appendicitis
+6ca2b0dc	Crohn disease
+dbf6c943	⟦0⟧Crohn disease can affect any part of the GI tract in patches, most often the end of the ileum; it involves all layers of the wall and may cause fistulas and strictures. Its other name is regional enteritis.
+67605e40	ulcerative colitis affects only the colon and rectum.
+b0a9c5ac	Continuously, from the rectum upwards.
+c823adae	Ulcerative colitis
+4b87b7f4	⟦0⟧In <b>ulcerative colitis</b> (UC) the colonic mucosa is continuously covered in ulcers, causing bloody diarrhoea and tenesmus; when only the rectum is inflamed it is called <b>proctitis</b>.⟦1⟧
+8cf84228	The colon in ulcerative colitis
+bb179fd7	patchy; anywhere in the tract; all layers
+24b4570c	continuous; colon and rectum; mucosa
+3a814643	Match each feature to its disease
+32c321bd	patchy involvement with fistulas
+51867bca	continuous ulceration from the rectum upwards
+158eb184	pain and bloating with no visible damage
+ec09002c	IBS is different
+a6a85257	<b>Irritable bowel syndrome</b>, or IBS, also called spastic colon, is a functional bowel disorder: abdominal pain, bloating and diarrhoea or constipation, but no visible damage to the bowel.⟦0⟧
+085a0f7e	IBD is a Disease with real inflammation; IBS is a Syndrome without damage.
+93052155	Another name for IBS is…
+853f0002	Inflammation of the colon is called ___.
+438bae1a	Spell the term for inflammation of the rectum
+92e68492	Coeliac disease, diverticula, appendix
+5f032159	Coeliac disease
+9491e48f	In <b>celiac disease</b> the body mounts an immune reaction to gluten (a protein in wheat and barley) and the villi of the small intestine become flattened, so absorption drops. Treatment: a gluten-free diet.
+71e3bc31	In coeliac disease, which substance causes the damage?
+8d08d66e	The protein in wheat and barley.
+f9a9b516	Lactose
+3c104337	<b>Lactose intolerance</b> is a lack of the enzyme lactase, so milk sugar is not digested and bloating and diarrhoea follow drinking milk.⟦0⟧
+e1d29593	immune reaction to gluten; damaged villi
+1d5a0a7b	lack of the enzyme lactase; no immune damage
+a34781c3	In lactose intolerance, the intestinal villi are flattened by an immune reaction.
+a191af65	False; that is a feature of coeliac disease. In lactose intolerance only the enzyme is lacking.
+cf719278	Pouches of the colon
+a335881c	⟦0⟧A <b>diverticulum</b>, plural diverticula, is a small pouch that bulges out from the colon wall. ⟦1⟧ means having these pouches and ⟦2⟧ means their inflammation.
+9b6e2828	Diverticula
+eb587e25	The difference between diverticulosis and diverticulitis…
+87f333bc	the first is having the pouches, the second is their inflammation
+ffc1ceec	the first is inflammation, the second is having the pouches
+9d3efa3f	the first is in the stomach, the second in the colon
+d1ae8b8a	-osis condition; -itis inflammation.
+e1bdb90f	<b>Appendicitis</b> is inflammation of the appendix, with pain around the navel that moves to the RLQ. If the appendix bursts, <b>peritonitis</b> develops.⟦0⟧
+d69c4b9f	The treatment for appendicitis is appendectomy, mostly done laparoscopically.
+7ae14703	reaction to gluten
+89cdb31e	inflammation of the colon pouches
+6dbb2a02	Review of the “Intestinal diseases” level
+e5c3a910	diarrhea, constipation, obstipation, tenesmus, fecal incontinence
+e95413fe	melena black (upper) • hematochezia red (lower) • steatorrhea fatty • occult blood hidden
+584c373e	IBD = Crohn (patchy) + ulcerative colitis (continuous); IBS without damage
+bfd0e179	celiac (gluten), lactose intolerance, diverticulosis and diverticulitis, appendicitis → peritonitis
+29818f81	Having many pouches in the colon wall is ___.
+16a292fc	-osis = condition.
+10df41eb	Spell the term for inflammation of the appendix
+1aaf4e5f	Polyps and bowel cancer
+1c28b20e	⟦0⟧A <b>polyp</b> is a growth projecting from the mucosa, often on a stalk. <b>Polyposis</b> means multiple polyps.
+a76dadc7	A polyp at colonoscopy
+b4ed6e0f	presence of many polyps
+9c91bf04	a single large polyp
+453b3d3e	Familial polyps
+1519264b	<b>Familial adenomatous polyposis</b> (FAP) is an inherited disease that produces hundreds of polyps in the colon and, without treatment, almost always leads to cancer.
+4a02f940	Most colorectal cancers start from a polyp.
+2fdfceaf	That is why polypectomy during colonoscopy is preventive.
+99fc39f2	Colorectal cancer and Dukes
+1f3a7427	⟦0⟧<b>Colorectal cancer</b> is staged by how deep it has grown; one method is the Dukes classification: A mucosa only, B into the muscle, C lymph nodes.
+a485b03e	Order the Dukes stages from least to most advanced
+a0a30755	A: mucosa only
+c86f9b0c	B: into the muscle layer
+b9cad598	C: lymph nodes involved
+8c370b1f	The deeper, the more advanced.
+715cb09f	What has happened in Dukes C?
+ab125c2d	the cancer has reached the lymph nodes
+139f7f0d	the cancer is only in the mucosa
+a27c4b91	the polyp is benign
+b6e58209	the cancer has reached the oesophagus
+56998389	Screening
+edda15c4	The faecal occult blood test (FOBT) and colonoscopy are the two main screening methods; during colonoscopy, polyps are removed on the spot.
+bcf1e3c8	polyp comes from the Latin for “octopus”; a mass on a stalk.
+39f60421	stalked growth from the mucosa
+ac75e8c1	multiple inherited polyps
+1237e0a8	colon and rectum
+36cfb27e	Cancer of the colon and rectum is called ___.
+3eb729cb	Spell the term for a stalked growth from the mucosa
+4d8b5373	polyp/o; plural: polyps.
+bdc5e680	Four ways to get blocked
+366d4788	⟦0⟧<b>Intestinal obstruction</b> means the bowel contents cannot move forward. Four important causes: twisting, telescoping, loss of movement and hernia.
+81348079	Twist and telescope
+136bbbbf	⟦0⟧In <b>volvulus</b> the bowel twists around itself and its blood supply is cut off. In <b>intussusception</b> one part of the bowel slides into the next part like a telescope; it is more common in children.
+d88258f1	Volvulus: twisting
+53ab3fcd	Intussusception: telescoping
+4b54e6c6	bowel twisting around itself
+df459991	bowel sliding into the next part
+d71fb8ba	peristalsis stopped
+ca4e3d65	volvere = to turn.
+6e7ad6bc	Which is more common in children, with the bowel sliding into itself like a telescope?
+4f5769fd	Ileus and adhesions
+c788a40e	<b>Ileus</b> means peristalsis of the bowel has stopped, for example after abdominal surgery. An <b>adhesion</b> is a band of scar tissue that sticks loops of bowel together. <b>Megacolon</b> is a greatly dilated colon.⟦0⟧
+7c806511	obstruction from the bowel not moving
+d70bedfb	ileus is the same as ileum.
+d8ba9d8f	False; ileus is a bowel obstruction and the ileum is the last part of the small intestine.
+7cd50f9c	twisting of the bowel
+42cdede8	bowel telescoping into itself
+dc4d4377	bowel motility stopping
+d9645a79	tissue sticking together
+a80564dc	Several diseases in one picture
+4c3fd810	Diseases of the GI tract
+6b4e237c	In bowel obstruction the patient has pain, bloating, vomiting and no passing of gas or stool; if the blood supply is cut off, emergency surgery is needed.
+52be735e	Severe enlargement and dilation of the colon is called ___.
+1d7d7780	Spell the term for the bowel telescoping into itself
+1cd5281e	intus (within) + susceptio (taking up).
+7748ab57	Hernias, haemorrhoids, fistulas
+e73614e5	⟦0⟧A <b>hernia</b> is an organ bulging through the wall that holds it in. A hernia is named after its location: <b>inguinal hernia</b> in the groin, <b>umbilical hernia</b> at the navel and hiatal hernia through the diaphragm. If the blood supply to the bulging bowel is cut off, it is a <b>strangulated hernia</b>.
+edf5e8b2	surgical incision site
+32464bb1	inguin/o = groin.

@@ -1,0 +1,330 @@
+7a1806c5	drug that makes stools softer
+e189a7ae	hernia with its blood supply cut off
+e7a48e03	salivary gland under the tongue
+dab77d56	salivary gland under the jaw
+46d5ce09	constant urge to empty the bowel
+7bad5edd	fungal white patches in the mouth
+79f911d9	total parenteral nutrition
+a6b3a872	transverse colon
+63936b1e	chronic ulcerating inflammation of the colon
+6645054c	umbilical hernia
+6211592c	upper GI series
+d28a8d61	small flap hanging from the back of the palate
+c79b23ee	removal of the uvula
+b2b8acf6	cutting the vagus nerve
+b92c377b	intestinal villi
+276f9f55	ulcerative gum infection (trench mouth)
+4be19977	CT imaging of the colon
+e13ca2df	twisting of the bowel
+6353784f	through, complete
+c64c504f	out, without
+7af05eae	bad, abnormal
+9985c946	around
+484a1ba9	back, again
+edd11a95	backward
+5e5a60ba	lip
+3fb1d04c	jaw
+bc6049a3	saliva, salivary gland
+832904c7	pylorus
+876b4aa3	jejunum
+3caa2d5c	ileum
+ec738733	cecum
+74d4ab38	rectum
+215ceeed	rectum and anus
+c53c473b	diverticulum, pouch
+52a96d6f	bile duct
+2bb7b904	pancreas
+90c6d616	starch
+5a9b2518	appetite
+ceb7ecbc	fire, burning
+b6e07ba2	breath
+d61bf143	vagus nerve
+73fa5789	(abnormal) condition
+cb88f3c0	relating to vomiting
+4501dae7	digestion
+1bf109e9	meal
+764b57d4	standing still, stopping
+508bd7a6	partial paralysis
+4cdff3b7	hernia, protrusion
+e7fbeb65	origin, produced by
+149c68a8	acting on
+9d4a1b47	viewing with an instrument
+f5738a02	relating to viewing with an instrument
+4c24cb78	image, record
+a113660d	imaging method
+9c1baedb	washing
+6dd173db	relating to treatment
+703ca557	knowledge, specialist
+d1f1bc99	knowledge, art
+0cf92fd2	temporomandibular joint
+de91c277	right upper quadrant
+7ab29d23	left upper quadrant
+2aa1c4e4	right lower quadrant
+a02c0aad	left lower quadrant
+5598d9e8	bowel sounds
+fa046940	peptic ulcer disease
+61b94882	nausea and vomiting
+40188e44	nausea, vomiting and diarrhoea
+893b33e3	herpes simplex virus type 1
+04341c52	body mass index
+d1a2d96f	ulcerative colitis
+d26da445	hepatitis A virus
+c5e780f9	hepatitis B virus
+b5673faa	hepatitis C virus
+f023764d	hepatitis D virus
+03affa48	hepatitis E virus
+bed9e9f5	endoscopic retrograde cholangiopancreatography
+64911553	magnetic resonance cholangiopancreatography
+52cd5a62	ova and parasites
+b6183916	liver enzyme ALT
+1e0bc70b	liver enzyme AST
+139a17a4	extracorporeal shock wave lithotripsy
+f62c9bff	nasogastric
+1505fb30	postoperative nausea and vomiting
+895540da	Digestive processes
+bea1b571	Mouth, teeth and saliva
+3ebe763f	Pharynx, oesophagus and stomach
+e05c4077	Intestines, peritoneum and abdominal regions
+96530c88	Liver, bile and pancreas
+b565914c	Diseases of the Mouth, Oesophagus and Stomach
+9e1ba58c	Diseases of the bowel and anus
+34f90775	Diseases of the liver, bile and pancreas
+d4471539	Tests and sampling
+af7beee4	Tubes, feeding and care
+bf7bbdd9	Digestive drugs
+91f250fe	one word = root + (combining vowel) + suffix
+09a2f78e	root: gallbladder
+a982407d	is dropped
+aa270d42	suffix: removal
+0f5bbdb5	no o before a vowel suffix such as -ectomy
+5732d384	Anatomy of the word cholecystectomy
+f401f792	Mouth roots
+7bf51651	sigmoid
+f7966b81	Roots in the order of the food path (1 to 12)
+67319fe7	Roots of the digestive tract
+10e3590c	Roots of the liver, bile and pancreas
+e4418b20	Liver and bile roots
+334a2723	Two roots, one meaning
+d8392488	Synonymous roots
+31c79e1f	stone disease
+ff6e2674	Suffixes for digestive symptoms
+36b9c061	Symptom suffixes
+6ce41496	Eight surgical and diagnostic suffixes
+0af287d5	One organ to the skin, or two organs to each other?
+cb08c633	abdominal skin
+8e7d1de2	ileum to skin
+2c16e81c	one root + -stomy = an opening to the outside
+4b1ed9bf	two roots + -stomy = an anastomosis
+c382e6d1	Surgically joining two hollow organs is called an anastomosis
+102b39f2	Naming stomas
+76bb5972	singular → plural
+c57e2f05	Plurals
+eacd5452	ileum (bowel)
+96ee7328	e as in intestine
+82809dc0	difficulty speaking
+a306bde3	g as in gag, s as in speak
+38f22ff4	stomat/o is not the stomach!
+bd4fe00e	cholecystitis, not colecystitis
+78fd3396	Watch out for look-alike words
+2909aab9	Look-alike words
+b8346910	pharyngeal
+e97d2c6d	gastric
+46c7bbbb	duodenal
+c7bb3790	root + adjective suffix = “relating to…”
+e10b0d98	In esophageal and pharyngeal an e comes before -al
+6a62d04e	Adjective suffixes
+0cf4a7de	The path of food: the digestive tract and accessory organs
+7417936c	The path of food through the digestive tract
+320b8b89	peristalsis
+4806ebd0	digestion
+b9ff8186	Food in seven steps
+37cbea4d	Stages of digestion
+3518d011	incisor (cutting)
+faa0d3c5	canine (tearing)
+2f2abbec	premolar
+61c4cf69	molar (grinding)
+4a855a4f	The upper jaw from the front: four types of teeth
+412739e6	front of the mouth
+214fe10c	children have no premolars
+fb0a0632	permanent (32)
+abd58e4c	deciduous (20)
+71118026	Types of teeth
+e43483a2	peristalsis: a wave of contraction behind the bolus
+7f866b23	direction of movement
+7b11ca12	muscle behind the bolus contracts
+fbd8bbef	relaxed in front of the bolus
+9144d895	it is involuntary and moves food from the oesophagus to the rectum
+b9267ff4	a chewed mouthful moistened with saliva = bolus
+8aacb754	deglutition: the airway closes during swallowing
+bf066d18	lid of the larynx
+dd83c829	soft palate and uvula
+d1c15cea	bolus
+0af3d1aa	the soft palate closes off the nose and the epiglottis the trachea
+45408b76	between the oesophagus and stomach; the LES or cardiac sphincter
+7b26b159	prevents acid reflux
+f291c8b1	between the stomach and duodenum
+690485a4	lets chyme through little by little
+c53132d0	between the ileum and caecum
+6663cd16	prevents backflow from the large intestine
+fa8ca775	opening of the bile duct into the duodenum
+dee65ef6	entry of bile and pancreatic juice
+915625a5	internal and external, at the anus
+08903c3b	holding and passing stool
+8ce122c4	sphincter: a ring of muscle that opens and closes a passage
+93bd26d2	Sphincters
+6c6cedaf	The stomach turns food into chyme with gastric juice
+228de8f0	stomach folds
+d0945f85	semi-digested food to the duodenum
+c039c119	acid; activates pepsin
+5e6f144a	protein digestion
+b02a2d8c	for absorbing B12
+abd9033f	protective layer of the wall
+cad37601	absorbing digested nutrients
+4e3e980d	Where is each food digested?
+79c16fb6	Where
+4eb312d7	What
+c145a22e	Acts on
+f5ea407b	Enzyme names usually end in -ase: amylase, lipase, protease
+0d732b86	Enzymes
+458dc6ce	shortest; bile and pancreatic juice enter here
+d0df668c	middle part; most digestion and absorption
+e4e1aec7	longest; absorbs B12 and bile salts
+d0fff505	small intestine = D + J + I (from the stomach to the caecum)
+42e918db	start: the stomach’s pylorus
+e8e64181	end: the ileocaecal valve
+23e36720	jejunum means “empty”; don’t confuse ileum with ilium (pelvis)
+6ecf7e51	Parts of the small intestine
+ca0b790e	villus: a finger-like absorbing projection in the small intestine wall
+07976ef4	lymph capillary: absorbs fat
+2dcdd5d0	blood capillary: sugars and proteins
+c5f33905	absorbing cells on the villus surface
+47343706	millions of villi greatly enlarge the absorbing surface; the plural of villus is villi
+a4cee698	Intestinal villi
+636ce163	The large intestine: from the caecum to the anus
+a64777dc	front view; the patient’s right is on the left of the picture
+08785649	ascending
+210d129c	descending
+686f1a0b	hepatic flexure
+9c20a80e	splenic flexure
+0eacd122	sigmoid (S)
+2bc3fc39	anus • anal opening
+8ed844ce	Map of the large intestine
+a71786e9	right upper quadrant
+27471c53	left upper quadrant
+ac583af9	right lower quadrant
+920602b9	appendix, caecum
+aee6b399	left lower quadrant
+442f641e	The four quadrants of the abdomen (the lines cross at the navel)
+8b219536	patient’s right
+de0f32f7	patient’s left
+18e87a8d	in a front view, the patient’s right is on the left of the picture
+81dc1064	Abdominal quadrants
+c910b7e3	Where does bile go?
+39803217	liver: makes bile
+4181d506	storing and concentrating
+00e11803	cystic duct
+9d1eff69	duodenum: fat digestion
+03b32a52	out
+ca2b10ca	back
+a61b2c81	the shared opening in the duodenum: the papilla and sphincter of Oddi
+c8e010fa	The path of bile
+2188ea33	The pancreas: both a digestive and a hormone gland
+164f4b10	exocrine (into the duodenum)
+73d31d36	endocrine (into the blood)
+426197ae	lowers blood sugar
+96880554	raises blood sugar
+cb9e45e9	Jobs of the pancreas
+907c0f27	making bile
+f2b512bf	storing sugar
+c17ea56e	detoxification
+f4c396e0	making blood proteins
+788960c0	processing absorbed nutrients
+1d6fb186	getting rid of bilirubin
+03512294	from old red cells
+67aa0b61	The liver: the body’s largest gland, essential for life
+70eed271	Jobs of the liver
+1b702379	nausea; the feeling before vomiting
+6a8b9a0f	vomiting blood
+35019d95	severe, repeated vomiting
+413b3453	food returning to the mouth without effort
+cac30159	burning behind the breastbone (heartburn)
+f43b309c	Upper digestive symptoms
+0f82eebe	-phagia = eating, swallowing • -pepsia = digestion
+92e6e0c8	The -phagia family
+d386931f	bacterial plaque
+ec641389	decay of the enamel
+262e4cf5	reaching the dentine
+27bbcf6b	pulp infection and abscess
+527cbe81	dental caries: decay from the enamel to the pulp
+9b42a129	gingivitis is gum inflammation; if it progresses, periodontitis
+da479171	destroys the tooth’s supporting tissues and the tooth falls out
+d98927bc	aphthous ulcer: a small painful sore
+fff80f7e	thrush: a white fungal patch
+a09d9f2e	a firm white patch; precancerous
+1f50ff09	lack of vitamin B
+29a2dbc7	ulcerative gum inflammation
+5367042c	Six common mouth lesions
+4e1318bd	Mouth lesions
+05dd5246	a slack lower oesophageal sphincter
+3e7defe2	acid flowing back into the oesophagus
+90899399	heartburn (pyrosis)
+a2f7ec45	precancerous change in the oesophageal lining
+24420bdf	GERD: when reflux becomes chronic
+dd3fee75	treatment: PPI, H2 blocker, antacid
+5cf36195	The GERD chain
+72edc22c	How deep is the ulcer?
+32637f86	mucosa only
+0882f50c	down to the muscle
+30db4eaf	The two main causes of peptic ulcer: H. pylori and NSAIDs
+9f48a92d	A peptic ulcer is found in the oesophagus, stomach (gastric) or duodenum (duodenal)
+9681b12a	Ulcer depth
+94bcc285	pyloric stenosis: a thick, narrow pylorus
+5516ddee	thick pyloric muscle
+a328dc6b	projectile vomiting
+d79af68c	food cannot pass from the stomach to the duodenum; treatment: pyloromyotomy
+44f240ce	stenosis = narrowing
+270022a1	Site
+2a580cd3	anywhere in the digestive tract
+ed61040d	colon and rectum only
+733b124b	patchy (skip lesions)
+ab4e2cc2	continuous from the rectum upwards
+5c14c7ce	all layers of the wall
+5245cd99	mucosa and submucosa
+ca1bc228	Hallmark
+ce863146	fistula and stricture
+e36b8bb7	bloody diarrhoea
+ebb68789	IBD: two chronic inflammatory bowel diseases
+5b874e17	patchy involvement
+04675dea	continuous involvement
+29f366e4	Crohn disease versus colitis
+ee5f1da2	black and tarry
+8a57cda9	upper GI bleeding (stomach, duodenum)
+6b2f70ca	bright red blood
+6e9d439c	lower GI bleeding (colon, rectum, haemorrhoids)
+eaba47ae	greasy and floating
+f5cc0897	fat not absorbed (pancreas, coeliac disease)
+97e94e2a	pale, clay-coloured
+d31b6aac	bile not reaching the gut (gallstone)
+c4938f2d	seen only with the FOBT test
+af7536d6	What does the stool tell you?
+f4035422	Stool colour
+db351f39	bowel twisting around itself
+95366437	bowel telescoping into the next part
+f5c87d8e	peristalsis stopping
+897b6321	bowel pushing through the wall
+cd67423a	intestinal obstruction: four ways the bowel gets blocked
+2e060a77	faecal-oral (contaminated water and food)
+31e1b8b9	yes
+2caaa3e4	no
+d92f163b	blood, sexual, mother to baby
+01e885a9	blood (shared needles)
+2f35b59b	yes; treatable
+ec0ffc53	blood; only together with B
+5152aad4	through B
+dfc8096f	faecal-oral (contaminated water)
+b3a96865	Viral hepatitis A to E
+e196e20e	A and E spread faecal-orally; B, C and D through blood
+b1f44f8c	Hepatitis types
+dd32343e	Where does bilirubin come from and why does jaundice happen?
+33f6f161	old red cell
+e4d2e0ee	yellow pigment
