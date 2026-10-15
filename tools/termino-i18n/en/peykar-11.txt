@@ -25,7 +25,7 @@ b6099151	Review of the “Spine and surface regions” level
 cca0c3eb	Limbs: brachial, antecubital, carpal, femoral, patellar, popliteal, plantar, pedal, inguinal
 95e80fde	The Piece Expert
 73f5e954	Breaks every scary word into prefix, root and suffix and reads it from the end. Its motto: “epigastric is just three pieces!”
-fc83e0c3	Orifice
+fc83e0c3	opening
 b21c2e2a	Keeper of the Openings
 bc1f2b9e	Knows every opening of the body, from os (mouth) to foramen and meatus, and knows that a stoma is an opening a surgeon made.
 ed9ed0b5	Pluro
@@ -41,7 +41,7 @@ dec97a05	Geno
 5978269e	Keeps the 46 chromosomes neatly in pairs and doubles them all in mitosis, but sends only 23 in meiosis.
 82abe56d	The Epithelial Shield
 537afb49	Covers the surface of the body and lines the inside of tubes; sometimes simple and one-layered, sometimes stratified and many-layered.
-e4d74c52	Myo
+e4d74c52	muscle
 391807bf	The Contracting Spindle
 c7309a50	It’s a triplet: skeletal, which moves at your command; cardiac, which never tires; and smooth, which quietly churns the intestine.
 f79ff7f5	Connecto
@@ -53,22 +53,22 @@ ced004cd	Heart of the Circulation
 25d64cff	Breathy
 ca50fdb0	The Patient Lung
 e71244df	Takes in oxygen and gives back carbon dioxide, with the help of the diaphragm moving up and down beneath it.
-f287f194	Bean
+f287f194	bean
 b1938f24	The Filtering Kidney
 2fc19ee2	Filters the blood, makes urine and lives behind the peritoneum (retroperitoneal), the only large abdominal organ that does.
-50739288	Compass
+50739288	compass
 91041c0c	The Body’s Direction Finder
 3e903890	Always starts from the “anatomical position”: standing, palms facing forward. Then it says superior, medial or distal.
-c845bb1c	Slicer
+c845bb1c	slicer
 b38f1988	Master of the Planes
 e7e3cb41	Cuts the body with three planes: sagittal (left and right), frontal (front and back) and transverse (upper and lower). It loves CT and MRI.
-984c1f53	Glove
+984c1f53	glove
 8491e3ec	Master of Positions
 c1f49f04	Places the patient in the right position for every examination: supine, prone, Fowler, Sims, lithotomy or Trendelenburg.
-89775bd1	Cavy
+89775bd1	cavity
 20ea195e	Guardian of the Two Great Cavities
 ed6efff9	Watches over the dorsal cavity (skull and spinal cord) and the ventral cavity (chest and abdomen-pelvis); the diaphragm is the border between the two floors.
-9dc9df5c	Quad
+9dc9df5c	four squares
 4557635c	The Abdomen Mapmaker
 b8e2cef4	Divides the abdomen into four quadrants and nine regions; when it hears “RLQ pain”, it thinks of the appendix first.
 f4a3e823	The Steady Column

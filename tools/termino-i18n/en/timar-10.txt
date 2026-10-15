@@ -1,0 +1,254 @@
+3021b63e	“1 tab tid” means how many tablets in one day?
+797e1a08	tid = ter in die = three times.
+66f84802	Food, sleep and need
+6caeafe4	a = ante (before) and p = post (after): ac before meals and pc after meals.
+619bfd15	Which abbreviation is used for a sleeping pill taken at bedtime?
+0ab7d018	ac means after meals.
+e6a42e37	False; ac is before meals (ante cibum) and pc after meals (post cibum).
+aabf66be	Put these schedules in order from fewest to most doses a day
+5506006b	1, 2, 3 and 4 times.
+ed9ff552	The order “every 6 hours” is written with the abbreviation ___.
+b8554fdd	q_h: every _ hours.
+317b689d	Spell the abbreviation for twice a day
+5b2b4b45	⟦0⟧Every medication order has five parts: the <b>drug name</b>, the <b>dose</b>, the <b>route</b>, the <b>frequency</b> and sometimes a <b>condition</b>, such as prn.
+2cecf2b9	Put the parts of “Ativan 1 mg po bid prn” in order
+4121d976	Condition
+8a4fe764	Units and forms
+2d79c8e0	milligram / microgram
+3d5d3726	unit / international unit
+1ee59bee	capsule • tablet
+c3bc4b62	suspension • elixir • tincture
+9445cad7	suppository • ointment
+5d0f5e58	Other prescription instructions
+f7e41716	with / without
+9ed315ac	dispense as written (no substitution)
+1cd27e37	sustained release • sustained action • long-acting
+49c6f450	acetaminophen / aspirin
+17d30536	DAW on a prescription means the pharmacist must not substitute a generic for the brand name.
+b1ebf564	In case 3-2: Flovent one 50 mcg puff in each nostril, b.i.d. How many micrograms in one day?
+a4dcf6d9	50 × 2 nostrils × 2 times = 200.
+12ed776d	“Arnica 3 tabs SL t.i.d.”: how many tablets in one day?
+47492a38	3 tablets × 3 times.
+faa72376	DS means double strength.
+cd030f04	Review of the “Language of Prescriptions” level
+59970369	anti-, contra-, counter- • ‎-lytic, ‎-mimetic, ‎-tropic • chem/o, hypn/o, narc/o, pharmac/o, vas/o, tox/o
+4044f396	bid 2 • tid 3 • qid 4 • qh and q4h • qam • ac before and pc after meals • hs bedtime • prn as needed • ad lib
+827d2e78	Prescription: drug name + dose + route + frequency + condition • mg, mcg, mL, U
+33e39fe3	cap, tab, susp, elix, tinct, supp, ung • c̄ and s̄ • ss • DAW • DS • SR • NSAID • APAP • ASA
+b8b7af5f	Spell the common name of acetylsalicylic acid
+a461466a	Snippy
+5151054c	The Word Breaker
+6821b78a	Breaks every disease word into root and suffix: path/o disease, py/o pus, scler/o hard and tox/o poison; and reads the meaning from the end.
+dd467096	Itis
+0e86f413	Master of Disease Suffixes
+9a431061	Knows the difference between ‎-itis (inflammation), ‎-megaly (enlargement), ‎-rhage (heavy bleeding) and ‎-rhexis (rupture), and never forgets the double rr.
+1767a3b7	Steno
+e34b24e7	Decoder of Suffix Words
+2f3a20a3	Puts stenosis (narrowing), ectasia (widening), malacia (softening), ptosis (drooping) and sclerosis (hardening) onto any organ.
+dd719d93	Coco
+50031512	The Round Cluster Bacterium
+4d50d3f7	Round, with friends who form either bunches of grapes (staphylococci) or chains (streptococci); turns purple in the Gram stain (Gm+).
+a3406e2e	Bacillo
+ea3e71ac	A rod; its cousins the vibrio are curved and the spirochete corkscrew-shaped. Knows that nosocomial means an infection caught in hospital.
+3ba7a373	Viri
+c851e236	The Parasite Inside the Cell
+49196748	Multiplies only inside a living cell; knows endemic, epidemic and pandemic by heart and can tell a fungus, a protozoon and a helminth apart.
+6fffa1f0	Phago
+4e812c3e	The Microbe Eater
+7903256a	A greedy white blood cell that swallows and digests bacteria (phagocytosis); what is left of its work is pus.
+a3fef4ca	Dropsy
+234de809	The Swelling Drop
+d5349e26	Knows the four signs of inflammation: heat, pain, redness and swelling; and knows where edema, effusion and ascites each collect fluid.
+44f9005f	Immuno
+64153d92	The Immune Guardian
+4fc4b354	Knows innate and acquired immunity, tells a benign mass from a malignant one and knows that hernia and prolapse mean pushing out and dropping down.
+f011eb20	stethoscope
+1e9532ef	The IPPA Examiner
+f1406d32	Examines in order: looking (inspection), feeling (palpation), tapping (percussion) and listening (auscultation).
+a2e8ba4e	Guardian of the Vital Signs
+ed2f0c9f	Records TPR and BP, reads cyanosis and pallor from the colour of the skin and knows the difference between a sign (objective finding) and a symptom (the patient’s complaint).
+97e57f8e	radio
+0e2e455c	The Imaging Reader
+e7d6bee3	Tells radiographs, CT, MRI, PET and ultrasound apart and knows that ‎-graph is the instrument, ‎-graphy the method and ‎-gram the image itself.
+3d6c2feb	Ectomy
+072d6db7	Master of Surgical Suffixes
+1cb11d2b	‎-ectomy removes, ‎-tomy cuts, ‎-stomy makes an opening, ‎-plasty reconstructs and ‎-rhaphy sutures.
+fada5a05	hemostat
+51e36956	Can tell a scalpel, forceps, retractor and curet apart, and reads EBL, PACU and I&D on the operating sheet.
+bebdcca2	Holis
+fbdaf245	The Sage of Complementary Medicine
+efa4e74b	Sees the patient as a whole (holistic); knows acupuncture, biofeedback and meditation, and tells palliative care from a cure.
+c8c0728f	capsule
+1c5dd9c5	The Drug-Form Expert
+6d589b1a	Knows tablets, capsules, elixirs, suspensions and ointments, and knows a suspension must be shaken before use.
+e0c2730f	Syringo
+7e65b7df	Master of the Routes of Administration
+db2e4db1	IM at 90, SC at 45 and ID at 15 degrees; po by mouth, SL under the tongue and transdermal through the skin.
+4213664f	The Medication-Order Decoder
+cbe5bfe5	Reads bid, tid, qid, prn, ac, pc and hs like a mother tongue and knows what synergy, antagonist and contraindication mean.
+eaa443da	Medical Ward Report
+29f38414	A 68-year-old man with shortness of breath
+ab2c8d27	The night-shift nurse has written Mr Rahimi’s report in medical terms. For a new student, translate each term by breaking it into root and suffix.
+4c243253	Chest imaging
+b216a3c9	bronchospasm with wheezing
+5a2cbea6	cardiomegaly means…
+85ad84fd	cardi/o (heart) + -megaly (enlargement).
+5fe1b078	hepatomegaly on abdominal examination means…
+b6920acd	The liver is enlarged
+67413f5b	The liver has ruptured
+9b74c52e	The liver has softened
+2eb54ba4	The liver is inflamed
+b2a930d0	hardening of the arteries
+d607a78b	If the patient’s pulse is fast, the chart says bradycardia.
+ca877125	False; fast = tachy-: tachycardia. brady- means slow.
+88eea4db	The patient has a fever. Which root means “fever”?
+84d7edec	pyr/o and pyret/o: fever, fire; py/o is pus.
+6040e676	Spell the term for an enlarged liver
+a7979387	Flank Pain
+81fa6e71	A 45-year-old man with colicky pain
+ddc6572f	Mr Karimi has come in with severe flank pain and pain on urination. Ultrasound has shown a stone in the urinary tract. Decode the terms in the chart.
+aaf81921	urolith; lithiasis
+a151fc3c	no pyuria
+233ba437	Plan
+2c9afc53	Symptom
+9bd5b3a9	urodynia means…
+71dc3c2e	blood in the urine
+77742ad4	ur/o (urine) + -odynia (pain).
+6f80e836	urolith means…
+c6fcaeb6	a stone in the urinary tract
+7a46e4f5	bladder tumour
+96782e49	kidney cyst
+adcf84f8	widening of the ureter
+0fc123df	ur/o + lith (stone).
+16c5ca4d	lithotripsy means…
+e2326d0a	removing a stone through an incision
+ed0355cb	viewing a stone with an endoscope
+830b6284	lith/o + -tripsy (crushing).
+addd625b	If the bladder is also inflamed, the chart says cystitis.
+97b6f112	Spell the term for stone formation
+3e3c0cf9	Post-operative Wound Infection
+598758a6	A 52-year-old woman, fifth day after surgery
+131915a7	Mrs Ahmadi’s surgical wound has become red and pus-filled. The laboratory cultured the wound discharge and saw gram-positive cocci in clusters under the microscope.
+6850c377	Type of infection
+d2c7bc7c	MDR; contact isolation
+285995a2	Which gram-positive cocci form grape-like clusters?
+10e5b480	staphylo- means grape-like cluster; strepto- is chain.
+7f9a2f95	Staining
+28d43d08	Gm+ means the bacterium stays purple in the Gram stain.
+9c8daf68	Gram-positive looks purple and gram-negative red.
+c68a740a	Spread
+3ff76a33	An infection the patient caught in hospital…
+c8a56234	nos/o (disease) + comial (hospital).
+23683bcf	methicillin-resistant staphylococcus
+ac6518a0	MRSA is a pathogen. Pathogen means…
+e41c6ddf	path/o (disease) + -gen (producing).
+c4747280	Flu Season
+68901712	Report from the district health centre
+3fa59d34	Over the past two weeks, the number of flu patients in the city has suddenly risen. The health officer sends the report to the clinic’s physicians.
+9a15c7ed	Route of transmission
+748c6661	respiratory droplets; contact
+416f54af	Course of disease
+4769723b	Regional status
+37c0618a	A sudden rise of a disease in one region at one time…
+b1afd3ea	epi- (upon) + dem/o (people).
+8322fe95	If the same disease spreads across several continents, it is called a pandemic.
+3dcaefcc	pan- means all.
+5c2a92ff	How is a virus different from a bacterium?
+3c8d9793	Antibiotics kill it
+b9e1dc9e	A virus is an obligate intracellular parasite.
+b576913d	Portal of entry
+ef36a40a	Through which portal of entry does influenza enter the body?
+7a54d6d2	Blood, through an insect bite
+530c5b83	Respiratory droplets enter the respiratory tract.
+757a86ea	Course
+2ce172de	sudden and short
+c9bd66c8	Right-sided Abdominal Pain
+a7296052	A 17-year-old boy in the emergency department
+c8cb824b	Ali has had abdominal pain since last night that has moved to the lower right abdomen. He has a fever, and the painful area is warm, red and swollen. The surgeon suspects suppurative appendicitis.
+98e45a09	pain and tenderness in the lower right abdomen; fever
+b19a50d8	appendicitis with abscess
+26b281c8	Put the four signs of inflammation in order (as in the book)
+55f712b2	appendicitis means…
+d4888ccc	hernia of the appendix
+ccb69b52	tumour of the appendix
+a475d8b1	abscess means…
+054aabe0	Cellulitis is spreading inflammation and a fistula is an abnormal passage.
+2339e93c	Defence
+948d9dbc	Pus is made of fluid and white blood cells that have swallowed bacteria.
+fa8e1069	What remains after phagocytosis is pus.
+46c38972	swallowing microbes
+6eea33a4	swelling
+3a29de52	Spell the term for a collection of pus in one place
+637aaf22	Two s’s and a c in the middle: ab-scess.
+da7fdf90	Heartburn
+9974b405	A 58-year-old woman
+c5cc4982	Mrs Sadeghi has had heartburn for years. A contrast (barium) radiograph shows part of the stomach above the diaphragm.
+28b43548	Associated finding
+47b47e56	benign intestinal polyp
+8d216b76	herniorrhaphy if needed
+6997b6c5	hernia means…
+825dbf3d	an organ pushing through an abnormal opening
+9841afc3	narrowing of a tube
+56ad68c6	An organ dropping down is prolapse or ptosis.
+fb2e8602	In a hiatal hernia, part of the stomach passes through the diaphragm into the chest.
+b8cc313a	Through the oesophageal opening in the diaphragm (hiatus).
+27ced49c	Neoplasm
+eb9d4a77	polyp means…
+7b409333	cancer of connective tissue
+a8f7aa15	collected pus
+5f14e24e	split in tissue
+b8ced623	A polyp is a tumour on a stalk.
+ca3933af	herniorrhaphy means…
+0644128f	repairing a hernia with sutures
+03c9f977	removing a hernia
+bc32a3f5	cutting into a hernia
+64fb3f1e	viewing a hernia
+9557f2e6	herni/o + -rrhaphy (repair, suture).
+87e7827b	an organ dropping down
+fc6f316c	two surfaces stuck together
+8b399024	Spell the term for an organ pushing through an abnormal opening
+aa37d968	Mary in the Emergency Department
+17de435b	A 59-year-old woman after a skating fall
+94672385	While skating on gravel, Mary fell and landed on her right hand and knee. In the emergency department a physician assistant (PA) took her history and examined her wrist and knee (the chapter’s opening case).
+1d1edf85	pain in the right wrist and knee
+e5ce3e63	Wrist
+dcb88e4b	deformed and edematous; limited ROM
+316fc26d	superficial abrasion; swelling
+69c349f5	Orders
+e2f5ff8d	wrist x-ray; knee MRI
+9603e372	The PA felt the wrist to assess the pain. This method is called…
+80b6dece	palpation means feeling with the hands and fingers.
+461e264d	First the PA looked at the wrist: no open wound, slightly deformed. This method is called…
+6c975148	inspection = looking.
+4daff72c	edematous means…
+1c99c7c3	What is the best simple method to see a fracture of the wrist bones?
+59e4d5c2	Dense bone absorbs x-rays and looks bright.
+7b2a88b5	MRI is valuable for the knee because it shows ligaments and soft tissue better than a plain film.
+b4f1b75a	MRI uses a magnetic field and radio waves, without x-rays.
+0fbac6bd	Fever After Travel
+bf7dfc0b	A 37-year-old man with a history of rheumatic fever (case 3-1)
+04887d0a	After returning from a trip, Robert has had a high fever and weakness for several days. His family physician suspected heart involvement and sent him to a cardiologist for an ECG and TEE. He was admitted with SBE.
+3739e411	T 39.8 °C; HR 112 bpm
+9ffc5bc7	Tests
+4c20de9c	ECG; TEE
+9e63e37c	narrowing, widening, spasm
+a40e13fe	endocarditis means… of the inner lining of the heart
+fa1d5712	overgrowth
+b2013540	thinning
+79d175fe	endo- (inside) + cardi/o + -itis.
+906392cd	stenosis in IHSS means…
+1bc874a4	subaortic stenosis = narrowing below the aortic valve.
+653d0302	Cause
+5c4333c3	A disease with an unknown cause…
+b413843b	idi/o (self) + path/o.
+b61d6e99	Growth
+be025547	An increase in organ size without an increase in cell number…
+04dbe7d0	hypertrophy = cells getting bigger; hyperplasia = cells becoming more numerous.
+ea4cfaed	subacute bacterial endocarditis
+b1473eef	Robert’s fever is a sign, not just a symptom, because it is measured with a thermometer.
+6dba4a78	A sign is objective and measurable.
+92f3ae19	Mary in the Operating Room
+66beb1bc	Mary’s case continued
+ccfbbb06	The radiograph showed a distal radius (Colles) fracture. The orthopaedic surgeon realigned the bones through a direct incision and fixed them with a plate and screws. Fluid was then drawn from the swollen knee.
+3fbb6eb1	Discharge
+2764704f	walker; PT teaching

@@ -1,0 +1,232 @@
+2e408793	Spell the term for the predicted outcome of a disease
+28e72135	The whole person
+c2478a66	Over the last century the main causes of death have shifted from infectious to chronic diseases, and many people have turned to complementary therapies. <b>Holistic health care</b> sees the person as a “whole”: body, emotions, society and spirit, and stresses maintaining health.⟦0⟧
+080e2bcf	Four philosophies of treatment
+3ebf2229	a body with a normal structure overcomes disease; correcting faulty body structure
+7aaf7d34	helping the body heal itself with a healthy lifestyle
+47dae9c2	highly diluted remedies combined with healthy habits (home/o: same)
+8933233f	focus on the nervous system; manipulating the spine (cheir: hand)
+42c14f24	Match each philosophy to its meaning
+12ccfee8	Methods
+31e7760b	fine needles at specific points; with finger pressure instead it is acupressure
+cb11bd9e	learning to control involuntary responses through electronic monitoring of the body
+9822dcf3	kneading the body for relaxation and circulation
+b888dbd7	calming the mind through focus and breath control
+664e3b3c	learning to control involuntary responses through electronic monitoring
+243486fb	needling at specific points
+7011ef33	herbal medicine
+e8298386	bi/o (life) + feedback.
+3b6001ce	An ancient Chinese method using fine needles at specific points…
+1ed09182	acu (needle) + puncture.
+bc078360	NCCAM is a centre at the US NIH that studies complementary and alternative therapies.
+c82b9bbe	Review of the “Treatments and Complementary Medicine” level
+3fd9aef4	catheter, irrigation, lavage, drain, clysis, normal saline • I&D • PICC • trocar and cannula
+6c7cb15e	therapy treatment • prognosis predicted outcome • palliative relieving • prophylaxis prevention
+a3383ac1	grading cell grade (I–IV) • staging spread with TNM • chemotherapy, immunotherapy, RATx • remission
+ad6856b2	holistic • osteopathy, naturopathy, homeopathy, chiropractic • acupuncture, biofeedback, massage, meditation • CAM
+a6040c00	Care that sees the person, with body, mind and society, as one whole is ___.
+87f56c56	Spell the term for treatment with fine needles at specific points
+974a8f74	Drugs and prescriptions, generic and brand names, side effects and interactions, routes of administration and injection angles, drug forms, drug word parts and abbreviations from bid to prn
+612964ef	Drugs and safety
+064af489	The language of prescriptions
+6c60a4b3	What Is a Drug?
+829e2834	A <b>drug</b> is a substance that changes how the body works. Many drugs are <b>over-the-counter</b> (OTC) and sold without a prescription; others need a <b>prescription</b> (Rx): a written, signed order with directions for use. In the US, the FDA approves the safety and <b>efficacy</b> of every drug before it is sold.⟦0⟧
+20e790e3	⟦0⟧ means a drug that…
+f2867f06	is sold without a prescription
+f47853d5	is injected only in hospital
+d3c2288e	is made from plants
+f68e316a	is banned
+501cb34b	effectiveness; the power to produce the desired result
+8499009c	the dose of the drug
+6bb2f925	the price of the drug
+07b3c033	Generic or brand?
+d6ea51c0	non-proprietary name; a simplified chemical name; written in lower case: acetaminophen
+db9b5543	registered trade name; capitalised: Tylenol
+721be7e6	Generic is for the whole “group” and written small; Brand is “big” and owned by one company.
+eb4f4c37	Motrin and Advil are two brand names for one generic drug, ibuprofen.
+99ec9fdd	Different companies sell the same drug under different names.
+60e1ece1	Match each brand name to its generic name
+1386da84	Sources of drug information
+a86690c8	⟦0⟧Another excellent source is the <b>pharmacist</b>. ⟦1⟧ is both the science of preparing drugs and the place where it is done; ⟦2⟧ means the study of drugs.
+bdc5d2c9	Source
+d585983b	United States Pharmacopeia: drug formulas and quality standards
+5e90e2d2	Physicians’ Desk Reference; information from manufacturers
+993cc46f	Which one is a generic name?
+79608648	A generic name is written in lower case.
+c81b257f	The study of drugs and their effects is ___.
+efa0c687	Spell the term for a signed written order for a drug
+eefb8e43	pre- (before) + script (writing) + -ion.
+423a7509	Side Effects and Interactions
+7f0de6b3	Unwanted effects
+fbba5013	A <b>side effect</b> is an effect of treatment unrelated to, or an extension of, its intended purpose; usually unwanted. A <b>contraindication</b> is a reason not to give a drug to a person: diseases, other drugs, sensitivity or family history.⟦0⟧
+5034eaa7	contraindication (contra-: against)
+44c887fd	severe allergic reaction; shortness of breath and falling blood pressure
+837dedba	a reason that makes using a drug undesirable or dangerous
+9bf0ebd2	the drug’s therapeutic effect
+63096f84	contra- (against) + indication.
+b6dd834c	a severe allergic reaction that can be fatal
+87004353	a mild side effect
+7b244c9c	synergy of two drugs
+8d8c252d	Interactions of two drugs
+ee41bdd4	two drugs together having a greater effect than either alone
+ddf331e6	a substance that counteracts a drug’s effect
+bfd43344	In Chelsea’s case, lorazepam given before surgery works in synergy with the anaesthetic drug and makes induction smoother.
+615b8786	synergy
+10612d5b	opposing effect
+f63fa027	severe allergy
+63906dfb	potentiation means two drugs act more strongly together.
+ab1a25c5	A drug that blocks the effect of another drug…
+db1d9032	Hives after taking a drug are a sign of an ___ reaction.
+be117991	allergic
+ddf73725	therapeutic
+21edd321	generic
+9cfaf6dd	Signs of allergy such as hives and rashes.
+72b04739	Build a word meaning “working together”
+a214f70e	Spell the term for a reason not to give a drug
+03ae46b3	Tolerance, Dependence, Herbal Medicine
+51fcd9a7	Long-term use
+3a0fb0a0	Drugs acting on the central nervous system may lead to <b>substance dependence</b> (psychological or physical). With repeated use, <b>tolerance</b> develops: the same dose has less effect and the dose must be raised. Stopping or cutting down the drug suddenly causes <b>withdrawal</b>.⟦0⟧
+77646468	symptoms after stopping the drug
+12a3009f	the same dose no longer has its earlier effect
+6bf8436c	tolerates the drug well, with no side effects
+5fb47b7a	Withdrawal is the symptoms that appear after a drug is stopped suddenly.
+17938ced	A chronic, compulsive need for a drug despite the harm it causes…
+de523130	<b>Herbal medicine</b> or <b>phytomedicine</b> (phyt/o: plant) is treatment with plants. Concerns: purity, safety, concentration, efficacy and interactions with drugs. The FDA does not test herbal products, so patients should tell their physician they are taking them. The US Office of Dietary Supplements (ODS) coordinates research.
+47874131	chemical drug
+222f6a40	injectable drug
+d6a8c069	phyt/o = plant.
+28003439	same dose, weaker effect
+a3c58463	withdrawal syndrome
+1bc07805	The FDA tests all herbal products before they are sold.
+2646abd7	False; the FDA does not test or approve herbal products.
+28088820	Review of the “Drugs and Safety” level
+1d57e1c2	drug • OTC without prescription • Rx prescription • efficacy effectiveness • FDA
+b97ce1f5	generic name lower case (acetaminophen) • brand name capitalised (Tylenol) • USP, ASHP, PDR, pharmacist
+aa0354c5	side effect • contraindication • anaphylaxis • synergy and potentiation • antagonist
+89798602	When a patient needs a higher dose for the same effect, they have developed ___.
+5ce70e70	Spell the term for needing a higher dose for the same effect
+49e64e59	Mouth, Under the Tongue, Skin
+0a708ba2	Absorption routes
+9314baef	⟦0⟧⟦1⟧<b>absorption</b> means a drug entering the bloodstream through the digestive tract or another membrane.
+364becad	by mouth (per os)
+77c2551d	through the rectum by suppository or enema
+bbfe9115	on the skin surface
+e21463a5	absorbed through the skin, such as a patch
+53588d8f	by mouth and swallowed
+dbbf2cef	through the rectum
+db19c484	sub- (under) + lingu/o (tongue) + -al.
+e3dfc008	injection under the skin
+472e1b41	on the skin surface without absorption
+c8a69807	inhaled
+06cd63f3	trans- (through) + derm/o.
+bdad1525	Inhalation and instillation
+9643a961	<b>inhalation</b>: a drug entering through the respiratory tract, such as an aerosol or nebulizer; <b>instillation</b>: dropping or slowly pouring a liquid into a cavity or onto a surface, such as ear and eye drops.⟦0⟧
+855554ea	inhalation with a metered-dose inhaler
+8270dcdf	instillation of eye drops into the conjunctival sac
+1659b61b	In this picture, the patient breathes in the drug with a metered-dose inhaler. This route is…
+4881a969	Metered-dose inhaler
+a2d806ce	Dropping liquid into the lower conjunctival sac of the eye…
+8ebb308a	Eye drops
+c4b40c65	Match each abbreviation or route to its meaning
+d7bd7275	po comes from the Latin per os, meaning “by mouth”.
+b42c8f75	A painkiller given as a skin patch uses the ___ route.
+23dd9f67	Spell the term for under the tongue
+21a6e75a	Injections
+7839474f	Injection routes
+f819fd8c	An <b>injection</b> is given with a needle and syringe, and the injection routes are called <b>parenteral</b> (apart from the digestive tract).⟦0⟧
+518cc591	under the skin; hypodermic
+9f98b0c0	into a muscle
+b283b8a4	Needle angle
+92b44bd6	Figure 3-22 of the book
+c7d59c1f	90 - 45 - 15: muscle, subcutaneous, skin; from deep to shallow.
+2c7bb97e	At what angle is an intramuscular (IM) injection given?
+5c79a916	90 degrees
+33756b89	45 degrees
+eed97463	15 degrees
+c41e7295	5 degrees
+75eb91cb	Injection angles
+64d2a276	A needle at a 15-degree angle enters only the skin layer. This injection is…
+b34a0f9b	The spinal cord, and fluid under the skin
+6bc6106a	injection into the space between the spinal coverings and the spine
+6aab24e4	injection through the coverings into the spinal fluid (spinal)
+b7a0ba6e	slow injection of a solution under the skin; an alternative to an IV drip
+1d5674c6	Epidural anaesthesia is common in childbirth: the drug is injected into the epidural space, outside the dura mater.
+0bad6f8e	⟦0⟧ means an injection…
+ea09b2fb	through the coverings into the spinal fluid
+2a972830	into a joint
+b55051e1	intra- + thec/o (sheath) + -al.
+8f489b9f	All injection routes are called parenteral.
+f80378a4	Build a word meaning “into a vein”
+df38ea37	Spell the term for beneath the skin
+7b7c52d0	Drug Forms and Containers
+04494103	Liquid, semisolid, solid
+d06bed56	A suspension is solid particles suspended in a liquid and must be shaken before use; that is why it is labelled “Shake well”.
+5ed009a5	Match each form to its description
+0ab6e5b2	sweet, alcoholic liquid taken by mouth
+6defaa4e	must be shaken
+1af3bbbe	drug in an alcoholic solution
+7dd3169b	dissolved in water
+2f081895	suppository; melts in a body opening
+1dc34ab7	lozenge
+86e8966d	gelatin capsule
+c4c64835	ointment; a drug in a base that stays on the skin
+6b968b97	spray
+ff82760e	Containers for injectable drugs
+1cb0b0d6	a small sealed glass or plastic container for a sterile solution
+7958cf60	a small bottle with a stopper
+9d6aac1f	an instrument for injecting fluid
+33488db7	a concentrated amount of drug injected quickly into a vessel
+dd3a3d98	ampule (top left), vial (top right), syringe
+7d75a30e	Parts of a syringe and needle
+059b20e0	In the figure of the syringe parts, the part you press to push the liquid out…
+c178af2c	plunger = piston; barrel = body.
+b2ecb5d7	Parts of a syringe
+83901966	Central catheter
+13ef3c5e	A <b>catheter</b> is a thin tube passed into a cavity, organ or vessel. A <b>PICC</b> (peripherally inserted central catheter) enters through an arm vein and reaches the superior vena cava; it is used for long-term drugs and intravenous feeding.⟦0⟧
+03c442e1	The path of a PICC from an arm vein to the superior vena cava
+03bc346c	A bolus means a slow, drop-by-drop injection of a drug.
+c199f50c	False; a bolus is a concentrated amount injected quickly.
+95921239	Review of the “Routes and Forms” level
+eba9d45f	absorption: po by mouth, SL under the tongue, rectal, topical, transdermal • inhalation • instillation
+a49681b1	parenteral: ID 15°, SC 45°, IM 90°, IV • epidural, intrathecal, hypodermoclysis
+6eee5c80	liquid: aerosol, solution, elixir, emulsion, lotion, suspension, tincture • semisolid: cream, ointment
+b6377d71	solid: capsule, lozenge, suppository, tablet • ampule, vial, syringe, bolus, PICC
+19c47752	A tablet you suck on, such as a cough drop, is a ___.
+e58d0969	Spell the term for the instrument for injecting fluid
+bcc43861	sy-ringe: “sih-RINJ”.
+e2b48115	Drug Word Parts
+83a65894	Part
+0725a0d4	antiemetic (against vomiting) • antipyretic (against fever)
+7928ac30	thrombolytic (clot-dissolving) • mucolytic (mucus-thinning) • anxiolytic (anxiety-relieving)
+4e6cb7ca	psychotropic (mind) • chronotropic (rhythm)
+fbcb51a8	against pus
+bf3a2d16	against pain
+96d08637	anti- + pyret/o (fever) + -ic.
+90380ff9	dissolving a blood clot
+0a489660	clot-forming
+996f71e1	widening a vessel
+7040e8fe	against fever
+190a1bdb	thromb/o (clot) + -lytic.
+95e7ec2d	mucus thinner
+2404b52f	Drug roots
+cef38a20	hypnosis, hypnotic (sleep-inducing)
+6d6fd653	narcotic (opioid)
+de6d8901	pharmacy, pharmacology
+74fab418	toxicity (poisonousness)
+c1aaf2ed	against, opposite: contraceptive (preventing pregnancy)
+f8843462	against: countertransport
+09b822ff	A ⟦0⟧ is a drug that…
+9c8d81c1	induces sleep
+e99911bb	takes away pain
+3b75cb14	causes anxiety
+eb622ef6	hypn/o = sleep.
+c695b6e9	In case 3-2, Ativan is given for nervousness. So it is a… drug.
+62aa411c	anxi/o (anxiety) + -lytic.
+6fa1dcae	sympathomimetic means a drug that mimics the effect of the sympathetic nervous system.
+f1252f10	A drug that prevents vomiting is ___.
+533bfc92	Build a word meaning “mucus thinner”
+d7a78011	Spell the term for a drug that reduces fever
+e44e71d0	Timing of Doses
+312a9a6c	How many times a day?
+b8fae5da	Most dose-timing abbreviations come from Latin:⟦0⟧⟦1⟧
+843c9226	every hour • every 4 hours

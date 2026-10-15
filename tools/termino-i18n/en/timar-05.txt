@@ -1,0 +1,229 @@
+d41821da	dis- + ease (comfort).
+8e1b42ae	Cause and Course of Disease
+350464cd	Acute or chronic?
+304b1ca3	⟦0⟧⟦1⟧<b>subacute</b> lies between the two. In a chronic disease, a period of getting worse is called an <b>exacerbation</b> and a period of getting better a <b>remission</b>.
+fcf446bf	sudden, severe, short
+4a63ed02	long, slowly progressing (chron/o: time)
+0d450bb1	An ⟦0⟧ disease…
+5b719034	is sudden, severe and short
+d387d63e	is long and slow
+ac7efd87	has an unknown cause
+b5724d60	is caused by treatment
+456ab633	chronic comes from the root chron/o, meaning “time”.
+54b57f53	A chronic disease lasts a long time.
+afe1c7b6	easing of symptoms
+93f9555a	between acute and chronic
+ebb769f1	long and slow
+074a44cd	The cause of disease
+9c0e65ef	<b>etiology</b> means the cause of a disease, although many diseases have several causes together.⟦0⟧⟦1⟧
+ee904b3e	unknown cause (idi/o: self, own)
+ca88babd	caused by treatment (iatr/o: physician)
+7a4d011c	idiopathic: “it came by itself”; iatrogenic: “the doctor brought it”.
+1ecfa043	predicting the outcome of a disease
+31a555c3	the name of a disease
+da0f24d0	A complication caused by the treatment itself (for example, a drug)…
+ae811d4d	iatr/o (physician, treatment) + -genic (produced).
+35e7baff	A disease whose cause has not been found…
+e1161b65	A period when the symptoms of a chronic disease lessen is called ___.
+e774cf79	Spell the term for the cause of disease
+40439f56	eti/o (cause) + -logy.
+56688e5e	Where does a disease’s name come from?
+55cb07f5	Place, person or sign
+15994c52	Box 3-1 of the book says diseases get their names in different ways:⟦0⟧⟦1⟧
+dd5f201e	Named after
+35a475d9	place of discovery
+65326123	Lyme disease (the town of Lyme), Ebola, West Nile
+d4118e7a	discoverer’s name
+2e8f5c2f	Hodgkin disease, Crohn disease, Cooley anemia
+9fdcaf23	a sign of the disease
+b37d9e1c	tuberculosis: small lesions called tubercles • sickle cell anemia: sickle-shaped red cells
+97f74ad1	yellow fever, scarlet fever, rubella
+67ed6925	The World Health Organization (WHO) now advises against naming diseases after people, places and animals; such names are sometimes offensive or misleading.
+d375ff87	What is tuberculosis named after?
+8f1579bf	Small lesions called tubercles in the lung
+887166ce	The name of its discoverer
+8ee2ce99	The town where it was discovered
+f3c4dede	The colour of the patient’s skin
+10840e83	Named after a sign of the disease.
+5d760604	Hodgkin disease is named after the person who described it.
+1a901b04	Like Crohn disease.
+72d64171	Picture names
+e2573a45	In <b>lupus erythematosus</b> (lupus, Latin: wolf) the red facial rash gives a wolf-like look. In skin <b>anthrax</b> the lesions turn black (related to anthracite, coal). <b>Bubonic plague</b> produces large, painful lymph nodes called buboes.⟦0⟧
+d4308d97	A disease name is often a “picture” of its sign: wolf, coal, sickle.
+faf56d25	In Latin, lupus means…
+cd371ae4	Wolf
+1ced2af3	Coal
+40923340	Sickle
+08510d56	Because of the wolf-like red rash on the face.
+c3f64484	Match each disease to the origin of its name
+0b2aaf11	the town where it was found
+c7bb3100	sickle-shaped red blood cells
+315f30e6	descriptive name
+da29afd2	Box 3-2 of the book: the <b>emergency medical technician</b> (EMT) is the first health worker to reach the scene of an accident or heart attack. The EMT takes a history, examines the patient, <b>stabilizes</b> them and brings them to a treatment centre, immobilizes injuries with a backboard and treats cardiac arrest with an AED.
+be055744	Infectious disease specialist
+3ef1b196	Review of the “Types and Course of Disease” level
+324fe821	Seven groups: infectious, degenerative, neoplasia, immune, metabolic, hormonal, mental
+9bf75588	acute sudden and short • chronic long • exacerbation flare-up • remission easing
+65c92733	etiology cause • idiopathic unknown cause • iatrogenic caused by treatment • congenital present at birth • trauma injury
+306e4150	A disease name comes from a place, a discoverer, a sign or a colour; WHO advises against names of people and places
+6759d215	A disease present from birth is called ___.
+31f5f6ea	Spell the term for sudden and severe
+041d5226	a-cute: “a-KYUTE”.
+fa8ca307	Bacteria by Shape
+9d820ab6	Microorganism and pathogen
+7b4602f8	A <b>microorganism</b> is a living thing that cannot be seen without a microscope. Any disease-causing agent is called a <b>pathogen</b>, and an organism that lives on or in another organism (the host) and harms it is a <b>parasite</b>.⟦0⟧
+57bfeab0	microscopic organism
+b79225f6	An organism that lives at the host’s expense and harms it
+322a5c02	Any harmless microbe
+df58af02	A type of antibiotic
+6d4caf3e	A bacterial toxin
+dccc7a8f	The three main shapes of bacteria
+d01e9162	<b>bacteria</b>, singular bacterium, are named by their shape:⟦0⟧⟦1⟧
+45dd06ba	Name
+7175fe80	Example disease
+57a33fa8	; singular: 
+27bf25c8	pneumonia, septicemia
+a98b3ff0	What is a rod-shaped bacterium called?
+1ce83495	Plural: bacilli.
+171afdfc	Bacilli under the microscope
+81a04c0d	These bacteria are short, curved rods. Their name is…
+598d13c9	Vibrio causes cholera.
+cd597455	Corkscrew-shaped bacteria next to red blood cells…
+e0f0bd56	A spirochete moves with a twisting motion.
+961fbe02	Among red blood cells
+03467a8b	Match each shape to its name
+0c05f360	The singular of bacilli is bacillus and the singular of cocci is coccus.
+56abd6f5	Any disease-causing agent is a ___.
+01ca19d4	Spell the term for a microscopic organism
+8ec1e27f	micro- (small) + organism.
+fd9ceb44	Cluster or Chain?
+8b47a8d5	Two prefixes for arrangement
+36e26ee2	Round bacteria may form special shapes together (Table 3-5):⟦0⟧⟦1⟧
+c17f9daa	grape-like cluster: staphylococcus, cocci in clusters
+f01dc1cf	chain: streptococcus; and streptobacillus, rods in a chain
+fcb606c4	staph sounds like “stack”: piled into a cluster; strep sounds like “strap”: lined up in a chain.
+cba1ea86	This picture shows cocci that have formed chains. Their name is…
+90d6c9c6	strepto- = chain.
+83478bd1	Cocci in chains
+94145ee3	Cocci grouped together like a bunch of grapes…
+5cdb31de	staphylo- = grape-like cluster.
+f0db7068	Cocci in clusters
+74bbde03	A streptobacillus is a rod-shaped bacterium that forms chains.
+d2ce670b	strepto- (chain) + bacillus (rod).
+7fc2ed93	The <b>Gram stain</b> is a laboratory test that sorts bacteria into two groups: <b>gram positive</b> (Gm+), which stay purple, and <b>gram negative</b> (Gm−), which turn red. The <b>acid-fast stain</b> (AF) is used mostly to find the tuberculosis germ (TB).⟦0⟧
+2cbbf13c	What colour does a ⟦0⟧ bacterium turn in the Gram stain?
+1987cad8	Red (pink)
+9bdf4767	Purple
+69016a65	To find the tuberculosis germ, the ___ stain is used most.
+dbd9d7d7	Build a word meaning “cocci in chains”
+04ff7f20	Spell the term for a grape-cluster bacterium
+220e5467	Viruses, Fungi, Protozoa, Worms
+018de7d7	The family of infectious agents
+761062e2	Infections are caused by viruses, bacteria, fungi, protozoa and worms (Box 3-3):⟦0⟧
+1cd548b7	Viruses and tiny bacteria
+e8e4c060	A <b>virus</b> is an extremely small infectious agent that lives and multiplies <b>only inside a living cell</b>; examples are the agents of the common cold, hepatitis, influenza and AIDS. <b>Chlamydia</b> and <b>rickettsia</b> are very small bacteria that also grow inside cells, but unlike viruses they are sensitive to antibiotics.⟦0⟧
+6acf79ef	only inside cells; antibiotics do not work
+189e8b77	inside cells; antibiotics work
+a70b64a5	What is a feature of a ⟦0⟧?
+bfcc50c8	It multiplies only inside a living cell
+f1827915	It is rod-shaped
+78456a85	It turns purple in the Gram stain
+41adbf3e	It is a parasitic worm
+ac3d1e59	Unlike viruses, chlamydia is sensitive to antibiotics.
+ae2c60d6	It is a very small intracellular bacterium.
+0ce08861	Fungi, protozoa and worms
+96468f50	; plural: 
+2dbe068c	simple plant without chlorophyll; yeasts and moulds (myc/o)
+78396ad1	candidiasis, tinea
+9ea5446d	malaria, dysentery
+246d2138	roundworm, pinworm, hookworm
+c5f29255	any fungal disease
+b8b8a78e	virus in the blood (‎-emia)
+18539f34	bacilli in the urine (‎-uria)
+99eb4a97	Match each agent to its description
+4d16a129	viral infection
+4f1e578c	intestinal worm
+8c39e6b9	protozoan infection
+aa4b0212	myc/o (fungus) + -osis.
+fa3bc066	The study of each microbe
+111bf7d3	With ⟦0⟧: ⟦1⟧ the study of bacteria, ⟦2⟧ the study of viruses and ⟦3⟧ the study of fungi.
+920c9b9b	Review of the “Microbes” level
+4a36f618	microorganism tiny organism • pathogen disease-causing agent • parasite
+eb080a98	cocci round • bacilli rods • vibrios curved • spirochetes spiral
+78aea043	staphylo- cluster and strepto- chain • Gram stain: Gm+ purple, Gm− red • AF for TB
+0a6dfeb9	virus inside cells • fungus (myc/o) • protozoon single-celled animal • helminth worm • chlamydia and rickettsia tiny bacteria
+7a86b062	Build a word meaning “study of viruses”
+d8e7441c	Spell the term for virus in the blood
+7c4633ba	Microbes’ Doors
+642a9e03	Where do microbes get in?
+a120e0ed	Microbes enter the body by several routes, or <b>portals of entry</b>: broken skin, the respiratory tract, the digestive tract and the urinary and genital tracts. Body secretions of an infected person can spread microbes through <b>air, food, water or direct contact</b>.⟦0⟧
+c5213f21	Which of these is not a portal of entry for microbes?
+9fe22701	Healthy, unbroken skin
+4c47b0a6	Healthy skin is a defensive barrier.
+ff6ba723	Put the four routes of transmission in order (as in the book)
+3378fe94	Air
+c6a2c2af	Food
+f80e5d10	Direct contact
+5b1f8162	air, food, water and direct contact.
+259831ce	Toxins and contagion
+1bd6ad24	Many microbes cause disease with the <b>toxins</b> (poisons) they release. A disease that passes from one person to another is <b>communicable</b>.⟦0⟧
+b20d3f75	A patient spreads respiratory droplets by coughing and sneezing; that is why we wear masks for contagious respiratory diseases.
+3c2d071c	contagious; from one person to another
+640bac56	without a cause
+462c08ec	Normal flora and opportunists
+59a87570	⟦0⟧Normal flora can also cause disease if the body’s barriers are damaged or immunity weakens.
+13b5d075	microbes always living on and in the body; usually harmless and even helpful
+57b2321e	an infection that appears when the body is weak
+b5ca2259	Normal flora always cause disease.
+83430bb7	False; they are usually harmless and often helpful.
+3c943bc9	An infection that occurs only in a patient with weak immunity…
+3f7e515c	Microbes often cause disease with the ___ they release.
+cdecb7aa	toxin = poison.
+56a6f7de	Spell the term for passing from person to person
+d74e5f1e	Endemic, Epidemic, Pandemic
+3ed90941	Spread in three steps
+4b4d77a1	low but constant in a region; such as the common cold
+a8fe0b3d	en- (in) + dem/o (people)
+c085776a	suddenly, many people in a region
+c041b59a	epi- (upon) + dem/o
+e41813d9	across a large region or the world
+e190896b	pan- (all) + dem/o
+ee0f693f	The common cold, always present at a low level in the community…
+4d99fc5c	A disease that has spread across the whole world…
+717adf9d	pan- = all.
+91799625	An epidemic means many people in a region are infected at the same time.
+24a6fddc	A sudden rise in one region.
+456b3305	Local or whole-body?
+02213eb9	The word <b>systemic</b> means “relating to the whole body”. An infection that spreads from a small wound into the blood and involves the whole body is no longer local; it has become systemic.⟦0⟧
+d5162f8a	system = a whole system; systemic = the whole body.
+a9091017	Relating to the whole body
+59d3473d	Relating to a geographic region
+7ca6a528	Relating to a hospital
+78e2ae27	A disease that suddenly strikes many people in a city is ___.
+5740d6db	Build a word meaning “worldwide epidemic”
+f121eff3	Spell the term for a sudden outbreak in one region
+805487fb	Hospitals and Resistant Microbes
+314ff6ba	Hospital infection
+0458b6de	An infection a patient catches in <b>hospital</b> is <b>nosocomial</b> (nos/o: disease; comial: hospital). If the microbe is resistant to antibiotics, the problem is serious; for example:⟦0⟧⟦1⟧
+309ddc04	Staphylococcus aureus resistant to methicillin
+5d2dbe98	Staphylococcus aureus resistant to vancomycin
+7a48aa66	Staphylococci
+4e15f470	An infection caught in hospital
+ed3e5e0b	An infection passed from mother to fetus
+66673b6d	A disease without a cause
+e542c855	A disease always present in a region
+7fd25aa1	methicillin-resistant
+6d391ee5	vancomycin-resistant
+dc2157b2	Stop or kill?
+c554c3d3	stops bacterial growth (stasis: stoppage)
+e83aa9f5	kills bacteria (‎-cide: killing)
+7528d108	An antibiogram (C&S) shows which antibiotic kills or stops the patient’s bacteria.
+5fa83d8c	A ⟦0⟧ drug…
+2c721c12	kills bacteria
+5c932adb	only stops bacterial growth
+15f1e9b7	kills viruses
+a622582e	brings down fever
+3234daee	bacteriostatic means stopping bacterial growth.
+eab3ab31	Origin and spread at a glance
+12699594	Six adjectives the chart uses to say where a disease came from and how widespread it is:⟦0⟧
+c557d186	A wound infection caught on the ward after surgery that does not respond to one antibiotic…

@@ -234,7 +234,7 @@ a1fbd6aa	Cardio
 0a32b19a	Flamitis
 c08e1deb	The Inflammation Suffix
 5ae44d4f	Wherever -itis sits, that organ is inflamed: arthritis, gastritis, dermatitis.
-0af2270c	Lens
+0af2270c	magnifying glass
 5b3fbf32	Master of -scope and -scopy
 1ffc3f72	Tells the instrument from the procedure: it holds the endoscope and performs the endoscopy.
 53528206	Suffix Surgeon

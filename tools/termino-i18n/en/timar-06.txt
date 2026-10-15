@@ -1,0 +1,245 @@
+183eae32	nosocomial and MDR
+00821fea	congenital and endemic
+066a8d95	idiopathic and acute
+210af1bf	opportunistic and pandemic
+152743c9	Hospital-acquired and multidrug-resistant.
+c84caa4a	Review of the “Spread of Infection” level
+8ea9c821	portal of entry: broken skin, respiratory, digestive, urinary and genital tracts • spread by air, food, water, contact
+cf034ff7	toxin poison • communicable contagious • normal flora • opportunistic
+f05601cc	endemic local • epidemic widespread • pandemic worldwide • systemic whole-body
+6a68b808	nosocomial hospital-acquired: MRSA, VRSA, MDR • bacteriostatic stops growth • bactericidal kills
+107a578b	A drug that stops bacterial growth but does not kill the bacteria is ___.
+1199851d	-static = stopping.
+fc8d8716	Spell the adjective for an infection caught in hospital
+d2b9d3ab	The Body’s Response to Disease
+c98c7585	Body’s Response
+efc49c5e	Inflammation and edema, phagocytosis and pus, innate and acquired immunity, benign and malignant tumours, changes in cell growth, lesions, hernia and prolapse
+01ca79e7	Inflammation and defence
+b2ee922e	Lesions and structural changes
+4614a77e	The Body Responds to Injury
+c34012cf	The body’s common response to infection and injury is <b>inflammation</b>: damaged cells release chemicals that bring blood and fluid into the tissue. The result is four signs:⟦0⟧
+79f037ec	Put the four signs of inflammation in order (as in the book)
+4ac011c1	Heat, pain, redness and swelling.
+2fe1dc1f	Match each sign to its meaning
+99610741	The suffix ‎-itis
+55d74c1a	The suffix <b>‎-itis</b> means inflammation:⟦0⟧⟦1⟧
+802fafc4	itis is like fire: wherever it settles, that place is hot, red and swollen.
+e6a1309e	tumour of the tonsil
+4665ec45	enlarged tonsil
+b0c2e8b6	Swelling and redness are among the four signs of inflammation.
+8fb13245	Along with heat and pain.
+e2d15a69	Which word contains the suffix for inflammation?
+ad1d39dd	Inflammation of the appendix is called ___.
+fa37cbbe	Build a word meaning “inflammation of the tonsils”
+fb1334fe	Spell the term for the response of heat, redness, swelling and pain
+cc94352e	in- + flamm (flame) + -ation.
+722c8ed3	Edema and Fluid
+5b74f635	Swelling means fluid in tissue
+d4b20ced	Inflammation is one cause of <b>edema</b>: swelling, or fluid collecting in tissue. Heart failure, blocked fluid drainage and upset body-fluid balance also cause edema. Its adjective is <b>edematous</b> (swollen).⟦0⟧
+41319794	Normal foot: veins and tendons are visible
+de0d94d6	Edematous foot: surface details are hidden
+ed752620	Which foot shows edema?
+0c9dc1c0	Foot B: swollen and without detail
+5aba7f3d	Foot A: veins and tendons are visible
+c8caa979	Both feet
+6685b46b	Swelling hides the details of the skin surface.
+94e631df	swollen
+02f57b95	bruised
+c7d65534	The adjective of edema.
+50f59895	Heart failure can also cause edema.
+541eebe9	Inflammation is not the only cause of edema.
+999af2c2	Where has the fluid collected?
+ad0ac69c	escape of fluid into a cavity, such as the pleura
+2e380ea2	material that leaks out of vessels after injury
+45228a96	fluid in tissue
+f562be05	fluid in a cavity
+438d5b29	fluid in the abdomen
+5481886a	leakage from vessels
+3f8ec339	fluid collected in the peritoneal (abdominal) cavity
+47c9c13a	fluid in the pleura
+b756461e	swollen leg
+18fa2ab8	blood in the abdomen
+c612a343	The escape of fluid into a body cavity is called ___.
+b200deec	Spell the term for fluid swelling in tissue
+a53aa2c3	e-de-ma: “eh-DEE-mah”.
+a93f9b93	Swallowing Microbes, and Pus
+312487eb	Cells that eat
+cf87364b	With <b>phagocytosis</b> the body clears away microbes, damaged cells and debris: some white blood cells <b>swallow</b> them and destroy them inside. ⟦0⟧ means “the condition of an eating cell”. The eating cell itself is a <b>phagocyte</b>.⟦1⟧
+be26d392	A: a white blood cell passes through the capillary wall to swallow a bacterium. B: the bacterium is destroyed in a sac (vesicle) by lysosome enzymes.
+46d41614	a cell swallowing and destroying a microbe
+f838f179	cell death
+1eb7067c	making antibodies
+c06db729	phag/o (eating) + cyt/o (cell) + -osis.
+7e681eb6	Put the stages of phagocytosis in order
+4968fc02	trapped in a sac
+b8d647c0	destroyed by lysosome enzymes
+ea51a5e3	What remains after phagocytosis is a mixture of fluid and white blood cells called <b>pus</b>; its root is py/o.⟦0⟧⟦1⟧
+9e033952	containing pus
+db44c642	spreading inflammation of tissue
+1af1ade7	spreading inflammation
+30585f78	When microbes reach the blood
+18aa76a5	microbes or their toxins in the blood or tissues; adjective: septic
+872e3646	disease-causing bacteria in the blood; “blood poisoning”
+9b57b825	A septic patient has fever, a fast heart rate and low blood pressure; it is a medical emergency.
+734a8af0	Pus is made of fluid and white blood cells.
+2d99d883	What remains after phagocytosis.
+610e7f01	Review: inflammation and pus
+fac92664	inflammation: heat, pain, redness, swelling • the suffix ‎-itis
+d8dee649	edema fluid in tissue • effusion in a cavity • ascites in the abdomen • exudate leakage from vessels
+93d77f13	phagocytosis swallowing microbes • phagocyte eating cell • pus
+531a4031	abscess collected pus • cellulitis spreading inflammation • sepsis and septicemia microbes in the blood
+5c64c040	A white blood cell that swallows microbes is a ___.
+41b5b5f5	Spell the term for a cell that engulfs microbes
+608f89fc	Innate and Acquired Defence
+1ddb31ed	Immunity means all the defences
+d5b3f2b2	<b>immunity</b> means all of the body’s defences against infectious disease. These defences fall into two groups: <b>innate</b> and <b>adaptive</b>.⟦0⟧
+a0aee1fe	an inborn defence that needs no earlier contact with the microbe
+cc44d7d5	immunity built after a vaccine
+a38f4d5d	antibodies against one particular disease
+3b3685f8	pollen sensitivity
+7d962927	Match each defence to its description
+7381d475	Intact skin
+9a2d0e5d	innate mechanical barrier
+f0362741	Stomach acid
+d09f9cc8	innate defensive secretion
+2c31db7c	response to injury; innate
+e2734a98	swallowing microbes; innate
+f42b897c	Acquired immunity
+6fb49648	<b>Adaptive</b>, or acquired, immunity is built during life after contact with a microbe or with a <b>vaccine</b>, and it is <b>specific</b>. The cells of this system recognise an invader and destroy it by direct attack or by making <b>antibodies</b>. The same system also watches for cancer cells.
+1a301e4b	a protein that disables an invader
+27568430	disease-causing microbe
+e506b666	anti- (against) + body.
+ce5dac5d	Acquired immunity is specific; it is made for one particular disease.
+24637b5f	When immunity makes mistakes
+ae492392	overreaction to a harmless substance
+a7e5b70f	reaction against the body’s own tissues
+e2e9a0cb	auto = self; autoimmune means immunity against the “self”.
+2a80c3f7	An immune system that reacts strongly to pollen…
+78145be1	A defence built through contact with a microbe or a vaccine is ___ immunity.
+14a981fe	Spell the term for all of the body’s defences against infection
+cd0a8ad3	Benign or Malignant?
+b3acc1a3	New, uncontrolled growth
+cb40275b	<b>neoplasia</b> means abnormal, uncontrolled growth of tissue (neo-: new + plasm: formation), and the mass itself is called a <b>neoplasm</b> or tumour. The root onc/o and the suffix ‎-oma also refer to a neoplasm.⟦0⟧
+7815dcfb	a tumour; abnormal growth that is benign or malignant
+2ab3b5ad	only a malignant tumour
+b9b6c4f5	inflammation of tissue
+e2eba7ac	Two groups
+d84d9bdd	⟦0⟧<b>metastasis</b> (meta-: change + stasis: standing) means spread from one part of the body to another; its verb is metastasize and its adjective metastatic.
+544e2d9b	does not spread, but may cause damage where it is
+29a80387	invasive; spreads to other tissues (metastasis); the same as cancer
+167ba232	spread elsewhere
+c1c0a8c3	spread of cancer from one part of the body to another
+c71b762b	benign tumour
+f7d49bbc	removal of a tumour
+1f87609e	meta- (change) + stasis (standing).
+2b83cb9f	A benign tumour metastasizes to other tissues.
+4213e02e	False; a benign tumour does not spread.
+dfe9f289	Which is the adjective of metastasis?
+3575f262	metastasize is the verb and metastases the plural.
+4bf681a6	An invasive tumour that spreads is ___.
+6c28d3a3	Build a word meaning “new growth”
+2f453108	Spell the term for a tumour that invades and spreads
+81ee7e63	mal- (bad) + ignant; the g is pronounced: “mah-LIG-nant”.
+5915a186	Names of Cancers, and Cysts
+a7edd4a2	Cancer of which tissue?
+42652052	Note
+1725220d	epithelial tissue (epithelium)
+7504fc1e	carcino: crab
+b86dabb6	glandular epithelium
+ed66ea83	aden/o: gland
+d8378601	pigment cells (melanocytes)
+71b6a6dc	melan/o: dark
+12ba1b5d	connective tissue or muscle
+fd9a7d91	sarco: flesh
+1ad12511	carcinoma is the covering and sarcoma the flesh; c as in “cover”, s as in “sinew”.
+eec6221b	⟦0⟧ is cancer of which tissue?
+f5fa61d5	sarc/o = flesh, connective tissue.
+00b92af2	cancer of glandular epithelium
+05a3d724	benign tumour of a gland
+214e505b	inflammation of a gland
+c2a855b1	muscle cancer
+68de9ae6	Match each cancer to its tissue
+0b4cb215	glandular epithelium
+41de9963	In situ, and cysts
+808f393a	<b>in situ</b> means “in its own place”: a tumour that has not yet invaded or spread, such as <b>carcinoma in situ</b> (CIS). A <b>cyst</b> is a sac filled with fluid or semisolid material that is abnormal but not cancerous; it is often mistaken for a malignancy. Common sites: the breast, the oil glands of the skin and the ovary; causes: infection or a blocked duct.
+c7912033	carcinoma in situ; not yet spread
+85553770	cancer that has spread
+80b8b58c	infected cyst
+b6f43090	A cyst is always cancerous.
+6a6bafb1	False; it is abnormal but not cancerous.
+576df88e	Review of the “Neoplasms and Immunity” level
+f6faad5f	immunity: innate is inborn (skin, stomach acid, inflammation, phagocytosis) and adaptive is acquired (vaccines and antibodies)
+b9b46589	allergy overreaction • autoimmune disease reaction against one’s own tissue
+05ddf75d	neoplasm = tumour • benign does not spread • malignant invasive, with metastasis
+70ed44e0	carcinoma epithelial • adenocarcinoma glandular • melanoma pigment cells • sarcoma connective tissue • a cyst is not cancer
+f5749800	Cancer of the skin’s pigment cells is ___.
+23705e73	Spell the term for an abnormal fluid-filled sac
+c1b2bc8e	cyst/o: sac.
+551212df	More, Bigger or Different Cells
+2db75af5	Five growth changes
+e1c654e4	overgrowth of normal cells in a normal arrangement
+6727b03e	an organ enlarging without more cells
+20706de6	cells changing into a form not normal for that tissue
+dc71251e	abnormal tissue growth
+bbb6379d	loss of normal differentiation; a feature of cancer cells
+8607208d	more cells
+b73635f1	change of cell type
+4ce38f1c	undifferentiated cell
+1e8cab8e	hyper- + -trophy (growth, nourishment).
+9ac7fd20	Two words that get mixed up
+a3324a38	“more” cells; plas: formation
+e54078e6	“bigger” cells; trophy: growth, nourishment
+9b75dd04	An athlete’s muscle undergoes hypertrophy with training: each fibre gets bigger, not more numerous.
+15213ed9	more cells
+18972b09	bigger cells
+71b4350f	change to another type
+07171180	undifferentiated
+542bdc5b	overgrowth beyond normal
+d069f16b	cell enlargement
+d1bfddd6	meta- = change.
+f50887b7	Anaplasia is a feature of cancer cells.
+6d49eb1f	An athlete’s enlarged heart with no increase in the number of muscle cells…
+0357e0e7	An increase in size, not number.
+af831b50	Overgrowth of normal cells in a normal arrangement is ___.
+caffd970	Build a word meaning “loss of cell differentiation”
+fe68a40c	Spell the term for an increase in cell number
+183a82d6	Lesions and Tissue Death
+00ba80ce	What is a lesion?
+1aebfa3b	A <b>lesion</b> is a distinct area of damaged tissue; a wound or an injury. Wear, ageing or trauma may lead to a lesion and even to <b>necrosis</b>: tissue death, from the root necr/o. The adjective of necrosis is necrotic.⟦0⟧
+9d20b3e9	a distinct area of damaged tissue
+41cd6e2e	malignant tumour
+043757eb	tissue death from lack of blood
+e676399a	<b>gangrene</b> is tissue death, usually because the blood supply is cut off; it may come with bacterial infection and decay.⟦0⟧
+35ad28f9	any kind of tissue death
+eefe3db5	tissue death from lack of blood, often with infection
+d5738340	What usually causes ⟦0⟧?
+8d36c65b	Loss of blood supply to the tissue
+2828ed39	Overgrowth of cells
+4517ecf5	An allergic reaction
+15408e40	Passages, splits and adhesions
+511ab92f	an abnormal passage between two organs or from an organ to the body surface
+4ef65c2e	a groove or split
+9cafab84	two surfaces that should be separate sticking together
+4404c731	hardening; an abnormally hard spot
+07d609aa	a mass attached by a narrow stalk
+f0c57541	abnormal passage
+f170d6d6	A fistula is an abnormal passage between two organs.
+782e6dd3	After abdominal surgery, the intestines have stuck together. This is called…
+71e128c4	The adjective of necrosis is ___.
+b3f053ac	Spell the term for an area of damaged tissue
+4b359cf2	le-sion: “LEE-zhun”.
+c33c3eeb	Pushing Out or Dropping Down
+4f609b26	an organ pushing through an abnormal opening; commonly called a rupture
+8e842f62	an organ dropping or sinking from its normal place
+db7996f7	an organ pushing through an abnormal opening
+1b0c01f5	an organ dropping down
+70657d0a	Hiatal hernia
+28699272	In a <b>hiatal hernia</b>, part of the stomach passes through the oesophageal opening in the diaphragm (esophageal hiatus) into the chest, and the junction of the oesophagus and stomach rises.⟦0⟧
+e6416f68	Normal stomach
+89396277	In picture B, part of the stomach has risen through the diaphragm. This is called…
+a8f029bc	femoral gastrocele
+18b6434e	uterine prolapse
+b71f98ed	The stomach has risen through the esophageal hiatus.
+952ac3ad	In a hiatal hernia, part of the stomach moves into the chest cavity.
+7210f6d5	Through the oesophageal opening in the diaphragm.
+15839ba0	<b>prolapse</b> and <b>ptosis</b> both mean an organ dropping or sinking: blepharoptosis is a drooping eyelid and splenoptosis a drooping spleen. With a <b>fixation</b>, the surgeon fastens a dropped organ (such as the bladder) back in place.⟦0⟧

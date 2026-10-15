@@ -1,0 +1,231 @@
+342222a1	pushing through an opening
+f959a40c	an organ dropping down
+4df860f5	⟦0⟧ means the same as which word?
+c96e5072	Review of the “Lesions and Structural Changes” level
+4cdf39c0	hyperplasia more cells • hypertrophy bigger cells • metaplasia change of type • anaplasia undifferentiated
+5883ac61	lesion damaged area • necrosis tissue death • gangrene death from lack of blood
+a4c2f7e9	fistula abnormal passage • fissure split • adhesion sticking together • induration hardening • polyp mass on a stalk
+00826055	hernia pushing through an opening • hiatal hernia stomach through the diaphragm • prolapse and ptosis dropping
+47c25a55	The stomach pushing up through the diaphragm is called ___.
+746d78bd	Through the esophageal hiatus.
+a4443696	Spell the key term for an organ dropping from its place
+a52cc26c	pro- (before, forward) + lapse (falling).
+e153deb8	Examination and Diagnosis
+64311156	The history and its abbreviations, inspection, palpation, percussion and auscultation, vital signs and blood pressure, clinical signs, ‎-scope instruments and imaging
+22eb6f5d	Vital signs and clinical signs
+a725a97f	Instruments and imaging
+28528d68	Sign or Symptom?
+a59ef635	Where does diagnosis begin?
+bf21e699	<b>diagnosis</b> (Dx) means identifying the nature and cause of a disease. Diagnosis begins with the <b>history</b> (Hx): the history of the present illness, past medical history, and family and social history. Then comes the <b>physical examination</b> (PE).⟦0⟧
+1eb99376	chief complaint: the patient’s main complaint
+f32be55e	Two kinds of evidence of disease
+7dc68369	⟦0⟧⟦1⟧A <b>syndrome</b> is a group of signs and symptoms that together characterise a disease.
+bb40635d	objective; seen or measured: fever, rash, high blood pressure
+b1fad53c	subjective; felt by the patient: pain, dizziness, weakness
+fed9fb35	A fever of 39 degrees measured with a thermometer is a…
+c2022c12	Dizziness that the patient complains of is a…
+2c91a897	A syndrome is a set of signs and symptoms that together characterise a disease.
+2272509b	identifying the cause and nature of a disease
+caafab43	preventing disease
+46e78efc	dia- (through) + gnosis (knowledge).
+a5a6a806	A review of all body systems during the examination is written with the abbreviation ___.
+1e38a68a	Spell the term for what the patient feels and reports
+a19ea286	sym-p-tom; the p is barely pronounced.
+d6d81b86	Look, Feel, Tap, Listen
+09d03fc5	Four methods of examination
+6da58188	In the physical examination, the physician uses four methods in order (IPPA):⟦0⟧
+a9118600	Put the four examination methods in IPPA order
+e7e14018	Inspection, Palpation, Percussion, Auscultation.
+5cd9f070	Palpation and percussion
+29f39ae9	<b>palpation</b>: placing the hands or fingers on the body surface to assess tissue, temperature, movement and consistency. <b>percussion</b>: tapping the body lightly but sharply to assess the underlying tissue by its sound.⟦0⟧
+5fa3fcf8	palpation • feeling
+d7db2705	percussion • tapping
+b770b35d	In this picture, the examiner feels the tissue of the patient’s abdomen with the hand. The method is called…
+b8414852	Examining the abdomen
+a23e8cf1	The examiner taps on their own finger placed on the patient’s back and listens to the sound. The method is called…
+a9a7c448	Examining the back
+3e235d9d	<b>auscultation</b> means listening to sounds inside the body, usually the chest or abdomen, with a <b>stethoscope</b> (steth/o: chest).⟦0⟧⟦1⟧
+cd16959a	Listening to heart and lung sounds with a stethoscope
+92884a32	In a chart, “BS” means bowel sounds or breath sounds; both are heard by auscultation.
+49322efa	Listening to the heart with a stethoscope…
+fada02e4	Stethoscope on the chest
+5125b695	Match each method to its meaning
+28cc9962	tapping
+bb2c8df3	listening
+983908f4	stethoscope is built from the root steth/o, meaning “chest”.
+c7b6289a	An instrument for listening to chest sounds.
+aebc6a64	Spell the term for listening to sounds inside the body
+b849ed4c	The Language of the History
+4161409a	rule out (a possibility to be checked)
+904a28a8	“R/O fracture” means the physician suspects a fracture, which must be ruled out or confirmed with an x-ray.
+985aafb9	“⟦0⟧ fracture” means…
+29a2cecc	a possible fracture that must be checked
+cf9f3919	a definite fracture
+00ba07d9	a healed fracture
+5e504a07	no fracture
+a1c92516	Normal findings
+6d578a1e	pupils equal, round, reactive to light and accommodation
+fc4e306d	⟦0⟧ in a chart means…
+d61ea55b	stop the drug
+3a792cc1	WNL means a finding is within normal limits.
+53a3aeb7	Chart symbols
+462f6942	increase / decrease
+a0fb1850	primary / secondary (to)
+eceec134	2° in “2° to infection” means “secondary to infection”; the infection is the underlying cause.
+b656b78d	The chart says: “WBC ↑”. It means…
+463946ba	White blood cells are increased
+23f70400	White blood cells are decreased
+ff0cb5ff	White blood cells are unchanged
+8a8aea3f	The test was not done
+50068c41	Review of the “History and Examination” level
+c24e579b	Dx diagnosis • Hx history • CC chief complaint • HPI, PMH, ROS • PE physical examination
+f551d63b	sign objective • symptom subjective • syndrome group of signs
+f5eefda4	IPPA: inspection looking • palpation feeling • percussion tapping • auscultation listening with a stethoscope
+f09e84ea	c/o, h/o, y/o, w/o, R/O • NAD, WNL, NKDA, HEENT, PERRLA • ↑ ↓ 1° 2° ∆
+9615453b	For a 59-year-old patient, the abbreviation ___ is written after the age number.
+5d6345b0	Spell the term for examination by looking
+988bee38	in- + spect (look) + -ion.
+70313aff	Four Vital Numbers
+16307019	<b>vital signs</b> (VS) are measurements that show the basic functions needed for life, compared with normal ranges:⟦0⟧
+dd32ccb7	The pulse is counted by feeling an artery, and its unit is <b>bpm</b> (beats per minute). The pulse is usually equal to the <b>HR</b> (heart rate). <b>TPR</b> means temperature, pulse and respiration.⟦0⟧
+efa1bf51	Counting the pulse by feeling the wrist artery
+58915886	In this picture the examiner feels the wrist artery to count the…
+763877fa	pulse in bpm
+5358a3e9	blood pressure in mm Hg
+f5022c79	breathing rate
+f6c81ccb	Counting the pulse
+277808fb	temperature and blood pressure
+5ae401cf	breathing and heart rate
+1fe092b7	The root <b>therm/o</b> means heat, temperature: a <b>thermometer</b> measures temperature, <b>hypothermia</b> is low body temperature and <b>hyperthermia</b> high body temperature. The adjective for fever is <b>febrile</b>. Temperature is written in C (Celsius) or F (Fahrenheit).
+08855aca	body temperature below normal
+042293a0	body temperature above normal
+e87ab587	shivering
+0a8913bb	hypo- (low) + therm/o + -ia.
+62f738cf	febrile means having a fever.
+e9122e21	The pulse is written in the unit ___.
+d0ab911b	Build a word meaning “high body temperature”
+5298ee76	Spell the term for the instrument that measures temperature
+d2dda37f	The two numbers of blood pressure
+dc21cd82	Blood pressure (BP) is written in <b>mm Hg</b> (millimetres of mercury) as systolic/diastolic: the top number is the <b>systolic pressure</b> (when the heart contracts) and the bottom number the <b>diastolic pressure</b> (when the heart rests).⟦0⟧
+87ae5bcc	When is the ⟦0⟧ recorded?
+99a334b7	when breathing in
+6ff5ef8a	In “BP 130/85”, which is the 85?
+2027f28a	The bottom number is the diastolic.
+2df6ba1d	The blood pressure device
+8fc3a33f	The examiner measures blood pressure with a pressure cuff, the <b>sphygmomanometer</b>, and a stethoscope. Break the word apart: ⟦0⟧ = pulse + pressure + measuring instrument. Newer digital devices show the number directly.⟦1⟧
+64cc0a92	sphygmo-mano-meter: “pulse-pressure-meter”.
+a75dd86e	millimetres of mercury
+3c1eab59	Blood pressure is measured with a sphygmomanometer and a stethoscope.
+b152fa2b	The root bar/o also means “pressure”. What is a barometer?
+8afaae7f	An instrument that measures (air) pressure
+af20188b	The top number of blood pressure is the ___ pressure.
+efcf05fe	Build a word meaning “blood pressure meter”
+88b6451d	Spell the term for the blood pressure instrument
+cabd5acd	Signs the Physician Sees
+fca4f014	Colour and skin
+38cbd2c9	The skin, hair and nails give clear signs of health:⟦0⟧⟦1⟧
+e78423c4	bluish skin from lack of oxygen (cyan/o: blue)
+d1b5ff19	clubbing of the fingertips; in lung and heart disease
+424d53d7	A: normal (160-degree angle) • B: clubbed (angle over 180 degrees)
+a9f891bf	In figure B, the fingertip is swollen and the nail angle is over 180 degrees. This is called…
+b4d4442f	Normal and clubbed finger
+e0c4fe9c	bluish skin from lack of oxygen
+3f108213	yellowing
+9cf3c077	reddened skin
+a7bc62e1	cyan/o = blue.
+b3c14e99	Feelings and general state
+9856d7d0	feeling of being unwell; often a sign of infection (mal-: bad)
+04426777	fainting; brief loss of consciousness from reduced blood to the brain
+4180ad66	acute abdominal pain with smooth-muscle spasm
+2312f62a	at night (noct/i: night)
+c7293799	fainting
+93eef1c1	feeling unwell
+e461fb4b	Before and after a disease
+bb4ec2b7	a symptom that announces a coming disease
+9d6901f2	a lasting effect of a disease; plural: sequelae
+991a8f81	the look and expression of the face
+b7b6f90f	an abnormal sound on auscultation, for example over a vessel
+f36106ea	a lasting effect of a disease
+a9bf46dd	a symptom before a disease
+f4e65323	fever of unknown cause
+ec93ac3d	A prodrome is a symptom that remains after recovery from a disease.
+4ef1ed14	False; a prodrome comes before the disease and a sequela after it.
+7002e530	Review: vital signs and clinical signs
+5556d851	VS: T temperature, P pulse (bpm), R respiration, BP blood pressure (mm Hg) • TPR • HR
+c2d83d6a	systolic contraction (top number) • diastolic rest (bottom number) • sphygmomanometer
+1c7cda8e	therm/o: thermometer, hypothermia, hyperthermia • febrile having a fever
+acddc50d	cyanosis, pallor, diaphoresis, clubbing, syncope, malaise, colic • prodrome before and sequela after a disease
+c1f8c612	A brief loss of consciousness from reduced blood flow to the brain is called ___.
+5f4801dc	Spell the term for bluish skin from lack of oxygen
+97f808c7	Instruments for Viewing and Recording
+389e9f85	The ‎-scope family
+be48d396	viewing instrument: bronchoscope
+22ea3727	examination by viewing: celioscopy (abdominal cavity)
+c2f6ee70	An instrument for examining the inside of the eye…
+87d02fb9	Eye-examining instrument
+1893c800	The instrument in this picture has a funnel tip for examining the ear. Its name is…
+10ba9f2e	ot/o (ear) + -scope.
+d925d404	Ear-examining instrument
+5f3ddf3c	An <b>endoscope</b> is an instrument for looking inside an organ or cavity through a natural body opening or a small incision; most use fibre optics. A <b>bronchoscope</b> is an endoscope for the bronchi. A <b>speculum</b> is an instrument for opening and viewing a canal.⟦0⟧
+4628fc9a	A bronchoscope passes through the mouth into the bronchi
+2c1e9296	In this picture, which instrument is being used to view the bronchi?
+9a4e0fef	Examining the bronchi
+ddb05324	Recording and measuring
+6f9820ef	The book says ‎-graphy is not only recording; it also includes interpreting the data.
+7f40d9bc	the record itself
+3614c030	An ⟦0⟧ (ECG) means…
+72d21b18	the recorded tracing of the heart’s electrical activity itself
+262cbeaf	a pressure-measuring device
+f300c115	A stethoscope is a viewing instrument.
+27f1c86a	False; we listen with it; it is the exception in the ‎-scope family.
+d29d4148	Build a word meaning “measurement of hearing”
+5d578f06	Spell the term for the ear-examining instrument
+6089e373	Physical Forces
+5ff2877a	Twelve roots
+b179cef6	Table 3-6 of the book has roots for forces and energies used in diagnosis and treatment:⟦0⟧
+4ba87037	not needing oxygen
+78d17478	relating to high pressure
+11dd7bcc	coloured / colourless
+36b685ba	in time order
+119d34df	breakdown by electric current
+436c880b	happening together in time (syn-: together)
+288e5b5f	needing air (oxygen)
+ef675fc7	without air
+928e2298	relating to pressure
+7ff44e3d	relating to light
+fad68fb7	treatment with cold
+bae1adf3	treatment with heat
+1f8cd7cf	treatment with light
+df4dd322	treatment with electricity
+e1c69193	cry/o (cold) + -therapy.
+6be114eb	⟦0⟧ means injury caused by…
+321c74f2	bar/o = pressure.
+7d9cbd18	son/o and phon/o both relate to “sound”.
+aebf73d2	son/o for ultrasound and phon/o for sound and voice.
+824485e6	happening at the same time
+2d13039f	working together
+acbf0049	absence of colour
+fe272294	syn- (together) + chron/o (time).
+6de0aca4	Photochromic glasses change colour in response to ___.
+81f991ee	phot/o = light; chrom/o = colour.
+ba661663	Build a word meaning “colourless”
+dd0cd905	Spell the term for needing oxygen
+3cf2792e	Each Method, One Energy
+ee122fc7	Imaging methods use different energies to build a picture of the inside of the body (Boxes 3-4 and 3-5):⟦0⟧
+e339e7cf	Radiography
+3132d40b	<b>radiography</b> is the most basic method: x-rays pass through the body and make an image called a <b>radiograph</b> on film or a digital plate. Dense tissue (bone, teeth) absorbs the beam and looks <b>bright</b>. Soft tissue often needs a <b>contrast medium</b> such as barium.⟦0⟧
+29b47347	Radiograph of a normal right hand
+f6f3cbff	Why bone looks bright
+186ef9fd	In a radiograph of the hand, why do the bones look bright?
+cc08deb7	Because they are dense and absorb the x-rays
+e4b7ad9a	Because the beam passes through them easily
+117a0aaa	Because they contain contrast medium
+7a14038b	Because they are warmer
+32dc7702	Hand radiograph
+3025b323	CT and MRI
+15610cd5	x-rays from different angles + a computer = cross-sectional slices; shows soft tissue better than a plain film
+9f5b8226	a strong magnetic field + radio waves; no x-rays; shows soft tissue even more clearly than CT
+f1c3ad50	viewing deep structures live on a fluorescent screen
+c7d2c1da	a film made of successive fluoroscopic images
+0ab08b32	Which method uses no x-rays at all?
+b3d76334	Ultrasound and nuclear medicine

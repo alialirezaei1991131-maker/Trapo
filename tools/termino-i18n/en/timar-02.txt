@@ -1,0 +1,330 @@
+1a66474c	formation of pus
+b2483277	discharge of pus
+aebaf7a5	fever-causing
+cae99aef	treatment with radiation
+ca6bc146	giving off radiation
+85bee9e4	x-ray image
+7cdd0ea8	imaging with x-rays
+2f107ffe	medical imaging specialty
+feab9a3d	radioactive substance
+9812e6ed	surgical file
+495de443	given through the rectum
+06cf2a41	easing of a disease
+8910a46d	removal of part of an organ
+14c2bf92	splitting of the retina
+e3b1de38	instrument that holds a wound open
+73c72254	cosmetic nose surgery
+7852e189	tiny bacteria spread by ticks and lice
+80161c1f	surgery with robot-guided instruments
+a7f72bbb	bone-biting forceps
+3b5930dc	cancer of connective tissue
+7798f7ee	surgical knife
+76db118a	nuclear scan
+b06dceb2	scan with a radioactive tracer
+7921673f	surgical scissors
+e8c00f6a	hardening of tissue
+766bc0af	hardened
+ed9d2ef2	life-threatening body-wide infection
+317c9164	bacteria or toxins in the blood
+48d50b13	lasting after-effect
+764a2532	side effect
+7e13810e	objective finding
+5af25a1b	SPECT scan
+c4177a68	ultrasound image
+52720788	probing rod
+cee9249b	instrument that opens a canal
+bf8efa5b	blood pressure cuff
+d9d2731a	spiral-shaped bacteria
+397196fe	softening of the spleen
+e7983d54	drooping of the spleen
+264aaa32	substance toxic to the spleen
+5f1c76b4	tumour staging
+d3d85112	grape-cluster bacterium
+c3630676	surgical staple
+b2df97fd	listening instrument
+a72b42a4	rod bacteria in chains
+cadbd879	chain-forming bacterium
+6b7d63e0	between acute and chronic
+771e6afe	substance dependence
+22539ab4	forming pus
+e0b07b04	particles mixed in a liquid
+6740aee8	mimicking the sympathetic nervous system
+383ec021	what the patient reports
+6cfa842a	happening at the same time
+7cfadc4b	fainting
+8f6ccd3c	group of signs and symptoms
+731281a8	working together
+7b237b70	combined effect
+c27b6c6d	injecting instrument
+cda2d4a8	affecting the whole body
+2ae4956c	upper blood pressure number
+51b48ed4	fast heart rate
+865d16b2	drawing fluid from the chest
+6fea8e9c	opening the chest
+406de4d9	clot dissolver
+31049074	alcohol-based solution
+dc4488f5	tolerance
+d6adb4c5	inflammation of the tonsils
+491d798d	applied to the skin
+a5fed916	poisonousness
+3ecf53d0	study of poisons
+64fe227a	poison
+be431382	inactivated toxin used as a vaccine
+7fbcba31	opening into the windpipe
+e7065673	through the skin (patch)
+590d6c4a	injury
+dffb5eca	sharp puncturing instrument
+17e879ce	painful urination
+ecf91d07	urinary stone
+589aa73f	vaccine
+61c30a8a	widening of a blood vessel
+01cb9deb	vial
+02913246	curved bacteria
+a9a309f6	virus in the blood
+5a3913e1	study of viruses
+53c92016	virus
+cc6b12e6	withdrawal syndrome
+fe4993b2	abnormal dryness
+854da780	lack of; backward
+d0da2c20	against
+e622b1e6	abnormal, painful, difficult
+09937a73	on, over
+03922be9	excessive
+cee87f49	below normal; under
+4e3201dd	in; not
+3dfbe0a2	within
+203fe25a	bad, poor
+7e2ac5d1	small
+b742b70b	thick
+0243a42b	many, much
+68f8086e	after
+47456d40	by, through
+c1e294ee	grape-like cluster
+21e76142	chain
+cd2bf1fd	sac, cyst, bladder
+bec85d00	fever, fire
+7d03057c	hard
+36bd5fe7	poison
+a743345f	bacillus
+0fbd154b	round bacterium
+7f199a70	physician, treatment
+7cf0732e	self, own
+c5b47496	people
+9acd7280	formation, growth
+8a400de9	death
+3abd49d8	dark, black
+6ae0e7cc	flesh, connective tissue
+5d8e0eb2	nourishment, growth
+2db67a1f	menstruation
+89a6111b	finger, toe
+702f95d7	retina
+6985a351	cell nucleus
+a8777337	water, fluid
+315579b7	amniotic sac
+0c82fa84	immature cell
+7d551c8e	blue
+1c99bf5a	night
+2fa4c14f	measure
+78a213a6	air, gas
+67952550	cold
+3d5fe2d1	light
+571734ea	radiation, x-ray
+9f3a12c1	sound (ultrasound)
+4a0ea13c	heat, temperature
+fdfec8de	chemical
+cdedd6df	sleep
+af09f803	stupor
+4e69e54d	plant
+b8125d15	blood clot
+0b5edb8d	mucus, phlegm
+4149b094	vomiting
+fa5257b1	sympathetic nervous system
+6e534fff	widen
+fe1b908e	hard; dura mater
+60fa0fed	sheath (coverings of the spinal cord)
+6682412c	breaking
+5f7dd01e	heavy bleeding, bursting forth
+fbe13f65	rupture
+5cf179b8	split
+0bfc6842	widening
+fab7066b	widening, stretching
+6b2283b6	swelling, fluid build-up
+130b1e46	separating, dissolving, destruction
+0b198b8f	tissue death
+a9442a76	hardening
+3aedbc36	sudden contraction
+bfc3318b	stoppage
+cf7984a5	origin, formation
+eab58ce7	producing, causing
+3228737f	study of
+5391a47b	condition of urine
+7a2c3cd3	killing
+39c534cc	stopping
+0c318f57	swallowing
+aa1db17b	like
+5ecd8f79	growth, formation
+bf8efea0	record, image
+236f6e0d	measurement
+a894d9ff	examination by viewing
+23b0785a	puncture to draw fluid
+dc66a43a	fusing, binding
+875e6713	fixing in place
+4bf6aaa2	repair, reconstruction
+1d2ca10c	repair by suturing
+efb6d1e9	making an opening
+a2278198	cutting instrument
+7736f77c	dissolving, reducing
+0f02b329	mimicking
+09d7f626	acting on
+e0171f8e	having, pertaining to
+fe46f64d	process
+c4abdca6	structure, thing
+847f18a9	one who, that which
+5b6b16f7	primary
+adb71165	secondary (to)
+c978cc6b	increase
+7a07af85	decrease
+9fbb3daf	not equal
+17dc80e8	doubtful, slight
+9dfe76a3	approximately
+b505fe92	number, pound
+d36fdb57	left / right
+2ebc84de	acid-fast
+0d3a5bee	gram-positive
+e18526ec	gram-negative
+54316975	methicillin-resistant Staphylococcus aureus
+e85ca62a	vancomycin-resistant Staphylococcus aureus
+c4ad1793	tuberculosis
+dfc893ba	sexually transmitted infection
+1039235c	World Health Organization
+50980592	spread of cancer
+141409a3	activities of daily living
+85d5ffc1	beats per minute
+cc08d87f	Celsius / Fahrenheit
+53b19402	complains of
+c73aea33	eye-movement muscles intact
+7aba9e49	heart rate
+c8cef5e6	fluid intake and output
+f39d7efd	inspection, palpation, percussion, auscultation
+2ebcca8e	injecting drug use
+1ab47c65	no apparent distress
+d9844069	pupils equal and reactive to light and accommodation
+a75f6f64	past medical history
+d34e2cf6	rule out
+95d33969	well developed
+c99a0737	range of motion
+f5334ab9	aspiration biopsy cytology
+b3f6abd5	bowel sounds; breath sounds
+580774f0	PET scan
+73906c42	SPECT scan
+ba3d8b6f	ultraviolet
+8a1c94e6	curie (unit of radioactivity)
+96d83dc2	echocardiography through the oesophagus
+f7bd36b0	anteroposterior (front to back)
+7bbd102d	posteroanterior (back to front)
+e71cbf2a	left side view
+8307283e	right side view
+619aa51e	complementary and alternative medicine
+bfed15e0	National Center for Complementary and Alternative Medicine
+6f22b289	discontinue
+7ceccb2a	estimated blood loss
+bafbdf34	incision and drainage
+d297201a	normal saline
+bb86fb7d	physiological salt solution
+9f494eef	post-anaesthesia care unit (recovery)
+d1254836	patient-controlled analgesia
+c4eda102	tumour, nodes, metastasis
+2a65a62d	physical therapist; physical therapy
+09c996a7	able to walk
+534f327f	bathroom privileges
+dd61fdf9	strict bed rest
+33b57bbb	do not resuscitate
+0716466e	keep the vein open
+ce864b4a	to keep the vein open
+8ab0383b	fasting; nothing by mouth
+8ae8a9e2	out of bed
+e52ee8a1	quantity not sufficient
+d0391700	quantity sufficient
+d95d869d	American Society of Health-System Pharmacists
+1e23a188	elixir
+58cb1140	US Food and Drug Administration
+9fb84eb5	isoniazid (anti-tuberculosis drug)
+a6c1e3f9	medicine(s)
+e76b889b	Office of Dietary Supplements
+53a7df85	Physicians’ Desk Reference
+35e57362	prescription; drug; treatment
+fc32ed3f	United States Pharmacopeia
+221983e3	of each
+e268c4ea	with
+3e86ddc7	dispense as written
+fda4137a	double strength
+22fad460	international unit
+5c7dd49a	long-acting
+8e9283ab	by mouth
+4185eebc	after meals
+25c3ae2a	every morning
+9c3d401f	every few hours
+a58d9b73	sustained action
+cfc0d7a7	slow release
+53f19dce	times
+853d84e4	Basic terms
+960494a4	Terms built from word parts
+bfdc9498	Types and course of disease
+ba67006b	Microbes and spread
+9ce207b2	Inflammation and infection
+88353dc0	Neoplasms and cell growth
+c2e9c2cc	Lesions and tissue changes
+582bbf97	Symptoms and signs
+9cbc9770	Surgical instruments
+0042c7c6	Treatment and care
+5ec578f3	Drugs and their effects
+a3ddddaa	Drug routes and forms
+5b4e59cf	A word = root + combining vowel + suffix
+1ce20d68	root: liver
+d66ae834	link
+9bf57eea	suffix: enlargement
+b8ea69df	Read the meaning from the end: first the suffix (what happened?), then the root (where?)
+28fce8f1	Anatomy of the word hepatomegaly
+a88f4fe9	sac, bladder
+53265280	hard
+f8e19c7e	Ten basic roots for disease
+7e5476fc	Disease roots
+de55b02e	bradypnea: slow breathing
+23331bbc	tachycardia: fast heartbeat
+f16cefb7	pachydactyly: thick fingers
+7655f01e	xeroderma: dry skin
+cc7d490d	abnormal, difficult
+5c2dd3d8	dysphagia: difficulty swallowing
+131c3fcd	malabsorption: poor absorption
+2d157390	Six disease prefixes
+859f14f4	Disease prefixes
+841c2515	Twelve disease suffixes
+00dcf630	Red boxes: after a root, double the r (rr)
+ed02055a	The suffixes ‎-rrhage, ‎-rrhea, ‎-rrhexis and ‎-rrhaphy
+058d3b07	After the combining vowel, the r is doubled
+1bf49bfa	bleeding
+ee4d0d48	discharge of pus
+c46d12a0	hernia repair
+fc320648	alone: ‎-rhage • after a root: ‎-rrhage
+dc39e6a6	The double-rr rule
+375cf759	normal
+8603904e	flow stopped
+7ff04c62	One tube (vessel, bronchus) and its six states
+91c6ef1b	bronchostenosis: narrowing of a bronchus • vasodilation: widening of a vessel
+d7b6e713	Narrowing, widening, spasm, hardening and stoppage
+3211568c	dissolving, destruction
+c378c771	Six words that also become suffixes
+eefe02a0	Softening, tissue death, drooping, destruction, swelling and poison
+13bab03b	infectious
+5834cd66	microbes and parasites
+86a55f92	degenerative
+f9a2134c	wear, ageing, damage
+03bbb962	neoplasia
+aeb30f5d	uncontrolled tissue growth
+ea6de778	allergy, autoimmunity
+cf73de55	metabolic
+5c85001e	enzyme deficiency, malnutrition
+70beb236	hormonal
+227c0c8b	such as diabetes mellitus
+84607a60	mental
+484b7199	mind and adaptation

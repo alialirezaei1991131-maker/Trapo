@@ -1,0 +1,274 @@
+7ea88ce9	origin
+80cd70a6	In medical words we start the meaning from the suffix.
+53f883cb	The suffix says what happened and the root says where.
+f90f0b13	Between a root and a suffix that starts with a <b>consonant</b>, an o is added: ⟦0⟧ = pathology. But if the suffix starts with a <b>vowel</b>, the o is dropped: path + ‎-ic becomes pathic, not pathoic.⟦1⟧
+2f608fa2	The o is like glue: it is needed only when two consonants meet.
+1de6446f	In pathogen, the letter ___ is the combining vowel.
+337f95d5	Build a word meaning “study of disease”
+8be415bb	the origin and development of disease
+db2f07f4	disease specialist
+4f88f5ca	treating disease
+66935c49	-genesis = origin, formation.
+2aaff965	Spell the term for a specialist in diseases
+eb635dc5	Pain, Stone, Tumour
+7bb8e50b	Five basic roots
+1a799751	Table 3-1 of the book has ten disease roots; here are the first five:⟦0⟧⟦1⟧
+5627faae	algesia: sense of pain
+d40f7887	carcinogen: cancer-causing
+fd714bd6	cystic: having cysts
+d06c957c	lithiasis: stone formation
+e6614f40	oncogenic: tumour-causing
+ffc5b4ed	stone formation in the body
+89c0476e	stone pain
+434e33fe	kidney cancer
+bef050dc	lith (stone) + -iasis (condition).
+b4c404db	Pain and no pain
+1bb5687f	⟦0⟧ = <b>algesia</b>: the sense of pain. With the prefix an- (without), <b>analgesia</b> means absence of pain, and a drug that takes pain away is an <b>analgesic</b>. The instrument that measures pain sensitivity is the <b>algesimeter</b>.⟦1⟧
+f33513d7	A nurse writes in the chart “PCA for analgesia”: a painkiller pump whose button the patient presses.
+b8c9ef0e	severe pain
+d1d72d32	sensing cold
+3be5bbf1	an- (without) + algesi/o (pain) + -ia.
+eb2cadf7	Stone, tumour and cancer
+58e2d3b6	a stone in the urinary tract (ur/o)
+174b6fe7	a gene that produces tumours
+43aaeb5a	a substance that causes cancer
+0d2d1b8f	resembling carcinoma (‎-oid: like)
+a1e7840f	having cysts
+4721e0ae	carcin/o comes from the Greek word for “crab”; cancer reaches out with its claws.
+8b243f8f	like cancer
+05267e38	cancer specialist
+5ec4d2f6	destruction of cancer
+57d5b2d1	carcin/o + -gen (producing).
+c4730190	A urolith is a stone formed in the urinary tract.
+08dbde41	ur/o (urine) + lith (stone).
+19789330	An agent that causes tumours is ___.
+82c5ceec	Build a word meaning “cancer-causing substance”
+3a25142f	Spell the term for absence of pain
+d99a726e	Pus, Fever, Poison, Hardness
+ca6acc6b	Two roots that get mixed up
+18efcfe3	pus: pyocyst (pus-filled cyst), pyoderma (pus-forming skin infection), pyogenesis (pus formation)
+ca4c9d6c	fever, fire: pyrexia (fever), pyrogenic (fever-causing), hyperpyrexia (very high fever)
+52a113d0	pyr/o has the extra r; think of the r in a red-hot radiator!
+a020a310	pyr/o, pyret/o = fever.
+3b4c969a	pus-forming skin infection
+f855c912	skin fever
+29701373	skin cancer
+00e78331	py/o (pus) + derm/o (skin).
+a4d9769f	pyrogenic means pus-producing.
+135aa749	False; pyrogenic means fever-causing. Pus-producing is pyogenic.
+ed0462f2	Poison and hardness
+aeb5ddda	Examples
+56a29c0e	toxicology (study of poisons), toxoid (an inactivated toxin, for vaccines)
+b7f6fd77	sclerosis (hardening of tissue), sclerotic (hardened), arteriosclerosis (hardening of the arteries)
+13657cf8	endo- (inside): a toxin inside the bacterial cell
+f99d1c3d	exo- (outside): a toxin that the bacterium releases
+0ebaacd9	toxin inside a bacterium
+89248d15	toxin released by a bacterium
+9b685781	hardening of the arteries
+6ed9ab02	hardened
+590fc268	softened
+5ab5245e	torn
+aa1e314f	scler/o (hard) + -tic.
+2ef2b54b	The study of poisons is ___.
+3db6bdc6	Review of the “Disease Roots” level
+2ae5f6f8	path/o disease • ‎-logy study • ‎-logist specialist • ‎-gen and ‎-genesis producing and origin
+7d4437ae	alg/o pain (analgesia no pain) • lith/o stone • onc/o tumour • carcin/o cancer • cyst/o sac and bladder
+0af56a5d	py/o is pus but pyr/o is fever: pyoderma versus pyrexia
+12aaa872	tox/o poison: endotoxin, exotoxin • scler/o hard: arteriosclerosis
+a0ed33e7	Build a word meaning “fever-causing”
+2923dbad	Spell the medical term for fever
+c2269ee3	Slow and fast
+ae1642d4	slow: bradypnea means slow breathing (‎-pnea: breathing)
+469ebc86	fast: tachycardia means a fast heartbeat
+5126918c	tachy sounds like “taxi”, which goes fast; brady is a lazy lady who strolls slowly.
+2d601d00	fast heartbeat
+e931de24	slow heartbeat
+9239ced2	tachy- (fast) + cardi/o (heart) + -ia.
+bb45a7ce	bradypnea means slow breathing.
+7b8b5927	brady- (slow) + -pnea (breathing).
+6427e8ab	Bad, thick and dry
+e35b288a	dysplasia (abnormal tissue growth), dysphagia (difficulty swallowing), dystrophy
+4bd81d91	malabsorption (poor absorption), malnutrition (poor nutrition)
+d8e21da5	pachydactyly (thick fingers; dactyl/o: finger), pachycephaly
+6023a970	xeroderma (dry skin), xerosis
+6861f6d8	dry mouth
+0bb29205	fast swallowing
+70cf58f6	dys- (difficult) + phag/o (eating, swallowing).
+0461a493	thick skin
+54784c69	xero- (dry) + derm/o (skin).
+ef0cb95e	Poor absorption of nutrients from the intestine is called ___.
+0e573af8	mal- (bad) + absorption.
+211dadfb	Build a word meaning “thick fingers”
+154d0c53	Spell the term for a fast heart rate
+124b0abb	Pain, Inflammation, Enlargement
+01672eaa	Two suffixes for pain
+e888e8e2	⟦0⟧ = <b>neuralgia</b> (nerve pain) and ⟦1⟧ = <b>urodynia</b> (pain on urination). Both suffixes mean <b>pain</b>.⟦2⟧
+513dce6a	headache (cephal/o: head)
+2861f206	muscle pain (my/o)
+0e93807b	stomach pain (gastr/o)
+a1f8f831	Inflammation, enlargement and disease
+a5302901	cystitis: inflammation of the bladder
+1ca8db4d	hepatomegaly: enlarged liver • cardiomegaly: enlarged heart
+e158ec1d	disease (any kind)
+47843137	nephropathy: kidney disease • myopathy: muscle disease
+7a86a519	lipoma: fatty tumour • neuroma • blastoma
+e1ec9c7a	inflammation of the heart
+bd568dd1	any kidney disease
+56fb10c7	enlarged kidney
+beeedce4	kidney stone
+6e2113a2	kidney pain
+964a76ad	nephr/o (kidney) + -pathy (disease).
+fbeb37fa	cystitis means inflammation of the bladder.
+6a1cd850	cyst/o (bladder) + -itis (inflammation).
+c059d026	tumour of immature cells
+3d53b8e1	fatty tumour
+a358da03	inflammation of a cell
+1109625d	blast/o (immature cell) + -oma.
+b91198fe	An enlarged liver on examination is called ___.
+e05ea7aa	Build a word meaning “muscle disease”
+9db948d2	Spell the term for nerve pain
+a812d6b8	Bursting, Rupture, Split
+7e99128c	Three suffixes with rr
+5cada034	bursting forth, heavy bleeding
+03b0a6af	hemorrhage • menorrhagia (heavy menstrual bleeding)
+4a9c0ff5	pyorrhea: discharge of pus
+278302da	hepatorrhexis: rupture of the liver • amniorrhexis: rupture of the amniotic sac
+9eaa0760	Three r’s for three flowing things: rrhage bursts, rrhea flows, rrhexis ruptures and spills the fluid out.
+b8dd1023	rupture of a vessel
+b7b32c5c	flow of pus
+977452ac	stopping of blood
+8c6247da	bleeding from the liver
+563fa75a	hepat/o + -rrhexis (rupture).
+4a753d76	When ‎-rhage attaches to a root such as hem/o, the r is doubled: hemorrhage.
+a1333fea	The book’s double-rr rule.
+3a07ffad	Bulging, breaking and splitting
+5e39b0f2	hernia, local bulge
+8b4df58c	gastrocele (hernia of the stomach) • hydrocele (fluid sac) • adipocele
+aa4327be	osteoclasis (breaking of a bone) • karyoclasis (breaking of the nucleus)
+d8d8fd08	split, cleft
+b67a003d	retinoschisis (splitting of the retina) • thoracoschisis
+7ed9c74b	death of bone
+5f81b4ea	bone pain
+e04ff07d	Heavy menstrual bleeding is called ___.
+9c0e8e2b	Review of the “Prefixes and Suffixes” level
+62296870	brady- slow and tachy- fast • dys- abnormal • mal- bad • pachy- thick • xero- dry
+9074b0f6	‎-algia and ‎-odynia pain • ‎-itis inflammation • ‎-megaly enlargement • ‎-pathy disease • ‎-oma tumour
+3a12ad68	‎-rrhage bursting and bleeding • ‎-rrhea flow • ‎-rrhexis rupture; after a root the r is doubled
+61ac822d	‎-cele hernia and bulge • ‎-clasis breaking • ‎-schisis split
+dd3301ef	Build a word meaning “rupture of a muscle”
+0a2beec3	Spell the term for heavy bleeding
+8131d9c1	hem/o + -rrhage; double r.
+f4377e57	Narrowing and Widening
+4beda79a	Some words are used both on their own and after a root (Table 3-4). The first of them are the states of a <b>tube</b>: a vessel, a bronchus, the intestine.⟦0⟧
+ece657b5	narrow, wide, spasm
+201eb2f8	bronchostenosis: narrowing of a bronchus
+8b5cea78	widening, opening
+9abe3a08	vasodilation: widening of a vessel
+b6e5e37d	gastrectasia: widening of the stomach
+68027a66	sudden contraction, spasm
+5e673aa2	the tube narrows
+0a2044d8	the tube widens
+ae1d604e	widening of a bronchus
+3d4cc916	spasm of a bronchus
+d50f01d5	inflammation of a bronchus
+d3a128cd	bronch/o + stenosis (narrowing).
+fa1dec98	narrowing of a vessel
+61cdebf5	spasm of a vessel
+7d1318cd	hardening of a vessel
+a5929af7	vas/o (vessel) + dilation (widening).
+3a451dd9	Hardening and stoppage
+094ece83	⟦0⟧ = <b>phlebosclerosis</b>: hardening of the veins. ⟦1⟧ means <b>stoppage</b>: ⟦2⟧ is the stopping of bleeding and ⟦3⟧ the stopping of menstrual flow.⟦4⟧
+188cfb4e	In the operating room, “good hemostasis” means the bleeding at the surgical site has completely stopped.
+71bda9d8	hemostasis means heavy bleeding.
+e1afe42a	False; hemostasis means the stopping of bleeding. Heavy bleeding is hemorrhage.
+ca317140	⟦0⟧ in an asthmatic patient means…
+89e46d3b	sudden tightening of the bronchi
+becf640c	permanent narrowing of a bronchus
+818931c6	bleeding from a bronchus
+d142b7e4	Widening of the stomach is called ___.
+37f99dce	Build a word meaning “narrowing of a bronchus”
+7a212892	Spell the word for narrowing
+8fa0df5e	sten (narrow) + -osis.
+74946e92	Softening, Death, Drooping
+5400c0aa	Six states of tissue
+0a76eebe	oste/o + malacia (softening).
+54fbfe0f	softening of the heart
+172378a4	rupture of the heart
+303e6352	⟦0⟧ = <b>blepharoptosis</b>: drooping eyelid. In ptosis the p is written but not pronounced: “TOE-sis”.⟦1⟧
+8c3bff8b	Normal eyelid (left) and drooping eyelid (right)
+ed881796	In the picture, the right eyelid has dropped lower than normal. Its name is…
+738ac9a3	blephar/o (eyelid) + ptosis (drooping).
+b0e8d1ab	Normal and drooping eyelid
+992cac9a	Destruction, swelling and poison
+bf7c4607	hemolysis (destruction of red blood cells) • dialysis (separating substances through a membrane)
+8556e11d	cephaledema: swelling of the head
+93e3af6f	nephrotoxin: kidney poison • splenotoxin
+db1b0a24	lysis is like sugar in tea: it dissolves and falls apart.
+8e28de00	destruction of red blood cells
+ae0ff889	kidney poison
+2bfd6184	dialysis means separating substances by passing them through a membrane.
+dd61edf7	dia- (through) + lysis.
+b36d377c	Softening of the skull is called ___.
+45e480d9	Build a word meaning “death of bone tissue”
+8859e26a	Spell the term for a drooping eyelid
+30c7ff69	Skilled Word Builder
+3090715d	One root, ten words
+998a3d99	Now, with one root and the suffixes you’ve learned, build dozens of words. With ⟦0⟧ (bone):⟦1⟧⟦2⟧
+bdc6b8cb	That is exactly the chapter’s exercise: take a root and line the suffixes up after it; read the meaning from the end.
+492d14f8	Another root: bronch/o
+c687d745	⟦0⟧And with ⟦1⟧ (origin): carcinogenesis (origin of cancer), pathogenesis (development of disease) and pyogenesis (pus formation).
+d123b63a	heavy discharge from a bronchus
+4c6910fb	sudden tightening of a bronchus
+2d2b1027	rupture of a bronchus
+f9fa0f15	bronch/o + -rrhea (flow, discharge).
+18f0d945	The formation of pus is called ___.
+21c5b86a	origin of cancer
+1ec5e585	cancer-causing substance
+9e484419	Put the word hepatomegaly together from start to end
+96476a3b	Root + combining vowel + suffix.
+445e3b2b	myodynia and myalgia both mean muscle pain.
+2247db65	-odynia and -algia both mean pain.
+83353734	Review of the “Words That Become Suffixes” level
+caf0c45a	stenosis narrowing • ectasia and dilation widening • spasm sudden contraction • stasis stoppage
+0b2c994f	sclerosis hardening • malacia softening • necrosis tissue death • ptosis drooping
+39f521a5	lysis dissolving and destruction • edema swelling • toxin poison
+7635fd2c	One root + different suffixes = dozens of words: osteo-, broncho-, hepato-
+abe5acbd	Build a word meaning “development of disease”
+c5c9a118	Spell the term for the origin of cancer
+774bc68d	Microbes and Types of Disease
+5cd16d32	Microbes
+6cb44462	The seven groups of disease, acute and chronic, round, rod and spiral bacteria, viruses, fungi and parasites, portals of entry, epidemics and hospital infections
+1c66b22d	Microbes
+3f594f5b	Spread of infection
+c68ef929	What Is Disease?
+ceabd78a	Seven groups of disease
+abfa8c7f	<b>disease</b> means any disturbance in the normal working of the body. The book puts diseases into seven (sometimes overlapping) groups:⟦0⟧
+5c547d39	Match each group to its example
+1f9975a7	wear and ageing, such as arthritis
+52770f64	⟦0⟧ means a disease…
+f22a3024	infectious; caused by microbes or parasites
+a451fb7d	degenerative, from wear
+39a97544	It is caused by microorganisms and parasites.
+43730e43	Degenerative and structural
+a222f918	A <b>degenerative</b> disease comes from wear, ageing or <b>trauma</b> (a blow, an injury); examples are arthritis, cardiovascular problems and emphysema. Structural defects such as a <b>congenital</b> malformation, prolapse and hernia can also lead to degenerative changes.⟦0⟧
+383b2d57	trauma is not only a physical blow; a psychological wound is also called trauma.
+e749caf7	a physical or psychological blow or injury
+a621c250	infection
+f3c09d3e	enzyme deficiency
+e9d97b10	congenital means a disease present from birth.
+a9292215	congenital = present at birth.
+223346d8	Immunity, hormones and the mind
+d47dc50e	Description
+f61833df	immune failure, allergy, autoimmune disease (the body makes antibodies against its own tissue)
+62e33010	too little, too much or ineffective hormone; such as diabetes mellitus
+7d0d8046	a disorder of the mind and of the person’s adaptation to the environment
+9beb5ce2	abnormal and uncontrolled growth of tissue
+25745644	In ⟦0⟧…
+6d030885	the body makes antibodies against its own tissue
+44da926d	a microbe enters the body
+af15facb	too little hormone is made
+1717b8e4	tissue wears out
+ec1e0247	auto- = self.
+cc0e42d2	diabetes mellitus is an example of a ___ disorder.
+dadfd3ee	A lack or ineffectiveness of the hormone insulin.
+e55923ff	Spell the word for disease

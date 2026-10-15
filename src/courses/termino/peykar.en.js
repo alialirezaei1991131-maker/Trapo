@@ -2893,7 +2893,7 @@
       <header class="vhead"><h1>Tools</h1><p>A full dictionary of ${fa(L().TERMS.length)} terms, ${fa(L().ROOTS.length)} word parts and ${fa(L().ABBR.length)} abbreviations, all offline.</p></header>
       <div class="ttabs" role="tablist">${TOOLS.map(x => `<button class="ttab ${x.id === cur ? 'is-on' : ''}" data-tool="${x.id}" style="--tc:${x.color}" role="tab" aria-selected="${x.id === cur}"><span class="ttab__s">${x.sym}</span>${x.name}</button>`).join('')}</div>
       <div class="tcard">${PANES[cur]()}</div>
-      <p class="disclaimer">⚕️ Peykar is a learning tool and does not replace anatomy references or clinical judgement.</p>
+      <p class="disclaimer">⚕️ Peykar is a learning tool and does not replace anatomy references or clinical judgment.</p>
     </section>`;
   }
 

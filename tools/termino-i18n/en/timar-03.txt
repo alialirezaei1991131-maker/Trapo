@@ -1,0 +1,330 @@
+d838f447	Seven large groups of disease (sometimes overlapping)
+688c8188	Types of disease
+6dd344e6	Severity
+2eee6e8b	acute: sudden, severe, short
+7fe7c570	chronic: long, slow
+bd78b60e	flare-up
+b9cf2c43	easing
+9428f87c	Acute and chronic disease
+3e89afd4	round
+c3cc90b2	staphylococci: in clusters
+6954771c	round and in chains
+8b8dc4b5	strepto- = chain
+522cf790	tuberculosis, tetanus
+872f24b8	curved rod
+d27310ad	spiral
+507e3bc4	syphilis, Lyme disease
+9a4f762e	We name bacteria by their shape
+4655a20b	single-celled; antibiotics work
+5808d1d0	only inside a living cell
+1b6b201a	yeast and mould
+2352f98b	single-celled animal
+feddb510	single-celled animal
+c392a047	roundworm and pinworm
+edb1c8b9	very small bacteria
+9c6f0faa	inside cells; antibiotics work
+c608cc9b	Agents of infection: from the tiny virus to the worm
+f35925fc	Bacteria, viruses, fungi, protozoa and worms
+eef9546f	Gram stain: sorts bacteria into two groups
+8fa2cea1	stays purple
+ce2b128e	turns red (pink)
+b67ab302	The acid-fast stain (AF) is used mainly for the tuberculosis germ (TB)
+3d0a5307	How widespread is a disease?
+f8e754aa	native
+55a735fe	low but constant
+1929f8b1	like the common cold
+7c89b5ee	widespread
+0cf1327c	suddenly, many people
+a795297e	in one region
+f8054a7a	worldwide epidemic
+4ff3a6b5	across a continent
+c45f2fa1	or the world
+49c70dc6	Endemic, epidemic and pandemic
+54e151fe	Digestive tract (mouth)
+03514bbe	Broken skin
+6ef8363b	Urinary and genital tracts
+9d23a3e9	Routes of transmission: air • food • water • direct contact
+73f2db66	portals of entry: the doors microbes use to get in
+5869ea93	How microbes get in
+c75fe8cb	caused by treatment
+51aaec7a	iatr/o physician + gen producing
+d96589c4	unknown cause
+6ef73775	idi/o self + path/o disease
+3382823a	hospital-acquired
+dd066199	MRSA and VRSA
+6e31dbcf	when the body is weak
+70063c5c	contagious
+6bd14f79	from one person to another
+eb62440c	whole-body
+f9e1a9d3	involves the whole body
+59eb2d13	Where did it come from? How does it spread?
+85d9c84a	Words for the origin and spread of disease
+d5d9cee4	injury → chemicals released → blood and fluid into the tissue
+d7d0343e	redness
+024a3dbf	swelling
+5acbfc2b	The four signs of inflammation
+42c64545	phagocytosis: phag/o (eating) + cyt/o (cell)
+78b60d82	swallowing the bacterium
+d9a9eaf0	trapped in a sac
+8858378c	enzymes destroy it
+5f951223	What remains: fluid + white blood cells = pus
+b56810ea	The stages of phagocytosis
+c8ca9037	All the body’s defences
+300c004d	innate; from birth
+659c714b	intact skin and mucous membranes
+764434a9	stomach acid, enzymes in saliva and tears
+d61fbc18	inflammation
+8353c052	phagocytosis: swallowing microbes
+09ffe568	acquired; during life
+055a6dad	after catching a disease
+e00ff4b1	with a vaccine
+761a14c6	antibody: a defence protein in the blood
+12bb96b8	watching for cancer cells
+7ffa782e	Innate and acquired immunity
+2f97d7da	more cells, normal arrangement
+b2c90784	bigger cells, not more
+edd68946	change into another cell type
+a3a6a4e8	abnormal growth, precancerous
+b221be62	undifferentiated; typical of cancer
+ac1a3f2d	plas = formation • trophy = growth and nourishment
+5afc7385	Hyperplasia, hypertrophy, metaplasia, dysplasia and anaplasia
+73b059de	New uncontrolled growth of tissue
+a9fd2617	benign; does not spread
+1cb831ac	lipoma, polyp
+6af3a544	malignant; invades and spreads
+4915f4e6	another name: cancer • metastasis
+909a42a7	connective tissue and muscle
+0aef19cd	gland (aden/o)
+4ada22e1	pigment cell
+2f02332f	fluid-filled sac
+a7315c85	often confused
+3af228d9	with cancer;
+64da98a3	but it is not cancerous
+6793b45f	in situ: in place, not yet spread • carcinoma in situ (CIS)
+2f4ed1ea	Benign and malignant neoplasms
+48c13d21	fluid in tissue; swelling
+a5975d8f	fluid in a cavity (such as the pleura)
+df1dbe32	fluid in the peritoneal (abdominal) cavity
+556e3c07	leakage from vessels after injury
+04a2e541	Where has the fluid collected?
+f0f29a5e	Edema, effusion, ascites and exudate
+87dd41c1	pus collected in one place
+d165a244	inflammation spread through tissue
+50134940	abnormal passage between two organs
+296f18b1	split, crack
+f75b280e	mass on a stalk
+57973f00	two separate surfaces stuck together
+448363a9	tissue death (lack of blood)
+070249b6	local hardening
+4ec01f8c	Signs of disease in tissue
+ef74161c	Abscess, cellulitis, fistula, fissure, polyp, adhesion, gangrene and induration
+84726939	wall
+51133a93	hernia; an organ pushing out
+b702dcba	through an abnormal opening
+234fe413	drooping; sinking down
+59d26053	an organ out of its normal place
+40a42071	blepharoptosis: drooping eyelid
+df2c5b34	Both belong to the structural and degenerative diseases
+2b0b6d06	Hernia and ptosis
+ddae61e0	sign (objective)
+67806e80	the physician sees or measures it
+8d76f7f3	skin rash
+f903abb2	abnormal test
+cb13ac60	symptom (subjective)
+65834c04	the patient feels and reports it
+00d8c320	dizziness
+a7f5352f	weakness
+ce668412	malaise: feeling unwell
+6824a44d	syndrome: the set of signs and symptoms of a disease
+fc3888cd	Signs and symptoms
+661938f4	inspection
+33099cb0	looking
+e72f0877	feeling
+30790b09	hands and fingers
+03b47be4	tapping
+ce766b81	tapping and listening to the sound
+e3a47e0e	listening
+5bdde4e4	with a stethoscope
+d63207ac	The physical examination in IPPA order
+f597b2e2	Blood pressure: sphygmomanometer + stethoscope
+373e90b5	Inspection, palpation, percussion and auscultation
+800fcd88	pulse (bpm)
+ad16c10d	breaths per minute
+b39d931d	blood pressure (mm Hg)
+cde53465	vital signs (VS): four vital numbers
+5173fc1f	TPR = temperature, pulse, respiration • numbers: approximate adult resting ranges
+b8cccc91	Blood pressure is written as systolic/diastolic
+cc029de8	when the heart contracts
+801fa904	the top number (120)
+663d40eb	when the heart rests
+056365cf	the bottom number (80)
+917a05a3	Systolic and diastolic pressure
+3567805b	inside cavities and organs
+4dd2c6dd	tiny things
+7e8f7e03	‎-scope: viewing instrument • ‎-scopy: examination by viewing
+2a01c0f0	The exception: we listen with it, not look • steth/o chest
+7d91ca89	The ‎-scope instruments
+685376a0	method of recording with ultrasound
+ebcf51a5	the record itself (tracing, image)
+14c81918	Five diagnostic suffixes that get mixed up
+f23f2f31	Recording and measuring suffixes
+787d487f	x-rays
+d6faba7b	magnetic field and radio waves
+a2517ff0	radioactive substance in the body
+c84a0fd8	Each imaging method uses one kind of energy
+96991d49	The energy behind imaging methods
+b8924151	beam source
+60a60fcb	image on film
+a1254f77	bone: white and bright • soft tissue: grey • air: dark
+092c9eed	Dense tissue absorbs the beam and looks bright
+1376b44d	Density in radiography
+21bf6211	left side against the film
+4d916092	right side against the film
+c213cd14	Radiographic views: which side does the beam enter? (seen from above)
+f6bdcd87	From above: the small nose = front of the body • dark rectangle = film
+5ed28515	AP, PA and lateral views
+e2676cd5	from the chest or a cyst
+69de9a14	small hole
+6de2e2fd	such as a skin sample
+9e1e5357	with an endoscope
+c54dcba0	respiratory or digestive tract
+6567bd5c	surgical removal
+4f145a12	tumour or lymph node
+7caca714	liquid biopsy (blood)
+a60274de	tumour cells or DNA in the blood
+1f053344	biopsy (bx): removing tissue for the microscope
+436bdf4f	Sampling methods
+ac361302	Twelve roots for physical forces
+7a9d33be	Roots for physical forces
+dbe2a1ca	puncture and draw fluid
+5cfbd0ec	looking inside
+1e7a2c22	A surgeon speaks in suffixes
+1450727d	fusing
+b40fb8f7	separating
+e3afe040	Repair, fixation, fusion, crushing
+5f7bf12d	Repair and fixation suffixes
+e5b8f23d	excision of a tumour, wound repair, fixation of a drooping organ
+6d21d4d4	biopsy; exploratory surgery
+4b512da3	restoring organ function
+10e8da5c	colostomy, tracheostomy, transplant, prosthesis
+a508f2e7	relief (palliative)
+812c7060	reducing pain or tumour pressure
+efd939dc	Why do we operate?
+b1d03c4e	emergency: urgent, immediate danger
+245a9848	elective: optional, can be delayed
+3f3a1661	The goals of surgery
+de8641c5	NPO: fasting
+22d4f952	recovery
+1c1a4757	waking up
+a873f7d4	from anaesthesia
+1070e254	care instructions
+3d5c4254	at home
+de506364	From admission to home
+2eeecdeb	Before surgery, operating room, recovery and after surgery
+d0839516	grade: the cells under the microscope
+99b30f3c	the higher, the more abnormal the cells
+1b86caa2	stage: spread in the body
+f6e06949	primary tumour
+47436c69	regional lymph nodes
+9c011fb4	distant metastasis
+bcd8f626	result: stage I to IV
+83f2e996	grade = how misshapen? • stage = how far has it spread?
+658b0235	Tumour grading and staging
+306764f0	needles at specific points
+64bee42c	learning to control body responses
+f6c36dde	manipulating the spine
+14322f9e	relaxation, circulation
+61d12676	calming the mind
+f5780152	highly diluted remedies
+1e738220	healthy lifestyle
+fc915c2c	correcting body structure
+6f36173f	holistic: body, mind,
+a2a2f8ef	spirit and society
+63897040	CAM: complementary and alternative medicine; a focus on health, not only disease
+ad2b179e	Tubes in treatment
+2803aefc	the sharp trocar punctures, then comes out
+caed71a9	and the cannula stays to let fluid or air out
+ba5e348e	a thin tube for drawing out or
+3d817008	putting in fluid; such as a PICC
+68443619	drain: lets discharge out of a wound
+46cc88b7	washing a cavity
+07890f9f	drawing fluid from a cavity
+fb1a5b6e	Catheter, trocar, cannula and drain
+56a16f8b	spinal • epidural too
+526e7349	drops (eye, ear)
+835b5c01	skin patch
+71989c7b	rectal (suppository)
+545d441e	injection = the parenteral routes
+1058b851	Routes of drug administration
+0c2517b7	into the muscle
+2ef08baf	subcutaneous tissue (fat)
+8064e9d0	the deeper, the steeper the angle
+b3bf7f14	IM, SC and ID injection angles
+2c138589	One day from 6 a.m. to midnight
+7a7efa85	2 times
+7b8b51f9	3 times
+528d74d5	4 times
+cd7a8d9d	every 4 hours
+f2f2b3bf	Medication timing
+4c70c001	Box 3-8: drug preparations
+7b3363ee	liquid
+2e431c01	inhaled spray
+3de218af	dissolved in water
+0039abb7	sweet and alcoholic
+ac34ce7d	two liquids mixed
+c7973346	for the skin
+c8940674	shake it!
+09468f87	in alcohol
+e86aa047	semisolid
+dc1dc79b	skin emulsion
+b9ce0f58	ointment; ung
+9ec34d1e	solid
+e4880289	gelatin shell
+beb2775d	to suck on
+376f4a1e	tablet; pill
+77447f78	Drug forms
+aaa9c435	When two drugs are taken together, or one drug is taken repeatedly
+e36c1b06	the combined effect is more than
+964a0728	the sum of the effects
+5f82ed68	one drug blocks
+a2e7c4b8	the effect of the other
+6b69c881	same dose, less effect
+c641af4f	the dose must be raised
+880eff3a	symptoms on sudden stopping
+f1fd104c	contraindication: a reason not to give a drug • anaphylaxis: severe, dangerous allergy
+8e53ebb3	Synergism, antagonism, tolerance and withdrawal
+7c8b1ab5	One line from the prescription in case 3-2
+ce465bf1	brand name (generic)
+65a8a8b7	amount
+8be7115b	how often
+976d8a7e	It means: one milligram of Ativan (lorazepam), by mouth,
+21cad4cb	twice a day, only when needed
+eb31d317	Brand names start with a capital letter, generic names with a small letter
+d6806991	The parts of a medication order
+8cb2f187	against
+88463779	transport in the opposite direction
+38044576	dissolving
+01da2728	mimicking the sympathetic system
+7ce14080	acting on the mind
+31757da2	stupor, numbness
+2be7fa69	Word parts for drugs
+31dfe0f9	Word parts of drug terms
+5307dde0	The Language of Disease
+36930476	Disease roots, prefixes, the suffixes for pain, inflammation and rupture, and words such as stenosis and malacia that become suffixes themselves
+848381b6	Prefixes and suffixes
+6da06b29	Words that become suffixes
+81903160	Every word is a puzzle
+6a83c6ef	Break the word apart
+03ad9db9	Most medical words are built from a few <b>fixed pieces</b>: the <b>root</b> says “where or what?”, the <b>suffix</b> says “what happened?”, and between them there is often a <b>combining vowel</b>, usually o.⟦0⟧⟦1⟧
+0fa410f9	hepatomegaly: hepat/o (liver) + ‎-megaly (enlargement) = enlargement of the liver.
+5fd2dde9	Read the meaning from the end: first the suffix (what happened?), then the root (where?).
+11bff902	The root for disease: path/o
+eb904cba	Structure
+5c6550ca	study of disease
+a14d271c	specialist in disease
+bdb5ce1b	disease-causing agent
+732f3852	development of disease
+548d5283	A pathologist looks at tissue samples under the microscope; the definitive diagnosis of many diseases is their job.
+001edbf3	Specialist in diseases and tissue changes
+83872b0f	path/o (disease) + -logist (specialist).
+17fce2cf	Match each piece to its meaning

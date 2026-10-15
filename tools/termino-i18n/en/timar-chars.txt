@@ -1,0 +1,7 @@
+# نام کاراکترها (فقط رخداد CHARS)
+f011eb20@timar#1	Stethy
+074c0d49@timar#4	Thermo
+97e57f8e@timar#1	Rady
+fada5a05@timar#1	Hemo
+c8c0728f@timar#1	Caplet
+67d46d23@timar#2	Rexy

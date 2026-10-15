@@ -1,0 +1,57 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+96f6211a@timar#1	uptake into the bloodstream
+771212b7@timar#1	single-celled microbes
+140a908b@timar#1	force of blood on artery walls
+747e3006@timar#1	company’s trade name for a drug
+4838530f@timar#1	gelatin shell holding a drug
+afc35b4e@timar#1	x-ray slices built by computer
+b74193a1@timar#1	semisolid skin emulsion
+9851f01d@timar#1	growing microbes and testing antibiotics
+c2473e30@timar#1	abnormal fluid-filled sac
+b9a6fc3b@timar#1	identifying the illness
+14d599b3@timar#1	disturbance of normal body function
+3b722565@timar#1	substance that changes body function
+32792014@timar#1	first responder at the scene
+ef769cb9@timar#1	fever with no cause found
+54190dae@timar#1	yeast or mould
+8e5b6ac9@timar#1	non-proprietary drug name
+7c380e96@timar#1	rating cell abnormality
+7e9931bc@timar#1	patient’s account of illness and background
+8d2e1a2d@timar#1	body’s protection against infection
+5dca8100@timar#1	surgical cut
+40318b24@timar#1	illness caused by microbes
+02143477@timar#1	heat, redness, swelling and pain
+0de7a513@timar#1	giving a drug by needle
+c2470dee@timar#1	kneading the body’s soft tissues
+2f7d15f8@timar#1	disorder of mind and behaviour
+8110cb36@timar#1	disorder of body chemistry
+e1234b0b@timar#1	painkiller that reduces swelling, not a steroid
+fff06a38@timar#1	salt solution matching body fluids
+0ef58435@timar#1	imaging with radioactive tracers
+8cea1926@timar#1	greasy skin preparation
+a23c973d@timar#1	surgical realignment of a broken bone
+656f4913@timar#1	striking when defences are weak
+f0473180@timar#1	by mouth
+8e58c126@timar#1	organism living at a host’s expense
+4156edf6@timar#1	drug-dispensing specialist
+6ba827fb@timar#1	hands-on check of the body
+73c65828@timar#1	mass on a stalk
+aaa46130@timar#1	route by which microbes get in
+4ff2bb9d@timar#1	written order for a drug
+37fd9a9e@timar#1	beat felt over an artery
+7921673f@timar#1	two-bladed cutting instrument
+764a2532@timar#1	unintended drug effect
+5f1c76b4@timar#1	measuring a tumour’s spread
+70fa8e24@timar#1	beneath the skin
+771e6afe@timar#1	compulsive need for a drug
+96996925@timar#1	drug form that melts in a body opening
+4f307e0d@timar#2	physician who operates
+1fd8db25@timar#1	treatment by operation
+83fc5ca4@timar#1	pressed solid drug form
+074c0d49@timar#1	temperature-measuring instrument
+dc4488f5@timar#1	weaker effect from the same dose
+589aa73f@timar#1	preparation that builds immunity
+01cb9deb@timar#1	small sealed bottle
+53c92016@timar#1	tiny agent that multiplies in cells
+2e821991@timar#1	temperature, pulse, breathing and blood pressure
+cc6b12e6@timar#1	symptoms after stopping a drug

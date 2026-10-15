@@ -1,0 +1,13 @@
+# نام کاراکترها (فقط رخداد CHARS)
+43063b0b@peykar#1	Puzzly
+fc83e0c3@peykar#1	Orifice
+3fe71cea@peykar#4	Epi
+e4d74c52@peykar#1	Myo
+3b009c54@peykar#1	Thump
+f287f194@peykar#1	Bean
+50739288@peykar#1	Compass
+c845bb1c@peykar#1	Slicer
+984c1f53@peykar#1	Glove
+89775bd1@peykar#1	Cavy
+9dc9df5c@peykar#1	Quad
+2f4293fa@peykar#2	Verta

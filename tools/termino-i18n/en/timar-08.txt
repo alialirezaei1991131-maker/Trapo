@@ -1,0 +1,242 @@
+0a38e3a8	<b>ultrasonography</b>, also called sonography and echography, builds an image from the echoes of high-frequency sound waves; its image is a <b>sonogram</b>. In <b>nuclear medicine</b>, a radioactive substance (a <b>radionuclide</b>) is given to the body: <b>scintigraphy</b>, <b>PET</b> and <b>SPECT</b>.⟦0⟧
+fce4a04a	Pregnancy ultrasound
+cdd6b405	sonogram of a pregnant uterus; H head, C coccyx of the fetus
+1e4d5ff0	Which safe, radiation-free method is used to see the fetus in the uterus?
+ab470908	High-frequency sound waves.
+5d51e28e	Image of a pregnant uterus
+7aa785c2	Match each method to its energy
+711978b5	magnetic field
+cc47de23	radioactive substance
+9ce4a2e2	Radiographic views
+701b0c89	anteroposterior: beam from front to back
+99ec7812	posteroanterior: beam from back to front
+ffd02d67	left / right side view
+9c242ffe	In a PA view, the x-rays enter the patient’s back and exit the front.
+af4a7d28	Review of the “Instruments and Imaging” level
+b9c1c5f4	‎-scope viewing instrument • ‎-scopy examination by viewing • ophthalmoscope, otoscope, endoscope, bronchoscope • stethoscope for listening
+f41de2e6	‎-graph recording instrument • ‎-graphy method • ‎-gram the record itself • ‎-meter instrument and ‎-metry measurement
+ce998a98	aer/o, bar/o, chrom/o, chron/o, cry/o, electr/o, erg/o, phon/o, phot/o, radi/o, son/o, therm/o
+6139e271	x-rays: radiography and CT • magnetism: MRI • sound: ultrasonography • radionuclides: PET, SPECT, scintigraphy • views: AP, PA, LL, RL
+92609085	Spell the full name of the imaging method that uses high-frequency sound
+921311df	Surgery and Treatment
+4b9ddc31	Removal, incision and opening, drawing fluid, repair and fixation, the operating room and instruments, catheters and irrigation, treatment, prognosis and complementary medicine
+fe9f6039	Operating room and instruments
+83573f3e	Treatments and complementary medicine
+550f8a61	Removing, Cutting, Opening
+1cadc8cd	<b>surgery</b> is treating disease or injury by manual operation and usually involves an <b>incision</b> (a cut). ⟦0⟧ means removal by cutting.⟦1⟧
+dc545809	The three main suffixes
+59a76bbb	removal (excision)
+1788f896	hepatectomy: removal of liver tissue • adenectomy: removal of a gland
+9c945ea1	cutting (incision)
+f3288a10	laparotomy: cutting into the abdomen • tracheotomy: cutting into the windpipe
+7f74d193	tracheostomy: opening into the windpipe • colostomy: opening of the colon
+3e665981	ectomy: cutting “out” (ec-); stomy: a new “mouth” (stoma).
+6f6ba7c4	removal of liver tissue
+2df2c8a1	cutting into the liver
+4589f1b0	fixing the liver in place
+cd7a3759	looking inside the liver
+8d781d7c	making an opening in the windpipe
+f0926f44	removal of the windpipe
+b58e1bfb	repair of the windpipe
+19888457	cutting into the abdomen
+8c8b4d3e	opening of the colon
+7e60daf8	The suffix <b>‎-tome</b> means a cutting instrument: a <b>microtome</b> cuts very thin slices of tissue for the microscope and a <b>cystotome</b> cuts the bladder.⟦0⟧
+bf749e69	the act of cutting
+ad2a41ab	A microtome is an instrument for cutting thin slices of tissue.
+6e937fb5	micro- (small) + -tome.
+78caeebe	Cutting into the abdomen for surgery is called ___.
+f8360709	Build a word meaning “making an opening into the colon”
+0f08d4f2	Spell the key term for removal by cutting
+617434a8	ex- (out) + cision (cutting).
+11097ccb	Puncturing and looking inside
+19ba580f	The suffix <b>‎-centesis</b> means puncturing and drawing out fluid (a tap):⟦0⟧⟦1⟧
+92c907c1	puncturing the chest and drawing out fluid
+71f93159	drawing fluid from a joint
+a08628ff	drawing fluid from the abdomen
+5091da26	puncturing a cavity to let fluid out
+128105d1	In Mary’s case, the swollen knee was drained by arthrocentesis and the pain eased.
+e9be69e2	puncturing a joint and drawing out fluid
+4a62097b	cutting into a joint
+2733cf71	reconstructing a joint
+bb08a831	drawing fluid from the chest with a needle
+c79e5093	cutting into the chest
+a2fbf90e	listening to the chest
+97be634f	Looking inside with an endoscope
+22abd887	⟦0⟧ = <b>arthroscopy</b>: examining the inside of a joint with an endoscope. ⟦1⟧ shows the inside of the abdomen. The surgeon can also take samples during these endoscopies.⟦2⟧
+28b9d52b	needle and drawing fluid
+e6d45139	endoscope and viewing
+6387afbf	drawing fluid from a joint
+27586ac4	looking inside the abdomen
+76157bdc	Arthroscopy is a large incision into a joint.
+3d7faea5	False; it is looking inside a joint with an endoscope. Cutting into a joint is arthrotomy.
+55679b67	cutting into an organ to remove a stone
+2271d037	crushing a stone (‎-tripsy)
+bf56a9ca	crushing a stone
+fae8fb3b	stone formation
+3a7c0576	viewing a stone
+9a505a56	Drawing fluid from the abdominal cavity with a needle is called ___.
+9cedb557	Build a word meaning “drawing fluid from a joint”
+eff77c76	Spell the term for looking inside a joint with an endoscope
+22907fa1	Repairing, Fixing, Crushing
+fd4b3280	Five repair suffixes
+5eb2c2a7	repair, plastic surgery, reconstruction
+4715524b	rhinoplasty (nose) • gastroplasty • arthroplasty
+ccb7e248	herniorrhaphy: hernia repair
+fc7e187c	hysteropexy (uterus) • nephropexy (kidney)
+3972e854	pleurodesis (pleura) • arthrodesis (joint)
+65b0d853	lithotripsy (stone) • neurotripsy (nerve)
+764873b0	plastic surgery of the nose
+511004a0	cutting into the nose
+093fea91	surgical fixation of the kidney
+8d35fda9	removal of the kidney
+ea7e29df	crushing a kidney stone
+86be2abd	repairing the kidney with sutures
+80f01a89	reconstruction
+a4401297	Two key words
+048578be	holding a structure in place; the suffix ‎-pexy
+0754097b	sewing together; also the thread or seam of stitches; the suffix ‎-rrhaphy
+363e55fd	pexy pins a part in place; rrhaphy repairs it with stitches.
+a525ec58	lithotripsy means crushing a stone.
+943f6d8f	Repairing a hernia with sutures is called ___.
+64ce9e00	Review of the “Surgical Suffixes” level
+f2813819	‎-ectomy removal (excision) • ‎-tomy cutting (incision) • ‎-stomy opening • ‎-tome cutting instrument
+a93cebf0	‎-centesis puncturing and drawing fluid: thoracentesis, arthrocentesis, paracentesis
+ee9c00a1	‎-scopy looking inside: arthroscopy, laparoscopy
+ca8095fb	‎-plasty reconstruction • ‎-rrhaphy suture • ‎-pexy fixation • ‎-desis fusion • ‎-tripsy crushing
+732c8cb1	Build a word meaning “surgical fixation of the uterus”
+2211bd33	Spell the term for surgical repair of a hernia
+4229a97b	herni/o + -rrhaphy; double rr.
+db94cd2c	Why Surgery?
+49f0ecf5	Four goals
+63cbd17f	⟦0⟧<b>resection</b> means removing part of a structure; a <b>surgeon</b> is a physician who specialises in surgery.
+a8d2e886	Match each goal to its example
+0afff723	removing an inflamed appendix
+29e02d89	a colostomy or an organ transplant
+4791287d	reducing the pain of an incurable patient
+13438524	A <b>biopsy</b> (bx) means removing a small amount of tissue for the microscope.⟦0⟧⟦1⟧
+0bfc4d11	A liquid biopsy examines tumour DNA in the blood; its sample is easier to obtain.
+0436bef6	removing a small amount of tissue for microscopic study
+90610a49	removing an entire organ
+fe827b46	drawing blood for a sugar test
+3aa01c6d	Taking a sample by drawing fluid out of a cyst with a needle…
+071107c6	Urgent or elective?
+959885d0	⟦0⟧<b>Palliative</b> surgery relieves pain or discomfort, for example shrinking a tumour to relieve pressure.
+ca7d0b72	urgent; immediate danger such as severe trauma or a blockage
+35e68179	elective; no serious consequences if it is delayed
+63ac75a9	An elective operation has no serious consequences if it is delayed.
+46e10051	removing part of a structure
+799f82b7	suturing
+26de934a	Surgery that only relieves pain and does not cure the disease is ___.
+211a203a	Spell the term for removing tissue for the microscope
+7874d385	Before and After Surgery
+320cf680	The patient’s path
+c5d5d861	⟦0⟧<b>preoperative</b> (preop): examination, informed consent and pre-admission tests. <b>postoperative</b> (postop): recovery from anaesthesia, follow-up and teaching home care.
+d54f05ab	Put the patient’s path through surgery in order
+5525616f	Before surgery, operating room, recovery, after surgery.
+235c0328	recovery after anaesthesia
+de31599e	nothing by mouth
+20211bdc	Anaesthesia and closing the wound
+56d3be81	Surgery usually needs <b>anesthesia</b>: loss of the sense of pain produced by drugs. After the operation, the incision is closed with <b>sutures</b> (stitches), <b>stapling</b>, adhesive strips or skin glue. A <b>ligature</b> means tying or binding, for example a vessel.
+1662c7a5	loss of the sense of pain
+1b246c2b	a drug for fever
+fdbf475f	stitching a wound
+9fa1dab3	an- (without) + esthesia (sensation).
+36c70110	Energy tools
+d44338d2	a high-energy light beam for surgery and diagnosis
+d0a272f7	destroying tissue with heat, chemicals or electricity (electrocautery)
+44ba027d	surgery with robotic, computer-guided instruments; less invasive, with less bleeding
+4a57e1de	destroying tissue with heat, chemicals or electricity
+17cb7e33	stitching a wound
+caf65f7f	tying a vessel with thread
+1dff443f	looking inside a cavity
+98bde488	Robotic surgery usually causes less bleeding than conventional surgery.
+721361d1	After surgery, the patient first goes to the ___ unit to wake up from anaesthesia.
+29fdeab4	Spell the term for loss of sensation induced by drugs
+f1a90f29	The six instruments of Figure 3-16
+78d877f2	curette, forceps, hemostat, retractor, sound and scalpel
+2e5db76d	surgical knife
+313b0833	grasping or extracting
+64890cfe	small clamp to stop bleeding from a vessel
+605c3829	holding back the wound edges and organs
+8cd05810	a spoon for scraping the wall of a cavity
+1ce5f198	a rod for probing a cavity or canal
+54b1499b	This instrument is a sharp surgical blade. Its name is…
+7faae31f	This scissor-like instrument with a lock is used to clamp a bleeding vessel. Its name is…
+4b698044	hem/o + -stat (stopping).
+77099fa1	Bleeding-stopping clamp
+13dcd507	An instrument with a spoon-shaped tip for scraping the wall of a cavity…
+4184e440	Spoon-shaped tip
+16af948d	This instrument holds the wound edge aside so the surgical field stays open. Its name is…
+8180dad6	Wound spreader
+d471a2cd	Two-pronged pincers for grasping tissue…
+31f7b1fd	Pincers
+cf4b0991	A long, curved rod for probing a canal…
+21d6f96e	Probing rod
+51e105c8	Other instruments in Box 3-6
+9ce3323c	compressing tissue
+511c1a8e	cutting with two blades
+3482f5f9	lifting tissue or bone
+55697151	bone-biting forceps
+89ccdbc8	flexible wire saw
+4cc3cec8	a slender rod for probing and widening tubes
+c02e72a4	a sharp needle inside a tube; after the puncture, the cannula stays to let out fluid or air
+4a733d16	Match each instrument to its job
+beb0413f	file
+28443fa2	lifting bone
+3fde2ee4	widening a tube
+54303822	wire saw
+3c101623	Review of the “Operating Room and Instruments” level
+351820fa	Goals of surgery: treatment, diagnosis (biopsy), restoration, relief (palliative) • emergency or elective • resection
+aa596bbd	Closing a wound: suture, stapling, ligature • laser, cautery, robotic surgery
+fe8d3c89	scalpel, forceps, hemostat, retractor, curet, sound, clamp, scissors, trocar, cannula, bougie, rasp, rongeur
+129484c0	Spell the term for the surgical knife
+bd245d07	Tubes and Irrigation
+cdfc5e77	Catheter
+f56e2f67	A <b>catheter</b> is a thin tube passed into a cavity, organ or vessel to draw fluid out or put it in. Figure 3-19 of the book shows continuous <b>irrigation</b> (washing) of the bladder with a catheter.⟦0⟧
+b0b410eb	Continuous bladder irrigation with a catheter
+3945ed8c	In this picture, fluid from the upper bag enters the bladder through a catheter and returns to the lower bag. This is…
+c2788557	Washing the bladder
+665c4c66	Irrigation and drainage
+5e2248d7	washing out a cavity
+014f9f30	a device that lets discharge out of a wound or cavity; such as Penrose and Jackson–Pratt
+0daa6983	putting fluid into the body by a route other than the mouth
+f6729fb0	a salt solution compatible with cells (NS)
+b8fd962f	draining discharge from a wound
+c4239d1f	putting fluid in
+342d7e82	thin tube
+098f0749	a salt solution compatible with living cells
+422a7061	distilled water
+c0ced325	sugar solution
+c1edf9eb	NaCl solution; NS or PSS.
+6f60debf	I&D means incision and drainage, for example of an abscess.
+9bd99881	A cannula and a trocar are used together. What is the trocar’s role?
+5615dd6f	Puncturing the cavity; then it is pulled out
+a6d81cdb	Staying in place to let fluid out
+48fdfe07	Stopping bleeding
+0175b809	The trocar is sharp; the cannula stays.
+a9f1e9d8	A tube running from an arm vein to the superior vena cava is a ___ catheter.
+4df3b497	Build a word meaning “drawing fluid from a cavity”
+2964f23e	Spell the term for a thin tube passed into the body
+097845e0	Treatment, Prognosis, Prevention
+65a02708	Treatment and outcome
+f32a34eb	After diagnosis, <b>therapy</b> (treatment) begins: counselling, drugs, surgery, radiation, physical therapy, occupational therapy or a combination. During treatment, the <b>prognosis</b> (the predicted course and outcome of the disease) is assessed.⟦0⟧
+9ff44d24	identifying the disease
+60767709	predicting the course and outcome of a disease
+8e33ec13	identifying the cause of a disease
+55d27eb7	pro- (before) + gnosis (knowledge).
+4d913b7b	Relief and prevention
+0cec57d4	relief without aiming for a cure; such as reducing the pain of an incurable patient
+0f9c9678	palliative comes from Latin pallium, a cloak: it covers the pain but does not remove the disease.
+7b04951e	pain relief
+044466d2	definitive cure
+6fe62819	Cancer: grade and stage
+9e9608ea	Cancer physicians classify tumours in two ways:⟦0⟧Common cancer treatments: surgery, <b>radiation therapy</b> (RATx), <b>chemotherapy</b> (treatment with chemicals) and <b>immunotherapy</b> (stimulating or suppressing the immune system). When no sign of disease remains, the cancer is in <b>remission</b>.
+aee4a1af	examining how misshapen the cells are
+ed427024	how far the tumour has spread
+e9e99090	treatment with chemicals
+3b012343	treatment through the immune system
+b7b751fe	In TNM, what does the letter N stand for?
+44d8dc85	Regional lymph nodes
+face5edd	Grade number
+d6f86807	Grading is based on cell changes under the microscope.
+0956494a	Tumours are staged with the ___ system.

@@ -1,0 +1,135 @@
+53fce943	The patient’s path through surgery
+4fe4355b	arthrocentesis means…
+0289cc31	arthroscopy, which may be needed, means…
+a4e41fb3	looking inside a joint with an endoscope
+ef2c9837	an x-ray of a joint
+987b3236	Match each joint term to its meaning
+791f77cb	Fixation with a plate and screws matches which suffix?
+7d737ae1	-pexy = fixing in place.
+6c9d2361	An NSAID is an anti-inflammatory steroid drug.
+c22b8787	False; NSAID means a “non”-steroidal anti-inflammatory drug, such as ibuprofen.
+9ee91f84	Outcome
+25baa1c8	When the PA told Mary the expected outcome of her injury, what did they give her?
+c8c71246	prognosis = prediction of the course and outcome.
+83c6f5c8	Post-operative Order Sheet
+2390199b	A 40-year-old man after incision and drainage of an abscess
+5ebdda6f	Mr Nouri’s large thigh abscess was incised and drained in the operating room. After recovery he came to the ward. Explain the physician’s order sheet to a new nurse.
+cde1c1f1	I&D; EBL: 50 mL
+a2a1682c	Path
+e1294578	OR → PACU → ward
+37c3b950	NPO for 6 hours; then liquid diet
+0fc4a29d	IV fluids
+cd822685	NS, KVO
+f7dd93ed	Activity
+e7ddc7b8	OOB with help; BRP
+40fb6076	NPO means…
+dd3e71ca	whenever needed
+eddb6c2e	KVO for an IV drip means…
+c233e518	stop the drip
+c03e1293	run the drip fast
+0b34c284	drip only at night
+a3978f04	Put the patient’s path in order
+e52ec13a	STAT on an order sheet means “as needed”.
+d5048f68	False; STAT means immediately and prn means as needed.
+ac32cc4d	NS means…
+6adbaeb1	a salt solution compatible with cells
+35e48971	sugar solution
+1b9d0445	whole blood
+4b5b5178	alcoholic solution
+54da8ed0	Chelsea’s Medications
+898760f5	A 20-year-old woman with asthma before surgery (case 3-2)
+7f87f189	A week before cosmetic surgery, Chelsea came to the pre-admission testing unit. The nurse listed her medications, and the anaesthesiologist also gave pre-operative orders.
+019a9395	1 spray (50 mcg in each nostril) b.i.d.
+703eae2e	Inhaling the drug
+a3de35f1	Dose
+2010ba3b	Flovent: one 50 mcg puff in each nostril, b.i.d. How many mcg is that in one day?
+e569131b	50 × 2 nostrils = 100 per dose; × 2 doses = 200.
+1fb2f1da	Arnica: three tablets SL, t.i.d. How many tablets in one day?
+bb2fcc31	3 tablets × 3 times = 9.
+66e84954	Drug class
+df0306cf	Ativan is given for nervousness, so it is a… drug.
+0fe48a55	anxi/o (anxiety) + -lytic (reducing).
+8576943d	Interaction
+97a3d503	Lorazepam and the anaesthetic drug have a greater effect together. What is this called?
+670a862d	Synergy; like potentiation.
+32c26cfa	Drug form
+5e8e3446	A drug inhaled as a mist from an inhaler…
+5ca6eb54	An aerosol is a solution dispersed as a mist.
+d7f8cb79	Hives After an Injection
+11068e2d	A 30-year-old woman in the clinic
+e8f7c1a3	Five minutes after an intramuscular antibiotic injection, Mrs Moradi developed hives, shortness of breath and falling blood pressure. The team acted at once. Her chart said “NKDA”.
+cb9452bb	Reaction
+d63cc7b6	From now on
+92c6de79	Injection angle
+c8ab57f4	anaphylaxis means…
+bb0808ce	a severe, dangerous allergic reaction
+389bfc99	It can lead to shortness of breath and falling blood pressure.
+bb36f816	NKDA in a chart means…
+2385b241	no known drug allergies; NAD means no apparent distress.
+d72dc64b	Drug safety
+7877a666	From now on, penicillin is a… for her.
+1415ccc0	Contraindication: a reason not to give a drug.
+bb2db4b8	At what angle is an IM injection given?
+72fc4297	parallel to the skin
+b271b46b	IM 90, SC 45 and ID 15 degrees.
+a8fee7b2	STAT means the drug must be given immediately.
+d14c122f	Start the meaning from the suffix: hepatomegaly means “enlargement” + “liver”.
+f44a0a01	path/o means disease: a pathogen is a disease-causing agent and pathology the study of disease.
+46967aaf	In ‎-rhage, ‎-rhea and ‎-rhexis double the r: hemorrhage, pyorrhea, hepatorrhexis.
+27214996	tachy- is fast and brady- slow: tachycardia is a fast heartbeat and bradypnea slow breathing.
+c3ca5ee1	stenosis means narrowing and ectasia widening; two words with opposite meanings that both become suffixes.
+a10db1c2	Don’t mix up py/o (pus) and pyr/o (fever): pyogenic is pus-producing and pyrogenic fever-causing.
+752978b4	staphylo- means bunch of grapes and strepto- chain; staphylococci are round and clustered.
+b334929b	cocci are round, bacilli rod-shaped, vibrios curved and spirochetes corkscrew-shaped.
+93cca6c2	endemic is constant and low, epidemic sudden and widespread in one region, pandemic across the whole world.
+1c694e68	nosocomial means hospital-acquired infection; MRSA is a resistant, dangerous example.
+a1606759	iatrogenic means “caused by treatment” and idiopathic “of no known cause”.
+24a4d583	The four signs of inflammation: heat, pain, redness and swelling; the suffix for inflammation is ‎-itis.
+c4476aa1	phag/o means eating: phagocytosis is a white blood cell swallowing a microbe.
+b3776412	An abscess is pus collected in one place, and cellulitis is inflammation spreading through tissue.
+9a7f6e53	hyperplasia means more cells; hypertrophy means bigger cells, not more.
+372a6885	A fistula is an abnormal passage and a fissure a split; a polyp is a mass on a stalk.
+3dd05496	A sign is seen or measured by the physician (fever, high blood pressure); a symptom is felt by the patient (pain, dizziness).
+297ba749	Remember the order of the physical examination with IPPA: Inspection, Palpation, Percussion, Auscultation.
+550f50d1	‎-graph is the recording instrument, ‎-graphy the recording method and ‎-gram the record itself: electrocardiograph, electrocardiography, electrocardiogram.
+b1369914	In a radiograph, dense tissues such as bone look bright because they absorb x-rays.
+657b4214	MRI uses a magnetic field and radio waves and has no x-rays.
+4a10ff61	‎-ectomy is removal, ‎-tomy cutting and ‎-stomy making an opening: hepatectomy, laparotomy, tracheostomy.
+2e3a8771	‎-centesis means puncturing to draw out fluid: thoracentesis, arthrocentesis.
+f542e0c3	‎-pexy fixes in place, ‎-desis fuses and ‎-rhaphy sutures.
+9073ccdf	palliative means relieving: it reduces pain but does not cure the disease.
+5a574525	Prognosis is predicting the outcome of a disease and diagnosis identifying the disease itself.
+53cc4627	bid is twice a day, tid three times and qid four times; prn means whenever needed.
+55396543	ac is before meals and pc after meals; hs at bedtime.
+305d2bfe	A generic name is written in lower case (acetaminophen) and a brand name with a capital (Tylenol).
+959eced0	Synergy means two drugs together have a greater effect than the sum of their effects; an antagonist cancels out another’s effect.
+8b1843ac	Tolerance means the same dose no longer has its earlier effect and the dose must be raised.
+89f1ccf2	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Timar is a learning tool and does not replace medical references or clinical judgment.</p>⏎    </section>
+e09ea981	Search: biopsy, inflammation, hernia…
+ed0af90e	<div class="tpane">⏎    <p class="muted">Type a medical word and it will be broken into prefix, root and suffix. The golden rule: start the meaning from the <b>suffix</b>, then the prefix, and finally the roots.</p>⏎    <label class="tsearch tsearch--big"><span aria-hidden="true">✂</span><input type="text" data-tp value="⟦0⟧" dir="ltr" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. chondrosarcoma"></label>⏎    <div class="tchips tchips--btn">⟦1⟧</div>⏎    <div class="tout" aria-live="polite">⟦2⟧</div></div>
+7c4ed255	Search: scler, inflammation, -itis…
+7789fc51	Search: bid, blood pressure, NPO…
+b0004d0a	warmth (calor)
+a4218619	ache (dolor)
+d6cb9517	reddening (rubor)
+075d8d27	swelling (tumor); suffix for inflammation: ‎-itis
+17335c86	Physical examination (IPPA)
+a376262c	feeling with hands and fingers
+8ea51e18	tapping and listening to the sound
+4f3a7ea3	listening to body sounds with a stethoscope
+839f06ce	Vital signs (VS)
+96bc70ee	body temperature; °C or °F
+b6809767	pulse; beats per minute (bpm)
+3dbd3eb8	blood pressure: systolic/diastolic in mm Hg
+f6301056	Diagnostic suffixes
+0eca5fdf	measuring instrument / measurement
+f72532b3	viewing instrument / looking inside
+69243db6	cutting / cutting instrument
+1e235924	repair and reconstruction / suture
+ce68def7	fixing in place / fusion
+acbc8524	Medication timing
+2ada250a	before meals / after meals
+553ac6ff	2 • 3 • 4 times a day
+88afae8c	into a muscle; 90° angle
+8abbab6a	under the skin; 45° angle (sometimes 90°)
+9cb69294	into the skin; 15° angle

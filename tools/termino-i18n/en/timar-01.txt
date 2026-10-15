@@ -1,0 +1,330 @@
+6491badc	Timar
+f5763d72	Timar • Terminology of Disease and Treatment
+824ae8bb	Medical terminology of disease and treatment
+1dd928bf	🩺 Medical terminology: Disease and Treatment
+57f2ce4d	Hi, I’m <b>Timar</b>;
+f06a5e08	Hi, I’m <b>Timar</b>, a capsule that takes good care of its patient! Here you’ll learn how diseases are named, what microbes and the body’s response are, how a physician examines and images, which suffixes and instruments a surgeon works with and how to read a prescription; and you’ll <b>decode</b> every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures from the textbooks, ⟦2⟧ teaching figures, ⟦3⟧ clinical charts and Leitner cards are waiting for you.
+08a7b2f0	Timar is an educational tool and does not replace medical references, clinical judgment or a physician’s orders.
+794512a7	Dozens of teaching figures and textbook pictures, from the shapes of bacteria and inflammation to examination, imaging, surgical instruments and injection angles.
+26a62952	Break every disease word into prefix, root and suffix, and build new words with suffixes such as ‎-itis, ‎-megaly and ‎-stenosis
+68f79181	Recognise the types of disease, microbes such as cocci, bacilli, viruses and fungi, and spread words such as epidemic and nosocomial
+dee84bfb	Name the body’s responses to disease: inflammation, edema, phagocytosis, abscess, neoplasm and hernia
+739396f3	Read the history and examination (IPPA), vital signs, examination instruments and imaging methods in a chart
+1b78d2a4	Understand surgical suffixes such as ‎-ectomy, ‎-tomy, ‎-stomy and ‎-plasty, operating-room instruments and complementary therapies
+bcb64ad4	Read routes of administration, drug forms and prescription abbreviations such as bid, prn, po and SL without mistakes
+7dae732e	Just 5 minutes a day. A few weeks from now you’ll read a patient’s history, order sheet and prescription like your mother tongue.
+8046ab25	Hi! I’m Timar, a capsule that takes good care of its patient 💊 What’s your name?
+2ce51a37	Which world shall we start with? If you’re new, “The Language of Disease” is the best start; the word-building pieces are taught there!
+316186a7	The chart says: <b dir="ltr">osteomalacia</b>. It means…
+8d85c2db	Root + suffix
+426cba02	Death of bone tissue
+982a05b9	Breaking of a bone
+96bf93a1	⟦0⟧<br><b>oste/o</b> = bone • <b>-malacia</b> = softening. So it means <b>softening of the bone</b>, for example in vitamin D deficiency. With <b>-necrosis</b> (osteonecrosis) it would be death of bone tissue, and with <b>-itis</b> (osteitis) inflammation of the bone. Start the meaning from the suffix!
+164a7783	Ward Newcomer
+66270c64	Root Finder
+1b431a1b	Microbe Hunter
+ed0b0ab5	Inflammation Detective
+1c38c19f	Careful Examiner
+def9c35a	Stethoscope Ear
+9c5eec08	Radiograph Reader
+4596bc34	Operating Room Assistant
+1bd1024c	Word Surgeon
+3c93f779	Junior Pharmacologist
+d27bd96f	Timar Supervisor
+f6155ce6	Master of the Language of Disease and Treatment
+7546e52b	Emergency medical technician
+8ef71614	Operating room nurse
+83fd5392	First Step
+f90a678e	Microbiologist
+0c1d8fcd	Body Guardian
+d429c118	Examiner
+87253020	Pharmacologist
+86820233	pocket of pus
+ed3553d1	pain and fever reliever
+d5dddbe6	colourless
+d4b12bc6	stain for tuberculosis bacteria
+ef4935ce	pressure applied to body points
+68effb1a	treatment with fine needles
+e939bd55	sudden and severe
+1bece2ea	immunity learned after exposure
+5fab607e	removal of a gland
+5f56cf7d	cancer of glandular tissue
+cbf7e454	hernia containing fat
+e044aeac	needing oxygen
+18d2bb2d	fine spray of particles
+0db25dab	sense of pain
+971a7545	pain-sensitivity meter
+8f8d761a	hypersensitivity reaction
+4580b6ca	fetal protein measured in pregnancy
+13a97f87	rupture of the amniotic sac
+aee95251	sealed glass vial
+8f0da95d	not needing oxygen
+24492b36	absence of pain
+ab1140f6	painkiller
+5fe554a8	severe whole-body allergic reaction
+3d08aa4f	loss of cell differentiation
+186eedd4	drug that blocks another’s action
+5d93cfb0	protective immune protein
+4faca9c5	drug against vomiting
+a4db4fbf	fever reducer
+b90503e9	drug against anxiety
+814e3b26	water-based solution
+83b5ef08	hardening of the arteries
+64a05974	sudden narrowing of an artery
+8d2167d1	drawing fluid from a joint
+ee5bdd76	surgical fusion of a joint
+ce9fad6b	surgical repair of a joint
+e94da78e	looking inside a joint with a scope
+cc1c0550	fluid in the abdomen
+d1dabb61	drawing out with a needle
+73d91a18	acetylsalicylic acid
+e3a92994	hearing-test device
+64cf7e33	hearing measurement
+25031bb0	listening to body sounds
+1fa348cf	body attacking its own tissue
+0bed3750	rod-shaped bacteria
+f5f2ab3c	rod bacteria in the urine
+ddfe4dd6	killing bacteria
+e6aef929	stopping bacterial growth
+64f04aa1	air-pressure meter
+c505433d	injury caused by pressure
+07a0c413	not cancerous
+2052c580	learning to control body functions with feedback
+c7c1095c	tumour of immature cells
+bd1eedee	drooping eyelid
+fcac6b2b	single rapid dose
+19eb4e6d	slender dilating rod
+42fb248b	slow breathing
+00b10f0c	widens the airways
+d3b2eb94	airway viewing scope
+4a6db13b	airway spasm
+b8a0067d	narrowing of an airway
+ecb1a0af	abnormal vessel sound
+a5247fd3	heat-measuring instrument
+70d52f56	tube left in place after the trocar
+2dba68d4	cancer-causing agent
+4a010029	origin of cancer
+f135e8ca	slow-growing neuroendocrine tumour
+23b941f4	cancer that has not spread
+3d597d55	death of heart tissue
+ebf8aecf	thin flexible tube
+eeb4f78f	burning tissue
+af568376	drawing fluid from the abdomen
+76b2a504	scope examination of the abdominal cavity
+23280b2a	spreading skin infection
+4d3f555a	swelling of the head
+3dcd2c51	drug treatment of cancer
+abf98857	spinal manipulation therapy
+a63731cc	tiny intracellular bacteria
+06a66861	coloured
+02d52b4e	in time order
+05b007b8	time-measuring instrument
+0dba3024	affecting heart rate
+d15c8935	x-ray film
+a8f25478	compressing instrument
+ed4ab855	widened fingertips
+ee01bc63	fluid infusion
+0db7b158	round bacteria
+847a886f	cramping abdominal pain
+cba83bba	opening of the colon onto the abdomen
+56b45873	spread from person to person
+a374a76a	present at birth
+62c786dc	preventing pregnancy
+e23d1be6	dye that improves imaging
+57995028	opposite pulling force
+561fb34b	softening of the skull
+b74193a1	cream
+4327bb0a	freezing probe
+b55d2cf8	cold treatment
+10fb585c	scraping spoon
+cc6564a2	bluish skin
+c2473e30	cyst
+011d9553	having cysts
+89db2e4d	bladder-cutting instrument
+7f71c617	wasting disease
+342462f9	blood filtering through a membrane
+c1a5c93e	profuse sweating
+a5a6f19f	lower blood pressure number
+fca09ee9	tube that lets fluid out
+1aeb75c3	bloody diarrhoea
+0dc1fa86	abnormal tissue growth
+e2e36774	abnormal tissue nourishment
+c24b1e78	ultrasound recording
+898b953d	swelling
+040b18c1	swollen
+6042547d	effectiveness
+b48f8662	fluid collecting in a cavity
+904de60f	planned, non-urgent surgery
+4531b648	brain-wave recorder
+0414e7fc	breakdown by electric current
+6e669189	lifting instrument
+ebbe6863	sweetened alcoholic liquid medicine
+32792014	emergency medical technician
+2853b645	mixture of undissolved liquids
+e5c857b3	constantly present in a region
+5def46e3	instrument for viewing inside
+9373f0b2	toxin inside bacteria
+acb87e47	sudden widespread outbreak
+98f59ccf	around the spinal cord coverings
+b46cbb70	measuring work done
+e84b7549	cause of disease
+24095028	worsening of a disease
+1c246caf	cutting out
+644db7b3	toxin released by bacteria
+a08e98d4	oozing fluid
+29bf948d	facial expression
+ef769cb9	fever of unknown origin
+bf7406dd	groove or split
+0cce897f	abnormal passage
+0cf07df6	holding in place
+fed30ab7	grasping instrument
+efe6c760	tissue death with decay
+512500d7	stretching of the stomach
+5d97d60e	hernia of the stomach
+cb332cb4	surgical repair of the stomach
+42131813	wire saw
+7c380e96	tumour grading
+e8deec46	stain that sorts bacteria into two groups
+b431f2c5	parasitic worm
+74b31bae	destruction of red blood cells
+94a8c983	heavy bleeding
+ed8eecae	stopping of bleeding
+c8cd8a31	clamp that stops bleeding
+02eafa9c	removal of part of the liver
+dc525a5f	rupture of the liver
+c14d6999	plant-based medicine
+1f1f40ea	rupture
+93c18bc8	surgical repair of a hernia
+e9bc35a2	stomach pushing through the diaphragm
+7e9931bc	history
+43b5a0f2	whole-person care
+49864441	treatment with tiny doses of like substances
+693265a5	hormone disorder
+a8fbd000	fluid sac around the testis
+29dc7548	above normal pressure
+8e5c4a2e	increase in cell number
+e16bbacb	very high fever
+65e2b33a	raised body temperature
+c581e2c9	increase in cell size
+91fe18a1	trance-like state
+c48a16f3	sleep-inducing drug
+2d39734b	fluid injected under the skin
+8cc4a567	lowered body temperature
+d6455acb	surgical fixation of the uterus
+34332719	caused by treatment
+9310c8d6	anti-inflammatory painkiller
+081b8852	of unknown cause
+b6c1a4e7	treatment through the immune system
+0b1347db	localised firm spot in tissue
+40318b24	infectious disease
+811fadcc	breathing in
+0de7a513	injection
+55e621ba	inborn immunity
+807ae700	looking
+a43a8562	putting in drop by drop
+8d694dd3	into the skin
+3511c884	into a muscle
+075ba10b	into the spinal canal
+8e9cbe0f	into a vein
+09e8db9d	washing out
+9adad850	breakdown of the cell nucleus
+0e27e642	cutting into the abdomen
+406571db	intense light beam
+1406d258	washing out a cavity
+06583e5a	area of damaged tissue
+af60fd95	thread tied around a vessel
+228a701d	fatty tumour
+330d0cda	tumour test from a blood sample
+46a0c8c6	stone formation
+ca760e7c	incision to remove a stone
+4b989c70	liquid for the skin
+5c25c31d	medicated tablet that dissolves in the mouth
+dfbd1eca	MRI (magnetic resonance imaging)
+023c222e	poor absorption
+1bf5c37b	vague feeling of illness
+c184fa64	cancerous and spreading
+c2470dee	massage
+f45cc31c	focused calming of the mind
+aa6215d6	heavy menstrual bleeding
+7b29cc0a	stopping of menstrual flow
+2f7d15f8	mental disorder
+8110cb36	metabolic disorder
+e0eafc6b	change of cell type
+c8952043	spread of cancer
+bdb62477	inhaler that gives a measured dose
+44f59ba3	microscopic organism
+8d3a8aa1	magnifying instrument
+7b4a7295	thin-slicing instrument
+fc9095e7	mucus thinner
+b4b931ea	resistant to many drugs
+cfcfc36b	muscle pain
+512b17f1	study of fungi
+82ca8e63	fungal disease
+3515b8f8	fungal
+78cfe10b	destruction of muscle
+0b36ddb9	muscle disease
+e38a0165	rupture of a muscle
+fe5bac43	opioid
+a8dbf0ec	natural-remedy medicine
+4ae01731	device that turns liquid medicine into mist
+8b5947ed	tissue death
+fa2cf800	new uncontrolled growth
+b3953223	tumour
+7dc8b8ef	kidney disease
+7d8b218c	surgical fixation of a kidney
+ad35c7ca	substance toxic to the kidney
+caecbfba	nerve tumour
+2359f177	crushing of a nerve
+4707b9a0	at night
+58cf6153	normal body flora
+fff06a38	normal saline
+2447e622	hospital-acquired
+8cea1926	ointment
+32ce3ee5	cancer-causing gene
+ab755f3a	tumour-causing
+4788292c	destruction of a tumour
+a23c973d	open reduction of a fracture
+457ff3e3	eye-viewing instrument
+656f4913	opportunistic
+f0473180	oral
+1bc2cd51	treatment by correcting body structure
+ff8d0bbf	ear-viewing instrument
+f9a2882c	over-the-counter medicine
+3b1f58ca	abnormally thick skull
+06cf15de	abnormally thick fingers
+130eae1b	comfort care without cure
+5eaa21ea	paleness
+148cc134	feeling with the hands
+484e1150	worldwide epidemic
+9d62950e	drawing fluid from a cavity
+8e58c126	parasite
+023b050d	disease-causing agent
+06bec9be	development of disease
+9b7dc86a	disease-causing
+54a04d1b	specialist in disease and tissue diagnosis
+89b2366e	tapping
+02e7ed6c	central catheter inserted through an arm vein
+283f3c77	cell that engulfs invaders
+29cab9e8	engulfing of invaders by cells
+83ee8388	study of drugs
+46f55420	drugstore; dispensing of drugs
+f48d2db6	hardening of the veins
+c7ccc077	sound recording
+82c73870	response to light
+46fdecd9	plant medicine
+6e23f122	sealing the pleural layers together
+11e69644	lie detector
+73c65828	polyp
+aaa46130	portal of entry
+673ef749	PET scan (positron emission tomography)
+5971b3d6	strengthening of effect
+eb77475e	early warning symptom
+48da27a5	slipping down of an organ
+5eb37584	prevention
+df5cc230	single-celled organism
+8abb4c9c	acting on the mind
+c32d44ee	drooping
+37fd9a9e	pulse
+da859400	pus
+a656fe0f	pus-filled cyst
+185ce221	pus-forming skin infection
