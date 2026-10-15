@@ -1,0 +1,247 @@
+183bd8c2	in the fallopian tube
+a1602e55	in the uterus
+7c90bdfa	in the ovary
+c2fce9ca	Injecting a single sperm into an egg is…
+011c5f7e	In GIFT the gametes, not the zygote, are transferred to the fallopian tube.
+737ff0a8	Put the steps of IVF in order
+ecbeec7d	From stimulation to transfer.
+6aa8cf3b	injecting sperm into the uterus
+024e05be	injecting sperm into the egg
+37bac184	The treatments.
+b3fb761a	Collecting eggs for IVF is oocyte ___.
+5cfffe50	Retrieving eggs.
+3e3767c2	Spell the term for an immature egg cell
+6f6a638d	Eggy
+4d5d3136	The cell where life begins
+f43ad083	The largest cell in the body; each month one is released from the ovary and waits in the fallopian tube.
+a0f686f0	Master of hyster/o and orchi/o
+cb4bf4dd	A living dictionary that breaks every reproductive word into root, prefix and suffix and never mixes up -rrhea and -rrhagia.
+d4e2b5c0	Places primi-, multi- and nulli- beside -gravida and -para and reads G2 P1 at a glance.
+2fb4d163	Wombie
+d5743e52	The nine-month home
+d3dbd0d4	A hollow muscle the size of a pear that grows many times larger in pregnancy; hyster/o and metr/o are its names.
+17a9b6fb	Moon Counter
+234215eb	Guardian of the 28-day cycle
+fe3b6f2a	Counts the days of the cycle: menstruation, proliferation, ovulation on day 14 and the secretory phase.
+1a657989	Hormone Drop
+4edbb148	Estrogen builds the uterine lining and progesterone keeps it ready for pregnancy.
+6a629b28	Spermy
+ac8c51b4	The speedy swimmer
+6145f3e5	Made in the seminiferous tubules, matured in the epididymis, it swims with its tail all the way to the fallopian tube.
+6ce3b360	Acorn
+19bdf4dd	The busy prostate
+728c08cc	Sits around the urethra below the bladder; if it enlarges (BPH), it narrows the urine stream.
+b9ad92d1	Testo
+e6a6d7a3	The testosterone molecule
+a684b2c4	The male hormone made by the testis; sperm production and the changes of puberty in boys depend on it.
+fb63b131	Zygo
+7be984b8	The first complete cell
+2d86fffa	Formed by the union of sperm and egg, with 46 chromosomes; 6 to 7 days later it nests in the endometrium.
+785f6127	The bridge between mother and fetus
+1c05fb02	Delivers oxygen and food from mother to fetus and makes hCG, estrogen and progesterone.
+fccd2fa3	Bubba
+ee324e98	Apgar 9 out of 10
+e4a236f8	Gets an Apgar score at minutes 1 and 5; its first milk is colostrum, full of antibodies.
+bb80cf4f	STI Hunter
+caf8a4a8	Fights chlamydia, gonorrhoea and syphilis and is a fan of the HPV vaccine and condoms.
+d8abaf20	Mammo
+64db2a92	The X-ray eye
+c58f7096	Finds small breast lumps before they can be felt, and reminds you about monthly BSE too.
+f9335fc7	Health Shield
+9146d13c	Prevention beats cure
+c107f9ec	Never forgets regular Pap smears, breast and testicular self-examination or PSA screening.
+c8fc6abf	Sono
+f98caa68	The eye inside the womb
+399be85f	Shows the fetus, placenta and heartbeat with sound waves; safe and radiation-free.
+1907198d	Zaya Capsule
+35a30cee	Pharmacist for women and men
+3d9a6b51	Tells the contraceptive pill, HRT and oxytocin apart and knows the right dose.
+24165df5	Zaya’s Scribe
+cabdd436	Master of the obstetrics and gynaecology chart
+71af4f0d	Reads G, P, LMP, EDD, TAH and TURP at a glance and stays with you from the first visit to delivery.
+d9f3c7ed	A history to translate
+fb424b9e	Pamela Kline, a 40-year-old woman
+fa36467d	Mrs Kline has come for her annual visit and tells her history in plain language: she has been pregnant five times; fluid was drawn from the amniotic sac in her last pregnancy; she has had several bouts of inflammation of the vagina and cervix; a hernia of a fallopian tube was repaired; and last year her uterus, both ovaries and both tubes were removed. You must write each phrase in the record with its medical term.
+e91a47ba	How is “pregnant five times” written?
+dfe79c28	The APPLY scenario.
+4cef66e6	In TAH-BSO, the letter B means…
+ec8c3e43	The suffix -cele means hernia or bulge.
+cab160aa	salpingocele, cystocele.
+9104ee67	Spell the term for inflammation of the cervix
+296cc9c3	A note full of abbreviations
+3b68a27f	Gynaecology clinic note
+a435b794	Clinic note: <bdi dir="ltr">“Pt concerned about TSS and STIs. Has IUD. Pap: Cx inflamed; R/O PID. Hx of D&C. Mother had TAH.”</bdi> A new nurse asks you to rewrite it in full words.
+d62a9b0c	The note.
+095b7458	Cx in <bdi dir="ltr">“Cx inflamed”</bdi> means…
+6f6e09e1	R/O PID means…
+45e1d68f	rule out pelvic inflammatory disease
+3dbd258d	pelvic inflammatory disease confirmed
+1d9fb389	treatment of PID
+625479d3	history of PID
+67e31773	cervical cell sample
+27d71d2e	removal of the tubes and ovaries
+e92edd9d	An IUD is a contraceptive method.
+c7b93301	Spell the term for the lower opening of the uterus
+d0ca6791	The boys’ health class
+47a675af	Mr James Cocoa, health teacher
+38930bd6	Mr Cocoa teaches a health class for teenage boys and wants to teach the male roots correctly: testis, scrotum, vas deferens, prostate and urethra, and what testosterone does at puberty.
+6242adb9	From the testis to the outside.
+78deca1a	Which group does testosterone belong to?
+37535137	prostate and prostrate mean the same thing.
+ee6a4a77	prostrate means lying face down.
+3a8b3ee8	Which is not a male secondary sex characteristic?
+c0dacb07	breast growth
+38fec366	a deeper voice
+4038b57d	facial hair
+fcc73777	more muscle
+48cd898b	Spell the term for the male gonad
+0dea0276	Hot flushes and night sweats
+e67bd3bf	Heidi Red Feather, a 47-year-old woman
+88b1dcc8	Mrs Red Feather complains of night sweats, hot flushes, irregular periods with bleeding between them, and depression. The doctor says she is probably in the years before menopause and discusses hormone therapy.
+922fd6a2	Which stage do these symptoms mostly point to?
+90563602	The years before menopause.
+e8494920	Falling estrogen causes the hot flushes of menopause.
+54bdabd9	Declining ovarian function.
+77f962c1	Put the stages in order
+4559fd6e	Spell the term for the years leading up to menopause
+cb718271	Looking inside the pelvis
+5ee5c389	Charity Peterson, a 34-year-old woman
+ae4ee677	The doctor has ordered several investigations for Mrs Peterson: hysteroscopy with biopsy, culdoscopy, colposcopy and hysterosalpingography. She asks what each one shows.
+35f49eb8	Match each method to the area it views
+57b221fa	vagina and cervix
+648e8fd7	Which space does culd/o refer to?
+4f932f4b	The pouch.
+05cb9f6f	What is the difference between -scopy and -graphy?
+83505e9b	the first is viewing with a scope and the second recording an image
+ec0b1228	the first is an incision
+9d107b06	the second is suturing
+af0815ab	The viewing method.
+88217089	Hysterosalpingography shows whether the fallopian tubes are open.
+1f52110c	For infertility.
+d18e746e	colp/o means the same as which root?
+01739d44	Vagina.
+77e7e952	Spell the term for viewing inside the uterus with a scope
+4c40b1a2	Postmenopausal bleeding
+79eefc5c	A 52-year-old woman, G4 P4
+b758c286	Chart note: a 52-year-old G4 P4 patient whose last period was at 48 and who takes Premarin was admitted with postmenopausal bleeding. A diagnostic laparoscopy and D&C were planned to rule out a neoplasm. She has a history of simple mastectomy for breast cancer.
+1bbff84a	G4 P4 means…
+64ab1836	four pregnancies and four births
+9d6f2885	four miscarriages
+1db50bcc	four preterm births
+a12738bc	four sets of twins
+de028a14	Gravida and para.
+922b3628	Why is postmenopausal bleeding important?
+0bb41b6a	it may be a sign of endometrial cancer
+5fe05ffb	it is always normal
+88049712	it is a sign of pregnancy
+3ab9abe3	it comes from anaemia
+03b53106	Ruling out malignancy.
+3e79040c	new growth (tumour)
+3b3bdb1a	removal of the whole breast
+c85430da	A chart note in Gylys’s textbook.
+3d08add3	Premarin is an estrogen drug.
+f0d8e0e4	Hormone therapy.
+086be6a8	Which layer of the uterus does a D&C scrape?
+9127630a	Spell the adjective meaning “after menopause”
+f29b7c82	Two operations in one session
+eb110f16	Derek, a 48-year-old man
+fd3b972f	Case Study 15-1: Mr Derek came with bulges on both sides of the groin. Diagnosis: bilateral direct inguinal hernias. Along with herniorrhaphy he also asked for an elective vasectomy because he does not want more children.
+3e0119b6	inguinal means…
+fcc313d7	tying a duct
+cfd38e55	In a vasectomy, which duct is cut?
+f8538f22	After a vasectomy the semen has no sperm, but ejaculation continues.
+be00b565	by choice
+bb84fe27	Spell the term for male sterilization by cutting the duct
+b1c429ab	The testis that did not come down
+f729e7c8	Bob Schaeffer Jr, a newborn boy
+69c21727	Bob’s father is worried: the doctor has said both of the baby’s testes are not yet in the scrotum (bilateral cryptorchidism) and a dilated vein was also seen above the testis. The father also has questions about circumcision. In another record, Rick Springs had an orchiectomy for testicular injury after repair of an undescended testis.
+b0b035d9	What is fixing the testis in the scrotum called?
+132841f9	dilated veins above the testis
+c84cc70e	The APPLY scenarios.
+904718fa	In circumcision, the skin over the head of the penis (prepuce) is removed.
+e614d0ce	Which root means hidden?
+efc925c9	Spell the term for fixing the testis in the scrotum
+bfa0f48b	The problem the patient was embarrassed to mention
+64b84a64	Diego, a 67-year-old man
+27c6501d	Case Study 15-2: Mr Diego, with a history of BPH, said after some hesitation that he has trouble with erections. The doctor investigated and ruled out psychological (psychogenic) causes and prescribed a vessel-dilating drug for erectile dysfunction.
+277840c0	ED means…
+aad5e6f1	psychogenic means…
+de08f544	of vascular origin
+48696ced	Erection is the filling of which tissue with blood?
+c86ad984	corpora cavernosa and corpus spongiosum
+e5270cd3	Erectile tissue.
+10cc692e	ED drugs increase blood flow to the penis by dilating the vessels.
+4f99a264	Spell the older term for erectile dysfunction
+5c22a51e	Emergency caesarean
+cb61b798	Abigail, a 29-year-old woman, G2 P1
+d6e7e51f	Case study: Abigail came in labour at 39 weeks. The fetal head did not fit her pelvis (CPD) and the fetus was right occiput posterior. When fetal distress developed, a caesarean was done under spinal anaesthesia with a transverse suprapubic incision. The baby scored Apgar 9/9. After surgery: Pitocin, PACU, rooming-in and breastfeeding.
+b648d40c	CPD means…
+bf47f881	mismatch between the fetal head and the mother’s pelvis
+56d87041	preterm labour
+180e5dff	G2 P1 means…
+49f78a62	two pregnancies and one previous birth
+95fa71c7	one pregnancy and two births
+b111bbe0	two miscarriages
+ce88d200	twins
+1e138dcb	How was the skin incision for Abigail’s caesarean made?
+8fb90477	transverse, above the pubis
+08d4f560	vertical, in the midline
+0ef67dce	vertical, below the navel
+e1d7eee0	fetal oxygen shortage
+ed8c2063	synthetic oxytocin
+bbb7ffc4	post-anaesthesia care unit
+8fffe330	keeping the baby in the mother’s room
+c3b17803	A case study in Cohen’s textbook.
+076fd6b5	Apgar 9/9 means the baby was doing well at one and five minutes.
+ec8b1b70	Close to 10.
+d3f2ac04	Spell the term for a baby in its first four weeks
+02c65f4f	A normal delivery note
+9185f489	A 25-year-old woman, G1 P0
+556d2cce	OB delivery note: a 25-year-old G1 P0 patient with an IUP at 36 weeks and 6 days came with a bloody show and PROM. Examination: the cervix was 80% thinned (effacement) and 4 cm open (dilation). Under an epidural an NSVD took place, and a second-degree midline episiotomy was repaired. The baby scored Apgar 9/9; EBL 300 cc.
+edd4fc95	A delivery note in Ehrlich’s textbook.
+a06ea170	80% effacement means…
+268d6146	the cervix is 80% thinned
+2152ab87	the cervix is 8 cm open
+d195ca49	80% of the membranes have ruptured
+bc99ad03	the fetus has descended 80%
+6cbc7ec5	Thinning.
+d779d30a	36 weeks and 6 days means the baby is…
+76844def	After this delivery the patient is G1 P1.
+0508afd4	One birth.
+8238a1d8	episiotomy means…
+c650e6d4	Spell the term for thinning of the cervix
+23fd8b81	High-risk pregnancy
+bad234a2	A 23-year-old woman on day 175 of pregnancy
+904a890d	High-risk OB consultation: a 23-year-old multigravida, nullipara with a history of three miscarriages is now 175 days (25 weeks) pregnant. Amniocentesis at week 20 was normal and showed a male fetus. Ultrasound showed placenta previa, and there is a risk of abruptio. FHR about 130. Recommendation: caesarean once labour starts.
+b36475b0	multigravida, nullipara means…
+760967e2	pregnant several times but no births
+44103c0f	pregnant for the first time
+68d06a93	has had several births
+381d98fa	placenta previa means…
+5118774a	placenta stuck to the muscle
+f3e0a733	small placenta
+5f41e5d0	Why is vaginal delivery dangerous in placenta previa?
+eb83f9f1	the placenta blocks the way out and causes heavy bleeding
+23081ab2	the fetus turns breech
+c6c4ce32	blood pressure rises
+379853cd	the baby is born early
+f4bdc17a	Bleeding.
+00fdebfd	The consultation.
+b4714b97	Amniocentesis can show the sex and chromosomes of the fetus.
+fd0c02c1	Karyotype.
+3eb37640	Spell the second word of the term for a placenta over the cervix
+e36ce3e4	Blisters that became ulcers
+30f94240	A 22-year-old woman
+c7c0faf5	A case study in Fremgen’s textbook: a 22-year-old patient came with fever, malaise, painful urination and white vaginal discharge. A few days earlier she had blisters in the genital area that have now become ulcers. Examination: redness and swelling, and enlarged lymph nodes in the groin. Diagnosis: genital herpes.
+fe6d89d8	general unwellness
+a0ca4663	lymph node disease
+f2bae30a	What causes genital herpes?
+7054cffd	Herpes simplex.
+4e31811f	Put the changes of the lesion in order
+8dbcc193	From redness to healing.
+b0661239	erythema and edema mean…
+8c7732ce	redness and swelling
+9a8342c1	fever and pain
+be511be4	blisters and ulcers
+0b3c958a	itching and discharge
+f9869ca2	Genital herpes is controlled with antiviral treatment, but the virus is not cleared from the body.

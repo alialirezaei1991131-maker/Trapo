@@ -1,0 +1,240 @@
+ad9c4849	previa = going before.
+73632446	Preeclampsia comes with high blood pressure and protein in the urine.
+69c55423	after week 20
+f64cdace	Put them in order of severity
+d7aabe98	It is more severe with seizures.
+e260494e	placenta over the cervix
+ed8eaf62	seizures in pregnancy
+07755c8f	The complications.
+48bfde26	A pregnancy in a fallopian tube is an ___ pregnancy.
+d9fd7159	The commonest ectopic site.
+0876d214	Spell the adjective meaning “out of place”
+0a912ceb	Difficult labour and genetics
+2c237b03	Pregnancy loss
+d80d9da9	• ⟦0⟧ (⟦1⟧): loss of a pregnancy before week 20<br>• ⟦2⟧: birth of a dead baby after week 20<br>• ⟦3⟧: death of the fetus inside the uterus<br>• ⟦4⟧: signs of oxygen shortage in the fetus⟦5⟧
+18fe7d16	Textbook exercise 15-9: a 27-year-old patient, G II P I; the ultrasound at week 14 and amniocentesis at week 15 were normal, but at week 18 an intrauterine fetal death (IUFD) occurred.
+facfd7d6	Chromosomal anomaly
+9ae785e2	⟦0⟧⟦1⟧ (⟦2⟧): three copies of chromosome 21; the risk rises with the mother’s age. It is diagnosed by amniocentesis or ⟦3⟧.⟦4⟧
+d0a45e07	Face of a child with Down syndrome
+dbacc217	The prefix tri- means three and the suffix -somy means body (chromosome).
+9bc53034	Death of the fetus after week 20 and its delivery is…
+43418273	Stillbirth.
+40bbd388	What anomaly is Down syndrome?
+b760aa8c	three copies of chromosome 21
+84529245	a missing X chromosome
+a0669c3d	three copies of chromosome 18
+95c3f857	a hormone deficiency
+a299dc5c	miscarriage is the everyday name for spontaneous abortion.
+a15bcf83	Spontaneous abortion.
+9b433ed5	Put them in order of gestational age
+b0c28d2a	From earlier to later.
+e205181f	fetal death inside the uterus
+98464561	chorionic villus sampling
+0ab413e7	Three copies of one chromosome is a ___.
+67e532bc	Spell the everyday term for spontaneous abortion
+ff058b85	The most important STIs
+1d2c5226	often without symptoms; an important cause of PID
+cde26c1e	pus-like discharge
+2514616e	painless ulcer (chancre)
+ed01cddc	painful blisters
+5bc94e90	warts; risk of cervical cancer
+da4c2d74	frothy discharge
+049d7816	Herpes blisters
+a970b0e1	Herpes
+d76e45c4	A case study in Fremgen’s textbook: a 22-year-old woman came with fever, malaise, dysuria and leukorrhea (white discharge). Her blisters had become ulcers and the lymph nodes in her groin were enlarged; the diagnosis was genital herpes.
+e9f27e2f	STI is the same as STD; today we say “infection” because many are symptomless.
+eec5677d	What causes genital warts?
+0c443b83	The papillomavirus.
+e00aa913	What is the painless ulcer of syphilis called?
+a4d2f4a7	A chancre.
+7a4a6b15	Genital herpes comes with painful blisters.
+0e6e6fab	Put the stages of a herpes lesion in order
+9a4768b1	From redness to crust.
+da17796c	the Treponema bacterium
+d6d58947	The causes.
+198ea334	A white discharge from the vagina is ___.
+82c5f53d	Spell the term for the STI that causes pus-like discharge
+3e2ab60e	Diagnosis, Treatment and Prevention
+c7651304	Pap smear and colposcopy, mammography and ultrasound, prenatal tests, PSA and biopsy, hysterectomy, TURP, caesarean section, contraception and IVF
+7a6b312b	Tests and imaging
+ecfa7f8c	Contraception and fertility
+ac36764e	Pap smear and colposcopy
+5eefccbc	⟦0⟧⟦1⟧: taking cells from the cervix with a brush or spatula and examining them under the microscope to find ⟦2⟧ and cancer. The doctor holds the vaginal walls open with a ⟦3⟧.⟦4⟧
+524a1f6c	Vaginal speculum
+8628a2c6	⟦0⟧⟦1⟧ → ⟦2⟧: viewing the vagina and cervix under magnification; done if the Pap smear is abnormal.<br>⟦3⟧: removing a cone-shaped piece of the cervix.⟦4⟧
+a8340408	Viewing the cervix under magnification
+ff2fdbb2	In Case Study 16-1, after abnormal Pap smears and cervical dysplasia, Mrs Naomi had a colposcopy and then a D&C with cone biopsy.
+e63456da	Which part does a Pap smear sample?
+de9c763c	The instrument that holds the vaginal walls open for examination is a…
+656aa715	A speculum.
+0334d190	colposcopy means viewing the vagina and cervix under magnification.
+aeb822ec	Put the steps of cervical investigation in order
+03d65e85	From screening to sample.
+71709fbb	cell screening
+1b80a4f0	viewing under magnification
+49695e55	removing a cone-shaped piece
+66ce8be8	holding the vagina open
+0e5bc61b	The cervix.
+f27449c2	The root ___ in colposcopy means vagina.
+d4410218	Spell the term for viewing the vagina and cervix under magnification
+b0a58f29	Mammography and ultrasound
+f32f3096	⟦0⟧⟦1⟧ → ⟦2⟧: an X-ray of the compressed breast; screening for breast cancer. The image obtained is a ⟦3⟧.⟦4⟧
+868c9a76	Two mammogram views
+2ed4bdb6	⟦0⟧: imaging with sound waves; no radiation and safe for the fetus. In a ⟦1⟧ the probe is inside the vagina.<br>⟦2⟧: a contrast X-ray of the uterus and tubes to check that the tubes are open.⟦3⟧
+006b6820	The textbook’s APPLY scenario: both hysteroscopy and hysterosalpingography were ordered for Charity Peterson.
+890a9c3d	Which kind of radiation is mammography done with?
+e3431b7f	visible light
+76e2612c	Which method is safer for viewing the fetus?
+a761917c	No radiation.
+edd3c59e	A mammogram is the image obtained by mammography.
+b519adf1	-gram = image.
+25edfdf3	Build a word meaning “X-ray imaging of the uterus and tubes”
+c0a8e924	Match each method to its organ
+6fe19d3e	uterus and tubes
+b6ff4fe9	uterus and ovaries
+549c3bb3	The suffix ___ means the process of recording an image.
+54696703	Spell the term for X-ray imaging of the breast
+e62f6707	Prenatal and male tests
+46baa792	⟦0⟧• ⟦1⟧: drawing off amniotic fluid with a needle, usually at weeks 15 to 20; for chromosomes<br>• ⟦2⟧: a sample of the chorionic villi, earlier (weeks 10 to 13)<br>• ⟦3⟧: monitoring the fetal heart rate⟦4⟧
+5eb0febb	In a high-risk OB consultation in Fremgen’s textbook: <bdi dir="ltr">“amniocentesis at 20 weeks”</bdi> showed a normal result and a male fetus; the FHR was about 130.
+3da1897d	Male tests
+9b3889ec	• ⟦0⟧: prostate-specific antigen in the blood; raised in cancer and BPH<br>• ⟦1⟧: examination of the rectum with a finger<br>• ⟦2⟧: a needle sample of the prostate guided by ultrasound through the rectum (⟦3⟧)⟦4⟧⟦5⟧
+d395ab65	Needle sampling of the prostate
+7d9cd280	Prostate biopsy
+cb4dd1db	In a consult in Pearson’s textbook: a nodule was felt on DRE, but the biopsy was negative and the PSA normal; the diagnosis was BPH.
+b7a89c20	Which test is done earlier in pregnancy?
+db79d6cd	Weeks 10 to 13.
+6d608c3e	What is PSA?
+e6a77453	prostate-specific antigen in the blood
+608cb096	a finger examination
+800e4772	a semen sample
+58b91bf3	an X-ray of the prostate
+5da24a01	A prostate biopsy is often done with ultrasound guidance through the rectum.
+c14d2f1a	Put the prostate workup in order
+71607b27	From screening to pathology.
+ad69dc53	sample of chorionic villi
+cbf3cfef	Drawing off amniotic fluid is ___.
+23482319	-centesis = puncture.
+b6217494	Spell the term for drawing off amniotic fluid with a needle
+46676110	Hysterectomy and curettage
+6ddbc388	Types of hysterectomy
+bd808b5c	What is removed
+dc48bc9b	the body of the uterus; the cervix stays
+3620b347	the uterus and cervix
+df79edd6	the uterus, cervix, both tubes and both ovaries
+9a89ccfe	all of these plus part of the vagina and lymph nodes
+04500653	In Case Study 16-1, after cervical dysplasia and uterine prolapse, Mrs Naomi had a TAH and BSO.
+ac40dd24	Curettage
+a9998a26	⟦0⟧⟦1⟧: widening the cervix and scraping the endometrium with a ⟦2⟧; to investigate abnormal bleeding or after a miscarriage.⟦3⟧ → ⟦4⟧
+5ecbb66e	Widening the cervix and scraping the endometrium
+7a9d04dc	What is removed in a TAH-BSO?
+5365603e	the uterus, cervix, both tubes and both ovaries
+7fb932a6	the uterus only
+5430e1a0	the ovaries only
+654fe683	the cervix only
+691c0677	The instrument for scraping the endometrium in a D&C is a…
+8820c4de	A curette.
+2b076a5c	In a partial (subtotal) hysterectomy the cervix remains.
+b6333d87	Only the body.
+4e265df3	Build a word meaning “removal of the uterus”
+fc292479	complete removal of the uterus through the abdomen
+35098133	widening and scraping
+f16920ed	removal of the uterus through the vagina
+27cb2166	Removal of an ovary is ___.
+a9e2af8c	Breast and prostate surgery
+a4f04c7d	Breast surgery
+4ac45b0e	⟦0⟧• ⟦1⟧: removing only the lump<br>• ⟦2⟧: removing the whole breast<br>• ⟦3⟧: the breast, chest muscle and armpit lymph nodes<br>• ⟦4⟧: repairing or resizing the breast; ⟦5⟧: lifting the breast⟦6⟧
+9c985c53	Mastectomy
+e6ba4cb7	The textbook’s APPLY scenario: Dr Schaefer explains mammography, lumpectomy, mastectomy, mastopexy and mammoplasty.
+4512d27d	⟦0⟧⟦1⟧: shaving away an enlarged prostate through the urethra with a ⟦2⟧. Afterwards a ⟦3⟧ is placed.⟦4⟧⟦5⟧
+281177d2	Shaving the prostate through the urethra
+88cb84cc	In the case study in Cohen’s textbook: Mr Dexter had a TURP under spinal anaesthesia after being NPO before surgery.
+1fecf79d	Removing only a breast lump is…
+29b1eca9	lump = mass.
+f8337619	Which route is used for a TURP?
+16778c8b	through the abdomen
+9bccfefe	through the rectum
+bc1d9468	through the perineum
+e54c7dbc	mastopexy means lifting and fixing the breast.
+cbbfd9f0	Build a word meaning “repair of the breast”
+59f3a059	Match each operation to its meaning
+2fe6b728	removing the lump
+c7840f58	breast, muscle and nodes
+d2139593	The instrument for a TURP is the ___.
+f805ac4b	A cutting instrument.
+c33fdfab	Spell the term for removal of a breast
+278966bb	Caesarean section and episiotomy
+e8d6673c	⟦0⟧⟦1⟧: delivering the baby through a cut in the abdomen and uterus. The skin incision is usually ⟦2⟧ (horizontal, above the pubic bone).⟦3⟧
+61839ec4	In the case study in Cohen’s textbook: because of CPD and fetal distress, Abigail had an emergency C-section under spinal anaesthesia with a transverse suprapubic incision; she then received Pitocin and went to the PACU.
+deb08a45	Helping a vaginal birth
+ecea84cb	• ⟦0⟧: a cut in the perineum to widen the vaginal opening<br>• ⟦1⟧: breaking the bag of waters<br>• ⟦2⟧: starting labour with ⟦3⟧<br>• ⟦4⟧: vaginal birth after a caesarean⟦5⟧
+53d9d0e6	An OB delivery note in Ehrlich’s textbook: <bdi dir="ltr">“second-degree midline episiotomy”</bdi> means a second-degree cut in the midline.
+b36ef092	How is the skin incision for a caesarean usually made?
+99a59550	horizontal, above the pubic bone
+d83acd06	vertical, from the navel to the breastbone
+bb846e6b	on the perineum
+eafac749	Breaking the bag of waters is…
+e4557cbc	-tomy = incision.
+011f846d	VBAC means vaginal birth after caesarean.
+9a032e0e	Put the steps of a caesarean in order
+72513287	From anaesthesia to closure.
+e52191cd	cut in the perineum
+1c8cd4f2	breaking the bag of waters
+4b91b24b	starting labour
+57f9015c	The delivery.
+14f462dd	The drug used to start labour is ___.
+84c25795	Spell the adjective for delivery through an abdominal incision
+7319b055	⟦0⟧⟦1⟧ means preventing pregnancy (the prefix ⟦2⟧ means against):<br>• hormonal: the ⟦3⟧, patch, injection, implant<br>• barrier: condom, ⟦4⟧<br>• ⟦5⟧: a device inside the uterus; copper or hormonal<br>• permanent: ⟦6⟧ and ⟦7⟧⟦8⟧
+400de578	Contraceptive methods
+addf07cf	Several contraceptive methods
+ee4362bf	Contraceptive devices
+d73bdcce	⟦0⟧An ⟦1⟧ sits in the uterine cavity and works for several years.⟦2⟧⟦3⟧
+a38c3ebb	An intrauterine device in place
+db86c95e	The textbook’s APPLY scenario: Beth Meyers takes a 21-day pill but sometimes forgets it; an IUD or another long-acting method might suit her better.
+f310b0e4	The condom is the only method that also prevents STIs.
+b6195c43	Where does an IUD sit?
+b6e43905	inside the uterine cavity
+c8fbdf8c	inside the fallopian tube
+d69894b1	under the skin of the arm
+d078e8da	Which method also prevents STIs?
+66bb39b0	A barrier method.
+3b9c63b3	contraception means preventing pregnancy.
+f75295cc	Put them in order from short-acting to permanent
+b4511999	Duration of effect.
+558dd7ea	Match each method to its group
+0f3ae29e	barrier
+9ef81f8e	intrauterine
+b48aa7e5	permanent, male
+82f8b9e6	The methods.
+15eabb27	The abbreviation ___ means oral contraceptive pill.
+6ffbd883	Spell the term for preventing pregnancy
+48db3b76	⟦0⟧⟦1⟧: tying or cutting the fallopian tubes, often by ⟦2⟧; the egg cannot reach the uterus.⟦3⟧
+03b2b46a	Tying the tubes
+e32c137a	⟦0⟧: cutting and tying the vas deferens; semen is made without sperm, but erection and ejaculation do not change. Reversing it is a ⟦1⟧.⟦2⟧⟦3⟧
+f66da852	In a consult in Pearson’s textbook: the 77-year-old patient had a <bdi dir="ltr">“vasectomy at age 41”</bdi>.
+03f7c7dc	female sterilization
+5c977d28	male sterilization
+b9819a54	What is tied in a tubal ligation?
+2e4a0bd3	the fallopian tubes
+401f34ef	the vas deferens
+0186d443	the ovaries
+10701b25	Rejoining the vas deferens is…
+c5ee9d5c	-stomy = making an opening.
+908115e0	After a vasectomy ejaculation continues, but the semen has no sperm.
+c586864d	Only the sperm route is closed.
+edb87958	Build a word meaning “removal of a fallopian tube”
+6d75c251	tying the fallopian tube
+ba942917	rejoining the duct
+d4b4cbda	Sterilization.
+bcba48c9	Tubal ligation is often done by ___.
+2c943750	Through the abdomen.
+c6c83f47	Spell the term for cutting the vas deferens
+60192872	Infertility treatment and hormones
+7b223941	Assisted reproduction
+caef8e8a	⟦0⟧:<br>• ⟦1⟧: fertilization in the laboratory and transfer of the embryo to the uterus<br>• ⟦2⟧: transfer of gametes to the fallopian tube<br>• ⟦3⟧: transfer of the zygote to the fallopian tube<br>• ⟦4⟧: injecting a single sperm into the egg<br>• ⟦5⟧: injecting sperm into the uterus⟦6⟧
+00bffa11	In Case Study 16-2, Ruth helps with <bdi dir="ltr">“transvaginal oocyte retrieval”</bdi>: collecting eggs with a needle through the vagina under ultrasound.
+8b2d478c	Hormone therapy
+57b09a0a	⟦0⟧: estrogen (and progesterone) for menopausal symptoms.<br>⟦1⟧: a drug that stimulates ovulation.⟦2⟧⟦3⟧
+f9c75e8a	In Case Study 16-1, Mrs Naomi said she had not taken HRT (<bdi dir="ltr">“HRT denied”</bdi>).
+b2f1f8b8	in vitro means “in glass”; fertilization in a laboratory dish.
+e785868a	In IVF, where does fertilization take place?

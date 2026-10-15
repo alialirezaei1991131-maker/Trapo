@@ -1,0 +1,237 @@
+be981709	Example: LMP 1 January → EDD 8 October.
+3cc36bec	⟦0⟧ is given in weeks and days from the LMP; for example, 36 weeks and 6 days.<br>• ⟦1⟧: before 37 weeks<br>• ⟦2⟧: 37 to 42 weeks<br>• ⟦3⟧: after 42 weeks⟦4⟧
+85f17ea9	Open Zaya’s “Pregnancy calculator” tool: enter the LMP and visit date to see the EDD, gestational age and trimester.
+6a6fd566	By Naegele’s rule, how many days after the LMP is the EDD?
+87e0c314	280 days
+8687ea7d	266 days
+85878792	300 days
+d8c1904d	250 days
+7a3924a5	40 weeks.
+9aba3868	What is a baby born at 35 weeks called?
+d18253e5	Before 37 weeks.
+fb2028dc	LMP means the last day of the last menstrual period.
+9c2ec01d	Its first day.
+cf118af3	Put the steps of Naegele’s rule in order
+804c69a8	In order.
+7c130191	The dates.
+51a3ef10	A baby born at 39 weeks is ___.
+59e8c9ed	37 to 42.
+34c339c7	Spell the adjective for the duration of pregnancy
+332576fd	Three stages
+d2817090	From … to
+01e77e7a	First
+e76ea9e7	onset of contractions to full opening of the cervix (10 cm)
+e3b87ecd	Second
+fb5dc085	full opening to delivery of the baby
+9460241e	Third
+96717d01	delivery of the baby to delivery of the placenta (afterbirth)
+31e0fc05	Clinical terms
+414bc3ed	• ⟦0⟧: thinning of the cervix (percentage)<br>• ⟦1⟧: opening of the cervix (centimetres)<br>• ⟦2⟧: bloody discharge at the start of labour<br>• ⟦3⟧: premature rupture of the membranes<br>• ⟦4⟧: normal spontaneous vaginal delivery⟦5⟧
+882b5e73	In an OB delivery note in Ehrlich’s textbook, the cervix was 80% thinned (effacement) and 4 cm open (dilation); there was also a bloody show and PROM. Then an NSVD took place, the baby scored Apgar 9/9 and about 300 cc of blood was lost.
+167f4ca8	What ends the second stage of labour?
+aab2f2fb	full opening of the cervix
+ba9da425	onset of contractions
+454b42f3	Birth.
+e5d51d4e	rupture of the membranes
+d2e51514	As a percentage.
+9db60e0a	In the first stage of labour the cervix opens to 10 cm.
+604f9f05	Full dilation.
+657a90d8	Put the events of labour in order
+722ff6d3	The three stages.
+43032e69	premature rupture of membranes
+58455cda	normal vaginal delivery
+b83112b0	estimated blood loss
+8919b123	The delivery note.
+815bcb0f	The placenta and membranes that come out after the baby are called the ___.
+78379d68	The third stage.
+68644ea2	Spell the term for opening of the cervix in labour
+5902848e	Which part first?
+608c3d92	⟦0⟧⟦1⟧: the part of the fetus that enters the pelvis first.<br>• ⟦2⟧: the head; normal and most common<br>• ⟦3⟧: the buttocks or feet<br>• ⟦4⟧: the shoulder; the fetus lies across
+13876540	Fetal presentations
+1fbf1d05	Breech presentation
+978b76bf	Breech delivery
+8227ab73	In the case study in Cohen’s textbook, Abigail’s fetus was <bdi dir="ltr">“right occiput posterior”</bdi> and the fetal head did not fit the mother’s pelvis (CPD); after fetal distress, an emergency caesarean was done.
+0361154d	The root cephal/o means head, and breech means buttocks.
+45492f42	Which is the most common and normal presentation?
+7b8034d5	Head first.
+cd08c249	In a breech presentation, which part enters the pelvis first?
+89ef6f44	the buttocks or feet
+4db6d794	Breech.
+31a11012	In a transverse presentation, the fetus lies across the uterus.
+22379d5e	Shoulder first.
+9b579d16	Build a word meaning “relating to the head”
+428a8320	Match each presentation to the part that comes first
+69da7c79	buttocks
+8db49451	The presentations.
+7dc9d410	A mismatch between the fetal head and the mother’s pelvis is ___.
+db9b6d14	Spell the term for a buttocks-first presentation
+fee3acc8	Buttocks first.
+94174139	After birth and breastfeeding
+ea6f550c	⟦0⟧ (⟦1⟧): about 6 weeks after birth, during which the uterus returns to its former size (⟦2⟧). The bloody vaginal discharge in this period is called ⟦3⟧.<br>⟦4⟧ → after birth
+7b192373	⟦0⟧: the first yellow, antibody-rich milk of the first few days<br>⟦1⟧ makes milk and ⟦2⟧ ejects milk and contracts the uterus.⟦3⟧
+8fd36c8d	In the case study in Cohen’s textbook, after her caesarean Abigail had rooming-in (staying in the same room as the baby) and breastfed; the oxytocin of breastfeeding also helps the uterus contract.
+1e399320	What is the bloody vaginal discharge after birth called?
+cb1edd58	Lochia.
+b1e929bd	Which hormone ejects milk and contracts the uterus?
+9a92babc	Oxytocin.
+b0e03415	Colostrum is the first milk after birth and is rich in antibodies.
+5d4e194f	First milk.
+5a701d11	From birth to 6 weeks.
+7b6a9fad	period after birth
+c5865f59	discharge after birth
+9ef5c6af	return of the uterus
+dc3680c7	Puerperium.
+735a82c2	The drug Pitocin is a synthetic form of ___.
+9ace8f65	It stimulates contractions.
+badf2d70	Spell the term meaning “after childbirth”
+f9a69887	The newborn and Apgar
+8ca93bd6	⟦0⟧⟦1⟧ at 1 and 5 minutes after birth: five signs, each scoring 0 to 2.⟦2⟧
+4e8e6fec	Each letter of APGAR is a sign: Appearance is colour, Pulse is heart rate, Grimace is reflex response, Activity is muscle tone and Respiration is breathing.
+f74a010e	⟦0⟧ (⟦1⟧): a baby up to 28 days. ⟦2⟧ is the branch of newborn care.<br>⟦3⟧: the newborn’s first dark green stool.⟦4⟧⟦5⟧
+5e23f9c9	Ultrasound image of a fetus
+eeb52525	Abigail’s baby and Ehrlich’s baby both had Apgar 9/9: 9 at one minute and 9 at five minutes; that is, doing well.
+2ff5a7d6	When is the Apgar score usually recorded?
+7b136e62	at 1 and 5 minutes after birth
+5c331b54	on the third day
+fc198e1f	in the sixth week
+82330876	Twice.
+a2813c26	What is the maximum Apgar score?
+cc2ee730	5 signs × 2.
+3de9d97d	Meconium is the newborn’s first stool.
+534d0ad4	Dark green.
+4bdbeccd	Put the letters of APGAR in order
+369fa8b9	In the order of the name.
+886d22ec	response to stimulation
+0fb60985	Apgar.
+e2e13ea9	A baby up to 28 days old is called a ___.
+81728903	Spell the term for a newborn up to 28 days
+625ff74f	Diseases and Sexually Transmitted Infections
+4acecb0f	Menstrual disorders, fibroids and uterine prolapse, cancers, diseases of the testis and prostate, ectopic pregnancy and placental problems, sexually transmitted infections
+e3eaaa3a	Diseases of men
+ba144423	Pregnancy complications and infections
+440d27fb	-rrhea and -rrhagia words
+17a9f9a4	very heavy or prolonged periods
+47ded483	scanty, infrequent periods
+706c1d30	The textbook’s APPLY scenario: Mrs Rosie McConnell complains of very heavy (menorrhagia) and painful (dysmenorrhea) periods; the doctor ordered a hysteroscopy and found fibroids.
+7bd9f6e2	The textbook’s APPLY scenario: Mrs Jenni Takanado started her periods late, has irregular periods and dyspareunia (pain during intercourse) and is being investigated for infertility.
+d894c3cf	-rrhea is flowing; -rrhagia is bursting forth of blood. menorrhagia means heavy bleeding at the time of a period; metrorrhagia means bleeding from the uterus at the wrong time.
+bd7dec04	heavy periods
+14ff927b	dys- = painful.
+690bcfa7	Uterine bleeding between two periods is…
+78cde806	amenorrhea means absence of periods.
+8f5ed380	a- = without.
+88e38e5a	Build a word meaning “very heavy menstruation”
+cc3ae4bb	pain during intercourse
+5666d9d5	Menstruation.
+c8fe8966	Pain during intercourse is ___.
+c8951848	Uterus, cervix and pelvis
+6d242e02	⟦0⟧• ⟦1⟧: a benign tumour of the smooth muscle of the uterus<br>• ⟦2⟧: endometrial tissue outside the uterus; pain and infertility<br>• ⟦3⟧: a benign growth of the cervix⟦4⟧
+3d42bd27	Fibroids in different parts of the uterus
+9ffc893d	Pelvic infection
+2821ad90	⟦0⟧: infection of the uterus, tubes and ovaries, often from an ⟦1⟧; it can block the tubes and cause infertility.⟦2⟧⟦3⟧
+0060d962	In Case Study 16-1, Mrs Naomi’s pathology after TAH-BSO showed <bdi dir="ltr">“leiomyomas”</bdi> but <bdi dir="ltr">“no evidence of PID”</bdi>; that is, fibroids but no pelvic infection.
+47d2f143	What tissue is a uterine fibroid made of?
+2a6fe20e	smooth muscle of the uterus
+035f0158	Endometrial tissue outside the uterus is…
+ffb83059	PID can cause infertility.
+671860ae	Blocked tubes.
+609e4d9c	Build a word meaning “tumour of smooth muscle”
+b543ec34	benign tumour of uterine muscle
+1ef2cc33	endometrium outside the uterus
+99c35dd1	growth on the cervix
+2ecbf65b	The uterus.
+75c9d628	Inflammation of the endometrium is ___.
+6e7b3505	Spell the scientific term for a uterine fibroid
+e64a8999	Prolapse and cancers
+2f856cd3	⟦0⟧⟦1⟧: the uterus dropping down into the vagina<br>⟦2⟧: the bladder bulging into the front wall of the vagina<br>⟦3⟧: the rectum bulging into the back wall of the vagina⟦4⟧⟦5⟧
+803c431f	Degrees of uterine prolapse
+633873a9	Cancers
+36aa5091	• ⟦0⟧: often from ⟦1⟧; preceded by ⟦2⟧ (abnormal cell growth)<br>• ⟦3⟧: with postmenopausal bleeding<br>• ⟦4⟧: a mass on mammography; sometimes spreads to the armpit⟦5⟧⟦6⟧⟦7⟧
+7217a5bc	Mass on mammography
+c1c0baa4	A chart note in Gylys’s textbook: a history of <bdi dir="ltr">“simple mastectomy”</bdi> for breast cancer, and now <bdi dir="ltr">“metastases to the axilla, liver and bone”</bdi>.
+3e433588	The bladder bulging into the vaginal wall is…
+4b556a15	cyst/o = bladder.
+23e7afd6	What is the most important cause of cervical cancer?
+dab381a7	Human papillomavirus.
+31b3d9e2	Postmenopausal bleeding can be a sign of endometrial cancer.
+61d8c8ce	It must be investigated.
+6be20a14	Put the degrees of uterine prolapse in order
+db5b92c3	From normal to complete.
+2403484c	rectal bulge
+275a59b4	abnormal cell growth
+7953ec1e	Prolapse and cancer.
+d83e9bcd	A breast mass is seen on ___.
+b115d58c	Mammography.
+a4c911e8	Spell the term for the bladder bulging into the vagina
+7959f543	Diseases of the scrotum
+ba5918e6	⟦0⟧• ⟦1⟧: fluid collecting in the scrotum<br>• ⟦2⟧: dilated, twisted veins above the testis; a “bag of worms”<br>• ⟦3⟧: a sperm-filled cyst in the epididymis<br>• ⟦4⟧: twisting of the spermatic cord; an emergency⟦5⟧⟦6⟧
+9699bbe2	Scrotal abnormalities
+14db83f4	⟦0⟧ means the testis has not come down into the scrotum; the root ⟦1⟧ means hidden. Treatment: ⟦2⟧ (fixing the testis in the scrotum).⟦3⟧⟦4⟧
+c4cf11d3	Routes of an undescended testis
+e79c99c9	Cryptorchidism
+5b85b9e6	In a consult in Pearson’s textbook: a 77-year-old man had a <bdi dir="ltr">“history of cryptorchidism, corrected with orchiopexy”</bdi>.
+e4881875	Fluid collecting in the scrotum is a…
+598c4c45	hydr/o = water.
+c4f6e052	cryptorchidism means…
+b84fa65a	twisting of the testis
+9f7220f0	Testicular torsion is a surgical emergency.
+68296ab1	The blood supply to the testis is cut off.
+02d48eea	Build a word meaning “fixation of the testis”
+2505c06f	fluid in the scrotum
+19faa140	sperm cyst
+1c98b9ce	twisted cord
+3bc22377	The scrotum.
+cbbfc86f	Removal of a testis is ___.
+c4fa1042	Spell the scientific term for an undescended testis
+9f591165	Benign enlargement
+de4bf075	⟦0⟧⟦1⟧: benign enlargement of the prostate in older men; the urethra narrows.<br>Signs: ⟦2⟧ (a delayed start of urination), a weak stream, ⟦3⟧ (night-time urination) and ⟦4⟧.⟦5⟧
+44946f5a	Narrowing of the urethra as the prostate enlarges
+58537b2c	⟦0⟧⟦1⟧: inflammation of the prostate<br>⟦2⟧: with a raised ⟦3⟧ and a nodule on DRE⟦4⟧
+02948d97	In the case study in Cohen’s textbook, Mr Dexter, aged 60, had hesitancy. On DRE his prostate was about 50 grams and 120 mL of urine stayed in his bladder. Diagnosis: BPH with BNO (bladder neck obstruction).
+950c7a12	What is night-time urination called?
+6294cf68	noct/o = night.
+d35b3947	Why does the urine stream weaken in BPH?
+fdb8369b	the enlarged prostate narrows the urethra
+663677ed	the kidney makes no urine
+066f9459	the bladder ruptures
+049b3f3d	the testis enlarges
+bc659928	hyperplasia means an increase in the number of cells.
+e5200473	Put the events of BPH in order
+7d969346	From cause to complication.
+6e20b15d	Inflammation of the prostate is ___.
+1fe937ed	Spell the term for urinating at night
+73b6ec80	The penis and male fertility
+0e474e7c	Urethral anomalies
+f793ac57	⟦0⟧• ⟦1⟧: the urethral opening on the underside of the penis<br>• ⟦2⟧: the urethral opening on the upper side of the penis<br>• ⟦3⟧: a tight foreskin that will not pull back; treatment: circumcision⟦4⟧
+a3612e8a	Misplaced urethral opening
+678ac800	Hypospadias
+4c24ce0f	The prefix hypo- means under and the prefix epi- means upon.
+7ce8d43f	Inflammations and infertility
+1aaa1ce9	⟦0⟧⟦1⟧: often from ⟦2⟧ or ⟦3⟧ (no sperm in the semen); investigated with a ⟦4⟧.
+26e5083f	The textbook’s APPLY scenario: Jon Meriweather came with inflammation of the glans (balanitis), inflammation of the testis (orchitis) and inflammation of the scrotum, and has a history of prostatitis.
+efb61a36	A urethral opening on the underside of the penis is…
+55d6aa8b	hypo- = under.
+ee1909b5	azoospermia means…
+13a8d476	no sperm in the semen
+8379d6a7	too few sperm
+16caed37	non-moving sperm
+cfed8645	phimosis means a tight foreskin over the head of the penis.
+da400b27	Treatment: circumcision.
+7d445de9	urethral opening under the penis
+17937680	urethral opening on top of the penis
+ce249cb6	tight foreskin
+8fd09501	The test for male infertility is a ___ analysis.
+17104ce4	Examining the semen.
+86f34190	Spell the term for a urethral opening on the underside of the penis
+6390a328	Ectopic pregnancy and placental problems
+05bdfd22	Ectopic pregnancy
+709b5b89	⟦0⟧⟦1⟧: implantation outside the uterus (the prefix ⟦2⟧ means out and the root ⟦3⟧ means place); more than 95% are in a fallopian tube. A ruptured tube causes life-threatening bleeding.⟦4⟧
+2a75e184	Sites of ectopic pregnancy
+fd59b076	Ectopic sites
+c026c4af	Placental and blood pressure problems
+fda3ad97	⟦0⟧• ⟦1⟧: the placenta over the cervix; painless bleeding<br>• ⟦2⟧: early separation of the placenta; painful bleeding<br>• ⟦3⟧: high blood pressure and protein in the urine after week 20; if seizures occur: ⟦4⟧⟦5⟧⟦6⟧
+757ed48f	Abnormal placental positions
+c502bc17	Placental abnormality
+2be98ff2	In a high-risk OB consultation in Fremgen’s textbook: the patient has <bdi dir="ltr">“placenta previa”</bdi> and there is a risk of <bdi dir="ltr">“abruptio”</bdi>; a caesarean is planned once labour starts.
+de398af8	Where is the most common site of an ectopic pregnancy?
+0c87bc59	A placenta lying over the cervix is…

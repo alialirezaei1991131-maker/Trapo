@@ -1,0 +1,330 @@
+37418b99	Zaya
+8bf0575b	Zaya • Terminology of Reproduction, Pregnancy and Childbirth
+f4f59d50	Medical terminology of the female and male reproductive systems, pregnancy and childbirth
+899b1c36	🌸 Medical terminology: Reproduction, Pregnancy and Childbirth
+fca66ce3	Hi, I’m <b>Zaya</b>, a smiling egg cell where every new life begins!
+370442eb	Zaya is an educational tool and does not replace examination, clinical judgement or a physician’s orders.
+08120428	Dozens of bilingual figures and teaching pictures, from the ovary, uterus and testis to the menstrual cycle, fertilization, the placenta, the stages of labour, ultrasound and mammography.
+f3cf26da	Break every reproductive word into prefix, root and suffix and say what it means
+916c27a9	Show the ovary, tubes, uterus, cervix, vagina and breast on a figure and explain the menstrual cycle
+f740cf25	Recognise the testis, epididymis, vas deferens, prostate and the route of sperm
+bcf91fed	Write fertilization, embryo and fetus, placenta, G and P and the stages of labour with the right terms
+d5286fa4	Tell apart female and male diseases, pregnancy complications and sexually transmitted infections
+94600b82	Read Pap smears, mammography, amniocentesis, operations, contraceptive methods and chart abbreviations
+557a6a18	Just 5 minutes a day. A few weeks from now you’ll read an obstetrics and gynaecology note like a familiar story.
+b4511e99	Hi! I’m Zaya, a smiling egg cell 🌸 What’s your name?
+e220d29f	Which world shall we start with? If you’re new, “Language of Birth” is the best start; the basic roots and the parts of the system are taught there!
+10c8116e	The word <b dir="ltr">hysterectomy</b> means…
+cdd410f3	Female Reproductive System
+3c603882	removal of the uterus
+3b39a7fc	incision of the uterus
+f7ea60cd	inflammation of the uterus
+299dc1bb	viewing the uterus
+91e1c3a3	⟦0⟧<br><b>hyster/o</b> = uterus, <b>-ectomy</b> = removal. So it means <b>removal of the uterus</b>. Start the meaning from the suffix!
+14a1b927	New Bud
+87627d47	Curious Egg
+11b0581e	Tube Traveller
+5aedca4b	Endometrium Guardian
+4701e30d	Cycle Master
+a5c731c9	Sperm Guide
+1ae0c896	Placenta’s Friend
+769d7792	G and P Counter
+f81d5ef5	Birth Companion
+b25353c7	STI Detective
+cb4b3c6c	Ultrasound Reader
+e76ec24d	Obstetrics Legend
+07946462	midwife
+613e7da6	labour ward nurse
+acded654	gynaecology resident
+7728699a	reproductive health student
+80a9c22d	sonographer
+afa9e2d1	NICU nurse
+4aa7ad4a	First Bud
+c76fe94f	Cycle Guardian
+02e0e60c	Test Master
+9f017919	Search: hyster, uterus, cervix…
+96779a95	Search: metr, ovary, -rrhea…
+17f0eb19	Search: LMP, prostate, PID…
+594b4d2f	⚕️ Zaya is a learning tool; the dictionary and pregnancy calculator do not replace examination, ultrasound or a physician’s judgement.
+45c2ab77	<p class="edd__note">Choose the date of the first day of the last menstrual period (LMP).</p>
+79242556	gestational age
+63ad8a0e	The visit date is before the LMP.
+6319f6dd	⟦0⟧ weeks and ⟦1⟧ days
+a854da55	first trimester
+0998f959	organs form; embryo until week 8
+5180b335	second trimester
+5ad63908	fetal movement is felt
+59c10d32	third trimester
+ad10e37e	term: birth in this range is normal
+e88e1b55	growth and lung maturation
+f875df86	post-term
+3bb9fb2a	more than 42 weeks; assessment needed
+713a2094	Estimated date of delivery (EDD)
+31df63ae	<p class="edd__note">For example, Abigail’s record: gravida 2, para 1.</p>
+ed8e5053	<p class="edd__note">P cannot be greater than G.</p>
+2720e5a5	<p class="edd__note"><bdi dir="ltr">G⟦0⟧ P⟦1⟧</bdi>: she has been pregnant ⟦2⟧ times and has had ⟦3⟧ births of a viable baby; that is, <bdi dir="ltr">⟦4⟧</bdi> and <bdi dir="ltr">⟦5⟧</bdi>.</p>
+3d3309c1	Pregnancy calculator
+3b882292	<div class="tpane"><p class="muted">By Naegele’s rule: due date = first day of the last menstrual period + 280 days (40 weeks).</p>⏎    <div class="edd">⟦0⟧⟦1⟧</div>⏎    <div class="edd__res" aria-live="polite">⟦2⟧</div>⏎    ⟦3⟧⏎    <h4 class="edd__h">G and P in the record</h4>⏎    <div class="edd">⟦4⟧⟦5⟧</div>⏎    <div class="edd__gp" aria-live="polite">⟦6⟧</div>⏎    <table class="mini"><tr><th>Rule</th><th>Example</th></tr>⏎      <tr><td>LMP minus 3 months, plus 7 days</td><td><bdi dir="ltr">LMP 2026-01-10 → EDD 2026-10-17</bdi></td></tr>⏎      <tr><td>Term</td><td>37 to 42 weeks</td></tr>⏎      <tr><td>Preterm</td><td>before 37 weeks</td></tr></table>⏎    <p class="muted">The due date is an estimate; only about 5% of babies are born on that exact day. An early pregnancy ultrasound is more accurate.</p></div>
+b72fa50f	First day of last menstrual period (LMP)
+4bffd6d4	Visit date
+2539bdd1	trimesters of pregnancy
+a70e5eca	gravida (number of pregnancies)
+b656c4e2	para (number of births)
+32b7c703	placental abruption
+04163854	ovaries and tubes beside the uterus
+63ba2257	placenta and membranes after birth
+32df29b2	absence of periods
+3c06e983	amniocentesis
+93ac5ff2	inner membrane holding the fetus (bag of waters)
+0d19a841	amniotic fluid
+b7f840dc	male hormone
+156c2829	study of male reproductive health
+3f438c5f	absence of a testis
+d5f387ee	failure to ovulate
+674271c3	before birth
+6f563080	dark ring around the nipple
+0154f3c3	artificial insemination
+4b113964	absence of semen
+a97c92d0	absence of sperm
+5806c2a6	inflammation of the glans penis
+50935aa0	Bartholin glands
+c0b3734f	benign prostatic hyperplasia
+38bc2823	internal radiation therapy
+ecd5a35a	breast cancer
+62b7f1fb	breast self-examination
+98165f6b	breech presentation (buttocks first)
+a8d3b256	glands below the prostate adding fluid to semen
+8a0af9f7	yeast infection
+0ffc7052	fetal head too large for the pelvis
+93ae1667	cervical cancer
+04ef67bb	abnormal precancerous cervical cells
+515043ba	inflammation of the cervix
+656ab950	neck of the uterus
+d517c4ef	caesarean section
+c2e5fdf5	painless ulcer of syphilis
+f2d08c26	painful bacterial genital ulcer
+5f130d07	chorion
+86155889	chorionic villus sampling
+2c03f113	clitoris
+294d73c1	first milk after birth
+8d7fabff	suture repair of the vagina
+2755144c	colposcopy
+45537721	condom
+71f3ac0e	cone biopsy of the cervix
+3133fbb9	contraception
+17d9e369	erectile tissue of the penis
+400aefeb	corpus luteum
+848b3efd	baby’s head appearing at the vaginal opening
+43b5a21c	undescended testis
+eb242eb1	needle aspiration of fluid behind the uterus
+23659747	bladder sagging into the vagina
+bb6d9351	contraceptive diaphragm
+451660b9	digital rectal examination
+32c600bc	opening of the cervix
+2b24f014	dilation and curettage
+618f5d2b	trained non-medical birth companion
+59db3bc6	Down syndrome
+19c17b94	painful periods
+1aa5f31b	painful intercourse
+7be3362f	difficult labour
+8e66272e	seizures in pregnancy
+a11a758c	ectopic pregnancy
+ede55643	thinning of the cervix
+22743139	ejaculation
+922bb0bc	ejaculatory duct
+9b66e420	relating to the embryo
+abac9ae0	endometrial cancer
+5422a3bd	uterine lining tissue growing outside the uterus
+f4c3ac0a	inner lining of the uterus
+6a8b773b	coiled tube on the back of the testis
+ab4bf917	inflammation of the epididymis
+8459a159	surgical cut of the perineum during birth
+4b7e36e1	urethral opening on the upper side of the penis
+ddfb892c	erectile dysfunction
+07d5abf0	erection
+abd524a1	estimated date of delivery
+33fb371a	estrogen
+8d48fc93	fertilization
+d59490ea	relating to the fetus
+ec255ece	fetal heart rate
+b9bfd6bd	fibrocystic breast disease
+1789172e	finger-like fringes of the tube
+6d9a561b	follicle-stimulating hormone
+713e0c91	top of the uterus
+2314f100	abnormal milk discharge
+58e99c7d	sex cell
+6570561a	relating to the genitals
+ec9092af	genital herpes
+1ccd75b3	genital warts
+f46fad0e	sex organs
+da835cf3	length of pregnancy
+5c4c073b	gestational diabetes
+976f481b	head of the penis
+c72f7568	sex gland
+2fd8b7f6	gonorrhoea
+807a1444	number of pregnancies
+49a4b315	study of women’s reproductive health
+2e25de29	breast enlargement in males
+78e99f4e	hormone replacement therapy
+58f6a0fd	pregnancy hormone hCG
+39ff441f	human immunodeficiency virus (HIV)
+e27aba26	fluid collection around the testis
+af00109b	fluid-filled fallopian tube
+7be37119	hymen
+75b90bfd	severe vomiting in pregnancy
+0ea75902	removal of the uterus (hysterectomy)
+f4d040d9	X-ray of the uterus and tubes with contrast
+af4755d9	viewing the uterus with a scope
+93450cbf	implantation
+169025cb	in vitro fertilization (IVF)
+263e0011	infertility
+356f6ad4	passage in the groin wall
+7b0060bb	inguinal hernia
+f95c9189	within the uterus
+78f990a7	intrauterine device (IUD)
+d624cbb5	chromosome picture of a cell
+bcd0c1a0	labia majora
+4d4ab351	labia minora
+7a5bdc67	labour
+19aa6c2b	breastfeeding
+8f13e01a	milk ducts
+1862e715	first day of last period
+f17f9f59	benign muscle tumour of the uterus
+e91c3f02	white vaginal discharge
+9533a336	vaginal discharge after birth
+8c0dfba5	removal of a breast lump
+14bc0460	luteinizing hormone
+b6be3b55	mammary gland
+a821adf2	reconstructive breast surgery
+cba99d73	mastitis
+9c8563e9	mastopexy
+b0c36fac	first period
+8fc7bbb5	heavy bleeding during and between periods
+5e6ef676	menopause
+fc0793fa	heavy periods
+1df3712a	menstrual cycle
+3b87a627	bleeding between periods
+6a446491	woman pregnant many times
+b0b25ef7	woman who has given birth many times
+d57d6299	removal of a fibroid
+d6f384c9	muscle of the uterus
+886364ae	Naegele’s rule
+d37ee785	relating to the newborn
+f677c336	care of newborns
+129e4114	obstetrician
+4efba8f0	care in pregnancy and birth
+24559195	too little amniotic fluid
+986bc536	scanty or infrequent periods
+e3ff54df	low sperm count
+444d5b9b	inflammation of the navel
+1ffcf9c5	removal of an ovary
+ac866c02	inflammation of an ovary
+8b24187d	oral contraceptive pill
+d672d235	orchiectomy
+0dc55fc7	surgical fixation of the testis
+c9909687	orchitis
+6ee31a55	ovarian cyst
+e6153db3	ovarian follicle
+252ba812	ovary
+1a71c660	ovulation
+79ff99fb	egg cell
+762efe6b	oxytocin
+e72edbff	Pap smear
+6608e904	number of births
+e2660c43	pelvic examination
+b53744b8	pelvic inflammatory disease
+bebdd1ae	pelvic ultrasound
+4130ce1c	measuring the pelvis
+546d85e2	male organ
+b8c6a775	perimenopause
+c0dc663c	outer layer of the uterus
+a23b14a7	area between the genitals and anus
+392ce895	tight foreskin
+ae5a257e	placenta previa
+646f4389	polycystic ovary syndrome
+4ddb769c	too much amniotic fluid
+2d399781	postmenopausal
+0ab41328	preeclampsia
+021711bd	pregnancy
+e9c58e07	pregnancy test
+f4440cc3	premature rupture of membranes
+b9a6f45b	premenstrual syndrome
+fe25996b	foreskin
+9154a6fd	fetal presentation
+408e1e10	prolonged painful erection
+8189e3de	progesterone
+9a1e07eb	prostate cancer
+96c79dc5	prostate-specific antigen
+84927393	removal of the prostate
+aa97d9b7	inflammation of the prostate
+7faa60fa	puberty
+bdb7ff09	puerperium
+507fa653	pus in a fallopian tube
+49126671	rectum bulging into the vagina
+e7eccf5c	pouch between the uterus and rectum
+79aab87b	backward-tilted uterus
+536993b7	removal of a fallopian tube
+20d0f837	inflammation of a fallopian tube
+7d4fb2ce	removal of a tube and ovary
+8366ce73	scrotum
+d0ab061c	semen
+c7de24cc	semen analysis
+00eeafb3	seminal vesicles
+7fb0c751	seminiferous tubules
+1712e7a7	speculum
+6c829d84	relating to sperm
+c393f7e4	spermatic cord
+def7356b	sperm-filled cyst near the testis
+b2061617	spermatogenesis
+a80d7b11	male sex cell
+f686c63d	spermicide
+4744e6a2	spontaneous abortion
+1a97c254	stillbirth
+32b9ba70	syphilis
+fb4b4545	relating to the testis
+c72f37ae	testicular cancer
+cbdd4706	testicular torsion
+f6c9d2f4	testis
+f93b30a5	testosterone
+c88e5082	total abdominal hysterectomy
+9aca5e96	toxic shock syndrome
+b0414ddd	parasitic vaginal infection
+568f9fc7	third of a pregnancy
+2f5f0570	tubal ligation
+6a3b5bce	umbilical cord
+fe7dd2d7	uterine prolapse
+da141cb5	tube from ovary to uterus
+a85dfbf4	vaginal birth after caesarean
+fc9d3d2e	vaginitis
+5f6338a2	varicocele
+6167ab44	vas deferens
+bafddfe0	vasectomy
+e3c6a3e5	rejoining the cut vas deferens
+ab157c2c	external female genitals
+8b66371a	fertilized egg
+eb73751f	not
+81c5bb26	sex gland
+92b72da6	female
+540b3294	bladder, sac
+87f605fa	rectouterine pouch
+b6c3658b	fallopian tube
+9083de8b	cervix
+0ef59466	vulva
+0c43f2bb	perineum
+0fc1b4c9	milk
+8e81a151	epididymis
+91d8c377	duct, vessel
+210278ee	seminal vesicle
+085933f1	glans penis
+ffb642d0	penis
+ee35087c	sperm
+5647f604	embryo
+551618b8	amnion
+df31aa78	pregnant
+80891602	to give birth
+95d8e2d1	intercourse
+79fb99e1	hernia, swelling
+18047ff5	condition of sperm
+c3a0d1da	beginning
+abd4d60a	producing
+06a4aba8	woman who has given birth

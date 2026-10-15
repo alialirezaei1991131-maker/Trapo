@@ -1,0 +1,108 @@
+4363125c	It stays dormant.
+5c163ef6	Spell the term for white vaginal discharge
+0a4fbfbb	Urine that is slow to start
+69097901	Dexter, a 60-year-old man
+1abfb511	A case study in Cohen’s textbook: Mr Dexter complains that his urine is slow to start and his stream is weak. On DRE an enlarged prostate of about 50 grams was felt. After voiding, 120 mL of urine remains in his bladder. Diagnosis: BPH with BNO. Plan: TURP.
+7f556e71	hesitancy means…
+68339769	Delay.
+448ac700	bladder infection
+714ec4d0	DRE means feeling the prostate with a finger through the rectum.
+6a2009c5	What does a residual urine of 120 mL indicate?
+d100a9be	urinary retention from a blockage
+4ee628a5	Spell the term for the walnut-sized gland below the bladder
+e5b96305	Heavy, painful periods
+6f3a1ac4	Rosie McConnell, a 38-year-old woman
+e40a6ced	Mrs McConnell complains of very heavy, painful periods. Hysteroscopy showed that her uterus is tilted backwards (retroverted) and that she has several fibroids. She had preeclampsia in a previous pregnancy. Today her pregnancy test was positive.
+1e86fb94	tilted backwards
+30041f0e	What is the scientific name for a fibroid?
+dd403dd1	A smooth-muscle tumour.
+e8616bf1	Complication
+64605ea9	What comes with preeclampsia?
+fd28c9a7	high blood pressure and protein in the urine
+f466c29f	painless bleeding
+d977e300	A pregnancy test measures hCG.
+a410ebbd	The pregnancy hormone.
+58ec82f6	Position
+a5ece7b3	Retroversion of the uterus means…
+6a2157d7	the uterus tilting backwards
+ef644096	enlargement of the uterus
+9a0fc016	a two-horned uterus
+3babfbfb	Spell the term for painful periods
+d95ee171	From Pap smear to hysterectomy
+d39e6304	Naomi, a 60-year-old woman, G2 P2
+fd54ab86	Case Study 16-1: Mrs Naomi came with postmenopausal bleeding. Her Pap smears had shown cervical dysplasia. After colposcopy, a D&C with cone biopsy was done. She had not taken HRT. Because of the dysplasia and uterine prolapse, a TAH and BSO was performed. Pathology: leiomyomas, narrowing of the right fallopian tube and no PID.
+e462e46c	Put the workup and treatment in order
+195b7ffb	cervical dysplasia means…
+fc85f980	abnormal growth of cervical cells
+2de84afd	advanced cancer
+713b36d8	infection of the cervix
+1fb036ba	What is removed in a TAH and BSO?
+b70dcc8c	the uterus, cervix, tubes and ovaries
+88d3daa5	Complete.
+73fc5696	fibroids
+2972ac16	no pelvic infection
+e594822e	The pathology.
+9b8a3c17	<bdi dir="ltr">“HRT denied”</bdi> means the patient has not taken hormone therapy.
+0ee2b175	denied = said no.
+529f76dd	Spell the term for a magnified view of the cervix
+cfc43a3a	A day in the IVF laboratory
+b0e654d9	Ruth, a laboratory scientist
+e46e6a1c	Case Study 16-2: Ruth works in an IVF laboratory. Today she is helping with a transvaginal oocyte retrieval, measuring sperm motility and preparing GIFT and ZIFT for two other couples.
+be2677e7	transvaginal oocyte retrieval means…
+2f0255b7	collecting eggs through the vagina
+c19ecb0b	transferring the embryo to the uterus
+bfde21ab	a sample from the cervix
+35bb0a3c	sperm motility means…
+547bd4e4	movement of sperm
+bf52d102	sperm count
+eb4ab986	sperm shape
+1546c86b	semen volume
+75f2ad08	Movement.
+fd2e803a	In ZIFT the zygote is transferred to the fallopian tube.
+22a97980	Spell the term for an egg cell before it matures
+5162e8f4	Night-time urination at 77
+f02c88d3	A 77-year-old man
+4e365bc0	A consultation in Pearson’s textbook: a 77-year-old patient complains of night-time urination and difficulty ejaculating. As a child he had cryptorchidism, treated with orchiopexy, and at 41 he had a vasectomy. On DRE a nodule was felt, but the biopsy for prostate cancer was negative and the PSA normal. Diagnosis: BPH. Plan: TURP.
+53418213	nocturia means…
+bb59c38f	Match each test to its job
+403179e8	feeling the prostate
+3e99977b	prostate antigen in the blood
+b0f01a22	tissue sample
+fa8abded	ultrasound through the rectum
+5b7a3c5c	Prostate workup.
+f21bd43d	A negative biopsy and normal PSA favour BPH over cancer.
+ede4c593	Which route is TURP done through?
+de9472b6	Put the events of the patient’s life in order
+e37227b9	From childhood to today.
+f32cc5e6	Spell the term for night-time urination
+cdfe5bc3	The reproductive system in women and men has one goal: making gametes (eggs and sperm) and sex hormones.
+d9c4f805	Start the meaning from the suffix: salping/o/cele means “hernia of a fallopian tube”.
+8d378e8c	hyster/o and metr/o both mean uterus; colp/o and vagin/o both mean vagina; oophor/o and ovari/o both mean ovary.
+b57500de	orchi/o, orchid/o and test/o all mean testis; oophor/o is the ovary, so don’t confuse it with orchi/o.
+a8c43bc5	gravida is the number of pregnancies and para the number of births after week 20.
+0bf12c83	-rrhea is flowing and -rrhagia heavy bleeding; -rrhaphy is suturing.
+7522bf87	prostate is the gland; prostrate means lying face down. One extra r changes the meaning.
+702c19cb	The layers of the uterus from outside to inside: perimetrium, myometrium, endometrium.
+d1cf8893	The ovaries and fallopian tubes together are called the adnexa.
+d6a55113	In a 28-day cycle ovulation is around day 14; after that the corpus luteum makes progesterone.
+08a11941	menarche is the first period and menopause the last; perimenopause covers the years leading up to menopause.
+03af74c8	mamm/o and mast/o both mean breast: mammography and mastectomy.
+67c442e9	The route of sperm: seminiferous tubules, epididymis, vas deferens, ejaculatory duct, urethra.
+8bb10ebe	The scrotum keeps the testes about 2 to 3 degrees cooler than the body.
+999de4de	Most of the volume of semen comes from the seminal vesicles, not the prostate.
+7b51b816	Point and Shoot: erection is parasympathetic and ejaculation sympathetic.
+1082f7c1	The embryo lasts until the end of week 8, and the fetus from week 9 until birth.
+ba0c5380	Naegele’s rule: LMP + 7 days − 3 months + 1 year; or LMP + 280 days.
+a5b3ed0a	The umbilical cord has two arteries and one vein.
+77f053c7	APGAR: colour, pulse, reflex response, muscle tone and breathing; each 0 to 2.
+3d903d07	The first stage of labour lasts until the cervix is fully open, the second until birth and the third until the placenta comes out.
+c82e60f6	Placenta previa causes painless bleeding and abruptio placentae painful bleeding.
+79038a51	More than 95% of ectopic pregnancies are in a fallopian tube.
+753636a1	hypospadias is a urethral opening under the penis and epispadias on top of it.
+ae83e94c	HPV causes genital warts and most cervical cancers.
+bb107ab6	Always investigate postmenopausal bleeding; it may be endometrial cancer.
+1b6b39b7	CVS is done earlier than amniocentesis: weeks 10 to 13 versus 15 to 20.
+8c875b62	TAH-BSO means removal of the uterus, cervix, both tubes and both ovaries.
+77ea6d16	TURP shaves the prostate through the urethra; no skin incision.
+4bff0866	The condom is the only contraceptive method that also protects against STIs.
+70ea2133	In GIFT the gametes, and in ZIFT the zygote, are transferred to the fallopian tube.

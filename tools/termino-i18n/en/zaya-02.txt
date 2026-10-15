@@ -1,0 +1,330 @@
+447cdf57	surgical fixation
+21f56a86	end of a pregnancy before viability
+f1662d1c	late-stage HIV disease
+e74cee61	methods helping conception
+5bbd90c6	amniotic sac
+ad86dfe8	inherited breast cancer genes
+a1f3bee1	removal of both tubes and ovaries
+5a88c0fa	vaginal bacterial imbalance
+9f00ff7b	precancerous change in cervical cells
+3f0f61ca	cephalopelvic disproportion
+949e7f39	abnormal uterine bleeding without a structural cause
+d4016821	fetal heart sounds
+0817c501	number of pregnancies
+b0757ddd	bacterium causing gonorrhoea
+45eba591	gamete intrafallopian transfer
+f512d8d8	gynaecology; gynaecologist
+73c30f6b	hormone detected in pregnancy tests
+62845994	human immunodeficiency virus
+6572a510	virus causing warts and cervical cancer
+6c825c3a	virus causing cold sores and genital blisters
+e59dacfa	intrauterine device
+6c3d42df	intrauterine pregnancy
+ea32d313	in vitro fertilization
+e9d22cae	cutting a cervical sample with a heated wire loop
+e9d92111	urethritis not caused by gonorrhoea
+7dcbe438	neonatal intensive care
+6a0009d8	normal spontaneous vaginal delivery
+30086bf4	obstetrics; obstetrician
+e1c55b1f	obstetrics and gynaecology
+f1a11e99	number of births
+4a14ec10	high blood pressure caused by pregnancy
+c7a63a31	sexually transmitted disease
+b7353a57	breast rebuilt with abdominal muscle tissue
+c01da779	testicular self-examination
+e5e3c340	removal of the uterus through the vagina
+2f598d49	sexually transmitted disease (older term)
+03ad6db5	screening blood test for syphilis
+b5adf58c	zygote intrafallopian transfer
+da8597fe	Structures of the reproductive system
+469b62dc	Function, hormones and pregnancy
+fc2ccd53	sexually transmitted infections
+675e8d98	Treatment, surgery and contraception
+4d7dab39	The reproductive system: female and male
+398625bb	ovary, tube, uterus, vagina
+862637bd	testis, duct, prostate, penis
+bfdc9270	female sex gland: ovary
+33a967e9	male sex gland: testis
+d67db33b	prefix: painful
+390e83be	root: menstruation
+3b314945	suffix: flow
+ec927aa9	painful flow of
+d273bc6c	Map of female roots
+d7aa3900	lining of the uterus
+869be4ef	Map of male roots
+43c28859	Tricky pairs
+088640c3	pregnancies
+48e38f98	births
+bec622ef	men/o is menstruation and metr/o is the uterus; one letter, two meanings
+04bbb8c5	Sex hormones: orders from the pituitary
+21d7cfa4	pituitary
+d45f31d9	estrogen and progesterone
+b94b4cbf	Hormones
+f725d295	Uterus, tubes and ovaries (front view)
+ab0cc5f2	fimbriae
+f7c8fbdc	uterine muscle
+e926b258	Uterus and adnexa
+361fd6d0	Side section of the female pelvis (facing left)
+c9bfb860	pouch (cul-de-sac)
+6591bc86	Section of the female pelvis
+a4c5637e	The three layers of the uterine wall
+28468b3f	uterine cavity
+5cc04776	uterine muscle; labour contractions
+2964ae1d	inner lining; shed every month
+81282708	The prefix peri means around, myo muscle and endo inside
+231d9a2f	Uterine wall
+62fa624f	The ovary: from follicle to corpus luteum
+0a765a8d	primary follicle
+f03518d3	mature follicle
+20a8a78c	corpus luteum; progesterone
+90361dd4	white scar body after the corpus luteum
+7f4d741f	If fertilization does not happen, the corpus luteum breaks down after about 14 days and menstruation begins
+08355c57	Ovarian cycle
+dddeb84b	The 28-day menstrual cycle
+a31f1db1	ovulation, day 14
+6efa57f5	proliferative (follicular)
+00730614	secretory (luteal)
+6df0b392	FSH grows the follicle; the LH surge triggers ovulation
+1ab36ee0	Estrogen builds the uterine lining and progesterone maintains it
+3da4f495	Female external genitalia (diagram)
+a5a91e19	mons pubis
+0b1a41e6	vaginal opening
+76ae661a	The breast: side section
+62cc4c76	milk gland lobe
+38e9e172	milk duct
+a7bf7786	areola
+b12825ad	Side section of the male pelvis (facing left)
+9a179180	shaft of the male organ
+e096b4b5	Section of the male pelvis
+88ef7c7f	Testis and epididymis (section)
+70b8f57b	epididymis: sperm maturation
+b32508c2	scrotum • the skin pouch for the testes
+892e0820	The route of sperm: from the testis to the outside
+06259b24	testis: production
+e50eea59	epididymis: maturation
+0d77624f	out (ejaculation)
+a7b8b6a1	Extra fluid: seminal vesicles, prostate and Cowper glands
+af4ab222	sperm + the fluid of these glands = semen
+c412da9b	route of sperm
+7327aff8	Sperm and egg: two gametes
+bf2d1933	head (DNA)
+327dac13	midpiece (energy)
+d1acaf49	tail: swimming
+280ee981	egg: the largest cell
+97be67f1	Each has 23 chromosomes; fertilization completes the full 46
+2bf531a2	Gametes
+7ceb1ac4	Cross-section of the penis
+317a65b5	corpus spongiosum
+afebb369	vein and arteries
+54251b70	erection: filling
+fe0bf656	of the erectile bodies with blood
+3a5f7297	Section of the penis
+5786a8fb	fertilization and implantation
+6346cebc	fertilization in the tube
+09209d65	zygote
+cdba4301	implantation in the endometrium (days 6 to 7)
+7b1f33c2	hCG is secreted by the embryo; the basis of the pregnancy test
+cbf8621d	The pregnant uterus: fetus, placenta and amniotic sac
+f231520d	pregnant uterus
+600a19fe	The placenta: exchange between mother and fetus
+ce5250a5	mother’s blood
+c4cf0429	fetal blood
+9dbd493c	oxygen and food
+905eabe2	carbon dioxide and wastes
+065a3294	Maternal and fetal blood do not mix directly; exchange is through the capillary walls
+fa253440	The placenta also makes the hormones hCG, estrogen and progesterone
+bce4b0a2	The three stages of labour
+22a99ab3	opening of the cervix
+68286e62	up to 10 cm
+bfa802b4	delivery of the baby
+6b405c95	from full dilation to birth
+382d743b	delivery of the placenta
+7e1ef3e1	placenta and membranes (afterbirth)
+5045ff7d	stages of labour
+1ea0f47b	Fetal presentation: head or buttocks?
+8e07569c	head presentation; normal
+80c2ddca	buttocks presentation
+bd06155c	The fetal head should face the cervix (downwards)
+b281c878	Trimesters of pregnancy (40 weeks from the LMP)
+a969947b	Until week 8 it is an “embryo” and from week 9 a “fetus”
+e967b8ed	Term: 37 to 42 weeks; before 37 weeks is preterm
+5b9684ea	trimesters
+9acfa7e6	G and P: number of pregnancies and births
+b9a3b1ef	pregnant twice
+6ad46704	one viable birth
+942cc745	Abigail’s record: 39 weeks pregnant, G2 and P1
+6421844c	primi- first, multi- many, nulli- none
+0faa7506	primigravida: first pregnancy • nullipara: has not given birth
+76ca1380	G and P
+482f5b17	reflex response
+6c08a344	muscle tone
+55db95b5	Newborn Apgar score (0 to 10)
+dfc27cab	Each item scores 0 to 2, at 1 and 5 minutes after birth. 7 to 10 is normal
+6e31e306	Apgar score
+61ccbe47	menstrual disorders
+8b49924b	The prefix a means without
+deeeaba2	The prefix dys means painful
+125e8885	The suffix rrhagia: bleeding
+055958e8	bleeding between periods
+7fb6807f	The root metr means uterus
+04c17bf5	scanty, infrequent periods
+258050a9	The root olig means few
+383dcf9c	Diseases of the uterus and ovary
+1aacccaf	fibroid
+6e35e11b	endometrium outside the uterus
+23baa009	cervical polyp
+7ea59734	diseases of the uterus
+d0755fae	Prolapses: uterus, bladder, rectum
+66e7b66a	bulging of the rectum
+f91aef73	The suffix -cele means hernia or bulging; treatment: colporrhaphy
+7989fdba	Prolapses
+dfecdd4d	Disorders of the scrotum
+9ae7cc58	fluid collection
+27a98971	dilated veins
+411aaa7e	twisting (emergency)
+3bdb1e1e	cryptorchidism: the testis has not reached the scrotum and stays in the inguinal canal
+77fd0504	Benign prostatic hyperplasia (BPH)
+c2b8ba62	normal prostate
+dc3754d9	enlarged prostate; narrowed urethra
+8b2a7969	Signs: weak urine stream, night-time urination (nocturia), incomplete emptying; treatment: TURP
+87acb53b	in the tube (most common)
+a439245d	on the ovary
+499da776	normal implantation
+9d0d966c	Risk of a tubal pregnancy: rupture of the tube, bleeding and severe abdominal pain
+f3074333	placental problems
+9e829ce9	placenta previa: over the cervix
+d25c8a3a	Placenta previa: painless bleeding • placental abruption: painful bleeding and an emergency
+6d540270	Sexually transmitted infections (STIs)
+455886a7	bacterium; PID and infertility
+2e0708c4	gonorrhoea (GC)
+07c12404	bacterium; pus-like discharge
+116174f1	painless chancre; VDRL
+65171424	HSV virus; painful blisters
+936ad221	cervical cancer; vaccine
+daa6cd32	leads to AIDS
+a21c4519	Pap smear with a speculum
+bac2cbc7	sample of cervical cells
+fce65368	For early detection of dysplasia and cervical cancer
+dfa75d3e	Mammography: an X-ray of the breast
+595a801e	lump
+c0c475fd	image: white mass
+3f12e7de	The breast is compressed between two plates
+eaf96d65	Amniocentesis: a sample of amniotic fluid
+284e88f3	needle
+13a59511	ultrasound guidance
+d243bd2c	For chromosome testing (such as Down syndrome); usually at weeks 15 to 20
+51314e89	Removing organs: what is taken out?
+b700dd0c	removal of the uterus and cervix
+5bf568f5	uterus + tubes and ovaries
+a1d5d987	only the fibroid; the uterus stays
+10408c0f	Case Study 16-1: Mrs Naomi had a TAH and BSO after postmenopausal bleeding
+6b8f6009	Hysterectomy
+111f4c27	Permanent sterilization: women and men
+b528cdba	tying the fallopian tubes
+ee69478b	cutting the vas deferens
+3fd524cf	sterilization
+235b785c	Methods of contraception
+5edb2f1b	stops ovulation
+2a4105f3	sits in the uterus
+9d2fe5ab	prevents STIs too
+082debe5	over the cervix
+3b0ad355	-cide = killing
+da4b47ca	tubal ligation or vasectomy
+fb41f417	Caesarean section (C-section)
+11c65580	horizontal cut above the pubis
+ce264cb3	incision of the lower uterus
+7623b255	Abigail’s record: an emergency caesarean because of CPD and fetal distress
+f58eaa64	TURP: removing the prostate through the urethra
+7680bd60	resectoscope in the urethra
+7ed93b12	the excess tissue is shaved away
+d506d58d	Dexter’s record:
+99bee2e7	BPH treated with TURP
+e4753f0a	Language of Birth
+454fc5b0	The parts of the reproductive system and how its words are built: roots, prefixes, suffixes and hormones
+1dce3fb1	Parts of the reproductive system
+2e6a3fe7	Two systems, one goal
+b6764b6b	Gonads and gametes
+bbe0c7f3	⟦0⟧A ⟦1⟧ (sex gland) makes both sex cells and hormones:<br>• female: ⟦2⟧ → ⟦3⟧<br>• male: ⟦4⟧ → ⟦5⟧<br>Each of these two cells, called a ⟦6⟧, has 23 chromosomes, and their union forms a ⟦7⟧.
+b148431a	Female and male reproductive systems
+1b6b448a	Diseases of the female reproductive system
+09b94b56	Male urinary and reproductive system
+2da8396b	gynec/o means woman; OB-GYN means “obstetrics and gynaecology”.
+fe7bb05c	In the case study in Cohen’s textbook, Dexter went to a urologist for BPH, and Abigail’s obstetrician sent her to theatre for a caesarean.
+293c72d5	Which is the female sex gland?
+89d13f16	The female gonad = the ovary.
+c3493395	specialist in diseases of the female reproductive system
+434b8f41	newborn specialist
+62a42349	The egg and sperm each have 23 chromosomes.
+5d217d2a	Gametes have half the chromosomes.
+36be525b	Put the steps from gamete to embryo in order
+c20d5c00	Fertilization, zygote, implantation, embryo.
+560857ba	sex cell
+706a200d	fertilized egg
+ea1a30c4	The abbreviation ___ means obstetrics and gynaecology.
+677f97b9	Spell the two-word term for the organs of reproduction
+138a5bcb	reproduction = producing offspring.
+b1525470	Sex hormones
+e8d21d76	The commander: the pituitary
+648211c8	⟦0⟧The pituitary sends two hormones to the gonads:<br>• ⟦1⟧ (follicle-stimulating hormone): growth of the ovarian follicle and sperm production<br>• ⟦2⟧ (luteinizing hormone): ovulation and testosterone production
+6b0e8223	Hormones of the gonads
+004cff78	⟦0⟧⟦1⟧ → ⟦2⟧: any male hormone⟦3⟧
+73ad7790	female characteristics, building the endometrium
+7e248b52	corpus luteum and placenta
+1d946a79	maintaining the uterine lining for pregnancy
+3a6237a1	male characteristics, sperm production
+88a36234	Pro-gest-erone means “in favour of pregnancy” (pro means for and gest means pregnancy).
+6748af71	Which hormone triggers ovulation?
+13e669aa	The LH surge around day 14.
+5db71091	The hormone that maintains the uterine lining for pregnancy is…
+5815ba77	From the corpus luteum and placenta.
+688228d0	androgen is the term for male hormones.
+7a8652a0	andr/o = male.
+44b2689a	Build a word meaning “producing male (hormone)”
+b1c45c90	Match each hormone to its source
+e4830c68	The root ___ means female (as in estrogen).
+81c86c67	Spell the term for the main female sex hormone
+323a3abc	⟦0⟧Every word is built from pieces:<br>• <b>root</b>: the main meaning; e.g. ⟦1⟧ means uterus<br>• <b>prefix</b>: at the start of the word; e.g. ⟦2⟧ means painful<br>• <b>suffix</b>: at the end of the word; e.g. ⟦3⟧ means removal<br>• <b>combining vowel</b> (usually ⟦4⟧): ⟦5⟧
+cbad8bab	Start the meaning from the <b>suffix</b>, then the <b>prefix</b> and finally the <b>root</b>:<br>⟦0⟧ → “removal of the uterus”<br>⟦1⟧ → “painful flow of menstruation”<br>⟦2⟧ → “inflammation of the fallopian tube”⟦3⟧
+de01bfc8	If the suffix starts with a vowel, the combining vowel drops: hyster/o + -ectomy becomes hysterectomy.
+d8b32837	-rrhea = flow
+1a0040fb	dys- = painful
+9a91350a	men/o = menstruation
+a970caa9	-a = noun
+5061bcc8	In salpingitis the combining vowel o has dropped.
+31cf526a	Build a word meaning “inflammation of an ovary”
+7795327d	Read the meaning of dysmenorrhea with the golden rule; put the steps in order
+fa6a1e7b	-rrhea: flow
+24e72877	dys-: painful
+eb6ab16b	men/o: menstruation
+fc70b2e3	result: painful periods
+55dab085	o in menorrhea
+d715b7dd	The pieces.
+3d1552a7	Spell the term for removal of the uterus
+abf1b97a	Female roots
+605459cb	Two roots for one organ
+4e9c20cc	Both Greek and Latin roots are used: ⟦0⟧ (Greek) and ⟦1⟧ (Latin) both mean uterus; ⟦2⟧ and ⟦3⟧ both mean vagina.⟦4⟧⟦5⟧
+beb81054	oophor/o means “egg-bearer”; oo means egg and phor means carrying.
+dced5c83	In Case Study 16-1, Mrs Naomi had a TAH and BSO; that is, total removal of the uterus and removal of both tubes and ovaries (salpingo-oophorectomy).
+1652d7b9	The root ⟦0⟧ means…
+4d2b9184	salpinx = tube.
+308418a4	Which root means “vagina”?
+d2231d5a	metr/o and hyster/o both mean uterus.
+f10ad15d	endometrium, hysterectomy.
+64494e07	Build a word meaning “removal of a fallopian tube and ovary”
+00ec8032	Female roots.
+6fcb6bc9	The root ___ means breast (as in mammography).
+43521d2d	mamm/o, mast/o.
+e27baa3b	Spell the term for removal of an ovary
+461b0c04	Male roots
+7501c2a7	Sperm and semen
+d757e0d1	• sperm: ⟦0⟧ and ⟦1⟧<br>• semen: ⟦2⟧<br>• seminal vesicle: ⟦3⟧<br>⟦4⟧ → ⟦5⟧: sperm production⟦6⟧⟦7⟧
+02314030	The orchid takes its name from the Greek word for testis; the shape of its root looks like a testis!
+c199b8e1	In Pearson’s record, <bdi dir="ltr">“failure of the testes to descend”</bdi> means cryptorchidism and <bdi dir="ltr">“surgical fixation of the testes”</bdi> means orchiopexy.
+75ee09ca	orchitis = inflammation of the testis.
+5d431119	Which root means “glans penis”?
+bb5e1dbf	vas/o in vasectomy refers to the vas deferens.
+4b085415	Build a word meaning “inflammation of the prostate”
+1d6ccbc6	Male roots.
+90326bec	The root ___ means sperm.
+292487dd	Spell the term for inflammation of the testis
+a77ed105	Roots of pregnancy and milk
