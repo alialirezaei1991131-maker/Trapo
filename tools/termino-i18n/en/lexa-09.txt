@@ -1,0 +1,202 @@
+eea09733	Route
+d855903a	IV means…
+32a85f0c	A skin test injected into the skin…
+d655629d	Where is insulin usually injected?
+25c93c95	under the skin (subcutaneous)
+b85126ec	into the bone
+41007089	Into the fatty tissue under the skin.
+abd1f613	Depth
+e2e3221c	Order the routes from shallowest to deepest
+bba5db86	parenteral means any route other than the digestive tract.
+ca5a4a19	para- beside + enter/o intestine.
+31226f49	below, low
+c1bdc1a2	Injection-route prefixes.
+6d72d4f1	Spell the term for “into a muscle”
+39a17e27	Plurals in the chart
+32b62faa	The “Making Plurals” exercise in Fremgen
+40d75d2c	In the Making Plurals exercise in chapter 1 of Fremgen and the case-study questions in Cohen, you have to write the plurals of chart terms: diagnosis, diverticulum, bursa, bronchus and artery. Look at the ending of each word before you write.
+0870004e	The plural of diagnosis…
+4d891a93	The plural of diverticulum…
+a6db2fa6	The plural of bursa…
+8dac42d0	The plural of bronchus…
+fc41800f	The plural of artery…
+55ff9cd1	English rule: -y → -ies.
+e9264a4d	Match each singular to its plural
+5649e945	Other rules.
+865d21f2	meatus stays meatus in the plural.
+72aa5b57	Write the plural of “fungus”
+028ab54e	Ambiguous abbreviations
+1cfe2e91	The acronym exercise in the Dummies book
+aeb09cd5	Chapter 4 of the Dummies book notes that one acronym can have several meanings: AMA, CAT, ECT and MRI each have two or three, and BM even more. You have to find the meaning of each from the context.
+b9e582a7	“The patient left the hospital AMA” means…
+ce1e45c4	with the American Medical Association
+11083453	after lunch
+df88d02c	by ambulance
+65a0910a	In a cardiac chart, MS most likely means…
+5783c46c	multiple sclerosis
+dda732b4	In a patient with severe depression, ECT means…
+8405845c	electroconvulsive therapy
+37fa7878	enteric-coated tablet
+efee0b84	clotting test
+a6045406	“Has had no BM since yesterday” means…
+81316f31	breast milk
+4533afec	body mass
+48530df5	Rule
+dd24ecf0	If the meaning of an abbreviation isn’t clear, it’s better to write it out.
+61e4c1ff	Match each acronym to its usual meaning
+0173d089	magnetic resonance imaging
+f7bde623	computed tomography
+c94472ff	acquired immunodeficiency syndrome
+53ad36a5	Acronyms.
+c591e0fe	Spell the term for a word made of initials and read as one word
+78cbc037	Traps in a nursing note
+63751e98	Sound-alike exercise
+22545237	Based on the “Troublesome Soundalikes” table in the Dummies book, you are reviewing a nursing note in which several sound-alike words have been written wrongly. You must decide which word is correct.
+5428e731	Sound-alike
+5f7b7065	The patient has trouble swallowing:
+48116b21	-phagia: swallowing.
+ef9a1c93	The patient says his heart is racing and pounding:
+0fa2629d	Itching of the skin of the arms:
+ce82b42f	pruritus, with a u.
+811ba403	Pain on the outer side of the lower leg:
+621c57d2	A fracture in the pelvis (the wing of the hip bone):
+a235ac49	mucus (noun)
+99885087	Sound-alike words.
+f0a9c2b2	Spell the term for itching
+674b397b	With a u.
+eb673f67	Four prescriptions
+bdc73c59	The “Prescription Practice” exercise in Fremgen
+839963f1	In the Prescription Practice exercise in chapter 1 of Fremgen, you have to write out four prescriptions in plain language. The drugs are Pravachol, Lanoxin, Synthroid and Norvasc, and the full text of each prescription is in the patient’s chart.
+1fb0d3c0	i q noc means…
+eb0b62d6	one every night
+0f7e32a4	one every morning
+e6eeec07	one as needed
+b622513a	one before meals
+cfce76ff	noc means night.
+97a64fde	iii stat, then ii q am means…
+c2b48f2e	three immediately, then two every morning
+f4306ec1	three times a day, twice at night
+26ddc843	three every morning
+54531014	two immediately
+78010f0a	stat immediately; q am every morning.
+82455106	#30 means…
+6f6da1c3	dispense 30
+6efb482b	take for 30 days
+48d1b367	30 mg
+7a1af8ca	every 30 minutes
+56a3f4cc	The quantity to dispense.
+8d79829a	no sub means…
+45136108	the pharmacist must not substitute another drug
+1f4809d7	not to be taken under the tongue
+44ad6ffd	without food
+77b305a5	refill x4 means the prescription can be refilled four times.
+31849819	Four refills.
+4c529933	Match each part of the prescription to its meaning
+fcc6c728	take; prescription
+42b8affe	Parts of the prescription.
+1a2b7707	Write the abbreviation for “at bedtime”
+5a238988	A dehydrated older woman
+83ab97e5	a 92-year-old woman
+af9729ed	In a progress note in Stanfield, a 92-year-old woman with dehydration is a little better. Her medications: D5W @ 100 cc/hr I.V., Biaxin 500 mg PO q12 hr for sinusitis, Omeprazole 20 mg PO daily for GERD and Xalatan drops 2 gtt in OS and OD for glaucoma. If she keeps improving, she will be D/C to LTC.
+7de9e52e	PO q12 hr means…
+408999e0	by mouth every 12 hours
+f299a452	by injection every 12 hours
+b091dfc1	by mouth 12 times a day
+2cb20ec7	drops every 12 hours
+45273948	per os; q means every.
+325c3a1c	2 gtt OS means…
+6241df3e	two drops in the left eye
+093681d8	two drops in the right eye
+f96d24c3	two tablets under the tongue
+a7208ed4	two drops in the ear
+023dc470	gtt drops; OS left eye.
+ba6332f1	D/C to LTC means…
+576c2c8e	discharge to a long-term care facility
+a1f0895e	stop the drug in the intensive care unit
+01fb5b67	transfer to the emergency department
+2aaeb95c	discharge home
+dd73af11	sinusitis means…
+ff1c3ac2	sinus inflammation
+809bbc35	throat inflammation
+f34cdd94	dehydration means a lack of body water.
+7391a5ba	Spell the term for loss of body water
+2527509c	A three-week cold
+f7c05d4d	a 68-year-old man in the emergency department
+cc90793c	In an emergency note in Stanfield, a 68-year-old man came in with angina and SOB. He has had a “cold” for three weeks with a cough producing green phlegm, fever up to 102.4, malaise and diaphoresis. A bedside EKG is normal. Impression: R/O pneumonia. Plan: CXR AP/Lateral, CBC, chem panel and cardiac enzymes three times over three hours.
+98e31566	SOB means…
+b7859bab	cough
+0389f310	chest pain
+31d54679	fever
+52d9c431	diaphoresis means…
+62770585	heavy sweating
+6f2f5f3c	dehydration
+4835ea15	Sweating.
+c4a1f8fc	CXR AP/Lat means…
+dea094f4	chest X-ray from the front and the side
+444e70fc	chest CT
+18a7e97a	abdominal ultrasound
+fedf8004	R/O pneumonia means pneumonia is the confirmed diagnosis.
+83986042	It means the possibility has to be checked.
+0a88e727	Instrument
+094cae58	What is an EKG?
+a488d638	a picture of the heart
+72e6be86	a blood test
+7491d251	Emergency-note abbreviations.
+cad02a2c	Spell the term for a lung infection
+ec0ad8a2	Silent p.
+ae140b6e	Start the meaning of every word from the suffix, then read the prefix and finally the root.
+ce7b2d38	Root + combining vowel = combining form, such as cardi/o and gastr/o.
+7405db9d	Before a suffix that starts with a vowel, the o is dropped: gastritis, not gastroitis.
+1f564337	Between two roots, the combining vowel always stays: osteoarthritis.
+11be9d01	At the start of a word, p before s, n and t is silent: psychology, pneumonia, ptosis.
+2947d0ff	nephr/o is Greek and ren/o is Latin; both mean kidney.
+faa2a4dc	cephal/o is the head and encephal/o the brain inside the head.
+ff7eb0ee	enter/o is the small intestine and col/o the large intestine.
+9b52f966	my/o is muscle and myel/o is the spinal cord or bone marrow.
+ea55879d	erythr/o is red, leuk/o white, cyan/o blue, melan/o black and xanth/o yellow.
+ce6b6a16	staphyl/o means in grape-like clusters and strept/o in chains.
+e4d79cd1	-itis is inflammation, -osis condition, -algia pain and -megaly enlargement.
+00bd68e4	-ectomy is removal, -tomy incision and -stomy a new opening.
+6d5e4598	-scope is the instrument and -scopy the procedure; -graph is the machine and -gram the record.
+dac61653	-rrhea is flow, -rrhage bursting forth of blood and -rrhaphy suture; all three with rrh.
+cb228147	-iatrics is the specialty and -ician its physician: pediatrics and pediatrician.
+ebf1cd4b	uni- is one, bi- two, tri- three, quadri- four and hemi- half.
+1a7674a5	intra- is within and inter- between; one letter, two places.
+5a147696	brady- is slow and tachy- fast; hypo- low and hyper- high.
+c3cf0450	abduction is moving away from the midline and adduction moving toward it.
+056d3f9c	proximal is nearer the trunk and distal farther from it.
+1d8e7910	vertebra → vertebrae, bronchus → bronchi, bacterium → bacteria.
+2c5740f6	appendix → appendices, phalanx → phalanges, ganglion → ganglia.
+a92c6294	meatus stays meatus in the plural, and femur becomes femora.
+072cd8f9	The ileum is the last part of the small intestine and the ilium the wing of the hip bone.
+f872e6ec	dysphagia is difficulty swallowing and dysphasia difficulty speaking.
+366a10a7	perINeal is between the legs and perONeal on the lower leg.
+fbd0d41e	The H&P is written on the day of admission, progress notes every day and the discharge summary on the day of discharge.
+dffca154	i po tid means one tablet, by mouth, three times a day.
+a5abef36	Don’t write qd and qod; write daily and every other day.
+e5926bfa	Never write a trailing zero (1 mg), but a leading zero is required (0.5 mg).
+94bef677	Every drug has one generic name and one or more brand names.
+4518348e	<header class="player__top"><button class="iconbtn" data-c="quit" aria-label="Exit">✕</button><div class="pbar"><i></i></div><div class="p-meta"></div></header>⏎      <div class="player__body"></div><footer class="player__foot"></footer>
+b1dffe71	<div class="qwrap">⏎      <div class="fcard ⟦0⟧" data-c="flip" role="button" tabindex="0" aria-label="Flip the card">⏎        <div class="fcard__in">⏎          <div class="fcard__f">⏎            <span class="fcard__w" style="--wc:⟦1⟧">⟦2⟧</span>⏎            <span class="fcard__box" title="Leitner box">⟦3⟧⟦4⟧</span>⏎            <b class="fcard__t" dir="ltr">⟦5⟧</b>⏎            ⟦6⟧⏎            <small class="fcard__h">Tap to see the meaning</small>⏎          </div>⏎          <div class="fcard__b"><b class="fcard__t fcard__t--sm" dir="ltr">⟦7⟧</b>⟦8⟧</div>⏎        </div>⏎      </div>⏎      ⟦9⟧⏎    </div>
+36adab26	<button class="hintbtn hintbtn--c" data-c="say">🔊 Hear the pronunciation</button>
+4a1772b3	<div class="foot__row"><button class="btn btn--red btn--lg" data-c="no">✗ I didn’t know it</button><button class="btn btn--green btn--lg" data-c="yes">✓ I knew it</button></div>
+cfe1b71f	<div class="foot__row"><span class="foot__note">Say the meaning in your head first, then flip the card</span><button class="btn btn--wc btn--lg" data-c="flip">Flip</button></div>
+ba2c0e06	<div class="res">⏎      <div class="res__m">⟦0⟧</div>⏎      <h2 class="res__t">You knew ⟦1⟧ of ⟦2⟧ cards!</h2>⏎      <p class="res__sub">Cards in Leitner boxes 4 and 5: ⟦3⟧ of ⟦4⟧ terms</p>⏎      <div class="tiles"><div class="tile tile--xp" style="--d:.2s"><div class="tile__h">XP</div><div class="tile__v">⚡ ⟦5⟧</div></div></div>⏎      ⟦6⟧⏎    </div>
+5e0a0b96	<p class="res__combo">⟦0⟧ New badge: ⟦1⟧</p>
+0a3003a9	<div class="foot__row"><button class="btn btn--ghost" data-c="again">Another set</button><button class="btn btn--brand btn--lg" data-c="quit">Continue</button></div>
+0f2bf621	🎉 New level:
+e0b82cb0	Dictionary
+40ef855f	Word parser
+560bcdb9	Roots and suffixes
+845c77d2	Abbreviations
+15ded155	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⟦6⟧</p>⏎    </section>
+8e7dc0f0	<button class="seg__b ⟦0⟧" data-tw="">All</button>
+8cc2e1db	<div class="tres--empty">⟦0⟧<span>No term found. Search with part of the word or its meaning, or try the “Word parser”.</span></div>
+7071fb3a	<p class="tcount">⟦0⟧ terms</p><ul class="dict">⟦1⟧</ul>⟦2⟧
+ae862722	<li class="dict__i ⟦0⟧">⏎        <button class="dict__h" data-term="⟦1⟧" aria-expanded="⟦2⟧">⏎          <span class="wsym wsym--xs" style="--wc:⟦3⟧;--wd:⟦4⟧">⟦5⟧</span>⏎          <span class="dict__t"><b class="en-text">⟦6⟧</b><small>⟦7⟧</small></span>⏎          <span class="dict__box" title="Leitner box">⟦8⟧</span>⏎        </button>⏎        ⟦9⟧⏎      </li>
+8bb31243	<div class="dict__b">⟦0⟧⟦1⟧⟦2⟧⏎          <div class="dict__act">⟦3⟧<button class="btn btn--ghost btn--sm" data-fav="⟦4⟧">⟦5⟧</button><button class="btn btn--ghost btn--sm" data-parse="⟦6⟧">✂ Parse</button></div></div>
+06aa29cd	<button class="btn btn--ghost btn--sm" data-say="⟦0⟧">🔊 Pronounce</button>
+1d59502d	★ Starred
+e12fece0	☆ Star
+1ffed12d	<button class="btn btn--ghost btn--block" data-more>Show ⟦0⟧ more terms</button>
+c7bd7345	<div class="tpane">⟦0⟧⏎    <div class="seg seg--w"><button class="seg__b ⟦1⟧" data-tw="">All</button><button class="seg__b ⟦2⟧" data-tw="fav">★ Starred</button>⟦3⟧</div>⏎    <div class="kchips" role="group" aria-label="Term category">⟦4⟧</div>⏎    <div class="tlist">⟦5⟧</div></div>

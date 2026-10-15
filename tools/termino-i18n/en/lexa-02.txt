@@ -1,0 +1,644 @@
+1a7776fd	between the ribs
+73832afd	internal medicine specialist
+eef4f155	inside a cell
+b7bdf916	within the skin
+e77822b2	yellowing of the skin (jaundice)
+b353a61c	hunchback (kyphosis)
+25fd69f4	looking inside the abdomen (laparoscopy)
+ded14012	voice box
+019cf780	toward the side (lateral)
+fdd94547	blood cancer (leukaemia)
+b531b074	white blood cell
+04c1671c	too few white blood cells
+3ad17737	fatty tumour (lipoma)
+88c07aa3	stone crushing
+9d114e1f	inner channel of a tube (lumen)
+90d33b01	Lyme disease
+f87c9149	abnormally large head
+72be1456	MRI scan
+7edd25d8	poor nutrition
+09461a07	breast X-ray image
+7a42dad9	breast X-ray imaging
+a1410710	opening or passage
+566c55ce	toward the midline (medial)
+c176f935	medical dictionary
+1456e09e	medical record
+b1f46724	medical terminology (the language of medicine)
+0d23bb85	black pigment-cell tumour (melanoma)
+0edccca6	spread of cancer (metastasis)
+e07150bc	instrument for viewing tiny objects
+038a8ea9	narrowing of the mitral valve
+6fe261cd	memory aid (mnemonic)
+52279dc7	single-nucleus white blood cell (monocyte)
+4f502651	relating to mucus (adjective)
+049c9284	slimy secretion (noun)
+1251711d	made of many cells
+503f3962	muscles and bones
+a8a39c0a	muscle pain
+dc972318	inflammation of the heart muscle
+079b581a	suturing a muscle
+9427efe0	newborn
+dfa8c250	kidney inflammation
+63566624	kidney specialist
+20b07b7e	fixing a floating kidney
+f1e917e5	of the nerves
+83d2e998	nerve pain
+7f53a34d	nervous system specialist (neurologist)
+321af0eb	nerve tumour
+853bd29e	of a neuron
+1b0348d5	nerve disease (neuropathy)
+e3fc47c0	woman who has never given birth
+eb31adc6	pregnancy and childbirth specialist
+d9c71d03	cancer specialist (oncologist)
+16ef824a	study of cancer (oncology)
+21d6558d	operative report
+52f52629	eye doctor (ophthalmologist)
+5ed0ca22	study of the eye (ophthalmology)
+a7216ef2	bone and joint specialist
+234db758	breathing difficulty when lying flat
+bcddc737	wear-and-tear joint disease (osteoarthritis)
+3df733e9	bone tumour
+48e6832d	softening of bone
+80cd6e57	porous, brittle bones
+0dddb63c	earache
+53d5d383	ear inflammation
+3475f6e8	ear, nose and throat specialist
+32ceff37	sold without a prescription
+8fa69493	examination by touch (palpation)
+c527c197	pounding heartbeat
+b24fce87	shortage of all blood cells
+dc603bca	allied to medicine (paramedical)
+9783cd9d	given by injection, not by mouth
+fcb406c0	Parkinson disease
+b71e32f5	pathologist
+1060e173	study of disease (pathology)
+9a488d27	children’s doctor
+86bebc1f	children’s medicine
+398dac9f	of the pelvis
+200d2be2	sac around the heart (pericardium)
+f1d707e9	of the area between the legs
+7c562db6	around a tooth
+0b617870	of the abdominal lining
+87dcfbda	of the outer lower leg (peroneal)
+d38b56a3	finger and toe bones
+cf805c28	finger or toe bone
+4156edf6	pharmacist
+262e9746	study of drugs
+f492546b	thick mucus from the airways
+c4c989e8	sound-it-out spelling
+481bbf70	physical medicine and rehabilitation
+154456d1	study of body function (physiology)
+8a7bab14	inflammation of the lung lining (pleurisy)
+b0cdd5e7	lung infection (pneumonia)
+b42e0613	lung disease from fine volcanic silica dust
+0ceeb8f1	air in the chest cavity (pneumothorax)
+85692044	polio
+8e9282cf	excessive urination
+c50d2003	toward the back (posterior)
+87f46d72	after surgery
+2821c6b1	prefix
+667dc93f	before birth
+e1d8a7ce	before surgery
+4ff2bb9d	prescription
+a4e2587f	woman in her first pregnancy
+12fcd1d9	expected outcome (prognosis)
+9571193b	progress note
+bffcde32	lying face down
+1fe9cb08	of the prostate
+4402e4be	of an artificial body part
+d358b81b	closer to the attachment (proximal)
+27a97771	itching
+13e4162f	psychiatrist
+5bfe3a95	psychiatry
+1d322451	psychology
+1cf7bdda	drooping
+90ac5fef	of the lungs
+0a32924e	purple skin spots (purpura)
+945913aa	paralysis of all four limbs
+4437d127	X-ray image (radiograph)
+9d5f0d86	X-ray imaging (radiography)
+af80228a	radiologist
+3ca3fc79	of the kidney
+ca01b431	behind the abdominal lining
+2430b5ad	inflammation of the nose
+455bbb64	surgical repair of the nose
+46144300	runny nose
+e6bffdea	shaped like a half circle
+5e5bd1d9	breathing test (spirometry)
+dd06f4a5	removal of the spleen
+9dadbd8d	enlarged spleen
+71ada021	grape-like clusters of round bacteria (staphylococci)
+5dc64d09	inflammation of the mouth
+0ee130f0	rod bacteria in twisted chains (streptobacilli)
+dad4e4ce	round bacteria in chains (streptococci)
+0b110cfd	under the tongue
+4e340e88	suffix
+c5e46a50	above; toward the head
+66e98754	lying face up
+1fe0e01a	stitch
+8fec972c	word of the same meaning
+5898a86a	fast heartbeat
+a579a186	group of four defects (tetralogy)
+074c0d49	thermometer
+e12faa0f	draining fluid from the chest
+9e4d488d	of the chest
+7723accb	the chest
+386b8443	clot in a blood vessel (thrombosis)
+b54270bb	removal of the tonsils
+fce5c946	tonsil inflammation
+7a4efa9e	opening into the windpipe
+88a3c056	incision into the windpipe
+4da64b9f	through the skin
+f50776aa	Trendelenburg position
+8cf93e96	three-headed arm muscle (triceps)
+f93bab12	having three cusps
+e9abb6d4	ultrasound scan
+5be3e50a	on one side
+50ed1581	urinary tract specialist
+6119dba2	of the blood vessels
+dbc0b690	small vein
+2f4293fa	spinal bone
+b79a31ac	spinal bones
+2e821991	vital signs
+2b133d81	word building
+868ee5be	word root
+4e3f03d8	yellow skin bump (xanthoma)
+539a2008	dry skin
+51d8e177	one
+67610a88	two
+1b30e141	three
+d8012d50	four
+edd7da62	half
+03d3cd5c	many, much
+af579bfe	first
+837f00c9	none
+ff71f471	both
+bf742c5a	all
+0325f0c0	away from
+e20da3cb	toward
+ba4382eb	before, in front
+e767d8e5	after, behind
+a2d69d38	upon, above
+b6fd8340	below, less than normal
+4fa5630f	above, more than normal
+bda66f52	within
+effa614c	outside
+93f94aa6	between
+e6f18f54	around
+e9b6d328	beside; abnormal
+790e3c22	behind, backward
+188f183f	through
+7ba2fa17	beyond; change
+5bb6fba5	without, lacking
+54a6a65c	against
+f05ed98c	remove, apart
+5df71f9a	bad, difficult, painful
+2fba932a	good, normal
+90926820	bad
+f09af759	slow
+93046204	fast
+38cb68d2	new
+5970c48e	large
+d40618bf	small
+8f7d7d7e	same
+56aba42b	different
+1e949447	before
+57cd0a63	together
+82f1b4b7	heart
+dcf32245	stomach
+dfd34a30	small intestine
+0e71b837	large intestine
+7bdde02e	duodenum
+62aab310	oesophagus
+ec6b2402	liver
+6ce077bd	spleen
+0aaad4f8	abdominal wall
+7a6f320f	kidney
+0efedc9f	bladder; sac
+90eae0a0	urine
+09081cfe	bone
+41fe4a56	joint
+a0fa0f48	muscle
+b948f9b2	skin
+a81a10f8	nerve
+4d72e873	brain
+b5f09129	head
+0b619624	spinal cord; bone marrow
+52a5c491	mind
+8c960401	nose
+bc931a1c	ear
+fa6c4cd6	eye
+68956f70	mouth
+df3992e4	gums
+da4fdc9d	tooth
+e5bfec66	tonsil
+da186cba	tongue
+4efe74b2	lung, air
+5442adb3	windpipe
+348681da	breathing
+5d3d479a	rib
+20226df5	vessel
+9519c73e	artery
+9949d72e	vein
+275ca66a	blood
+9be23038	clot
+bb948794	breast
+aed1e9e2	side
+7e1f5067	cell
+d8cb72be	tissue
+03dec489	fat
+d226648d	cancer, tumour
+14d599b3	disease
+05ac8d7c	life
+4099609c	child
+655258df	old age
+747385ff	birth
+5e42ade5	nature, function
+e9ac9075	straight, upright
+110b3319	radiation
+8ea60afd	electricity
+ec9e11fa	heat
+1c5141e4	water
+c74cf656	sugar
+016541d8	oxygen
+5c8d67f1	dry
+9f85df0f	hump
+270a639a	stone
+fe4912ec	pore
+5eaed4fb	sensation
+78b685e6	red
+87185803	white
+f2f9a962	blue
+6d755b14	black
+9195f2c2	yellow
+1fb0474a	green
+d4a98ad3	grey
+4342c741	purple
+3f13b5cf	colour
+20f208e6	bacteria
+c1be3691	in clusters
+f2c37a89	in chains
+32ded1ca	pairs
+24a93d6a	round bacterium
+0fb3b633	rod-shaped bacterium
+b605f4cf	intestine
+fa8e57ba	skeleton
+dfaaf4bb	peritoneum
+6fd295dd	perineum (area between the legs)
+f1cb435a	prostate
+c2330bcf	pleura
+47fc8f76	sound
+81ecb5ec	beyond
+bf4f5155	uterus
+22882868	hearing
+f9b2ad94	woman
+3b722565	drug
+97208054	pelvis
+66f31eb2	treatment, physician
+3e7f6b89	secrete
+b8455193	stopping
+02143477	inflammation
+97890ddd	abnormal condition
+443e6851	pain
+d135ecde	enlargement
+71566fa5	tumour, mass
+9a66a4cc	blood condition
+823f39ee	flow, discharge
+e3d3a140	deficiency
+737d3363	paralysis
+cf2211ef	softening
+ed49cd41	hardening
+3c5fe93d	narrowing
+e3b37623	producing
+c104dbf5	growth, nourishment
+1589650d	eating, swallowing
+49721b0a	speech
+f964d282	feeling, bearing
+5494ade5	knowledge
+5bde5eea	surgical removal
+5dca8100	incision
+d6be9955	new opening
+945b26e9	surgical repair
+65b84cd9	surgical fixation
+ad5c86dd	drawing fluid with a needle
+462e5fd9	crushing
+93ac0196	breakdown
+1bf5f040	viewing instrument
+a309a61c	viewing with an instrument
+e99076e0	record, image
+bf079ddc	recording instrument
+05ca35ba	recording process
+187afae7	measuring instrument
+205811a4	measuring
+b70c289c	viewing
+37275edc	study of
+a1ceae33	specialist
+9bb46f44	medical treatment
+4e572dd3	condition
+1d9ed883	pertaining to
+ab2c38d8	before
+3813c3ac	AIDS
+ebba3b23	against medical advice; American Medical Association
+c66d0ff3	twice a day
+3f2f52bb	bowel movement
+140a908b	blood pressure
+ef5a9f15	allowed to use the bathroom
+46313e78	tissue sample
+e24a793e	with
+091a4a74	complaining of
+43c34b7f	cancer (also calcium)
+4ea9ca5c	complete blood count
+872ebc68	centimetre
+e59018f8	chronic obstructive lung disease
+8c13edd6	stroke
+6d548d5b	chest X-ray
+98fe3de8	discharge; discontinue
+2001ce93	date of birth
+34f89f3c	emergency department
+81ec5a7f	scope exam of the oesophagus, stomach and duodenum
+1941e5f2	ear, nose and throat
+9b1ee8ea	alcohol
+135fd6ae	fracture
+d1de7442	acid reflux into the oesophagus
+f040942f	head, eyes, ears, nose and throat
+4fa03dbd	US health-privacy law
+c0528715	history of
+581fa470	history
+551b37d1	intake and output
+81396973	International Classification of Diseases
+11e5dd42	intensive care unit
+27e57f4f	left upper lobe
+13ebe460	medical records
+3d3b32fd	multiple sclerosis; mitral stenosis
+0db9a130	no known drug allergies
+f9d9c652	nothing by mouth
+e1234b0b	non-steroidal anti-inflammatory drug
+79849758	wear-and-tear arthritis
+a5ae5c0d	right eye
+99285275	out of bed
+c2aa1083	operating room
+0b139c0c	left eye
+6ba827fb	physical examination
+d1a995e9	every
+bf28efb0	four times a day
+fd7665ea	rule out
+fb551f4e	review of systems
+85872144	directions for use
+7d465c35	three times a day
+ae764d0e	temperature, pulse, respiration
+e5c46361	treatment
+1bf6f66a	within normal limits
+ca17b470	years old
+3b81fe8d	Word-building concepts and rules
+3981ef80	Organs and structures
+8c3670fd	Specialties and specialists
+43146e92	Diseases
+fdb2c3aa	Signs and findings
+4bac9cad	Tests and imaging
+5344db19	Treatment, drugs and surgery
+d7949faf	Anatomy and physiology
+48ad8084	Diseases and disorders
+2ec2ad49	Laboratory and diagnosis
+4c6c2e95	What does ⟦0⟧ mean?
+f0f24d81	Which medical term means “<b>⟦0⟧</b>”?
+1f773ec1	Which term does this definition describe?<span class="defq" dir="ltr">⟦0⟧</span>
+42bb46ab	Spell the term for “<b>⟦0⟧</b>”
+f94950fa	The ⟦0⟧ ⟦1⟧ means…
+a5e8e6f3	root
+dfbbfe62	Which word part means “<b>⟦0⟧</b>”?
+75342a7d	Build the term that means “<b>⟦0⟧</b>”
+22690093	The abbreviation ⟦0⟧ means…
+31421b48	<br><small>Example: ⟦0⟧</small>
+a76e28c4	One word, five pieces: gastroenterology
+af819b9f	root: stomach
+63479924	vowel
+3b66a817	root: intestine
+ed25b3d1	suffix: study of
+4624b3d6	Meaning: study of the stomach and intestines (gastroenterology)
+5dbaef97	A word with two roots is a “compound word”
+11e36fdf	Word pieces
+cc632f51	The four parts of every medical word
+246450fa	start of the word; number, position, time or state
+b24e1e56	core meaning; usually a body part
+e1e5946e	combining vowel
+882157c5	usually o; it makes the word easier to say
+4bc07fb2	end of the word; disease, procedure or part of speech
+8ef23e26	root + vowel = combining form, such as gastr/o
+8a159ff9	The four word parts
+f4f371f7	The combining-vowel rule: o
+8c0f9018	The suffix starts with a consonant (s), so the o stays
+0e931d23	The suffix starts with a vowel (i), so the o is dropped: not gastroitis
+6e213fc1	Between two roots the o always stays: osteoarthritis
+5d4b7613	The combining-vowel rule
+3ff76d6f	Translating a word in three steps: pericarditis
+4e3bc9ef	1 suffix → 2 prefix → 3 root
+0549b762	Meaning: inflammation of the (sac) around the heart
+ef82d521	Three translation steps
+06c5e0f8	Meaning
+a5400184	lung
+00b7e32c	One organ, two roots: Greek and Latin
+47f670c2	Greek roots appear mostly in diseases and procedures: nephritis, nephrectomy
+53110341	Latin roots appear mostly in adjectives: renal, pulmonary, cutaneous
+203e0ecb	The word carcinoma comes from the Greek karkinos, meaning “crab”
+d277f359	Greek and Latin
+ccdfbe8d	Letters that are silent or make a different sound
+045a544e	silent p
+41c6aeb4	like k
+0d1d2097	like z
+c146596f	like f
+e6af123f	soft before e, i, y
+36cfa3a2	silent m
+edc8ae2b	If you hear an “s” sound, the word may start with c, ps or s
+324b95cb	Pronunciation
+33ad8854	Pronunciation guide: the stressed syllable and vowel marks
+84e57edc	The syllable in capitals is stressed
+84158bfd	A straight line (macron) marks a long vowel and a curve (breve) a short vowel
+7b2f5e47	Pronunciation guide
+b1f1671d	stethoscope
+4cfcb5d5	ether anaesthesia
+a7aae2fd	X-rays
+f2013060	insulin
+0cf20f97	penicillin
+6b0f00d2	heart transplant
+e0fca6dc	face transplant
+ede5710b	Some great steps in the history of medicine
+cddebe16	Greek and Latin roots have worked from the time of Hippocrates (460 BC) until today
+3c0a52d3	History of medicine
+7837698f	Roots of the head and face
+a08e6b13	Roots of the head
+76c77993	Roots of the organs in the trunk
+f19cb94e	bladder
+e5162d95	Roots of the trunk
+0f380495	From skin to bone: the root for each layer
+c3165fcc	bone marrow
+741153dc	root + -itis → dermatitis, neuritis, myositis, osteitis
+2ae2a9fa	Body layers
+60897461	Colour roots
+dc5bee10	Colours
+22c0719c	Bacterial shapes and the roots of their names
+326c6403	round
+41dc63ee	in pairs
+4a36fdb3	rod-shaped
+75df9d06	rods in chains
+771212b7	Bacteria
+6846b0fb	From cell to system
+ef841f5a	organ
+7df5687d	system
+3421f3d4	cytology is the study of cells and histology the study of tissues
+569e7c56	Levels of the body
+aa1f4314	skin and appendages
+57899cea	heart and vessels
+9b62f748	breathing
+7a740859	urinary
+e00c5eb5	special senses
+f8a55fb3	reproduction
+f4c3d1f6	lymph and immunity
+aa3033a3	all together
+d2543e64	Body systems
+8c35d814	Root + suffix in blood words: -cyte, -emia, -penia
+6224ca51	cancer of white blood cells
+2480b0a9	Blood words
+c99bb4bb	Four suffix families
+4a459003	disease and condition
+1fd8db25	surgery
+01f1664f	adjective, noun, specialty
+2eaefe67	Suffix families
+490c2dde	Suffixes for diseases and symptoms
+77e3c611	Disease suffixes
+58481068	Surgical suffixes
+5815f09e	removal
+9bcfb503	repair
+571fb3bc	Instrument, procedure and result
+d05cb3cb	An endoscope is the instrument; endoscopy is the procedure of looking with it
+d60809f4	An electrocardiograph is the machine; an electrocardiogram is the tracing it makes
+e790cb78	A thermometer is an instrument; spirometry is a measuring procedure
+5eeea61b	Rows: viewing, recording, measuring
+756f3212	Instrument and procedure
+8125273c	Specialty and specialist suffixes
+b5fb97c9	specialist physician
+69ee308c	iatr/o means treatment and physician
+d93715d5	Specialist suffixes
+d62243fe	Three suffixes with rrh: watch the spelling
+6712c4c4	bursting forth of blood
+afb96035	All three are spelled with two r’s and one h: diarrhea, hemorrhage
+f50611c1	The rrh suffixes
+2a9211ef	Diminutive suffixes: -ole and -ule
+253fe639	capillary
+79539629	Blood flows from artery to arteriole, capillary, venule and vein
+c15bf51d	Small vessels
+e7097d34	Adjective suffixes: they all mean “pertaining to”
+69448b96	noun + adjective suffix → adjective; for example, the adjective of neuron is neuronal
+68c8db52	Adjective suffixes
+9bf28ce2	Number prefixes
+3a205f16	Directions on the body in anatomic position
+a3a6539c	upper, toward the head
+7b51a613	lower, toward the feet
+6941fbe2	midline
+06010bc9	toward the side
+4ae7cf66	toward the midline
+934de76e	nearer the trunk
+5ca7b612	farther from the trunk
+f7f3bc45	front ↔ back
+34f2c3e2	that is, ventral and dorsal
+069a0b92	Directions
+31e345e8	Position prefixes: relative to an organ
+9d06cd29	below
+015df444	behind
+fb8887c5	beside
+ed53b24c	Position prefixes
+77936f2e	Injection routes: the prefix and root tell you where the needle goes
+69387de9	into the skin
+6c8c7ff4	into the muscle
+ec8dd88f	into the vein
+011f3bce	fat under the skin
+8e30e3eb	intra- means within and sub- means below; ven/o is vein
+42bc44be	parenteral means any route other than the digestive tract
+755dd1f1	Injection routes
+5116edc3	Prefixes of negation and opposition
+0ae771b3	against, opposing
+e5048f02	apart, away
+061b0854	remove, down
+f03989ef	Negation prefixes
+aa49b11b	brady-  slow
+81f023c5	tachy-  fast
+54c49c3d	hypo-  low
+acdcf9c7	hyper-  high
+4bda227c	ab-  away from
+c1b81ded	ad-  toward
+bfcdc797	endo-  within
+137a50dc	exo-  outside
+2ad57377	pre-  before
+3cac5b6c	post-  after
+f6924ef1	micro-  small
+40d61f49	macro-  large
+e7858db6	eu-  good
+539baba6	dys-  bad
+3a5b6006	Opposite pairs (antonyms)
+55c0204e	Opposite prefixes
+a588067f	bradycardia is a slow heartbeat and tachycardia a fast heartbeat
+66d15bc5	Patient positions in bed
+bbf3c624	half sitting
+0d3e3cf5	head lower than feet
+914a4800	on the left side, knees drawn up
+8294e598	on the back, thighs raised
+5d374942	Patient positions
+16f15be5	Time prefixes: before, during, after
+e904bd9d	surgery
+c23b6173	newborn (neo- = new)
+0890e940	time
+629d4c8b	pre- and ante- mean before; post- means after; primi- means first
+9572f72b	Time prefixes
+04efe4ba	Plural rules for Latin and Greek words
+e5096eb4	Many words can also take the English -s or -es plural: viruses
+34294202	Plural rules
+345c7f09	Exceptions and how to pronounce plural endings
+1e48f022	unchanged
+63ac1e60	exception to -ur
+15c0a4d7	exception to -s
+f07183c8	Pronouncing plural endings:
+a02abf02	Exceptions
+04674836	Sound-alikes: ileum and ilium sound the same but are two organs
+424cb396	last part of the small intestine
+eaa77a05	wing of the hip bone
+6bfcd7c9	ileum with an e, as in enter/o (intestine)
+1f572fe3	ilium with an i, as in hip
+3be660fc	ileum and ilium
+87594651	Three look-alike words: peritoneal, perineal, peroneal
+a010c0f3	of the peritoneum (abdominal lining)
+d55b8300	of the perineum (between the legs)
+708513d7	of the outer lower leg
+2eca9a90	perINeal: IN between the legs; perONeal: ON the lower leg
+979c1442	Three look-alike words
+6c69fee1	Sound-alike traps: one letter, a different meaning
+038c684a	examining by touch
+7acd73a3	noun: mucus
+1269b17c	adjective: mucous
+4eab0b08	of the prostate
+5c3c2d1d	artificial part, prosthesis
+2e434700	Sound-alikes
+a2f579a0	Abbreviation, acronym, eponym and symbol
+bf745b64	abbreviation
+c917f960	read letter by letter
+2cc26171	read as one word
+2010feb1	eponym
+69540be9	named after a discoverer or place
+119364b8	symbol
+947dcbdd	increase, decrease, female, male
+6137e331	Kinds of shortened forms
+a564567a	Eponyms: diseases named after people or places
+3e1b2e7a	progressive brain decline
+b6502eb5	tremor and muscle stiffness
+540bb242	trisomy 21
+b4766c2a	newborn score at minutes 1 and 5
+f94e65eb	named after a town; spread by ticks
+2aefb125	overactive adrenal cortex
+16c3930a	Eponyms
+0036cb48	Breaking down a long word: otorhinolaryngologist
+61e93c3c	ear, nose and throat specialist (ENT)
+c5b9dc44	Read a long word from the end and split it with “/”
+f1660f21	Word breaking
+24ef9556	The most commonly misspelled words
+600c21cd	two l’s
+04045a00	two r’s and one h; bursting forth of blood
+ee01664f	both ph and th
+271e9e95	two r’s and one h; flowing through

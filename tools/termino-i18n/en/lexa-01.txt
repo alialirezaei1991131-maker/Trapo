@@ -1,0 +1,302 @@
+8df2c246	Lexa
+e935a7e4	Lexa • Introduction to Medical Terminology: Word Building, Prefixes, Roots and Suffixes
+42558e47	Introduction to medical terminology: roots, prefixes, suffixes, combining vowels, plurals, abbreviations and the language of the chart
+985c850b	🧩 Medical terminology: the ABCs of word building
+1ce8e064	Hi, I'm <b>Lexa</b>, a puzzle piece that breaks every long medical word into small, familiar pieces!
+29de5dd1	Lexa is an educational tool and does not replace official references, drug guidelines, clinical judgment or a physician’s orders.
+e922fafa	Dozens of teaching figures and illustrations: from the root-and-suffix puzzle and the body map of roots to plural rules, prescriptions, do-not-use abbreviations and the medical record.
+52a4b668	Break every medical word into prefix, root, combining vowel and suffix, and start its meaning from the suffix
+6da62896	Recognise the roots for organs, colours and bacterial shapes, and tell Greek and Latin pairs apart
+1dc45eaf	Use the suffixes for disease, diagnosis, surgery and specialties correctly
+a4a8b44b	Show the prefixes for number, position, time, negation and body directions on a figure
+7f1e581c	Form the plurals of Latin words and steer clear of sound-alike and spelling traps
+4875285e	Read prescriptions, clinical notes and chart abbreviations, and recognise the do-not-use abbreviations
+54807eb4	Just 5 minutes a day. In a few weeks you’ll solve any unfamiliar medical word like a puzzle, in seconds.
+71b5cb2c	Hi! I’m Lexa, a smiling puzzle piece 🧩 What’s your name?
+3585e829	Which world shall we start with? If you’re new, “The ABCs of Medical Language” is the best start; it’s the foundation of every other world!
+5f7f4053	The word <b dir="ltr">gastroenterology</b> means…
+eadff54e	The pieces of the word gastroenterology
+ea0362fe	study of the stomach and intestines
+fabd8de8	inflammation of the stomach and intestines
+251230ee	removal of the stomach
+000b8975	intestinal pain
+46ba05bd	⟦0⟧<br>The root <b dir="ltr">gastr/o</b> means stomach, <b dir="ltr">enter/o</b> means intestine and the suffix <b dir="ltr">-logy</b> means study of; so it is <b>the study of the stomach and intestines</b>. Start the meaning from the suffix!
+76ef48d6	Newcomer
+7d141a3e	Curious Piece
+eee580c5	Root Hunter
+e6b52359	Suffix Decoder
+13012196	Combining-Vowel Master
+ccbeec34	Body-Map Reader
+23ec69e6	Prefix Keeper
+45f2a20b	Latin Plural Master
+daf8c72b	Trap Buster
+26635626	Prescription Reader
+cef71b92	Abbreviation Detective
+87a574f7	Chart Master
+a433af28	Word Architect
+af82a05d	Puzzle Legend
+ab891185	Terminology Icon
+bb373de0	Medical student
+508c11ef	Nursing student
+9a78a316	Midwifery student
+b3bfec25	Health records officer
+d77e52f6	Medical secretary
+445cfbe8	Pharmacy student
+0a7df6b9	Lab technologist
+323e4915	Radiology technologist
+f1648ed6	Surgical technologist
+bc4d801a	Paramedic
+20e736eb	Physiotherapy student
+c7138778	Dental student
+9d392939	Medical translator
+bc9dce04	First Piece
+1bc00b6d	Puzzle Player
+03cbb590	Map Reader
+e98dbc11	Suffix Master
+32edf039	Prefix Master
+88b3a14f	Trap Buster
+e297872a	Chart Reader
+63520297	Search: suffix, stomach, gastritis…
+92dc3864	Search: cardi, heart, -itis…
+f3ed1ab8	Search: bid, nothing by mouth, NPO…
+cf5afbb6	⚕️ Lexa is an educational tool; the pluralizer and prescription reader do not replace a physician’s orders, a pharmacist or official references.
+329c1dbd	stays the same
+94fc3d3d	exception to -us
+92098248	exception
+e6c3e9a2	exception to -is
+4e9bc27c	exception to the -o rule
+adcc4686	Latin word: -ex → -ices
+25ee8e44	-o after a consonant → -ones
+bdb60c47	rule -um → -a
+395331b9	rule -us → -i (syllabuses is also correct)
+bfd6abc0	both the Latin noun and its adjective become plural
+b9f48447	-ma → -mata (the English plural -mas is also accepted)
+8a29cf44	-ix → -ices and -yx → -yces
+615a658f	-on → -a (Greek words)
+4053e705	English rule: -y after a consonant → -ies
+c48dc572	English rule: add -es
+f2dfbaa7	English rule: add -s
+b4128a52	prescription; take
+efb5818e	directions:
+35d7cb6a	dispense
+fa9c6f7f	⟦0⟧ units
+fcc2d721	refills:
+fd3d5884	⟦0⟧ times
+83fc5ca4	tablet
+4838530f	capsule
+96996925	suppository
+312555ea	one
+3fcdf5ef	two
+1f5b0ca3	three
+2f606bc0	one half
+632adf69	milligrams
+64531b90	micrograms
+ffa29407	grams
+957c2a47	millilitres
+89ffe7ff	drops
+54f6ca25	by mouth
+32f89c9a	under the tongue
+ba9cedec	intravenously
+30599115	intramuscularly
+70fa8e24	subcutaneously
+f4c24c5f	in the right eye
+dac65482	in the left eye
+2ecf8f82	in both eyes
+debf4a2a	once a day
+4a3297c6	twice a day
+4daeeb45	three times a day
+a7e1a78e	four times a day
+6efe1b5e	every ⟦0⟧ hours
+02e247d4	every hour
+c9370e5c	every morning
+86132ce3	every evening
+cf819dd5	every night
+1dce59ee	at bedtime
+4e288e90	before meals
+bbe86441	after meals
+9070ef17	as needed
+2c942301	immediately
+eb878dc2	nothing by mouth
+31bc0924	then
+304117b6	and
+14fb3b8b	as desired
+4a46afc8	without
+8042991a	substitute
+74b889c4	do not use: write “daily”
+0236fa54	every other day
+c372624c	do not use: write “every other day”
+91bd5660	unit
+9b1ef6b0	do not use: write “unit” in full
+4aa78b16	morphine sulfate
+fc3607dc	do not use: write “morphine sulfate” in full
+c985d51b	<p class="pl__note">Type a singular English word, such as bronchus or vertebra.</p>
+748fc160	<div class="pl__res"><span class="pl__s">⟦0⟧</span><span class="pl__ar">→</span><b class="pl__p">⟦1⟧</b></div>⏎      <p class="pl__note">Rule: ⟦2⟧⟦3⟧</p>
+c9749b77	; pronounce the plural ending ⟦0⟧
+3432904f	<p class="pl__note">Type a prescription instruction, such as “i po tid”.</p>
+2c72875e	<small>drug name or word</small>
+7b27e554	Pluralizer & prescription reader
+5856cb31	<div class="tpane"><p class="muted">Latin and Greek words have their own plurals. Type a singular word to see its plural form and the rule behind it.</p>⏎    <label class="pl__in"><span>Singular word</span><input type="text" dir="ltr" data-keep="w" data-pl="w" value="⟦0⟧" placeholder="vertebra" autocomplete="off" spellcheck="false"></label>⏎    <div class="pl__ex">⟦1⟧</div>⏎    <div class="pl__out" aria-live="polite">⟦2⟧</div>⏎    <table class="mini"><tr><th>Singular</th><th>Plural</th><th>Example</th></tr>⏎      <tr><td>⟦3⟧</td><td>⟦4⟧</td><td>⟦5⟧</td></tr><tr><td>⟦6⟧</td><td>⟦7⟧</td><td>⟦8⟧</td></tr>⏎      <tr><td>⟦9⟧</td><td>⟦10⟧</td><td>⟦11⟧</td></tr><tr><td>⟦12⟧</td><td>⟦13⟧</td><td>⟦14⟧</td></tr>⏎      <tr><td>⟦15⟧</td><td>⟦16⟧</td><td>⟦17⟧</td></tr><tr><td>⟦18⟧</td><td>⟦19⟧</td><td>⟦20⟧</td></tr>⏎      <tr><td>⟦21⟧</td><td>⟦22⟧</td><td>⟦23⟧</td></tr><tr><td>⟦24⟧</td><td>⟦25⟧</td><td>⟦26⟧</td></tr></table>⏎    <h4 class="pl__h">Prescription reader</h4>⏎    <p class="muted">Type a prescription instruction and every abbreviation is spelled out in plain English. Abbreviations on the do-not-use list get a red warning.</p>⏎    <label class="pl__in"><span>Prescription text</span><input type="text" dir="ltr" data-keep="rx" data-pl="rx" value="⟦27⟧" placeholder="i po tid" autocomplete="off" spellcheck="false"></label>⏎    <div class="pl__ex">⟦28⟧</div>⏎    <div class="rx__out" aria-live="polite">⟦29⟧</div>⏎    ⟦30⟧⏎    <p class="muted">The sample prescriptions come from the “Prescription Practice” exercise in chapter 1 of Fremgen. Never take or change a medicine without a physician’s and pharmacist’s instructions.</p></div>
+ecfbea37	Parts of a prescription
+aaccd3f6	<div class="memo"><b class="memo__h">🧠 Memory trick</b>⟦0⟧</div>
+f15fa6d8	<div class="pearl"><b class="pearl__h">🩺 At the bedside</b>⟦0⟧</div>
+3b2c853c	moving away from the midline (abduction)
+79902649	acronym
+b6d1dd92	moving toward the midline (adduction)
+60279105	without fever
+6637ec42	carrying toward the centre
+4fdc1a07	lacking skin pigment (albino)
+65482cbe	alcohol addiction
+ce347392	Alzheimer disease
+79ee3050	able to use both hands equally
+9ccf587a	outpatient; able to walk
+85fa421c	painkiller
+0690c199	anatomic position
+41e81bbf	anatomy (study of body structure)
+995d50d2	low red blood cells (anaemia)
+c06378af	loss of sensation (anaesthesia)
+efb9895a	anaesthesia specialist
+7ff03bbb	repair of a blood vessel (angioplasty)
+2393c595	lack of oxygen
+5d30e326	acid neutralizer
+70fc303e	in front of the elbow
+10bced13	toward the front (anterior)
+913e9466	bacteria-killing drug
+97201dac	word of opposite meaning
+c79fef8a	newborn Apgar score
+3112cdb8	removal of the appendix
+42a3f67b	inflammation of the appendix
+63d5280f	the appendix
+746a4bc6	small artery
+33268cef	hardening of the arteries
+a79f3a72	joint inflammation (arthritis)
+a23aa9f1	looking inside a joint (arthroscopy)
+2f0768ab	upper heart chamber
+1c77d23e	wasting away (atrophy)
+b73a0581	hearing specialist
+91224f7f	rod-shaped bacterium (bacillus)
+a51a2f86	study of bacteria
+ab956317	bacterium (singular)
+e6f6c5ec	having two cusps
+05aef683	on both sides
+3919af05	tissue sampling (biopsy)
+dce0336f	slow heartbeat
+747e3006	brand name
+135ba6a0	main airway of the lung
+6dbe8546	fluid sac near a joint (bursa)
+13e700ed	hardened skin; healing-bone callus
+2cf2682e	cancer-causing agent
+e08d7b03	cancer-causing
+fa6e7f49	cancer of epithelial tissue (carcinoma)
+41992ff0	heart specialist
+61fc6801	study of the heart
+c496a6c2	softening of the heart muscle
+36a0917a	enlarged heart
+6497a353	heart disease
+1f06b209	headache
+3316a40f	toward the head
+3712fb0e	chemical name
+a74adb70	main complaint
+34126263	spine-manipulation practitioner (chiropractor)
+b90f6d1d	green plant pigment
+9e647584	long-lasting (chronic)
+90964181	removal of the foreskin
+d3abc8b7	round bacterium (coccus)
+5b005853	removal of the colon
+ab958d9a	looking inside the colon (colonoscopy)
+5a4e6844	opening of the colon onto the abdomen
+36d07011	root plus combining vowel
+709330a2	linking vowel (combining vowel)
+f2a839fb	word with two or more roots
+718057f8	CT scan
+b75bf598	keeping patient information private
+75ecc0f6	reason not to use a treatment
+81af6058	controlled drug
+97286fad	of the skin
+ca807f91	bluish skin (cyanosis)
+354a15c9	bladder inflammation
+1cf2b919	study of cells
+05fd30e2	loss of body water
+a8dea5cf	skin inflammation (dermatitis)
+605d5e9d	skin specialist
+b285a4bb	skin disease
+ff79bdc3	pronunciation mark
+b9a6fc3b	diagnosis
+9ed18fd6	frequent watery stools
+7fdd000b	paired round bacteria (diplococci)
+be3dc486	discharge summary
+4869365f	displaced joint
+da698246	farther away (distal)
+dd4c5d6f	pouch in the wall of an organ (diverticulum)
+eeaf2fb2	Down syndrome
+7f6d25e5	difficulty swallowing
+fe58a0f8	difficulty speaking
+f5e26edd	feeling of unease
+df74cc6d	shortness of breath
+f00f8d6f	out of place
+58e48c8d	carrying away from the centre
+81a57130	heart tracing (ECG)
+f34e3ae0	ECG machine
+5d4a4c1b	electronic health record
+b50c101d	brain inflammation
+5a4039af	secreting into the blood (endocrine)
+0ba9b472	viewing tube (endoscope)
+72f119d3	looking inside with a scope (endoscopy)
+aa6bc566	inflammation of the small intestine
+a5e479b0	bed-wetting
+f9d06e90	outer skin layer (epidermis)
+8bf973ed	upper middle abdomen (epigastric)
+5b5faaf2	term named after a person (eponym)
+cb0f163a	red blood cell
+bfa425aa	of the oesophagus
+4f776bcb	word origin
+799df023	sense of well-being
+5218e86e	secreting through a duct (exocrine)
+4aecb73f	straightening a joint
+9483f854	outside the uterus
+295bad13	thigh bone
+7fccc4b8	bending a joint
+3078cf76	Fowler position
+54190dae	fungus (yeast or mould)
+08b09848	nerve-cell cluster
+d930dc89	stomach ache
+d7d785a8	stomach inflammation
+2aee2031	connection between stomach and duodenum
+6de1c4c4	digestive specialist
+aab38ab7	study of the digestive tract
+130eccd1	acid reflux disease
+1e355ede	of the stomach and intestines
+9c60d08f	looking inside the stomach (gastroscopy)
+967b12de	opening into the stomach
+a6d36ea6	generic name
+f3b2a134	genital and urinary
+ca07474c	specialist in older adults
+9a448269	care of older adults
+1e362b15	gum inflammation
+67a4125e	kidney capillary tuft (glomerulus)
+da0f2c09	women’s health specialist
+416c794c	study of blood
+f0bc4c89	replacement of half a joint
+c017abe7	paralysis of one side
+a15f8b12	half of a sphere (hemisphere)
+94efd0a9	breakdown of red blood cells (haemolysis)
+76c65792	heavy bleeding
+2b04dbc1	liver inflammation (hepatitis)
+5e5e76be	liver tumour
+09e443a8	enlarged liver
+d91caf06	Hippocratic Oath
+ef0bdbe4	study of tissues
+8bacdb1f	history and physical
+f07105cb	sound-alike word
+78506069	end-of-life care
+702d32ae	upper arm bone
+fbcd9f67	high blood sugar
+250d1ed7	high blood pressure
+595a41fa	raised body temperature
+b34e7829	enlargement (hypertrophy)
+dfa86b1d	under the skin
+a8314635	low blood sugar
+29497911	ileum (part of the small intestine)
+f121cb16	ilium (hip bone)
+7efdddd8	lower; toward the feet
+a35ebfcb	informed consent
+d06f3a6e	of the skin and its appendages

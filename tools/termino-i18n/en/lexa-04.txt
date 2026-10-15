@@ -1,0 +1,282 @@
+f2f09c35	The epi- in epigastric means ___.
+ef9e81a1	epigastric means the region above the stomach.
+ed5ed570	Spell the term for “looking inside the stomach”
+c79ef5b9	Pronunciation and silent letters
+6de45e70	Letters you don’t hear
+b0f6e55e	⟦0⟧At the start of a word, ⟦1⟧ before ⟦2⟧, ⟦3⟧ and ⟦4⟧ is silent: ⟦5⟧, ⟦6⟧, ⟦7⟧. ⟦8⟧ sounds like ⟦9⟧ and ⟦10⟧ like ⟦11⟧.
+4636bece	Surprising pronunciations
+f794cdf8	The stressed syllable
+c0f613e8	⟦0⟧In a pronunciation guide, the stressed syllable is written in capitals: ⟦1⟧. A straight line over a vowel means it is long, and a curve means it is short.⟦2⟧
+4e5f0fbc	A p at the start of a word is like the p in swimming pool: it’s there, but you don’t hear it!
+7f3ae55d	How does ⟦0⟧ begin?
+0d14091c	with an n sound
+39cea067	with a p sound
+46405b99	with an f sound
+193a729d	with an s sound
+e44553fa	The p is silent: noo-MOH-nee-ah.
+a317e5a4	In ⟦0⟧, what sound does ch make?
+ad44fcbc	In ptosis the p is not pronounced.
+d2f8d9cc	Match each word to its opening sound
+2e4a47d6	How words begin.
+e2435fc6	In cytology, c before y makes the ___ sound.
+499cc95f	s
+5e2f9a89	k
+80e86778	ch
+b94dd39b	c is soft before e, i and y.
+1bc3b19e	If a word starts with a “z” sound, which letter might it start with?
+7444a880	xeroderma is pronounced with a z sound.
+d2487d81	Spell the word for thick mucus coughed up from the airways
+e180b920	ph sounds like f; the g is silent.
+8b8646db	Roots: A Map of the Body
+d76bc80e	Roots
+b2b47b90	Roots of the head, trunk and limbs, from cell to system, and roots for colours, blood and bacterial shapes
+69db50d4	Roots of the organs
+066b8937	Colour, blood and bacteria
+eb1775c2	Map of the face
+c49eea56	⟦0⟧⟦1⟧ is the head and ⟦2⟧ the brain inside the head (en- means within). ⟦3⟧ is the eye, ⟦4⟧ the ear, ⟦5⟧ the nose and ⟦6⟧ the mouth.
+d61d72fc	From root to disease
+18b66a32	⟦0⟧⟦1⟧ → inflammation of the brain⟦2⟧ → surgical repair of the nose⟦3⟧
+f2622bf2	brain scan showing inflammation
+8e379ad3	encephalitis on imaging
+90bd2b07	en-cephal means “inside the head”, so encephal/o is the brain.
+dfa45fb7	Which root means brain?
+0cdbb3ae	cephal/o is the head and encephal/o the brain.
+8b6b3f08	eye inflammation
+1fdb5a8a	ot/o is the ear.
+de6b8ff2	Match each root to its organ
+0bcadc35	Roots of the face.
+f128af78	encephalitis means inflammation of the brain.
+c1b60f68	Build the term that means “inflammation of the nose”
+807112d2	The study and treatment of eye diseases is ___.
+75308a88	Spell the term for the medical specialty of the eye
+d6ff63cf	Both ph and th.
+910db13e	Organs inside the trunk
+f0769f74	⟦0⟧⟦1⟧ is the heart, ⟦2⟧ and ⟦3⟧ the lung, ⟦4⟧ the liver, ⟦5⟧ the stomach, ⟦6⟧ the spleen, ⟦7⟧ the small intestine, ⟦8⟧ the large intestine and ⟦9⟧ the bladder.
+20df1213	Roots of the trunk organs
+78905cc9	A big liver
+4739da06	⟦0⟧⟦1⟧ → enlarged liver⟦2⟧ → enlarged heart⟦3⟧
+3387de00	normal liver and enlarged liver
+40fa0c4e	Remember hepat/o through hepatitis, inflammation of the liver.
+c794cb90	Which root means liver?
+f65eb891	hepatitis is inflammation of the liver.
+0938cf82	liver inflammation
+5778f558	liver pain
+135e0bf4	-megaly means enlargement.
+7c86779c	Match each root to its organ
+3dd6c091	Roots of the trunk.
+9984b6f5	enter/o means large intestine.
+b56fe5e4	enter/o is the small intestine and col/o the large intestine.
+263b98be	Build the term that means “enlarged heart”
+67b15d1f	Looking inside the large intestine with an endoscope is ___.
+c27bb85c	Spell the term for “inflammation of the liver”
+b18a282a	Skin to bone
+49b93ee1	Layer by layer
+6163326d	⟦0⟧From the outside in: ⟦1⟧ skin, ⟦2⟧ fat, ⟦3⟧ muscle, ⟦4⟧ bone. ⟦5⟧ vessels and ⟦6⟧ nerves run through these layers.
+3a4d7977	The root of each layer
+ba0320d6	Two diseases, two roots
+f84b9cde	⟦0⟧⟦1⟧ → porous, brittle bones⟦2⟧⟦3⟧ → inflammation of the skin⟦4⟧
+a397521c	normal bone and porous bone
+bc30c2a5	contact dermatitis from poison ivy
+a817681f	Remember my/o through “myalgia”, muscle pain.
+d51509ee	Which root means muscle?
+d1538580	myel/o is the spinal cord or bone marrow, not muscle.
+7dc797a7	bone inflammation
+ca54009d	por/o means pore: bone full of holes.
+3bd88f1f	Match each root to its layer
+a318ad62	Layers.
+5e0ad13a	A lipoma is a tumour of fatty tissue.
+d99e7570	Build the term that means “muscle pain”
+89fc4f0d	Inflammation of the skin is called ___.
+3b728327	Spell the term for porous, brittle bones
+0543d095	Cell, tissue, organ
+671edade	Four levels
+1bc5d283	⟦0⟧The body starts with the ⟦1⟧; cells make up ⟦2⟧, tissues make up an ⟦3⟧ and organs make up a ⟦4⟧.
+e573c7e2	The science of each level
+cc9c7f28	Term
+df941643	artery and vein under the microscope
+36c66a25	vessel tissue under the microscope
+61446d8f	Don’t confuse hist/o with “history”; hist/o means tissue.
+fda8d3f5	Which root do we use for tissue?
+fbe92446	histology is the study of tissues.
+e43609f2	Put them in order from small to large
+546a149d	Cell, tissue, organ, system.
+65d392f0	the study of disease and tissue changes
+3077b84a	the study of cells
+decaba80	the study of body function
+358fc004	the study of drugs
+ea0fecf0	path/o means disease.
+5ee9cd33	Anatomy is the study of body structure and physiology the study of its function.
+5137954e	Two basic medical sciences.
+1376548a	Match each science to its subject
+026aa9c3	body structure
+a052a661	body function
+48a3e7a8	Basic sciences.
+b8e25c65	The study of cancer and tumours is ___.
+9ae5789f	onc/o means tumour.
+fc2a7f19	Spell the term for the study of tissues
+6cbbf7b0	Eleven systems
+a1e3d11d	⟦0⟧Each system has several organs that work together; for example, ⟦1⟧ means 206 bones and more than 600 muscles, and ⟦2⟧ means the digestive system.
+857f4430	Systems working together
+17539edf	⟦0⟧Systems don’t work alone. In ⟦1⟧, high blood sugar damages both the vessels and the nerves of the foot.⟦2⟧
+84e830e7	reduced blood supply and nerve damage
+47b499ba	Chapter 11 of the Dummies book notes that the body systems work as a team, and a disease of one involves the others too.
+8d527860	What is the system of bones and muscles called?
+987b0b1f	⟦0⟧ refers to the system of…
+4bdcc879	the skin and its appendages
+ba929c83	digestion
+b279df7c	Skin, hair, nails and glands.
+cbde5f87	Match each system to its name
+2f871415	System names.
+1388a022	neuropathy means nerve disease.
+fd646d30	The abbreviation GI means ___.
+ef4183df	The digestive system.
+f6a26576	Build the term that means “nerve disease”
+d3c12c92	Spell the adjective meaning “of the stomach and intestines”
+b3dd4b08	One root, many words
+b4d8a2df	The neur/o family
+804bd2d4	⟦0⟧One root with five suffixes makes five words.
+509a1e01	nerve inflammation
+bcf1f1f8	nerve disease
+bc4445b5	The cardi/o family
+d70fefaa	⟦0⟧⟦1⟧ → study of the heart⟦2⟧ → inflammation of the heart muscle⟦3⟧
+04cf5889	heart valves
+7de3a00a	the heart from above
+51c28d46	Take one root and try every suffix after it; it’s the best word-building practice.
+70644259	-algia means pain.
+b92b8495	heart tumour
+3f8ac1e5	One root, many words.
+ec88a162	A neurologist is a heart specialist.
+31019e04	A neurologist is a nervous-system specialist; a cardiologist is a heart specialist.
+d6d21d2e	Build the term that means “nerve tumour”
+ea6ab55c	Disease of the heart is called ___.
+1bdb55cf	Spell the term for “nerve pain”
+4fd4e65e	Colour palette
+096b4633	⟦0⟧⟦1⟧ is red, ⟦2⟧ white, ⟦3⟧ blue, ⟦4⟧ black and ⟦5⟧ yellow.⟦6⟧
+4d258383	palette of colour roots
+60847692	The textbook palette
+2a900c65	Colour on the skin
+ea27afcd	⟦0⟧⟦1⟧ is bluish skin from lack of oxygen. Yellowing of the skin and eyes is called ⟦2⟧.⟦3⟧⟦4⟧
+0b703921	bluish toes
+e9703ba4	yellow skin
+916ee41d	Remember melan/o through melanin, the dark pigment of the skin.
+de7daa58	Which root means blue?
+3b6008ce	cyanosis is bluish discolouration.
+6e7681fc	black tumour of pigment cells
+1e496a80	purple spot
+541ff26a	Match each root to its colour
+6b02dbe6	Colours.
+766b9134	Cyanosis is a bluish colour of the skin.
+5bbd19aa	A sign of low oxygen.
+6cbfb354	Poliomyelitis affects the ___ matter of the spinal cord.
+34abeed9	poli/o means grey.
+16b39f7a	What is yellowing of the skin and eyes called?
+484ab223	jaundice, or icterus.
+aa030eb1	Spell the term for bluish skin from lack of oxygen
+c1d657f8	Colour in the blood
+0d6863b6	Red and white
+270b1d3c	⟦0⟧⟦1⟧ → red blood cell⟦2⟧ → white blood cell
+2be1920e	-cyte, -emia and -penia
+5a599e14	Three blood suffixes
+8e687366	Example
+a9f6c603	-penia sounds like “penny”, a small coin: it means too little.
+fd86e4f0	platelet
+46e512dd	nerve cell
+9b193ec3	erythr/o is red and -cyte is cell.
+f3c1f4f5	too many white blood cells
+6a824785	-penia means deficiency.
+ff8df69b	Blood words.
+00beeee9	leukemia means a shortage of red blood cells.
+39c03573	Leukemia is cancer of the white blood cells; a shortage of red blood cells is anemia.
+63f93d97	Build the term that means “white blood cell”
+6d5c43f4	The abbreviation RBC means ___.
+b30c23cf	Spell the term for “red blood cell”
+ff098cca	Bacterial shapes
+b606861e	Round or rod-shaped
+96c722c8	⟦0⟧A round bacterium is a ⟦1⟧ (plural: cocci) and a rod-shaped one is a ⟦2⟧ (plural: bacilli). The prefix of the name gives the arrangement: ⟦3⟧ in pairs, ⟦4⟧ in grape-like clusters and ⟦5⟧ in chains.
+a40c3f4c	Bacteria in the textbook
+66e6e073	staphylococcus, streptococcus, bacillus…
+48b817b3	Bacterial shapes
+1c4f9dc2	Chapter 3 of Stanfield notes that not all bacteria cause disease; some help us digest food and make yoghurt.
+42d40ce9	an inflamed tonsil and its removal
+6736ce59	inflamed tonsil, often from streptococci
+1c7b9a60	A round bacterium that grows in grape-like clusters…
+c4b81ecb	staphyl/o means cluster.
+bfe29ee6	What shape is ⟦0⟧?
+37ab8c36	spiral
+92a9ad24	A bacillus is a rod-shaped bacterium.
+82009ce6	Match each prefix to its arrangement
+d97e965e	Bacteria names.
+15e4abd9	The plural of coccus is cocci.
+ea3c1573	-us becomes -i.
+dcd1a3b6	Round bacteria in chains are called ___.
+711e4e90	strept/o means twisted chain.
+1536ef08	removal of the tonsil
+8bf48a41	sore throat
+7d659d3d	Spell the term for the study of bacteria
+e2524d25	Suffixes
+121c446d	Suffixes for diseases and symptoms, diagnostic instruments and procedures, surgery, adjective endings and specialty suffixes
+9395a8cc	Diseases and symptoms
+aba77613	Diagnosis and measurement
+484a9ae6	Surgery, adjectives and specialties
+82855709	Four families
+91b856b6	⟦0⟧Suffixes come in four families: disease and condition (⟦1⟧), diagnosis (⟦2⟧), surgery (⟦3⟧) and grammar or specialty (⟦4⟧, ⟦5⟧). Know the family and you can guess what kind of word it is.
+5e9cfaa9	One root, four families
+850886d8	Family
+fe199655	joint inflammation
+4d2fec53	looking inside a joint
+0feb5dea	joint repair
+75f5fd7a	symptom
+0cd6d21a	joint pain
+4915d533	A suffix is like a label at the end: it tells you whether it’s a disease, a test or an operation.
+09cffdb8	Which family does the suffix -ectomy belong to?
+ab7993a9	adjective ending
+5875d168	It means surgical removal.
+508d91e3	looking inside a joint with an instrument
+0ddeccfc	removal of a joint
+babd76ba	-scopy means viewing with an instrument.
+f97a0c89	Match each suffix to its family
+9d1cb914	Families.
+1be09d26	The suffix always tells us what kind of word it is.
+edeccb64	For example, -logy means a field of study and -itis an inflammatory disease.
+f37205a5	The suffix ___ means study of.
+6ab66b6e	As in cardiology.
+5452b044	Put these words in order from “disease” to “treatment”
+92679c17	Inflammation, viewing, repair.
+68ffc60b	Write the suffix for “inflammation” without the hyphen
+94a58e5f	Inflammation, pain, enlargement
+308cba02	Six common suffixes
+aad7af43	⟦0⟧⟦1⟧ is inflammation, ⟦2⟧ an abnormal condition, ⟦3⟧ and ⟦4⟧ pain, ⟦5⟧ enlargement, ⟦6⟧ a tumour and ⟦7⟧ disease.
+09026286	Pain and clots
+d799b299	⟦0⟧⟦1⟧ and ⟦2⟧ both mean stomach ache; two suffixes with the same meaning.⟦3⟧⟦4⟧ → condition of a clot inside a vessel⟦5⟧
+47c0060e	man with a stomach ache
+14a5fd1d	gastralgia or gastrodynia
+f515400f	clot inside a vessel
+e89741a0	-osis means “condition”; on its own it doesn’t say what the disease is; the root does.
+8e85f6fa	Which suffix means enlargement?
+f053912c	hepatomegaly means enlargement of the liver.
+b0d0c6b4	enlarged stomach
+5e9a1391	stomach tumour
+0c0f41d4	-dynia means the same as -algia.
+18ba4c00	Match each suffix to its meaning
+db2a81c0	tumour
+696ce163	Disease suffixes.
+81de4b9c	thrombosis means the condition of having a clot in a vessel.
+aef5f230	Build the term that means “earache”
+949265bc	Headache is called ___.
+f834017c	Spell the term for “liver tumour”
+318f8d21	Flow, bursting, deficiency
+8ed5c0c5	The rrh family
+82308674	⟦0⟧⟦1⟧ is flow or discharge (⟦2⟧, a runny nose), ⟦3⟧ is bursting forth of blood (⟦4⟧) and ⟦5⟧ is suturing.
+163c4748	three suffixes with rrh
+8d825743	Hardening, softening, paralysis
+375f691a	Remember -malacia through “mellow”: soft and limp.
+c2a6a810	oozing of blood
+17512c25	suturing a vessel
+c6cdf36b	-rrhage means bursting forth.
+8d333d46	hardening of bone
+859b1e21	-malacia means softening.
+3ebf8e27	Suffixes.
+181e69ef	diarrhea is built from dia- (through) and -rrhea (flow).
+85bc0997	A watery flow from the bowel.
+47867e6e	Hardening of the arteries is called ___.
+9297ddfa	Build the term that means “runny nose”

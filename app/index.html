@@ -116,7 +116,9 @@ html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
    را موتور خودش هنگام ورود بارگذاری می‌کند. */
 (function () {
   var q = /[?&](?:course|calc)=([\w-]+)/.exec(location.search), c = q && (window.ACADEMY_COURSES[q[1]] || (window.ACADEMY_SUBCOURSES || {})[q[1]]);
-  if (c && c.assets) c.assets.forEach(function (src) { document.write('<script src="' + src + '"><\/script>'); });
+  var en = false; try { en = JSON.parse(localStorage.getItem('academy_global_state') || '{}').lang === 'en'; } catch (e) { /* */ }
+  var list = c && ((en && c.assetsEn) || c.assets);
+  if (list) list.forEach(function (src) { document.write('<script src="' + src + '"><\/script>'); });
 })();
 </script>
 <!-- ۲. کیس‌های ترکیبی ICU -->

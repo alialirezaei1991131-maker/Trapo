@@ -1,0 +1,260 @@
+f843c8ab	with a u, not pruritis
+7ba4ba17	a bone; humorous means funny
+1fdd29a0	Tricky spellings
+6633a1d7	physician’s orders
+bad44160	nurse’s notes
+7172aa83	daily progress
+99bb09ca	consultation report
+3fff6c9b	operative report
+78303046	pathology report
+85b9b4bb	Parts of the medical record (chart)
+4e4db3a1	The chart is a legal document; every page carries the patient’s name, age, physician and admission date
+7e17848a	Reading a prescription
+494ee6c8	The prescription sign; Rx means “take”
+7b9532bc	drug name and strength of each tablet
+6b0897c1	label directions (Sig): one tablet
+049c4735	by mouth (po), three times a day (tid)
+b903c8d4	dispense 30 (Disp)
+aafda737	the prescription can be refilled twice
+c86552e4	physician’s signature; no prescription without one
+6e84eb0e	Sample from chapter 1 of Fremgen; Tagamet reduces stomach acid
+8d86cbdf	Dosing-frequency abbreviations
+20cb14ed	Don’t write qd or qod; write daily and every other day
+7105a85e	ac means before meals and pc after meals; prn means as needed
+8d743713	Dosing frequency
+3264cded	Abbreviations for drug routes
+81159522	right / left eye
+39e715f1	Routes
+5349080f	danger
+57f38dc7	mistaken for qid
+e03c808f	mistaken for qd and qid
+645b84ab	read as 0 or 4
+d6dc2ee7	read as IV or 10
+d03e6c5c	tenfold dose
+84e1a7d0	mistaken for magnesium sulfate
+54edc8b2	Do-not-use abbreviations in prescriptions
+55da4ad5	Never invent an abbreviation; if in doubt, write it out
+e947a07a	Do-not-use abbreviations
+4b509825	Three names for one drug
+928f2b04	chemical name: a long formula
+d1bbb9ae	generic name: only one
+6174ba6a	brand name: one per company
+5679763b	OTC means without a prescription; the generic is usually cheaper
+680ad6af	Drug names
+4924abac	general hospital
+3b3439c8	specialty hospital
+55bfdda7	nursing home, long-term care
+e870dd03	outpatient, no overnight stay
+23a8d731	doctor’s office
+2215078d	care at home
+f1fde269	rehabilitation
+342aaffb	Health-care settings
+4c99ccd1	Care settings
+71bcb238	An emergency note full of abbreviations
+3e9d81a4	complaining of
+ba0488de	chest X-ray
+75d29c52	no drug allergies
+e1eff8bd	Clinical note
+056c1798	The ABCs of Medical Language
+8c651870	ABCs
+820bb2de	Where medical language comes from, the four parts of a word, combining vowels, translating from the suffix and correct pronunciation
+0383f30f	Medical language and its history
+bcc926e6	Translation and pronunciation
+d0c25fbd	Why a medical language?
+cf78371e	A shared language
+39821a0e	⟦0⟧⟦1⟧ is the precise language of medicine. Instead of “tummy ache, maybe a kidney stone”, physicians, nurses and pharmacists speak with one exact word and understand each other without error.
+2ff8934a	When there is no shared language
+b7f6c9e1	Words that are built
+a3684ca6	Most medical words are built from a few Greek and Latin pieces. Learn the pieces and you can work out thousands of words without memorising them.⟦0⟧⟦1⟧
+999df3f6	Chapter 1 of Fremgen points out that one spelling mistake or one bad abbreviation in a drug dose can put a patient’s life at risk.
+cbea5e33	Medical language is like a puzzle: few pieces, countless words.
+7c704ecc	What is the most important reason to learn medical terminology?
+75b61187	precise, error-free communication among the care team
+c41898ba	a nicer-looking chart
+230b77db	hiding the diagnosis from the patient
+b215c89a	shortening drug names
+de4b3bd0	A shared language reduces errors.
+ad81c88e	Most medical words are built from Greek and Latin pieces.
+49b7aa2b	That is why knowing the pieces lets you work out a new word.
+0c41ed06	If you know the pieces of a word…
+ed2e9cd5	you can work out new words too
+96846a38	you understand only that one word
+1482d31e	you never need a dictionary again
+5f96443c	pronunciation no longer matters
+55351925	Word building is the key to understanding unfamiliar words.
+307868fd	The precise language of medicine is called ___.
+55043b87	Match each term to its meaning
+4ea7c298	the language of medicine
+cd23f758	Basic terms.
+ce39c971	A spelling mistake in a drug name is harmless.
+9414de7b	A misspelling or a wrong abbreviation can lead to a medication error.
+35fabb4c	Spell the word for the language of medicine (one word)
+75e1a83f	Two ancient languages
+d23e4d95	⟦0⟧Most organs have two roots: one Greek and one Latin. The Greek root ⟦1⟧ and the Latin root ⟦2⟧ both mean kidney.⟦3⟧
+a8038099	Greek and Latin pairs
+4a762f45	kidney, ureter, bladder and urethra
+af2c1a0c	The kidney has two roots
+a8c1bdb6	Names with a story
+a5ad5ecc	⟦0⟧Look at the spine: the ⟦1⟧ (tailbone) is named for its likeness to a cuckoo’s beak. The Greeks called cancer ⟦2⟧, meaning “crab”; ⟦3⟧ comes from there.⟦4⟧
+3423380a	the spine down to the tailbone
+5c0d5690	Where the tailbone got its name
+bf1dc802	The Greek name shows up mostly in diseases and procedures, the Latin name mostly in adjectives: nephritis but renal.
+105bcc4f	Which root, like nephr/o, means kidney?
+eb3fdcf8	ren/o is the Latin root for kidney.
+27dcc9cd	⟦0⟧ means…
+2641a0c9	of the mouth
+9f372875	pulmon/o is the Latin root for lung; its Greek root is pneum/o.
+870dc445	Match each Greek root to its Latin partner
+7c03f160	Greek and Latin pairs.
+a1bc2b04	The word carcinoma comes from the Greek word for crab.
+365608e1	karkinos means crab, and cancer.
+2f9ff633	The Latin adjective for “of the kidney” is ___.
+fd3f262e	What did the tailbone (coccyx) get its name from?
+5e448a80	a cuckoo’s beak
+ed641527	a fish tail
+e130bef7	a bird’s feather
+065b7de1	a deer’s antler
+a6acfb24	One of many words named for the shape of things.
+5d7141c6	Spell the Latin adjective meaning “pertaining to the kidney”
+1d8425f9	From Hippocrates to today
+1216cff8	The father of medicine
+089200b4	⟦0⟧Hippocrates, the Greek physician (460–377 BC), is called “the father of medicine”. He brought order to medicine, and the ⟦1⟧ is still the foundation of medical ethics.
+34c44935	New words are still being made
+3bbe88bd	⟦0⟧From the stethoscope in 1816 to the face transplant in 2008, every new discovery has been named with the same ancient pieces, such as ⟦1⟧.⟦2⟧
+65dd1a46	Some great steps in medicine
+44601397	Chapter 1 of Fremgen points out that word building is still the main way new medical discoveries are named.
+caf74998	What title is Hippocrates known by?
+1e87284c	discoverer of germs
+ce699d14	inventor of the stethoscope
+4ec29718	the first heart surgeon
+91df1549	Hippocrates is called the father of medicine.
+318e54f7	Put these discoveries in time order
+7c843994	New medical words are built from the same Greek and Latin roots.
+dd6b80bc	Such as electrocardiogram or laparoscopy.
+57ab5228	What is the Hippocratic Oath mainly about?
+5180815e	the ethics and duties of a physician
+625e323e	a list of drugs
+049ebb6b	the anatomy of the heart
+cd45bb12	a surgical technique
+c2bb8cd6	It is the foundation of professional medical ethics.
+e6c77247	Hippocrates was a physician from ___.
+13f54517	Greece
+9f5f187b	Egypt
+79ba78bc	Persia
+069f32b9	Hippocrates was Greek.
+6304b676	Match each discovery to its year
+8a79acc8	History of medicine.
+3eda80ac	Spell the antibiotic discovered in 1928
+219683b5	Two l’s and two i’s.
+7f42dcce	Four pieces
+dc08028c	Four parts
+1f9f091d	⟦0⟧Every medical word is built from these pieces: ⟦1⟧, ⟦2⟧, ⟦3⟧ and ⟦4⟧. Not every word has all four parts, but there is almost always a root.
+5537efec	Where does each piece go?
+19421744	⟦0⟧A prefix always comes first and tells position, number, time or state. A suffix always comes last and tells the disease, procedure or part of speech.⟦1⟧ → pertaining to above the stomach⟦2⟧
+d23d0011	prefix, root, suffix
+dd6e091e	Where the pieces go
+14f0b242	A prefix comes before the root and a suffix after it; their names tell you where they go.
+eee0951a	The part of a word that carries its core meaning…
+81b018e0	The root is the core of the meaning.
+4c9aa514	In ⟦0⟧, what is epi-?
+688e7011	epi- comes before the root gastr.
+dd6cc23d	A suffix always comes at the end of a word.
+dff99c36	The suffix is at the end of the word.
+28052e02	Put the pieces in order from the start to the end of a word
+6076a0d0	Prefix, root, vowel, suffix.
+ce95ce2e	Match each part to its job
+7d604bb6	position, number or time
+951f8a0b	core meaning
+536cb6f3	easier pronunciation
+b2b28987	disease or procedure
+c4474a44	The job of each part.
+f43f5d2d	Build the term that means “pertaining to above the stomach”
+402f5861	Spell the word for the part added to the end of a word
+751d2a89	Two f’s.
+41550421	Root and combining form
+96e04eb1	Root + vowel
+d9251240	⟦0⟧When a combining vowel (usually ⟦1⟧) attaches to a root, it forms a ⟦2⟧. It is written with a slash: ⟦3⟧, ⟦4⟧, ⟦5⟧.
+504e8807	root and vowel, the combining form
+c5c6d621	Combining form
+5872f98f	Some examples
+173a5102	The slash in cardi/o means “this o sometimes stays and sometimes goes”.
+25364bad	A combining form is…
+9c14f21b	a root with its combining vowel
+f6c6d71b	a prefix with a suffix
+92389a3c	two suffixes in a row
+649b85ff	a complete word
+093a7ed9	In ⟦0⟧, what is the letter o?
+c238a9ff	The combining vowel is usually the letter o.
+ca732fcd	Sometimes it is i or e, as in pelv/i.
+343edf15	Match each combining form to its meaning
+0cf96d95	Combining forms.
+1a6e93b0	A combining form is written with a ___ between the root and the vowel.
+fa7148fe	slash (/)
+0130bac2	hyphen (-)
+0dd5983a	full stop (.)
+e6fa17ed	As in cardi/o.
+853e7528	arthr/o is joint; arthritis is inflammation of a joint.
+b3a962f6	Write the combining form for “heart” without the slash
+dfedb3c8	Stay or go?
+9ed0182a	⟦0⟧If the suffix starts with a consonant, the ⟦1⟧ stays: ⟦2⟧. If the suffix starts with a vowel, the ⟦3⟧ is dropped: ⟦4⟧, not gastroitis.
+2ca353cf	Between two roots
+7479670e	⟦0⟧Between two roots the combining vowel always stays, even if the second root starts with a vowel; for example, ⟦1⟧ is built from ⟦2⟧.⟦3⟧
+28fb3597	root, vowel, suffix
+0f72b9b8	The vowel between root and suffix
+ae2c4047	A suffix that starts with a vowel pushes the o out; a second root never does.
+e587536b	Which spelling is correct?
+a00a93ea	-itis starts with a vowel, so the o is dropped.
+e15b6019	-scopy starts with a consonant, so the o stays.
+9efe9a8f	In osteoarthritis, the o between oste and arthr is dropped.
+4624c3d4	Between two roots the combining vowel stays.
+6d59557f	Before a suffix that starts with a vowel, the combining vowel ___.
+6650e881	is dropped
+2e1108c5	is doubled
+1dc27a8e	turns into a
+78060a71	Build the term that means “inflammation of bone and joint”
+ed44a751	Match each combination to its correct word
+52dc0890	The o was dropped before a vowel.
+79686cc6	Spell the term for “stomach pain” (with -algia)
+072e87c8	gastr + -algia, with no o.
+62525e2a	Two roots in one word
+7ec1615d	⟦0⟧A word with more than one root is a ⟦1⟧: ⟦2⟧ has two roots, stomach and intestine.⟦3⟧
+a083ae3f	Five pieces of one word
+161eb2cd	English compound words
+7fbbc2e4	like sunflower in English
+510fd591	An example from the textbook
+aba67998	⟦0⟧⟦1⟧ → a new opening between the stomach and the duodenum⟦2⟧
+b13a432f	stomach and duodenum
+fc3a359c	Read a compound word like two English words stuck together: sun + flower, gastro + entero.
+1e8424a5	Which word is a compound word?
+bb63d85a	It has two roots, oste and arthr.
+f504d666	stomach pain
+1f94a212	-logy means study of.
+1dc702d3	gastroduodenostomy means making a new opening between the stomach and the duodenum.
+e8844a0c	-stomy means a new opening.
+ebc60db1	Build the term that means “study of the stomach and intestines”
+93e075cf	A word with more than one root is a ___.
+8dacaf01	Match each term to its roots
+4dfd9bed	bone + joint
+5f494a45	stomach + intestine
+be16d8a9	stomach + duodenum
+58476efb	electricity + heart
+9421b938	Compound words.
+f56d82f7	Spell the term for “specialist in the stomach and intestines”
+1d573376	Read from the suffix
+a8ef4f53	⟦0⟧To work out a meaning, read the suffix first, then the prefix and finally the root: ⟦1⟧ → inflammation, around, heart → “inflammation around the heart”.
+8dcf370c	The suffix makes the meaning
+c8871c11	⟦0⟧With one root and a few suffixes you have several new words: ⟦1⟧, ⟦2⟧, ⟦3⟧ and ⟦4⟧.⟦5⟧
+2b8d2e8a	the root, base of the puzzle
+bbebba3f	the root is the base; the suffixes are separate pieces
+36afbeb7	In a case study in Cohen, a 22-year-old student named David had epigastric pain and underwent gastroduodenoscopy; both terms can be worked out with these same three steps.
+6989927d	Where do you start when translating a word?
+ee6ee5d9	the first letter
+42857741	Suffix first, then prefix, then root.
+e8eb9819	Put the translation steps in order
+301dcf9e	Suffix, prefix, root.
+a777d671	looking inside the stomach
+68d89e66	-ectomy means removal.
+2762b759	looking inside the stomach
+6c5d4eb9	One root, several suffixes.
+6f9f9477	In pericarditis, we start the meaning with “around”.
+389493af	We start with the suffix -itis (inflammation).

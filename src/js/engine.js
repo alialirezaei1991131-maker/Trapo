@@ -2679,6 +2679,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /** زبان رابط: داخل دوره همان زبان دوره، بیرون از دوره (صفحه اول، پنجره‌ها) تنظیم سراسری academy.lang */
   const UILANG = () => (window.EA && window.EA.COURSE && window.EA.lang ? window.EA.lang : (STORE.LS.raw('academy.lang') === 'en' ? 'en' : 'fa'));
   const PT = (fa, en) => (UILANG() === 'en' && en != null ? en : fa);
+  /** فایل‌های جانبی دوره به زبان رابط: حیطه‌های ترمینو نسخه انگلیسی را فایل جداگانه دارند (assetsEn) */
+  const assetsOf = D => (D && UILANG() === 'en' && D.assetsEn) || (D && D.assets) || [];
   const nf = (n, d) => { const v = Number(n); if (!isFinite(v)) return String(n); return v.toLocaleString(PT('fa-IR', 'en-US'), { maximumFractionDigits: d == null ? 0 : d }); };
   const pesc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const fdate = (t, opt) => { try { return new Intl.DateTimeFormat(PT('fa-IR', 'en-US'), opt || { dateStyle: 'medium' }).format(new Date(t)); } catch (e) { return new Date(t).toISOString().slice(0, 10); } };
@@ -4746,7 +4748,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
   /** فایل‌های جانبی دوره (مثل تصویرهای بالینی) فقط هنگام نیاز: assets: ['courses/data-x-img.js'] */
   function needAssets(list, cb) {
     const srcs = [];
-    [].concat(list).forEach(D => (D && D.assets || []).forEach(src => { if (srcs.indexOf(src) < 0 && !document.querySelector(`script[src="${src}"]`) && !(window.TRAPO_LOADED && TRAPO_LOADED[src])) srcs.push(src); }));
+    [].concat(list).forEach(D => assetsOf(D).forEach(src => { if (srcs.indexOf(src) < 0 && !document.querySelector(`script[src="${src}"]`) && !(window.TRAPO_LOADED && TRAPO_LOADED[src])) srcs.push(src); }));
     if (!srcs.length) return cb();
     // نسخه هاست: فایل‌ها رمزنگاری‌شده از سرور گرفته و بعد اجرا می‌شوند
     if (window.TRAPO_LOAD) return window.TRAPO_LOAD(srcs).then(cb, () => cb());
@@ -4764,7 +4766,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     if (isSuite(D)) return bootSuite(D);
     if (D.parent && !calc && !prereqDone(D)) { location.replace('?course=' + D.parent + '&need=' + id); return; }
     const missing = src => !document.querySelector(`script[src="${src}"]`) && !(window.TRAPO_LOADED && TRAPO_LOADED[src]);
-    if ((D.assets || []).some(missing)) {
+    if (assetsOf(D).some(missing)) {
       return needAssets(D, () => { bootCourse(id, calc); hideBoot(); fab(); banner(); });
     }
     // حیطه‌ای که سرور فایلش را نداد (اشتراک ندارد یا تمام شده): برگشت به صفحه حیطه‌ها با پنجره خرید
@@ -4776,6 +4778,8 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     if (!calc) { LS.set('academy.last', rootOf(id)); if (D.parent) LS.set('academy.last.' + D.parent, id); }
     window.EA = {};
     ENGINE.lang(D);
+    // زبان این حیطه در فایل جداگانه است: تغییر زبان = باز کردن دوباره با فایل زبان تازه
+    if (D.assetsEn) EA.onLang(() => location.reload());
     D.content();
     const C = D.config(window.EA);
     C.key = STORE.courseKey(id); // academy_course_<id>: کلید ثابت پیشرفت این دوره

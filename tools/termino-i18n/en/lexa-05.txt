@@ -1,0 +1,281 @@
+3bae9ff7	Spell the term for “heavy bleeding”
+f90c656a	hem/o + -rrhage; two r’s.
+f7ebedea	Instrument or procedure?
+0184b168	The diagnostic trio
+c05fe21f	⟦0⟧⟦1⟧ is a viewing instrument and ⟦2⟧ the procedure of viewing. ⟦3⟧ is a recording machine, ⟦4⟧ the recording procedure and ⟦5⟧ the record itself.
+c5069468	instrument, procedure and result
+329409fd	electrocardiograph: the machine
+cbcef49f	electrocardiogram: the resulting tracing
+f3fa5a4c	A -gram is something you can hold in your hand; a -graph is the machine that makes it.
+aed4e457	What is ⟦0⟧?
+873565a6	the recorded tracing of the heart’s electrical activity
+3c4efcc2	the machine that records the heart tracing
+097e422f	the procedure of recording the heart tracing
+cf75e7c2	heart surgery
+e388e361	-gram means the record, the tracing itself.
+4218a376	What is an instrument for looking inside the body called?
+c4467b89	-scope is the instrument.
+ef390089	viewing procedure
+b3e1c888	recording machine
+2e06cac9	the recorded image
+1444f538	Instrument and procedure.
+ddf90de4	An electrocardiograph is the paper tracing of the heart.
+7d6f251d	-graph is the machine; the paper tracing is the electrocardiogram.
+9f6f3c98	Looking inside the abdomen through small incisions is ___.
+335e8fca	Order them from instrument to result
+c1009027	Machine, procedure, tracing.
+af181347	Spell the term for “looking inside with a scope”
+e90d5154	Images
+dc47cd8e	Radiography
+0bdc3265	⟦0⟧⟦1⟧ is the procedure of taking pictures with X-rays, and its result is a ⟦2⟧ or ⟦3⟧.
+d2b7ccaa	machine, procedure and image
+28c98a0a	radiograph, radiography and radiogram
+cec84276	Breast X-ray and CT
+4def0c22	⟦0⟧⟦1⟧ → breast image⟦2⟧⟦3⟧
+4f77dc6a	chest muscle, fatty tissue and breast tissue
+0c0f0e36	CT of the abdomen and liver
+6b0528b4	Remember mamm/o through “mamma”: the breast that feeds a baby.
+062a52bc	the procedure of breast X-ray imaging
+2a6492b8	a breast X-ray picture
+7ba9dbf9	a breast X-ray machine
+ebaf7968	removal of the breast
+80ff4e57	-graphy means the recording procedure.
+7b42956e	What is the result of radiography called?
+cc359206	A radiograph or radiogram is the picture itself.
+43d634b2	breast image
+a85e36f2	X-ray imaging procedure
+8e812876	the science of X-ray imaging
+6835f116	The radi/o family.
+4e51ff5c	In CT, an X-ray beam rotates around the body and captures slices at different depths.
+ddb0bd85	The abbreviation CXR means ___.
+b1fe1bdf	abdominal CT
+88611c5e	Build the term that means “breast image”
+e44663de	Spell the term for “X-ray imaging procedure”
+4ef7e36b	Sampling and measuring
+b6e79d20	Measuring
+1460bf03	⟦0⟧ is a measuring instrument and ⟦1⟧ the measuring procedure: ⟦2⟧ is a thermometer and ⟦3⟧ measures breathing.⟦4⟧
+4f62d70b	measuring breathing
+5fd265c7	Taking a sample
+9bc06548	⟦0⟧⟦1⟧ → viewing living tissue, that is, a biopsy (⟦2⟧)⟦3⟧ → drawing fluid from the chest with a needle⟦4⟧
+d70dc477	punch tool and skin cut
+1dc94ff7	bi/o means life; a biopsy is a look at living tissue.
+23dcb010	lung X-ray
+7b012632	looking at the bronchi
+88835357	lung inflammation
+89c2175f	removing living tissue for examination
+7d736595	removing a whole organ
+39dc5018	stitching a wound
+bf0010d2	injecting a drug
+1945fcd3	measuring procedure
+e6d7c96b	Measuring suffixes.
+2ec98f81	A thermometer is a procedure for measuring temperature.
+9dd7f71f	-meter is an instrument; a thermometer measures temperature.
+54de75a3	The abbreviation Bx means ___.
+24758ca3	Build the term that means “drawing fluid from the chest”
+e5955bb7	Spell the instrument that measures body temperature
+e16e6bcd	Removal, incision, opening
+4fee611c	Three similar suffixes
+cee0f64e	⟦0⟧⟦1⟧ means taking an organ out, ⟦2⟧ means cutting into it and ⟦3⟧ means making a new opening. One letter different, a completely different operation.
+c13f64d3	Appendectomy
+2f4e18f3	⟦0⟧⟦1⟧ → removal of the appendix⟦2⟧ → a new opening into the windpipe⟦3⟧
+c894be37	before and after removal of the appendix
+f3e18814	-ectomy: “ec” as in exit, out; -stomy: “stoma”, a mouth-like opening. -tomy is only a cut.
+49ddeb21	incision into the appendix
+57547c48	an opening in the appendix
+ee1b97d4	What is the difference between ⟦0⟧ and ⟦1⟧?
+ad58e221	The first is an incision into the windpipe; the second makes a lasting opening in it
+8d4db985	they are the same
+2bc1f154	the first is removal of the windpipe
+f28e891e	the second is inflammation of the windpipe
+f6bc607b	-tomy is an incision and -stomy an opening.
+067f09cb	Surgical suffixes.
+ecf26ac6	A colostomy is an opening of the large intestine onto the abdomen.
+530f7c2e	Removal of the spleen is ___.
+4b5abf39	Build the term that means “removal of the tonsils”
+2214238c	Spell the term for “removal of the appendix”
+8aed6261	Repair, suture, fixation
+c3d22e56	Repairing and reshaping
+4e838171	⟦0⟧⟦1⟧ means surgical repair or reconstruction: ⟦2⟧ is surgical repair of the nose and ⟦3⟧ repair of a vessel.
+e404988b	before and after nose surgery
+8920a66d	Suture and fixation
+4908c61b	⟦0⟧⟦1⟧ means suturing (⟦2⟧, suturing a muscle) and ⟦3⟧ means fixing an organ in place (⟦4⟧, fixing a dropped kidney).⟦5⟧
+ee788994	several kinds of sutures
+157777b9	Remember -pexy as “pin”: the organ is pinned in place.
+5eb62790	removal of the nose
+e45fd5c0	Which suffix means suturing?
+b2507fc5	myorrhaphy means suturing a muscle.
+c76e0e6a	repair of a vessel
+3a7ea9d2	Repair operations.
+fe3000fa	Suture is used both for the act of stitching and for the stitch itself.
+ba965715	To suture means to sew the edges of a wound together.
+ebbc33cf	Crushing a stone with waves or a laser is ___.
+39c72e73	Build the term that means “repair of a vessel”
+d6bf4567	Spell the term for “fixing a floating kidney”
+6e94423d	Adjectives and specialists
+79a7eb1e	Adjective endings
+6aef3dfb	⟦0⟧⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧, ⟦5⟧ and ⟦6⟧ all mean “pertaining to”. The adjective of ⟦7⟧ is ⟦8⟧ and of ⟦9⟧ is ⟦10⟧.⟦11⟧
+e4323f39	nerve cell under the microscope
+55235a14	Specialty and specialist
+03d5ef85	⟦0⟧⟦1⟧⟦2⟧ and ⟦3⟧ are diminutives: an ⟦4⟧ is a small artery and a ⟦5⟧ a small vein.⟦6⟧
+45ba48a7	Specialty suffixes
+22cef74f	injection sites for spinal and epidural anaesthesia
+9e595bcc	-iatrics is the specialty and -ician the person in it: pediatrics and pediatrician.
+02ff69af	What is the adjective of ⟦0⟧?
+1ce1c8de	Who is a ⟦0⟧?
+d5654d97	a physician who specialises in children
+313cfcb6	a foot doctor
+5003adab	the study of children
+e3175601	a doctor for older adults
+89c9f803	ped/o means child.
+2bc75a05	Specialties and diminutives.
+6d380c8e	Psychiatry and physiatry are the same specialty.
+cc135c35	Psychiatry treats mental illness; physiatry is rehabilitation medicine.
+81f1eb39	The physician who gives anaesthesia is an ___.
+6229889c	Build the term that means “care of older adults”
+05918907	Write the adjective of “neuron”
+a5e3b876	Prefixes
+07d4afc6	Prefixes for number and time, position and direction, injection routes, negation and opposition, opposite pairs, movements and patient positions
+83bd53a4	Number and time
+3ef50cb6	Position and direction
+c78d04f5	Negation, opposites and movement
+260df1e1	One, two, three, four
+1fa8d93e	⟦0⟧The prefixes ⟦1⟧ and ⟦2⟧ mean one, ⟦3⟧ and ⟦4⟧ two, ⟦5⟧ three and ⟦6⟧ and ⟦7⟧ four. ⟦8⟧ means one-sided and ⟦9⟧ two-sided.
+1d01189e	Two cusps, three cusps
+59ca7511	⟦0⟧The valve on the right side of the heart has three cusps: the ⟦1⟧. The valve on the left side has two: the ⟦2⟧.⟦3⟧
+2dba8bc7	tricuspid and bicuspid valves
+f4f8e21d	heart valves from above
+08dc37f0	The tri valve is on the right, with the three-lobed right lung; the bi valve is on the left, with the two-lobed left lung. A trick from the Dummies book!
+cbc307f7	between the two sides
+5ce2a965	bi- means two.
+5c863f22	Which heart valve has three cusps?
+2221540b	tri- means three.
+75538887	Match each prefix to its number
+3f5d62e8	Number prefixes.
+d16342f0	quadriplegia means paralysis of all four limbs.
+1eb6855d	The three-headed arm muscle is called the ___.
+f74abb8c	Build the term that means “on one side”
+2b771be1	Spell the term for “on both sides”
+cd1de216	Half, many, all, none
+a367279e	Halves
+038deac5	⟦0⟧The prefixes ⟦1⟧ and ⟦2⟧ mean half. Each half of the brain is a ⟦3⟧, and ⟦4⟧ means paralysis of one half of the body.⟦5⟧
+e15f8596	right and left hemispheres of the brain
+b31882ee	paralysis of the green half of the body
+f28aeb74	Many, all and none
+61fd44ca	first
+08bc3a28	a many-celled fungus
+1109b9eb	The prefix pan- as in “pandemic”, everywhere: it means all.
+aa99bb8c	paralysis of one half of the body
+bbbbc720	paralysis of all four limbs
+8921d83f	half-blind
+35986910	one-sided headache
+97815da7	hemi- means half.
+969324c9	too many cells
+e945e1c3	pan- all, cyt/o cell, -penia deficiency.
+f5976085	Match each prefix to its meaning
+c2b60832	many
+579df0ef	Quantity prefixes.
+a404cba2	A primigravida is a woman pregnant for the first time.
+bfd3b282	primi- means first.
+71464222	An organism made of many cells is ___.
+7f1492ab	What is each half of the brain called?
+f6c6b7aa	Spell the term for “excessive urination”
+4680dc8b	Before and after
+3faaf77a	Before, during, after
+276a52d2	⟦0⟧The prefixes ⟦1⟧ and ⟦2⟧ mean before and ⟦3⟧ means after: ⟦4⟧ is before surgery and ⟦5⟧ after surgery. ⟦6⟧ means new; a ⟦7⟧ is a newborn.⟦8⟧
+905a55a8	presynaptic cell, synapse and postsynaptic cell
+baa79fad	presynaptic and postsynaptic
+f4b13b1a	⟦0⟧⟦1⟧ → before birth⟦2⟧
+482953dc	fetal ultrasound at 15 weeks
+3c954bb1	prenatal care with ultrasound
+2083a470	In the Cohen case study of a hip fracture, Esther received a painkiller injection before surgery (preoperative), and after surgery (postoperative) her thigh was kept in abduction.
+22ea4e03	during surgery
+873e83e0	without surgery
+a2a469dd	post- means after.
+e80e3386	a baby in its first 4 weeks
+8fdf2727	a pregnant woman
+98a158ff	a schoolchild
+12d664c3	an older adult
+499ac5ce	neo- means new.
+83e598e8	Put the stages in time order
+b3e9c651	Before, during, after.
+3e0d70d3	after
+aeaba543	Time prefixes.
+65a80541	antecubital means behind the elbow.
+895905e8	ante- means in front; antecubital means in front of the elbow.
+fc15e7ca	Care during pregnancy is called ___ care.
+e1e8d055	Spell the term for “before birth”
+81330e41	Within, outside, around
+afeb716d	Where things are
+715d6366	⟦0⟧The prefixes ⟦1⟧ and ⟦2⟧ mean within, ⟦3⟧ and ⟦4⟧ outside, ⟦5⟧ and ⟦6⟧ around, ⟦7⟧ between, ⟦8⟧ upon, ⟦9⟧ and ⟦10⟧ below, ⟦11⟧ behind and ⟦12⟧ through.
+0d6a33d4	Endocrine and exocrine
+13bd4042	⟦0⟧⟦1⟧ → around a tooth⟦2⟧ → between the ribs⟦3⟧
+c30922bb	endocrine: hormones go into the blood
+80644b0a	exocrine: secretion through a duct
+b6bdfa8c	intra- means within and inter- means between; one letter changes the place.
+03922a8b	between the ribs
+50484e17	inside a rib
+f9a0e01f	below a rib
+0d641c2c	around a rib
+fd8f139e	inter- means between.
+b2f1d467	the layer on top of the skin
+778892fa	under the skin
+8d4d0830	around the skin
+45f76211	epi- means upon.
+44271b5e	Position prefixes.
+f60a2111	The pericardium is a sac around the heart.
+b871fa9b	Build the term that means “between the ribs”
+51dc3c41	A pregnancy outside the uterus is called an ___ pregnancy.
+f74e332b	ecto- means outside, out of place.
+006d7b79	Spell the term for “behind the abdominal lining”
+e303b463	Where does the needle go?
+9fbfbbfd	⟦0⟧⟦1⟧ is into the skin, ⟦2⟧ under the skin into the fat, ⟦3⟧ into the muscle and ⟦4⟧ into a vein.
+2b74eb1c	In the textbook
+567fc1a8	⟦0⟧⟦1⟧ means giving a drug by any route other than the digestive tract, usually by injection. ⟦2⟧ means under the skin; the injection needle is also called a ⟦3⟧.⟦4⟧
+112109e9	intravenous, intradermal and intramuscular injection
+a3433c21	Three kinds of injection
+0a7a8709	Remember ven/o through “vein”, the blue vessel on the back of your hand.
+24fe1d1f	What is an injection into a muscle called?
+7e648139	on the skin
+8c742ca9	sub- means below.
+f020cb13	Match each abbreviation to its injection route
+8407a212	Injection routes.
+40e6a014	parenteral means a drug given by mouth.
+605a607b	parenteral means any route except the digestive tract; by mouth is po.
+9fe24bbd	Order the injections from shallowest to deepest
+d560c897	Skin, fat, muscle.
+2862c75e	Build the term that means “into a vein”
+e0139610	Spell the term for “under the skin”
+aec21dc2	Directions on the body
+9929e9be	⟦0⟧Every direction is measured from the ⟦1⟧: standing, facing forward, arms at the sides and palms facing forward.
+516acbd4	standing, facing forward, palms forward
+9a69ae68	Paired directions
+c86743a5	Directions on the body
+f1556e32	Direction
+dd08df35	above / below
+ae6075f6	front / back
+66749c38	toward the midline / toward the side
+a00e9bf9	nearer / farther from the trunk
+48244bc7	cross-section of the body
+d7edfcaf	transection: a cross cut
+05d8b989	proximal as in proximity, nearness; distal as in distance.
+80641e8a	The direction toward the head…
+f582edaa	superior means upper.
+ae7b7d74	How is the wrist positioned relative to the elbow?
+48f37743	The wrist is farther from the trunk.
+a04f1e4d	Match each direction to its opposite
+22dff053	Paired directions.
+0b25d87b	In anatomic position the palms face backward.
+862afab2	The palms face forward.
+8d1f0cf1	The direction toward the midline of the body is ___.
+0a99a1f5	What is a cut across the body or an organ called?
+92496f51	trans- means through.
+19358f79	Spell the term for “nearer the trunk”
+d80d65b2	As in proximity.
+6264523e	Negation and opposition
+2a907e9b	Without and against
+3007bfbb	⟦0⟧The prefixes ⟦1⟧ and ⟦2⟧ mean without: ⟦3⟧ is without fever and ⟦4⟧ is a lack of red blood cells. ⟦5⟧ and ⟦6⟧ mean against: ⟦7⟧ and ⟦8⟧.
+026d381f	Without oxygen
+cce2bbbd	⟦0⟧⟦1⟧ → absence of oxygen<br>The prefix ⟦2⟧ means apart (⟦3⟧, a displaced joint) and the prefix ⟦4⟧ means remove (⟦5⟧, loss of water).⟦6⟧
+7f3e11f5	hand with bluish nails
+da9905d5	anoxia and cyanosis
+ab5de82c	an- is used before a vowel and a- before a consonant, as in anemia and afebrile.

@@ -1,0 +1,242 @@
+b7f6f4bc	In the Hospital
+f434ecab	Hospital
+cd537e58	The medical record and notes, care settings and confidentiality, drug names, prescriptions, dosing frequency and routes, do-not-use abbreviations and the care team
+cd1437e5	The record and care settings
+63dd575e	Drugs and prescriptions
+a26e4312	The care team and reports
+31a15762	Parts of the record
+d15f7d06	⟦0⟧The ⟦1⟧, or chart, is the legal document of all of a patient’s care: the ⟦2⟧, physician’s orders, nurse’s notes, ⟦3⟧, the operative report and the ⟦4⟧.
+058b42cc	From paper to computer
+32ddf3f2	⟦0⟧Today most records are ⟦1⟧s; they are filled in on a computer or tablet and shared among the care team.⟦2⟧
+b93bd79e	Records archive
+97cf489c	The H&P is written on the first day, progress notes every day and the discharge summary on the last day.
+af6baa0d	Which part of the record summarises the whole hospital stay?
+7d34a269	It is written at discharge.
+b86975c9	blood pressure and pulse
+68d77f62	history and prognosis
+e3192a10	hospital and pharmacy
+74b79b9e	Put these forms in the order of the hospital stay
+a999f08c	Admission, every day, discharge.
+94a36f4d	Match each part to its writer or purpose
+4f307e0d	the surgeon
+95f52082	daily vital signs
+55c697e1	the consulting physician
+d5f935b0	the patient’s signature
+0f92a726	Parts of the record.
+4df8e1f0	The medical record is a legal document.
+59cfb343	Every page must be complete and signed.
+562b26cb	A digital record is called an ___.
+fd37f4a4	Spell the one-word name for the medical record
+12a4d951	The language of notes
+f3e6e081	A real note
+606d74aa	⟦0⟧Notes are full of abbreviations: ⟦1⟧ years old, ⟦2⟧ complaining of, ⟦3⟧ shortness of breath, ⟦4⟧ rule out and ⟦5⟧ chest X-ray.
+edf603d2	Emergency note
+e3684c3d	Parts of the history
+233fc9d3	history of present illness
+bf29bcd3	past medical history
+6b816be2	head, eyes, ears, nose, throat
+b3bd6948	In an emergency note in Stanfield, a 68-year-old man came in with chest pain and SOB, and the note says R/O pneumonia.
+e36ea9e7	In a note, ⟦0⟧ means…
+7dee73ed	caring for
+795cbc96	instead of
+44495b14	next to
+0fec50d1	pneumonia must be ruled out or confirmed
+2f872b79	pneumonia is certain
+e5a19536	pneumonia has been treated
+b0472738	right-sided pneumonia
+0505a444	Note abbreviations.
+ca472259	HEENT means head, eyes, ears, nose and throat.
+755ba322	The patient’s chief complaint is written with the abbreviation ___.
+6aea913a	⟦0⟧ and ⟦1⟧ mean…
+e712189f	diagnosis and treatment
+70a1e876	treatment and diagnosis
+ef0b1585	drugs and tests
+2a075789	history and examination
+df490c22	diagnosis and treatment.
+6de8fd68	Write the abbreviation for “shortness of breath”
+37dde0e2	Care settings and confidentiality
+2db7131b	Where are patients treated?
+9c1cdd33	⟦0⟧A general hospital (⟦1⟧) is for short-term treatment, ⟦2⟧ for extended care, ⟦3⟧ without an overnight stay, and ⟦4⟧ for patients at the end of life and their families.
+13cd37f9	⟦0⟧ means all patient information is private and released only with the patient’s written permission. In the United States, the ⟦1⟧ law protects this information.⟦2⟧⟦3⟧
+1d09b8a7	Chapter 1 of Fremgen points out that anyone who works with medical terms must fully understand and respect confidentiality.
+2c3db138	The word ambulatory comes from ambulate, to walk: the patient is up and about and doesn’t stay overnight in hospital.
+d792faae	Care that doesn’t require an overnight stay…
+14e90b59	Outpatient.
+87071651	Who is hospice for?
+a8874a1d	patients at the end of life and their families
+8a3645e0	premature babies
+fff1146a	injured athletes
+8ae68886	outpatients
+633820aa	Supportive care.
+8ca2bd7a	Match each setting to its purpose
+dc52f387	short-term treatment
+033582c9	extended care
+110d732c	Care settings.
+1329ed43	Patient information can be given to anyone without the patient’s permission.
+4751b1f1	The information is confidential; the patient’s written permission is required.
+ba476aa1	The US law that protects health information is called ___.
+1a52969e	A psychiatric hospital is an example of which setting?
+654e57c4	For particular illnesses.
+12fa6733	Spell the term for keeping patient information private
+355e86c1	Chemical, generic, brand
+3acf63b9	⟦0⟧Every drug has a long ⟦1⟧, just one ⟦2⟧ (such as ibuprofen) and one or more ⟦3⟧s (such as Advil and Motrin).
+367f1d7c	Three drug names
+9e2de12d	With or without a prescription
+b56b307f	⟦0⟧An ⟦1⟧ drug is sold without a prescription, like ⟦2⟧. Addictive drugs are called ⟦3⟧s and are classified from ⟦4⟧ to ⟦5⟧.⟦6⟧
+384320e7	pharmacy, pharmacist and pharmacology
+24948209	pharmacy, pharmacist and pharmacology
+5eb44386	The generic name is single and public; brand names are many and belong to companies.
+ff161721	How many generic names does a drug have?
+39ef2ca1	only one
+3e24323c	two
+d1f8d2e9	one per company
+f9879db9	The generic name is unique.
+d6a6859d	What kind of name is ⟦0⟧?
+8e5b6ac9	generic name
+51c194f4	scientific name
+1eb0a06f	A brand name of ibuprofen.
+9b3b6e23	Drug terms.
+9dd6633d	A generic drug is usually cheaper than a brand-name drug.
+64cbcc9a	According to Fremgen.
+40250493	A drug sold without a prescription is marked with the abbreviation ___.
+ebe0198e	Schedule I drugs…
+2d1791fe	have the highest potential for addiction and no accepted medical use
+c0fce4d2	have the lowest potential for addiction
+12fddda6	are sold without a prescription
+60f5a1b6	are only vitamins
+ce149510	Such as heroin; Schedule V is the lowest.
+a86c3880	Spell the term for a drug that relieves pain
+89bebb06	Reading a prescription
+da401803	Parts of a prescription
+dac31818	⟦0⟧⟦1⟧ means “take”, followed by the drug name and strength. ⟦2⟧ is the label directions: ⟦3⟧ means one tablet, by mouth, three times a day. ⟦4⟧ means dispense 30.
+fd8a286b	A prescription
+31d11ccf	Route
+16ebf1a7	⟦0⟧⟦1⟧, from the Latin per os, means by mouth, ⟦2⟧ under the tongue, ⟦3⟧ into a vein, ⟦4⟧ into a muscle, ⟦5⟧ drops and ⟦6⟧ nothing by mouth.⟦7⟧
+9093cbe7	Route abbreviations
+f15f616d	OD is the right eye and OS the left eye, but today it’s better to write it out: right eye.
+56d4c92c	one tablet, by mouth, three times a day
+395e82e0	one tablet, by injection, twice a day
+75e45be8	three tablets, by mouth, once
+f6945762	one drop, left eye
+97ee477a	i one, po by mouth, tid three times.
+4d83276f	nothing by mouth
+1d81be77	nothing by mouth, for example before surgery.
+490801f9	Routes.
+d4310fcc	Disp #30 means take the drug for 30 days.
+96be586d	It means dispense 30 to the patient.
+55e1720f	The label-directions section begins with ___.
+d3a68ea9	signa means write.
+d535dc9f	Put the parts of the prescription in order
+8eb04c20	In the order of the Fremgen example.
+6ef9b9c3	Write the abbreviation for “by mouth”
+97bf59ac	How often, and what not to write
+42f050bd	⟦0⟧⟦1⟧ is twice a day, ⟦2⟧ three times, ⟦3⟧ four times, ⟦4⟧ every 6 hours, ⟦5⟧ at bedtime, ⟦6⟧ before meals, ⟦7⟧ after meals, ⟦8⟧ as needed and ⟦9⟧ immediately.
+2a30a4c4	⟦0⟧⟦1⟧ is mistaken for ⟦2⟧, so write daily. ⟦3⟧ may be read as zero, so write unit. Never write a trailing zero (⟦4⟧), but a leading zero (⟦5⟧) is required.⟦6⟧
+3373c65f	The Do Not Use list
+651b0720	Chapter 1 of Cohen notes that organisations such as the Joint Commission and ISMP publish lists of do-not-use abbreviations.
+75d83031	Why shouldn’t you write ⟦0⟧?
+0f2ab45d	it is mistaken for qid and the dose is quadrupled
+5c136ff9	because it is long
+3337e55f	because it isn’t English
+a813cec1	because it is only for drops
+9d5738ce	Write daily instead.
+ceebbefe	Dosing frequency.
+dda4d6c5	Writing 0.5 mg is correct and .5 mg is dangerous.
+3c1254a4	A decimal point without a zero may be missed, making the dose ten times larger.
+768ad65a	An immediate order on a prescription is written as ___.
+d3bee6f1	statim means at once.
+d534fdb6	What should you write instead of U on a prescription?
+af133b4d	U is mistaken for 0 or 4.
+74f16d0f	Write the abbreviation for “as needed”
+faf5bb51	The care team
+18263ca8	Every organ, a specialist
+f0243b8c	Organ
+8a737edb	nerves
+c2fb31c3	ear, nose, throat
+71099cdc	bones and joints
+5a3d2310	Behind the scenes
+4a034168	⟦0⟧The ⟦1⟧ reads the images, the ⟦2⟧ examines the tissues and the ⟦3⟧ prepares and dispenses the drugs. An ⟦4⟧ is a specialist in internal medicine.⟦5⟧
+f38d339a	a research lab team
+79b7cc00	The lab team
+63d77b18	The root orth/o means straight: an orthopedist straightens bones, and orthopnea is breathing comfortably only when sitting upright.
+588ffdc1	Who is the cancer specialist?
+90601e1b	Who examines removed tissue under the microscope?
+b10a8300	Match each specialist to their field
+45eb93dd	women’s diseases
+dacedc2f	pregnancy and childbirth
+94bdf19b	The care team.
+2a597d6d	An internist is a specialist in internal medicine, not a trainee.
+996325b2	The trainee is an intern.
+680dd4e9	An ear, nose and throat specialist is known by the abbreviation ___.
+614fa71c	Build the term that means “kidney specialist”
+a59f66a7	Spell the term for the physician who reads medical images
+38e312d6	Imaging and tests
+3b41f2d6	Three imaging methods
+1ba2be20	⟦0⟧ makes images with sound waves, ⟦1⟧ with a rotating X-ray beam and ⟦2⟧ with a magnetic field.⟦3⟧
+2ba56eae	MRI and CT of the brain
+a353b903	⟦0⟧ means temperature, pulse, respiration and blood pressure (⟦1⟧ and ⟦2⟧). ⟦3⟧ is the complete blood count.⟦4⟧⟦5⟧
+8c80455c	In Gary Smith’s history in Stanfield, a CBC and liver tests were ordered for a 35-year-old patient with jaundice.
+3152519a	ultrasonography has three pieces: ultra- beyond, son/o sound and -graphy the recording procedure.
+985b748a	Which method makes images with sound waves?
+39cb6569	son/o means sound.
+0618f759	What are the ⟦0⟧?
+6bf3c960	temperature, pulse, respiration and blood pressure
+aeb632c6	sugar, fats and cholesterol
+8bc4912c	weight and height
+239f538d	ECG and EEG
+aec8e04b	TPR and BP.
+84cf9e15	Imaging and tests.
+4673c078	The abbreviation BP means blood pressure.
+af80dde9	The abbreviation TPR means temperature, pulse and ___.
+fd69aeb4	weight
+121cfd5e	Build the term for “imaging with sound waves”
+d4453d6e	Spell the term for “imaging with sound waves”
+9a35bf49	Read the reports
+7ba88c78	Radiology report
+77237b97	A radiology report in Stanfield describes 79-year-old Betty Street, who had a ⟦0⟧ after a fall. Findings: ⟦1⟧ changes in the lumbar vertebrae and a fracture (⟦2⟧) of the right pubic bone.
+7c026e63	Section
+db7144e6	Meaning
+f828e2b4	examination
+4dae9f69	hospital course
+43ebb5c5	discharge medications
+2a701eff	follow-up
+9ccdfa1e	In a discharge summary, the headings are the map; find them first, then read the details.
+2117601c	In a report, ⟦0⟧ means…
+88c3bf67	finding
+e9ba4faa	test
+ced592f5	Which section of the discharge summary lists the drugs after the stay?
+218854ce	Discharge medications.
+57b8c951	Put the sections of the discharge summary in order
+65193288	In the order used in Stanfield.
+e5c80ab6	Report abbreviations.
+30a5fc36	degenerative means wearing down and progressive.
+3c6aa06d	As in degenerative changes in the spine.
+b3b4c502	The order “one tablet by mouth every 8 hours” on a prescription: one ___ q 8 hours.
+b61fe7d8	In the textbook’s discharge summary: Augmentin, one p.o. q. 8 hours.
+dd3c7e43	Spell the term for a broken bone
+43063b0b	Puzzly
+3c8e4da0	The Curious Root Piece
+c4621d05	A blue puzzle piece; it always sits in the middle of a word because it is the root and carries the core meaning.
+f6fd7b94	Linky O
+2a6712fc	The Bridge-Building Vowel
+d0ae1157	A tiny letter o that builds bridges between roots, but steps aside before a suffix that starts with a vowel: gastritis.
+447ce2d6	Little Hippocrates
+ecc5953a	Guardian of Medical Language
+13862ef3	A 2,400-year-old book that has carried the Greek and Latin roots from the days of Hippocrates to today’s electronic records.
+a1fbd6aa	Cardio
+588ade6c	Owner of the root cardi/o
+29354022	A heart whose name you’ll find in cardiology, cardiomegaly and electrocardiogram.
+9db43599	Encephalo
+5752ce49	The Root-Savvy Brain
+245a2514	Never mixes up encephal/o and cephal/o: one is the brain and the other the head.
+959864e2	Osteo
+68ecb889	From oste/o and arthr/o to nephr/o and ren/o, it carries the map of every organ’s roots in its pocket.
+0a32b19a	Flamitis
+c08e1deb	The Inflammation Suffix
+5ae44d4f	Wherever -itis sits, that organ is inflamed: arthritis, gastritis, dermatitis.
+0af2270c	Lens
+5b3fbf32	Master of -scope and -scopy
+1ffc3f72	Tells the instrument from the procedure: it holds the endoscope and performs the endoscopy.
+53528206	Suffix Surgeon
+43d4a782	King of -ectomy
+c128f60b	Explains at a glance the difference between removal, incision, opening, repair, suture and fixation.

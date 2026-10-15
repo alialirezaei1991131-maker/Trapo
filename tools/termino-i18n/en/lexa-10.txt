@@ -1,0 +1,8 @@
+7b6912ab	All categories
+b0b9a5b6	unknown
+433c3eae	<p class="parse__m">Literal meaning (read from the end back to the start): <b>⟦0⟧</b></p>
+6f5e283b	<p class="note note--warn">Part of this word isn’t in the list of roots; the parts we recognise are coloured.</p>
+17f9edfb	<div class="tpane">⏎    <p class="muted">Type a medical word and it will be broken into prefix, root and suffix. The golden rule: start the meaning from the <b>suffix</b>, then the prefix, and finally the roots.</p>⏎    <label class="tsearch tsearch--big"><span aria-hidden="true">✂</span><input type="text" data-tp value="⟦0⟧" dir="ltr" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. ⟦1⟧"></label>⏎    <div class="tchips tchips--btn">⟦2⟧</div>⏎    <div class="tout" aria-live="polite">⟦3⟧</div></div>
+8e5fdd17	<h3 class="tgh">⟦0⟧ list <small>⟦1⟧</small></h3><div class="rgrid">⟦2⟧</div>
+5c40284c	<p class="muted">Nothing found.</p>
+a1e7e33c	<div class="tpane">⟦0⟧⟦1⟧⏎      <table class="mini abbr"><tr><th>Abbreviation</th><th>Full form and meaning</th></tr>⟦2⟧</table>⏎      ⟦3⟧</div>

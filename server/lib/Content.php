@@ -11,7 +11,7 @@ declare(strict_types=1);
 final class Content
 {
     /** فقط این مسیرها مجازند (بدون .. و بدون پوشه دلخواه) */
-    private const ALLOW = '~^(js/engine\.js|courses/data-[a-z0-9-]+\.js|courses/termino/[a-z]+(-img)?\.js)$~';
+    private const ALLOW = '~^(js/engine\.js|courses/data-[a-z0-9-]+\.js|courses/termino/[a-z]+(-img|\.en)?\.js)$~';
 
     public static function dir(): string { return rtrim((string) Cfg::get('app_dir', dirname(__DIR__) . '/private/app'), '/'); }
 
@@ -24,11 +24,12 @@ final class Content
         if (!is_file($full)) return null;
         $paid = function (string $course) use ($u): bool { return License::access((int) $u['id'], $course)['tier'] >= 1; };
         // حیطه‌های ترمینو: مقدمه (لِکسا) برای همه (پیش‌نمایش)، بقیه فقط برای مشترکان
-        if (preg_match('~^courses/termino/([a-z]+)(-img)?\.js$~', $f, $m)) {
+        if (preg_match('~^courses/termino/([a-z]+)(-img|\.en)?\.js$~', $f, $m)) {
             if ($paid('termino')) return $full;
             if ($m[1] !== (string) Cfg::get('termino_free_module', 'lexa')) return null;
-            if (!empty($m[2])) return $full; // تصویرهای حیطه رایگان
-            $pv = $dir . '/courses/termino/' . $m[1] . '.preview.js';
+            if (($m[2] ?? '') === '-img') return $full; // تصویرهای حیطه رایگان
+            // نسخه پیش‌نمایش به همان زبان (lexa.preview.js یا lexa.en.preview.js)
+            $pv = $dir . '/courses/termino/' . $m[1] . ($m[2] ?? '') . '.preview.js';
             return is_file($pv) ? $pv : null;
         }
         // فایل دوره‌های تک: بدون اشتراک ← نسخه پیش‌نمایش (اگر ساخته شده باشد)

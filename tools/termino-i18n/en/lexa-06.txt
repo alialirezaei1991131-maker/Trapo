@@ -1,0 +1,279 @@
+bba15364	high fever
+ecd8194c	fever-reducing
+6e86e342	after a fever
+5cb7116b	a- means without.
+7aedb374	absence of oxygen in the tissues
+392ff27d	too much oxygen
+4c48030f	bluish skin
+f66ed8ac	against bacteria
+b1284bcc	Negation and opposition.
+5524fdb6	A contraindication is a condition that makes a treatment inadvisable or dangerous.
+f33643ab	contra- means against.
+466311f4	Poor nutrition is called ___.
+a3da780e	mal- means bad.
+186541b6	Build the term that means “absence of oxygen”
+d39b1986	Spell the term for “without fever”
+2db45cec	Opposite pairs
+e6c3f13d	Opposites
+0fbb41c6	⟦0⟧Many prefixes come in opposite pairs: ⟦1⟧ slow and ⟦2⟧ fast, ⟦3⟧ low and ⟦4⟧ high, ⟦5⟧ good and ⟦6⟧ bad.
+5683d480	Shrinking and growing
+42b5decd	A: wasted muscle, B: enlarged muscle
+5aab19e0	atrophy and hypertrophy
+ffffcd12	wasting away; no growth
+9570fb64	enlargement; excess growth
+5028d0bd	heart rate below 60
+4e81676c	fast heart rate
+264b7da5	tachy speeds along like a taxi; brady plods along slowly.
+8452ff39	heart pain
+bfd4d713	tachy- means fast.
+7bec299a	What is wasting and shrinking of a muscle called?
+94ace140	Match each prefix to its opposite
+72f174a9	Opposite pairs.
+11902643	hypoglycemia means high blood sugar.
+4b4c7f8c	hypo- means low; high blood sugar is hyperglycemia.
+09e94617	Difficulty swallowing is called ___.
+ecd04f3f	Build the term that means “high blood sugar”
+7cba42ee	Spell the term for “slow heartbeat”
+741afe89	Movement and position
+cfa789e5	Away and toward
+49adc185	⟦0⟧The prefix ⟦1⟧ means away from and the prefix ⟦2⟧ means toward: ⟦3⟧ is moving a limb away from the midline and ⟦4⟧ is moving it toward the midline.⟦5⟧
+c15ae27b	moving the leg away and back toward the midline
+05611d95	abduction and adduction
+0b002d84	joint movements
+01e6585a	Movements of the mobile joints
+ecdaa35e	⟦0⟧⟦1⟧ is lying face up, ⟦2⟧ lying face down, ⟦3⟧ half sitting and ⟦4⟧ head lower than the feet.⟦5⟧
+1e390295	Remember supine through “soup”: a soup bowl faces up; prone faces down.
+ae2da249	Moving a limb toward the midline of the body…
+be6d727f	ad- means toward.
+617ed083	A patient lying on the back, face up, is in the … position.
+9b55c5d7	Match each movement to its meaning
+29eab9ab	moving away
+d907c035	moving toward
+e34f81df	Movements.
+76b851c5	In the Trendelenburg position the patient’s head is lower than the feet.
+68cb4c1d	A tilted bed with the head down.
+f4fed67d	A patient lying on the abdomen, face down, is in the ___ position.
+3e634191	Order them from lying down to standing up
+abbfdc13	Supine, half sitting, standing.
+97c3f4d6	Spell the term for “moving away from the midline”
+ac179fa4	Rules and Traps
+6e07d9f0	Rules
+b0f92682	Plurals of Latin and Greek words, abbreviations and acronyms, eponyms, sound-alikes, spelling traps and breaking down long words
+ec37c82d	Plurals
+7132419d	Short forms and sound-alikes
+44d5aa76	Traps and long words
+7b6714ad	Simple Latin plurals
+8a48316f	The first three rules
+02e65b5a	⟦0⟧Latin and Greek words form their plurals by their own rules. The first three rules:⟦1⟧
+9378d956	Singular
+b1f76dbb	Plural
+7fedc498	The spine
+96913eba	⟦0⟧Each bone of the spine is a ⟦1⟧, and the adult spine has 26 ⟦2⟧.⟦3⟧
+46b9fd43	A: one vertebra, B: the spinal column
+428ed604	vertebra and vertebrae
+725adcf8	Say the -ae plural as “ay”: VER-teh-bray. Say the -i plural as “eye”: bronch-eye.
+45e3595c	What is the plural of ⟦0⟧?
+3923e829	Match each word to its plural
+49e373a3	The first three rules.
+83ea52e6	bacteria is the plural of bacterium.
+7920dde3	The plural of glomerulus is ___.
+c11735b7	How is the ending ⟦0⟧ pronounced in plural words?
+3e3dce57	“eye”
+5c6e2ab5	“ee”
+b4222611	“eh”
+11ca0f6e	it is silent
+b5004c8a	Write the plural of “bacterium”
+a251ce29	Plurals of x, is and on
+e55d4028	Four more rules
+f582290e	Finger bones
+fee258f4	⟦0⟧Each finger bone is a ⟦1⟧, and its plural is ⟦2⟧.⟦3⟧⟦4⟧
+fff3fd21	the bones of the fingers
+1987aef0	phalanx and phalanges
+9611b646	the channel of an artery and a vein
+4a15b643	lumen and lumina
+cd6b7d89	An x at the end means “bring in a c or g and add es”: appendices, phalanges.
+b9172edf	The x and on rules.
+54132f11	The plural of lumen is lumina.
+6e95a384	The plural of metastasis is ___.
+2263c307	The Latin plural of ⟦0⟧ is…
+e55279c5	-ma → -mata; carcinomas is also accepted.
+55b57707	Write the plural of “appendix”
+b36493f8	Rule breakers
+3216d8ff	⟦0⟧Some words don’t follow the rules: ⟦1⟧ stays ⟦2⟧, ⟦3⟧ becomes ⟦4⟧ and ⟦5⟧ becomes ⟦6⟧.⟦7⟧
+ae6bbf50	exceptions and pronunciation
+0e8f4ec3	head and neck of the thigh bone
+fc4c046f	femur and femora
+370f725f	Numbers and abbreviations
+5d5e98cc	With a number, a unit of measure is not made plural, so we write ⟦0⟧ and never ⟦1⟧. Capital-letter abbreviations take a small s for the plural: ⟦2⟧, ⟦3⟧.⟦4⟧⟦5⟧
+4659d9b4	Chapter 4 of the Dummies book notes that English plurals such as carcinomas are becoming more and more accepted.
+5e001a4b	meatus is like “sheep” in English: one sheep, many sheep!
+f0cf51d7	An exception; it stays the same.
+14d6c5aa	A Latin exception.
+ded57085	Exceptions.
+5ca68770	It is correct to write: The incision was 7 cms long.
+96947565	With a number, the unit is not made plural: 7 cm.
+4cb35834	The plural of the abbreviation CVA is ___.
+6d654938	A capital-letter abbreviation takes a small s, with no apostrophe.
+310f4ede	How is the ending ⟦0⟧ in ⟦1⟧ pronounced?
+536ca2ef	“eez”
+a296267a	“es”
+2d43fe3f	Write the plural of “femur”
+5e4c35a8	An exception.
+7777a439	Abbreviations and acronyms
+3a0f6038	Four kinds of short forms
+06350729	⟦0⟧An ⟦1⟧ is read letter by letter (⟦2⟧). An ⟦3⟧ is read as one word (⟦4⟧). Symbols are short forms too: ⟦5⟧ increase and ⟦6⟧ decrease.
+af3dcf4a	One abbreviation, several meanings
+0adbba5f	Meanings
+36927dde	multiple sclerosis; mitral valve stenosis
+c7a234bc	bowel movement; bone marrow; breast milk…
+15eb00f6	Chapter 4 of the Dummies book notes that only the context of the sentence makes the meaning of an abbreviation clear.
+5277fa68	If an abbreviation has two meanings, read the context; if you’re still unsure, write it out.
+79f9b946	What kind of short form is ⟦0⟧?
+6c392750	acronym
+2952698b	eponym
+f9b58a0a	It is read as one word.
+d9670209	In a heart patient’s chart, the abbreviation ⟦0⟧ most likely means…
+20c39ed6	The context decides the meaning.
+8a7c31fd	Match each abbreviation to its meaning
+5d77056d	against medical advice
+d4508463	Abbreviations.
+a9bdfdf9	In a history, the symbol ↑ means increase.
+d915e9cc	↓ means decrease.
+56fbd664	A word formed from the first letters of several words and read as one word is an ___.
+3b3913b2	Such as AIDS or laser.
+95a121af	What is the best thing to do when the meaning of an abbreviation isn’t clear?
+9a19308f	write the word out or ask the writer
+054281eb	invent a new abbreviation
+1490e0e3	guess
+88c8eaad	delete it
+2292eb7c	Never write a made-up abbreviation.
+9b6483e2	Spell the term for a word made of initials and read as one word
+6adfe1d3	People’s names on diseases
+11d1d365	⟦0⟧An ⟦1⟧ is a disease, sign or instrument named after its discoverer or a place: ⟦2⟧, ⟦3⟧, ⟦4⟧ and ⟦5⟧.
+921a0f51	With or without the apostrophe
+34b95aaf	Today the apostrophe can be dropped: ⟦0⟧ or ⟦1⟧; both are accepted.⟦2⟧⟦3⟧
+adf2ae23	Chapter 4 of the Dummies book notes that Lyme disease is named after the town of Old Lyme, Connecticut, where it was first reported in 1975.
+d41e9177	eponym = epi (upon) + onyma (name): a name placed upon something.
+43bff997	An eponym is…
+a704fdd8	a name taken from a person or a place
+9e076732	a word with the opposite meaning
+74a8c353	a sound-alike word
+a37e0a08	a multi-letter abbreviation
+b3e57a92	What did Lyme disease get its name from?
+cc2c3980	a town
+8ee8e316	a physician
+e891e3af	a tick
+8ab38616	an antibiotic
+76edffaf	Match each eponym to its meaning
+3d985b3b	newborn score
+9382746e	Eponyms.
+dfe16b04	The Apgar score rates a newborn’s condition at 1 and 5 minutes after birth.
+39fe62a8	Another name for Down syndrome is ___.
+f672607a	A chromosomal disorder.
+0372cd85	Which spelling is accepted today?
+bf2c6d22	both: Parkinson disease and Parkinson’s disease
+45c7d43a	only Parkinson’s disease
+79d9945e	only parkinsons disease
+d9d17524	only PARKINSON
+4397ab06	The apostrophe can be dropped.
+fb7a13dc	Spell the term for a name taken from a person or a place
+938aa8e4	Homonyms, antonyms, synonyms
+782b513a	One sound, two organs
+25cd3f05	⟦0⟧A ⟦1⟧ is one of two words that sound the same but mean different things: the ⟦2⟧ is the last part of the small intestine and the ⟦3⟧ the wing of the hip bone.⟦4⟧
+d42124f6	the pelvis, the bony hip girdle
+13d4a7a6	the ilium is part of the pelvis
+ac635d42	Antonyms and synonyms
+69c081d8	An ⟦0⟧ has the opposite meaning, like ⟦1⟧ and ⟦2⟧; a ⟦3⟧ has the same meaning, like ⟦4⟧ and ⟦5⟧.⟦6⟧⟦7⟧
+58cd28c2	memory aid; silent m
+1f20c5f9	of the lungs; silent p
+558839d1	ileum with an e, as in enter/o (intestine); ilium with an i, as in hip.
+4234cc2d	Which is the last part of the small intestine?
+991d34aa	ileum, with an e.
+5baadda8	gastralgia and gastrodynia are…
+13ac1223	synonyms
+f9d0f7db	antonyms
+4bc562c2	homonyms
+ceaef4ac	eponyms
+7253b20e	Both mean stomach ache.
+291621c7	Match each term to its meaning
+86370978	Kinds of words.
+0310fb28	The ilium is part of the hip bone.
+7e714b9d	ilium, with an i.
+f0e3daa1	A memory trick is called a ___.
+614e7189	The first m is silent.
+6f5e5bfc	funny
+da15a38b	a body fluid
+753791c6	It sounds like humorous.
+000fbc9b	Spell the name of the upper arm bone
+675d9567	With a u, not humorous.
+399e8ef7	One letter, one meaning
+f8ed77ca	Sound-alike traps
+4e75ffd6	⟦0⟧⟦1⟧ is difficulty swallowing and ⟦2⟧ difficulty speaking. ⟦3⟧ is examining by touch and ⟦4⟧ a pounding heartbeat.
+0fcac4da	Sound-alike traps
+0cd67002	Noun or adjective?
+afe4bf1e	noun: the mucus itself
+a54e47e7	adjective: mucous membrane
+7df16745	hardened skin or healing bone
+51e0aa48	hard; unfeeling
+16cacf9b	afferent: toward the centre
+cf0bb551	efferent: away from the centre
+841463bc	dysphaGia with a G as in Gulp; dysphaSia with an S as in Speech.
+6a44e43b	A patient who has trouble swallowing food…
+29e34d21	-phagia means eating and swallowing.
+0dcda94d	A patient who says “my heart is racing and pounding”…
+9ec993e3	palpitation means a pounding heartbeat.
+9f631c58	artificial
+a8b3bed4	Sound-alike traps.
+70c66fe2	mucus is the adjective and mucous the noun.
+fb20c7ea	The other way round: mucus is the noun and mucous the adjective.
+a0d36ab4	The physician ___ the abdomen with the hands.
+b2cb27bd	Feeling with the fingers.
+c687c914	afferent means…
+518a9c26	toward the centre
+4cc91b69	away from the centre
+e9608e2b	between two centres
+2f0979a8	without a centre
+d0d5a801	a as in arrive.
+310abda8	Spell the term for “difficulty speaking”
+9373c704	-phasia means speech.
+e5c87368	peri, pero or periton?
+56099b32	⟦0⟧⟦1⟧ refers to the peritoneum, the lining inside the abdomen. ⟦2⟧ refers to the area between the legs and ⟦3⟧ to the outer side of the lower leg.
+0ce09c96	peritoneal, perineal, peroneal
+4527e05a	The textbook trick
+420967d7	Chapter 25 of the Dummies book says: perINeal means IN, between the legs; perONeal means ON, on the lower leg. These three words are famous mix-ups among health-care staff.
+52edd91b	Location
+30445941	lining inside the abdomen
+b4a2dbec	between the legs
+300dd9a9	Where does ⟦0⟧ refer to?
+25864368	the outer side of the lower leg
+685e6388	the area between the legs
+94d9b974	around the kidney
+21041370	perONeal: on the lower leg.
+89cd6048	What is dialysis using the abdominal lining called?
+ab2c50f9	peritone/o means peritoneum.
+5b73c54b	Match each term to its location
+b440731e	side of the lower leg
+28aa7b33	around the heart
+ae8aeee8	Three look-alike words.
+457e5d2a	perineal and peroneal mean the same thing.
+76b71798	One is between the legs and the other on the side of the lower leg.
+07dc9f2e	The nerve that runs along the side of the lower leg is the ___ nerve.
+77ce685b	Which word is built from the root for peritoneum?
+2c010e3b	Spell the adjective meaning “of the peritoneum”
+13663e5f	Spelling and long words
+ffddc25e	Tricky spellings
+f26960c9	⟦0⟧⟦1⟧ has two l’s, ⟦2⟧ and ⟦3⟧ have two r’s and one h, and ⟦4⟧ has both ph and th. The word ⟦5⟧ is spelled with a u, not an i.
+13f282ea	The longest word
+f8bf4a3b	⟦0⟧Read a long word from the end and break it into pieces. ⟦1⟧ is a lung disease caused by very fine volcanic silica dust.⟦2⟧⟦3⟧
+d2125588	Breaking down a long word
+a3f9db88	Chapter 27 of the Dummies book notes that this word has to be broken after microscopic to make it readable.
+93075043	For a long word, ask just three questions: What is its suffix? What is its prefix? What are its roots?
+b0d457d2	Two l’s and one m.
+f106805b	Two r’s and one h.
+5c9f6f25	Match each part to its meaning
+8196a38f	pruritus is spelled with a u.
+11ba40de	pruritis is a common misspelling.
+ee1537b1	The abbreviation for an ear, nose and throat specialist is ___.
+3ffe1222	Put the parts of otorhinolaryngologist in order from the start
+abe5636a	Ear, nose, larynx, specialist.
+2d851d30	Spell the term for frequent watery stools

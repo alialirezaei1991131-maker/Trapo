@@ -58,7 +58,9 @@
     var m = /[?&](?:course|calc)=([\w-]+)/.exec(location.search);
     if (m) {
       var c = (window.ACADEMY_COURSES || {})[m[1]] || (window.ACADEMY_SUBCOURSES || {})[m[1]];
-      if (c && c.assets) await load(c.assets);
+      var en = false; try { en = JSON.parse(localStorage.getItem('academy_global_state') || '{}').lang === 'en'; } catch (e) { /* */ }
+      var list = c && ((en && c.assetsEn) || c.assets);
+      if (list) await load(list);
     }
     await load(S.files.engine);
   })();

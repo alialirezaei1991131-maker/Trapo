@@ -1,0 +1,245 @@
+db8a5042	Number Dice
+77e24a44	The Prefix Counter
+c6b0a607	Counts from uni- and bi- to quadri- and pan-, and counts hemi- as a half.
+78270fef	Compass
+21bf2842	The Body Guide
+82aeaf6c	Always measures superior and inferior, medial and lateral, proximal and distal from the anatomic position.
+4541adf8	Anti Shield
+41d5f71a	Keeper of the Against Prefixes
+c21e3656	Knows anti-, contra- and a-, and knows that afebrile means without fever.
+928fb852	Sound-Alike Twins
+0ad6b065	Ileum or ilium?
+13756b81	Two words with one pronunciation, one an intestine and the other a hip bone; told apart by a single e or i.
+1d7838b6	Plural Key
+7b684175	Master of -ae and -i
+ad971b85	Turns vertebra into vertebrae, bronchus into bronchi and phalanx into phalanges.
+77b24562	Trap Scales
+81d95f9a	Enemy of Sound-Alikes
+fcbf8d40	Never puts dysphagia with dysphasia, or palpation with palpitation, on the same pan.
+940d71dc	Capsy
+1dd1fcbc	The Generic Drug
+5fa7a884	Has one long chemical name, one generic name and several brand names; OTC or prescription.
+67d46d23	Rx Reader
+ed560dc3	The Sig Decoder
+7dfec41e	Reads i po tid as “one tablet by mouth three times a day” and stops qd and U in their tracks.
+26c0e5e7	Grand Lexa
+c1af5eeb	Master of the Chart and the Puzzle
+1f330af2	Breaks down the H&P, progress notes, discharge summary and any long word at a glance.
+0d9f5f36	A student’s heartburn
+ca7a8f67	David, a 22-year-old student
+c815546c	In a Cohen case study, David, a 22-year-old student, has had a burning pain in the middle of his chest at night for four months. The examination notes say: epigastric pain, orthopnea and occasional dysphagia. He was referred to a gastroenterologist for possible GERD and underwent EGD.
+45ce7cca	Translation
+e4d1cc13	epigastric pain means pain…
+8a82a6e5	above the stomach, in the upper middle abdomen
+68f249a5	below the stomach
+e3225c72	inside the intestine
+c83cb73e	in the lower back
+c0165c01	epi- upon + gastr/o + -ic.
+25969135	What does a gastroenterologist specialise in?
+14752aea	stomach and intestines
+dee179b3	liver and spleen
+fe4c3b37	dysphagia means…
+acf2b593	difficulty swallowing
+02d02822	difficulty speaking
+4a81b2e7	difficulty breathing
+251c162f	stomach ache
+d506fe05	In a chart, y/o means years old.
+42e034b1	Test
+48dd7cdb	What does the physician see in an EGD?
+82af20ec	oesophagus, stomach and duodenum
+82b8b038	trachea and bronchi
+1b176f92	Put the steps for translating epigastric in order
+3d86eb01	Pertaining to, upon, stomach: the region above the stomach.
+8456c3f3	In dysphagia, the ph is pronounced like f.
+bd9d1439	Spelling
+9e27810d	Spell the term for “specialist in the stomach and intestines”
+2531bfb9	A history with yellow skin
+49526612	Gary Smith, a 35-year-old man
+4ac02938	In a history and physical (H&P) in Stanfield, Gary Smith came in with fatigue, sore throat, muscle pain and itchy skin. His eyes and skin are yellow, his liver is enlarged and tender, and he is post-tonsillectomy from childhood. The physician suspected hepatitis and ordered a CBC and liver tests.
+52d54d2d	post-tonsillectomy means…
+4d5d3ccb	after removal of the tonsils
+356fdec8	before removal of the tonsils
+b8bdc875	incision into the tonsil
+52d0f531	post- after, tonsill/o tonsil, -ectomy removal.
+a3676f06	Enlargement of the liver…
+081e9b47	hepatitis means…
+f6071580	removal of the liver
+d993d223	temperature
+f0a7db95	Spell the term for “inflammation of the liver”
+8be94d1e	Follow-up at the office
+0b3de807	Maria Brown, a 64-year-old woman
+48dd46c4	In an office note in Stanfield, Maria Brown came for follow-up of gastralgia and aphasia (left over from an earlier stroke). A week ago she had an EGD, and a bleeding stomach ulcer was brought to hemostasis with cautery. Her gastralgia has now resolved, and peristalsis is heard in all four quadrants of the abdomen.
+0ed3eae5	gastralgia means…
+c8fcd7df	stomach bleeding
+e4c41d33	aphasia means…
+448f7922	inability to speak
+79ed1aa3	inability to swallow
+244e9c6a	inability to see
+4d7c1216	inability to walk
+d8fac372	hemostasis means stopping of bleeding.
+57098921	hem/o + -stasis (standing still).
+fa6d925b	If the patient had difficulty swallowing instead of aphasia, what would the correct term be?
+3af9cd8b	-phagia is swallowing and -phasia is speech.
+7ee66c25	In gastric ulcer, gastric means…
+545743ec	pertaining to the stomach
+aeb35179	loss of speech
+6d3664ee	stopping of bleeding
+5d1ff788	wave-like movement of the intestine
+35a08134	Note terms.
+c7d50fb8	Spell the term for “stomach pain” (with -algia)
+61622886	Arthritic knees
+2ffb134b	Greg, a 68-year-old man
+82ead86f	In Case Study 1-1 in Cohen, Greg is complaining of (c/o) bilateral knee discomfort that gets worse before rain. He takes NSAIDs prn but hasn’t improved. He tore his ACL in college, and he takes Lipitor for hyperlipidemia. His family physician referred him to an orthopedic surgeon.
+4cbf5a2e	In bilateral, bi- means…
+80de522a	Both knees.
+ba0cc0fd	What is -itis in arthritis?
+82390708	a suffix meaning inflammation
+48fd7807	arthr/o is a…
+f6771560	Root + combining vowel.
+c4e3cd0c	In NSAID, AI means…
+84d32591	anterior cruciate ligament
+09d6ccb4	Abbreviations in Greg’s chart.
+304ceb68	hyperlipidemia means…
+ea96a1e7	too much fat in the blood
+87785d34	too much sugar in the blood
+90e209ed	too little fat in the blood
+9efb4148	inflammation of fat
+61a33751	Field
+683f38ef	orthopedic is built from orth/o (straight) and ped/o.
+249792ca	A bone and joint surgeon.
+dbc12ba9	Spell the term for wear-and-tear disease of bone and joint
+3bcec11c	A hairdresser’s difficult breathing
+6e7efb0d	Sally, a 54-year-old woman
+65c967e2	In Case Study 1-2 in Cohen, Sally has dyspnea that was first put down to LUL pneumonia. She didn’t improve on antibiotics, and a small pneumothorax was seen on the X-ray. Dr. Williams, a pulmonologist, performed bronchoscopy and biopsy. She is a hairdresser, and the fumes from hair and nail products make her short of breath.
+8f641140	How are the gh in cough and the ph in radiograph pronounced?
+d3f120f0	koff and RAY-dee-oh-graf.
+2ce4798a	How is the pn in bronchopneumonia pronounced?
+658f89f7	The p is silent.
+8f3f1a37	Which word is a compound word (has more than one root)?
+ad0d3a65	Which is the “condition” suffix in pneumonia?
+b66fecf5	What is the plural of spectrum?
+06f1caf3	containing pus
+24618176	feverish
+d919a792	lung specialist
+1ac8b68d	Terms in Sally’s chart.
+5846006f	LUL means the left upper lobe of the lung.
+09da730f	Spell the term for “difficult breathing”
+e1663548	dys- + -pnea; here the p is not silent.
+9b2d6939	Heatstroke and a suspicious mole
+b959159d	a 33-year-old construction worker
+ca62e91c	In a dermatology consultation in Stanfield, a 33-year-old worker was admitted with heatstroke and dehydration and given IV fluids. On examination, an irregular 3 × 5 cm lesion, red to black with poorly defined borders, was seen on his right thigh. Dr. Henri Adams, a dermatologist, wrote: R/O melanoma and Bx.
+b24074f3	In melanoma, melan/o means…
+00c458a6	melanoma means black tumour.
+fa729a86	What does a dermatologist specialise in?
+f55f4152	Bx means…
+b135370b	punch biopsy
+df0ce183	R/O melanoma means melanoma is certain.
+4eb53dca	It means melanoma must be ruled out or confirmed.
+dd1b107a	dehydration means…
+df4b8c54	loss of body water
+d8893ab1	too much water in the body
+4f925cbf	treatment with water
+3a8371e5	fear of water
+919c29fb	no known allergies
+c5dabb42	Consultation abbreviations.
+08d58973	Spell the term for a black tumour of pigment cells
+88a12633	Word-building orders
+397fb38b	The word-building exercise in Fremgen
+547c8b15	In the “Building Medical Terms” exercise in chapter 1 of Fremgen, you must use the right root and suffix to build words for abnormal softening of the heart, a surgical opening into the stomach, repair of the nose, the study of disease, a nerve tumour and inflammation of the ear, as in the textbook example: splen/o + -megaly = splenomegaly.
+512deb15	Build
+88f237c6	Abnormal softening of the heart…
+e0389efa	A surgical opening into the stomach…
+3b41552a	Surgical repair of the nose…
+5bb8e856	The study of disease…
+3d134414	A nerve tumour…
+00ed38b1	Inflammation of the ear…
+b740e9dc	carcinogenic means cancer-causing.
+b2362d0f	Spell the term for “enlarged spleen”
+9ed9b167	A bone scan report
+2ba7683e	Betty Street, a 79-year-old woman
+5c972d49	In a radiology report in Stanfield, Betty Street had a whole-body bone scan after a fall and low back pain. Findings: degenerative changes in the lower T and L vertebrae, no sign of metastatic disease or compression FX, and traumatic fractures of the upper and lower branches of the right pubic bone.
+e8cacd0f	FX means…
+09e9c1e0	Hx means…
+669b01c8	metastatic disease is a disease that…
+493d8d19	has spread to a distant site
+fba26614	is congenital
+0120778c	is infectious
+6dfec0ca	has been treated
+0c5e952c	meta- beyond + -stasis.
+32968735	A/P views means front-to-back views.
+914e24c9	What is the plural of vertebra?
+43b07c2d	wearing down
+b25ca93c	caused by injury
+2ac7bf49	upper
+32fe84e7	lower
+11e00a28	Report terms.
+6ab59fa8	Spell the term for the physician who reads X-ray images
+e01aaf37	A swollen finger
+4448c553	a 28-year-old photocopier technician
+6f9b97ee	In a discharge summary in Stanfield, a 28-year-old man had a week of pain and swelling in the tip (distal phalanx) of his right index finger. His distal interphalangeal joint was aspirated and he was admitted for IV antibiotics. His WBC on admission was 13,600 and the C&S stayed negative. He was discharged on Augmentin, one p.o. q. 8 hours.
+d232d7bb	distal phalanx means the finger bone…
+cea34ab5	farthest from the trunk, at the fingertip
+0afee11c	in the middle
+e1382fe6	in the palm
+7b7786e9	distal means far.
+aabd3084	What is the plural of phalanx?
+be9c334c	interphalangeal joint means the joint…
+ee8f6f9b	between two finger bones
+f52dc25d	inside one finger bone
+63ad0606	around the finger
+d6f085a9	under the nail
+58e9fe1d	one p.o. q. 8 hours means…
+0c968057	one by mouth every 8 hours
+44937f2f	one by injection every 8 hours
+519c89a9	eight by mouth a day
+960887ac	one after meals
+be1ca084	p.o. by mouth; q every.
+9851f01d	culture and sensitivity
+063d0093	Discharge-summary abbreviations.
+038c1e47	erythema means redness of the skin.
+e0ec93ee	erythr/o means red.
+9062837d	Spell the term for a single finger or toe bone
+85e25ec4	Plural: phalanges.
+4be4f691	A broken hip
+d0975c5d	Esther, a 72-year-old woman
+a400e22d	In Case Study 1-3 in Cohen, Esther, who already had osteoporosis, fell on a kerb and broke the neck of her right femur. She received an analgesic before surgery (preoperative), had a bipolar hemiarthroplasty under spinal anesthesia with intravenous antibiotics, and after surgery (postoperative) her thigh was kept in abduction.
+a89f081b	femoral neck
+f058845e	In pre-existing, pre- means…
+27a3b8ad	It existed before.
+70354c01	In analgesic and anesthesia, an- means…
+c29858d4	many
+5f48fe9d	Without pain and without sensation.
+63723a32	In hemiarthroplasty, hemi- means…
+793805b8	Replacement of half a joint.
+7c7a341a	In bipolar, bi- means…
+374ee42e	Two poles.
+9906f352	Movement
+f3d93695	abduction means…
+f64f1df9	moving a limb away from the midline
+a1f27b83	moving toward the midline
+e25bb4c8	rotating
+e646f872	ab- means away from.
+115e9f58	again
+d86b9a5f	down, remove
+cfcfacdb	dislocation, replacement, degeneration, intravenous.
+931cbb1f	Put the stages of Esther’s operation in order
+34c7eb49	Before, during and after surgery.
+1d6799ce	Spell the term for “after surgery”
+e2a27d87	Position the patient correctly
+c796b478	Patient-positioning exercise
+e5ac4102	Based on the “Terms for Directions and Positions” table in Stanfield, you are the operating-room technologist and must place several patients in the right position for different procedures: one supine, one prone, one half sitting, one with the head lowered and one on the left side.
+55518965	Position
+d498610f	A patient lying on the back, face up…
+133511de	A patient lying on the abdomen, face down…
+efa3ba96	The head of the bed is raised and the patient is half sitting…
+94c61876	The patient lies on the back on a tilted bed with the head lower than the feet…
+3f212c1e	In the Sims position the patient lies on the left side with the right knee drawn up.
+61b0432d	Match each direction to its meaning
+2d7b6e79	lying down
+f674ecdd	standing
+274efbeb	Directions and positions.
+01ca79ca	Spell the term for lying face up
+ae71d272	Like a soup bowl facing up.
+4d26581d	Three injections, three depths
+84eb40a5	Injection-route exercise
+fa9daf93	Based on figure 2-1 in the companion books, you have three drug orders: an intravenous drip, an intradermal skin test and an intramuscular vaccine. You need to know the prefix and root of each route and how deep the needle goes.
