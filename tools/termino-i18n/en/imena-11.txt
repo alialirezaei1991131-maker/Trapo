@@ -1,0 +1,178 @@
+16a3a1fe	Anti-infective drugs
+aede4f4a	• <b>antiviral</b>: treats viral infections<br>• <b>antiretroviral</b>: specific to retroviruses such as HIV; the multi-drug combination <b>HAART</b><br>• <b>protease inhibitor</b>: blocks an enzyme HIV needs to build new particles<br>• <b>antibiotic</b> (AB): antibacterial
+19253332	Drug and target
+1408583f	transplant rejection
+e7d12f12	<b>Immunotherapy</b>: boosting or regulating the immune system as treatment; such as immunoglobulin or antibody injections, <b>monoclonal antibodies</b> in cancer and <b>allergy shots</b> in allergy.<br><b>Interferon</b> is also used in some cancers and in myelofibrosis.
+570f8fb9	A protease inhibitor is an anti-HIV drug.
+65fec3e2	True; part of the HAART combination.
+593a158a	Which treatment did the 40-year-old man with AIDS continue at follow-up?
+2a31928f	O-negative blood transfusion
+8d1bdd68	Plus a chest X-ray, sputum culture and paracetamol for the fever.
+282bc8ce	The abbreviation HAART means highly active anti___ therapy.
+d925ad0e	retroviral
+8e03bb9e	bacterial
+5ef92743	Spell the term for the adrenal cortex anti-inflammatory hormones (plural)
+d6059f50	cortic/o (cortex) + steroid.
+fd3b705a	Transplant and cancer treatment
+55137e1f	<b>BMT</b> (bone marrow transplant): the patient’s marrow is destroyed with <b>radiation and chemotherapy</b>, then healthy marrow or <b>stem cells</b> from a compatible donor are infused.<br>Uses: <b>leukaemia</b>, <b>aplastic anaemia</b>, myelofibrosis. Key risk: <b>GVHD</b>.<br>Another source of stem cells: <b>umbilical cord</b> blood.
+f67c5667	Order the steps of a bone marrow transplant
+cb73061e	tissue typing and finding a compatible donor
+909cfc5b	destroying the patient’s marrow with chemotherapy and radiation
+1cc42c8b	infusing the donor’s stem cells
+53dcc820	monitoring for infection and GVHD
+518d2370	Tissue compatibility comes first.
+fdf7e974	Cancer words
+e37e12c7	study of cancer (onc/o = tumour)
+78eba257	treatment with chemical drugs
+5ae0c812	disappearance of disease signs
+9b7ab95d	return of the disease
+c100447e	spread of cancer to another place
+1fcbcc5c	disease subsiding
+0999b855	disease coming back
+e49d3bb0	cancer spreading
+9b6be741	drug treatment of cancer
+5c24b7b3	What was the aim of intensive chemotherapy in the 2-year-old boy with ALL?
+ea7704e6	reaching remission (complete recovery)
+9393573c	causing a relapse
+b604ee94	increasing metastasis
+58095039	stimulating lymphocytosis
+e926482e	remission = the disease disappearing.
+8e26bfb9	Relapse means the disease has come back after a period of recovery.
+4549e8f6	Build a word meaning “cancer specialist”
+6d5962aa	In BMT, healthy ___ cells are infused into the patient.
+7bf07a84	stem
+9452b748	cancer
+b17722fb	plasma
+c2bcb76c	Spell the term for cancer treatment with drugs
+cfac9f2b	SIRS and sepsis
+1d6d3105	<b>SIRS</b> (systemic inflammatory response syndrome): an <b>exaggerated, body-wide</b> inflammatory response to acute stressors (infection, trauma, pancreatitis, burns).<br>It is marked by changes in <b>heart rate</b>, <b>breathing</b>, <b>temperature</b> and the <b>white cell count</b>.⟦0⟧⟦1⟧
+a4a54397	The further right we go, the more severe the illness and the higher the death rate.
+5a087915	Remember the four SIRS criteria as “<b>Temp, Ticker, Breaths, Troops</b>”: body temperature, heart rate, breathing rate and white cells (the defence troops).
+5b2aeca0	Which is not one of the classic SIRS criteria?
+6534befd	The criteria: temperature, heart rate, breathing rate and WBC.
+b90d5196	Sepsis and septicaemia
+8137a5bc	• <b>sepsis</b>: life-threatening <b>organ dysfunction</b> caused by a <b>dysregulated</b> host response to infection<br>• <b>septicemia</b> (⟦0⟧ = infection + ⟦1⟧): bacteria or their toxins in the bloodstream<br>• <b>MODS</b>: multiple organ dysfunction syndrome
+5e1d290d	organ dysfunction from a dysregulated response to infection
+79da88c4	bacteria in the blood
+e82e019c	systemic inflammatory response
+a4582db6	failure of several organs
+b9d53521	Cytokine storm
+01e8260a	<b>Cytokine storm</b>: a <b>rapid, uncontrolled</b> release of pro-inflammatory cytokines → widespread tissue damage and <b>MODS</b>. Seen in severe infections and some immune therapies.
+fcfa0167	Inflammation markers in the ICU
+fda823c0	Marker
+876f1af0	acute-phase protein from the liver; rises quickly with inflammation
+211716b2	rises in bacterial infection; separates it from non-infectious inflammation and guides antibiotics
+a15cc538	rises in shock and poor tissue perfusion
+69632871	WBC and diff
+29d0a6e8	leukocytosis or leukopenia, immature bands
+539f1fca	Which marker best helps separate bacterial infection from non-infectious inflammation?
+3fab7037	PCT rises more specifically in bacterial infection.
+e338fad8	Sepsis simply means bacteria in the blood.
+f72c5af6	That is septicemia (bacteraemia); sepsis means organ dysfunction from a dysregulated host response.
+d15071ff	Build a word meaning “infection in the blood”
+b3c5759e	Spell the term for organ dysfunction from a dysregulated response to infection
+d72d1694	sepsis; its adjective is septic.
+aab7983f	Iron and inflammation
+dd09dedf	The iron profile
+83393c18	⟦0⟧This profile separates <b>iron-deficiency anaemia</b> from <b>anaemia of inflammation</b> (chronic disease).⟦1⟧⟦2⟧
+a825ea4a	What it tells you
+bc9ac078	iron store (storage protein inside cells)
+52ce3c67	total iron-binding capacity; rises in iron deficiency
+45357541	iron-carrying protein in the blood
+47c11c38	serum iron
+d656cc54	In inflammation, the liver makes more hepcidin and iron stays behind locked doors.
+24f4f940	A low ferritin almost always means iron deficiency; but a high ferritin does not necessarily mean enough iron, because ferritin also rises in inflammation (an acute phase reactant).
+dbb9c373	In iron-deficiency anaemia, what is the ferritin usually like?
+e083fdf0	unmeasurable
+39139bf4	Ferritin is the iron store; it falls in iron deficiency.
+052b3ae6	Hepcidin
+785fe7c2	<b>Hepcidin</b>: a <b>liver</b> hormone and acute-phase protein that regulates iron balance.<br>It rises in <b>inflammation</b> → iron is locked in <b>macrophages</b> and gut absorption falls → <b>anaemia of chronic disease</b> (anaemia of inflammation), even with enough stored iron.
+43a2eae3	In anaemia of inflammation, ferritin may be normal or high while little iron is available to the bone marrow.
+781789f5	True; ferritin itself is an acute-phase protein and hepcidin locks iron away.
+5859afbd	Marker and role
+d157e933	iron store
+3f60b77f	locking iron away in inflammation
+8f00453f	iron-binding capacity
+bf8a7dfc	An ICU patient with severe inflammation: high ferritin, low serum iron, low TIBC. Most likely interpretation?
+e24f7203	anaemia of inflammation (chronic disease) driven by hepcidin
+7ff63f72	pure iron-deficiency anaemia
+1bf5eeca	haemochromatosis
+ee4c9576	In pure iron deficiency, TIBC is high and ferritin low.
+5a709567	The malnutrition-inflammation complex
+8e725230	<b>MIC</b> (malnutrition-inflammation complex): a vicious circle in critically ill patients; systemic inflammation → <b>protein catabolism</b>, <b>low albumin</b> and resistance to enteral/parenteral feeding → weaker immunity still.
+180afcf0	The iron-regulating hormone that rises in inflammation is ___.
+289d09f5	Hepcidin is secreted by the liver.
+204e0fcf	Spell the term for the iron-storage protein
+4770c3f5	ferr/o (iron) + -itin.
+4d18b628	Immunonutrition and hospital infection
+af958dab	Immunonutrition
+1cadf32f	<b>Immunonutrition</b>: using specific nutrients to <b>modulate the immune response</b> and reduce inflammation in ICU patients:<br>• <b>glutamine</b>: the main fuel of <b>enterocytes</b> and <b>lymphocytes</b>; becomes “conditionally essential” in critical illness<br>• <b>arginine</b>: precursor of <b>nitric oxide</b>; wound healing and T cell function<br>• <b>omega-3 fatty acids</b> (EPA and DHA): reduce inflammation
+94992ac6	Nutrient and role
+bfc6c460	fuel for lymphocytes and gut cells
+8c183658	precursor of nitric oxide
+a4fffd50	Which amino acid is the main fuel of gut cells and lymphocytes?
+0abc5d1d	Glutamine falls in severe stress.
+f4ee2f2b	Arginine is the precursor of nitric oxide.
+83721040	True; nitric oxide plays a part in vessel widening and immune defence.
+4ced5e86	Case: a septic ICU patient
+9abc9189	An ICU patient with <b>fluid-resistant low blood pressure</b>, <b>high lactate</b>, <b>high PCT</b> and a positive <b>CRP</b>; severe catabolism and <b>hypoalbuminemia</b>.<br>Treatment: immediate broad-spectrum antibiotics, haemodynamic support and <b>early enteral feeding</b>, high in protein and rich in <b>omega-3</b> and antioxidants.
+7d830268	Order the first steps for a septic patient
+5d8e4355	recognition: low blood pressure, high lactate and PCT
+01307485	blood culture (C&S)
+3c9115dd	immediate broad-spectrum antibiotics
+20f86030	haemodynamic support and fluids
+6f0a963b	starting early enteral feeding
+71a6f570	Culture before antibiotics, with no delay in treatment.
+544ff09a	Resistant hospital infections
+daa28861	<b>HAI</b> (healthcare-associated infection) in hospital patients:<br>• <b>MRSA</b>: methicillin-resistant Staphylococcus aureus<br>• <b>CRE</b>: carbapenem-resistant Enterobacteriaceae<br>• <b>C. diff</b>: Clostridioides difficile; inflammation of the large bowel, often after antibiotics
+d7e6f4a2	Severe diarrhoea after a long course of antibiotics in a hospital patient suggests what?
+9c30ecb3	Antibiotics upset the gut flora and C. diff grows.
+9a22ab0b	The fatty acids EPA and DHA belong to the ___ family.
+cd37cee5	omega-3
+021f55cc	omega-6
+edb3a82f	trans
+0bca4100	omega-3 fatty acids, with an anti-inflammatory effect.
+7b506f34	Spell the name of the amino acid that fuels gut cells and lymphocytes
+d39dadf7	Breaks every scary word into prefix, root and suffix and reads it from the end. Motto: “pancytopenia is only three pieces!”
+55984c94	Suffixo
+0fd1561d	Master of -ectomy and -itis
+d6a9318e	A living dictionary that knows suffixes family by family; never mixes up -tomy with -ectomy, or hematoma with a tumour.
+4bfe4bb6	expressive
+5ea20e85	Master of Pronunciation and Plurals
+82f65e36	Knows the p in pneumonia is silent, ph is read “f” and the plural of thrombus is thrombi. Spells hemorrhage without a single mistake!
+991760e5	Plasmo
+5412cffd	The Golden Liquid of Blood
+86bac6fd	55% of the blood is theirs: 90 to 92% water, plus albumin, globulin, fibrinogen, electrolytes and hormones. Their line: “Serum is just me, minus the fibrinogen!”
+0c812444	Erythro
+3d60a5bf	A biconcave, nucleus-free disc that lives 120 days. Its haemoglobin carries oxygen to the tissues and brings carbon dioxide back. The kidney’s erythropoietin sends it the message “make more”.
+99740f1a	cerebral
+cdeb3235	The Blood Factory
+0d32abc2	Inside the red bone marrow, it makes every blood cell from one stem cell. When it falls ill, aplastic anaemia, leukaemia or myelofibrosis arrive.
+1b5c01e3	Platey
+842829f9	The Vessel Patcher
+6cce9c39	A fragment of a megakaryocyte that lives only about 10 days. It gathers at a wound and releases thromboplastin to start the clotting cascade.
+bf15bc4a	Abo
+4b65876b	Guardian of Blood Groups
+e5e76c82	Checks every cell for the A and B antigens and the Rh factor. Never forgets the cross-match before a transfusion, and counts agglutination as a sworn enemy.
+f8cef3ad	Bagsy
+255a1fb2	The Transfusion Hero
+d1d30c46	Sometimes it is the patient’s own blood (autologous) and sometimes a donor’s (homologous). Fresh frozen plasma, platelets and cryoprecipitate are its friends.
+fdd430db	lymphatic
+dd03ab7f	The Clear Drop
+0b765f39	Born from interstitial fluid, it travels one way from the tissues towards the heart. If its path is blocked, lymphoedema forms.
+ffeabb52	Bean-shaped and full of lymphocytes and macrophages; it filters lymph. It hangs out in the neck, armpit and groin, and swells and hurts in infection.
+719dce34	Spleeno
+7ae23c44	The Great Blood Filter
+15740a0d	The largest lymphatic organ; removes old red cells and stores blood. If it ruptures, a splenectomy or splenorrhaphy is needed.
+6d47667a	Chomper
+7626c24d	The Hungry Macrophage
+483bd7b7	A monocyte that moved into tissue and became a macrophage. It swallows every germ by phagocytosis and shows a piece of its antigen to the lymphocytes.
+9af2b228	Wygee
+463a0e4c	The Precise Antibody
+afeac853	A Y-shaped immunoglobulin made by plasma cells. Its two arms stick only to their own antigen. It has five siblings: IgG, IgM, IgA, IgE and IgD.
+47e69009	T-Four
+36c717da	The CD4 Commander
+f29b861c	A helper T lymphocyte trained in the thymus that commands the rest of the immune army. HIV targets exactly this cell; when its count falls below 200, AIDS is defined.
+43c1d964	tubular
+c1c66692	The CBC Sample
+852521b2	Filled by a simple blood draw, it gives everything away: RBC, WBC, Hgb, Hct, platelets and the differential. ESR and PT are friends too.

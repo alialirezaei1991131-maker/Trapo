@@ -1,0 +1,178 @@
+d0999679	eating cell
+f336b683	large tissue eater
+c88f5bd0	small eater (neutrophil)
+651efa17	the engulfing process
+f4bd6a8c	<b>Inflammation</b> is the tissue’s response to injury or germs. Signs: <b>redness, heat, swelling, pain</b> and sometimes loss of function.<br><b>Histamine</b> (from basophils and mast cells) widens vessels and makes them leaky; that is why it also plays a part in allergy.⟦0⟧⟦1⟧
+724af4bc	The four classic signs with their Latin names
+c533d9dc	The four Latin signs are like a two-thousand-year-old poem: <b>rubor</b> (redness), <b>calor</b> (heat), <b>tumor</b> (swelling), <b>dolor</b> (pain). They all end in -or!
+9c0254ab	Order the inflammatory response
+2432a2c3	tissue injury or entry of germs
+3136e506	histamine is released and vessels widen
+ab6b5a7d	redness, heat and swelling
+a1dc854f	phagocytes arrive and swallow the germs
+42c01b62	Histamine → leaky vessels → white cells arrive.
+135878bd	Immune messengers
+af7f4257	<b>Cytokines</b> are proteins that signal cells to start or regulate the immune response:<br>• <b>interleukins</b>: from T cells; act on other immune cells<br>• <b>interferons</b>: <b>antiviral</b> proteins<br>• <b>complement</b>: plasma enzymes that help antibodies destroy germs
+4cb050bb	Which messenger has antiviral properties?
+9b87d7a1	interferon comes from “interfere”: it interferes with viral replication.
+1f5d9bc0	Histamine is released in allergic and inflammatory reactions.
+c78c7a60	True; antihistamines block its effect.
+8143d582	Build a word meaning “large eater”
+6a052390	Spell the term for cells engulfing particles and germs
+b72414c5	Active or passive?
+27819c42	⟦0⟧• <b>active immunity</b>: the body makes antibodies <b>itself</b>, after an illness or a <b>vaccine</b>; long-lasting, with memory<br>• <b>passive immunity</b>: <b>ready-made</b> antibodies arrive from outside, from mother to fetus (placenta and milk) or by injecting <b>gamma globulin</b> and <b>antitoxin</b>; fast but short-lived⟦1⟧
+b17579a1	A newborn with antibodies received through the placenta (IgG) and breast milk (IgA) has natural passive immunity.
+32cde915	What type of immunity does a baby who gets antibodies from breast milk have?
+96d2c640	acquired passive
+cf18b518	acquired active
+b3725b94	innate
+d3f0bcec	autoimmune
+f7f39997	Antibodies made by another body → passive.
+8a238e37	Example and type of immunity
+166716b9	measles vaccine
+68ee2283	artificial acquired active
+2f29980f	catching chickenpox
+289a5777	natural acquired active
+38c0c37d	maternal antibodies through the placenta
+574547a8	natural acquired passive
+161a2f60	gamma globulin injection
+334bd0dd	artificial acquired passive
+8a06bdb6	• <b>vaccine</b>: material from a <b>weakened or killed</b> microbe (or part of one) that triggers an immune response without causing disease<br>• <b>vaccination</b> and <b>immunization</b>: the process of making immune<br>• <b>artificial immunity</b>: immunity from a vaccine or antibody injection<br>• <b>antitoxin</b>: an antibody against a specific toxin (such as tetanus)
+44a2a335	A vaccine produces artificial acquired active immunity.
+0f54aece	True; the body makes its own antibodies and memory cells.
+6633f893	A patient exposed to tetanus toxin who needs “immediate” protection receives what?
+e240ccee	antitoxin (passive immunity)
+d12665d9	only a vaccine and a wait of several weeks
+6cced7ee	Antitoxin is a ready-made antibody and works immediately.
+61f97c0a	___ immunity is gained through illness or a vaccine and has a long memory.
+6f637966	active
+d9ba4168	passive
+18d1073e	In active immunity, the body makes its own antibodies and memory cells.
+65b655f1	Build a word meaning “against a poison”
+d8542352	Spell the term for a weakened-microbe preparation that triggers immunity
+9f148972	vaccine; and vaccination is the act of giving it.
+da864300	The two arms of specific immunity
+9540a682	⟦0⟧⟦1⟧<b>Humoral</b> comes from humor (body fluid), because antibodies float in the blood and lymph.⟦2⟧⟦3⟧
+0b4faeee	A lymphocyte under the electron microscope
+6ff530a6	Activation of T and B cells
+f0dd530f	Humoral immunity
+17bd9f4f	Cellular immunity
+9c710d64	Where it matures
+70d1c3f9	bone marrow (Bone)
+dc48bd3d	thymus (Thymus)
+dade933b	Weapon
+fd4559e8	antibodies from plasma cells
+c0f3f0dc	The B cell is the “archer”: it shoots antibodies from a distance. The T cell is the “swordsman”: it attacks the infected cell hand to hand.
+37fcbd35	In humoral immunity, which cell secretes antibodies?
+b8a40225	the plasma cell (from a B cell)
+8de6b334	After meeting an antigen, a B lymphocyte becomes a plasma cell and makes antibodies.
+b80cad04	The T family
+c9c73769	• <b>helper T cells</b> (<b>CD4</b>): the commanders; they stimulate the immune response<br>• <b>cytotoxic T cells</b> (<b>CD8</b>, killers): <b>kill</b> infected and cancer cells (⟦0⟧ = toxic to cells)<br>• <b>suppressor T cells</b>: <b>damp down</b> the immune response once the danger is over<br>• <b>NK cells</b> are also cytotoxic but belong to innate immunity
+6f2d0428	Cell and role
+2645c920	stimulating the immune response
+131c60dd	killing infected cells
+15fffccf	damping down the immune response
+72923d17	making antibodies
+2aab5dbd	An <b>APC</b> (antigen-presenting cell), such as a macrophage, swallows the antigen, processes it and shows a piece of it on its surface to a <b>helper T cell</b>; this starts the specific response.
+b854e962	Order the specific immune response
+09b15cb8	a macrophage (APC) swallows the antigen
+e64ea798	the antigen is presented to a helper T cell
+2c719542	the helper T cell activates B cells and cytotoxic T cells
+f50c9877	plasma cells make antibodies
+480ae32b	memory cells remain
+ad1f84d2	That is why, when CD4 cells are destroyed (HIV), the whole immune response is crippled.
+43fc38c7	Cytotoxic T cells destroy germs by making antibodies.
+7b6d9ef4	Cytotoxic T cells attack infected cells directly; antibodies are the work of plasma cells.
+2d5febfd	Where does the B in “B cell” come from?
+9c8065bb	The B lymphocyte matures in the bone marrow.
+c833c17c	Helper T lymphocytes carry the ___ marker.
+83ac8638	helper = CD4, cytotoxic = CD8.
+a5cabe62	Spell the adjective meaning “toxic to cells”
+5e4c1469	Antigen and antibody
+38168c32	Lock and key
+ccdfc679	An <b>antibody</b> (Ab) or <b>immunoglobulin</b> (Ig) is a <b>Y-shaped</b> protein that plasma cells make in response to an <b>antigen</b> (Ag). Each antibody sticks only to its own <b>specific</b> antigen, forming an antigen-antibody complex.⟦0⟧
+597eedf2	By what other name is an antibody known?
+9200f726	immun/o + -globulin (protein).
+907529c3	The five immunoglobulin classes
+4d3cc290	Class
+22cbc6cb	Key point
+641e7f0c	most abundant; the only class that crosses the placenta
+21d1f8f0	the first antibody in a new infection
+fc6d0f00	in secretions: tears, saliva, breast milk, mucus
+424f3e2b	allergy and anaphylaxis; parasites
+5e619313	on the surface of B cells
+ff20697a	IgG single-unit, IgA two-unit (in secretions), IgM five-unit
+aaf45d74	Remember the classes with “GAMED”: ⟦0⟧. IgG “Goes” across the placenta, IgM “Mega” is the largest and the first response, IgE “Eek!” is for allergy.
+9da211d4	Class and feature
+32b503e4	secretions and breast milk
+a6f19601	In Olivia’s case of severe latex allergy, which antibody plays the main role?
+f25b8ed8	Type 1 (immediate) hypersensitivity is mediated by IgE.
+c82a4d28	Related words
+4eaffcbb	• <b>gamma globulin</b>: the antibody fraction of plasma; given as a drug for passive immunity<br>• <b>monoclonal antibody</b>: a pure laboratory antibody for diagnosis and treatment (for example of cancer)<br>• <b>seroconversion</b>: antibodies appearing in the serum after infection or a vaccine<br>• <b>titer</b>: the amount of antibody in the serum
+b1ecb028	IgM is the first antibody to appear in a new infection.
+f807e234	True; a high IgM signals a recent infection, and IgG later takes its place.
+c086836c	The appearance of antibodies in the serum after infection is called ___.
+f37b3c76	ser/o = serum + conversion = change.
+6e3a115b	Build a word meaning “immune protein (antibody)”
+7a7739a4	Spell the term for the Y-shaped protein made against an antigen
+58ae340d	anti- + body; plural: antibodies.
+15acd3ec	An overreaction
+c4261c45	<b>Allergy</b> (⟦0⟧ = other, foreign) or <b>hypersensitivity</b> is an <b>exaggerated</b> immune reaction to a substance harmless to most people. That substance is called an <b>allergen</b>: pollen, dust, animal dander, bee stings, food, latex.<br>Its specialist: the <b>allergist</b>.⟦1⟧
+b599b53e	Common allergens: dust mites, ragweed, pollen and nuts
+1286c358	Everything you see in this picture (mites, pollen, weeds, nuts) is an example of what?
+ccdfb1ff	allergen = a substance that causes allergy.
+10d78cec	The faces of allergy
+aeb8f3d3	hives: itchy raised wheals
+12828d4d	deeper swelling under the skin, like a large hive
+45390182	runny, inflamed nose (hay fever)
+ab06ae9e	airway narrowing from an inhaled allergen
+c291dc08	skin inflammation after direct contact
+e7c0a6b1	hay fever
+16308348	contact skin inflammation
+2b652484	deep swelling under the skin
+a980a5ec	Immediate or delayed?
+0dc8dfee	• <b>immediate</b> hypersensitivity (type 1): with <b>IgE</b> and histamine, within minutes; from hives to anaphylaxis<br>• <b>delayed hypersensitivity reaction</b>: mediated by <b>T cells</b>; at least 12 hours later; such as contact dermatitis and the TB skin test
+ae50c56e	A delayed hypersensitivity reaction is mediated by IgE and happens within minutes.
+17294750	The delayed reaction is mediated by T cells and takes at least 12 hours.
+9ccb22c0	Treating allergy
+59ec9409	• avoiding the allergen<br>• <b>antihistamine</b>: blocks the effect of histamine<br>• <b>corticosteroids</b>: strong anti-inflammatories<br>• <b>desensitization</b> or <b>allergy shots</b> (immunotherapy): injecting tiny, increasing doses of the allergen so the body gets used to it
+4ff4d8e8	What are regular injections of tiny amounts of allergen to reduce sensitivity called?
+a8223af2	Desensitisation (allergy shots).
+6ce6fb59	A drug that blocks the effect of histamine is called an ___.
+c6d35bbf	Spell the medical term for hives
+33f2c12f	urticaria, or hives.
+b055153a	Anaphylaxis
+b2609872	The most dangerous allergy
+a70ced15	<b>Anaphylaxis</b> (or anaphylactic shock): a <b>severe, systemic, life-threatening</b> allergic reaction.<br>⟦0⟧ → ⟦1⟧ = protection; “protection turned upside down”.<br>Symptoms: <b>a sharp fall in blood pressure</b>, <b>narrowing and blockage of the airway</b>, oedema, hives, tachycardia and loss of consciousness.⟦2⟧⟦3⟧
+e62ba620	The allergen binds IgE on a mast cell → the mast cell releases histamine → symptoms
+202616c4	In anaphylaxis the first drug is <b>intramuscular epinephrine</b> (into the thigh), not an antihistamine. High-risk patients carry an auto-injector pen (EpiPen).
+10d29116	Which sign separates anaphylaxis from simple hives?
+e7b5aded	falling blood pressure and breathlessness
+62830a89	a red raised patch on the skin
+fff7069a	sneezing
+0ac304a3	Involvement of circulation and breathing means a systemic reaction and an emergency.
+10e88644	Emergency treatment
+efb7e8b9	Priorities:<br>1. immediate injection of <b>epinephrine</b> (adrenaline)<br>2. keeping the <b>airway</b> open and giving oxygen<br>3. <b>antihistamines</b> and <b>corticosteroids</b><br><br>A high-risk patient should always carry an epinephrine auto-injector and wear a <b>medical alert bracelet</b>.
+fe288411	Order the treatment of anaphylaxis by priority
+00ba93e3	immediate epinephrine injection
+5157dfea	keep the airway open and give oxygen
+f37e1c1c	corticosteroid and monitoring
+ba3889d7	Epinephrine is the first-line life-saving drug.
+c2c58d3d	Epinephrine is the first-line drug in anaphylaxis.
+136e5233	True; it narrows the vessels and opens the airway.
+34dbe443	Which advice did Olivia (type 1 latex allergy) receive?
+9ecf82eb	avoid latex, wear a medical alert bracelet and carry an epinephrine injector
+ea07c2ff	take antibiotics only
+6b7dcf74	Plus a bronchodilator inhaler at the first sign of bronchospasm.
+843e5748	Drug and job
+381c29df	immediate rescue in anaphylaxis
+1d46a073	blocking histamine
+fd69c490	strong anti-inflammatory
+7aa3f1f8	widening the airway
+0f5b5091	Another name for anaphylaxis is ___ shock.
+f6a6fee4	anaphylactic
+3efd40fd	haemorrhagic
+8a880940	septic
+e976a377	Spell the term for a severe, life-threatening allergic reaction
+20f9662f	When the army attacks its own side
+46e9c30d	<b>Autoimmune disease</b> (⟦0⟧ = self): the immune system targets the body’s <b>own</b> tissues as if they were pathogens.<br>Examples: lupus, rheumatoid arthritis, systemic sclerosis, Sjögren syndrome, and sometimes autoimmune haemolytic anaemia and ITP.⟦1⟧

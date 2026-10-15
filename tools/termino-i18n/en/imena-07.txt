@@ -1,0 +1,173 @@
+c3b21795	A haematoma is blood collected in tissue and can also form after a blood draw.
+5db240db	True; if the puncture site is not pressed well.
+d4aab401	Splenorrhagia means ___ from the spleen.
+b561e443	-rrhagia = bursting forth; -rrhaphy = suture.
+fcc09feb	Spell the term for bleeding from a vessel
+9a85dffc	hem/o + -rrhage; it has two r’s.
+36fc43eb	Inherited clotting disorders
+a2ce0e20	<b>Hemophilia</b>: an <b>inherited, sex-linked</b> disease in which a <b>clotting factor</b> (usually <b>VIII</b> or <b>IX</b>) is lacking → long clotting time and bleeding, spontaneous or after injury, into the skin, <b>joints</b> and mouth.<br>It is seen almost only in <b>males</b>.⟦0⟧ → literally “love of blood”, i.e. a tendency to bleed.⟦1⟧
+b33060b8	A haemophilia patient with a swollen, warm knee after a minor knock: bleeding into the joint (hemarthrosis); intramuscular injections are also dangerous for them.
+80595ac1	In which group is haemophilia mostly seen?
+24dea5eb	males
+e258dadc	equally in both
+c4976799	older people only
+b4aae1c0	Its gene is on the X chromosome; boys, with one X, become ill.
+dc03d5e7	Von Willebrand
+a37c1bc3	<b>Von Willebrand disease</b>: the commonest inherited bleeding disorder; a lack of <b>vWF</b>, which sticks platelets to the vessel wall and carries factor VIII.<br>Symptoms: easy bruising, <b>nosebleeds</b> and bleeding gums. Seen in both sexes.
+177b4f68	Disease and feature
+35a1fd39	lack of factor VIII
+d820628f	lack of factor IX
+d2e58e2a	lack of vWF
+04200b13	In haemophilia the platelet count is usually very low.
+a92de8fe	In haemophilia platelets are normal; the problem is a missing clotting factor (long PTT).
+f8e92f59	Drugs that stop bleeding
+ac7cc307	• <b>coagulants</b>: drugs that help clotting<br>• <b>hemostatics</b>: stop bleeding, such as <b>vitamin K</b><br>• <b>antihemorrhagic</b>: against bleeding<br>In haemophilia, the missing factor (VIII or IX) is injected.
+fd7a12f0	Which vitamin is needed for the liver to make several clotting factors and is given as a haemostatic?
+e5eff402	vitamin K
+f6a05baa	vitamin B12
+6ef73119	Vitamin K is needed to make prothrombin and several other factors.
+59076072	The word hemophilia is made from hem/o and ___.
+4a4a1294	-philia means tendency; a tendency to bleed.
+f9cfb0b8	Build a word meaning “fear of blood”
+71fab7e3	hem/o + -phobia = hemophobia; not to be confused with hemophilia.
+5065127a	Blood draws and clotting tests
+d35f196e	Venepuncture
+31c3dcbc	• <b>phlebotomy</b> (⟦0⟧ = vein + ⟦1⟧ = cutting): drawing blood from a vein for tests; also removing blood as treatment (for example in polycythemia vera)<br>• <b>venipuncture</b> (⟦2⟧ = vein): puncturing a vein to draw blood<br>• <b>venous</b> = relating to a vein⟦3⟧
+93fa7593	The tourniquet is tied and blood is drawn from a vein at the elbow with a needle and vacuum tube.
+b3b0f0b1	What is the procedure in this picture called?
+e66f267a	ven/o (vein) + puncture (piercing) = drawing blood from a vein.
+fbcb4775	cutting into a vein to draw blood
+689fb621	puncturing a vein
+cba98dbd	relating to a vein
+698c0956	Clotting tests
+bb89b596	What it measures
+3eb6b45f	time to form a clot after adding thromboplastin; monitoring warfarin with the INR
+daae692e	the other clotting pathway; monitoring heparin
+0e91704a	platelet function
+9c8e3dfe	number of platelets
+a3119433	Which test is mostly used to monitor heparin treatment?
+7822841a	Heparin → aPTT; warfarin → PT/INR.
+e60b743a	A long PT means the blood clots more slowly than normal.
+263d50c7	True; in clotting factor deficiency, liver disease or anticoagulant use.
+6b1b2032	The abbreviation PT means ___ time.
+4489ad46	prothrombin
+71c417c9	What treatment does a patient with polycythemia vera receive to reduce red cell volume?
+4c754e02	therapeutic phlebotomy
+b40d2a05	splenectomy
+74cf6c44	erythropoietin injection
+84432d55	Removing some blood (phlebotomy) thins the blood.
+a13a421b	Order the steps of a correct blood draw
+993c8b84	identify the patient and label the tube
+4fa067f7	apply the tourniquet and find a vein
+8da8f7db	disinfect and perform venipuncture
+2b11e479	release the tourniquet and press on the site
+2d80e44f	Enough pressure after the blood draw prevents a haematoma.
+85d2164d	Spell the vein-incision term for drawing blood
+c65c60b8	The lymphatic system
+da574ead	Lymph, vessels and ducts, nodes, spleen, thymus, tonsils, lymphoedema and lymphoma
+6af54e5a	Lymph and vessels
+50070d5d	Lymphatic organs
+74364d2d	Diseases and procedures
+1170d159	What is lymph?
+eb88fd97	From interstitial fluid to lymph
+ad22446b	Some plasma leaks out of the blood capillaries and stays between the cells: <b>interstitial fluid</b> (⟦0⟧ = between, ⟦1⟧ = placed).<br>When this fluid enters the <b>lymph capillaries</b>, it is called <b>lymph</b>: a clear fluid with white cells (especially lymphocytes).⟦2⟧
+2e0c20ef	What is the fluid between tissue cells called?
+459cb11e	When this same fluid enters a lymph capillary, it is called lymph.
+8b09fe54	Four key jobs of the lymphatic system
+55ad5e46	1. <b>returning fluid and protein</b> from the tissues to the blood → preventing oedema<br>2. <b>absorbing fat</b> from the gut: intestinal lymph vessels called <b>lacteals</b> carry away absorbed fats<br>3. <b>filtering</b> germs and cancer cells in the nodes (with macrophages)<br>4. <b>immunity</b>: making and circulating lymphocytes⟦0⟧
+0602c233	Lymph is collected from the capillary bed, passes through the nodes and returns to a vein through a lymphatic duct.
+1448b70b	Each part and its job
+8b3539c8	absorbing fat from the gut
+59a3d9d6	filtering lymph
+5bbd6d53	collecting interstitial fluid
+816c4f10	immune defence
+1d9535c8	Like the circulatory system, the lymphatic system has a central pump.
+4fa343de	Lymph has no pump; it moves with muscle contractions and breathing, and valves stop it flowing back.
+f198d71b	In this picture, what are the green vessels?
+41132672	Green = lymph capillaries; red = arterioles, blue = venules.
+fbbbe56b	One-way flow
+f0ba451c	Lymph moves in <b>one direction</b> only, towards the heart. <b>Valves</b> in the lymph vessels stop it flowing back.<br>Route: tissue → lymph capillary → lymph vessel → nodes → ducts → <b>subclavian vein</b>.
+b66e6f9f	Order the path of lymph
+8649bd55	interstitial fluid in the tissue
+06fed1dc	lymph vessels and nodes
+131aca53	lymphatic duct
+1ef8a033	subclavian vein
+1ad1c002	Lymph finally returns to the blood.
+f9eb1a37	The intestinal lymph vessels that absorb fat are called ___.
+2111ee79	lacteal comes from lact/o (milk), because lymph carrying fat looks milky.
+541c450c	Spell the term for the clear fluid in lymph vessels
+555baf6a	lymph/o = lymph.
+16539bf7	Vessels and ducts
+612a3c04	The vessel network
+1713daa7	Parts of the lymphatic vessel system:<br>• <b>lymph capillaries</b>: lymph capillaries in the tissues<br>• <b>lymphatic vessels</b>: lymph vessels with valves<br>• <b>lymphatic ducts</b>: the two large final ducts<br>⟦0⟧ = lymph vessel (⟦1⟧ = vessel) → <b>lymphangial</b> = relating to a lymph vessel.⟦2⟧⟦3⟧⟦4⟧
+bdbb0729	The lymphatic system is like a house’s drainage: one-way pipes that collect excess water, with filters (nodes) along the way. It has no pump; muscle contractions and valves move the lymph along.
+ff1e1906	A, B
+999b0ebf	A: lymph vessel with a valve between tissue cells • B: microscope image of a lymph vessel valve
+92ef43d9	The two main ducts
+809dd4c2	Duct
+16eabb27	Drains lymph from
+3eedc034	Empties into
+7887bad6	right side of the head, neck, chest and right arm
+623b33aa	right subclavian vein
+6b5a8f41	thoracic duct (larger)
+a7c79206	the rest of the body
+e3d46108	left subclavian vein
+9d1cff7c	blue area: right duct
+ec97ffa5	ducts entering the subclavian veins
+ec6b6b41	Into which duct does lymph from the left leg drain?
+5d430493	neither; it goes to the kidney
+74b557cf	straight into the heart
+b98f8fe0	The thoracic duct drains lymph from most of the body, including both legs.
+fe0c96cf	The right lymphatic duct drains lymph from the right arm.
+29e78749	True; the right side of the head, neck, chest and the right arm.
+41d4aa90	Into which duct does the blue area of the body in this picture drain?
+bfd8ff65	The upper right quarter of the body (head, neck, chest and right arm) drains into the right lymphatic duct.
+ce41873d	Inflammation and tumours of lymph vessels
+10bb3e52	• <b>lymphangitis</b>: inflammation of lymph vessels; often a red streak on the skin running from an infection<br>• <b>lymphangioma</b>: a (usually benign) tumour of a lymph vessel<br>• <b>lymphangiectomy</b>: removal of a lymph vessel<br>• <b>lymphangiotomy</b>: incision of a lymph vessel
+524fb870	Build a word meaning “tumour of a lymph vessel”
+2996446a	A painful red streak on the forearm running from an infected wound towards the armpit is a sign of what?
+acefbd7f	Inflammation of a lymph vessel carrying the infection towards the nodes.
+ecca52f7	The word lymphangiectomy means ___ of a lymph vessel.
+ca4f9291	-ectomy = removal; -tomy = cutting.
+bc4838fe	Lymph nodes
+0c2b035c	Bean-shaped filters
+90cecde0	A <b>lymph node</b> is a small <b>bean-shaped</b> mass of lymphatic tissue that <b>filters</b> lymph. Lymph enters through <b>afferent</b> vessels and leaves through an <b>efferent</b> vessel. Inside, lymphocytes and macrophages trap germs.⟦0⟧
+4e37febd	Node structure from the textbook
+e8f95c5a	cortex with nodules and germinal centres (B cells), medulla (macrophages and T cells), hilum and the afferent and efferent vessels
+41daaf07	Where are nodes clustered?
+9b8f668d	• <b>cervical</b> (⟦0⟧ = neck)<br>• <b>axillary</b> (⟦1⟧ = armpit)<br>• <b>inguinal</b> (⟦2⟧ = groin)<br>• <b>mediastinal</b> (middle of the chest) and submandibular (under the jaw)<br>⟦3⟧
+5a7deb6e	Regional lymph nodes: cervical, mediastinal, axillary and inguinal; and where the thoracic duct and right lymphatic duct enter the subclavian veins
+29a81e6e	Region and root
+e057326e	What are the lymph nodes of the armpit called?
+efa5bc24	axill/o = armpit.
+992d2cbb	A diseased node
+f862a1ef	⟦0⟧ = lymph node (⟦1⟧ = gland):<br>• <b>lymphadenitis</b>: inflammation and enlargement of nodes, usually in infection<br>• <b>lymphadenopathy</b>: any node disease; chronically swollen or numerous nodes<br>• <b>adenopathy</b>: disease of a gland<br>• <b>lymphadenectomy</b>: removal of a node<br>• <b>lymphadenotomy</b>: incision of a node
+8b8e3e35	Build a word meaning “disease of a lymph node”
+7f288afb	Lymphadenitis means inflammation of the lymph vessels.
+3f7fe216	lymphaden/o = node; inflammation of a lymph vessel is lymphangitis.
+980feb8f	In the case of John Latella (HIV positive), what did the enlarged lymph node turn out to be after biopsy?
+7ad8b3ee	infectious, not malignant
+dc838cc3	cancer metastasis
+de97fc6a	An outpatient biopsy and blood tests showed the node was infected; it was treated with antibiotics.
+1c7b8d58	The vessel that carries lymph out of a node is the ___ vessel.
+d17cbf93	af- = towards (in), ef- = away (out).
+e3c4c6f2	Spell the term for disease of the lymph nodes
+375d3780	The largest lymphatic organ
+f120817a	The <b>spleen</b> lies in the <b>upper left abdomen</b>, under the ribs. Its jobs:<br>• <b>filtering blood</b> and removing <b>old</b> red cells (and recycling iron)<br>• <b>storing blood</b><br>• destroying bacteria and immune defence<br>⟦0⟧ = spleen → <b>splenic</b> = relating to the spleen⟦1⟧⟦2⟧
+b91de165	Shape of the spleen
+cb4e656a	Position of the spleen and thymus
+be9444ee	The spleen often ruptures in accidents (ruptured spleen) and causes severe internal bleeding. After splenectomy the patient is vulnerable to encapsulated bacteria and receives the pneumococcal vaccine.
+f801c0b6	Which job belongs to the spleen?
+f5a46ed3	removing old red cells
+3565db16	making insulin
+78ad7093	making erythropoietin
+7b446599	The spleen removes worn-out cells and recycles their iron.
+62e16191	Diseases of the spleen
+32c6135f	overactive spleen
+d958e62e	any spleen disease
+f99f0db8	bleeding from the spleen
+78760073	suturing the spleen
+0151fee5	incision of the spleen
+ab7baaac	Three surgical suffixes
+445a1d39	• ⟦0⟧ = removal → <b>splenectomy</b> (for example when the spleen ruptures)<br>• ⟦1⟧ = cutting → <b>splenotomy</b><br>• ⟦2⟧ = suture → <b>splenorrhaphy</b><br>Careful: ⟦3⟧ (bleeding) differs from ⟦4⟧ (suture)!
+7d29b45b	After an accident the spleen has ruptured and the surgeon “sutures” it. Name of the operation?

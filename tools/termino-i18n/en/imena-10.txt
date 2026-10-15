@@ -1,0 +1,173 @@
+b4e8c3eb	Butterfly rash over the cheeks and nose
+0685727d	Important autoimmune diseases
+9c225357	inflammation of connective tissue in many organs; butterfly rash on the face
+c06fe335	chronic inflammation of many joints
+70d404ed	hardening of the skin and organs (scleroderma)
+168db7da	dry eyes and mouth (exocrine glands)
+c328e27a	fibrous lesions, often in the lungs and nodes
+765b5931	This butterfly rash on the cheeks, with joint pain and sensitivity to light, points to which disease?
+0d10339c	One of the classic signs of lupus (SLE).
+67e57e22	butterfly rash
+41d65fd7	joint inflammation
+70067eea	dry eyes and mouth
+b6a143b2	• <b>ANA test</b> (antinuclear antibody): an antibody against the cell nucleus; its presence points to autoimmune disease<br>• treatment: <b>corticosteroids</b> and <b>immunosuppressants</b> (suppressing the immune response)<br>• in lupus: anti-inflammatories, antimalarial drugs, avoiding sunlight and stopping smoking
+0ba2c470	A positive ANA test points to an autoimmune disease such as lupus.
+80360bef	True; ANA is an antibody against the nuclei of the body’s own cells.
+92cc628c	Graft versus host
+2bf63954	<b>Graft-versus-host disease</b> (GVHD): after a bone marrow transplant, the <b>donor’s</b> lymphocytes see the <b>recipient’s</b> tissues as foreign and attack them. <b>Tissue typing</b> before transplant lowers the risk.
+30aae6da	In GVHD, who attacks whom?
+dde238d0	the graft’s lymphocytes attack the recipient’s tissue
+338e05c4	the recipient’s body attacks the graft
+bc3857d5	maternal antibodies attack the fetus
+49800154	HIV attacks CD4 cells
+29c0be56	The opposite of ordinary graft rejection (host-versus-graft).
+a2d5d6f5	Build a word meaning “immunity against oneself”
+e488524d	Spell the term for the immune system attacking the body’s own tissues
+cdc1b40e	HIV and immunodeficiency
+08812e18	Immunodeficiency
+ad94720e	<b>Immunodeficiency</b>: a defect in the immune system that leaves the body prone to infection.<br>• congenital: <b>SCIDS</b> (severe combined immunodeficiency syndrome); children with a non-functioning immune system<br>• acquired: <b>AIDS</b>, caused by the <b>HIV</b> virus<br><b>Immunosuppression</b> means suppressing the immune response (for example with drugs).
+6aa0fcf9	What does HIV do?
+b4e08e18	<b>HIV</b> is a <b>retrovirus</b> (an RNA virus) spread sexually, through infected blood and from mother to baby. The virus destroys <b>helper T lymphocytes (CD4)</b>, so cellular immunity collapses.<br>A <b>CD4 count below 200</b> per microlitre = the definition of <b>AIDS</b>.⟦0⟧
+b677ef1c	the HIV virus
+54059373	target: the CD4 cell
+0a707441	Which cell does HIV specifically target?
+0366f90c	Loss of CD4 cells cripples the whole immune response.
+a89f481c	<b>Opportunistic infections</b> cause disease only when immunity is weak:<br>• <b>PCP</b> (Pneumocystis pneumonia): the fungus Pneumocystis jiroveci<br>• <b>candidiasis</b>: Candida fungus in the mouth and oesophagus<br>• <b>Kaposi sarcoma</b> (KS): a connective tissue cancer<br>• <b>cytomegalovirus</b> (CMV) and <b>MAI</b> (a mycobacterium)<br>An early stage with mild symptoms: <b>ARC</b> (AIDS-related complex)⟦0⟧
+3c3101e1	Purple-red skin lesions in Kaposi sarcoma
+a718d7d9	The purple-red skin lesions in this patient with AIDS are a sign of what?
+06ad09e8	Kaposi sarcoma is a connective tissue cancer and an AIDS-defining illness.
+860bfa46	Infection and cause
+1f97b6bc	Pneumocystis fungus
+15e82888	Candida fungus
+2913b2ba	connective tissue cancer
+175e38e9	a virus of the herpes family
+e5edeee3	• screening: <b>ELISA</b> or <b>EIA</b> and the <b>HIV antigen/antibody immunoassay</b><br>• confirmation: <b>Western blot</b><br>• monitoring: <b>CD4 count</b> and viral load<br>• treatment: <b>HAART</b> (highly active antiretroviral therapy), including <b>protease inhibitors</b>; proper treatment prevents progression to AIDS
+8795e8c2	Order the diagnostic path for HIV
+300e6e22	screening with ELISA
+c88460fd	confirmation with Western blot
+fbfca88e	CD4 count and viral load
+4f245928	starting HAART
+54b957c4	A sensitive screen, then a specific confirmation.
+14e06f00	A 40-year-old man with AIDS has fever, night sweats, cough and a CD4 count of 190. Which lung infection must be ruled out?
+6529b201	PCP is the commonest opportunistic lung infection in AIDS; a chest X-ray and sputum culture were ordered.
+e3e16a7d	Western blot is used to confirm an HIV diagnosis.
+51c256d4	True; ELISA screens and Western blot confirms.
+fe14fa55	Spell the term for an infection that strikes only when immunity is weak
+ce354758	opportunistic infection; plural: opportunistic infections.
+18407b36	Tests, treatment and ICU
+60ecee58	CBC and specialised tests, drugs, transplant, SIRS and sepsis, iron and immunonutrition
+db256972	Treatments
+412ec2d4	Critical care and immunonutrition
+8c5539f5	The CBC and indices
+402d29f5	The <b>CBC</b> (complete blood count) is the most common blood test: screening for anaemia, infection and general health.<br>Parts: <b>RBC</b>, <b>WBC</b>, <b>Hgb</b>, <b>Hct</b>, <b>PLT</b>, the red cell indices and often a <b>diff</b> (differential count).⟦0⟧⟦1⟧
+eb569ddc	In charts, the CBC is often summarised as a “fishbone” diagram: WBC on the left, Hgb above and Hct below in the middle, PLT on the right.
+9d12cbae	Which is not part of the CBC?
+79a0ab42	PT (prothrombin time)
+d12196f6	PT is a clotting test and is ordered separately.
+2bb332cd	red cell count
+9bd54178	white cell count
+f52996cc	platelet count
+acbe0e75	Red cell indices
+0458c183	Index
+5845a468	mean corpuscular volume: the average size
+06bdd167	small (microcytic) or large (macrocytic)
+720afd65	average haemoglobin per cell
+99c4a0fe	degree of colour
+cc798177	average haemoglobin concentration
+0b1ff024	hypochromic or normochromic
+74411703	⟦0⟧ comes from corpuscle (small body = a blood cell).
+27b55b4d	A low MCV (microcytic) with hypochromia points mostly to which anaemia?
+119acc7d	pernicious anaemia
+c2d424f5	aplastic anaemia
+0da39770	acute haemorrhagic anaemia
+5e108ca8	Iron deficiency → small, pale cells; pernicious → large (macrocytic) cells.
+87366e38	The differential count
+1553dd44	<b>White blood cell differential</b> (diff): the percentage of each type of white cell.<br>• high neutrophils → bacterial infection<br>• high lymphocytes (lymphocytosis) → viral infection such as mononucleosis<br>• high eosinophils → allergy and parasites<br>A normal result is written <b>WNL</b> (within normal limits).
+c3bc6d35	Eosinophilia on a differential count points mostly to allergy or parasitic infection.
+24ab4a75	True.
+acae7c5c	The abbreviation WNL means within normal ___.
+75fb39bd	Write the abbreviation for the full blood count test
+4908eb8a	Specialised blood tests
+8dfa9fe1	From vein to laboratory
+27721620	Most blood tests start with a <b>venipuncture</b>; the sample is centrifuged to separate plasma or serum from the cells.⟦0⟧
+c97434fb	centrifuging and separation
+c1391206	ESR and reticulocytes
+e01ee5b7	• <b>ESR</b> (sed rate): how fast red cells settle in one hour; raised in <b>inflammation</b> and tissue damage (non-specific)<br>• <b>reticulocyte count</b>: the count of new red cells; a <b>rise</b> means the marrow is responding to bleeding or haemolysis, a <b>fall</b> means failing production
+d3990735	After bleeding, a patient has a high reticulocyte count. This means…
+29f7d9ea	the bone marrow is compensating by making red cells
+f2d2d689	the bone marrow has failed
+b7790eaa	the patient has leukaemia
+1587a640	the platelets have fallen
+ef4d4b90	Reticulocytosis = a proper bone marrow response.
+153abdb0	Special tests
+b4f9dd23	antibodies on red cells (HDN, autoimmune haemolysis)
+04f467e8	vitamin B12 absorption (pernicious anaemia)
+c562ee3c	separating proteins or haemoglobin with an electric current
+44440a32	cell shape (for example sickle cells)
+c74b2d8a	the usual blood smear stain
+8cefb3ab	Test and use
+f3f1c018	vitamin B12 absorption
+79058ef6	antibodies on RBCs
+5e069e5e	separating proteins
+c328a634	inflammation marker
+50106c74	Culture and bone marrow
+4ed21b8c	• <b>blood culture and sensitivity</b> (C&S): culturing blood to grow bacteria and find an effective antibiotic<br>• <b>bone marrow aspiration</b>: drawing out a little marrow with a needle<br>• <b>bone marrow biopsy</b>: removing a piece of marrow tissue<br>Both are used to diagnose <b>leukaemia</b>, <b>myeloma</b> and <b>aplastic anaemia</b>.⟦0⟧
+a3b2691e	What is the procedure shown in this picture?
+29830b1b	Sampling the bone marrow, usually from the hip crest.
+b73713de	In Ada’s case of tiredness, joint pain and syncope, how was the diagnosis of myelofibrosis confirmed?
+9697285e	Bone marrow aspiration showed positive results for myelofibrosis.
+b74be8df	Haemoglobin electrophoresis is used to diagnose sickle cell disease and thalassaemia.
+305e5c45	True; abnormal haemoglobins are separated by an electric current.
+52845ac5	Build a word meaning “carrying by electricity”
+a3e36446	The ___ test measures vitamin B12 absorption.
+b8200ec9	To diagnose pernicious anaemia.
+5b8b7845	Write the abbreviation for the red cell sedimentation rate test
+f706da94	Immune tests
+e2dcde3d	Immunoassays
+7ef0afa0	• <b>ELISA</b> (enzyme-linked immunosorbent assay) or <b>EIA</b>: a very sensitive test for antibodies (for example HIV); used for <b>screening</b><br>• <b>Western blot</b>: <b>confirming</b> HIV positivity<br>• <b>HIV antigen/antibody immunoassay</b>: measures both HIV antigen and antibody<br>• <b>CD4 count</b>: monitoring immunity in HIV
+61d2f592	The first, sensitive test to screen for HIV antibodies?
+7ce40dee	ELISA screens; Western blot confirms.
+47d7675e	Autoimmunity and transplant
+9dd09fc8	• <b>ANA</b> (antinuclear antibody test): antibody against the nucleus; points to autoimmune disease<br>• <b>tissue typing</b>: determining tissue compatibility (histocompatibility) before a transplant<br>• <b>titer</b>: measuring the amount of antibody after a vaccine or infection
+0f122b53	HIV screening
+828c2158	HIV confirmation
+e761ff4a	transplant compatibility
+9e2603b4	Tissue typing is done before a bone marrow transplant to find a compatible donor.
+838b1bf8	True; as with the transplant from a matched sibling in Ada’s case.
+47a976ab	A patient with a facial rash and joint pain: which test helps diagnose autoimmune disease?
+527dc255	ANA is usually positive in lupus.
+58c5d5d3	Order the immune assessment of a person with suspected HIV
+717a77db	history and examination (lymphadenopathy, weight loss)
+bb5a1bbf	ELISA or immunoassay
+de289723	Screening, confirmation, then measuring severity.
+1160b03e	The abbreviation EIA means ___ immunoassay.
+de0dcb8f	enzyme
+470c660d	electrical
+d2bebeb6	Spell the name of the confirmatory HIV test
+6621bd1f	Blood drugs
+e9dabf2a	Clotting drugs
+de3a4cfe	heparin, warfarin
+713579ec	plasminogen activator
+2393a63f	helping clotting, stopping bleeding
+e33bf3d4	preventing bleeding
+6b6a8d2d	clotting factors
+70c5f861	raising haemoglobin
+fc149b61	Blood-building drugs
+a48d31ba	• <b>hematinic</b>: raises the red cell count or haemoglobin, such as <b>iron</b>, <b>B12</b> and <b>folate</b><br>• injected <b>erythropoietin</b> (EPO): stimulates red cell production in kidney failure<br>In Ada’s case: iron supplements and weekly B12 injections.
+38768992	A patient with kidney failure is anaemic. Which is the most logical hormone replacement?
+2aec31c1	The patient’s kidney does not make enough EPO.
+c7f870ad	Thrombolytics prevent new clots forming but do not dissolve an existing clot.
+606c5bce	That is the definition of anticoagulants; thrombolytics dissolve an existing clot.
+852f10e2	Which drug is a hematinic?
+f8cb4fad	B12, iron and folate build blood.
+9b41a102	___ drugs dissolve clots that have formed.
+fd44689b	thrombolytic
+cde08033	haemostatic
+16cf5255	Build a word meaning “clot-dissolving”
+7de64361	Spell the term for the natural injectable anticoagulant
+d20ffaba	heparin; a natural and pharmaceutical anticoagulant.
+34a5c773	Immune and anti-infective drugs
+25976314	Damping down immunity
+92b28424	• <b>corticosteroids</b>: adrenal cortex hormones (natural or synthetic) with <b>strong anti-inflammatory</b> and immunosuppressive effects<br>• <b>immunosuppressants</b>: suppress the immune response to prevent <b>transplant rejection</b> and treat autoimmunity<br>• <b>antihistamine</b>: blocks histamine in allergy
+9a263242	Which drug does a kidney transplant patient take to prevent rejection?
+6aac986d	Suppressing immunity stops the attack on the transplanted organ.

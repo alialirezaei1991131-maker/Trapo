@@ -1,0 +1,64 @@
+26bcc3cd	-tomy means cutting and -ectomy removal; ec- is Greek for “out”.
+23fd977f	Although hematoma ends in -oma, it is not a tumour; it is blood collected outside a vessel.
+6d9365f5	The plural of thrombus is thrombi and of petechia petechiae.
+247c1e7c	In pneumonia and pseudo- the p is silent; ph is always read as “f”.
+bc039096	lymphaden/o is a lymph node and lymphangi/o a lymph vessel; aden = gland, angi = tube.
+c9a4e00c	Start a medical word’s meaning from the suffix: erythro/cyto/penia means “a shortage of red cells”.
+52d220c1	Blood is about 8% of body weight, about 5 litres in an adult.
+f36e96d0	-penia means a shortage and -cytosis an increase in cells; leukopenia versus leukocytosis.
+f63c5497	A mature red cell has no nucleus and lives about 120 days; a platelet about 10 days.
+0119efcd	Erythropoietin (EPO) is made in the kidney and drives the bone marrow to make red cells.
+dc0cbc77	Neutrophils are the most numerous white cells (54 to 70%); basophils the fewest (under 1%).
+7286a98a	eosin/o means rosy: eosinophil granules turn red with the acidic dye eosin.
+34145a4e	anis/o means unequal (size) and poikil/o varied (shape); anisocytosis versus poikilocytosis.
+86038a2a	Serum = plasma minus fibrinogen and clotting factors: the fluid left after clotting.
+f065c658	Thrombin turns fibrinogen into fibrin, and plasmin dissolves the clot.
+98ac699a	Group O negative is the “universal donor” of red cells, because it has no A, B or Rh antigen.
+1c15a76e	A thrombus is a fixed clot in a vessel; an embolus is a clot or mass that moves.
+3de5f8a5	Petechiae are dots, purpura larger and ecchymosis widespread bruising; all are bleeding under the skin.
+c0fb7fdc	Lymph flows one way only: from the tissues to the nodes and finally into the subclavian veins.
+bc4e096b	lymphaden/o = lymph node and lymphangi/o = lymph vessel; a letter apart, a world apart in meaning.
+768ab8ef	The thymus is where T lymphocytes mature; the T comes from Thymus.
+9a06d87b	Reed-Sternberg cells are the hallmark of Hodgkin lymphoma; their absence means non-Hodgkin lymphoma.
+86b3ca78	B comes from Bone marrow: the B lymphocyte matures in the bone marrow and becomes an antibody-making plasma cell.
+a1f90135	IgE drives allergy and anaphylaxis; IgG is the only antibody that crosses the placenta.
+52f7bfbf	Active immunity is built by illness or a vaccine; passive immunity is borrowed antibody (from the mother or gamma globulin).
+7d340b81	In HIV, a CD4 count below 200 per microlitre defines AIDS.
+86dc471c	PT and INR are used to monitor warfarin and aPTT to monitor heparin.
+4805858f	Procalcitonin rises in bacterial infection and helps separate it from non-infectious inflammation.
+1af5aa9d	ESR and CRP are both non-specific markers of inflammation; CRP rises and falls faster.
+a8387e1c	Glutamine fuels lymphocytes and gut cells and becomes “conditionally essential” in critical illness.
+150609b6	In the dictionary you can hear any word, bookmark it and break it into its roots with the analyser.
+328defe4	Review one batch of Leitner cards a day; cards in boxes 4 and 5 mean the word has settled into long-term memory.
+3d0b8065	Every level you finish adds a new character to your collection.
+06b26367	Reference values
+5851fe74	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Imena is a learning tool; reference values vary with the laboratory, age and sex.</p>⏎    </section>
+6dd034ed	Search: anemia, thromb, leukemia…
+c24c6e8c	Search: cyt, blood, -emia…
+6d544ac0	Search: PT, hemoglobin, leukemia…
+7d64192a	Adult blood volume
+49ce0224	about 8% of body weight
+ed53d610	Plasma / formed elements
+367146c8	plasma 90–92% water; pH ≈ 7.4
+bb8a27d6	RBC (erythrocyte)
+60bae141	lifespan ≈ 120 days
+a71daef8	Hgb (haemoglobin)
+52fe95f0	average ≈ 15; lower in women than men
+cf066480	Hct (haematocrit)
+4cc5f3ea	volume percentage of packed red cells
+3298292d	WBC (leukocyte)
+e17457fe	leukocytosis: more; leukopenia: fewer
+ab0e2bf8	first defender in bacterial infection
+56f24865	B and T; specific immunity
+69b18271	PLT (platelet)
+3184c25f	lifespan ≈ 10 days
+0a448752	INR ≈ 0.8–1.1 without anticoagulants
+90ec8db5	heparin monitoring
+1e24d94e	men < 15 • women < 20 mm/hr
+f7e505a7	non-specific marker of inflammation
+5736cbf1	hs-CRP for cardiovascular risk and mild inflammation
+078b008b	a rise favours bacterial infection
+ebd36f59	below 200 in HIV → defines AIDS
+44c57e5d	<div class="tpane"><p class="muted">Approximate adult values, for learning; each laboratory’s ranges differ slightly.</p>⏎    <table class="mini ref"><tr><th>Index</th><th>Range</th><th>Note</th></tr>⟦0⟧</table>⏎    ⟦1⟧</div>
+0fbf38fd	centrifuged blood
+270007db	sample CBC report

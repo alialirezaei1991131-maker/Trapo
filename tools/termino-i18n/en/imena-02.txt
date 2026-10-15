@@ -1,0 +1,330 @@
+30c416df	clotting disorder with low platelets and small-vessel clots
+3214a684	clot inside a blood vessel
+6f7eb4f3	removal of the thymus
+c703537e	relating to the thymus
+8fbe02e5	inflammation of the thymus
+be7a23e4	tumour of the thymus
+b9a06e7b	thymus hormone that matures T cells
+99703831	chest gland that trains T cells
+2c6aec6e	matching tissue types for transplant
+ead088ad	relating to the tonsils
+b89135a7	removal of the tonsils
+43ef1c79	blood transfusion
+64c2369c	hives; itchy raised wheals
+c169f37e	giving a vaccine
+29254e8d	puncturing a vein to draw blood
+f407b4bb	relating to a vein
+e1dae9fa	inherited bleeding disorder of platelet sticking
+a5eb18e1	protein blot confirming an antibody
+4df910ed	percentages of each white cell type
+e3193a86	stain for blood smears
+cba68e7a	up, again, against
+f59afad6	against
+3e617ada	same, of the same kind
+130e6e75	low, below normal
+f4a5338b	one, single
+ac696f16	all
+009a8622	many, much
+822b3bf0	granules
+9a676f46	rosy, light red
+c356d693	base (alkaline)
+49ec590a	neutral
+a42c0e84	shape, form
+5c0acb60	unequal, irregular
+b6d0998e	globe, round
+a402e096	bone marrow (and spinal cord)
+587e9a7d	plasma; formed substance
+dcf96cd0	sea
+0bf5b7e2	electricity
+4b9b000a	clotting
+2fb336c1	fibres, fibrin
+1ef9fa8c	clumping, sticking together
+fcbfdf60	plug (blocking mass)
+09349fdd	pouring
+ae105716	thymus
+f4d3d935	spark
+8053bfbb	immune, protection
+34d8816c	other, foreign
+1889899d	chemical, drug
+012f9f29	radiation, X-ray
+56e1cb1e	separation and removal
+91e0df69	immature cell (germ)
+e0d16d19	abnormal increase in cells
+7c836452	blood condition
+8e487fd6	swelling
+708344d0	breakdown, separation
+735ae78d	relating to breakdown
+acd7db15	enlargement
+083ec3dc	deficiency, decrease
+f303d488	eater
+65832792	attraction to, loving
+d69791fe	fear
+57b2d69d	carrying, transmission
+87f8faaa	producing substance (hormone)
+2f961127	bursting forth (bleeding)
+7efbf0f0	stopping, controlling
+706be0a6	relating to poison
+6fd97b82	the A, B, AB and O blood group system
+103ceab9	acute lymphocytic (lymphoblastic) leukaemia
+21c4716c	acute myeloid leukaemia
+cab22a33	activated partial thromboplastin time
+294204c1	AIDS-related complex
+b5474595	bleeding time
+bcd010f4	complete blood count
+54f2f076	Clostridioides difficile
+991d19bb	helper T cell marker
+c3e3bbb8	chronic lymphocytic leukaemia
+9f78af68	chronic myeloid leukaemia
+2e19f40f	carbapenem-resistant Enterobacteriaceae
+1d16de13	disseminated intravascular coagulation
+601134cd	Epstein-Barr virus
+f3ecc179	enzyme immunoassay
+e5a1aa34	enzyme-linked immunosorbent assay
+0cbaeec9	kidney hormone for red cells
+b6211b1c	fresh frozen plasma
+818dfc2b	highly active antiretroviral therapy
+83261b5e	Hodgkin disease
+947313fc	haemolytic disease of the newborn
+25feb7d9	human immunodeficiency virus
+475a9c9b	high-sensitivity C-reactive protein
+063b6425	immunoglobulin (five classes)
+a5dc1254	international normalised ratio
+d4d7e009	lymphocytes
+dbcd16fa	Mycobacterium avium-intracellulare
+d3b962bf	mean corpuscular haemoglobin
+9172c09e	mean corpuscular haemoglobin concentration
+ae944ac7	mean corpuscular volume
+98cf941b	multiple organ dysfunction syndrome
+c97a2350	monocytes
+b8593030	natural killer cell
+78da7466	pernicious anaemia
+0cf9ef15	procalcitonin
+51f6269b	packed cell volume (haematocrit)
+02bb7d79	platelet (count)
+04bb0183	polymorphonuclear (segmented) neutrophil
+69ce1059	packed red cells
+e480fef4	prothrombin time
+96c3f1fd	partial thromboplastin time
+da7eed93	red blood cell (count)
+a845d4e2	Rhesus factor (Rh positive/negative)
+488b75b9	sedimentation rate
+6bb72700	systemic inflammatory response syndrome
+865cfe9c	total iron-binding capacity
+288f13fd	von Willebrand factor
+e38ac999	white blood cell (count)
+9bc9756c	Immunonutrition and drugs
+a5feb51c	Cells and molecules
+ef707ede	Structure and function
+c0c20bca	&lt;1%
+e52131c3	granular: multi-lobed or two-lobed nucleus
+f585b143	agranular: single, unlobed nucleus
+2eb81072	The white blood cell family
+747e9c9d	plasma: water, proteins, salts
+26a2e76a	white cells and platelets
+40fe7998	red cells = haematocrit
+31333435	whole blood after centrifuging
+18fed6a6	A centrifuged blood tube
+2d8bb2c2	biconcave disc, no nucleus
+82e5eaa7	face view
+d7fdf778	side section
+577f7330	The biconcave red cell
+c3a53efc	Peripheral blood smear
+60910671	blood-forming stem cell
+ad46f361	red blood cell
+8e2e5a38	granular white cell
+a89e1626	natural killer
+8f61b557	4 protein chains
+0a0748b2	iron-containing pigment
+d5564962	haem + globin = haemoglobin; each haem picks up one oxygen molecule
+25647bb4	uniform disc
+b3037917	crescent-shaped
+91ed7ecf	spherical, no central dip
+52f4d1cb	varied size and shape
+a2c17f72	Red cell shapes
+bbd46522	shortage of RBCs or Hgb
+00e72ef1	low production
+a3706311	high destruction
+bade8e2a	blood loss
+88a6f1a7	Mechanisms of anaemia
+b76fd78e	acute
+8f1d57b1	immature cells, rapid
+a9cb36f0	chronic
+4f53c851	more mature cells, slow
+ccf43b9b	myeloid line
+9f027e70	lymphoid line
+0eabcaff	common in adults
+2cfa4dcc	common in children
+eb2018a5	common in older people
+7a23d78f	Types of leukaemia
+4b3da219	platelet plug
+111f07a7	fibrin mesh and clot
+b9f34236	blood + stopping = bleeding stops
+a9bdc1e0	Three steps of haemostasis
+d0245b05	vessel injury
+09a3aa9a	platelets gather
+0f297668	calcium and 12 factors
+ded2d319	thrombin is made
+55a2d1ca	fibrin threads
+00f7c8fe	clot dissolver
+1ac719ab	clotting inhibitor
+f463169b	The clotting cascade
+6e45f961	A antigen
+e549545f	B antigen
+7accdb28	A and B
+474bee0c	no antibodies
+2e280a5b	no antigens
+0f38d776	anti-A and anti-B
+073bf485	ABO blood groups
+81717315	⟦0⟧⏎      ⟦1⟧⏎      ⟦2⟧⏎      <text x="22" y="110" font-size="10.5" font-weight="800" fill="⟦3⟧" text-anchor="middle" direction="rtl" font-family="⟦4⟧" transform="rotate(-90 22 110)">recipient</text>⏎      ⟦5⟧⟦6⟧
+9bb4fa79	red cell donor
+354450d3	O is the universal donor • AB the universal recipient (ignoring Rh)
+089d122a	Red cell transfusion compatibility
+45ac99fa	first pregnancy
+e4fd0bbf	Rh− mother, Rh+ fetus
+d8baefa1	fetal cells at delivery
+9b61bcd7	enter the mother’s blood
+e40f70c4	after delivery
+0e713955	the mother is sensitised
+f5f21ad9	the mother makes
+ecc9f24d	anti-Rh antibodies
+acd582b5	next pregnancy
+85e57188	erythroblastosis fetalis
+0c5fead1	antibodies cross the placenta
+4470825e	→ haemolysis
+eb68dedf	Rh incompatibility
+72a90df8	pinpoint, tiny
+81ee49f0	widespread bruising
+91a6aac2	pooled blood, raised
+ce8f856d	Bleeding into the skin
+c99b6cd0	fluid between cells
+d6294575	lymph capillary
+2a0600bb	lymph vessel with valves
+c629dc12	node: filter
+d556a1b5	ducts
+1f7ca4b1	back to the blood
+ce5a311c	one-way flow; valves prevent backflow
+5549770d	cycle
+41f75d3f	The path of lymph
+fc5bbbd1	afferent vessels (in)
+1d1fe991	efferent vessel (out)
+8c7ebb97	nodule; where B cells multiply
+2b3dd9b1	lymphocytes and macrophages filter the lymph
+e2e7a74b	interstitial fluid
+d0e5fa34	plasma leaves the capillary; some returns to the vessel and the excess becomes lymph
+3a92502b	Interstitial fluid and lymph
+57e8a76d	innate: skin, phagocytes, NK cells
+04c36885	acquired: B and T lymphocytes
+8b5deec8	the body makes its own
+660f7059	borrowed antibodies
+1b64b551	illness or vaccine
+b55cc21e	long memory
+930b294a	placenta, breast milk
+1d63c352	gamma globulin • short-term
+04801f8f	no memory, non-specific
+ebb207f7	from birth
+48794db1	Types of immunity
+86edc012	heat
+ec51c2a1	histamine widens vessels and makes them leaky; phagocytes reach the site
+aca31b78	Signs of inflammation
+852e2f6d	antigen
+72a30bf7	binding site
+7d84befc	heavy chain
+fb657771	light chain
+7f63c07f	stem
+423edd1b	Antibody
+9a2f5dec	most abundant
+d0bdaa4a	crosses the placenta
+983dde70	five-unit
+753b95dc	first response
+83bc4dbe	two-unit
+0d520593	tears, saliva, milk
+02a909de	B cell surface
+c97bbc86	receptor
+1e1db98a	Immunoglobulin classes
+b96f4b1e	plasma cell
+e952c8c4	antibodies in blood and lymph
+c1286bf9	CD4 • commander
+b23ff687	CD8 • killer
+734b7cd1	direct attack on infected or cancer cells
+75031d3a	B from Bone marrow and T from Thymus
+4df67e4e	HIV destroys CD4 cells; both arms of immunity are crippled
+aeb15826	B and T lymphocytes
+1df8ed25	allergen
+2bae7c2a	mast cell with IgE
+20968670	treatment: avoid the allergen • antihistamine • in anaphylaxis: immediate epinephrine
+2637e3c9	RNA virus
+6c772ec7	the virus’s target
+187e2148	CD4 below 200 per microlitre = AIDS → opportunistic infections
+3f9a87d7	HIV and the CD4 cell
+187cfa3a	cell volume
+cb01336a	approximate adult values; each lab has its own ranges
+c945a62e	The CBC test
+82ca690d	systemic
+19c7631f	damage
+42331b72	resistant
+02f325c8	failure
+7da367ea	multiple organs
+62c9395d	markers: CRP and hs-CRP • procalcitonin for bacterial infection • lactate in shock
+f4e6bf91	cytokine storm: unchecked cytokine release → MODS
+34161d2b	The sepsis continuum
+2ce56dab	absorbing iron from food
+5bcb902e	carrying iron in the blood
+a78a32af	making haemoglobin
+fc59b87d	storage (ferritin)
+c587f279	from the liver; ↑ in inflammation
+68905b6e	hepcidin blocks iron entry from the gut and its release from macrophages
+a594bc26	result: high ferritin but little available iron → anaemia of inflammation
+4167be10	Iron and hepcidin
+ceade9f9	one word = prefix + root + combining vowel + suffix
+980271a3	prefix: all
+8b43aa6e	root: cell
+83f17ef4	suffix: deficiency
+a4d06f20	deficiency of
+c4ba58f1	all cells
+772358cf	The word code: parts, prefixes, suffixes, plurals, pronunciation and look-alike traps
+f0c3a7bc	Suffixes in action
+d155e532	Like a pro
+fd690fe5	Every medical word is a puzzle
+ed1acdfb	Medical words look scary, but most are built from a few <b>fixed parts</b>:<br>• <b>prefix</b> at the start: ⟦0⟧ = all<br>• <b>root</b> in the middle: ⟦1⟧ = cell<br>• <b>suffix</b> at the end: ⟦2⟧ = deficiency⟦3⟧
+b152db3d	pancytopenia: a deficiency of all blood cells. About 100 parts unlock thousands of words.
+352d9d5a	We usually join a root to the next part with a <b>combining vowel</b> (mostly <b>o</b>). Root + vowel is called the <b>combining form</b> and is written with a slash: ⟦0⟧, ⟦1⟧.<br><br>Golden rule: if the suffix starts with a <b>vowel</b>, the o is dropped:<br>• ⟦2⟧ → ✅ <b>leukemia</b> (not leukoemia)<br>• ⟦3⟧ → ✅ <b>leukocyte</b> (the o stays)⟦4⟧
+4c5aa97e	The o is like glue: it is needed between two consonants; when the suffix already starts with a vowel, the glue is not needed.
+4f9e9fce	In the word ⟦0⟧, why has the vowel o been dropped?
+62e275d9	because the suffix -emia starts with a vowel
+d00a7839	because leuk/o is a prefix
+a8acc6ca	because the word is not Greek
+a816ba55	When the suffix starts with a vowel (a, e, i, o, u), the combining vowel is dropped: leuk + emia.
+d4317a08	To find the meaning, <b>start with the suffix</b>, then the prefix, and finally read the roots:<br>⟦0⟧ → “study of” + “blood” = <b>study of the blood</b><br>⟦1⟧ → blood <b>specialist</b><br>⟦2⟧ → “deficiency of” + “cells” + “red” = a shortage of red cells⟦3⟧
+6b5a004b	First ask “what happened?” (suffix), then “to what?” (roots). Like a news report: the event, then the place.
+14cb20f2	erythr/o (red) + cyt/o (cell) + -penia (deficiency). Written left to right; read for meaning from the end.
+2ec33250	The two roots hem/o and hemat/o both mean “blood”.
+aaf740b7	True. hemoglobin and hematology both relate to blood; sanguin/o also means blood.
+eb51e528	In the word hematologist, the suffix ___ means “specialist”.
+22510f11	Build a word meaning “the study of the blood”
+c851a985	hemat/o (blood) + -logy (study of) = hematology.
+0954be70	Spell the term for a blood specialist
+09990c38	Twin prefixes
+9a67b031	Learn prefixes in pairs
+c3449d44	Most prefixes have an opposite “twin”; learn them in pairs and you halve the work:⟦0⟧⟦1⟧
+4c8717ca	Opposite twin
+7ba14691	 low, below
+f44e239f	 small
+265ba9aa	many
+3fab13c2	 one
+89ff0035	between (two things)
+bc85772e	 within
+f22311ec	 other, foreign
+6bbb7c76	Remember ⟦0⟧ through “hippo”: always <b>under</b> the water → below and low. ⟦1⟧ is like a “hypermarket”: more than enough!
+0eec9449	low, below
+9df4c888	⟦0⟧ means the red cell…
+1c068dd3	is paler than normal
+7ec98c69	is more deeply coloured than normal
+66898df9	is larger than normal
+44708158	has a nucleus
+1f270d63	hypo- (low) + chrom/o (colour) + -ic: pale, because it holds less haemoglobin.
+7ee9faa4	Whose blood?
+e860e55d	In transfusion, prefixes tell you where the blood came from:⟦0⟧and ⟦1⟧ (other, foreign) appears in <b>allergy</b> and allogeneic (a transplant from another person).⟦2⟧
+ec106ec5	auto- = self: the patient’s own blood stored before surgery
+ea514119	homo- = same kind: blood from another human donor
+70f7e2c0	Before planned orthopaedic surgery, a patient stores a few units of their own blood: autologous transfusion; the risk of incompatibility and infection is almost zero.
+1af9b6dc	What is blood a patient stores from themselves a few weeks before surgery called?

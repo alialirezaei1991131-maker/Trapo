@@ -1,0 +1,330 @@
+a19c16aa	Imena
+18514d31	Imena • Blood, Lymph and Immune Terminology
+416c041a	Medical terminology of the blood, lymphatic system and immunity
+b84d4f71	🩸 Medical terminology: Blood, the Lymphatic System and Immunity
+645c8436	Hi, I’m <b>Imena</b>;
+be92aeb9	Hi, I’m <b>Imena</b>, a red blood cell with an immune shield! Here you won’t memorise words; you’ll <b>decode</b> them: you’ll learn the roots, prefixes and suffixes and read every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures from the textbooks, ⟦2⟧ clinical charts and Leitner cards are waiting for you.
+4db20bb3	Imena is an educational tool and does not replace clinical judgment, a physician’s orders or laboratory references.
+f55dc5b1	Dozens of textbook pictures and teaching figures, from blood smears and sickle cells to lymph nodes and the lupus rash.
+4973ba95	Break every blood, lymph and immune word into prefix, root and suffix and say what it means
+1a7b4607	Describe the components of blood, the types of blood cell and blood formation with the right words
+2c2f2e92	Know the stages of clotting, the blood groups and the types of transfusion
+a91893b0	Name the lymphatic organs and their diseases, from lymphadenopathy to lymphoma
+65c8b895	Explain innate and acquired immunity, antibodies, allergy and autoimmunity
+3555e8b9	Read a CBC report, lab abbreviations and ICU concepts such as SIRS and sepsis
+0c745388	Just 5 minutes a day. A few weeks from now you’ll read blood and immune words like your mother tongue.
+258ab92a	Hi! I’m Imena, a red blood cell with an immune shield 🩸🛡️ What’s your name?
+3abfee86	Which world shall we start with? If you’re new, “Blood and cells” is the best start; the basic roots are taught there!
+29dbe43a	The word <b dir="ltr">thrombocytopenia</b> means…
+dced48d9	A low platelet count
+15817cfd	A high platelet count
+ef973f97	Breakdown of a blood clot
+0e5b65b3	⟦0⟧<br><b>thromb/o</b> = clot, <b>cyt/o</b> = cell, <b>-penia</b> = deficiency. The “clot cell” is the platelet (thrombocyte), so it means a <b>shortage of platelets</b>. Start the meaning from the suffix!
+4cf37946	Fresh Drop
+6272d5eb	Curious Plasma
+d3bafbfd	Busy Blood Cell
+cf941609	Wide-Awake Platelet
+ca34c62f	Lymph Guardian
+9f096d5e	Antigen Hunter
+e9839d6f	CBC Master
+c5767cc7	Commander of Lymphocytes
+fd68395c	Architect of Haemostasis
+105f66c3	Anaemia Detective
+be1f9f07	Immune Field Marshal
+fdcc20c3	Haematology Legend
+82fa43aa	First Drop
+a4d97873	Haematologist
+041332ee	Clot Architect
+000e0ed5	Immune Shield
+a53dfb85	Lab Detective
+46ae0e7f	immunity built by one’s own response to an antigen
+a26ed546	late stage of HIV infection with collapsed immunity
+0672365d	ready-made antibodies received from outside
+14cbcf37	lymphoid tissue at the back of the nose (pharyngeal tonsils)
+04663823	enlarged or diseased glands
+440d59c8	clumping of cells together
+d9083897	substances that cause clumping
+1aa49504	white cell without granules
+33c761ab	severe drop in granulocytes
+939b4554	early symptomatic phase of HIV disease
+4596dc70	plasma protein holding water in the vessels
+38ff4564	substance that triggers an allergy
+77dadf69	wheezing breathlessness triggered by allergens
+fd27884a	hay fever; allergic inflammation of the nose
+6e72b267	specialist in allergic conditions
+6fe1d308	desensitising injections
+d630bae1	severe, life-threatening allergic reaction
+d6543600	lack of red cells or haemoglobin
+7071093f	deep swelling under the skin or mucosa
+8003abf1	unequal red cell sizes
+67eb9dd5	protective proteins made by plasma cells
+24211cc7	drugs that prevent clotting
+40f24f65	substance that provokes an immune response
+061e4cf4	cell that shows antigens to T cells
+0f9ca2d1	stops bleeding
+4ad216cf	ANA test for autoimmune disease
+b3b1be3e	drug against retroviruses such as HIV
+608a763a	antibody that neutralises a toxin
+9edf944e	removing blood, separating a component and returning the rest
+8f742f27	anaemia from failing bone marrow
+90ae62eb	amino acid precursor of nitric oxide
+8a3a77ed	immunity gained through vaccination
+431fbe2c	immune attacks on one’s own tissues
+7149670a	transfusion of the patient’s own blood
+8f539924	white cell that makes antibodies
+c7a8aa5f	immature neutrophil
+4a419af0	white cell with dark-blue granules; active in allergy
+dd5b87c6	staining readily with basic dyes
+ab33b963	abnormal protein in the urine of myeloma
+8d12536a	orange pigment from haemoglobin breakdown
+1886c4f5	automated blood counting machine
+401f9634	blood culture and antibiotic sensitivity
+8e9d8ee2	giving blood or blood products into a vein
+381d5fe0	drawing marrow out with a needle
+c8143900	replacing diseased marrow with donor marrow
+39610bb9	yeast infection
+204e1880	gut bacteria resistant to carbapenems
+842081e9	count of helper T cells
+b00e9bf1	immunity carried out by T cells
+564f921e	C. diff infection of the bowel
+ea2902ec	drugs that promote clotting
+cfbc3d50	clotting
+9c6ad9f2	the process of blood clotting
+4e56be08	proteins that complete the antibody attack
+afcebdcf	full blood count
+d2bb1996	thalassaemia major
+c474d778	test for antibodies on red cells
+9fc5a493	small body; a blood cell
+a926c69e	anti-inflammatory steroid drugs
+f3c8750a	testing donor and recipient blood together
+33eafe18	cold-precipitated clotting factor concentrate
+0c9de812	uncontrolled inflammatory storm
+6ff95f73	messenger proteins of the immune system
+3a8ad040	herpes-family virus dangerous in weak immunity
+2938c5ae	cell-killing T cells
+6f92b7f0	type IV allergy appearing after 1–2 days
+953bfccd	gradual reduction of allergic sensitivity
+171ba3d1	widespread clotting that uses up clotting factors
+74afbacb	any abnormal state of the blood
+f7abd4df	swelling from fluid in tissue
+dd6e7011	ion-forming salt in body fluids
+83e67381	separating proteins with an electric current
+478a541b	massive limb swelling from lymphatic blockage
+816a2e40	ELISA antibody or antigen test
+8cce31c4	removal of an embolus
+86a35ee9	antibody test using an enzyme signal
+7fb5c627	white cell with red granules; allergy and parasites
+cde0e34b	staining readily with acidic red dye
+bf994a14	adrenaline
+1b9752e7	redness of the skin
+579d981e	abnormal rise in red cells
+7b0e685f	haemolytic disease of the newborn
+3b57d2a7	red blood cell
+44fb366f	sedimentation rate test (ESR)
+683c8ed3	relating to red blood cells
+7496d296	shortage of red blood cells
+c356d5f5	excess of red blood cells
+42aaa325	reduced red blood cells
+f3230be6	production of red blood cells
+555c0ca2	kidney hormone that drives red cell production
+0bbe02aa	inherited marrow failure syndrome
+de68740d	iron-storage protein
+45be44de	protein threads forming a clot
+c02a9a37	clot meshwork of protein threads
+b9d2a0db	plasma precursor of clot threads
+cfe2b3d8	dissolving clots
+054c397e	thread-like
+b6d00741	cells and platelets of the blood
+8377ed63	antibody-rich plasma fraction
+d4c1390c	protein part of haemoglobin
+c8abeb3e	a group of plasma proteins
+7d094764	amino acid that supports immunity
+078679fd	donor immune cells attacking the recipient
+d06b6eb8	white cell with granules
+ee8debdc	leukaemia with “hairy” B cells
+442935b7	helper T cells
+3579b62b	relating to blood
+66a6c76f	agent that builds blood
+ea0ab643	percentage of red cells in blood (packed cell volume)
+665ceafa	blood specialist
+47b371d7	study of the blood
+aae4d96a	collection of blood in tissue
+7cfd23eb	formation of blood cells
+ca9cfc1e	iron-containing pigment of haemoglobin
+0c00acd1	blood-forming stem cell
+6d0501fe	filtering the blood by machine
+0aa62063	oxygen-carrying protein of red cells
+2d60a08c	destruction of red blood cells
+43ba679e	anaemia from red cell destruction
+6fdb5e64	transfusion reaction with red cell destruction
+4e2b2584	inherited bleeding disorder
+d34d464b	fear of blood
+c0337d8d	stem cell that makes all blood cells
+07c977e2	bleeding
+0ca17302	anaemia from blood loss
+afe141ab	iron deposits in tissues
+93dfcfb0	stopping of bleeding
+e6aad6ea	drugs that stop bleeding
+7f0ede20	natural anticoagulant substance
+0963fa6c	iron-regulating hormone from the liver
+19d040fb	sensitive inflammation marker
+2cc05333	allergy chemical released by mast cells
+f224e1ee	lymphoma of tissue macrophage cells
+080c74d6	combined test for HIV antigen and antibody
+47e02e79	lymph node cancer with Reed-Sternberg cells
+c50ea33b	keeping the internal environment stable
+731048d3	transfusion of another person’s blood
+caf42c5f	virus that destroys helper T cells
+c17b9be6	antibody-based immunity
+fb82a205	red cells stained more deeply than normal
+86ff7a87	high blood fats
+9ace158c	exaggerated immune reaction
+53c33a39	overactive spleen
+df566a32	pale-staining red cells
+d28e0402	anaemia with pale red cells
+68c2b494	immune destruction of platelets of unknown cause
+d0041398	the body’s defence reaction
+e3dc3cf5	vaccination
+cab38a6a	disease of weakened immunity
+9df2d7ac	substance that produces immunity
+678f1f18	antibody protein
+dc4c2bb5	immunity specialist
+b6eb434b	drugs that suppress the immune system
+e9554d58	suppression of immunity
+caec2fc7	disease that suppresses the immune system
+ce67f218	treatment that harnesses immunity
+49d4d72f	glandular fever
+833193ae	antiviral messenger proteins
+dd1edbcf	messenger proteins between white cells
+a4d80f0d	fluid between tissue cells
+b651a753	stomach protein needed to absorb vitamin B12
+42058958	anaemia from lack of iron
+5538e55a	blood cancer
+b59b0bcd	white blood cell
+ded39953	relating to white blood cells
+88627482	raised white cell count
+167a2c99	low white cell count
+e8994dee	tonsils at the back of the tongue
+e2e977a8	removal and examination of lymph nodes
+757d0163	removal of lymph nodes
+297430ac	inflammation of lymph nodes
+da5d7810	disease or enlargement of lymph nodes
+d517a0e7	incision into a lymph node
+84002a31	relating to lymph vessels
+3a57181f	removal of lymph vessels
+9f545004	X-ray image of lymph vessels
+a216fa5a	imaging the lymph vessels
+547ef3fc	benign tumour of lymph vessels
+cdfb148b	incision into a lymph vessel
+cd1f4313	inflammation of lymph vessels
+12b27029	routes of lymph drainage
+e20c7377	vessels carrying lymph
+b4ffe96e	swelling from trapped lymph
+3a7d26c1	white cell of the lymphatic system
+e0ad8930	relating to lymph-system white cells
+b3028788	leukaemia of lymph-system white cells
+ebd27b18	lymphoma of small lymph-system cells
+e838ee61	raised lymph-cell count
+4594e3a6	imaging the lymphatic system
+f618f690	lymph nodules of the small intestine
+cb2977aa	tissue forming lymph cells
+45093eba	cancer of lymphatic tissue
+9c3fd214	disease of lymph vessels or nodes
+7b69bcad	formation of lymph and lymph cells
+473ea710	nuclear scan of lymph drainage
+4db2945c	abnormally large red cell
+b94984e2	large eating cell
+b2b4e25c	MRI imaging
+d5bc9344	giant marrow cell that sheds platelets
+cc663841	anaemia with large immature red cells
+69e3945c	giant red cell precursor
+671a429b	MRSA infection
+215b3881	abnormally small red cell
+cb968eab	small eating cells
+3725bae3	laboratory-made identical antibody
+1c56e716	relating to large single-nucleus white cells
+abb09f38	cancer of plasma cells in the marrow
+6aa60dcc	MAI lung infection in weak immunity
+cc95f032	precursor cells of granulocytes
+1061b135	marrow disorder making faulty blood cells
+c89e9117	scarring of the bone marrow
+fcfe7a60	produced in the bone marrow
+090f4123	leukaemia of marrow-line cells
+983a5359	produced in muscle tissue
+167b7955	inborn immunity
+81a9309a	shortage of neutrophils
+a4e07bc6	commonest white cell; a germ eater
+8dcb0250	staining with neutral dyes
+ed02c311	lymphoma without Reed-Sternberg cells
+01ddb596	normal red cell colour
+b15ae9e7	anaemia from poor diet
+3996727d	anti-inflammatory fatty acids
+786cfcfd	cancer specialist
+50c24e86	study of cancer
+3991a23a	infections exploiting weak immunity
+22667011	tonsils of the throat sides
+6e476b64	shortage of all blood cells
+251d1628	disease-causing organism
+3a9d62fa	anaemia from lack of vitamin B12 absorption
+a6dd01b8	pinpoint bleeding spots
+d7eac892	lymphoid patches in the small intestine
+29bb9abc	acidity scale
+e64e73fa	cell that engulfs foreign particles
+d5bafdc8	tonsils behind the nose
+3b326edb	abnormal chromosome of chronic myeloid leukaemia
+57a57dbe	drawing blood from a vein
+cd40b2bf	liquid part of blood
+f0ea1bed	antibody-making cell
+ae78c822	separating and removing plasma
+439590b1	clot-dissolving enzyme
+e811f839	fungus causing pneumonia in AIDS
+7c5fe7c1	fungal pneumonia in weak immunity
+40983bc2	abnormally shaped red cells
+fb1eab08	excess red cells; thickened blood
+9af54b16	primary marrow overproduction of red cells
+20586bd8	marker of bacterial infection
+424ec2c5	HIV drug blocking a viral enzyme
+5c0dd1e2	clotting protein made by the liver
+719e287e	clotting time test (PT)
+a2acc917	purple spots from bleeding under the skin
+dc479d4c	assessing red cell shape
+8a85922c	giant cells typical of Hodgkin disease
+b9da0443	return of a disease
+d5f7f301	disappearance of disease signs
+373c88f1	count of young red cells
+ce4ba687	RNA virus that copies itself into DNA
+a584478f	bloody
+e39e0222	disease forming granulomas in many organs
+37cf840c	vitamin B12 absorption test
+683c8245	life-threatening response to infection
+d1ea97c0	infection in the bloodstream
+302c7dae	first appearance of antibodies in the blood
+3effc6fa	severe combined immunodeficiency
+cd247936	anaemia with crescent-shaped red cells
+b34120f2	anaemia with iron rings in red cell precursors
+99319b0f	autoimmune dryness of eyes and mouth
+021aa7dc	anaemia with ball-shaped red cells
+052b1201	removal of the spleen
+8ef1bb48	relating to the spleen
+5eef7b8e	inflammation of the spleen
+6d570f4f	enlargement of the spleen
+25ddb832	disease of the spleen
+d937a62a	bleeding from the spleen
+084d392e	suturing of the spleen
+ce95bf7c	incision into the spleen
+7e207d0b	unspecialised cells that can become other cells
+0e001ac9	regulatory T cells that damp down immunity
+f95faa37	systemic autoimmune disease with a butterfly rash
+7adbc1e7	systemic hardening of skin and organs
+5f40ca46	thymus-trained lymphocyte
+78503c97	inherited haemoglobin production defect
+764b3e1a	enzyme turning fibrinogen into fibrin
+f35707c2	clotting cell fragment
+eaea1fb9	relating to platelets
+3b3d7cfc	shortage of platelets
+faf2d667	excess of platelets
+756ff75d	breakdown of a blood clot
+7f289120	clot-dissolving drugs
+8f458f55	protein that starts clotting
+edd588af	formation of a blood clot
+90ddd1c6	relating to a clot

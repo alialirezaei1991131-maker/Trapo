@@ -1,0 +1,262 @@
+e6170c15	Tells anticoagulants, thrombolytics, antihistamines, corticosteroids and antiretrovirals apart, and knows where each one is used.
+17cedeb8	Pulsy
+c6bdd8b7	The ICU Guardian
+9f1c842f	Tracks SIRS, sepsis and cytokine storms through procalcitonin and CRP, and knows how glutamine, arginine and omega-3 help a critically ill patient’s immunity.
+b4ca583b	Tiredness, syncope and a fibrous bone marrow
+33b05fb3	Ada, a middle-aged woman
+4be41c11	For several months Ada has had severe tiredness, joint pain and one faint (syncope). The CBC shows anaemia and teardrop-shaped red cells, and the spleen is enlarged. The doctor orders a bone marrow aspiration.
+e3ab1c2f	tiredness, joint pain, syncope
+56452ab3	low Hgb, abnormal RBC shapes
+5e49d18f	Aspiration
+54a3644f	positive for myelofibrosis
+df60fa79	cell shapes
+848250e7	myelofibrosis means…
+faa9b382	replacement of the bone marrow by fibrous tissue
+6ee4a5f5	cancer of plasma cells
+32a7188b	vitamin B12 deficiency
+f8327cb6	myel/o (bone marrow) + fibr/o (fibre) + -osis (condition).
+45e899a5	What is variation in red cell shape on a smear called?
+98bacdb2	poikil/o = varied (shape); anis/o relates to size.
+b5ad8a9d	Why is the spleen enlarged?
+b5ffacc9	blood formation outside the marrow, in the spleen
+e7037d51	infection of the spleen
+8f4393d4	When the bone marrow becomes fibrous, the spleen and liver take over blood formation → splenomegaly.
+97faa040	Match each of Ada’s treatments to its aim
+bd379204	iron and B12 supplements
+4318056c	correcting the anaemia (hematinic)
+89429839	holding back the growth of abnormal cells
+de32bacc	removing the enlarged spleen
+c776a069	stem cell transplant
+d3f98cda	replacing the bone marrow
+9d118841	Donor
+8cb02164	A stem cell transplant from a matched sibling is confirmed by tissue typing.
+ae3c0b78	True; tissue compatibility lowers the risk of GVHD.
+018d960b	Immature white cells
+12e8818a	22-year-old woman
+fe9c2ecc	A young woman presents with tiredness, unexplained bruises and repeated infections. The CBC shows few red cells and platelets and a very high count of immature white cells. The HIV test is negative.
+02bb981d	very high, mostly immature (blasts)
+7e9a5ffe	negative
+473f938a	What do we call the fall in red cells in this patient?
+2800c9f4	A shortage of platelets?
+a555da20	thromb/o + cyt/o + -penia → the cause of the bruises.
+801322c5	Cancer of the white-cell-making bone marrow?
+6716b5f8	Leukaemia: immature white cells crowd out the other cells.
+c484a1fd	Confirmation
+a6db6a3c	Which test makes the diagnosis certain?
+8c7d1ddb	microscopic examination of a bone marrow sample
+9b4a6bee	Bone marrow aspiration or biopsy.
+01e01623	What type of transfusion was given to replace red cells and platelets?
+7745f7a6	homologous (from a donor)
+4582f76c	autologous (the patient’s own blood)
+9350b032	The patient lacks enough healthy blood of their own, so homologous blood.
+66fb60cc	Main treatment
+20a8a780	The main cancer treatment for this patient was aggressive chemotherapy.
+cead05c4	True; together with supportive transfusions.
+3716dc7c	Fever and petechiae in a child
+d4183197	2-year-old boy
+74bad32d	A child is brought in with high fevers, nosebleeds (epistaxis), bleeding gums, tiny red spots on the skin and bruising. The doctor suspects acute leukaemia.
+ba56975c	Symptoms
+0c76016f	fever, epistaxis, bleeding gums
+0eda75ed	petechiae and ecchymoses
+ffa8bb15	low (thrombopenia)
+fda2dc88	Tiny flat purple-red spots on the skin?
+7801ca40	Pinpoint capillary bleeds caused by a lack of platelets.
+2db272d0	nosebleed
+8c304d1e	bleeding gums
+e0bd22ce	Bleeding from the nose.
+a337e2cc	The commonest childhood leukaemia?
+3ca77b95	What does ALL stand for?
+d9e23c65	Acute, lymphocytic, leukaemia.
+6124adc5	Order the work-up of this child
+fb3154a0	history and examination: fever, petechiae, bleeding
+3c1de934	CBC: low platelets
+c0ee5db9	bone marrow aspiration to confirm
+63355a2c	intensive chemotherapy aiming for remission
+ad7a13de	Clinical diagnosis, then confirmation with the bone marrow.
+35f89253	Spell the term for the disappearance of disease signs
+01f9aa1b	remission; the disease coming back = relapse.
+f78fe562	Breathlessness and abdominal pain
+76fef481	Dianne presents with breathing problems and pain in the lower left abdomen. The doctor orders a CBC, WBC, ESR, PT and PTT. The results show anaemia, and the doctor orders 2 units of O-negative blood.
+68d5a789	dyspnea, LLQ abdominal pain
+063e0641	CBC, WBC, ESR, PT, PTT
+16552c84	2 units of O negative
+8690c10b	dys- (difficult) + -pnea (breathing).
+e19505e7	Blood group
+824d015c	Why was O negative chosen?
+fdd09591	O negative has no A, B or Rh antigen and is safe for most recipients
+546822a6	O negative has no antibodies
+2fd98cfc	O negative is the universal recipient
+79f2e56c	O negative has more platelets
+f65d6ecd	The universal red cell donor.
+b40f2a1f	Compatibility
+94c49b68	Even with O negative, cross-matching is preferred when it is not an emergency.
+10d8c349	True; other rare antibodies may also be present.
+6677ce0f	What does PTT stand for?
+cb238545	Partial thromboplastin time.
+20235457	Spell the diagnosis meaning too few red cells or too little haemoglobin
+c1010add	Liver laceration after an accident
+b16d09d4	After an accident, Lisa is brought to the emergency department with severe internal bleeding and a torn liver. She has severe haemorrhagic anaemia. The surgical team gives a massive transfusion while monitoring clotting tests.
+a5d601aa	liver laceration, hemorrhagic anemia
+c314e87b	Monitoring
+fa4b9f76	Hgb, Hct, PT, PTT
+0d76bcbc	emergency
+17b819bb	Products
+fb5c30a8	washed blood, homologous, FFP, platelets
+8b42f75e	Anaemia caused by bleeding?
+60a79075	hem/o + -rrhage (bursting forth).
+72bd9480	Collecting the patient’s own blood from the abdominal cavity and returning it after washing?
+4693b0e9	Which product replaces the clotting factors that have been used up?
+136f875b	Each test and what it shows
+f720e550	percentage volume of red cells
+a163b9bf	In severe bleeding and massive transfusion, platelets may also be needed.
+fd3bc47a	True; platelets are used up in bleeding and diluted by transfusion.
+b01e8d67	In “liver laceration”, laceration means…
+2345425f	A tear in the tissue.
+263e9790	Sore throat and swollen nodes
+fdf6ad6c	16-year-old boy
+64b8ad01	A teenager comes in with a severe sore throat, fever and tiredness. On examination the lymph nodes of the neck, armpits and groin are enlarged, the throat is red and inflamed, and an enlarged spleen can be felt.
+f268dae9	Nodes
+12e6892b	cervical, axillary, inguinal
+44e4e1b8	Throat
+5b44b6fc	red and inflamed
+e11495af	atypical lymphocytosis
+3d15cd13	Match each lymph node region to its name
+168f5577	What is enlargement of the lymph nodes called?
+1c3c8d69	Most likely diagnosis?
+89128fb3	Cause: the Epstein-Barr virus (EBV).
+6acf8b06	The cause of infectious mononucleosis?
+b82a9d62	A patient with splenomegaly is advised to avoid contact sports.
+82340fce	True; there is a risk of the spleen rupturing and bleeding (splenorrhagia).
+c1484949	This patient’s treatment?
+dcce0c47	over-the-counter pain relief, fluids, rest and lozenges
+d1cff0ff	urgent splenectomy
+37797858	A self-limiting viral illness; supportive treatment.
+6a1d743f	A mass in the spleen
+87ccd62e	36-year-old businessman
+f38bc053	A 36-year-old man presents with a feeling of abdominal fullness and tiredness. Whole-body MRI showed an enlarged spleen and a 3 cm encapsulated tumour in it. A sample of the tumour was taken.
+41056073	position of the spleen
+6b965498	whole-body MRI
+d0e16a9a	splenomegaly + 3 cm tumour
+6deae91e	splenectomy + oncology referral
+121eea0e	What does MRI stand for?
+8cff62dd	Magnetic resonance imaging, for soft tissues.
+bd3c1233	Which lymphoma did the biopsy show?
+cc7556e6	NHL of the spleen.
+570d95bf	Reed-Sternberg cells are seen in NHL.
+127ffc82	Reed-Sternberg cells are specific to Hodgkin lymphoma.
+997e466b	Removal of the spleen?
+306d70d9	To which specialist was the patient referred?
+6d73cec5	a haematologist, for clotting only
+cbd8ceb2	A cancer specialist, to consider chemotherapy.
+b51637da	Spell the diagnosis for cancer of lymphatic tissue
+62032c2e	A swollen node in an HIV-positive patient
+3f6b09a8	John, who is HIV positive and takes preventive drugs, has a large lymph node at a routine check. The main worry is lymphoma or Kaposi sarcoma. An outpatient biopsy and blood tests are done.
+d0dfa9e2	Background
+6f8ecee3	AIDS, preventive drugs
+10feda41	a course of antibiotics
+3d0fd31a	A lymph node inflamed and enlarged by infection?
+c066d775	A connective tissue cancer common in AIDS?
+b898fcd9	What was done to find out the nature of the node?
+1d0e37a2	Biopsy = removing a piece of tissue for examination.
+987b21e0	The biopsy showed the node was malignant.
+520d84bb	The node was infected and was treated with antibiotics.
+4a2a8e4b	Preventive drugs
+7941b7ff	“Prophylactic” drugs means…
+80dc6cc7	preventive
+c851c1df	cancer treatment
+5104d184	prophylaxis = prevention (related to -phylaxis = protection).
+ebc0a1d0	Glove allergy
+6cdb16da	Olivia has a history of contact dermatitis after using latex gloves. Recently, after a dental examination with latex gloves, she had palpitations, hives and a runny nose. Immunology tests and a skin-prick test were done.
+dc47432c	Recent reaction
+f6b86a05	tachycardia, urticaria, rhinitis
+4c0278ee	Test
+fd2aa843	skin-prick positive for latex
+8131f80b	urticaria means…
+d085e30d	Itchy raised wheals on the skin (hives).
+b8c4d254	Type 1 hypersensitivity is mediated by which antibody?
+34a02334	IgE on mast cells and basophils → histamine.
+a018b61d	a fast heartbeat
+4737f511	a slow heartbeat
+94f0c606	tachy- = fast, cardi/o = heart.
+772180ea	Order Olivia’s advice by importance
+baeae98d	complete avoidance of latex products
+62dc3a0a	carrying an epinephrine auto-injector
+80b2fcbe	a medical alert bracelet
+8625bb96	a bronchodilator inhaler at the first sign of bronchospasm
+4edd789b	Prevention, then readiness for anaphylaxis.
+57b45e9c	The next contact with latex may lead to anaphylaxis.
+e34ca238	True; reactions get stronger with each exposure.
+4a8ac91b	Spell the name of the life-saving drug for anaphylaxis
+2272959a	Fever, night sweats and cough
+aaaf3a7d	A 40-year-old man with AIDS
+a1f235c8	A 40-year-old man with AIDS comes in with chills, night sweats, a persistent cough with clear sputum and breathlessness. Breath sounds are reduced over the middle and lower lobes of the right lung.
+20a143a2	190 /µL
+1d169b46	3.3 ×10³ /µL
+db54c874	12.8 g/dL
+c1d34393	123 ×10³ /µL
+e2ec0d2c	A CD4 count of 190 means…
+3f4c2625	cellular immunity is severely suppressed (below 200 = AIDS)
+8ca0abd3	completely normal immunity
+77f1543d	leukaemia
+afb11b92	severe anaemia
+ef667c1f	A normal CD4 count is 500 to 1500.
+cdd8c5b2	What do we call a WBC of 3.3 thousand?
+5dc426ae	Below 5000 → leukopenia.
+0839aa27	Which opportunistic lung infection must be ruled out?
+558a3ca1	PCP is the commonest opportunistic lung infection in AIDS.
+b8f19a26	Assessment
+1362154e	Each step and its aim
+4ed44c0c	seeing lung involvement
+73c78b86	finding the cause of infection
+d3c6f874	controlling HIV
+16c8790c	bringing the fever down
+e5f6ad2d	A platelet count of 123 thousand is below normal (mild thrombocytopenia).
+4b94567f	True; normal is 150 to 450 thousand.
+c83a168f	Spell the term for mucus coughed up from the lungs
+3079ec24	sputum = coughed-up mucus or phlegm.
+246cfed6	Resistant low blood pressure in the ICU
+9098bc86	An intensive care patient
+ea672e51	An ICU patient admitted with pneumonia develops low blood pressure that does not respond to fluids. Lactate has risen, procalcitonin is high and CRP is positive. Nutritional assessment shows severe catabolism and hypoalbuminaemia.
+6175072e	low, resistant to fluids
+e3a78a8e	positive
+37af0182	The best word for the patient’s condition?
+62175f91	Organ dysfunction caused by a dysregulated response to infection.
+91ccd171	A high PCT mostly points to what?
+b5ca005f	bacterial infection
+c774507a	Procalcitonin rises in bacterial infection.
+3a1f5ad6	hypoalbuminemia means…
+83379bd4	low blood albumin
+2cd40abe	high blood albumin
+11b022b8	low red cells
+dbc790d2	Order the actions
+09623410	blood culture
+656e5876	haemodynamic support
+6fbb5740	early high-protein enteral feeding
+a3021995	Antibiotics without delay; feeding after relative stability.
+d566b2a7	moderating inflammation
+c3139b63	fuel for lymphocytes and enterocytes
+b5574099	fighting oxidative stress
+63f76535	In this patient, the malnutrition-inflammation complex (MIC) causes protein catabolism and falling albumin.
+179b588f	True; systemic inflammation fuels the vicious circle of malnutrition.
+aa167269	Anaemia in inflammatory disease
+20a08e6f	58-year-old man with rheumatoid arthritis
+4d77e91f	A patient with RA has been tired for months. Hgb is low and the cells are normocytic. To tell iron-deficiency anaemia from anaemia of inflammation, the doctor orders an iron profile and CRP.
+b605819a	10.5 g/dL
+054fe9c5	What does RA stand for?
+d68cca49	Rheumatoid arthritis; an autoimmune disease.
+2acbbb14	A normal MCV means the cells…
+41ab6f03	are of normal size (normocytic)
+2871adfc	are small
+d56b900b	are large
+957161ee	are sickle-shaped
+42dc9998	A high ferritin with a low TIBC points mostly to what?
+24123b42	anaemia of inflammation (chronic disease)
+753e2d3c	In iron deficiency, ferritin is low and TIBC high.
+00e65d80	Mechanism
+ae42ae77	Which hormone locks iron in macrophages during inflammation?
+01a7d5d9	Hepcidin, from the liver.
+550150aa	In anaemia of inflammation, controlling the underlying disease matters most.
+53651a58	True; as inflammation falls, hepcidin comes down.
+78fc4e60	Spell the name of the liver hormone that locks iron away
+3e6ebffe	hepcidin; hepat/o = liver.
+3be921a9	If the suffix starts with a vowel, the combining vowel o is dropped: leuk/o + -emia = leukemia.

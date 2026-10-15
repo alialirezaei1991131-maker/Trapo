@@ -1,0 +1,162 @@
+7b27bbbe	Textbook diagram: erythropoiesis, thrombopoiesis and leukopoiesis, from precursor cell to mature cell.
+c0d2538d	By what other name is the blood-forming stem cell known?
+36e6b3c5	hem/o (blood) + cyt/o (cell) + -blast (immature cell) = an immature cell that forms blood.
+f69186b5	The suffix -blast
+0887dbcf	⟦0⟧ means an <b>immature cell</b> (a germ).<br>• <b>myeloblast</b>: precursor of granulocytes; fills the bone marrow in some leukaemias<br>• <b>erythroblast</b>: precursor of the red cell<br>⟦1⟧ = bone marrow (and spinal cord) → <b>myelogenous</b> = made in the bone marrow
+ceec0234	Where do platelets come from?
+bfbb7296	A <b>megakaryocyte</b> is a very large cell in the bone marrow that <b>breaks into pieces</b> to form platelets.<br>⟦0⟧ → a cell with a large nucleus.<br><br>A <b>reticulocyte</b> is an almost mature red cell; its count shows how active the bone marrow is.
+6a40e6ab	Platelets are fragments of large cells called megakaryocytes.
+39efa4c1	True; a megakaryocyte turns its cytoplasm into thousands of platelets.
+436e9e2e	Rise and fall
+82f9ce4a	Two common suffixes:<br>• ⟦0⟧ = increase in cells → <b>leukocytosis</b>, <b>erythrocytosis</b>, <b>thrombocytosis</b><br>• ⟦1⟧ = deficiency → <b>leukopenia</b>, <b>erythropenia</b> (erythrocytopenia), <b>thrombocytopenia</b>, <b>neutropenia</b>
+1d6fee7f	a fall in neutrophils
+93fea24d	a rise in neutrophils
+c201b90b	destruction of neutrophils
+83a3c6f9	production of neutrophils
+c0e195bf	neutr/o + -penia (deficiency). Neutropenia raises the risk of infection.
+4ba7bf52	Build a word meaning “a rise in white cells”
+b9895bab	leuk/o + -cytosis = leukocytosis; for example in infection.
+b2023a80	Leukopenia means a ___ of white cells.
+5c7f4d75	-penia = deficiency.
+a66d2b2e	Anaemias
+2506580c	What does anaemia mean?
+47c1e1e5	<b>Anemia</b> = a fall in red cells or haemoglobin, so less oxygen reaches the tissues.<br>⟦0⟧ → “without blood”.<br>Symptoms: <b>tiredness, pallor, breathlessness</b> (dyspnea), palpitations and irritability.⟦1⟧⟦2⟧
+d2699e8b	Every anaemia comes about in one of three ways: too little is made, too much is destroyed, or blood is lost.
+d9c5fabd	Faced with any anaemia, ask: “Is the factory broken, are the cells being destroyed, or is blood leaking out?” That question decides the next tests.
+c11a8638	Which is a common symptom of anaemia?
+3358787e	tiredness and pallor
+3638a3f0	high fever and chills
+42b850dc	severe itching of the skin
+077dfaad	enlarged lymph nodes
+d3b1e771	Poor oxygen delivery to the tissues → tiredness, pallor, breathlessness and palpitations.
+ed803610	Types of anaemia (1)
+5f40e129	not enough iron to make haemoglobin
+77a8dd5c	bone marrow failure → pancytopenia
+6c857c8f	no intrinsic factor → B12 not absorbed
+3c80c0c5	large immature cells; lack of B12 or folate
+78d1d084	lack of iron, B12 or folate in the diet
+0b9ea06d	Type of anaemia and its cause
+d11fd8d2	bone marrow failure
+f339288b	no intrinsic factor in the stomach
+ef6c45c3	too little iron for haemoglobin
+14c3281e	Types of anaemia (2)
+1526adb0	destruction of red cells (hemolysis)
+43a9c4ca	abnormal haemoglobin; sickle-shaped cells
+15f116f1	inherited defect of haemoglobin production; severe form = Cooley
+0052f9a4	iron is present but not used in haemoglobin
+cb9572ca	sudden or chronic bleeding
+078058d7	A: a normal cell passes freely through the vessel. B: sickle cells are stiff and sticky and block the blood flow.
+5ca4c806	Which anaemia does this picture show?
+8990b1e2	The abnormal haemoglobin forms strands when oxygen is low and bends the cell into a sickle shape.
+d11b7155	Complications of sickle cell disease
+b9196bd5	Sickle cells block small vessels throughout the body:⟦0⟧<br>Treatment is mostly <b>palliative</b>: controlling pain and preventing crises.
+35ce80a8	Brain: thrombosis and stroke • Lung: infarction and pneumonia • Heart: failure • Abdomen: enlarged spleen and splenic infarction, gallstones • Skin: stasis ulcers • Joints: hand-foot syndrome
+3de7693e	In sickle cell disease, splenic infarction and enlargement are common complications.
+5e9baefd	True; the spleen’s vessels are blocked by sickle cells.
+28962361	In pernicious anaemia, which substance is lacking?
+a304e73b	intrinsic factor (to absorb B12)
+a0a23a86	dietary iron
+2a4e1e66	fibrinogen
+31e3e231	The stomach does not make intrinsic factor, so vitamin B12 is not absorbed; treatment: B12 injections.
+221ea23b	Thalassaemia is an inherited anaemia whose most severe form is called Cooley anemia.
+f5425478	True; thalass/o means sea, because it was first described around the Mediterranean.
+b3f56c3c	Sideroblastic anaemia and haemolysis
+e033ace3	⟦0⟧ = iron → <b>sideroblastic anemia</b>: there is enough iron but it is not placed into haemoglobin properly.<br>⟦1⟧ = destruction → <b>hemolysis</b>: red cells breaking and releasing haemoglobin; ⟦2⟧ comes from this.<br><b>Hemosiderosis</b> = excess iron deposited in the tissues.
+62da24c8	Build a word meaning “destruction of blood (red cells)”
+bceab826	Spell the term for a shortage of red cells or haemoglobin
+25e18d79	an- (without) + -emia (blood condition) = anemia.
+f687aeb9	Cell shape and colour
+6035330e	Size and shape
+9e39d793	In assessing <b>RBC morphology</b>:<br>• ⟦0⟧ = unequal → <b>anisocytosis</b>: large differences in <b>size</b><br>• ⟦1⟧ = varied → <b>poikilocytosis</b>: differences in <b>shape</b><br>• <b>macrocyte</b> = large cell, <b>microcyte</b> = small cell<br>• <b>spherocyte</b> = ball-shaped cell (⟦2⟧ = sphere)⟦3⟧
+1d4f2462	Four blood smears from the textbook:⟦0⟧
+cfde7d9d	A, B, C, D
+30ba9f3d	A: round, uniform cells • B: varied shape and size (poikilocytosis and anisocytosis) • C: sickle cells • D: very few cells
+b80f0325	In which part of this picture are sickle cells seen?
+afe5f603	In C, crescent-shaped, elongated (sickle) cells are seen.
+fdb7da50	What is a large difference in the “size” of red cells called?
+f79edc76	anis/o = unequal (size). poikil/o relates to shape.
+cc50263f	Cell colour
+dda4f7a9	⟦0⟧ = colour:<br>• <b>normochromia</b>: normal colour<br>• <b>hypochromia</b>: pale, because of low haemoglobin (as in iron deficiency)<br>• <b>hyperchromia</b>: deeply coloured<br><b>Hypochromic anemia</b> means anaemia with pale cells.
+efe640d6	In iron-deficiency anaemia, the cells are usually hypochromic (pale).
+a90fd289	True; less haemoglobin → less colour. They are usually microcytic too.
+280b57ce	Too many cells
+d61331b8	<b>Polycythemia</b> = an abnormal rise in red cells and thickening of the blood.<br>⟦0⟧<br>• <b>polycythemia vera</b>: an overactive bone marrow making too many cells<br>• <b>erythrocytosis</b>: a rise in red cells that may be normal (for example at high altitude)<br>• <b>erythremia</b> means the same.
+73a49ade	a fall in all blood cells
+f1884d64	a rise in all blood cells
+bc6fcbe8	a fall in platelets only
+f3cccbd6	destruction of red cells
+7ade894e	pan- (all) + cyt/o + -penia. Seen in aplastic anaemia.
+c8184b67	A red cell that is spherical instead of disc-shaped is called a ___.
+230a9e3a	spher/o = sphere; spherocytic anemia is an inherited anaemia.
+0d00808a	Build a word meaning “large cell”
+34c9c847	Spell the term for variation in red cell shape
+ada69d7f	poikil/o (varied) + -cytosis.
+281f40c4	Leukaemia and dyscrasias
+85ef440a	Blood dyscrasia
+edbc49cf	<b>Dyscrasia</b> is a general term for any blood disease.<br>⟦0⟧ = bad, abnormal. This family includes anaemias, leukaemia, myeloma and clotting disorders.
+837137ec	<b>Leukemia</b> = a bone marrow cancer that makes large numbers of <b>immature, abnormal white cells</b>, which crowd out the other cells → anaemia, bleeding and infection.<br>Classification: <b>acute/chronic</b> × <b>myeloid/lymphocytic</b>:<br>⟦0⟧⟦1⟧⟦2⟧
+1e0fea40	Two questions, four leukaemias: are the cells immature or more mature? Do they come from the myeloid or the lymphoid line?
+9357f2a1	The last letter is always L (Leukemia); the first is the speed (Acute/Chronic) and the middle the line (Myelogenous/Lymphocytic). ALL strikes the little ones (children) and CLL the elderly.
+0b1ac662	Abbreviation and type of leukaemia
+ebe12457	acute lymphocytic
+45d77605	chronic lymphocytic
+cdcea4cf	acute myeloid
+d5fe62e5	chronic myeloid
+6a5c9b4b	Confirming the diagnosis
+c4d7b3ad	Leukaemia and most dyscrasias are confirmed by <b>bone marrow aspiration</b> and <b>biopsy</b>: the needle usually enters the marrow through the <b>hip crest</b> (iliac crest).⟦0⟧
+f2f4502d	Bone marrow aspiration lying on the side or front
+9ff845d8	In most patients with which leukaemia is the Philadelphia (Ph) chromosome found?
+ba9292b1	The Philadelphia chromosome is the hallmark of chronic myeloid leukaemia (CML).
+86fb853c	ALL is the commonest childhood cancer and often shows itself with fever, petechiae and bleeding gums.
+6d832974	True; as in the textbook case of a 2-year-old boy with fever, nosebleeds and petechiae. The diagnosis is confirmed by bone marrow aspiration.
+5f4262e4	Myeloma and others
+a5fa5eed	• <b>multiple myeloma</b>: cancer of the bone marrow’s <b>plasma cells</b>; it destroys bone and <b>Bence Jones protein</b> appears in the urine<br>• <b>myelodysplastic syndrome</b> (MDS): faulty marrow growth; too little production of one or more lines<br>• <b>myelofibrosis</b>: bone marrow replaced by fibrous tissue<br>• <b>hairy cell leukemia</b>: the cells have hair-like projections
+4aba0372	Bence Jones protein in the urine is a sign of which disease?
+0a460777	Cancerous plasma cells make immunoglobulin light chains that appear in the urine.
+630f1c8b	In myelofibrosis, the bone marrow is replaced by ___ tissue.
+ea17cc00	Order the diagnostic path for leukaemia
+5ba7e0ee	symptoms: tiredness, fever, bruising and repeated infections
+ab3d3c68	CBC: many immature white cells, low RBCs and platelets
+1273df5d	bone marrow aspiration and biopsy
+6c5e42b8	chemotherapy to reach remission
+c204930b	As in the textbook case of a 22-year-old woman: CBC, bone marrow examination and aggressive chemotherapy.
+ded134b0	Spell the term for cancer of the white blood cells
+0e88f915	leuk/o (white) + -emia (blood condition).
+dc2a4191	Haemostasis and transfusion
+5b62fef8	Clotting
+d7c70c28	Platelets, the clotting cascade, clots, blood groups, transfusion and bleeding
+04058518	Platelets and clotting
+487ee779	Blood groups
+50d75ba4	Transfusion and bleeding
+fabe1b56	Platelets and haemostasis
+9d694385	Haemostasis means blood standing still
+1fe41115	⟦0⟧<br><b>Hemostasis</b> = stopping of bleeding. ⟦1⟧ means standing still or controlling.<br><br>When a vessel is injured:<br>1. the vessel narrows<br>2. <b>platelets</b> stick to the wound and form a <b>platelet plug</b><br>3. the <b>clotting cascade</b> reinforces the plug with fibrin threads⟦2⟧⟦3⟧
+1b3688be	Remember the three steps like fixing a burst pipe: close the tap (vessel narrowing), stick on a patch (platelet plug), let the glue set (fibrin).
+fadf010e	In hemostasis, ⟦0⟧ means…
+29fedd8d	flow
+c8491e82	hem/o + -stasis = stopping blood. Hemostatics are drugs that stop bleeding.
+e8871f20	Platelets in numbers
+06101af9	• Other name: <b>thrombocyte</b> (clot cell)<br>• Normal count: <b>150,000 to 450,000</b> per microlitre<br>• Lifespan: about <b>10 days</b><br>• Origin: fragments of <b>megakaryocytes</b> in the bone marrow⟦0⟧
+cc98c03e	simple view
+e4d2f79e	The normal platelet count is about ___ to 450 thousand per microlitre.
+bf28636b	150 thousand
+7f0d2119	50 thousand
+7637d07f	1 million
+ad25d1ba	Normal PLT: 150,000 to 450,000 /µL.
+ddcf3a09	Word and meaning
+8fe21448	shortage of platelets
+809c3967	rise in platelets
+3e3fa544	relating to platelets
+d96cabb1	stopping of bleeding
+5ea96f95	A severe shortage of platelets can cause tiny bleeding spots under the skin.
+4546b4d4	True; thrombocytopenia comes with petechiae, purpura and ecchymosis.
+8d1d7770	Build a word meaning “a shortage of platelets”
+cf507a84	Which has the shorter lifespan?
+414e48a2	the platelet (about 10 days)
+3b3ec963	the red cell (about 120 days)
+ebeef680	both are the same
+42b3e6cf	neither is ever destroyed
+ab043536	Platelets live about 10 days and red cells about 120 days.
+570841d0	Spell the term for the stopping of bleeding
+3fddd235	From wound to clot
+9879fda4	<b>Coagulation</b> (⟦0⟧ = clotting) is a chain of reactions:<br>1. platelets gather at the injury and release <b>thromboplastin</b><br>2. thromboplastin, with <b>calcium</b> and the plasma <b>clotting factors</b> (12 factors)…<br>3. turns <b>prothrombin</b> into <b>thrombin</b><br>4. thrombin turns <b>fibrinogen</b> into <b>fibrin</b> threads<br>5. the fibrin threads trap cells → a <b>clot</b>⟦1⟧

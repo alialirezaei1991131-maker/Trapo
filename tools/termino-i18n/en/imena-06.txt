@@ -1,0 +1,161 @@
+b6cc7ad8	Order the stages of clotting
+982e2707	platelets gather and release thromboplastin
+5602407d	prothrombin turns into thrombin
+9fa5cd64	fibrinogen turns into fibrin
+aa2ac157	a clot forms
+2c68ba42	Thromboplastin + calcium → thrombin → fibrin → clot.
+dc781562	In this microscope picture, what are the white mesh-like threads trapping the cells?
+b17d0fdb	Fibrin threads form the clot’s mesh and red cells get caught in it.
+7d61c4e8	Which enzyme turns fibrinogen into fibrin?
+08df2f31	Thrombin (made from prothrombin) turns fibrinogen into fibrin.
+68c3820a	To turn prothrombin into thrombin, ___ ions are needed.
+dcb025ba	potassium
+17b15963	Thromboplastin works in the presence of calcium (Ca²⁺).
+c466a0da	Each substance and its role
+2340ffb9	the starter; released from platelets
+5d09c8da	protein precursor in plasma
+86db037a	the clot’s mesh threads
+88e0240d	The body <b>dissolves</b> the clot after the wound heals: <b>plasmin</b> (fibrinolysin) breaks the fibrin threads.<br>⟦0⟧ → <b>fibrinolytic</b> = clot-dissolving.<br>⟦1⟧ = destruction → <b>thrombolysis</b> = breaking down a clot.<br><br><b>Heparin</b> is a natural substance (and a drug) that stops circulating blood from clotting.
+2d9058eb	Heparin inhibits clotting and is an anticoagulant.
+1d598d79	True; it occurs naturally in the body (for example in basophils) and is also used as a drug.
+154c396e	How does serum differ from plasma?
+a1da8438	serum has no fibrinogen or clotting factors
+ccf36cdd	serum contains red cells
+d3e9be30	serum has no water
+e1954992	there is no difference
+eeebb7b7	When blood clots, fibrinogen is used up; the fluid left over is serum.
+a922e309	Build a word meaning “breakdown of a clot”
+96c549d3	A clot in the wrong place
+a48af91a	Thrombus and embolism
+8661da1c	• <b>thrombus</b>: a clot that stays <b>fixed</b> inside a vessel<br>• <b>thrombosis</b>: the condition of clot formation in a vessel<br>• <b>embolus</b> (⟦0⟧ = plug): a clot or mass that <b>moves</b> and blocks somewhere else<br>• <b>embolectomy</b>: surgical removal of an embolus<br><br>If a brain vessel is blocked → <b>stroke</b>.⟦1⟧⟦2⟧
+0f4e482b	fixed: like a car parked in the street
+10ce3054	moving: a car that has set off and blocks the road somewhere else
+44188baa	The commonest scenario: a clot in a deep calf vein (DVT) breaks off and lodges in a lung artery → pulmonary embolism; sudden breathlessness after long immobility.
+7e51878a	What is a clot that has broken loose and travels in the bloodstream called?
+0ca52486	A thrombus is fixed; an embolus moves.
+8c12e337	Word and definition
+e788005f	moving mass in a vessel
+f1fefc5d	removal of an embolus
+f1491ecc	relating to a clot
+1eb8fd7c	Drugs against clots
+2ae33ed7	• <b>anticoagulant</b> (“blood thinner”): <b>prevents</b> clots forming, such as heparin; given before surgery to prevent embolism<br>• <b>thrombolytic</b>: <b>dissolves</b> a clot that has formed<br>• monitoring: <b>PT/INR</b> and <b>PTT (aPTT)</b>
+0c703612	A patient has an acute arterial clot that must be “dissolved”. Which drug group?
+e7401dd5	Anticoagulants prevent new clots; thrombolytics dissolve existing ones.
+905d172a	DIC: clotting and bleeding together
+316525e8	<b>Disseminated intravascular coagulation</b> (DIC):<br><b>widespread</b> tiny clots form in small vessels, the clotting factors and platelets are <b>used up</b>, and then <b>widespread bleeding</b> follows.<br>⟦0⟧ = within, ⟦1⟧ = vessel.
+99b7f668	In DIC, widespread clots come first and then widespread bleeding.
+15d24366	True; the used-up clotting factors cause the later bleeding. Often in severe sepsis.
+ac4c6f08	The word thrombosis means an abnormal condition of ___.
+0b0cf50e	anti- (against) + coagul/o (clotting) + -ant.
+55cd6a7c	ABO blood groups
+2ef2969c	Antigens on the cell, antibodies in the plasma
+8fd715d2	Blood group is set by inherited <b>antigens</b> on the red cell surface (agglutinogens).<br>The plasma has antibodies against the antigen it <b>lacks</b>:⟦0⟧⟦1⟧
+b6ef9763	Antigen on RBCs
+0321166c	Antibody in plasma
+b6b49db6	Textbook table: ABO Blood Types
+a05d64bf	Which antibody is in the plasma of someone with blood group B?
+8814c520	They have the B antigen, so they have antibodies against A.
+ceeb36d4	Universal donor and recipient
+b8ac35c6	• Group <b>O</b> has no A or B antigen → <b>universal donor</b> of red cells<br>• Group <b>AB</b> has no antibodies → <b>universal recipient</b><br><br>In the case of <b>Dianne Love</b>, the doctor ordered <b>2 units of O-negative blood</b> in an emergency.
+aea043f7	Blood group AB is the “universal donor”.
+941b09b2	AB is the universal recipient; the universal donor is O (especially O negative).
+d4b0d604	Agglutination
+eacaa196	If incompatible blood is transfused, antibodies stick to the antigens and the cells <b>clump</b>: <b>agglutination</b> (⟦0⟧ = sticking together). This reaction can be <b>fatal</b>.<br><br>Blood typing works on the same principle: the sample is mixed with <b>antiserum</b>; clumping means that antigen is present.
+e957802b	Blood group and feature
+c1036fee	universal donor
+365c42b4	universal recipient
+3eae9837	anti-B antibodies
+e0bb309c	anti-A antibodies
+317aae54	A blood sample clumps with anti-A antiserum but not with anti-B. Blood group?
+6925fe13	Clumping with anti-A means the A antigen is present; B is absent.
+f9ff813c	Sticking together of cells in an antigen-antibody reaction is called ___.
+5ecf0a0a	agglutin/o = sticking; not to be confused with coagulation (clotting).
+457d5784	Spell the term for clumping of cells together
+f246cd78	The Rh factor
+c9e406c0	Positive or negative
+c51f89ca	The <b>Rh factor</b> (rhesus factor) is another antigen on the red cell:<br>• present → <b>Rh+</b><br>• absent → <b>Rh−</b><br>Most people are Rh positive. An Rh-negative person exposed to Rh-positive blood makes <b>antibodies</b> (anti-D) against it.⟦0⟧
+c43f3b08	The Rh antigen is the D antigen.
+86ca0252	O negative means the red cell lacks which antigens?
+061a9e99	A, B and Rh
+dbe71a1f	A only
+d3a24897	Rh only
+3d378153	B only
+8a29d67c	O = no A or B; negative = no Rh. That is why it is the safest red cell in an emergency.
+20b2e23c	<b>Erythroblastosis fetalis</b> or <b>HDN</b> (hemolytic disease of the newborn):<br>an <b>Rh−</b> mother with an <b>Rh+</b> fetus. At the first delivery the mother makes anti-Rh antibodies; in the next pregnancy these antibodies cross the placenta and <b>haemolyse</b> the fetus’s red cells → severe fetal anaemia.<br>⟦0⟧ → many immature red cells (erythroblasts) in the fetal blood.⟦1⟧⟦2⟧⟦3⟧
+61ac78de	Prevention: an Rh-negative mother is given <b>RhoGAM</b> (anti-D immunoglobulin) at week 28 of pregnancy and within 72 hours of delivery so she never makes antibodies.
+d38b7b98	The risk of erythroblastosis fetalis arises when the mother is Rh positive and the fetus Rh negative.
+78620269	The opposite: an Rh-negative mother and an Rh-positive fetus. The mother’s antibodies attack the fetal cells.
+17e2ecd6	Order the events of HDN
+ccb99598	Rh-negative mother, first fetus Rh positive
+d6a32f00	fetal blood enters the mother’s circulation at delivery
+c43b8736	the mother makes anti-Rh antibodies
+fe34666a	antibodies cross the placenta in the next pregnancy
+e35632e6	the Rh-positive fetus’s cells are haemolysed
+070cf5ac	That is why Rh-negative mothers are given anti-D immunoglobulin after delivery, so they do not become sensitised.
+38a34fdf	The <b>Coombs test</b> (antiglobulin test) finds antibodies stuck to red cells; it is used in <b>Rh incompatibility</b>, HDN and <b>autoimmune haemolytic anaemia</b>.
+2745d8a7	Which test looks for antibodies on the red cells of a newborn with suspected HDN?
+7d3a76b5	The Coombs test shows antibodies attached to RBCs.
+0f2be13c	Abbreviation and meaning
+4a580d75	has the Rh antigen
+0449dd32	lacks the Rh antigen
+fc1ad1dd	the A, B, AB, O blood group system
+d9646d05	Coombs is an ___ test; that is, it looks for antibodies.
+60a0ca62	antiglobulin
+a8ece561	clotting
+03c8d1c7	microbial
+d4ca835b	Its other name is the antiglobulin test.
+062d59c4	Transfusion
+87df17dc	<b>Transfusion</b> = giving blood or its components from a donor to a recipient.<br>⟦0⟧ → “pouring across”.<br>Before transfusion, <b>cross-matching</b> is done: the donor’s cells are mixed with the recipient’s serum to check for an immune reaction.⟦1⟧⟦2⟧
+c8ee4698	Each column is a donor and each row a recipient: ✓ means that donor’s red cells can go to this recipient.
+f82b11f2	O “loves everyone” (gives to all); AB “takes from everyone”. Play with the table once: the O column is all green and the AB row all green.
+f10213b1	What is the aim of cross-matching before a transfusion?
+94e88d57	checking donor and recipient blood are compatible
+411c3e43	counting platelets
+74724557	measuring the clotting time
+c2d24605	diagnosing HIV infection
+a5b35820	The donor’s cells are mixed with the recipient’s serum; clumping means incompatibility.
+fd1eaf7f	One’s own blood or another’s?
+53e8d971	• <b>autologous</b> (⟦0⟧ = self): the <b>patient’s own</b> blood, collected and stored a few weeks before surgery<br>• <b>homologous</b> (⟦1⟧ = same): blood from <b>another person</b> of the same species (human)<br><br>In <b>Lisa’s</b> case (liver laceration): autotransfusion of washed blood, then homologous blood, FFP and platelets.
+7352928b	Type of transfusion
+96b42f25	the patient’s own blood
+6b35398b	another donor’s blood
+9bcdf4a9	compatibility test
+4992d4d8	RBC destruction in a mismatched transfusion
+fc6797ce	Blood products
+23e366f4	Product
+66787947	PRBC (packed red cells)
+4f42bba3	severe anaemia, bleeding
+82449f35	FFP (fresh frozen plasma)
+c76a2fed	replacing clotting factors
+161ff758	thrombocytopenia, bleeding
+0b9fe7ea	fibrinogen and factor VIII; from chilling plasma
+c573176b	Which product is obtained by freezing and then slowly thawing plasma, and is rich in fibrinogen?
+f22799b9	cry/o = cold + precipitate = deposit.
+7ebbd1fd	Apheresis
+48a36263	⟦0⟧ = separating and removing.<br>• <b>apheresis</b>: blood is drawn, one component separated and the rest returned to the body<br>• <b>plasmapheresis</b>: removing <b>plasma</b> and returning the formed elements (for example to clear harmful antibodies)
+b1a6d3e4	In plasmapheresis, the red cells are removed and the plasma returned to the patient.
+6d550db5	The opposite: the plasma is removed and the formed elements returned.
+97062f2f	Build a word meaning “separation of plasma”
+508b5148	Spell the term for giving blood from a donor to a recipient
+051fb132	Bleeding
+58155837	⟦0⟧ or ⟦1⟧ = bursting forth (heavy bleeding).<br>• <b>hemorrhage</b>: bleeding from a vessel<br>• <b>hemorrhagic anemia</b>: anaemia caused by bleeding<br>• <b>splenorrhagia</b>: bleeding from the spleen<br>• <b>antihemorrhagic</b>: preventing bleeding
+899dcdb2	Blood under the skin
+b26cdec0	tiny flat purple-red dots
+c453b1b8	larger purple patches
+208eb32e	widespread bruising (black-and-blue)
+feff0e7b	collection of blood under the skin or in tissue; raised
+1b63f574	from small to large: dot, patch, bruise, lump
+3b30d189	In order of size: <b>P</b>etechiae → <b>P</b>urpura → <b>E</b>cchymosis → <b>H</b>ematoma; “P-P-E-H”, from pinhead to egg.
+bc580d16	Tiny, flat purple dots on the skin caused by capillary bleeding?
+39750cd1	Petechiae are the smallest and ecchymosis the most widespread.
+fa3bc037	widespread bruising
+ee50e80c	blood collected in tissue
+ffe7c743	purple patches
+f87984e7	bleeding from a vessel
+dd974dd6	Order the skin bleeds from smallest to largest
+73e41012	Dot → patch → widespread bruise.
+44143d1a	Immune and thrombotic purpuras
+05908c35	• <b>ITP</b> (idiopathic thrombocytopenic purpura): destruction of platelets, often after a viral infection; ⟦0⟧ = of unknown cause<br>• <b>TTP</b> (thrombotic thrombocytopenic purpura): many clots in small vessels that use up platelets; often fatal
+f77f8a55	In ITP, the word idiopathic means…
+37f2e65c	drug-induced
+8354b31f	idi/o = one’s own, path/o = disease; a disease without a known cause.

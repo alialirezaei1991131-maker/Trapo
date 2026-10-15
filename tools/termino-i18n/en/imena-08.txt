@@ -1,0 +1,162 @@
+1f70177c	In this microscope section of the spleen, what are the round dark islands packed with lymphocytes called?
+18e30cc2	White pulp is the spleen’s lymphatic tissue and red pulp is where red cells are filtered; that is why the spleen resembles a large lymph node.
+0c70177c	In infectious mononucleosis the spleen may enlarge (splenomegaly).
+7cfaf28d	True; that is why these patients are advised to avoid contact sports.
+e6b97cf7	Build a word meaning “enlargement of the spleen”
+64a0e4f2	In the case of the 36-year-old businessman with splenic lymphoma, a ___ was performed.
+2c4f1457	MRI showed an enlarged spleen and a 3 cm tumour; after biopsy, the spleen was removed.
+3754604f	Spell the term for the blood-filtering organ in the upper left abdomen
+bb80ba58	splen/o = spleen.
+5997ee6a	The school of T lymphocytes
+c50fbc26	The <b>thymus</b> is a gland in the <b>mediastinum</b> (behind the breastbone, near the heart). Its hormone <b>thymosin</b> turns lymphocytes into <b>T lymphocytes</b>; the T comes from Thymus.<br>The thymus is large and active in childhood and shrinks after puberty.⟦0⟧
+3856331a	Shape of the thymus
+8c990c26	thymus above the heart
+6b1fdfc5	What is the thymus hormone called?
+cb76f03c	Thymosin; not to be confused with thyroxine (the thyroid hormone).
+c1d31984	tumour of the thymus
+fed19f4c	inflammation of the thymus
+cec1c1b0	removal of the thymus
+e58e7b71	relating to the thymus
+b23dd8ac	The T in “T lymphocyte” comes from the name thymus.
+5b966a83	True; and B from Bone marrow.
+ecdd4a3a	The thymus and disease
+94b61854	• <b>thymoma</b>: a tumour of the thymus; sometimes linked with the autoimmune disease myasthenia gravis and treated by <b>thymectomy</b><br>• <b>thymitis</b>: inflammation of the thymus<br>Do not mix up ⟦0⟧ with ⟦1⟧ (thyroid).
+95f6d9c7	The thymus lies in the ___.
+ea2bb944	mediastinum (chest)
+9d608a9c	neck behind the larynx
+e016f84b	Behind the breastbone and above the heart.
+ac76c745	Where do T lymphocytes mature?
+8bf9d865	Lymphocytes are made in the bone marrow; T cells go to the thymus to mature.
+a163daf0	Spell the term for the chest gland that trains T cells
+ad8a154d	thym/o = thymus.
+09642d5a	Tonsils and lymphoid tissue
+f5758997	Three pairs of tonsils
+b9658492	The <b>tonsils</b> are masses of lymphatic tissue in the throat that filter germs from air and food:<br>• <b>palatine tonsils</b>: the ordinary “tonsils” on both sides of the throat<br>• <b>pharyngeal tonsils</b> = <b>adenoids</b>: behind the nose<br>• <b>lingual tonsils</b>: at the back of the tongue⟦0⟧
+5faeb011	Shape of a tonsil: a mass of lymphatic tissue
+8a4672a5	Tonsil and location
+3fcbe834	both sides of the throat
+1847c677	behind the nose (adenoids)
+f2147fd9	back of the tongue
+b0b67f69	wall of the small intestine
+af584023	The adenoids are which tonsils?
+52978174	adenoids = the pharyngeal tonsils behind the nose.
+153c8dc2	Lymphoid tissue in the gut
+c186c865	<b>Lymphoid tissue</b> (⟦0⟧ = resembling) is not only in the nodes:<br>• <b>Peyer patches</b>: lymphatic masses in the wall of the <b>small intestine</b><br>• <b>appendix</b>: a small pouch attached to the large intestine that contains lymphatic tissue<br>These are a defence line against swallowed germs.⟦1⟧
+88a8f174	Lymphatic organs: tonsil (guarding the throat), spleen, thymus, lymph node and lymphatic vessel
+e2fa037e	Peyer patches lie in the wall of the large intestine.
+9708b873	Peyer patches are in the small intestine; the appendix is attached to the large intestine.
+6adcb519	Tonsil words
+3024bd37	⟦0⟧ (with two l’s):<br>• <b>tonsillitis</b>: inflammation of the tonsils<br>• <b>tonsillectomy</b>: removal of the tonsils<br>• <b>tonsillar</b>: relating to the tonsils<br>⟦1⟧ = adenoid → adenoidectomy
+fcf8ed91	Build a word meaning “inflammation of the tonsils”
+364950e4	The root tonsill/o has two l’s.
+e62b08d5	The word lymphoid means ___ lymph.
+7606e2cb	-oid = resembling.
+3ff5fcb9	Spell the term for removal of the tonsils
+f66705f8	Oedema and blockage
+6c6d869e	When lymph cannot find its way
+3950e48a	If lymph vessels or nodes are <b>blocked</b> or removed, fluid collects in the tissue:<br>• <b>edema</b>: water collecting in tissue<br>• <b>lymphedema</b> (⟦0⟧ = swelling): local swelling from trapped lymph; for example in the arm after armpit nodes are removed in breast cancer surgery⟦1⟧
+f253528b	Lymphoedema of the right lower limb
+9d294222	After removal of her armpit nodes, a woman has developed chronic swelling of the arm. Most likely term?
+f76ba250	Removing nodes disrupts lymph flow → lymphedema.
+59626c75	Elephantiasis
+1120cc76	<b>Elephantiasis</b>: a lymphatic disease caused by the <b>filaria parasite</b> (a threadworm) blocking the lymph vessels → severe swelling and thickening of the skin, especially in the legs.
+0154995d	Which term best describes the chronic one-sided swelling of the right leg in this picture?
+8dedf4c8	Lymph collecting in tissue because vessels and nodes are blocked or removed.
+d0a6e1bd	Elephantiasis is caused by a parasitic worm (filaria).
+4e2b6aae	True; the worms block the lymph vessels.
+74ef3bb8	water collecting in tissue
+bf0ed430	swelling from trapped lymph
+3cc44a5a	parasitic lymphatic blockage
+dfc3b7ac	inflammation of a lymph vessel
+985e5f1a	Proteins and oedema
+93709685	Plasma proteins, especially <b>albumin</b>, hold water inside the vessels. If too much water leaves the blood and the lymph cannot return it, oedema develops. By removing fluid from the capillary bed, the lymphatic system <b>reduces oedema</b>.
+2862ad23	Build a word meaning “lymphatic swelling”
+e94ed614	Low plasma albumin can cause ___.
+0f3795ff	oedema
+da0bffdb	thrombosis
+5448c886	Low albumin → water moves from the vessels into the tissue.
+8f725755	How does angioedema differ from lymphedema?
+a274cbd8	angioedema is allergic swelling under the skin; lymphoedema comes from disrupted lymph flow
+2a9902a2	angioedema occurs only in the spleen
+6f83b005	lymphoedema is always allergic
+44a488c9	Angioedema is like deep hives and belongs to the world of immunity and allergy.
+5afddfbb	Lymphomas
+02c7ddb5	Lymphoma means cancer of lymphatic tissue
+b888e7c6	<b>Lymphoma</b> (⟦0⟧ = tumour) is a cancer that starts from lymphocytes in lymphatic tissue. Two large groups:<br>• <b>Hodgkin lymphoma</b> (HD): with giant <b>Reed-Sternberg</b> cells in the nodes<br>• <b>non-Hodgkin lymphoma</b> (NHL): over 20 types without Reed-Sternberg cells; commoner and mostly in older people⟦1⟧
+59baf15c	Under the microscope a Reed-Sternberg cell looks like <b>owl eyes</b>: two large nuclei with big nucleoli. Spot the owl → Hodgkin.
+6d04e277	What is the microscopic hallmark of Hodgkin lymphoma?
+d03ddc52	Reed-Sternberg cells
+1e5dc1ed	Bence Jones protein
+c7bec185	sickle-shaped red cells
+9edf255d	Giant multinucleated Reed-Sternberg cells.
+72ae5cfb	Reed-Sternberg cell
+fccc9ae1	over 20 types, no Reed-Sternberg cells
+c45ec38f	Other types
+2f804c10	• <b>lymphocytic lymphoma</b>: malignant cells resembling large lymphocytes<br>• <b>histiocytic lymphoma</b>: malignant cells resembling large macrophages (histiocytes)<br>• <b>thymoma</b>: tumour of the thymus<br><b>Metastasis</b> means the spread of cancer to another place; the lymph nodes are a major route of metastasis.
+732a2f7e	Non-Hodgkin lymphoma is a single type of disease.
+2a83ba90	NHL is a group of more than 20 types of lymphoma.
+b0e86a82	A cancer has spread from one place to another. The correct term?
+9f67a1bd	meta- (beyond) + -stasis (placing).
+88a721c9	Lymphoma means a ___ of lymphatic tissue.
+8324c622	-oma = tumour.
+a3883a5f	Order the diagnostic path for lymphoma in the case of the 36-year-old businessman
+927eedb5	tiredness and a feeling of abdominal fullness
+6de83022	MRI: enlarged spleen and a 3 cm tumour
+85d73f8d	biopsy of the splenic tumour
+b0a45157	splenectomy and referral for chemotherapy
+e8d67053	Diagnosis: non-Hodgkin lymphoma of the spleen.
+d5d4cde6	Spell the term for cancer of lymphatic tissue
+a10bf1b8	Imaging and surgery
+6c79f590	-graphy or -gram?
+50258cde	• ⟦0⟧ = the <b>process</b> of recording images → <b>lymphangiography</b>: X-ray of the lymph vessels and nodes after a contrast injection<br>• ⟦1⟧ = the recorded <b>image</b> → <b>lymphangiogram</b><br>• <b>lymphography</b>: viewing the lymph vessels and nodes by X-ray after a contrast injection (usually an iodised oil)⟦2⟧
+679320b0	Lymphangiogram of the lymph vessels and nodes of the pelvis
+87db8fa5	What is the image produced by lymphangiography called?
+312ad06f	-gram is the image and -graphy the process.
+5ef60f11	⟦0⟧ = spark, flash. In <b>lymphoscintigraphy</b> a <b>radioactive</b> substance is injected and a gamma camera records the lymph vessels and nodes; used to find <b>metastasis</b>, lymphoedema or node blockage.
+9123ecf9	Lymphoscintigraphy uses a radioactive substance.
+97572235	True; it is nuclear medicine imaging.
+e4516099	Suffix and meaning
+3b30bd32	Lymphatic surgery
+708b2763	• <b>lymphadenectomy</b>: removal of a lymph node<br>• <b>lymph node dissection</b>: removing cancerous nodes for microscopic examination<br>• <b>lymphadenotomy</b>: incision of a node<br>• <b>splenectomy</b>, <b>thymectomy</b>, <b>tonsillectomy</b>⟦0⟧
+3accf93b	Surgical view: lymph enters a node through the lymph vessels and leaves it.
+84a7d584	What is removing cancerous nodes for examination under the microscope called?
+66797081	dissection = separating and removing for examination.
+7b58691a	Build a word meaning “recording images of the lymph vessels”
+793f288e	The word lymphadenotomy means ___ of a lymph node.
+7f24d638	Spell the term for removal of a lymph node
+19576cb0	Innate defence, lymphocytes, antibodies, allergy, autoimmunity and HIV
+4bcfeec4	Lymphocytes and antibodies
+f8aab9a1	Allergy, autoimmunity and immunodeficiency
+45912dfa	Innate shields
+1505e952	Immunity means protection
+9998a9af	⟦0⟧ = immunity, protection. <b>Immunity</b> is the body’s state of protection against disease and <b>immunology</b> its study.<br><br>There are two layers of defence:<br>• <b>natural (innate) immunity</b>: inborn and <b>non-specific</b><br>• <b>acquired (adaptive) immunity</b>: acquired and <b>specific</b>; it has memory⟦1⟧
+37cd360b	Innate defences
+3209cfcc	Innate defence is present from birth and treats every invader the same:<br>• <b>intact skin</b>, <b>mucosa</b> and <b>cilia</b><br>• antibacterial secretions (such as tears and stomach acid) and reflexes (coughing, sneezing)<br>• <b>phagocytes</b> (neutrophils, macrophages)<br>• <b>NK cells</b> (natural killer), <b>complement</b> and <b>inflammation</b>⟦0⟧
+9c1a99d4	Innate defence is like a castle’s walls and guards: the same for everyone and always ready, but it never remembers a face. Acquired defence is the detective squad that keeps a file on every criminal.
+7aaa8151	Which of these is part of innate (non-specific) immunity?
+918ed820	intact skin and airway cilia
+56e2e45f	antibodies after a vaccine
+c98453f3	memory T cells
+994acb5b	injected gamma globulin
+8bf31b9a	Skin, mucosa, cilia and phagocytes act without any prior acquaintance.
+191dfa8e	Defence and its type
+d509ae5f	skin and mucosa
+135da851	innate physical barrier
+ff886ba8	plasma enzymes working with antibodies
+596ffbdf	vaccine response
+3b1d37a4	Innate immunity has memory and acts faster the second time.
+33041064	Memory is a feature of acquired immunity (B and T lymphocytes).
+7967a2db	Pathogen and antigen
+9a8c3392	• <b>pathogen</b> (⟦0⟧ = disease + ⟦1⟧ = producer): any disease-causing microorganism or substance<br>• <b>antigen</b>: a foreign substance that triggers the immune system to make antibodies<br>• <b>immunogen</b>: any substance that produces an immune response
+ca119c53	Build a word meaning “disease-producing”
+bf30dc88	The study of the immune system is called ___.
+444e1f8f	Spell the term for the body’s protected state against disease
+d8aee3f2	Eating and inflammation
+30f8d344	Phagocytosis
+aea2f997	⟦0⟧<br><b>Phagocytosis</b> = a cell engulfing and digesting particles and germs.<br>• <b>phagocyte</b>: an eating cell<br>• <b>macrophage</b> (⟦1⟧ large + ⟦2⟧ eater): a monocyte that has moved into tissue<br>• <b>microphage</b>: a small eater; the neutrophil⟦3⟧⟦4⟧
+75c7b734	A macrophage (purple) catching bacteria (green rods)
+2db741e7	phag/o = eating. A macrophage is the “big glutton”: the monocyte that moved into tissue and grew into a giant.
+120f24f7	Which white cell gives rise to the macrophage?
+1ec51e94	After entering tissue the monocyte grows and is called a macrophage.
+ea6db892	What process is the purple cell in this picture carrying out?
+abfde710	The macrophage catches and swallows bacteria: phag/o (eating) + -cytosis.

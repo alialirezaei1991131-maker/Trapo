@@ -1,0 +1,187 @@
+632f08bf	auto- = self; autologous blood is the patient’s own blood.
+fcfd5511	⟦0⟧ is a red cell that is larger than usual.
+6997c51d	macro- (large) + -cyte (cell). In B12 and folate deficiency anaemia the cells become large.
+25cc2fab	In polycythemia, the prefix ___ means “many”.
+d9a33ebf	poly- = many: polycythemia means too many red cells in the blood.
+8dca68bf	In which word does the prefix mean “within”?
+7c8baec1	intra- = within: intravenous means within a vein. inter- (between) is in interstitial: the fluid “between” cells.
+f22a6dc2	Build a word meaning “a deficiency of all cells”
+cecb1f8f	pan- (all) + cyt/o (cell) + -penia (deficiency) = pancytopenia.
+34393554	Words have colours too
+056343d0	Many blood names are the colour of what was seen under the microscope:⟦0⟧⟦1⟧
+a5e5b730	rosy
+5240e5a1	The country name Eritrea comes from this same Greek ⟦0⟧: the land beside the <b>Red Sea</b>.
+aecdca5c	What sign is ⟦0⟧?
+7b1d7d2f	bluish skin and lips from lack of oxygen
+83dcf238	yellowing of the skin
+9966df3a	redness and inflammation of the skin
+6f4a7b9e	blackening of a nail
+06536532	cyan/o (blue) + -osis (condition): a blue-grey skin colour when haemoglobin lacks oxygen.
+c8fe3f2a	Cell colour with -chromic
+80c1eb1d	⟦0⟧ = colour. In a blood smear report, the colour of the red cells shows the amount of <b>haemoglobin</b>:<br>• <b>normochromic</b>: normal colour<br>• <b>hypochromic</b>: pale (low haemoglobin)<br>⟦1⟧
+a33941fe	“Hypochromic microcytic” means small, pale cells; the first thought is iron-deficiency anaemia. “Normochromic normocytic” is seen in acute bleeding and anaemia of chronic disease.
+a0bac7b4	Smear report: “hypochromic, microcytic”. What is the first likely diagnosis?
+55f135b8	iron-deficiency anaemia
+8b00f566	B12-deficiency anaemia
+d16adb76	acute leukaemia
+078ac2d6	polycythaemia
+0a23cb7b	Small, pale cells = less haemoglobin per cell; the commonest cause is iron deficiency. B12 deficiency makes large (macrocytic) cells.
+16aac283	30-year-old woman, tiredness and pallor
+89fcc259	Blood smear
+3f070655	hypochromic, microcytic
+b7b7b772	⟦0⟧ means “white cell”.
+fe8aacb8	leuk/o (white) + -cyte (cell): white blood cell.
+cbc76979	In eosinophil, the root eosin/o means ___.
+327ca51f	eosin/o = rosy (the colour of dawn); its granules turn red-orange with the acidic dye eosin.
+4354f1dd	Build a word meaning “a shortage of white cells”
+f9c6b0ec	leuk/o (white) + -penia (deficiency) = leukopenia.
+cf3ff34a	Spell the term for a red blood cell
+7f7d0587	erythr/o + -cyte = erythrocyte; watch the y after the r.
+d7fa95ca	Too few or too many?
+94c6ae72	Two common blood suffixes are exact opposites:⟦0⟧⟦1⟧
+06193d61	deficiency: leukopenia, thrombocytopenia
+b98775d5	increase in cells: leukocytosis, thrombocytosis
+faf0f4f9	Remember ⟦0⟧ through “penny”, the smallest coin: <b>too little</b>!
+60b4008a	clot in a vein
+275d452e	inflammation of platelets
+97d1e513	thromb/o (clot, platelet) + -cytosis (increase in cells). A fall in platelets is thrombocytopenia.
+bd56a484	Four ever-present suffixes
+11d9a116	A famous trap: although ⟦0⟧ ends in -oma, it is <b>not a tumour</b>; it is a local collection of blood (a raised bruise).
+a9cebb0c	⟦0⟧ is a type of blood cancer.
+43cb9e0d	False. A hematoma is a mass of clotted blood outside a vessel; here -oma just means “mass”. Blood cancer is leukemia.
+db866018	breakdown, destruction
+7a04c507	-emia: the “blood” scene
+1ba11346	⟦0⟧ means a <b>blood condition</b>; wherever you see it, the problem is in the blood:<br>• <b>anemia</b>: an- (without) → a shortage of red cells or haemoglobin<br>• <b>leukemia</b>: cancer of the white cells<br>• <b>septicemia</b>: infection (bacteria and their toxins) in the blood<br>• <b>hyperlipidemia</b>: too much fat in the blood⟦1⟧
+3209a8c4	Picture -emia as yellow crime-scene tape: in any word that has it, the crime happened in the “blood”.
+571be13d	Septicemia means infection is present in the ___.
+a43b4b64	septic/o (infection) + -emia (blood condition).
+a774a28d	inflammation of the spleen
+ca17e21a	tumour of the spleen
+99df5d97	splen/o (spleen) + -megaly (enlargement). Inflammation = splenitis, removal = splenectomy.
+0a26ed33	Build a word meaning “disease of the lymph nodes”
+4ce4fa55	lymphaden/o (lymph node) + -pathy (disease) = lymphadenopathy; usually used for enlarged nodes.
+d34925f3	Procedure and surgery suffixes
+ca566391	Cutting or removing?
+4a957fe0	The two surgical suffixes most often mixed up:⟦0⟧⟦1⟧
+e40578a4	cutting into: lymphadenotomy (incision of a node)
+4bf4bd5e	removal: splenectomy (removal of the spleen)
+a28bbac1	⟦0⟧ is Greek for “out”: ⟦1⟧ = cut and <b>take out</b>. Without ec it is just a cut.
+8e99b440	incision of the tonsils
+5a31ed26	enlargement of the tonsils
+3411bda6	tonsill/o (tonsil) + -ectomy (removal). Note: tonsil has one l, but tonsillectomy has two.
+8e7b1118	Film or photo?
+5b29f8cb	imaging process: lymphangiography
+fef5783f	recorded image: lymphangiogram
+b3c1e2c1	-graphy is like “filming” (the work in progress); -gram is like “a printed photo” (the final result).
+f031d690	imaging process
+ebd6e0eb	⟦0⟧ is the name of the process of imaging the lymph vessels.
+b0dc6ccf	False. The process is lymphangiography; a lymphangiogram is the image it produces.
+8e114ae7	Treatment and separation
+d95079ac	• ⟦0⟧ = treatment: <b>chemotherapy</b> (drugs), <b>radiotherapy</b> (radiation), <b>immunotherapy</b> (boosting or steering immunity)<br>• ⟦1⟧ = separation and removal: blood passes through a machine, one component is removed and the rest returned<br>⟦2⟧ → <b>plasmapheresis</b>⟦3⟧
+37092838	In plateletpheresis the donor gives only platelets and gets their red cells back, so they can donate again sooner.
+6c5c63d6	In plasmapheresis, ___ is separated from the blood and the rest is returned to the patient.
+e9a73569	plasm/o (plasma) + -apheresis (separation).
+b4e94375	Which word means “suturing the spleen”?
+1e4a276e	splen/o + -rrhaphy (suture). For example, for a spleen torn in an accident, if it can be saved.
+4ea2e64c	Build a word meaning “removal of the thymus”
+b297fb39	thym/o (thymus) + -ectomy (removal) = thymectomy; for example in thymoma and myasthenia gravis.
+b9621c91	Spell the term for removal of the spleen
+601eae6f	splen/o + -ectomy; the o is dropped because -ectomy starts with a vowel.
+10ed4625	A body map in words
+39ef721d	Body-location roots
+9f811c20	These roots tell you <b>where</b> things happen:⟦0⟧⟦1⟧
+ffeb8be2	Regional lymph nodes: cervical, axillary, mediastinal and inguinal
+d2aa50cb	Where are the “inguinal” lymph nodes?
+11256e3f	in the middle of the chest
+50048d7d	inguin/o = groin. The armpit is axillary and the neck cervical.
+bbb98c13	Match each root to its place in the body
+10a4f063	One root, two places: myel/o
+313820b7	⟦0⟧ has two meanings: <b>bone marrow</b> and <b>spinal cord</b> (both are the “marrow” inside bone).<br>• In blood: <b>myeloid</b>, <b>myeloma</b>, <b>myelogenous leukemia</b> → bone marrow<br>• In the nervous system: <b>myelitis</b>, poliomyelitis → spinal cord⟦1⟧
+6737f460	In the world of blood, myel/o almost always means bone marrow. Do not mix it up with ⟦0⟧ (muscle, as in myalgia).
+60618657	In the word ⟦0⟧, the root myel/o refers to the bone marrow.
+f1be9b7b	True. Multiple myeloma is a cancer of plasma cells in the bone marrow.
+3df36b2e	On the ward, ⟦0⟧ means…
+9c64ae28	drawing blood from a vein
+457d576e	removal of a lymph node
+e8a71eff	blood transfusion
+48eac1e6	phleb/o (vein) + -tomy (cutting, puncturing): drawing blood; inflammation of a vein is phlebitis.
+0a615a56	“Cervical” lymphadenopathy means enlarged nodes in the ___ region.
+6ff79752	cervic/o = neck (in women the cervix is also the “neck” of the womb).
+ce52c9dd	Build a word meaning “enlargement of the liver”
+7326e197	hepat/o (liver) + -megaly (enlargement) = hepatomegaly; seen with splenomegaly in leukaemia and lymphoma.
+2cab7e19	Latin singular and plural
+3e0c90d9	Greek and Latin words form their plurals by their own rules:⟦0⟧⟦1⟧
+90d9721a	Plural ending
+59150d20	“US” goes, “I” comes: ⟦0⟧, ⟦1⟧. As if “us” turned into lots of “I”s!
+a0d06f20	-us → -i: thrombus → thrombi, embolus → emboli, nucleus → nuclei.
+11b15682	• ⟦0⟧ (pe-TEE-kee-ee) is almost always used in the plural, because bleeding spots rarely come alone.<br>• ⟦1⟧ is itself plural; “one bacterium” = <b>bacterium</b>.<br>• The plural of ⟦2⟧ has two forms: ⟦3⟧ (common) or ⟦4⟧ (classical).⟦5⟧
+aaa5bb54	An examination report reads: “scattered petechiae on both legs”: scattered spots on both shins; a sign of low platelets.
+b2c6c6f1	⟦0⟧ is the singular form and its plural is bacterias.
+efe4723b	False. bacterium is singular and bacteria plural (-um → -a).
+a512f7dc	The plural of nucleus is ___.
+b1e09a2f	-us → -i. A neutrophil has a nucleus in several lobes; a lymphocyte has one round nucleus.
+bef28438	-is → -es: diagnosis → diagnoses, prognosis → prognoses, metastasis → metastases.
+1ba41a94	Write the plural of embolus
+2556ff57	Write the plural of petechia
+1cf598d4	Pronunciation and spelling
+755d79d5	Letters that lie
+30667db7	In Greek words, some letters are not pronounced the way they are written:⟦0⟧
+ae38753c	Written
+5bb2f0c8	f
+f70dea2a	 (FAG-oh-site)
+6e796ea4	 at the start
+1c7dbe3a	n (silent p)
+4edb50d3	s (silent p)
+d8c018d3	z
+456fa443	r (silent h)
+814ebd7f	What sound does ⟦0⟧ start with?
+3f7feaa8	p
+ee8b57b1	p-h
+4c55424d	ph in Greek words is read as “f”: FAG-oh-site.
+d5fca281	In ⟦0⟧, the letter p is not pronounced.
+b1418365	True; “noo-MOH-nee-a”. pn- and ps- at the start of a word have a silent p.
+7141cd37	Match each spelling to its sound
+178a13dd	n
+ce12bd8c	High-risk spellings
+b439c54e	These cause the most mistakes in exams and charts:<br>• ⟦0⟧: one m, two r’s and one h → h-e-m-o-<b>rrh</b>-a-g-e<br>• ⟦1⟧ in American; ⟦2⟧ in British<br>• ⟦3⟧ and ⟦4⟧ in American; ⟦5⟧ and ⟦6⟧ in British⟦7⟧⟦8⟧
+9fd4cff2	For rrh think “rushing out hard”: two r’s and an h spurting out like a fountain (-rrhage = bursting forth of blood).
+62894dc3	British books use ae and oe (haemoglobin, oedema); both are correct, but pick one within a text.
+c2a2a8a0	Which is the correct spelling of the word for heavy bleeding?
+d8dc4cda	-rrhage with two r’s and one h: hemo + rrhage.
+74210d64	⟦0⟧ is read “R-H”, but in ⟦1⟧ the h is ___.
+b2e61b50	silent
+227b813e	doubled
+c28019e3	like “kh”
+c0813c61	In the middle of Greek words, rh is read simply as “r”.
+fd7f24d4	Spell the term for heavy bleeding
+092c08ed	hem/o + -rrhage; two r’s and one h.
+7b1edc24	Spell the term for infection and inflammation of the lungs
+e973de0b	It starts with pn; the p is silent.
+88df11ed	Some words differ by only a letter or two but mean something completely different:⟦0⟧⟦1⟧⟦2⟧
+e0d9e822	lymph node → lymphadenitis: inflammation of a node
+c43a0b9a	lymph vessel → lymphangitis: inflammation of a vessel
+e212e5ba	the process of making → erythropoiesis
+0f876658	the making substance (hormone) → erythropoietin
+be6530ad	⟦0⟧ = “gland” (a node looks like a gland); ⟦1⟧ = “tube”. A node is a ball, a vessel a tube.
+28bc0f43	Red streaks under the skin of the forearm after a hand wound mean inflamed lymph vessels. What is it called?
+b3332054	lymphangi/o (lymph vessel) + -itis. If the armpit node becomes swollen and painful, it is lymphadenitis.
+ca67a5c3	40-year-old gardener
+85aa0435	infected finger wound for 2 days
+a00ef097	painful red streaks on the forearm
+8c77955d	Three confusing blood pairs
+709d3333	liquid part of unclotted blood; contains fibrinogen
+0602a72f	fluid left after clotting; no fibrinogen
+eb50c607	foreign molecule that triggers immunity
+5f5aeb01	Y-shaped protein the body makes against an antigen
+65ba5a12	a clot that stays where it formed
+7793b7b4	a clot or mass travelling in the bloodstream
+29e3ca29	Match each word to its correct meaning
+b514d89f	fluid after clotting
+28284e41	blood fluid with fibrinogen
+cce6d52d	travelling clot
+dbdfd2e4	An antigen is a protein made by plasma cells.
+c7f69599	False; that is the definition of an antibody. An antigen (antibody generator) is what triggers antibody production.
+80e12930	Which word means “clumping and sticking together of blood cells” (not clotting)?
+6b44ad9e	agglutin/o = sticking together; it happens in blood group incompatibility. Coagulation is clot formation with fibrin.
+62e433ce	The kidney makes the hormone ___, which drives the bone marrow to make red cells.
+45c67131	-poietin = the making substance; -poiesis is the process of making itself.

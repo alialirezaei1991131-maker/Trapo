@@ -1,0 +1,161 @@
+7c1a6ffa	What is the difference between ⟦0⟧ and ⟦1⟧?
+86f0ee3f	the first is the process and the second its adjective
+72eaebba	the first is an adjective and the second a disease
+4501f7fb	both mean bleeding
+a6855431	the second means making blood
+8a5fa27a	-lysis is the noun (breakdown) and -lytic the adjective (relating to breakdown): hemolytic anemia = anaemia caused by haemolysis.
+ea693ae7	Build a word meaning “inflammation of a lymph node”
+4dc4cddd	Blood and cells
+293c6280	Blood roots, plasma, blood cells, blood formation and blood diseases
+8687584c	Components of blood
+fce463c8	Blood cells and blood formation
+cf08af1c	Blood diseases
+cca93d3a	The hem family
+5e787653	Three roots for one blood
+28bd1611	In the language-of-medicine world you met the parts; now on to the blood roots. There are three roots for “blood”:<br>• ⟦0⟧ and ⟦1⟧ (Greek): <b>hemoglobin</b>, <b>hematology</b><br>• ⟦2⟧ (Latin): <b>sanguineous</b> = bloody, containing blood⟦3⟧
+369bf89b	In everyday English ⟦0⟧ means “optimistic and lively”, because old medicine thought “full-blooded” people were cheerful: the sanguine temperament of the four humours!
+b8434d6f	Which root does not mean “blood”?
+40eaad9b	cyt/o means cell; the other three all mean blood.
+f280f517	Start of the word or end of the word?
+b9024518	Where “blood” sits in a word changes its role:⟦0⟧⟦1⟧
+396d491f	at the start: blood is the “subject” → hemolysis, hematopoiesis
+1b07d673	at the end: a “blood condition” → anemia, leukemia
+34ae88e2	⟦0⟧ literally means “without blood”, but clinically it means a shortage of <b>red cells or haemoglobin</b>; an anaemic patient’s blood volume may be normal.
+d0d61fd5	iron-containing protein of red cells
+422c65a9	stopping of bleeding
+7d742507	making blood cells
+0a20f086	Haematocrit: separate the blood
+fffd85a1	⟦0⟧ → ⟦1⟧ means “to separate”.<br><b>Hematocrit</b> (Hct) is the percentage of blood volume taken up by the settled red cells after centrifuging (about 37 to 52%).⟦2⟧
+b530696f	Rule of thumb: the haematocrit is about <b>three times</b> the haemoglobin. Hgb = 14 → Hct about 42%.
+ea632a6d	A haematocrit of 42% means red cells make up 42% of the blood volume.
+08c6b225	True; hemat/o (blood) + -crit (to separate): the volume share of packed red cells.
+8f911c94	Hemostasis means ___ of blood (bleeding stopping).
+8c501850	destruction
+5904c029	hem/o + -stasis (stopping, controlling). Making blood is hematopoiesis and destroying it hemolysis.
+9a8730bc	Which part of the blood is the result “Hgb = 9 g/dL” about?
+3f3d2386	the oxygen-carrying protein in red cells
+00701f19	the number of white cells
+0eee66dd	the clotting time
+09d8dff5	the percentage of plasma
+1b957eec	Hgb or Hb = hemoglobin; about 12 to 18 g/dL is normal, so 9 means anaemia.
+b5fb0932	65-year-old man, tiredness
+ce3d4991	Build a word meaning “destruction of red cells (blood)”
+263c54b5	hem/o (blood) + -lysis (destruction) = hemolysis.
+ee5adc8a	Spell the term for the oxygen-carrying protein of red cells
+e97a7dc2	hem/o + -globin (protein).
+d0ac8b11	Blood and plasma
+6a79384d	Blood at a glance
+61e4b2c9	An adult has about <b>5 litres</b> of blood, roughly <b>8% of body weight</b>.<br><br>Jobs of the blood:<br>• carrying <b>oxygen</b>, nutrients and hormones to the cells<br>• carrying <b>carbon dioxide</b> and waste away from the cells<br>• helping to <b>regulate temperature</b> and fluid volume (homeostasis)<br>• defending the body and clotting at wounds⟦0⟧
+7c3b61b3	From blood draw to centrifuge: yellow plasma on top and cells below; then the types of blood cell.
+fcba4043	The two main parts of blood
+251eb3ae	If blood is spun in a tube (centrifuged), two parts separate:<br>• <b>plasma</b> (the liquid part, pale yellow): about <b>55%</b><br>• <b>formed elements</b>: about <b>45%</b>: red cells, white cells and platelets<br>⟦0⟧
+88cbfcdd	Imena diagram
+37e51236	From the textbook: Blood sample
+01814cc3	The thin white middle layer (buffy coat) is the white cells and platelets. Sources give the plasma share as 52 to 62%.
+dc453eed	What percentage of blood volume is the liquid part?
+f3e78288	about 55%
+e6ef5556	about 45%
+0bded69e	about 8%
+1c7eb715	about 90%
+7aebb1b9	Plasma is about 55% and formed elements about 45% of blood. 8% is blood’s share of body weight.
+e89d9194	What is plasma made of?
+a8bcea5b	Plasma is <b>90 to 92% water</b> and 8 to 10% dissolved substances: proteins, glucose, gases, <b>electrolytes</b> and hormones. Its pH is about <b>7.4</b>.<br><br>Plasma proteins:<br>• <b>albumin</b>: regulates water movement between blood and tissue (lack of it → oedema)<br>• <b>globulin</b>: alpha and beta carry fats and vitamins; <b>gamma</b> = antibodies<br>• <b>fibrinogen</b> and <b>prothrombin</b>: clotting proteins
+b851b7e5	Match each plasma protein to its job
+02c869cb	keeping water in the vessels
+6898a8bd	antibodies (immunity)
+53957b5d	making the clot threads
+0529b0c5	carrying fats and vitamins
+72cbb436	Plasma or serum?
+8a052b9a	<b>Serum</b> is plasma <b>without fibrinogen and clotting factors</b>: the fluid left after blood clots.<br><br>⟦0⟧ = serum. That is why “serology” tests are done on serum.
+466b9b2c	Serum is the fluid left after blood clots and has no fibrinogen.
+906f5a12	True. Plasma = serum + fibrinogen and clotting factors.
+17cf5eba	The normal pH of plasma is about ___.
+613cbaba	Blood is slightly alkaline; pH about 7.4.
+a0b6e790	In this centrifuged tube, what is the pale yellow upper part?
+cce063db	The lighter liquid part of blood (about 55%) sits on top; the formed elements are heavier and sink.
+17672a7a	Lack of which protein most causes water to leave the vessels and cause oedema?
+2644c688	Albumin holds water inside the vessels; when it is low, water moves into the tissues and causes oedema.
+1f92742a	Spell the term for the liquid part of blood
+867f2e80	plasma = the liquid part of blood; root plasm/o.
+00ebe25f	Formed elements
+c28235e1	Three types of cell in blood
+0ca4404c	The formed elements are made in the <b>bone marrow</b>:<br>• <b>erythrocyte</b> (red cell, RBC): carries oxygen<br>• <b>leukocyte</b> (white cell, WBC): defence<br>• <b>thrombocyte</b> or <b>platelet</b> (PLT): clotting<br>⟦0⟧
+d5d04696	Three colour roots
+e0039913	• ⟦0⟧ = <b>red</b> → erythrocyte<br>• ⟦1⟧ = <b>white</b> → leukocyte<br>• ⟦2⟧ = <b>clot</b> → thrombocyte<br>and ⟦3⟧ or ⟦4⟧ means <b>cell</b>.<br><br>Note: a platelet is not a whole cell; it is a <b>fragment</b> of a large cell called a megakaryocyte.
+dd78a132	Root and meaning
+664b52f4	Which blood cell plays the main role in clotting?
+a4e1d589	thromb/o (clot) + -cyte (cell) = clot cell, i.e. the platelet.
+c6bc1e94	A blood smear under the microscope
+0487beb9	On a stained slide (smear), most of the field is filled with pink red cells; white cells are larger and have nuclei, and platelets are tiny and purple.⟦0⟧
+12583dbe	Red cells are far more numerous: about 5 million per microlitre, against 5 to 10 thousand white cells.
+c01a73f0	White cells far outnumber red cells in the blood.
+c1402157	The opposite: about 5 million red cells per microlitre, but only 5000 to 10000 white cells.
+bed3ed80	Build a word meaning “white cell”
+ddd1dc56	The word erythrocyte means a ___ cell.
+bbaa86f2	Spell the term for a clotting cell (“clot cell”)
+751150d7	thrombocyte or platelet; both are correct.
+399d0cfa	Where are the formed elements made?
+503fe9d4	Blood formation (hematopoiesis) takes place in the red bone marrow.
+941ccbab	Red cells and haemoglobin
+61f0591d	Structure of the red cell
+3d93fff3	A mature red cell is a <b>biconcave disc</b> with <b>no nucleus</b>; this shape gives more surface for gas exchange.<br>• Count: <b>4.2 to 6.4 million</b> per microlitre (more in men than women)<br>• Lifespan: about <b>120 days</b>; then the spleen removes the old cells⟦0⟧
+c757eee0	top and side views
+ac1488c2	How long does a red cell live on average?
+89986b52	about 120 days
+ef4036e7	about 10 days
+b09777b3	about 30 days
+e9c1b47b	about 1 year
+c51d6d9d	A red cell lives 120 days and a platelet about 10 days.
+c76b5653	Haemoglobin = haem + globin
+f0223e73	<b>Hemoglobin</b> (Hgb or Hb) is the iron-containing protein of red cells that carries oxygen from the lungs to the tissues and brings CO₂ back.<br>• <b>heme</b>: the pigment containing <b>iron</b><br>• <b>globin</b>: the <b>protein</b> part (⟦0⟧ = protein)<br>Average haemoglobin is about <b>15 g/dL</b>.⟦1⟧
+ba6bea13	Parts of haemoglobin
+38caef71	the protein part
+2d8b872e	oxygen carrier
+678aaf7e	pigment from haemoglobin breakdown
+d18d6238	<b>Hematocrit</b> (Hct) is the volume percentage of packed red cells in blood.<br>⟦0⟧ → ⟦1⟧ means “to separate”: blood is centrifuged so the cells separate. Its other name is <b>PCV</b> (packed cell volume).
+29ab9377	The haematocrit shows the number of red cells per microlitre.
+493e0713	The haematocrit is the “volume percentage” of packed red cells, not their count; the count is the RBC count.
+20a67814	<b>Erythropoietin</b> (EPO) is a hormone made by the <b>kidney</b> that drives the bone marrow to make red cells.<br>⟦0⟧<br>⟦1⟧ means making → <b>erythropoiesis</b> = red cell production.
+1a30f586	In which organ is erythropoietin made?
+b4f04927	EPO is made in the kidney and acts on the bone marrow; that is why kidney patients are often anaemic.
+7f5e304c	Build a word meaning “production of red cells”
+ad870f1d	hem/o (blood) + -globin (protein) = hemoglobin.
+47d11f60	White blood cells
+52983476	Granular and agranular
+0a62587a	White cells (5000 to 10000 per microlitre) fall into two groups:<br>• <b>granulocyte</b> (granular; ⟦0⟧ = granule): neutrophil, eosinophil, basophil<br>• <b>agranulocyte</b> (without granules; ⟦1⟧ = without): lymphocyte and monocyte⟦2⟧⟦3⟧
+0071ef50	The percentages are each cell’s share of all white cells.
+810b7818	Remember the order of abundance with this sentence: “⟦0⟧” → Neutrophil, Lymphocyte, Monocyte, Eosinophil, Basophil; from most to least.
+f2316fbd	The name comes from the colour
+a83f56a3	Granulocytes are named for the dye they take up (⟦0⟧ = loving):<br>• <b>neutrophil</b>: ⟦1⟧ neutral → pale staining; multi-lobed nucleus<br>• <b>eosinophil</b>: ⟦2⟧ rosy → orange-red granules (acidic dye)<br>• <b>basophil</b>: ⟦3⟧ base (alkaline) → dark blue granules
+8ea26894	The cell and its colour
+25eb30ff	neutral dye (pale)
+a81ea3f6	rosy acidic dye
+676f99a1	dark blue alkaline dye
+7b93d097	no granules
+bc441a19	Which white cell is known for its large orange-red granules?
+47d47a26	eosin/o = rosy; eosinophil granules take up the acidic dye eosin.
+a12c106c	What does each one do?
+bb8e598d	The five types of white cell and the rough share of each; sources differ slightly on the numbers.
+f9a65637	Share
+a623523f	eats bacteria; the first defender
+ac39a8c7	specific immunity (B and T)
+bde9b8a4	in tissue → macrophage
+ed93bffb	allergy and parasites
+2db02b5d	under 1%
+ab451ec6	histamine and heparin
+c412791f	Which is the most abundant white cell in blood?
+29e577c7	Neutrophils are more than half of the white cells (54 to 70%).
+65688cb4	Basophils release histamine and heparin.
+00d476f0	True; basophils take part in allergic reactions.
+69abd198	In this picture, which cell has large orange-red granules?
+2fcd77d3	The eosinophil has large rosy granules; the basophil has dark blue-purple granules that cover the nucleus.
+6ac672d0	Band cells and PMNs
+943a68a3	A mature neutrophil has a <b>multi-lobed</b> nucleus, so it is also called a <b>PMN</b> (polymorphonuclear), <b>seg</b> or <b>poly</b>.<br>An immature neutrophil with a band-shaped nucleus is called a <b>band cell</b>; a rise in bands is a sign of acute infection.
+d2c1999e	When a monocyte enters tissue it becomes a ___.
+9fdb5944	macrophage
+abe173a2	macro (large) + phage (eater) = large eater of foreign material.
+04b60c49	Order the white cells from the highest to the lowest percentage
+253edb90	Memory key: Never Let Monkeys Eat Bananas.
+700a95e4	Blood formation and bone marrow
+946ce68a	Haematopoiesis
+4a7c89de	<b>Hematopoiesis</b> (or hemopoiesis) means the making of all blood cells in the <b>red bone marrow</b>.<br>⟦0⟧<br>They all start from one <b>stem cell</b> (hemocytoblast) and split into two lines: myeloid and lymphoid.⟦1⟧⟦2⟧
