@@ -1,0 +1,38 @@
+# match puzzles: right side must not repeat the left side
+252ba812@zaya#12	female gland making eggs
+9083de8b@zaya#11	neck of the uterus
+0eef5fd7@zaya#1	passage through the neck of the uterus
+e04ba162@zaya#2	bone at the front of the pelvis
+bcd0c1a0@zaya#3	outer folds of the vulva
+4d4ab351@zaya#3	inner folds of the vulva
+7be37119@zaya#3	thin membrane at the vaginal opening
+0ef59466@zaya#6	external female genitals
+a7bf7786@zaya#2	pigmented ring around the nipple
+b6be3b55@zaya#2	milk-producing gland
+e6153db3@zaya#2	sac holding a developing egg
+400aefeb@zaya#3	yellow body after ovulation
+1a71c660@zaya#5	release of the egg
+5e6ef676@zaya#3	permanent end of menstruation
+b8c6a775@zaya#3	years leading up to the last period
+2d399781@zaya#3	after the last period
+f6c9d2f4@zaya#14	male gland making sperm
+8366ce73@zaya#7	skin pouch holding the testes
+210278ee@zaya#5	gland adding fluid to semen
+c393f7e4@zaya#3	cord holding the vas deferens and vessels
+07d5abf0@zaya#3	stiffening of the penis
+22743139@zaya#2	release of semen
+6c271ff0@zaya#2	inability to achieve an erection
+93450cbf@zaya#3	embryo embedding in the uterine lining
+25e474b1@zaya#1	three-month period of pregnancy
+85ac1b07@zaya#1	inability to empty the bladder
+05bdfd22@zaya#3	pregnancy outside the uterus
+9c8563e9@zaya#2	breast lift
+5e6ef676@zaya#4	permanent end of menstruation
+c393f7e4@zaya#4	cord holding the vas deferens and vessels
+d672d235@zaya#4	removal of a testis
+6c271ff0@zaya#3	inability to achieve an erection
+07d5abf0@zaya#4	stiffening of the penis
+1aacccaf@zaya#3	benign muscle tumour of the uterus
+fe7dd2d7@zaya#5	uterus slipping down into the vagina
+fc9d3d2e@zaya#2	inflammation of the vagina
+fc9d3d2e@zaya#3	inflammation of the vagina

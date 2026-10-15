@@ -1839,7 +1839,7 @@
           M("Surgery for bladder stones and the prostate is the work of which specialist?", ['urologist', 'nephrologist', 'dermatologist', 'radiologist'], "A urologist is a urinary tract surgeon."),
           T("A urologist also treats diseases of the male reproductive system.", true, "Because the male urethra is shared."),
           W("Build the term that means “kidney specialist”", ['nephr/o', '-logist'], ['cyst/o', '-itis', 'ur/o'], 'nephrologist.'),
-          P("Match each term to its meaning", [['urology', "urology"], ['nephrology', "study of the kidney"], ['genitourinary', "genital and urinary"], ['urologist', "urinary tract specialist"]], "The specialties."),
+          P("Match each term to its meaning", [['urology', "surgical specialty of the urinary tract"], ['nephrology', "study of the kidney"], ['genitourinary', "genital and urinary"], ['urologist', "urinary tract specialist"]], "The specialties."),
           B("The abbreviation GU means ___.", ['genitourinary', 'gastrourinary', 'glomerular unit'], 'genit/o + urin/o + ‎-ary‎.'),
           S("Spell the term for a kidney specialist", 'nephrologist', 'nephr/o + ‎-logist‎.', 'neph…'),
           N('f2t:lx')
@@ -2119,7 +2119,7 @@
           M("Where does urine enter the bladder?", ['ureteral orifice', 'urinary meatus', 'hilum', 'papilla'], "The ureteral orifice."),
           T("The left ureter is slightly longer than the right ureter.", true, "Because the left kidney is higher.", F('urinary-system', [])),
           W("Build a word meaning “inflammation of a ureter”", ['ureter/o', '-itis'], ['urethr/o', '-lith', 'cyst/o'], 'ureteritis.'),
-          P("Match each term to its meaning", [['ureter', "ureter"], ['ureteral', "relating to the ureter"], ['peristalsis', "wave-like contractions"], ['ureteral orifice', "ureteral orifice"]], "The ureter."),
+          P("Match each term to its meaning", [['ureter', "tube from kidney to bladder"], ['ureteral', "relating to the ureter"], ['peristalsis', "wave-like contractions"], ['ureteral orifice', "opening of the kidney tube into the bladder"]], "The ureter."),
           B("The adjective meaning “relating to the ureter” is ___.", ['ureteral', 'urethral', 'urinary'], 'ureter/o + ‎-al‎.'),
           S("Spell the term for the wave-like contractions of the ureter", 'peristalsis', 'peri- + stalsis.', 'peri…'),
           N('t2f:tr')
@@ -2162,7 +2162,7 @@
           M("Why is urinary infection more common in women?", ["the urethra is shorter", "the bladder is larger", "the kidneys are lower", "the ureter is longer"], "Microbes have a shorter route to the bladder."),
           T("The male urethra passes through the prostate.", true, "That is why an enlarged prostate reduces urine flow.", F('urethra-sexes', [])),
           W("Build a word meaning “inflammation of the urethra”", ['urethr/o', '-itis'], ['ureter/o', '-lith', 'meat/o'], 'urethritis.'),
-          P("Match each term to its meaning", [['urethra', "urethra"], ['urinary meatus', "urinary meatus"], ['prostate gland', "prostate"], ['urethral', "relating to the urethra"]], "The urethra."),
+          P("Match each term to its meaning", [['urethra', "tube from bladder to the outside"], ['urinary meatus', "external opening for urine"], ['prostate gland', "prostate"], ['urethral', "relating to the urethra"]], "The urethra."),
           B("Pain in the urethra is ___.", ['urethralgia', 'urethritis', 'urethrocele'], 'urethr/o + ‎-algia‎.'),
           S("Spell the term for an opening or passage, as at the end of the urethra", 'meatus', 'meat/o.', 'mea…'),
           N('m2r:tr')
@@ -2176,7 +2176,7 @@
           M("In the voiding reflex, what contracts?", ['detrusor muscle', 'internal sphincter', 'external sphincter', 'ureter'], "The detrusor contracts and the internal sphincter relaxes."),
           T("The correct spelling is micturition, not micturation.", true, "A common spelling trap."),
           O("Put the voiding reflex in order", ['bladder fills', 'stretch signal', 'detrusor contracts', 'urine leaves'], "Filling, stretch signal, contraction, emptying."),
-          P("Match each term to its meaning", [['micturition', "passing urine"], ['voiding', "emptying the bladder"], ['continence', "holding urine"], ['micturition reflex', "micturition reflex"]], "Passing urine."),
+          P("Match each term to its meaning", [['micturition', "passing urine"], ['voiding', "emptying the bladder"], ['continence', "holding urine"], ['micturition reflex', "automatic bladder-emptying response"]], "Passing urine."),
           B("The ability to control urination is ___.", ['continence', 'incontinence', 'retention'], 'continence.'),
           S("Spell the formal term for passing urine", 'micturition', "Spelling trap: -ition.", 'mict…'),
           N('t2f:tr')
@@ -2427,7 +2427,7 @@
           M("Which sign points more to pyelonephritis than to cystitis?", ["fever and flank pain", "burning on urination", "frequent urination", "urgency"], "Kidney involvement."),
           T("Pyelonephritis often arises from a bladder infection that has climbed up.", true, "An ascending infection."),
           W("Build a word meaning “inflammation of the renal pelvis and kidney”", ['pyel/o', 'nephr/o', '-itis'], ['cyst/o', '-lith', 'glomerul/o'], 'pyelonephritis.'),
-          P("Match each finding to its meaning", [['pyuria', "pus in the urine"], ['bacteriuria', "bacteria in the urine"], ['flank pain', "Flank Pain"], ['urgency', "urgency"]], "The findings."),
+          P("Match each finding to its meaning", [['pyuria', "pus in the urine"], ['bacteriuria', "bacteria in the urine"], ['flank pain', "pain in the side of the back"], ['urgency', "sudden strong need to pass urine"]], "The findings."),
           B("Infection of the renal pelvis alone is ___.", ['pyelitis', 'pyuria', 'nephritis'], 'pyel/o + ‎-itis‎.'),
           S("Spell the term for infection of the renal pelvis and kidney", 'pyelonephritis', 'pyel/o + nephr/o + ‎-itis‎.', 'pyelo…'),
           N('f2t:dz')
@@ -2470,7 +2470,7 @@
           M("Severe flank pain as a stone passes is…", ['renal colic', 'cystalgia', 'dysuria', 'urgency'], 'renal colic.'),
           T("hydroureter means swelling of the ureter with urine behind a blockage.", true, 'hydr/o + ureter.', F('hydronephrosis', [])),
           O("Put the events of a ureteral blockage in order", ['stone blocks ureter', 'hydroureter', 'hydronephrosis', 'kidney damage'], "Blockage, swollen ureter, swollen kidney, damage."),
-          P("Match each term to its meaning", [['stricture', "narrowing"], ['renal colic', "renal colic"], ['hydroureter', "swollen ureter"], ['hydronephrosis', "swollen kidney"]], "Obstruction."),
+          P("Match each term to its meaning", [['stricture', "narrowing"], ['renal colic', "severe wave-like pain from a stone"], ['hydroureter', "swollen ureter"], ['hydronephrosis', "swollen kidney"]], "Obstruction."),
           B("Dilation of the renal pelvis is ___.", ['pyelectasis', 'pyelitis', 'pyeloplasty'], 'pyel/o + ‎-ectasis‎.'),
           S("Spell the term for a kidney swollen with trapped urine", 'hydronephrosis', 'hydr/o + nephr/o + ‎-osis‎.', 'hydro…'),
           N('m2r:dz')
@@ -2513,7 +2513,7 @@
           M("Two kidneys joined at their lower poles are a…", ['horseshoe kidney', 'renal hypoplasia', 'nephromegaly', 'ureterocele'], "Horseshoe.", null, F('horseshoe-kidney', ["horseshoe kidney"])),
           T("hypospadias means the urethral opening is on the upper surface of the penis.", false, "hypospadias is the lower one; the upper one is epispadias."),
           W("Build a word meaning “drooping of the kidney”", ['nephr/o', '-ptosis'], ['cyst/o', '-megaly', 'ren/o'], 'nephroptosis.'),
-          P("Match each anomaly to its meaning", [['horseshoe kidney', "horseshoe kidney"], ['renal hypoplasia', "underdeveloped kidney"], ['epispadias', "upper urethral opening"], ['atresia', "congenital closure"]], "Anomalies."),
+          P("Match each anomaly to its meaning", [['horseshoe kidney', "kidneys fused at their lower poles"], ['renal hypoplasia', "underdeveloped kidney"], ['epispadias', "upper urethral opening"], ['atresia', "congenital closure"]], "Anomalies."),
           B("Enlargement of the kidney is ___.", ['nephromegaly', 'nephromalacia', 'nephroptosis'], 'nephr/o + ‎-megaly‎.'),
           S("Spell the term meaning “having many cysts”", 'polycystic', 'poly- + cyst/o + ‎-ic‎.', 'poly…'),
           N('d2t:dz')
@@ -2617,7 +2617,7 @@
           M("What is the dialysis fluid called?", ['dialysate', 'filtrate', 'urine', 'plasma'], 'dialysate.'),
           T("Haemodialysis is usually done three times a week.", true, "About 4 hours each time.", F('hemodialysis', [])),
           O("Put the route of blood in haemodialysis in order", ['patient artery', 'blood line', 'dialyzer', 'back to vein'], "From the patient to the machine and back."),
-          P("Match each term to its meaning", [['dialysis', "passage through a membrane"], ['hemodialysis', "dialysis of the blood"], ['dialysate', "dialysate"], ['HD', "filtering the blood by machine"]], "Dialysis."),
+          P("Match each term to its meaning", [['dialysis', "passage through a membrane"], ['hemodialysis', "dialysis of the blood"], ['dialysate', "cleansing fluid used in dialysis"], ['HD', "filtering the blood by machine"]], "Dialysis."),
           B("The dialysis membrane is ___; it lets some substances through.", ['semipermeable', 'impermeable', 'calcified'], "Semipermeable."),
           S("Spell the term for cleaning the blood with an artificial kidney", 'hemodialysis', 'hem/o + dialysis.', 'hemo…'),
           N('t2f:tx')
@@ -2957,7 +2957,7 @@
         M("Term", "The medical term for “inability to hold urine” is…", ['incontinence', 'retention', 'anuria', 'dysuria'], 'urinary incontinence.'),
         M("Structure", "Which structure controls the voluntary release of urine?", ['external urethral sphincter', 'internal urethral sphincter', 'trigone', 'detrusor muscle'], "The external sphincter is voluntary.", null, { a: ['bladder-art'], l: [] }),
         T("Childbirth", "Many births can weaken the supporting tissue of the pelvis and cause stress incontinence.", true, 'stress incontinence.'),
-        P("Term", "Match each term to its meaning", [['urology', "urology"], ['continence', "bladder control"], ['incontinence', "incontinence"], ['urologist', "urinary tract specialist"]], "The textbook’s applied scenario."),
+        P("Term", "Match each term to its meaning", [['urology', "surgical specialty of the urinary tract"], ['continence', "bladder control"], ['incontinence', "inability to hold urine"], ['urologist', "urinary tract specialist"]], "The textbook’s applied scenario."),
         S("Spelling", "Spell the medical term for loss of bladder control", 'incontinence', 'in- + continence.', 'incon…')
       ]
     },
@@ -3043,7 +3043,7 @@
         M("Test", "What does cystometry (CMG) measure?", ["bladder pressure during filling", "Urine colour", "kidney size", "blood sugar"], 'cystometrography.'),
         T("symptom", "nocturia means urinating at night.", true, "It was asked about in Jade’s history."),
         O("Process", "Put Jade’s course in order", ['urologic history', 'clean-catch and CMG', 'stem cell injection', 'follow-up at 3 months'], "From assessment to follow-up."),
-        P("Term", "Match each term to its meaning", [['urgency', "urgency"], ['frequency', "frequent urination"], ['cystoscopy', "looking inside the bladder"], ['sphincter', "ring muscle"]], 'Case Study.'),
+        P("Term", "Match each term to its meaning", [['urgency', "sudden strong need to pass urine"], ['frequency', "frequent urination"], ['cystoscopy', "looking inside the bladder"], ['sphincter', "ring muscle"]], 'Case Study.'),
         S("Spelling", "Spell the term for an endoscopic view of the bladder", 'cystoscopy', 'cyst/o + ‎-scopy‎.', 'cysto…')
       ]
     },
@@ -3057,7 +3057,7 @@
         M("treatment", "Why was the patient catheterized?", ["so the bladder could empty completely", "for a contrast X-ray", "to inject a drug into the kidney", "for lithotripsy"], "Relieving retention.", null, { a: ['catheter-art'], l: [] }),
         T("finding", "pyuria means pus in the urine.", true, 'py/o + ‎-uria‎.'),
         M("Cause", "The likely cause of this patient’s chronic cystitis is…", ["bladder neck obstruction", "a left kidney stone", "diabetes", "dehydration"], "Stagnant urine brings infection."),
-        P("Term", "Match each term to its meaning", [['hematuria', "blood in the urine"], ['albuminuria', "albumin in the urine"], ['catheterization', "catheterization"], ['chronic cystitis', "chronic inflammation of the bladder"]], 'Discharge Summary.'),
+        P("Term", "Match each term to its meaning", [['hematuria', "blood in the urine"], ['albuminuria', "albumin in the urine"], ['catheterization', "passing a tube into the bladder"], ['chronic cystitis', "chronic inflammation of the bladder"]], 'Discharge Summary.'),
         S("Spelling", "Spell the term for passing a catheter", 'catheterization', 'catheter + ‎-ization‎.', 'cathe…')
       ]
     },
@@ -3100,7 +3100,7 @@
         M("Term", "Sugar in the urine is…", ['glycosuria', 'ketonuria', 'hematuria', 'pyuria'], 'glycos/o + ‎-uria‎.'),
         M("ketones", "Ketones in the urine mean the body…", ["is burning fat instead of sugar", "has drunk a lot of water", "has an infection", "has a stone"], 'ketonuria.'),
         M("specific gravity", "What does specific gravity show?", ["the concentration of dissolved substances in urine", "Urine colour", "the number of bacteria", "the daily volume"], 'specific gravity.', null, { a: ['sg-scale'], l: [] }),
-        P("Test", "Match each test to its meaning", [['glucose', "sugar"], ['ketones', "ketones"], ['pH', "acidic or alkaline"], ['SG', "specific gravity"]], "The dipstick."),
+        P("Test", "Match each test to its meaning", [['glucose', "sugar"], ['ketones', "acids from fat breakdown"], ['pH', "acidic or alkaline"], ['SG', "specific gravity"]], "The dipstick."),
         S("Spelling", "Spell the term for ketones in the urine", 'ketonuria', 'keton/o + ‎-uria‎.', 'keto…')
       ]
     },

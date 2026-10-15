@@ -1,0 +1,17 @@
+# match puzzles: right side must not repeat the left side
+c286c2c6@nephra#2	surgical specialty of the urinary tract
+25b165d4@nephra#10	tube from kidney to bladder
+91eb9827@nephra#5	opening of the kidney tube into the bladder
+0cd592bb@nephra#10	tube from bladder to the outside
+db001493@nephra#3	external opening for urine
+c07f4f57@nephra#4	automatic bladder-emptying response
+a7979387@nephra#2	pain in the side of the back
+cb546a1a@nephra#4	sudden strong need to pass urine
+9d38328f@nephra#2	severe wave-like pain from a stone
+cb60296b@nephra#3	kidneys fused at their lower poles
+d257cedf@nephra#3	cleansing fluid used in dialysis
+c286c2c6@nephra#3	surgical specialty of the urinary tract
+7d9e7ff9@nephra#3	inability to hold urine
+cb546a1a@nephra#5	sudden strong need to pass urine
+20c259f6@nephra#4	passing a tube into the bladder
+7e4be028@nephra#4	acids from fat breakdown

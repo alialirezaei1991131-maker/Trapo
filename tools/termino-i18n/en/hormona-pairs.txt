@@ -1,0 +1,8 @@
+# match puzzles: right side must not repeat the left side
+626b3c5f@hormona#4	removal of the pituitary
+634cd075@hormona#3	inflammation of the pituitary
+ede19b9f@hormona#4	round, puffy face
+6954344b@hormona#2	underactive suprarenal glands
+d67018b9@hormona#2	overactive suprarenal glands
+0e41c9ba@hormona#2	failure of the suprarenal glands
+c6d42f16@hormona#3	removal of the pancreas

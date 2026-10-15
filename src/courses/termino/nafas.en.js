@@ -1494,7 +1494,7 @@
           M(`Who is a ${e('<b>pulmonologist</b>')}?`, ["lung specialist", "ear, nose and throat specialist", "respiratory therapist", "chest surgeon"], "pulmon/o (lung) + -logist."),
           T("The larynx is part of the upper respiratory tract.", true, "The nose, sinuses, pharynx and larynx = the upper tract."),
           O("Put the path of air in order from outside to inside", ['nose', 'pharynx', 'larynx', 'trachea', 'bronchi', 'alveoli'], "Nose, pharynx, larynx, trachea, bronchus, alveolus."),
-          P("Match each part to its everyday name", [['pharynx', "throat (pharynx)"], ['larynx', "voice box"], ['trachea', "windpipe"], ['bronchus', "main airway of the lung"]], "The four main stations of air."),
+          P("Match each part to its everyday name", [['pharynx', "throat"], ['larynx', "voice box"], ['trachea', "windpipe"], ['bronchus', "main airway of the lung"]], "The four main stations of air."),
           B("The abbreviation ___ means an ear, nose and throat specialist.", ['ENT', 'URI', 'RRT'], 'ear, nose and throat.'),
           S("Spell the term for the process of breathing and gas exchange", 'respiratory system', "spir/o = to breathe.", 'resp…'),
           N('t2f:lx')
@@ -1508,7 +1508,7 @@
           M("What does the diaphragm do on breathing in?", ["contracts, flattens and moves down", "relaxes and moves up", "does not change", "bends forwards"], "The chest enlarges and the pressure inside it falls.", null, F('breathing', [])),
           T("Internal respiration means gas exchange between the blood and the body’s cells.", true, "Internal respiration, in the tissues."),
           W("Build a word meaning “breathing out”", ['ex-', 'spir/o', '-ation'], ['in-', 'pneum/o', '-itis'], 'ex- + spir/o + -ation = expiration.'),
-          P("Match each term to its meaning", [['inspiration', "inhalation"], ['expiration', "exhalation"], ['ventilation', "ventilation"], ['CO2', "carbon dioxide"]], "Basic breathing words."),
+          P("Match each term to its meaning", [['inspiration', "inhalation"], ['expiration', "exhalation"], ['ventilation', "moving air in and out of the lungs"], ['CO2', "carbon dioxide"]], "Basic breathing words."),
           B("The root ___ means “to breathe”.", ['spir/o', 'pneum/o', 'pulmon/o'], "respiration, spirometry."),
           S("Spell the term for moving air into and out of the lungs", 'ventilation', "Air moving in and out.", 'venti…'),
           N('f2t:lx')
@@ -1641,7 +1641,7 @@
           M("What do cilia do?", ["sweep mucus and particles out", "make mucus", "warm the air", "Gas exchange"], 'mucociliary escalator.', null, F('cilia', [])),
           T("mucus is the noun and mucous the adjective.", true, "The mucous membrane makes mucus."),
           W("Build a word meaning “relating to the nose”", ['nas/o', '-al'], ['rhin/o', '-itis', 'sept/o'], 'nas/o + -al = nasal.'),
-          P("Match each part to its job", [['nares', "nostrils"], ['nasal septum', "middle wall"], ['mucous membrane', "mucus-making membrane"], ['cilia', "cleaning cilia"]], "The nose."),
+          P("Match each part to its job", [['nares', "nostrils"], ['nasal septum', "middle wall"], ['mucous membrane', "mucus-making membrane"], ['cilia', "tiny hairs that sweep the airway"]], "The nose."),
           B("A runny nose is called ___.", ['rhinorrhea', 'rhinitis', 'epistaxis'], 'rhin/o + -rrhea.'),
           S("Spell the noun for the sticky airway secretion", 'mucus', "The noun has no o.", 'muc…'),
           N('t2f:up')
@@ -1741,7 +1741,7 @@
           M("Which device keeps the airway open in sleep with positive pressure?", ['CPAP', 'nebulizer', 'spirometer', 'oximeter'], 'continuous positive airway pressure.'),
           T("UPP is surgery on the uvula, palate and pharynx.", true, 'uvulopalatopharyngoplasty.'),
           W("Build the name of the surgery on the uvula, palate and pharynx", ['uvul/o', 'palat/o', 'pharyng/o', '-plasty'], ['laryng/o', '-itis'], 'uvulopalatopharyngoplasty.'),
-          P("Match each term to its meaning", [['apnea', "stopped breathing"], ['polysomnography', "sleep study"], ['CPAP', "continuous positive pressure"], ['uvula', "uvula"]], "Sleep apnoea."),
+          P("Match each term to its meaning", [['apnea', "stopped breathing"], ['polysomnography', "sleep study"], ['CPAP', "continuous positive pressure"], ['uvula', "small tissue hanging at the back of the soft palate"]], "Sleep apnoea."),
           B("The root ___ means sleep.", ['somn/o', 'phon/o', 'spir/o'], 'polysomnography.'),
           S("Spell the term for a pause in breathing", 'apnea', 'a- + -pnea.', 'ap…'),
           N('f2t:up')
@@ -1788,7 +1788,7 @@
           M("What is the point where the trachea forks called?", ['carina', 'hilum', 'glottis', 'apex'], 'carina.'),
           T("Tracheomalacia means softening of the tracheal cartilage.", true, 'trache/o + -malacia.'),
           W("Build a word meaning “a lasting opening in the trachea”", ['trache/o', '-stomy'], ['-tomy', 'bronch/o', '-itis'], 'trache/o + -stomy = tracheostomy.'),
-          P("Match each term to its meaning", [['trachea', "windpipe"], ['carina', "where it forks"], ['tracheal', "tracheal"], ['tracheitis', "tracheitis"]], "The trachea."),
+          P("Match each term to its meaning", [['trachea', "windpipe"], ['carina', "where it forks"], ['tracheal', "relating to the windpipe"], ['tracheitis', "inflammation of the windpipe"]], "The trachea."),
           B("The oesophagus lies ___ the trachea.", ["behind", "in front of", "within"], "That is why the rings are open at the back."),
           S("Spell the term for the windpipe", 'trachea', 'trache/o + -a.', 'trach…'),
           N('t2f:lo')
@@ -1803,7 +1803,7 @@
           T("Bronchiolitis is inflammation of the bronchioles and is common in infants.", true, 'bronchiol/o + -itis.'),
           O("Order the path of air from the trachea to the alveolus", ['trachea', 'main bronchus', 'bronchioles', 'alveoli'], "An upside-down tree."),
           W("Build a word meaning “relating to a bronchus”", ['bronch/o', '-ial'], ['bronchiol/o', '-itis', 'trache/o'], 'bronch/o + -ial = bronchial.'),
-          P("Match each term to its meaning", [['bronchus', "main airway of the lung"], ['bronchiole', "bronchiole"], ['bronchial tree', "bronchial tree"], ['bronchospasm', "sudden contraction of a bronchus"]], "The bronchial tree."),
+          P("Match each term to its meaning", [['bronchus', "main airway of the lung"], ['bronchiole', "smallest airway branch"], ['bronchial tree', "branching airways of the lung"], ['bronchospasm', "sudden contraction of a bronchus"]], "The bronchial tree."),
           S("Spell the term for the smallest airway branch", 'bronchiole', 'bronchiol/o.', 'bronchi…'),
           N('f2t:lo')
         ]
@@ -1831,7 +1831,7 @@
           M(`What does an ${e('<b>surfactant</b>')} do?`, ["stops the alveolus collapsing", "makes mucus", "kills germs", "carries oxygen"], "It lowers surface tension."),
           T("A premature baby may develop RDS because of a lack of surfactant.", true, 'hyaline membrane disease.'),
           W("Build a word meaning “relating to an alveolus”", ['alveol/o', '-ar'], ['bronch/o', '-itis', 'pleur/o'], 'alveol/o + -ar = alveolar.'),
-          P("Match each term to its meaning", [['alveolus', "air sac"], ['pulmonary capillaries', "pulmonary capillaries"], ['surfactant', "anti-sticking substance"], ['alveoli', "plural of alveolus"]], "The alveolus."),
+          P("Match each term to its meaning", [['alveolus', "air sac"], ['pulmonary capillaries', "tiny lung vessels around the alveoli"], ['surfactant', "anti-sticking substance"], ['alveoli', "plural of alveolus"]], "The alveolus."),
           B("The plural of alveolus is ___.", ['alveoli', 'alveolus', 'alveolae'], '‎-us ← ‎-i.'),
           S("Spell the term for a tiny air sac of the lung", 'alveolus', 'alveol/o + -us.', 'alve…'),
           N('t2f:lo')
@@ -1859,7 +1859,7 @@
           M("What is an incision into the chest called?", ['thoracotomy', 'thoracentesis', 'thoracoscopy', 'thoracostomy'], 'thorac/o + -tomy.'),
           T("The intercostal muscles take part in breathing.", true, "The intercostal muscles enlarge and shrink the chest."),
           W("Build a word meaning “viewing the chest with an instrument”", ['thorac/o', '-scopy'], ['-tomy', 'pleur/o', '-algia'], 'thorac/o + -scopy = thoracoscopy.'),
-          P("Match each term to its meaning", [['thoracalgia', "chest pain"], ['thoracostomy', "an opening for a chest tube"], ['thoracic cavity', "chest cavity"], ['hemithorax', "hemithorax"]], "The chest."),
+          P("Match each term to its meaning", [['thoracalgia', "chest pain"], ['thoracostomy', "an opening for a chest tube"], ['thoracic cavity', "chest cavity"], ['hemithorax', "one half of the chest"]], "The chest."),
           B("The prefix ___ means “half”.", ['hemi-', 'hemo-', 'hyper-'], 'hemithorax.'),
           S("Spell the term for the chest", 'thorax', 'thorac/o.', 'thor…'),
           N('wb:lo')
@@ -1888,7 +1888,7 @@
           M(`${e('<b>mediastinoscopy</b>')} means…`, ["viewing the mediastinum with an instrument", "incision into the mediastinum", "inflammation of the mediastinum", "X-ray of the mediastinum"], 'mediastin/o + -scopy.'),
           T("Enlarged lymph nodes in the mediastinum can be a sign of cancer.", true, 'mediastinal nodes.'),
           W("Build a word meaning “relating to the mediastinum”", ['mediastin/o', '-al'], ['-scopy', 'pleur/o', '-itis'], 'mediastin/o + -al = mediastinal.'),
-          P("Match each term to its meaning", [['mediastinum', "space between the two lungs"], ['mediastinal', "mediastinal"], ['mediastinoscopy', "viewing the mediastinum"], ['hilum', "root of the lung"]], "The mediastinum."),
+          P("Match each term to its meaning", [['mediastinum', "space between the two lungs"], ['mediastinal', "relating to the space between the lungs"], ['mediastinoscopy', "viewing the mediastinum"], ['hilum', "root of the lung"]], "The mediastinum."),
           B("The heart lies in the ___.", ['mediastinum', 'pleural cavity', 'alveolus'], "Between the two lungs."),
           S("Spell the term for the space between the two lungs", 'mediastinum', 'mediastin/o + -um.', 'media…'),
           N('t2f:lo')
@@ -1902,7 +1902,7 @@
           M("Which nerve controls the diaphragm?", ['phrenic nerve', 'vagus nerve', 'facial nerve', 'sciatic nerve'], "phren/o = diaphragm."),
           T("Singultus is the hiccup.", true, "An involuntary contraction of the diaphragm."),
           W("Build a word meaning “relating to the diaphragm”", ['phren/o', '-ic'], ['thorac/o', '-itis', 'pleur/o'], 'phren/o + -ic = phrenic.'),
-          P("Match each term to its meaning", [['diaphragm', "dome-shaped breathing muscle"], ['phrenic nerve', "nerve to the diaphragm"], ['singultus', "hiccup"], ['intercostal muscles', "intercostal muscles"]], "The diaphragm."),
+          P("Match each term to its meaning", [['diaphragm', "dome-shaped breathing muscle"], ['phrenic nerve', "nerve to the diaphragm"], ['singultus', "hiccup"], ['intercostal muscles', "muscles between the ribs"]], "The diaphragm."),
           O("What happens on breathing in? Put the steps in order", ["the diaphragm contracts and flattens", "the chest volume increases", "the pressure inside the lungs falls", "air enters the lungs"], 'inspiration.'),
           S("Spell the term for the dome-shaped main muscle of breathing", 'diaphragm', "The g is silent.", 'diaph…'),
           N('f2t:lo')
@@ -1992,7 +1992,7 @@
           M(`${e('<b>purulent sputum</b>')} means…`, ["pus-filled sputum", "coughing up blood", "clear sputum", "dry cough"], "purulent = containing pus."),
           T("Hemoptysis can be a sign of TB or lung cancer.", true, "Blood in the sputum is always investigated."),
           W("Build a word meaning “coughing up blood”", ['hem/o', '-ptysis'], ['-pnea', 'py/o', 'thorac/o'], 'hem/o + -ptysis = hemoptysis.'),
-          P("Match each term to its meaning", [['sputum', "thick mucus from the airways"], ['phlegm', "phlegm"], ['expectoration', "spitting out sputum"], ['nonproductive cough', "dry cough"]], "Cough and sputum."),
+          P("Match each term to its meaning", [['sputum', "thick mucus from the airways"], ['phlegm', "thick, sticky secretion of the throat and chest"], ['expectoration', "spitting out sputum"], ['nonproductive cough', "dry cough"]], "Cough and sputum."),
           B("A drug that thins sputum so it comes up more easily is an ___.", ['expectorant', 'antitussive', 'bronchodilator'], "Expectorant."),
           S("Spell the word for thick mucus coughed up from the airways", 'sputum', "Phlegm from the lungs.", 'spu…'),
           N('f2t:br')
@@ -2139,7 +2139,7 @@
           M("Which sign is common in TB?", ["night sweats and hemoptysis", "barking cough", "night-time wheeze with exercise", "runny nose"], "A long-lasting cough, bloody sputum, weight loss.", null, F('xray-tb', [])),
           T("TB spreads from person to person by coughing.", true, 'airborne.'),
           W("Build a word meaning “tuberculosis”", ['tubercul/o', '-osis'], ['-itis', 'myc/o', 'coni/o'], 'tubercul/o + -osis = tuberculosis.'),
-          P("Match each term to its meaning", [['TB', "tuberculosis"], ['PPD', "TB skin test"], ['sputum culture', "sputum culture"], ['hemoptysis', "coughing up blood"]], "TB."),
+          P("Match each term to its meaning", [['TB', "tuberculosis"], ['PPD', "TB skin test"], ['sputum culture', "growing germs from coughed-up mucus"], ['hemoptysis', "coughing up blood"]], "TB."),
           B("A fungal lung infection is called ___.", ['pneumonomycosis', 'pneumoconiosis', 'pneumothorax'], "myc/o = fungus."),
           S("Spell the full name of the disease abbreviated TB", 'tuberculosis', 'tubercul/o + -osis.', 'tuber…'),
           N('wb:ds')
@@ -2243,7 +2243,7 @@
           M("What does an SpO2 of 88% mean?", ["hypoxaemia; needs assessment and oxygen", "normal", "hypercapnia", "fast breathing"], "Under 90% = inadequate oxygenation.", null, F('pulse-ox', [])),
           T("RA in an ABG report means the patient was breathing room air.", true, 'room air.'),
           W("Build a word meaning “an instrument for measuring oxygen”", ['ox/i', '-meter'], ['-metry', 'spir/o', 'capn/o'], 'ox/i + -meter = oximeter.'),
-          P("Match each term to its meaning", [['ABGs', "arterial blood gases"], ['oximeter', "oximeter"], ['RA', "room air"], ['hypoxemia', "low blood oxygen"]], "Blood oxygen."),
+          P("Match each term to its meaning", [['ABGs', "arterial blood gases"], ['oximeter', "device measuring oxygen saturation"], ['RA', "room air"], ['hypoxemia', "low blood oxygen"]], "Blood oxygen."),
           B("In textbook Exercise 12-9, the ABG on “room air” showed ___ oxygen.", ["low", "many", "normal"], 'low oxygen content = hypoxemia.'),
           S("Spell the term for the instrument that measures blood oxygen", 'oximeter', 'ox/i + -meter.', 'oxi…'),
           N('f2t:tx')
@@ -2315,7 +2315,7 @@
           M(`What does an ${e('<b>mucolytic</b>')} do?`, ["breaks down and thins mucus", "widens the bronchi", "stops coughing", "brings down fever"], 'muc/o + -lytic.'),
           T("A bronchodilator narrows the bronchi.", false, "False; it widens them."),
           W("Build a word meaning “mucus-breaking”", ['muc/o', '-lytic'], ['anti-', '-itis', 'tuss/i'], 'muc/o + -lytic = mucolytic.'),
-          P("Match each drug to its job", [['expectorant', "expectorant"], ['decongestant', "decongestant"], ['antihistamine', "anti-allergy"], ['inhaled corticosteroid', "inhaled anti-inflammatory"]], "Drugs."),
+          P("Match each drug to its job", [['expectorant', "drug that loosens mucus for coughing up"], ['decongestant', "drug that clears a blocked nose"], ['antihistamine', "anti-allergy"], ['inhaled corticosteroid', "inhaled anti-inflammatory"]], "Drugs."),
           B("The abbreviation ___ means “as needed” on a prescription.", ['prn', 'po', 'ad lib'], 'pro re nata.'),
           S("Spell the term for a drug that widens the bronchi", 'bronchodilator', 'bronch/o + dilator.', 'broncho…'),
           N('t2f:tx')
@@ -2643,7 +2643,7 @@
       fig: { a: 'xray-lung-cancer', l: ["lung tumour"] },
       steps: [
         M("root", "The root pulmon in pulmonary means…", ["lung", "the chest", "Air", "breath sound"], 'pulmon/o = lung.'),
-        P("Term", "Match each phrase to its term", [["removal of a lobe", 'lobectomy'], ["profuse sweating", 'diaphoresis'], ["cutting into the chest", 'thoracotomy'], ["hemithorax", 'hemithorax']], 'Case Study 12-1.'),
+        P("Term", "Match each phrase to its term", [["removal of a lobe", 'lobectomy'], ["profuse sweating", 'diaphoresis'], ["cutting into the chest", 'thoracotomy'], ["one half of the chest", 'hemithorax']], 'Case Study 12-1.'),
         M("Method", "thoracoscopy means…", ["viewing inside the chest with an instrument", "drawing pleural fluid", "incision into the windpipe", "chest X-ray"], 'thorac/o + -scopy.'),
         M("Method", "Mediastinoscopy is for viewing which space?", ["space between the two lungs", "pleural space", "voice box", "Sinuses"], 'mediastinum.'),
         T("symptom", "Morgan had no hemoptysis; that is, he was not coughing blood.", true, 'There was no hemoptysis.'),
@@ -2702,7 +2702,7 @@
         M("symptom", "orthopnea means…", ["breathlessness when lying flat", "fast breathing", "productive cough", "normal breathing"], 'orth/o + -pnea.'),
         M("lobe", "RUL means…", ["right upper lobe", "right lower lobe", "left upper lobe", "right middle lobe"], 'right upper lobe.'),
         M("vital signs", "A breathing rate of 24 a minute means…", ['tachypnea', 'eupnea', 'bradypnea', 'apnea'], "More than 20."),
-        P("Term", "Match each term to its meaning", [['auscultation', "listening"], ['crackles', "crackles"], ['IPPB', "intermittent positive pressure breathing"], ['CXR', "chest X-ray"]], 'Fremgen case.'),
+        P("Term", "Match each term to its meaning", [['auscultation', "listening"], ['crackles', "crackling sounds on inspiration"], ['IPPB', "intermittent positive pressure breathing"], ['CXR', "chest X-ray"]], 'Fremgen case.'),
         T("vital signs", "VS means vital signs: temperature, pulse, respiration and blood pressure.", true, 'vital signs.'),
         S("Spelling", "Spell the diagnosis of an infection filling the air sacs", 'pneumonia', 'pneumon/o + -ia.', 'pneu…')
       ]
@@ -2728,7 +2728,7 @@
       chart: [['Reason', 'increasingly severe asthma'], ['PE', 'dyspnea, cyanosis around lips, rhonchi'], ['ABGs', 'hypoxemia'], ['Spirometry', 'moderately severe obstruction']],
       fig: { a: 'asthma-airway', l: [] },
       steps: [
-        P("Term", "Match each term in the report to its meaning", [['dyspnea', "shortness of breath"], ['cyanosis', "large bruise"], ['phlegm', "phlegm"], ['rhonchi', "low snoring sound"]], 'Pulmonology Consultation Report.'),
+        P("Term", "Match each term in the report to its meaning", [['dyspnea', "shortness of breath"], ['cyanosis', "large bruise"], ['phlegm', "thick, sticky secretion of the throat and chest"], ['rhonchi', "low snoring sound"]], 'Pulmonology Consultation Report.'),
         M("Test", "What did the ABGs show in this patient?", ['hypoxemia', "hypercapnia only", "normal", 'anemia'], "Low blood oxygen."),
         M("Spirometry", "Obstruction on breathing out means the FEV1/FVC is…", ["low", "high", "normal", "zero"], "An obstructive pattern."),
         M("drug", "What is Proventil used to relieve?", ['bronchospasm', "fever", "infection", "skin allergy"], 'bronchodilator.'),
@@ -2759,7 +2759,7 @@
         M("abbreviation", "ENT means…", ["ear, nose and throat", "endotracheal tube", "distress syndrome", "upper infection"], 'ear, nose and throat.'),
         M("surgery", "Why does it matter that the doctor is a surgeon?", ["a tonsillectomy may be needed", "a lobectomy must be done", "a permanent tracheostomy must be placed", "a pneumonectomy must be done"], "Repeated tonsil infections."),
         M("asthma", "Which sound marks an asthma attack?", ['wheeze', 'stridor', 'pleural rub', 'silence'], "A wheeze."),
-        P("Term", "Match each term to its meaning", [['acute', "sudden and short-lived"], ['tonsillitis', "tonsil inflammation"], ['upper respiratory tract', "upper respiratory tract"], ['inflammation', "inflammation"]], "Susan’s history."),
+        P("Term", "Match each term to its meaning", [['acute', "sudden and short-lived"], ['tonsillitis', "tonsil inflammation"], ['upper respiratory tract', "nose, throat and larynx"], ['inflammation', "redness, heat, swelling and pain"]], "Susan’s history."),
         T("treatment", "An MDI and a nebuliser are both for giving inhaled medicine.", true, 'inhaled medications.'),
         S("Spelling", "Spell Susan’s chronic airway disease", 'asthma', "The th is silent.", 'ast…')
       ]

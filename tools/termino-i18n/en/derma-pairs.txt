@@ -1,0 +1,4 @@
+# match puzzles: right side must not repeat the left side
+67b914bc@derma#3	invisible rays beyond violet in sunlight
+7009bd7a@derma#2	crusted, honey-coloured skin infection
+17d4c0fd@derma#1	itch mite

@@ -1,0 +1,17 @@
+# match puzzles: right side must not repeat the left side
+416c2aea@govara#3	relating to the lips and teeth
+93c45610@govara#3	relating to the lips
+673161b3@govara#3	relating to the roof of the mouth
+fa318f25@govara#6	small tissue hanging at the back of the soft palate
+e06b1d55@govara#1	visible part of the tooth above the gum
+b8346910@govara#3	relating to the throat
+b92c377b@govara#2	finger-like projections of the gut lining
+96f6211a@govara#4	taking nutrients into the blood
+08ace62b@govara#8	green-yellow fluid from the liver
+1ec83757@govara#2	excess body fat
+1376338a@govara#2	excess gas in the gut
+7f2a9fd7@govara#2	poor fit of the teeth when biting
+34bdf7c3@govara#2	split in the roof of the mouth
+6645054c@govara#4	bulge at the navel
+fda6a86a@govara#2	dilated veins of the gullet
+27fd06dc@govara#3	yellow skin and eyes

@@ -1,0 +1,4 @@
+# match puzzles: right side must not repeat the left side
+1afa3f9f@peykar#3	connective tissue
+5a4039af@peykar#1	secreting into the blood
+5218e86e@peykar#1	secreting through a duct

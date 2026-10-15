@@ -1,0 +1,10 @@
+# match puzzles: right side must not repeat the left side
+2b133d81@lexa#2	joining word parts into new terms
+c176f935@lexa#2	reference book of medical terms
+af80228a@lexa#2	imaging specialist
+5bfe3a95@lexa#2	medicine of mental disorders
+2010feb1@lexa#2	term named after a person
+f1fde269@lexa#2	restoring function after illness
+4156edf6@lexa#2	expert who prepares and dispenses drugs
+a235ac49@lexa#1	slimy secretion (noun)
+13e700ed@lexa#2	hardened skin; new bone at a fracture

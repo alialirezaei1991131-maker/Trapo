@@ -1,0 +1,23 @@
+# match puzzles: right side must not repeat the left side
+254fb2eb@nafas#5	throat
+ce4780dc@nafas#2	moving air in and out of the lungs
+1a21978b@nafas#1	tiny hairs that sweep the airway
+fa318f25@nafas#3	small tissue hanging at the back of the soft palate
+000b1aa0@nafas#2	relating to the windpipe
+86023c7d@nafas#4	inflammation of the windpipe
+2c5a0919@nafas#3	smallest airway branch
+77cf26a4@nafas#5	branching airways of the lung
+f89e24f4@nafas#2	tiny lung vessels around the alveoli
+ce797e5d@nafas#3	one half of the chest
+247ae9a0@nafas#2	relating to the space between the lungs
+11b62b49@nafas#3	muscles between the ribs
+213582fc@nafas#2	thick, sticky secretion of the throat and chest
+8e31dd32@nafas#2	growing germs from coughed-up mucus
+da5f1302@nafas#2	device measuring oxygen saturation
+119b588c@nafas#2	drug that loosens mucus for coughing up
+6551d6a0@nafas#2	drug that clears a blocked nose
+67f48071@nafas#2	crackling sounds on inspiration
+213582fc@nafas#3	thick, sticky secretion of the throat and chest
+d1193a94@nafas#3	nose, throat and larynx
+02143477@nafas#2	redness, heat, swelling and pain
+ce797e5d@nafas#4	one half of the chest

@@ -1746,7 +1746,7 @@
           M(`Which part of the uterus is the ${e('<b>fundus</b>')}?`, ["the rounded upper part", "the lower opening", "the inner layer", "the tube"], "The roof of the uterus."),
           T("The ovaries and fallopian tubes are called the adnexa.", true, "The uterine appendages."),
           O("Put the egg’s route in order", ['ovary', 'fimbriae', 'uterine tube', 'uterus'], "From the ovary to the uterus."),
-          P("Match each part to its everyday name", [['ovary', "ovary"], ['uterine tube', "fallopian tube"], ['cervix', "cervix"], ['fimbriae', "finger-like fringes of the tube"]], "The organs."),
+          P("Match each part to its everyday name", [['ovary', "female gland making eggs"], ['uterine tube', "fallopian tube"], ['cervix', "neck of the uterus"], ['fimbriae', "finger-like fringes of the tube"]], "The organs."),
           B("Another name for the uterine tube is the ___ tube.", ['fallopian', 'eustachian', 'Bartholin'], "Fallopian tube."),
           S("Spell the term for the female gonad", 'ovary', 'ovari/o.', 'ova…'),
           N('t2f:fm')
@@ -1774,7 +1774,7 @@
           M("Which space does the root culd/o refer to?", ["rectouterine pouch", "cervix", "fallopian tube", "birth canal"], 'cul-de-sac.'),
           T("The bladder is in front of the uterus and the rectum behind it.", true, "A sagittal section."),
           O("Put the structures in order from front to back", ['pubic bone', 'urinary bladder', 'uterus', 'rectouterine pouch', 'rectum'], "From front to back."),
-          P("Match each term to its meaning", [['cul-de-sac', "rectouterine pouch"], ['cervical canal', "cervical canal"], ['rectum', "the straight final section of the large bowel"], ['pubic bone', "pubic bone"]], "Neighbours."),
+          P("Match each term to its meaning", [['cul-de-sac', "rectouterine pouch"], ['cervical canal', "passage through the neck of the uterus"], ['rectum', "the straight final section of the large bowel"], ['pubic bone', "bone at the front of the pelvis"]], "Neighbours."),
           B("The abbreviation ___ in a record means cervix.", ['Cx', 'Cs', 'CV'], 'cervix.'),
           S("Spell the term for the neck of the uterus", 'cervix', 'cervic/o.', 'cerv…'),
           N('d2t:fm')
@@ -1789,7 +1789,7 @@
           M("The glands beside the vaginal opening that make mucus are the…", ['Bartholin glands', 'mammary glands', 'Cowper glands', 'adnexa'], "Bartholin glands."),
           T("vulv/o and episi/o both mean vulva.", true, "vulvitis, episiotomy."),
           W("Build a word meaning “incision of the vulva (perineum)”", ['episi/o', '-tomy'], ['vulv/o', '-itis', 'colp/o'], 'episiotomy.'),
-          P("Match each part to its everyday name", [['labia majora', "labia majora"], ['labia minora', "labia minora"], ['hymen', "hymen"], ['vulva', "vulva"]], "External organs."),
+          P("Match each part to its everyday name", [['labia majora', "outer folds of the vulva"], ['labia minora', "inner folds of the vulva"], ['hymen', "thin membrane at the vaginal opening"], ['vulva', "external female genitals"]], "External organs."),
           B("Inflammation of the vulva is ___.", ['vulvitis', 'vaginitis', 'cervicitis'], 'vulv/o + -itis.'),
           S("Spell the term for the area between the vaginal opening and anus", 'perineum', 'perine/o.', 'perin…'),
           N('r2m:fm')
@@ -1803,7 +1803,7 @@
           M(`${e('<b>gynecomastia</b>')} means…`, ["breast enlargement in males", "mastitis", "absence of a breast", "breast cancer"], 'gynec/o + mast/o + -ia.'),
           T("The areola is the dark ring around the nipple.", true, "Areola."),
           W("Build a word meaning “inflammation of the breast”", ['mast/o', '-itis'], ['mamm/o', '-graphy', 'metr/o'], 'mastitis.'),
-          P("Match each term to its meaning", [['nipple', "tip of the breast"], ['areola', "areola"], ['lactation', "breastfeeding"], ['mammary gland', "mammary gland"]], "The breast."),
+          P("Match each term to its meaning", [['nipple', "tip of the breast"], ['areola', "pigmented ring around the nipple"], ['lactation', "breastfeeding"], ['mammary gland', "milk-producing gland"]], "The breast."),
           B("The root ___ in mastectomy means breast.", ['mast/o', 'men/o', 'metr/o'], 'mast/o.'),
           S("Spell the term for inflammation of the breast", 'mastitis', 'mast/o + -itis.', 'mast…'),
           N('m2r:fm')
@@ -1817,7 +1817,7 @@
           M("How is “pregnant five times” written in a record?", ['gravida 5', 'para 5', 'nullipara', 'primigravida'], "gravida = number of pregnancies."),
           T("colpitis and vaginitis both mean inflammation of the vagina.", true, 'colp/o = vagin/o.'),
           W("Build a word meaning “hernia of a fallopian tube”", ['salping/o', '-cele'], ['oophor/o', '-itis', 'hyster/o'], 'salpingocele.'),
-          P("Match each phrase in the record to its term", [["vaginitis", 'vaginitis'], ["inflammation of the cervix", 'cervicitis'], ["hernia of a fallopian tube", 'salpingocele'], ["drawing off amniotic fluid", 'amniocentesis']], "Pamela Kline’s record."),
+          P("Match each phrase in the record to its term", [["inflammation of the vagina", 'vaginitis'], ["inflammation of the cervix", 'cervicitis'], ["hernia of a fallopian tube", 'salpingocele'], ["drawing off amniotic fluid", 'amniocentesis']], "Pamela Kline’s record."),
           B("Removal of both tubes and ovaries is abbreviated ___.", ['BSO', 'TAH', 'D&C'], 'bilateral salpingo-oophorectomy.'),
           S("Spell the term for inflammation of the vagina", 'vaginitis', 'vagin/o + -itis.', 'vagin…'),
           N('wb:fm')
@@ -1832,7 +1832,7 @@
           M("Which hormone does the corpus luteum make?", ['progesterone', 'testosterone', 'FSH', 'oxytocin'], 'corpus luteum.'),
           T("anovulation means failure to ovulate.", true, "an- = without."),
           O("Put the ovarian events in order", ['primary follicle', 'graafian follicle', 'ovulation', 'corpus luteum', 'corpus albicans'], "The ovarian cycle."),
-          P("Match each term to its meaning", [['ovarian follicle', "ovarian follicle"], ['corpus luteum', "corpus luteum"], ['corpus albicans', "white scar body after the corpus luteum"], ['ovulation', "ovulation"]], "The ovary."),
+          P("Match each term to its meaning", [['ovarian follicle', "sac holding a developing egg"], ['corpus luteum', "yellow body after ovulation"], ['corpus albicans', "white scar body after the corpus luteum"], ['ovulation', "release of the egg"]], "The ovary."),
           B("A mature follicle is called a ___ follicle.", ['graafian', 'Bartholin', 'Cowper'], 'graafian.'),
           S("Spell the term for release of an egg from the ovary", 'ovulation', 'ovul/o + -ation.', 'ovul…'),
           N('t2f:fm')
@@ -1860,7 +1860,7 @@
           M("Mrs Heidi Red Feather’s symptoms point mostly to which stage?", ['perimenopause', 'menarche', 'pregnancy', 'puerperium'], "Hot flushes and irregular periods."),
           T("Postmenopausal bleeding must be investigated.", true, "To rule out endometrial cancer."),
           O("Put the stages of a woman’s reproductive life in order", ['puberty', 'menarche', 'reproductive years', 'perimenopause', 'menopause'], "From puberty to menopause."),
-          P("Match each term to its meaning", [['menopause', "menopause"], ['perimenopause', "perimenopause"], ['postmenopausal', "postmenopausal"], ['HRT', "hormone replacement therapy"]], "Menopause."),
+          P("Match each term to its meaning", [['menopause', "permanent end of menstruation"], ['perimenopause', "years leading up to the last period"], ['postmenopausal', "after the last period"], ['HRT', "hormone replacement therapy"]], "Menopause."),
           B("Treatment with estrogen for menopausal symptoms is called ___.", ['HRT', 'IVF', 'TURP'], 'hormone replacement therapy.'),
           S("Spell the term for the permanent end of periods", 'menopause', 'men/o + pause.', 'meno…'),
           N('r2m:fm')
@@ -1893,7 +1893,7 @@
           M("Which cells make testosterone?", ['interstitial (Leydig) cells', 'Sertoli cells', 'ovarian follicle', 'corpus luteum'], "The interstitial cells."),
           T("The scrotum keeps the testes cooler than body temperature.", true, "For sperm production."),
           W("Build a word meaning “inflammation of the testis”", ['orchi/o', '-itis'], ['scrot/o', '-ectomy', 'prostat/o'], 'orchitis.'),
-          P("Match each term to its meaning", [['testis', "testis"], ['scrotum', "scrotum"], ['seminiferous tubules', "sperm-making tubules"], ['interstitial cells', "testosterone-making cells"]], "The testis."),
+          P("Match each term to its meaning", [['testis', "male gland making sperm"], ['scrotum', "skin pouch holding the testes"], ['seminiferous tubules', "sperm-making tubules"], ['interstitial cells', "testosterone-making cells"]], "The testis."),
           B("The root ___ in orchiectomy means testis.", ['orchi/o', 'oophor/o', 'osche/o'], 'orchi/o.'),
           S("Spell the term for the skin pouch holding the testes", 'scrotum', 'scrot/o.', 'scro…'),
           N('t2f:ml')
@@ -1936,7 +1936,7 @@
           M("Why is the prostate examined through the rectum?", ["because it lies just in front of the rectum", "because it is inside the rectum", "because it cannot be seen from the abdomen", "because it is in the scrotum"], 'DRE.'),
           T("DRE means examining the prostate with a finger through the rectum.", true, 'digital rectal examination.'),
           O("Put the structures in order from front to back", ['pubic bone', 'urinary bladder', 'seminal vesicle', 'rectum'], "From front to back."),
-          P("Match each term to its meaning", [['prostate gland', "prostate"], ['seminal vesicle', "seminal vesicle"], ['rectum', "the straight final section of the large bowel"], ['DRE', "digital rectal examination"]], "The male pelvis."),
+          P("Match each term to its meaning", [['prostate gland', "prostate"], ['seminal vesicle', "gland adding fluid to semen"], ['rectum', "the straight final section of the large bowel"], ['DRE', "digital rectal examination"]], "The male pelvis."),
           B("The root ___ means prostate.", ['prostat/o', 'prostrat/o', 'proct/o'], "prostate, not prostrate."),
           S("Spell the term for the gland around the start of the male urethra", 'prostate', 'prostat/o.', 'prost…'),
           N('r2m:ml')
@@ -1964,7 +1964,7 @@
           M(`${e('<b>herniorrhaphy</b>')} means…`, ["hernia repair by suturing", "orchiectomy", "cutting the vas deferens", "cutting into a hernia"], "-rrhaphy = suturing."),
           T("The spermatic cord contains only the vas deferens.", false, "It also has vessels, a nerve and muscle."),
           O("Put the route of the cord from the testis to the pelvis in order", ['testis', 'spermatic cord', 'inguinal canal', 'pelvic cavity'], "Upwards."),
-          P("Match each term to its meaning", [['spermatic cord', "spermatic cord"], ['inguinal canal', "groin canal"], ['cremaster', "muscle that raises the testis"], ['herniorrhaphy', "hernia repair"]], "The cord."),
+          P("Match each term to its meaning", [['spermatic cord', "cord holding the vas deferens and vessels"], ['inguinal canal', "groin canal"], ['cremaster', "muscle that raises the testis"], ['herniorrhaphy', "hernia repair"]], "The cord."),
           B("A hernia in the groin is an ___ hernia.", ['inguinal', 'umbilical', 'hiatal'], 'inguin/o.'),
           S("Spell the adjective for the groin", 'inguinal', 'inguin/o + -al.', 'ingu…'),
           N('t2f:ml')
@@ -1993,7 +1993,7 @@
           M("The abbreviation ED means…", ['erectile dysfunction', 'ejaculatory duct', 'estimated delivery', 'endometrial disease'], "inability to achieve an erection"),
           T("Impotence is another name for erectile dysfunction.", true, "Synonyms."),
           O("Put the events in order", ['arousal', 'erection', 'emission', 'ejaculation'], "From stimulation to ejaculation."),
-          P("Match each term to its meaning", [['erection', "erection"], ['ejaculation', "ejaculation"], ['impotence', "impotence"], ['psychogenic', "of psychological origin"]], "Function."),
+          P("Match each term to its meaning", [['erection', "stiffening of the penis"], ['ejaculation', "release of semen"], ['impotence', "inability to achieve an erection"], ['psychogenic', "of psychological origin"]], "Function."),
           B("ED drugs are often ___.", ['vasodilators', 'diuretics', 'antibiotics'], "Vasodilators."),
           S("Spell the term for the penis filling with blood", 'erection', 'erect + -ion.', 'erec…'),
           N('d2t:ml')
@@ -2040,7 +2040,7 @@
           M("Which hormone does a pregnancy test measure?", ['hCG', 'FSH', 'LH', 'prolactin'], 'human chorionic gonadotropin.'),
           T("Implantation takes place about a week after fertilization.", true, "Days 6 to 7."),
           O("Put the events in order", ['fertilization', 'zygote', 'morula', 'blastocyst', 'implantation'], "From fertilization to implantation."),
-          P("Match each term to its meaning", [['conception', "fertilization"], ['zygote', "fertilized egg"], ['blastocyst', "hollow ball of cells"], ['implantation', "implantation"]], "The start of pregnancy."),
+          P("Match each term to its meaning", [['conception', "fertilization"], ['zygote', "fertilized egg"], ['blastocyst', "hollow ball of cells"], ['implantation', "embryo embedding in the uterine lining"]], "The start of pregnancy."),
           B("Transferring the zygote into the fallopian tube in IVF is called ___.", ['ZIFT', 'GIFT', 'IUD'], 'zygote intrafallopian transfer.'),
           S("Spell the term for the blastocyst embedding in the endometrium", 'implantation', 'in- + plant + -ation.', 'impl…'),
           N('t2f:pg')
@@ -2054,7 +2054,7 @@
           M("Which period is most vulnerable to drugs and infections?", ["the embryonic period", "third trimester", "the newborn period", "after delivery"], "Organ formation."),
           T("A full pregnancy is about 40 weeks from the first day of the last menstrual period.", true, 'LMP.', F('fetus-photo', [])),
           O("Put the stages of development in order", ['zygote', 'embryo', 'fetus', 'neonate'], "From zygote to newborn."),
-          P("Match each term to its meaning", [['embryo', "developing baby up to week 8"], ['fetus', "baby"], ['trimester', "Trimester"], ['neonate', "newborn"]], "Growth."),
+          P("Match each term to its meaning", [['embryo', "developing baby up to week 8"], ['fetus', "baby"], ['trimester', "three-month period of pregnancy"], ['neonate', "newborn"]], "Growth."),
           B("The root ___ means fetus.", ['fet/o', 'nat/o', 'gravid/o'], 'fetal.'),
           S("Spell the term for the developing baby up to week 8", 'embryo', 'embry/o.', 'emb…'),
           N('f2t:pg')
@@ -2244,7 +2244,7 @@
           M("Why does the urine stream weaken in BPH?", ["the enlarged prostate narrows the urethra", "the kidney makes no urine", "the bladder ruptures", "the testis enlarges"], "Obstruction.", null, F('bph', [])),
           T("hyperplasia means an increase in the number of cells.", true, 'hyper- + -plasia.'),
           O("Put the events of BPH in order", ['prostate enlarges', 'urethra narrows', 'weak stream', 'urinary retention'], "From cause to complication."),
-          P("Match each sign to its meaning", [['hesitancy', "delayed start of urination"], ['nocturia', "bed-wetting"], ['urinary retention', "urinary retention"], ['dysuria', "painful urination"]], "Signs."),
+          P("Match each sign to its meaning", [['hesitancy', "delayed start of urination"], ['nocturia', "bed-wetting"], ['urinary retention', "inability to empty the bladder"], ['dysuria', "painful urination"]], "Signs."),
           B("Inflammation of the prostate is ___.", ['prostatitis', 'prostatism', 'proctitis'], 'prostat/o + -itis.'),
           S("Spell the term for urinating at night", 'nocturia', 'noct/o + -uria.', 'noct…'),
           N('f2t:ds')
@@ -2273,7 +2273,7 @@
           M("A placenta lying over the cervix is…", ['placenta previa', 'abruptio placentae', 'placenta accreta', 'preeclampsia'], "previa = going before.", null, F('placental-abnormalities', [])),
           T("Preeclampsia comes with high blood pressure and protein in the urine.", true, "after week 20"),
           O("Put them in order of severity", ['gestational hypertension', 'preeclampsia', 'eclampsia'], "It is more severe with seizures."),
-          P("Match each term to its meaning", [['placenta previa', "placenta over the cervix"], ['abruptio placentae', "placental abruption"], ['eclampsia', "seizures in pregnancy"], ['ectopic pregnancy', "Ectopic pregnancy"]], "The complications."),
+          P("Match each term to its meaning", [['placenta previa', "placenta over the cervix"], ['abruptio placentae', "placental abruption"], ['eclampsia', "seizures in pregnancy"], ['ectopic pregnancy', "pregnancy outside the uterus"]], "The complications."),
           B("A pregnancy in a fallopian tube is an ___ pregnancy.", ['tubal', 'molar', 'multiple'], "The commonest ectopic site."),
           S("Spell the adjective meaning “out of place”", 'ectopic', 'ec- + top/o + -ic.', 'ecto…'),
           N('t2f:ds')
@@ -2391,7 +2391,7 @@
           M("Which route is used for a TURP?", ["through the urethra", "through the abdomen", "through the rectum", "through the perineum"], 'trans- + urethr/o.', null, F('turp', [])),
           T("mastopexy means lifting and fixing the breast.", true, "-pexy = fixing in place."),
           W("Build a word meaning “repair of the breast”", ['mamm/o', '-plasty'], ['mast/o', '-ectomy', '-pexy'], 'mammoplasty.'),
-          P("Match each operation to its meaning", [['lumpectomy', "removing the lump"], ['radical mastectomy', "breast, muscle and nodes"], ['mastopexy', "mastopexy"], ['TURP', "Shaving the prostate through the urethra"]], "The operations."),
+          P("Match each operation to its meaning", [['lumpectomy', "removing the lump"], ['radical mastectomy', "breast, muscle and nodes"], ['mastopexy', "breast lift"], ['TURP', "Shaving the prostate through the urethra"]], "The operations."),
           B("The instrument for a TURP is the ___.", ['resectoscope', 'colposcope', 'laparoscope'], "A cutting instrument."),
           S("Spell the term for removal of a breast", 'mastectomy', 'mast/o + -ectomy.', 'mastec…'),
           N('f2t:tx')
@@ -2703,7 +2703,7 @@
       fig: { a: 'wordparts', l: [] },
       steps: [
         M("counting", "How is “pregnant five times” written?", ['gravida 5', 'para 5', 'multipara', 'G1 P5'], "gravida = number of pregnancies."),
-        P("Term", "Match each phrase to its medical term", [["vaginitis", 'vaginitis'], ["inflammation of the cervix", 'cervicitis'], ["hernia of a fallopian tube", 'salpingocele'], ["drawing off amniotic fluid", 'amniocentesis']], "The APPLY scenario."),
+        P("Term", "Match each phrase to its medical term", [["inflammation of the vagina", 'vaginitis'], ["inflammation of the cervix", 'cervicitis'], ["hernia of a fallopian tube", 'salpingocele'], ["drawing off amniotic fluid", 'amniocentesis']], "The APPLY scenario."),
         M("abbreviation", "In TAH-BSO, the letter B means…", ["on both sides", "breast", "bladder", "biopsy"], 'bilateral.'),
         P("root", "Match each root to its organ", [['salping/o', "fallopian tube"], ['oophor/o', "ovary"], ['hyster/o', "uterus"], ['cervic/o', "cervix"]], "The roots."),
         T("suffix", "The suffix -cele means hernia or bulge.", true, "salpingocele, cystocele."),
@@ -2747,7 +2747,7 @@
       steps: [
         M("diagnosis", "Which stage do these symptoms mostly point to?", ['perimenopause', 'menarche', 'puerperium', 'pregnancy'], "The years before menopause."),
         M("Term", "Uterine bleeding between two periods is…", ['metrorrhagia', 'menorrhagia', 'amenorrhea', 'dysmenorrhea'], 'metr/o.'),
-        P("Term", "Match each term to its meaning", [['menopause', "menopause"], ['menarche', "first period"], ['HRT', "hormone replacement therapy"], ['menses', "menstruation"]], "Menopause."),
+        P("Term", "Match each term to its meaning", [['menopause', "permanent end of menstruation"], ['menarche', "first period"], ['HRT', "hormone replacement therapy"], ['menses', "menstruation"]], "Menopause."),
         T("Hormone", "Falling estrogen causes the hot flushes of menopause.", true, "Declining ovarian function."),
         O("life", "Put the stages in order", ['menarche', 'reproductive years', 'perimenopause', 'menopause'], "From puberty to menopause."),
         S("Spelling", "Spell the term for the years leading up to menopause", 'perimenopause', 'peri- + men/o + pause.', 'peri…')
@@ -2792,7 +2792,7 @@
         M("Operation", "herniorrhaphy means…", ["hernia repair by suturing", "cutting into a hernia", "orchiectomy", "tying a duct"], '-rrhaphy.'),
         M("Operation", "In a vasectomy, which duct is cut?", ['vas deferens', 'urethra', 'uterine tube', 'ejaculatory duct'], 'vas/o.', null, { a: ['sperm-path'], l: [] }),
         T("Result", "After a vasectomy the semen has no sperm, but ejaculation continues.", true, "Only the sperm route is closed."),
-        P("Term", "Match each term to its meaning", [['bilateral', "on both sides"], ['elective', "by choice"], ['spermatic cord', "spermatic cord"], ['inguinal canal', "groin canal"]], 'Case Study 15-1.'),
+        P("Term", "Match each term to its meaning", [['bilateral', "on both sides"], ['elective', "by choice"], ['spermatic cord', "cord holding the vas deferens and vessels"], ['inguinal canal', "groin canal"]], 'Case Study 15-1.'),
         S("Spelling", "Spell the term for male sterilization by cutting the duct", 'vasectomy', 'vas/o + -ectomy.', 'vase…')
       ]
     },
@@ -2804,7 +2804,7 @@
       steps: [
         M("Term", "cryptorchidism means…", ["undescended testis", "orchitis", "absence of a testis", "twisting of the testis"], "crypt/o = hidden.", null, { a: ['cryptorchidism'], l: [] }),
         M("treatment", "What is fixing the testis in the scrotum called?", ['orchiopexy', 'orchiectomy', 'orchitis', 'orchiplasty'], '-pexy.'),
-        P("Term", "Match each term to its meaning", [['varicocele', "dilated veins above the testis"], ['circumcision', "removal of the foreskin"], ['orchiectomy', "orchiectomy"], ['bilateral', "on both sides"]], "The APPLY scenarios."),
+        P("Term", "Match each term to its meaning", [['varicocele', "dilated veins above the testis"], ['circumcision', "removal of the foreskin"], ['orchiectomy', "removal of a testis"], ['bilateral', "on both sides"]], "The APPLY scenarios."),
         T("removal of the foreskin", "In circumcision, the skin over the head of the penis (prepuce) is removed.", true, 'circumcision.'),
         M("root", "Which root means hidden?", ['crypt/o', 'cyst/o', 'orchi/o', 'scrot/o'], 'cryptorchidism.'),
         S("Spelling", "Spell the term for fixing the testis in the scrotum", 'orchiopexy', 'orchi/o + -pexy.', 'orchio…')
@@ -2820,7 +2820,7 @@
         M("Term", "psychogenic means…", ["of psychological origin", "of vascular origin", "inherited", "infectious"], 'psych/o + -genic.'),
         M("study of body function", "Erection is the filling of which tissue with blood?", ["corpora cavernosa and corpus spongiosum", "prostate", "epididymis", "seminal vesicle"], "Erectile tissue.", null, { a: ['penis-xs'], l: [] }),
         T("drug", "ED drugs increase blood flow to the penis by dilating the vessels.", true, 'vasodilator.'),
-        P("Term", "Match each term to its meaning", [['impotence', "impotence"], ['BPH', "benign prostatic hyperplasia"], ['vasodilator', "widening a vessel"], ['erection', "erection"]], 'Case Study 15-2.'),
+        P("Term", "Match each term to its meaning", [['impotence', "inability to achieve an erection"], ['BPH', "benign prostatic hyperplasia"], ['vasodilator', "widening a vessel"], ['erection', "stiffening of the penis"]], 'Case Study 15-2.'),
         S("Spelling", "Spell the older term for erectile dysfunction", 'impotence', 'im- + potence.', 'impo…')
       ]
     },
@@ -2902,7 +2902,7 @@
       chart: [['Sx', 'menorrhagia, dysmenorrhea'], ['Hysteroscopy', 'retroverted uterus, fibroids'], ['Hx', 'preeclampsia'], ['Lab', 'positive pregnancy test']],
       fig: { a: 'uterine-disorders', l: [] },
       steps: [
-        P("Term", "Match each term to its meaning", [['menorrhagia', "heavy periods"], ['dysmenorrhea', "painful periods"], ['retroverted', "tilted backwards"], ['fibroid', "fibroid"]], "The APPLY scenario."),
+        P("Term", "Match each term to its meaning", [['menorrhagia', "heavy periods"], ['dysmenorrhea', "painful periods"], ['retroverted', "tilted backwards"], ['fibroid', "benign muscle tumour of the uterus"]], "The APPLY scenario."),
         M("fibroid", "What is the scientific name for a fibroid?", ['leiomyoma', 'endometriosis', 'adenomyosis', 'polyp'], "A smooth-muscle tumour.", null, { a: ['fibroids'], l: [] }),
         M("Complication", "What comes with preeclampsia?", ["high blood pressure and protein in the urine", "low blood sugar", "painless bleeding", "fever"], "after week 20"),
         T("Test", "A pregnancy test measures hCG.", true, "The pregnancy hormone."),
@@ -2920,7 +2920,7 @@
         O("Process", "Put the workup and treatment in order", ['Pap smear', 'colposcopy', 'D&C with cone biopsy', 'TAH and BSO'], 'Case Study 16-1.'),
         M("Term", "cervical dysplasia means…", ["abnormal growth of cervical cells", "advanced cancer", "infection of the cervix", "polyp"], 'dys- + -plasia.', null, { a: ['pap-test'], l: [] }),
         M("surgery", "What is removed in a TAH and BSO?", ["the uterus, cervix, tubes and ovaries", "the uterus only", "the ovaries only", "the cervix only"], "Complete.", null, { a: ['hysterectomy-types'], l: [] }),
-        P("Pathology", "Match each finding to its meaning", [['leiomyomas', "fibroids"], ['stenosis', "narrowing"], ['no PID', "no pelvic infection"], ['uterine prolapse', "uterine prolapse"]], "The pathology."),
+        P("Pathology", "Match each finding to its meaning", [['leiomyomas', "fibroids"], ['stenosis', "narrowing"], ['no PID', "no pelvic infection"], ['uterine prolapse', "uterus slipping down into the vagina"]], "The pathology."),
         T("treatment", "<bdi dir=\"ltr\">“HRT denied”</bdi> means the patient has not taken hormone therapy.", true, "denied = said no."),
         S("Spelling", "Spell the term for a magnified view of the cervix", 'colposcopy', 'colp/o + -scopy.', 'colpo…')
       ]

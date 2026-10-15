@@ -1,0 +1,10 @@
+# match puzzles: right side must not repeat the left side
+9849384d@osteo#2	complete loss of joint contact
+7e4e73ec@osteo#1	involuntary, without stripes
+562d4552@osteo#2	straight across the bone
+007c4d4e@osteo#2	at a slant
+d27310ad@osteo#2	twisting around the bone
+06c47201@osteo#1	crack from repeated loading
+19f4bad5@osteo#2	pulling with weights
+ffbd53fe@osteo#3	gout
+ffdaa87f@osteo#1	treatment by planned exercises

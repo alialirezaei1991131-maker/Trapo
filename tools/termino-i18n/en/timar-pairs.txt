@@ -1,0 +1,11 @@
+# match puzzles: right side must not repeat the left side
+ec9e11fa@timar#2	calor
+443e6851@timar#11	dolor
+d7d0343e@timar#2	rubor
+024a3dbf@timar#2	tumor
+da859400@timar#6	thick yellow fluid of infection
+b8fd962f@timar#1	letting fluid flow out of a wound
+615b8786@timar#1	drugs boosting each other’s effect
+764a2532@timar#4	unwanted extra effect of a drug
+a3c58463@timar#1	symptoms on suddenly stopping a drug
+2fe1dc1f@timar#1	Match each sign to its classic Latin name
