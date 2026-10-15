@@ -1,0 +1,278 @@
+f227587e	Ear Roots
+ed6abf96	On a real figure
+0c8eb0d0	Roots on a section of the ear
+cfc1af82	myring looks like ring; the eardrum is a stretched ring. tympan means drum.
+6f102783	In the Chart Note in Gylys’s book, the patient was admitted for tympanoplasty, that is, repair of the eardrum.
+151bb2ba	Which is the root for “eardrum”?
+3bf221ff	myring/o and tympan/o.
+b26ea480	Which ossicle does the root staped/o refer to?
+42c4f9e4	ot/o and aur/o both mean ear.
+7252e4c3	Greek and Latin roots.
+e11b8cbc	Build a word meaning “repair of the eardrum”
+3425ddfe	Match each root to its part of the ear
+a4958d18	Inflammation of the mastoid is ___.
+541f609d	Spell the term for the study of the ear
+4efbe3e2	Hearing and tears
+c0341300	Roots of hearing
+e6201421	• ⟦0⟧: hearing, sound; e.g. ⟦1⟧ and ⟦2⟧<br>• ⟦3⟧: hearing; e.g. ⟦4⟧<br>• the suffix ⟦5⟧: condition of hearing; e.g. ⟦6⟧ (age-related hearing loss)⟦7⟧
+50df714a	In everyday language, audio also means sound; an audiometer is a hearing meter.
+71a0b2c2	Roots of tears
+90e28cb4	⟦0⟧ (Greek) and ⟦1⟧ (Latin) both mean tear.<br>⟦2⟧ → ⟦3⟧: inflammation of the tear sac<br>⟦4⟧ → ⟦5⟧: excessive tearing⟦6⟧
+a6daaab5	The book’s applied scenario: Mrs Julie Halbritter has a red eye with excessive tearing and frequent blinking.
+5a6d4b60	The root meaning “sound, hearing” is…
+a14e729b	tearing
+a9d48a86	lacrim/o and dacry/o both mean tear.
+aa58ea32	Latin and Greek.
+065d1939	Build a word meaning “age-related hearing loss”
+ea4dfa3a	acoustic
+7722583a	The study of hearing is ___.
+2c2df3e5	Spell the adjective meaning relating to tears
+b8bac1d3	outwards
+18096cc7	⟦0⟧ → turning of the eye inwards<br>⟦1⟧ → turning of the eye outwards⟦2⟧⟦3⟧
+99200b65	eso- means inwards, towards you; exo- is like exit, meaning outwards.
+e022b114	In the Case Study in Cohen’s book, Kelly’s left eye turned towards the inner corner of the eye (medial canthus); that is, esotropia.
+91612f04	The prefix eso- means…
+35f956ac	blindness in half the visual field
+8fa5767b	The prefix intra- means “within”, as in intraocular.
+83851c62	Within the eye.
+14e9c098	Build a word meaning “outward turning of the eye”
+e831f716	Double vision is ___.
+5dab2acb	Spell the term for inward turning of the eye
+72b02fd8	Sense Suffixes
+b9517d7a	Eye and ear pain
+1f3651aa	There are two same-meaning suffixes for pain: ⟦0⟧ and ⟦1⟧ both mean earache; ⟦2⟧ and ⟦3⟧ both mean eye pain.⟦4⟧
+9d170078	The book’s applied scenario: the record of 68-year-old Mrs Kelly Post reads oculodynia, mastoiditis and conjunctivitis; that is, eye pain, inflammation of the mastoid and inflammation of the conjunctiva.
+e4325ba2	The suffix -cusis means…
+d762d560	-dynia means pain.
+194d4aaa	-opia and -opsia both mean vision.
+f3ed6e3c	Same-meaning twins.
+63bc6323	Drooping of the eyelid is ___.
+0e5030ef	Spell the term for earache ending in -algia
+61b6fbef	Look-alike Traps and Right and Left
+7061389e	ear; as in otitis
+7e49130c	mouth; as in oral
+bc7f6f09	ear ossicle
+92a41b1b	dexter means right (as in dexterity, the skill of the right hand) and sinister means left.
+57782e23	The abbreviation OS means…
+7b45cb73	Where is the malleolus?
+314b4450	The malleus is in the ear.
+18699bad	AU means both ears.
+77a2c16f	Put the Latin terms in order from top to bottom: right, left, both
+5fe8fd9c	OD, OS, OU.
+eb8f3ba3	Right and left.
+dbdafc1a	The root ___ means mouth, not ear.
+09247c84	Spell the name of the hammer-shaped ossicle
+b2a3a87b	The Eye: Structure and Vision
+d5cdac01	Layers of the eyeball, cornea, iris, lens and retina, eyelids and lacrimal apparatus, eye muscles, refraction, accommodation and the visual pathway
+636670b7	Protective Structures and Movement
+0cac7567	Light and Vision
+fe431eaf	The Three Layers of the Eyeball
+44aec1fc	From outside in
+6a668952	⟦0⟧The ⟦1⟧ sits in the ⟦2⟧ (eye socket), and its wall has three layers:<br>• outer (fibrous) layer: the ⟦3⟧ (white of the eye) and, in front, the ⟦4⟧<br>• middle layer (⟦5⟧): the ⟦6⟧, ⟦7⟧ and ⟦8⟧<br>• inner layer: the ⟦9⟧
+b4a8eaee	⟦0⟧The ⟦1⟧ is full of vessels and nourishes the retina. The space behind the lens is filled by the ⟦2⟧ (a clear jelly).⟦3⟧
+65dc1336	Layers of the eye
+8c920a69	Three layers like an onion: the tough sclera, the vessel-rich choroid and the light-sensitive retina.
+3e72cb41	What is the white of the eye called?
+a4acba31	scler/o means hard.
+683ab473	The vessel-rich layer that nourishes the retina is…
+0efcb478	The choroid.
+13e2e72b	The uvea includes the choroid, ciliary body and iris.
+9219caa7	The middle layer.
+08c96606	From outside in.
+2c680932	Match each part to its layer
+bf855c59	middle layer
+c96aece8	jelly inside the eyeball
+a8170c1f	The bony cavity of the eye is the ___.
+5d1f51fb	The eye socket.
+a36e92a5	Spell the term for the white of the eye
+7d5c3139	Cornea, Iris, Pupil and Lens
+4b58d40c	The front of the eye
+479e1327	⟦0⟧• ⟦1⟧: the clear window at the front of the eye; bends light the most<br>• ⟦2⟧: the coloured muscular ring<br>• ⟦3⟧: the hole in the centre of the iris<br>• ⟦4⟧: the clear lens behind the pupil<br>• ⟦5⟧: the watery fluid in front of the lens
+b44cff44	Structures of the eyeball
+c25c41d9	The pupil in light
+d4f0f378	⟦0⟧⟦1⟧In bright light the circular muscles of the iris narrow the pupil: ⟦2⟧. In dim light the pupil widens: ⟦3⟧.⟦4⟧
+de89f53f	Iris muscles
+8a44036d	How the iris works
+4b51602c	miosis is small (mini); mydriasis is big.
+99cfefec	Which part gives the eye its colour?
+6e2b36bf	The iris.
+2024b9aa	Narrowing of the pupil…
+68a50f3c	In bright light.
+1238cd69	The pupil is an opening, not a tissue.
+f5ec54fc	The gateway for light.
+f87e1046	Put the path of light in order
+181b66a7	bends light the most
+d373b284	adjusts pupil size
+b47f0278	fine focusing
+80c132cd	fluid in front of the lens
+6e556c6e	The front of the eye.
+104d7586	Widening of the pupil is ___.
+e652d6ea	Spell the term for the clear window at the front of the eye
+bed48358	Retina and Optic Nerve
+79276021	⟦0⟧The ⟦1⟧ has two kinds of light receptor (⟦2⟧):<br>• ⟦3⟧: dim light and black-and-white vision<br>• ⟦4⟧: colour and sharp vision<br>The ⟦5⟧ is the yellow spot in the centre of the retina, and the ⟦6⟧ in its middle is the sharpest point of vision.
+952b46fb	The back of the eye and its receptors
+91f97972	The blind spot
+67bb8ab5	⟦0⟧Where the ⟦1⟧ (the second cranial nerve) leaves the retina is the ⟦2⟧; it has no receptors, so it is the blind spot.⟦3⟧
+d3212798	The back of the eye through an ophthalmoscope
+bcde0c89	cones are for colour; both start with c.
+bc6ffc14	Which receptors detect colours?
+1b4fc34c	The cones.
+38e1feaa	Where is the eye’s blind spot?
+e46458f3	Where the nerve leaves.
+b73c62f0	The sharpest vision is at the fovea centralis.
+929c81fe	Packed with cones.
+a60f4d6a	Put the path of the light message in order
+f2065a17	From the retina to the brain.
+3a5472ee	vision in dim light
+75e3ac9d	colour vision
+4c1855b3	yellow spot
+4cf3e234	The retina.
+0e376e19	The optic nerve is cranial nerve number ___.
+2a534bdc	Spell the term for the light-sensitive inner layer of the eye
+a82a2d4f	Eyelid, Conjunctiva and Eyebrow
+2677c5e6	Protective structures
+d2037224	⟦0⟧• ⟦1⟧ (⟦2⟧; ⟦3⟧): the lid that closes the eye and helps spread tears<br>• ⟦4⟧: the corner of the eye; inner (medial) and outer (lateral)<br>• ⟦5⟧: a thin mucous membrane over the sclera and under the lid<br>• ⟦6⟧: the oil gland of the eyelid margin
+dd6d7b4f	Accessory structures of the eye
+48a2f395	Accessory structures
+25fdfa10	The book’s applied scenario: the doctor ordered surgery on Mr Smith’s drooping eyelids, which were blocking his vision; that is, blepharoplasty.
+53e01714	canthus is the corner of the eye.
+d394d349	The mucous membrane over the white of the eye and under the lid is…
+49732a41	The conjunctiva.
+c70a5208	The root blephar/o means…
+0cdbec7f	eyelash
+3c88a0c9	canthus means the corner of the eye, where the upper and lower lids meet.
+28d9ac5b	Inner and outer.
+afb9d17c	Build a word meaning “inflammation of the conjunctiva”
+ea978807	oil gland of the eyelid
+fbb53e22	Protectors.
+848b4bf2	The Latin name for eyelid is ___.
+b1414c02	Spell the term for the thin membrane over the white of the eye
+9361ce8e	The Path of Tears
+09d5ea02	⟦0⟧The ⟦1⟧:<br>• ⟦2⟧: above the outer corner of the eye; makes tears<br>• tears wash the surface of the eye and flow to the inner corner<br>• ⟦3⟧ and ⟦4⟧<br>• ⟦5⟧: carries tears to the nose
+285167b3	⟦0⟧⟦1⟧⟦2⟧ → ⟦3⟧: inflammation of the tear gland
+71cce7b2	Protective structures and the lacrimal apparatus
+4f61718e	When you cry your nose runs too, because the nasolacrimal duct carries tears into the nose.
+2ad6e393	Where are tears made?
+d6ae316e	The lacrimal gland.
+d41f8dde	Which duct carries tears to the nose?
+af5cc571	The lacrimal gland is above the outer (lateral) corner of the eye.
+5915f170	Under the upper lid.
+8c3dbf10	Put the path of tears in order
+9a866835	From the gland to the nose.
+3746c794	making tears
+df72419e	collecting tears
+47987e18	draining into the nose
+57e942d7	coating the surface of the eye
+1c4064d3	The lacrimal apparatus.
+fa83e525	Inflammation of the tear gland is ___.
+3135292a	aden/o means gland.
+47ec636f	Spell the term for the duct that carries tears into the nose
+1c94a054	Eye Muscles
+6d3e2eeb	Six muscles
+fcd00571	⟦0⟧The six ⟦1⟧ lie outside the eyeball and rotate it: four rectus muscles (superior, inferior, medial, lateral) and two oblique muscles (superior and inferior).
+4fab8a6a	Eye muscles from the side and front
+ab73ec7f	extra means outside; extraocular means outside the eyeball.
+0637663b	In an examination, EOM intact means eye movements are full in all directions.
+fea9b6b7	How many extraocular muscles are there?
+4f488d6d	eight
+60e579f0	Four rectus and two oblique.
+b0ede5a1	The muscle that turns the eye towards the nose is…
+3e020b11	medial means towards the middle.
+ff7b6a7a	The extraocular muscles are inside the eyeball.
+59bef55a	They are outside the eyeball.
+42351de4	Put the rectus muscles in clockwise order from the top (right eye from the front)
+3d65e0d4	Up, in, down, out.
+bf80f483	Match each muscle to its movement
+f233191d	looking up
+a45eacc4	looking down
+2b24b097	towards the temple
+bb642393	towards the nose
+ce4ea3ca	Muscles.
+41f408ea	The abbreviation ___ means extraocular movements.
+f0a60ade	Spell the adjective meaning outside the eyeball
+051a70d2	Refraction and Accommodation
+2e819652	Bending of light
+c5140c1b	⟦0⟧⟦1⟧ means the bending of light by the cornea and lens so that it focuses on the retina. ⟦2⟧ means normal refraction. Lens power is measured in units called ⟦3⟧.
+96862218	⟦0⟧⟦1⟧: the ciliary muscle changes the shape of the lens; for near vision the lens becomes rounder. ⟦2⟧ means both eyes turn inwards to look at something near.⟦3⟧
+a65169d5	Accommodation for near vision
+13f48e8b	With age the lens stiffens and accommodation decreases: presbyopia.
+829d837f	What is the bending of light in the eye called?
+2246a780	Refraction.
+6f92f547	What happens to the lens for near vision?
+1653d211	it becomes rounder
+54531cad	it becomes flatter
+23dcc56f	it becomes smaller and darker
+a881086d	emmetropia means normal refraction; the image falls right on the retina.
+a4a780f8	Normal vision.
+80f46104	Put the steps of looking at a book in order
+8b41dbc7	Convergence, accommodation, focus.
+39c89566	unit of lens power
+d062754b	The abbreviation Em means ___.
+6f278c23	Spell the term for the lens adjusting for near vision
+93b0297c	From Eye to Brain
+842674a4	⟦0⟧⟦1⟧ → ⟦2⟧ (where half the fibres cross over) → ⟦3⟧ → thalamus → ⟦4⟧ in the occipital lobe.
+0e9c02b7	An upside-down image
+d4a5ba9a	The image on the retina is upside down and the brain turns it the right way up. Because the fibres cross at the chiasm, damage to one side of the brain takes away half the visual field of both eyes: ⟦0⟧.⟦1⟧
+5bb67143	chiasm is like the Greek letter χ (chi); that is, a cross.
+4eccf095	In which lobe of the brain is the visual cortex?
+32d5f6ad	Where do the visual fibres cross?
+5c34c69f	At the chiasm.
+70ef3612	The image on the retina forms upside down.
+153caa3a	The brain corrects it.
+edbb585a	Put the visual pathway in order
+e2dea605	From the eye to the brain.
+e7e36e7d	half blindness
+50f02d53	The place where the fibres cross is the optic ___.
+3d0e1011	Spell the term for the brain area in the occipital lobe that processes sight
+b677bc73	Visual Acuity and Field
+2ad3dece	Measuring vision
+fefe7ffb	• ⟦0⟧: sharpness of vision; measured with the Snellen chart, e.g. ⟦1⟧<br>• ⟦2⟧: everything the eye sees without moving<br>• ⟦3⟧: vision at the edges of the field<br>• ⟦4⟧: two-eyed vision and depth perception
+f361f387	The Discharge Summary in Ehrlich’s book says: Mrs Serowan’s <bdi dir="ltr">“best corrected visual acuity”</bdi> in the right eye was 20/70; that is, even with glasses she saw only 20/70.
+2b1eab44	best corrected acuity
+216453cd	With what instrument is sharpness of vision measured?
+87bef1f1	The Snellen chart.
+c1bcc334	Vision at the edges of the visual field…
+561e5fab	Peripheral.
+850b4697	sc means without glasses and cc means with glasses.
+159c7547	sine and cum correction.
+201a29ff	Put the acuities in order from best to worst
+7cc93baa	A larger denominator means worse vision.
+c5608a8f	with glasses
+4afb9429	Two-eyed vision with depth perception is ___ vision.
+cff2d409	bin- means two.
+2adc2341	Spell the word for sharpness in “visual …”
+e3bc730c	Sharpness.
+16018301	Eye Diseases
+63d88b75	Eye disease
+645d75d6	Nearsightedness and farsightedness, cataract, glaucoma, retinal diseases, strabismus and lazy eye, eyelid diseases and eye inflammations
+62fad090	Refractive Errors and the Lens
+d533e3c3	Retina, Pressure and Visual Field
+d3b95e54	Eyelid, Muscle and Inflammation
+d0c2a75b	Where does the light fall?
+b3cdc610	⟦0⟧• ⟦1⟧ (nearsightedness): long eyeball; focus in front of the retina; distance is blurred<br>• ⟦2⟧ (farsightedness): short eyeball; focus behind the retina; near is blurred<br>• ⟦3⟧: irregular cornea; the image is stretched and blurred
+c4015443	Correcting with lenses
+21cb6087	⟦0⟧⟦1⟧A concave lens corrects nearsightedness and a convex lens corrects farsightedness.⟦2⟧
+b12e601a	Correction with concave and convex lenses
+cf4e957b	Correcting refractive errors
+203c6a6a	Nearsightedness, farsightedness and astigmatism
+a6986a98	In the Case Study in Cohen’s book, besides lazy eye, Kelly also had mild hyperopia and was given glasses.
+01970da2	In nearsightedness, where does the image fall?
+d04af11f	in front of the retina
+80a36db6	behind the retina
+64d30c9f	on the retina
+f7005400	on the cornea
+28e0b84a	A long eyeball.
+a13aaa2c	Which lens corrects farsightedness?
+0dd61d2a	convex
+3f0cfbd5	concave
+7cd7d390	cylindrical
+96bdbd3e	tinted
+fe13cde6	It converges light.
+6d1a74b3	Astigmatism comes from irregular curvature of the cornea or lens.
+ea67009b	Several focal points.
+9dd508e7	Build a word meaning “farsightedness”
+086e9cfa	Match each error to its description
+47979288	distance blurred
+52e87ef2	near blurred
+dab29d38	irregular cornea
+bcadffd6	normal refraction

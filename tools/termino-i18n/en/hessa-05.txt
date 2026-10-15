@@ -1,0 +1,256 @@
+54008062	The organ of Corti.
+e6887f22	Spell the term for the sensory cells of the cochlea
+37d8d5d5	Eight steps
+ee8377e6	⟦0⟧Sound wave → auricle and canal → eardrum → ossicles → oval window → cochlear fluid → hair cells and the eighth nerve → ⟦1⟧ in the temporal lobe.
+18de8736	The path of a sound wave through the ear
+06222d5d	The hearing pathway to the brain
+d7021361	Hearing pathway
+5addf7f6	Sound changes form three times: air vibration, bone vibration, fluid wave; and finally a nerve message.
+b4dde5f0	In which lobe is the auditory cortex?
+8f616dda	After the ossicles, where does the vibration go?
+50c20f2a	auricle
+3be9a2a6	In the cochlea the vibration becomes a fluid wave.
+6ebee444	Cochlear fluid.
+67701553	Put the path of sound in order
+04d3e985	From outside to the brain.
+5fc5fa70	Match each part to its type of transmission
+23544d7b	air vibration
+d157b82a	bone vibration
+ee47051b	fluid wave
+4a69c285	nerve message
+0fa457bc	Conversions.
+a89935b6	The ___ cortex interprets sound.
+3ba6e6e0	Auditory.
+18206fda	Spell the adjective meaning relating to hearing
+e8a7a72f	Decibels and Sound Conduction
+aeb4950d	Loudness and pitch
+21b9a0d0	⟦0⟧• ⟦1⟧: loudness of sound; conversation is about 60 dB<br>• ⟦2⟧: frequency or pitch of sound<br>Long-term sound above 85 dB damages hearing.
+89b82f30	Air and bone
+a4832a88	• ⟦0⟧: sound through the canal, eardrum and ossicles<br>• ⟦1⟧: sound through the skull bone directly to the inner ear<br>In a healthy ear, AC is stronger than BC.⟦2⟧
+f1626030	The book’s applied scenario: Mr Bob Noel’s employer at the factory has asked him to wear earplugs, because loud, prolonged noise causes hearing loss.
+1404ed22	Which is the unit of loudness?
+c6da468e	In a healthy ear, which is stronger?
+82f6502e	both are equal
+04cb6d1d	Hertz shows the pitch of sound.
+069c3aa4	Frequency.
+1de8f308	Put the sounds in order from quiet to loud
+10f5cae9	30, 60, 85, 140 decibels.
+ea116201	Sound above ___ decibels is dangerous.
+bdc84b35	Earplugs are needed.
+06f270c6	Spell the unit of loudness
+ed9dbdd5	The Vestibular System
+0f10e1df	⟦0⟧⟦1⟧ (balance) is the job of the vestibule and semicircular canals. When the head turns, the fluid in the canals moves and the hair cells sense it; the message travels along the vestibular nerve to the brain.
+76d659f8	⟦0⟧: a feeling that the room is spinning; a sign of inner ear disorder<br>⟦1⟧: nausea and dizziness when the eyes and inner ear send different messages<br>⟦2⟧: recording eye movements to test balance⟦3⟧
+38026b0d	A vestibule is like the entrance hall of a house; in the ear it is the entrance hall of the labyrinth.
+779ddd19	Which parts maintain balance?
+9d288e37	the vestibule and semicircular canals
+bb613423	the cochlea and eardrum
+e94cab05	spinning sensation
+8f56179e	Motion sickness comes from a mismatch between messages from the eyes and inner ear.
+c85d3bc4	Two different messages.
+f49513ec	Put the path of sensing rotation in order
+91c4cd65	The medical term for “balance” is ___.
+bce3f012	Spell the term for the entrance chamber of the inner ear
+a644f76d	Ear Diseases
+f090bd3b	Ear disease
+d701da3b	Otitis externa, media and interna, mastoiditis, conductive and sensorineural hearing loss, presbycusis, otosclerosis, tinnitus, vertigo, Ménière disease and tumours
+74c2e795	Ear Inflammations
+849bf71a	Tinnitus, Vertigo and Tumours
+705b54cc	Three types of otitis
+34d0f989	Site of inflammation
+6d738e5b	⟦0⟧⟦1⟧ means inflammation of the ear, and its name tells where it is:<br>• ⟦2⟧: the ear canal; “swimmer’s ear”<br>• ⟦3⟧: the middle ear; common in children<br>• ⟦4⟧: the inner ear; the same as ⟦5⟧
+3ac92ed9	⟦0⟧: earache<br>⟦1⟧: discharge from the ear<br>⟦2⟧ → ⟦3⟧: pus discharge from the ear<br>⟦4⟧: bleeding from the ear⟦5⟧
+62467dba	externa outside, media middle, interna inside; like three floors.
+4391c922	Which is “swimmer’s ear”?
+15a9c328	The ear canal.
+c0f0f098	ear bleeding
+e00e4e92	tinnitus
+5ad0e1fd	py/o means pus.
+3ec6ca73	Otitis interna is the same as labyrinthitis.
+64238141	Build a word meaning “bleeding from the ear”
+d0cd9583	Match each type of otitis to its site
+0d2a7534	Site of inflammation.
+420f0d95	The abbreviation ___ means inflammation of the middle ear.
+c00b3f6c	On the otoscope
+d48d97da	⟦0⟧In ⟦1⟧ the eardrum is red and bulging, and pus has collected behind it (⟦2⟧). If the fluid is clear: ⟦3⟧.
+73a974dd	Perforated eardrum
+a02eec38	⟦0⟧The pressure of the pus may burst the eardrum: ⟦1⟧.⟦2⟧⟦3⟧
+9acb4d71	Perforated eardrum
+41e85410	In the Pearson consultation report: an 8-year-old girl had a chronic left middle ear infection; the left eardrum was bulging and tympanometry showed fluid behind it.
+c01dae64	The Chart Note in Gylys’s book says: a 30-year-old woman had mucoserous otitis media; that is, mucous and serous fluid in the middle ear.
+14feb7e7	What does the eardrum look like in acute otitis media?
+d085fa22	red and bulging
+f15a7ece	grey and healthy
+0cb96d4a	permanently perforated
+2424291c	white and flat
+82113486	Pus behind it.
+33926566	The abbreviation SOM means…
+f8312031	outer ear otitis
+7871beff	hole in the eardrum
+e3c4ffd0	Chronic otitis media can cause hearing loss.
+31ede865	Conductive hearing loss.
+16ba78a2	Put the 8-year-old girl’s course in order
+7197da25	watery
+08306b7c	mucous and serous
+1594fdc1	perforated
+4a507614	Type of fluid.
+554564b2	Inflammation of the eardrum is ___.
+fc5b1f8f	Spell the adjective for watery fluid like serum
+c54b3131	Serum.
+ab3631f1	Mastoid, Labyrinth and Earwax
+302c7c57	Other inflammations
+2b56ceef	• ⟦0⟧: inflammation of the air cells of the mastoid process behind the ear; a complication of otitis media<br>• ⟦1⟧: inflammation of the inner ear with vertigo<br>• ⟦2⟧: inflammation of the eardrum
+2537ce09	Wax and pressure
+6cbd93b7	⟦0⟧: packed wax in the canal; blocks the ear and causes hearing loss. Treatment: ear irrigation.<br>⟦1⟧: ear injury from a sudden change in pressure.⟦2⟧
+0e7f547c	The book’s applied scenario: Mrs Kelly Post has mastoiditis in her record; that is, inflammation of the mastoid.
+042189aa	Where is the mastoid?
+fbbbbb9a	behind the ear in the temporal bone
+e5598ade	inside the cochlea
+8afd077a	in the auricle
+11fc6ad7	in the throat
+a9ec457b	What does impacted earwax do?
+6f5ce079	it blocks the canal and causes hearing loss
+85767cbe	it damages the nerve
+26c51681	it breaks the cochlea
+27e2444f	it causes severe vertigo
+799e0dc5	Labyrinthitis comes with vertigo.
+494b36e2	Build a word meaning “inflammation of the labyrinth”
+280f9e48	Match each disease to its site
+8a056828	Site of disease.
+e14eb064	Ear injury from a change in pressure on a plane is ___.
+d10729e2	Spell the term for inflammation of the bone behind the ear
+ad7c2000	Two Types of Hearing Loss
+07346ddb	Conductive or sensorineural
+c3670861	⟦0⟧• ⟦1⟧: sound does not pass through the outer or middle ear; e.g. earwax, otitis media, otosclerosis<br>• ⟦2⟧: damage to the cochlea or auditory nerve; e.g. presbycusis, noise, acoustic neuroma
+88655aa8	The Case Study in Fremgen’s book says: a 35-year-old musician who has played loud instruments for 20 years without earplugs has progressive hearing loss in both ears; Rinne and Weber tests showed moderate hearing loss, and he was referred for a hearing aid.
+22176251	conductive means “conducting”; the path that conducts sound is blocked. sensorineural means the sense organ and nerve are damaged.
+e1ae2ecc	Which type is hearing loss from earwax?
+3d7ce8c5	conductive
+3a37b507	sensorineural
+6fd08ff3	What type of hearing loss does cochlear damage cause?
+79eaa793	always mixed
+653ad473	Otosclerosis causes conductive hearing loss.
+5126b74f	The stapes is locked.
+b476596c	Put the path of sound in order and see where it is conductive and where sensorineural
+efba09f0	The first two parts are conductive, the last two sensorineural.
+755e2519	Match each cause to its type of hearing loss
+63c58dc9	conductive: blocked canal
+08c91eb0	conductive: middle ear fluid
+a01e9a94	sensorineural: ageing cochlea
+1bb794cf	sensorineural: nerve tumour
+839aa9c1	The abbreviation HL on an audiogram means hearing ___.
+28ccbe5c	Spell the term for hearing loss from cochlea or nerve damage
+ab655896	Presbycusis and Noise
+703ee1d2	Hearing loss with age
+4f6ac4ea	⟦0⟧: gradual hearing loss with age; high-pitched sounds go first. ⟦1⟧: damage to hair cells from loud, prolonged sound.<br>⟦2⟧ → ⟦3⟧: complete deafness
+8fe861c7	Excessive hearing
+562584b1	⟦0⟧ → ⟦1⟧: ordinary sounds seem far too loud.<br>⟦2⟧: loss of hearing; communication through sign language (⟦3⟧) or a cochlear implant.⟦4⟧
+ba74cc7d	-acusis means hearing: presby (old age), an (without), hyper (excessive).
+529b47a4	Which is presbycusis?
+e32c925d	Complete deafness…
+e122ebf5	an- means without.
+79c8efd8	In presbycusis, high-pitched (high-frequency) sounds are usually the first to go.
+7a610e4e	High frequency.
+ca3158f4	Build a word meaning “excessive sensitivity to sound”
+ffadc4d8	The cause of the Fremgen musician’s hearing loss was ___.
+9415bb4e	loud noise
+76516d2a	a blow
+26720207	Spell the term for hearing loss of old age
+1dc8c8ca	A locked stapes
+a78d3b2e	⟦0⟧⟦1⟧ → ⟦2⟧: extra bone grows around the stapes and locks it in the oval window; vibration does not reach the inner ear.
+f4aba0b4	It causes progressive conductive hearing loss. Treatment: ⟦0⟧ (removing the stapes and inserting a prosthesis) or a hearing aid.⟦1⟧
+68b2d8cd	scler/o means hard; otosclerosis means hardening in the ear.
+064afab8	In otosclerosis, which ossicle gets stuck?
+5638bbc0	The surgical treatment for otosclerosis…
+042111f9	Otosclerosis causes sensorineural hearing loss.
+a5ccc6fd	It is conductive.
+a2e3af9a	From cause to result.
+a7e13717	hardening in the ear
+ab01bb64	removing the stapes
+fedfd78e	Otosclerosis.
+5d15f5af	The suffix ___ means hardening.
+44a23b4b	Spell the term for abnormal bone locking the stapes
+b87fb5ea	Tinnitus and Vertigo
+93cda529	Inner ear signs
+c3bbb70e	• ⟦0⟧: ringing, buzzing or roaring in the ear<br>• ⟦1⟧: a feeling that the room is spinning<br>• ⟦2⟧: a feeling of fullness and pressure in the ear<br>• ⟦3⟧: travel sickness
+07920ec7	Case Study 8-1 in Cohen’s book says: Mr George, 55, has had hearing loss, tinnitus and aural fullness in his left ear for three years.
+2b90dbd5	tinnitus comes from the Latin tinnire, to ring; a ringing that only the patient hears.
+0e3d597a	A ringing sound in the ear…
+d9bf7f6a	Tinnitus.
+3faecdd8	A feeling that the room is spinning…
+75723dd1	aural fullness means a feeling of fullness in the ear.
+a2d90de0	Ear pressure.
+54c664bc	Put George’s symptoms in the order given in the record
+153c23fc	ear fullness
+98d0d1b0	The everyday name for tinnitus is ___.
+cab5d5c4	Ringing in the ear.
+58a2fc72	Spell the term for ringing in the ears
+ebe72d97	To ring.
+af8072a0	The Ménière triad
+ec9366ae	⟦0⟧⟦1⟧: too much fluid in the labyrinth; attacks of ⟦2⟧, ⟦3⟧ and fluctuating hearing loss, with ear fullness.
+3aa0b6cc	During an attack: an anti-vertigo drug; long term: a low-salt diet and diuretics. In severe cases: ⟦0⟧ (removal of the labyrinth).⟦1⟧
+147796d6	Ménière = “three together”: spinning, ringing, hearing loss.
+a4a70745	Which three signs come together in Ménière disease?
+5477458d	vertigo, tinnitus and hearing loss
+c014ab43	fever, pain and discharge
+d14c28d4	double vision, headache and nausea
+e41aeba2	itching, redness and swelling
+0f666724	The triad.
+3e941523	The cause of Ménière disease…
+92378edc	too much fluid in the inner ear
+331e9429	an infection of the outer ear
+87017825	The labyrinth.
+b1e7ca68	Ménière attacks last minutes to hours.
+3be7630f	Episodic.
+4ec2e936	Put a Ménière attack in order
+64eaf361	The usual pattern.
+873febe8	Match each treatment to its aim
+4c53d291	reducing fluid
+d7086f4b	reducing vertigo
+7e808799	removing the labyrinth
+02c7b2c4	compensating for hearing loss
+a3ebb80d	Treatment.
+fe89e483	Ménière disease is in the ___ ear.
+03c674d1	Spell the term for surgical removal of the labyrinth
+3b79a612	Cholesteatoma and Acoustic Neuroma
+8ddd239c	Ear masses
+c970081b	• ⟦0⟧: a cyst-like skin mass in the middle ear, often after chronic otitis; it erodes the ossicles<br>• ⟦1⟧: a benign tumour of the eighth nerve; one-sided hearing loss, tinnitus and imbalance
+d517a8df	The Chart Note in Gylys’s book says: a 30-year-old woman with chronic otitis developed a cholesteatoma; tubes were placed but the mass grew, and she was admitted for tympanoplasty.
+dc4c2336	Case Study 8-1 in Cohen’s book says: the BAEP test showed no response in Mr George’s left ear, and MRI showed a 1-cm acoustic neuroma.
+fb7d4c88	Which tumour is on the eighth nerve?
+0ec87205	Where is a cholesteatoma?
+6a9a4b24	A skin mass.
+9ef4cf50	An acoustic neuroma usually causes one-sided hearing loss.
+9692269e	One nerve.
+f47b196f	Build a word meaning “removal of the mastoid”
+eb688407	skin mass of the middle ear
+b6c31716	tumour of the eighth nerve
+1da2ced3	auditory evoked potential
+926af750	Masses.
+c1a7257f	The test that showed no response in George’s left ear was the ___.
+b3755885	The brainstem response.
+53c27585	Spell the term for a cyst-like skin mass in the middle ear
+fde17eef	A middle ear mass.
+cc09a44e	Snellen chart, ophthalmoscopy and tonometry, cataract surgery, LASIK, retinal and eyelid surgery, otoscopy, tuning fork tests, audiometry, myringotomy, hearing aids and cochlear implants
+171971dc	Eye Examination and Tests
+521a5343	Eye Surgery and Treatment
+4dd2e937	Ear Tests and Treatments
+e7f3c858	Snellen Chart and Colour Vision
+12d4a5bd	Snellen
+2fbce6ca	⟦0⟧The ⟦1⟧ measures visual acuity. In the fraction ⟦2⟧, the top number is the test distance (20 feet) and the bottom number is the distance at which a healthy eye reads the same line. Each eye is tested separately: ⟦3⟧, ⟦4⟧ and ⟦5⟧.
+317c1f7f	⟦0⟧⟦1⟧A ⟦2⟧ with dot plates (Ishihara) detects colour blindness; someone with red-green colour blindness cannot see the number.⟦3⟧
+59a54d3c	Testing with a Snellen chart
+856e6912	An Ishihara test plate
+f4285374	Colour blindness test
+40cd82d2	Open Hessa’s “Vision meter” tool: enter a Snellen fraction to see the decimal acuity and the grade of vision.
+ac559d8e	In 20/40, what is the number 20?
+5ac88ada	the test distance
+699e9dbf	the healthy-eye distance
+ab3a466a	the percentage of vision
+5f81159e	the line number
+fdf02919	The numerator.
+3af06eb4	Which vision is better?
+3c3c8d9b	The smaller denominator.
+fd6789fe	The Ishihara test is used to detect colour blindness.
+5cf81222	Dot plates.
+d07a35e9	Put the lines in order from the top of the chart to the bottom

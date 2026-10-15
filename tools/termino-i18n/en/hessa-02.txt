@@ -1,0 +1,329 @@
+b92deb47	Vision, Hearing and Balance
+d8456d37	Examination and Tests
+4b230a25	Treatment and Surgery
+fec01290	The five senses and their roots
+4d5cc586	touch
+87fa5054	The special senses have dedicated organs in the head; the eye and ear have the most terms
+646364ab	The five senses
+7256eb4d	Two special sense organs: eye and ear
+390870b2	organ of vision
+462118ae	organ of hearing and balance
+3a9b7340	turns light into a nerve message
+d23e007d	senses sound and head movement
+17d4f937	ophthalm/o means eye and ot/o means ear
+f952e2bf	One word, three pieces: xer/ophthalm/ia
+f9007595	root: dry
+98ded27f	root: eye
+66a82e91	condition of dryness
+cba19574	Start the meaning from the suffix, then read the roots from the beginning
+2909d4cb	Map of eye roots
+10c422a6	sclera
+bf6f705d	Map of ear roots
+b827f476	ear, auricle
+c7e02904	ear (otitis)
+830f2904	mouth (oral)
+d1d4e6dd	malleus
+71cffe4d	vision (myopia)
+18fd7ec4	vision (achromatopsia)
+a0062738	Both mean vision; same-meaning twins
+7d995439	Right and left in the record: eye and ear
+99a05893	the patient’s right eye
+98202f04	the patient’s left eye
+bf30dda2	OU is both eyes and AU both ears; the patient’s right is on our left in the picture
+3e611b72	Right and left abbreviations
+c1e6a9c2	Section of the eyeball
+988c10eb	fovea
+3c37966e	The eye from the front and its protective structures
+f635566d	eyebrow
+c9f12703	eyelashes
+d893a387	upper eyelid
+77e9c822	outer corner of the eye
+4c04d7b7	inner corner of the eye
+58e1eb74	lower eyelid
+a9c2d019	The eyelids (palpebrae) and lashes cover the eye; the conjunctiva lies over the sclera and under the lids
+3763111e	The eye from the front
+7325b397	The path of tears: from the gland to the nose
+cf44efbe	lacrimal gland: makes tears
+ad9fd4b9	tears wash the surface of the eye
+e0135a3d	tear ducts → tear sac
+68309032	nasolacrimal duct → nasal cavity
+e9d74d6b	The roots dacry/o and lacrim/o both mean tear
+a809ba20	The six extraocular muscles (right eye from the front)
+e423eaf8	superior rectus: looking up
+6067c037	inferior rectus: looking down
+e7e80023	medial rectus: towards the nose
+cb036fe1	lateral rectus: towards the temple
+c77f8f54	superior oblique (through the pulley)
+270ab1f1	inferior oblique
+d085d4f6	The back of the eye and the retina’s photoreceptors
+2a175efa	optic disc: the blind spot
+1ed9608b	macula and fovea
+c93d0d5e	retinal vessels
+bf9ac46b	dim light, black and white
+46ccaf82	colour and sharp vision
+06c2937e	the fovea has only cones;
+3367a901	so it gives the sharpest vision
+186fd716	Back of the eye
+d738ddd8	The visual pathway: from the eye to the occipital cortex
+4f5beff6	eye and retina
+5074fc48	optic nerve (CN II)
+9a901f35	optic chiasm
+05706718	optic tract
+87325a87	visual cortex in the occipital lobe
+44279075	The image on the retina is upside down; the brain turns it the right way up
+7a03bae3	Visual pathway
+7e98237a	Accommodation: the lens for far and near
+5161457d	distance vision
+51fca07c	parallel rays; flat lens
+0041eba6	diverging rays; rounder lens
+1b99c8a0	The ciliary muscle changes the shape of the lens (accommodation); with age the lens stiffens
+8590b5be	The pupil in bright and dim light
+dc038ab4	normal size
+7f17fa47	bright light
+d07e545e	dim light or mydriatic drops
+d5f5426d	The iris adjusts the size of the pupil; unequal pupils are called anisocoria
+cbc8766c	Pupil size
+556f4089	Refractive errors: where does the light focus?
+f23bbd7d	focus right on the retina
+85db2963	long eyeball; focus in front of the retina
+6952eabe	short eyeball; focus behind the retina
+3142e1c1	irregular cornea; several focal points
+53e52e74	A concave lens corrects nearsightedness and a convex lens corrects farsightedness
+d3e4ce83	Refractive errors
+d4bc90c7	Cataract: clouding of the lens
+b8ae09a9	cloudy lens
+a913f483	grey-white pupil
+7f3ea4df	blurred, faded vision and glare in bright light
+6629bf56	Treatment: phacoemulsification and an intraocular lens (IOL)
+1d44b2e4	Glaucoma: eye pressure and optic nerve damage
+7bd203b7	drainage angle and canal of Schlemm
+5c1ceda0	aqueous humour in the anterior chamber
+ea1ef9e0	drainage is blocked:
+d35a30d4	healthy optic disc
+be04d456	cupping of the optic disc
+2f0fcafb	Glaucoma
+16bcaaed	Macular degeneration: loss of central vision
+f26e7485	Amsler grid: healthy vision
+1a1c4456	wavy lines and a dark patch
+5683fb0b	central blind spot
+894e3ac7	Peripheral vision remains, but reading and recognising faces become hard
+0ed53650	The common type is age-related: AMD or ARMD
+fd7115bb	retinal tear
+1fd9a67b	detached retina with fluid beneath it
+781c4929	like a curtain
+1e9ff903	over the vision
+8c900f74	Flashes of light, floaters and a dark curtain: an emergency; treated with a scleral buckle or laser
+b7cea296	both eyes parallel
+d2ff4cdc	turning inwards
+b3db51b1	turning outwards
+e8a1c738	Strabismus: the two eyes are not aligned
+2862872b	If untreated, the brain ignores the image from the turned eye: lazy eye (amblyopia)
+46b4ddcd	Strabismus
+d0425046	stye: a painful infection of the eyelid margin
+5344da22	chalazion: a painless cyst
+1003925b	drooping of the upper eyelid
+c978e3e5	eyelid turned outwards
+0e818064	eyelid and lashes turned inwards
+7591f37e	The root blephar/o means eyelid; -ptosis means drooping
+34510298	The visual field in disease
+bd651843	healthy visual field
+98360091	tunnel vision in glaucoma
+be7cf74e	central blind spot in AMD
+ff26c7d8	half-field blindness
+9a939d6f	curtain in retinal detachment
+d4f0290e	Inflammation and infection of the eye
+cda59889	inflammation of the conjunctiva (pink eye)
+492cfec1	inflammation of the eyelid margin
+a198c84a	The suffix -itis means inflammation; the root tells where it is
+84a1cfaa	Eye inflammations
+fe9cc001	The three parts of the ear
+c9b85b8e	ear canal
+658c51f0	eighth nerve
+fc8be01a	Ossicles: the smallest bones in the body
+c1f31ea0	malleus (hammer)
+ebdef1f6	incus (anvil)
+011d67bb	stapes (stirrup)
+862f6645	This chain amplifies the vibration of the eardrum and passes it to the oval window
+67a0273f	Ossicles
+639a46f9	Inner ear: the labyrinth of hearing and balance
+f129475e	semicircular canals: head rotation
+a3f41f2c	vestibule: balance and gravity
+1ec0fa56	cochlea: hearing
+0e739ec2	Two parts, two jobs: the cochlea for hearing, the vestibule and semicircular canals for balance
+bb563ed0	Organ of Corti: the hearing receptor in the cochlea
+6cbab263	fluid inside the cochlea (vibration)
+afd52104	tectorial membrane
+23209b36	cochlear nerve fibres to the brain
+c8e73d23	Bending of these cells’ hairs turns the vibration into a nerve message
+469956cc	sound wave
+5ab50849	auricle and canal
+18275df1	cochlea and fluid
+0ce542a9	auditory nerve
+40c64fe7	The path of sound: from air to brain
+17b4d985	air → solid vibration → fluid wave → nerve message
+c043b452	Path of sound
+3e9f0fec	Balance: the fluid in the semicircular canals moves when the head turns
+e3bfc592	head still: fluid at rest
+16dd1414	head turns: fluid shifts
+41d16900	Hair cells sense the fluid movement; the message travels along the vestibular nerve to the brain
+7f442a6a	A disorder here: spinning dizziness (vertigo)
+ca2b27d1	Eustachian tube: equalising middle ear pressure
+68521eee	middle ear air
+d5f2046b	with swallowing and yawning
+e68bd4bf	it opens.
+e35a634f	In children it is short and horizontal;
+739cca88	throat infections reach it more easily
+04876fd5	Three types of otitis by the site of inflammation
+844c7a7b	outer ear; swimmer’s ear
+16fdf355	middle ear; common in children
+fbe70b73	inner ear; labyrinthitis
+40b2fc05	Types of otitis
+6a13f8a0	The eardrum on otoscopy: healthy and in otitis media
+5f415b30	healthy eardrum, pearly grey
+36c7906d	red, bulging eardrum with pus behind it
+cca5a829	Signs: otalgia, fever and hearing loss; if chronic: myringotomy and a PE tube
+40457c2e	clear fluid behind the eardrum: serous otitis media (SOM)
+30846b83	Otitis media
+bcc7c5ad	Two main types of hearing loss
+45effe01	the conducting path: outer and middle ear
+da1af1c8	sensorineural: cochlea and nerve
+c0235705	earwax, otitis media, otosclerosis
+e27e9840	age-related hearing loss, noise, acoustic neuroma
+a8bb2302	Types of hearing loss
+19305bd3	whisper
+6c039ccd	conversation
+b2e51c49	heavy traffic
+d82874e7	concert
+aa8e8b31	jet engine
+f43cffa7	Loudness in decibels (dB)
+9ab310e9	above 85 dB: risk of damage
+1176de21	wear earplugs
+d7596992	loud, prolonged noise:
+879c09bc	The decibel scale
+1bc8eb70	Otosclerosis: the stapes locks in the oval window
+e2d9fb03	stapes vibrates freely
+84a82f0d	extra bone stiffens the stapes
+499d598a	Result: progressive conductive hearing loss
+1f6cbbcd	Treatment: stapedectomy and a prosthesis
+8f0454be	Ménière disease: three signs together
+64c8a939	fluctuating hearing loss
+d42be1a5	and a feeling of fullness in the ear
+e78ff63b	Cause: too much fluid in the labyrinth of the inner ear
+350c9f71	Attacks last minutes to hours
+7d430342	Snellen chart: measuring visual acuity
+2be65c16	top number: test distance
+67c1162c	(20 feet or 6 metres)
+c82f9805	bottom number: the distance from which
+5e501e64	a healthy eye reads
+485c25bf	the same line
+8b79d0ec	sees at 20 feet what
+d371060f	a healthy eye sees at 40 feet
+7c943d8b	Each eye separately: OD, OS and OU
+6f0401e7	Eye examination instruments
+82887f3c	seeing the retina and
+6c0f0f35	optic disc through the pupil
+501b197f	tonometry
+73161ad5	inside the eye, for glaucoma
+8c12a127	microscope with a narrow beam
+b30d5d05	for the front of the eye
+a6b6b299	Cataract surgery: phaco and an intraocular lens
+e85b59d2	an ultrasound probe breaks up the lens
+68da52ad	the fragments are suctioned out
+5e2a6bad	a foldable lens in the capsule
+8074c939	phac/o means lens; -emulsification means breaking into tiny particles
+f2d3b170	Phaco and IOL
+0640cacc	LASIK: reshaping the cornea
+ff3e671f	cutting a thin corneal flap
+9b4202a0	the laser reshapes the tissue beneath
+315d0ca6	the flap is laid back
+ea747264	For nearsightedness, farsightedness and astigmatism; kerat/o means cornea
+dcdaa98e	Myringotomy and ventilation tube (PE tube)
+fe40a54e	fluid or pus in the middle ear
+67bf85c9	ventilation tube in the eardrum
+8ccd1075	1. a small cut in the eardrum (myringotomy)
+62b1c178	2. draining the fluid
+725d62a1	3. placing a tube for ventilation
+74162dad	myring/o means eardrum and -tomy means incision
+bf0d077a	Myringotomy
+708861d6	Tuning fork tests: Rinne and Weber
+a97f44ad	Rinne: on the bone behind the ear, then beside the canal
+285cc9ec	Weber: tuning fork on the middle of the head
+db10b786	Rinne
+48cdfa50	Weber
+e33e68fd	middle of the head
+cf6547c5	to the affected ear
+522afb80	to the healthy ear
+267b8acf	AC is air conduction and BC is bone conduction
+00c3d54a	Tuning fork tests
+924c0e23	Audiogram: hearing at each frequency
+f18e98b0	normal range
+c3af447a	high-frequency drop: noise or age-related hearing loss
+3ed875de	Hearing aid and cochlear implant
+e6d9a6db	hearing aid: makes sound louder
+ce56ae45	cochlear implant: an electrode in the cochlea
+03e5a748	A hearing aid for mild to severe hearing loss; a cochlear implant for profound sensorineural deafness
+09b288d7	Language of the Senses
+877d69c4	The five senses and their organs, eye and ear specialists, and building words from root, prefix and suffix
+4386da2d	Senses and Specialists
+e93d1af2	Eye and Ear Roots
+446b9454	⟦0⟧The ⟦1⟧ have dedicated organs in the head: vision (eye), hearing and balance (ear), smell (⟦2⟧) and taste (⟦3⟧). Touch works through receptors scattered in the skin.
+9475e78b	⟦0⟧Each ⟦1⟧ turns a stimulus (light, sound, an odour or taste molecule) into a nerve message.<br>⟦2⟧ → ⟦3⟧: loss of smell<br>⟦4⟧ → ⟦5⟧: loss of taste⟦6⟧
+8fabbcc1	Sense organs
+d97ca554	Sensory organs
+eddb9411	Two special senses have the most terms: the eye and the ear; this whole course is about these two.
+dea90db0	What is the medical term for “sense of smell”?
+efa16e98	olfact/o means smell.
+c47e71cf	a- means without and geus/o means taste.
+10c90a95	The ear is both the organ of hearing and the organ of balance.
+c6d1737d	The vestibule and semicircular canals.
+b1bb9bd5	Build a word meaning “absence of the sense of smell”
+127fc71d	Match each sense to its root
+fb0ebab7	Roots of the five senses.
+f6610239	The medical term for “sense of taste” is ___.
+1a35f147	Spell the medical term for the sense of smell
+5121fe27	Eye, Ear and Their Specialists
+8be8151e	Two organs, several specialists
+313c48e9	eye physician and surgeon
+20be8b96	examining the eyes and prescribing glasses
+0a92eed1	making and selling glasses
+7191177e	measuring and treating hearing loss
+775dec4e	ear, nose and throat physician
+06d4a06f	In the Case Study in Cohen’s book, the paediatrician referred Kelly to an ophthalmologist for “lazy eye”; an optician made her glasses.
+7ca17554	In the Pearson consultation report, an 8-year-old girl was sent to an ear, nose and throat (ENT) specialist for a chronic middle ear infection.
+f9b6c531	opt means vision: an optometrist measures (-metry) vision and an optician makes glasses.
+ce06cea4	Which specialist performs eye surgery?
+011254ac	The eye physician.
+87bfec7c	The abbreviation ENT means…
+d911ca6d	An optician makes and dispenses glasses but does not treat eye disease.
+2be1b3f1	A spectacles technician.
+ea81754a	Put Kelly’s treatment in order
+afa3cba3	Referral, diagnosis, making the glasses.
+05286c69	prescribing glasses
+752014c3	measuring hearing
+b24c4cad	Specialists.
+073c7afe	The medical specialty of the eye is ___.
+2eec1582	Spell the term for a physician who treats eye diseases
+659d6015	⟦0⟧Every word is built from pieces:<br>• <b>Root</b>: the core meaning; e.g. ⟦1⟧ means ear<br>• <b>Prefix</b>: at the start of the word; e.g. ⟦2⟧ means double<br>• <b>Suffix</b>: at the end of the word; e.g. ⟦3⟧ means inflammation<br>• <b>Combining vowel</b> (usually ⟦4⟧): ⟦5⟧
+1943fd96	Start the meaning from the <b>suffix</b>, then the <b>prefix</b>, and finally the <b>root</b>:<br>⟦0⟧ → “inflammation of the cornea”<br>⟦1⟧ → “discharge from the ear”<br>⟦2⟧ → “double vision”⟦3⟧
+264aaea3	If the suffix begins with a vowel, the combining vowel is dropped: ot + -itis becomes otitis, not ototitis.
+a72215c1	-rrhea means discharge.
+33f6ccf8	kerat/o means cornea.
+6ce7cbc9	The meaning of a medical word usually starts from the suffix.
+e43a3096	The golden rule.
+e593dd6a	Build a word meaning “inflammation of the ear”
+e6740e5f	“Inflammation of the eyelid” is ___.
+8ea8c27e	Spell the term for discharge from the ear
+458dce21	Eye Roots
+8cca1de6	Two roots for one part
+69ca7f2d	⟦0⟧Many parts of the eye have a Greek root and a Latin root: ⟦1⟧ (Greek) and ⟦2⟧ (Latin) both mean eye.⟦3⟧
+74f3d87b	Roots on a section of the eye
+028101e1	kerat/o means both cornea and “hard”; the cornea is like a tough window at the front of the eye.
+2e1b0c8c	Which is the root for “lens”?
+64e3978f	phac/o, phak/o.
+0ab7b384	The root ocul/o means…
+4e9c5b9c	kerat/o and corne/o both mean cornea.
+bec470f0	Two roots, one part.
+238860f5	Build a word meaning “inflammation of the retina”
+d89a01d0	Match each root to its part of the eye
+53625f0d	The root ___ means eye (Greek).
+3c736aa2	Spell the term for inflammation of the iris

@@ -1,0 +1,154 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+f2c85ead@hessa#1	lens adjusting its shape for near vision
+488a1f58@hessa#1	relating to sound
+5478ddc6@hessa#1	benign tumour of the eighth cranial nerve
+0d95bafc@hessa#1	sound reaching the inner ear through canal and ossicles
+dfc3915c@hessa#1	fluid space between cornea and iris
+02c23674@hessa#1	drops against ear infection
+693f535d@hessa#1	blurring from an irregularly curved cornea
+9093d669@hessa#1	graph of hearing thresholds by frequency
+1e201d95@hessa#1	study and treatment of hearing disorders
+145aa200@hessa#1	device that measures hearing thresholds
+af657428@hessa#1	measuring hearing at each frequency
+22882868@hessa#1	relating to the sense of sound
+66bc02d8@hessa#1	nerve pathway response to sound, measured by electrodes
+07d77c53@hessa#1	sound centre in the temporal lobe
+2221d0e5@hessa#1	three tiny bones of the middle ear
+8874fa38@hessa#1	ear flap
+61443ad3@hessa#1	ear injury from a pressure change
+80e86739@hessa#1	two-eyed vision with depth perception
+1b663f6c@hessa#2	inability to see
+1cc25cca@hessa#1	sound reaching the inner ear through the skull
+297f3f33@hessa#1	drainage channel for aqueous humour
+3bae75f6@hessa#1	clouding of the lens
+8dffed0d@hessa#1	painless cyst of an eyelid oil gland
+6b4bc401@hessa#1	cyst-like skin mass in the middle ear
+4e5409b7@hessa#1	vessel-rich middle layer under the retina
+c99bc892@hessa#1	muscle ring that shapes the lens
+0bac632a@hessa#1	snail-shaped organ of hearing
+9916bd20@hessa#1	relating to the snail-shaped hearing organ
+2b75cbbf@hessa#1	electrode device stimulating the auditory nerve
+bf5950b4@hessa#1	sound blocked in the outer or middle ear
+12c9962d@hessa#1	retinal receptors for colour and sharp vision
+78f3269c@hessa#1	thin membrane over the white of the eye
+d90b273c@hessa#1	relating to the membrane over the white of the eye
+55c99318@hessa#1	pinkeye
+dffb80e8@hessa#1	both eyes turning inwards for near vision
+d9761008@hessa#1	clear window at the front of the eye
+92122e75@hessa#1	relating to the eye’s front window
+c375368a@hessa#1	scratch on the eye’s front window
+285e3575@hessa#1	glasses or contacts that fix refractive errors
+1e22f84a@hessa#1	new passage from tear sac to nose
+86d29d48@hessa#1	inability to hear
+046d941d@hessa#1	unit of loudness
+38faeaa1@hessa#1	washing out earwax
+1f693538@hessa#1	recording eye movements to test balance
+57688083@hessa#1	tube linking middle ear and throat
+efa1eaf7@hessa#1	ear flap and canal up to the eardrum
+c2b98619@hessa#1	lens removal leaving the back of the capsule
+7cc0b781@hessa#1	six muscles that move the eye
+bc97f8c4@hessa#1	globe of the eye
+e7e586ad@hessa#1	lid that closes over the eye
+2761f897@hessa#1	dye photographs of the retinal vessels
+f9c6d11d@hessa#1	optic nerve damage from high eye pressure
+4d990d49@hessa#1	sound-sensing cells of the inner ear
+22882868@hessa#2	sense of sound
+adb54281@hessa#1	device that amplifies sound
+c7e045a2@hessa#1	reduced ability to hear
+78a9d500@hessa#1	blindness in half the visual field
+066b7480@hessa#1	unit of sound frequency
+56927615@hessa#1	ordinary sounds seem too loud
+ca59c9ee@hessa#1	anvil-shaped middle ossicle
+7ca9be14@hessa#1	labyrinth of hearing and balance
+1844bdd3@hessa#1	within the eye
+7fd0d253@hessa#1	artificial lens placed in the eye
+dd76ac7f@hessa#1	fluid pressure inside the eye
+4af46946@hessa#1	removal of part of the coloured ring of the eye
+5ed42607@hessa#1	coloured muscular ring around the pupil
+86c8b549@hessa#1	maze of the inner ear
+3ce833d7@hessa#1	removal of the inner ear maze
+9c8e078d@hessa#1	relating to tears
+e173e8aa@hessa#1	tear-making and tear-draining system
+ea4ea9d9@hessa#1	tear gland above the outer eye corner
+0f651b21@hessa#1	laser reshaping of the cornea under a flap
+8569f2b3@hessa#1	clear focusing body behind the pupil
+c3582caf@hessa#1	yellow spot of sharp central vision
+8208a757@hessa#1	loss of central vision from macula damage
+836f2981@hessa#1	hammer-shaped ossicle
+5fbe0727@hessa#1	bony bump behind the ear
+05fc16ba@hessa#1	relating to the bone behind the ear
+147ccb2a@hessa#1	removal of mastoid air cells
+ab379877@hessa#1	inflammation of the bone behind the ear
+43fcbb36@hessa#1	oil gland of the eyelid margin
+ee2abbbf@hessa#1	air-filled cavity with the ossicles
+919e867c@hessa#1	nausea from mismatched eye and balance signals
+27cd14be@hessa#1	surgical repair of the eardrum
+61bff0c3@hessa#1	incision of the eardrum
+e5bcffb4@hessa#1	hair cell damage from loud sound
+8f8eab51@hessa#1	involuntary trembling of the eyes
+0a48c2b3@hessa#1	relating to the eye
+33d630fe@hessa#1	Latin-rooted word for eye pain
+33d630fe@hessa#2	Greek-rooted word for eye pain
+0a48c2b3@hessa#2	relating to the eye or its medicines
+d9ab2cc2@hessa#1	instrument for viewing the back of the eye
+c873e46b@hessa#1	viewing the retina through the pupil
+7ff1a4e9@hessa#1	relating to the eye or vision
+3223fb9f@hessa#1	blind spot where the nerve leaves the retina
+dbfca8df@hessa#1	second cranial nerve, for sight
+a60adbfa@hessa#2	maker of glasses
+fc62ac87@hessa#1	vision tester who prescribes glasses
+20b14524@hessa#1	bony eye socket
+93c873a3@hessa#1	hearing receptor in the cochlea
+0dddb63c@hessa#1	earache built with the -algia suffix
+5235be77@hessa#1	relating to the ear
+0dddb63c@hessa#2	earache built with the -dynia suffix
+c4a3d0da@hessa#1	study of the ear
+a4eb5508@hessa#1	extra bone locking the stapes
+3b0c3601@hessa#1	lighted instrument for viewing the eardrum
+3483c702@hessa#1	viewing the ear canal and eardrum
+dfb9b763@hessa#1	opening where the stapes sits
+3e604b35@hessa#1	relating to the eyelid
+05e02e9e@hessa#1	vision at the edges of the field
+880aa268@hessa#1	breaking up a cataract with ultrasound
+8ee584f4@hessa#1	light-sensing cell of the retina
+fd4f642d@hessa#1	opening in the centre of the iris
+f911fbd3@hessa#1	relating to the opening in the iris
+399ce753@hessa#1	spoke-like cuts in the cornea for myopia
+8e56a01c@hessa#1	bending of light in the eye
+84adbfa3@hessa#1	test to find the right glasses
+44dcfd5f@hessa#1	focusing fault of the eye
+702f95d7@hessa#1	light-sensitive inner layer of the eye
+88557cd0@hessa#1	relating to the light-sensitive layer
+9f95af57@hessa#1	inner eye layer separating from the choroid
+e30723dc@hessa#1	malignant eye tumour of young children
+782eace9@hessa#1	abnormal eye vessels in premature babies
+4f5515d2@hessa#1	tuning fork test comparing air and bone conduction
+2125e76a@hessa#1	retinal receptors for dim light
+726c615b@hessa#1	membrane that releases cochlear pressure
+03fbcf5e@hessa#1	white of the eye
+3a3d74da@hessa#1	relating to the white of the eye
+0db7d5cb@hessa#1	blind spot in the visual field
+bff109b1@hessa#1	three loops that sense head rotation
+377dc979@hessa#1	damage to the cochlea or auditory nerve
+b08187ed@hessa#1	cell that turns a stimulus into a nerve signal
+0b144dce@hessa#1	clear fluid behind the eardrum
+7f5e1e58@hessa#1	microscope with a narrow beam for the front of the eye
+42627831@hessa#2	letter chart for visual acuity
+e00c5eb5@hessa#1	vision, hearing, balance, smell and taste
+81a34025@hessa#1	removal of the stirrup bone with a prosthesis
+a4f822a8@hessa#1	stirrup-shaped ossicle
+6c1ac125@hessa#1	pus behind the eardrum
+8101f6d3@hessa#1	measuring eye pressure
+f3adb349@hessa#1	new drainage route for glaucoma
+9ddeca00@hessa#1	vibrating two-pronged hearing test tool
+0924ea46@hessa#1	measuring eardrum movement
+45b09f24@hessa#1	repair of the eardrum and ossicles
+98b547fb@hessa#1	vascular middle layer of the eye
+f0fcff0e@hessa#1	entrance chamber of the inner ear for balance
+15decc39@hessa#1	eighth cranial nerve, for hearing and balance
+872b7043@hessa#1	sharpness of vision
+c0257b47@hessa#1	sight centre in the occipital lobe
+54c78ff0@hessa#1	whole area seen without moving the eye
+c663f581@hessa#1	mapping the area the eye can see
+3670ee03@hessa#1	removal of the eye’s clear jelly
+c26c5db3@hessa#1	tuning fork on the head to compare the ears

@@ -1,0 +1,37 @@
+# match puzzles: right side must not repeat the left side
+836f2981@hessa#5	hammer
+ca59c9ee@hessa#5	anvil
+a4f822a8@hessa#7	stirrup
+ea4dfa3a@hessa#1	relating to sound
+9c8e078d@hessa#2	relating to tears
+e7e586ad@hessa#5	lid that closes the eye
+78f3269c@hessa#3	membrane over the white of the eye
+8e56a01c@hessa#2	bending of light
+f2c85ead@hessa#7	lens adjusting for near vision
+dffb80e8@hessa#2	both eyes turning in for near
+dbfca8df@hessa#3	second cranial nerve
+9a901f35@hessa#2	crossing point of the visual fibres
+c0257b47@hessa#2	sight centre in the occipital lobe
+9f95af57@hessa#9	retina separating from the choroid
+57688083@hessa#8	tube to the throat
+ee2abbbf@hessa#4	air-filled cavity with the ossicles
+254fb2eb@hessa#3	throat
+1594fdc1@hessa#1	with a hole
+56927615@hessa#2	ordinary sounds seem too loud
+62918d45@hessa#1	artificial replacement part
+dfb9b763@hessa#6	opening where the stapes sits
+9e647584@hessa#1	long-lasting
+872b7043@hessa#5	sharpness of vision
+ab379877@hessa#2	inflammation of the bone behind the ear
+55c99318@hessa#2	pinkeye
+7cc0b781@hessa#4	six muscles that move the eye
+e7e586ad@hessa#9	lid that closes the eye
+c9f12703@hessa#2	hairs on the lid margin
+f635566d@hessa#3	hair above the eye
+e00e4e92@hessa#2	ringing in the ear
+1e201d95@hessa#2	study of hearing
+c2ecf7de@hessa#1	long-lasting
+3a37b507@hessa#3	damage to the cochlea or nerve
+0eeea1b9@hessa#1	high-frequency sound waves
+7fd0d253@hessa#8	artificial lens inside the eye
+a60adbfa@hessa#3	maker of glasses

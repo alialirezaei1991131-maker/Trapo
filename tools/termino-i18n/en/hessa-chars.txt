@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+3f16148b@hessa#1	Winky
+66270c64@hessa#1	Rooty
+43063b0b@hessa#1	Puzzly
+5207eb0d@hessa#1	Tearly
+8569f2b3@hessa#11	Lensy
+b1decab1@hessa#1	Coney
+1323a89c@hessa#1	Specs
+8f0b8d24@hessa#1	Misty
+80e6b9b8@hessa#1	Visor
+50c20f2a@hessa#3	Pinna
+c6cc7448@hessa#1	Snaily
+68e1e075@hessa#1	Drummy
+4b3e86df@hessa#1	Jingle
+9f07b94c@hessa#1	Plugsy
+423edd1b@hessa#1	Anti
+35e08264@hessa#1	Snelly
+145aa200@hessa#2	Audio
+237c4929@hessa#1	Scripty

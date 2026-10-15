@@ -1,0 +1,222 @@
+49fc3e02	taste
+9f930de3	Spell the term for loss of taste
+f7ffa9e8	An eye that turns inwards
+8d35fd18	Kelly, a 7-year-old girl
+28473688	The Case Study in Cohen’s book says: Kelly, who has just been adopted, has come to see Dr McLaren (a paediatrician); her family are worried because one of her eyes seems to turn inwards and she has fallen behind at school. The ophthalmologist saw that the left eye turned towards the medial canthus.
+9f13cfef	Where is the medial canthus?
+3aba8b0a	the inner corner of the eye, on the nose side
+ce79ddb9	the middle of the upper eyelid
+672ae07e	the back of the eyeball
+2b1aa0e7	canthus means corner.
+ea231167	Turning of the eye inwards…
+8ff0738b	To which specialist was Kelly referred?
+6f35c67c	An ophthalmologist.
+a715c050	The medial rectus muscle turns the eye towards the nose.
+a113df77	medial means towards the middle.
+f154c469	paediatrician
+8211c235	Spell the term for the corner of the eye
+3a533b97	A corner.
+65e7d977	Eyelids that block the view
+fe27f656	Mr Smith
+54497b76	The book’s applied scenario: while examining Mr Smith, the doctor asks the medical assistant to schedule surgery for his drooping eyelids, which are blocking his vision. The assistant must write the name of the condition and the operation correctly.
+d2754ce7	Drooping of the upper eyelid…
+3c67d51c	The operation that was scheduled…
+8e560abd	Latin name for eyelid
+a87aeca9	Field
+5beca2c0	A drooping eyelid can cover the upper part of the visual field.
+a32ef87d	The suffix -ptosis means…
+4ec56bac	Health class: how do we see?
+c3e01c33	Sixth-grade pupils
+c1c3a975	The book’s applied scenario: you are to explain to a sixth-grade class how we see, from light entering the eye to the message reaching the brain.
+220ea4bc	Which receptors work in dim light?
+58284318	The rods.
+354f7558	In which lobe is the visual message interpreted?
+3d675881	The image on the retina is upside down.
+17a02a63	adjusting the pupil
+1312790b	light receptor
+b884e382	The eye.
+24b02e21	Complete the spelling of the nerve of sight: optic …
+416b493d	A curtain over the right eye
+6e5034ab	A 79-year-old woman
+46d9dc25	The Ophthalmology Consultation in Fremgen’s book says: over the past year the 79-year-old patient has had gradually decreasing vision and photophobia, mostly in the right eye, and says it is as if there is a curtain over her right eye. She has worn glasses for hyperopia all her life. Her intraocular pressure is normal. Ophthalmoscopy after mydriatic drops showed a large cataract in the right eye. Recommendation: phacoemulsification and an artificial lens.
+197d8b40	pupil dilator
+46d2055d	Why were mydriatic drops put in before ophthalmoscopy?
+6a0b5776	to dilate the pupil so the back of the eye could be seen
+996a9051	to lower the eye pressure
+b42bd647	to reduce pain
+f6f88963	to treat an infection
+0aec5a1d	Pupil dilation.
+47a00ee1	Ruling out
+0066288f	The intraocular pressure was normal, so glaucoma is not suspected.
+d5d4d169	What does phacoemulsification do?
+009f19de	it breaks up the cloudy lens with ultrasound and removes it
+e4019846	it reshapes the cornea with a laser
+b22d14cc	it reattaches the retina
+59c64b67	it repairs the eyelid
+f7664816	phac/o means lens.
+954df321	Which conditions does the report say are absent?
+5808ed2b	retinopathy, macular degeneration and keratitis
+5cf9c4e2	Write the term for her clouded lens
+92350559	A red bump on the eyelid
+86994212	The book’s applied scenario: as a nurse you are taking the details of a new patient, Mrs Halbritter. She has a red bump on her eyelid, and her left eye is red and inflamed, with excessive tearing and frequent blinking. Write the signs in medical terms.
+955bd509	“A red bump on the eyelid” in medical terms…
+e377dfa1	“A red, inflamed eye”…
+c05ec1e0	How do you write “left eye”?
+7df58333	Excessive tearing is written dacryorrhea or epiphora.
+d46db63f	Match each sign to its medical term
+7c48cd54	Write the scientific term for the red bump on her eyelid
+0497b84d	IOP or IOL?
+f4de939a	A glaucoma patient
+62f0a310	The book’s applied scenario: a patient has seen both IOP and IOL on their form and asks what the difference is. The ophthalmologist said their eye pressure is high and they must use drops, and years later may need a lens for a cataract.
+26b2f3b1	High IOP goes with which disease?
+b318712f	Intraocular pressure is measured with tonometry.
+e8eb8abb	Vision
+26577400	Which vision does glaucoma take first?
+3d92b40a	peripheral (tunnel vision)
+42a5c996	Write the term for the disease of raised eye pressure
+68c86b1c	Earplugs at the factory
+dbda4548	Mr Bob Noel, a factory worker
+53cac421	The book’s applied scenario: Mr Noel works in a factory and his employer has asked him to wear earplugs. He does not know why; you need to explain what loud noise does to the ear.
+e58b55e6	In what unit is loudness measured?
+acbf0ff9	Above how many decibels is long-term sound dangerous?
+f6aa6ed0	Heavy traffic.
+d83de1f9	Which cells does loud noise damage?
+0f3f2c9b	the hair cells of the cochlea
+3d6f40cb	the rods of the retina
+5156e6d3	skin cells
+201eb481	earwax glands
+9bb01227	Noise-induced hearing loss is sensorineural.
+eb0a188b	Cochlear damage.
+cc6c7234	Put the path of sound up to the damage in order
+bcc58c40	Sound to the cochlea.
+7428b754	Write the unit used to measure loudness
+1ad93d56	A hearing test report
+b5ce17b0	George, a 55-year-old man
+7307fc4b	Case Study 8-1 in Cohen’s book says: for three years Mr George’s hearing in his left ear has decreased, and he has tinnitus and a feeling of fullness in the ear. Pure tone: right ear normal and left ear moderate sensorineural hearing loss. The contralateral and ipsilateral acoustic reflexes were absent in the left ear. BAEP was normal in the right ear and showed no response in the left.
+ea0dff98	AS means…
+0f423550	ipsilateral means…
+569f2cd9	on the same side
+7435c4cd	in the middle
+24cbe4fb	ipsi- means same.
+3a115548	What does BAEP measure?
+7c09de6e	the response of the hearing nerve pathway in the brainstem
+c6a4c6db	eye pressure
+971759db	eardrum movement
+a71f5aff	frequency
+df72673e	Hz is the unit of sound frequency.
+2d927288	Hertz.
+0308e0ea	Spell the term for the study of hearing
+24990f1d	Translating a note into medical language
+f20393d2	An 8-year-old girl
+b990e2b6	The Chart Note Transcription in Fremgen’s book (Pearson General Hospital) says: the paediatrician sent an 8-year-old girl to an “ear, nose and throat specialist” for a “chronic infection of the left middle ear”. “Visual examination of the ear canal and eardrum in both ears” showed the “membrane between the ear canal and middle ear” was healthy on the right and bulging on the left; there was a lot of “earwax”. “Measurement of eardrum movement” showed fluid in the left middle ear.
+1aee1a57	“Visual examination of the ear canal and eardrum” means…
+aef07459	“The membrane between the ear canal and middle ear”…
+7ea787ce	The eardrum.
+529caeb5	“Measurement of eardrum movement”…
+71e0aa86	“Incision of the eardrum” is myringotomy.
+dc78916a	Write the medical term for the earwax in this report
+4487f088	A musician who cannot hear
+5d72dca7	A 35-year-old man, a musician
+459de02b	The Case Study in Fremgen’s book says: a 35-year-old musician at the EENT clinic complains of progressive hearing loss over the past 15 years; he cannot follow speech in noisy places. He has played loud instruments for 20 years without earplugs. Otoscopy and tympanometry were normal, and audiometry showed hearing loss in both ears. Rinne and Weber tests confirmed moderate hearing loss. He was referred for a hearing aid.
+af256224	EENT means…
+551f3d5e	ear only
+948c61c0	eye and nerve
+9b34a65c	The likely cause of his hearing loss…
+5fdefe7c	loud, prolonged noise
+3cebe6a4	an ear infection
+4133be0e	bilaterally means in both ears.
+ffd24f7a	Which device was recommended for him?
+ba27c9f0	A hearing aid.
+0b7001ec	Write the term for the hearing test that showed loss in both ears
+f59d4db5	A mass that keeps growing
+c8d5e8e9	The Chart Note in Gylys’s book says: this 30-year-old woman was seen by an ENT specialist for mucoserous otitis media on the right. In hospital she developed a cholesteatoma. Tubes were placed for chronic adhesive otitis media with secondary cholesteatoma; she improved after the operation, but the mass is growing. She is now admitted for a right tympanoplasty under general anaesthesia.
+c2ecf7de	chronic, long-lasting
+80bb881d	What is a cholesteatoma?
+8d4ea84d	a cyst-like skin mass in the middle ear
+2fa54f1b	pus of the outer ear
+4335f79e	A complication of chronic otitis.
+f944f2de	neurology
+9e3886f6	tympanoplasty means repair of the eardrum (and sometimes the ossicles).
+cc71051a	Put the patient’s course in order
+2c13734f	Write the operation she was admitted for: repair of the eardrum
+7e6ce08d	What did the MRI show?
+a3ecc6bc	Continuing Case Study 8-1 in Cohen’s book: one-sided sensorineural hearing loss in the left ear, tinnitus, ear fullness and no BAEP response on the left made the doctor think of a mass. MRI showed a 1-cm acoustic neuroma.
+db108a28	Which nerve is an acoustic neuroma on?
+5c806643	the eighth nerve (vestibulocochlear)
+cb0cb0f6	the second nerve (optic)
+210a0459	the fifth nerve
+ba01c6a6	the seventh nerve
+f35d12ed	Another name for acoustic neuroma in the book…
+e23f1d23	An acoustic neuroma causes sensorineural hearing loss.
+7fdfe14d	Nerve damage.
+893264bd	Diagnosis.
+e2eec452	In neuroma, the suffix -oma means…
+6c51fc58	Write the type of hearing loss George has (sense organ and nerve)
+ee55ea70	Discharge summary: cataract
+121722aa	Mrs Serowan
+e5199427	The Discharge Summary in Ehrlich’s book says: Mrs Serowan had progressive loss of vision in her right eye for years. Her best corrected visual acuity in the right eye was 20/70. On 21 June the cataract was broken up with ultrasound and a prosthetic intraocular lens was inserted. She was discharged on the first day after the operation.
+4813aad7	BCVA means…
+a888fc66	visual acuity without glasses
+c66db247	20/70 means…
+6f62dbdf	she sees at 20 feet what a healthy eye sees at 70 feet
+19f28daf	she has seventy per cent of her vision
+945d3b55	she is blind
+3fdfe91c	she has normal vision
+18643b66	The Snellen fraction.
+6670fa8d	getting worse
+0eeea1b9	ultrasound
+b5361e82	Breaking up the lens with ultrasound is phacoemulsification.
+a75645a9	Phaco.
+2e2678e3	From complaint to discharge.
+ab7a3f58	Spell the word meaning artificial in “… intraocular lens”
+3d1b35a8	A prosthesis.
+ebcf83b9	Operative report: tubes in both ears
+9e5211d7	A child with recurrent otitis
+dfb49972	The Operative Report in Ehrlich’s book says: the preoperative diagnosis was otitis media and the postoperative diagnosis recurrent otitis media. The patient lay supine under general anaesthesia. Under the microscope the right ear canal was cleared of wax; the eardrum was abnormal with pus behind it. A myringotomy was performed, the pus was suctioned and a tube was inserted. The same was done on the left, where watery fluid was found.
+47b532b1	recurring
+fa7d62c2	lying on the back
+8df50747	myringotomy means…
+7fe1a8ed	incision of the eardrum
+bc6968b6	What does the inserted tube do?
+4dc0493f	drains fluid and equalises middle ear pressure
+617ecda9	amplifies sound
+f389b51e	stimulates the nerve
+3af21160	There was watery (serous) fluid in the left ear and pus in the right.
+21253269	Steps
+d7e9780e	Put the steps of the operation in order
+4318f9a2	The operation.
+8346f547	Write the term for the incision made in each eardrum
+8fc05c46	Eye patch and glasses
+05014e2f	Continuing the Case Study in Cohen’s book: for Kelly, who has amblyopia and mild hyperopia, the ophthalmologist prescribed a patch over the right (strong) eye and glasses. Kelly wore the patch 4 to 5 hours a day, and the glasses made by the optician helped her read. A month later her vision had improved.
+77aeaecc	Why was the patch put on the right (strong) eye?
+43c5a539	to force the weak eye to work
+1e35f06f	to rest the right eye because it is diseased
+c93ae777	for an infection
+43f47cd5	to lower eye pressure
+c1bfb085	glasses
+b012a047	Who made Kelly’s glasses?
+cc38c2bf	The optician.
+a9189676	How is Kelly’s left eye written?
+b511af7a	hyperopia means near vision is blurred.
+38ab2a1f	Focus behind the retina.
+3bd5241a	Spell the term for farsightedness
+5e52765e	The special senses have dedicated organs in the head; the eye and ear have the most medical terms.
+80c28040	ophthalm/o and ocul/o both mean eye; ot/o, aur/o and auricul/o all mean ear.
+edf0a572	-opia and -opsia mean vision; -cusis means hearing.
+4a5e3bf8	ot/o is ear and or/o is mouth; otitis is different from oral.
+35562e4c	The malleus is an ear ossicle and the malleolus is the ankle bone.
+5d238bb8	OD is the right eye, OS the left eye and OU both eyes; AD, AS and AU are the same for the ears.
+c08b959f	myring/o and tympan/o both mean eardrum: myringotomy and tympanoplasty.
+d9940c13	The layers of the eyeball from outside in: sclera, choroid and retina.
+710d5b36	Cones see colour and rods see in dim light.
+a971fe02	The optic disc has no receptors; that is why it is the blind spot.
+da6b9292	miosis is narrowing of the pupil and mydriasis is widening.
+47eccdb4	Tears come from the lacrimal gland and drain through the nasolacrimal duct into the nose.
+1a1af084	There are six extraocular muscles: four rectus and two oblique.
+4d1f475a	In nearsightedness the image falls in front of the retina, and in farsightedness behind it.
+e84a1fa5	A cataract is clouding of the lens; glaucoma is high pressure in the eye.
+0f7bcd4b	Glaucoma takes peripheral vision first, and macular degeneration takes central vision.
+398a902f	esotropia is inward turning of the eye and exotropia outward.
+dd8e38f4	A hordeolum (stye) is painful and a chalazion is painless.
+0ef43897	Flashes of light, floaters and a curtain over the vision: possibly retinal detachment; it is an emergency.
+76c35c50	The order of the ossicles from outside in: Malleus, Incus, Stapes.

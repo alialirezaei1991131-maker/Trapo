@@ -1,0 +1,330 @@
+2109df8b	Hessa
+1f032950	Hessa • Special Senses Terminology: Eye and Ear
+4cc1085a	Medical terminology of the special senses: eye, vision, ear, hearing and balance
+ed441ec5	👁️ Medical terminology: The Eye and Ear
+844f3596	Hi, I’m <b>Hessa</b>, a curious eyeball with two sharp ears who sees and hears everything!
+78d96e81	Hessa is a learning tool and does not replace an eye and ear examination, clinical judgement or a physician’s orders.
+fe147cce	Dozens of bilingual figures and teaching images, from the cornea, lens and retina to the ossicles, cochlea, Snellen chart, audiogram and ear ventilation tube.
+0e78c1fe	Break every eye and ear word into prefix, root and suffix and say what it means
+ef61a805	Point out the layers of the eyeball, the lacrimal apparatus, the eye muscles and the path of light to the brain on a figure
+2532f249	Tell refractive errors, cataract, glaucoma, retinal diseases and eyelid disorders apart
+fa21e797	Recognise the outer, middle and inner ear, the ossicles, the cochlea and the balance system
+9c900620	Write the types of otitis and hearing loss, tinnitus, vertigo and Ménière disease with the right terms
+6544802e	Read the Snellen chart, tonometry, audiometry, the Rinne and Weber tests, operations and the abbreviations OD, OS and AU
+e7420b70	Just 5 minutes a day. A few weeks from now you’ll read an eye report or an audiogram like a familiar story.
+c0b64150	Hi! I’m Hessa, an eyeball with two sharp ears 👁️ What’s your name?
+840fecda	Which world shall we start with? If you’re new, “Language of the Senses” is the best start; the basic eye and ear roots are taught there!
+784f93a3	The word <b dir="ltr">blepharoptosis</b> means…
+5f3118f0	eyelid diseases
+ae69ed0e	inflammation of the eyelid
+aff0369a	eyelid repair
+8a1b5245	incision into the eyelid
+8248e82e	⟦0⟧<br>The root <b dir="ltr">blephar/o</b> means eyelid and the suffix <b dir="ltr">-ptosis</b> means drooping; so it means <b>drooping of the eyelid</b>. Start the meaning from the suffix!
+9baaf51c	Fresh Eyes
+f3d24003	Curious Eye
+21cb6aee	Sharp Ear
+62afcd9e	Guardian of the Cornea
+80845730	Lens Master
+df3a6b59	Friend of the Retina
+e1fe36ca	Ossicle Musician
+ad4a9b36	Cochlea Guide
+1008e29f	Guardian of Balance
+1351f02d	Otitis Detective
+01e3a3f3	Snellen Reader
+8f547105	Eye and Ear Legend
+b1e8e3f5	optometry student
+831313c7	ophthalmology resident
+13b3dcbe	optometrist
+9a5af5ae	ENT resident
+5e36ee53	audiology student
+a60adbfa	optician
+470f5f51	eye clinic nurse
+3c771b51	speech therapist
+9914445c	First Look
+a6189b7d	Sharp-Eyed
+4b84e853	Guardian of Sight
+db433d37	Ear Detective
+dbee7c30	Search: retina, cornea, otitis…
+798ee8ba	Search: kerat, ear, -opia…
+00124051	Search: OD, eye pressure, AU…
+ebe1ca32	⚕️ Hessa is a learning tool; the dictionary and vision meter do not replace an ophthalmologist’s examination, audiometry or a physician’s judgement.
+f08aa4d1	Normal or near-normal vision
+3ff2c484	Mild low vision
+6dad7517	Moderate low vision
+f3eb6f32	Severe low vision
+1b663f6c	blindness
+19f8426c	Normal hearing
+17f6cf35	Slight hearing loss
+01050442	Mild hearing loss
+21b7e042	Moderate hearing loss
+e0ef8d0d	Moderately severe hearing loss
+3d2a8e02	Severe hearing loss
+943b3a3f	Profound hearing loss
+ebbf79ed	<p class="va__note">Enter the numerator and denominator of the Snellen fraction, e.g. 20/40 or 6/12.</p>
+a534bd42	Decimal acuity
+19e71dc3	The lower, the better; zero means 20/20
+cfc58006	Someone with 20/⟦0⟧ vision sees at 20 feet what a healthy eye sees at ⟦1⟧ feet.
+3251d513	In the metric system, 6/6 is the same as 20/20.
+06a69c3d	 In the US, vision of 20/200 or worse with best correction is “legal blindness”.
+47573563	<p class="va__note">Enter the hearing threshold in decibels (dB HL).</p>
+f6a86447	threshold
+d53a3f3f	Degree of hearing loss
+7b4b5586	Vision and hearing meter
+a084ca9e	<div class="tpane"><p class="muted">Enter the Snellen fraction: the numerator is the test distance (20 feet or 6 metres) and the denominator is the distance at which a healthy eye reads the same line.</p>⏎    <div class="va">⟦0⟧<b class="va__slash">/</b>⟦1⟧</div>⏎    <div class="va__res" aria-live="polite">⟦2⟧</div>⏎    ⟦3⟧⏎    <h4 class="va__h">Hearing meter: audiogram threshold</h4>⏎    <div class="va">⟦4⟧</div>⏎    <div class="va__hl" aria-live="polite">⟦5⟧</div>⏎    <table class="mini"><tr><th>Threshold (dB HL)</th><th>Degree</th></tr>⏎      <tr><td><bdi dir="ltr">-10 – 15</bdi></td><td>Normal</td></tr><tr><td><bdi dir="ltr">16 – 25</bdi></td><td>Slight</td></tr>⏎      <tr><td><bdi dir="ltr">26 – 40</bdi></td><td>Mild</td></tr><tr><td><bdi dir="ltr">41 – 55</bdi></td><td>Moderate</td></tr>⏎      <tr><td><bdi dir="ltr">56 – 70</bdi></td><td>Moderately severe</td></tr><tr><td><bdi dir="ltr">71 – 90</bdi></td><td>Severe</td></tr><tr><td><bdi dir="ltr">91+</bdi></td><td>Profound</td></tr></table>⏎    <p class="muted">These grades are for learning; diagnosis rests on a full ophthalmologist’s examination and an audiologist’s audiometry.</p></div>
+645c9000	Numerator (test distance)
+20dad4f3	Denominator (line read)
+42627831	Snellen chart
+b3901573	Average hearing threshold (dB HL)
+f2c85ead	accommodation
+7a5ccfe3	colour blindness
+488a1f58	acoustic, relating to hearing
+5478ddc6	acoustic neuroma
+444a26da	loss of taste
+0d95bafc	air conduction
+7c5f12a1	lazy eye
+7324c845	complete deafness
+10fc8586	unequal pupils
+3820445d	loss of smell
+dfc3915c	anterior chamber
+02c23674	antibiotic ear drops
+afb4b25d	aqueous humour
+693f535d	astigmatism
+9093d669	audiogram
+1e201d95	audiology
+145aa200	audiometer
+af657428	audiometry (hearing test)
+66bc02d8	auditory brainstem response
+07d77c53	auditory cortex
+2221d0e5	auditory ossicles
+b76a08ba	feeling of fullness in the ear
+d4052f83	relating to the outer ear flap
+d9e1c826	right ear
+3381dfbc	left ear
+f596865e	both ears
+61443ad3	barotrauma
+80e86739	binocular vision
+1cc25cca	bone conduction
+297f3f33	canal of Schlemm
+0015d197	corner of the eye
+3bae75f6	cataract
+2d55e88d	earwax
+8dffed0d	chalazion
+6b4bc401	cholesteatoma
+4e5409b7	choroid
+c99bc892	ciliary body
+0bac632a	cochlea
+9916bd20	cochlear
+2b75cbbf	cochlear implant
+bcf7dc97	colour vision test
+bf5950b4	conductive hearing loss
+12c9962d	cones
+78f3269c	conjunctiva
+d90b273c	conjunctival
+55c99318	conjunctivitis
+dffb80e8	convergence
+d9761008	cornea
+92122e75	corneal
+c375368a	corneal abrasion
+285e3575	corrective lens
+be4dbbaa	inflammation of the tear gland
+fa4cbec6	inflammation of the tear sac
+1e22f84a	dacryocystorhinostomy
+4e567658	excessive tearing
+86d29d48	deafness
+046d941d	decibel
+17c4812f	dioptre
+38faeaa1	ear irrigation
+49b6c826	outward turning of the eyelid
+1f693538	electronystagmography
+401d4d0f	normal vision (emmetropia)
+419355f1	inward turning of the eyelid
+eb651656	removal of the eyeball contents
+821c3628	inward turning of the eye
+57688083	Eustachian tube
+950156c4	outward turning of the eye
+88716b2c	external auditory canal
+efa1eaf7	outer ear
+c2b98619	extracapsular cataract extraction
+7cc0b781	extraocular muscles
+78048b53	patching therapy
+bc97f8c4	eyeball
+2761f897	fluorescein angiography
+6f44a89b	central pit (fovea)
+f9c6d11d	glaucoma
+22450da8	taste
+4d990d49	hair cells
+adb54281	hearing aid
+c7e045a2	hearing loss
+78a9d500	hemianopia (half blindness)
+066b7480	hertz
+3c6605ee	stye
+56927615	hyperacusis
+8c773b8e	farsightedness
+c62e8e0a	impacted earwax
+ca59c9ee	incus
+7ca9be14	inner ear
+1844bdd3	intraocular
+7fd0d253	intraocular lens
+dd76ac7f	intraocular pressure
+4af46946	iridectomy
+5ed42607	iris
+5f74bd84	inflammation of the iris
+d1c42374	inflammation of the cornea
+5d2e37d5	corneal transplant
+86c8b549	labyrinth
+3ce833d7	labyrinthectomy
+514f2606	inflammation of the labyrinth
+9c8e078d	lacrimal
+e173e8aa	lacrimal apparatus
+ea4ea9d9	lacrimal gland
+0f651b21	LASIK
+8569f2b3	lens
+c3582caf	macula (yellow spot)
+8208a757	macular degeneration
+836f2981	malleus
+5fbe0727	mastoid process
+05fc16ba	mastoid
+147ccb2a	mastoidectomy
+ab379877	mastoiditis
+43fcbb36	meibomian gland
+ee621b55	Ménière disease
+ee2abbbf	middle ear
+df2d8b1c	constriction of the pupil
+8c5a156b	drug that constricts the pupil
+919e867c	motion sickness
+014774fe	dilation of the pupil
+75be5256	drug that dilates the pupil
+8842b1ee	nearsightedness
+51652aae	inflammation of the eardrum
+27cd14be	myringoplasty
+61bff0c3	myringotomy (incision of the eardrum)
+e5bcffb4	noise-induced hearing loss
+e23a51c6	night blindness
+8f8eab51	nystagmus (eye tremor)
+33d630fe	eye pain
+c2a8b2f6	both eyes
+d9ab2cc2	ophthalmoscope
+c873e46b	ophthalmoscopy (examination of the back of the eye)
+7ff1a4e9	optic, relating to the eye
+3223fb9f	optic disc (blind spot)
+fc62ac87	optometrist (vision tester)
+20b14524	orbit (eye socket)
+93c873a3	organ of Corti
+5235be77	otic (ear medicine)
+38856d07	inflammation of the outer ear
+3c3af8ce	inflammation of the inner ear
+f8ce9858	inflammation of the middle ear
+29808b65	ear specialist
+c4a3d0da	otology
+d811c242	surgery of the outer ear flap
+d878e697	pus discharge from the ear
+6adf8722	bleeding from the ear
+692e2589	discharge from the ear
+a4eb5508	otosclerosis
+3b0c3601	otoscope
+3483c702	otoscopy
+dfb9b763	oval window
+3e604b35	palpebral
+7ce2c78b	perforated eardrum
+05e02e9e	peripheral vision
+ecbc2679	normal pupils (PERRLA)
+880aa268	phacoemulsification
+af0c3556	sensitivity to light
+8ee584f4	photoreceptor
+4f9d8477	PRK (laser surface removal of the cornea)
+813e8742	age-related hearing loss
+251f512c	age-related farsightedness
+371156e7	ear ventilation tube
+fd4f642d	pupil
+f911fbd3	pupillary
+399ce753	radial keratotomy
+8e56a01c	refraction of light
+84adbfa3	refraction test
+44dcfd5f	refractive error
+88557cd0	retinal
+9f95af57	retinal detachment
+ddfdb13c	inflammation of the retina
+e30723dc	retinoblastoma
+782eace9	retinopathy of prematurity
+4f5515d2	Rinne test
+2125e76a	rods
+726c615b	round window
+03fbcf5e	sclera (white of the eye)
+3a3d74da	scleral
+0ee7289c	scleral buckle
+3f7023bf	inflammation of the sclera
+0db7d5cb	scotoma (blind spot)
+bff109b1	semicircular canals
+377dc979	sensorineural hearing loss
+b08187ed	sensory receptor
+0b144dce	serous otitis media
+7f5e1e58	slit lamp
+81a34025	stapedectomy
+a4f822a8	stapes
+30419df3	misalignment of the eyes (strabismus)
+6c1ac125	suppurative otitis media
+9681dd63	ringing in the ears
+8101f6d3	tonometry (measuring eye pressure)
+f3adb349	trabeculectomy
+9ddeca00	tuning fork
+5ac87d2a	relating to the eardrum
+127ca512	eardrum (tympanic membrane)
+0924ea46	tympanometry
+45b09f24	tympanoplasty (eardrum repair)
+98b547fb	uvea (middle layer of the eye)
+5ce2de7b	inflammation of the uvea
+f0fcff0e	vestibule of the ear
+15decc39	vestibulocochlear nerve
+872b7043	visual acuity
+c0257b47	visual cortex
+54c78ff0	visual field
+c663f581	visual field test
+3670ee03	vitrectomy
+7042f4db	vitreous body
+c26c5db3	Weber test
+31de8d02	inwards
+0dbd07c0	grey-green
+f2244a9e	smell
+9baea6ff	darkness
+d541563f	vision, eye
+173750ce	cornea; hard
+bf59fe0e	sclera; hard
+426e06dd	uvea
+fed65e61	glassy; vitreous
+2c21b0f7	dull, dim
+3a21c282	smaller
+f2564403	eye tremor
+2c486848	eardrum
+0e2c65fe	cochlea
+0426371f	labyrinth
+a28635c9	mastoid
+95cd4846	condition of the ear
+210aa41f	fear, sensitivity
+2b45e44c	age-related macular degeneration
+9c670736	American Sign Language
+d7bea2e2	brainstem auditory evoked potential
+cc0cad5d	best corrected visual acuity
+f098a232	with glasses or contact lenses
+42d9873b	distance visual acuity
+660952fc	eyes, ears, nose and throat
+79c756b9	normal vision
+1ec2a751	extraocular movements or muscles
+81e97c13	electroretinography
+3e9ffc38	counting fingers
+2df226ed	head, eyes, ears, nose and throat
+502eb3fa	hearing level; hearing loss
+a8d44971	hand motion
+0a96de1d	intracapsular cataract extraction
+0b2cb0ec	intravenous fluorescein angiography
+97135391	near vision
+fb762665	right eye; Doctor of Optometry
+d037d7d9	pupils equal, round, reactive to light and accommodation
+560bc323	partial ossicular replacement prosthesis
+728344c2	photorefractive keratectomy
+c478a9d2	without glasses or contact lenses
+1e33378e	small-incision cataract surgery
+9db9fd80	speech-language pathologist
+07128256	speech threshold; esotropia
+f06ebc0a	total ossicular replacement prosthesis
+3759d6f9	temporary threshold shift
+feb369d2	Structures of the eye and ear

@@ -1,0 +1,12 @@
+531f256e	The Eustachian tube connects the middle ear to the throat and equalises the pressure.
+ba53f297	The cochlea is for hearing; the vestibule and semicircular canals are for balance.
+d23943b7	The decibel measures loudness and the hertz measures pitch.
+91c0f7ce	Otitis externa is the outer ear, otitis media the middle ear and otitis interna the inner ear.
+c2e8b224	Conductive hearing loss is in the outer or middle ear; sensorineural is in the cochlea or nerve.
+bcceb73b	The Ménière triad: vertigo, tinnitus and hearing loss.
+4baf65e1	presbycusis is age-related hearing loss and presbyopia age-related farsightedness; presby/o means old age.
+1a45d6d3	In the Snellen fraction 20/40, a larger bottom number means weaker vision.
+5c31a9c7	Tonometry measures eye pressure and audiometry measures hearing.
+48596ef8	IOP is intraocular pressure and IOL is an intraocular lens.
+8b302759	In a normal Rinne test, air conduction is better than bone conduction: AC > BC.
+415d9292	A myringotomy is an incision of the eardrum, often with a PE tube.

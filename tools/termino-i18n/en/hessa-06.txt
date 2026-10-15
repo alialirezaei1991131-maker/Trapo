@@ -1,0 +1,246 @@
+a985c567	The letters get smaller.
+c045e01e	visual acuity chart
+3ec2c341	20/20 vision means ___ vision.
+e2be94bf	poor
+42568461	blind
+0535ae17	Acuity of 1.
+ec9f08a3	Spell the name of the letter chart for testing acuity
+76c7e853	Three important instruments
+7a048050	⟦0⟧• ⟦1⟧: viewing the retina and optic disc through the pupil<br>• ⟦2⟧: measuring the pressure inside the eye (⟦3⟧ means pressure)<br>• ⟦4⟧: a microscope with a narrow beam for the front of the eye<br>• ⟦5⟧: colour images of the retinal vessels
+e2051a59	Pupil examination
+c06104be	⟦0⟧⟦1⟧⟦2⟧: pupils equal, round and reactive to light and accommodation. To see the back of the eye, the pupil is dilated with ⟦3⟧ drops.⟦4⟧
+1e8459e4	Slit-lamp examination
+c5a8c3b9	The Ophthalmology Consultation in Fremgen’s book says: <bdi dir="ltr">“ophthalmoscopy after application of mydriatic drops”</bdi> showed a cataract in the right eye.
+17c402b6	With which test is the pressure inside the eye measured?
+869112f2	PERRLA is about which part?
+7dd1385e	Mydriatic drops dilate the pupil.
+495013ab	To see the back of the eye.
+d3dd7d6c	Build a word meaning “viewing inside the eye with an instrument”
+70f93493	seeing the retina
+0c56663c	measuring eye pressure
+c4831490	examining the front of the eye
+bf7f8740	dilating the pupil
+a8b0e6ab	Instruments.
+742838f7	The abbreviation IVFA means intravenous fluorescein ___.
+a666ad60	Images of the vessels.
+bba9d02b	Spell the term for measuring pressure inside the eye
+ecaba278	Glaucoma Treatment and Eye Drugs
+0d70c697	Lowering the pressure
+87a098de	Treating ⟦0⟧ by lowering ⟦1⟧:<br>• drops, including a ⟦2⟧ (pupil-constricting drug)<br>• ⟦3⟧: making a new drainage route for the aqueous humour<br>• ⟦4⟧: removing part of the iris to open the angle
+fd2dd119	Reminder
+eedf6f5d	pupil-constricting; in glaucoma
+8226fc10	pupil-dilating; for examination
+ba8412ae	miotic and miosis both begin with mi (less, small).
+b504baef	In glaucoma, which drug is used on the pupil?
+0846708b	A constrictor.
+5d4ef888	removing part of the iris
+6c81c344	cutting the cornea
+145da51f	removing the lens
+aca4ac86	A trabeculectomy makes a new route to drain the aqueous humour.
+710745c1	Lowering IOP.
+693e058f	Build a word meaning “removal of the iris”
+708e4d64	constricting the pupil
+2deb4587	draining aqueous humour
+658ae4c0	opening the angle
+02c06a6b	dilating for examination
+b16790e3	The aim of all glaucoma treatments is to lower ___.
+ee4ef869	Spell the term for a pupil-constricting drug
+115c36eb	Cataract Surgery
+47cd83a8	⟦0⟧⟦1⟧: the cloudy lens is broken up with ultrasound waves and suctioned out; then an ⟦2⟧ is placed in the capsule.
+2b646719	Phaco and intraocular lens
+5fee0f5d	⟦0⟧⟦1⟧⟦2⟧: the lens is removed and the back of the capsule remains.⟦3⟧
+515969c4	Phaco
+41be1a0c	Position of the artificial lens
+aa3eb762	The Discharge Summary in Ehrlich’s book says: for Mrs Serowan, <bdi dir="ltr">“ultrasound was used to destroy the cataract”</bdi> and a prosthetic intraocular lens was inserted; she was discharged the next day.
+61d2639e	In phaco, what breaks up the lens?
+ce341002	ultrasound waves
+3d25d6ff	an excimer laser
+57dffca3	a knife
+b9f34581	The abbreviation IOL means…
+5d48dee2	contact lens
+ca4aa49f	In ECCE the back of the lens capsule remains.
+53ad655c	Build a word meaning “within the eye”
+f6afb7d3	extracapsular lens extraction
+d047ea88	intracapsular lens extraction
+74c1fb3b	The root phac/o means ___.
+7829fdaa	Spell the term for breaking up a cataract with ultrasound
+39098c8a	LASIK and Corneal Surgery
+2dfa2be4	Reshaping the cornea
+485c0c8c	⟦0⟧⟦1⟧: a thin flap of cornea is lifted, an excimer laser reshapes the tissue beneath and the flap is laid back. For nearsightedness, farsightedness and astigmatism.
+a26826ff	⟦0⟧• ⟦1⟧: the laser removes the surface of the cornea<br>• ⟦2⟧: radial cuts in the cornea<br>• ⟦3⟧: repair or transplant of the cornea⟦4⟧
+1faecbfd	LASIK surgery
+68075a41	⟦0⟧ in all of these means cornea. The suffix ⟦1⟧ means removal, ⟦2⟧ means incision and ⟦3⟧ means repair.
+e75656ff	Which part of the eye does LASIK change?
+ef613c50	Corneal transplant…
+1ca011f9	-plasty means repair.
+0d982531	RK corrects nearsightedness with radial cuts in the cornea.
+a9907a6f	Put the steps of LASIK in order
+1e390e87	laser beneath the corneal flap
+d5352849	laser on the corneal surface
+2d0325cc	radial cuts
+9ac25305	The cornea.
+b19ed106	Incision of the cornea is ___.
+e9f047bf	-tomy means incision.
+e78ecb87	Spell the term for a corneal transplant
+2ceb01be	Retina, Eyelid and Tear Surgery
+80e40278	⟦0⟧• ⟦1⟧: a silicone band around the sclera so the retina reattaches<br>• ⟦2⟧: removing the vitreous<br>• ⟦3⟧: complete removal of the eyeball, e.g. in retinoblastoma
+2d4926e3	Scleral buckle for retinal detachment
+3e243531	Eyelid and tears
+26ce0da2	• ⟦0⟧: eyelid surgery, e.g. for a drooping lid<br>• ⟦1⟧: a new passage between the tear sac and the nose<br>• ⟦2⟧: a patch over the healthy eye in lazy eye⟦3⟧
+70a6f5f5	The book’s applied scenario: blepharoplasty was planned for Mr Smith’s drooping eyelids, which were blocking his vision.
+b97663fa	Treating retinal detachment with a band around the sclera…
+d817931e	A buckle.
+ac0578e5	complete removal of the eyeball
+3e322e89	removal of the eyelid
+08bafb9e	Removal.
+473b8bd2	blepharoplasty means reconstructive surgery of the eyelid.
+ce8630e2	Build a word meaning “repair of the eyelid”
+3cae47bf	Match each operation to its aim
+af414144	draining tears to the nose
+0ac47657	Removal of the vitreous is ___.
+8992098b	Spell the term for plastic surgery of the eyelid
+ce164342	Ear Examination and Tuning Forks
+67df3f7a	⟦0⟧⟦1⟧: viewing the canal and eardrum with an ⟦2⟧ (light and lens). ⟦3⟧: measuring the movement of the eardrum; it shows middle ear fluid.
+f78a81c1	Rinne and Weber
+32e77168	⟦0⟧⟦1⟧The ⟦2⟧ compares air and bone conduction, and the ⟦3⟧ places the tuning fork on the middle of the head. Both are done with a ⟦4⟧.
+4de7b049	Rinne and Weber tests
+8fbfae6f	The instrument for viewing the eardrum…
+5ca3f19b	In conductive hearing loss, what does the Rinne test show?
+83333429	both zero
+21d7b8d4	AC = BC always
+20ce72b4	Bone is better.
+da08e75b	In the Weber test with conductive hearing loss, the sound is heard louder in the affected ear.
+61518849	Lateralises to the affected ear.
+00e672a9	Build a word meaning “measuring the eardrum”
+e028d54d	seeing the eardrum
+73fdf506	eardrum movement
+d485c272	comparing AC and BC
+34f9ddf1	tuning fork on the head
+3e78011a	The instrument for the Rinne and Weber tests is a ___ fork.
+ff384cd8	A tuning fork.
+8efab18c	Spell the term for examining the ear with a lighted instrument
+29eb37d7	Audiometry
+deff2e0b	⟦0⟧⟦1⟧ uses an ⟦2⟧ to measure the hearing threshold at each frequency (Hz) in decibels (dB HL); the result is plotted on an ⟦3⟧: O for the right ear and X for the left.
+33d98652	Nerve tests
+65e2ebd7	⟦0⟧• ⟦1⟧: the response of the hearing nerve pathway to sound; also called ⟦2⟧ and ⟦3⟧<br>• ⟦4⟧: a balance test⟦5⟧
+d1927169	Audiometry in a child
+2f924108	Case Study 8-1 in Cohen’s book says: George’s pure-tone test showed normal hearing in the right ear and moderate sensorineural hearing loss in the left.
+dfd69937	On an audiogram, X is the symbol for which ear?
+4cd4064f	O right, X left.
+01e90bc3	The instrument for audiometry…
+57cdcad0	An audiogram is a graph of hearing at different frequencies.
+85a55648	Build a word meaning “record of hearing”
+7f38baab	measuring device
+a7163ac6	chart of the result
+11306812	brainstem response
+2f32b448	Audiometry.
+6391d143	A hearing threshold of 45 dB means ___ hearing loss.
+e34626cd	Between 41 and 55.
+eaa1ff69	Spell the term for measuring hearing
+36311013	Ear Surgery, Hearing Aids and Cochlear Implants
+99b2797c	⟦0⟧⟦1⟧• ⟦2⟧: cutting the eardrum to drain fluid; often with a ⟦3⟧<br>• ⟦4⟧: repairing the eardrum and ossicles<br>• ⟦5⟧, ⟦6⟧, ⟦7⟧ (surgery of the ear flap)<br>• ⟦8⟧: washing out earwax
+b17330fc	Position of the ventilation tube
+805464b5	PE tube
+3cb325fb	Hearing aids and implants
+57112ba5	⟦0⟧⟦1⟧⟦2⟧⟦3⟧A ⟦4⟧ makes sound louder; a ⟦5⟧ stimulates the auditory nerve directly with an electrode in the cochlea.⟦6⟧
+0f26b467	A child with a cochlear implant
+cb4ec829	Talking in sign language
+ee78f580	Sign language
+66184b95	The Operative Report in Ehrlich’s book says: <bdi dir="ltr">“bilateral myringotomy with tube insertion”</bdi> was performed for recurrent otitis media.
+0422b6e9	Cutting the eardrum to drain fluid…
+e89befc0	Which device is for profound sensorineural deafness?
+1c98cb8d	A cochlear implant.
+afc6d431	A PE tube equalises middle ear pressure and drains fluid.
+5895ffcf	Build a word meaning “incision of the eardrum”
+8eee1e60	Match each procedure to its aim
+172ad7c7	repairing the eardrum
+edc60e86	treating otosclerosis
+5cc70df1	removing the mastoid
+8677003a	washing out wax
+3995441b	The abbreviation ASL means American Sign ___.
+32bb6968	Sign language.
+89fed126	Spell the term for surgical repair of the eardrum
+3f16148b	Winky
+e68f52ae	The Curious Little Globe
+91b7536b	A happy eyeball who sees everything; ophthalm/o and ocul/o are his names.
+a642f834	Master of ot/o and ophthalm/o
+06edbf31	A living dictionary that breaks every eye and ear word into root, prefix and suffix and never mixes up -opia and -acusis.
+06c51199	Puts dipl-, presby- and eso- beside -opia, -tropia and -cusis and builds new words.
+5207eb0d	Tearly
+bbcd9b9b	The Eye Surface Washer
+c6d00ece	Comes from the lacrimal gland, washes the surface of the eye and flows down the nasolacrimal duct to the nose; dacry/o and lacrim/o are her names.
+84a9952a	The Light Focuser
+70fbd885	Sits behind the pupil and, with the help of the ciliary muscle, changes shape for far and near vision (accommodation).
+b1decab1	Coney
+7ecd945e	The Colour Receptor
+f5f54d84	Lives in the fovea of the retina and creates colour and sharp vision; her friend the rod works in dim light.
+1323a89c	Specs
+9cb19d40	The Myopia Corrector
+b395d824	Knows the concave lens for myopia and the convex lens for hyperopia, and measures dioptres.
+8f0b8d24	Misty
+1333b918	The Cataract Reminder
+b688ab8f	Shows how a cloudy lens blurs vision; with phaco and an IOL it becomes clear again.
+80e6b9b8	Visor
+5e6d0db4	Guardian of the Optic Nerve
+3d74ebdf	Watches the pressure inside the eye so glaucoma cannot damage the optic nerve, and protects the retina from detachment.
+d059430f	The Sound Catcher
+cb5407ad	Collects sound waves and sends them down the ear canal; auricle and pinna are her names.
+c6cc7448	Snaily
+4d2482a2	The Hair Cell Musician
+e924ba4e	The cochlea of the ear; the organ of Corti inside turns fluid vibration into a nerve message for the eighth nerve.
+68e1e075	Drummy
+8fc254b0	The Resonant Eardrum
+bbc9aeef	Vibrates with every sound and passes the vibration to the malleus, incus and stapes; myring/o and tympan/o are his names.
+4b3e86df	Jingle
+176cd3e6	The Ringing Sound
+bdeebc2f	A bell that rings only in the patient’s ear: tinnitus; with vertigo and hearing loss, it is a sign of Ménière disease.
+9f07b94c	Plugsy
+8ab5eff9	The Noise Protector
+b5c4e457	Comes to help above 85 decibels so that noise-induced hearing loss does not develop.
+06651ff6	The Otitis Hunter
+c00076db	Fights middle ear germs and knows why children’s short Eustachian tube makes otitis more common.
+35e08264	Snelly
+9b1667a1	Shows everything from the big E to the 20/20 line and tells the vision fraction of each eye.
+b8e1e678	The Precise Hearing Meter
+bd2cdaf1	Measures the hearing threshold at each frequency in decibels and plots it on the audiogram.
+237c4929	Scripty
+953658c3	Master of the Eye and Ear Record
+7576fe03	Reads OD, OS, AU, IOP, PERRLA and PE tube at a glance and stays with the patient from examination to surgery.
+0c496c25	Three terms in one record
+554a52f9	Kelly Post, a 68-year-old woman
+62b67fba	You are reviewing the record of Mrs Kelly Post, who has just left the clinic. The doctor has written three conditions: oculodynia, mastoiditis and conjunctivitis. You need to explain each of them to the patient in plain language.
+e293155f	The suffix -dynia means…
+91e9e7de	Where is the mastoid process?
+502801ff	Common name
+3240bfcf	Conjunctivitis is the same as “pinkeye”.
+0d1856a6	Inflammation of the conjunctiva.
+2aced142	Write the medical term for pinkeye
+8292dfc8	A head and face examination note
+a4fa3cda	HEENT clinic note
+c3f7fe1b	An outpatient’s record contains this note: <bdi dir="ltr">“HEENT: PERRLA, EOM intact. VA OD 20/20, OS 20/40 sc. IOP normal OU. TM intact AU; no otorrhea.”</bdi> A new student asks you to write out the abbreviations in full.
+5e527267	PERRLA means…
+9573c378	pupils equal, round and reactive to light and accommodation
+0d5d6348	normal eye pressure
+8e1af55b	full eye movements
+50845e8a	Pupil examination.
+ce7ca57f	sc in <bdi dir="ltr">“OS 20/40 sc”</bdi> means…
+ce4d3513	with drops
+0ec1b82a	after surgery
+3d4f5f09	EOM intact means the extraocular muscle movements are full.
+2bcbb3fc	Match each ear and eye abbreviation to its meaning
+305a94a0	Write the term for fluid draining from the ear
+bc01f5b3	When nothing smells
+989e57c2	A hypothetical patient (the book’s applied scenario)
+d614c438	The book’s scenario asks you: “You have lost your sense of smell; how does this affect your daily life?” The patient says they cannot smell food or smoke and that food has become tasteless.
+8ef3bf81	The medical term for “loss of smell”…
+1ec52f77	Why has food become tasteless?
+a9fe9a1f	smell is a large part of the sense of flavour
+e15bf49e	taste is always lost
+476851e8	the ear is damaged
+f000b090	the eye has weakened
+c26b5ba9	Smell and taste work together.
+3c427166	Someone with anosmia may not smell smoke or gas.
+7e877a4c	A safety risk.
+79a73cc1	Match each sense to its medical term
+0efe3591	The five senses.
+4e586a81	The root olfact/o means…

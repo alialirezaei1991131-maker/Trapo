@@ -1,0 +1,276 @@
+1feeba25	The abbreviation MY means ___.
+c3ee2389	Nearsightedness.
+51f4112a	Spell the term for nearsightedness
+66082233	Cataract and Presbyopia
+066f7818	⟦0⟧⟦1⟧: clouding of the lens; vision gradually becomes blurred and faded and light is dazzling. Causes: ageing, diabetes, injury, medicines. Treatment: removing the lens and inserting an artificial lens.
+73b26c56	⟦0⟧⟦1⟧⟦2⟧⟦3⟧: stiffening of the lens with age and inability to see near.
+772d193d	Advanced cataract
+a069cadd	Vision in eye diseases
+d512660c	Visual disorders
+15e42a14	The Ophthalmology Consultation in Fremgen’s book says: a 79-year-old woman came with gradually decreasing vision and photophobia; examination showed a large cataract in the right eye.
+93393529	A cataract is clouding of which part?
+952067bf	At what age does presbyopia usually begin?
+cbca5ded	from about age 40 onwards
+9e2ef775	childhood
+9710d4ca	infancy
+fe7dcd5c	adolescence
+841fd615	Age-related farsightedness.
+0de66a40	A cataract is cured with glasses.
+7693166c	The definitive treatment is surgery.
+7b5b8161	Put the course of the 79-year-old woman in order
+ba566722	From complaint to treatment.
+4d3ea5d6	clouding of the lens
+e59d916d	The lens.
+b4e55b36	Age-related farsightedness is ___.
+ddbf578a	Spell the term for clouding of the lens
+86895d75	Clouding of the lens.
+6399ed01	High pressure
+845c26ed	⟦0⟧⟦1⟧: the aqueous humour does not drain properly, ⟦2⟧ rises and the optic nerve is damaged. It is often symptomless until peripheral vision is lost.
+3d48bea4	Aqueous flow and optic disc damage
+3f4d3229	glauc/o means grey-green; this is how the Greeks saw the colour of the patient’s pupil.
+4e67cc80	The book’s applied scenario: a patient asks the difference between IOP and IOL; IOP is intraocular pressure and IOL is an intraocular lens.
+574ef51d	Which number rises in glaucoma?
+ac6af5d5	The pressure inside the eye.
+c1f7064b	Which part does untreated glaucoma damage?
+89a205d0	Permanent blindness.
+17837b07	Glaucoma is usually symptomless until serious damage occurs.
+6f809f56	Screening with tonometry.
+fa3c9ed5	Put the events of glaucoma in order
+afaa312b	drainage canal
+52517738	Glaucoma.
+ed86bb88	The disease with high eye pressure is ___.
+76520ebc	Glaucoma.
+461df9a8	Spell the term for optic nerve damage from high eye pressure
+4bc9d6cb	Macula and Retinopathy
+6de98a79	Central vision
+38ec0e22	⟦0⟧⟦1⟧ (⟦2⟧): the macula is damaged and central vision is lost; reading and recognising faces become hard, but peripheral vision remains.
+9dcdd15e	Retinopathy
+d68b8678	⟦0⟧⟦1⟧⟦2⟧ → ⟦3⟧: disease of the retina<br>• ⟦4⟧: damage to the retinal vessels in diabetes<br>• ⟦5⟧: in premature babies
+32b30388	Healthy and damaged macula
+92d5bef6	Vision in cataract, glaucoma and AMD
+2df9b3ca	Changes in vision
+80384856	Which vision is lost in macular degeneration?
+5e924dd0	central
+adefbb8b	The macula is the centre of vision.
+1546dc2d	In whom is ROP seen?
+85dcf22d	older adults
+246c3377	people with diabetes
+74eff328	athletes
+d463556b	In glaucoma peripheral vision is reduced, and in AMD central vision.
+8122eca0	Two different patterns.
+bfa8fffd	Match each disease to its pattern of vision
+b1ca4a65	tunnel vision
+15073e5f	blurred, faded vision
+30a0e6dd	scattered dark spots
+bb68ab3a	Vision.
+2a5bf9dc	The abbreviation ___ means age-related macular degeneration.
+116a7b21	It is also written ARMD.
+d5c410af	Spell the term for any disease of the retina
+a917487f	Retinal Detachment and Tumour
+90ef2982	⟦0⟧⟦1⟧: the retina separates from the choroid. Signs: flashes of light, floaters and a “curtain” over the vision. It is an emergency; treated with a scleral buckle, laser or vitrectomy.
+89a4aaf0	On the figures
+4032d9c6	⟦0⟧⟦1⟧⟦2⟧⟦3⟧: a malignant tumour of the retina in young children; the pupil looks white in photos.
+0a0b6e6d	Detached retina
+731a3f1d	The patient’s view
+c9cadb50	Vision in detachment
+327f6d57	White pupil in retinoblastoma
+d1f62818	The abbreviation RD means…
+30c10336	healthy retina
+baf0abf9	In whom is retinoblastoma most common?
+29d0797d	young children
+fdb0367e	pregnant women
+cacdbdd8	A tumour of the retina.
+64d51809	Retinal detachment is an eye emergency.
+680ef467	Risk of blindness.
+a4643cea	From tear to symptom.
+b2d16456	retinal tumour
+bc2616bc	removal of the vitreous
+5850f08b	A malignant retinal tumour in children is ___.
+21a9d5e3	-blast means immature cell.
+29960a8d	Spell the term for a malignant retinal tumour of young children
+5f22e861	Visual Signs
+3a0df63f	⟦0⟧• ⟦1⟧: a blind spot in the visual field (⟦2⟧ means darkness)<br>• ⟦3⟧: blindness in half the field<br>• ⟦4⟧: night blindness<br>• ⟦5⟧: double vision
+8bd132a5	Light and colour
+180abd54	⟦0⟧ → ⟦1⟧: extreme sensitivity to light<br>⟦2⟧ → ⟦3⟧: colour blindness<br>⟦4⟧: unequal pupil size⟦5⟧
+d365729e	nyct means night; nyctalopia means not seeing at night.
+77fd8cd6	A blind spot in the visual field…
+989fcb42	nyct/o means night.
+261e240c	photophobia means fear of or sensitivity to light.
+e553101a	Build a word meaning “sensitivity to light”
+e369adb5	unequal pupils
+2fb3fced	Colour blindness is ___.
+cfc8e325	Strabismus and Lazy Eye
+0209015e	Two misaligned eyes
+8f44c4b7	⟦0⟧⟦1⟧: lack of coordination of the eye muscles; the two eyes do not look at the same point.<br>• ⟦2⟧: turning inwards (cross-eye)<br>• ⟦3⟧: turning outwards (walleye)
+eb576c0a	⟦0⟧⟦1⟧⟦2⟧ (⟦3⟧ means dull): the brain ignores the image from the weaker eye. ⟦4⟧: involuntary trembling movement of the eye.⟦5⟧
+c6fc6907	Esotropia and exotropia
+db2e264d	Two examples of strabismus
+6e466ac7	The Case Study in Cohen’s book says: 7-year-old Kelly had strabismic amblyopia; a patch was placed over her healthy eye to strengthen the lazy eye.
+22860dd2	Turning of the eye towards the nose…
+cef23007	eso- means inwards.
+16a8fee4	What was the treatment for Kelly’s lazy eye?
+4d22cdf3	a patch over the healthy eye and glasses
+2def9c30	corneal surgery
+2b57e6b2	dilating drops
+f632c55e	retinal laser
+f721dd60	nystagmus means involuntary trembling movement of the eyes.
+4332fda0	Eye tremor.
+8d3af99e	Put Kelly’s course in order
+e0febdfa	misalignment of the eyes
+ece545cf	Muscle.
+9593aeb0	The abbreviation XT means ___.
+54519d67	Turning outwards.
+a04fecd6	Spell the term for lazy eye
+5fcc3466	Five eyelid diseases
+7bb244f6	⟦0⟧• ⟦1⟧ (stye): a painful infection of a gland on the eyelid margin<br>• ⟦2⟧: a painless cyst of a meibomian gland<br>• ⟦3⟧: drooping of the upper eyelid<br>• ⟦4⟧: eyelid turned outwards<br>• ⟦5⟧: eyelid turned inwards
+577bc9e7	hordeolum
+8f22edd8	The book’s applied scenario: Mrs Julie Halbritter has a “red bump on the eyelid”; in medical terms, a hordeolum.
+937fe509	The prefix ⟦0⟧ means out and ⟦1⟧ means in; ectropion turns the eyelid outwards and entropion turns it inwards.
+7d73e2a4	A painful infection of the eyelid margin…
+cf4fe843	A stye.
+e4ea020c	What happens in entropion?
+e61a0c3b	the eyelid and lashes turn inwards
+3e5d38bd	the eyelid turns outwards
+752f456d	the eyelid droops
+3e165342	the eyelid becomes inflamed
+b86089c8	en- means in.
+321d0b7e	A chalazion is usually painless.
+b8e94d95	A cyst of a meibomian gland.
+f51d7658	Build a word meaning “drooping of the eyelid”
+bcdbccf5	painless cyst
+53eb49ba	eyelid outwards
+40a82a1c	eyelid inwards
+34dce1ce	Eyelid.
+9f6eda84	The common name for a hordeolum is a ___.
+aa73ba4f	Spell the medical name for a stye
+71825b29	Inflammations and Infections
+f4aac16f	-itis in the eye
+f7edf716	⟦0⟧• ⟦1⟧ (pinkeye): inflammation of the conjunctiva; red eye and discharge<br>• ⟦2⟧: inflammation of the eyelid margin<br>• ⟦3⟧: inflammation of the cornea<br>• ⟦4⟧: inflammation of the tear sac<br>• ⟦5⟧, ⟦6⟧, ⟦7⟧
+23c59d4a	Dry and bulging eyes
+85309527	⟦0⟧ → ⟦1⟧: dryness of the eye, for example with contact lenses<br>⟦2⟧: bulging of the eyeball, often in thyroid disease<br>⟦3⟧: a scratch on the cornea⟦4⟧
+b247d6c5	The book’s applied scenario: the record of 68-year-old Mrs Kelly Post lists conjunctivitis; that is, inflammation of the conjunctiva.
+7b5a2170	The common name for conjunctivitis…
+264b8b60	Pinkeye.
+3dac6860	ex- means out.
+94738a54	xerophthalmia means dryness of the eye.
+c981fbad	xer/o means dry.
+4731fceb	Build a word meaning “inflammation of the tear sac”
+497cb6f3	A scratch on the surface of the cornea is a corneal ___.
+c74d2673	A scratch.
+0bbe9aec	Spell the term for inflammation of the cornea
+c5c6b1f2	The Ear: Hearing and Balance
+9bfa7fe0	Auricle and ear canal, eardrum and ossicles, Eustachian tube, cochlea and organ of Corti, the path of sound, decibels and hertz, and the balance system
+fb872c66	Outer and Middle Ear
+bb434802	Hearing and Balance
+f7bb4ea1	Outer, Middle, Inner
+40287b7d	⟦0⟧• ⟦1⟧: the auricle and ear canal up to the eardrum<br>• ⟦2⟧: an air-filled cavity with three ossicles<br>• ⟦3⟧: the ⟦4⟧, with the cochlea, vestibule and semicircular canals
+a046d289	Outer, middle and inner ear
+c8284cc1	Structures of the ear
+50177373	The outer ear collects sound, the middle ear amplifies it and the inner ear turns it into a nerve message.
+e073069f	In which part of the ear are the ossicles?
+bdb63c85	The middle ear.
+20daa111	In which part is the cochlea?
+ef43dfc1	The inner ear.
+4e89e5fd	The eardrum is the border between the outer and middle ear.
+5d711fcf	Put the parts in order from outside in
+275a1a06	From outside in.
+01bb7ae4	collecting sound
+ed488c27	amplifying the vibration
+50e48e61	turning it into a nerve message
+94292f44	maze of the inner ear
+0dbd67c9	Three parts.
+98bf7b68	The inner ear is also called the ___.
+ec487cb2	The maze.
+1803a649	Spell the term for the maze-like inner ear
+c8591ea9	Auricle and Ear Canal
+c65c175f	• ⟦0⟧ or ⟦1⟧: the ear flap; collects sound (⟦2⟧)<br>• ⟦3⟧: the external auditory canal up to the eardrum<br>• ⟦4⟧: earwax; traps dust and insects
+b19e9a15	⟦0⟧⟦1⟧ means relating to the ear and ⟦2⟧ means relating to hearing.⟦3⟧
+f1a8d72d	An Exercise scenario in Cohen’s book: before the myringotomy, the ear canal was cleaned of dry wax (cerumen) and debris.
+522300ce	The word meatus means passage; the ear canal is the outer passage of sound.
+bb40d920	What is another name for the auricle?
+ec945745	The ear flap.
+d9a42d82	What is cerumen?
+6fde7eaf	inner ear fluid
+b900fe49	pus from the ear
+3420695d	Earwax protects the ear from dust and insects.
+422086a4	A protective role.
+e0baa24c	Put the path of sound through the outer ear in order
+d4818d2e	passage
+5554258c	The outer ear.
+392a1a59	Earwax is called cerumen or ear ___.
+c3bcc084	Wax.
+d6b2104f	Spell the medical term for earwax
+75c3a5e4	Eardrum and Ossicles
+258aa462	A chain of three
+c60be633	⟦0⟧The ⟦1⟧ vibrates with sound and passes the vibration to the three ⟦2⟧:<br>• ⟦3⟧ (hammer)<br>• ⟦4⟧ (anvil)<br>• ⟦5⟧ (stirrup), which sits on the ⟦6⟧
+2acf172e	⟦0⟧⟦1⟧The stapes is the smallest bone in the body.
+4e40a942	Read their first letters from outside in: M, I and S; that is, Malleus, Incus and Stapes.
+db1adec4	Which ossicle is attached to the eardrum?
+c2b9b03c	The malleus.
+f02b0e37	Which window does the stapes sit on?
+cd977e07	The oval window.
+6977c8c9	The stapes is the smallest bone in the body.
+e95b56e7	The stirrup.
+e50e3393	Put the path of vibration in order
+b68e4e0d	Match each ossicle to its everyday name
+ae1b627d	The chain.
+7b06de0b	The abbreviation ___ means eardrum.
+fbd18d62	Spell the name of the stirrup-shaped ossicle
+4d112d25	Equalising pressure
+de496f42	⟦0⟧The ⟦1⟧ (auditory tube; ⟦2⟧) connects the middle ear to the throat and equalises the air pressure on both sides of the eardrum; it opens with swallowing and yawning.
+430522c9	In children
+a276e1de	In children it is shorter and more horizontal, so throat infections reach the middle ear more easily and ⟦0⟧ is common.<br>⟦1⟧: ear injury from a sudden change in pressure, for example on a plane or when diving.⟦2⟧
+1d6c77bf	salping/o is both the uterine tube and the Eustachian tube; both are “tubes”.
+a4a07d19	What does the Eustachian tube connect the middle ear to?
+c28e9e78	Why is otitis media more common in children?
+baba1ce9	the Eustachian tube is short and horizontal
+c06c90c6	the eardrum is thick
+b89de23f	there is more earwax
+15a29cb4	the cochlea is small
+4f2f68a4	A child’s anatomy.
+17284d24	Swallowing helps open the Eustachian tube.
+47b9a488	Equalising pressure.
+6780bf70	Put the path of infection in a child in order
+af018942	From throat to ear.
+e6070c74	pressure injury
+5e20cbb0	Pressure.
+95888f19	Ear injury from a change in pressure is ___.
+0562bd74	bar/o means pressure.
+ee1723fe	Spell the name of the tube connecting the middle ear to the throat
+d1d69067	⟦0⟧The inner ear lies in the temporal bone:<br>• ⟦1⟧: the organ of hearing<br>• ⟦2⟧: balance and gravity<br>• ⟦3⟧: three canals; head rotation<br>• ⟦4⟧: the eighth cranial nerve
+a2a017cb	⟦0⟧The ⟦1⟧ is the entrance for vibration into the cochlea, and the ⟦2⟧ releases the pressure.⟦3⟧
+37e35ca0	Bony and membranous labyrinth
+629cfe61	cochlea is Latin for snail shell, and that is its shape.
+4ead3508	Which is the organ of hearing in the inner ear?
+5ed058ed	The cochlea.
+cdb7c1de	Which cranial nerve is the nerve of hearing and balance?
+a713693e	the eighth (CN VIII)
+059c6bdb	the second (CN II)
+aff9a7bb	the fifth
+f9166ebd	the seventh
+dd9ec920	The semicircular canals play no part in hearing; they are for balance.
+35719890	Head rotation.
+6e4f245b	Put the parts of the labyrinth in order from the oval window onwards
+75404fac	vibration in
+94edd69c	static balance
+96d09740	head rotation
+c1013e56	pressure release
+145fe7f5	The eighth nerve is the vestibulo___ nerve.
+4cc40572	Vestibulocochlear.
+559ad10b	Spell the term for the snail-shaped organ of hearing
+5954eb58	The Hearing Receptor
+72251227	⟦0⟧Inside the cochlea is the ⟦1⟧ with its ⟦2⟧. Vibration of the cochlear fluid bends the hairs of these cells and a nerve message is produced.
+92f71a57	High and low sounds
+85aee191	The base of the cochlea senses high-pitched (high-frequency) sounds and its tip senses low-pitched sounds. Loud noise damages the hair cells for high sounds first.⟦0⟧
+d7a35124	The organ of Corti is the hearing receptor, like the retina for the eye.
+b3a561ee	What are the hearing receptors in the organ of Corti called?
+ba04afe5	Hair cells.
+814dcbb2	Where is the organ of Corti?
+8682ffbf	Bending of the hair cells’ hairs produces a nerve message.
+97c6782b	Turning vibration into a signal.
+27c6476f	Put the steps from vibration to message in order
+a6ff72bb	Conversion.
+b130bcb0	Match each part to its counterpart in the eye
+4e2993de	photoreceptors
+3a19e442	Ear and eye.
+50fc607a	The hearing receptor is the organ of ___.

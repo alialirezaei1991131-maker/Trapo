@@ -1,0 +1,7 @@
+# overrides: world names
+e712189f@hessa#1	Diagnosis and Treatment
+e712189f@hessa#2	Diagnosis and Treatment
+fa6c4cd6@hessa#6	Eye
+bc931a1c@hessa#4	Ear
+63d88b75@hessa#1	Eye Disease
+f090bd3b@hessa#1	Ear Disease

@@ -15,6 +15,8 @@ eeaf2fb2@lexa#1	trisomy 21 disorder
 5d4a4c1b@lexa#1	digital patient chart
 3078cf76@lexa#1	half-sitting position in bed
 54190dae@lexa#1	yeast or mould organism
+d930dc89@lexa#1	stomach pain built with the -algia suffix
+d930dc89@lexa#2	stomach pain built with the -dynia suffix
 a6d36ea6@lexa#1	official non-brand drug name
 d91caf06@lexa#1	physicians’ ancient ethical pledge
 8bacdb1f@lexa#1	admission history and examination
