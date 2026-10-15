@@ -1,0 +1,194 @@
+9d64fbf5	The ventricles are the main pumps.
+76553b68	The dividing wall and abbreviations
+2705d04d	The <b>septum</b> (dividing wall) splits the heart into right and left halves:<br>• <b>interatrial septum</b>: between the two atria<br>• <b>interventricular septum</b>: between the two ventricles⟦0⟧⟦1⟧
+2ea399db	RA and RV are on the patient’s right (left of the picture); LA and LV on the patient’s left. The septum lies between them.
+dc29e377	right atrium: right upper chamber
+5ba2090c	right ventricle: right lower chamber
+938bcf15	left atrium: left upper chamber
+e86b8eeb	left ventricle: left lower chamber
+7ad13a56	Match each abbreviation to its chamber
+037b4056	The interventricular septum lies between the two atria.
+9934e280	False; it lies between the two ventricles. Between the atria is the interatrial septum.
+609f514a	Why is the left ventricle thicker?
+43f26dfc	sends blood only to the lungs; thinner wall
+c87da222	sends blood to the whole body; thickest wall
+23b66d5a	Outside view: the right atrium and right ventricle are on the patient’s right; the left ventricle forms much of the apex.
+9bde5072	In long-standing high blood pressure the left ventricle thickens to overcome the pressure: left ventricular hypertrophy, or LVH, seen on the ECG and echo.
+e3cb7796	Which chamber has the thickest muscular wall?
+efb70103	The LV pumps blood to the whole body.
+57f72804	The plural of atrium is ___.
+92e6a4d3	In this picture, what is the chamber labelled LV?
+8aed5927	LV = left ventricle; on the right of the picture, i.e. the patient’s left.
+7dc54b24	Spell the term for a lower heart chamber
+b19fd09d	Adjective: ventricular.
+05e31e5b	Four valves
+fc156162	One-way doors
+ad0daa0a	Four <b>valves</b> stop blood flowing backwards:<br>• two <b>atrioventricular (AV)</b> valves between atrium and ventricle: the <b>tricuspid</b> on the right and the <b>mitral</b> on the left<br>• two <b>semilunar</b> (crescent) valves at the ventricle outlets: the <b>pulmonary</b> and the <b>aortic</b>⟦0⟧
+513a6d88	Which valve lies between the left atrium and left ventricle?
+93adc9cc	The mitral, or bicuspid, on the left.
+d8dd6e3a	The names come from the valves’ shapes
+4c852088	• <b>tricuspid</b>: three cusps (flaps); tri- means three<br>• <b>mitral</b> or <b>bicuspid</b>: two cusps; shaped like a bishop’s hat (mitre)<br>• <b>semilunar</b>: crescent-shaped cusps; semi- (half) + lunar (moon)⟦0⟧⟦1⟧
+f3af230c	Valves seen from above: pulmonary and aortic in front, mitral and tricuspid behind.
+d42b8584	“Right has three”: the tricuspid, with three cusps, is on the right. And “Tri before Mi”: blood passes the tricuspid first, then the mitral.
+3c0b900c	Match each valve to its position
+12cd5bc0	between RA and RV
+47496737	between LA and LV
+fd841344	RV outlet
+98c954ea	LV outlet
+f8c4524c	The mitral valve has three cusps.
+9f667f8f	False; the mitral has two cusps (bicuspid). The tricuspid has three.
+3e24418a	Cords and small muscles
+1aed2b68	The cusps of the AV valves are tied by thin cords called <b>chordae tendineae</b> to the <b>papillary muscles</b> of the ventricle wall; when the ventricle contracts, these cords stop the cusps flipping back into the atrium.⟦0⟧⟦1⟧
+8bbd2f77	A: semilunar valves with crescent cusps; B: AV valves with chordae tendineae.
+1010902e	The first heart sound (lubb) comes from the AV valves closing and the second (dupp) from the semilunar valves closing. An extra sound between them is called a murmur.
+de7b5f51	What are the cords tying the AV valve cusps to the ventricle wall called?
+1ee00ee8	chordae = cords; tendineae = tendinous.
+cc6e5171	Order the valves as blood passes through them
+ed710774	Right half: tricuspid and pulmonary; left half: mitral and aortic.
+770c1748	The second heart sound (dupp) comes from closure of the ___ valves.
+a65ea1ff	tricuspid and mitral
+b5774942	Aortic and pulmonary.
+51b1a88b	Spell the term for the three-cusped valve
+17fde3c8	tri- (three) + cusp (flap).
+9f36edcc	Inside the heart
+b09975fb	See it all together
+4b04475a	Now see the chambers, valves and layers together in one complete section:⟦0⟧⟦1⟧
+d1674ce2	Front section: the chambers, four valves and three wall layers in one picture.
+8995d667	Step
+0ff75f15	Right half (blue)
+56b9355e	Left half (red)
+965c0119	In this picture, which valve lies between the right atrium and right ventricle?
+8f99854b	The right AV valve.
+e9d6e621	More detail
+2c0b16af	⟦0⟧• <b>coronary sinus</b>: a vein that collects blood from the heart muscle itself and empties it into the right atrium<br>• <b>atrioventricular canal</b>: the opening between atrium and ventricle that holds the AV valve
+4c413934	Details inside the heart: chordae tendineae, papillary muscles, coronary sinus and interventricular septum.
+4527ecca	Match each structure to its job
+b1e9d583	collects blood from the heart muscle
+9e93a4e6	pulls on the chordae tendineae
+8afd2186	separates the two ventricles
+8e1e3dbe	ventricle outlet valve
+f9199a12	The coronary sinus returns blood to the right atrium.
+f9457035	Oxygen-poor blood from the heart muscle reaches the RA this way.
+e823f701	Which layer in the picture lines the chambers from inside?
+9e6048ec	The aortic and pulmonary valves are both ___ valves.
+d3a57ccc	They have crescent-shaped cusps.
+eef34bd3	The mitral valve is also called the bicuspid valve.
+bec53de0	bi- = two; two cusps.
+0440bf08	Review of the level “Chambers and valves”
+42840091	Two atria (receive) on top, two ventricles (pump) below; RA, RV, LA and LV
+30a959c1	septum: interatrial between the atria and interventricular between the ventricles; the LV has the thickest wall
+195e25d6	AV valves: tricuspid (right, three cusps) and mitral or bicuspid (left, two cusps), with chordae tendineae and papillary muscles
+e001a69b	semilunar valves: pulmonary and aortic; lubb = AV closure and dupp = semilunar closure
+a0da944b	Great vessels
+ec4deca2	Vessels arriving at the heart
+0637c1d4	• <b>superior vena cava</b> (SVC): brings oxygen-poor blood from the head and arms to the right atrium<br>• <b>inferior vena cava</b> (IVC): brings oxygen-poor blood from the trunk and legs to the right atrium<br>• <b>pulmonary veins</b>: bring oxygen-rich blood from the lungs to the left atrium⟦0⟧
+761b3983	Blue: oxygen-poor (deoxygenated) blood; red: oxygen-rich (oxygenated) blood.
+1d6caddb	Through which vessel does oxygen-poor blood from the legs return to the heart?
+ffff3ed3	inferior = lower.
+3e78aaf5	Vessels leaving the heart
+ffbb8e93	• The <b>pulmonary trunk</b> leaves the right ventricle and divides into the left and right <b>pulmonary artery</b>, which go to the lungs<br>• The <b>aorta</b> leaves the left ventricle and has three parts: the <b>ascending aorta</b>, then the <b>aortic arch</b> and finally the <b>descending aorta</b>⟦0⟧
+66ba79d1	The great vessels from the front; branches of the aortic arch go to the head and arms.
+e04dbe49	Match each vessel to its job
+5dc0b7f5	blood from head and arms to the RA
+92b06d07	oxygen-poor blood to the lungs
+6d70be73	oxygen-rich blood to the LA
+1005ddf0	oxygen-rich blood to the body
+efe86a15	An important exception
+999f4ca0	The simple rule is: an <b>artery</b> carries blood away from the heart and a <b>vein</b> returns it; it does not mean an artery always carries oxygen-rich blood.⟦0⟧⟦1⟧
+ef124760	an artery, yet it carries oxygen-poor blood
+83d39f64	a vein, yet it brings oxygen-rich blood
+3170db93	Direction of flow names the vessel, not the colour of the blood: away from the heart = artery.
+b25ab995	The pulmonary artery carries oxygen-rich blood to the body.
+84634d23	False; it carries oxygen-poor blood to the lungs.
+243f92e1	Order the parts of the aorta in the direction of blood flow
+f5013d5d	Ascending, arch, descending.
+25751806	Oxygen-rich blood from the lungs reaches the left atrium through the ___.
+1e5e08c4	Spell the term for the great vein (without superior or inferior)
+e6e5cf13	Plural: venae cavae.
+212e5e6b	The path of blood
+de7d391c	One full circuit
+33c32811	Blood moves in a loop and passes through the heart <b>twice</b> on each circuit: once through the right half to the lungs and once through the left half to the body.⟦0⟧⟦1⟧
+3e076b0b	“Right to the lungs, left to the lot”: the right half of the heart sends blood to the lungs and the left half to the whole body.
+091fbcda	Order the path of blood through the right half of the heart
+5aed5ee9	From the body to the lungs.
+c65f26a2	Number by number
+03fef7b2	1 right atrium, 2 tricuspid valve, 3 right ventricle and pulmonary valve; 4 left atrium, 5 mitral valve, 6 left ventricle and aortic valve.
+685d6768	Right half: body to lungs
+31510921	Left half: lungs to body
+5d54e053	Order the path of blood through the left half of the heart
+1aa78ca2	From the lungs to the body.
+58dbce35	Picture quiz
+4c14ec20	In the figure below, the numbers show the path of blood. Before the questions, find each number using the list below:⟦0⟧⟦1⟧
+987584a3	Number
+ae4c5663	2 and 4
+0b1afd15	right atrium and right ventricle
+df234307	3 and 5
+8c7823a3	tricuspid and pulmonary valve
+05bc91a4	6 and 7
+769d7e02	pulmonary arteries and pulmonary veins
+c9c173e1	8 and 10
+53ccbfd9	left atrium and left ventricle
+32256e33	9 and 11
+a4b88889	mitral and aortic valve
+1f10e5b0	In this figure, what is number (4)?
+894ddecb	Number 4 is the right ventricle; it receives blood through the tricuspid (3).
+5bdbca09	In this figure, what is number (7)?
+c2dd3953	Red arrows towards the heart: oxygen-rich blood from the lungs to the left atrium.
+f3790b39	In this figure, what is number (10)?
+f8390442	The left ventricle, with its thick wall.
+be4b7419	On each full circuit, blood passes through the heart twice.
+08b590ce	Once in the pulmonary circulation and once in the systemic circulation.
+a6f469db	The heart needs blood too
+16dfa424	The myocardium is not fed by the blood inside the chambers; two <b>coronary arteries</b> branch off right at the start of the aorta and ring the heart like a crown:⟦0⟧⟦1⟧
+255e11d1	Main blood supply
+fc7fb916	right and lower part of the heart
+99525172	short trunk that splits in two
+cc24b9e1	front of the left ventricle and the septum
+82f5ed1a	back and side of the left ventricle
+93494eae	Which branch of the left coronary artery runs down the front of the heart?
+189d5af6	anterior = front, descending = running down.
+578333ee	In a real image
+09684c79	⟦0⟧Oxygen-poor blood from the heart muscle collects in the cardiac veins and drains through the <b>coronary sinus</b> into the right atrium.⟦1⟧
+fdb4d7b7	The right coronary artery, the left coronary artery and the left anterior descending branch on the surface of the heart.
+b066608b	At the bedside the LAD is called the “widow maker”: a blockage at its start leaves much of the left ventricle without blood and causes a severe heart attack.
+4bde6fb1	Match each abbreviation to its name
+19b415a6	The coronary arteries branch off the start of the aorta.
+1be7b3b4	Just above the aortic valve.
+bf5995e3	In this picture, which artery runs over the front of the heart towards the apex?
+e333e804	The front descending branch of the LCA.
+c367431e	The root coron/o in coronary means ___.
+4d877a6e	These arteries encircle the heart like a crown.
+d78399e8	Build a word meaning “relating to the heart’s crown (coronary)”
+d4ac6703	Review of the level “Blood flow and coronaries”
+f1c36530	The SVC and IVC bring oxygen-poor blood to the RA; the pulmonary veins bring oxygen-rich blood to the LA
+2a7e8e2f	pulmonary trunk from the RV to the lungs; aorta from the LV: ascending, arch and descending
+08109bac	Right half: vena cava → RA → tricuspid → RV → pulmonary valve → lungs
+d5e83f61	Left half: pulmonary veins → LA → mitral → LV → aortic valve → aorta
+a9249ae3	coronaries: RCA and LCA; the LCA has two branches, the LAD and the circumflex; the coronary sinus drains into the RA
+494452eb	Heartbeat and ECG
+860b4656	Beat
+ce44a2ba	The conduction system, the cardiac cycle, ECG waves and paper, rhythm, blood pressure, pulse and heart monitoring
+6f7c5cd2	The heart’s electricity
+78cc6da9	Pressure, pulse and monitoring
+4b3f6daa	The natural pacemaker
+a4c892af	The heart makes its own electricity
+eab18270	Every beat starts with an <b>electrical signal</b> made by the heart itself; that is why a transplanted heart beats even without nerves. The signal travels along a fixed route called the <b>conduction system</b>.⟦0⟧
+7b5d5f74	Five stations
+320c86a1	Station
+59a92a30	wall of the right atrium
+7f67214d	natural pacemaker; 60 to 100 times a minute
+3b2cd21e	lower right atrium
+b88eba9b	a short pause so the ventricles can fill
+d6482113	top of the septum
+a1617c7f	bridge between atria and ventricles
+7b9b4c55	both sides of the septum
+e542b2a4	right and left branches
+b662a37d	walls of the ventricles
+a3bed57b	spread the signal and contract the ventricles
+6493ef57	Read the order SA → AV → His → branches → Purkinje as “Swift Arrows Hit Big Pumpkins!”
+6e022abe	What is the heart’s natural pacemaker?
+53de7451	The sinoatrial node in the wall of the right atrium.
+b996ae66	Order the path of the heart’s electrical signal
+f8f339bc	From the atria to the ventricles.
+e98816ee	Break the names apart
+c6eb9f02	• ⟦0⟧ = sinus (cavity, sinus) + atri/o (atrium) + -al<br>• ⟦1⟧ = atri/o (atrium) + ventricul/o (ventricle) + -ar, i.e. between atrium and ventricle⟦2⟧

@@ -1,0 +1,196 @@
+150b8ab9	patent = open.
+22b3d23f	The word patent in PDA means ___.
+fc30c660	open
+b09d8443	closed
+82e1cde0	narrow
+a0817b11	Why does the fetus need these shortcuts?
+7749c025	because the lungs are not working yet
+cb9f2e1d	because the fetal heart has three chambers
+ea16cae8	because fetal blood has no oxygen
+7fda2bbf	because the aorta has not formed yet
+e9aafd47	Oxygen comes from the placenta.
+1351148d	Review of the level “The circulations”
+6a126c99	coronary circulation mostly in diastole; anastomosis and collateral circulation are side routes
+e2754fc5	fetus: foramen ovale (RA to LA) and ductus arteriosus (pulmonary artery to aorta); if it stays open, PDA
+41de3b4e	Arteries of the body
+9f193473	An artery is named after its location
+04a3cb5f	Most arteries share the name of the bone or region they run beside:⟦0⟧
+bb159838	The main arteries of the body from the front; each is named after its region.
+4ac48bb5	The most important ones
+0e05263e	neck; supplies the brain
+d98a435e	under the collarbone; towards the arm
+ccf1c812	upper arm; where blood pressure is measured
+5dca7bb9	forearm and wrist; where the pulse is taken
+22bfedf8	thigh; entry route for catheters
+b3c20cb4	sub-clavian = under the collarbone (clavicle); brachial = arm; femoral = thigh (femur). Guess an artery’s name from the bone beside it!
+f3aa09b5	Which artery in the neck carries blood to the brain?
+aca55957	Match each artery to its location
+7cb6e690	Branches of the aorta
+6ff5aaa9	The aortic arch has three branches: the brachiocephalic trunk, left common carotid and left subclavian. After passing the diaphragm, the descending aorta is called the <b>abdominal aorta</b>, which divides at the bottom into two <b>iliac arteries</b>.⟦0⟧
+2211d332	In angiography the catheter is usually inserted through the femoral or radial artery and advanced up to the aorta and coronaries.
+bb2bc44a	Blood pressure is usually measured over the brachial artery.
+f0817f9e	Cuff around the upper arm and stethoscope over the brachial artery.
+619cc6b0	Through which artery is an angiography catheter usually inserted?
+99ddb373	Or the radial artery at the wrist.
+ae764b38	In the abdomen, the aorta is called the ___ aorta.
+63000c5f	abdomin/o = abdomen.
+3c9e9bb2	Spell the name of the main neck artery (without “artery”)
+83ca2e29	Veins of the body
+816e593f	Superficial and deep veins
+3a2214f4	Veins come in two groups: <b>deep</b> veins, which run beside arteries and share their names (such as the femoral vein), and <b>superficial</b> veins, which can be seen under the skin.⟦0⟧
+a4600083	The main veins of the body; blue means oxygen-poor blood.
+f16d31bb	Location and use
+2f29eb60	neck; returns blood from the head
+b89de92b	under the collarbone; site for a central line
+6636254c	front of the elbow; drawing blood
+04b91214	longest vein in the body; inner leg
+f161e422	thigh; beside the femoral artery
+d361f6d5	jugular comes from Latin jugulum, “throat”: the throat vein, on both sides of the neck.
+46df7ba5	Which is the longest vein in the body, also harvested in bypass surgery?
+5722812e	From the top of the foot to the groin.
+592d3447	Match each vein to its location
+69b13c97	inner leg
+85d4822c	Drawing blood
+89ef7844	⟦0⟧ = <b>venipuncture</b>: puncturing a vein with a needle to draw blood or inject. ⟦1⟧ has the same meaning.⟦2⟧
+09b6153d	In a patient with heart failure, the jugular vein in the neck looks full and prominent: JVD, or jugular venous distention.
+61653f71	Venipuncture means puncturing an artery.
+df1c1293	False; ven/o means vein.
+ebe08a97	From which vein is blood usually drawn?
+64002be5	Front of the elbow; superficial and wide.
+3b63b691	Bulging of the neck vein in heart failure is called ___.
+15e08050	Spell the term for puncturing a vein to draw blood
+e73ba300	ven/o + punct (to pierce) + -ure.
+444ee693	Lymph: the body’s drainage
+164394c9	The fluid that returns
+d1f46de0	A little blood fluid leaks from the capillaries into the tissues. This fluid is called <b>lymph</b>, and <b>lymphatic vessels</b> collect it and return it to the blood.<br>• <b>lymph node</b>: bean-shaped nodes that filter lymph and trap germs<br>• <b>thoracic duct</b>: the largest lymphatic duct; empties lymph into the left subclavian vein
+fe40d48b	Which is the largest lymphatic duct in the body?
+2be326dc	thoracic = chest.
+7cd84f3c	Structure of a lymph node
+05e69cd0	Lymph enters through an afferent vessel and leaves through an efferent vessel at the hilum; valves keep the flow one-way.
+b6761e9a	vessel entering the node
+928aaf11	vessel leaving the node
+ab90cfa9	Afferent = Arrive and Efferent = Exit.
+1a73140b	fluid leaked from capillaries
+5c768863	lymph filter
+d849034e	largest lymphatic duct
+44b528d0	Lymphatic vessels, like veins, have valves.
+e07797a0	One-way flow towards the heart.
+7bd66fb7	When the drain is blocked
+c447fe33	If lymphatic vessels are blocked, fluid stays in the tissue and causes <b>lymphedema</b> (lymphatic swelling).⟦0⟧
+c51abd79	After armpit nodes are removed in breast cancer surgery, blood is not drawn and pressure not taken on that arm, so lymphedema does not worsen.
+3a6ee314	Swelling caused by blocked lymphatic vessels is called ___.
+568534aa	Into which vessel does the thoracic duct empty lymph?
+efb46255	At the base of the neck, on the left.
+36e2a22f	Review of the level “Vessel map and lymph”
+254307e8	arteries: carotid (neck), subclavian, brachial (blood pressure), radial (pulse), abdominal aorta, femoral (catheter), popliteal
+ce27b9c0	veins: jugular, subclavian, median cubital (drawing blood), great saphenous (longest; bypass graft), femoral
+d9d0b7db	venipuncture = ven/o + punct + -ure; JVD in heart failure
+e768df19	lymph: lymphatic vessels, lymph node (afferent in and efferent out), thoracic duct to the left subclavian vein; lymphedema
+9a0f8c08	Heart and vessel diseases
+1dde1747	Atherosclerosis, coronary disease and heart attack, arrhythmias, valve and congenital defects, heart failure, blood pressure, aneurysm, clots and varicose veins
+6af447f0	Narrowed and blocked vessels
+4d9ea19b	Rhythm, valves and muscle
+6b1a4cad	Pressure, clots and veins
+efb4f413	Plaque in the artery
+671a52fb	An artery that slowly narrows
+6b8120ce	In <b>atherosclerosis</b> fat and cholesterol build up under the tunica intima and form a <b>plaque</b>, or <b>atheroma</b>; the lumen gets narrower and narrower.⟦0⟧⟦1⟧
+7841b20e	From a normal artery to a large plaque with a clot on it.
+0276cf6b	atheroma means…
+e6543773	a mass of fatty plaque in the artery wall
+436914bc	widening of an artery
+9ae67ef6	ather/o (fatty plaque) + -oma (mass).
+5541aa73	Two diseases with similar names
+2fee7a00	the artery wall becomes hard and inflexible; mostly with age and high blood pressure
+7271e55c	a type of it with fatty plaque in the wall
+40d8815b	From the left: a healthy artery, atherosclerosis with yellow plaque and arteriosclerosis with a thick, stiff wall.
+1fe5d708	arterio = artery; athero = fatty porridge. Every atherosclerosis is an arteriosclerosis, but not the other way round.
+a3380050	Atherosclerosis is a type of arteriosclerosis.
+fc60bbcb	Hardening of an artery with fatty plaque.
+473c68ee	From plaque to blockage
+a82b4fee	⟦0⟧When the plaque surface ruptures, platelets stick to it and form a <b>thrombus</b> (clot). Complete closure of a vessel is called <b>occlusion</b>.
+deefb28a	A: plaque in the wall, damage to the endothelium and platelets sticking; B: moderate narrowing, a partly blocking clot and a fully blocking clot.
+49a2bb80	Order the stages of an artery closing
+696b4711	fat builds up under the intima
+f2809cc0	plaque forms
+cccaa929	the plaque surface ruptures
+8406e77e	platelets stick and a thrombus forms
+3434bc00	From plaque to complete blockage.
+ce92d6ea	fat deposit in the wall
+1aae148f	fixed clot in a vessel
+c933779e	complete closure of a vessel
+08e5629a	Complete closure of a vessel is called ___.
+c45136b9	Build a word meaning “hardening of an artery with fatty plaque”
+1a8646a9	Spell the term for hardening of the arteries with fatty plaque
+574d82c2	Coronary disease and angina
+442184c1	When the coronaries narrow
+7974c34e	<b>Coronary artery disease</b> (CAD) means atherosclerosis in the coronary arteries. The heart muscle does not get enough blood: <b>ischemia</b> (isch/o holding back + -emia blood).⟦0⟧
+420d047a	A: plaque has reduced blood flow and part of the heart is ischemic; B: flow is completely blocked and that part has infarcted.
+69003300	What does CAD stand for?
+be9316ec	Coronary artery disease.
+3f444040	<b>Angina pectoris</b> means “squeezing chest pain” (pector/o = chest) that comes on with exertion or emotion and eases with rest or nitroglycerin under the tongue.⟦0⟧⟦1⟧
+4f06ee43	with exertion, predictable, relieved by rest
+7aab7426	at rest or worse than ever; a warning of heart attack
+6962f497	Angina is often a pressure-like pain spreading to the left arm, jaw or back; in women and people with diabetes it may be only breathlessness or tiredness.
+90733af6	A 60-year-old man gets squeezing chest pain climbing stairs that goes away after 5 minutes’ rest. Diagnosis?
+9a87225e	Predictable pain with exertion.
+790c480f	Age
+132ef92b	60 years
+9536d8bf	chest pain on stairs
+87a09808	Relief
+69aed49d	with rest
+849d2aa0	Unstable angina also occurs at rest and is a warning of heart attack.
+8e6e2105	It needs urgent assessment.
+d65fe02b	Accompanying signs
+041409b8	fainting, brief loss of consciousness
+1e8cfd0e	dys- means bad or difficult and -pnea means breathing: dyspnea = difficult breathing.
+486ea232	squeezing chest pain
+cd2e4711	In ischemia, the suffix ___ means “blood condition”.
+79201077	Spell the term for difficult breathing
+cf5e9268	When the muscle dies
+f3f97cae	If a coronary artery suddenly closes completely, the muscle beyond the blockage dies: <b>myocardial infarction</b> (MI), or heart attack.<br>• <b>infarct</b>: an area of tissue dead from lack of blood<br>• <b>necrosis</b>: tissue death (necr/o = dead)⟦0⟧
+a503c0d3	Fatty plaque inside the artery and the necrotic (dead) area beyond it.
+2fc4a8f5	myocardial infarction means…
+3380b842	death of part of the heart muscle from lack of blood
+38f9f73a	inflammation of the heart muscle
+f3017852	Ischemia or infarct?
+88bec011	lack of blood; still reversible
+1cadeb1c	dead tissue; irreversible
+1792e6a2	An area of infarct in the left ventricle wall; the section shows the dead area reaching deep into the wall.
+134440c5	“Time is muscle”: every minute’s delay in opening the vessel means more muscle infarcts.
+99805a38	Ischemia is always irreversible.
+7723266c	False; ischemia reverses if treated early; an infarct does not.
+da940592	Signs and diagnosis
+13582a07	Severe chest pain lasting over 20 minutes, diaphoresis, dyspnea and nausea. Diagnosed by:<br>• ECG: ST segment elevation (STEMI)<br>• blood test: raised <b>troponin</b> and <b>cardiac enzymes</b>⟦0⟧
+7b62b197	If the patient suddenly collapses unconscious with no pulse, cardiac arrest has occurred, often from ventricular fibrillation after an MI.
+77cadbdf	Which blood test rises in MI?
+a484871c	A heart muscle protein.
+53aa27e8	Order the events of a heart attack
+ade5b64e	a coronary plaque ruptures
+c4d5bb65	clot and occlusion
+1f7e8dc1	infarct and necrosis
+dd7cf060	From plaque to tissue death.
+5f741ab7	area of dead tissue
+98acc3bf	marker of heart damage in the blood
+7e07a0dc	heart attack with ST elevation
+387382a5	Review of the level “Narrowed and blocked vessels”
+92dc0ead	atherosclerosis: plaque (atheroma) in the artery wall; a type of arteriosclerosis
+233e4e29	plaque → rupture → thrombus → occlusion; stenosis means narrowing
+2ad2e99a	CAD → ischemia → angina pectoris (stable or unstable); dyspnea, diaphoresis, syncope
+aa3fac65	MI: infarct and necrosis of heart muscle; raised ST on the ECG and raised troponin in the blood
+0ca03443	Arrhythmias
+422b03cf	Dangerous rhythms
+2764bc7c	<b>Arrhythmia</b> means an irregular or abnormal heartbeat. See four important rhythms side by side:⟦0⟧
+4872c1ae	Quivering instead of contracting
+bbb2627b	<b>Fibrillation</b> means rapid, chaotic quivering of muscle fibres instead of a single coordinated contraction:⟦0⟧⟦1⟧
+170c457d	the atria quiver; irregular beat with no P wave; risk of clots and stroke
+3a5693e2	the ventricles quiver; no blood is pumped; cardiac arrest
+89802025	“If the atria quiver, the patient walks in; if the ventricles quiver, the patient falls down.”
+abdd6600	In which rhythm does the patient have no pulse and need an immediate shock (defibrillation)?
+5da2c04e	VF means cardiac arrest.
+ef9001a0	Other rhythms
+c344054d	atria very fast and regular; sawtooth waves
+0ebe3e06	premature ventricular contraction: an early beat from the ventricle
+1d01833d	no electrical activity at all; a flat line
+c78f375a	Wolff-Parkinson-White: an extra electrical pathway between atrium and ventricle
+6b549443	A patient with atrial fibrillation takes an anticoagulant, because blood pools in the quivering atrium and forms clots that travel to the brain.
+616c9729	Match each rhythm to its feature

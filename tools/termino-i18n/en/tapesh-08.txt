@@ -1,0 +1,177 @@
+63c04e05	irregular, no P wave
+594ea13a	sawtooth
+96bea679	flat line
+81c58f0c	early ventricular beat
+d5fd581e	The risk of stroke is higher in atrial fibrillation.
+0e7ccd85	A clot forms in the stagnant atrium.
+8bbcfaf5	A flat line on the monitor of an unconscious patient means…
+908348b5	a- (without) + systole (contraction).
+5824dca5	Sudden failure of the heart’s pumping is called ___.
+bde5037d	Spell the term for rapid, chaotic quivering of heart muscle
+17eb6bc3	fibrill (small fibre) + -ation.
+09637421	Valves and congenital defects
+088b4476	Two ways a valve fails
+e1423ef6	⟦0⟧⟦1⟧Both cause turbulent flow and a <b>murmur</b>.
+8fd33118	the valve is stiff and does not open well; the ventricle must push harder
+3f015945	the valve does not close well; blood flows backwards (insufficiency)
+f85b4ad8	What is the problem with a valve that does not close well and lets blood flow back?
+83a67dcf	Backflow of blood.
+06ca36d5	Common valve diseases
+91d6d9ef	• <b>mitral valve prolapse</b> (MVP): the mitral cusps bulge into the left atrium during contraction; a “click” sound<br>• <b>rheumatic heart disease</b>: valve damage, especially to the mitral, years after an untreated streptococcal sore throat<br>• <b>endocarditis</b>: infection of the inner lining and valves⟦0⟧
+5c6b140a	A child’s strep throat is treated with a full course of antibiotics so it does not lead to rheumatic fever and valve damage.
+629c1783	In mitral valve prolapse the cusps bulge into the left ventricle.
+e172016a	False; they bulge into the left atrium.
+115143b1	Congenital defects
+acbe2452	<b>Congenital heart disease</b> means a structural heart defect present from birth:⟦0⟧⟦1⟧
+f823bea2	Defect
+2ef66517	atrial septal defect: a hole in the wall between the atria
+74a387fb	ventricular septal defect: a hole in the wall between the ventricles
+559a9d08	patent ductus arteriosus: the fetal duct stays open
+42760c8e	coarctation of the aorta: congenital narrowing of the aorta
+6df6419e	Match each abbreviation to its defect
+0a1eef0a	hole between the atria
+8b1efc31	hole between the ventricles
+53da383c	ductus arteriosus stays open
+e83d4d09	Tetralogy of Fallot
+99dac108	<b>Tetralogy of Fallot</b> (tetra- = four) has four defects together: VSD, pulmonary valve narrowing, an aorta overriding both ventricles and a thickened right ventricle. Oxygen-poor blood goes to the body and the baby has <b>cyanosis</b> (blueness).⟦0⟧
+88a13f7b	tetra = four, like a tetrahedron with its four faces.
+4ee9dde0	A newborn is blue, and the echo shows a VSD, pulmonary valve narrowing, an overriding aorta and a thick right ventricle. Diagnosis?
+34a2187e	Four defects together.
+81d1be75	Echo
+7724370e	four findings
+b5ed475f	In coarctation of the aorta, the aorta is ___.
+d6115fc7	widened
+a01732a6	forked
+7fc26d5b	Congenital narrowing.
+09fc1c0c	Spell the term for an extra heart sound from turbulent flow
+c92b878d	The sound of turbulent blood flow.
+1d3737d2	Failure and heart muscle
+75228b0e	A pump that falls short
+75b86418	In <b>heart failure</b> the heart cannot pump as much blood as the body needs. When blood backs up behind the heart and causes swelling, it is called <b>congestive heart failure</b> (CHF) (congestion = build-up).⟦0⟧
+a5996874	blood backs up in the lungs; dyspnea and cough
+eb4ecec3	blood backs up in the body; leg swelling and JVD
+3315993d	A CHF patient gets breathless when lying down at night. Where has the blood backed up?
+bb099b4e	the lungs (left-sided failure)
+93db5284	the legs (right-sided failure)
+066f15d0	Left ventricular failure makes blood build up in the lungs.
+f8586ae3	<b>Edema</b> means fluid collecting in tissue. In heart failure, swelling of the legs and ankles is common; if finger pressure leaves a dent, it is called <b>pitting edema</b>.⟦0⟧⟦1⟧
+d4b63a42	A: a dent after finger pressure (pitting edema); B: swelling of the leg and ankle.
+d48d8e57	A CHF patient weighs themselves every morning; a gain of more than one kilo in a day means fluid is building up.
+e1af0928	Pitting edema means that after finger pressure, a dent remains.
+65ba71c8	pit = hollow.
+6c8921e8	Big or diseased muscle
+5d7ee577	enlarged heart; on a chest X-ray
+4dea06b1	thickening of the muscle (hyper- + -trophy growth)
+747220e0	disease of the heart muscle itself
+09cb9b5d	shock caused by failure of the heart’s pump (-genic = caused by)
+a6a488ff	thickening of the muscle
+1ca6cd18	fluid collecting in tissue
+8858761a	shock from pump failure
+39e97c2d	Build a word meaning “shock originating in the heart”
+2f8b66ce	cardi/o + -genic (caused by) = cardiogenic.
+6d1f764e	Thickening of the ventricle wall in long-standing high blood pressure is called ___.
+a77f29c9	hyper- (excessive) + -trophy (growth).
+f72f0fe6	Review of the level “Rhythm, valves and muscle”
+bed3d877	arrhythmia: atrial fibrillation (irregular, clot risk), atrial flutter, PVC, ventricular fibrillation and asystole (cardiac arrest)
+06e72311	valve: stenosis (will not open) and regurgitation (will not close); MVP, rheumatic heart disease; murmur
+9dec89fd	congenital: ASD, VSD, PDA, CoA and tetralogy of Fallot with cyanosis
+d30b13ba	CHF: left-sided failure gives dyspnea and right-sided failure gives edema and JVD; cardiomegaly, hypertrophy, cardiomyopathy
+d7edd124	Blood pressure and aneurysm
+e0e62fa6	Blood pressure categories
+052c2c55	⟦0⟧<b>Hypertension</b> (HTN) is called the “silent killer”: it causes no symptoms for years while silently damaging the heart, brain, kidneys and eyes.<br>• <b>stage 1</b>: systolic 130 to 139 or diastolic 80 to 89<br>• <b>stage 2</b>: 140/90 or higher
+4ab05c30	Which category is a blood pressure of 134/84?
+4d6c73e2	Systolic 130 to 139 or diastolic 80 to 89.
+6752992e	• <b>hypotension</b>: low pressure, below about 90/60<br>• <b>orthostatic hypotension</b>: a drop in pressure on standing up suddenly (ortho- = straight, upright); dizziness and sometimes syncope⟦0⟧
+9aabf1e8	Remember orthostatic through “ortho = upright”: pressure drops when you stand upright.
+26039bbd	Orthostatic hypotension happens when lying down.
+69dfc35c	False; it happens on standing up suddenly.
+6471dd35	A vessel that balloons
+1aae7ea3	An <b>aneurysm</b> is a bulging and widening of a weak part of an artery wall:⟦0⟧⟦1⟧
+d144b23e	A: fusiform (spindle-shaped, all around the vessel); B: saccular (sac-like, on one side); C: dissecting (blood between the wall layers).
+8abd5907	Dissecting aneurysm of the aorta: blood enters the artery wall through a tear in the intima.
+4167bda7	Match each type of aneurysm to its shape
+53fbd9f0	spindle-shaped, all around the vessel
+a7986b2c	sac-like, on one side of the vessel
+46219a86	blood between the wall layers
+5eb4c1df	⟦0⟧An <b>abdominal aortic aneurysm</b> (AAA) is most common in older men who smoke and causes no symptoms until it ruptures.⟦1⟧
+deb634ad	Abdominal aortic aneurysm below the renal arteries; the inferior vena cava runs beside it.
+be42e08a	A pulsating mass in the abdomen is a sign of AAA; rupture, with sudden abdominal and back pain and falling pressure, is a surgical emergency.
+0c332e37	What does AAA stand for?
+62803d64	Abdominal aortic aneurysm.
+09334e9f	Spell the term for a ballooning of a weak artery wall
+22f20149	Watch the spelling: eu and y.
+b2d40c30	Clots and stroke
+c1979c71	Fixed clot, travelling clot
+2fda3549	⟦0⟧⟦1⟧When an embolus lodges in a narrower vessel and blocks it, it is called an <b>embolism</b>.
+f01fa75f	a clot attached to the vessel wall (plural: thrombi)
+793977e6	a clot or particle travelling in the blood (plural: emboli)
+8a4f77ff	What is a clot that has broken loose and travels in the blood called?
+e9e6177e	embol/o = plug.
+5ef1417d	From the leg to the lungs
+dbcc3fca	<b>Deep vein thrombosis</b> (DVT) means a clot in the deep veins of the leg; the leg is swollen, warm and painful. If the clot breaks loose, it travels through the right heart to the lungs: <b>pulmonary embolism</b> (PE).⟦0⟧⟦1⟧
+99d2eba5	Thrombosis in a deep leg vein; swelling and inflammation below the blockage.
+c6b93f0e	Long immobility (flights, bed rest, surgery) raises the risk of DVT; that is why patients are got walking soon after surgery.
+bf1ed6c1	Order the path of a clot from the leg to the lungs
+c8774446	DVT in a leg vein
+963a4a95	the embolus breaks loose
+cdcfdccb	A venous clot reaches the lungs.
+aa4a9bd7	A <b>stroke</b>, or CVA (cerebrovascular accident), is brain damage from loss of blood supply, often from a clot or plaque in the <b>carotid artery</b>.⟦0⟧⟦1⟧
+2b3360e7	Plaque in the internal carotid artery and a piece breaking off it
+4c5bd80e	Ischemic stroke: a clot on a carotid plaque and the damaged area of brain
+33a5b5a6	transient ischemic attack: passing symptoms that fully resolve within 24 hours
+9e0c6f78	lasting damage to brain tissue
+18a0c828	A patient had 15 minutes of right arm weakness and is now completely well. What is this?
+12f47d3e	transient = passing; a warning of stroke.
+e894ca7e	The sound of narrowing
+9c71ce4f	A <b>bruit</b> is a “whooshing” sound heard with a stethoscope over a narrowed artery (such as the carotid): turbulent blood flow through the narrowing.⟦0⟧
+903f59dd	bruit (said “broo-ee”) is French for “noise”.
+73dde3c6	clot in a deep vein
+435662c7	passing ischemic attack on the brain
+370185fb	sound of flow through a narrowed artery
+36d5ac3c	Pulmonary embolism usually comes from a clot in the deep veins of the leg.
+e1660683	Spell the term for a clot fixed to the vessel wall
+5d88e970	Plural: thrombi.
+ab751b36	Veins and peripheral vessels
+7026cde8	Valves that fail
+9e53e503	<b>Varicose veins</b> are widened, twisted superficial veins of the leg. The vein valves do not close properly, so blood flows back and pools in the superficial vein.⟦0⟧
+3a85e9d0	A: a healthy vein with working valves and a varicose vein with failing valves; B: varicose veins of the leg.
+6d546b62	What is the main cause of varicose veins?
+5a0de681	failing vein valves
+035cfa81	fatty plaque in an artery
+aa69f006	clot in an artery
+ce25b479	Backflow and pooling of blood in the superficial vein.
+6f7303f5	Varicose veins up close
+5da93677	⟦0⟧Varicose veins in the anal region are called <b>hemorrhoids</b>.<br>• <b>phlebitis</b>: inflammation of a vein<br>• <b>thrombophlebitis</b>: inflammation of a vein with a clot
+986c8a38	Widened, twisted veins under the skin of the leg.
+a530b4e5	widened, twisted vein
+ef33f4c7	inflammation of a vein with a clot
+b11e7979	swollen veins of the anal region
+12b54afb	Build a word meaning “inflammation of a vein with a clot”
+f25694d5	Peripheral arteries
+76028ae9	• <b>peripheral artery disease</b> (PAD): atherosclerosis in the leg arteries<br>• <b>claudication</b>: calf pain on walking that eases on standing still; a sign of PAD<br>• <b>Raynaud phenomenon</b>: fingers turning white and blue in the cold from vasospasm<br>• <b>vasculitis</b>: inflammation of vessels⟦0⟧
+301cf74e	claudication comes from the emperor Claudius, who limped: leg pain that makes you limp.
+6a9c2de4	A 66-year-old man who smokes gets calf pain after walking 200 metres that eases when he stands still. What is this sign?
+dda8bd5a	A sign of PAD.
+35e7ffb0	66 years
+8e98c3d1	smoking
+f60fd440	calf pain on walking
+6cce742f	Raynaud phenomenon involves spasm of the finger vessels in the cold.
+8fd05d0e	Review of the level “Pressure, clots and veins”
+c2a3b500	hypertension: 130/80 or higher; hypotension and orthostatic hypotension
+e7574326	aneurysm: fusiform, saccular and dissecting; AAA in the abdominal aorta
+a159b5af	fixed thrombus and travelling embolus; DVT → PE; stroke (CVA) and passing TIA; bruit over a narrowed artery
+bf5db211	varicose veins from failing valves; phlebitis, thrombophlebitis, hemorrhoids; PAD with claudication; Raynaud
+82624237	Echo, tests, angiography and catheterisation, balloons and stents, vessel and heart surgery, drugs, pacemakers, shocks and resuscitation
+969fba34	Diagnosis and imaging
+c244983e	Opening vessels and surgery
+10395fc4	Drugs, pacemakers and resuscitation
+81900086	The diagnostic toolbox
+e55b1ed5	Four ways to see the heart
+2a27cea6	⟦0⟧You met the ECG and Holter in the heartbeat world. Now the other tools:<br>• <b>echocardiography</b>: imaging the heart with sound waves (ech/o = echo); shows the chambers, valves and EF<br>• <b>transesophageal echocardiography</b> (TEE): a probe passes down the oesophagus (esophag/o) behind the heart and gives a sharper image
+f5cf3f8d	Which test uses sound waves to show valve movement and ejection fraction?
+ff461e90	ech/o = echo of sound.
+454c8af9	Hearing blood flow
+378b2117	<b>Doppler ultrasonography</b> measures the speed and direction of blood flow with sound waves; used for carotid narrowing or leg DVT.⟦0⟧⟦1⟧⟦2⟧
+bb110200	Doppler ultrasound of the carotid artery in the neck.
+2517280a	image of the heart itself, made with sound
+beb24af6	tracing of the heart’s electricity

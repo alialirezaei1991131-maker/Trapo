@@ -1,0 +1,331 @@
+82b7dfc0	Tapesh • Cardiovascular Terminology
+f02c4166	Medical terminology of the cardiovascular system
+50c17d37	❤️ Medical terminology: The Cardiovascular System
+02594c34	Hi, I’m <b>Tapesh</b>;
+b16d214d	Hi, I’m <b>Tapesh</b>, a heart that reads its own ECG! Here you’ll learn how the heart and vessels are built and how they work, name their diseases, tests and treatments with the exact word, and <b>decode</b> every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures from the textbooks, ⟦2⟧ clinical charts and Leitner cards are waiting for you.
+6403cfec	Tapesh is an educational tool and does not replace medical references, clinical judgment or a physician’s orders.
+b9f18d13	Dozens of textbook pictures and teaching figures, from the chambers and valves of the heart and the path of blood to the ECG, angiography and stents.
+698c6045	Break every cardiovascular word into prefix, root and suffix and build new words
+07c9fa61	Name the layers, chambers, valves and great vessels of the heart and the path of blood exactly
+c964a4e5	Describe the cardiac cycle, the conduction system, the ECG waves, blood pressure and pulse
+d78066e5	Know the arteries, veins, capillaries, the pulmonary and systemic circulations and the coronary vessels
+cd5ef52b	Recognise cardiovascular diseases, from atherosclerosis and heart attack to arrhythmias and congenital defects
+6f4b48a5	Read cardiac tests, imaging, surgery, drugs and chart abbreviations
+85a76f83	Just 5 minutes a day. A few weeks from now you’ll read a cardiac patient’s chart like your mother tongue.
+7489cc62	Hi! I’m Tapesh, a heart that reads its own ECG 💓 What’s your name?
+30f3f926	The chart says: <b dir="ltr">bradycardia</b>. It means…
+c53b9191	Slow, normal and fast heart rate
+f3eec680	A heart rate slower than normal
+d8fc4da2	A heart rate faster than normal
+5a9965cb	Enlargement of the heart
+916cd9f8	Inflammation of the inner lining of the heart
+c7f37ebe	⟦0⟧<br><b>brady-</b> = slow • <b>cardi/o</b> = heart • <b>-ia</b> = condition. So it means a <b>slow heart rate</b>: fewer than 60 beats a minute. Start the meaning from the suffix!
+2e796993	New Beat
+5c4e162d	Atrium Dweller
+930c6368	Hard-Working Ventricle
+a2de26a2	Valve Guardian
+d63f1a46	Coronary Expert
+b72d78a0	Sinus Node
+438bb451	ECG Reader
+70ff2739	Precise Sphygmomanometer
+941c2d02	Vessel Expert
+5754fa06	Arrhythmia Detective
+98cc586e	CPR Rescuer
+6dfb92a0	Commander of Tapesh
+2735e85d	Master of the Language of the Heart
+e06577c7	First Beat
+6404e72b	Heart Architect
+6cc838cb	Disease Detective
+ed21e4c0	Healer
+187d5edd	abdominal part of the aorta
+17e8f880	bulging of the abdominal aorta
+c84610ec	blood-pressure drug blocking ACE
+c042054c	surgical joining of two vessels
+98ddb730	ballooning of an artery wall
+e92513d7	removal of an aneurysm
+09296ed2	chest pain from poor heart blood flow
+3d40a17a	X-ray image of a vessel
+79fdff3f	X-ray imaging of vessels
+f1a4160a	opening a vessel with a balloon
+3ff8793d	viewing inside a vessel
+0d3e610c	angiotensin receptor blocker
+a6885d5d	drug for irregular heart rhythm
+df85bb68	drug that delays clotting
+98abc74e	drug that lowers blood pressure
+03bdd164	drug that stops platelets clumping
+0f8a79e5	main artery from the heart
+f97ec736	curve of the aorta
+d9a2fda2	valve between left ventricle and aorta
+0ea72d23	pointed tip of the heart
+87db046d	heartbeat felt at the heart’s tip
+02b387a7	irregular heart rhythm
+62195ce2	pertaining to an artery
+e6b4838d	small artery
+d5676095	hardening of the arteries
+252a82cf	vessel carrying blood from the heart
+7e204901	artificial pacemaker
+5c998799	rising part of the aorta
+77c32549	flat line; no electrical activity
+17db9105	removal of plaque from an artery
+d9b86203	fatty mass in an artery wall
+759fadb6	fatty plaque build-up in arteries
+da0bbf40	pertaining to an atrium
+b8b7a662	quivering of the atria
+bd36a2ea	atrioventricular node
+66b6483b	valve between atrium and ventricle
+b7a9b7ae	atrium / atria
+2c84b36c	listening with a stethoscope
+155f6fcb	automated external defibrillator
+f53f6653	B-type natriuretic peptide
+1255d5ab	drug that slows the heart
+f9e058fe	main artery of the upper arm
+d5800e8e	slow heart rate
+e4b4352c	sound over a narrowed vessel
+105cbd2a	branches of the bundle of His
+58686457	bundle of His
+5dffd994	calcium channel blocker
+5c802812	sudden stop of the heart
+6b667dc1	threading a tube into the heart
+74df1283	one heartbeat’s contraction and rest
+e2c965d9	cardiac enzymes
+fe107b45	blood pumped per minute
+b18911cb	heart ultrasound technician
+d15df1dc	heart surgeon
+78d13b5a	heart squeezed by fluid in its sac
+40fa3fe8	shock from pump failure
+dc5982f0	heart specialist
+f0082408	study of the heart
+617fb020	enlarged heart
+380ff79a	heart muscle disease
+53aa0a92	pertaining to heart and lungs
+097c8b9a	cardiopulmonary resuscitation
+7b4ff9fb	cardiovascular technologist
+df536607	shock to restore normal rhythm
+604cda7a	main artery of the neck
+e6a96c90	neck pulse
+5bea9fa0	thin flexible tube
+53faa2aa	destroying an arrhythmia focus
+6ef9ac20	cholesterol
+30f7a6a6	chorda tendinea / chordae tendineae
+480b8a79	cords that anchor valve flaps
+11d3c0cc	circumflex artery
+e8e49de5	leg pain on walking
+7d1150a0	congenital narrowing of the aorta
+d4a60ff6	collateral circulation
+a7b04c00	opening a narrowed valve
+bd85309a	conduction system of the heart
+4219faad	congenital heart disease
+fa5f65ee	congestive heart failure
+d310c553	crown-like; of the heart’s vessels
+f780f3f3	coronary angiography
+6342b781	artery feeding the heart muscle
+7e81dcb4	coronary bypass surgery
+13f00feb	coronary artery disease
+df314402	coronary circulation
+11e50444	coronary sinus
+28c4c71f	CT angiography
+330f1ffc	flap of a valve
+3f67db93	deep vein thrombosis
+24ce0e24	electric shock to the heart
+10f7a4d5	oxygen-poor blood
+48dad590	electrical activation
+343d2034	resting phase of the heart
+b8579d54	lower blood pressure number
+98f34dee	digital subtraction angiography
+04cd1be5	digoxin
+269411b2	split in an artery wall
+7e31382d	water pill
+999abae0	Doppler ultrasound
+52993ece	ductus arteriosus
+8c86046b	ultrasound of the heart
+5a4a797c	swelling
+eecf89e2	ejection fraction
+e9406ffa	electrocardiogram
+0887233f	recording the heart’s electricity
+367e9f0a	electrode
+99c729a2	heart rhythm specialist
+ba3e07eb	removal of an embolus
+dff316b3	blockage by an embolus
+17f60b9b	travelling clot
+29e7407e	embolus / emboli
+1fbf721b	removing an artery’s inner lining
+30e3d3cf	inflammation of the heart’s inner lining
+b3d974f2	inner lining of the heart
+acb47566	inner lining of vessels
+59151175	laser closure of varicose veins
+ad5d93e6	outer layer of the heart
+5cb28acd	heart-lung machine circulation
+7d33d057	main artery of the thigh
+e7d01ce3	main vein of the thigh
+3414d296	fetal circulation
+46b06c92	quivering
+cdd77d9e	fibrous pericardium
+98f0fb22	very fast regular contractions
+88fc5a98	foramen ovale
+2152882b	galloping heart sound
+eb0f7c7e	heart block
+0a917cc4	heart failure
+a1175831	heart rate
+c71c46d9	heart sounds
+326dcae4	sinoatrial node
+4cf51dfc	heparin
+febb93fe	good cholesterol
+bbc3eacb	24-hour ECG recorder
+f9ce818c	high blood cholesterol
+58b8e48f	high blood fats
+80c57121	high blood pressure
+c5330df8	thickening of muscle
+22c36c1d	low blood pressure
+9c6d3a7b	implantable defibrillator
+b17b4dfc	area of dead tissue
+1be9517a	inferior vena cava
+95008b22	wall between the atria
+03d18795	wall between the ventricles
+f72ba433	intra-aortic balloon pump
+104de57e	within a blood vessel
+4337089b	into a vein
+287becff	reduced blood supply
+3d7285b1	neck vein
+4454dc8d	Korotkoff sounds
+b7b5357c	left anterior descending artery
+b274bca4	left atrium
+0eab90bf	left coronary artery
+21fa387e	left ventricle
+cbc93825	tying and stripping varicose veins
+5e105f8a	blood fat panel
+77259396	bad cholesterol
+fc4b088a	lumen
+efd121ff	lymph vessel
+f7b13f82	space between the lungs
+cfd4b5ca	valve between left atrium and ventricle
+bcd6cdd0	mitral valve prolapse
+4bf5ecbf	MUGA scan
+e9e3cebb	extra heart sound
+935113bb	heart attack
+d2aacb9b	inflammation of the heart muscle
+cbdb4c3a	heart muscle
+705438ba	nitroglycerin
+d101b163	normal sinus rhythm
+0a5336ed	nuclear heart scan
+0ce3026c	blockage
+e55c2107	drop in pressure on standing
+7fa65f01	oxygen-rich blood
+e464ad9f	P wave
+c41412ee	pacemaker
+d81c54fc	feeling the heart pound
+4e68d047	papillary muscle
+34f6169c	parietal pericardium
+e6f5ae49	patent ductus arteriosus
+ff191145	children’s heart specialist
+94598f56	blood flow through tissue
+14a327d0	heart-lung machine operator
+46c17917	pericardial cavity
+14e43610	pericardial fluid
+8e41051e	drawing fluid from around the heart
+cac0d960	inflammation of the heart’s sac
+8f9005f4	peripheral artery disease
+6869d5d8	inflammation of a vein
+71216277	drawing blood from a vein
+dd2f18ae	plaque
+f1cfe934	artery behind the knee
+f0284ba3	slightly raised blood pressure
+9bd56e19	premature ventricular contraction
+c17f2573	artery to the lungs
+9a722bd1	circulation through the lungs
+227cd8b5	clot in a lung artery
+85988399	pulmonary trunk
+725fc2b5	valve to the pulmonary trunk
+12af7eec	vein from the lungs
+f243598f	pulse pressure
+94573795	Purkinje fibres
+ac245314	QRS complex
+6d9c1833	artery at the thumb side of the wrist
+ee3124d3	wrist pulse
+8f23de91	Raynaud phenomenon
+300997fa	backward leaking through a valve
+d7e625cd	electrical recovery
+137db853	rheumatic heart disease
+d42d1dfa	right atrium
+5e31fb40	right coronary artery
+29892df6	right ventricle
+920e6cc9	long leg vein used for grafts
+21d88b92	injection to close varicose veins
+02cce95a	half-moon-shaped valve
+84ac614f	pertaining to a dividing wall
+70fcf242	hole in the heart’s wall
+c00f1d2e	dividing wall
+dc78bf34	septum / septa
+4a7f6d0f	ST segment
+0cc2381b	cholesterol-lowering drug
+4dd2c80b	stenosis / stenoses
+b40e30fc	mesh tube that holds a vessel open
+7aa0ac0a	exercise stress test
+8776bd5f	stroke volume
+c1630ab6	artery under the collarbone
+3816505c	superior vena cava
+f262783b	circulation to the body
+e874daf9	contracting phase of the heart
+3db629d6	upper blood pressure number
+27acf659	T wave
+c08f3dcb	fast heart rate
+2791a8ef	tetralogy of Fallot
+4b8a261b	thoracic duct
+5c6b839f	dissolving a clot
+ea0d2812	clot-dissolving drug
+db0b34c3	vein inflammation with clotting
+347b8a9b	clot formation in a vessel
+099fe675	clot
+adf6e159	thrombus / thrombi
+ce7f4244	echo through the oesophagus
+94212577	mini-stroke
+22131b5b	three-flap valve on the right
+52c21896	triglyceride
+40094fb6	troponin
+412eb6ec	outer layer of a vessel
+29ab340c	inner layer of a vessel
+4d1772ed	middle layer of a vessel
+fa3bc0ea	valve
+0e6b836d	valve replacement
+e49587d4	pertaining to a valve
+cd8b9aca	narrowing of a valve
+27d985e3	valve repair
+1e25f6da	swollen, twisted veins
+ec1c0e18	varix / varices
+08607659	pertaining to vessels
+4b07f1e8	inflammation of a vessel
+51804671	drug that narrows vessels
+63feb409	vessel carrying blood to the heart
+3f7feb23	vena cava / venae cavae
+0be3a859	puncturing a vein
+bb6ff142	X-ray imaging of veins
+0900a017	pertaining to veins
+b63416ca	valve inside a vein
+bd61d693	pumping chamber of the heart
+57f6e67f	pertaining to a ventricle
+03fd78bc	ventricular assist device
+73da6251	ventricular fibrillation
+ae819c70	small vein
+97ea9765	visceral pericardium
+6866b6cf	warfarin
+960ed472	Wolff-Parkinson-White syndrome
+ffdd5ae0	removal, reversal
+2c42800d	bad, difficult
+c002c9b6	outside
+d1b1f154	below, deficient
+2650564f	through
+24f47b35	again, back
+fc3c8191	across, through
+b6d3c55e	beyond
+3f9823f6	heart; crown
+69eeb11e	dividing wall
+00fceb68	aorta
+1c9bdc3d	electricity
+9a183d7e	rhythm
+13842adc	sinus, cavity
+c0f87863	relaxation, filling
+dc0be699	fatty plaque
+6a536469	plug, embolus
+dc907843	vessel; duct
+832210bb	hair-like; capillary
+326dcae4	sinoatrial node
+326ef58d	hemorrhoids (swollen anal veins)

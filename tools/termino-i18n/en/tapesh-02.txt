@@ -1,0 +1,329 @@
+0e80d41d	to hold back, suppress
+160e0c9a	dilated vein (varix)
+b7d29e5f	aneurysm, dilation
+1575a46d	small fibre, quivering
+d344c3e6	sound, echo
+4827fddf	heart condition
+4d41686f	pressure, stretching
+cb20e124	produced by, producing
+d7d16823	hardening
+0d211634	dilation
+c7ce9922	process of recording
+337b5d26	visual examination
+4e321d61	dissolving, breakdown
+1cbb0dcf	cardiac electrophysiology
+a49afb07	coronary care unit (CCU)
+063b654c	shortness of breath on exertion
+2f72b979	atrioventricular
+2836daec	sinoatrial
+e41bf0d2	ejection fraction
+f34038f4	first and second heart sounds
+e65dd305	central venous pressure
+b477e51a	peripheral vascular disease
+4c1b0185	venous thromboembolism
+bc34ca6b	heart attack
+908778b7	acute heart attack
+530b77d8	ventricular tachycardia
+0ae21e62	supraventricular tachycardia
+5d4e44aa	premature atrial contraction
+90c8ac31	complete heart block
+d2d3d45f	bundle branch block
+eb904a23	atrial septal defect
+c55985e7	ventricular septal defect
+1dc3e674	coarctation of the aorta
+100346ab	left ventricular hypertrophy
+3cdde808	echocardiography
+95a31698	creatine kinase, heart type
+7ee411f1	international normalised ratio (warfarin monitoring)
+bbf84063	percutaneous coronary angioplasty
+129e6128	percutaneous coronary intervention
+5352827d	left ventricular assist device
+6196f742	mitral valve replacement
+e5a741e7	tissue plasminogen activator (clot-buster)
+8f90520f	angiotensin-converting enzyme
+d0de1f56	Heart structure
+d3ba3ea5	Beat, conduction and pressure
+b0d69b15	Vessels and circulation
+f243f4b0	Symptoms and findings
+bb005006	Surgery and procedures
+e76f2649	Specialties and professions
+ec24e2c7	Adjectives
+d04c0fa8	inflammation of
+e2773644	Anatomy of the word pericarditis
+194d0707	recording, tracing, image
+e5993f52	result (gram) → device (graph) → act of recording (graphy)
+a3de7156	Recording suffixes
+c1a2c6f4	slow beat
+e29b45d6	under 60 per minute
+54439daa	normal beat
+846bc35b	60 to 100 per minute
+fc8d73ae	over 100 per minute
+48bbc9ea	singular → plural: the word ending sets the plural rule
+bc2b163d	Singular and plural of heart words
+fee2a702	right lung
+11b1f994	left lung
+c06cc5d3	tip of the heart
+cbeccd53	The heart sits behind the breastbone, two thirds of it on the left side of the body
+61993225	The heart’s place in the mediastinum
+c93a51f3	pericardial cavity (fluid)
+bbb2d76e	epicardium (visceral)
+fb152a87	myocardium: heart muscle
+ed0666db	endocardium: inner lining
+43c1c2b1	blood in the chamber
+9fdfb141	Outside to inside: pericardium → epicardium → myocardium → endocardium
+a657fe03	Layers of the heart wall
+9d7e544c	Atria receive blood; ventricles pump it out
+0f4e3b14	The four chambers of the heart
+da9bb774	between atrium and ventricle
+10733cd9	ventricular outlets (crescent-shaped)
+71679165	three-cusped (right)
+06368724	mitral, two-cusped (left)
+529dc66f	pulmonary (right)
+5b81310f	aortic (left)
+156d5a6d	Order in which blood passes the valves
+b4df645b	Closing of the AV valves makes the first sound (lubb); closing of the semilunar valves makes the second (dupp)
+891adc63	The four heart valves
+ba6bf50d	lungs: take up oxygen
+7d475929	body tissues
+08413f7e	venae cavae
+ff5c32ee	pulmonary veins
+2cbd9951	right half of the heart
+661e07cb	left half of the heart
+293ff711	The path of blood through the heart and body
+ad24fdd3	left coronary artery (LCA)
+6ebcb37c	right coronary artery (RCA)
+5b1f423b	left anterior descending
+0e933776	circumflex
+fbae96ec	Coronary means “crown”: these arteries ring the heart like a crown
+71dd884e	The coronary arteries
+2d5c7466	SA node: the pacemaker
+18b57566	right and left branches
+b1a37556	Order: from 1 to 5
+60ec2b34	atria contract
+72a47bc1	(atrial depolarisation)
+fe575af8	ventricles contract
+89aec0df	(ventricular depolarisation)
+412dffe7	ventricles recover
+fd867e50	(ventricular repolarisation)
+13bd760a	ECG waves
+fa95b334	Systole: ventricles contract
+3e494a6b	blood into the aorta and pulmonary artery
+1e417e0a	Diastole: rest and filling
+0cde2d58	blood from atria to ventricles
+591f324e	AV valves close
+7d91c2d7	semilunar valves close
+49aa0b8d	Systole and diastole
+8c529aed	systolic: top number (contraction)
+3e4f51db	diastolic: bottom number (relaxation)
+c9d5a6ae	“120 over 80 mmHg” means systolic pressure 120 and diastolic 80
+37935564	Reading blood pressure
+693b98dd	neck (carotid)
+aaf8a482	radial (wrist)
+65192fd9	popliteal (behind the knee)
+e9cb027d	apical (tip of the heart)
+902c3bb2	femoral (groin)
+4d2c664e	top of the foot
+cb19c4c3	A pulse is felt where an artery runs close to the skin over a bone
+bedcd602	Pulse points
+00154a5e	direction of blood flow
+16272971	artery: thick wall, carries blood away from the heart
+9402f34a	vein: thin wall with valves, returns blood to the heart
+7a3f65c6	The chain of vessels
+50dfc093	outer layer
+e8369940	smooth muscle
+bc250a1d	endothelium
+8bf01399	vessel channel
+01186f25	artery: thick middle layer
+c968a34e	vein: thin wall
+748dd28f	capillary: one layer of cells
+74521f76	Cross-sections of vessels
+304d9c58	lungs
+c577ec06	pulmonary (lesser) circulation
+e2b72b4a	right → lungs → left
+01038a6f	systemic (greater) circulation
+503c70f3	left → body → right
+e368d107	Pulmonary and systemic circulation
+8059e185	blood pressure rises ↑
+d392f626	blood pressure falls ↓
+08f35ad1	Narrowing and widening of vessels
+cb6de151	Before birth, blood bypasses the inactive lungs
+cc4025b8	After birth both close; a duct that stays open = PDA
+759e8443	Shortcuts in fetal circulation
+9bd9ec1f	healthy artery
+b78e2884	severe narrowing
+2a8f714d	clot and blockage
+355950c0	A fatty plaque (atheroma) narrows the vessel channel;
+e52fe172	when a clot forms on it, the vessel closes completely.
+f4f89c51	Stages of atherosclerosis
+1953695b	fixed clot; stuck to the wall
+b6f0fb09	travelling clot
+769e9646	lodges and blocks the vessel
+e207ca71	deep vein thrombosis of the leg (DVT) → embolus → pulmonary embolism (PE)
+f7c79c97	Fixed clot and embolus
+28ceb996	regular, with P waves
+bb75c676	irregular, no P waves
+e482f4f7	chaos; needs a shock
+74e82ecf	asystole
+2b3c11e4	flat line; cardiac arrest
+ea65569e	Four heart rhythms
+8e403b11	healthy valve
+7a9591f6	opens and closes fully
+5d2f3cf7	stiff; does not open well
+e77765b9	valve leakage
+6af417f7	does not close well
+25f3b968	Valve narrowing and leakage
+e621a894	congenital aortic narrowing
+86194496	tetralogy of Fallot = VSD + pulmonary stenosis + overriding aorta + thick right ventricle
+3063c851	Congenital heart defects
+ea88dd4e	low pressure
+3fab0d57	under 90/60
+3c9b17ae	under 120/80
+8d190a63	elevated (prehypertension)
+c0bd4a80	120–129 / under 80
+27b5cb04	stage 1 hypertension
+060bdb98	130–139 / 80–89
+4b1a041c	stage 2 hypertension
+3c775aaa	140/90 or higher
+5be7a73b	Adult blood pressure (mmHg)
+be89c7e3	Blood pressure categories
+8951c0e8	the heart’s electrical current
+5a68ecb9	radiation and contrast dye
+ffa69566	Heart tests
+36fc8f6d	slows the heartbeat
+28238725	steadies the rhythm
+bd9ee8e4	stronger contraction
+2f86e475	widens vessels and relieves angina
+8e228b1f	prevents clots
+a01e45f0	dissolves an existing clot
+605d7ae7	lowers cholesterol
+5802030c	removes excess water and salt
+e704a40a	Blood pressure drugs: ACE inhibitor, ARB, CCB
+03f4f342	Map of heart drugs
+d8fefc58	bad: deposits in the vessel wall
+be326630	good: carries it to the liver
+dd6565d3	LDL should be Low and HDL should be High
+f7c52414	Good and bad cholesterol
+dd0ae2a2	response and breathing?
+f2dbc153	call emergency services
+bf7455a3	chest compressions
+08718afc	shock with a device
+a036b15e	In cardiac arrest every minute counts: push hard and fast in the centre of the chest
+33efbe3e	The chain of survival
+f64dd49a	Language of the Heart
+40dd300f	Heart, vessel and disease roots, suffixes and prefixes, plurals and adjectives, specialists and chart abbreviations
+e4c254b8	Heart and vessel roots
+47f58fb5	Suffixes and prefixes
+90494547	Chart language
+ecca059d	Heart roots
+66057451	Heart and vessel words are built from a few <b>fixed parts</b>:<br>• <b>prefix</b> at the start: ⟦0⟧ = around<br>• <b>root</b> in the middle: ⟦1⟧ = heart<br>• <b>suffix</b> at the end: ⟦2⟧ = inflammation⟦3⟧⟦4⟧
+b52f0d7a	pericarditis: inflammation around the heart, i.e. inflammation of the pericardium.
+4834c2b8	Read the meaning from the end: first the suffix (what happened?), then the prefix (where?) and finally the root (which organ?).
+2b24040e	Three roots for the heart
+80d00e13	⟦0⟧A root with the <b>connecting vowel o</b> is called a <b>combining form</b> and is written with a slash: ⟦1⟧. If the suffix starts with a vowel, the o is dropped: ⟦2⟧ = cardiac.
+f03308c1	cardiac: of the heart
+a7e371b5	crown; heart
+8a5a2c79	coronary: of the heart’s crown-shaped arteries
+c44250a7	myocardium: heart muscle
+4197f73e	relating to the heart
+0e19f259	relating to vessels
+517c7db1	relating to the lungs
+065ba801	relating to blood
+5bb409a8	cardi/o (heart) + -ac (relating to).
+61d1e21c	Read from the end
+a3998adb	⟦0⟧ → “study of” + “heart” = <b>cardiology</b><br>⟦1⟧ → heart <b>specialist</b><br>⟦2⟧ → “structure” + “muscle” + “heart” = <b>myocardium</b>, the heart muscle⟦3⟧
+3e0106a7	In charts, “cardiovascular” is shortened to CV, as in “CV exam: normal”.
+091888d9	Arrange the parts of ⟦0⟧ in writing order
+4d705a15	my/o (muscle) + cardi/o (heart) + -um (structure).
+30089368	coronary comes from a root meaning “crown”.
+4b3fd1f7	The coronary arteries ring the heart like a crown.
+aabea3a5	In cardiologist, the suffix ___ means “specialist”.
+fb5b0d72	Build a word meaning “the study of the heart”
+57bb80f5	cardi/o (heart) + -logy (study of) = cardiology.
+867c3840	Spell the term for a heart specialist
+c47e7070	Vessel roots
+a5ec9b51	A vessel with three names
+cd50e429	There are three roots for “vessel”:⟦0⟧⟦1⟧
+e5dbdb62	angiography: imaging of vessels
+e06ec634	vasoconstriction: narrowing of a vessel
+6130247b	vascular: of the vessels
+dd5dd40f	Remember angi/o through “angio”: the angiogram you may have heard of in hospital!
+161d096e	Artery or vein?
+39944946	arteri/o, arter/o
+45f2bea3	arterial: of the arteries
+9cb8bf87	venous, phlebitis
+613a06d9	aortic: of the aorta
+7366da40	carries blood away from the heart
+3bbe11c8	returns blood to the heart
+bba00e84	Artery = Away from the heart: both start with A.
+f153aa95	Which root means “vein”?
+d26ed9f2	phleb/o and ven/o both mean vein.
+032b3ef4	Arteries carry blood away from the heart.
+a0dcb452	Artery = Away; veins return blood to the heart.
+777c6b96	inflammation of a vein
+cb411ff4	inflammation of an artery
+b06eac3d	clot in the heart
+77f06626	aortic narrowing
+77983a95	phleb/o (vein) + -itis (inflammation).
+abcb1b10	In intravenous, the root ven/o means ___.
+f6828641	intra- (within) + ven/o (vein) + -ous: within a vein.
+9fd02506	Build a word meaning “relating to vessels”
+317ffab6	Spell the term for the body’s main artery
+5d382ecd	aort/o; its adjective is aortic.
+a8ed308d	A vessel that narrows and stiffens
+461686b0	atheroma: fatty mass
+ef3577c9	stenosis: narrowing
+813131b2	holding back
+55739b84	ischemia: local lack of blood
+d65c85dd	Remember ather/o through its Greek origin, “porridge”: fatty plaque sticks to the vessel wall like thick porridge!
+c52e5b8f	Which root means “fatty plaque”?
+4a58fd71	atherosclerosis = hardening of an artery with fatty plaque.
+7697ea57	Clot, embolus, blueness and varicose veins
+6850d7a9	thrombosis: clot formation
+1aedc54b	plug, embolus
+2c0da695	embolism: blockage of a vessel
+f21d9b7e	cyanosis: bluish discolouration
+2834a225	dilated vein
+9bac6025	varicose: of swollen, twisted veins
+3a5a2736	cyanosis is blueness of the lips and nails and means the blood lacks enough oxygen; a sign never to ignore.
+9394854c	⟦0⟧ means bluish skin from lack of oxygen.
+f854cb0e	cyan/o (blue) + -osis (abnormal condition).
+28924238	clot formation in a vessel
+2fb6f503	thromb/o (clot) + -osis.
+ba6d16d2	In ischemia, the root isch/o means ___.
+6cfa1b02	isch/o + -emia: “holding back blood”; local lack of blood.
+2617ca2f	Build a word meaning “mass of fatty plaque”
+9ed96dda	Review of the level “Heart and vessel roots”
+ce967813	heart: cardi/o, coron/o; muscle: my/o; myocardium means heart muscle
+1411d8cb	vessel: angi/o, vas/o, vascul/o • artery: arteri/o • vein: ven/o and phleb/o • aorta: aort/o
+25a9bd8a	Artery carries blood Away from the heart; a vein returns blood to the heart
+0824ce34	disease: ather/o plaque • scler/o hardness • sten/o narrowing • thromb/o clot • embol/o plug • cyan/o blue
+862c255d	What happened? The suffix tells you
+865e59c2	hardening of the heart
+211e3da1	cardi/o + -megaly (enlargement).
+ce593e64	Hardening or narrowing?
+4bbcb41b	⟦0⟧⟦1⟧ → hardening of the arteries<br>⟦2⟧ → narrowing of the aorta⟦3⟧
+057719c0	the wall becomes hard and inflexible
+5744f7b8	narrowing of a channel or valve
+5854be63	Stenosis = Strait (narrow); sclerosis = Stone-hard: one narrows, the other stiffens like stone.
+8d7b4236	aortostenosis means hardening of the aorta.
+833639a0	False; -stenosis is narrowing. Hardening is -sclerosis.
+6b6fc789	Two more suffixes
+7ce2f754	• ⟦0⟧ → <b>vasospasm</b>: sudden tightening of a vessel; ⟦1⟧ means a sudden involuntary contraction<br>• ⟦2⟧ → <b>cyanosis</b>: ⟦3⟧ means an abnormal condition⟦4⟧
+c73406f1	cardiomyopathy means the heart muscle itself is diseased (-pathy = disease); myocarditis is only its inflammation.
+0910ee9c	Which word means “disease of the heart muscle”?
+1d413fe6	In vasospasm, the suffix ___ means “sudden contraction”.
+24f27c6e	Build a word meaning “inflammation of the inner lining of the heart”
+97240cc1	endo- (within) + cardi/o + -itis = endocarditis.
+b5268c2f	Spell the term for enlargement of the heart
+4f89d282	Diagnostic and treatment suffixes
+18cd01f7	Three recording suffixes
+8dadebb4	Which one is the ECG printout itself?
+d29c5451	-gram means the result of recording.
+6f22cd98	Seeing and measuring
+4fd4205a	• ⟦0⟧: instrument for seeing or hearing; ⟦1⟧ = stethoscope (steth/o = chest)<br>• ⟦2⟧: looking and examining; angioscopy = looking inside a vessel<br>• ⟦3⟧: measuring instrument; ⟦4⟧ = blood pressure gauge (sphygm/o = pulse, man/o = pressure)
+fd8f6fb1	instrument for seeing or hearing
+98bdb0b8	result of recording
+55e78928	Removing, cutting or repairing?
+3bd2884f	dissolving
+fea36f64	-ectomy, think “ex-”: cutting out. -tomy is only a cut, and -plasty sounds like “plastic”: reshaping.
+7856d093	removal of a vessel

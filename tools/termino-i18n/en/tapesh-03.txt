@@ -1,0 +1,200 @@
+e6086f76	incision of a vessel
+635c46af	imaging of a vessel
+9020e6a1	angi/o (vessel) + -plasty (repair).
+d87b19fb	thrombolysis means dissolving a clot.
+230ea38d	thromb/o (clot) + -lysis (dissolving).
+898350e2	In phlebotomy, the suffix ___ means “cutting”.
+d5e0c22c	phleb/o + -tomy: cutting into a vein to draw blood.
+76049a9c	Build a word meaning “recording images of vessels”
+14ecf491	Spell the term for the doctor’s listening instrument
+2175b4e9	Slow or fast?
+2529b5df	slow: bradycardia, under 60 beats
+038a1c9c	fast: tachycardia, over 100 beats
+83e52d20	Picture brady- as a dawdling brother and tachy- as a speeding taxi: one slow, the other fast!
+b69e8f08	irregular beat
+d5386b5e	brady- (slow) + -cardia (heart condition).
+986a9981	Layers by prefix
+3aa4d427	endocardium: inner lining
+00778c4f	epicardium: outer layer
+d55e84a1	pericardium: sac around the heart
+78838069	interventricular: between the two ventricles
+de19668d	intravenous: within a vein
+0546a542	Excess, low, without and against
+97534f6f	• ⟦0⟧ excessive: hypertension, high blood pressure<br>• ⟦1⟧ low: hypotension, low blood pressure<br>• ⟦2⟧ without: asystole, absence of contraction; arrhythmia, absence of rhythm<br>• ⟦3⟧ against: anticoagulant, preventing clotting<br>• ⟦4⟧ removal: defibrillation, stopping fibrillation⟦5⟧
+45d04d0f	a-, an-
+5a2a1349	In arrhythmia, the prefix a- and the root rrhythm (rhythm) give a double r: a + rrhythm + ia.
+d8ad5995	Which word means “high blood pressure”?
+48b78198	hyper- (excessive) + -tension (pressure).
+e8b4a753	interventricular means “within a ventricle”.
+4ae06fe7	False; inter- means between. “Within” is intra-.
+fcb7489f	The prefix ___ in anticoagulant means “against”.
+1ea4b706	anti- = against; an anticoagulant prevents blood clotting.
+0016140e	Review of the level “Suffixes and prefixes”
+bca87d40	disease: -megaly enlargement • -stenosis narrowing • -sclerosis hardening • -itis inflammation • -pathy disease • -emia blood condition
+10c22205	recording: -gram tracing • -graph device • -graphy process; -scope viewing instrument and -meter measuring instrument
+eadd5616	treatment: -ectomy removal • -tomy cutting • -plasty repair • -lysis dissolving • -centesis drawing off fluid
+05a3ca0f	prefix: brady- slow • tachy- fast • endo-, epi-, peri- for layers • inter- between • hyper- and hypo- • anti- against
+975fa040	Singular, plural and adjective
+4b48f96f	Latin and Greek heart and vessel words form their plurals by their own rules:⟦0⟧⟦1⟧
+41c1e328	“US” goes, “I” comes: thrombus → thrombi. “UM” goes, “A” comes: atrium → atria.
+00117f5e	What is the plural of atrium?
+6445d300	Common adjectives
+eec53a60	Meaning of the adjective
+6c416f47	of the veins
+54117b61	of the arteries
+9dd061af	of the dividing wall
+aad40bf8	In a chart, “atrial fibrillation” means quivering of the atria and “ventricular septal defect” means a defect in the wall between the ventricles.
+bff520ee	What is the adjective of ⟦0⟧?
+db8ab066	The plural of embolus is emboli.
+325dd425	The plural of vena cava is venae ___.
+53d34acd	Build a word meaning “relating to a valve”
+ca92d8cb	Spell the plural term for the upper heart chambers
+aae305af	Singular: atrium.
+26c3643e	Heart specialists
+8a895a56	The heart team
+1a9bdb20	Title
+61eef953	diagnosing and treating heart disease in adults
+a82aac6e	hearts of newborns, children and teenagers
+51baaed9	heart surgery: bypass, valve replacement, transplant
+4693a9ed	heart rhythm and electrics; treating arrhythmias
+465fc89c	performing echocardiography
+f580ea14	ECGs, exercise tests, assisting in catheterisation
+e7a911c3	running the heart-lung machine during surgery
+33353691	Which specialist sees an 8-year-old with congenital heart disease?
+6e6b07f4	pediatric = children.
+55721c88	Match each title to its job
+3cfb1be4	bypass surgery
+2f366b22	heart-lung machine
+ad92a81a	heart echo
+82e30ec9	arrhythmia treatment
+10b01c45	Roots: the secret of the titles
+016d6157	• ⟦0⟧ → heart specialist<br>• ⟦1⟧ and physi/o → electrophysiologist: specialist in the heart’s “electricity and function”<br>• ⟦2⟧ = sound → sonographer: someone who makes images with sound waves⟦3⟧
+0800b047	The cardiac intensive care unit is called the CCU: coronary care unit; heart attack patients are admitted there.
+1cfa6fa4	The abbreviation CCU means…
+974c5972	cardiac intensive care unit
+194a6544	cardiac operating theatre
+c5a928da	In open-heart surgery, the perfusionist runs the heart-lung machine.
+43405137	perfusion = blood supply to tissues.
+68c3565c	In sonographer, the root son/o means ___.
+de556084	image
+99d0c1b8	son/o = sound; sonography uses sound waves.
+f767d209	Which specialist performs pacemaker implantation and ablation for arrhythmia?
+9632a577	The heart’s electrical specialist.
+e62d0e96	Spell the term for the study of the heart
+62602bbe	The chart says “c/o CP and SOB”. What is the patient’s complaint?
+03b43b58	chest pain and shortness of breath
+6df27e0b	cough and fever
+8a65d214	high blood pressure and dizziness
+56ee95d8	palpitations and fainting
+0a7d5117	CP = chest pain; SOB = shortness of breath.
+f5f36031	A 56-year-old man with a history of <b>HTN</b> complains of <b>CP</b> when climbing stairs and of <b>SOB</b>. His <b>BP</b> is 180/110 <b>mmHg</b> and his <b>HR</b> is 110 <b>bpm</b>. An <b>ECG</b> is taken in the emergency department and he is admitted to the <b>CCU</b>.⟦0⟧
+29b89c98	The unit of blood pressure is mmHg: pressure used to be measured by the height of a column of mercury. Hg is the chemical symbol for mercury.
+d73c41a5	In this note, HR 110 bpm means…
+9b5fc506	fast heartbeat (tachycardia)
+c2d28325	slow heartbeat (bradycardia)
+51693781	normal pressure
+c1a28efb	fast breathing
+48e81011	More than 100 beats per minute.
+7a78ae66	56-year-old man
+7a270c70	mmHg is the unit for measuring blood pressure.
+b3587b86	ECG and EKG both mean a tracing of the ___.
+1b37675c	“IV fluids” means fluid given by which route?
+573b078b	Review of the level “Chart language”
+db18a002	plural: -um → -a (atria, septa) • -us → -i (thrombi, emboli) • -is → -es (stenoses) • -ix → -ices (varices)
+42a2d557	adjectives: atrial, ventricular, valvular, venous, arterial, septal, coronary, vascular
+edf8b3eb	heart team: cardiologist, pediatric cardiologist, cardiac surgeon, electrophysiologist, sonographer, perfusionist
+5efb20d0	chart: CP, SOB, DOE, HTN, BP, HR, bpm, mmHg, IV, CCU, ECG
+1c7ace8d	Structure
+7dc3ddd2	The heart’s position, wall layers and pericardium, four chambers and four valves, great vessels, blood flow and coronary arteries
+00977d50	Position and wall of the heart
+71c1e5b2	Chambers and valves
+ca4c7d48	Blood flow and coronaries
+152b4e65	Where is the heart?
+13500cd9	A fist-sized pump
+d7256918	The heart is a <b>muscular pump</b> the size of a closed fist that beats about 100,000 times a day.<br>It sits in the <b>mediastinum</b>: the space between the two lungs, behind the breastbone (sternum) and above the diaphragm (the sheet between chest and abdomen).⟦0⟧⟦1⟧
+72469ed0	Read mediastinum as “middle column”: media means middle; it is the central column of the chest where the heart sits.
+e52e33a4	In which space of the chest does the heart lie?
+ed862295	The mediastinum is the space between the two lungs.
+096c4f6a	Apex to the left
+b33ad9a5	The heart sits slightly tilted: <b>two thirds</b> of it lies left of the body’s midline, and its lower tip, the <b>apex</b>, points down and to the left. The broad upper part is called the <b>base</b>; the great vessels enter and leave here.⟦0⟧⟦1⟧
+e0040236	The heart in the mediastinum, between the two lungs and above the diaphragm. The apex is low and on the left.
+96667d6e	The doctor hears the apex beat with a stethoscope in the left fifth intercostal space; this is called the apical pulse.
+72fc1bb1	The apex of the heart points to the right side of the body.
+c6888ad8	False; the apex points down and to the left.
+50af9c65	the sheet between chest and abdomen
+3a5381bc	On which side of the body’s midline does most of the heart lie?
+509364af	exactly in the middle
+8279efc4	behind the spine
+eff6f1a5	About two thirds of the heart is on the left.
+2a6b0a20	The great vessels enter and leave the heart at its ___.
+282c3e25	base
+9a6f9bf3	apex
+7b910289	The base is the broad upper part of the heart.
+e799dc7b	The mediastinum lies between the two lungs.
+8b377a5f	medi- means middle; the heart, trachea and oesophagus lie in this space.
+87eb14d6	Spell the term for the tip of the heart
+5ac304c4	apical pulse means the pulse at the tip of the heart.
+89dbe026	Three wall layers
+62141400	The heart wall has three layers
+b407c488	From inside to outside:⟦0⟧⟦1⟧
+e6f8243f	Word structure
+97cf6b76	thin, smooth lining of the chambers and valves
+51438609	heart muscle; the thickest layer
+c23e6754	outer layer; on top of the muscle
+fd80d0ae	The myocardium lies between the endocardium (inside) and the epicardium (outside).
+13f16d86	Which layer is the heart muscle?
+ee3afc27	my/o means muscle.
+5b701e45	The prefix tells you where the layer is
+ae16eaea	⟦0⟧ → inside the heart<br>⟦1⟧ → heart muscle<br>⟦2⟧ → on the heart⟦3⟧⟦4⟧
+72e14df4	From inside to outside: “endo, myo, epi”, like “entrance, middle, exterior”. The initials run E, M, then E again!
+ae196fb3	Order the heart wall layers from inside to outside
+5cbda796	endo- within, my/o muscle, epi- upon.
+a1a6e398	smooth lining inside the chambers
+e55fbf73	thick muscular layer
+3b7aad68	outer layer over the muscle
+1ea30259	When the layers become diseased
+7036dcc0	inflammation of the inner lining; often involves the valves
+0eacf00b	inflammation of the heart muscle; often after a viral infection
+1e02ceb8	endocardium and myocardium; the epicardium is the visceral layer of the pericardium.
+30faa94d	Endocarditis is usually microbial and forms small masses (vegetations) on the valves; that is why patients with valve disease sometimes take antibiotics before a tooth extraction.
+99f21d4d	Endocarditis is inflammation of the outer layer of the heart.
+1145b33d	False; endo- means within. It is inflammation of the inner lining.
+46b15164	In myocardium, the root ___ means “muscle”.
+8c2995f2	my/o = muscle.
+9d8cc322	Build a word meaning “the outer layer of the heart”
+36bad88b	epi- (upon) + cardi/o + -um = epicardium.
+83d8b312	Spell the term for the heart’s muscle layer
+36a62cfd	The sac around the heart
+d42fc976	pericardium: a two-layered sac
+e41e91e7	The heart lies inside a sac called the <b>pericardium</b> (peri- = around):<br>• <b>fibrous pericardium</b>: tough, fibrous outer layer<br>• <b>parietal pericardium</b>: the wall layer; inner surface of the sac<br>• <b>visceral pericardium</b>: the layer attached to the heart itself, i.e. the epicardium⟦0⟧
+689c1d71	Like a fist pushed into a balloon: the heart sinks into the pericardium, which forms two layers around it.
+4d99f20e	The visceral pericardium is the same as which layer?
+122cb0ff	The layer attached to the heart is the epicardium.
+ee83bad6	Pericardial cavity and fluid
+61034d43	Between the parietal and visceral layers is a narrow space called the <b>pericardial cavity</b>. It holds a few millilitres of <b>pericardial fluid</b> so the heart glides without friction as it beats.⟦0⟧⟦1⟧
+d012130b	parietal: wall of the sac
+bea55048	visceral: attached to the organ itself
+7a1da62c	Link parietal with “wall” (Latin paries) and visceral with the “viscera” (internal organs).
+36415f81	tough outer layer
+678300ac	wall layer
+54eb7fd6	layer attached to the heart
+fb9c5921	slippery fluid between the layers
+b5e788da	Pericardial fluid reduces friction between the layers.
+4bbe9a2f	The heart glides friction-free in its sac.
+52a67856	When the sac fills up
+9640cae5	• <b>pericarditis</b>: inflammation of the pericardium; sharp chest pain that eases on leaning forward<br>• <b>cardiac tamponade</b>: fluid or blood collecting in the pericardial cavity, squeezing the heart so it cannot fill<br>• urgent treatment: <b>pericardiocentesis</b>, drawing off the fluid with a needle (-centesis)⟦0⟧
+7310633d	In tamponade the heart sounds are distant and muffled, because fluid lies between the heart and the stethoscope.
+4a0dbdb7	What is drawing fluid out of the pericardial cavity with a needle called?
+413d5697	Squeezing of the heart by fluid in the pericardial cavity is called ___.
+26f87bdc	tamponade means compression by a “plug” of fluid.
+0747f5e3	Build a word meaning “inflammation around the heart”
+4cae64f2	Review of the level “Position and wall of the heart”
+1cfab818	The heart is in the mediastinum; two thirds on the left, apex down and to the left
+574688fc	Wall from inside to outside: endocardium → myocardium → epicardium
+4d7080c1	pericardium: fibrous layer, parietal layer and visceral layer (the epicardium)
+409d4754	the pericardial cavity and its fluid; pericarditis, cardiac tamponade and pericardiocentesis
+cabb908c	Four chambers
+9ea85407	A house with four rooms
+68a1bd58	The heart has four chambers:<br>• two <b>atria</b> (singular: atrium) at the top, which <b>receive</b> blood<br>• two <b>ventricles</b> at the bottom, which <b>pump blood out</b>⟦0⟧⟦1⟧
+895f9e25	atrium means “entrance hall”: blood first enters the hall, then moves on to the main room (ventricle).
+02b6482e	Which chambers pump blood out of the heart?

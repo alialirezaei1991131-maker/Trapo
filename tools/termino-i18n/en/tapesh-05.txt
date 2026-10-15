@@ -1,0 +1,206 @@
+103225ff	The SA node at the top of the right atrium and the AV node at its bottom; the bundle of His splits into two branches and then reaches the Purkinje fibers.
+50bfe05d	Match each station to its job
+a4af6547	starting the beat
+f207507e	pause before the ventricles
+5a64357f	spreading the signal through the ventricles
+c2b42e0e	The AV node holds the signal briefly so the ventricles can fill with blood.
+3faad8cc	On the ECG this pause is the PR interval.
+9c6f4f74	The SA node lies in the wall of the ___.
+6a2ec55c	The top of the right atrium, near the SVC.
+7ef5c902	Build a word meaning “between atrium and ventricle”
+fb0c46e6	Spell the name of the fibres that spread the signal through the ventricles (the proper name only)
+1a609c7d	The signal on its way
+7d978420	Electrical charge and rest
+8fa168f8	spread of electrical charge; the muscle contracts
+a133c52b	charge returns to its resting state; ready for the next beat
+180e5b01	The numbers show the signal’s order: 1 SA node, 2 AV node, 3 bundle of His, 4 bundle branches, 5 Purkinje fibers.
+39976442	de- means removal: depolarization “removes” the resting polarity and re- (again) restores it.
+053920c4	Which event makes the heart muscle contract?
+7cfb3e53	The spread of electrical charge.
+63ea3a3a	Sinus rhythm
+ae4d36a0	When every beat starts in the SA node and continues regularly at 60 to 100 a minute, it is called <b>normal sinus rhythm</b> (NSR).⟦0⟧If the SA node fails, lower stations produce slower beats: the AV node about 40 to 60 and the Purkinje fibers about 20 to 40 times a minute.
+c3025bc0	The sinoatrial (SA) node pacemaker in the right atrium; the signal passes through the AV node and branches to the Purkinje fibers.
+f78ed7f6	Normal sinus rhythm means a regular beat of 60 to 100 that starts in the SA node.
+7cc05003	When the route is blocked
+93f6e563	If the signal slows down or fails to pass in the <b>AV node</b> or <b>bundle of His</b>, it is called <b>heart block</b>; the ventricles beat slowly and irregularly.⟦0⟧⟦1⟧
+2d010732	The AV node, bundle of His and bundle branches: the places where block occurs.
+d9c02b93	Complete (third-degree) heart block drops the rate to about 40 and the patient faints; the treatment is an artificial pacemaker, which you will meet in the treatment world.
+f79a82f4	What is it called when the signal passes incompletely from atrium to ventricle?
+614919f6	block = the route is closed.
+2e8a6d43	spread of charge and contraction
+f89c45b6	return to rest
+ec50f862	the signal’s route is blocked
+9178bf98	If the SA node fails, the AV node makes beats at about ___.
+977eba71	40 to 60
+72e709c9	60 to 100
+d0caa31d	150 to 200
+d886cf98	Lower stations are slower.
+56742257	Spell the term for the spread of electrical charge that triggers contraction
+f3e9f688	The cardiac cycle
+3e03aadb	Contraction and rest
+c1bb9609	Each beat is one <b>cardiac cycle</b> and has two phases:⟦0⟧⟦1⟧⟦2⟧
+5156d122	contraction; blood is pushed out
+301fedf8	rest; the chambers fill
+dc53d79d	Systole = Squeeze; diastole = Dilate and rest.
+941a3d90	What is the phase of rest and ventricular filling called?
+6fbc2ef8	Three steps of the cycle
+c0b95beb	⟦0⟧In <b>ventricular systole</b> the AV valves close (the lubb sound) and at the start of <b>diastole</b> the semilunar valves close (the dupp sound).
+9b5a54fa	1 rest: semilunar valves closed and AV valves open; 2 atrial systole: the atria push blood into the ventricles; 3 ventricular systole: semilunar valves open and AV valves closed.
+d174c97d	Order the steps of the cardiac cycle
+bfcb1383	rest and filling of atria and ventricles
+9c087c8f	As in the figure: 1 rest, 2 atria contract, 3 ventricles contract.
+a2676418	How much blood does the heart pump?
+efb23561	Normal value
+17fad793	blood per beat
+ad835366	about 70 millilitres
+3dcf5fb4	blood per minute
+7027bd59	about 5 litres
+df50f796	percentage of blood pumped out of the left ventricle
+e0d8540c	55 to 70 per cent
+879af923	Ejection fraction, or EF, is measured by echocardiography; an EF under 40 per cent is a sign of heart failure.
+fee22c90	Cardiac output is the product of which two numbers?
+1fbad1a2	stroke volume and heart rate
+83b71c4b	systolic and diastolic
+2985dae6	heart rate and ejection fraction
+8751c798	stroke volume and blood pressure
+26f6c371	blood in each beat
+884b7eed	blood in each minute
+fd386073	percentage of blood pumped out
+cd5ba8d5	contraction phase
+29339b29	A normal ejection fraction is about 20 per cent.
+703b7cef	False; normal is 55 to 70 per cent.
+2630c7e3	Review of the level “The heart’s electricity”
+dd480a94	Signal path: SA node → AV node → bundle of His → bundle branches → Purkinje fibers
+04934f42	depolarization = contraction and repolarization = return to rest; NSR means a regular 60 to 100 from the SA node
+42af3895	heart block: the signal gets stuck in the AV node or bundle of His
+2010eb23	cardiac cycle: systole = contraction and diastole = rest; CO = SV × HR and normal EF is 55 to 70 per cent
+e886f54f	ECG waves
+bc08d077	The heart’s electricity on paper
+d0283615	⟦0⟧ = <b>electrocardiogram</b>: a recording of the heart’s electricity. It is abbreviated <b>ECG</b> or <b>EKG</b>. The heart’s electricity is recorded with <b>electrodes</b>, conductive pads stuck onto the skin.⟦1⟧Every normal beat has three main parts: the <b>P wave</b>, the <b>QRS complex</b> and the <b>T wave</b>.
+89fbd486	What does each wave tell you?
+71f140de	Wave
+9ef7bc34	Event
+486fde92	depolarization of the atria, i.e. atrial contraction
+72f76783	depolarization of the ventricles, i.e. ventricular contraction
+5f5473b6	repolarization of the ventricles, i.e. getting ready for the next beat
+d3ca80ca	The P wave is atrial contraction, the QRS complex ventricular contraction and the T wave getting ready for the next beat.
+d207d04f	P = “prelude”, QRS = “main peak”, T = “the end”: first the atria, then the ventricles, then rest.
+5b2af483	What does the QRS complex show?
+c1c9f812	ventricular depolarization
+fb872f85	atrial depolarization
+43319be1	ventricular repolarization
+1de05355	closing of the valves
+9a144fc2	The tallest wave on the tracing.
+640fcf39	Match each wave to its event
+f9fb0e64	Atrial repolarization has its own clear, separate wave on the ECG.
+fc9d7a6c	False; it is hidden inside the large QRS.
+07a180e0	Order the waves of one beat
+711b3e50	Atria, ventricles, rest.
+927c70a2	P or T?
+4098e537	small and rounded; before each QRS
+aaa9034e	larger and broader; after each QRS
+4162354a	On a normal ECG “every P has a QRS and every QRS has a T”. If a P is left without a QRS, the signal is stuck on its way: heart block.
+060ababe	A patient lies down for an ECG with several electrodes stuck to the chest. What is an electrode?
+1f73776f	a conductive pad that records electricity from the skin
+9fd10fac	shock device
+dfe3b558	blood-taking needle
+3cf9135d	electr/o + -ode (path).
+9223d292	ECG and EKG both mean ___.
+1ca9bf4c	The K comes from the German spelling Elektrokardiogramm.
+77b80c84	Spell the full term for the heart’s electrical tracing
+66f2618c	ECG paper and intervals
+3708efff	Grid paper
+085fcdbd	ECG paper moves at a constant 25 millimetres per second:<br>• each <b>small square</b> (1 mm) = 0.04 seconds<br>• each <b>large square</b> (5 mm) = 0.2 seconds<br>• 5 large squares = 1 second⟦0⟧
+e0206427	A: several beats in a row; B: one beat with its segments and intervals. Each large square is 5 mm and 0.2 seconds.
+e5a8c7d8	How many seconds is each large square on ECG paper?
+0e338bca	0.2 seconds
+cc1bcbb5	0.04 seconds
+7cf602ac	1 second
+7db98fa9	0.5 seconds
+9cd9fe12	5 small squares × 0.04.
+cb2c89e5	Segment and interval
+d7006574	⟦0⟧• <b>PR interval</b>: from the start of P to the start of QRS; the time for the signal to travel from atrium to ventricle (0.12 to 0.20 seconds)<br>• <b>QRS</b>: under 0.12 seconds<br>• <b>ST segment</b>: from the end of QRS to the start of T; rises or falls in a heart attack<br>• <b>QT interval</b>: from the start of QRS to the end of T⟦1⟧
+aed0aeae	flat line between two waves
+af932260	one or more waves together with a segment
+f41cbc3e	ST segment elevation, or STEMI, means an acute heart attack; the angiography team must open the vessel within 90 minutes.
+0c7c73d7	In an acute heart attack, which part of the ECG rises?
+ed0b338b	A long PR interval means the signal reaches the ventricles late.
+63283ca4	A sign of first-degree heart block.
+1078ea62	Counting the rate on paper
+219401c1	If the rhythm is regular: <b>300 ÷ number of large squares between two R waves</b> = beats per minute.<br>• 3 large squares → 100<br>• 4 large squares → 75<br>• 5 large squares → 60⟦0⟧
+8385fe9e	A regular strip; count the R-to-R distance and divide 300 by it.
+5886af5f	Two R waves are 4 large squares apart. What is the rate?
+9929ddb3	300 ÷ 4 = 75.
+2ba84258	signal passing from atrium to ventricle
+7f424cb2	line between QRS and T
+6834700d	from the start of QRS to the end of T
+ea5ba1c0	tall peak of the QRS
+419bcea7	If the R-to-R distance is two large squares, the rate is ___ per minute.
+4665768d	300 ÷ 2 = 150.
+3fc882b8	Rhythm and rate
+6564ce3d	Slow, normal, fast
+6b8540c0	Rhythm
+e5520b76	under 60
+1dcf3e00	an athlete asleep
+ada08287	an adult at rest
+4feb80ed	over 100
+e418eec3	fever, anxiety, exercise
+352cecb0	What is a regular rate of 48 a minute called?
+53b415d8	Under 60.
+c95926ea	The 12-lead ECG
+8e4bb4a3	For a full tracing, 10 <b>electrodes</b> are placed on the arms, legs and chest and the heart is viewed from 12 angles (<b>12-lead ECG</b>).⟦0⟧⟦1⟧
+19765c9a	A: an ECG during exercise; B: one beat with its P wave, QRS and T wave.
+47509c49	An ECG report starts with the rhythm and rate, such as “NSR, HR 72 bpm”, then the axis and ST changes.
+578eea87	In a 12-lead ECG, twelve electrodes are attached to the body.
+f57c0952	False; there are 10 electrodes, but 12 “views” (leads) are recorded.
+c6d589c9	“arrhythmia” means…
+ed849ed1	irregular heartbeat
+237bcc83	no heartbeat
+790cf233	a- (without) + rhythm + -ia.
+cd3c50b1	Match each rate to its name
+8a2e7fce	45 per minute
+29aa1fa9	75 per minute
+33310994	130 per minute
+3ce6ec49	A rate over 100 per minute is called ___.
+901bd835	tachy- = fast.
+311b7f0c	Build a word meaning “fast heartbeat”
+742ce80e	Review of the level “The ECG”
+dc951ff2	ECG or EKG: P wave = atrial contraction, QRS = ventricular contraction, T wave = ventricular repolarization
+61c3c3db	Paper: small square 0.04 and large square 0.2 seconds; rate = 300 ÷ large squares between two R waves
+b2f98489	PR interval 0.12 to 0.20 seconds; QRS under 0.12; the ST segment changes in a heart attack
+c586b43b	bradycardia under 60 • NSR 60 to 100 • tachycardia over 100; 12-lead ECG with 10 electrodes
+8ab0969c	<b>Blood pressure</b> (BP) is the force of blood on the artery walls and is written as two numbers:⟦0⟧⟦1⟧
+06b03589	top number: pressure while the ventricle contracts
+42cb13ec	bottom number: pressure while the heart rests
+a994e0a4	In a pressure of 130/85, what is the 85?
+946ee3b2	The bottom number = diastolic.
+62af0ad6	The pressure gauge and Korotkoff sounds
+e9a4c1c6	⟦0⟧ = <b>sphygmomanometer</b> (blood pressure gauge): sphygm/o pulse, man/o pressure and -meter measuring instrument.<br>The cuff is inflated until the brachial artery closes, then slowly let down; with a stethoscope over the artery the <b>Korotkoff sounds</b> are heard:<br>• sounds begin = <b>systolic</b> pressure<br>• sounds stop = <b>diastolic</b> pressure⟦1⟧
+5f28d34d	A: cuff, gauge and stethoscope over the brachial artery; B: the start and end of the Korotkoff sounds.
+ec23ae62	Order the steps of measuring blood pressure
+423215ba	wrap the cuff around the arm
+cef1304d	inflate the cuff until the pulse stops
+33e2b040	slowly let the cuff down
+42259c94	note when sounds begin: systolic
+cbab6748	note when sounds stop: diastolic
+fd994112	The sounds beginning give the top number and stopping gives the bottom number.
+5e699496	The start of the Korotkoff sounds shows the diastolic pressure.
+13511ba8	False; sounds beginning = systolic and sounds stopping = diastolic.
+797c0988	The gap between the two numbers
+dc41491e	<b>pulse pressure</b> = systolic − diastolic; for 120/80 it is 40.⟦0⟧⟦1⟧
+f131ee5d	Measuring pressure with a cuff and dial gauge.
+30cf25a8	A cuff too small for the arm gives a falsely high reading; a large arm needs a large cuff.
+b9e07bda	At a pressure of 140/90, what is the pulse pressure?
+0149c9f4	140 − 90 = 50.
+bc99070c	sounds of the artery during pressure measurement
+4823e25c	The unit of blood pressure is ___.
+b867bef9	Millimetres of mercury.
+4742ccb7	Spell the term for the blood pressure gauge
+e632e21c	Pulse and sounds
+69c99b41	Where is the pulse felt?
+dd88041d	The <b>pulse</b> is the pressure wave that travels along an artery with each beat; it is felt where an artery lies close to the skin over a bone. The most common site is the wrist, on the thumb side: the <b>radial pulse</b>.⟦0⟧
+4da671aa	What is the most common pulse site at the wrist called?
+5b55facf	The radial artery on the thumb side.
+ea4ef3ed	Pulse sites in the picture
+aa9728e1	Pulse sites: temporal, carotid, brachial, radial, femoral and popliteal.
+63f1fc63	side of the neck; checked first in cardiac arrest

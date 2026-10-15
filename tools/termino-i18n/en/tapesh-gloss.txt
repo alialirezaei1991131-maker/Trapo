@@ -1,0 +1,104 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+0d3e610c@tapesh#1	blood pressure drug ending in -sartan
+7e204901@tapesh#1	implanted device that paces the heartbeat
+bd36a2ea@tapesh#1	relay station delaying the signal to the ventricles
+b7a9b7ae@tapesh#1	upper receiving chamber of the heart
+155f6fcb@tapesh#1	public shock device that reads the rhythm itself
+f53f6653@tapesh#1	hormone from stretched ventricles; raised in heart failure
+140a908b@tapesh#1	force of blood on the artery walls
+58686457@tapesh#1	conduction bridge from the AV node to the ventricles
+5c28a8f4@tapesh#1	blood marker of inflammation
+5dffd994@tapesh#1	drug that widens vessels and slows the rate
+253fe639@tapesh#1	hair-thin vessel where exchange happens
+ed22bfef@tapesh#1	relating to the heart
+e2c965d9@tapesh#1	proteins released by damaged heart muscle
+097c8b9a@tapesh#1	chest compressions and breaths in cardiac arrest
+7b4ff9fb@tapesh#1	performs ECGs and exercise tests
+6ef9ac20@tapesh#1	fatty substance that forms plaque
+30f7a6a6@tapesh#1	cords tying AV valve cusps to the ventricle wall
+11d3c0cc@tapesh#1	LCA branch curving round the left side
+d4a60ff6@tapesh#1	side vessels bypassing a slow narrowing
+bd85309a@tapesh#1	pathway carrying the heart’s electrical signal
+4219faad@tapesh#1	structural heart defect present from birth
+fa5f65ee@tapesh#1	weak pump with fluid backing up
+f780f3f3@tapesh#1	X-ray imaging of the heart’s own arteries with dye
+13f00feb@tapesh#1	plaque narrowing the heart’s own arteries
+df314402@tapesh#1	blood supply to the heart muscle itself
+11e50444@tapesh#1	vein draining heart muscle blood into the RA
+28c4c71f@tapesh#1	vessel imaging by scanner, without a catheter
+3f67db93@tapesh#1	clot in a deep leg vein
+98f34dee@tapesh#1	vessel imaging with bones removed by computer
+04cd1be5@tapesh#1	drug that strengthens contraction and slows the rate
+52993ece@tapesh#1	fetal duct from pulmonary artery to aorta
+eecf89e2@tapesh#1	share of blood the left ventricle pumps out per beat
+e9406ffa@tapesh#1	tracing of the heart’s electrical activity
+367e9f0a@tapesh#1	conductive pad that picks up electricity from skin
+29e7407e@tapesh#1	travelling clot or particle in the blood
+3414d296@tapesh#1	blood flow before birth, bypassing the lungs
+cdd77d9e@tapesh#1	tough outer layer of the heart sac
+88fc5a98@tapesh#1	oval hole between the atria before birth
+2152882b@tapesh#1	extra third or fourth sound with a horse-like rhythm
+82f1b4b7@tapesh#1	muscular pump in the chest
+eb0f7c7e@tapesh#1	delayed or blocked signal from atria to ventricles
+0a917cc4@tapesh#1	pump unable to meet the body’s needs
+a1175831@tapesh#1	beats per minute
+c71c46d9@tapesh#1	lubb and dupp heard with a stethoscope
+6b0f00d2@tapesh#1	replacing a failed heart with a donor organ
+326ef58d@tapesh#1	swollen anal veins
+4cf51dfc@tapesh#1	injected fast-acting anticoagulant
+1be9517a@tapesh#1	great vein returning blood from the lower body
+f72ba433@tapesh#1	balloon in the aorta inflating in diastole
+4454dc8d@tapesh#1	artery sounds heard while measuring pressure
+b7b5357c@tapesh#1	LCA branch running down the front of the heart
+b274bca4@tapesh#1	upper left chamber receiving blood from the lungs
+0eab90bf@tapesh#1	main artery to the left side of the heart
+21fa387e@tapesh#1	thick-walled lower left pumping chamber
+fc4b088a@tapesh#1	open channel inside a vessel
+04d6a99d@tapesh#1	tissue fluid collected by drainage vessels
+1aa34119@tapesh#1	bean-shaped filter of tissue fluid
+bcd6cdd0@tapesh#1	mitral cusps bulging back into the atrium
+4bf5ecbf@tapesh#1	nuclear scan measuring EF
+705438ba@tapesh#1	vasodilator under the tongue for angina
+d101b163@tapesh#1	regular beat of 60 to 100 from the SA node
+e464ad9f@tapesh#1	ECG wave of atrial depolarisation
+c41412ee@tapesh#1	sets the rhythm of the heartbeat
+4e68d047@tapesh#1	small ventricle muscle pulling on valve cords
+34f6169c@tapesh#1	inner wall layer of the heart sac
+e6f5ae49@tapesh#1	fetal duct still open after birth
+46c17917@tapesh#1	narrow space within the heart sac
+14e43610@tapesh#1	slippery fluid within the heart sac
+8f9005f4@tapesh#1	plaque narrowing the leg arteries
+dd2f18ae@tapesh#1	fatty deposit in an artery wall
+9bd56e19@tapesh#1	early extra beat from a ventricle
+85988399@tapesh#1	vessel leaving the RV, splitting to both lungs
+37fd9a9e@tapesh#1	pressure wave felt over an artery
+f243598f@tapesh#1	systolic minus diastolic
+ac245314@tapesh#1	ECG spike of ventricular depolarisation
+8f23de91@tapesh#1	fingers turning white and blue in the cold
+137db853@tapesh#1	valve damage after untreated strep throat
+d42d1dfa@tapesh#1	upper right chamber receiving body blood
+5e31fb40@tapesh#1	main artery to the right and lower heart
+29892df6@tapesh#1	lower right chamber pumping to the lungs
+dc78bf34@tapesh#1	dividing wall between the heart’s halves
+326dcae4@tapesh#1	natural pacemaker in the right atrium wall
+4a7f6d0f@tapesh#1	flat ECG line between QRS and T
+4dd2c80b@tapesh#1	narrowing of a channel or valve
+7aa0ac0a@tapesh#1	ECG recorded on a treadmill
+8c13edd6@tapesh#1	brain damage from cut-off blood supply
+8776bd5f@tapesh#1	blood pumped out per beat
+3816505c@tapesh#1	great vein returning blood from head and arms
+27acf659@tapesh#1	ECG wave of ventricular recovery
+2791a8ef@tapesh#1	four combined defects causing a blue baby
+4b8a261b@tapesh#1	largest lymphatic channel, draining into a neck vein
+adf6e159@tapesh#1	clot fixed to a vessel wall
+52c21896@tapesh#1	storage fat in the blood
+40094fb6@tapesh#1	heart muscle protein marking damage
+fa3bc0ea@tapesh#1	one-way door between chambers or vessels
+0e6b836d@tapesh#1	swapping a diseased heart door for a new one
+ec1c0e18@tapesh#1	dilated, twisted vein
+3f7feb23@tapesh#1	great vein entering the right atrium
+03fd78bc@tapesh#1	mechanical pump supporting a weak ventricle
+73da6251@tapesh#1	chaotic quivering of the lower chambers; no output
+97ea9765@tapesh#1	sac layer attached to the heart surface
+6866b6cf@tapesh#1	oral anticoagulant monitored by INR
+960ed472@tapesh#1	extra electrical pathway between atrium and ventricle

@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+a461466a@tapesh#1	Snippy
+ed495a65@tapesh#1	Graphy
+ed9ed0b5@tapesh#1	Pluro
+9dc9df5c@tapesh#1	Quad
+fa3bc0ea@tapesh#5	Valvy
+81f2d6f5@tapesh#1	Corona
+c2a4e75f@tapesh#1	Spark
+2d9fa7cb@tapesh#1	Strip
+bf8efa5b@tapesh#2	Cuffy
+89ffe7ff@tapesh#1	Droplet
+698c3f80@tapesh#1	Branchy
+6106823b@tapesh#1	Lympho
+0473f29b@tapesh#1	Plaquo
+3697127e@tapesh#1	Clotty
+e38e4013@tapesh#1	Quiver
+52fe6a76@tapesh#1	Springy
+4838530f@tapesh#1	Capsule
+0c05c899@tapesh#1	Shocker

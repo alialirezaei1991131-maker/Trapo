@@ -1,0 +1,242 @@
+7af8e10c	38 bpm, regular
+553e2eb7	pacemaker implantation
+2be5a3cd	syncope means…
+b840066f	fainting; a brief loss of consciousness
+993000b5	Reduced blood supply to the brain.
+b5f93663	What is a rate of 38 a minute called?
+0276ae2f	brady- = slow; under 60.
+20a73926	Where is the radial pulse felt?
+e48f96a4	wrist, thumb side
+ef20ca44	The radial artery is on the thumb side of the forearm.
+cc94244b	CHB means…
+cb0ca878	complete heart block: no signal gets through the AV node.
+e523a4c2	On the ECG, the QRS shows ventricular contraction.
+a831fdaa	P belongs to the atria and QRS to the ventricles.
+22dd6ace	What does an artificial pacemaker do?
+7e3712ca	keeps the beat regular with electrical pulses
+3c82f7a2	dissolves clots
+f6862cbf	lowers blood pressure
+220bde0b	opens a narrowed vessel
+183c6188	It stands in for the natural pacemaker.
+f1538590	Spell the term for a device that sets the heart’s pace
+fa2b1ca9	pace (step) + maker.
+9613f7e6	A swollen leg after a flight
+e1b7534c	A 45-year-old woman
+c47975f5	After a 12-hour flight, a woman’s left calf has become swollen, warm and painful. Doppler ultrasound shows a clot in a deep vein of the thigh. The doctor is worried the clot may travel to the lungs.
+cb609d4f	edema and pain in the left calf
+785e0ec4	Doppler
+73599101	DVT in the femoral vein
+fe0e5050	DVT means…
+41ccba51	aortic aneurysm
+64a3dc95	edema means…
+17cd6217	swelling from fluid collecting in tissue
+8baf650d	Fluid build-up.
+a8d9d612	Where do veins carry blood?
+855d09c5	towards the heart
+e9d29c94	from the heart to the body
+fecc007a	to the capillaries
+5d8940a8	to the liver
+9342b59a	Artery = Away; vein = towards the heart.
+c8e370b9	If a piece of the clot breaks off and lodges in the pulmonary artery, what is it called?
+e603d7a2	The embolus travels and blocks a lung vessel.
+55eb51e0	What does an anticoagulant do?
+e602a569	prevents new clots forming
+4e289fb2	burns the clot away
+37e08221	widens the vessel
+fb23c395	slows the heartbeat
+265be0e4	Such as heparin and warfarin.
+455dba6d	Doppler ultrasound shows the speed and direction of blood flow.
+1021d7fd	It uses sound waves.
+31779afd	Spell the medical term for a blood clot in a vessel
+e493b135	Its plural is thrombi.
+3f26a050	Leg pain on walking
+4b202739	A 66-year-old man who smokes
+9ff991a2	A man who smokes says his calf cramps after walking two streets and eases when he stands still. The pulses behind the knee and on the foot are weak. Angiography shows narrowing of the femoral artery.
+7273d6db	weak popliteal and dorsalis pedis pulses
+b657a8cd	angiography: femoral artery narrowing
+d3e09983	claudication means…
+eb31d065	leg pain on walking that eases with rest
+a0620d18	numb hand
+fed18d0f	A sign of poor arterial flow.
+b238da66	PAD means…
+bb0b8124	arterial pressure
+ec8c67e9	pain after surgery
+64049c9b	Where is the popliteal pulse?
+6294cdae	temple
+9e0bd3ed	popliteal = behind the knee.
+65292163	In which layer of the artery wall does plaque settle?
+c410b35a	tunica intima (inner layer)
+7d896f46	Atherosclerosis starts in the inner layer.
+31636767	Match each vessel to its location
+7db9f9a0	Angiography is imaging of vessels with contrast and X-rays.
+0412c05e	angi/o (vessel) + -graphy (recording).
+929b125a	Spell the term for a vessel carrying blood away from the heart
+cb00caaf	Plural: arteries.
+e9a483ec	Chest pain with every stair
+e7503a86	A 56-year-old man
+5382efd1	A man with a history of high blood pressure has had chest pain and breathlessness with light housework for some time. Now he arrives at the emergency department in severe pain; his pressure is 180/110 and the ECG shows a heart attack and atrial fibrillation. He is admitted to the CCU.
+776194a0	angina pectoris, SOB
+be422d3a	180/110 mmHg
+da74d7b7	MI and AF
+1c298a03	aspirin, antiarrhythmic, diuretic, vasodilator, O₂
+e52bbfe6	angina pectoris means…
+868ac951	chest pain from lack of blood to the heart muscle
+403c491d	inflammation of the heart’s covering
+f807862f	severe cough
+b6cafd51	heartburn
+323d2c91	MI means…
+e2c5391e	What are the two roots of myocardial?
+c34cb860	my/o (muscle) and cardi/o (heart)
+0b2f7bdc	my/o and card (electricity)
+be1ac3ed	myel/o and cardi/o
+8395f29c	my/o and coron/o
+a32a8b21	myocardial = relating to the heart muscle.
+69521e48	atrial fibrillation means…
+598cce93	irregular quivering of the atria
+fb31931b	complete cardiac standstill
+261e37f5	slow regular beat
+1028e8a7	AF: irregular with no P wave.
+c48f209a	Match each drug to its job
+83ebf3ef	widening vessels
+7f94236a	A pressure of 180/110 is a sign of hypertension.
+dad05c9d	Above 140/90 is stage 2 hypertension.
+6f2cce2e	Spell the term for a local lack of blood supply
+5272c67e	isch/o (holding back) + -emia (blood).
+dc8f0179	Night-time breathlessness and leg swelling
+3b218304	A 72-year-old woman
+81a9084a	A woman who had a heart attack years ago now wakes at night breathless and her calves have swollen. The chest X-ray shows a large heart and her blood BNP is raised. Diagnosis: congestive heart failure.
+97c243ad	dyspnea, edema of both calves
+00a598d7	raised BNP
+0c8dcf98	EF 30%
+80835a11	pitting edema
+adfe83a7	CHF means…
+f9579398	dyspnea means…
+253bddf1	shortness of breath, difficult breathing
+d1de327d	rapid breathing
+f711f96d	stopped breathing
+f16cf739	dys- (difficult) + pnea (breathing).
+de1195d7	small heart
+138e5c93	EF 30% means…
+0dae5ea1	the left ventricle pumps out only 30% of its blood with each beat
+cf129b7d	the blood pressure is 30
+f6ca57f6	the heart rate is 30 a minute
+c88b91dc	30% of the vessels are blocked
+372acef2	A normal ejection fraction is 55 to 70 per cent.
+b53ee553	Which drug removes excess body water in the urine?
+2fe13803	Diuretics reduce swelling in heart failure.
+468a3124	BNP is a hormone released by stretched ventricles.
+79826483	A raised BNP is a sign of heart failure.
+7793d0a3	Spell the term for swelling from fluid in the tissues
+184bc6db	edema; in British English, oedema.
+7931efd7	Angiography and stent
+e768c099	A 52-year-old man
+0e7474d1	A man with raised troponin and chest pain is taken to the catheter lab. The catheter is passed from the femoral artery to the heart. Coronary angiography shows a 90 per cent narrowing of the LAD, which is opened with a balloon and held open with a stent.
+172dda39	raised troponin
+c1f11db5	cardiac catheterization through the femoral artery
+426c08fa	90% stenosis of the LAD
+4ee6c356	PTCA and stent; aspirin and statin
+550cbcbe	balloon and stent
+4f630ae3	What does a raised troponin in the blood indicate?
+6f678d1f	lung infection
+3d1b08da	high cholesterol
+b063ff3c	cardiac catheterization means…
+d780d0bd	passing a thin tube through a vessel to the heart
+a721a377	opening the chest
+2c82b356	a 24-hour ECG
+f9f7cc42	heart ultrasound
+4a8ed314	The catheter is inserted through an arm or thigh vessel.
+4fc6f4a8	LAD means…
+535c2bf9	Order the stages of angioplasty
+b7971ffc	the balloon catheter reaches the narrowing
+d0c74f35	the balloon inflates and presses the plaque into the wall
+f2988aaf	the stent opens
+39eabeb9	the balloon and catheter are withdrawn
+d52b7702	The stent stays in the vessel.
+78c5914c	PTCA means…
+26bafd6e	A statin lowers blood cholesterol.
+f810c774	It blocks cholesterol production in the liver.
+7e01182e	Spell the term for opening a vessel with a balloon
+8d8462dc	Cardiac arrest at the gym
+9da74135	A 48-year-old man
+46e5ae30	A man suddenly collapses at the gym; he is not breathing and has no carotid pulse. The trainer starts CPR and a colleague fetches the gym’s AED. The device detects ventricular fibrillation and delivers a shock. Later an ICD is implanted for him.
+c99849f2	State
+6b463291	unresponsive, no pulse
+190cbf7d	CPR and AED
+0e411ddf	VF means…
+72ad16fa	heart block
+8fcc419b	ventricular fibrillation: the ventricles only quiver.
+af8522f4	Resuscitation
+7870f8bd	Order the rescue steps
+1e4c6e39	chest compressions (CPR)
+03d59587	shock with the AED
+c8b2df91	The chain of survival.
+6635fcfd	CPR means…
+b6fd75b5	defibrillation means…
+0ed05da9	an electric shock to end fibrillation
+fc2773b0	opening a vessel with a balloon
+308821e6	implanting a valve
+1eab3122	de- (removal) + fibrillation.
+360c271b	ICD means…
+d35c2dab	congestive failure
+4c77b874	balloon pump
+1d50cc6b	The carotid pulse is felt in the neck.
+682c369a	In an emergency, the carotid pulse is checked.
+0940c597	Spell the term for the device that shocks the heart out of fibrillation
+63a7f0ad	Start a word’s meaning from the suffix: pericarditis means “inflammation” + “around” + “heart”.
+b8db3421	-gram is the result of recording (the tracing), -graph the recording device and -graphy the act of recording.
+3481732b	cardi/o, coron/o and the suffix -cardia all refer to the heart; tachycardia means a fast heartbeat.
+34487dc5	The plural of atrium is atria, of thrombus thrombi and of varix varices.
+40134050	ven/o and phleb/o both mean vein; phlebitis is inflammation of a vein.
+9debaf70	arteri/o is artery and ather/o fatty plaque; do not mix up arteriosclerosis and atherosclerosis.
+4bd02a3a	The right side of the heart sends oxygen-poor blood to the lungs and the left side sends oxygen-rich blood to the body.
+f6589730	The left ventricle wall is the thickest, because it must send blood to the whole body.
+fce5d282	The tricuspid valve is on the right and the mitral (bicuspid) valve on the left; “tri” is three and “bi” is two.
+2eac1484	The pulmonary artery is the only artery carrying oxygen-poor blood, and the pulmonary veins the only oxygen-rich veins.
+c9cccb33	Coronary means crown; the coronary arteries ring the heart like a crown and feed the heart muscle itself.
+7fbae9ac	The SA node is the heart’s natural pacemaker and lies in the wall of the right atrium.
+60d8d719	The P wave is atrial contraction, QRS ventricular contraction and T ventricular recovery.
+3b9ed6ea	A normal rate is 60 to 100 beats a minute; under 60 is bradycardia and over 100 tachycardia.
+b2f993d1	The lubb sound comes from the AV valves closing and the dupp from the semilunar valves closing.
+b101b213	In 120/80 the top number is the systolic pressure (contraction) and the bottom number the diastolic pressure (rest).
+358f2af3	An artery carries blood Away from the heart; veins return blood to the heart.
+85530c8d	A capillary wall is only one cell thick so oxygen and nutrients pass through easily.
+eabd3161	Leg veins have valves; if the valves fail, varicose veins develop.
+00bb7a61	The pulmonary circulation is the lesser loop (heart → lungs → heart) and the systemic circulation the greater loop (heart → body → heart).
+37804269	Atherosclerosis is the commonest type of arteriosclerosis: fatty plaque in the artery wall.
+e94fa776	A thrombus is a fixed clot and an embolus a clot on the move; pulmonary embolism usually comes from a leg DVT.
+c4037856	Angina is passing ischaemic pain; in a heart attack (MI) part of the heart muscle actually dies.
+c2882339	In ventricular fibrillation the heart only quivers and pumps no blood; the treatment is an immediate shock.
+79210513	The ductus arteriosus should close after birth; if it stays open it is called PDA.
+d2cb454e	Angioplasty opens a vessel with a balloon and a stent keeps it open.
+1f71ec93	In CABG a healthy vessel (such as the saphenous vein) makes a route around the coronary narrowing.
+18a6226f	An anticoagulant prevents new clots; a thrombolytic dissolves an existing clot.
+800bbe7a	Troponin is a protein released into the blood by damaged heart muscle; a sensitive sign of heart attack.
+f6b7b45b	LDL is the bad cholesterol (Low: should be low) and HDL the good cholesterol (High: should be high).
+f012f845	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Tapesh is a learning tool and does not replace medical references or clinical judgment.</p>⏎    </section>
+b8caa122	Search: valve, stenosis, mitral…
+cccf1a94	Search: cardi, heart, -megaly…
+4bedeca9	Search: CABG, infarction, ECG…
+5ab737ad	Right half: oxygen-poor blood from the body
+3b08989a	to the lungs
+d266a91e	oxygen-rich blood from the lungs
+32286267	to the whole body
+0ebf0913	Layers of the heart
+854db66b	two-layered sac around the heart
+73f97c39	outer layer (visceral pericardium)
+481b9343	heart muscle
+433316a1	inner lining of the chambers and valves
+14f186f3	atrial contraction (depolarisation)
+87f099d2	ventricular contraction (depolarisation)
+46be12aa	ventricular recovery (repolarisation)
+f4bf2108	rises or falls in ischaemia and heart attack
+655aba79	Normal values
+9c115142	60 to 100 beats a minute
+3915bdf7	under 120/80 mmHg
+6e10dde4	LDL low, HDL high
+b11b0aef	Common suffixes
+21056c0f	repair / removal / cutting
+ff584054	tracing / device / recording process
+2ef30809	Drug classes
+2c5c21c5	prevents new clots
+9e2664ea	lowers cholesterol
+de03ce18	relieves angina by widening vessels

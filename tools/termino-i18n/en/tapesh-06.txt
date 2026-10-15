@@ -1,0 +1,204 @@
+6b0270ac	inside the elbow; in infants
+87a63024	over the apex with a stethoscope
+ead47d67	top of the foot; to check circulation in the leg
+bc13efaf	Match each pulse to its site
+3e138bfd	Listening to the heart
+e3779a8e	<b>Auscultation</b> means listening to body sounds with a <b>stethoscope</b> (steth/o = chest).<br>• S1 or lubb: the AV valves closing<br>• S2 or dupp: the semilunar valves closing⟦0⟧⟦1⟧
+fef24c84	an extra “whoosh” from turbulent blood flow
+515dc34a	a third or fourth sound; like a galloping horse
+cfe6b096	Remember auscultation through Latin auscultare, “to listen”!
+0204378d	What is listening to heart sounds with a stethoscope called?
+f46f138a	The apical pulse is counted with a stethoscope over the apex.
+77ae9ad7	apex = tip of the heart.
+acf4151a	In adult cardiac arrest, the ___ pulse is checked.
+0c990a1b	A large artery close to the heart.
+d3ab01d1	Heart monitoring
+e24f9e5c	The 24-hour ECG
+2a68c54a	Some arrhythmias happen only now and then. A <b>Holter monitor</b> is a small device that records the ECG for 24 to 48 hours during daily life, while the patient notes symptoms such as <b>palpitation</b> (feeling the heart pound), with the time, in a diary.⟦0⟧
+1b3d2cc0	Holter monitor: electrodes on the chest and the recorder on the waist.
+ff0affd9	A patient has occasional palpitations but a normal ECG in clinic. Which test is suitable?
+164cf8d2	Continuous 24-hour recording.
+1c86665c	In a <b>stress test</b> the patient walks on a treadmill as the speed and slope slowly increase, while the ECG and blood pressure are recorded. If a coronary artery is narrowed, the ST segment changes or chest pain appears as the heart’s demand rises.⟦0⟧⟦1⟧
+0d0c6aed	A treadmill exercise test with ECG electrodes and a pressure cuff.
+4bda28b7	If the patient cannot exercise, the heart is “made to work” with drugs: a pharmacologic stress test.
+1c62c7a7	In a stress test the ECG is taken at complete rest.
+4c6c2546	False; it is taken during exercise on a treadmill.
+f4af3c96	What is the main aim of a stress test?
+f188fc7c	finding coronary narrowing during activity
+e78c995c	measuring blood sugar
+1883b65e	viewing the valves with sound
+0989e5f6	removing plaque
+c1d6d3dc	Ischaemia when demand rises.
+35857275	24-hour ECG recording
+56e518a6	ECG during exercise
+bfff35ce	measuring pressure
+a6e84854	hearing the heart sounds
+e7ba72a3	A Holter device usually records the ECG for ___ hours.
+1ad248f9	24 to 48
+a1cf7464	1 to 2
+88f3de86	One to two days.
+7e308e5b	A patient presents “c/o palpitations”. Palpitation means…
+8e0b92a1	feeling the heart pound
+034e3a5a	The patient feels their own heartbeat.
+3fbd3b7d	Review of the level “Pressure, pulse and monitoring”
+2714f746	BP: systolic (top number, contraction) / diastolic (bottom number, rest) in mmHg
+53911e23	sphygmomanometer = sphygm/o + man/o + -meter; Korotkoff sounds beginning = systolic, stopping = diastolic
+9363028f	pulse: radial, carotid, brachial, apical, femoral, popliteal, dorsalis pedis; auscultation with a stethoscope
+062ddba7	monitoring: Holter monitor for 24 to 48 hours and the stress test on a treadmill
+6d70c69e	Vessels
+57da1667	Arteries, capillaries and veins, vessel wall layers, pulmonary and systemic circulation, fetal circulation, the body’s vessel map and lymph
+4858770c	Types of vessel
+b4f0ad95	The circulations
+c32724ec	Vessel map and lymph
+3fcb0eea	From artery to vein
+8ff9fbce	Five types of vessel in a row
+ae053144	Blood leaves the heart and returns along this chain:⟦0⟧⟦1⟧
+18592c4b	regulating flow to tissues
+1af0295e	exchanging oxygen and substances with tissues
+3357816f	collecting blood from the capillaries
+faedbae5	returning blood to the heart
+3d110fd1	In which vessel is oxygen exchanged between blood and tissue?
+f2ac234f	A capillary wall is only one cell thick.
+08cc38e9	Order the chain of vessels from the heart to the tissue and back
+e98036ae	Artery, small artery, capillary, small vein, vein.
+a8ab4166	“Small” suffixes
+97f4cf43	-ole and -ule both mean “small”:<br>• ⟦0⟧ → <b>arteriole</b>: small artery<br>• ⟦1⟧ → <b>venule</b>: small vein⟦2⟧⟦3⟧
+9639abcc	artery with thick smooth muscle, vein with valves and a thinner wall, capillary with endothelium only.
+bd0ff29e	capillary comes from Latin capillus, “hair”: a capillary is a hair-thin vessel.
+f09ebc14	Match each vessel to its feature
+243b77bb	thick muscular wall
+0960b98f	valves and a thinner wall
+bd3cd2c4	a single layer of cells
+a3ba0e6c	Veins have valves so blood does not flow backwards.
+d6847796	Especially in the legs, where blood must rise against gravity.
+436fb8a4	The suffix ___ in venule means “small”.
+6f6e146b	Why is an artery wall thicker than a vein wall?
+ba403d68	because blood pressure is higher in arteries
+3db04788	because arterial blood is thicker
+b016a8fd	because arteries have valves
+97be8ace	because arteries are shorter
+8089e1a8	Blood enters the artery straight from the ventricle under high pressure.
+584ce13c	Build a word meaning “small artery”
+01d453d7	Spell the term for the smallest, hair-thin blood vessel
+acd7e78d	Plural: capillaries.
+4141ca6a	Layers of the vessel wall
+cd47d046	Three coats
+e7f376cf	The walls of arteries and veins have three layers. tunica means “coat” or “cloak”:⟦0⟧⟦1⟧
+71dd9421	inner
+035f7a9f	smooth endothelium
+67429c63	smooth muscle and elastic fibres
+35db9f65	outer
+68af7443	Which is the muscular layer of the vessel wall?
+ad1bc6cb	media = middle.
+19da2a57	The space inside the vessel
+fa0d5c07	• <b>lumen</b>: the space inside a vessel through which blood flows<br>• <b>endothelium</b>: a single layer of flat cells lining the lumen; the only layer of a capillary wall⟦0⟧⟦1⟧
+1fd927c2	Layers of a vein and an artery; the capillary network is made of endothelium only.
+bae969e6	In atherosclerosis, fatty plaque builds up under the tunica intima and narrows the lumen; you will see this in more detail in the diseases world.
+00ba21ad	Order the layers of the vessel wall from inside to outside
+ba27af3a	Inner, middle, outer.
+82751e3c	smooth inner lining
+4b1a9f88	outer connective layer
+d4d83522	smooth muscle layer
+33f16502	A capillary wall has three layers.
+907b3d63	False; it has only endothelium, so exchange is easy.
+84b991fd	Artery or vein under the microscope?
+1bfc5d93	thick wall, broad tunica media, small round lumen
+6cc9c1c7	thin wall, wide irregular lumen, with venous valves
+0d861e2a	An artery is “firm and round”, a vein “floppy and wide”.
+481dc6d2	The space inside a vessel is called the ___.
+33595177	lumen means light, or open space.
+3c98d67a	In which type of vessel are valves found?
+36cad07c	Spell the term for the inner lining of a vessel
+a3663e6b	endo- (within) + theli (covering) + -um.
+6318cecf	Narrow and wide
+cfbd7b99	Vessel muscle takes orders
+b11e8233	The smooth muscle of the tunica media can change the vessel’s diameter:⟦0⟧⟦1⟧
+d6d4752d	the vessel narrows; blood pressure rises
+5d286f46	the vessel widens; blood pressure falls
+a0b1b518	In cold weather the skin’s vessels narrow to keep heat in. What is this called?
+0f2c22cd	Break the words apart
+67d8605d	• ⟦0⟧ → narrowing of a vessel<br>• ⟦1⟧ → widening of a vessel<br>• ⟦2⟧: a drug that widens vessels, such as nitroglycerin⟦3⟧
+80c4b478	Picture a pupil dilating in the dark: dilation means opening wide, and a vessel widens the same way!
+498ee453	Vasodilation raises blood pressure.
+12b0007d	False; widening of vessels lowers resistance and pressure.
+2ac09eeb	Blood supply
+76faed79	<b>Perfusion</b> means blood reaching tissue through the capillaries. If a vessel narrows or closes, perfusion falls and the tissue develops <b>ischemia</b>.⟦0⟧
+7d01dcc7	In shock, organ perfusion falls: cold, pale skin, little urine and reduced consciousness.
+8cc1bd92	blood supply to tissue
+083f47a7	local lack of blood in tissue
+77682de8	A drug that widens vessels is called a ___.
+a6f8eb18	Build a word meaning “widening of a vessel”
+7941755a	Review of the level “Types of vessel”
+7687679d	chain: artery → arteriole → capillary → venule → vein; -ole and -ule mean small
+891f6288	an artery has a thick muscular wall; a vein has valves; a capillary is endothelium only
+f0b652e4	wall: tunica intima (inner) → tunica media (muscle) → tunica adventitia (outer); the lumen is the space inside
+4cda1bc3	vasoconstriction raises pressure and vasodilation lowers it; perfusion means blood supply to tissue
+70d138b2	Lesser and greater circulation
+4f15f337	Two loops in a figure of eight
+9c9f5877	Blood circulates in two loops that meet at the heart:⟦0⟧⟦1⟧
+b0feba90	pulmonary (lesser) circulation: from the right ventricle to the lungs and back to the left atrium
+909322db	systemic (greater) circulation: from the left ventricle to the whole body and back to the right atrium
+1bbaab11	Which circulation starts at the left ventricle and goes to the whole body?
+f7e9b0e3	systemic = all the body systems.
+b5d20925	In the textbook picture
+585b446c	⟦0⟧In the pulmonary circulation blood <b>takes up oxygen</b> and gives off carbon dioxide; in the systemic circulation blood <b>delivers oxygen to the tissues</b>.⟦1⟧
+d16c22d0	Red: oxygen-rich blood (blood high in oxygen); blue: oxygen-poor blood. The upper loop is the pulmonary circulation and the lower loop the systemic circulation.
+827ecbb9	Remember pulmonary through “pulmo”, Latin for lung: pulmon/o means lung.
+184fab20	In the pulmonary circulation, blood goes from the left ventricle to the lungs.
+0fc67961	False; it goes from the right ventricle to the lungs.
+57e1925c	Order the pulmonary circulation
+7adfa3f2	From the right ventricle to the left atrium.
+16c4a4af	Match each circulation to its feature
+5104bd6f	taking up oxygen in the lungs
+997c6036	delivering oxygen to the tissues
+14bb50a5	blood supply to the heart itself
+d6bfaee8	The root pulmon/o in pulmonary means ___.
+c89058fc	pulmon/o = lung.
+58b83474	To which chamber does oxygen-poor blood from the body return?
+20645361	Through the venae cavae.
+137deb1a	Spell the adjective meaning “of the lungs”
+682c2441	Coronary and collateral circulation
+7f842b86	A third circulation: for the heart itself
+ce2edc77	The <b>coronary circulation</b> supplies blood to the heart muscle itself: the coronary arteries branch from the start of the aorta and blood returns through the coronary sinus to the right atrium.⟦0⟧⟦1⟧
+a10a9e48	Most coronary flow happens in diastole; when the heart is relaxed, the vessels inside its wall are not squeezed. That is why severe tachycardia reduces the heart’s blood supply.
+a6c10c5a	In which phase of the cardiac cycle does most coronary blood flow occur?
+31fafd61	The vessels in the wall are open during rest.
+d78a3e9b	Side routes
+9e21e5c2	• <b>anastomosis</b>: a joining of two vessels, natural or surgical<br>• <b>collateral circulation</b>: small side vessels that enlarge when a main vessel narrows slowly, creating another route for blood⟦0⟧
+bea6955f	Read collateral as “side road”: col = with, lateral = side; like a ring road when the main street is closed.
+168440c4	Collateral circulation forms when a main vessel narrows slowly.
+66147ca6	The side vessels have time to enlarge.
+60ffa3bb	joining of two vessels
+27e44c4f	side route for blood
+2999d6f0	blood supply to the heart muscle
+a0a6d6a1	return of the heart’s blood to the RA
+8db1fb7b	⟦0⟧In a <b>bypass</b> the surgeon also creates an anastomosis, connecting a healthy vessel to the artery before and after the narrowing.
+fd4fbcc1	sudden blockage
+1fa3b461	no time to build a side route; the tissue is quickly damaged
+06db10cf	slow narrowing
+6523d050	collateral circulation forms and damage is less
+7187de64	In bypass surgery, the surgeon sews both ends of the graft vessel to the artery. What is this connection called?
+ff1a34b3	Side vessels that make a new route around a narrowing are called ___ circulation.
+b351aed8	Side-route circulation.
+2c583c83	Spell the term for a joining of vessels
+828af7ee	Plural: anastomoses.
+5d8e959a	Fetal circulation
+996a44eb	Lungs that do not breathe yet
+c2e324fd	The fetus gets oxygen from the placenta, not the lungs. So the <b>fetal circulation</b> has two shortcuts to bypass the inactive lungs:⟦0⟧
+f9ee6d44	Two shortcuts
+2498b573	Shortcut
+b1939951	wall between the two atria
+522ce2d0	blood goes straight from the RA to the LA
+bd6e0dca	between the pulmonary artery and the aorta
+95b11f1d	blood goes straight from the pulmonary artery to the aorta
+b5b707fb	foramen ovale means “oval hole” and ductus arteriosus means “arterial duct”: one is a hole, the other a tube.
+751d0496	In the fetus, which structure takes blood from the right atrium to the left atrium?
+e2bc19fa	The oval hole in the wall between the atria.
+fd2c1441	Match each shortcut to its position
+74c0533b	between the two atria
+500a7e62	between the pulmonary artery and the aorta
+f946ccbb	where the fetus gets oxygen
+322f6352	After birth
+65da1bd0	With the first breath the lungs open and pressure rises in the left side of the heart: the foramen ovale closes and the ductus arteriosus narrows and closes within a few days.⟦0⟧
+300cedb5	If the ductus arteriosus stays open it is called patent ductus arteriosus, or PDA; patent means “open”. It is common in premature babies and causes a machinery murmur.
+0c42a3e1	PDA means the ductus arteriosus has stayed open after birth.

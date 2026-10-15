@@ -1,0 +1,235 @@
+d88ef4f6	What are drugs that lower blood pressure called in general?
+d0a1b4c9	Clot and lipid drugs
+e535b9f4	Three different jobs with clots
+1f5fe4e8	stops platelets sticking
+bcb525d9	aspirin, clopidogrel
+22f2dff1	prevents clots forming
+cd63a0db	heparin, warfarin
+1e574d87	anti = preventing new clots; thrombo-lytic = dissolving a clot that already exists. An anticoagulant does not dissolve a clot!
+b5688995	Which class of drug dissolves an existing clot?
+da902f4d	Two anticoagulants
+7520b715	injected, fast-acting; in hospital
+ce8d5567	oral, slow-acting; monitored with the INR test
+41072405	A patient on warfarin must keep their intake of leafy greens (vitamin K) steady, because vitamin K weakens the drug.
+98be3a58	An anticoagulant dissolves a clot that has already formed.
+f3115c26	False; it only stops new clots forming. Dissolving is the job of a thrombolytic.
+7050c353	⟦0⟧⟦1⟧High blood fats are called <b>hyperlipidemia</b> and high cholesterol <b>hypercholesterolemia</b>. A <b>statin</b> (such as atorvastatin) reduces cholesterol production in the liver and lowers LDL.
+df65e1d7	low-density lipoprotein: “bad” cholesterol; should be low
+9da308a0	high-density lipoprotein: “good” cholesterol; should be high
+488a5c0c	storage fat; rises with lots of sugar and fat
+411e220e	total blood cholesterol
+2841671e	bad cholesterol
+abd44540	good cholesterol
+11a8a19c	lowering LDL
+60c27dd2	Which drug lowers LDL?
+57c8dceb	Such as atorvastatin.
+4ffc89dc	HDL is called ___ cholesterol.
+b3188f4c	good
+d25afd82	toxic
+88653724	H for Healthy.
+b88e56f4	Spell the term for a drug that prevents clotting
+b6bf8b7e	anti- + coagul (clotting) + -ant.
+28a9599f	Pacemakers, shocks and resuscitation
+18d777e4	When the SA node or conduction pathway fails (as in heart block), an <b>artificial pacemaker</b> is implanted under the skin of the chest, and its wire (lead) runs through a vein to the right ventricle to make the beats.⟦0⟧
+37f0fed0	A pacemaker under the skin with its lead at the tip of the right ventricle
+d84ae690	A pacemaker on a chest X-ray
+56ad8d74	A patient with complete heart block and a rate of 38 needs which treatment?
+3edec548	Making artificial beats.
+0c282720	Electric shocks
+aa649048	⟦0⟧• <b>ICD</b> (implantable cardioverter-defibrillator): an implanted device that detects VF and delivers a shock by itself<br>• <b>catheter ablation</b>: burning away an extra electrical pathway (as in WPW) with a catheter⟦1⟧
+ce8d73a2	unsynchronised shock for ventricular fibrillation and cardiac arrest
+8897598e	shock timed to the QRS for atrial fibrillation or flutter
+e1aa5251	Defibrillating a patient in cardiac arrest with pads on the chest.
+988c2249	shock for VF
+f56c18ce	timed shock for AF
+8caae216	implanted shock device
+c2e6683d	burning away an extra electrical pathway
+4a67420c	<b>Cardiopulmonary resuscitation</b> (CPR): cardi/o (heart) + pulmon/o (lung) + resuscitation (reviving).⟦0⟧Chest compressions: 100 to 120 a minute, 5 to 6 centimetres deep. An <b>AED</b> (automated external defibrillator) analyses the rhythm itself and gives spoken instructions.⟦1⟧
+3d5337df	The AED is designed for the public; airports and gyms have them. Every minute’s delay in shocking VF cuts the chance of survival by about 10 per cent.
+47051245	Order the steps of helping an unconscious person
+920bb8f0	check response and breathing
+a4aeb965	call emergency services and fetch an AED
+f5187f8e	start CPR with chest compressions
+005627c3	attach the AED and shock if needed
+253c1466	As in the figure: check, call, CPR, AED.
+f1235d9e	An AED analyses the heart rhythm by itself.
+42cd144a	automated = automatic.
+e1121929	In adult CPR, the chest is compressed ___ times a minute.
+e3a77682	100 to 120
+34c0eb46	30 to 40
+671e3636	200 to 250
+d36035df	Hard and fast.
+4e0ea5e5	Review of the level “Drugs, pacemakers and resuscitation”
+ac6f4385	pressure and rate: beta-blocker (-olol), ACE inhibitor (-pril), ARB (-sartan), calcium channel blocker, diuretic
+b128acef	heart: nitroglycerin for angina, digoxin, antiarrhythmic, vasopressor
+ac31d8f3	clots: antiplatelet (aspirin) • anticoagulant (heparin, warfarin) • thrombolytic (tPA); statin for LDL
+872a5823	artificial pacemaker, defibrillation for VF, cardioversion for AF, ICD, catheter ablation; CPR and AED
+a8ccd093	Breaks every scary word into prefix, root and suffix and reads it from the end: pericarditis means inflammation around the heart.
+ed495a65	Graphy
+b2b0ff4c	Master of gram and graph
+c7d9887b	Knows the difference between the tracing (gram), the device (graph) and the act of recording (graphy), and never mixes up electrocardiogram with electrocardiograph.
+18a137d2	Turns atrium into atria, thrombus into thrombi and varix into varices, without a single extra s!
+ad64147d	Owner of Four Chambers
+838bbfc7	Two atria on top receive the blood and two ventricles below pump it out; the dividing wall keeps the two halves’ blood from mixing.
+2d2d1233	Guardian of the One-Way Route
+97805314	Tricuspid, pulmonary, mitral and aortic: they open and close in turn, and the heart’s lubb-dupp is their work.
+81f2d6f5	coronary
+5ec0a7b8	The Heart’s Crown
+24629dc7	Rings the heart like a crown and supplies the heart muscle itself; the LAD is the branch that must never close.
+c2a4e75f	spark
+861d31a5	The heart’s natural pacemaker; from the wall of the right atrium it starts every beat with a spark, 60 to 100 times a minute.
+2d9fa7cb	Strip
+54ef74cc	ECG Reader
+f81c3703	Reads the P wave as atrial contraction, the QRS as ventricular contraction and the T as ventricular recovery; always keeps an eye on the ST segment.
+603de093	Counter of Systole and Diastole
+cce3c2c8	With a cuff and stethoscope, reads the top number (systolic) and bottom number (diastolic): 120 over 80 mmHg.
+9eebe5dd	Traveller of Two Circuits
+c938718d	Goes from the right ventricle to the lungs for oxygen and from the left ventricle to the whole body; each circuit takes less than a minute.
+698c3f80	branch
+61cb3dae	The Capillary Network
+2b76046d	Leads the artery down to arterioles and capillaries and gathers it again into venules and veins; oxygen exchange is the capillaries’ job.
+6106823b	Lympho
+0813607a	Drain of the Tissues
+bdc16317	Collects excess tissue fluid and filters it through the lymph nodes to return it to the blood through the thoracic duct.
+0473f29b	Plaquo
+46a72c78	The Sticky Atheroma
+1a7ecab0	Made of bad cholesterol (LDL), it settles in the artery wall; its job is narrowing the channel. Exercise and statins are its enemies!
+3697127e	Clotty
+4be6eadc	Thrombus and Embolus
+31f32c05	Stuck to the wall it is a thrombus; on the move it is an embolus; if it lodges in the lung it causes a pulmonary embolism.
+e38e4013	quivering
+c8a3d9a4	The Playful Arrhythmia
+2a259115	Sometimes fast (tachycardia), sometimes slow (bradycardia) and sometimes quivering (fibrillation); the ECG gives it away.
+52fe6a76	Springy
+0bd4ffee	The Stent That Holds It Open
+8d1de3d8	After balloon angioplasty it opens inside the coronary artery and stays there so the vessel does not narrow again.
+593b37c8	The Heart Pharmacist
+5c458948	Knows beta blockers, diuretics, statins and anticoagulants, and where each acts in the heart and vessels.
+0c05c899	Shocker
+cdd9b2b3	The Rescue Defibrillator
+9d1cb214	When the ventricles fibrillate, it restores the rhythm with one shock; CPR’s constant companion in cardiac arrest.
+abb808f2	A note full of codes
+f97164f6	Cardiology consult on the medical ward
+c4465b5c	The cardiologist has written a consult note for a medical ward patient. A new student must “translate” it for the ward nurse. Break each word apart and read it from the end.
+8d7d663f	CP and SOB
+59c491a7	HTN for 10 years
+b9371ae1	tachycardia, no murmur
+15edd57e	Match each abbreviation in the note to its meaning
+14b27300	tachycardia means…
+458133d1	fast heartbeat, over 100 a minute
+65de6bcb	heartbeat stopping
+e886a381	tachy- (fast) + -cardia (heart condition).
+0a23702d	Arrange the parts of the word for “inflammation around the heart” in writing order
+31f5e42a	pericarditis: peri- (around) + cardi/o (heart) + -itis (inflammation).
+64eb0624	cardiac and coronary are both adjectives relating to the heart.
+f4e6d589	cardi/o + -ac; coron/o (crown, heart) + -ary.
+aaa7b919	Spell the word for a doctor specialising in the heart
+91c08282	Three sheets from one test
+28c72c36	A 40-year-old man in clinic
+9ec0a3aa	An ECG has been ordered for the patient. The clinic secretary sees three similar words on the sheets: the device, the tracing itself and the act of recording. Each must be filed correctly.
+8f47967f	Request
+e22d8be8	electrocardiograph no. 2
+9addf510	72 bpm
+62d1aff1	gram, graph and graphy
+26b749d2	result of recording (tracing)
+15de2dea	What is the sheet with the heartbeat curve printed on it called?
+40d06199	-gram means the record itself.
+4bd0e86e	bpm means…
+873f53ab	pulse per second
+c5b60f63	ECG and EKG both mean the heart tracing.
+8cf094ee	EKG comes from the German spelling Elektrokardiogramm.
+b5c31540	In electrocardiogram, the root electr/o means…
+e4fea873	electr/o = electricity.
+38b8fab9	Spell the term for the process of recording the heart’s electricity
+c80a0d7a	Mrs Taggart, 63
+0fd51542	Mrs Taggart has been admitted for mitral valve replacement and asks the nurse where this valve is in the heart and what it does. Her valve does not close well and blood leaks back into the atrium.
+6555b679	enlarged LA, LV with EF 50%
+01d10166	systolic murmur at the apex
+2727e154	Inside the heart and its valves
+395a376a	The mitral valve lies between which two chambers?
+24551950	left atrium and left ventricle
+70612f51	right atrium and right ventricle
+82f0f0e7	left ventricle and aorta
+2ef8c7b4	right ventricle and pulmonary artery
+12eae4e0	The left atrioventricular valve.
+25e0ef67	Cusp
+e22b3c0e	How many cusps does the mitral valve have?
+98d3983d	two (bicuspid)
+a0054550	That is why it is also called the bicuspid valve.
+93b6368f	regurgitation means…
+a80e4af5	blood leaking back through a valve that does not close well
+ce85a8e5	narrowing of a valve
+812de24e	inflammation of a valve
+9330d194	absence of a valve
+e1327a92	Its other name is insufficiency.
+de58e82f	MVR means…
+789db5a4	left ventricular failure
+77d6fa22	repair of a dividing wall
+e9c4b4e3	mitral valve replacement; MVP is prolapse.
+dedb5980	mitral valve
+ce499bbd	From the lungs to the left atrium, through the mitral to the left ventricle and then the aorta.
+9124277d	A murmur is an extra sound caused by turbulent blood flow.
+08fc490a	A faulty valve makes the flow turbulent.
+1faa2341	Spell the name of the two-cusped left AV valve (one word only)
+c0191242	mitral: shaped like a bishop’s hat (mitre).
+95ef18c9	A sound that should not be there
+0826f5ce	6-week-old baby
+6f3c1c37	While listening to a baby’s heart, the paediatrician hears a harsh sound. The baby tires quickly when feeding. An echocardiogram shows a small hole in the wall between the two ventricles.
+2c10d20e	murmur at the left sternal border
+298ce465	small VSD
+7e0f946f	Skin colour
+fb33ba2c	no cyanosis
+16f6265e	interventricular septum means…
+71f8815a	the wall between the two ventricles
+2fee2e31	the outer layer of the heart
+2f99d8c2	the valve between atrium and ventricle
+6c0cb2e2	inter- (between) + ventricul/o (ventricle) + -ar.
+19a4a15b	VSD means…
+7af184af	Which specialist follows up this baby?
+aa1a1349	A paediatric cardiologist.
+be9fa824	congenital means…
+d8f44f24	present from birth
+43f9b467	acquired in old age
+1f122ed8	inherited from the father
+2712b623	con- (with) + genit (birth) + -al.
+f8acd84b	In a VSD, some blood from the left ventricle passes through the hole to the right ventricle.
+b3bc7339	Pressure is higher in the left ventricle.
+c7875813	Match each chamber to its job
+d93fc670	receiving blood from the body
+8c420d53	sending blood to the lungs
+be59083b	receiving blood from the lungs
+7145bb7e	sending blood to the body
+11de75b0	Spell the term for the heart’s dividing wall
+9024a7dd	Its plural is septa.
+984b086f	Palpitations the night before an exam
+c4874601	21-year-old student
+110924d8	After several cups of coffee and a sleepless night before an exam, a student complains of the “heart racing”. The ECG shows a regular sinus rhythm at 120. To be sure, the doctor fits a 24-hour Holter.
+aee815fb	sinus tachycardia, HR 120 bpm
+87b44e3f	130/85 mmHg
+03fd4169	24-hour Holter monitor
+73e9f3ac	palpitation means…
+ce68d1e5	feeling the heart beat fast or hard
+b0e7991d	feeling the abdomen by touch
+ab6912e5	fainting
+1f3492fd	palpitate = to throb.
+6ff25b8b	What is a rhythm that starts in the SA node called?
+5739339c	The sinoatrial node is the natural pacemaker.
+8bc43dce	Number
+7cdd0d96	What is a rate of 120 a minute called?
+a79e53de	Over 100 = fast.
+05c81e44	What does a Holter monitor do?
+4ffdd6b0	records the ECG for 24 to 48 hours during normal life
+21f535cb	measures blood pressure once
+5b1c1f2c	takes a sound image of the heart
+56253200	corrects the rhythm with a shock
+4cce7221	A long recording to catch occasional rhythms.
+815c64f9	Conduction
+70dfe868	Order the path of the heart’s electrical current
+c2474876	From the pacemaker to the ventricle walls.
+e10f1b09	In 130/85, the 130 is the systolic pressure.
+100840bd	The top number = pressure while the ventricles contract.
+cfcd0e34	Spell the term for a fast heart rate
+aa3b7123	Dizziness and a rate of 38
+66d5b298	A 78-year-old man
+9adbad53	An elderly man has had several dizzy spells and has fainted once. His radial pulse is 38 a minute. On the ECG the P waves are regular but none is followed by a QRS: complete heart block. An artificial pacemaker is implanted.
+f531a824	syncope and dizziness

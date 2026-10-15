@@ -1,0 +1,194 @@
+f4a0b3dc	echo = echo of sound; electro = electricity. “The echo sees the heart; the ECG follows its current.”
+602a48d1	TEE is done through the oesophagus.
+419aefc6	trans- (through) + esophag/o (oesophagus).
+11fac29b	Heart blood tests
+80255036	What it tells you
+89111d53	heart muscle damage; diagnosing MI
+04faca83	a heart enzyme; one of the cardiac enzymes
+e5649de6	B-type natriuretic peptide: raised in heart failure
+892a702e	C-reactive protein: a marker of inflammation
+27829ecf	cholesterol, LDL, HDL and triglycerides
+96447314	BNP is released by a stretched ventricle; in a breathless patient, a normal BNP almost rules out heart failure.
+38ae6aca	Match each test to its meaning
+bb2ab4b4	heart muscle damage
+4c939e7b	blood fats
+cdc315bc	In a breathless patient, which test helps with heart failure?
+c437118b	In transesophageal echocardiography, the probe is passed through the ___.
+d48da92a	femoral vein
+8282d58e	esophag/o = oesophagus.
+975e054e	Build a word meaning “the process of imaging the heart with sound echoes”
+f98a4fc1	Spell the term for imaging the heart with sound waves
+54e0fbd7	Seeing inside vessels
+a08f711a	Vessel imaging with contrast
+984a9d2e	In <b>angiography</b> a contrast dye is injected into a vessel and X-ray images are taken; the resulting image is an <b>angiogram</b>.⟦0⟧⟦1⟧
+b990982b	the process of vessel imaging (-graphy)
+2040dd37	the image itself (-gram)
+20b6aec3	An angiogram of the coronary arteries; the vessels show up dark with contrast.
+60ca96c9	What is the image of vessels taken after a contrast injection called?
+18cf1e43	-gram = the result of recording.
+f5059bc7	Before and after treatment
+03661e94	⟦0⟧<b>Coronary angiography</b> is the gold standard for diagnosing CAD, and the narrowing can be opened with a balloon and stent in the same session.
+003c1d17	A: severe narrowing of a coronary artery (arrow); B: the same artery after opening.
+ed1c673a	In coronary angiography the vessel can be opened at the same time.
+f205cff7	Diagnosis and treatment in one session.
+9fd1c235	Other methods
+b4f195c6	vessel imaging with CT; no catheter
+e3ed1504	DSA: the computer “subtracts” the bones from the image so only the vessels remain
+4e7de0ee	imaging of the veins
+c4897cf1	measuring EF with a radioactive tracer
+7e100db5	exercise test with a radioactive tracer; shows poorly supplied areas
+5293d44e	Match each method to its feature
+917a5867	vessel imaging without a catheter
+8224001a	removing bone from the image
+4227d136	vein imaging
+7395f71d	What is imaging the veins with contrast called?
+004fd41d	In DSA, the word subtraction means ___.
+6c4eced0	taking away
+15f2d066	adding
+7401873e	enlarging
+43fb67d8	The bones are taken away from the image.
+f2f7235a	Spell the term for the process of imaging vessels with contrast
+134bceab	Cardiac catheterisation
+f53c97c3	A tube to the heart
+9b9e29f9	A <b>catheter</b> is a thin, flexible tube. In <b>cardiac catheterization</b> it is inserted through the thigh (femoral) or wrist (radial) artery and guided by X-ray to the heart and coronaries.⟦0⟧
+402319f9	A: catheter from the femoral artery to the aortic arch; B: other routes in the arm: the brachial and radial arteries.
+d7001f78	Through which vessels is a heart catheter usually inserted?
+e88acb5e	femoral or radial artery
+674e1ce2	Thigh or wrist.
+e35911f3	Right and left catheterisation
+38f984e6	through an artery; examines the coronaries and left ventricle
+5eeb2e13	through a vein; pressures in the right atrium, right ventricle and pulmonary artery
+6394a7a6	The catheter passes from the basilic vein of the arm and the subclavian vein to the right atrium and right ventricle.
+281d9b24	After a catheter through the groin, the patient keeps the leg straight for a few hours and the puncture site is checked for bleeding and the foot pulses below it.
+a851d7c2	For right heart catheterization, the catheter is inserted through an artery.
+ee97edfe	False; it is inserted through a vein to reach the right heart.
+a01f8dd3	Order the steps of coronary catheterisation
+3a66faed	local anaesthetic at the wrist or groin
+69efe0b5	insert the catheter into the artery
+68f86fde	guide the catheter to the start of the coronary
+e0c381bd	inject contrast and take the angiogram
+baccc520	remove the catheter and press on the site
+e33353ce	From entry to exit.
+4938f3af	thin, flexible tube
+18362570	thigh artery
+d27a8d7e	arm vein
+1cdb100c	The word catheterization is built from ___.
+62dd2292	Inserting a catheter.
+6cfecbe1	After angiography through the groin, a patient has a cold, pulseless leg. Which vessel has the problem?
+0cd2dbc9	The catheter entry site.
+1cc3ce9f	angiography through the groin
+5d40def2	cold leg, weak dorsalis pedis pulse
+b70b099a	Review of the level “Diagnosis and imaging”
+ae82a6f7	echocardiography (and TEE through the oesophagus) and Doppler ultrasonography use sound waves
+89f684ef	blood: troponin and CK-MB for MI • BNP for failure • CRP inflammation • lipid profile
+4197dbdf	angiography is the process and the angiogram the image; CT angiography, DSA, venography, MUGA scan
+6f89ee7b	cardiac catheterization: left through the femoral or radial artery; right through a vein
+6e9e5b77	Balloons and opening vessels
+12b544d8	Inflating a balloon in the narrowing
+0ef0867f	⟦0⟧ = <b>angioplasty</b>: repair of a vessel. In <b>balloon angioplasty</b> a thin <b>guidewire</b> is first passed through the narrowing and the balloon catheter slides over it to the narrowed spot; the balloon is inflated and presses the plaque into the wall.⟦1⟧
+f6fd1d7a	A balloon catheter heading to a coronary artery; the deflated balloon, the inflated balloon and restored flow.
+e9c04b43	In angioplasty, the suffix -plasty means…
+28fa93e8	recording
+d239e059	Order the steps of balloon angioplasty
+79003bde	insert the guidewire and balloon catheter
+99726f97	bring the balloon to the plaque
+ab60ae5f	inflate the balloon and compress the plaque
+8ef09768	deflate and remove the balloon
+7ded12ce	As in figures A to D.
+221a7d1f	Step by step
+b6897b5b	⟦0⟧Clinical name: PTCA or <b>PCI</b> (percutaneous coronary intervention); percutaneous means “through the skin” (per- + cutane/o).
+f8a16838	A: the uninflated balloon enters the artery; B: the balloon is inflated; C: the balloon is deflated and removed; D: the lumen is open.
+d01df94b	Other ways to open a vessel
+3eed71db	• <b>atherectomy</b>: shaving and removing plaque with a tool on the catheter tip (ather/o + -ectomy)<br>• <b>thrombolysis</b>: dissolving a clot with a thrombolytic drug<br>• <b>embolectomy</b>: removing an embolus⟦0⟧⟦1⟧
+56be0984	presses the plaque into the wall
+3d10313a	removes the plaque
+c3b99fcf	Read PCI letter by letter: Percutaneous (through the skin), Coronary, Intervention: from a tiny skin puncture all the way to the coronary.
+cec1cf60	Match each method to its job
+cc130051	compressing plaque with a balloon
+21963287	dissolving a clot
+d913fd85	removing an embolus
+d715bd2c	Percutaneous means “through a large surgical incision”.
+bf4f042e	False; it means “through the skin”, via a small puncture.
+c0e7ff2d	Removing plaque from inside an artery with a catheter tool is called ___.
+f29b6d47	Spell the term for repair of a vessel, as with a balloon
+dc2bedd2	Stents and vessel surgery
+1890bc18	A metal mesh to stay open
+cf73458b	A <b>stent</b> is a small metal mesh mounted on a balloon; it opens as the balloon inflates and stays in the wall so the vessel does not narrow again.⟦0⟧
+259911af	A: a closed stent on a deflated balloon; B: the inflated balloon opens the stent; C: the open stent stays in the vessel.
+3f858b7c	Why is a stent placed after angioplasty?
+cbfbd816	so the vessel does not narrow again
+6ee77313	so the clot dissolves
+829e451a	so the heartbeat becomes regular
+c92b12d8	so blood pressure rises
+2dd51161	It prevents restenosis.
+e6b261ee	In a coronary artery
+ca28de16	⟦0⟧• <b>restenosis</b>: narrowing again (re- + stenosis)<br>• <b>drug-eluting stent</b>: a stent that slowly releases a drug to reduce restenosis⟦1⟧
+4130d751	A catheter with a balloon and stent in a coronary artery; the balloon inflates and the open stent presses the plaque into the wall.
+4bfdc93f	After a stent, the patient takes two antiplatelet drugs (such as aspirin and clopidogrel) for months so no clot forms on the stent; stopping them without advice is dangerous.
+5b0d3f7b	Restenosis means a vessel narrowing again after treatment.
+fddbd92d	re- = again.
+38ef91c4	Surgery on large arteries
+177acdc8	• <b>endarterectomy</b>: removing plaque together with the artery’s inner layer (endo- + arteri/o + -ectomy); mostly in the carotid⟦0⟧• <b>aneurysmectomy</b>: removing an aneurysm and placing a graft (artificial vessel)⟦1⟧
+9be27db5	Carotid endarterectomy: neck incision, opening the artery, removing the plaque and suturing (arteriorrhaphy).
+c2933414	An artificial graft inside an abdominal aortic aneurysm.
+1e1690e1	What is surgical removal of plaque from the carotid artery called?
+ce7d52e7	Treating varicose veins
+7f575912	injecting a solution that hardens and closes the vein
+35fed537	tying off (ligation) and pulling out the vein
+a453118f	closing the vein from inside with a laser
+8d430835	ligation = tying off (Latin ligare, to bind), like knotting the end of a tube.
+5813c073	keeping the vessel open
+5b9a64cf	surgical removal of plaque
+beb1f00c	closing a vein by injection
+41470956	replacement vessel
+13eb0287	Build a word meaning “removal of the inner layer of an artery”
+306f773f	Coronary bypass
+bc0db45c	<b>Coronary artery bypass graft</b> (CABG, said “cabbage”) means building a new route for blood around a narrowing: a healthy vessel (the great saphenous vein or internal mammary artery) is connected from the aorta to beyond the coronary narrowing.⟦0⟧
+da7d29a6	A bypass graft from the aorta to the left anterior descending artery, beyond the blockage.
+9f6e2141	In CABG, where is the graft vessel usually taken from?
+8c7e3337	the great saphenous vein of the leg
+3d824a49	Or the internal mammary artery of the chest.
+0c17708c	Artificial heart and lungs
+b0f7f444	In open-heart surgery the heart is stopped and <b>extracorporeal circulation</b> (circulation outside the body; extra- + corpor/o = body) is provided by the heart-lung machine, run by the perfusionist.⟦0⟧
+4139b67d	with the heart-lung machine and the heart stopped
+adf2704f	on the beating heart
+29287a3a	Extracorporeal circulation means circulation inside the heart.
+2dd97c66	False; extra- means outside; it is circulation outside the body.
+2a591b71	Valve surgery and transplant
+d5edd5ec	replacing a valve with a mechanical or tissue valve
+11867738	repairing a valve; sometimes with a balloon
+b4f2a252	cutting where the cusps have fused in mitral stenosis
+fe12f22f	VAD: a mechanical pump assisting the ventricle
+c9c1c3e7	IABP: a balloon in the aorta that inflates in diastole
+d65d0710	A patient with a mechanical valve takes warfarin for life; a tissue valve needs no long-term anticoagulant but wears out sooner.
+ac8e9477	valve repair
+eef49e77	cutting fused cusps
+b92b3b91	ventricle assist pump
+767d52da	coronary bypass graft
+b482fba9	In valvuloplasty, the root valvul/o means ___.
+18c77970	Which device inflates in diastole to increase coronary blood supply?
+9173597c	The IABP in the aorta.
+c0dc0e2d	Review of the level “Opening vessels and surgery”
+8b210185	angioplasty (PCI) with a balloon; atherectomy removes plaque; thrombolysis and embolectomy
+2ab3c708	a stent keeps the vessel open and prevents restenosis; antiplatelets afterwards
+f084c15e	endarterectomy in the carotid; aneurysmectomy with a graft; sclerotherapy and ligation and stripping for varicose veins
+98931551	CABG with the saphenous vein or internal mammary artery; extracorporeal circulation; valve replacement, valvuloplasty, VAD and IABP
+e3353b3d	Heart and blood pressure drugs
+abd2d1c4	The drug map
+c92eec00	Each drug class has its own place in the heart and vessels. All drugs that lower blood pressure are together called <b>antihypertensives</b> (anti- + hypertension).⟦0⟧
+a4ee6e07	Pressure and rate drugs
+363fc592	slows the heartbeat, lowers pressure
+3198e54b	widens vessels by blocking an enzyme
+46d43375	widens vessels, slows the heartbeat
+8f177f0a	removes water and salt in the urine
+563ee5fc	The drug name’s ending gives away its class: -olol beta blocker, -pril ACE inhibitor, -sartan ARB and -dipine calcium channel blocker.
+f4cda65f	Which class does lisinopril belong to?
+7d3ccbe8	Match each ending to its class
+0950343d	Heart drugs
+ddef6bad	• <b>nitroglycerin</b>: a vasodilator; under the tongue to relieve angina<br>• <b>digoxin</b>: stronger contraction and a slower rate in heart failure<br>• <b>antiarrhythmic</b>: steadies the rhythm, such as amiodarone<br>• <b>vasopressor</b>: narrows vessels and raises pressure in shock⟦0⟧
+e9ed2ef0	Nitroglycerin is placed under the tongue; if the pain is not gone after 3 tablets 5 minutes apart, an MI is likely and emergency services must be called.
+a2e92d39	Which drug does an angina patient put under the tongue for instant relief?
+b9d7d091	A fast vasodilator.
+c5ac1f17	A diuretic reduces swelling and blood pressure by removing water and salt.
+e1d0237f	Such as furosemide in CHF.
+a29fe9fb	A drug given to steady the heart rhythm is called an ___.
