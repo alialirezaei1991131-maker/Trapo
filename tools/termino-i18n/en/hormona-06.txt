@@ -1,0 +1,200 @@
+1d06ba05	Graves and Hashimoto are both autoimmune but opposites: Graves “steps on the accelerator”, Hashimoto “hits the brakes”.
+7736703d	Myxedema: advanced hypothyroidism
+6f6affe5	⟦0⟧ (⟦1⟧ mucus + ⟦2⟧ swelling): severe hypothyroidism in adults with dry, waxy swelling of the face, puffy eyelids, thick lips and nose, and slow movement and speech.⟦3⟧
+20f37e26	Puffy, expressionless face in myxedema
+565b9673	With hormone treatment, this appearance gradually reverses.
+e529398f	Which autoimmune disease is the commonest cause of hypothyroidism?
+3631de0b	Hashimoto = chronic lymphocytic thyroiditis.
+0d56baf0	Congenital hypothyroidism
+08f78886	⟦0⟧ (old name: ⟦1⟧): lack of thyroid hormone from birth. Untreated, the child’s physical and mental growth stops: a large protruding tongue, a puffy face and delayed development.⟦2⟧⟦3⟧
+2c78539b	Baby with congenital hypothyroidism
+85264518	With early screening and treatment, the child grows completely normally.
+35af72a0	That is why, in Iran and many other countries, a blood sample is taken from the heel of every newborn in the first days of life (newborn TSH screening).
+3da4c2f3	If congenital hypothyroidism is diagnosed and treated early, the child can grow normally.
+7776f7e0	True; treatment with synthetic thyroxine prevents the damage.
+579472ab	What is the modern name for cretinism?
+bfcd2fb3	congenital + hypothyroidism.
+8a800593	Normal thyroid
+dc5317f7	⟦0⟧ (⟦1⟧ = good, normal): a patient whose thyroid works normally. The aim of treatment, in both hyperthyroidism and hypothyroidism, is to make the patient euthyroid.
+aa724b95	severe hypothyroidism in an adult
+77e1950b	hypothyroidism from birth
+e134d931	autoimmune inflammation of the thyroid
+ee8031f2	Waxy facial swelling in severe adult hypothyroidism is called ___.
+c17354c6	myx/o (mucus) + -edema (swelling).
+3c2c7646	Build a word meaning “underactive thyroid”
+1c8118e0	Spell the term for waxy facial swelling in severe adult hypothyroidism
+278f26ea	Goitre and nodules
+9ee74806	Goitre: an enlarged thyroid
+76a61aef	⟦0⟧ (from the Latin ⟦1⟧ = throat) means enlargement of the thyroid, seen as a swelling at the front of the neck. Its other scientific name is ⟦2⟧.<br>A goitre is only a “sign”, and thyroid function may be high, low or normal.⟦3⟧
+f1f05fde	Goitre from iodine deficiency
+b045044b	A very large goitre
+7aa1242f	A simple goitre usually comes from iodine deficiency in the diet.
+1b24c4ad	Types of goitre
+11120a3e	from iodine deficiency; thyroid function usually normal
+d5d9d7b9	a goitre that makes too much hormone → hyperthyroidism
+13ad8e5b	another name for Graves
+c3108e6a	nodular goitre
+69004d95	Small diffuse goitre (Graves)
+b52a3b6a	Large nodular goitre
+f7f7c34e	Which statement about goitre is correct?
+2923f1f6	a goitre means an enlarged thyroid and may come with overactivity, underactivity or normal function
+fc3849ac	a goitre is always a sign of cancer
+0d263ffc	a goitre is seen only in hyperthyroidism
+269df2be	a goitre means inflammation of the parathyroid
+a4f89531	Goitre describes the gland’s “size”, not its “function”.
+a28fc51d	Thyroid nodule
+e0ac0c02	⟦0⟧: a solid or fluid-filled lump inside the thyroid. Most nodules are <b>benign</b> (such as an ⟦1⟧), but they are investigated to rule out ⟦2⟧ (thyroid cancer).⟦3⟧
+03e05b71	Thyroid ultrasound (thyroid echography) tells a solid nodule from a fluid cyst; a thyroid scan shows whether a nodule is “cold” or “hot”.
+45ce6b59	⟦0⟧ and ⟦1⟧ both mean enlargement of the thyroid.
+7d252afa	True; thyr/o + -megaly.
+4f31a60b	Match each type of goitre to its description
+4859750a	iodine deficiency
+8d30c7ac	with hyperthyroidism
+ed55b205	lumpy
+6d3b4e75	What is the commonest cause of simple goitre worldwide?
+d370c624	iodine deficiency in the diet
+1be91b08	a pituitary tumour
+565dccfc	too much insulin
+fbca3e67	Without iodine, the thyroid enlarges to compensate.
+26a67156	Inflammation of the thyroid is called thyroid___.
+5c9b3e55	Build a word meaning “enlargement of the thyroid”
+741365b5	Spell the term for an enlarged thyroid gland
+b5993f3d	goiter (goitre in British English).
+507ca027	Parathyroid disorders
+6185fbdf	Too much PTH: bones and stones
+017e5bb4	⟦0⟧: oversecretion of PTH, usually from a parathyroid <b>adenoma</b>.<br>Calcium is pulled out of bone → ⟦1⟧, thinning and pain of the bones, and <b>kidney stones</b> (⟦2⟧).<br>The severe form of the bone damage is called ⟦3⟧.⟦4⟧
+e4f5ba41	For hyperparathyroidism: “Bones, Stones, Groans”; painful bones, kidney stones and groaning from abdominal pain.
+2b033d21	Too little PTH: tetany
+794515d6	⟦0⟧: low PTH → ⟦1⟧ (low blood calcium).<br>Low calcium makes nerves and muscles “irritable”: tingling around the mouth (⟦2⟧) and fingers, and ⟦3⟧, painful muscle spasms, especially sharp bending of the wrists and feet, and even seizures (⟦4⟧).⟦5⟧
+1ae28497	The commonest cause of hypoparathyroidism is accidental damage to or removal of the parathyroids in thyroid surgery; treatment: calcium (such as calcium gluconate) and vitamin D.
+ef7a5b5a	A day after thyroid surgery, a patient complains of tingling around the mouth and fingers, and the hands cramp. What has happened?
+b4622dd2	hypocalcaemia from damage to the parathyroids
+8cf4e81b	hypercalcaemia
+8cb0743a	Tetany and perioral numbness = low calcium → hypoparathyroidism.
+48d78ed8	thyroidectomy yesterday
+eef8045a	tingling around the mouth and fingers
+b7297c1b	wrist spasm
+a8d5c2e6	serum calcium
+5b70a761	Match each condition to its sign
+a7b62c9b	kidney stones and bone pain
+360812c0	tetany and tingling
+a3dc1a72	high blood calcium
+0d270a7b	Tetany is a sign of high blood calcium.
+c5f8e8df	False; tetany is a sign of “low” blood calcium (hypocalcemia).
+aab87f9e	What is the commonest cause of primary hyperparathyroidism (PHPT)?
+06681788	a benign adenoma of one parathyroid
+dbb49baf	PHPT = primary hyperparathyroidism. The secondary form is seen mostly in chronic kidney failure.
+300aaee0	High blood calcium is called hyper___emia.
+cbdf9e79	hypercalcemia; don’t confuse it with hyperkalemia (potassium).
+76cd1002	hypo- (low) + parathyroid/o + -ism (condition).
+3489f10f	Build a word meaning “low blood calcium”
+19624e9b	Spell the term for painful muscle spasms from low calcium
+73540908	tetany: spasm from low calcium (don’t confuse it with tetanus, lockjaw).
+ff048901	Thyroid tests and imaging
+a1f3e358	What does it measure?
+f1236b5d	levels of T3, T4 and TSH
+3146cb87	the most sensitive screening test
+bc766c77	free T4, FTI (T7)
+5f55acec	the thyroxine-carrying protein
+56f40773	protein-bound iodine (an old way of measuring T4)
+f0816346	a very sensitive method of measuring hormones with radioactive materials
+0e06ea5b	Read TSH the other way round!
+8a99338b	Because of <b>negative feedback</b>, TSH usually moves opposite to the thyroid hormones:⟦0⟧⟦1⟧
+8c6f3271	T3 and T4 high → TSH low
+40be655d	T3 and T4 low → TSH high
+1c8a0fe4	TSH is like “the pituitary’s shout”: the lazier the thyroid, the louder the pituitary shouts (higher TSH).
+b8b45811	In primary hypothyroidism (such as Hashimoto), what is the TSH level?
+8fe6e53e	zero
+d49909c7	Low T4 stimulates the pituitary to make more TSH.
+a6da9227	how much radioactive iodine the thyroid absorbs (overactive: a lot)
+058816a8	image of the thyroid after radioactive iodine: nodules and tumours
+09c4584b	ultrasound: whether a nodule is solid or cystic
+af982016	Diagnostic radioactive iodine is a very small dose, but it is not done in pregnancy.
+c546bcbc	Match each test to its use
+c44a4b7e	amount of iodine uptake
+909e29db	image of nodules and tumours
+bc792e2a	telling a solid nodule from a cyst
+ef76933d	In hyperthyroidism from Graves, radioactive iodine uptake (RAIU) is usually high.
+c8c5c515	True; an overactive gland swallows a lot of iodine to make hormone.
+73a19f6c	measuring tiny amounts of hormone with antibodies and a radioactive label
+55a255a3	surgery with radiation
+6ced6b73	imaging with sound
+c8902675	treatment with iodine
+f2c14a0b	radi/o (radiation) + immun/o (immunity) + assay (measurement) = RIA.
+4917e132	The abbreviation for the radioactive iodine uptake test is ___.
+6e5c5976	A lab result reads: “⟦0⟧ low, ⟦1⟧ high”. Which does this pattern favour?
+8522a5ac	High T4 has lowered TSH through negative feedback.
+171118d5	Thyroid surgery and drugs
+84961b96	removal of the thyroid (total or partial)
+4a079365	incision of the thyroid (or thyroid cartilage)
+3df8e8d0	removal of the thyroid and parathyroids
+7ef7898d	Today thyroidectomy is also done by minimally invasive and even robotic methods through the armpit, so no scar is left on the neck.
+9628b605	In thyroid surgery, ⟦0⟧ means…
+7398dc0e	removal of one of the two lobes
+6558b75a	removal of the whole thyroid
+0e7a9f14	incision of the isthmus
+58b5f0c5	removal of the parathyroids
+438d698b	lob/o (lobe) + -ectomy.
+5122f090	Three ways to treat hyperthyroidism
+a1f27de6	antithyroid drug
+19694ac4	RAI, I-131
+7438ff41	: “chemical thyroidectomy”
+e50e0e9a	Three ways, three words: “pill, iodine, blade”.
+a43428cb	Jasmine (a Graves patient) was given Tapazole to control her hyperthyroidism. Which class is this drug in?
+0c0ab69d	antithyroid drug
+e6c8dc76	methimazole (Tapazole) blocks the making of thyroid hormone.
+6df0deba	After total removal of the thyroid, the patient must take thyroid hormone for life.
+8b93ebf6	True; with levothyroxine (synthetic T4).
+0b49eba0	Treating hypothyroidism
+357c1ba2	Hypothyroidism is treated with <b>replacement hormone</b>: ⟦0⟧ (synthetic T4) or ⟦1⟧ (synthetic T3).⟦2⟧
+e1fa5eab	Levothyroxine is usually taken in the morning on an empty stomach with water; the doctor adjusts the dose by the TSH.
+2f0f7158	Match each drug or treatment to its use
+9a8a1bd4	destroying overactive tissue or tumour
+7729a4a6	low calcium after surgery
+125d72f0	Destroying the thyroid with radioactive iodine instead of surgery is called ___ thyroidectomy.
+33967c73	laparoscopic
+e5b21d4e	robotic
+e910c1e1	Build a word meaning “removal of the thyroid and parathyroids”
+5d28a4b8	Spell the name of synthetic T4
+eda951c8	Cortex and medulla, cortisol, aldosterone, adrenaline, Cushing, Addison and adrenal tumours
+3a82f518	A cap on the kidney
+db5fa626	Overactive cortex
+2c09b43a	Underactivity, tumours and treatment
+57355a7d	Two glands in one
+3a251ff5	cap of the kidney
+3f61abf4	The ⟦0⟧ are two triangular glands that sit like <b>caps</b> on each kidney:<br>⟦1⟧ → “near the kidney”<br>⟦2⟧ → ⟦3⟧: “above the kidney”⟦4⟧⟦5⟧
+fd05eddc	Each adrenal has two parts that are really two separate glands with different hormones.
+41a6bb7c	adrenal and suprarenal mean the same thing; one is built with ad- (near) and the other with supra- (above).
+1a96f361	Cortex and medulla
+345a2d7f	outer cortex (cortex = tree bark): steroid hormones
+cb5582ca	inner centre (medulla = marrow): epinephrine and norepinephrine
+8e4eb53f	In anatomy, cortex always means the outer layer (as in the cortex of the kidney or brain) and medulla the central part. This rule works for every organ.
+b34a7a60	What is the outer part of the adrenal gland called?
+1cb99746	cortex = tree bark; the outer layer.
+0a9b2864	⟦0⟧ and ⟦1⟧ are the same hormone, and both mean “on the kidney”.
+7a1451c5	True; epi- (upon) + nephr/o (kidney) is Greek and ad- + ren/o Latin. Neither has anything to do with how the kidney works; they only give its position!
+778b6bb5	near the kidney
+76b32453	above the kidney
+a9546569	central part
+e53215de	Which roots both mean “kidney”?
+cc5f0424	ren/o and nephr/o
+6240ffb6	aden/o and adren/o
+5b1e4d4c	cortic/o and medull/o
+73e6429e	calc/o and kal/i
+a3428c78	ren/o is Latin and nephr/o Greek.
+006c11b1	Another name for the adrenal glands is the ___ glands.
+e43d47c9	supra- (above) + ren/o (kidney) + -al.
+91649796	Build a word meaning “enlargement of the adrenals”
+b0ac71e7	Spell the adjective for the glands on the kidneys
+8e47d16c	The adrenal cortex: salt, sugar, sex
+6b5550d9	Three families of hormone
+48a37150	All the hormones of the cortex are made from <b>cholesterol</b> and together are called ⟦0⟧:⟦1⟧⟦2⟧
+48dffcff	Salt (mineralocorticoids), sugar (glucocorticoids) and sex (gonadocorticoids).
+19dd6dfb	The adrenal cortex makes three “S”s: Salt, Sugar, Sex.
+3771bcba	Cortisol: the stress hormone
+d8ca5c70	⟦0⟧ (or ⟦1⟧) is the most important ⟦2⟧:<br>• it raises blood sugar (⟦3⟧);<br>• it releases fat and protein for energy;<br>• it suppresses inflammation and the immune response;<br>• it helps the body cope with stress.⟦4⟧
+93f4e7ce	Because cortisol is a strong anti-inflammatory, its drug forms (such as prednisone) are prescribed for asthma, rheumatoid arthritis and autoimmune diseases.
+156730e2	Which hormone is the most important glucocorticoid?
+a303ab3a	gluco (sugar) + cortic (cortex) + oid: cortisol raises blood sugar.
+9ed31802	Aldosterone: the salt hormone
+aa7ebf9e	⟦0⟧ is the most important ⟦1⟧ and acts on the kidney:<br>• it keeps <b>sodium</b> (⟦2⟧) and water;<br>• it gets rid of <b>potassium</b> (⟦3⟧);<br>• so it keeps blood volume and blood pressure up.⟦4⟧

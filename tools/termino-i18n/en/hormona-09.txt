@@ -1,0 +1,184 @@
+50bc1c18	In DKA the body is like a stove that burns the furniture (fat) instead of firewood (sugar), and the house fills with acidic smoke.
+5a92016c	A 12-year-old girl with two months of weight loss, polyuria and polydipsia is admitted with a blood sugar of 300 and acidosis. Admission diagnosis?
+0a8d0ef6	ketoacidosis in newly diagnosed type 1 diabetes
+18c00552	High sugar + acidosis + ketones = DKA; she improved after insulin.
+ff95a9d2	12 years old
+f84a1a43	weight loss, polyuria, polydipsia
+f75a425e	ketoacidosis, glycosuria
+f1ca11b0	⟦0⟧: a severe drop in blood sugar caused by too much insulin. Signs: shakiness, a fast heartbeat, cold sweating, hunger, confusion and finally coma.<br>⟦1⟧: too much insulin in the blood; from an overdose of the drug or a tumour called an ⟦2⟧.⟦3⟧
+6bcd8d83	A patient who injects insulin should always carry a quick sugar source and an ID card for the condition.
+7ac651f9	Comparing the two emergencies
+6ac08e24	DKA (high sugar)
+9d9785e7	gradual (hours to days), dry skin, thirst, deep breathing, fruity breath
+c6327bed	hypoglycaemia (low sugar)
+94c3f79b	sudden (minutes), cold and clammy skin, shakiness, hunger, confusion
+57075d81	build-up of ketones
+6341c2ea	acidification of the blood
+3e36759f	acidosis caused by ketones
+13a6e2c4	drop in sugar from too much insulin
+df909142	In diabetic ketoacidosis, the patient’s skin is cold and wet with sweat.
+4cbc691a	False; cold, clammy skin (diaphoresis) is more a sign of low sugar. In DKA the patient is dehydrated and the skin is dry.
+fc149911	A 22-year-old student became confused and unsteady after just one drink. In the emergency department he has high blood sugar and ketoacidosis, and needle marks are seen on his abdomen and thighs. The main problem?
+db1fd89e	uncontrolled type 1 diabetes with DKA
+08c21236	alcohol poisoning
+48c8dc11	hypoglycaemia
+20a12ef7	Insulin injection sites, high sugar and acidosis → DKA. He recovered quickly with insulin.
+16677d5c	The abbreviation for diabetic ketoacidosis is ___.
+5edeb5e4	Build a word meaning “acidosis caused by ketones”
+681e2800	Spell the term for acidosis caused by ketones
+b06a9efe	High sugar eats away at the vessels
+167820cb	Long-term high sugar damages small and large vessels and nerves:⟦0⟧⟦1⟧
+c85e4ef3	Eye, kidney, nerve and the heart and vessels: the four main targets of the chronic complications.
+f83de969	damage to retinal vessels; blurred vision up to blindness
+e35c26b2	kidney damage; kidney failure and dialysis
+291dd65f	nerve damage; numbness, tingling, pain
+2a7320b7	Vascular disease
+03e849ad	atherosclerosis, heart attack and stroke, gangrene
+24e82b2c	retinal damage caused by diabetes
+0b1d1aa1	kidney damage caused by diabetes
+7000640a	nerve damage in the foot
+ed16f114	retin/o (retina) + -pathy (disease).
+ff63f4cc	Match each complication to its organ
+27837f30	skin (foot ulcer)
+381ffe5d	The diabetic foot
+2900b44a	⟦0⟧ reduces feeling in the feet; the patient does not feel a wound or a foreign body. Together with poor blood supply, a wound (⟦1⟧) does not heal and may become infected.⟦2⟧
+acd9ef90	In a surgical note you read: “nonsalvageable infection of the left heel in the context of peripheral diabetic neuropathy and poor circulation”, meaning a heel infection that can no longer be saved, so amputation is needed. A daily foot check prevents this disaster.
+77399e6c	A 59-year-old man with uncontrolled type 1 diabetes has a foul-smelling heel ulcer but feels little pain, and his foot pulses cannot be felt. Which two factors play the main part here?
+9479d98b	peripheral neuropathy and poor blood supply
+59ae81d7	retinopathy and nephropathy
+d8ae8180	lack of iodine and calcium
+5fa21635	Numbness (neuropathy) + poor blood supply = diabetic foot ulcer.
+fa8c876c	59-year-old man, long-standing T1DM
+1b604a4b	heel ulceration and erythema
+344dc985	no pulses, no deep sensation
+73f97a8a	A yearly eye examination is recommended for diabetic patients.
+4274388d	True; early retinopathy has no symptoms, and timely treatment prevents blindness.
+c35ffee0	Kidney damage caused by diabetes is called diabetic ___.
+febee118	nephr/o (kidney) + -pathy.
+32de27e0	In ⟦0⟧, the root neur/o means…
+0a06c129	Build a word meaning “disease of the retina”
+e3ea12e4	Spell the term for nerve damage
+abc01668	Treating diabetes and pancreatic diseases
+a7c67f3e	⟦0⟧ is now made by genetic engineering (such as ⟦1⟧) and comes in rapid-acting, intermediate-acting (⟦2⟧) and long-acting forms.<br>• <b>subcutaneous</b> injection (⟦3⟧) in the arm, thigh or abdomen, rotating the injection site;<br>• ⟦4⟧: a device the size of a pack of cards that delivers insulin continuously under the skin (⟦5⟧) and gives an extra dose (⟦6⟧) before each meal.
+afe473b2	What does the abbreviation CSII mean?
+9cdafa7c	Oral drugs and their names
+cb0e136c	sugar-lowering tablets in type 2; such as metformin (Glucophage) and glipizide
+45bf0e80	drugs that control blood sugar in diabetes
+11042e95	a drug that lowers high sugar
+2a05404c	an agent that raises low sugar (such as glucagon)
+6d17d8d4	anti-hypo-glycemic = “against low sugar” → it raises sugar! Read the prefixes one by one from the left.
+4e84e1db	What effect does an ⟦0⟧ have?
+e24fc324	it raises low blood sugar
+312a55ca	it increases insulin secretion
+dd45ed9b	anti- (against) + hypoglycemia (low sugar).
+cef54281	Oral sugar-lowering drugs are enough as the main treatment for type 1 diabetes.
+2548ebbd	False; in type 1 no insulin is made, and insulin injections are essential.
+05ae83db	Other pancreatic diseases
+efc038c0	inflammation of the pancreas; mostly from alcohol or gallstones
+80532409	islet cell tumour making too much insulin → low sugar
+63500d8f	removal of part or all of the pancreas
+9936e308	transplant of healthy islet cells
+f4b120e5	In pancreatitis, digestive enzymes “digest” the pancreas itself instead of the intestine; severe abdominal pain that spreads to the back.
+0db6e4f1	insulin-making tumour
+bd51ebe5	islet transplant
+2a1b0ea2	Maria (32, type 1 diabetes since age 3) wants more freedom with her meals. Which method does the doctor suggest?
+c02c558b	an insulin pump with a bolus before meals
+e2b6ae85	stopping insulin and starting metformin
+42dbf280	An insulin pump (CSII) gives continuous basal insulin and meal boluses.
+eb601a30	A drug that lowers high blood sugar is called anti___glycemic.
+768a7e2e	Build a word meaning “insulin-making islet tumour”
+3e13dde0	Spell the name of the first-line oral drug for type 2 diabetes
+bfd56ed1	Other Glands, Diagnosis and Treatment
+e15f2a2b	Pineal, thymus, gonads, tests and imaging, operations, drugs and a summary of overactivity and underactivity
+0704cc57	The quiet glands
+bf09dfa2	Laboratory and imaging
+d594caf9	Treatment and summary
+0bb50a6f	The pineal: the body’s clock
+f89c9f36	A gland shaped like a pine cone
+28c29923	The ⟦0⟧ (⟦1⟧ = like a pine cone) is a small gland deep in the brain that makes the hormone ⟦2⟧.<br>Melatonin rises in <b>darkness</b> and falls in <b>light</b>, and it regulates sleep and waking through the ⟦3⟧ (the 24-hour rhythm).⟦4⟧
+8a5b4995	Light on the eyes → nerve signal → less melatonin → wakefulness. Darkness → more melatonin → sleep.
+d94c1d25	In which conditions is more melatonin secreted?
+4d7679ee	in darkness
+08c518f7	in bright light
+4d2aea85	during exercise
+6691fc11	Melatonin is the night hormone and makes sleep easier.
+55c04355	⟦0⟧ (⟦1⟧): in the short, dark days of winter some people become sleepy, depressed and overeat; probably because of high melatonin.⟦2⟧⟦3⟧
+5355a1ac	Light therapy (15 minutes of bright light after waking) helps most patients with SAD. Its abbreviation is fitting too: SAD!
+7cfcf922	circa = about, dies = day: “about a day”. The body’s internal clock runs at roughly 24 hours.
+b928e80a	The pineal gland has only one job: making a hormone.
+8b746943	True; like the thyroid and adrenal, it is a “single-purpose” gland.
+ed4caa20	the brain’s pine-cone gland
+3d5a38d1	sleep hormone
+72a8e945	24-hour rhythm
+e05c0b77	A traveller who has flown from Tehran to Vancouver takes which hormone as a supplement to reset their sleep?
+43f26e54	Melatonin is used for jet lag and to reset the sleep–wake cycle.
+fa51ef03	Removal of the pineal is called pineal___.
+5d01cedb	Build a word meaning “removal of the pineal gland”
+a2cb5cff	Spell the term for the pineal sleep hormone
+0ad0625e	melatonin; don’t confuse it with melanin (the skin pigment).
+718e7b27	The thymus: school for T cells
+79847914	The gland of childhood
+51eb2998	The ⟦0⟧ lies behind the breastbone, above the heart (in the ⟦1⟧). It belongs to both the immune system and the endocrine system, because it makes the hormone ⟦2⟧.<br>Thymosin helps <b>T lymphocytes</b> (⟦3⟧) mature; the “T” comes from Thymus.⟦4⟧
+ca65931f	The thymus is large in childhood, shrinks after puberty and is replaced by fat.
+e4233cb8	What role does thymosin play?
+cf2000ef	helping T lymphocytes mature
+900a6b92	regulating blood sugar
+b41fd441	regulating sleep
+7ecf2be8	T cells are “trained” in the thymus.
+f9848940	thym/o or thyr/o?
+75653a33	thymus: thymoma, thymectomy, thymitis
+7a190195	thyroid: thyroma, thyroidectomy, thyroiditis
+9f0a2a7b	The thyMus sits in the Mediastinum (chest); the thyRoid Rides on the trachea in the neck.
+15e44b09	⟦0⟧ is sometimes done in myasthenia gravis or for a thymic tumour.
+7ef9e9a6	True; removing the thymus in myasthenia gravis can improve the symptoms.
+7a1f0ae4	How does the size of the thymus change over a lifetime?
+381d4eda	large in childhood, shrinking after puberty
+8f67ce30	it grows from birth to old age
+0f58a380	it always stays the same
+eb53ea4d	it enlarges only in pregnancy
+1472c573	Its role matters most in the first years of life, as the immune system forms.
+40563770	The T in “T lymphocyte” comes from the name of the ___ gland.
+936d2ecc	Build a word meaning “tumour of the thymus”
+7dfce605	Spell the term for the thymus hormone
+b1668979	Gonads
+46b5374e	The ⟦0⟧ (sex glands) have two jobs: making <b>gametes</b> (⟦1⟧: eggs and sperm) and making sex hormones.⟦2⟧⟦3⟧
+c43a49fe	FSH and LH from the pituitary switch on the ovaries and testes.
+1c99649a	female characteristics, the menstrual cycle
+4f98b269	preparing the uterus for pregnancy
+9014e806	male characteristics, sperm production
+6178a7d7	pro-gest-erone: “for gestation”; progesterone prepares the uterus for pregnancy.
+f1aaa8c2	Where is progesterone secreted from and what does it do?
+96c6a9cd	from the corpus luteum of the ovary; it prepares the uterus for pregnancy
+5690e949	from the testis; it makes sperm
+23313c8b	from the pituitary; it stimulates the ovary
+cbeb5bb4	from the placenta; it makes milk
+2c1bb048	The corpus luteum makes progesterone after ovulation.
+4c6a53c5	HCG: the pregnancy hormone
+e4e610bf	⟦0⟧ (⟦1⟧): after implantation, the placenta makes this hormone so the corpus luteum keeps making estrogen and progesterone. This is the hormone measured in a “pregnancy test”.
+71635592	Disorders
+f9f7480e	polycystic ovary syndrome: excess androgen, irregular or absent periods, acne, excess hair, insulin resistance
+57d807cf	absence of periods in the reproductive years
+9f5d10ae	PCOS is both a gland disease and a metabolic disease; many patients have insulin resistance and may also take metformin.
+1dfcabfe	Match each hormone to its source
+dadf9241	⟦0⟧ means painful periods.
+110f8d78	False; a- (without) + men/o (menstruation) + -rrhea (flow): “absence” of periods.
+0afa1020	Underactivity of the sex glands is called hypo___ism.
+830ff5aa	Build a word meaning “underactivity of the sex glands”
+cabe6ff8	Spell the term for the main male sex hormone
+2499bc64	test (testis) + ster + -one.
+4a5c07e9	Blood and urine tests
+1a4784eb	Most hormones and important substances are measured in a blood sample (⟦0⟧): calcium, cortisol, electrolytes, FSH, GH, glucose, insulin, PTH, T3, T4, testosterone and TSH.⟦1⟧
+206af4cf	To assess
+1cc94dfa	parathyroid and bone
+e232a4d8	adrenal tumours
+1e4a01af	ovarian function
+6f7e61ee	abnormal milk secretion
+eb3a87d9	testis and adrenal
+499bf4a5	These can also be measured in urine: <b>calcium</b>, <b>catecholamines</b> (pheochromocytoma), free cortisol, electrolytes, <b>ketones</b> and <b>glucose</b> (⟦0⟧).⟦1⟧
+89c82228	A urine dipstick shows sugar and ketones within seconds; the first clue in a child suspected of diabetes.
+dcc53559	To investigate pheochromocytoma, which substance is measured in the urine?
+784b4d20	ketones
+e0562fa5	The medullary tumour makes a lot of epinephrine and norepinephrine, whose breakdown products are excreted in the urine.
+9741442d	RIA: the most sensitive scale
+2e584f6b	⟦0⟧ (⟦1⟧): a method of measuring tiny amounts of a hormone in plasma using a specific <b>antibody</b> and a <b>radioactive</b>-labelled hormone.<br>⟦2⟧
+b74aa01e	Match each test to its gland

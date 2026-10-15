@@ -1,0 +1,192 @@
+8db3d717	Even the heart makes hormones: the atria secrete ANP, which helps lower blood pressure. The kidney also makes renin and erythropoietin.
+9b2cc016	Which gland is called the “master gland”?
+4f777738	pituitary
+ba79a0a7	thyroid
+fb2617f6	thymus
+6d64297d	pancreas
+0bc88caa	Pituitary hormones regulate the work of many other glands; the pituitary itself is under the command of the hypothalamus.
+cfe35b7e	front of the neck, below the larynx
+40e4be32	on top of the kidneys
+1befa9e5	under the brain, in the sella turcica
+ca25ff7f	behind the breastbone, above the heart
+d854e4ec	behind the stomach
+5807bc98	The parathyroid glands lie on the back surface of the thyroid.
+ca15aa62	True; para- means “beside”. They are usually four small glands.
+28919e1d	Which organ is “dual-purpose”, making hormones and also doing another job in the body?
+74cd79f2	The pancreas also makes digestive enzymes. The thyroid, parathyroid and pineal make only hormones.
+9a90bbb5	Glands and their hormones
+cf3616aa	Main hormones
+20e1fdb8	GH, TSH, ACTH, FSH, LH, PRL, ADH, oxytocin
+7d89a7d6	T3, T4, calcitonin
+202d78d9	cortisol, aldosterone, epinephrine
+f4666b86	insulin, glucagon
+3334efc3	estrogen, progesterone, testosterone
+ed7c0725	This table is the treasure map of the whole course; each world opens one of its rows.
+3c2f729b	Match each hormone to its gland
+c487c31c	Spell the one-word name of the master gland
+acbeb29f	pituitary; careful: pi-TU-i-tary (two i’s).
+ee7dc78e	Most medical words are built from a few fixed pieces:<br>• <b>prefix</b> (⟦0⟧) at the start: ⟦1⟧ = excessive<br>• <b>root</b> (⟦2⟧) in the middle: ⟦3⟧ = thyroid<br>• <b>suffix</b> (⟦4⟧) at the end: ⟦5⟧ = condition⟦6⟧
+d30c3555	hyperthyroidism: condition of excessive thyroid activity = overactive thyroid.
+d8abab16	A root is usually joined to the next piece with a <b>combining vowel</b> (mostly o). Root + vowel is called the <b>combining form</b> (⟦0⟧) and is written with a slash: ⟦1⟧, ⟦2⟧.<br><br>Golden rule: if the suffix starts with a <b>vowel</b>, the o drops:<br>• ⟦3⟧ → <b>thyroiditis</b> (not thyrooitis)<br>• ⟦4⟧ → <b>thyromegaly</b> (the o stays)⟦5⟧
+e834a161	The o is like “glue”: it is needed between two consonants; when the suffix itself starts with a vowel, the glue is extra.
+f4c6f476	In the word ⟦0⟧, why is there no o?
+d5267bcd	because adrenal is a prefix
+cc19d69c	because the word is Latin
+eb381a28	adrenal/o + -itis: the suffix starts with i, so no o is needed.
+c581ce1c	To find the meaning, <b>start from the suffix</b>, then the prefix, and read the root last:<br>⟦0⟧ → “condition of the blood” + “low” + “sugar” = <b>low blood sugar</b><br>⟦1⟧ → “enlargement of” + “adrenal”<br>⟦2⟧ → “inflammation of” + “pancreas”⟦3⟧
+16abb1d4	First ask “what happened?” (suffix), then “how much?” (prefix) and finally “where?” (root).
+06c72080	the o in glyc/o
+f6d10b3f	hypo- (low) + glyc/o (sugar) + -emia (blood condition). Written from left to right; interpreted from the end.
+aac57960	In ⟦0⟧ the o stays, because the suffix -megaly starts with a consonant.
+7ccd61bb	True; thyr + o + megaly.
+84eb1503	In the word hyperthyroidism, the piece ___ is the prefix.
+c0843dce	hyper- = excessive; thyroid is the root and -ism the suffix.
+4030899b	Build a word meaning “inflammation of the pancreas”
+59564804	Spell the term for an overactive thyroid
+cdbac29b	Gland roots
+b677c680	One root per gland
+3fcdb382	gland (any gland)
+2678a17d	thyr/o means “shield”: the thyroid cartilage looks like a Greek warrior’s shield.
+da2fcc86	Two dangerous pairs
+39364791	any gland: adenoma, adenitis
+0f1f6795	only the adrenal gland: adrenomegaly
+2314a44c	thyroid in the neck
+65706298	thymus in the chest
+109bda51	⟦0⟧ = ⟦1⟧ (near) + ⟦2⟧ (kidney): the gland “near the kidney”. One extra r changes the meaning from “any gland” to “adrenal”!
+dc6777bd	benign tumour of a gland
+3da47024	adrenal tumour
+8519b3f4	aden/o (gland) + -oma (tumour); it can be in any gland.
+02adb245	Which organ is removed in an ⟦0⟧?
+66e28ef3	any gland
+7a87437e	adrenal/o = adrenal; -ectomy = removal.
+405dcee0	⟦0⟧ means removal of the thyroid.
+67436b73	False; thym/o is the thymus. Removal of the thyroid is thyroidectomy.
+27bf993e	Match each root to its gland
+f18d0589	Two names for the pituitary
+e9aab93d	The pituitary has two roots:<br>• ⟦0⟧: from ⟦1⟧ (under) + ⟦2⟧ (growth), because it grows <b>under</b> the hypothalamus → <b>hypophysectomy</b><br>• ⟦3⟧: from the Latin ⟦4⟧ (phlegm), because the ancients thought it made nasal mucus! → <b>hypopituitarism</b>⟦5⟧
+2062624f	In operation reports you usually see hypophysectomy, and in describing disease hypopituitarism; both refer to the same gland.
+d0891760	The root ___, like pituitar/o, means pituitary.
+798cc300	hypophysis is another name for the pituitary gland.
+8b46e91f	Build a word meaning “removal of the pituitary”
+4437d93e	Spell the term for a benign gland tumour
+328c575f	Most gland diseases: too much or too little
+84f5dfae	Almost every gland disease comes either from <b>too much</b> secretion or from <b>too little</b>:⟦0⟧⟦1⟧⟦2⟧
+ca89a169	Hypersecretion usually comes from a tumour and is treated with surgery or drugs; hyposecretion usually with replacement hormone.
+d2e59036	excessive, above normal: hyperthyroidism
+5ba363b2	below normal, under: hypothyroidism
+788963bd	Remember ⟦0⟧ with “hippo”: always <b>under</b> water. ⟦1⟧ is like a “hypermarket”: more than enough!
+7f4f03a6	hypo- (low) + glyc/o (sugar) + -emia (blood condition).
+0629a53e	Other common prefixes
+e33a6f69	The patient is ⟦0⟧. That means…
+5d7e9b99	the thyroid works normally
+8eea73a4	the thyroid is overactive
+cde1df19	the thyroid is underactive
+99fa76e5	there is no thyroid
+945d056c	eu- = good, normal. For example, after treatment the patient becomes “euthyroid”.
+09fb25f7	⟦0⟧ and ⟦1⟧ both mean the gland that sits on (beside) the kidney.
+1dbba70f	True; supra- (above) and ad- (near) + ren/o (kidney). epinephrine says the same with the Greek root nephr/o.
+84dff993	Three prefixes in one word
+ea4dc6e0	⟦0⟧ → <b>panhypopituitarism</b><br>Read from the end: “condition” + “all” + “underactivity” + “pituitary” = underactivity of <b>all</b> the pituitary hormones.⟦1⟧
+dbb6687a	In a patient with a large pituitary tumour or bleeding after childbirth, all the axes (thyroid, adrenal, gonads) may shut down at once.
+95d39da3	In exophthalmos, the prefix ___ means “out”.
+e3468e6a	ex- (out) + ophthalm/o (eye): bulging of the eyes.
+4cf5c033	Build a word meaning “underactivity of all pituitary hormones”
+e2d25256	Everyday suffixes
+051854d2	-ism is just “condition”, not a specific disease; the prefix hyper- or hypo- decides what kind of condition.
+0b890fc9	Three fluid suffixes
+0cdf4a45	⟦0⟧And the roots for chemicals in the blood:<br>⟦1⟧ calcium • ⟦2⟧ potassium • ⟦3⟧ sodium • ⟦4⟧ sugar⟦5⟧
+cf032369	⟦0⟧ comes from kalium (the Latin name for potassium, symbol K) and ⟦1⟧ from natrium (symbol Na). Know the chemical symbol and you know the root!
+5cbaacac	low blood sodium
+223d5291	high blood potassium
+7e8132d9	low blood calcium
+7a3d6dbc	hypo- + natr/o (sodium) + -emia.
+d872d645	Match each root to its substance
+b7d23e09	sugar in the blood
+7000ed51	glycos/o (sugar) + -uria (urine condition).
+fa84c2c7	⟦0⟧ means high blood calcium.
+05e3a14b	False; kal/i is potassium. High blood calcium is hypercalcemia. Don’t mix these two words up!
+efc0a1ae	polydipsia means excessive ___.
+3d1b9bc1	hunger
+6c251c97	poly- (much) + -dipsia (thirst). Excessive urine is polyuria.
+57bb57d3	Put the pieces of ⟦0⟧ in order
+53c173d3	hyper- (excessive) + calc/o (calcium) + -emia (blood condition).
+649a5a14	Build a word meaning “high blood potassium”
+d35f0990	Hormone and surgical suffixes
+160fee63	Suffixes you see in hormone names
+c2c76036	stimulating (another gland)
+da299bde	thyrotropin, gonadotropic
+6f1ba946	androgen, estrogen
+ef1710ce	-ine, -in, -one
+e02be39f	thyroxine, insulin, aldosterone
+7b1c9408	Picture ⟦0⟧ as a “troupe” that puts on a show for another gland to get it working.
+fb015507	A ⟦0⟧ is a hormone that…
+f91edf78	stimulates the sex glands
+42e4d797	is made by the sex glands
+b061bffe	inhibits the thyroid gland
+af81a294	gonad/o (sex glands) + -tropin (stimulating): like FSH and LH.
+83df315a	⟦0⟧ means “producing male (characteristics)”.
+ae24dc36	True; andr/o (man) + -gen (producer), like testosterone. estr/o + -gen = estrogen, the female hormone.
+2d652d0b	The two surgical suffixes that get mixed up most:⟦0⟧⟦1⟧⟦2⟧
+279d6e69	cutting: thyrotomy (incision of the thyroid)
+a528759f	removing: thyroidectomy (removal of the thyroid)
+ab44dbf8	After an endocrine gland is removed, its hormone must be replaced for life; for example, levothyroxine tablets after thyroidectomy.
+fb7b59b9	pancreatic tumour
+18022006	pancreat/o + -ectomy. Incision of the pancreas is pancreatotomy.
+d4293d69	Making glycogen from glucose is called glycogen___.
+cf58ec3d	glycogenesis = making glycogen; glycogenolysis = breaking down glycogen.
+81c6fc42	Which word means “breakdown of glycogen into glucose”?
+4636056e	glycogen/o + -lysis (breakdown). Glucagon does this in the liver.
+94eb6047	Build a word meaning “removal of an adrenal gland”
+83719918	Spell the term for removal of the thyroid
+b0b33257	Three sweet “gl”s
+f0ea2cf6	Three similar words that swap places in exams:⟦0⟧⟦1⟧
+2804dbac	What is it?
+9129ed2a	Role
+3b41ed7f	simple sugar
+41866022	stored sugar
+0b0ee3a7	sugar store in the liver and muscle
+6d1f72ec	releasing sugar from glycogen
+8304ad62	⟦0⟧: when sugar has “gone”, glucagon brings it back. ⟦1⟧: “generating” and storing sugar.
+cb2becfb	Which one is a hormone?
+a0135ca8	glucagon is the hormone of the pancreatic alpha cells; glucose is sugar and glycogen the stored form of sugar.
+1fcacb32	More look-alikes
+30dddbae	Look-alike 1
+2118ff64	Look-alike 2
+1ce14841	 high calcium
+dd813a18	 high potassium
+dbd73499	 excessive urination
+be5161d8	 a plastic (industrial coating)!
+cc5f7019	 a body organ
+e12a0434	 the name of a drug
+0bc17244	 making glycogen
+0aa9eb59	 making glucose
+2cbd5014	⟦0⟧ is one of the signs of diabetes.
+ee471d0d	False; the sign of diabetes is polyuria (excessive urination). Polyurea is an industrial polymer! One letter changes the meaning completely.
+2ad8f1d6	Two diabetes, two different worlds
+2e78289a	In Greek ⟦0⟧ means “siphon, passing through”; a reference to excessive urine.⟦1⟧⟦2⟧
+2d0c963f	mellitus = honeyed; sweet urine from sugar; an insulin problem
+f86d7ca1	insipidus = tasteless; dilute urine; lack of ADH
+14e793bd	Both come with excessive urination and thirst, but their causes are completely different. When just “diabetes” is said, it almost always means diabetes mellitus.
+b5b4b3bf	Which diabetes is caused by a lack of antidiuretic hormone (ADH)?
+c3c04673	insipidus (tasteless): a lot of dilute urine, without sugar.
+d94c3aa0	Eponyms
+68ca373f	Some diseases are named after the person who described them: ⟦0⟧, ⟦1⟧, ⟦2⟧, ⟦3⟧.<br>Today they are mostly written without the possessive “’s” (Addison disease), because the patient did not “catch” the disease from Addison; Addison “discovered” it.⟦4⟧
+d8bc60ff	Root analysis does not work for these names; link each to a picture: Graves → bulging eyes, Cushing → moon face, Addison → bronzed skin.
+e2b5d569	Match each name to its hallmark sign
+e850e94c	bulging eyes
+1b672b5c	bronzed skin
+6be7c1a8	autoimmune underactive thyroid
+4b0baf66	In reports you will read “bilateral testes descended” or “adrenal cortices”; know the Latin plurals so you don’t get confused.
+7b6313cf	Spell the term for the alpha-cell hormone that raises blood sugar
+459f59ab	gluc/o + agon; careful: one c, and it ends in -gon.
+a4ebefc2	Hypothalamus and Pituitary
+046de84f	The brain’s commanders, stimulating hormones, growth hormone, ADH and pituitary disorders
+7514f29c	The commander and the orchestra
+d748b6c4	Pituitary hormones
+3bf6a0bd	Pituitary disorders
+1f72230e	The hypothalamus: bridge between nerve and hormone
+9b29d3b4	The conductor’s conductor
+60a52245	⟦0⟧ is a small part of the brain <b>below the thalamus</b>:<br>⟦1⟧ → “below the thalamus”<br>The hypothalamus is both part of the nervous system and an endocrine gland; it senses the state of the body and gives orders to the pituitary.⟦2⟧
+b3bfecf1	If the pituitary is the “conductor” of the glands, the hypothalamus is the “composer” who hands the conductor the score.
+caf61c9d	Two kinds of order
+17053e76	The hypothalamus controls the anterior pituitary with two kinds of hormone:⟦0⟧In addition, it makes two <b>neurohormones</b> (⟦1⟧): ⟦2⟧ and ⟦3⟧. These two are <b>stored</b> in the posterior pituitary and released from there.

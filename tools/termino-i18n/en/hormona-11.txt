@@ -1,0 +1,230 @@
+9d144cb6	head injury
+8f00ca4b	more than 8 litres a day, very dilute
+f30002e8	Serum sodium
+f649ab94	rising
+4b737736	Which part is probably damaged?
+90c7bcec	Making (hypothalamus) or releasing (posterior pituitary) ADH is disrupted.
+526ff778	What is the diagnosis?
+6c8abdde	Low ADH → a lot of dilute urine; sugar is normal.
+751bd28f	Match each sign to its name
+ebf6bece	Missing hormone
+30b9dea5	Abbreviation of the disease
+fd0846a7	In this patient the urine is full of sugar.
+b412a820	False; the urine is sugar-free (insipidus = tasteless). Sugar in the urine is a sign of diabetes mellitus.
+e1a18f57	Which drug makes up for the deficiency?
+46c966c9	Spell the first word of the full name of ADH
+8f0062f0	The teacher who could not calm down
+616dcd84	Jasmine, a 35-year-old teacher
+b1342372	Jasmine’s husband says that for months she has been overly energetic, working constantly and not sleeping at night. Jasmine feels anxious and shaky, cannot tolerate heat and sweats a lot. She has lost weight and her eyes bulge. The doctor feels an enlarged thyroid, and her heart rate is fast.
+d17e7a54	insomnia, anxiety, sweating, weight loss
+3d0517be	exophthalmos, goiter, tachycardia
+06f06c98	high T3 and T4, low TSH
+5d8a4c87	Tapazole (methimazole) + eye drops
+0393fb67	Diffuse goitre
+a5bd7ade	What is the doctor’s diagnosis?
+76e56806	Autoimmune hyperthyroidism with goitre and exophthalmos.
+eb098bc9	Why is the patient’s TSH low?
+e77580c4	high T3 and T4 have suppressed TSH through negative feedback
+754eea95	the pituitary is damaged
+7bca4964	there is not enough iodine
+a5b7e234	the test is wrong
+d6557e06	In Graves disease, antibodies keep the thyroid switched on and the pituitary falls silent.
+9890665f	Match each treatment option to its description
+0b64effa	blocking hormone production (Tapazole)
+0a702545	destroying overactive tissue
+18b0ef64	surgical removal of the gland
+727f2f62	relieving dry eyes
+f4104d90	After a few months of treatment, the patient sleeps better and has gained a little weight; so the drug has worked.
+8b44639c	True; the aim is to reach the euthyroid state.
+3770328a	Spell the term for protruding eyeballs
+9103a645	High calcium at a routine check
+018417c1	Beth, a 58-year-old woman
+75a61faa	Beth has a history of high blood pressure (HTN) and surgery to remove part of a kidney for kidney stones. At a routine check, her serum calcium is 10.8 mg/dL. At surgery, the right upper parathyroid is enlarged and is removed; pathology confirms an adenoma. The next day, Beth complains of tingling and numbness around her mouth.
+680aaf42	HTN, partial nephrectomy for renal calculi
+bd7f4216	10.8 mg/dL (high)
+cf5a2403	removal of the right upper parathyroid
+83d7601d	The next day
+5d3558df	perioral numbness, low calcium
+6f3bdbb3	Four parathyroids
+5d69766c	What is the cause of Beth’s high calcium?
+9c69df01	hyperparathyroidism from an adenoma
+44fbebed	Too much PTH → calcium from bone into the blood.
+7aed3c8b	renal calculi means…
+d64b255f	ren/o (kidney) + calculi (stones): a complication of high calcium.
+7cad8e83	What does HTN stand for?
+8fd62964	High blood pressure.
+28f22d7a	What is tingling around the mouth (perioral numbness) after surgery a sign of?
+b2651f53	hypocalcaemia (low calcium)
+00322660	The remaining glands are still “asleep” and calcium has fallen.
+63e070ac	Beth was given an ampoule of calcium gluconate and her calcium improved within two days.
+54c6eaca	True; the treatment for low calcium is calcium replacement.
+5ea191ce	Spell the term for removal of a parathyroid gland
+3d50a271	A lump in the right lobe
+fc13e5ab	A 59-year-old woman
+2bafdd37	A nodule was found in the right lobe of the thyroid at a routine check. The patient complains of hoarseness, difficulty swallowing, local tenderness and a slight bulge on the right side of the neck. She says she is anxious and does not sleep well at night.
+03a6df46	right lobe nodule, neck bulge
+326d9323	low TSH, high T4
+566c46cf	“hot” nodule (high uptake)
+2e73c156	solid nodule
+7d58f737	difficulty swallowing
+90980521	difficulty speaking
+6c32d210	hoarseness
+9de621b3	dys- (difficult) + -phagia (eating, swallowing). Don’t confuse it with dysphasia (difficulty speaking).
+612fafb9	What is the scientific name for an enlarged thyroid?
+f2ba90e9	thyr/o + -megaly; the same as goiter.
+13b94f3f	Which test shows whether a nodule is solid or cystic?
+27ba6374	thyroid echography (ultrasound)
+03c6c264	Ultrasound sees tissue with sound waves.
+ba326193	A “hot” nodule on a scan absorbs a lot of iodine and can cause hyperthyroidism.
+c58e257b	True; an overactive (toxic) nodule is usually benign.
+dfdf45d1	If only one lobe is involved, which operation is enough?
+1ab8ff73	Removing that lobe.
+286d7413	Spell the abbreviation for thyroid-stimulating hormone
+14aeca0e	Obesity, excess hair and brittle bones
+5cd9be51	A 56-year-old woman
+d0d95d67	The patient has been referred to an endocrinologist to investigate weakness, swelling and obesity. Despite diet and exercise she has always been overweight, and recently she broke a rib after a cough (osteoporosis). She has a puffy face and a moustache on the upper lip. Her cortisol level is high, and CT shows a mass in the right adrenal cortex.
+1ca40801	weakness, edema, obesity, hirsutism
+cfe96c47	osteoporosis, rib fracture
+b4cdf779	high cortisol
+5b5b2ac2	Signs of Cushing
+57b01211	What is a specialist in endocrine diseases called?
+6356b501	What is excess facial hair in a woman called?
+22d175a0	hirsut/o (hairy) + -ism.
+5d5f9fdd	What is the final diagnosis?
+3781cd65	Cushing syndrome from an adrenal cortex adenoma
+50b3cc2d	High cortisol + a cortical mass = Cushing of adrenal origin.
+f2185b26	Which steroid hormone of the adrenal cortex regulates carbohydrates?
+0abcc612	gluco-cortico-id: sugar + cortex.
+85f7a6a5	What is this patient’s treatment?
+03ccf174	right adrenalectomy
+88f21061	insulin injections
+8a395300	Removal of the affected adrenal (often laparoscopic).
+a9366900	Spell the term for removal of an adrenal gland
+88c52406	Tiredness and bronzed skin
+7ba86189	A 34-year-old woman
+273e285f	For months the patient has been tired and without appetite, has lost weight and feels dizzy when she stands up. She craves salt. Her skin has darkened, especially in the palm creases and gums. Her blood pressure is low, sodium low and potassium high.
+f5f729fe	tiredness, weight loss, dizziness
+fdbd5932	hyperpigmentation, low blood pressure
+b9e3cc2a	low sodium, high potassium
+e63b5241	Morning cortisol
+597e35dc	very low; ACTH high
+5696160a	Lack of cortisol and aldosterone with bronzed skin.
+8f236af5	low blood pressure
+35c9bd97	Why has the patient’s skin darkened?
+bf0b8b5e	high ACTH from the pituitary also stimulates the melanocytes
+780d3b3a	sunburn
+82768f8c	jaundice from the liver
+85a2814b	ACTH and MSH are made from the same parent molecule.
+b12e33fb	What is the commonest cause of this disease today?
+5431a3f5	autoimmune destruction of the adrenal cortex
+23c9f0e3	heavy steroid use
+457324b1	Autoimmune adrenalitis.
+81910693	Treatment includes replacing hydrocortisone and a mineralocorticoid, and the dose must be raised in acute illness.
+4404580f	True; otherwise an “Addisonian crisis” occurs.
+2b39a88c	Spell the term for adrenal underactivity
+7bcaccc2	New diabetes in a 12-year-old girl
+fa606c41	A 12-year-old girl
+35d294be	A 12-year-old girl came to the paediatrician with two months of weight loss, tiredness, polyuria and polydipsia. Her grandfather, mother and brother have type 1 diabetes. Her fasting sugar is 300 mg per 100 mL and her urine dipstick is positive for sugar. On admission she is in ketoacidosis and improves rapidly with insulin.
+a0ee6799	Admission diagnosis
+53c5e748	hyperglycemia, ketoacidosis, glycosuria
+0867c34d	T1DM in three relatives
+e182afd4	Final diagnosis
+59308be4	The three classic signs
+c20a4ebb	Type 1 and 2
+2b6b10b9	FBS means…
+a287347b	Which type of diabetes does this patient have?
+a8c43978	type 1: destruction of beta cells and a need for insulin
+2bafef4e	type 2: insulin resistance
+28f82fe0	Young age, rapid onset, ketoacidosis → type 1.
+57e7cc95	Which test confirmed the diagnosis the next day?
+f36869c3	The GTT measures the body’s ability to use glucose.
+71b466f1	Education
+ef364edc	Put the discharge plan in order
+768312b7	teaching the family to inject insulin
+debfbdc2	checking blood sugar twice a day with a glucometer
+9c9d0e5f	calling the clinic to adjust the dose
+d5cefaed	a follow-up visit two weeks later
+82a881df	Family education is a cornerstone of treating type 1 diabetes.
+c346c7f0	Spell the term for the ketone-driven acidosis of diabetes
+521a051a	A risky holiday
+1d13a02c	Kelly Post, a 48-year-old overweight woman
+d0c35b8a	Over the past two months Kelly has lost 5 kilograms and is tired and thirsty. Her doctor referred her to an endocrinologist, but Kelly decided to wait until after the holidays. After several parties and a lot of eating, she woke up in the morning dizzy, in a cold sweat and very hungry. In the emergency department her blood sugar is very low. Because of her weight, the doctor suspects insulin resistance.
+e5236236	Before the holidays
+c4ac6bb9	weight loss, tiredness, thirst
+fb4724e8	dizziness, diaphoresis, hunger
+09b52c17	very low
+9740b0d4	overweight
+222a28e5	Underlying problem
+0d324724	Which disease had the doctor first suspected?
+4a3be414	Weight loss, tiredness and thirst → diabetes mellitus.
+4efb87e3	What is Kelly’s condition in the emergency department?
+dccd25f3	Low sugar with cold sweat and hunger.
+72fbb8f5	Given her weight and insulin resistance, which type of diabetes does Kelly probably have?
+90172596	type 2 (NIDDM)
+66475e6c	type 1 (IDDM)
+859225c5	Insulin resistance in an overweight person → type 2.
+4541bf54	Which test measures sugar about 2 hours after a meal?
+6501e12a	Lifestyle
+db444c1a	Weight loss, a balanced diet and regular exercise are the first step in Kelly’s treatment.
+d5fe5556	True; if needed, an oral drug such as metformin is added.
+7843aa8f	The heel that did not hurt
+14c2d4bc	A 59-year-old man with long-standing type 1 diabetes
+37968ef3	A patient with type 1 diabetes that has never been well controlled is admitted through the emergency department with a hot, swollen left heel. His right big toe was amputated earlier. On the left heel there is an open, foul-smelling ulcer with redness up to the ankle. The foot pulses cannot be felt and the patient has no deep sensation.
+4b3e6fcf	hot, swollen left heel
+5c1f84f3	ulceration, erythema up to the malleolus, no pulses or sensation
+adc9ff85	nonsalvageable heel infection; peripheral diabetic neuropathy
+31c59289	vascular consultation for amputation, infectious disease consultation
+33eeaa83	Match each term in the note to its meaning
+151794d6	relating to the heel
+f03acfd7	Why does the patient feel little pain?
+988fdc76	peripheral neuropathy (damage to the peripheral nerves)
+e38e88d3	Long-standing diabetes damages the nerves.
+00369bff	Structure of the note
+e629a49f	In a SOAP note, the letter A stands for…
+2b725618	Assessment
+9c4ebe68	Subjective, Objective, Assessment, Plan.
+e5c02ebc	The second factor
+efbf9fd5	Poor blood supply (no pulses) together with neuropathy has made the ulcer impossible to heal.
+2c9c739f	True; peripheral vascular disease is also a complication of diabetes.
+0c4a0c8c	Which advice does the most to prevent this situation?
+da08fd8c	daily foot checks and tight sugar control
+bb856f6a	drinking more water
+cbad5447	eating iodized salt
+2ecfccc5	taking melatonin
+5be32e9e	The diabetic foot is preventable.
+ae24a667	Spell the term for disease of the nerves
+b32d3afb	A type 2 diabetes follow-up note
+a25f6413	A 60-year-old woman
+65dc58b3	A 60-year-old woman, slightly overweight, has come for routine follow-up of type 2 diabetes (onset at 53). Since her last visit she has lost 13 kilograms and follows the dietitian’s diet. She has no complaint of overeating or thirst. HbA1c is 7.8 with a target below 7. The thyroid was palpated without nodules. The nerve and foot examinations are within normal limits.
+6c5f4b9a	T2DM since age 53
+272870ee	7.8% (target < 7.0)
+c868c8b6	thyroid without nodules; Foot exam: WNL
+25b3431a	HbA1c in three months (no fasting needed)
+ce39cbfe	polyphagia means…
+d79a9ec6	An HbA1c of 7.8% means…
+8012a517	sugar has been above target over the last 3 months
+d42fa9df	the diabetes is cured
+b1ca982e	this morning’s sugar was 7.8
+250567d7	the patient has low sugar
+63bfc9d7	The usual target is below 7%.
+4a893aec	For the next HbA1c the patient must come fasting.
+622f2967	False; HbA1c needs no fasting.
+40e5becd	Why was this patient’s thyroid also examined?
+cb0846e0	autoimmune and endocrine diseases sometimes go together, and the thyroid is an accessible gland
+c353d0a2	because diabetes comes from the thyroid
+3f4e58b9	A full gland examination is part of following up a diabetic patient.
+8801545f	Spell the first word of the name for HbA1c
+14994ad7	Irregular periods and acne
+88ea96fc	A 24-year-old woman
+0a5d0e7a	The patient complains of irregular periods, sometimes months apart, facial acne and excess hair on the chin and abdomen. She is overweight and her fasting sugar is in the prediabetes range. Ultrasound shows ovaries full of small cysts. Her androgen levels are high.
+bbcc6d5a	irregular periods, acne, hirsutism
+d41da0ba	polycystic ovaries
+39e23bc0	high androgens
+09a6b597	What is the likely diagnosis?
+294af13a	Excess androgen + irregular ovulation + polycystic ovaries.
+dda88a9f	What is the complete absence of periods in the reproductive years called?
+fe332055	a- (without) + men/o (menstruation) + -rrhea (flow).
+a804191f	IFG means…
+aa4fa77e	impaired fasting glucose (prediabetes)
+17bcfbde	urine glucose
+c1cac259	Connection

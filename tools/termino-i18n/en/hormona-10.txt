@@ -1,0 +1,232 @@
+0a19860d	thyroid (from the pituitary)
+71ee8a3d	pancreas (diabetes)
+d64c28cb	An ⟦0⟧ shows whether a cancer will respond to hormone therapy.
+f821a712	True; if the cancer cells have estrogen receptors, anti-hormone drugs are effective.
+3444f958	A woman who is neither pregnant nor breastfeeding complains of milk secretion. Which blood test is ordered first?
+5a259203	galactorrhea → check for hyperprolactinemia.
+a3a4215a	The abbreviation for radioimmunoassay is ___.
+4bce81ee	radioimmunoassay = RIA; RAIU is the iodine uptake test.
+82a22a01	Spell the term for measuring hormones with antibodies and a radioactive label
+077be887	Imaging the glands
+5eecc09a	Tools for seeing the glands
+7c4915dc	Use in the glands
+1dbf3bd5	cross-sections of the pituitary, adrenal, pancreas
+bd56440f	the most accurate method for small pituitary tumours
+6b6f2326	masses of the thyroid, adrenal and pancreas
+aaea1ce8	image of the thyroid with radioactive iodine
+4d4cb306	measuring iodine uptake
+968e53fd	-graphy = the process of recording an image: echography (recording with sound echoes), tomography (recording slices).
+ebc292d0	To find a small pituitary microadenoma, which method is more accurate?
+2fb93803	MRI shows the soft tissue of the brain and pituitary in great detail.
+3af5c5bd	The plain X-ray has its say too
+6fef633c	Side skull X-ray in acromegaly
+77890a93	A large, protruding lower jaw and a widened sella turcica.
+33468d9c	On a skull X-ray, an enlarged sella turcica is a clue to a pituitary tumour. Calcification of the pineal gland is also used on X-rays as an “orientation landmark”.
+2fa368da	On the skull X-ray of a patient with acromegaly, which finding is expected?
+ff1e29ed	a large lower jaw and a widened sella turcica
+07d0b0fa	a large thyroid
+053b3fb9	a large thymus
+477d81c8	Excess GH enlarges the facial bones; the adenoma widens the sella turcica.
+22880af6	small pituitary tumour
+84b52060	thyroid nodule or cyst
+f026b1ad	adrenal mass
+a1052781	cold or hot nodule
+ecb2bfee	⟦0⟧ uses X-rays for imaging.
+b5505737	False; ultrasound uses sound waves and no radiation; that is why it is safe even in pregnancy.
+2f4bc32a	The root radi/o means ___.
+3c97c653	In the word ⟦0⟧, the suffix -graphy means…
+2461fd43	Spell the abbreviation for magnetic resonance imaging
+d39e7a87	Reading the record: abbreviations
+09ba1b50	Read the doctor’s note
+057adf1b	In a real record, abbreviations are everywhere:⟦0⟧⟦1⟧
+91abe6dd	blood sugar / fasting sugar
+cc001c0c	A sample note: “60 y/o female, T2DM onset at age 53. HbA1c 7.8 with goal <7.0. Thyroid palpated: no nodules. Foot exam: WNL.” Now you can read all of it!
+c0d6af2b	The note says “Foot exam: WNL”. That means…
+941fc47d	the foot examination is within normal limits
+29b18edc	there is a foot ulcer
+d8c9f912	the foot has been amputated
+a53bf416	the foot pulses cannot be felt
+e30cd2c7	Common hormone abbreviations
+494fb6be	diabetes mellitus / diabetes insipidus
+0f50cbed	inappropriate ADH secretion
+b42b6ac2	multiple endocrine neoplasia
+1fc63d4b	A report says “PCOS, on metformin”. The patient…
+244bd277	has polycystic ovary syndrome and takes metformin
+180bdece	has type 1 diabetes
+9bc8271f	has hypothyroidism
+4d3d9608	has hyperparathyroidism
+00b19e19	PCOS comes with insulin resistance and is sometimes treated with metformin.
+c58bbbe6	⟦0⟧ is an inherited disease that causes tumours in several endocrine glands.
+d33a75dd	True; multiple endocrine neoplasia.
+25d8f580	Put the parts of a progress note in order
+42c52c12	complaint and history (PMHx)
+378ea495	review of systems (ROS) and examination
+a6059ea4	test results (such as HbA1c)
+3927781f	treatment and follow-up plan
+0a28282a	From what the patient says to the findings and then the decision.
+81413c86	The abbreviation for “within normal limits” is ___.
+9aea8ce2	Spell the abbreviation for hormone replacement therapy
+727f4c0a	Endocrine surgery
+a8d57897	The -ectomy family
+3b435380	Gland name + -ectomy; after removing any gland, its hormone must be replaced.
+0914381a	Today most glands (adrenal, pituitary, thyroid, parathyroid and even pancreas) are removed by minimally invasive methods such as laparoscopy or endoscopy through the nose.
+30b8e531	Match each operation to its gland
+ab6ee810	Special methods
+b1436e41	removing a pituitary tumour through the nose and sphenoid sinus
+30e7c4ca	removing an adrenal with a camera through small abdominal incisions
+63e31a54	removing one lobe of the thyroid
+68702e9c	destroying the thyroid with radioactive iodine, without surgery
+e6b75f7f	What is removing a pituitary tumour through the nose called?
+56e92ff6	trans- (through) + sphenoid (the sphenoid sinus).
+62b0c7da	⟦0⟧ means removal of the adrenal gland.
+45a3587b	False; aden/o = any gland. Removal of the adrenal is adrenalectomy.
+eebe7d4b	Which operation is an incision, not a removal?
+55fa1d9a	-tomy = incision; -ectomy = removal.
+3a18e9dd	After complete removal of an endocrine gland, ___ is usually needed.
+a84d2d6a	hormone replacement
+ac65af8f	For example, levothyroxine after thyroidectomy or hydrocortisone after bilateral adrenalectomy.
+feff4b76	Spell the term for removal of the pancreas
+002abdad	Endocrine drugs
+8c71ac45	⟦0⟧ (⟦1⟧): making up for a hormone deficiency with tablets, injections or skin patches. Examples:⟦2⟧⟦3⟧
+33ead81f	GH in a child
+fedd5de2	estrogen in menopause
+375bee4f	HRT in menopause reduces symptoms and prevents osteoporosis, but in some people raises the risk of clots and certain cancers; the decision must be individual.
+4f755724	Which drug replaces T4 in hypothyroidism?
+4517df88	levothyroxine = synthetic T4.
+224d902a	Inhibiting and regulating drugs
+971c09c7	Drug class
+7340e510	methimazole, propylthiouracil
+8e4c9a76	metformin, glipizide
+36bb09dd	anti-inflammatory; replacement in Addison disease
+b95e3a5b	low sodium (SIADH)
+1eb9d3a1	tolvaptan, conivaptan
+179dcdd8	Build the class name from the effect: anti-thyroid (against the thyroid), hypo-glycemic (sugar-lowering), aqua-retic (water-removing).
+7c245022	Match each drug to its class
+a82b6b54	antithyroid
+fd6e863d	oral sugar-lowering
+dee8670c	aquaretic
+a9c96b09	Steroids are sometimes illegally abused to build muscle.
+e2a6f865	True; and they have dangerous side effects on the heart, liver and sex glands.
+a016784c	Mr Grout, who is short because of GH deficiency, asks the nurse about growth hormone in adulthood. Which answer is correct?
+8bc33daf	growth hormone increases height only while the bone growth plates are open
+f0107782	growth hormone increases height at any age
+01027641	growth hormone is only for diabetes
+b65dcb07	growth hormone is taken by mouth
+8a72ece4	After the growth plates close, GH does not increase height.
+35a346e8	The abbreviation for hormone replacement therapy is ___.
+b6823525	What does an ⟦0⟧ drug do?
+a1204535	it blocks the making of thyroid hormone
+bd16d253	it replaces thyroid hormone
+bd5d99e5	it enlarges the thyroid
+4fd28e9c	it raises calcium
+24af1584	anti- (against) + thyroid; for hyperthyroidism.
+ab04f767	Spell the plural term for cholesterol-based hormones and drugs
+6bf7e51e	Summary: too much or too little?
+0fa5dc4d	The golden table
+355a72b3	The whole course in one table; for each hormone, its excess and its lack:⟦0⟧
+380e110e	Oversecretion
+5f90a03d	Undersecretion
+b313829e	gigantism (child), acromegaly (adult)
+570d9ec4	T3, T4
+1d12e223	Graves, thyrotoxicosis
+a43aee7f	congenital hypothyroidism, myxedema
+81dcd8de	hypercalcemia, bone damage
+0d1093f9	hypocalcemia, tetany
+f23e7e2a	A lack of which hormone causes diabetes insipidus?
+e9154965	Low ADH → a lot of dilute urine.
+8421eb09	Match each disease to its hormone
+d74dd063	too much GH
+d3657d6a	too little thyroid hormone
+daf7d47a	too little PTH
+5e433133	too little or ineffective insulin
+23718d0c	Which disease is caused by an “excess” of hormone?
+0daefb09	Graves = hyperthyroidism; the others are hormone deficiencies.
+239f970f	Find the guilty gland
+4d08fc05	acromegaly, Simmonds disease
+17e3e80b	Graves, goiter, myxedema
+0756a26f	Cushing, Addison, pheochromocytoma
+275659f8	diabetes mellitus, insulinoma
+714607b9	In an exam, find the “hormone” first; the gland and the disease name then come out of the table.
+5b52804a	Match each disease to the guilty gland
+c0fdf675	Most endocrine diseases come either from too much or from too little of one hormone.
+dce416ad	True; this is the simplest mental map of the whole system.
+da7d1632	Who is an ⟦0⟧?
+d142df21	a doctor specialising in diseases of the glands and hormones
+565e32a7	a poisons specialist
+91cc5cae	endocrin/o + -logist. A poisons specialist is a toxicologist.
+4f25d5c1	Build a word meaning “disease of the endocrine glands”
+5e079e79	Spell the term for a hormone and gland specialist
+f8ee097e	Postie
+32c77008	The chemical messenger
+3a0a7a16	Every hormone is a letter and Postie is the blood’s postman! It delivers the letter only to a cell with the right receptor. Its motto: “endo means inside: I pour into the blood!”
+700aeee7	Master of -ism and -ectomy
+80bdb19f	A living dictionary that reads every word from the end; it never mixes up -tomy with -ectomy or aden/o with adren/o.
+7cf2ec2a	The lock for every key
+5e20dc01	Sits on the surface of the target cell and opens only with its own hormone key. It knows negative feedback like a thermostat.
+3874441a	Peasy
+deb46b6c	The master gland
+49e25a01	The size of a pea, but sitting in the Turkish saddle it commands half the glands of the body: TSH, ACTH, FSH and LH.
+dbe79dc4	Lanky
+22da278b	It is somatotropin and works mostly at night, in deep sleep. Too much of it before puberty makes gigantism, and after puberty acromegaly.
+6bdd57fc	Dammy
+cc09ff2b	Guardian of water (ADH)
+a632b513	The antidiuretic hormone: it holds water in the kidney. If it is absent, diabetes insipidus; if it overworks, SIADH!
+40a7aa49	Butterfly
+c3b8d29d	The neck’s thyroid
+bc033975	It has two wings (lobes) and an isthmus in the middle. It is the accelerator of the body’s metabolism: too much and it runs fast and hot, too little and slow and cold.
+d0ecd143	Iodi
+3f6ec679	The iodine crystal
+19fb2ecc	Without it, T4 and T3 cannot be made. Four of them make thyroxine, three make triiodothyronine. It loves iodized salt.
+3ca18cb8	Calci
+aec3a53c	Guardian of calcium
+58e5efe8	The parathyroids bring it from bone into the blood and calcitonin sends it back. If it runs low, the muscles fall into tetany.
+f0484c2c	Cappy
+a8a7bf54	A triangular cap on each kidney: its cortex makes “salt, sugar and sex”, and its medulla adrenaline.
+b28e8ad6	Adrena
+312d912e	Fight or flight
+40bf16d2	In the blink of an eye it speeds the heart, widens the pupils and raises blood sugar. In anaphylaxis it is the first rescuer.
+4123764d	Salty
+116695c3	Master of aldosterone
+0683f10a	It keeps sodium and throws out potassium. It is missing in Addison disease and makes too much noise in Conn syndrome.
+db3dff7c	Islet of Langerhans
+e1d2ffd0	It lives in the middle of the pancreas’s sea of digestive cells; its beta cells make insulin and its alpha cells glucagon.
+4d2bb0ba	Keyo
+2d654703	The insulin key
+fc536907	It opens the cell door so glucose can enter. In type 1 diabetes it is lost, and in type 2 the locks have rusted.
+b21739ec	Glucy
+22e29e55	The sugar monitor
+404af97b	It tells your sugar from one drop of blood; it loves an HbA1c below 7 and always reminds you to check the diabetic foot every day.
+fbcf59e6	Moonbeam
+a246cfce	Guardian of sleep
+891026cc	It is the pineal’s melatonin; it wakes up with the dark and winds the body’s daily clock.
+b989a83e	Thymy
+69ad94ba	The T-cell school
+a3105ca0	Behind the breastbone, it trains T cells in childhood and then slowly retires. Don’t confuse it with thyr/o!
+5562f6ca	Tester
+159dc46f	From TSH and HbA1c to RAIU and MRI; it finds every gland disease by “too much or too little” and solves the case.
+a5bf8bb9	The ring that no longer fitted
+3b22cd21	A 42-year-old man, a driver
+1cb8323c	The driver says that in recent years his wedding ring has become tight, his shoe size has gone up and gaps have opened between his teeth. He also complains of headaches and heavy sweating. On examination, his lower jaw juts forward and his hands are broad and thick.
+227d0e96	ring and shoes tight, headache
+c1864ed1	GH and IGF-1
+f13028a4	pituitary adenoma, widened sella turcica
+6468c0a0	Face view
+9b41c903	Hands
+3a83c073	What is the most likely diagnosis?
+7934551e	Excess GH “after” puberty → enlarged extremities and face.
+9ebf4069	What pieces is acromegaly built from?
+ddaa6300	acr/o (extremities) + -megaly (enlargement)
+cdd7887e	acro- (high) + mega (much)
+9a38254b	acr/o (acid) + -emia
+676b31a3	a- (without) + cromegaly
+f5b3be83	What is the commonest cause of this disease?
+0bd0b08f	A benign pituitary tumour that makes a lot of GH.
+d967a270	On MRI, the tumour is seen in the sella turcica.
+7b7ec9c0	The pituitary sits in the sella turcica of the sphenoid bone.
+5afa4dcc	What is the usual surgical method for removing this tumour?
+a45703bc	transsphenoidal adenomectomy through the nose
+6115ad8b	Through the nose and sphenoid sinus, without opening the skull.
+0e5f58cc	Spell the Greek-derived name of the pituitary
+3e952622	Endless thirst after an accident
+c46bc567	Marcy Capell, a 28-year-old woman
+8755ea88	Marcy has been admitted after a road accident with a severe head injury. From the second day, she passes a large amount of colourless urine every hour and keeps asking for water. Her blood sugar is normal.

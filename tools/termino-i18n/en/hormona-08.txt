@@ -1,0 +1,193 @@
+5b80a807	Steroids are like a “powerful firefighter”: they put out the fire of inflammation, but if they stay in the house all the time, the house ends up soaked and ruined!
+78eefbc9	Match each item to its use
+26c23682	replacing cortisol in Addison disease
+2c30a50e	measuring cortisol
+f7d6567e	Long-term corticosteroid use can cause osteoporosis.
+94147df1	True; one of the important side effects of long-term steroid treatment.
+261f6df0	Removing an adrenal gland with a camera through the abdomen is ___ adrenalectomy.
+9542ff33	transsphenoidal
+45bb725e	The Pancreas and Diabetes
+cc4be0cc	Islets of Langerhans, insulin and glucagon, types of diabetes, blood sugar tests, complications and treatment
+dd9baa56	The sweet islands
+0ee28df7	Complications and treatment
+347ba67f	The dual-purpose pancreas
+8488c70a	Both digestion and hormones
+4e122fa6	The ⟦0⟧ is a long organ behind the stomach (from the Greek for “all flesh”):⟦1⟧⟦2⟧
+17099646	exocrine part
+dea49955	sends digestive enzymes through a duct to the duodenum
+51316d21	endocrine part
+18c4caf9	the islets of Langerhans: release insulin and glucagon into the blood
+7ab87b97	The islets of Langerhans are like small islands in a sea of digestive cells.
+6781a88e	The ⟦0⟧ (⟦1⟧) are small clusters of endocrine cells in the pancreas, discovered by Paul Langerhans, a German pathologist.<br>⟦2⟧ = island → ⟦3⟧ is the “island” hormone.⟦4⟧⟦5⟧⟦6⟧
+834d8968	Effect on blood sugar
+981a150f	lowers it ⬇
+540a0c91	raises it ⬆
+1154d5a2	In a microscopic section, a pale islet is seen among the digestive cells.
+daa58ff3	B for Beta and for “Bring down”: the beta cell brings sugar down. A for Alpha and “Add”: the alpha cell adds sugar.
+6387ad78	In which cells is insulin made?
+60c7ab5a	the beta cells of the islets of Langerhans
+f34fb360	the alpha cells of the islets
+59b27ade	the digestive cells of the pancreas
+ed8499cf	liver cells
+4600e03d	β cells → insulin; α cells → glucagon.
+b8d99d69	The pancreas is the only organ with both exocrine and endocrine work.
+7fbecfcf	False; the ovaries, testes and even the kidney and heart also have dual roles. The pancreas is the best-known example.
+a0039dfa	making glucagon
+83d67335	carrying digestive enzymes
+434980e8	endocrine part of the pancreas
+7204b0fc	resistant to insulin
+9e0617f7	insul/o (island) + -ar (relating to).
+5ee1da3d	The root insul/o in insulin means ___.
+bc0c42b7	island
+e9234a36	insula = island; because it is secreted by the islets of Langerhans.
+b5ce9829	Build a word meaning “relating to the pancreas”
+f4a01a8a	Spell the term for the dual-purpose organ behind the stomach
+6469c10c	pancreas; don’t confuse it with pancrease (the name of a drug).
+7b1061b7	The sugar seesaw: insulin and glucagon
+e299bb62	Two opposing hormones
+4d673b33	After a meal insulin rises; between meals and during exercise, glucagon.
+1949e794	moves glucose into cells and lowers blood sugar; turns extra glucose into glycogen
+7cc8be19	tells the liver to break down glycogen and release glucose; raises blood sugar
+7cfef8f1	Right after a high-carbohydrate meal, which hormone is secreted most?
+5f90e656	High blood sugar → insulin → sugar enters the cells.
+9cc8df53	Insulin: the cell’s key
+4e801f8e	Insulin is like a <b>key</b> that opens the cell door so glucose can get in and make energy. Without insulin, glucose piles up in the blood outside the door, and the cells stay “hungry” despite the high blood sugar.⟦0⟧
+ca2f18ad	Diabetes mellitus means “starvation amid plenty”: blood full of sugar, cells without sugar.
+0e6981dd	Words for sugar processes
+f98f7935	making glycogen from glucose
+8b74f1c3	breaking glycogen down into glucose
+a84a561d	making new glucose from protein and fat
+51850cec	glucagon, cortisol
+af90c72c	breaking down glucose for energy
+c5f5f724	In prolonged fasting, the liver first breaks down glycogen (glycogenolysis) and, when the store runs out, makes new sugar from protein and fat (gluconeogenesis).
+c0d6b097	Match each process to its meaning
+8435122b	making glycogen
+7a8d7eab	breaking down glycogen
+6f8bc153	making new glucose
+690f5501	breaking down glucose
+edd37f69	Glucagon lowers blood sugar.
+2f781f70	False; glucagon “raises” blood sugar. Lowering it is insulin’s job.
+0f42d007	After eating a meal, put the events in order
+5ad0bd1d	blood sugar rises
+1e7fcc4e	beta cells secrete insulin
+0cbe59dd	glucose enters the cells
+8d900a4b	extra glucose is stored as glycogen in the liver
+1edb80d9	Insulin sends blood sugar into the cells and the store.
+73551d69	making new glucose from non-sugar sources
+7fa9f5c4	gluc/o (sugar) + neo (new) + -genesis (making).
+4a495e3e	Build a word meaning “breakdown of glycogen”
+3a709f79	Spell the term for the sugar stored in the liver
+443361c4	Sugar words
+58f20af7	Two roots for sugar
+8a0c9ca7	⟦0⟧ and ⟦1⟧ (and ⟦2⟧) both mean <b>sugar</b>:<br>• ⟦3⟧: high blood sugar<br>• ⟦4⟧: low blood sugar<br>• ⟦5⟧ = ⟦6⟧: sugar in the urine⟦7⟧
+dad62b7e	glyc/o and gluc/o come from the Greek glykys (sweet); the same root as in “glycerine”.
+7ec86db2	high insulin
+f8ab0f58	⟦0⟧: blood sugar below normal. The brain suffers most:<br>shakiness, cold sweating (⟦1⟧), hunger, palpitations, confusion and, in severe cases, seizures and coma.<br>The commonest cause: too high a dose of insulin or an oral drug in a diabetic patient.⟦2⟧
+70821375	The rule of 15: a conscious patient with low sugar should take 15 grams of simple sugar (for example half a glass of fruit juice) and recheck the sugar 15 minutes later.
+89851da1	A diabetic patient who injected insulin and skipped lunch has developed shakiness, cold sweating and confusion. What has happened?
+02afa42b	hypoglycemia (a drop in sugar)
+90c90946	Insulin without food → a drop in sugar. Immediate treatment: oral sugar or glucose.
+53b82bf9	⟦0⟧ → ⟦1⟧: “after a meal”<br>⟦2⟧: blood sugar about 2 hours after a meal.<br>⟦3⟧ means “relating to a blood condition”: a ⟦4⟧ is a sugar-lowering drug.
+09c830fa	⟦0⟧ and ⟦1⟧ mean the same.
+ecff83ed	True; both mean sugar (glucose) in the urine.
+ebb3914f	postprandial means ___ a meal.
+8711d1d2	Build a word meaning “low blood sugar”
+8fc3653b	What is diabetes mellitus?
+514eb503	Honeyed urine
+30ad9565	⟦0⟧ (⟦1⟧): a disorder of sugar metabolism caused by <b>lack of insulin</b> or <b>resistance of the cells to insulin</b>; the result: ⟦2⟧.<br>⟦3⟧ = siphon (much urine); ⟦4⟧ = honeyed, sweet.⟦5⟧
+7f76522a	Doctors of old tasted the patient’s urine to diagnose diabetes! Today it is done with urine dipsticks and glucose meters.
+08a9f968	The classic signs
+cc376cdd	⟦0⟧The chain: high blood sugar → sugar spills into the urine (⟦1⟧) → it drags water with it (⟦2⟧) → dehydration and thirst (⟦3⟧) → hungry cells (⟦4⟧) and weight loss.
+c78cd86c	The three Ps of diabetes: polyuria, polydipsia, polyphagia; along with weight loss and tiredness.
+857e2ed5	Which sign is not one of the “three Ps” of diabetes?
+8e8dcdc3	polycythemia means too many red blood cells; it has nothing to do with diabetes.
+9c29182d	Put the chain of diabetes signs in order
+d7c53068	high blood sugar (hyperglycemia)
+febbbefc	sugar spilling into the urine (glycosuria)
+e5825bf3	a lot of urine (polyuria)
+ed0782f0	dehydration and great thirst (polydipsia)
+88370f11	Sugar pulls water out through the kidney with it.
+34c562be	Diane, a 45-year-old woman, complains of unusual tiredness, thirst and passing a lot of urine. A test shows high blood sugar. Which organ is the likely source of the problem?
+bca60b41	High sugar + the three Ps → diabetes mellitus → pancreatic insulin.
+0412f5c4	Diane, 45 years old
+5d501fd5	tiredness, polydipsia, polyuria
+d36e6c2b	In diabetes mellitus, the cells lack energy despite the high blood sugar.
+bdf9d5ba	True; glucose cannot enter the cell without insulin (or with resistance to it).
+59e862ed	The word mellitus means ___.
+2605af5a	honeyed, sweet
+495299db	tasteless
+09740c96	bitter
+9548e128	The patient’s urine contains sugar; insipidus, by contrast, means tasteless.
+56bcfdf7	Build a word meaning “excessive hunger”
+3f4b4ff6	Spell the word meaning “honeyed” in the name of insulin-related diabetes
+2ea278dc	mellitus; two l’s and one t.
+47801fde	Types of diabetes
+743956b2	Type 1 and type 2
+bf516bc4	Type 1: the key (insulin) is missing. Type 2: the key is there, but the lock (receptor) does not open well.
+c4f9e615	type 1 (T1DM)
+5c4499cd	type 2 (T2DM)
+216cc226	autoimmune destruction of beta cells
+c3cc979e	Age of onset
+8f2cfbc6	childhood and adolescence, sudden
+0de7f596	adulthood, gradual
+6ee1cd19	usually thin
+120b20df	usually overweight
+abbab1ed	daily insulin
+275291d9	diet, exercise, oral drugs; sometimes insulin
+8be67e36	Old name
+fc06007c	Which feature belongs to type 1 diabetes?
+d6ecc226	autoimmune destruction of beta cells and a lifelong need for insulin
+4488c0cb	insulin resistance in an overweight person
+158a1c23	gradual onset in middle age
+2cc4ef3b	treatment with diet alone
+e9afe9a8	T1DM = insulin-dependent; insulin is almost zero.
+fa2bcc6b	Gestational diabetes and prediabetes
+c423568e	⟦0⟧ (⟦1⟧): glucose intolerance that first appears in pregnancy and usually resolves after birth, but raises the future risk of type 2 diabetes. The baby of a diabetic mother may be large: ⟦2⟧.<br>⟦3⟧ (syndrome X): insulin resistance + abdominal obesity + high blood lipids + high blood pressure.<br>⟦4⟧ and ⟦5⟧: the prediabetes stage.
+72cb183b	insulin-dependent diabetes
+e991f1da	About 90% of diabetes cases are type 2.
+a7aad11b	True; and with rising obesity and inactivity, it is increasingly seen in younger people.
+2b7a620f	A pregnant woman at 26 weeks has an abnormal glucose tolerance test; her sugar was normal before pregnancy. Diagnosis?
+82ef7f27	gestational diabetes; it usually resolves after birth.
+453bb922	⟦0⟧: the cells respond less to insulin. The pancreas first makes more insulin, but gradually tires and blood sugar rises.⟦1⟧⟦2⟧
+42e81195	Insulin resistance is like a rusty lock: the key is right, but you have to turn harder; gradually the locksmith (the pancreas) tires too.
+0a7050a4	Losing 5 to 10 per cent of body weight and 150 minutes of brisk walking a week markedly reduce insulin resistance.
+44d25440	NIDDM is the old name for type ___ diabetes.
+664b4f1f	⟦0⟧ in the baby of a diabetic mother means…
+0d7285a6	a very large body
+cf04fb3d	a very small body
+46b661d7	high newborn blood sugar
+71e58535	newborn jaundice
+4c386d5e	macro- (large) + somat/o (body) + -ia.
+027c50a9	Spell the word meaning “of pregnancy” in the name of pregnancy diabetes
+e840210a	gestation = pregnancy.
+8aa1d61f	Blood sugar tests
+d402f73e	The three main tests
+61258ca9	Common criteria: fasting sugar ≥126, 2-hour sugar ≥200 mg/dL or HbA1c ≥6.5%.
+18770c58	blood sugar after at least 8 hours of fasting
+4398d8fb	drinking a glucose solution and measuring sugar at set times
+cf7015c4	sugar stuck to haemoglobin: the 2-to-3-month average
+a935a9cc	sugar 2 hours after a meal
+4c1f9f84	Which test shows the “average blood sugar over the past 2 to 3 months”?
+f804d593	Glucose sticks to red cell haemoglobin, and a red cell lives about 120 days.
+ec4f7196	Why HbA1c?
+26e2edb3	Glucose sticks to the haemoglobin of red cells (⟦0⟧ = sugar-coated). The more sugar over these 3 months, the higher the HbA1c percentage. No fasting is needed for this test.⟦1⟧
+ba28f690	The usual target for most diabetic patients is an HbA1c below 7%; in a doctor’s note you read: “HbA1c 7.8% with a goal of <7.0”.
+b22f472f	A patient with a fasting sugar of 140 mg/dL falls into which category?
+b190d303	diabetes (≥126)
+532461f5	low sugar
+8921e13e	FPG ≥ 126 mg/dL is a diagnostic criterion for diabetes (usually confirmed by repeating the test).
+a3a116ee	Match each abbreviation to its test
+77273a2c	glycated haemoglobin
+732a5bf3	Monitoring at home
+6d6be112	⟦0⟧ (⟦1⟧ + ⟦2⟧ = measuring device): a home glucose meter using a drop of blood from the fingertip.⟦3⟧A patient with type 1 diabetes usually checks their sugar several times a day and, when it is high, tests the urine for <b>ketones</b>.
+7dc6bcaa	Glucose meter strip and a drop of blood from the finger
+4c071d54	Today there are also continuous glucose monitoring (CGM) sensors that stick on the arm.
+4193ffa6	For an HbA1c test, the patient must fast for 12 hours.
+737c0ea4	False; HbA1c needs no fasting. FBS and OGTT do.
+bcd2f6bb	A home device for measuring blood sugar is a ___.
+80c043aa	In an oral glucose tolerance test, the 2-hour sugar is 210. Result?
+c450f684	2-hour ≥ 200 = diabetes; 140 to 199 = impaired glucose tolerance (IGT).
+10ead205	Spell the term for a home blood glucose meter
+a2643058	Sugar emergencies
+20e464d1	Ketones and ketoacidosis
+c8de080b	When the cells have no glucose, the body burns <b>fat</b> and makes acidic substances called <b>ketone bodies</b> (⟦0⟧):<br>• ⟦1⟧: build-up of ketones in the body<br>• ⟦2⟧: acidification of the blood<br>• ⟦3⟧ (⟦4⟧): acidosis caused by ketones; a dangerous diabetic emergency (mostly type 1).<br>Signs: fast, deep breathing, fruity breath, nausea, dehydration and reduced consciousness.⟦5⟧

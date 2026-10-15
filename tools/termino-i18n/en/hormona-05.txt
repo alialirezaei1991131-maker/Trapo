@@ -1,0 +1,176 @@
+c5d5ca7d	Spell the term for excessive height from childhood GH excess
+62f3a250	ADH: diabetes insipidus and SIADH
+79827ae0	Low ADH: diabetes insipidus
+babcc04a	⟦0⟧ (⟦1⟧): the posterior pituitary does not release enough ADH (usually after a head injury, surgery or a tumour).<br>The kidney cannot hold on to water → large volumes of <b>dilute, tasteless</b> urine (⟦2⟧ = tasteless).<br>Two main signs: ⟦3⟧ (excessive urination) and ⟦4⟧ (excessive thirst).⟦5⟧
+8948093e	Low ADH: water is lost. High ADH (SIADH): water is retained and blood sodium becomes diluted.
+8331b751	Which combination best describes diabetes insipidus?
+0ea46db5	low ADH, a lot of dilute urine, severe thirst
+7bd72bff	low insulin, sugar in the urine
+6cc63e9a	high ADH, water retention
+25c78c2b	high cortisol, moon face
+19e684f4	DI = lack of ADH; dilute urine without sugar.
+1510012a	High ADH: SIADH
+c4b493b7	⟦0⟧ (⟦1⟧): ADH is secreted beyond need and “inappropriately”.<br>Water is retained, the blood is diluted and sodium falls: ⟦2⟧.⟦3⟧
+dc00fc5c	“Aquaretic” drugs such as tolvaptan increase water loss without much sodium loss and are used to treat hyponatremia from SIADH.
+ad3d8c01	Match each condition to its description
+4d92f469	low ADH, a lot of urine
+cbe62654	In diabetes insipidus, the urine is full of sugar.
+aad935b8	False; the urine is dilute and sugar-free. Sugar in the urine (glycosuria) is a sign of diabetes mellitus.
+02c1c880	After a severe head injury, Mrs Marcy passes more than 8 litres of dilute urine a day and is constantly thirsty. Which part is probably damaged?
+64985ddd	the hypothalamus or posterior pituitary
+14eabebc	Making or releasing ADH is disrupted → diabetes insipidus.
+ac44ec48	head injury
+82bd2c8e	8 litres a day, dilute
+73871b9a	In SIADH, blood sodium becomes ___.
+3e595e3f	Excess water dilutes the sodium → hyponatremia.
+c8eda613	Which drug treats diabetes insipidus?
+40ec3a2d	vasopressin (a synthetic form of ADH)
+f3ee3862	We replace the missing hormone.
+19ce2486	Spell the word meaning “tasteless” in the name of ADH-deficiency diabetes
+75996374	insipidus = tasteless.
+a1645f69	Pituitary tumours, failure and surgery
+9e1d28b8	Overactive and underactive pituitary
+2e8e6a49	⟦0⟧⟦1⟧: a lack of <b>all</b> the pituitary hormones. Its old name is ⟦2⟧, and it comes with severe wasting (⟦3⟧), tiredness and loss of sexual characteristics.
+661c7db0	oversecretion of one or more hormones; often from an adenoma
+8fcef518	undersecretion of one or more hormones; from a tumour, injury or loss of blood supply
+3d9f8ae5	A patient presents with underactive thyroid, adrenal and sex glands all at once. Where is the main problem?
+2908d9d8	panhypopituitarism (complete pituitary failure)
+334d1ff8	When all the axes are switched off together, suspect the commander (the pituitary).
+580d0588	Pituitary tumours
+f8c74289	benign glandular tumour; often makes GH, ACTH or prolactin
+12d65a78	benign tumour near the pituitary (crani/o skull + pharyng/o throat)
+7e3c1783	sudden bleeding into a tumour: severe headache and blurred vision
+a766d18e	high prolactin → abnormal milk secretion (galactorrhea)
+e796a989	A pituitary tumour presses on the crossing of the optic nerves; that is why the patient may first see an eye doctor.
+faa64e91	In which condition is ⟦0⟧ seen?
+c9c6cdfd	raised prolactin (hyperprolactinemia)
+b909d402	raised GH
+d3095d1a	lack of TSH
+914715aa	galact/o (milk) + -rrhea (flow): milk secretion without pregnancy or breastfeeding.
+446593f3	Surgery through the nose
+3b88c924	⟦0⟧ means removal of the pituitary. Today most tumours are removed by ⟦1⟧:<br>⟦2⟧ → “through the sphenoid sinus”<br>The surgeon reaches the sella turcica through the nose (or under the upper lip) and the sphenoid sinus, without opening the brain.
+bdf1b85c	Put the diagnosis and treatment of acromegaly in order
+77ed7469	clinical suspicion: enlarged hands and face
+72326357	blood test: high GH
+0c31b985	MRI: pituitary adenoma
+2238cf1b	From signs to tests, imaging and then surgery.
+cc094804	Cushing disease means high cortisol caused by a pituitary tumour making a lot of ACTH.
+fb58986e	True; Cushing “disease” has a pituitary origin; Cushing “syndrome” is high cortisol from any cause.
+46c9d7e2	sudden bleeding into the pituitary
+8d1c00d4	Build a word meaning “underactivity of the pituitary”
+20d31ed7	Spell the term for removal of the pituitary
+362550dd	Thyroid and Parathyroid
+982002fb	The butterfly of the neck, T3 and T4, iodine, calcium, overactivity and underactivity, goitre, tests and surgery
+af7d4fdd	The butterfly of the neck
+28ed4c69	Overactive, underactive, goitre
+0c722928	Calcium, tests and treatment
+0c6c36ed	Thyroid anatomy
+543a9a4d	A butterfly in front of the trachea
+9ddc5798	The ⟦0⟧ is a butterfly-shaped gland at the front of the neck, below the larynx and on either side of the trachea:<br>• two <b>lobes</b> (⟦1⟧), right and left;<br>• a narrow band called the <b>isthmus</b> (⟦2⟧) joining the two lobes;<br>• above it, the <b>thyroid cartilage</b>, which forms the bump of the “Adam’s apple” (⟦3⟧).⟦4⟧
+18836b31	The patient’s right lobe is on your left in the figure, as when you face the patient.
+66760219	Why “thyroid”?
+b9604107	⟦0⟧ → “shield-like”<br>The Greeks saw the cartilage in front of the larynx as a warrior’s <b>shield</b> and named the gland beneath it the same way.⟦1⟧
+697f31f6	thyr/o = shield; the thyroid protects your neck like a shield and drives the body’s metabolic engine.
+a0f261d9	What is the part joining the two thyroid lobes called?
+656f367b	isthmus means a narrow neck of land; a narrow band over the front of the trachea.
+744ee0c7	The Adam’s apple is the thyroid gland.
+43782c71	False; the Adam’s apple is the bump of the thyroid cartilage (part of the larynx). The thyroid gland is lower, on either side of the trachea.
+3ea1a6d9	Inside the thyroid
+a58fc155	The thyroid is made of tiny sacs called <b>follicles</b>, filled with a jelly-like fluid called <b>colloid</b> (⟦0⟧). Hormones are stored in the colloid until they are needed in the blood.⟦1⟧
+5f22b539	The thyroid weighs only about 30 grams but affects almost every cell in the body.
+b7d4d08c	band joining the two lobes
+05677afa	shield cartilage of the larynx
+06599932	hormone-storing fluid
+185222f1	each half of the butterfly
+7baa16b4	The thyroid lies on either side of the ___.
+083d4abd	In front of and on either side of the trachea, below the larynx.
+1f678bec	thyroid/o + -al (relating to).
+79a0ff0f	Spell the term for the band joining the two thyroid lobes
+072ed86f	isthmus; the th in the middle is silent: IS-mus.
+e80692b4	T3, T4 and iodine
+56d42712	The hormones of the metabolic engine
+22d0e1c2	The thyroid makes two main hormones that set the rate of <b>metabolism</b> in all cells:⟦0⟧⟦1⟧
+938afd6e	The number in the abbreviation is the number of iodine atoms: T4 has four, T3 three.
+9ec3499e	more plentiful
+24673748	more active
+3c15914c	Iodine: the raw material
+ebe39eab	⟦0⟧ = iodine. The thyroid takes iodine from the blood and uses it to make T3 and T4. Sources of iodine: seafood, dairy products and <b>iodized salt</b>.⟦1⟧
+c8cb5948	In the past, iodine deficiency was common in areas far from the sea and created a “goitre belt”. Adding iodine to salt has almost solved this problem in most countries, including Iran.
+00b40986	What does the 4 in ⟦0⟧ stand for?
+a57990e1	four iodine atoms
+ce6c01a4	four parathyroid glands
+e869d305	four lobes
+799f4020	a four-hour lifespan
+00231967	tetra- = four; tri- = three.
+71d84908	tri- (three) + iod/o (iodine) + thyronine (the base compound of thyroid hormone, ending in -ine).
+611202ca	⟦0⟧ (⟦1⟧): the least energy the body uses at rest. Thyroid hormone is the BMR’s “accelerator pedal”:<br>• heat production and body temperature<br>• heart rate<br>• growth and brain development in children<br>In the blood, ⟦2⟧ and ⟦3⟧ are mostly bound to a protein called ⟦4⟧ (⟦5⟧).⟦6⟧
+0978c3f2	Picture the thyroid as the body’s “thermostat and accelerator”: too much and the engine runs fast and hot; too little and it runs slow and cold.
+70e41825	Without enough iodine, the thyroid cannot make T3 and T4.
+7d95af3a	True; iodine is part of the structure of these hormones.
+1b1ec970	The thyroid also has a third hormone: ⟦0⟧ (⟦1⟧). When blood calcium rises, calcitonin moves calcium into <b>bone</b> and <b>lowers</b> blood calcium.⟦2⟧⟦3⟧
+acb6767f	calci-TONE-in: it “tones down” calcium.
+2de2302e	the main, plentiful thyroid hormone
+a866d4fe	the more active form, three iodines
+53201e57	lowering blood calcium
+442627e3	stimulating the thyroid from the pituitary
+dfdaaea7	The abbreviation BMR means basal ___ rate.
+75ffc0a3	metabolic
+cf76a33b	Spell the term for the main thyroid hormone (T4)
+3a50ca62	thyroxine (and sometimes thyroxin).
+fffae435	Parathyroid and calcium
+a3322dec	Four small seeds behind the butterfly
+9be1c081	⟦0⟧ → ⟦1⟧: “beside the thyroid”<br>Usually <b>four</b> small glands (two upper, two lower) on the <b>back</b> surface of the thyroid that make only one hormone: ⟦2⟧ (⟦3⟧) or ⟦4⟧.⟦5⟧
+68fc6a43	Back view: the superior and inferior parathyroids.
+6993a7e3	PTH and calcitonin: a seesaw
+0a874437	⟦0⟧When blood calcium is low, PTH raises it in three ways:<br>1. releasing calcium from <b>bone</b><br>2. keeping calcium in the <b>kidney</b><br>3. activating <b>vitamin D</b> to absorb calcium from the gut⟦1⟧
+e74a05cc	PTH brings calcium from bone into the blood; calcitonin does the opposite.
+c4797c17	PTH = “Pull The calcium High”: pull the calcium up!
+285dc461	When blood calcium falls, which hormone is secreted?
+73bdd9fa	PTH raises blood calcium; calcitonin lowers it.
+08e8bd59	Calcitonin and PTH have the same effect on blood calcium.
+cb2bac03	False; their effects are opposite: PTH raises calcium and calcitonin lowers it.
+546b436b	Why does calcium matter?
+4807cb56	Calcium is not only for bone; muscles need it to contract, nerves to send signals and the blood to clot.⟦0⟧
+91f8aa86	Because the parathyroids are attached to the thyroid, they may be damaged in thyroid surgery. After a thyroidectomy, the nurse watches for signs of low calcium: tingling around the mouth and fingers and muscle spasms.
+a9c30795	beside the thyroid
+d4b815ba	calcium-lowering hormone
+efaf7967	The prefix para- in parathyroid means…
+17dde169	para- = beside, near.
+67819c99	There are usually ___ parathyroid glands.
+9f396b30	Two pairs, upper and lower; sometimes 4 to 6.
+f031610a	Build a word meaning “removal of the parathyroids”
+4a87def4	Spell the term for the thyroid hormone that lowers blood calcium
+a04071a3	The overactive thyroid
+d830787e	An engine running fast
+761646a2	⟦0⟧: oversecretion of thyroid hormones.<br>⟦1⟧⟦2⟧ (⟦3⟧ + ⟦4⟧ poison + ⟦5⟧): a state in which the body is “poisoned” by thyroid hormone: palpitations, hand tremor, sweating, restlessness and weight loss.
+6efd5f2e	Whatever is “high and fast” in hyperthyroidism is “low and slow” in hypothyroidism.
+1ed4cd18	⟦0⟧ is the commonest cause of hyperthyroidism: an <b>autoimmune</b> disease in which antibodies act like TSH and keep the thyroid switched on.<br>Three hallmark signs: an overactive thyroid, a <b>goitre</b> and ⟦1⟧ (bulging eyes).⟦2⟧
+e8ec9245	Bulging eyes in Graves disease
+ee74455d	Teaching view of exophthalmos
+8f1a0302	Swelling of the tissue behind the eyeball pushes the eyes forward.
+efe06e0a	bulging of the eyeball
+bc01e7c3	dry eyes
+bc3b1c27	blurred vision
+5fd99619	ex- (out) + ophthalm/o (eye).
+ac7ee8d2	Jasmine, a 35-year-old teacher, has been restless for months, cannot sleep at night, cannot tolerate heat, has lost weight and her eyes bulge. Her thyroid is enlarged. The most likely diagnosis?
+ec2c9be0	Hyperthyroidism + goitre + exophthalmos = Graves.
+56eeafb2	Jasmine, 35 years old
+4610dc9e	restlessness, insomnia, sweating
+11afb285	exophthalmos, enlarged thyroid, tachycardia
+d4a71d6e	high T3 and T4
+69eb94b9	⟦0⟧ (⟦1⟧): a sudden, dangerous flare-up of thyrotoxicosis in an untreated patient, usually after illness, infection or injury: high fever, very fast heartbeat and agitation.⟦2⟧
+d960b104	Thyroid storm is a medical emergency, and the patient must be admitted to hospital immediately.
+e4947746	In hyperthyroidism, the patient usually cannot tolerate cold and gains weight.
+641d8c45	False; these are signs of hypothyroidism. In hyperthyroidism, the patient cannot tolerate heat and loses weight.
+ad25255c	thyroid hormone poisoning
+b46117be	sudden, dangerous worsening
+a9de71c5	The commonest cause of hyperthyroidism is ___ disease.
+cb409013	Graves
+368ad3e8	Addison
+a11c9617	Hashimoto
+8c20556e	Build a word meaning “thyroid poisoning”
+c2818104	Spell the term for bulging of the eyes
+05729096	ex- + ophthalm/o + -os; watch the phth.
+c62f8ca2	The underactive thyroid
+78ca3e11	An engine running slow
+0a385e78	⟦0⟧: undersecretion of thyroid hormone. Everything slows down: tiredness, sleepiness, weight gain, cold intolerance, dry skin, hair loss, constipation and a slow heartbeat.<br>The commonest cause: ⟦1⟧, an <b>autoimmune</b> inflammation of the thyroid that gradually destroys its tissue.⟦2⟧

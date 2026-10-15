@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+f8ee097e@hormona#1	Postie
+55984c94@hormona#1	Suffixo
+c97bbc86@hormona#3	Receptor
+3874441a@hormona#1	Peasy
+dbe79dc4@hormona#1	Lanky
+6bdd57fc@hormona#1	Dammy
+40a7aa49@hormona#1	Butterfly
+d0ecd143@hormona#1	Iodi
+3ca18cb8@hormona#1	Calci
+f0484c2c@hormona#1	Cappy
+b28e8ad6@hormona#1	Adrena
+4123764d@hormona#1	Salty
+bc0c42b7@hormona#2	Isla
+4d2bb0ba@hormona#1	Keyo
+b21739ec@hormona#1	Glucy
+fbcf59e6@hormona#1	Moonbeam
+b989a83e@hormona#1	Thymy
+5562f6ca@hormona#1	Tester

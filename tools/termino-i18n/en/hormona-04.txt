@@ -1,0 +1,200 @@
+892c5af4	releasing factor: “secrete!”, like TRH
+6623c18f	inhibiting factor: “don’t secrete!”
+55818342	Where are ADH and oxytocin made?
+81c3983e	in the hypothalamus
+df6379ae	in the anterior pituitary
+a3ec0ecf	in the kidney
+518011e9	in the thyroid
+846e1d31	They are made in the hypothalamus and stored and released in the posterior pituitary. A common exam trap!
+d957b0f3	The hypothalamus belongs to both the nervous system and the endocrine system.
+cf071b6a	True; it is made of neurons, but it also secretes hormones.
+cdcac700	What does the hypothalamus regulate?
+19b78991	Body temperature, thirst and water balance, hunger, blood pressure and heart rate, the sleep cycle and the stress response.⟦0⟧
+3030f8e3	A head injury or surgery near the hypothalamus can disrupt all the hormonal axes; for example, a patient may suddenly pass huge amounts of urine (diabetes insipidus).
+8c42a576	A hormone from the hypothalamus that tells the pituitary “secrete” is called a ___ factor.
+6e4401b2	releasing
+be2b4f74	inhibiting
+0e8b7e0b	antidiuretic
+4800eeb3	releasing factor (RH); its opposite is an inhibiting factor.
+2f7716d6	part of the brain below the thalamus
+c5d253fa	a hormone made by a neuron
+e5119f40	order to secrete
+e92d19cc	order to stop secreting
+bf1224a5	The prefix ⟦0⟧ in hypothalamus means…
+80102f0d	underactive
+71032de1	Here hypo- means “below” (position), not “too little”.
+b133aa30	Spell the term for the brain region below the thalamus
+e76f07fe	The pituitary: the master gland
+18bda774	A pea in a Turkish saddle
+f022ab67	The ⟦0⟧ or ⟦1⟧ is a gland the size of a <b>pea</b> that hangs from the hypothalamus by a stalk (⟦2⟧) and sits in a bony hollow called the <b>Turkish saddle</b> (⟦3⟧) in the sphenoid bone.⟦4⟧
+fd418301	The pituitary has two lobes: anterior (adenohypophysis) and posterior (neurohypophysis).
+faa5d301	Two lobes, two worlds
+84f996a6	anterior lobe; aden/o = gland: it makes its own hormones (GH, TSH, ACTH, FSH, LH, PRL)
+50178195	posterior lobe; neur/o = nerve: it only stores and releases hypothalamic hormones (ADH, oxytocin)
+ba7fcd37	The anterior lobe is the “factory”; the posterior lobe is the “warehouse”.
+430ab183	What is the posterior lobe of the pituitary called?
+51c39d4b	neur/o (nerve) + hypophysis; it is really an extension of the hypothalamus’s nerve tissue.
+a8799d37	The sella turcica is a gland that makes growth hormone.
+f40a2539	False; the sella turcica is the bony hollow in which the pituitary sits.
+0de5a12a	Match each part to its description
+36d087f7	anterior lobe, the hormone factory
+1c8c420e	posterior lobe, the store for ADH and oxytocin
+2171a6e8	stalk connecting to the hypothalamus
+246009c3	bony seat of the pituitary
+fcf53eaa	Why the “master gland”?
+f43a8bd4	Many anterior lobe hormones switch on other glands: the thyroid, adrenal cortex, ovary and testis. That is why the pituitary is called the <b>master gland</b>.⟦0⟧
+5c4c8ba5	A pituitary tumour usually shows on a skull X-ray or MRI as an “enlarged sella turcica”.
+611d238e	In size, the pituitary is like a ___.
+c8b14841	pea
+5c76940d	walnut
+51b578f9	apple
+cf50dd4f	A pea-sized gland; even so, it commands most of the glands.
+0bd02146	hypophysi/o + -al (relating to); sometimes written hypophyseal.
+19dbd694	Build a word meaning “inflammation of the pituitary”
+08a35707	Spell the scientific name of the pituitary gland
+201b07f5	hypo- (below) + physis (growth).
+8e6c100f	Stimulating hormones (-tropin)
+fe8b58cf	Hormones that switch on another gland
+09f2f2df	The suffix ⟦0⟧ (noun) or ⟦1⟧ (adjective) means “stimulating”. The tropic hormones of the pituitary:⟦2⟧⟦3⟧
+dddd5f8e	Full name
+4a3f173b	Target
+2aadab79	ovarian follicle, sperm production
+5482d348	ovulation, testosterone
+9721e8ee	The name gives the address: thyroid-stimulating = stimulates the thyroid; adreno-cortico-tropic = stimulates the adrenal cortex.
+e2f77a05	Which gland does ⟦0⟧ stimulate?
+0b7de313	the adrenal medulla
+4e7eae71	adreno (adrenal) + cortico (cortex) + tropic (stimulating) → cortisol secretion.
+c2c2aa52	adren/o (adrenal) + cortic/o (cortex) + -tropic (stimulating).
+8e9fae51	Gonadotropins
+12769a62	⟦0⟧ and ⟦1⟧ together are called ⟦2⟧ (⟦3⟧ = sex glands).<br>• In women: FSH stimulates growth of the follicle (egg), and LH stimulates ovulation and formation of the <b>corpus luteum</b> (⟦4⟧ = yellow → luteinizing).<br>• In men: FSH stimulates sperm production, and LH (also called ⟦5⟧ in men) stimulates testosterone secretion.
+a81139c3	FSH and LH are both gonadotropins.
+126da2ac	True; both stimulate the sex glands (gonads).
+4779ee3e	What does ⟦0⟧ do in women?
+ad94de48	ovulation and formation of the corpus luteum
+318a920d	milk production
+1208eece	uterine contraction
+1f7b0da7	luteinizing = making yellow; it turns the ruptured follicle into the corpus luteum.
+ed00c431	Match each abbreviation to its full name
+f3170e32	Another name for TSH is thyro___.
+b32fa230	thyrotropin = thyroid stimulator.
+af46fc0f	Build a word meaning “hormone stimulating the sex glands”
+0f573289	Spell the abbreviation for the hormone that stimulates the adrenal cortex
+f27c4d22	Growth hormone, prolactin and MSH
+b2d251b0	⟦0⟧ (⟦1⟧) or ⟦2⟧:<br>⟦3⟧ → “body stimulator”<br>It stimulates the growth of bones, muscles and most tissues and is secreted mostly at the <b>start of deep sleep</b>.⟦4⟧⟦5⟧
+ac3198b4	The old belief that “children grow in their sleep” has a scientific basis!
+2df6be64	Today GH is made by genetic engineering and prescribed for short children with GH deficiency (human growth hormone therapy).
+8a4c4c9b	⟦0⟧ is another name for which hormone?
+306ed44e	somat/o (body) + -tropin (stimulating) = growth hormone. Its other abbreviation is STH.
+1838d1aa	Prolactin: the milk hormone
+ee6036db	⟦0⟧ → ⟦1⟧ (⟦2⟧)<br>“For milk”: it stimulates breast growth and milk <b>production</b> after birth. Its other name is ⟦3⟧ (⟦4⟧).⟦5⟧
+8f3b4cfd	makes milk (anterior lobe)
+257cf3b8	ejects milk (posterior lobe)
+68e42487	Prolactin ejects milk from the breast.
+f6c21de5	False; prolactin “makes” milk. Ejecting milk (milk let-down) is the job of oxytocin.
+7d98008d	MSH: skin colour
+5ea41d33	⟦0⟧ (⟦1⟧) stimulates skin melanocytes to make the pigment melanin (⟦2⟧ = black).⟦3⟧
+8dd6c4e2	In Addison disease the patient’s skin darkens (bronzes), because the pituitary makes a lot of ACTH and MSH-like hormones to make up for the lack of cortisol.
+fd6b724a	Match each hormone to its effect
+24fe0356	bone and muscle growth
+8877d52e	milk production
+b8970107	thyroid stimulation
+7dd5e709	Which anterior pituitary hormone is not “tropic”, meaning it does not stimulate another gland?
+c427d187	Prolactin (and MSH) act directly on tissue (breast, skin), not on another gland.
+2fc6fb52	The prefix pro- and root lact/o in prolactin mean “for ___”.
+0c7dd3bf	lact/o and galact/o both mean milk.
+eb3f11ed	Build a word meaning “growth hormone” (body stimulator)
+63b4b9d0	Spell the term for the hormone that makes breast milk
+25c0d826	The posterior pituitary: ADH and oxytocin
+2ac235c2	⟦0⟧ → ⟦1⟧ (⟦2⟧)<br>“Against excessive urine”: it tells the kidney tubules to <b>reabsorb water</b>, so the urine becomes scantier and more concentrated.<br>Its other name is ⟦3⟧, because it narrows the vessels and raises blood pressure (⟦4⟧ = vessel).⟦5⟧
+aa7dd445	ADH is like a “dam”: it holds water back in the body.
+b49c1eca	What effect does ADH have on the kidney?
+5b25fe7b	it increases water reabsorption and urine falls
+6bcd3b7f	it increases water loss
+cadb1865	it increases sugar loss
+ba34a9e8	it stops urine production
+7a0f3631	anti-diuretic = against excessive urine; water stays in the body.
+f497f98c	Vasopressin and ADH are the same hormone.
+e4f17ba5	True; vasopressin is the name that refers to its vessel-narrowing effect.
+cf7efd15	Oxytocin: swift birth
+8722b4d3	⟦0⟧ (⟦1⟧), from the Greek ⟦2⟧, “swift birth”:<br>• it stimulates uterine contractions during labour;<br>• it ejects milk from the breast (⟦3⟧).⟦4⟧
+54e3aee5	In the delivery room, synthetic oxytocin is given to induce labour or control bleeding after birth. A lack of it can contribute to uterine inertia (the uterus stops contracting).
+dbef5574	Match each hormone to its target and effect
+6cb862ce	kidney: water reabsorption
+789cbf71	uterus: contraction in labour
+a5068a3e	vessels: narrowing
+154efba0	breast: milk production
+df2cfa71	Which hormone plays a part in both labour and breastfeeding?
+19c72995	Uterine contraction and milk let-down are both the work of oxytocin.
+4fa558eb	In this figure, which two hormones are released from the posterior lobe (P)?
+f48caaad	ADH and OXT
+9679a53c	GH and PRL
+77a471e4	TSH and ACTH
+a688ff9c	FSH and LH
+32cdf1e1	The posterior lobe releases only these two hypothalamic hormones.
+6f485ae4	Antidiuretic hormone is abbreviated ___.
+4d0eac3e	Spell the term for the hormone of labour contractions and milk let-down
+5594e236	oxy (swift) + tocin (birth).
+37ce5aa2	Table of pituitary hormones
+16014fae	All at a glance
+cd9e34e7	Six hormones from the anterior lobe (A) and two from the posterior lobe (P); each arrow reaches a target tissue.
+cc123035	Synonymous abbreviations
+23154e7b	Some hormones have two names and two abbreviations:⟦0⟧⟦1⟧
+c9333f64	GH, hGH, STH (somatotropic hormone)
+8c4c3e74	PRL, LTH (lactogenic hormone)
+118b357a	LH in men
+7c639fd2	For exams, learn each hormone as “abbreviation + target”; for example, “ACTH → adrenal”.
+9eabd75f	melanocyte-stimulating
+b7ee7ba8	Which hormone is not made in the anterior pituitary?
+6b501d26	ADH is made by the hypothalamus and released by the posterior pituitary.
+3a821380	A lab sheet says “⟦0⟧ (low)”. Where is this hormone secreted from?
+cb144682	posterior pituitary
+2966dd14	TSH is a pituitary hormone, even though it is measured to assess the thyroid. A low TSH usually means an overactive thyroid (negative feedback).
+a830537b	The tropic hormones are made only in the anterior lobe of the pituitary.
+f4283b52	True; TSH, ACTH, FSH and LH all come from the adenohypophysis.
+526ea270	Put the route of ADH in order
+dad8ddb0	made in the hypothalamus
+6f532b67	travelling down the pituitary stalk
+e040673d	stored in the posterior pituitary
+a4ca37f3	released into the blood and acting on the kidney
+78ed5c70	ADH is a neurohormone: made in a neuron, stored in the neurohypophysis.
+de8a63b3	The hormones that include FSH and LH are called ___.
+acc5dd1d	gonadotropins
+6da632e5	catecholamines
+4e2788ab	Which pair is correct?
+687d1490	PRL → breast
+70f32eea	ACTH → thyroid
+0874c37a	TSH → adrenal
+ef1a5b51	OXT → kidney
+8d0d2f53	PRL acts on the mammary glands. The other pairs are mixed up.
+3f67edd8	Growth hormone: too much or too little
+44130571	Timing decides the type of disease
+309e8078	If GH is high before the bone growth plates close, height increases; after that, only the extremities and face enlarge.
+05096acc	very tall, with almost normal proportions
+6a7efc17	enlarged hands, feet, jaw and face
+a5bb993d	short, with normal proportions
+eba45736	Acromegaly
+97959aa8	⟦0⟧ → ⟦1⟧: “enlargement of the extremities”<br>The hands and feet, lower jaw, nose, lips and brows enlarge. The usual cause: a <b>pituitary adenoma</b>.⟦2⟧⟦3⟧
+770b10fc	Front and profile views: enlarged jaw and nose
+1e27f753	Broad, thick hands
+3c152882	Acromegaly is usually diagnosed at 30 to 40, after years of excess GH.
+4ea4f6ef	acr/o, as in “acrobat”: someone who walks on the “tips” of their toes; it means the tips and ends of the body.
+0aaaf350	A 40-year-old man says his ring no longer fits and his shoes feel tight; his lower jaw has also come forward. The most likely diagnosis?
+a631a7e9	Excess GH in an adult → enlarged extremities and face = acromegaly.
+7ee287a7	40 years
+203ca21c	ring and shoes getting tight
+21ce641d	large lower jaw, broad hands
+cde58085	Gigantism and short stature
+dd144e8d	⟦0⟧ (⟦1⟧): excess GH in childhood; height may exceed 2 metres 40 centimetres.<br>⟦2⟧: too little GH in childhood; very short but with normal body proportions.⟦3⟧
+05440cec	Identical twins: one with gigantism
+44c28e02	Gigantism, normal height and short stature
+491833af	The difference between the two identical twin brothers comes only from excess GH secretion in one of them.
+cf421435	In pituitary dwarfism the body proportions are distorted.
+2ebe3c05	False; height is short but proportions are normal. Short stature with abnormal proportions more often has a genetic cause or congenital hypothyroidism.
+cc2e0021	Match each condition to its cause
+434471a2	What is the treatment for a short child with GH deficiency?
+fe77cd3b	growth hormone (somatropin) before the growth plates close
+57827cbd	While the bones are still growing (checked with a wrist X-ray), GH increases final height.
+d20be31b	The word acromegaly is built from acr/o, meaning ___, and -megaly, meaning enlargement.
+1f90675f	extremities
+b8cc951e	acr/o = extremities (hands, feet, face).
+0c00f3bf	Build a word meaning “enlargement of the extremities”

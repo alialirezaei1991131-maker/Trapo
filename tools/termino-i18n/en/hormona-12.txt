@@ -1,0 +1,89 @@
+0d7c6b8c	Many patients with PCOS have insulin resistance.
+720ce89d	True; that is why weight loss and sometimes metformin help.
+1ad1bff8	Ovary and adrenal cortex
+eaa66386	Beta cells of the pancreas
+ef0e9aa9	Spell the term for abnormal male-pattern hairiness in a woman
+acca69db	If the suffix begins with a vowel, the combining vowel o is dropped: thyr/o + -itis = thyroiditis.
+40fe693d	Start the meaning of a word from the suffix: hypo/glyc/emia means “a condition of blood low in sugar”.
+c98bd0c7	aden/o is any gland, but adren/o is only the adrenal gland; one r changes the meaning.
+364c6ebf	thym/o is the thymus in the chest, and thyr/o is the thyroid in the neck.
+9f1285b3	endocrine means “secreting inwards” (into the blood) and exocrine means “secreting outwards” (through a duct).
+64266e57	kal/i comes from kalium (symbol K) and natr/o from natrium (symbol Na).
+5dcd986c	hypercalcemia is high calcium and hyperkalemia is high potassium; don’t mix them up!
+d84df829	glucose is sugar, glycogen is the sugar store, and glucagon is the hormone that opens the store.
+da02f5c4	polyuria is a sign of diabetes; polyurea is an industrial polymer!
+a2b61c8f	The pituitary is the size of a pea and sits in the Turkish saddle (sella turcica).
+a13dd97d	ADH and oxytocin are made in the hypothalamus and stored in the posterior pituitary.
+a86bde0d	-tropin means “stimulating”: thyrotropin stimulates the thyroid and gonadotropin stimulates the sex glands.
+3aff70ff	Growth hormone is secreted mostly at the start of deep sleep.
+445291d4	Too much GH before puberty: gigantism; after puberty: acromegaly (acr/o = extremities).
+b07df4ee	diabetes insipidus means “tasteless diabetes”: large amounts of dilute urine from a lack of ADH.
+e5f75dc6	Prolactin makes the milk; oxytocin pushes it out.
+1f5cb590	Pituitary tumours today are usually removed through the nose: transsphenoidal.
+99eabab2	thyr/o means “shield”; the thyroid cartilage looks like the shield of a Greek warrior.
+7c49cc16	The number in T4 and T3 is the number of iodine atoms.
+ebbd3b11	Read TSH in reverse: it is low in hyperthyroidism and high in hypothyroidism.
+34329220	Graves “hits the accelerator” (overactivity) and Hashimoto “hits the brakes” (underactivity); both are autoimmune.
+7ee111cb	exophthalmos means bulging of the eye: ex- (out) + ophthalm/o (eye).
+a0d6508b	PTH raises blood calcium and calcitonin lowers it.
+86e54fa7	Tingling around the mouth after thyroid surgery? Think of low calcium and parathyroid damage.
+f870e603	Newborn TSH screening finds congenital hypothyroidism before brain damage occurs.
+1094019b	adrenal, suprarenal and epinephrine all just say “on the kidney”.
+dd894609	The adrenal cortex makes three S’s: Salt (aldosterone), Sugar (cortisol), Sex (androgens).
+4b3e2545	cortex means tree bark (outside) and medulla means marrow (centre).
+f6c61e2a	Aldosterone keeps sodium and gets rid of potassium.
+040f8b71	Cushing “syndrome” is excess cortisol from any cause; Cushing “disease” has a pituitary origin.
+4cbc0d05	The bronze skin in Addison’s comes from excess ACTH, which also stimulates the melanocytes.
+d90f98fa	Don’t stop a steroid medicine suddenly after long use; it must be tapered gradually.
+d57b48e3	Pheochromocytoma: episodes of high blood pressure, headache, palpitations and sweating.
+104a4463	insul/o means island; insulin is the hormone of the islets of Langerhans.
+7ae10c1a	Beta cells make insulin (lowers sugar) and alpha cells make glucagon (raises sugar).
+67588503	mellitus means honeyed and insipidus means tasteless.
+d05b5a96	The three P’s of diabetes: polyuria, polydipsia, polyphagia.
+c6ec2119	HbA1c shows the average sugar over the past 2 to 3 months and does not require fasting.
+5566a4d7	Fasting sugar of 126 or more, two-hour sugar of 200 or more, or HbA1c of 6.5% or more: diabetes.
+b8909009	Cold, clammy skin with shaking? Low sugar. Dry skin with deep breathing and a fruity smell? Ketoacidosis.
+c43489af	antihypoglycemic means “against low sugar”; so it raises the sugar.
+2af8b592	A person with diabetes should look at their feet every day; neuropathy makes ulcers painless.
+d54e5420	Melatonin rises in the dark and sets the body clock.
+2f933afc	The T in “T lymphocyte” comes from Thymus.
+159bf5d8	RIA (radioimmunoassay) is different from RAIU (radioactive iodine uptake).
+4cb1b755	After an endocrine gland is removed, its hormone must be replaced.
+e1473fc3	WNL in a record means “within normal limits”.
+fc007b5d	Most gland diseases come either from too much or too little of a hormone.
+c9800a1b	Five minutes of Leitner card review every day works better than an hour of study the night before the exam.
+8c0d24ca	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Hormona is a learning tool; reference values vary with the laboratory, age and sex.</p>⏎    </section>
+5b31b0ee	Search: goiter, diabetes, thyr…
+64eb6915	<div class="tpane">⏎    <p class="muted">Type a medical word and it will be broken into prefix, root and suffix. The golden rule: start the meaning from the <b>suffix</b>, then the prefix, and finally the roots.</p>⏎    <label class="tsearch tsearch--big"><span aria-hidden="true">✂</span><input type="text" data-tp value="⟦0⟧" dir="ltr" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. hypercalcemia"></label>⏎    <div class="tchips tchips--btn">⟦1⟧</div>⏎    <div class="tout" aria-live="polite">⟦2⟧</div></div>
+283b8d58	Search: thyr, sugar, -emia…
+a6f23b46	Search: TSH, diabetes, hormone…
+badcf077	Fasting blood sugar (FBS / FPG)
+69a5517c	100 to 125 prediabetes; 126 or more: diabetes
+94af4889	Two-hour glucose (OGTT)
+d4eb5f9b	140 to 199: impaired glucose tolerance (IGT); 200 or more: diabetes
+5997b7d5	Glycated haemoglobin (HbA1c)
+1b106382	5.7 to 6.4 prediabetes; 6.5 or more: diabetes; treatment target usually below 7
+b7596326	Random blood sugar
+9edcc3ee	200 or more with symptoms: diabetes
+8889292a	Below 54: significant hypoglycaemia needing urgent treatment
+9aca4680	Thyroid-stimulating hormone (TSH)
+bf036be4	Hyperthyroidism: low • Hypothyroidism: high
+8bb236b1	Free thyroxine (Free T4)
+f90187c3	The active, unbound form of T4
+37d98661	Total triiodothyronine (T3)
+631ab1bd	Rises in hyperthyroidism
+d97f309d	Total serum calcium
+65a2d9cc	High: hyperparathyroidism • Low: tetany
+eccd2481	Parathyroid hormone (PTH)
+d9d60e0d	Interpreted together with serum calcium
+f93ae93e	Sodium (Na+)
+8e7114ca	Below 135: hyponatremia (e.g. in SIADH)
+6466bc1a	Potassium (K+)
+21110a6d	High in Addison’s • Low in hyperaldosteronism
+6b3bdded	Morning cortisol
+1c1c168c	High in Cushing’s • Low in Addison’s
+5d12eb0b	Prolactin (non-pregnant woman)
+aba2be42	High: hyperprolactinemia and galactorrhea
+8c255006	Blood ketones
+4b86524a	Above 3 with acidosis: DKA
+8f5c0631	Negative feedback of the thyroid axis

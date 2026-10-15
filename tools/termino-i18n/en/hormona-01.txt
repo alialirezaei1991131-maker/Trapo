@@ -1,0 +1,330 @@
+90aa36f2	Hormona
+2ffea093	Hormona • Endocrine Terminology
+dd65efbc	Medical terminology of the endocrine system (glands and hormones)
+33cc5344	🦋 Medical terminology: The Endocrine System, Glands and Hormones
+e936edc5	Hi, I’m <b>Hormona</b>;
+f311a4dc	Hi, I’m <b>Hormona</b>, a hormone molecule with a golden key that unlocks every target cell! Here you don’t memorise words; you <b>decode</b> them: you learn the roots, prefixes and suffixes and read every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures and teaching figures, and ⟦2⟧ clinical cases and Leitner cards are waiting for you.
+a8055035	Hormona is a learning tool and does not replace clinical judgement, a physician’s orders or a laboratory reference.
+3413fdb6	Dozens of bilingual figures and clinical pictures, from the map of the glands and negative feedback to goitre, acromegaly and Cushing syndrome.
+ed61c1fb	Break every endocrine word into prefix, root and suffix and say what it means
+ef1f766a	Show the location of each gland, its hormones and their target tissues on a body map
+61bd58c3	Explain the hypothalamus–pituitary axis and negative feedback
+60bf9333	Recognise thyroid, parathyroid and adrenal diseases by “too much or too little” hormone
+f0b654ac	Describe the types of diabetes, blood sugar tests, complications and treatments with the right terms
+fb000220	Read lab sheets, abbreviations, operations and endocrine drugs in a patient record
+98d84644	Just 5 minutes a day. A few weeks from now you’ll read gland and hormone terms like your mother tongue.
+85892e76	Hi! I’m Hormona, the hormone molecule that holds the key to every cell 🔑 What’s your name?
+fa7a876a	Which world shall we start with? If you’re new, “Language of Hormones” is the best start; the overview of the system and the basic roots are taught there!
+10acd1ab	The word <b dir="ltr">hypoglycemia</b> means…
+dc2831d2	low blood sugar
+a5af5760	high blood sugar
+5138ec03	lack of insulin
+8407fcb2	⟦0⟧<br><b>hypo-</b> = below normal, <b>glyc/o</b> = sugar, <b>-emia</b> = condition of the blood. So it means <b>low blood sugar</b>, the drop that comes with too much insulin or with hunger. Start the meaning from the suffix!
+c0ec2e6b	New Messenger
+434b6a98	Curious Receptor
+61fca52e	Young Key
+1825ea4b	Homeostasis Guardian
+b7c380ea	Negative Feedback Master
+dfd359f5	Hyper and Hypo Hunter
+01205511	Pituitary Conductor
+a8eb584d	Guardian of the Neck Butterfly
+d1cc364f	Calcium Master
+f2b7ef1e	Adrenal Commander
+3f7066d4	Diabetes Detective
+556ace8e	Endocrinology Legend
+c7cb75a1	endocrine ward nurse
+f591aa34	diabetes educator
+332be5e0	First Message
+e959a340	Pituitary Commander
+7ed37610	Butterfly Guardian
+6b4acbe0	King of Stress
+52d98b26	Keeper of the Sugar Key
+8d59d310	Hormone Detective
+1259fcdc	enlarged hands, feet and face in adults
+12198a81	Addison disease
+2d00a1dc	cancer of glandular tissue
+4e53919d	of glandular origin
+091717d9	front lobe of the pituitary
+e3cab707	inflammation of the anterior pituitary
+a048b1db	benign gland tumour
+ffa9fad2	removal of a gland tumour
+c2bf440f	any disease of a gland
+3135b2af	incision into a gland
+dde1fdca	adrenal cortex
+1425fd00	feminization caused by the adrenal glands
+8873b729	adrenal glands
+0e41c9ba	adrenal insufficiency
+a41e31ea	inner part of the adrenal gland
+d271d4a6	masculinization caused by the adrenal glands
+532aa77a	removal of an adrenal gland
+1ca53e65	epinephrine (British name)
+4658e983	inflammation of an adrenal gland
+76f2c946	activated by epinephrine
+b17a880d	relating to the adrenal cortex
+a90f2047	adrenocorticotropic hormone
+25a5ffe3	adrenal disorder causing abnormal sex development
+a61a4d8c	enlargement of the adrenal glands
+06bb9e52	adrenal disease
+940517a1	alpha cells
+15c878b5	absence of periods
+ae401eca	hormone made of amino acids
+dd462bde	male sex hormone
+47e32520	antidiabetic drugs
+850261a9	lowering high blood sugar
+23f3a1e9	raising low blood sugar
+fa945f6d	antithyroid drugs
+d2957861	drugs that remove water but keep sodium
+93e34125	basal metabolism
+7ab77de3	beta cells
+aa0e020e	blood serum test
+d5596e34	single concentrated dose
+0df1cb57	buffalo hump
+0dbb6320	severe wasting
+e2916a02	calcitonin
+ca6778b3	catecholamines
+d877e8d4	chemical thyroidectomy
+a6734c2b	daily body rhythm
+3d0cce22	gel inside thyroid follicles
+b7dd0813	congenital adrenal hyperplasia
+aedad7bf	congenital hypothyroidism
+f4a4e0ad	Conn syndrome
+4a1f5e54	seizure
+6166c319	cortisol
+3a653b88	tumour near the pituitary from embryonic tissue
+1e7b1efe	stunted growth from infant hypothyroidism (old name)
+cb5cae74	Cushing disease
+6544d683	Cushing syndrome
+692498cf	diabetes mellitus
+eb09106b	diabetic coma
+59a82058	diabetic nerve damage
+3644ecfd	diabetic retina damage
+856fc69a	ductless gland
+e89fd36d	short stature
+e731c9a8	fluid swelling of tissue
+9e4c41c2	extreme thinness
+bea38e1c	gland secreting into the blood
+6d420109	hormone specialist
+88169bed	endocrine disease
+0eaa0535	epinephrine
+28cc78ab	estradiol
+56cbafae	estrogen receptor assay
+ca71a50b	normal thyroid function
+8cbbf114	gland secreting through a duct
+56b496ce	exophthalmic goitre
+7e6d9cd1	bulging eyes
+feae0efe	fasting blood sugar
+a515fe3d	fight-or-flight response
+0a1ed9c1	free thyroxine index
+0317f091	abnormal milk secretion
+cdfde088	gametes (sex cells)
+0ab90402	excessive height from childhood GH excess
+9a983e7a	glucagon
+e921658e	glucocorticoids
+adf15052	glucose production
+0954af04	blood glucose meter
+df860e91	making new glucose
+822e4b13	glucose tolerance test
+fce0fdaf	glucose in the urine
+365a84c1	glycated haemoglobin (A1c)
+fb0324f0	forming glycogen
+99d28682	breakdown of glycogen
+e968e1c1	breakdown of glucose
+39fb5ed0	goitre
+91a80c9b	gonadocorticoids
+66c96773	gonadotropins
+4353a1c2	gonads
+c34c356d	Graves disease
+1c95ec48	growth hormone
+214fd64e	breast enlargement in males
+0b32a9ad	Hashimoto thyroiditis
+d4ea56e4	excessive hair growth
+5a78c320	stable internal balance
+f82e0ea0	human chorionic gonadotropin
+b5a5d3f0	growth hormone therapy
+8b580c59	relating to body fluids
+563ab2eb	hydrocortisone
+d67018b9	hyperadrenalism
+5ae980a8	hyperaldosteronism
+5b332735	high blood calcium
+6b46acb2	high blood sugar
+aee308be	hypergonadism
+af063557	excess insulin
+5a785800	high blood potassium
+fc784bfb	high blood sodium
+b3066095	hyperparathyroidism
+a818077a	darkening of the skin
+74aa3f6e	hyperpituitarism
+0c341e9c	high blood prolactin
+f05ee922	oversecretion
+6954344b	hypoadrenalism
+2fc576d1	low blood calcium
+1d71798b	low blood sugar
+e70eaadd	blood-sugar-lowering
+bbf6c3f1	hypogonadism
+93b177d5	low blood potassium
+b23b7018	low blood sodium
+a32e4698	hypoparathyroidism
+626b3c5f	hypophysectomy
+e1b7bce9	relating to the pituitary
+634cd075	hypophysitis
+6cb2b518	hypopituitarism
+46dd859d	undersecretion
+6227a626	hypothalamus
+311d9935	impaired fasting glucose
+3b3b1d59	impaired glucose tolerance
+efb96fb9	pituitary stalk
+e0a3e42d	inhibiting factor
+a49f0863	relating to the pancreatic islets
+c7f84c83	insulin pump
+431508bc	insulin resistance
+440bbf40	insulin shock
+0944bbd4	insulin-secreting tumour
+f3cca733	hormone stimulating testicular interstitial cells
+af69a68f	islet cell transplant
+5de17928	islets of Langerhans
+cb36de27	narrow band joining the thyroid lobes
+c1274c8e	ketoacidosis
+f054dc86	ketone bodies
+20d9724a	ketone build-up in the body
+4564e8fc	milk-producing hormone
+eb52364c	laparoscopic adrenalectomy
+7f292cd3	levothyroxine
+6374122c	large birth weight
+a99dafcc	master gland
+59f0a7e9	melanocyte-stimulating hormone
+b6823204	melatonin
+a8d3c7b2	metabolic syndrome
+c4917888	metabolism
+e352532d	metformin
+3d2a7413	methimazole
+2bda671b	mineralocorticoids
+ede19b9f	moon face
+d5d94301	multiple endocrine neoplasia
+daefb30e	myxoedema
+03601540	negative feedback
+63dca6ac	hormone made by nerve cells
+9e6f7e5c	back lobe of the pituitary
+3d651fdb	norepinephrine (British name)
+192c541d	norepinephrine
+e4927aaf	NPH insulin
+1f43ae52	oral glucose-lowering drugs
+8f1eb727	relating to the ovary
+b0fa8064	pancreas
+c6d42f16	pancreatectomy
+25f03efc	relating to the pancreas
+90aa5fc3	pancreatotomy
+56060b86	total pituitary failure
+da0abcbe	parathormone
+682d0ad1	parathyroid glands
+b1bd291f	parathyroid hormone
+6b52545f	relating to the parathyroids
+8c541ab5	parathyroidectomy
+9b49eeb1	damage to nerves of the limbs
+7c230104	pheochromocytoma
+f78c82b7	pineal gland
+306270a7	removal of the pineal gland
+cc8704f2	pituitary dysfunction
+3f6b746b	pituitary adenoma
+ef7a640b	pituitary apoplexy
+bf13e451	pituitary dwarfism
+e65ba670	pituitary gland
+54a12745	polycystic ovary syndrome
+3c2ade04	excessive thirst
+8ef060b7	excessive hunger
+e57a1b12	blood sugar after a meal
+1a844519	prednisone
+a402f0fd	prolactin
+c9ab6d60	prostaglandins
+3d768894	protein-bound iodine test
+3f166936	radioactive iodine therapy
+5500f3d5	radioactive iodine uptake test
+4e0caad0	radioimmunoassay
+3b54689c	bone disease from hyperparathyroidism
+4c27573d	releasing factor
+35a19c3b	seasonal affective disorder
+3b8f95d2	sella turcica
+35774068	serum cortisol
+f1f9f219	serum potassium
+b4962a2a	Simmonds disease
+477d8432	simple goitre (iodine deficiency)
+09f8f3cc	somatotropin
+93fe8444	steroid hormone
+2650cb0e	steroids
+c710442e	stretch marks
+c03632e9	glands above the kidneys
+c8f03408	sympathomimetic
+6a0ad454	syndrome
+7a8a8ad5	syndrome of inappropriate ADH
+0696b0ab	T lymphocytes
+05b37656	target cell
+0ef5896b	target tissue
+d12e65fe	testes
+fbb12943	painful muscle spasms
+ca0479c7	tetraiodothyronine
+754975ef	thymoma
+92cc2b23	failure of the thyroid to develop
+67e7b135	thyroid cancer
+41c60292	thyroid ultrasound
+d1ab6cab	thyroid function test
+8b89b95f	thyroid gland
+97e598f4	thyroid nodule
+e9ee22f6	thyroid replacement hormone
+5005cc9a	thyroid scan
+9faacf1f	thyroid storm
+977c4a0c	thyroid-stimulating hormone
+85a7ba2c	relating to the thyroid
+3ffcf9a7	thyroiditis
+fece3bcd	destroying thyroid tissue
+17f1ca41	thyromegaly
+90c9a3a7	removal of thyroid and parathyroids
+be6623ac	treatment with thyroid preparations
+bab1dc4d	incision into the thyroid
+18b9b249	poisoned by thyroid hormone
+73652fa5	thyroid hormone poisoning
+1aa2b421	thyrotropin
+7c0eaa80	thyroxine
+b66c3bfb	thyroxine-binding globulin
+eaf52cdd	total calcium
+d5918bc5	toxic goitre
+e2b3aa09	poison specialist
+591322fe	transsphenoidal hypophysectomy
+83b8c43b	triiodothyronine
+462ec72c	tropic hormone
+0803eaaf	type 1 diabetes
+ab8c3f7e	type 2 diabetes
+5fb2e35c	formation of an ulcer
+8af9e1ad	ultrasound
+527ca58c	urine calcium
+67d22c51	urine glucose
+eea3f299	uterine inertia
+b730a857	vasopressin
+567c121b	virilism
+f109ed51	near, towards
+447be359	out, outside
+04f72009	half
+6092e3ef	excessive, above normal
+0f3142eb	chemical prefix
+8f998f11	beside, near
+849c5a60	much, many
+f5b10271	before, for
+007be88a	same, constant
+0d96a3fa	thalamus
+2487b24c	thyroid (shield)
+4b86d4d6	parathyroid
+270c6de3	cortex (outer layer)
+836f72bc	islet (pancreatic islets)
+06a04bf7	pineal gland
+1e203fef	minerals, electrolytes
+7bc32ac3	glucose, sugar
+c194c021	glycogen (stored sugar)
+d32cc8e7	extremities (hands, feet, face)
+f66ea54e	man, male
+35cbbf0b	dark, brown
+fccd25da	retina
+f4b2cc6e	secreting
+5fdc0007	running (together)
+f1fe2ca1	blood condition
+98d3e672	production, formation
+ee22d0e2	process of recording an image
+16dee063	chemical substance (hormone name ending)
+abe54843	measuring instrument

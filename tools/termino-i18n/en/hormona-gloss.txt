@@ -1,0 +1,169 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+df3f0c7b@hormona#1	bulge of the thyroid cartilage at the front of the neck
+12198a81@hormona#1	chronic failure of the adrenal cortex
+94c365d1@hormona#1	gland sitting on top of each kidney
+dde1fdca@hormona#1	outer layer of the suprarenal gland
+8873b729@hormona#1	pair of glands on top of the kidneys
+0e41c9ba@hormona#1	too little cortisol from the suprarenal glands
+1ca53e65@hormona#1	fight-or-flight hormone of the adrenal medulla
+a90f2047@hormona#1	pituitary hormone that drives the adrenal cortex
+e14fa48a@hormona#1	adrenal hormone that keeps sodium and loses potassium
+940517a1@hormona#1	islet cells that make glucagon
+b77e1028@hormona#1	pituitary hormone that makes the kidneys save water
+7ab77de3@hormona#1	islet cells that make insulin
+aa0e020e@hormona#1	lab measurement on the fluid part of blood
+4ca5b53e@hormona#1	amount of glucose circulating in the blood
+0df1cb57@hormona#1	fat pad between the shoulders in excess cortisol
+e2916a02@hormona#1	thyroid hormone that lowers blood calcium
+c53d5414@hormona#1	mineral for bones, nerves and muscles
+ca6778b3@hormona#1	adrenaline-type hormones of the adrenal medulla
+d877e8d4@hormona#1	destroying the thyroid with radioactive iodine
+b7dd0813@hormona#1	inborn enlargement of the adrenal cortex from an enzyme defect
+aedad7bf@hormona#1	underactive thyroid present from birth
+f4a4e0ad@hormona#1	excess aldosterone from an adrenal tumour
+400aefeb@hormona#1	ovarian structure that makes progesterone after ovulation
+6166c319@hormona#1	main adrenal stress hormone
+cb5cae74@hormona#1	excess cortisol from a pituitary tumour
+6544d683@hormona#1	signs of long-term excess cortisol from any cause
+f1baa703@hormona#1	large volumes of dilute urine from lack of ADH
+692498cf@hormona#1	high blood sugar from lack of insulin or its action
+eb09106b@hormona#1	unconsciousness from very high blood sugar
+856fc69a@hormona#1	gland that secretes straight into the blood
+d6f9b232@hormona#1	charged minerals in body fluids, such as Na and K
+0eaa0535@hormona#1	American name of the fight-or-flight hormone
+28cc78ab@hormona#1	main and most potent oestrogen
+33fb371a@hormona#1	female sex hormone from the ovaries
+feae0efe@hormona#1	glucose measured after 8 hours without food
+a515fe3d@hormona#1	body’s alarm reaction to danger
+6d9a561b@hormona#1	pituitary hormone that ripens eggs and sperm
+0a1ed9c1@hormona#1	estimate of unbound T4
+cdfde088@hormona#1	sex cells: egg and sperm
+5c4c073b@hormona#1	high blood sugar first appearing in pregnancy
+270bec94@hormona#1	organ that makes and releases substances
+9a983e7a@hormona#1	pancreatic hormone that raises blood sugar
+e921658e@hormona#1	adrenal hormones such as cortisol that raise sugar
+e0791652@hormona#1	the body’s main sugar fuel
+822e4b13@hormona#1	sugar drink then timed blood tests
+91a80c9b@hormona#1	sex hormones made by the adrenal cortex
+66c96773@hormona#1	pituitary hormones that stimulate the ovaries and testes
+4353a1c2@hormona#1	sex glands: ovaries and testes
+c34c356d@hormona#1	autoimmune overactive thyroid with bulging eyes
+1c95ec48@hormona#1	pituitary hormone for body growth
+0b32a9ad@hormona#1	autoimmune underactive thyroid
+3ee5782d@hormona#1	chemical messenger carried in the blood
+78e99f4e@hormona#1	giving back a missing hormone
+f82e0ea0@hormona#1	placental hormone detected in pregnancy tests
+b5a5d3f0@hormona#1	injections for short stature from GH lack
+563ab2eb@hormona#1	medicinal form of cortisol
+d67018b9@hormona#1	overactive suprarenal glands
+5ae980a8@hormona#1	too much aldosterone
+aee308be@hormona#1	overactive sex glands
+b3066095@hormona#1	too much PTH and high calcium
+74aa3f6e@hormona#1	overactive master gland
+6954344b@hormona#1	underactive suprarenal glands
+bbf6c3f1@hormona#1	underactive sex glands
+a32e4698@hormona#1	too little PTH and low calcium
+626b3c5f@hormona#1	surgical removal of the pituitary
+634cd075@hormona#1	inflammation of the pituitary
+6cb2b518@hormona#1	underactive master gland
+6227a626@hormona#1	brain area above the pituitary that controls it
+311d9935@hormona#1	fasting sugar 100 to 125, a prediabetes state
+3b3b1d59@hormona#1	2-hour sugar 140 to 199, a prediabetes state
+e0a3e42d@hormona#1	hypothalamic signal that stops a pituitary hormone
+f2013060@hormona#1	pancreatic hormone that lowers blood sugar
+c7f84c83@hormona#1	small device giving continuous hormone under the skin
+431508bc@hormona#1	cells respond poorly to the sugar-lowering hormone
+440bbf40@hormona#1	severe hypoglycaemia from too much of the hormone
+694b8538@hormona#1	element needed to make thyroid hormones
+5de17928@hormona#1	hormone-making cell clusters of the pancreas
+c1274c8e@hormona#1	acid build-up from fat breakdown without insulin
+eb52364c@hormona#1	keyhole removal of a suprarenal gland
+7f292cd3@hormona#1	synthetic T4 tablet
+14bc0460@hormona#1	pituitary hormone that triggers ovulation and testosterone
+0173d089@hormona#1	scan using magnets and radio waves
+a99dafcc@hormona#1	nickname of the pituitary
+59f0a7e9@hormona#1	pituitary hormone that darkens the skin
+b6823204@hormona#1	pineal hormone of sleep and darkness
+a8d3c7b2@hormona#1	belly fat, high pressure, high sugar and abnormal lipids together
+c4917888@hormona#1	all the chemical reactions of the body
+e352532d@hormona#1	tablet that reduces insulin resistance
+3d2a7413@hormona#1	drug that blocks thyroid hormone production
+2bda671b@hormona#1	adrenal hormones such as aldosterone that control salt
+ede19b9f@hormona#1	round, puffy face in excess cortisol
+d5d94301@hormona#1	inherited tumours of several hormone glands
+03601540@hormona#1	hormone excess switches off its own production
+3d651fdb@hormona#1	vessel-tightening partner of adrenaline
+192c541d@hormona#1	American name of the vessel-tightening partner hormone
+e4927aaf@hormona#1	intermediate-acting cloudy insulin
+1ec83757@hormona#1	excess body fat with BMI of 30 or more
+0186d443@hormona#1	female sex glands
+762efe6b@hormona#1	hormone of labour contractions and milk let-down
+b0fa8064@hormona#1	organ behind the stomach with endocrine islets
+c6d42f16@hormona#1	surgical removal of the pancreas
+90aa5fc3@hormona#1	surgical incision into the pancreas
+da0abcbe@hormona#1	another name for PTH
+682d0ad1@hormona#1	four small glands behind the thyroid
+b1bd291f@hormona#1	hormone that raises blood calcium
+8c541ab5@hormona#1	removal of a parathyroid gland
+7c230104@hormona#1	adrenal medulla tumour causing attacks of high pressure
+f78c82b7@hormona#1	small brain gland that makes melatonin
+3f6b746b@hormona#1	benign tumour of the master gland
+ef7a640b@hormona#1	sudden bleeding into a pituitary tumour
+bf13e451@hormona#1	short stature from GH lack
+e65ba670@hormona#1	pea-sized master gland under the brain
+54a12745@hormona#1	irregular periods, excess androgen and many follicles
+dcb025ba@hormona#1	electrolyte K, vital for heart rhythm
+1a844519@hormona#1	synthetic cortisol-like drug
+8189e3de@hormona#1	pregnancy-supporting hormone of the corpus luteum
+a402f0fd@hormona#1	pituitary hormone that makes milk
+c9ab6d60@hormona#1	local hormone-like fatty substances
+3d768894@hormona#1	old blood test of thyroid function
+3f166936@hormona#1	swallowed radio-iodine that destroys thyroid tissue
+5500f3d5@hormona#1	how much radio-iodine the thyroid takes up
+4e0caad0@hormona#1	antibody lab method that measures hormones
+c97bbc86@hormona#1	molecule on a cell that a hormone binds to
+4c27573d@hormona#1	hypothalamic signal that starts a pituitary hormone
+80986bfe@hormona#1	kidney enzyme that starts the aldosterone chain
+35a19c3b@hormona#1	winter depression linked to melatonin
+3b8f95d2@hormona#1	saddle-shaped bony seat of the pituitary
+35774068@hormona#1	blood level of the stress hormone
+f1f9f219@hormona#1	blood level of K
+b4962a2a@hormona#1	total failure of the pituitary
+5714fcd2@hormona#1	electrolyte Na that holds water in the body
+09f8f3cc@hormona#1	another name for growth hormone
+93fe8444@hormona#1	hormone built from cholesterol
+2650cb0e@hormona#1	cortisol-like anti-inflammatory drugs
+70fa8e24@hormona#1	under the skin
+c8f03408@hormona#1	drug that mimics adrenaline
+6a0ad454@hormona#1	group of signs that occur together
+7a8a8ad5@hormona#1	excess ADH with water retention and low sodium
+05b37656@hormona#1	cell that has the receptor for a hormone
+0ef5896b@hormona#1	tissue a hormone acts on
+d12e65fe@hormona#1	male sex glands
+f93b30a5@hormona#1	main male sex hormone
+ca0479c7@hormona#1	T4, thyroid hormone with four iodines
+754975ef@hormona#1	tumour of the thymus
+c09e6503@hormona#1	shield-shaped cartilage of the larynx
+d1ab6cab@hormona#1	blood tests of TSH, T4 and T3
+8b89b95f@hormona#1	butterfly-shaped gland in the neck
+97e598f4@hormona#1	lump within the thyroid
+e9ee22f6@hormona#1	tablet that replaces missing T4
+5005cc9a@hormona#1	image of the thyroid after radio-iodine
+9faacf1f@hormona#1	life-threatening crisis of thyroid overactivity
+977c4a0c@hormona#1	pituitary hormone that drives the thyroid
+3ffcf9a7@hormona#1	inflammation of the thyroid
+17f1ca41@hormona#1	enlarged thyroid
+1aa2b421@hormona#1	another name for TSH
+7c0eaa80@hormona#1	main thyroid hormone, T4
+b66c3bfb@hormona#1	blood protein that carries T4
+eaf52cdd@hormona#1	bound plus free calcium in blood
+591322fe@hormona#1	removal of the pituitary through the nose
+83b8c43b@hormona#1	T3, active thyroid hormone with three iodines
+462ec72c@hormona#1	hormone that stimulates another gland
+0803eaaf@hormona#1	autoimmune loss of insulin, usually in the young
+ab8c3f7e@hormona#1	insulin resistance, usually in adults
+8af9e1ad@hormona#1	imaging with sound waves
+527ca58c@hormona#1	amount of calcium in a 24-hour urine
+eea3f299@hormona#1	weak or absent contractions in labour
+b730a857@hormona#1	another name for ADH
+567c121b@hormona#1	male features in a woman

@@ -1,0 +1,191 @@
+6e4992ac	Aldosterone is “salt-loving”: it keeps sodium and throws out potassium.
+0806609e	Aldosterone keeps potassium in the body and gets rid of sodium.
+226c804d	False; it is the other way round: it keeps sodium and gets rid of potassium.
+c38b090c	In both women and men, the adrenal cortex also makes a <b>small</b> amount of sex hormone, mostly ⟦0⟧ (⟦1⟧ = man, ⟦2⟧ = producer), which plays a part in body hair growth and secondary characteristics.
+e316abee	Match each family to its example hormone
+d54a03bc	Which hormone stimulates the adrenal cortex to make cortisol?
+2c7b7d08	ACTH from the pituitary
+37476597	TSH from the pituitary
+63851721	ADH from the hypothalamus
+b11fd2ef	insulin from the pancreas
+443ad1bd	The word mineralocorticoid is built from mineral/o, meaning ___.
+11e733c1	Aldosterone regulates the electrolytes (sodium and potassium).
+b026f2c9	Spell the term for the adrenal salt hormone
+f6ef3c24	ald + ster + -one (chemical suffix).
+9f985ace	The medulla: fight or flight
+08e43071	The hormones of the moment of danger
+a6ac0675	The adrenal medulla makes two hormones of the ⟦0⟧ family:<br>• ⟦1⟧ (⟦2⟧)<br>• ⟦3⟧ (⟦4⟧)<br>Together with the sympathetic nervous system, these hormones prepare the body for <b>fight or flight</b> (⟦5⟧).⟦6⟧
+3514b634	Within seconds: a faster heart, higher pressure, quicker breathing, more blood sugar and wider pupils.
+64773b22	Which hormone is responsible for the “fight-or-flight” response?
+6de8ff5f	Epinephrine is released from the adrenal medulla within seconds.
+ba270422	⟦0⟧ → ⟦1⟧: “imitating the sympathetic system”<br>⟦2⟧: “activated by adrenaline”; drugs that act like adrenaline are called adrenergic.⟦3⟧
+6ba11ea6	In anaphylaxis or cardiac arrest, the first drug is an injection of epinephrine: the same hormone the body makes itself in danger.
+a5097043	Match each hormone to its main effect
+5618a6f5	raising heart rate and blood sugar
+dfeadc07	narrowing vessels and raising pressure
+a0164ea9	coping with long-term stress
+a1e05901	keeping sodium
+ecfa87cb	The hormones of the adrenal medulla are steroids.
+2a75a111	False; catecholamines are made from an amino acid. The hormones of the “cortex” are steroids.
+399f1a75	What is the prefix nor- in norepinephrine?
+cedfbf93	a chemical prefix; the more basic form of the molecule
+ce59de4e	it means “normal”
+13755aa3	it means “without”
+9462bd48	it means “much”
+481f703c	In chemistry, nor- marks the simpler (parent) form of a compound.
+f8d14815	Put the events of a sudden fright in order
+c954c6c8	seeing danger
+28e4cba3	stimulation of sympathetic nerves
+5659fe36	release of epinephrine from the medulla
+2b61ec4c	The nerve switches on the medulla; the hormone prepares the body.
+cbfb1cf7	Epinephrine and norepinephrine together are called ___.
+96601a94	Build a word meaning “epinephrine” (upon the kidney)
+c02cd27b	Spell the term for the adrenal medulla’s fight-or-flight hormone
+e76ec5a8	Too much cortisol
+ce4898f4	⟦0⟧: the set of signs caused by too much cortisol, from any cause.⟦1⟧⟦2⟧
+547e093b	Teaching image with a smooth mannequin surface: the signs of too much cortisol from head to toe.
+a0d317fc	English
+1e832116	round, full face
+16a8746c	fat behind the neck
+4543a50e	trunk obesity, thin arms and legs
+e2321536	excess hair
+f13776c6	high blood sugar and pressure
+e5003708	Syndrome or disease?
+c5eaa70d	too much cortisol from any cause; commonest cause: long-term steroid medication
+9a3fbd5a	too much cortisol caused by a pituitary tumour making a lot of ACTH
+493a70b6	Every “Cushing disease” is a “Cushing syndrome”, but not every syndrome is the disease. “Disease” = origin in the pituitary.
+1c44635c	What is the commonest cause of Cushing syndrome?
+be76f868	long-term use of corticosteroid drugs
+8ee9cecc	Long-term steroid treatment (for example for asthma or arthritis) is the commonest cause.
+d1490648	A 56-year-old woman presents with trunk obesity, a round face, excess facial hair, swollen legs and osteoporosis. Her cortisol level is high, and CT shows a mass in the right adrenal cortex. Diagnosis?
+545749aa	Cushing syndrome from an adrenal adenoma
+1c47864f	High cortisol + an adrenal cortex mass = Cushing syndrome of adrenal origin. Treatment: adrenalectomy.
+2c799ed3	56 years old
+a159d84e	obesity, moon face, hirsutism, edema
+8049bc17	adenoma in the right adrenal cortex
+45737568	In Cushing syndrome, the arms and legs are usually thin but the trunk is obese.
+79226e46	True; cortisol moves fat to the trunk and face and wastes the limb muscles.
+0c175bdd	On examination
+ab225d77	Red moon face with excess facial hair
+7d796080	On examination: a round, full face, red cheeks and excess hair on the chin and upper lip.
+22cdd29a	A patient with drug-induced Cushing must not stop the steroid suddenly, because their adrenal gland is “asleep” and acute adrenal failure may follow. The drug must be tapered gradually.
+b7f53859	fatty hump behind the neck
+55091e7b	stretch marks on the skin
+1939fc15	Cushing of pituitary tumour origin is called Cushing ___.
+6e10d9ea	storm
+98b764da	Spell the term for excessive male-pattern hair in women
+87253cc0	hirsut (hairy) + -ism.
+8d6b5ed7	Aldosterone and electrolytes
+190530e1	⟦0⟧: mineral salts in the blood and tissues that conduct electricity: sodium, potassium, calcium.⟦1⟧⟦2⟧
+98bc289e	Na = natrium, K = kalium: the chemical symbol gives away the medical root.
+a07cda93	Too much aldosterone
+df6b1619	⟦0⟧ (⟦1⟧): too much aldosterone → sodium and water are retained and potassium is lost:<br>• ⟦2⟧ (high blood pressure)<br>• ⟦3⟧ (low potassium): muscle weakness and cramps<br>If its cause is an adrenal tumour, it is called ⟦4⟧.
+04696c9d	Which finding is expected in Conn syndrome?
+41776ba6	high blood pressure and low potassium
+86bd5a38	low blood pressure and high potassium
+b688fd9b	Too much aldosterone: sodium and water stay, potassium is lost.
+eb5f439b	Word-building with electrolytes
+4b893e94	high blood sodium
+f3fee7c0	low blood potassium
+f42eed12	Potassium is vital for the heart; severe hyperkalaemia can disturb the heart rhythm. In Addison disease (lack of aldosterone) potassium rises.
+c19c29c3	In aldosterone deficiency, blood potassium rises.
+30098a29	True; without aldosterone the kidney does not get rid of potassium → hyperkalemia (for example in Addison disease).
+4922905f	Why is ⟦0⟧ measured in assessing the adrenals?
+9cf7edb0	to find tumours that make the body lose a lot of potassium
+868fec58	to measure iodine
+cf2e8f6c	to measure sugar
+1bd3d5b6	to measure calcium
+01b1288a	An aldosterone-producing tumour → low serum potassium.
+84bb7a0a	kal/i means ___ and natr/o means sodium.
+a64f9121	kalium = potassium.
+614d6f6b	Build a word meaning “low blood potassium”
+63f6268f	Spell the term for the blood salts that conduct electricity
+55e9f69c	Androgens and sex characteristics
+6903c9e6	Too much androgen
+ed63d016	If the adrenal cortex makes too much androgen:<br>• ⟦0⟧: excess hair in a male pattern in a woman (face, chest)<br>• ⟦1⟧ (⟦2⟧): appearance of male characteristics (deep voice, large muscles, facial hair) in a woman, or early puberty in a boy.<br>⟦3⟧ = male; ⟦4⟧ = hairy.⟦5⟧
+804e3f44	Remember viril with “virile” (manly, strong) and hirsute with “hairy”.
+042869f5	Congenital syndromes
+5e05a466	⟦0⟧: overproduction of adrenal androgen that causes “masculinization”.<br>Its commonest congenital cause is ⟦1⟧ (⟦2⟧): an inherited lack of an enzyme → low cortisol, high androgen.⟦3⟧
+f73a5ac2	A baby girl with CAH may have ambiguous external genitalia; that is why newborn screening in some countries includes CAH.
+7fd35acc	appearance of male characteristics in a woman or early puberty in a boy
+d5d1da03	breast enlargement in a male
+5db927e6	absence of periods
+201da51d	lack of body hair
+bd9269f6	viril/o = male; cause: too much androgen.
+afc2b7d8	The opposite: feminization
+412edef1	⟦0⟧: appearance of female characteristics in a man because of too much adrenal estrogen.<br>One of its signs is ⟦1⟧: growth of breast tissue in a man.<br>⟦2⟧ → “condition of a woman’s breast”⟦3⟧
+8edb3b12	Gynaecomastia can also come from hormonal imbalance, drugs or liver disease.
+fba0cf4a	excess male-pattern hair
+5db96abb	male characteristics in a woman
+b0c3675b	breast growth in a man
+8d451c27	too much adrenal androgen
+4453eb9b	In ⟦0⟧, the root mast/o means breast.
+dffaa7c9	True; gynec/o (woman) + mast/o (breast) + -ia (condition).
+64b03ca4	Which is correct for the abbreviation CAH?
+7da8d81f	Congenital adrenal hyperplasia.
+1c3e4b6a	Growth of breast tissue in a man is called ___.
+815cb072	Build a word meaning “breast enlargement in a man” (condition of a woman’s breast)
+36382b3b	Spell the term for development of male characteristics in a woman
+345fffcf	⟦0⟧ (⟦1⟧ or ⟦2⟧): underactivity of the adrenal cortex, mostly from <b>autoimmune</b> destruction.⟦3⟧⟦4⟧
+b543bab8	Cushing and Addison are the two opposite poles of cortisol.
+5be5f278	weakness, tiredness, weight loss, low blood sugar
+f09260ae	low blood pressure, low sodium, high potassium, dehydration
+de934469	(high ACTH)
+810328a2	bronzed darkening of the skin: hyperpigmentation
+6f54c335	Which combination most favours Addison disease?
+87411759	weakness, low blood pressure, bronzed skin and high potassium
+6406a5e9	trunk obesity, moon face and high pressure
+7398562d	bulging eyes and goitre
+878c8b06	excessive urine and sugar in the urine
+d8a1ce93	Lack of cortisol and aldosterone with darkened skin.
+14030ed1	In Addison disease, the skin darkens because the pituitary makes a lot of ACTH.
+d96a4def	True; ACTH and MSH are made from the same parent molecule, and high ACTH also stimulates the melanocytes.
+f39f5e5e	The missing hormones are replaced: ⟦0⟧ (or cortisone) in place of cortisol and a mineralocorticoid in place of aldosterone, with enough salt.⟦1⟧
+663c907e	A patient with Addison disease needs a higher steroid dose under stress (infection, surgery, an accident); otherwise an “Addisonian crisis” with a severe drop in blood pressure may follow. They should always carry a medical alert card.
+06588427	In Addison disease, besides cortisol, a lack of which hormone lowers blood pressure?
+47bb665e	Without aldosterone, sodium and water are lost → dehydration and a drop in pressure.
+9d0fe0ee	Put the consequences of aldosterone deficiency in order
+1b5458d5	low aldosterone
+2364d911	loss of sodium and water through the kidney
+11152e74	drop in blood pressure and dizziness
+85638168	The chain salt → water → volume → pressure.
+3f989e7d	Underactivity of the adrenal cortex, named after its discoverer, is ___ disease.
+92696ac8	Cushing
+58d745c5	Thomas Addison, an English physician.
+7db7f83d	Build a word meaning “underactivity of the adrenals”
+b28f21e9	Spell the surname of the doctor who described adrenal insufficiency
+a43197f6	Addison disease; with a double d.
+66e8f0a4	Adrenal tumours and diseases
+c1de2203	⟦0⟧: a usually benign tumour of the adrenal <b>medulla</b> that makes a lot of epinephrine and norepinephrine.<br>⟦1⟧ → “tumour of cells that stain dark”<br>Its signs come in attacks: <b>very high blood pressure</b>, severe headache, palpitations and sweating.⟦2⟧
+d31cfe08	The three “P”s of pheo: Pressure, Pain (headache), Perspiration + Palpitation.
+14d91f13	A young man has sudden attacks of severe headache, sweating, palpitations and blood pressure of 220. Which tumour is suspected?
+891b0c6b	A tumour of the adrenal medulla with too much catecholamine.
+0045e0ba	Pheochromocytoma arises from the adrenal cortex and makes a lot of aldosterone.
+bbb797bc	False; it arises from the “medulla” and makes catecholamines. An aldosterone-producing tumour causes Conn syndrome.
+88f44c64	General adrenal terms
+219f90be	any adrenal disease (adrenalopathy)
+575f662f	adrenal overactivity, often from a tumour
+2b037b6b	glandular cancer
+977ad952	medullary tumour
+e8742733	The suffix ⟦0⟧ in pheochromocytoma means…
+35fa9183	The tumour of the adrenal medulla that raises blood pressure very high is called ___.
+ffe4a6ff	dark + colour + cell + tumour.
+9bb73246	Build a word meaning “inflammation of an adrenal gland”
+2082e6ae	Spell the term for the adrenal medulla tumour that causes very high blood pressure
+6fc53e07	Tests, surgery and drugs
+1a257f06	Adrenal tests
+4ca13de1	cortisol in blood or saliva: Cushing or Addison
+2a73d2df	telling a pituitary origin from an adrenal one
+713447fb	potassium-wasting tumours
+bde1b188	urine catecholamines
+26bc7a49	finding an adrenal mass
+a180be6f	To tell “Cushing disease” (pituitary) from an “adrenal tumour”, which hormone is measured?
+0ed398a8	In Cushing disease ACTH is high; with an adrenal tumour ACTH is low (negative feedback).
+6902cbfd	⟦0⟧: removal of one or both adrenals.<br>⟦1⟧: through several small abdominal incisions with a camera (⟦2⟧ = abdomen, ⟦3⟧ = viewing).⟦4⟧
+b8c301f1	After both adrenals are removed, the patient must take replacement cortisol and mineralocorticoid for life.
+6f698cdc	relating to viewing inside the abdomen with a camera
+3585cc5d	large chest incision
+abf68466	imaging with radiation
+031f7ebf	lapar/o (abdomen) + -scopic (examination by viewing).
+f85f0787	Corticosteroid drugs
+31ce9470	⟦0⟧ such as ⟦1⟧ and ⟦2⟧:<br>• replacement therapy in Addison disease;<br>• strong anti-inflammatories in asthma, rheumatoid arthritis and autoimmune diseases.<br>Side effects of long-term use: Cushing signs, ⟦3⟧ (bone thinning), high blood sugar and weakened immunity.⟦4⟧

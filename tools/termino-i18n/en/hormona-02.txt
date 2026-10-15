@@ -1,0 +1,316 @@
+13456fb0	condition (abnormal)
+9d26e5fe	relating to a meal
+950657bc	viewing (visual examination)
+10a1bdef	staying constant
+e92b31ee	stimulating (nourishing)
+c1bb921a	urine condition
+cf7176c3	glycated haemoglobin: average sugar over 2 to 3 months
+f41b0515	American Diabetes Association
+18a369fa	pituitary hormone that holds water (vasopressin)
+604020d7	continuous insulin infusion under the skin (pump)
+d1ff8360	diabetic ketoacidosis
+d8750eb7	fasting plasma glucose
+a2de3262	iodine-131 (radioactive iodine)
+52743285	hormone stimulating interstitial cells (LH in men)
+bbeac527	insulin-dependent diabetes (type 1)
+3878af69	milk-producing hormone (prolactin)
+9e569abe	non-insulin-dependent diabetes (type 2)
+6656f4cf	intermediate-acting insulin
+9a76bd27	oral glucose tolerance test
+e365d2b3	protein-bound iodine
+620e3547	primary hyperparathyroidism
+286afcf1	parathyroid hormone (parathormone)
+343a4ddf	radioactive iodine
+88230f59	radioactive iodine uptake
+a8910a3b	releasing hormone (hypothalamus)
+02140cc9	somatotropic hormone (growth hormone)
+304873a5	thyroxine (tetraiodothyronine)
+3569f896	TSH-releasing hormone
+ad5108b6	Glands and structures
+a4346e49	Hormones and substances
+0722621c	prefix: excessive
+20330202	root: thyroid
+78f9fa50	suffix: condition
+f2c99cb8	condition of
+8ec5f1a6	excessive thyroid activity
+6592eb61	Exocrine gland: with a duct
+d6d85ba6	skin surface
+6fbf1f37	secretion out through a duct
+0a38ec4a	like sweat and salivary glands
+7eb79a88	Endocrine gland: no duct
+cd2152a5	blood capillary
+ed74ba83	the hormone goes straight into the blood
+5e72745d	endo- inside + crin/o secrete
+58066f22	Exocrine and endocrine glands
+5a423224	thyroid
+05d96661	parathyroids (behind the thyroid)
+8f49504f	pancreas (islets)
+24c1ecc5	adrenals
+5783815b	kidney (for orientation)
+02af2614	gonads: ovary or testis
+c32c6566	Anatomy mannequin: where the endocrine glands sit in the body
+ab62fd2a	map of the endocrine glands
+b1195691	bloodstream
+fa7b9afc	hormone = key
+6005e10d	only the matching key opens the lock
+fe0fe366	Hormone and receptor
+1000b829	anterior pituitary
+79ef4dc6	Too much hormone?
+425debef	switches off the
+89c14093	order to secrete
+9bd477c5	like a thermostat
+56d397f8	oversecretion: hyper-
+9de3f9a8	undersecretion: hypo-
+4cf3c63f	Most gland diseases = too much or too little of one hormone
+b1475266	Oversecretion and undersecretion
+ca65b6d4	pituitary stalk
+3573682c	anterior lobe
+ba7aafa8	posterior lobe
+d8f398d5	sella turcica in the sphenoid bone
+93e32b96	← front
+b5c24e1d	back →
+ced8b895	Pituitary gland and hypothalamus
+22b273dd	bone and muscle
+1b441d06	ovary / testis
+661d7edb	mammary glands
+b1558fd3	skin (pigment)
+22dc39bf	kidney (water reabsorption)
+e8c52058	uterus, breast
+55c746ac	— anterior (A)
+3867bad5	— posterior (P)
+d613f5e6	Pituitary hormones and target organs
+84cd9782	normal growth
+d177c84d	too much GH before puberty
+7de829f7	too little GH in childhood
+06b25adb	too much GH after puberty
+54020674	hands, feet and jaw
+b200a29f	enlarge
+8af25d2a	When the excess of growth hormone happens decides the type of disease
+de78c084	Growth hormone disorders
+5840142c	Low ADH
+be86b47f	a lot of dilute urine (polyuria)
+54bedcda	+ severe thirst (polydipsia)
+07141b79	High, inappropriate ADH
+f79f8188	water is retained in the body
+0fad5210	blood sodium becomes diluted and low
+f7312149	Diabetes insipidus and SIADH
+8b469111	thyroid cartilage = Adam’s apple
+2da7b334	left lobe
+c5faecb5	right lobe
+9408ab24	isthmus (joins the two lobes)
+07dbe015	Front view: the butterfly-shaped thyroid in front of the trachea
+e3a88561	superior parathyroid
+3eaf064c	inferior parathyroid
+966493b5	Back view: four small glands on the thyroid
+f556f48d	bone: the calcium store
+f42146ee	parathyroid: moves calcium from bone into the blood
+e0c9c585	thyroid: moves calcium from the blood into bone
+f7098d6c	calcium balance
+e0268104	tetra- = four iodines
+579fe60b	more plentiful, a storage form
+41208ca2	tri- = three iodines
+61fb1492	more active and potent
+48b76868	Without enough iodine, thyroid hormone cannot be made → goitre
+02566c5f	Thyroxine and triiodothyronine
+bb3608b5	Overactive: a fast engine
+710ff06d	Underactive: a slow engine
+70897c76	weight loss
+c5607005	weight gain
+29691ded	fast heartbeat (tachycardia)
+8f0d72f8	heat intolerance, sweating
+51eb4cf6	cold intolerance
+98a95ffe	restlessness, insomnia
+e442e789	tiredness, slowness
+28c807ca	exophthalmos, goitre
+4869133c	dry skin, myxedema
+da3f800a	example: Graves
+c50bd750	example: Hashimoto
+1564ea83	Hyperthyroidism and hypothyroidism
+df601381	The adrenal: a cap on the kidney
+50d0acad	centre
+a0e466ce	cortex = outer layer
+ac33da71	cortisol, aldosterone, androgens
+4ed19eba	medulla: epinephrine and norepinephrine
+17cfd706	The cortex is like tree bark, the medulla like its core
+4328d444	adrenal gland
+31dffaf3	The adrenal cortex makes three “S”s
+0ff6d122	aldosterone: keeps sodium and water, gets rid of potassium
+f0a20e2f	cortisol: raises blood sugar, anti-inflammatory, copes with stress
+7e4d6e47	sex
+8b2f7d5d	androgens: secondary sex characteristics (in small amounts)
+d2fac5db	all are made from cholesterol → corticosteroids
+57083e4e	Hormones of the adrenal cortex
+237f4223	epinephrine (adrenaline)
+81c722bf	heart rate ↑
+26dddfae	blood pressure ↑
+accf26d5	breathing ↑
+e538a596	blood sugar ↑
+1d66d2a2	pupils dilated
+70a6a0c5	fight-or-flight response
+cf3d337c	Epinephrine and stress
+f117bda8	too much cortisol
+4215b52f	moon face
+751e5875	trunk obesity + striae
+127c289b	blood sugar and pressure ↑
+391fac69	too little cortisol and aldosterone
+66e1a707	bronzed skin (hyperpigmentation)
+f6170667	weakness and weight loss
+7dd7b563	blood pressure and sugar ↓
+29f04412	sodium ↓, potassium ↑
+427da1e0	Cushing syndrome and Addison disease
+1b619438	duct: digestive enzymes (exocrine)
+9efc5cc2	islet: hormones (endocrine)
+d84dc8bb	beta cell: insulin
+fef2593c	alpha cell: glucagon
+e01773ea	The pancreas behind the stomach: both exocrine and endocrine
+829ac5f6	Pancreas and islets of Langerhans
+111f0a05	glucose (blood)
+665e949b	glycogen (liver)
+8508295c	Two opposing hormones = the blood sugar seesaw
+58cdc66d	beta cell: insulin • alpha cell: glucagon
+fea1b5dd	Insulin and glucagon
+62fec934	No key
+8644fc4e	the β cells are destroyed
+c5ec5eb2	zero insulin → insulin injections
+9414e73b	usually children, sudden onset
+78a5a6bb	The key is there, the lock is stiff
+b3362abe	insulin resistance
+a062ba2e	diet, exercise, oral drugs
+6ecb1a3a	usually overweight adults, gradual
+45dc1df0	Type 1 and type 2 diabetes
+c1c20869	-uria = urine
+fef6c0a8	excessive drinking
+47fa073c	-dipsia = thirst
+86353efc	-phagia = eating
+f8c45c14	poly- = much • the three classic signs of diabetes mellitus
+54ab8fdb	Three classic signs of diabetes
+e1bfd512	high sugar
+03212b89	retinal damage, blindness
+6b3aa6a2	kidney damage, dialysis
+77a9e7fc	numbness, foot ulcers
+44f0ca05	stroke, hardening of the arteries
+480581d2	chronic complications of diabetes
+1e254d7a	prediabetes
+6b740c31	fasting sugar
+bed1ff84	two hours after glucose
+541282b6	3-month average
+0db3232a	IFG and IGT = the prediabetes stage
+a21d304c	Diagnostic criteria for diabetes
+b3502013	darkness: high melatonin and sleep
+4c4e2d3c	light: low melatonin and wakefulness
+5c420883	circadian rhythm: the body’s 24-hour clock
+d4a8dfee	Melatonin and the circadian rhythm
+70e1f88c	thymus: behind the breastbone
+f9952520	large in childhood, small and fatty in adulthood
+71f0869a	pituitary: FSH and LH
+3ded3d14	gland name + -ectomy = removal of that gland
+b1317023	adrenal
+64e3b05a	pineal
+25dc5054	Endocrine surgery
+561fc803	thinning hair
+071ea408	excess facial and body hair
+c4aedb48	purple stretch marks
+0a7de4c7	pendulous abdomen
+49a71456	fat above the collarbone
+85a955be	slow wound healing
+1dbdd4ac	easy bruising
+3cefb310	thin arms and legs
+1be253f0	Teaching image with a
+b6b0b872	smooth mannequin surface
+c4b6264c	Signs of Cushing syndrome
+177ac0c5	islet (endocrine)
+3f62bc20	digestive cells
+b0dd21a9	A pale islet among the cells that make digestive enzymes
+3d8df639	Microscopic section of the pancreas
+230e9d3f	Language of Hormones
+831e08d2	Basics
+4f95f85a	Chemical messengers, the map of the glands and the code of word-building: roots, prefixes, suffixes and look-alike traps
+70fa8e26	Chemical messengers
+f7281dfb	The body’s messengers
+e7d7ef16	Two command systems
+0453f32c	The body has two “messaging systems” for coordinating its organs:⟦0⟧The ⟦1⟧ regulates growth, metabolism, water and salt balance, the stress response and reproduction.⟦2⟧
+8d28e451	electrical message, in a fraction of a second, through nerves
+c8a41e7b	endocrine system
+00dc7112	chemical message (hormone), slower but longer-lasting, through the blood
+fab9f60e	A nerve is like a “text message”: instant and brief. A hormone is like a “letter by post”: it arrives later, but its effect lasts hours or days.
+992d422b	Hormone means “setting in motion”
+b14f1010	⟦0⟧ comes from the Greek word ⟦1⟧, meaning “to arouse, to set in motion”.<br>A hormone is a <b>chemical messenger</b> that:<br>• is made in a <b>gland</b> (⟦2⟧);<br>• goes straight into the <b>blood</b>;<br>• acts on a <b>target cell</b> elsewhere in the body.⟦3⟧
+d05dab46	Hormones have strong effects even in tiny amounts; that is why laboratories measure them with very sensitive methods such as radioimmunoassay (RIA).
+7ce64b16	How does a hormone reach its target organ?
+0b49cfb1	through the bloodstream
+b765e54b	through a duct
+e7080ae7	through the nerves
+3bcca34d	through the digestive tract
+1d68cd8b	An endocrine gland has no duct and releases its hormone straight into the blood.
+83b92bfe	Endocrine or exocrine?
+8a0f611a	⟦0⟧ → <b>endocrine</b>: “secreting inwards” (into the blood)<br>⟦1⟧ → <b>exocrine</b>: “secreting outwards” (through a duct)⟦2⟧⟦3⟧
+7ba916f2	An endocrine gland has no duct; that is why it is also called a ductless gland.
+18f2e599	The prefix endo means inside, as in endoscopy (looking inside the body). The prefix exo means outside, as in exit.
+6cb52272	Match each gland to its type
+48f724a0	exocrine: sweat through a duct to the skin
+e4c4bf56	endocrine: T4 into the blood
+adb49252	exocrine: saliva through a duct into the mouth
+f5e30d91	endocrine: adrenaline into the blood
+5db14532	Sweat and salivary glands send their secretion out through ducts; the thyroid and adrenal release hormones into the blood.
+faebeac6	The pancreas is both an endocrine and an exocrine gland.
+f15d6e6e	True. The islets of Langerhans release insulin and glucagon into the blood (endocrine); the rest of the pancreas sends digestive enzymes through a duct into the intestine (exocrine).
+3ec868a9	A gland that has no duct and releases its secretion into the blood is an ___ gland.
+69615e44	salivary
+3c1c885f	study of the endocrine glands and hormones
+5187191e	gland specialist
+330bba01	disease of a gland
+2674eec4	endocrin/o (endocrine glands) + -logy (study). The specialist in this field is an endocrinologist.
+00adabdf	Build a word meaning “specialist in endocrine glands”
+b5299957	Spell the term for a chemical messenger carried in the blood
+36762eda	hormone; plural hormones.
+7099e546	Lock, key and thermostat
+0849f7cc	Target cell and receptor
+57736120	A hormone in the blood reaches every part of the body but acts only on cells that have a <b>receptor</b> for it (⟦0⟧). These cells are <b>target cells</b> (⟦1⟧), and together they make up the <b>target tissue</b> (⟦2⟧).⟦3⟧
+54f30e58	The hormone is like a key and the receptor like a lock; only the matching key opens the lock.
+c44ea052	Why does TSH act only on the thyroid, even though it reaches the whole body?
+af7ad062	because only thyroid cells have TSH receptors
+b6bdfdbb	because TSH is secreted only in the neck
+c31c32a3	because it travels to the thyroid through a duct
+e9283ff7	because other cells destroy it
+c1760254	The specific receptor decides the target cell.
+8708ea69	Homeostasis: a stable balance
+29596819	⟦0⟧ → ⟦1⟧: “staying the same”.<br>The main job of the endocrine system is to keep the body’s internal environment constant: temperature, blood sugar, calcium, water and salt, and blood pressure.<br><br>⟦2⟧ is the sum of all the chemical reactions in cells that produce energy.⟦3⟧
+56a410c8	Remember home/o as in “homogeneous”: always alike and the same.
+86396cc9	Homeostasis means keeping the body’s internal environment constant, however much the outside changes.
+47a7378f	True; for example, body temperature stays around 37 degrees whether the weather is cold or hot.
+5c7b1680	Negative feedback: the body’s thermostat
+15183a0f	Most hormones are controlled by <b>negative feedback</b> (⟦0⟧): when the hormone level rises, it <b>switches off</b> the order for more secretion itself.⟦1⟧⟦2⟧
+3638bb2b	The hypothalamus commands the pituitary and the pituitary the thyroid; high T3 and T4 inhibit both upper steps.
+0c701dbe	Just like a heater with a thermostat: when the room warms up, the heater switches off; when it cools, it switches on again.
+30b0c5bc	Put the steps of thyroid negative feedback in order
+0331f489	the hypothalamus secretes TRH
+6517b29c	the anterior pituitary makes TSH
+146e6bda	the thyroid secretes T3 and T4
+7d6e18e8	high T3 and T4 inhibit the secretion of TRH and TSH
+bf8cc63c	The “hypothalamus → pituitary → thyroid” axis is closed by negative feedback.
+e2c04f5e	In negative feedback, what happens when the hormone level rises?
+ce9d668e	secretion of that hormone falls
+31748f35	its secretion increases
+c12a2cfa	the receptors are destroyed
+06aa801c	the gland enlarges
+7a65949e	High output switches off the input; the result is balance.
+85ae9218	The site on a cell that a hormone attaches to is called a ___.
+d59b6beb	receptor
+8697e70f	duct
+17806e7c	gland
+153ec787	A receptor is like a lock that opens only with its own hormone key.
+baa082e3	Spell the term for a stable internal balance
+3aa87aa4	home/o (same) + -stasis (staying constant).
+5347d685	Where are the endocrine glands?
+9579d515	The endocrine glands are spread throughout the body:⟦0⟧
+349211fd	From head to pelvis: hypothalamus, pituitary, pineal, thyroid, parathyroids, thymus, adrenals, pancreas and gonads.
+b67e6aac	Central and peripheral glands
+dda2bf0e	central (in the brain)
+05304d6f	hypothalamus, pituitary
+8fffd379	command the other glands
+3715bf67	peripheral
+0de5a20b	thyroid, parathyroid, adrenal, pineal
+22feeb41	their only job is making hormones
+25682bb4	dual-purpose
+e649f20b	pancreas, thymus, ovary, testis
+9b13a573	they make hormones and also do another job
