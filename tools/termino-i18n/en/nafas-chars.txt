@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+f875a8e1@nafas#1	Breathy
+66270c64@nafas#1	Rooty
+43063b0b@nafas#1	Puzzly
+2106a34f@nafas#1	Cilio
+7b822551@nafas#1	Sinusy
+0476213f@nafas#1	Laryngo
+9b0ad951@nafas#1	Ringo
+ae0786cf@nafas#2	Alveo
+efc6d723@nafas#6	Diaphro
+de9fff33@nafas#1	Thermo
+4379aa6a@nafas#1	Corpuscle
+1ab30d6e@nafas#1	Spiro
+3e5cde4f@nafas#1	Rescue Puff
+423edd1b@nafas#1	Antibo
+1c0673ad@nafas#1	Clean Air
+e43feafd@nafas#1	Pulse-Oxi
+0cee6666@nafas#1	Bronchy
+86e07585@nafas#1	Lung Scribe

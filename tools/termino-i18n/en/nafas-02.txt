@@ -1,0 +1,317 @@
+aeba51ce	paranasal sinuses: air spaces that lighten the skull and make the voice resonate
+695ab9da	Sinuses
+7ecf5550	The upper respiratory tract (sagittal section)
+814937ca	palatine tonsil
+44d5ff10	trachea (front)
+c5894003	oesophagus (back)
+3343ead8	The larynx from the front: the voice box
+c09e6503	thyroid cartilage
+cf942b95	(Adam’s apple)
+8c51b5e7	ring-shaped cartilage
+57ab0876	larynx: laryng/o
+92be9c67	C-shaped rings of cartilage
+bf1715e8	keep the trachea open
+b76e4005	The vocal cords from above (laryngoscope view)
+2884760c	open glottis: breathing
+e736ff71	closed glottis: speaking and swallowing
+dff8748d	Cilia: the airway’s mucus escalator
+6cf3f93e	mucus and particles are swept towards the throat
+b4fe13d3	sticky mucus
+b1bdc3f1	The bronchial tree: from the trachea to the alveolus
+1e502947	where it forks
+c8ab4162	right main bronchus
+6951d06f	bronchi
+f827cd9d	bronchioles
+14ad12a6	The right bronchus is shorter, wider and more vertical; foreign bodies enter it more often
+2ec3a4d0	The lobes of the lungs: three on the right, two on the left
+4cc0fe42	apex
+24124525	cardiac notch
+db17725b	Lung lobes
+66f8424d	Alveoli: where gas is exchanged
+9b395d0e	terminal bronchiole
+b383fba9	anti-sticking layer
+007daf2e	about 300 million alveoli in both lungs
+d563c7f7	Alveoli
+d99634c6	The pleura: two layers and the space between them
+e0ca5abc	visceral pleura: on the lung
+1bfda41e	parietal pleura: on the chest wall
+c395568b	the pleural space holds a little fluid
+e74b44da	Breathing in and out: the diaphragm’s work
+76b9582e	breathing in: diaphragm down, chest larger
+e9c1d51e	breathing out: diaphragm up, chest smaller
+a6e88680	Breathing in and out
+5d6fcf39	normal: 12 to 20 a minute
+ea11f701	deep
+de4e5d59	waxing and waning with periods of apnoea
+bdff6e98	-pnea = breathing; the prefix tells you the speed or depth
+fef2ef31	The spirogram: lung volumes and capacities
+befbbea8	tidal
+cd34a140	inspiratory reserve
+eca135d4	expiratory reserve
+90d14d2e	residual
+2227b721	TLC = VC + RV (about 6 litres in an adult)
+72e6d62d	Spirogram
+161ffb2c	Abnormal lung sounds on listening (auscultation)
+169c85e3	whistling wheeze
+77b53d44	narrowed airway (asthma)
+139ebded	harsh sound on breathing in
+e54327d8	blockage of the larynx and trachea
+a175bb27	fine crackles
+fd3ef4eb	fluid in the alveoli (pneumonia)
+44b72c02	low snoring sound
+5cef7067	mucus in a large airway
+3ee11b85	rubbing sound
+0b368aec	inflamed pleura
+e8940284	Lung sounds
+3baa568b	Signs of oxygen shortage in the fingers
+d00f668b	pink nail bed
+24a59d30	blueness (cyan/o = blue)
+45c7260c	clubbing: long-term oxygen shortage
+c6c46fb8	Cyanosis and clubbing
+1e533309	Asthma: a bronchiole at rest and during an attack
+00befcff	open channel
+14383887	bronchospasm + inflammation + mucus
+dd19bdfb	COPD: emphysema and chronic bronchitis
+7da3d525	top: healthy • bottom: emphysema
+3f717e5d	destruction of the alveolar walls
+8b6a4d1e	inflammation and excess mucus in the bronchi
+4b98100f	Lobar pneumonia and bronchopneumonia
+a2912bd9	a whole lobe involved
+46288f3a	scattered patches around the bronchioles
+eaeabe75	Pneumonia
+070b1e7d	Diseases of the pleural space
+d5ef9652	air → the lung collapses
+8c0daeea	blood in the pleural space
+a9c2cffb	pus in the pleural space
+725adf48	fluid in the pleural space
+f8c7188d	Pleural diseases
+7692b5a2	Atelectasis: collapse of the alveoli
+b4d96c17	open, air-filled alveoli
+0b59861d	atel/o (incomplete) + -ectasis (expansion)
+dd1d48b5	Atelectasis
+ded34ffb	open airway
+74afdec9	the tongue and throat block the way
+ae0f2156	Sleep apnoea
+548ecf0d	Spirometry: the volume-time curve
+eebb337b	normal: ratio about 80%
+799d25b5	obstructive: ratio under 70%
+c42a3383	FEV1 = first-second volume • FVC = total forced exhaled volume
+84480f7b	Spirometry
+f9fac00a	Pulse oximetry: blood oxygen saturation
+0bba45a1	pulse oximeter
+e877fc31	normal SpO2: 95 to 100%
+a24ed035	under 90%: hypoxaemia
+d466e993	red light passes through the finger and measures the colour of arterial blood
+883c6dd7	Intubation into the trachea (endotracheal)
+0dbd032e	cuff: seals the airway
+ffdb35b1	the tube must be in the trachea, not the oesophagus
+ddafd416	Intubation
+9b64f4a9	Tracheostomy: an airway through the front of the neck
+17731667	tracheostomy tube
+df71ac44	-stomy = a new opening
+90c102e2	-tomy = just a cut
+25ce0e7e	Thoracentesis: drawing fluid from the pleural space
+8f0038d7	pleural effusion • pleural fluid
+733621c5	needle between the ribs
+c8188a34	Thoracentesis
+b7107a0e	Oxygen devices and inhaled medicines
+814452c8	low-flow oxygen
+a48df9be	oxygen mask
+d8e7277d	more oxygen
+de8393b4	continuous positive pressure
+1747d2f0	nebuliser
+a61655b7	medicine as a mist
+b2bd7d10	inhaler
+971ee7b2	measured dose
+83164cb3	Respiratory devices
+f41a5f34	Lung surgery: a lobe or a whole lung
+c2f934df	removing one lobe
+89e2c912	removing a whole lung
+37c861b2	Lung surgery
+1198ebbb	Language of Breathing
+36b98c58	What the respiratory system does and how its words are built: roots, prefixes, suffixes and the path of air
+c0def5f8	The path of air and gas exchange
+4cad8fc6	From the nose to the alveolus
+b0f2a8e9	⟦0⟧Air follows this path:<br>nose → pharynx (⟦1⟧) → larynx (⟦2⟧) → trachea (⟦3⟧) → bronchi (⟦4⟧) → bronchioles (⟦5⟧) → air sacs (⟦6⟧)<br>The nose to the larynx is the ⟦7⟧ and the trachea to the alveoli the ⟦8⟧.
+2baa9133	Specialists
+06672c92	diseases of the lungs and airways
+80cd3226	oxygen, inhaled medicines and ventilators
+573a825b	Remember ENT as “ear first, then nose, then throat”: Ear, Nose, Throat.
+40da180d	In charts, the lung department is written “pulmonary medicine” or “pulmonology”.
+7dc40c05	After the larynx, which part does air enter?
+ce4677e1	bronchiole
+ef796db6	Larynx → trachea → bronchi.
+5965ce92	chest surgeon
+ddae6d40	pulmon/o (lung) + -logist.
+ed91c551	The larynx is part of the upper respiratory tract.
+b6c8f6c6	The nose, sinuses, pharynx and larynx = the upper tract.
+eead301a	Nose, pharynx, larynx, trachea, bronchus, alveolus.
+50354009	Match each part to its everyday name
+51759b5b	The four main stations of air.
+8332ce87	The abbreviation ___ means an ear, nose and throat specialist.
+f610080a	Spell the term for the process of breathing and gas exchange
+4e519746	spir/o = to breathe.
+2f7b71bc	Breathing in, breathing out and gas exchange
+1c04a27b	Three jobs of breathing
+1bba88bc	⟦0⟧• ⟦1⟧: moving air in and out<br>• ⟦2⟧: gas exchange between the alveolus and capillary blood<br>• ⟦3⟧: gas exchange between the blood and the body’s cells<br>Oxygen (⟦4⟧) enters the blood and carbon dioxide (⟦5⟧) leaves.
+402d7f72	Gas exchange in the alveolus
+a0389ae9	⟦0⟧⟦1⟧ → breathing in (⟦2⟧)<br>⟦3⟧ → breathing out (⟦4⟧)<br>On breathing in, the diaphragm contracts and flattens and the chest enlarges; on breathing out it relaxes and rises.⟦5⟧
+32478439	The diaphragm’s work
+4525a29b	Inspiration = In: air comes “in”. Expiration = Exit: air goes “out”.
+7ce0b3ad	What is gas exchange between the alveolus and the blood called?
+44b28348	External respiration, in the lungs.
+ea462d89	What does the diaphragm do on breathing in?
+dd4ccb5e	contracts, flattens and moves down
+a6048a1b	relaxes and moves up
+6441cd67	does not change
+219a01cf	bends forwards
+6cf2a388	The chest enlarges and the pressure inside it falls.
+aa328763	Internal respiration means gas exchange between the blood and the body’s cells.
+625bbf5e	Internal respiration, in the tissues.
+c75086ef	Build a word meaning “breathing out”
+c86437ed	Basic breathing words.
+6ad06131	The root ___ means “to breathe”.
+c494c896	respiration, spirometry.
+06a07fa6	Spell the term for moving air into and out of the lungs
+bf3b55d2	Air moving in and out.
+d027cf3c	⟦0⟧Every word is built from parts:<br>• <b>root</b>: the core meaning, such as ⟦1⟧ = trachea<br>• <b>prefix</b>: the start of the word, such as ⟦2⟧ = within<br>• <b>suffix</b>: the end of the word, such as ⟦3⟧ = inflammation<br>• <b>combining vowel</b> (usually ⟦4⟧): ⟦5⟧
+b78db386	The golden rule
+d6215393	Start the meaning from the <b>suffix</b>, then the <b>prefix</b> and finally the <b>root</b>:<br>⟦0⟧ → “inflammation of a bronchus”<br>⟦1⟧ → “relating to within the trachea”<br>⟦2⟧ → “inflammation of the nose”⟦3⟧
+ad229685	If the suffix starts with a vowel, the combining vowel is dropped: bronch/o + -itis = bronchitis, not bronchoitis.
+b050a361	In ⟦0⟧, which is the prefix?
+1f670ffa	endo- = within
+d2ce1a78	-al = relating to
+a219ac89	trache/o = trachea
+5f3dc0fa	tra- = across
+36091b87	In rhinitis, the combining vowel o has been dropped.
+93c05032	rhin + itis = inflammation of the nose.
+705d2dae	Build a word meaning “inflammation of the trachea”
+c4ac3b92	Read endotracheal with the golden rule; put the steps in order
+51079287	endo-: within
+30c4401c	trache/o: trachea
+82171c71	result: relating to within the trachea
+83530816	the o in bronchoscopy
+602d78c2	Three parts + a combining vowel.
+5d9f5d1e	Spell the term for inflammation of the nose
+6da013ab	Roots for lung and air
+90f5f137	Three roots for the lung
+2c106a06	lung; air
+61c83ef9	pneum/o has two meanings
+67c4b2df	⟦0⟧⟦1⟧ → relating to heart and lungs; as in ⟦2⟧⟦3⟧
+0d5f7a6a	pneum/o = air
+f849fdfb	pneumothorax: air in the chest
+0c0b1fbd	pneumon/o = lung
+ebbfe2fe	pneumonia: inflammation of the lung
+048ba267	Pneumatic means air-filled (like a pneumatic tyre); pneum/o also brings air to mind.
+8f46c754	Which root does not mean “lung”?
+97ca1147	spir/o means to breathe.
+017e9843	air in the chest cavity
+819785f8	fluid in the lung
+83071a9a	lung tumour
+a8a44983	pneum/o (air) + thorac/o (chest).
+0c279cac	Cardiopulmonary means relating to the heart and lungs.
+5a4ef3a3	Build a word meaning “relating to the lungs”
+4114052e	Roots for lung and gas.
+d9ac8e23	Inflammation of lung tissue is called ___.
+cbf27b0d	The root map from the nose to the diaphragm
+3cb6fbfd	One organ, one root
+c8537b68	⟦0⟧: ⟦1⟧, ⟦2⟧, ⟦3⟧<br>⟦4⟧: ⟦5⟧, ⟦6⟧, ⟦7⟧<br>⟦8⟧: ⟦9⟧, ⟦10⟧, ⟦11⟧⟦12⟧
+bcdeb948	phren/o means both the diaphragm and the “mind” (schizophrenia); in the respiratory system it is always the diaphragm.
+cf13463c	Which is the root for “larynx”?
+c9f7da33	larynx = voice box.
+45555d8a	Which muscle does the ⟦0⟧ control?
+4f753982	thorac/o means chest.
+ebb3a8bf	thoracic cavity = chest cavity.
+68adbe33	Build a word meaning “incision into the chest”
+f75eb2d8	The root map.
+e688112a	Inflammation of the pharynx is called ___.
+eb2f65cc	Spell the term for the voice box
+96bc4c66	Colour, blood and pus
+a6ab67d5	Sign roots
+9d52020d	Three things in the pleural space
+0f1230ef	⟦0⟧ → air in the chest<br>⟦1⟧ → blood in the chest<br>⟦2⟧ → pus in the chest⟦3⟧⟦4⟧
+1f9fcab4	The first root says “what” and thorax says “where”: air, blood or pus in the chest.
+a69f6b71	Blue lips and nail beds (cyanosis) mean low blood oxygen; an urgent sign at the bedside.
+4a159458	coughing up blood
+c6231c4f	hem/o + -ptysis (spitting).
+b70ed382	What is pus in the pleural space called?
+8d7a7b87	py/o = pus; its other name is empyema.
+f010226c	cyan/o means red.
+e11f7f63	False; cyan/o means blue and bluish.
+32c345de	Build a word meaning “blood in the chest”
+fa64ffe6	Sign roots.
+4325cf91	A drug that calms a cough is an ___.
+49f6fe1e	Breathing prefixes
+c8b5e113	Speed, depth and state
+e1592ed8	difficult
+ae093714	fast: tachypnea
+d1358897	slow: bradypnea
+bef99130	A tachometer is a car’s speed needle; tachy- means fast.
+992e23ef	difficult breathing, breathlessness
+5eb5a0e2	Which prefix means “normal, good”?
+927b7031	eupnea = normal breathing.
+aacfec73	Paranasal sinuses means the sinuses beside the nose.
+30537bb1	Build a word meaning “within the pleural space”
+484feb99	Breathing prefixes.
+cc08f1e8	The muscles between the ribs are called ___ muscles.
+fb580f0c	inter- = between.
+42d5eb61	Breathing suffixes
+57ae54e4	Sign and disease suffixes
+7513fd72	spitting
+d1f74afd	CO2 condition
+41aea72c	Diagnostic and surgical suffixes
+68630a76	-stomy makes a new “mouth” (stoma) that stays open; -tomy is just a cut.
+44b55979	permanent widening of the bronchi
+947af849	removal of a bronchus
+8913c0bd	Which suffix means “making an opening”?
+9c8a64cb	tracheostomy = an opening in the trachea.
+9fb9fa82	Spirometry means measuring breathing.
+51b5be45	Build a word meaning “viewing a bronchus with an instrument”
+936f02f7	Breathing suffixes.
+3e5cbd3e	Removal of one lobe of a lung is called ___.
+e464eb40	Spell the term for measuring breathing
+cf23369f	Look-alike suffixes and roots
+4cea2fd7	breathing: dyspnea
+3da6dfeb	spitting: hemoptysis
+306a75c4	larynx: laryngitis
+feaecfa8	pharynx: pharyngitis
+e575e8ee	lasting opening: tracheostomy
+3ccbcbeb	cut: tracheotomy
+78a48e23	pleura: pleurisy
+1709d878	the lung itself: pulmonary
+f6bcd642	lack of oxygen in the tissues
+fd98a003	lack of oxygen in the blood
+8cc6f236	-emia means blood: hypoxemia is in the blood, hypoxia in the tissues.
+0e57fd59	the first is blood coughed from the lungs, the second blood from the nose
+4e8f8ae3	both are blood from the nose
+3a0b5f05	both are blood from the lungs
+d153c345	the first is blood in the pleural space, the second in the stomach
+56087f78	-ptysis = spitting; epistaxis = nosebleed.
+0c2f50a0	What is a lack of oxygen in the blood called?
+f7696e60	Tracheotomy and tracheostomy mean exactly the same thing.
+66c5d250	False; -tomy is just a cut and -stomy a lasting opening with a tube.
+55589d13	Build a word meaning “lack of oxygen in the blood”
+8629c724	Breathlessness only when lying down, eased by sitting up, is called ___.
+9869d8f7	orth/o = straight, upright.
+acc673ba	Spell the term for coughing up blood
+72280175	Upper Airway
+99adf998	Upper tract
+8b9cb81c	The nose, sinuses, pharynx, tonsils and larynx, and their diseases and surgery
+7383295b	Nose and sinuses
+7a3f690b	Pharynx and larynx
+892642f6	Upper airway disease and surgery
+a2e11b4a	The nose: the body’s air conditioner
+929d9874	What does the nose do?
+66294a7f	The nose <b>warms</b>, <b>moistens</b> and <b>filters</b> the air. Air enters through the ⟦0⟧ (nostrils) into the ⟦1⟧. The ⟦2⟧ divides the cavity in two.⟦3⟧ → relating to the nose; another root for nose is ⟦4⟧.
+2cc463b0	Cilia and mucus
+61ef13a0	⟦0⟧The airway wall is lined by a ⟦1⟧, which makes ⟦2⟧. The ⟦3⟧ work like an escalator, sweeping mucus and dust towards the throat.⟦4⟧⟦5⟧
+29f42ef2	Cilia and mucus
+faf9157f	mucous with ou is the adjective (like famous); mucus with u is the substance.
+cf9b4762	Which part divides the nasal cavity in two?
+5b7bb086	sept/o = septum.
+12fd56c0	What do cilia do?
+31f2c20f	sweep mucus and particles out
+2b2e35af	make mucus
+c401d3f1	warm the air
+d20651a6	mucus is the noun and mucous the adjective.
+a2a38a00	The mucous membrane makes mucus.

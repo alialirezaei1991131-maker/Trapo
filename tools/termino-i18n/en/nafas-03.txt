@@ -1,0 +1,264 @@
+0be9ca94	Build a word meaning “relating to the nose”
+18e58fb8	middle wall
+bbb66f51	mucus-making membrane
+1a21978b	cleaning cilia
+b7e2891e	The nose.
+4bdfc60c	A runny nose is called ___.
+a318f23f	Spell the noun for the sticky airway secretion
+43ec928b	The noun has no o.
+b2fa2c62	Four pairs of sinuses
+49ea1970	⟦0⟧The ⟦1⟧ are air spaces in the skull bones that lighten the head and make the voice resonate:<br>• ⟦2⟧: forehead<br>• ⟦3⟧: below the eyes; the largest<br>• ⟦4⟧: between the eyes<br>• ⟦5⟧: behind the nasal cavity
+fe77b9af	Sinusitis
+ebe7b8d4	⟦0⟧ → inflammation of a sinus; with a blocked nose, facial pain and pus-like discharge.⟦1⟧⟦2⟧⟦3⟧
+ac2ef175	Side X-ray of the sinuses
+8c0edd8d	para- means “beside”: paranasal = beside the nose.
+e36309a3	Maxillary sinus pain sometimes feels like an upper toothache.
+fe6d9270	Which is the largest sinus?
+70fc54f2	In the upper jawbone.
+e6723a30	beside the nose
+0d1d854b	inside the nose
+fa1a3614	below the nose
+7ec62b9a	behind the throat
+175e5bd0	The ethmoid sinus lies between the eyes.
+e5c4dbe9	Match each sinus to its position
+8891a9e4	below the eye
+293970f3	between the eyes
+ca755ce2	behind the nasal cavity
+7b6e4888	Four sinuses.
+f015161e	Build a word meaning “inflammation of a sinus”
+595bdf84	The sinuses make the skull ___.
+fcaa8d38	lighter
+70f428eb	heavier
+dd90a20a	Air spaces.
+5012f88f	Spell the term for inflammation of a sinus
+885516b2	Nosebleeds, runny nose and polyps
+c70f3061	Nasal signs
+853ce7db	nosebleed (rhinorrhagia)
+01f7cc6f	inflammation of the nasal lining
+02db4166	benign growths of the nasal lining
+0d1a089d	Repairing the nose
+b2b0afd2	⟦0⟧ → surgical repair of the nose<br>⟦1⟧ → repair of the nasal septum, for a ⟦2⟧<br>⟦3⟧ → removal of a polyp⟦4⟧
+995bd352	A textbook clinical note: a 45-year-old man with airway obstruction from large polyps in the right nasal cavity; a nasal snare polypectomy was done and pathology reported a low-grade papillary carcinoma.
+12b49733	coughing up blood
+74ddcf6c	Also called rhinorrhagia.
+d4713f0e	What is surgery to straighten a bent nasal septum called?
+032ea343	Coryza is the ordinary common cold.
+412d13cd	Build a word meaning “surgical repair of the nose”
+79e4328c	benign growth of the lining
+080b16b6	bent septum
+89fb4c78	The suffix ___ means flow and discharge.
+e9a79668	Spell the term for a nosebleed
+8e422f6e	epi- + staxis (dripping).
+d6f1f10e	The pharynx and tonsils
+54a41d78	The three parts of the pharynx
+44da42b7	⟦0⟧The ⟦1⟧ is the shared passage for air and food:<br>• ⟦2⟧: behind the nose; home of the ⟦3⟧<br>• ⟦4⟧: behind the mouth; home of the ⟦5⟧<br>• ⟦6⟧: the lowest part; opens into the larynx and oesophagus
+c8880875	The upper tract in sagittal section
+96b641ad	Tonsils
+3b39734f	⟦0⟧⟦1⟧ → inflammation of the tonsils<br>⟦2⟧ → removal of the adenoids⟦3⟧⟦4⟧
+0adc57b0	roof of the nasopharynx
+a0d9647d	both sides of the oropharynx
+34717464	Throat culture: taking a sample from the tonsil area
+8b3f05e5	tonsil has one l, but its root tonsill/o has two: tonsillitis, tonsillectomy.
+03f15acb	In which part of the pharynx are the adenoids?
+759d1602	behind the mouth
+bf5db548	behind the nose
+1e8952f7	above the larynx
+23a04226	inside the trachea
+952dcd9a	or/o = mouth.
+c91f26c6	The pharynx is a passage for both air and food.
+521b052a	The pharynx is shared.
+8b6036e4	Order the parts of the pharynx from top to bottom
+d36007a4	Nose → mouth → larynx.
+1cd205d6	Build a word meaning “removal of the tonsils”
+1d404c75	Match each tonsil to its position
+b7918619	hanging from the soft palate
+e820de6e	The tonsils and uvula.
+332efd71	Spell the term for the throat
+87a46489	The larynx: the voice box
+2781ea78	Structure of the larynx
+40f81066	⟦0⟧The ⟦1⟧ lies between the pharynx and trachea and holds the vocal cords. Its largest cartilage is the ⟦2⟧, which forms the “Adam’s apple”. The ⟦3⟧ is a flap that covers the larynx during swallowing so food does not enter the airway.
+932b5afc	The larynx from the front
+3f354feb	⟦0⟧The ⟦1⟧ are two folds in the larynx that make sound by vibrating. The space between them, together with the cords, is called the ⟦2⟧.⟦3⟧⟦4⟧
+100f89bf	The vocal cords from above
+babcdac5	The vocal cords on laryngoscopy
+9bcff018	epi- means “upon”: the epiglottis sits “upon the glottis” and shuts it like a lid.
+bcb54d4a	Which part covers the larynx during swallowing?
+3fb9ede6	Which cartilage is the Adam’s apple?
+5e33a55a	The largest cartilage of the larynx.
+60b40515	The glottis is open during breathing.
+7eaee7bf	The vocal cords move apart.
+a53129aa	Build a word meaning “inflammation of the epiglottis”
+d1720234	voice box
+19750668	flap over the larynx
+a113c7a8	the cords and the space between them
+df3f0c7b	Adam’s apple
+99123d8e	The larynx.
+0d9d60ba	A sudden contraction of the larynx that closes the airway is ___.
+50f1329c	Spell the term for the flap covering the larynx
+76707818	Voice: aphonia and dysphonia
+57095df1	Voice words
+3364e740	⟦0⟧ → ⟦1⟧: loss of voice<br>⟦2⟧ → ⟦3⟧: hoarse or difficult voice<br>⟦4⟧ → inflammation of the larynx, usually with hoarseness
+cab83aaf	Examining the larynx
+655c9113	⟦0⟧ → viewing the larynx with a ⟦1⟧<br>⟦2⟧ → removal of the larynx, mostly for cancer; afterwards the patient breathes through a tracheostomy.⟦3⟧⟦4⟧
+97f6f6c8	complete loss of voice
+4ec71c6c	hoarse, weak voice
+d8c48796	Hoarseness lasting more than three weeks, especially in a smoker, must be checked by laryngoscopy.
+7b9f1212	loss of voice
+7797e39c	hoarse voice
+16f6b449	inflammation of the larynx
+bbdc82be	What is viewing the larynx with an instrument called?
+cc4daa05	Dysphonia means complete loss of voice.
+45e53641	False; dysphonia is a hoarse voice; complete loss of voice is aphonia.
+c27fe009	Build a word meaning “removal of the larynx”
+9c1f5e6f	voicelessness
+5520e13d	Voice and larynx.
+2a133161	The root ___ means voice.
+bb76422e	aphonia, dysphonia.
+336129fa	Spell the term for inflammation of the voice box
+dd28523a	Upper tract infections
+23049486	Inflammations
+08bdd2c7	infection of the upper respiratory tract, such as a cold
+b29c6683	inflammation of the pharynx; a sore throat
+2f0c42ab	inflammation of the epiglottis; risk of airway blockage in a child
+0f1ae552	croup: a barking cough and stridor in children
+9f381b5e	To diagnose strep throat, a swab sample is taken from the tonsil area: a ⟦0⟧.⟦1⟧⟦2⟧
+e98a3b99	A child with fever, drooling, a muffled voice and sitting forward may have epiglottitis; examining the throat with a tongue depressor is then forbidden, because it can block the airway.
+63a38cb5	Croup sounds like a crowing rooster: a barking, harsh cough.
+8b438b97	A barking cough and stridor in a young child are mostly a sign of what?
+74d3174c	A viral infection of the larynx and trachea.
+89e26294	URI means…
+134876a5	urinary infection
+880fb178	obstructive lung disease
+426ea5ad	Epiglottitis can block a child’s airway.
+fceb0107	An airway emergency.
+de7ab780	sore throat
+0e36daee	child’s barking cough
+6da8b75d	common cold
+c926935c	Upper infections.
+da88af6d	Taking a throat swab to look for bacteria is called a ___.
+03f71e5a	Throat culture.
+417e45ea	Spell the term for inflammation of the tonsils
+d48882a1	Snoring and sleep apnoea
+5b42c16e	⟦0⟧In ⟦1⟧ (⟦2⟧) the throat and tongue block the airway during sleep; the patient snores, stops breathing for a few seconds and is sleepy by day.
+f771d193	• ⟦0⟧: a device that blows pressurised air through a mask to keep the airway open<br>• ⟦1⟧ (⟦2⟧): removing part of the uvula, soft palate and pharynx<br>• weight loss and sleeping on one side⟦3⟧⟦4⟧
+c36460d2	Sleep apnoea is confirmed by polysomnography (a sleep study).
+bf5d81f1	OSA means…
+7f3b1cf5	upper respiratory infection
+8ed6d036	Which device keeps the airway open in sleep with positive pressure?
+acf2f979	UPP is surgery on the uvula, palate and pharynx.
+d2bbf592	Build the name of the surgery on the uvula, palate and pharynx
+b162da83	sleep study
+f3dab7ff	Sleep apnoea.
+b684c325	The root ___ means sleep.
+82b21af5	Spell the term for a pause in breathing
+95143ac9	Upper airway surgery
+1285d906	Removal and repair
+744b6913	straightening the nasal septum
+8a00c82a	reshaping the nose
+c179e3f8	A story from the sources
+edd1cd03	In one of the source exercises, a child with repeated sore throats, difficult and painful swallowing and heavy snoring at night saw the doctor. The doctor recommended removing the tonsils and adenoids (⟦0⟧).⟦1⟧
+0cc2bfda	After tonsillectomy, bleeding can occur up to about 10 days later; frequent swallowing may be a sign of it.
+f1342a53	What is removal of the adenoids called?
+f7ccabb7	SMR is done for which problem?
+e307f106	lung polyp
+bb79f3a6	laryngeal cancer
+599edfc5	Laryngectomy means repair of the larynx.
+062532b9	False; -ectomy = removal.
+05231c79	Build a word meaning “repair of the nasal septum”
+3792e0dd	Upper airway surgery.
+3bf0fef4	The specialist who performs these operations is an ___.
+d4d29e7a	Lower Airway
+4c31bcf6	Lower tract
+967bdf4e	The trachea, bronchi, alveoli, lung lobes, pleura, mediastinum and diaphragm
+a4fecbe5	The trachea and bronchial tree
+48353943	Lungs and alveoli
+23c26f44	Pleura, mediastinum and diaphragm
+f89bbe73	The trachea: a ringed tube
+db0119d3	The ⟦0⟧ is a tube about 12 centimetres long from the larynx into the chest. <b>C-shaped rings of cartilage</b> keep it always open. At the bottom of the trachea, where it forks, is the ⟦1⟧.⟦2⟧ → relating to the trachea
+ff48b906	Trachea words
+f1deb8c0	softening of the tracheal cartilage
+619cffde	a lasting opening in the trachea
+26c8b80d	The tracheal rings are C-shaped and open at the back, so the oesophagus behind the trachea has room during swallowing.
+45b49a12	What keeps the trachea always open?
+cdec06fb	the diaphragm muscle
+05da3926	What is the point where the trachea forks called?
+984f2760	Tracheomalacia means softening of the tracheal cartilage.
+6de8f08f	Build a word meaning “a lasting opening in the trachea”
+7bae39c2	The trachea.
+3dff9b16	The oesophagus lies ___ the trachea.
+b3468660	in front of
+5383f6d1	That is why the rings are open at the back.
+b7d789b4	An upside-down tree
+6a147dc0	⟦0⟧The trachea divides into two main ⟦1⟧ (plural: ⟦2⟧); each enters one lung and branches again and again. The smallest branches are the ⟦3⟧, which reach the alveoli.
+76c00e0f	The right bronchus
+e39fa3f8	The <b>right</b> main bronchus is shorter, wider and more vertical; that is why swallowed foreign bodies and aspiration pneumonia are seen more in the right lung.⟦0⟧⟦1⟧
+a1fede46	A bronchiole and alveoli
+a02af2fd	What are the smallest branches of the bronchial tree called?
+91c9e291	Which bronchus do foreign bodies enter more often?
+0eed008c	left main bronchus
+485a734f	both equally
+6fa07e7a	Shorter, wider and more vertical.
+4b70cbf0	Bronchiolitis is inflammation of the bronchioles and is common in infants.
+314d3a87	Order the path of air from the trachea to the alveolus
+0c27d274	An upside-down tree.
+6580dc6c	Build a word meaning “relating to a bronchus”
+8410fa60	sudden contraction of a bronchus
+196ffc63	The bronchial tree.
+8c0064fe	Spell the term for the smallest airway branch
+0c0a3aa2	Sudden narrowing of the bronchi
+8b7e1973	The bronchial walls contain smooth muscle. If this muscle suddenly contracts, the airway narrows: ⟦0⟧. This is what happens in an asthma attack.⟦1⟧
+10ee51cf	A bronchiole at rest and in an asthma attack
+1b2bd039	A ⟦0⟧ relaxes the smooth muscle and opens the airway, such as a salbutamol inhaler (⟦1⟧).⟦2⟧ → sudden contraction of a bronchus⟦3⟧⟦4⟧
+12b06f19	sudden narrowing of a bronchus
+db3b21c5	a drug that opens the bronchi
+610b313b	In a textbook lung consult report, a 10-year-old boy with asthma improved on Proventil and continuing it was advised “to relieve bronchospasm”.
+4cb63bee	sudden contraction of bronchial muscle
+a3e7434c	permanent widening of a bronchus
+547e01bc	Which drug opens the bronchi?
+b17bec06	dilator = something that widens.
+b09017fd	The bronchial wall contains smooth muscle.
+64613f29	Build a word meaning “widening of a bronchus”
+4abf6c02	sudden narrowing
+df049f18	permanent widening
+efac6e02	widener
+69eccdf8	The bronchus.
+4457fc05	The suffix ___ means a sudden involuntary contraction.
+834d6f40	bronchospasm, laryngospasm.
+8da8b9ad	Spell the term for a sudden tightening of the bronchi
+faf16c24	The alveolus: where exchange happens
+fe3d5c7d	⟦0⟧An ⟦1⟧ (plural: ⟦2⟧) is a tiny air sac at the end of a bronchiole. Its very thin wall is covered with ⟦3⟧, and this is where oxygen and carbon dioxide are exchanged.
+1fd2cf43	Alveoli and capillaries
+19b06978	A substance called ⟦0⟧ coats the inside of the alveolus and stops it collapsing. Premature babies often lack enough surfactant and develop ⟦1⟧ (respiratory distress syndrome).⟦2⟧ → alveolar⟦3⟧
+00b42622	Alveoli are like bunches of grapes at the ends of the bronchial tree’s branches.
+876b0312	Where does gas exchange take place?
+e1589ee4	A thin wall + capillaries.
+72345a23	stops the alveolus collapsing
+c4dde278	makes mucus
+eb9be73d	kills germs
+f5d207ff	carries oxygen
+78443757	It lowers surface tension.
+c005dc9f	A premature baby may develop RDS because of a lack of surfactant.
+fd460ad7	Build a word meaning “relating to an alveolus”
+530a9378	anti-sticking substance
+30053e32	plural of alveolus
+d8718fff	The alveolus.
+8bd98f8f	The plural of alveolus is ___.
+6d700e2c	Spell the term for a tiny air sac of the lung
+f6295bd8	Right three, left two
+462a34b0	⟦0⟧The <b>right</b> lung has three lobes: upper, middle and lower (⟦1⟧). The <b>left</b> lung has two (⟦2⟧), because the heart takes up part of its space (⟦3⟧).
+011111d9	RUL, RML, RLL
+7107fa99	LUL, LLL
+2996c398	Parts of the lung
+50925c44	⟦0⟧⟦1⟧ → removal of one lobe⟦2⟧
+15420b4c	apex; the top of the lung, under the collarbone
+9ce0e5dc	base; resting on the diaphragm
+0ae14342	hilum; where the bronchus and vessels enter
+b8c3632b	A report saying “CXR revealed fluid in the RUL” means the chest X-ray showed fluid in the right upper lobe.
+9a081fe4	How many lobes does the left lung have?
+e6b959c0	Because of the heart.
+3329b00b	left middle lobe
+b240d7d0	right lower lobe
+2fb2192d	right middle lobe; only the right lung has a middle lobe.
+cd477fde	The hilum is where the bronchus and vessels enter the lung.
+2eae2622	The root of the lung.
+48145393	Build a word meaning “removal of a lobe”

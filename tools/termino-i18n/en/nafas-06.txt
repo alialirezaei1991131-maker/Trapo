@@ -1,0 +1,237 @@
+5df3b8ed	-meter and -metry.
+e23070b8	Build a word meaning “an instrument for measuring breathing”
+9f8be4d1	peak breath-out speed
+0109beb9	A patient with asthma monitors themselves at home with a ___.
+b0376ebd	ABG and pulse oximetry
+9d56928d	⟦0⟧ (arterial blood gases): an arterial blood sample that measures oxygen, carbon dioxide and ⟦1⟧; the most accurate way to measure ⟦2⟧ and ⟦3⟧. ⟦4⟧ means the sample was taken while breathing “room air”.
+c0c0c223	⟦0⟧⟦1⟧ shows blood oxygen saturation (⟦2⟧) without a needle, using a clip on the finger. Normal: 95 to 100%.⟦3⟧⟦4⟧
+f2d96deb	A pulse oximeter at the bedside
+934edb39	arterial blood; precise; needs a needle
+8e1e2445	finger clip; quick; no needle
+08de6fde	Which test accurately measures blood oxygen, CO2 and pH?
+6f35b7f7	What does an SpO2 of 88% mean?
+51cfa952	hypoxaemia; needs assessment and oxygen
+5e638de9	hypercapnia
+5a83070c	Under 90% = inadequate oxygenation.
+bc39af6a	RA in an ABG report means the patient was breathing room air.
+2dd47f0f	Build a word meaning “an instrument for measuring oxygen”
+13e92d77	room air
+d4c232c3	low blood oxygen
+d7171cde	Blood oxygen.
+72ac4335	In textbook Exercise 12-9, the ABG on “room air” showed ___ oxygen.
+5e68b373	low
+b4f203e8	Spell the term for the instrument that measures blood oxygen
+414a65e2	Imaging, cultures and tests
+7b8e228e	pneumonia, TB, pneumothorax, effusion
+38804c33	tumours and mediastinal nodes
+1ee3ceea	viewing the bronchi and taking samples
+606ee486	Cultures and tests
+19c5537e	• ⟦0⟧ and ⟦1⟧: sputum culture and sensitivity<br>• ⟦2⟧: throat culture<br>• ⟦3⟧: TB skin test<br>• ⟦4⟧: cystic fibrosis<br>• ⟦5⟧: sleep study for apnoea⟦6⟧
+b2f5cdf4	C&S means culture and sensitivity: the germ is grown and tested to see which antibiotic it is sensitive to.
+14bce16d	Which imaging is used to find a pulmonary embolism?
+4fcddb36	C&S means…
+8f3279d0	Polysomnography is for diagnosing sleep apnoea.
+6792d8b5	Build a word meaning “multiple recordings during sleep”
+1dd4966f	Match each test to its use
+a0e33e5b	pneumonia and TB
+67f9cce3	finding the germ in sputum
+88355ebf	Tests.
+f5459192	On a CXR, “diffuse infiltrates at the bases of both lungs” means…
+98953e47	scattered patches at the bases of both lungs
+642c81a5	a tumour at the apex of the lung
+88bd2d89	a completely normal lung
+180753bf	bases = bottoms; both = both lungs.
+4a8167da	Looking inside: bronchoscopy and thoracentesis
+7cc8bf04	Respiratory endoscopies
+58e77376	viewing the larynx
+cde9e8ca	viewing the bronchi with a lighted tube
+b1330625	viewing inside the chest
+085487e4	Bronchoscopic view
+8d2c3b58	⟦0⟧⟦1⟧ → ⟦2⟧: a needle enters the pleural space between the ribs and draws out the fluid (⟦3⟧); both for diagnosis and to ease breathing.⟦4⟧
+923aae4b	In Case Study 12-1, thoracentesis was done for Morgan, but no fluid came out.
+351e01bc	What is viewing the bronchi with a lighted tube called?
+b56a1419	What is drawing pleural fluid with a needle?
+f32f81d2	Mediastinoscopy means viewing the mediastinum with an instrument.
+0d731406	Build a word meaning “viewing inside the chest with an instrument”
+23e08272	viewing the bronchi
+8893085a	viewing the chest
+49c54b1e	drawing pleural fluid
+96885c4b	Diagnostic procedures.
+6be01bcd	The instrument for bronchoscopy is the ___.
+c22b3314	-scope = viewing instrument.
+c4f95f05	Spell the term for drawing fluid from the pleural space
+45182c5d	Intubation and tracheostomy
+11aa90a7	An artificial airway
+fb82dc4a	⟦0⟧⟦1⟧: an ⟦2⟧ tube enters the trachea through the mouth or nose and its cuff seals the airway so air goes straight to the lungs. The tube must be in the trachea, not the oesophagus.<br>⟦3⟧: a ⟦4⟧ breathes for the patient through this tube.
+bfb8d979	Endotracheal intubation
+cd24872d	⟦0⟧If a patient needs a ventilator for a long time or the upper airway is blocked, an opening into the trachea is made in the front of the neck: a ⟦1⟧.⟦2⟧⟦3⟧
+442a6db2	A patient with a tracheostomy tube
+deabc965	Case Study 12-2: after a week of failed attempts to wean Ella off the ventilator, the lung specialist raised a permanent tracheostomy.
+b4f571e3	What is the tube that enters the trachea through the mouth called?
+00ca77fd	What is making a lasting opening into the trachea through the front of the neck?
+13bb37ec	-stomy = opening.
+a485cc68	In correct intubation, the tube enters the oesophagus.
+5335d5bf	False; the tube must be in the trachea.
+d3752e5c	Build a word meaning “incision into the trachea”
+1d45b99e	breathing machine
+f32a2911	opening into the trachea
+68525a40	ventilation by machine
+c388ba2d	The airway.
+a70a7e09	Order the steps of intubation
+2dfdc3bf	open the airway with a laryngoscope
+5b8c0bb1	see the vocal cords
+16945f6f	place the ET tube in the trachea
+972e48c6	inflate the cuff and connect to the ventilator
+073a5317	The overall order.
+749b0d65	Spell the term for a lasting opening into the trachea
+200d4562	Oxygen and respiratory devices
+7b44b942	Ways to give oxygen
+073496ea	⟦0⟧• ⟦1⟧: two plastic prongs in the nose<br>• ⟦2⟧: a mask for more oxygen<br>• ⟦3⟧: continuous positive pressure for sleep apnoea<br>• ⟦4⟧: intermittent positive pressure breathing to open the lungs⟦5⟧
+4ac31f2d	Inhaled medicines
+7585dc39	• ⟦0⟧ (metered-dose inhaler): a spray with a set dose; reaches the lungs better with a ⟦1⟧<br>• ⟦2⟧: turns liquid medicine into a mist; for children and very ill patients⟦3⟧⟦4⟧
+b408f171	In a textbook case study, an 88-year-old woman with pneumonia received IV antibiotics and IPPB and went home on the third day.
+93ddc895	With which device is oxygen given through two small prongs in the nostrils?
+81626439	cannula = a small tube.
+df43fdca	Which device turns liquid medicine into a mist?
+348c418e	A spacer helps inhaled medicine reach the lungs better.
+25481372	With an MDI.
+ac70b72a	Match each device to its job
+bb7ce258	opening the lungs with pressure
+ecf67b2a	set-dose spray
+d72af4ab	Devices.
+4f98b3a6	The abbreviation ___ means nebulised medicine treatment.
+ed7ac367	O2 per nasal cannula means…
+0ba80011	oxygen through a nasal cannula
+cb9d58fa	carbon dioxide through the mouth
+3131a1c8	oxygen by ventilator
+1c13cb7c	per = by way of.
+3e847514	Spell the term for the device that turns liquid medicine into a mist
+68375038	nebula = mist.
+e56510cf	Respiratory drugs
+b13570d8	widening the bronchi
+04cff757	reducing airway inflammation
+1ce85655	calming a cough
+9d873828	thinning sputum so it can be coughed up
+02481e0d	breaking down mucus
+d68a6bc6	reducing nasal congestion
+d4a3da86	reducing allergy symptoms
+2ea0fc26	treating bacterial infection
+de1700a4	Building drug names
+a0226f3f	⟦0⟧ → against cough<br>⟦1⟧ → mucus-breaking<br>⟦2⟧ → decongestant⟦3⟧⟦4⟧
+b44d4da1	reduces coughing
+0987cac1	makes a productive cough more effective
+9571ab49	expectorant comes from ex- + pector (chest): “brings it out of the chest”.
+94ea81d0	Which drug calms a cough?
+1829a2e5	breaks down and thins mucus
+530c3c3c	widens the bronchi
+b4bb7e6b	stops coughing
+9571cda8	A bronchodilator narrows the bronchi.
+4ef34b52	False; it widens them.
+09ed1998	Build a word meaning “mucus-breaking”
+f28519e1	anti-allergy
+82b7c780	inhaled anti-inflammatory
+3224a4d8	Drugs.
+e2a4e5f2	The abbreviation ___ means “as needed” on a prescription.
+c7b343bf	Spell the term for a drug that widens the bronchi
+747c722c	Lung and chest surgery
+985673c6	Cutting and removing
+ab745028	Lobectomy and pneumonectomy
+d8770a84	an opening for a chest tube
+29d4906f	removing part of the pleura
+51bfa7f3	Emergencies
+e75d1821	• ⟦0⟧ (cardiopulmonary resuscitation): chest compressions and rescue breaths in cardiac and respiratory arrest<br>• ⟦1⟧: quick upward thrusts to the abdomen to expel a foreign body from the airway⟦2⟧⟦3⟧
+99cb5387	In pneumothorax, a chest tube is placed by thoracostomy so air can escape and the lung can re-expand.
+5b6fa030	What is removal of a whole lung called?
+16ee6e12	What is done to expel a foreign body from the airway?
+08c0a3a9	Upward thrusts to the abdomen.
+a6e0b38a	Thoracostomy is done to place a chest tube.
+d7c809f1	Build a word meaning “removal of the pleura”
+8d5dff87	removal of a lobe
+18579545	chest tube
+174381f6	Surgery and emergencies.
+d3232b84	The surgeon has planned a ___ for Mr Fritzringer’s lung tumour; only one lobe is removed and both lungs remain.
+a0ade7b2	lob/o + -ectomy; the patient’s worry about having “one lung” is unfounded; that would be a pneumonectomy.
+df4efa8b	Spell the term for removal of a lung lobe
+3abcd020	Reading a respiratory chart
+795ed378	breathlessness / on exertion
+91335e01	clear on auscultation
+e9fa41d6	oxygen / room air
+ec6d3871	Textbook Exercise 12-9: “HISTORY: 30-year-old female c/o nonproductive cough, dyspnea and fever of 3 days. PE: T 102°F, R 26, P 108. Tachypnea with mild cyanosis, inspiratory rales. CXR: diffuse infiltrates at the bases of both lungs. ABG on room air: low oxygen. Dx: pneumonia of unknown etiology. Plan: ICU, antibiotics and oxygen by face mask.”
+ec074e68	c/o means complains of: the patient complains of…
+3a06c3a4	In the note above, R 26 means…
+cae865f3	26 breaths a minute; fast breathing
+0fe5e2d7	a heart rate of 26
+18fe3ee4	a temperature of 26 degrees
+6ef4e9db	R = respiration; over 20 = tachypnea.
+d12e78de	“c/o nonproductive cough” means…
+e36cc2be	complains of a dry cough
+573af09b	complains of bloody sputum
+a023b004	no cough
+54fd7c3d	Etiology means the cause of a disease.
+984e8a1e	pneumonia of unknown etiology = pneumonia of unknown cause.
+a26e0761	Match each part of the note to its meaning
+cd9958ab	opaque patches on the X-ray
+b7db0147	The clinical note.
+ee277324	The abbreviation ___ means breathlessness on exertion.
+a45a7d9c	Order the usual structure of a note
+1d373988	History → examination → diagnosis → plan.
+4c428f76	“oxygen by face mask” means…
+9d836fc4	oxygen through a face mask
+2b249cd8	oxygen through a nasal cannula
+f140a682	a CPAP machine
+f875a8e1	Breathy
+2428a64d	A Pair of Beginner Lungs
+88d7bb58	Breathes more than twenty thousand times a day, giving oxygen to the blood and sending carbon dioxide out.
+bc7e4167	Master of pulmon/o and pneum/o
+b06ecc9e	A living dictionary that breaks every respiratory word into root, prefix and suffix and knows rhin/o to phren/o by heart.
+01d52bdd	Gets tachy- and brady- right, never mixes up -pnea with -ptysis, and keeps -stomy apart from -tomy.
+2106a34f	Cilio
+da14b1ba	The Airway Sweeper
+8d3a6791	One of millions of cilia on the walls of the nose and trachea, sweeping mucus and dust towards the throat like an escalator.
+7b822551	of the sinus
+7df31c4d	The Skull’s Air Bubble
+6aa33952	Lives in the maxillary bone; lightens the skull, makes the voice resonate and is afraid of sinusitis.
+0476213f	Laryngo
+afe9c22a	Master of the Vocal Cords
+22bac06e	Opens the glottis for breathing and closes it for singing; recognises aphonia and dysphonia from a patient’s voice.
+9b0ad951	ringed
+92ccb4eb	The Ever-Open Trachea
+d34d57b3	Its C-shaped cartilage rings never let it close; at the carina it splits into two bronchi.
+acbcb39d	The Gas-Exchange Cluster
+026c07bc	Three hundred million tiny air sacs that stay open thanks to surfactant and pass oxygen to the capillaries.
+954bf3ae	The Champion Dome Muscle
+dc08d7bb	Contracts and flattens with every breath in, drawing air inwards; the phrenic nerve is its commander.
+de9fff33	thermometer
+f9bc5919	Counts the TPR: temperature, pulse and respiration; and tells tachypnea from eupnea.
+4379aa6a	blood-cell
+46a38edf	Takes oxygen from the alveolus and delivers it to every cell; if it falls short, the lips turn blue.
+1ab30d6e	Spiro
+9402a00b	The Lung Volume Gauge
+4bb87157	Knows TV, VC and TLC, and spots an obstructive pattern with one look at FEV1/FVC.
+3e5cde4f	rescue inhaler
+a64c50f3	The Bronchus Opener
+080be703	In an asthma attack, one puff calms the bronchospasm and silences the wheeze.
+5380b479	Fights pneumonia, TB and whooping cough, and is a loyal fan of the DPT vaccine.
+1c0673ad	clean air
+3e3c0846	Enemy of Smoke and Dust
+fecf11f4	Hates cigarettes, asbestos and coal dust; knows where COPD and lung cancer come from.
+e43feafd	Pulse-Oxi
+f087000d	The Smart Finger Clip
+61537be2	Shows the SpO2 in seconds without a needle; below 90% it sounds the alarm.
+0cee6666	Bronchy
+638db5ff	Explorer of the Bronchi
+3d7059cb	Looks inside the bronchi with a bronchoscope, takes samples and pulls out foreign bodies.
+86e07585	Lung Scribe
+ecabe768	Master of the Respiratory Chart
+009db7ef	Reads SOB, CTA, ABGs and CXR at a glance and follows the patient from intubation to discharge.
+c79eb362	Pearson Hospital emergency record
+712016ab	A 43-year-old woman
+6845664c	Her family has brought her to the emergency department. She complains of painful, difficult breathing, rapid breathing and fever. A blood oxygen test shows a very low oxygen level. Listening to the lungs, crackling sounds are heard in the lower left chest. She has plenty of purulent sputum and the chest X-ray shows a large opaque patch in the left lower lobe. You must write each phrase with its medical term.
+6675098b	painful, difficult breathing
+0c36d86e	rapid breathing
+48e4b88b	blood oxygen test
+b068d701	crackling lung sounds
+83cae3c5	Which term is used for “difficult breathing”?
+cad32dbf	What is “rapid breathing”?
+5f2e1a57	Match each phrase to its medical term
+3d74cf0d	low oxygen in the blood

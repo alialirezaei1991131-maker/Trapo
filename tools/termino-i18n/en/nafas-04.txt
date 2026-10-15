@@ -1,0 +1,258 @@
+b200dd6f	right upper lobe
+7d1e3601	left lower lobe
+00b6f54c	Five lobes.
+98c43c1c	The top of the lung is called the ___.
+05bb1121	The apex.
+f44e703c	Spell the term for the two breathing organs (plural)
+1f82f45b	pulmon/o, pneum/o.
+b689963d	The ⟦0⟧ is built from the ribs, breastbone and the muscles between the ribs (⟦1⟧) and forms the ⟦2⟧, which holds the lungs and heart. Each half of it is a ⟦3⟧.⟦4⟧ → relating to the chest
+c654e06c	Chest words
+06bca33c	viewing inside the chest with an instrument
+1f51fd66	drawing pleural fluid with a needle
+c0fd4e77	an opening for a chest tube
+d6c71775	steth/o also means chest: stethoscope = an instrument for examining (listening to) the chest.
+fedf03b9	In Case Study 12-1, Morgan had earlier had a lobectomy for a sarcoma of the left lung and had a thoracotomy scar on the left hemithorax.
+c0d8bde2	blood in the chest
+0035e67b	hemi- = half; not the same as hemo- (blood)!
+91816f9d	What is an incision into the chest called?
+e504485b	The intercostal muscles take part in breathing.
+0ca1bc96	The intercostal muscles enlarge and shrink the chest.
+fdcacaba	Build a word meaning “viewing the chest with an instrument”
+2c172673	The chest.
+22e81fba	The prefix ___ means “half”.
+5545af18	Spell the term for the chest
+9de7d389	Two layers, one space
+6cdca818	⟦0⟧The ⟦1⟧ is a two-layered membrane around the lung:<br>• ⟦2⟧: the inner layer, attached to the lung<br>• ⟦3⟧: the outer layer, on the chest wall<br>Between them is the ⟦4⟧, with a little slippery fluid.
+fe1a4147	Pleura words
+e994134d	⟦0⟧ → pleural; ⟦1⟧ = fluid in the pleural space<br>⟦2⟧ → within the pleural space<br>⟦3⟧ → pain of the pleura<br>⟦4⟧ (⟦5⟧): inflammation of the pleura with sharp pain on breathing⟦6⟧
+874afbdc	on the organ itself (the lung)
+bb8e75a0	on the wall of the cavity
+4b8728ca	Which layer of the pleura is attached to the lung?
+f809b54f	viscera = internal organs.
+ad703f6d	air in the pleural space
+aaac5af1	Also called pleuritis.
+aeeab2d5	The pleural space normally holds a little slippery fluid.
+c781b4d8	So the two layers can glide over each other.
+5d148dae	Build a word meaning “pain of the pleura”
+cccfd8c9	layer on the lung
+c6f20d86	layer on the wall
+2681eda9	removal of part of the pleura
+c15e2ee9	The pleura.
+f24c0faa	Relating to within the pleural space is ___.
+ecd66813	intra- = within.
+f9da7e1f	Spell the term for the membrane around the lungs
+08df461b	The space between the two lungs
+bad38443	The ⟦0⟧ is the space between the two lungs that holds the heart, trachea, oesophagus, great vessels and lymph nodes.⟦1⟧ → relating to the mediastinum<br>⟦2⟧ → viewing the mediastinum with an instrument through a small incision
+61539078	Enlarged lymph nodes in the mediastinum (⟦0⟧) can be a sign of lung cancer or lymphoma; ⟦1⟧ is done to sample them.⟦2⟧⟦3⟧
+c864c53a	In Case Study 12-1, CT showed abnormal mediastinal nodes, and thoracoscopy, mediastinoscopy and biopsy were planned for Morgan.
+a6846534	mediastinum = in the “middle” (media) of the chest.
+fbeea5e2	Which organ is not in the mediastinum?
+5ff94729	The lungs lie on either side of the mediastinum.
+934fdafc	viewing the mediastinum with an instrument
+22a50776	incision into the mediastinum
+52da7b1a	inflammation of the mediastinum
+85c075d1	X-ray of the mediastinum
+c2dcc6a0	Enlarged lymph nodes in the mediastinum can be a sign of cancer.
+a9fcd87e	Build a word meaning “relating to the mediastinum”
+f1af5cab	space between the two lungs
+f1cb7191	viewing the mediastinum
+d3ae4c1a	root of the lung
+c1f24a94	The mediastinum.
+eefa54da	The heart lies in the ___.
+e7b20555	Between the two lungs.
+7a29c178	Spell the term for the space between the two lungs
+76cef16e	The diaphragm and phrenic nerve
+d9c3d2e6	The main breathing muscle
+96b51738	⟦0⟧The ⟦1⟧ is a dome-shaped muscle under the lungs. On breathing in it contracts and flattens and draws air in. The ⟦2⟧ controls it.⟦3⟧ → relating to the diaphragm
+1d108f6b	The diaphragm in breathing in and out
+5cbc071c	Hiccups and nerve damage
+77edb23c	• ⟦0⟧ (hiccup): a sudden involuntary contraction of the diaphragm<br>• damage to the phrenic nerve can paralyse the diaphragm; that is why, in a brachial plexus injury case study, the diaphragm was checked under fluoroscopy.⟦1⟧
+b970db03	In Greek, phren/o meant both “diaphragm” and “mind”; the ancients thought thinking happened in the chest!
+9099e924	Which is the main breathing muscle?
+60904515	The dome under the lungs.
+caee92a1	Which nerve controls the diaphragm?
+b1e506ce	Singultus is the hiccup.
+42658a9d	An involuntary contraction of the diaphragm.
+783387cc	Build a word meaning “relating to the diaphragm”
+4624bb4d	dome-shaped breathing muscle
+6f2ff512	nerve to the diaphragm
+76e12097	What happens on breathing in? Put the steps in order
+a385e4f2	the diaphragm contracts and flattens
+eac63340	the chest volume increases
+42a9595b	the pressure inside the lungs falls
+7f57f7df	air enters the lungs
+1570f12d	Ventilation and Signs
+89d1ece8	Breathing patterns, oxygen shortage, cough and sputum, lung sounds on auscultation, and lung volumes and capacities
+2ee2a5d8	Oxygen, cough and sputum
+72056e4e	Lung sounds and volumes
+9cfb920e	Fast, slow, stopped
+ba5233bd	Breathing rate
+205a86ba	normal breathing; 12 to 20 a minute in an adult
+e7882b2a	temporary stop in breathing
+ee5fe9c0	Building the words
+1d6121e4	⟦0⟧ → good, normal breathing<br>⟦1⟧ → fast breathing<br>⟦2⟧ → slow breathing<br>⟦3⟧ → no breathing⟦4⟧⟦5⟧
+716cb1ff	In vital signs, R means the breathing rate per minute; TPR = temperature, pulse, respiration.
+1a061f2a	tachy- like a horse at full gallop: fast. brady- like a dozy sloth: slow.
+600bc6cc	What is the normal adult breathing rate at rest?
+6fab0201	12 to 20 a minute
+7c2d514b	4 to 8 a minute
+8e92202a	30 to 40 a minute
+c56a2544	60 to 100 a minute
+1d018253	Apnea means a temporary stop in breathing.
+e7b9f5ea	Build a word meaning “slow breathing”
+6b0a0ffe	stopped
+c693b4b6	Breathing rate.
+2289183d	In vital signs, the letter ___ means the breathing rate.
+e139ee75	Spell the term for fast breathing
+489ef36b	Deep, shallow, difficult
+17bd03a6	Depth and difficulty
+6f1de31c	difficult breathing, breathlessness (SOB)
+edad9a25	breathlessness lying flat; better sitting up
+20917712	Too much and too little ventilation
+4c85629b	• ⟦0⟧: overbreathing; blood CO2 falls (for example in anxiety)<br>• ⟦1⟧: inadequate breathing; CO2 builds up in the blood<br>• ⟦2⟧: cycles of deep, fast breathing broken by apnoea; near death or in brain injury⟦3⟧
+e95a6766	Orthopnoea is measured by the number of pillows: “three-pillow orthopnea” means the patient can breathe with three pillows.
+3ad5f7ae	breathlessness lying flat that eases on sitting up
+75056e12	breathing stopping in sleep
+300cdfa4	In a chart, SOB means…
+f6a5868f	Periods of apnoea are seen in Cheyne-Stokes breathing.
+7624b446	Breathing waxing and waning, with pauses.
+c5a82ca8	Build a word meaning “deep breathing”
+00929696	difficult breathing
+c379a7a9	Depth and difficulty.
+27e7aeb0	Overbreathing that lowers blood CO2 is ___.
+346bdac6	Spell the term for breathlessness when lying flat
+3b62e019	Breathing in and out in action
+efc13600	The mechanics of breathing
+6f91fc69	⟦0⟧In ⟦1⟧ the diaphragm and intercostal muscles contract, the chest enlarges, the pressure inside the lungs falls and air comes in. In ⟦2⟧ the muscles relax and air goes out.
+24db7b4d	Counting breaths
+833757bb	To count breathing, count the rise and fall of the chest for one full minute (one breath in + one breath out = one breath).⟦0⟧⟦1⟧
+23da9215	In the “Spirometry and oxygen” tool, enter the breathing rate to see eupnea, tachypnea or bradypnea.
+ea41b4ff	One breath in + one breath out = one breath; don’t count halves!
+7220fe4e	On breathing in, what happens to the pressure inside the lungs?
+251c91e3	it becomes lower than the outside air
+2573c575	it becomes higher than the outside air
+a4e363db	it does not change
+4f36c3a5	it becomes zero
+8b78f30d	Air moves from higher to lower pressure.
+c097ce30	One complete breath means…
+ff7ad814	one breath in and one breath out
+d587cc96	only one breath in
+0ea4fd1a	only one breath out
+9e5c7cfb	two breaths in
+3e514ba9	In quiet breathing out, the diaphragm relaxes and rises.
+58de4be0	Expiration is mostly passive.
+f42cc0f1	Order the steps of breathing in
+c6efe4f5	the diaphragm contracts
+ba7d174a	the chest enlarges
+e0ced9bb	Ventilation.
+2609715c	The abbreviation ___ means temperature, pulse and respiration.
+7035e64c	Spell the term for breathing in
+4a55fa76	Oxygen and CO2 words
+bd88fac7	lack of oxygen in the tissues
+b894a403	rise in blood CO2
+f9fea800	suffocation: lack of O2 and build-up of CO2
+60588f45	Outward signs
+5c0e302c	⟦0⟧• ⟦1⟧: bluish skin, lips and nail beds from lack of oxygen<br>• ⟦2⟧: rounding and widening of the fingertips in long-term oxygen shortage⟦3⟧
+dff05df6	Cyanosis and clubbing
+eacdd887	In a textbook lung consult report: “cyanosis around the lips” and “ABGs indicate hypoxemia” during a severe asthma attack.
+1e30376e	-emia = blood.
+8a999dad	What is the bluish colour of the lips and nail beds called?
+c3461438	Hypercapnia means too little carbon dioxide in the blood.
+8019d371	False; hyper- = excessive; CO2 is high.
+013fdae7	lack of tissue oxygen
+2de0f324	high CO2 in the blood
+e93c439b	Oxygen.
+e8ec3bf2	The root ___ means carbon dioxide.
+bc6367d9	Cough and sputum
+6faf97c4	Types of cough
+60f3430b	• ⟦0⟧: a cough with sputum<br>• ⟦1⟧: a dry cough<br>• ⟦2⟧: material coughed up from the lungs; ⟦3⟧: thick mucus<br>• ⟦4⟧: pus-filled; yellow or green sputum<br>• ⟦5⟧: coughing up and spitting out sputum
+4718e7d7	Blood in the sputum
+9835cabc	⟦0⟧ → ⟦1⟧: coughing blood from the lungs; can be a sign of TB or lung cancer.⟦2⟧⟦3⟧
+8c1b4f45	blood coughed from the lungs
+6b94dc54	blood from the nose
+88649d9e	In textbook Exercise 12-9, a 30-year-old woman came in with “nonproductive cough, dyspnea and fever”: a dry cough and breathlessness.
+0113a6d7	What is a cough that brings up sputum called?
+5b8aa127	productive = bringing up sputum.
+6743e7e6	pus-filled sputum
+4ef6e03a	clear sputum
+29a1dc3e	purulent = containing pus.
+fa8ec758	Hemoptysis can be a sign of TB or lung cancer.
+14790c3a	Blood in the sputum is always investigated.
+a2895967	Build a word meaning “coughing up blood”
+80c09b36	spitting out sputum
+a896854c	Cough and sputum.
+dbca3c5e	A drug that thins sputum so it comes up more easily is an ___.
+bc8879f2	Expectorant.
+a76d6066	Phlegm from the lungs.
+af221f9d	Pain and other signs
+3241746c	⟦0⟧ → chest pain<br>⟦1⟧ → pain of the pleura or chest wall muscles<br>Pleuritic pain is sharp and worse on deep breathing in.
+bb7eba53	Other signs
+46a59197	sudden closure of the larynx
+fd60c988	-algia and -dynia both mean pain; thoracalgia = thoracodynia.
+24ca7712	In Case Study 12-1, Morgan was admitted with “chest pain on inspiration, dyspnea and diaphoresis”: chest pain on breathing in, breathlessness and heavy sweating.
+4c0ac1a2	fluid in the pleura
+deb2fd55	incision of the pleura
+634d068b	What is a hiccup in medical language?
+e870539b	Pleuritic pain gets worse on deep breathing in.
+bb70526a	The inflamed layers rub against each other.
+1c42ad88	Build a word meaning “chest pain”
+7f21d7c9	closure of the larynx
+8d6e37a8	Signs.
+5a2e35e6	The two suffixes -algia and ___ both mean pain.
+5173ab78	Spell the medical term for hiccups
+d22cc801	A contraction of the diaphragm.
+650bd5b2	Listening to the lungs
+b29dca08	Auscultation and percussion
+39dcb62a	• ⟦0⟧: listening to body sounds with a ⟦1⟧<br>• ⟦2⟧: tapping on the body and listening to the sound; an air-filled lung sounds drum-like and fluid gives a dull sound (⟦3⟧)<br>⟦4⟧ means “clear to auscultation”: the lungs sound clear and normal.
+fdaf176d	Abnormal sounds
+a0790ee4	Abnormal lung sounds
+9cf90fe0	a high whistle from a narrowed airway (asthma)
+76079048	a harsh sound on breathing in from blockage of the larynx or trachea
+ce38f83b	fine crackles from fluid in the alveoli
+9d4f5437	a low snore from mucus in a large airway
+cf20759d	What is the whistling sound in asthma called?
+4aacea65	From a narrowed airway.
+74c4203b	What are the fine crackles on breathing in, heard in pneumonia, called?
+4325bca6	Fluid in the alveoli.
+5a9682c2	Stridor is the sound of upper airway blockage.
+6ae21329	The larynx or trachea; for example in croup.
+78207981	Match each sound to its cause
+5fd73eef	narrowed airway
+c13e5e40	blocked larynx
+6c7f2d6a	mucus in a large bronchus
+6c071baf	Lung sounds.
+03d5f9dc	The abbreviation ___ means the lungs are clear to auscultation.
+f5efc9fd	In textbook Exercise 12-9, “inspiratory rales” were heard; that means…
+a8d14e6c	crackles on breathing in
+55fda360	wheeze on breathing out
+16db2298	harsh laryngeal sound
+9d4c972d	complete silence of the lung
+e1951af4	rales = crackles; inspiratory = on breathing in.
+69da4719	Spell the term for listening to body sounds
+28185cbf	Lung volumes
+dc6a51f4	Four volumes
+97de0ec0	Volume
+5041ddfd	tidal volume: one quiet breath
+cbdf0004	inspiratory reserve volume: extra breath in after a normal breath in
+100ae4d2	expiratory reserve volume: extra breath out after a normal breath out
+6cdd7367	residual volume: air left after the hardest breath out
+54cb21a5	Capacities = sums of volumes
+f953aa62	Capacity
+36c6cd6e	Formula
+0a5e643b	A Volume is single; a Capacity is the sum of several volumes.
+5addca32	In Alison’s case study, spirometry showed a mild fall in vital capacity and a moderate to severe fall in FEV1.
+f66ee1f0	What is the air moved in one quiet breath?
+5227d1c3	Total lung capacity (TLC) equals…
+c137d219	All the air in the lungs.
+43d8b741	Residual volume cannot be breathed out even with the hardest breath out.
+ed9c9884	Volumes and capacities.
+a3bca51d	Vital capacity is the sum of IRV, TV and ___.
+1defea1c	Order the volumes from the top of the spirogram to the bottom
+f45b62b9	Inspiratory reserve, tidal, expiratory reserve, residual.
+2065a2f4	Spell the term for the most air breathed out after the deepest breath in
+a19df61b	FEV1 and FVC
+337fa364	Breathing out with full force
+580d88db	⟦0⟧• ⟦1⟧ (forced vital capacity): all the air you blow out as hard and fast as possible after a deep breath in<br>• ⟦2⟧: the volume that comes out in the <b>first second</b> of that breath out
+8ffe4d48	The volume-time curve
+519c231b	The FEV1/FVC ratio
+8f5034e0	In a healthy person about 75 to 80% of the air comes out in the first second. If the ratio is under 70%, air comes out with difficulty: an <b>obstructive pattern</b> (⟦0⟧), as in asthma and COPD.⟦1⟧⟦2⟧

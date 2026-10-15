@@ -1,0 +1,87 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+4cfa4e33@nafas#1	sudden severe lung failure in adults
+ae0786cf@nafas#1	relating to the air sacs
+3aebc642@nafas#1	oxygen, CO2 and pH in arterial blood
+53c5adae@nafas#1	reversible airway narrowing with wheeze
+77cf26a4@nafas#1	branching airways inside the lungs
+529dbf70@nafas#1	viewing the airways with a lighted tube
+61d707fa@nafas#1	sudden tightening of airway muscle
+e5648aae@nafas#1	main airway branch into a lung
+ad9cb02c@nafas#1	waste gas breathed out
+097c8b9a@nafas#1	chest compressions and rescue breaths
+6d548d5b@nafas#1	plain radiograph of the thorax
+52feb61f@nafas#1	long-term airway inflammation with productive cough
+41577bdb@nafas#1	tiny hairs sweeping mucus upwards
+1670e9a8@nafas#1	steady air pressure keeping the airway open in sleep
+b7859bab@nafas#1	sudden forceful expulsion of air
+a0f5a35a@nafas#1	childhood barking cough with stridor
+bcee839b@nafas#1	inherited disease of thick, sticky mucus
+6551d6a0@nafas#1	drug that shrinks swollen nasal lining
+777cd18d@nafas#1	off-centre nasal dividing wall
+df74cc6d@nafas#2	laboured, difficult breathing
+db9830a1@nafas#1	letting air out of the lungs
+119b588c@nafas#1	drug that helps bring up sputum
+d22ca07e@nafas#1	the outward phase of breathing
+e9b868a9@nafas#1	extra air forced out after a normal breath out
+b5fad41f@nafas#1	air blown out in the first second of a forced breath
+a64559e7@nafas#1	total air blown out hard after a deep breath
+3cd24e67@nafas#1	air space in the forehead bone
+75a31296@nafas#1	air left after a normal breath out
+ce797e5d@nafas#1	one side of the chest
+f194d8da@nafas#1	seasonal viral fever with aches and cough
+86d85857@nafas#1	drawing air into the lungs
+b674e3ab@nafas#1	the inward phase of breathing
+ac7dfec6@nafas#1	most air drawn in after a normal breath out
+106019ac@nafas#1	extra air drawn in after a normal breath in
+11b62b49@nafas#1	muscles between the ribs
+bb0d31aa@nafas#1	machine-pushed breaths to expand the lungs
+a929ae40@nafas#1	lowest part of the throat
+dacc1fb7@nafas#1	sudden closure of the voice box
+304d9c58@nafas#1	paired breathing organs in the chest
+18839e15@nafas#1	machine breathing for the patient
+247ae9a0@nafas#1	relating to the mid-chest space
+3bc1826c@nafas#1	severe coronavirus lung infection first seen in Arabia
+a0c5b4f7@nafas#1	lining that secretes sticky fluid
+9e0edd9c@nafas#1	two-pronged tube giving oxygen via the nostrils
+d75ec7ee@nafas#1	air space inside the nose
+5af5079c@nafas#1	upper throat behind the nose
+8c960401@nafas#1	organ that warms and filters inhaled air
+20e298bd@nafas#1	throat behind the mouth
+da5f1302@nafas#1	device reading blood oxygen saturation
+016541d8@nafas#1	gas essential for cell energy
+213582fc@nafas#1	thick airway mucus
+36214fc7@nafas#1	cough bringing up sputum
+f89e24f4@nafas#1	tiny vessels around the air sacs
+045a5dc8@nafas#1	scarring and stiffening of lung tissue
+4bc37ea0@nafas#1	group of breathing measurements
+1d0cde44@nafas#1	finger-clip measurement of oxygen saturation
+b389d1e8@nafas#1	air left after the hardest breath out
+348681da@nafas#1	breathing and gas exchange
+9b62f748@nafas#1	relating to breathing
+83e9c221@nafas#1	newborn breathing failure from lack of surfactant
+7d3bbd5f@nafas#1	organs that move air and exchange gases
+bad99b64@nafas#2	professional giving breathing treatments
+b5c55438@nafas#1	low snoring sounds from mucus in large airways
+cc001aa6@nafas#1	severe coronavirus pneumonia
+6339f264@nafas#1	feeling of not getting enough air
+8e31dd32@nafas#1	growing germs from coughed-up phlegm
+a70655e4@nafas#1	unexplained death of a baby in sleep
+a077e59b@nafas#1	extra oxygen above room air
+3d003f7f@nafas#1	film stopping air sacs from collapsing
+cb4a4c7a@nafas#1	salt measurement of perspiration for cystic fibrosis
+95cdcc02@nafas#1	swab test for germs in the throat
+05d36aa4@nafas#1	air moved in one quiet breath
+b1850caf@nafas#1	all the air the lungs can hold
+000b1aa0@nafas#1	relating to the windpipe
+86023c7d@nafas#1	inflammation of the windpipe
+1a81e703@nafas#1	opening into the windpipe through the neck
+ab8c2824@nafas#1	Mantoux skin test for TB
+c4ad1793@nafas#1	contagious bacterial lung infection
+77e04b03@nafas#1	cold-type infection of nose and throat
+d1193a94@nafas#1	nose, sinuses, pharynx and larynx
+fa318f25@nafas#1	small fleshy flap hanging from the soft palate
+4d82b5a5@nafas#1	surgery trimming palate and throat for sleep apnoea
+ce4780dc@nafas#1	moving air in and out of the lungs
+0a7f6bd4@nafas#1	scan comparing airflow and blood flow in the lungs
+c1e11e8e@nafas#1	most air breathed out after the deepest breath in
+a60d991f@nafas#1	vibrating folds in the voice box

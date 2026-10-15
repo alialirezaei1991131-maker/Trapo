@@ -1,0 +1,223 @@
+15c0f14d	low FEV1/FVC; asthma, COPD
+c8cb4838	normal ratio but low total volume; lung fibrosis
+3a6974f3	The “Spirometry and oxygen” tool calculates and interprets the FEV1/FVC ratio.
+7a763985	What is FEV1?
+33af3e47	forced expiratory volume in the first second
+6ad7581a	total lung capacity
+eb6e8e1b	the volume of one quiet breath
+76248347	residual air
+21feabbe	What pattern is an FEV1/FVC ratio of 60%?
+22bdad4e	obstructive
+7d10f7d3	restrictive
+f99334c2	cannot tell
+ea7bde79	Under 70%.
+e0f6996b	In asthma, FEV1 falls.
+fdc89792	Air comes out with difficulty.
+29e306a3	first-second volume
+ef47d450	Spirometry.
+4b682bf5	In Alison’s case study, FEV1 after a bronchodilator was 55% of the ___ value.
+172ef189	predicted
+80c76234	If FEV1 = 2.0 litres and FVC = 4.0 litres, what is the ratio?
+23e8769f	2.0 ÷ 4.0 = 0.5; an obstructive pattern.
+59600ae5	Spell the term for the instrument that measures breathing
+6d75c599	Respiratory diseases
+14e849dd	Asthma and COPD, pneumonia and TB, cystic fibrosis, pneumothorax and effusion, dust diseases and lung cancer
+edca0f06	Asthma and COPD
+83babf0a	Lung infections
+a590dbe5	Pleura, newborns, dust and cancer
+90c2b9ad	An asthma attack
+ffe14d95	⟦0⟧⟦1⟧ is a chronic disease in which three things happen in the airway during attacks:<br>1. smooth muscle contraction (⟦2⟧)<br>2. inflammation and swelling of the wall<br>3. excess mucus<br>The result: wheezing (⟦3⟧), cough and breathlessness.
+0682f803	A bronchiole in an asthma attack
+d007b458	Treatment and monitoring
+74ef8394	• ⟦0⟧ (such as a salbutamol inhaler) to open the airway quickly<br>• ⟦1⟧ to prevent inflammation<br>• ⟦2⟧ for daily monitoring at home⟦3⟧⟦4⟧
+cf983451	An inhaler with a spacer
+19929d4d	A textbook lung consult report: a 10-year-old boy with dyspnea, cyanosis around the lips, rhonchi and hypoxemia on ABG; spirometry showed moderate to severe airway obstruction.
+dc5758c8	Which of these does not happen in an asthma attack?
+ce0097dc	bronchial muscle contraction
+ac3d369b	inflammation of the wall
+e79594e1	excess mucus
+9a61676f	Destruction of alveoli belongs to emphysema.
+eb67c81c	What is the hallmark sound of asthma on auscultation?
+7ca8ec22	A whistling wheeze.
+2a4ad2e5	A peak flow meter is used to monitor asthma at home.
+8220c3dc	opening the bronchi quickly
+ce14c52e	preventing inflammation
+5103c20e	measured-dose inhaler
+9b8a59e9	Asthma treatment.
+359e25da	The abbreviation ___ means peak expiratory flow rate.
+4387974a	Order the events of an asthma attack
+1fe008f3	meeting a trigger
+5d940279	bronchospasm and inflammation
+0bb08ca8	narrowed airway and wheeze
+b0a51d67	bronchodilator and the airway opening
+77eadc00	The course of an attack.
+801f2090	Spell the term for the attack-prone airway disease with wheezing
+f2d3daee	The th is silent.
+f28b51ac	⟦0⟧⟦1⟧ is a progressive disease, mostly caused by smoking, that makes it hard to breathe out. It has two main parts:<br>• ⟦2⟧: the alveolar walls are destroyed and the sacs enlarge; air gets trapped in the lung.<br>• ⟦3⟧: long-term inflammation of the bronchi with a productive cough for months each year.
+e9e745f7	Emphysema and chronic bronchitis
+f3e1017e	Complications
+1d323fd6	• ⟦0⟧: permanent widening of the bronchi with mucus build-up and repeated infections<br>• ⟦1⟧: enlargement and failure of the right heart from chronic lung disease<br>• chronic oxygen shortage, clubbing of the fingers⟦2⟧⟦3⟧
+5a3f1765	A smoker’s damaged lung
+b6e35ab4	reversible; comes in attacks; often from childhood
+41efe75d	progressive; permanent; mostly from smoking
+420aa69f	In which disease are the alveolar walls destroyed?
+f4f61582	Large, inefficient air sacs.
+be11837a	COPD means…
+ffd9ce82	acute heart-lung disease
+68a4b9e1	lung cancer
+1e95a0e4	Cor pulmonale means right heart failure caused by lung disease.
+dc4fac4b	cor = heart, pulmonale = of the lungs.
+3c1a1089	destruction of the alveoli
+9f5228a6	chronic productive cough
+6cd7003f	right heart failure
+7dfb228e	COPD and its complications.
+f5ff1d56	The most important cause of COPD is ___.
+257bda9f	food allergy
+4ce2d4ae	Spell the term for overinflated, damaged air sacs
+8834b4c4	Newborns and inherited diseases
+ba1b4142	⟦0⟧ (⟦1⟧) is an inherited disease that makes mucus thick and sticky; the lungs and pancreas become blocked and repeated lung infections follow. It is diagnosed with a ⟦2⟧ (high salt in sweat).
+20300885	Newborns
+5ddebc06	• ⟦0⟧ (⟦1⟧, ⟦2⟧): breathing failure in a premature newborn from lack of surfactant<br>• ⟦3⟧: the sudden, unexplained death of an infant in sleep<br>• ⟦4⟧: severe, sudden lung failure in an adult after injury or serious illness⟦5⟧⟦6⟧
+c2cba756	To lower the risk of SIDS, lay the baby on its back and avoid pillows and soft blankets in the cot.
+0a6975de	In cystic fibrosis the sweat is very salty; in the past a “salty kiss” on a child’s forehead was taken as a sign of the disease.
+89dcf95a	The sweat test is for diagnosing which disease?
+f2acf66f	What causes RDS in a premature newborn?
+d3403a72	lack of surfactant
+265c2fcd	a foreign body
+f6be1985	ARDS is a disease of newborns only.
+20eb3a2e	False; ARDS occurs in adults after injury or severe illness.
+987fd764	sudden infant death
+a63e2b84	acute respiratory distress
+ff339ba2	Another name for newborn RDS is ___ disease.
+34464c96	In Case Study 12-2, with which diagnosis was Ella put on a ventilator?
+06eb7f2b	refractory ARDS
+a5af1b3a	mild asthma
+60a70f06	Refractory ARDS after pneumonia.
+7d837950	Spell the inherited disease that makes mucus thick and sticky
+31c47c85	Lung inflammation and infection
+0a5b9738	⟦0⟧In ⟦1⟧ the alveoli fill with fluid and pus. Signs: fever, productive cough, breathlessness, crackles (⟦2⟧) and an opaque patch on the ⟦3⟧.<br>• ⟦4⟧: a whole lobe<br>• ⟦5⟧: scattered patches around the bronchioles<br>• ⟦6⟧: from inhaling food or vomit
+42e32cec	From the sources
+50427d86	⟦0⟧⟦1⟧ → pneumonia; ⟦2⟧ → inflammation of the lung⟦3⟧
+d75047ba	A textbook chart note transcription: a 43-year-old woman with painful, difficult and rapid breathing, fever, crackles in the lower left chest and purulent sputum; the CXR showed an opaque patch in the left lower lobe. Diagnosis: bacterial pneumonia of the LLL; treatment: IV antibiotics and intubation.
+c2271456	infection and filling of the alveoli
+f777a41f	inflammation of lung tissue (not necessarily infectious)
+3d211498	Which type of pneumonia involves a whole lobe?
+89833625	lob/o = lobe.
+d93dca66	What is pneumonia caused by inhaling food or vomit?
+8dff939b	aspiration = breathing in foreign material.
+a3c35d2a	In pneumonia the alveoli fill with fluid and pus.
+97c4960a	Build a word meaning “pneumonia around the bronchi”
+67f48071	crackles
+180489f5	Pneumonia in the chart.
+7b4f5d63	The abbreviation ___ means chest X-ray.
+51040da8	Spell the term for a lung infection filling the air sacs
+f427387c	An old disease, still with us
+05fcbfce	⟦0⟧ (⟦1⟧) is a contagious bacterial infection that mostly affects the lungs and spreads by coughing. Signs: a long-lasting cough, ⟦2⟧, fever, night sweats and weight loss.⟦3⟧
+42179a3f	Widespread (miliary) TB in a lung section
+06cb6538	• ⟦0⟧ (⟦1⟧, Mantoux): an intradermal injection, with the hardening read after 48 to 72 hours<br>• ⟦2⟧: opaque patches, often in the upper lung<br>• sputum culture (⟦3⟧)⟦4⟧⟦5⟧
+6a264892	X-rays of a healthy lung (left) and TB (right)
+698a0ae0	A patient with suspected TB is kept in a negative-pressure isolation room and staff wear N95 masks.
+ebf2e970	The Mantoux skin test screens for which disease?
+d21761f8	Which sign is common in TB?
+62feef53	night sweats and hemoptysis
+5fc8fdd2	barking cough
+d974320f	night-time wheeze with exercise
+16ce953f	A long-lasting cough, bloody sputum, weight loss.
+8448070e	TB spreads from person to person by coughing.
+76588d7e	Build a word meaning “tuberculosis”
+5609023b	TB skin test
+038372f6	TB.
+b94e53cb	A fungal lung infection is called ___.
+b68cf810	myc/o = fungus.
+69efeb59	Spell the full name of the disease abbreviated TB
+c26e12d1	Influenza, whooping cough and viruses
+3aad17df	Contagious infections
+16701cda	viral; fever, body aches and cough
+580f2a62	whooping cough; coughing fits with a “whoop” on breathing in
+d9a8d75c	a thick membrane in the throat that blocks the airway
+d15e9510	severe viral pneumonia (a coronavirus)
+8bda8b82	Middle East respiratory syndrome (a coronavirus)
+0d2a2028	The ⟦0⟧ vaccine protects children against diphtheria, whooping cough (⟦1⟧) and tetanus. The flu vaccine is repeated every year.⟦2⟧⟦3⟧
+d706cd1e	In infants, whooping cough may show apnoea and cyanosis instead of the “whoop”.
+63b2dae7	pertussis = per (very) + tussis (cough): a very severe cough.
+4d25381a	What is whooping cough called?
+a81bc94a	The DPT vaccine protects against which diseases?
+f9ac657a	diphtheria, whooping cough and tetanus
+8f95f9b8	diphtheria, pneumonia and TB
+6da525c5	influenza and measles
+19e44dcb	TB and hepatitis
+7d6f8da5	SARS and MERS are both caused by coronaviruses.
+7b36aafb	viral fever and body aches
+b2172e74	coughing fits with a whoop
+1287d5b6	thick throat membrane
+078eaee9	Contagious infections.
+99ef90a4	The common short form for influenza is ___.
+8ac81360	The root tuss/i means…
+71a85e4b	antitussive = against cough.
+057c1e68	Spell the medical term for whooping cough
+5672892c	Air, blood, pus and fluid in the pleura
+337e7b7c	air in the pleural space; the lung collapses
+d5c26266	excess fluid in the pleural space
+f87bf08d	⟦0⟧⟦1⟧ → ⟦2⟧: collapse of all or part of a lung; for example after surgery when the patient does not breathe deeply, or from the pressure of a pneumothorax or effusion.⟦3⟧
+fed3e578	After abdominal surgery, encouraging the patient to breathe deeply and cough (and use an incentive spirometer) prevents atelectasis.
+d81f16e3	What is air in the pleural space called?
+be2cd2dd	pneum/o = air.
+168a57c4	⟦0⟧ is another name for which condition?
+06813db2	Pus in the pleural space.
+8cd90af4	Atelectasis means collapse of the lung or its failure to expand fully.
+fed9d7c0	atel/o = incomplete.
+68c60e73	Build a word meaning “pus in the chest”
+3a4a2091	Match each disease to what fills the space
+57400620	The pleural space.
+2a9dca2e	Inflammation of the pleura is called ___.
+d0c0c640	Spell the term for collapse of lung tissue
+3410c1d5	Embolism, oedema and dust diseases
+bef27174	Lung vessels and fluid
+0ef14436	• ⟦0⟧ (⟦1⟧): blockage of a lung artery by a clot, usually from the leg veins; sudden breathlessness and chest pain<br>• ⟦2⟧: fluid in the lung tissue and alveoli, often from heart failure; crackles and orthopnoea<br>• ⟦3⟧: scarring and stiffening of lung tissue
+f78d4b4b	Dust diseases
+297a5955	⟦0⟧ → lung disease from inhaled dust:<br>• ⟦1⟧: coal dust (black lung)<br>• ⟦2⟧: asbestos fibres<br>• ⟦3⟧: silica (stone) dust<br>Asbestos also raises the risk of ⟦4⟧ (cancer of the pleura).⟦5⟧
+6323b8b0	coni/o means dust; picture a cone of dust.
+89cafc40	What is a clot that blocks a lung artery called?
+2590cabf	Which disease is a coal miner most at risk of?
+dd83ac06	anthrac/o = coal.
+74ddd787	Mesothelioma is a cancer of the pleura linked with asbestos.
+dcb09eea	Rare but severe.
+64ebd981	Build a word meaning “dust disease of the lung”
+56343401	Match each disease to its cause
+98b409d3	asbestos
+24e39c95	Causes.
+44758d0d	The abbreviation ___ means pulmonary embolism.
+83647352	Spell the term for black lung from coal dust
+e7618042	Bronchogenic carcinoma
+52179be5	⟦0⟧ is a cancer that starts in the bronchi and is strongly linked with smoking. Signs: a long-lasting cough, ⟦1⟧, weight loss and breathlessness.⟦2⟧ → “arising in a bronchus”⟦3⟧
+57f18b5b	Coloured X-ray: a large lung tumour
+a829c336	Diagnosed with ⟦0⟧ and ⟦1⟧, ⟦2⟧ and biopsy; treated with ⟦3⟧ or ⟦4⟧, radiotherapy and chemotherapy.⟦5⟧⟦6⟧
+1fac458b	Case Study 12-1: Morgan, 68, a smoker for 52 years, had had a lobectomy, radiotherapy and chemotherapy for a giant-cell sarcoma of the left lung and has now returned with pain on breathing in, dyspnea and diaphoresis.
+9ee89e99	cancer of lining tissue (bronchus)
+8cf1f3c9	What is the most important risk factor for lung cancer?
+8ea7c309	repeated colds
+e1eadebc	childhood asthma
+2da48525	vitamin deficiency
+ac80de15	arising in a bronchus
+4a58bc74	Removal of a whole lung is called pneumonectomy.
+fb577ded	lung cancer from a bronchus
+e7b66415	cancer of the pleura
+f78465b4	Lung cancer.
+5b062f16	A cancer that starts in connective tissue is a ___.
+07d6c6ea	Which procedure is used to see a tumour inside a bronchus and take a sample?
+6c743bdc	Bronchoscopic view of the bronchial openings
+08c86a05	Spell the term for a cancer of lining tissue
+da9b3e51	Spirometry, ABG and pulse oximetry, bronchoscopy and thoracentesis, intubation and tracheostomy, oxygen, drugs, lung surgery and chart abbreviations
+cd5fb873	Tests and imaging
+f1cd1a3e	Airway and oxygen
+a5cfdf14	Drugs, surgery and charts
+438fbbe1	⟦0⟧A ⟦1⟧ (pulmonary function test) is a group of breathing tests. The most important is ⟦2⟧: the patient blows as hard as possible into a ⟦3⟧, and ⟦4⟧, ⟦5⟧ and their ratio are measured.⟦6⟧
+d8ee5c01	An exercise spirometry test
+d0a46e14	Peak flow
+83e936c7	A ⟦0⟧ is a small hand-held device that measures the ⟦1⟧ (peak expiratory flow rate); patients with asthma use it at home every day to monitor themselves.⟦2⟧⟦3⟧
+00675892	In the case study of Alison, aged 13, spirometry was done before and after a bronchodilator to obtain respiratory “clearance” for scoliosis surgery.
+c5b4b80a	-meter is the instrument (spirometer) and -metry the method (spirometry).
+6ac483eb	What is measuring the volume and flow of breathed air called?
+1d407781	PFT means…
+18ec0559	pulmonary tuberculosis
+a6b2df93	A spirometer is the instrument and spirometry the method of measurement.

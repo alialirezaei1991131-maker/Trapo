@@ -1,0 +1,224 @@
+66714a20	listening to body sounds
+eaf5cd0a	crackling sound
+450c23b5	“Purulent sputum” means…
+360a97f9	purulent = pus-filled; sputum = coughed-up phlegm.
+f42adf18	What is lung inflammation from a bacterial infection in the left lower lobe called?
+b408ee8a	Spell the term for placing a tube into the trachea
+8d44f417	The miner’s cough
+12a96a5f	Mr Adam Boyle, 41
+33e14b7f	Mr Boyle has worked in a coal mine for twenty years and has also done some building work in old buildings. He comes in with a persistent cough and complains of coughing up blood. He denies a runny nose or nosebleeds. You must write his history with medical terms.
+d45fb43c	Occupation
+43dd1488	What is “coughing up blood”?
+164cbb88	Match each phrase to its term
+d7db34c4	coughing blood
+3eeea367	Long work in a coal mine raises the risk of which disease?
+5b28867c	anthrac/o = coal; black lung.
+400ec348	Working in old buildings may have exposed him to which substance?
+58d7c658	asbestos (asbestosis)
+a84d2168	sea silica
+485222a4	flower pollen
+bfe5569b	chlorine
+020509c0	Asbestos in old insulation.
+40798a5d	Which first test is sensible for coughing up blood?
+b9ca5fec	CXR and sputum culture
+f8563549	A chest X-ray and sputum examination.
+85cc1380	Spell the case’s term for coughing up blood
+9cb4cfbf	Nasal polyps
+af745e68	Two years ago he presented with upper airway obstruction from large polyps in the right nasal cavity. A large polypoid mass filled most of the right nasal cavity. A nasal snare polypectomy was done. Pathology reported the nasal growth as a low-grade papillary carcinoma, and a submaxillary lymph node was metastatic carcinoma. A chest X-ray showed pulmonary densities from unresolved pneumonia. The patient died at home after discharge, and no necropsy was performed.
+278e4537	polypectomy means…
+e0accf3d	inflammation of a polyp
+dc1a3d73	viewing the nose
+66f8b1e9	nasal cavity means…
+df6c1c32	Metastatic carcinoma in a lymph node means…
+5dff0877	cancer has spread to the node from elsewhere
+0cd77808	the node is inflamed
+8f480b2f	the tumour is benign
+0b6d7e81	the node is normal
+f94bf380	metastasis = spread.
+2e0a619c	pulmonary densities means…
+c3ab673c	dense patches in the lung
+344d119b	air in the pleura
+bd0b67b6	large lung volume
+b4c000ef	healthy alveoli
+da6abfd6	died
+7f6dc81b	autopsy
+7c45c5cc	below the upper jaw
+8bb7517e	Spell the term for removing a polyp
+6368e101	Jack’s sore throat and snoring
+fa17946c	Jack Lamborn, a 7-year-old boy
+98a2186e	Jack’s mother says her son has often had a “sore throat”, finds swallowing difficult and painful, and snores heavily at night. The doctor tells them Jack has sinusitis, tonsillitis and pneumonitis.
+2c5c0832	What is a “sore throat”, or inflammation of the pharynx?
+e06b7565	Jack’s diagnoses.
+32598203	Heavy snoring with pauses in breathing during sleep is a sign of what?
+716ff9ae	OSA; large tonsils and adenoids.
+1d672139	If the tonsils keep getting infected, which operation is considered?
+0c998d8d	Which specialist will operate on Jack?
+d875e684	Ear, nose and throat.
+8522c746	Spell the diagnosis of inflamed tonsils
+24fe5c05	Giant-cell sarcoma of the lung
+ae505f26	Morgan, a 68-year-old man
+f5cde322	Morgan has been admitted with chest pain on breathing in, breathlessness and heavy sweating. He smoked one and a half packs a day for 52 years and stopped 3 months ago. Three years ago he had a lobectomy, radiotherapy and chemotherapy for a giant-cell sarcoma of the left lung. On examination there is a thoracotomy scar on the left hemithorax, reduced breath sounds and dullness to percussion at the left base. CT showed recurrence of the sarcoma and abnormal mediastinal nodes.
+75c1d225	The root pulmon in pulmonary means…
+980be708	breath sound
+841088b8	thoracoscopy means…
+aaf3486c	Mediastinoscopy is for viewing which space?
+dae41178	Morgan had no hemoptysis; that is, he was not coughing blood.
+e9af35ac	Spell the term for cutting into the chest
+8b797ccb	Mr Fritzringer’s worry
+94982178	Mr Rick Fritzringer, 55
+389d8533	Mr Fritzringer has a lung tumour and has smoked a pack a day for 40 years. The surgeon wants to do a lobectomy and asks you to explain it to the patient. He is worried he will be left with only one lung and will not get enough oxygen.
+5561f043	lobectomy means…
+b18c517b	removal of one lobe of a lung
+d92b020b	removal of a whole lung
+f247c8b2	Anatomy
+99cc27a8	How many lobes does the right lung have?
+1685e6a3	RUL, RML, RLL.
+52673216	After a lobectomy the patient still has two lungs.
+4b3ba4bc	Only one lobe is removed; pneumonectomy is the whole lung.
+0c0f2eac	In plain words, what is a lobectomy?
+78a94187	removing the part of the lung that holds the tumour
+59f13729	removing both lungs
+a68ae7bf	putting a tube into the trachea
+b548d3ca	drawing fluid from around the lung
+6e301f62	Lung surgery.
+39328025	Spell the term for removal of a whole lung
+0a8e7250	A breath that won’t come
+3f93e7f3	Mrs Melony Henshaw, 83
+4775a19c	Mrs Henshaw comes in with constant breathlessness (“I can’t catch my breath”), weakness and increasing tiredness. She has a history of thoracotomy and lobectomy. The doctor refers her to a lung specialist.
+eef32d8f	Who is a pulmonologist?
+242a097d	general surgeon
+61a125e8	Which tests are sensible to investigate her breathlessness?
+2c245b80	PFT, ABGs and CXR
+44f07d2b	sweat test and PPD
+13c2d3b4	polysomnography only
+eba219f3	Lung function, blood gases and an X-ray.
+680652f5	Thoracotomy means an incision into the chest.
+d5f3baaa	Match each spirometry abbreviation to its meaning
+1214e1c1	Ms Lopane’s respiratory assessment
+dbb13f8c	Ms Michelle Lopane, 35
+46ca693b	Ms Lopane has come to the urgent care centre so short of breath that she cannot say a few words in a row. In her respiratory assessment the nurse writes: a whistling sound on breathing in, crackling throughout the lungs, and fast, shallow breathing.
+4f38e928	What is the harsh, whistling sound on breathing in from upper airway blockage?
+68fa5538	What is the crackling sound in the lungs called?
+37372d67	Pattern
+bba5629a	Breathing patterns.
+2d35b399	With which method are these sounds heard?
+2cc52b84	Auscultation with a stethoscope.
+8cb03b94	Being unable to say a full sentence is a sign of severe breathlessness.
+b9cca533	Spell the term for a harsh sound on breathing in
+d501400f	A harsh sound on breathing in.
+5f632fc0	An 88-year-old woman’s pneumonia
+a5a25440	An 88-year-old woman
+73f59a43	She came to the clinic with breathlessness, dizziness, orthopnoea, fever and cough. Auscultation found crackles over the right bronchus and the CXR showed fluid in the RUL. She was admitted with pneumonia. Vital signs: temperature 102°F, pulse 100 and rapid, respirations 24 and laboured, blood pressure 180/110. She was treated with IV antibiotics and IPPB and discharged on the third day on oral antibiotics.
+907ac6a7	orthopnea means…
+02c07538	breathlessness when lying flat
+fe3de13e	RUL means…
+e5dc5315	right middle lobe
+4bda1a6a	A breathing rate of 24 a minute means…
+dfbf4769	More than 20.
+83bffae2	VS means vital signs: temperature, pulse, respiration and blood pressure.
+ec7e50fd	Spell the diagnosis of an infection filling the air sacs
+8458f4d5	A dry cough and three days of fever
+1828ff18	A 30-year-old woman
+b116d9ba	She complains of a dry cough, breathlessness and three days of fever; she does not smoke and was previously well. Examination: temperature 102°F, blood pressure 104/65, respirations 26, pulse 108. She has fast breathing with mild cyanosis and inspiratory crackles. The WBC is high, the CXR showed diffuse infiltrates at the bases of both lungs and the ABG on room air showed low oxygen. Diagnosis: pneumonia of unknown cause. Plan: ICU, antibiotics and oxygen by mask.
+d644b972	What are the examination findings?
+71ffe865	fast breathing, cyanosis and crackles on breathing in
+987b381d	slow breathing, cyanosis and rhonchi on breathing out
+25f335d5	fast heartbeat and wheeze
+0f6df18d	What is the patient’s chief complaint?
+0d53dfc7	dry cough, breathlessness and fever
+37a5cb58	productive cough and fast breathing
+d8ba77cb	sore throat and hoarse voice
+3674f0c4	c/o means…
+f05e9c91	together with
+cc657415	Blood gas
+87d6e2ae	ABG “on room air” means…
+e93afd6a	while breathing room air, without supplemental oxygen
+b760ab5c	on a ventilator
+e6ad61e2	through a nasal cannula
+bc3e1353	after exercise
+2099d736	unknown etiology = unknown cause.
+304028b8	Worsening asthma
+062b0c81	A 10-year-old boy
+3af87312	Since the age of 7 he has come to the emergency department with breathlessness, cough and wheeze, and the attacks have become more frequent. Now, in the emergency department, he has severe breathlessness, blueness around the lips, prolonged breathing out and a cough with thick phlegm. Auscultation: rhonchi throughout the lungs. The ABG showed hypoxaemia and spirometry moderate to severe airway obstruction on breathing out. He improved with Proventil.
+4b1c2337	What did the ABGs show in this patient?
+1eaa526c	hypercapnia only
+2d81b424	Low blood oxygen.
+fcc47a0a	Obstruction on breathing out means the FEV1/FVC is…
+5ee55f2e	low
+ed38c160	high
+f414fa61	normal
+b3066100	zero
+2912a763	An obstructive pattern.
+699d7e76	What is Proventil used to relieve?
+9a6f3349	skin allergy
+e66782a1	Auscultation means listening to the lungs with a stethoscope.
+c167c449	Spell the term for the airway tightening that Proventil relieves
+c85f92de	Alison’s pre-operative breathing test
+8e0516b9	Alison, a 13-year-old girl
+0c9a35f6	Alison is preparing for scoliosis surgery. She has had mild asthma since the age of 4, with at least one attack a week. She was sent to a lung specialist for respiratory clearance. Spirometry before a bronchodilator showed a mild fall in VC and a moderate to severe fall in FEV1 and FEV1/FVC. After the drug, FEV1 improved slightly and was 55% of the predicted value. The curves were consistent with airflow obstruction.
+fd095d1f	Which device measured Alison’s breathing volumes?
+4cd2b247	What does a bronchodilator do?
+4df152e1	widens the bronchi
+c805f4e8	thins the sputum
+58fe2369	kills infection
+f8be6684	Opening the airway.
+1532c2b4	A low FEV1/FVC in Alison means…
+4f61b604	an obstructive pattern
+ee84e7e0	a restrictive pattern
+7f451c60	a normal lung
+f3a3a3bb	The spirometry report.
+38bf9a6e	The FEV1/FVC ratio is calculated in the “Spirometry and oxygen” tool.
+cb7813bb	Spell the test that measured Alison’s breathing volumes
+f32f44ee	Susan’s asthma and tonsils
+2a6853aa	Susan Jones, a 10-year-old girl
+6ab8385d	Susan has come to the emergency department with an acute asthma attack. She has had tonsillitis three times in the last 5 months, inflaming her upper airway, and came to the emergency department twice last month for asthma attacks. Her doctor is an ENT specialist and surgeon.
+883aa5ab	ENT means…
+b0163729	distress syndrome
+8ffff4e9	upper infection
+3eae3c74	Why does it matter that the doctor is a surgeon?
+2310a26c	a tonsillectomy may be needed
+1e56bd8e	a lobectomy must be done
+d8639802	a permanent tracheostomy must be placed
+8a153329	a pneumonectomy must be done
+1145660e	Repeated tonsil infections.
+d7743dde	Which sound marks an asthma attack?
+abfeb3c1	A wheeze.
+be290e93	sudden and short-lived
+f0a09cb4	Susan’s history.
+998669c5	An MDI and a nebuliser are both for giving inhaled medicine.
+ba128583	Spell Susan’s chronic airway disease
+15c35631	Infiltrate in the left lower lobe
+dc6efb17	Mr Steven Phillips, 35
+cf6dc67e	Mr Phillips’s chart: “The chest X-ray showed a pneumonic infiltrate in the left lower lobe with a small parapneumonic effusion. Follow-up films first showed progression of the infiltrate and then some improvement. Serial ECGs were consistent with ischaemia or a pericardial process. Lab tests were normal. An ABG was ordered. A sputum culture could not be obtained.”
+803c8229	LLL means…
+184fa4e4	both left lobes
+98153996	parapneumonic effusion means…
+dc23b300	fluid in the pleural space next to a pneumonia
+b57306c3	blood in the pleura
+19d14249	tumour of the pleura
+46cdc5a2	para- = beside; effusion = fluid.
+72c6d55f	What is a sputum culture for?
+b6b72eaf	finding the germ causing the infection
+a6522421	measuring blood oxygen
+dc4a1aa9	measuring lung volume
+a311fce0	Phillips’s chart.
+b444d2db	If the effusion grows, which procedure draws the fluid out?
+c40f5a76	Spell the term for fluid collecting in a space such as the pleura
+47ceb60a	Rewriting a note with abbreviations
+10f3413b	A COPD patient
+e18f7659	Note: “The patient was admitted with chronic obstructive pulmonary disease and severe breathlessness. Arterial blood gases on admission were abnormal. The family said the patient had been using a nebuliser, a metered-dose inhaler and a continuous positive airway pressure machine at home, without success. Previous pulmonary function tests were abnormal. No history of tuberculosis. Continue monitoring for breathlessness.” You must rewrite it with abbreviations.
+76117ecf	Match each phrase to its abbreviation
+6e080f29	The COPD note.
+3f52030b	Match each device to its abbreviation
+df43a17d	Devices and diseases.
+bbe31e86	COPD mostly includes which two diseases?
+c6762256	asthma and pneumonia
+ab3d2003	TB and cancer
+60cb81db	cystic fibrosis and RDS
+c168d446	What is used to monitor a patient’s oxygen without a needle?
+41885e78	A finger clip.
+7cf21721	No hx of TB means no history of tuberculosis.
+a546b185	Spell the COPD disease with destroyed air sacs
+b5d00baa	End-stage breathlessness
+adf896fe	Ella, a 76-year-old woman
+84c7bd9a	Ella is in the ICU at the end stage of multi-organ failure. She was admitted for bacterial pneumonia that did not improve with antibiotics. She has had COPD for 20 years. Her ABGs were abnormal and refractory ARDS was diagnosed. She was supported with intubation and mechanical ventilation. After a week of failed attempts to wean her off the ventilator, the lung specialist raised a permanent tracheostomy. The family decided not to continue invasive treatment and DNR status was recorded. After the tube and pulse oximeter were removed, her breathing became shallow and of the Cheyne-Stokes type.

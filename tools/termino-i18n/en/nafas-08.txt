@@ -1,0 +1,69 @@
+5b0c370c	ARDS means…
+2c40c4f7	endotracheal intubation means…
+25c0f011	placing a tube into the trachea through the mouth or nose
+58d38fa6	cutting into the trachea through the front of the neck
+e67ed942	oxygen by cannula
+97152813	wean from the ventilator means…
+640ff7c1	gradually taking the patient off the breathing machine
+68fc13d5	connecting to the machine
+30f5e73e	increasing the oxygen
+1bbb0f95	placing a chest tube
+eb7ef79a	What is Cheyne-Stokes breathing?
+5b646289	cycles of deep, fast breathing with apnoea
+8f0b77e1	only slow breathing
+b97c1509	constant wheeze
+05127317	Near death.
+82453c44	measuring oxygen saturation
+a45a307f	Spell the term for the machine that breathes for a patient
+ecc8fab9	The breathing machine.
+a34915b8	The path of air: nose, pharynx, larynx, trachea, bronchus, bronchiole and finally the alveolus.
+2b5a559a	pneum/o and pneumon/o refer both to air and to the lung; pulmon/o means only the lung.
+6a21b147	-pnea means breathing: eupnea normal, dyspnea difficult, apnea stopped breathing.
+1d64045f	spir/o means breathing; a spirometer is a device that measures the volume of breathed air.
+6d217319	ox/o and -oxia refer to oxygen; capn/o and -capnia to carbon dioxide.
+8442caba	-ptysis means spitting: hemoptysis is coughing up blood.
+c95d0938	-thorax means chest: pneumothorax is air in the pleural space and hemothorax blood in it.
+a58e6ec2	In pneumonia, the p is written but not pronounced.
+0c50114a	Gas exchange happens in the alveoli; the rest of the airway only moves air.
+3d507b0f	rhin/o and nas/o both mean nose; rhinorrhea is a runny nose.
+0499a2e5	Epistaxis is a nosebleed.
+c6bcf19e	The pharynx has three parts: the nasopharynx, oropharynx and laryngopharynx.
+7f1423cb	During swallowing the epiglottis covers the larynx so food does not enter the trachea.
+a3a85774	laryng/o is the larynx; the vocal cords and voice are produced in the larynx.
+c250031d	The adenoids are the pharyngeal tonsil, and the palatine tonsils sit on both sides of the throat.
+d3a813a3	In children, croup gives a barking cough and stridor.
+edc18b0d	The cilia of the trachea move mucus and particles upwards like an escalator.
+4cb7370a	The right lung has three lobes and the left lung two; the heart sits on the left.
+467cd81f	At the carina the trachea divides into two main bronchi; the right bronchus is shorter, wider and more vertical.
+25360317	A swallowed foreign body usually goes into the right main bronchus.
+b350e630	The pleura has two layers: parietal and visceral.
+1feef789	Surfactant keeps the alveolar surface slippery so it does not collapse on breathing out.
+eb6591c2	The mediastinum is the space between the two lungs and holds the heart, trachea and oesophagus.
+2ffa1516	The diaphragm is the main muscle of breathing in and moves down as it contracts.
+bd026319	The normal adult breathing rate is 12 to 20 breaths a minute.
+b9652cea	Tachypnea is fast breathing and bradypnea slow breathing.
+2bf597b4	Orthopnea means the patient breathes comfortably only when sitting or standing.
+555b74de	A wheeze is the whistling sound of a narrowed airway; stridor is the harsh sound on breathing in with upper airway blockage.
+dbc297af	Rales, or crackles, are crackling sounds caused by fluid in the alveoli.
+a793e726	Cyanosis is a blue colour of the skin and lips from lack of oxygen.
+b59c9a64	Cheyne-Stokes means cycles of deep, fast breathing broken by apnoea.
+93c547c7	A normal SpO2 is 95 to 100 per cent.
+a4af33a6	COPD mostly includes emphysema and chronic bronchitis, and smoking is its main cause.
+c7b97e8f	Asthma is reversible airway obstruction: spasm, inflammation and excess mucus.
+5e03ccc2	Pertussis is whooping cough, with bouts of coughing and a “whoop” sound.
+a4c3f23e	Cystic fibrosis (CF) is a genetic disease diagnosed with a sweat test.
+6cabe3a1	Tuberculosis (TB) is screened with the PPD (Mantoux) skin test.
+1b3598a0	Atelectasis means collapse or incomplete expansion of part of a lung.
+1dc9b23a	Pneumoconiosis is lung disease from dust: anthracosis from coal, asbestosis from asbestos and silicosis from silica.
+b7b9eef2	A pleural effusion is fluid in the pleural space and empyema pus in it.
+ab2a231b	OSA means breathing stopping in sleep because the upper airway closes.
+f5ec03b2	An FEV1/FVC under 70% means an obstructive pattern.
+302d12f7	ABGs are arterial blood gases: PaO2, PaCO2 and pH.
+0d493a52	Thoracentesis means drawing pleural fluid with a needle.
+703532f0	Tracheotomy is an incision into the trachea, and tracheostomy making a permanent or temporary opening in it.
+98bde9b1	Lobectomy is removal of one lobe and pneumonectomy removal of a whole lung.
+6791384a	A bronchodilator widens the bronchi; an expectorant thins sputum and brings it up.
+b41e01ae	An antitussive suppresses coughing.
+bdee5424	CPAP keeps the airway open during sleep with continuous positive pressure.
+0921b309	An MDI is a set-dose inhaler; a spacer is also used for children.
+be34cb7e	The Heimlich manoeuvre is for expelling a foreign body from the airway.

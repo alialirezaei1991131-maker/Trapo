@@ -1,0 +1,330 @@
+6ac1788c	Nafas
+79bdc8f3	Nafas • Respiratory Terminology
+474c5c3a	Medical terminology of the respiratory system (nose, pharynx, larynx, trachea, bronchi and lungs)
+009a8dec	🫁 Medical terminology: Nose, Pharynx, Larynx, Trachea and Lungs
+0f08441e	Hi, I’m <b>Nafas</b>, a pair of smiling lungs with an oxygen bubble that always follows me around!
+5d436bf1	Nafas is an educational tool and does not replace examination, clinical judgment or a physician’s orders.
+dea39512	Dozens of bilingual figures and clinical pictures, from the sinuses and bronchial tree to the alveolus, spirogram, pneumothorax and TB X-rays.
+74fc943d	Break every respiratory word into prefix, root and suffix and say what it means
+4607eccb	Point out the nose, sinuses, pharynx and larynx on a figure and know their diseases
+a4eefe7c	Explain the path of air from the trachea to the alveolus, the lobes of the lungs and the pleura
+a05c054d	Write breathing patterns, lung sounds and lung volumes with the right word
+5aded104	Tell asthma, COPD, pneumonia, TB, pneumothorax and other respiratory diseases apart
+fb4b1ad4	Read spirometry, ABGs, bronchoscopy, intubation, drugs and chart abbreviations
+edb867b3	Just 5 minutes a day. A few weeks from now you’ll read a lung report like a familiar story.
+b3e75641	Hi! I’m Nafas, a pair of smiling lungs 🫁 What’s your name?
+05c7aaf1	Which world shall we start with? If you’re new, “Language of Breathing” is the best start; the basic roots and the path of air are taught there!
+1a289076	The word <b dir="ltr">tachypnea</b> means…
+3e0125d5	Breathing patterns
+7f66d077	slow breathing
+7346da2c	⟦0⟧<br><b>tachy-</b> = fast, <b>-pnea</b> = breathing. So it means <b>fast breathing</b>: more than 20 breaths a minute in an adult. Start the meaning from the suffix!
+3cec27b7	Fresh Breath
+f39e50b4	Busy Cilium
+f5ae8148	Nose Guardian
+3cbf530a	Larynx Master
+3e158641	Bronchi Guide
+a09c747a	Alveolus Dweller
+fcf58236	Lung Sound Listener
+e1c51c95	Spirometry Master
+3bef896b	Asthma Detective
+7675947c	TB Hunter
+5b34db54	ABG Reader
+c5c8d38c	Pulmonology Legend
+b4bd546c	Anaesthesia technology student
+d4583922	Anaesthesia technologist
+bad99b64	respiratory therapist
+20dd72d6	Emergency nurse
+0bc44d5a	First Breath
+5f1b4f63	Airway Guardian
+9c6af58c	Bronchial Tree Guide
+c5f9c1e6	Lung Listener
+5a87ef38	Disease Hunter
+147e56db	Search: pneum, lung, asthma…
+8cdd31ad	Search: bronch, trachea, -pnea…
+4cf9c413	Search: COPD, oxygen, ABG…
+af7de6c4	⚕️ Nafas is a learning tool; the dictionary and the spirometry, breathing and oxygen interpretations do not replace examination and clinical judgment.
+1626bc8b	<b>—</b><small>Enter FEV1 and FVC in litres, e.g. 2.1 and 3.5</small>
+c2086e55	<b>?</b><small>FEV1 cannot be larger than FVC; check the numbers.</small>
+ddb3e7bc	Obstructive pattern: air comes out with difficulty, as in asthma and COPD. Check the response to a bronchodilator.
+4fc4cbf3	Normal ratio but low FVC: a possible restrictive pattern, as in lung fibrosis. Fuller testing is needed.
+285238d0	The FEV1/FVC ratio is within the normal range.
+7be702a5	<b>⟦0⟧%</b> <span><bdi dir="ltr">FEV1/FVC</bdi> ratio</span><small>⟦1⟧</small>
+3897443c	<small>Count the breaths in one minute and enter the number.</small>
+5c81e9c1	Breathing has stopped; emergency!
+c0105325	Slow breathing (under 12 a minute)
+0c75e4b3	Normal adult breathing (12 to 20)
+1698352d	Fast breathing (over 20 a minute)
+3ff5e2d3	<small>Enter the pulse oximeter reading (SpO2), between 0 and 100.</small>
+d77eadf0	Adequate oxygenation
+ba9de5c1	Mild hypoxaemia
+d2839344	Monitor more closely; supplemental oxygen may be needed.
+57de7f4b	Severe hypoxaemia
+c202e805	Inadequate oxygenation; urgent assessment and oxygen therapy.
+655f65ef	Spirometry and oxygen
+1287e4aa	<div class="tpane"><p class="muted">Enter the spirometry report numbers; you’ll see the FEV1/FVC ratio and its pattern.</p>⏎    <div class="spi">⟦0⟧⟦1⟧⟦2⟧</div>⏎    <div class="rom__out spi__o" aria-live="polite">⟦3⟧</div>⏎    ⟦4⟧⏎    <h4 class="rom__h">Breathing rate and oxygen saturation</h4>⏎    <div class="spi">⟦5⟧⟦6⟧</div>⏎    <div class="rom__out spi__r" aria-live="polite">⟦7⟧</div>⏎    <div class="rom__out spi__s" aria-live="polite">⟦8⟧</div>⏎    <table class="mini"><tr><th>Finding</th><th>Interpretation</th></tr>⏎      <tr><td><bdi dir="ltr">FEV1/FVC &lt; 70%</bdi></td><td>obstructive pattern (asthma, COPD)</td></tr>⏎      <tr><td>normal ratio + low <bdi dir="ltr">FVC</bdi></td><td>possible restrictive pattern</td></tr>⏎      <tr><td>12 to 20 a minute</td><td><bdi dir="ltr">eupnea</bdi></td></tr>⏎      <tr><td><bdi dir="ltr">SpO2 ≥ 95%</bdi></td><td>normal</td></tr></table>⏎    <p class="muted">The thresholds are approximate and for learning; the final interpretation rests with the physician and full testing.</p></div>
+d0c40e5b	FVC % predicted (optional)
+5639bc37	Lung volumes and capacities
+f6e52796	breaths per minute
+4cfa4e33	acute respiratory distress syndrome
+7e865312	removal of the adenoids
+e98ba3fc	inflammation of the adenoids
+d199ed35	pharyngeal tonsil behind the nose
+ae0786cf	alveolar
+dfe04904	tiny air sac of the lung
+83916e6f	complete absence of oxygen
+32becf83	black lung from coal dust
+389bc4d4	drug that suppresses cough
+053f19b3	rounded top of the lung
+9a8d2c16	loss of voice
+c208bc83	cessation of breathing
+3aebc642	arterial blood gases
+bddf8c68	lung disease from inhaled mineral fibres
+9abd7ace	suffocation
+e14f6b2f	lung infection from inhaled food or fluid
+53c5adae	asthma
+3b87fc2e	collapse of lung tissue
+41303156	lower part of the lung resting on the diaphragm
+20ecf5d9	relating to the bronchi
+77cf26a4	bronchial tree
+e2a32b93	permanent widening of the bronchi
+0657b2c1	smallest airway branch
+56f9df17	inflammation of the bronchioles
+f179726b	inflammation of the bronchi
+85463ed4	lung cancer arising in the bronchi
+e3a6c94b	patchy pneumonia around the bronchioles
+c95c5a1f	flexible tube for viewing the airways
+529dbf70	bronchoscopy
+61d707fa	bronchospasm
+ad9cb02c	carbon dioxide
+73341fe9	ridge where the trachea forks
+83cc15f2	cyclic deep then absent breathing
+52feb61f	chronic bronchitis
+41577bdb	cilia
+1670e9a8	continuous positive airway pressure
+a72fb244	right-heart failure from lung disease
+dda0ebcc	common cold
+a0f5a35a	croup
+bcee839b	cystic fibrosis
+6551d6a0	decongestant
+777cd18d	deviated septum
+4989a863	throat infection forming a thick membrane
+53a8108e	voice disorder
+99a370b8	overinflated, damaged air sacs
+d1a13e31	tube placed through the mouth into the trachea
+c6cf2c7e	flap covering the larynx when swallowing
+2194b0fe	inflammation of the throat flap over the larynx
+21f9acd9	air cells between the eyes
+48dfcf6c	normal breathing
+db9830a1	exhalation
+119b588c	expectorant
+e052d63b	coughing up sputum
+d22ca07e	breathing out
+e9b868a9	expiratory reserve volume
+582900d8	gas exchange in the lungs
+b5fad41f	forced expiratory volume in one second
+a64559e7	forced vital capacity
+3cd24e67	frontal sinus
+75a31296	functional residual capacity
+d6296fdf	vocal cords and the opening between them
+b1fc3972	Heimlich manoeuvre
+ce797e5d	hemithorax
+4a0fcdc9	coughing up blood
+4620bd24	blood in the pleural space
+bfd541e3	root of the lung where vessels enter
+673a80a9	excess carbon dioxide in the blood
+4f6f733f	deep breathing
+813a0509	overbreathing
+41586f6f	shallow breathing
+b39c07c9	inadequate breathing
+647647bd	low blood oxygen
+c9f65ed9	low tissue oxygen
+f194d8da	influenza
+86d85857	inhalation
+e266138a	steroid breathed into the airways
+b674e3ab	breathing in
+ac7dfec6	inspiratory capacity
+106019ac	inspiratory reserve volume
+11b62b49	intercostal muscles
+bb0d31aa	intermittent positive pressure breathing
+ff356db0	gas exchange in the tissues
+2c80d828	within the pleural cavity
+144b371f	removal of the larynx
+18af2dcf	inflammation of the voice box
+a929ae40	laryngopharynx
+1f8dccfb	viewing the voice box with a scope
+dacc1fb7	laryngospasm
+a527dc9d	pneumonia of a whole lobe
+5762da24	section of a lung
+7bbdeb80	removal of a lung section
+4be0094d	airways below the larynx
+f3f954b6	pus-filled cavity in the lung
+aa00128c	largest sinus, in the cheekbone
+18839e15	mechanical ventilation
+247ae9a0	mediastinal
+49cc5489	scope examination of the mid-chest space
+1551f253	cancer of the pleura, often from asbestos
+49316338	hand-held aerosol inhaler
+3bc1826c	Middle East respiratory syndrome
+85ccf777	drug that breaks down mucus
+f5b6fcc3	sticky secretion trapping dust and germs
+9e0edd9c	nasal cannula
+d75ec7ee	nasal cavity
+776b3380	soft growths in the nasal lining
+f0a05a91	wall dividing the nose
+5af5079c	nasopharynx
+f038ef69	device turning liquid medicine into a mist
+0f4a6f42	dry cough
+72dd30fb	obstructive sleep apnoea
+20e298bd	oropharynx
+b68c2350	breathlessness when lying flat
+d1583b6c	ear, nose and throat specialist
+da5f1302	oximeter
+a5eba504	giving extra oxygen
+e970db48	pleura lining the chest wall
+815d2d7d	device measuring maximum breath-out speed
+3e1cf6af	whooping cough
+2dcc30cf	inflammation of the throat
+213582fc	phlegm
+3f8084c2	relating to the diaphragm
+7be2c3be	nerve controlling the diaphragm
+94a09189	membrane around the lungs
+b8268cca	relating to the pleura
+ed7e4f7c	pleural space
+6025bd80	fluid in the pleural space
+579079d5	grating sound of inflamed pleura
+def04b17	removal of the pleura
+81208c71	inflammation of the pleura
+bfbbcbee	pleural pain
+e008b5d0	lung disease from inhaled dust
+1b081aa8	removal of a whole lung
+27472b5b	lung infection filling the air sacs
+a909c1f4	inflammation of lung tissue
+a3275c6b	fungal lung infection
+9f668aef	air in the pleural space
+6a271aee	removal of a polyp
+ef01911b	sleep study
+973ec0a4	positioning to drain mucus by gravity
+36214fc7	productive cough
+f89e24f4	pulmonary capillaries
+decfd7d4	fluid in the lungs
+045a5dc8	pulmonary fibrosis
+4bc37ea0	pulmonary function test
+945d5f38	study of the lungs
+1d0cde44	pulse oximetry
+d56c87ba	pus in the pleural space
+a9a78de6	crackles
+b389d1e8	residual volume
+83e9c221	respiratory distress syndrome of the newborn
+7be92caf	airways from nose to alveoli
+40a2ea93	inflammation of the nose
+dcf3012b	plastic surgery of the nose
+b5c55438	rhonchi
+a9a88084	surgical repair of the nasal septum
+cc001aa6	severe acute respiratory syndrome
+6339f264	shortness of breath
+8d59fe8b	lung disease from stone dust
+3872dc99	hiccup
+a6075166	inflammation of a sinus
+17c0b83d	deepest sinus, behind the nose
+78bb2fed	breathing-measurement instrument
+c8b00e35	measuring breathing
+8e31dd32	sputum culture
+7feab0cd	harsh high-pitched sound on breathing in
+a70655e4	sudden infant death syndrome
+a077e59b	supplemental oxygen
+3d003f7f	surfactant
+cb4a4c7a	sweat test
+d9204153	drawing fluid from the pleural space
+130068eb	scope examination of the chest cavity
+ddf52d9a	inserting a chest tube
+3bdb1052	cutting into the chest
+95cdcc02	throat culture
+be72ffbd	Adam’s apple cartilage
+05d36aa4	tidal volume
+b1850caf	total lung capacity
+000b1aa0	tracheal
+86023c7d	tracheitis
+bf4bb55c	softening of the windpipe
+1a81e703	tracheostomy
+92737cf3	cutting into the windpipe
+ab8c2824	tuberculin skin test
+77e04b03	upper respiratory infection
+d1193a94	upper respiratory tract
+fa318f25	uvula
+4d82b5a5	uvulopalatopharyngoplasty (UPP)
+ce4780dc	ventilation
+0a7f6bd4	ventilation-perfusion scan
+23644cb1	breathing machine
+62b21e97	pleura covering the lung
+c1e11e8e	vital capacity
+a60d991f	vocal cords
+e8fde503	whistling sound from narrowed airways
+7dedd369	removal, lack of
+dee4f754	difficult, painful
+9f0ec92b	below normal
+675f8b1d	to breathe
+9eb4d469	sinus
+1141f5b0	septum (wall)
+998028e6	palate
+c24d9999	epiglottis
+2c5a0919	bronchiole
+81b145a9	air sac
+60269a4c	lobe
+acd37567	straight, upright
+05a98b4f	incomplete
+2bf0c13b	dust
+ee7780df	coal
+88ee3f5c	silica
+62e08997	small swelling (tubercle)
+d79cf683	clot, plug
+828b8f82	produced by
+64f6bff7	oxygen (condition of)
+f3daa00e	carbon dioxide (condition of)
+190a09af	to spit out
+51afd2a3	instrument to view
+676d0dad	breaking down
+91301809	clear to auscultation
+a84dbb13	diphtheria, pertussis, tetanus vaccine
+814f579c	endotracheal tube
+66d8c562	hyaline membrane disease (newborn RDS)
+12f2e02c	left lower lobe
+89f276b7	left upper lobe
+46f11a99	metered-dose inhaler
+2757ce36	nebulised medicine treatment
+d6cfca29	by way of
+832780cd	peak expiratory flow rate
+be274aeb	respirations (per minute)
+1d94b401	room air (no supplemental oxygen)
+c495c65e	respiratory distress syndrome
+e396290e	right lower lobe
+9d1c3a91	right middle lobe
+991e7a23	registered respiratory therapist
+c242f009	right upper lobe
+ad40fe2e	submucous resection of the septum
+50b3544d	temperature, pulse and respirations
+747eabf0	uvulopalatopharyngoplasty
+be8ef68b	Structures of the respiratory system
+01963795	Physiology, volumes and gases
+cf9a3e12	Signs and sounds
+63a57ffe	Diagnosis and tests
+c39e7bbd	The respiratory system: the path of air from the nose to the alveoli
+d431a6ae	air sacs
+b6684f83	gas exchange: oxygen into the blood, carbon dioxide into the air
+65ea23bf	pulmonary capillary
+f5ae085f	oxygen-poor blood (blue)
+ae84d617	oxygen-rich blood (red)
+8e86b84b	external respiration = gas exchange in the lungs
+15daf0a7	Gas exchange
+8a3a2c1c	prefix: within
+9bd7848e	root: trachea
+10253ac8	within the trachea
+1985c9d2	The root map: one organ, one root
+9c780b83	lung (also pulmon/o)
+0cfb2391	The root map
+b9fbbe23	larynx (voice box)
+4f04c562	pharynx (throat)
+8675bfab	Air passes through the pharynx first and then reaches the larynx
+a9a9a6e6	The paranasal sinuses (front view)
+29ed21b1	sphenoid (further back)
+5a423534	ethmoid
+7466774e	maxillary (largest)
