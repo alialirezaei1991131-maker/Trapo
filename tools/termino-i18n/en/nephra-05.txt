@@ -1,0 +1,216 @@
+e35889ca	Abnormal passage between the bladder and vagina
+3f66a434	In Latin, fistula means “pipe”; an extra tunnel between two organs.
+828bf6bd	The bladder bulging into the vaginal wall is…
+4d705c59	The surgical treatment for a cystocele is…
+95614f55	Fixation of the bladder.
+921ebb06	A vesicocele is the same as a cystocele.
+743aad45	vesic/o and cyst/o both mean bladder.
+2102c06b	Build a word meaning “hernia of the bladder” (with the Latin root)
+69080920	passage from bladder to vagina
+124a97f5	Prolapse and fistula.
+90dc778f	Abnormal discharge from the urethra is ___.
+a551c7e1	Spell the term for the bladder bulging into the vaginal wall
+9b83a8c0	Urine and Signs
+1aba2c7b	Urine composition and colour, urinalysis, specific gravity, urine volume, -uria signs, urea and creatinine, sodium and potassium
+6d2fbfa4	Urine and its testing
+b6608fa6	Urine volume and voiding
+0a002d8c	Abnormal urine and blood
+40bd4be7	Normal urine
+be52c255	⟦0⟧⟦1⟧ is about 95% water, and the rest is urea, creatinine, uric acid, salts and pigment. Urine is sterile in the kidney and bladder. The normal daily volume is about 1000 to 2000 mL.
+eaf3b107	⟦0⟧Normal urine is straw to golden yellow and clear. Dark yellow urine is concentrated and may be a sign of dehydration; brown or black is a sign of serious disease.⟦1⟧
+e80270df	ur/o and urin/o both mean urine; -uria comes from the same root.
+e6b523f3	The largest component of urine is…
+3fcb8e8d	About 95%.
+9cbec905	Dark yellow, concentrated urine is mostly a sign of what?
+748ab588	definite infection
+3aa2f267	Healthy urine inside the bladder is sterile.
+a03d7314	It may become contaminated as it passes through the urethra.
+68f5333b	Build a word meaning “abnormal urine colour”
+5c7ceb3e	Match each component to its status
+19720403	about 95%
+86a4fea1	main waste product
+7a909cc2	should be absent
+ae4a9d6e	Urine composition.
+6e1cc127	The adjective meaning “relating to urine” is ___.
+708c778a	Spell the term for the fluid made by the kidneys
+e811108a	Three parts of the test
+b54c7f75	⟦0⟧A ⟦1⟧ has three parts:<br>1. <b>Physical</b>: colour, cloudiness (⟦2⟧) and specific gravity<br>2. <b>Chemical</b>: pH, sugar, ketones, blood and protein with a dipstick<br>3. <b>Microscopic</b>: cells, crystals and ⟦3⟧
+66bd26c8	On the urinalysis sheet of Mr James Delgado, aged 55, the urine was “hazy”, blood 2+, leukocytes 2+, white cells 20 to 50 per field and bacteria 2+; that is, a urinary infection.
+a28325cc	A cast is a mould; cells or protein take the shape of the kidney tubule and are seen in the urine.
+ca1e4826	The abbreviation UA means…
+7056e54f	What are the moulds of kidney tubules found in urine called?
+1e86c4fb	Cloudy urine may be a sign of bacteria or pus.
+00645591	Put the three parts of urinalysis in order
+6182f30c	Physical, chemical, microscopic.
+ac6faf48	Match each finding to its part of the test
+699267d1	physical
+c982427a	chemical
+a6451999	microscopic
+4e0357fc	cloudiness
+e37852c4	Urinalysis.
+ef7d1426	Urine testing is ___.
+d20794f8	Spell the term for laboratory examination of urine
+bacd8e37	Clean sample and specific gravity
+4dd6187f	Sample and culture
+b72a1a5d	⟦0⟧A ⟦1⟧ is a midstream urine sample taken after cleaning the urethral opening. ⟦2⟧ grows the microbe, identifies it and determines the effective antibiotic.
+d4104d60	clean sample
+5ff10869	⟦0⟧⟦1⟧ is the heaviness of urine compared with water (1.000) and is measured with a ⟦2⟧. Normal is about ⟦3⟧; concentrated urine has a higher SG.⟦4⟧
+7bd7e940	The abbreviation CC in capitals means clean-catch; lowercase cc means the patient’s chief complaint.
+1f06752c	A midstream urine sample after cleansing is a…
+715a3bc0	The instrument for measuring urine specific gravity is a…
+31dcdc93	Concentrated urine has a lower specific gravity.
+99d86255	More concentrated means a higher SG.
+656b7dca	Build a word meaning “instrument for measuring urine”
+a23f5307	The specific gravity of pure water is ___.
+c28c35e3	Urine is slightly heavier.
+c1008cf0	Spell the term for the instrument measuring urine specific gravity
+8c4084ac	Little, a lot, none
+1035a67e	⟦0⟧• ⟦1⟧: absence of urine (less than 100 mL a day)<br>• ⟦2⟧: scanty urine<br>• ⟦3⟧: excessive urine, as in diabetes<br>• ⟦4⟧: increased formation and passing of urine
+0ad16c80	Urine-increasing drugs
+de7e60dc	⟦0⟧ is a substance or drug that causes diuresis; caffeine also increases urine. ⟦1⟧ means not passing urine although urine is being made.⟦2⟧⟦3⟧
+3b049d69	In the “Kidney calculator” tool, an output below 0.5 mL per kilogram per hour counts as scanty urine.
+05c1f496	olig/o means few and poly- means many; an- means none.
+1b15fb89	Complete absence of urine production is…
+cf258aef	Excessive urine in diabetes is…
+e18075d2	Diuretics increase urine volume.
+1e2dafa7	Build a word meaning “scanty urine”
+9fe0d56b	increased urine output
+7b2f179e	Urine volume.
+debd428d	A drug that increases urine is a ___.
+7616f05a	Spell the term for scanty urine output
+1d7cc3ea	Night, pain and thirst
+06b93609	Three signs
+f4420e0c	• ⟦0⟧: a lot of, or frequent, urination at night (⟦1⟧ = night)<br>• ⟦2⟧: painful or difficult urination, as in cystitis<br>• ⟦3⟧: excessive thirst (⟦4⟧ = thirst), often with polyuria
+086d03b5	In the textbook’s applied scenario, Ms Jana Smith, who is training for a marathon and has eaten and drunk little, complains of painful urination, scanty urine and thirst; that is, dysuria, oliguria and polydipsia. Her test also showed a trace of ketones.
+d3021456	nocturnal means at night; nocturia is night-time urination.
+abe04d03	Frequent urination at night is…
+536b4107	excessive thirst
+4dbc6e62	excessive hunger
+d619f0f7	excessive tiredness
+9683d952	dysuria means painful or difficult urination.
+56708880	Build a word meaning “excessive thirst”
+14f5dc35	Match each of Jana Smith’s signs to its term
+713074db	Painful urination is ___.
+59d74fa6	Spell the term for frequent urination at night
+a5ea8e58	Blood and pus in the urine
+4d87c674	Red or cloudy urine
+c19c541a	• ⟦0⟧: blood in the urine (⟦1⟧ = blood)<br>• ⟦2⟧: pus in the urine (⟦3⟧ = pus)<br>• ⟦4⟧: bacteria in the urine<br>• ⟦5⟧: abnormal urine colour
+e49dd2d3	In a case exercise in one of the appendix chapters, Ms Heather, aged 40, came with frequency, painful urination and blood in her urine; her urine was cloudy, foul-smelling and contained bacteria: hematuria and bacteriuria.
+0c2cd46c	py/o = pus
+81fdc637	pyel/o = renal pelvis
+c5cce2d9	hem means blood; hematuria means bloody urine. pyuria is pus in the urine, not the renal pelvis!
+837e0814	Blood in the urine is…
+fce1ddca	inflammation of the renal pelvis
+fcca80cd	py/o = pus.
+ee19499b	py/o and pyel/o mean the same thing.
+0a3f0b2b	py/o is pus and pyel/o the renal pelvis.
+4424a579	Build a word meaning “bacteria in the urine”
+634bb46d	Abnormal urine.
+4507db82	Cloudy urine with many white cells means ___.
+4afd682c	Pus in the urine.
+27d62dbd	Spell the term for blood in the urine
+8aa1cb0b	Sugar, ketones and protein
+40727203	What should not be in urine
+19415157	• ⟦0⟧: sugar in the urine; as in uncontrolled diabetes<br>• ⟦1⟧: ketones in the urine; when the body burns fat instead of sugar (diabetes, starvation)<br>• ⟦2⟧: protein in the urine; glomerular damage<br>• ⟦3⟧: albumin in the urine; a sign of kidney disease
+cfd23048	In the textbook’s applied scenario, Brad Leighton is an 11-year-old boy with juvenile diabetes, and the doctor has ordered a urinalysis for acetone, ketones, sugar, specific gravity and pH.
+75c9f7ed	glyc/o and glycos/o mean sugar, as in glucose.
+0d121fb8	Sugar in the urine is…
+572f3d9a	In which condition are ketones in the urine mostly seen?
+87a31af2	uncontrolled diabetes or starvation
+24e694ae	cystitis
+6ba9107e	Fat burning.
+9a49d736	proteinuria can be a sign of glomerular damage.
+2bacbe61	A healthy glomerulus does not let protein through.
+da64ec87	Build a word meaning “protein in the urine”
+b3cbc160	Albumin in the urine is ___.
+f09d526d	Spell the term for sugar in the urine
+51a4bd93	Wastes in the blood
+408cf950	Azotemia and uremia
+4dff33d3	⟦0⟧• ⟦1⟧: excess nitrogenous wastes, especially urea, in the blood (⟦2⟧)<br>• ⟦3⟧: the toxic state caused by build-up of urea and wastes in kidney failure<br>• ⟦4⟧: increased nitrogenous wastes in the urine
+334018eb	Blood tests
+0e62c7fc	comparing 24-hour urine creatinine with blood creatinine
+7b034694	estimating glomerular filtration from creatinine
+071dae12	urine albumin-to-creatinine ratio
+c057b15d	azote is the French name for nitrogen; azot/o means nitrogenous wastes.
+fa79948c	The toxic build-up of urea in the blood in kidney failure is…
+5b19254a	The abbreviation BUN means…
+41b075c3	Blood urea nitrogen.
+b9be0138	azotemia means a lot of nitrogenous waste in the urine.
+b0dbe3a1	azotemia is in the blood; in the urine it is azoturia.
+9a7d7128	Build a word meaning “nitrogenous wastes in the blood”
+a0ada91a	urea in the blood
+f0e03905	estimate of glomerular function
+d6ac91aa	urine albumin in diabetes
+c2bd4d24	urine and blood creatinine
+66494698	The tests.
+e05611ff	The abbreviation eGFR means ___ glomerular filtration rate.
+36f158c8	Estimated.
+927b9175	Spell the term for toxic waste build-up in the blood in kidney failure
+219b9b49	Electrolytes and fluids
+baae7093	Sodium and potassium
+add11bcb	⟦0⟧The root ⟦1⟧ comes from ⟦2⟧ (sodium) and the root ⟦3⟧ from ⟦4⟧ (potassium):<br>• ⟦5⟧ and ⟦6⟧: high and low blood sodium<br>• ⟦7⟧ and ⟦8⟧: high and low potassium; both cause heart arrhythmias
+ceccfe63	Water and protein
+beced654	• ⟦0⟧: fluid build-up in the tissues; in kidney failure and nephrotic syndrome<br>• ⟦1⟧: loss of body water<br>• ⟦2⟧: body fluids becoming acidic<br>• ⟦3⟧: low blood protein⟦4⟧⟦5⟧
+3ad40064	Diuretics also remove potassium; that is why a potassium (K) supplement is sometimes prescribed.
+66526618	Na and K are chemical symbols, from the Latin names natrium and kalium.
+ebfc4166	High blood potassium is…
+97c4f2b2	Fluid build-up in the tissues is…
+fac55549	The chemical symbol for sodium is Na, from the Latin name natrium.
+70cd0718	Build a word meaning “low blood sodium”
+e9dff07a	Electrolytes.
+227419ba	Body fluids becoming acidic is ___.
+6a21ba58	-osis = condition.
+75fe5ba4	Spell the term for high blood potassium
+3acc930f	Urinary Diseases
+d2b970cb	Urinary infection and pyelonephritis, glomerulonephritis and nephrotic syndrome, stones and hydronephrosis, kidney failure, polycystic kidney and tumours
+0768adcf	Infection and inflammation
+88a078b5	Stones and failure
+44729df4	Cysts, anomalies and tumours
+831eeefb	⟦0⟧A ⟦1⟧ usually starts in the urethra with gut bacteria such as E. coli and reaches the bladder (⟦2⟧) and sometimes the kidney. It is more common in women because the urethra is shorter.
+15ffe4d9	Ascending infection
+a71cfa22	Signs of cystitis: ⟦0⟧, ⟦1⟧ and ⟦2⟧, sometimes ⟦3⟧. A urinary catheter in hospital raises the risk of infection.⟦4⟧⟦5⟧
+afe61e97	The mucous membrane is continuous from the urethral opening to the kidney; that is why a simple bladder infection must never be ignored.
+b534983a	Inflammation of the bladder is cystitis and inflammation of the urethra is urethritis; both are built with the suffix -itis.
+481d989e	The commonest microbe in urinary infection is…
+59b6e367	A gut bacterium.
+4abcfb34	Inflammation of the bladder is…
+7004b7cb	Urinary infection is more common in women.
+78086a24	A shorter urethra, close to the anus.
+a883b052	Put the route of an ascending infection in order
+c5b61e67	Urethra, bladder, ureter, kidney.
+97613a0c	Match each inflammation to its site
+081a92ec	renal pelvis and kidney
+01292881	The inflammations.
+fbadae2b	The abbreviation UTI means ___ tract infection.
+ba6dd428	Urinary tract infection.
+6515e348	Spell the term for inflammation of the urethra
+185f9246	Pyelonephritis
+8e220ea4	Kidney infection
+44ba0697	⟦0⟧ is inflammation of the renal pelvis and kidney, usually climbing up from an untreated cystitis.⟦1⟧
+f5331561	bladder; superficial
+bd8a008e	burning, frequency, urgency
+0173e410	fever, chills, flank pain
+15763eb8	pyuria, bacteriuria
+841ce776	plus a raised white blood cell count
+837bfc68	A case study in Fremgen’s textbook: a 32-year-old woman came with fever, chills, urgency, frequency, painful urination and blood in her urine. Her urine was cloudy and foul-smelling. Urinalysis showed pyuria and bacteriuria, and the diagnosis was acute pyelonephritis arising from cystitis.
+fc3b1ec5	pyelonephritis has three pieces: pyel/o renal pelvis, nephr/o kidney and -itis inflammation; three pieces, one disease.
+a1bfb7d9	Inflammation of the renal pelvis and kidney is…
+4424db22	Which sign points more to pyelonephritis than to cystitis?
+cdcff34f	fever and flank pain
+0f45eb04	burning on urination
+f810d67d	Kidney involvement.
+bde46212	Pyelonephritis often arises from a bladder infection that has climbed up.
+63d45161	An ascending infection.
+8ba03fcc	Build a word meaning “inflammation of the renal pelvis and kidney”
+fa1d8a08	The findings.
+418c1730	Infection of the renal pelvis alone is ___.
+792d813e	Spell the term for infection of the renal pelvis and kidney
+c2a93b33	Glomerulonephritis and nephrosis
+f519f5bd	The inflamed filter
+b7f9a752	⟦0⟧⟦1⟧ is inflammation of the kidney, especially the glomeruli, often after a streptococcal throat or skin infection, or with lupus. Signs: high blood pressure, oedema, ⟦2⟧, ⟦3⟧ and ⟦4⟧.
+37abd85a	⟦0⟧ or ⟦1⟧: the glomerulus becomes too permeable and a lot of protein is lost in the urine; the result is ⟦2⟧, oedema and high blood lipids. ⟦3⟧ is inflammation of the tissue between the tubules.⟦4⟧
+50466c16	In glomerulonephritis the roots go from small to large: first glomerul/o (glomerulus), then nephr/o (kidney) and finally -itis.
+2c8258a6	Inflammation of the glomeruli and kidney is…
+4587a3f5	The main feature of nephrotic syndrome is…
+c4c1142b	a lot of protein in the urine
+216bfbbb	Glomerulonephritis often follows a streptococcal infection.

@@ -1,0 +1,249 @@
+c8d6abf1	Organs of the urinary system
+702ab1fb	The organs and their jobs
+a5802cbf	ureter has two e’s and there are two; urethra has one e and there is one.
+b87509d5	Which organ makes urine?
+0d753603	The kidney filters the blood and makes urine.
+95aab3a7	The tube that carries urine from the bladder to the outside is the…
+e33f4889	There is one urethra, and it carries urine out.
+03717ce3	Every healthy person has two ureters and one urethra.
+605db743	Two ureters and one urethra.
+ccafa2cd	Put the route of urine in order, from formation to exit
+cf36db8c	Kidney, ureter, bladder, urethra.
+8b2a4a4b	Match each organ to its job
+344885f1	The organs’ jobs.
+7f399ff8	The main waste product the kidney removes from the blood is ___.
+f56ab763	urea is made in the liver from protein metabolism.
+29265e2c	Spell the term for the tube carrying urine out of the body
+b9bcf040	urethr/o; one e.
+4b8b78e8	Urologist or nephrologist?
+9f28308f	Two specialists
+401ba1f8	surgeon of the male and female urinary tract and the male reproductive system: stones, bladder, prostate
+d1366649	internal medicine kidney specialist: kidney failure, dialysis and transplant
+119e9a26	urinary problems related to the female reproductive system
+7d844fb5	In men the urethra carries both urine and semen, which is why this system is sometimes called ⟦0⟧.⟦1⟧ → urinary and genital⟦2⟧⟦3⟧
+745fced2	In the textbook’s applied scenario, Mrs Betty Garble, aged 46, who has had five children, has trouble controlling her urine, and her doctor has referred her to a urologist.
+ba66b320	nephr means kidney, so a nephrologist is a kidney doctor. ur means urine; a urologist is a urinary tract doctor.
+dc3f519e	Which specialist mainly looks after a dialysis patient?
+eb9dcd89	nephr/o means kidney.
+4ba3d8a1	Surgery for bladder stones and the prostate is the work of which specialist?
+3680ccd8	A urologist is a urinary tract surgeon.
+d4aa57fc	A urologist also treats diseases of the male reproductive system.
+07b42291	Because the male urethra is shared.
+acd81fcd	study of the kidney
+ed92e0b6	The specialties.
+f15a77b8	The abbreviation GU means ___.
+8de518de	Spell the term for a kidney specialist
+6fc33632	Word puzzle
+85ff1fd7	⟦0⟧Every word is built from pieces:<br>• <b>root</b>: the main meaning; e.g. ⟦1⟧ means kidney<br>• <b>prefix</b>: at the start of the word; e.g. ⟦2⟧ means many<br>• <b>suffix</b>: at the end of the word; e.g. ⟦3⟧ means inflammation<br>• <b>combining vowel</b> (usually ⟦4⟧): ⟦5⟧
+4c947874	root + root + suffix
+5f8da21f	Start the meaning from the <b>suffix</b>, then read the roots from the start:<br>⟦0⟧ → “inflammation of the renal pelvis and kidney”<br>⟦1⟧ → “looking inside the bladder”<br>⟦2⟧ → “enlargement of the kidney”⟦3⟧
+8ade94f6	If the suffix starts with a vowel, the combining vowel drops: nephr + -itis becomes nephritis, not nephroitis.
+88c8bdc0	In ⟦0⟧, which part is the suffix?
+dcac56a4	The correct spelling of “inflammation of the kidney” is nephroitis.
+ffb387e1	The combining vowel drops before -itis: nephritis.
+c6bae67f	The word parts.
+2c79bf9e	“Enlargement of the kidney” is ___.
+11a67c38	Spell the term for inflammation of the kidney
+16cd08bf	nephr + -itis; no combining vowel.
+a0fdb224	Kidney roots
+b5f32449	Two roots for the kidney
+5de96080	⟦0⟧⟦1⟧ is Greek and appears mostly in the names of diseases and operations: ⟦2⟧. ⟦3⟧ is Latin and appears mostly in adjectives: ⟦4⟧.⟦5⟧
+87e47ee5	Labelled section of the kidney
+1d1c36d1	Structure of the kidney
+a8f70a99	pyel/o comes from the Greek pyelos, “basin”; the renal pelvis collects urine like a basin.
+16a2691c	Which root means “renal pelvis”?
+99e83e82	pyel/o; not to be confused with py/o, meaning pus.
+43ba0a78	The root ren/o means…
+91fb219d	renal = relating to the kidney.
+6f6cb9af	nephr/o and ren/o both mean kidney.
+e4141b24	Greek and Latin.
+4484155e	Build a word meaning “inflammation of the glomeruli”
+a1144ec2	Match each root to the part of the kidney
+93110ced	The roots.
+dae665a3	The adjective meaning “relating to the kidney” is ___.
+1639e994	Spell the term for inflammation of the renal pelvis
+cb955cc1	Roots of the urinary tract
+343bfe92	From the ureter to the opening
+736835d3	Two roots for the bladder
+1685a626	⟦0⟧ is Greek and ⟦1⟧ Latin; both mean bladder.<br>⟦2⟧ → hernia of the bladder<br>⟦3⟧ → within the bladder⟦4⟧
+74209d4e	cyst/o means any sac; cystic is used for the bladder, the gallbladder and a cyst. Work out which from the sentence.
+d4b22c63	Which root means “urethra”?
+8ea2675b	urethr/o; ureter/o is the ureter.
+fbb306f2	The root vesic/o means…
+0444a155	vesical = relating to the bladder.
+eda9a5d7	meat/o means opening; the urinary meatus is the outer opening of the urethra.
+6a604195	Build a word meaning “stone in the ureter”
+2f10d2e5	Roots of the urinary tract.
+f08518ee	An incision of the urethral opening to widen it is ___.
+4a403b10	Spell the term for inflammation of the bladder
+83cc585d	Adjectives and positions
+eddd2983	Urinary adjectives
+af7c2451	⟦0⟧• ⟦1⟧: above the kidney; the adrenal gland<br>• ⟦2⟧: around the kidney<br>• ⟦3⟧: inside the kidney<br>• ⟦4⟧: between the kidneys<br>• ⟦5⟧: through the urethra⟦6⟧
+20ec53fe	Where on the kidney?
+602762f1	supra is above, peri is around, intra is inside and inter is between two things; trans means passing through.
+a967f554	What is the gland on top of the kidney called?
+0866ad2b	supra- means above.
+c6498a82	outside the bladder
+898bfbe3	The adjective ureteral relates to the urethra.
+8e17f090	ureteral relates to the ureter; the adjective for the urethra is urethral.
+22b58cd8	Build a word meaning “around the kidney”
+dbe2d6ef	A ___ operation is done through the urethra.
+ae6a50c0	Common prefixes
+b4fc1228	⟦0⟧⟦1⟧ → no urine<br>⟦2⟧ → excessive urine<br>⟦3⟧ → painful urination⟦4⟧⟦5⟧
+32ab06aa	The -uria family
+bc915c71	In a consultation report in Fremgen’s textbook, a 36-year-old man came to the urologist with right flank pain and blood in his urine; that is, hematuria.
+0c2cddd9	olig/o, as in “oligarchy”, means few; oliguria means scanty urine.
+6dd9bd89	The prefix dys- means…
+aad151dc	little urine
+02b1ee66	poly- means many.
+6c3126a9	retro- in retroperitoneal means behind the peritoneum.
+e679a435	The kidneys are behind the peritoneum.
+000b053d	Build a word meaning “painful urination”
+3fc8194d	The prefixes.
+69511191	Absence of urine is ___.
+6d342631	Spell the term for painful urination
+8fed5ede	Urinary suffixes
+55d3ca6c	Stone, from root to suffix
+1749a03b	⟦0⟧ is the root for stone and ⟦1⟧ its suffix:<br>⟦2⟧ → crushing stones<br>⟦3⟧ → bladder stone<br>⟦4⟧ → kidney stones⟦5⟧
+58881db1	Read ptosis as “TOH-sis”; the p at the start is silent, as in pneumonia.
+f3d4fd1d	The suffix -tripsy means…
+2bd00baa	-lith and lith/o both refer to stones.
+694bb9e7	One is a suffix and one a root.
+e8e282a1	Build a word meaning “surgical fixation of the kidney”
+1916bd94	Crushing stones is ___.
+96518b70	Spell the term for enlargement of the kidney
+1234fba7	Traps
+4f6671be	ureter; two of them; kidney to bladder
+7db95151	urethra; one; bladder to the outside
+825018f1	adjective: relating to the bladder
+193cfb97	noun: blister
+cf18dca3	Three more traps
+0b715212	waste product; rises in kidney failure
+c91fc252	a compound in muscle
+d989c7a9	cyst/o is the bladder and cyt/o a cell; ureter/o is the ureter and uter/o the uterus. One letter, a different organ!
+c6aa8477	The tube that carries urine from the kidney to the bladder is the…
+7f2bd0ff	ureter; there are two.
+de7c7fff	vesical is the adjective for the bladder.
+4dbaeb32	enuresis means failure to pass urine.
+fba4a214	enuresis is bedwetting; failure to pass urine is anuresis.
+e97c24f7	Put the organs in order from top to bottom
+6c76b94a	The route of urine.
+643dde00	muscle waste product
+cffddb18	The traps.
+fdc101c1	The waste product that rises in the blood in kidney failure is ___.
+95c725c6	Spell the term for the tube from kidney to bladder
+427e94ad	ureter/o; two e’s.
+d52c4ecb	Kidney and Nephron
+0a7010a7	Where the kidney lies, cortex and medulla, calyces and renal pelvis, the nephron and glomerulus, the three steps of urine formation, and the kidney’s vessels and hormones
+dceb1706	The kidney outside and inside
+2adf6db5	The nephron and urine formation
+e0defa4b	Blood, hormones and homeostasis
+a081f1e7	⟦0⟧The kidneys are two bean-shaped organs the size of a fist, in the lower back on either side of the spine, <b>behind the peritoneum</b>: ⟦1⟧. The left kidney is slightly higher and larger than the right.
+be85d5d4	Cross-section of the abdomen
+240f0583	⟦0⟧The inner edge of each kidney has a notch called the ⟦1⟧; the renal artery enters there and the renal vein and ureter leave. An ⟦2⟧ sits on top of each kidney.⟦3⟧
+440289aa	Kidneys, vessels and adrenal gland
+e5cc828e	Kidneys and vessels
+c0c872c0	In Latin, hilum means “a little thing”: the small dip that a bean also has.
+26811cd4	The position of the kidneys relative to the peritoneum…
+2fcc572d	behind the peritoneum (retroperitoneal)
+0cc343ea	inside the peritoneal cavity
+fcabbeb2	in front of the intestines
+550eb9f3	inside the pelvis
+12cf6d25	retro- means behind.
+72fb751f	Where on the kidney do the vessels and ureter pass?
+742bd2dd	The notch of the kidney.
+63422caf	The left kidney is usually slightly higher than the right kidney.
+d9087ffb	The liver keeps the right kidney lower.
+fdca227b	inner dip of the kidney
+ebca9802	on top of the kidney
+5d4bfd96	thin covering of the kidney
+b438023f	fat around the kidney
+98f1a5de	Where the parts are.
+169b75d4	The gland sitting on top of each kidney is the ___.
+3bc5e34e	Spell the term for the notch on the kidney’s inner edge
+3a05619d	A Latin word.
+b657bedc	Cortex and medulla
+9a8184b4	Lengthwise section
+4d59c484	⟦0⟧A section of the kidney shows two regions: the outer ⟦1⟧ and the inner ⟦2⟧. The medulla is made of triangular ⟦3⟧, whose tips, the ⟦4⟧, point towards the hilum.
+6d1a8d59	On the textbook figure
+b9238d7d	Cortex, medulla, pyramid and papilla
+1df435e0	Internal structure of the kidney
+0abf0bd1	outer; the rind; renal corpuscles
+1e7e0eb8	inner; pyramids; loops and ducts
+48eac99e	In Latin, medulla means bone marrow; the adrenal gland and the brainstem also have a “medulla”. cortex means tree bark.
+d5433263	Which is the outer part of the kidney?
+b50d673e	cortex means rind.
+d7d709d9	The triangular structures of the renal medulla are the…
+edab35cc	The renal pyramids.
+6852a98d	The tip of each renal pyramid points towards the hilum and is called the papilla.
+538002d1	Put them in order from outside to inside
+64382f43	Capsule, cortex, medulla, renal pelvis.
+ae5c8458	outer part
+1c10d3a8	inner part
+63e97dd1	triangle of the medulla
+176e5fcd	tip of the pyramid
+09c66dce	The kidney section.
+237e8b37	The adjective meaning “relating to the cortex” is ___.
+1b953b7c	Spell the term for the inner part of the kidney
+5085b0fb	Calyces and renal pelvis
+49724498	The urine funnel
+8f31a38a	Urine drips from the pyramid tips into a ⟦0⟧ (cup; plural ⟦1⟧). The small calyces join to form the funnel-shaped ⟦2⟧, which becomes the ⟦3⟧ at the hilum.⟦4⟧
+340f2eb3	Calyces and ureter
+fdb601c2	The calyces
+38b812b5	⟦0⟧ → relating to a calyx<br>⟦1⟧ → dilation of the renal pelvis⟦2⟧
+43a92d67	In Greek, calyx means “the cup of a flower”; each calyx is like a cup under a pyramid tip.
+0592790a	The funnel-shaped part that collects urine from the calyces is the…
+7b7a5c7b	What is the plural of calyx?
+47c99415	calyces or calices.
+2bd89e26	The renal pelvis becomes the ureter at the hilum.
+0ed2c2db	Put the route of urine inside the kidney in order
+f1e8aac0	Papilla, calyx, renal pelvis, ureter.
+61d56a47	cup of the kidney
+c9f827d1	Calyx and renal pelvis.
+95cb2a72	The root for “renal pelvis” is ___.
+46bcf0a0	Spell the term for the cup that collects urine from a pyramid
+de0afc46	Plural: calyces.
+a1b58579	The kidney’s working unit
+73deb27c	⟦0⟧Each kidney contains more than a million working units, each a ⟦1⟧. Every nephron has two parts:<br>• ⟦2⟧: the ⟦3⟧ (capillary tuft) inside the ⟦4⟧, or Bowman capsule<br>• ⟦5⟧: a tube that completes the urine
+4f8d404c	Nephron in the kidney
+a2df6365	Where the nephron sits in the kidney
+ba1e53f6	glomerulus comes from the Latin glomus, “ball of yarn”; the tangled tuft of capillaries has just that shape.
+36224a7e	A person can live a normal life with one healthy kidney, because there are more nephrons than the body needs.
+fe223625	What is the functional unit of the kidney?
+73fd9e64	The capillary tuft inside Bowman capsule is the…
+1ff73e8a	The renal corpuscle is made of the glomerulus and Bowman capsule.
+ac6db725	Build a word meaning “relating to a glomerulus”
+3cc82a4b	Match each part of the nephron to its description
+b9f5a475	tube of the nephron
+69af90cc	glomerulus and capsule
+3cb2ae1c	The nephron.
+ec12b21b	Spell the term for the kidney’s working unit
+9d950594	Tubules and collecting duct
+95e80e51	Route of the tubule
+ef21d7dc	⟦0⟧After Bowman capsule, the renal tubule has four parts:<br>• ⟦1⟧: the near coiled part<br>• ⟦2⟧, or loop of Henle: descending and ascending limbs<br>• ⟦3⟧: the far coiled part<br>• ⟦4⟧: the gathering duct
+055e52b1	Nephron parts and capillaries
+c2be6673	Nephron in detail
+dcfd7a13	Near and far
+6b969267	close to Bowman capsule; most reabsorption
+1c45c724	far from the capsule; before the collecting duct
+3d1d9e04	proxim/o means near and dist/o far; convoluted means twisted.
+e0b213b2	What is the U-shaped loop of the renal tubule called?
+fe82bc5a	The duct that gathers urine from several nephrons is the…
+65112e4e	The proximal convoluted tubule is farther from the collecting duct.
+50e96247	Proximal is close to Bowman capsule.
+cd3b378d	Put the parts of the nephron in order
+d424cf6c	The path of fluid through the nephron.
+cf13d851	near coiled tube
+3bc960cd	far coiled tube
+e6941707	gathering duct
+95ce427b	The tubules.
+b8a49ef0	Another name for the nephron loop is the loop of ___.
+305d60ae	Spell the term for the duct that gathers urine from many nephrons
+8d0c3452	Two words.
+ab60efe0	Filtration, reabsorption, secretion
+03f60a02	⟦0⟧1. ⟦1⟧: blood pressure pushes water and dissolved substances from the glomerulus into Bowman capsule; this fluid is the ⟦2⟧.<br>2. ⟦3⟧: water, sugar and needed salts return from the tubule to the peritubular capillaries.<br>3. ⟦4⟧: the tubule moves ammonia, uric acid and hydrogen ions from the blood into the urine.
+0a4e56bf	Three steps
+282011bb	filtration A, reabsorption B, secretion C
+6315a755	About 180 litres of fluid are filtered by the glomeruli each day and about 99% of the water is reabsorbed; only 1 to 2 litres of urine remain.
+c5d9b27b	The prefix re- means again: reabsorption means absorbing again.
+878d5a17	The first step of urine formation, in the glomerulus, is…

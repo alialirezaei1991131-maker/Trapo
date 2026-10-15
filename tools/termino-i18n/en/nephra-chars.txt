@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+b7f613f2@nephra#1	Nephry
+66270c64@nephra#1	Rooty
+43063b0b@nephra#1	Puzzly
+fde1e0fe@nephra#2	Glomy
+43c1d964@nephra#1	Tubey
+c0e53764@nephra#1	EPO Courier
+84fc9587@nephra#1	Yellow Drop
+64bc5905@nephra#1	Bladdy
+82e84b17@nephra#1	Sphincter Lock
+9c8e8461@nephra#1	Sample Cup
+8d587986@nephra#1	Dipstick
+a2aac1a2@nephra#1	Electrolyte Scales
+1d2ce55a@nephra#1	Pebble
+423edd1b@nephra#1	Antibody
+639e7629@nephra#1	Nephron Shield
+13a002a4@nephra#1	Dialyzer
+ac5a3d43@nephra#1	eGFR Meter
+8dbdf5f5@nephra#1	Nephra’s Scribe

@@ -1,0 +1,330 @@
+572b0d0d	separation, breakdown
+c7bd637d	sudden inflammation of the glomeruli
+890b0af5	sudden kidney damage
+45e7f70d	daytime home exchanges of abdominal dialysis fluid
+eabe77b2	machine-run abdominal dialysis overnight
+5753d8fe	test of how fast creatinine is cleared
+78c172f5	long-term loss of kidney function
+583f53b8	salt-forming blood electrolyte
+f1b1abcf	external urine drainage (sheath catheter)
+4c01d662	blood buffer base
+1ccbc9b0	abdominal dialysis done at intervals
+a766e7a3	X-ray of the urinary tract after IV contrast
+4b7bcd22	unit of electrolyte concentration
+1d16ca66	separating proteins in an electric field
+da9f64b2	acidity or alkalinity
+05d0422d	specific gravity
+e8d899ef	maximum tubular transport capacity
+b106b524	prostate removal through the urethra
+8cc0ea82	urine culture
+6103f3d9	bladder X-ray taken while voiding
+08c59ebb	Structures of the kidney and urinary tract
+01736358	Urine formation and fluid balance
+cb8aa7aa	The urinary system: two kidneys, two ureters, one bladder, one urethra
+24d564db	The kidneys make urine; the rest only carry it, store it and let it out
+f414736f	The route of urine from formation to exit
+0ebfb572	The kidneys
+18461faa	filter blood and make urine
+0e3643f0	The ureters
+32669672	carry urine to the bladder
+17a672ee	stores urine
+e9c6ebf8	lets urine out
+c804a0b7	ureter has two e’s and there are two; urethra has one e and there is one
+ac62d2f5	Passing urine: urination, voiding or micturition
+d6bbecef	Route of urine
+84578d5e	One word, three pieces: pyelonephritis
+83192318	root: renal pelvis
+50646cc5	root: kidney
+7355c2b1	suffix: inflammation
+83a202e4	Read the meaning from the suffix, then the roots from the start: inflammation of the renal pelvis and kidney
+76770391	The combining vowel o drops before a suffix that starts with a vowel
+c7d055e8	Root map: kidney to urethra
+e2291b13	calyx
+1e6d8586	renal pelvis
+56891720	Look-alike traps in the urinary system
+d53cc3f3	ureter: kidney to bladder
+3d55e2dc	urethra: bladder to the outside
+59a3475d	relating to the bladder (adjective)
+01acce10	blister (noun)
+88a058f3	creatinine: waste product
+7bb89bd8	creatine: in muscle
+96fae761	Don’t confuse ureter/o (ureter) with uter/o (uterus) either
+16e396e5	Position prefixes: where on the kidney?
+abe36e7e	above the kidney (adrenal gland)
+dfc752a6	inside the kidney
+ac03eeea	in front of / behind the kidney
+6992bd3f	The prefix gives the position, and ren/o + -al says “renal”
+6a7a7940	night-time urination
+d667f43e	painful urination
+decf222b	The -uria family: states of the urine
+d2f758be	The uria family
+82a46fb4	Two specialists: kidney or urinary tract?
+cf914860	kidney physician (internal medicine)
+5117e02e	kidney failure, dialysis, transplant
+57c2533b	urinary tract surgeon
+b2f68c4d	stones, bladder, prostate, surgery
+7b20339b	nephr/o + -logist and ur/o + -logist
+bd99dde5	Specialists
+276142d5	Where the kidneys lie: behind the peritoneum, in a cross-section of the abdomen
+6ee738a8	peritoneal cavity (intestines)
+df4cd44b	anterior • front
+74ff5f93	posterior • back
+0a5056fd	Position of the kidneys
+97ed7a00	Lengthwise section of the kidney
+26fdb006	cone of the medulla
+3be20e6b	pyramid tip
+2c9823d9	collecting cup
+79eafc6e	notch of the kidney
+375427a0	The nephron: the kidney’s working unit
+566e2151	downward limb
+b3528614	upward limb
+5045f91e	Three steps of urine formation
+e93a6686	filtration in the glomerulus
+8b48df2e	reabsorption into the blood
+10ea022e	secretion of wastes into the tubule
+3c1dcb3d	glomerulus (filtration)
+23c484b7	Blood flow in the kidney
+f93e60a1	Filtered blood returns through the renal vein; the wastes stay in the urine
+32503948	The kidney is a hormone factory too
+5a3369ac	→ angiotensin → high blood pressure
+d725a723	→ bone marrow → red blood cells
+e0369791	from the pituitary: hold on to water
+10f2d9cf	from the adrenal gland: sodium and potassium
+c745804f	Kidney failure means anaemia (low EPO) and high blood pressure
+5ee74419	Kidney hormones
+987a4633	Homeostasis: the kidney is the body’s balance
+b98ace37	water, sodium, glucose
+f9259da2	urea, creatinine, uric acid
+27bf06d4	returned to the blood
+79d210eb	excreted in the urine
+d4e89cd4	keeping the body’s balance
+9234245a	Electrolytes and pH are also regulated
+5bf81328	The renal corpuscle: the blood filter
+e4ccabfd	afferent (wider)
+2417e220	efferent (narrower)
+093ee1d4	capillary tuft
+6dbeec93	filtered fluid
+a50e8425	passes through: water, salt, sugar, urea
+c7c896ad	does not pass: blood cells and protein
+acb3b556	If you see them: hematuria or proteinuria
+39893459	Bladder and urethra in front section
+5f4ec178	folds of the lining
+ba7c3c59	internal sphincter (involuntary)
+c58f3daa	stored urine
+91b6e0e3	external sphincter (voluntary)
+3fe8bffb	Female and male urethra
+d34c2a40	short: urine only
+2a30a9ac	Urinary infection is more common in women
+1ec5e480	long: urine and semen
+89a350bf	A short urethra means a shorter route for microbes to the bladder
+539dc377	Voiding reflex: micturition reflex
+96dc5af5	slow filling
+cb667068	sphincters closed
+50d3b6f7	wall stretching
+afaba660	about 300 to 400 mL
+a68dc8f6	emptying
+b7ff6dcc	detrusor contracts
+7d4a8a13	internal sphincter relaxes
+5561440c	The external sphincter is voluntary; control of it is learned after age two
+43ddbefb	Problems with bladder control
+10053da9	leaking with coughing, laughing or exercise
+3dac09d7	sudden urgency before reaching the toilet
+3fa88949	the bladder is full but does not empty
+5f9b82a9	unwanted urination during sleep
+cd14c445	The prefix in- means “not”, and continence means holding urine
+7d9e7ff9	incontinence
+9897e27b	bladder prolapse (cystocele)
+28653ee7	bladder sagging against the vaginal wall
+2b50f73c	birth canal
+ce855237	bulge
+f35afed8	cyst/o + -cele; treatment: cystopexy (fixation of the bladder)
+8bc5ed95	cystocele
+324dbff1	Ureter: peristaltic waves carry urine down
+fa973bb7	wave-like contraction of the wall
+50ef06c1	pocket of urine
+35b7f063	ureter 25 to 30 cm long
+89433ea3	every 10 to 30 seconds
+8e8ee4b3	a spurt of urine
+f33956fc	empties into the bladder
+b48b9eb2	prevents urine flowing back
+8ac57c3e	Peristalsis of the ureter
+769129ca	Narrowing, widening and bulging in the urinary tract
+2ec9e711	bulge of the ureter into the bladder
+86e6bda5	inflamed trigone
+2514dd0a	-stenosis = narrowing
+6368b52e	-ectasis = widening
+aefd9d1e	-cele = bulging
+10fe2459	What is urine made of?
+2cfa438e	dissolved substances
+3196b81f	salts (sodium, potassium), pigment
+02aed993	should not contain: sugar, blood, protein
+1bfdaf22	or pus or bacteria
+973e3823	Normal daily volume about 1000 to 2000 mL; straw-yellow and clear
+db611e2d	Composition of urine
+26d59860	nitrite test
+bae870b7	acid–base
+4a4c5c85	The urine dipstick: each square is one test
+430524fb	A positive square = an -uria word
+0972d463	Urine dipstick
+0be79db9	dilute
+4ed7d51b	concentrated
+5deb4d4b	turbid
+e80c4c02	What does urine colour tell you?
+83ece6b6	The more concentrated, the darker: drink more water
+409fa36b	red: hematuria
+0910890a	cloudy: pyuria or bacteriuria
+f6e09a52	Brown or black urine is a sign of serious disease
+5f2d3ea4	Urine colour
+683eb1fe	Urine volume over 24 hours
+2a8c3476	nocturia means passing a lot of urine at night; the timing matters, not the total volume
+c5b07978	Output below 0.5 mL per kilogram per hour = scanty urine
+95fef092	Urine volume
+89ad9f0b	Urine specific gravity with a urinometer
+839bc2a7	dilute: floats lower
+e6955093	concentrated: floats higher
+05110a21	low: diabetes insipidus
+4e1a7427	or too much water
+a2108628	high: dehydration
+ca49fe02	or sugar and protein
+7d5c2d0a	Sodium and potassium in the blood
+0c60d371	hyper- (high)
+ffeb3100	hypo- (low)
+b55c9d5c	high sodium
+d59cae83	dehydration, severe vomiting
+93c67000	low sodium
+2076dc81	water intoxication, organ failure
+9f062f12	high potassium
+72606297	kidney failure; arrhythmia
+09c0cc35	low potassium
+f6fd1319	diuretics; muscle weakness
+22e801e6	natrium and kalium are the Latin names for sodium and potassium; hence Na and K
+2e4d33e9	The suffix -emia means a condition of the blood
+ddf420e8	When the kidneys fail: uremia
+c150e77f	urea and creatinine high in the blood
+6cbba1d7	azotemia = nitrogenous waste in the blood
+6ba54ae9	uremia = its toxic state
+5d65dba6	Signs: fatigue, loss of appetite, oedema, anaemia, acidosis
+055fe156	Clean midstream urine sample (clean-catch)
+034ad9fc	urethral opening
+8435900d	start urinating
+3f5ce4d1	first part into the toilet
+6708fbdb	mid-stream
+3e43687b	into a sterile cup
+7c072677	finish
+bb8287d7	the rest into the toilet
+7f378fd0	Goal: the least contamination with skin microbes
+bee263fa	The abbreviation CC is in capitals; lowercase cc means the patient’s chief complaint
+c80543c1	Clean urine sample
+adb5fe69	Urinary infection climbs from below
+93efdc5f	infection of the renal pelvis and kidney
+29694f31	cystitis: burning, frequency,
+589c0b45	pyelonephritis: fever, chills,
+73e6534a	common microbe: E. coli
+910c9422	stone in the urethra
+87371730	renal colic: severe flank pain
+0fba2e1b	lith/o = stone
+e43c741b	calculus, plural: calculi
+4b954000	Stones
+05787b21	Hydronephrosis: urine builds up behind a blockage
+cc5c611d	normal kidney and ureter
+02232514	swelling of the pelvis and calyces
+b0655860	swollen ureter
+54ad2f40	stone or narrowing
+b55ffad6	hydr/o (water) + nephr/o (kidney) + -osis (condition)
+cda5fba1	Glomerulonephritis: the filter breaks down
+ddbe62d5	blood cells and protein leak through
+729e7a3a	inflammation of the glomeruli and kidney
+9f6550c3	Often after a streptococcal throat or skin infection; with oedema and high blood pressure
+47cbce05	Acute and chronic kidney failure
+93538e91	Acute failure: ARF or AKI
+c1c4ebf7	sudden: shock, toxins, injury
+7850b489	often reversible
+19eb9dec	Chronic failure: CRF or CKD
+c9e0e423	gradual: diabetes, high blood pressure
+32faf3a9	loss of nephrons
+1d079baf	End stage (ESRD): dialysis or kidney transplant
+0ecaf36b	polycystic kidney
+3a9fecef	healthy kidney
+a8399a0c	many cysts, enlarged kidney
+8576f8c5	Inherited; the cysts gradually replace kidney tissue and lead to failure
+1d8dd934	poly- (many) + cyst/o (sac) + -ic
+5623c8c1	Tumours of the kidney and bladder
+f7244ea7	nephroblastoma: children under 5
+d4042b80	renal cell carcinoma: adults
+e3d1a9aa	key sign: painless blood in the urine
+8a9a3a00	Smoking is the most important risk factor
+6d764580	Tumours
+ef931ddf	Kidney anomalies and displacements
+181c2b04	normal position
+96f55e12	two kidneys joined at the lower ends
+bfecb81b	small, underdeveloped kidney
+deb0c320	hypo- (under) + -plasia (growth); nephr/o + -ptosis (drooping)
+d5bfa5d0	Kidney anomalies
+1d3e98ff	Imaging the urinary system
+3caee932	plain abdominal X-ray
+f7a5e313	no contrast
+0dc6daca	shows stones
+07d5d5b8	contrast into a vein
+02486e1f	the kidney excretes it
+f1d6585e	contrast from below
+257a0792	up through a cystoscope
+f8e7c9bd	bladder and urethra X-ray
+4d0c877b	contrast in the bladder
+be02ebd8	X-ray while voiding
+9fe872db	Cystoscopy: looking inside the bladder
+b72d06eb	instrument for viewing the bladder
+3dbf98a2	light cable
+d8db8356	bladder wall
+f5cb9296	Uses:
+a8848e3c	seeing tumours and inflammation
+324bc102	taking a sample (biopsy)
+33264786	removing stones or polyps
+8998cc3e	Catheterization with a Foley catheter
+82286eb8	retaining balloon
+c0aa5cb3	drainage holes
+75c9aad0	Foley catheter (indwelling)
+f42abc18	urine bag
+6afdfe77	Haemodialysis: the artificial kidney
+b8f5d4f4	patient’s arm (vascular access)
+e51283a8	filter (artificial kidney)
+f85f63f2	fresh dialysate
+b24571bb	dialysate with wastes
+eabd73f4	Semipermeable membrane: wastes move from the blood into the dialysis fluid
+4481ab42	Peritoneal dialysis: the peritoneum is the filter
+647a09ec	fresh fluid
+175133e8	fluid with wastes
+df444027	CAPD: several times a day, walking around; CCPD: at night with a machine
+a4c569c7	Extracorporeal shock wave lithotripsy (ESWL)
+bb3996c6	shock wave generator
+301fdcdc	tiny stone fragments
+50e3e2fd	passed in the urine
+92b6dc6e	extra- (outside)
+3589b811	corpor/o (body)
+126fbb5a	diseased kidneys (left in place)
+528cd2a3	donor kidney in the pelvis
+957317f2	iliac blood vessels
+75f5c1f9	A person can live a normal life with one healthy kidney
+e22e24c5	new opening
+593553d4	removing a stone
+16d70a14	Surgical suffixes on the kidney and bladder
+c137ccc3	Ureteral stent and ileal conduit
+3414182b	tube from kidney to bladder
+688a49bd	a piece of small intestine
+54c32ae6	when the bladder has been removed
+6c7fa093	Stent and ileal conduit
+36638a39	mild
+b42c47da	mild to moderate
+600ab12b	moderate to severe
+803796c1	Stages of chronic kidney disease by eGFR
+bf1dd653	eGFR below 60 for more than three months = chronic kidney disease (CKD)
+dbc6aaba	G5 = end stage (ESRD): dialysis or transplant
+b2fcced0	CKD stages
+e9a8a1b9	Language of the Kidney
+0f0082fa	The organs of the urinary system, urologists and nephrologists, and building words from roots, prefixes and suffixes
+bec620dd	The system and its specialists
+f3b18d3b	Roots of the kidney and urinary tract
+0f14b55f	Prefixes, suffixes and traps
+503bad13	Four organs
+509dbf90	⟦0⟧The ⟦1⟧ has four parts: the ⟦2⟧ (two), the ⟦3⟧ (two), the ⟦4⟧ (one) and the ⟦5⟧ (one). Its main job is removing urea, the waste product of protein metabolism, from the blood.
+8c9721c7	⟦0⟧⟦1⟧The kidney makes urine, the ureter carries it to the bladder, the bladder stores it and the urethra lets it out.⟦2⟧
+ad086ad4	From the kidney to the outside

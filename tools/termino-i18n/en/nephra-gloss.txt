@@ -1,0 +1,82 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+1d1d93e5@nephra#1	sudden death of kidney tubule cells
+0f4ea648@nephra#1	small vessel carrying blood into the glomerulus
+e14fa48a@nephra#1	adrenal hormone regulating sodium and potassium
+b77e1028@nephra#1	pituitary hormone that makes the kidney keep water
+423eab54@nephra#1	malignancy of the urine-storing sac
+fbf0a2d3@nephra#1	blockage where the bladder joins the urethra
+f3bc28f5@nephra#1	blood test of nitrogenous waste
+885c3c51@nephra#1	cup collecting urine from a pyramid tip
+20c259f6@nephra#1	passing a tube into the bladder
+86b4669f@nephra#1	tube gathering urine from many nephrons
+4c555c0f@nephra#1	muscle waste product cleared by the kidneys
+01e157ef@nephra#1	test comparing urine and blood creatinine
+9851f01d@nephra#1	growing the microbe and testing antibiotics
+bc7c4464@nephra#1	looking inside the bladder with a scope
+f625181e@nephra#1	smooth muscle of the bladder wall
+f1baa703@nephra#1	lack of ADH with copious dilute urine
+d257cedf@nephra#1	fluid that draws wastes out in dialysis
+c2f0f3dd@nephra#1	far coiled part of the nephron tubule
+8d5e0df3@nephra#1	small vessel carrying blood out of the glomerulus
+d6f9b232@nephra#1	sodium, potassium and other body ions
+d161ae29@nephra#1	final stage of kidney failure needing dialysis or transplant
+de47b7b0@nephra#1	filtering capacity worked out from creatinine, age and sex
+1f3638d9@nephra#1	X-ray of the urinary tract after IV contrast
+52c68f5e@nephra#1	stone crushing with waves from outside the body
+a86f9ae4@nephra#1	indwelling tube held by a balloon
+fde1e0fe@nephra#1	relating to the capillary tuft of the nephron
+324d3544@nephra#1	volume filtered by the glomeruli each minute
+01338b91@nephra#1	inflammation of the kidney filters
+cb60296b@nephra#1	two kidneys fused at their lower poles
+b7c844b4@nephra#1	kidney swollen with trapped urine
+8ad517fc@nephra#1	urine diversion through a piece of small bowel
+c8cef5e6@nephra#1	record of fluids taken in and passed out
+97421c20@nephra#1	X-ray of the renal pelvis after IV contrast
+7a6f320f@nephra#1	bean-shaped organ that filters blood
+c07f4f57@nephra#1	automatic bladder-emptying response
+3ca3fc79@nephra#1	of the kidney; Greek-derived adjective
+beeedce4@nephra#2	a single kidney stone
+a8623e01@nephra#1	condition of having kidney stones
+e5698ae4@nephra#1	working unit of the kidney
+0c2ba0a6@nephra#1	heavy urine protein loss with oedema
+e5d78301@nephra#1	bladder dysfunction from nerve damage
+4db778f8@nephra#1	dialysis using the abdominal lining as filter
+d374312b@nephra#1	capillaries surrounding the tubules
+67c0e8ad@nephra#1	inherited condition with many kidney cysts
+be4dc089@nephra#1	male gland around the urethra below the bladder
+5c0bfa95@nephra#1	near coiled part of the nephron tubule
+d0a35040@nephra#1	return of water and solutes to the blood
+3ca3fc79@nephra#2	kidney-related; Latin-derived adjective
+321789ad@nephra#1	vessel bringing blood to the kidney
+beeedce4@nephra#3	stone formed in the kidney
+079eef84@nephra#1	thin fibrous covering of the kidney
+e07775ac@nephra#1	adult cancer of kidney tubule cells
+9d38328f@nephra#1	severe flank pain from a passing stone
+cd188676@nephra#1	glomerulus with its Bowman capsule
+b1ebdc0a@nephra#1	inner part of the kidney with the pyramids
+5840cb32@nephra#1	funnel collecting urine from the calyces
+8abcc16a@nephra#1	vessel draining blood from the kidney
+80986bfe@nephra#1	kidney enzyme that raises blood pressure
+ddb093a4@nephra#1	contrast X-ray from below via a cystoscope
+80916b02@nephra#1	large antler-shaped stone filling the pelvis
+d7acdc7e@nephra#1	leaking with coughing or exertion
+c33213c0@nephra#1	main nitrogenous waste from protein
+2d8c8b3e@nephra#1	toxic waste build-up in the blood
+91eb9827@nephra#1	opening of a ureter into the bladder
+86d49616@nephra#1	tube keeping the ureter open
+7b7cf0f9@nephra#1	bulge of the ureter end into the bladder
+68b69fe5@nephra#1	leaking with sudden need to void
+cb546a1a@nephra#1	sudden need to void immediately
+ab5d1990@nephra#1	waste product of purine breakdown
+da9832f9@nephra#1	physical, chemical and microscopic urine test
+7a740859@nephra#1	relating to urine
+f19cb94e@nephra#1	sac that stores urine
+595ca955@nephra#1	inability to hold urine
+db001493@nephra#1	outer opening of the urethra
+85ac1b07@nephra#1	inability to empty the bladder
+4c30a1bf@nephra#1	kidneys, ureters, bladder and urethra
+90eae0a0@nephra#1	fluid excreted by the kidneys
+c286c2c6@nephra#1	surgical specialty of the urinary tract
+2727aa3c@nephra#1	abnormal passage between bladder and vagina
+b7d28dbd@nephra#1	bladder X-ray taken while passing urine
+55fe98ea@nephra#1	low blood sodium from excess water

@@ -1,0 +1,239 @@
+6f5be2d3	An immune reaction.
+a2fc0b22	Build a word meaning “inflammation of the glomeruli and kidney”
+b76782d9	low blood protein
+41b76a22	Another name for nephrotic syndrome is ___.
+3b25dd38	Spell the two-word term for heavy protein loss with oedema
+f2bfcef1	⟦0⟧A ⟦1⟧ (plural ⟦2⟧) is a stone made of mineral salts such as calcium:<br>• ⟦3⟧: kidney stones<br>• ⟦4⟧: a stone in the ureter<br>• ⟦5⟧: a bladder stone<br>Causes: dehydration, infection, ⟦6⟧ and metabolic disorders.
+eb9a02b4	On the figure and photo
+48a7f4a2	⟦0⟧⟦1⟧A ⟦2⟧ is a large stone that fills the renal pelvis and calyces.⟦3⟧
+75af0f79	Stones in the kidney, ureter, bladder and urethra
+4ca2db21	Stones along the urinary route
+a0b9028d	Staghorn stone in the kidney
+143b29f0	In Latin, calculus means pebble; the word calculate also comes from counting with pebbles.
+79215aa4	A kidney stone is a…
+d26e4e7a	The plural of calculus is…
+82dfa117	A staghorn calculus fills the renal pelvis and calyces.
+437d3364	Build a word meaning “bladder stone”
+4c301c1c	Match each stone to its location
+f91db218	anywhere in the urinary tract
+dfbbf687	Stone locations.
+ab184573	Stagnant urine that causes stones and infection is ___.
+f6491a5d	Spell the term for the disease of kidney stones
+07b25d02	Colic and hydronephrosis
+ce11df60	⟦0⟧When a stone or narrowing (⟦1⟧) blocks the ureter:<br>• ⟦2⟧: severe, wave-like flank pain<br>• ⟦3⟧: the ureter swells with urine<br>• ⟦4⟧: urine collects in the renal pelvis and calyces and the kidney swells
+2739381b	Hydronephrosis, hydroureter and stricture
+cdc4f6d8	In a case exercise in one of the appendix chapters, a 65-year-old man had abdominal pain with a kidney stone, hydroureter and right hydronephrosis; his right kidney was small and scarred (hypoplastic), and he was admitted for nephrectomy.
+a4b92ee2	hydr/o means water: hydronephrosis means a “water-logged kidney”.
+42b1c3d0	Urine collecting in the renal pelvis from a blockage is…
+0998e0ec	Severe flank pain as a stone passes is…
+840a44a8	hydroureter means swelling of the ureter with urine behind a blockage.
+0dfb5b7a	Put the events of a ureteral blockage in order
+ceab7d5a	Blockage, swollen ureter, swollen kidney, damage.
+3f39221e	swollen kidney
+b9080caf	Obstruction.
+6409ff77	Dilation of the renal pelvis is ___.
+faaac2ff	Spell the term for a kidney swollen with trapped urine
+e499028f	Acute and chronic
+bed7724d	⟦0⟧• ⟦1⟧ or ⟦2⟧: sudden loss of kidney function from shock, toxins or injury; if the tubules die, ⟦3⟧<br>• ⟦4⟧ or ⟦5⟧: gradual loss of nephrons<br>• ⟦6⟧: the final stage; dialysis or transplant
+2f7d4149	Acute and chronic kidney failure
+908d84ef	Consequences
+1fe3b483	Dehydration at first, then oedema, high blood pressure, anaemia (lack of EPO), acidosis, high potassium and ⟦0⟧. ⟦1⟧ is a milder loss of kidney function.⟦2⟧⟦3⟧
+36782c9b	In the “Kidney calculator” tool, an eGFR below 15 means stage G5, or kidney failure.
+b9f2c637	necr/o means death: acute tubular necrosis means sudden death of the kidney tubules.
+8c096340	The final, irreversible stage of kidney failure is…
+b47f37f6	What causes anaemia in chronic kidney failure?
+953561d4	lack of erythropoietin
+a082c2fb	excess renin
+04e13b46	lack of ADH
+8118ac7d	excess urea in the urine
+1ed2d9d2	Low EPO.
+2531389c	Acute kidney failure is sudden and sometimes reversible.
+31983d9b	ARF or AKI.
+29f43a70	Put the course of chronic failure in order
+fefc6293	From mild to replacement therapy.
+d1df8a5d	acute failure
+2c95cbaf	chronic failure
+50bc0a1f	end stage
+3a28be10	The abbreviation CKD means chronic ___ disease.
+abd39349	Chronic kidney disease.
+eb22a77c	Spell the two-word term for loss of kidney function
+04b8d93a	Diabetes, blood pressure and the kidney
+3e0e2b20	The kidney’s silent enemies
+41b740cb	• ⟦0⟧: damage to the glomerular capillaries from long-term high blood sugar<br>• ⟦1⟧: high blood pressure caused by kidney disease<br>• ⟦2⟧: hardening of kidney tissue<br>• ⟦3⟧: lack of ADH; a lot of dilute urine and extreme thirst
+e3760c56	In the textbook’s applied scenario, Ms Jocelyn Workus, aged 25, has diabetes and her kidneys are damaged. Her record lists nephromegaly, nephritis, uremia, anuria and trigonitis, and she is on the kidney transplant waiting list.
+e616ab7b	diabetes mellitus; sugar in the urine
+aa75fa6a	diabetes insipidus; low ADH
+c0ce07e5	insipidus means tasteless; in the old days urine was tasted, and these patients’ urine was not sweet!
+22a4dbf2	Kidney damage from diabetes is…
+4d616b4a	A lack of which hormone causes diabetes insipidus?
+ef381b31	Kidney disease can raise blood pressure.
+b6e9c80f	Build a word meaning “hardening of the kidney”
+6b083a3a	Match each term in Jocelyn’s record to its meaning
+7061f6f7	The record.
+22f68fbc	Abnormal softening of the kidney is ___.
+d3064e80	Spell the term for any disease of the kidney
+3abf92c5	Cysts and anomalies
+067d8e95	⟦0⟧⟦1⟧ is an inherited disease in which many cysts gradually replace kidney tissue and lead to failure.⟦2⟧
+71f1a0f2	Polycystic kidney: surface and section
+c9a5591e	Anomalies
+df385d4f	⟦0⟧• ⟦1⟧: two kidneys joined at the lower ends<br>• ⟦2⟧: an underdeveloped kidney<br>• ⟦3⟧: a drooping kidney (floating kidney)<br>• ⟦4⟧ and ⟦5⟧: the urethral opening on the underside or upper side of the penis; congenital and treatable with surgery<br>• ⟦6⟧: congenital closure or narrowing of an opening⟦7⟧
+1e246a41	The prefix hypo- means under and epi- means upon: hypospadias is the lower opening and epispadias the upper one.
+33119b0f	An inherited disease with many cysts in the kidney is…
+545ee5e7	Polycystic kidney and its section
+e48b5ac5	Two kidneys joined at their lower poles are a…
+113b3165	Horseshoe.
+ee3eca36	hypospadias means the urethral opening is on the upper surface of the penis.
+8c6bd7ee	hypospadias is the lower one; the upper one is epispadias.
+b7631c42	Build a word meaning “drooping of the kidney”
+eda1fba6	Match each anomaly to its meaning
+20971dec	underdeveloped kidney
+20aba185	upper urethral opening
+ac0f8e1e	congenital closure
+12c6ef63	Anomalies.
+b4b55df4	Enlargement of the kidney is ___.
+77393b7b	Spell the term meaning “having many cysts”
+566bd3cb	Kidney and bladder tumours
+a0849f70	⟦0⟧• ⟦1⟧ or ⟦2⟧: a malignant kidney tumour in children under 5<br>• ⟦3⟧: cancer of the kidney tubule cells in adults; ⟦4⟧<br>• ⟦5⟧: cancer of the bladder; key sign painless blood in the urine; smoking is an important risk factor<br>• ⟦6⟧: any kidney tumour
+e3cea524	On the photo
+9ad6caae	Removed kidney with a tumour
+c4eb5498	Bladder tumour seen through a cystoscope
+09df1c2b	Bladder tumour at cystoscopy
+bddce814	blast/o means immature cell; a nephroblastoma is a tumour of a child’s immature kidney cells.
+d07cd89d	A malignant kidney tumour in children is…
+2258f04e	The key sign of bladder cancer is…
+a3d1ece9	painless blood in the urine
+b59f0d7f	fever and chills
+13e41622	flank pain with a stone
+8f5e17d0	Smoking is an important risk factor for bladder cancer.
+6f1768ab	Along with occupational chemicals.
+978d9ec9	Build a word meaning “tumour of the kidney”
+b11bab37	Match each tumour to its feature
+cd927eba	children
+d452629d	adults, kidney tubule
+f87ed9d4	painless blood
+be53f193	any kidney tumour
+188f265b	Another name for Wilms tumour is ___.
+824b6dce	Spell the term for the childhood kidney tumour of immature cells
+566ef68a	KUB, IVP and pyelography, cystoscopy, catheterization, haemodialysis and peritoneal dialysis, lithotripsy, kidney and bladder operations, transplant and drugs
+57cc5858	Imaging and endoscopy
+fb664648	Catheterization, dialysis and lithotripsy
+4fca2983	Surgery, transplant and drugs
+7872bd0c	X-rays with and without contrast
+f60c5040	Four X-rays
+7ed4478b	⟦0⟧• ⟦1⟧: a plain abdominal X-ray of the kidneys, ureters and bladder, without contrast<br>• ⟦2⟧: contrast injected into a vein and excreted by the kidney<br>• ⟦3⟧: contrast from below through a cystoscope into the ureter and renal pelvis<br>• ⟦4⟧: contrast in the bladder and X-rays taken while voiding
+09f0393d	On the image
+46fa2a77	Renal pelves, ureters and bladder on an intravenous urogram
+2b12f821	Intravenous urogram
+ba15fc7a	Retrograde pyelogram
+771ece1c	The prefix retro- means backwards; in RP the contrast travels against the urine flow, from below upwards.
+91eb56ff	The X-ray that gives contrast through a vein is…
+7f6ba349	A plain abdominal X-ray without contrast is…
+d31a6bec	In VCUG, the X-rays are taken while voiding.
+b127ff82	Build a word meaning “X-ray imaging of the renal pelvis”
+57be3644	kidney, ureter, bladder
+b0a58d39	The abbreviation IVU means intravenous ___.
+523d77e4	Intravenous urography.
+a9dcfcca	Spell the term meaning “moving backwards”
+40bf674f	Images and scans
+084d8adc	-gram and -graphy
+5768def2	image of the bladder
+229ebddf	image of the kidney
+5247bd27	image of the renal pelvis
+e5b1d199	image of the urinary tract
+c2de9eb7	nuclear scan of kidney function
+a9e16696	X-ray of the kidney’s vessels
+119ea847	Ultrasound and biopsy
+6b4ccba4	⟦0⟧ uses sound waves to show kidney size, cysts, tumours and blockage; beforehand the patient drinks plenty of water to fill the bladder. ⟦1⟧ is sampling with a needle under ultrasound guidance.⟦2⟧⟦3⟧
+cd8fe931	Kidneys and ureters on a urogram
+0d446424	Excretory urogram
+9b7d2f3b	The suffix -gram is the image itself and -graphy the method of taking it.
+fea73e8f	An image of the kidney is a…
+824b2602	The imaging method using sound waves is…
+566b3f91	-gram means the image itself and -graphy the method of recording it.
+c3a38acf	Record and recording.
+80a55aaa	Build a word meaning “image of the bladder”
+de68ca0b	kidney function scan
+bbf8dc58	kidney tissue sampling
+33f17e9a	The images.
+3b573b07	The abbreviation US means ___.
+70c836d4	Ultrasonography.
+59ae8a62	Cystoscopy and cystometry
+9b92601e	looking inside the bladder
+e85e0b59	⟦0⟧A ⟦1⟧ is an optical instrument passed through the urethra into the bladder. ⟦2⟧ is for seeing tumours and inflammation, taking biopsies and removing stones and polyps. Similar instruments: ⟦3⟧, ⟦4⟧ and ⟦5⟧.
+b87029c4	⟦0⟧⟦1⟧ measures bladder function: the bladder is filled and the wall pressure is recorded; its tracing is a ⟦2⟧.⟦3⟧
+297aa0a7	Cystoscope in the urethra and bladder
+6d567655	The suffix -scope is the instrument and -scopy the procedure with it; you hold a cystoscope and perform a cystoscopy.
+67231965	The instrument for looking inside the bladder is a…
+85e667e4	-scope = instrument.
+4c8ba144	The test that measures bladder pressure during filling is…
+1e31d6e4	Cystoscopy is also used for biopsy and removing stones.
+bf1ac4b4	Build a word meaning “instrument for viewing the ureter”
+994e0461	Match each instrument or method to its use
+d210dca9	viewing the bladder
+01c8eb72	instrument for viewing the urethra
+9a65d4cf	looking inside the kidney
+a33d283a	measuring bladder pressure
+61b113d9	Endoscopy.
+f8934e31	The abbreviation cysto means ___.
+14ac513f	Cystoscopy.
+c97d9ad4	Spell the term for looking inside the bladder
+92f627eb	Urinary catheter
+96ec12c5	⟦0⟧A ⟦1⟧ is a flexible tube for removing or introducing fluid. ⟦2⟧ is passing a catheter through the urethra into the bladder. A ⟦3⟧ is an indwelling catheter with a balloon that holds it in the bladder.
+11bdea7b	⟦0⟧⟦1⟧A ⟦2⟧ is an external catheter with a sheath and leg bag. With a catheter, ⟦3⟧ is recorded accurately.⟦4⟧
+de8fb871	Foley catheter in a female bladder
+cbcd0f39	Emptying the urine bag
+03736968	Catheter bag
+a9f97490	In Greek, catheter means “something sent down”; a catheter sends urine down.
+bb1efe60	An indwelling catheter with a balloon is a…
+c484b793	The abbreviation cath means…
+e379537b	Catheterization.
+8ffca27d	A urinary catheter lowers the risk of urinary infection.
+32a96670	A catheter raises the risk of UTI.
+e44e18bc	Catheter in a female bladder and a separate catheter
+6b345aaa	Put the steps of catheterization in order
+bbfc4878	Cleaning, inserting, inflating, draining.
+fe09bdab	tube for draining fluid
+4594264b	indwelling catheter
+c43609d2	external catheter
+c658d850	The abbreviation EUD means external urinary ___.
+024b33f0	External urinary device.
+1a45c836	Spell the term for inserting a tube into the bladder
+521b0e83	catheter + -ization; spelling trap: cathaterization.
+f356bf8f	The artificial kidney
+d5f9c76d	⟦0⟧⟦1⟧ means the passage of substances through a semipermeable membrane. In ⟦2⟧ the patient’s blood passes through the dialysis machine and the ⟦3⟧ draws out urea and excess potassium; usually 4 hours, three times a week.
+b6d173be	Haemodialysis machine and blood lines
+96116804	Patient during haemodialysis
+88801ae3	Dialysis patient
+51b61fd3	The haemodialysis technician records the patient’s weight and vital signs before and after dialysis and watches the machine.
+5e68b45f	The prefix dia- means through and -lysis means separating: separating substances through a membrane.
+89ff535f	Cleaning the blood with an artificial kidney machine is…
+c9e1197b	What is the dialysis fluid called?
+ab555c6d	Haemodialysis is usually done three times a week.
+0880604e	About 4 hours each time.
+ab0510a8	Put the route of blood in haemodialysis in order
+5791cd19	From the patient to the machine and back.
+525d0f70	passage through a membrane
+f0226196	dialysis of the blood
+1da89deb	Dialysis.
+2cf864b2	The dialysis membrane is ___; it lets some substances through.
+394b6408	Semipermeable.
+9827e936	Spell the term for cleaning the blood with an artificial kidney
+fb4de5ee	The peritoneum is the filter
+3ec018c4	⟦0⟧In ⟦1⟧ dialysis fluid enters the peritoneal cavity through a catheter, stays for a few hours while wastes pass into it from the blood, and is then drained out. The peritoneum acts as the dialysis membrane.
+520a740d	Types
+46455d92	continuous ambulatory peritoneal dialysis; several times a day
+24d32b2c	cycling peritoneal dialysis; at night with a machine
+d698c78f	Dialysis fluid in and out
+5915b762	peritone/o means peritoneum; peritoneal dialysis means dialysis using the peritoneum.
+b1511bc9	In peritoneal dialysis, what acts as the membrane?
+20902287	The peritoneum.
+04c4f8b7	Peritoneal dialysis that the patient does during the day while walking around is…
+b663e476	CCPD is mostly done at night with a machine.
+82eacddf	Put one cycle of peritoneal dialysis in order
+414fff98	Filling, dwelling, draining.
+c837ea40	continuous ambulatory
+44c6b1ac	cycling overnight
+e37ecbad	intermittent
+d5c38184	Types of dialysis.
+9c5aae62	The adjective meaning “relating to the peritoneum” is ___.
+c18598b6	Stone crushing and removal

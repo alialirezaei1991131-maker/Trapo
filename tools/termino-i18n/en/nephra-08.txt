@@ -1,0 +1,160 @@
+bc2c9f4a	urgency means…
+e7ec39ff	an immediate need to urinate
+b2a09edf	In which procedure was the cystitis seen?
+2809ad47	Direct viewing of the bladder.
+c59257f1	Spell the term for night-time urination
+e30d160d	The urinalysis sheet
+ee31ce97	James Delgado, a 55-year-old man in the emergency department
+49e65c3e	On the sample urinalysis sheet in one of the appendix chapters, Mr James Delgado’s clean-catch urine is yellow and hazy. Specific gravity 1.018, glucose normal, blood 2+, pH 5.0, protein trace, nitrite negative, leukocytes 2+, white cells 20 to 50 and bacteria 2+ are reported.
+5337c682	What does this pattern mostly point to?
+4fbd22e6	simple dehydration
+6eb9d4f8	High white cells and bacteria.
+3919a4a0	A specific gravity of 1.018 is within the normal range.
+8bb0ce25	1.001 to 1.030.
+72a4da79	Next step
+9d6203bc	Which test is needed to find the microbe and the right antibiotic?
+42afaa75	Why was the sample taken by the clean-catch method?
+aefc71f5	to reduce contamination
+527679ca	to concentrate the urine
+91be9d0e	to measure the volume
+c649b878	A clean midstream sample.
+0c6955f7	Spell the term for bacteria in the urine
+0f3ab3b5	Diabetes and the dipstick
+20ca000d	Brad Leighton, an 11-year-old boy
+899f5f36	In the textbook’s applied scenario, Brad Leighton is an 11-year-old boy with juvenile diabetes. The doctor has ordered a urinalysis for acetone, ketones, sugar, specific gravity and pH. You must know what each test means and say whether sugar is normally present in urine.
+4900e6b6	Normal urine contains no sugar.
+e1898ff6	Ketones in the urine mean the body…
+27b63911	is burning fat instead of sugar
+5d6c2c61	has drunk a lot of water
+6b40f4ab	has an infection
+93087b0e	has a stone
+8ec20195	What does specific gravity show?
+0f953c71	the concentration of dissolved substances in urine
+b898f01f	the number of bacteria
+04fbd3c7	the daily volume
+42b803d2	Match each test to its meaning
+a190ba92	acidic or alkaline
+2101d243	The dipstick.
+70d7f9a1	Spell the term for ketones in the urine
+6bf6b968	The thirsty runner
+821be9c5	Jana Smith, a marathon runner
+f5e3c626	In the textbook’s applied scenario, Ms Jana Smith, who is training for a marathon and ate and drank little before running, complains of painful urination, scanty urine and thirst. Her test shows negative sugar, trace ketones and acetone, many white cells and positive red cells.
+7128cf00	The likely cause of the trace ketones in this patient is…
+f44835aa	hunger and hard exercise
+2c093979	definite diabetes
+390db738	Priority
+7a444b72	Many white cells in the urine should be checked for infection.
+a828fe39	oliguria means…
+374543b8	Suitable advice for dehydration is…
+9e6de829	drinking enough fluids
+d9254faa	a diuretic
+5438bf00	stopping food
+e4fb333a	more exercise
+c7d3b588	Replacing fluids.
+0761e100	Spell the term for excessive thirst
+282654cf	Fever, chills and burning urination
+7845b8fd	A 32-year-old woman at the urology clinic
+60c29fa4	A case study in Fremgen’s textbook: a 32-year-old woman came with fever, chills and tiredness and reports urgency, frequency, painful urination and blood in her urine. Her urine is cloudy and foul-smelling. The doctor ordered a clean-catch urinalysis, culture and sensitivity and a KUB X-ray. Urinalysis showed pyuria, bacteriuria and a slightly acidic pH, and the diagnosis was acute pyelonephritis arising from cystitis. Antibiotics and drinking two litres of water a day were prescribed.
+eead57fa	What are this patient’s two infections?
+796219ca	cystitis and pyelonephritis
+0dbcef6c	urethritis and nephrosis
+9d95976e	cystitis and nephrolithiasis
+622a6a85	pyelitis and glomerulonephritis
+4113b458	Bladder and kidney.
+a74b5ba1	Which infection caused the other?
+64a4af68	the cystitis climbed to the kidney
+bd4d0ad7	the pyelonephritis came down to the bladder
+37eaccbd	they were separate
+e6a54276	it came from the blood
+100a0823	A KUB is a plain X-ray without contrast.
+3751dd96	Put the workflow in order
+49ba0e82	From history to treatment.
+18040b4a	Spell the term for inflammation of the renal pelvis and kidney
+7ccf5028	Helen, a 48-year-old woman
+0708b563	Case Study 14-1 in Cohen’s textbook: Helen is a 48-year-old woman with severe right flank pain that painkillers do not relieve. She has had a chronic urinary infection for three months and has been taking calcium supplements for osteoporosis for six months. An intravenous urogram showed a right staghorn calculus. The ureteral stone was broken up with a laser, a retrograde catheter was placed and a percutaneous nephrolithotomy was done. At discharge she was told to strain her urine for a week.
+ded78675	What is a staghorn calculus?
+4b3143ea	a large stone filling the renal pelvis and calyces
+2b7d318f	a small stone in the urethra
+5fac5bd4	Antler-shaped.
+1a705fcd	percutaneous means…
+96743e61	on the surface
+b12fae18	with a catheter
+dc216063	nephrolithotomy means…
+6f8367a1	incision into the kidney to remove a stone
+75ca2cf6	crushing a stone with waves
+a4edf5f1	Taking calcium supplements can be a problem for someone who forms stones.
+c19f7c85	IV contrast X-ray
+1000b50e	The water-logged kidney
+55fe807f	A 65-year-old man
+c9025363	In a case exercise in one of the appendix chapters, a 65-year-old man with abdominal pain that had come and gone for two years was admitted. He had a kidney stone. Urography showed poor function of the right kidney, which was small and scarred (hypoplastic). On cystoscopy and MRI the right kidney was poorly positioned and a stricture was seen in the lower third of the ureter. Admission diagnosis: right hydroureter and hydronephrosis; he was admitted for nephrectomy.
+fcf1ca01	hydronephrosis means…
+6bba1be8	urine collecting and the renal pelvis swelling from a blockage
+18a62539	small kidney
+be9783b8	stricture means…
+990b68a5	A hypoplastic kidney is an underdeveloped kidney.
+3c6eb1d7	nephrectomy means…
+a76cb19b	X-ray of the urinary tract
+bed6679d	kidney stones
+80ee42cb	Spell the term for urine collecting in a dilated renal pelvis
+9cd18e7b	Stone in the right ureter
+a5935f46	A 36-year-old man
+8b59d138	A chart note transcription in Fremgen’s textbook: a 36-year-old man came to the urinary tract specialist with right flank pain and blood in his urine. He had a history of bladder infection. Clean-catch urinalysis showed blood without pus. On an X-ray taken after injecting contrast into the bladder, the dye rose only halfway up the right ureter. The diagnosis was a right ureteral stone; it was broken up with sound waves and the fragments were passed.
+e682d1ad	X-ray
+479629e1	The X-ray in which contrast rises from the bladder upwards is…
+02ac4f97	retro- = backwards.
+ecbc2e02	No pyuria was seen in this patient’s test.
+c5739254	There was blood but no pus.
+2ccf8adf	Match each other phrase to its term
+4273fd31	Rewriting.
+02c2e1ba	Spell the term for a stone in the ureter
+b6835e83	From dialysis to transplant
+f41309cd	Adrien, a 20-year-old student
+44d64710	Case Study 14-2 in Cohen’s textbook: Adrien is a 20-year-old student who has had chronic glomerulonephritis since age 7, has done CAPD at home for 16 months and is waiting for a kidney transplant. He came to the emergency department with chest pain, shortness of breath and oliguria. BUN and creatinine were very high and haemoglobin was 8.2. Diagnosis: ESRD, fluid overload and metabolic acidosis. He was sent for haemodialysis and a bed was reserved for him on the transplant ward.
+58d8ba7c	CAPD means…
+05fb5383	overnight haemodialysis
+b862551e	Passing blood through a machine and returning it to the patient is…
+199ff3e6	Adrien’s low haemoglobin fits with a lack of erythropoietin in kidney failure.
+ee014b8a	walk-around abdominal dialysis
+84fcfd5f	Spell the term for dialysis of the blood through a machine
+caddacbf	Bladder stones
+80a9e524	Heather, a 40-year-old woman
+b6882468	In a case exercise in one of the appendix chapters, Heather, a 40-year-old woman, came to the urinary tract specialist with frequency, painful urination, blood in her urine, lower abdominal pain, mild fever and tiredness. A urinalysis and a kidney-ureter-bladder X-ray were done. The urine was cloudy, foul-smelling and contained red cells; several small stones were seen in the bladder. The diagnosis was urinary infection and bladder stones. She received antibiotics and had a cystoscopy to remove the stones.
+df54a670	Case exercise.
+f642c0bc	A bladder stone is a…
+413df0ac	A drug that kills bacteria is an…
+5e6fb02e	The procedure that removes a bladder stone with an instrument through the urethra is…
+cc70f185	ESWL from the side
+7b66b68a	calculi is the plural of calculus.
+d54ae23f	Stones.
+9350fd17	Spell the term for a bladder stone
+99e9b7fb	The urinary system: two kidneys, two ureters, one bladder and one urethra.
+1f487ea9	nephr/o and ren/o both mean kidney; cyst/o and vesic/o both mean bladder.
+9837d365	pyel/o is the renal pelvis and py/o is pus; pyelitis is different from pyuria.
+d350ac09	vesical is the adjective for the bladder and vesicle means blister.
+4bb5d908	A nephrologist is a kidney physician and a urologist a urinary tract surgeon.
+119a9fbf	The kidneys are behind the peritoneum: retroperitoneal.
+6db0b282	The outer layer of the kidney is the cortex, and the inner part is the medulla with its pyramids.
+7ea3c235	The nephron is the kidney’s working unit; each kidney has more than a million nephrons.
+7b41582d	The three steps of urine formation: filtration, reabsorption and secretion.
+f56b9cd7	The afferent arteriole brings blood to the glomerulus and the efferent arteriole takes it away.
+5b3b3a00	The kidney makes renin, which raises blood pressure, and EPO, which makes red blood cells.
+97c3fd5d	The bladder trigone lies between the two ureteral openings and the urethral opening.
+a855801f	The internal urethral sphincter is involuntary and the external sphincter is voluntary.
+e7c8f8c7	micturition, urination and voiding all mean passing urine.
+d0b0a696	Stress incontinence is leaking with coughing, and urge incontinence is leaking with sudden urgency.
+7213f60e	-stenosis is narrowing, -ectasis widening and -cele bulging.
+95ca3b1b	Urine is about 95% water, and 1 to 2 litres are made each day.
+8384f33a	anuria is no urine, oliguria scanty urine and polyuria excessive urine.
+da73aa5c	hematuria is blood in the urine, pyuria pus and glycosuria sugar in the urine.
+1375a6f7	The normal specific gravity of urine is about 1.001 to 1.030.
+df3dbd86	azotemia and uremia mean build-up of urea and nitrogenous wastes in the blood.
+3dec5ce7	Na comes from natrium and K from kalium: hyponatremia and hyperkalemia.
+9188fa03	Urinary infection climbs up from the urethra; it is more common in women.
+53c8d37c	Cystitis causes burning and frequency; pyelonephritis causes fever and flank pain.
+ffc2b267	A stone or stricture in the ureter backs up urine and causes hydronephrosis.
+38ad907a	ESRD is the final stage of kidney failure; its treatment is dialysis or transplant.
+9528ad98	Wilms tumour is a childhood kidney tumour; painless blood in the urine is a sign of bladder cancer.
+c3e8c498	A KUB uses no contrast; in IVP contrast is injected into a vein.
+ab74e4c9	ESWL breaks a stone with waves from outside the body; no incision.
+01c7fed3	Haemodialysis passes blood through a machine; in peritoneal dialysis the peritoneum is the filter.
+62fffb1f	-ectomy is removal, -tomy incision, -stomy a new opening and -pexy fixation.

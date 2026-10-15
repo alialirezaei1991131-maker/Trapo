@@ -1,0 +1,330 @@
+c095ad12	Nephra
+3189f441	Nephra • Urinary Terminology: Kidneys and Urinary Tract
+f5e842f0	Medical terminology of the urinary system: kidney, nephron, ureter, bladder, urethra and urine
+3e3d1017	🫘 Medical terminology: The Urinary System
+3d837e19	Hi, I’m <b>Nephra</b>, a bean-shaped kidney that filters 180 litres of blood a day and is still full of energy!
+7ef44a5c	Nephra is an educational tool and does not replace examination, testing, clinical judgement or a physician’s orders.
+8ac1e96b	Dozens of bilingual figures and teaching pictures, from the renal cortex and medulla and the nephron to the bladder, stones, hydronephrosis, cystoscopy, dialysis and kidney transplant.
+66e972df	Break every urinary word into prefix, root and suffix and say what it means
+1f593bf8	Show the parts of the kidney and nephron and the three steps of urine formation on a figure
+2e526e4e	Tell apart the ureter, bladder, urethra, sphincters and the types of incontinence
+55107513	Read urinalysis findings and signs such as oliguria, hematuria and pyuria
+2e6baad5	Write urinary infection, stones, hydronephrosis, glomerulonephritis and kidney failure with the right term
+1929ea95	Recognise KUB, IVP, cystoscopy, catheterization, dialysis, ESWL and kidney transplant, and interpret eGFR
+782548c9	Just 5 minutes a day. A few weeks from now you’ll read a urinalysis sheet and a urology report like a familiar story.
+e9def82a	Hi! I’m Nephra, a smiling bean-shaped kidney 🫘 What’s your name?
+4cf9434f	Which world shall we start with? If you’re new, “Language of the Kidney” is the best start; the basic urinary roots are taught there!
+898ee172	The word <b dir="ltr">nephrolithiasis</b> means…
+1ab9d3c3	Where stones form in the urinary tract
+0263c141	drooping of the kidney
+c9460620	⟦0⟧<br>The root <b dir="ltr">nephr/o</b> means kidney, <b dir="ltr">lith/o</b> means stone and the suffix <b dir="ltr">-iasis</b> means condition; so it means <b>kidney stones</b>. Start the meaning from the suffix!
+889196a8	Curious Droplet
+f51b8f79	Nephron Explorer
+6a3f356c	Glomerulus Guardian
+54772207	Master of the Renal Pelvis
+6ca64a66	Bladder’s Friend
+3ccad7a6	Ureter Guide
+e1edc5dc	Urinalysis Reader
+b4dcd818	Stone Hunter
+498ca4dc	Infection Detective
+6a603698	Dialysis Master
+07673b0f	Kidney Legend
+19d554b6	urology resident
+df012222	dialysis nurse
+a12a5837	nephrology resident
+0b587db1	haemodialysis technician
+9b28d07f	transplant ward nurse
+5d700ea1	dietitian
+7c945c91	physician assistant
+83eed9a7	Bladder Guardian
+c916f2c9	Urine Reader
+e85ca3dd	Kidney Detective
+4b259bd7	Treatment Master
+f1b6222f	Search: nephron, bladder, cystitis…
+cb5bbf04	Search: nephr, urine, -uria…
+65db45ca	Search: UTI, urea, KUB…
+6cfce292	⚕️ Nephra is a learning tool; the dictionary and kidney calculator do not replace tests, examination or a physician’s judgement.
+82725f2a	normal or high
+c4eaf381	mildly decreased
+b53df306	mildly to moderately decreased
+567817cc	moderately to severely decreased
+cf4db47d	severely decreased
+08f0f51b	kidney failure
+f606f46e	<p class="kf__note">Enter serum creatinine (mg/dL) and age (18 years or older).</p>
+8ff510b3	Below 15 means kidney failure, the stage that often leads to dialysis or kidney transplant (ESRD).
+22d3d147	An eGFR below 60 that lasts more than three months means chronic kidney disease (CKD).
+2f1aaf83	An eGFR above 60 does not by itself rule out chronic kidney disease; urine protein and kidney damage also matter.
+88b5d5e0	<p class="kf__note">Enter urine volume, body weight and collection time.</p>
+934a4914	no urine
+ee53f7a1	scanty urine
+67e9822a	normal output
+bc123d14	Output
+13d21ebb	Per 24 hours
+8ebb3692	normal about 1000 to 2000
+11ab030b	Kidney calculator
+e27955af	<div class="tpane"><p class="muted">eGFR estimates how much blood the glomeruli filter each minute. Enter serum creatinine, age and sex.</p>⏎    <div class="kf__sxs" role="group" aria-label="Sex">⟦0⟧⟦1⟧</div>⏎    <div class="kf">⟦2⟧⟦3⟧</div>⏎    <div class="kf__res" aria-live="polite">⟦4⟧</div>⏎    <table class="mini"><tr><th>Stage</th><th><bdi dir="ltr">eGFR</bdi></th><th>Meaning</th></tr>⏎      <tr><td><bdi dir="ltr">G1</bdi></td><td><bdi dir="ltr">≥ 90</bdi></td><td>normal or high</td></tr><tr><td><bdi dir="ltr">G2</bdi></td><td><bdi dir="ltr">60 – 89</bdi></td><td>mildly decreased</td></tr>⏎      <tr><td><bdi dir="ltr">G3a</bdi></td><td><bdi dir="ltr">45 – 59</bdi></td><td>mild to moderate</td></tr><tr><td><bdi dir="ltr">G3b</bdi></td><td><bdi dir="ltr">30 – 44</bdi></td><td>moderate to severe</td></tr>⏎      <tr><td><bdi dir="ltr">G4</bdi></td><td><bdi dir="ltr">15 – 29</bdi></td><td>severely decreased</td></tr><tr><td><bdi dir="ltr">G5</bdi></td><td><bdi dir="ltr">&lt; 15</bdi></td><td>kidney failure</td></tr></table>⏎    ⟦5⟧⏎    <h4 class="kf__h">Urine output</h4>⏎    <div class="kf">⟦6⟧⟦7⟧⟦8⟧</div>⏎    <div class="kf__uo" aria-live="polite">⟦9⟧</div>⏎    <h4 class="kf__h">Normal urinalysis values</h4>⏎    <table class="mini"><tr><th>Component</th><th>Normal</th></tr>⏎      <tr><td>Colour</td><td>straw to golden yellow, clear</td></tr><tr><td>Specific gravity <bdi dir="ltr">(SG)</bdi></td><td><bdi dir="ltr">1.001 – 1.030</bdi></td></tr>⏎      <tr><td><bdi dir="ltr">pH</bdi></td><td><bdi dir="ltr">5.0 – 8.0</bdi></td></tr><tr><td>Protein</td><td>negative to slight <bdi dir="ltr">(trace)</bdi></td></tr>⏎      <tr><td>Glucose and ketones</td><td>negative</td></tr><tr><td>Blood</td><td>negative</td></tr></table>⏎    <p class="muted">Staging is based on KDIGO and the CKD-EPI 2021 equation and is not accurate for children, pregnancy or a sudden change in creatinine. Diagnosis is for the physician.</p></div>
+bf855c71	Male
+0a7a4581	Serum creatinine (mg/dL)
+25e87905	Age (years)
+7e60185c	Stages of chronic kidney disease
+6ea8c8b2	Urine volume (mL)
+170a37fd	Weight (kg)
+9685a092	Duration (hours)
+93a1ee26	excess acid in body fluids
+465d65d2	sudden loss of kidney function
+1d1d93e5	acute tubular necrosis
+2c5d7e75	gland sitting on top of each kidney
+0f4ea648	afferent arteriole
+190c4f03	albumin-to-creatinine ratio
+50279fee	albumin in the urine
+e14fa48a	aldosterone
+53513073	hormone that narrows vessels and raises blood pressure
+a7bbe8e6	drug that blocks acetylcholine and relaxes the bladder
+b77e1028	antidiuretic hormone
+6c6361f8	drug that relieves muscle spasm
+43bb37df	failure to pass urine
+1203a9bc	complete absence of urine output
+26814e2d	congenital closure of a passage
+0712d66f	excess nitrogenous waste in the blood
+c8763b2c	increased nitrogenous compounds in the urine
+166543b1	bacteria in the urine
+423eab54	bladder cancer
+fbf0a2d3	bladder neck obstruction
+f3bc28f5	blood urea nitrogen
+93679e30	relating to a calyx
+885c3c51	calyx (cup of the kidney)
+7961ec35	tube-shaped particles in the urine
+20c259f6	catheterization
+1f7a49fc	abnormal urine colour
+6ab98d29	chronic kidney failure
+bb61d34d	clean-catch midstream specimen
+9d2e9148	rate at which a substance is removed from the blood
+86b4669f	collecting duct
+23cc9b36	external sheath catheter for men
+4f5b11bc	ability to control urination
+c7baf094	relating to the outer layer
+4c555c0f	creatinine
+01e157ef	creatinine clearance
+571335fa	pain in the bladder
+a637d4b9	removal of the bladder
+f1571a7b	relating to the bladder or a cyst
+c74e5f88	inflammation of the bladder
+5f736519	bladder bulging into the vagina
+1d0b5569	X-ray image of the bladder
+22918613	X-ray imaging of the bladder with dye
+e60c3eed	bladder stone
+92308b0d	cystometry
+300e36f9	fixation of the bladder
+fa043891	surgical repair of the bladder
+5db4c86b	bleeding from the bladder
+c9ae3501	suturing of the bladder
+de513038	instrument for viewing the bladder
+bc7c4464	cystoscopy
+5213f433	opening from the bladder through the abdominal wall
+ba73fcfe	incision into the bladder
+f625181e	detrusor muscle
+f1baa703	diabetes insipidus
+9eaf4ae9	kidney damage from diabetes
+d257cedf	dialysate
+c2f0f3dd	distal convoluted tubule
+d985591d	increased urine output
+63f18e28	drug that increases urine output
+6829c207	burning and pain on urination
+8d5e0df3	efferent arteriole
+d6f9b232	electrolytes
+d161ae29	end-stage renal disease
+982a43d8	urethral opening on the upper side of the penis
+de47b7b0	estimated glomerular filtration rate
+1f3638d9	excretory urography
+b067df31	voluntary outer urethral muscle ring
+52c68f5e	extracorporeal shock wave lithotripsy
+efd77db3	passing fluid through a filter
+a86f9ae4	Foley catheter
+9f3d3295	destroying tissue with an electric spark
+fde1e0fe	glomerular
+966cf693	Bowman capsule
+4682ac06	fluid filtered out of the glomerulus
+324d3544	glomerular filtration rate
+0c6af6e1	inflammation of the glomerulus
+01338b91	glomerulonephritis
+3f29f794	sugar in the urine
+97f13fe2	blood in the urine
+8187f4b7	delay in starting the urine stream
+af7c0886	notch where vessels enter the kidney
+d2ff4517	keeping the internal environment stable
+cb60296b	horseshoe kidney
+b7c844b4	hydronephrosis
+e53e46d5	ureter swollen with urine
+2214c8cf	high blood potassium
+1b4b5f1c	high blood sodium
+26767fdb	low blood potassium
+40d8d8d0	low blood sodium
+fc3f04fd	low blood protein
+5ca7dfe4	urethral opening on the underside of the penis
+f98e7fad	decreased blood volume
+8ad517fc	ileal conduit
+925df86b	involuntary inner urethral muscle ring
+f7f206b7	between the kidneys
+2bf5cc77	chronic bladder wall inflammation without infection
+f19ae8ac	inflammation of the tissue between the kidney tubules
+96aefb12	within the kidney
+97421c20	intravenous pyelography
+e5244c30	within the bladder
+2c6c9c6b	beside the glomerulus
+b3f1fe94	potassium loss in the urine
+f83a5b08	ketones in the urine
+12fb7c29	plain X-ray of kidneys, ureters and bladder
+7254e5c8	incision to remove a stone
+650523a0	relating to the urethral opening
+7739f9c9	incision of the urethral opening
+b21a5e30	relating to the inner part
+f0adaa76	the act of passing urine
+c07f4f57	micturition reflex
+316123a5	sodium loss in the urine
+8113007b	removal of a kidney
+c467612b	inflammation of the kidney
+da54d1fa	childhood kidney cancer (Wilms tumour)
+798b2318	X-ray image of the kidney
+a8623e01	kidney stone
+4d1b9ca0	incision into the kidney to remove a stone
+5f1c5096	kidney specialist
+6b479cdd	study of the kidney and its diseases
+4e053f05	freeing the kidney from adhesions
+560faff0	tumour of the kidney
+bfc2f80e	softening of the kidney
+e5698ae4	nephron
+bb3e12a4	loop of Henle
+e1634159	suturing of the kidney
+b09d9dfd	hardening of the kidney
+84673b31	viewing inside the kidney with an endoscope
+7356aa5b	degenerative kidney disease
+1a7ffb2b	opening from the kidney through the abdominal wall
+0c2ba0a6	nephrotic syndrome
+81f32634	incision into the kidney
+851cfc5d	poisonous to the kidney
+e5d78301	neurogenic bladder
+943036bb	frequent urination at night
+c5c2259f	around the kidney
+7f8adac8	fat around the kidney
+2c0c2ef3	surrounding the kidney
+4e413749	wave-like contractions
+4db778f8	peritoneal dialysis
+d374312b	peritubular capillaries
+67c0e8ad	polycystic kidney disease
+b67710d5	excessive thirst
+de10a3cf	after the kidney
+8dd35c78	before the kidney
+be4dc089	prostate gland
+1ecadb4e	protein in the urine
+5c0bfa95	proximal convoluted tubule
+abccb53c	dilation of the renal pelvis
+45464ee6	relating to the renal pelvis
+8311b495	inflammation of the renal pelvis
+f9453807	X-ray image of the renal pelvis
+de246523	removal of a stone from the renal pelvis
+0e2ba4c5	kidney infection
+75882625	repair of the renal pelvis
+aa5fd4c2	incision into the renal pelvis
+73b18bf3	pus in the urine
+d0a35040	reabsorption
+9ea68c92	X-ray of the kidney’s blood vessels
+321789ad	renal artery
+ffe55ce5	kidney biopsy
+079eef84	renal capsule
+e07775ac	renal cell carcinoma
+9d38328f	renal colic
+cb662b83	strip of cortex between the pyramids
+cd188676	renal corpuscle
+35e3f9a3	outer layer of the kidney
+b90a0495	fibrous sheath anchoring the kidney
+d3aff450	high blood pressure caused by kidney disease
+fc17fca5	underdeveloped kidney
+c1374748	mild kidney failure
+b1ebdc0a	renal medulla
+db91f3b9	tip of a pyramid opening into a calyx
+5840cb32	renal pelvis
+e06d6efa	cone-shaped tissue in the medulla
+539fb6f1	kidney transplant
+453a5d8f	tube of the nephron
+8abcc16a	renal vein
+80986bfe	renin
+4d90d285	nuclear scan of kidney function
+920746a5	instrument for cutting through the urethra
+ddb093a4	retrograde pyelography
+346a4475	folds of the bladder lining
+1ac5ece9	density of urine compared with water
+80916b02	staghorn calculus
+d7acdc7e	stress incontinence
+1658c114	through the urethra
+68a1ef27	triangular area of the bladder floor
+cf960cde	inflammation of the trigone
+168d4913	cloudy urine
+c33213c0	urea
+2d8c8b3e	uremia
+0c790eb0	tube carrying urine from kidney to bladder
+c1425a1d	relating to the ureter
+91eb9827	ureteral orifice
+86d49616	ureteral stent
+5d0717f9	removal of a ureter
+a9cf5edd	inflammation of a ureter
+7b7cf0f9	ureterocele
+6eb9fd57	stone in the ureter
+5b9c06d3	repair of a ureter
+4a44e34a	bleeding from a ureter
+93cec3e6	suturing of a ureter
+b0392424	instrument for viewing the ureter
+adc1c29a	narrowing of a ureter
+424deed1	opening from a ureter to the skin
+099b781b	tube carrying urine out of the bladder
+64312067	relating to the urethra
+7d582ba8	pain in the urethra
+31367a4a	inflammation of the urethra
+68db0c1c	bulging of the urethra
+0f0f5092	inflammation of the urethra and bladder
+b811b0b5	fixation of the urethra
+caeba9b7	repair of the urethra
+972d2970	bleeding from the urethra
+6e1e6eb4	discharge from the urethra
+3001a180	instrument for viewing the urethra
+3b2e3938	narrowing of the urethra
+a5997ae6	incision of the urethra
+68b69fe5	urge incontinence
+cb546a1a	urgency
+da9832f9	urinalysis
+ccfa4488	frequent urination
+db001493	urinary meatus
+85ac1b07	urinary retention
+f683777f	stagnation of urine flow
+9fcc3624	passing urine
+7af3d544	instrument measuring urine density
+67c18f12	X-ray image of the urinary tract
+ca2e5b85	specialist in female bladder and pelvic floor problems
+c286c2c6	urology
+4a4f7323	any disease of the urinary tract
+ff5ea16f	deficiency of urine
+211bd0cf	opening on the abdomen through which urine leaves
+b6ef9a19	relating to the bladder
+ffe604af	blister, small sac
+ec7ecadb	hernia of the bladder
+2727aa3c	vesicovaginal fistula
+b7d28dbd	voiding cystourethrography
+55fe98ea	water intoxication
+41e0e66a	painful, difficult
+0bd23a8a	not, without
+d5d8c143	cortex
+25616815	medulla (inner part)
+25b165d4	ureter
+8aa9e4ee	trigone
+44d5b7b2	opening
+e9557f2b	genitals
+f9916527	albumin
+36f87875	nitrogenous waste
+aacec0c5	thirst
+7e4be028	ketones
+d24a664d	death (of tissue)
+d382810f	urination
+21b37746	having stones
+77a24943	hardening
+0604e53a	growth, formation
+2a414d70	producing
+15c6b9bc	surgical fixation

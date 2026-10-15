@@ -1,0 +1,225 @@
+5e3dd395	Without or with an incision
+271efbc0	⟦0⟧• ⟦1⟧: crushing a stone so it passes in the urine<br>• ⟦2⟧: shock waves from outside the body; no surgery<br>• ⟦3⟧: an incision to remove a stone<br>• ⟦4⟧: removing a stone from the kidney; the percutaneous type goes through the skin with an endoscope
+ca9057e6	⟦0⟧⟦1⟧⟦2⟧A ⟦3⟧ is a thin tube in the ureter that lets urine pass a blockage.⟦4⟧
+01f55b82	Lithotripsy table and machine
+8b95b430	ESWL machine
+75944495	Stent from kidney to bladder
+67f96f38	The wave reaches the kidney from a water bag
+365b16c1	Lithotripsy with a water bag
+635489f5	The prefix extra- (outside) + corpor/o (body) + -eal: extracorporeal means outside the body.
+e9497df1	Crushing stones with waves from outside the body is…
+8dea73fb	An incision into the kidney to remove a stone is…
+c160e970	ESWL does not need a surgical incision.
+df637876	Focused beam on the kidney stone
+65b977c6	Build a word meaning “crushing a stone”
+1475bc11	incision for a stone
+bb4edbf0	stone from the renal pelvis
+afdf056e	tube in the ureter
+2b8cb23d	Stone treatment.
+fe7aef0e	After lithotripsy, the urine is ___ to find the fragments.
+e5975abb	Straining the urine.
+8765532f	Spell the term for crushing stones
+ca7e5267	lith/o + -tripsy; spelling trap: lithotripsey.
+49ed73d6	Kidney and bladder surgery
+da55f098	⟦0⟧⟦1⟧ is removal of a kidney, ⟦2⟧ an opening from the kidney to the skin, ⟦3⟧ repair of the renal pelvis, ⟦4⟧ removal of the bladder, ⟦5⟧ fixation of the bladder and ⟦6⟧ an incision of the urethral opening to widen it.
+9451fa29	When there is no bladder
+f70bf9ed	⟦0⟧⟦1⟧After a ⟦2⟧, the ureters are joined to a piece of ileum that opens on the abdomen: an ⟦3⟧ or ⟦4⟧.⟦5⟧
+8f931349	Ureters joined to a piece of ileum
+c567f809	Three similar suffixes: -tomy means incision, -ectomy removal and -stomy a new opening; the letters e and s make the difference.
+eb8126cb	Removal of a kidney is…
+603412e3	An artificial opening in the abdomen for urine to leave is…
+444b16c1	nephropexy means fixing a kidney that has dropped.
+2de084a9	-pexy = fixation.
+1cd1cfd0	Build a word meaning “repair of the renal pelvis”
+fbf96993	The operations.
+b029fa2d	Making an opening into the bladder through the abdominal wall is ___.
+549d114f	Spell the term for removal of a kidney
+6723b3ae	Transplant and drugs
+46879411	⟦0⟧In ⟦1⟧ the donor kidney is placed in the lower abdomen, beside the iliac vessels, and its ureter is joined to the bladder; the patient’s own kidneys usually stay in place.⟦2⟧
+dbca9bc5	Transplanted kidney and the patient’s kidneys
+8b88696a	Site of the transplanted kidney
+d5df4248	treating urinary infection; e.g. ciprofloxacin
+428561a1	increasing urine output; e.g. furosemide
+dedd7048	reducing bladder spasm; e.g. oxybutynin
+e705072e	treating an overactive bladder
+ba315c9b	lowering blood pressure
+4c7fb1d5	The prefix anti- means against: antibiotic against microbes, antispasmodic against spasm.
+16591f64	Where is a transplanted kidney usually placed?
+20596eb6	lower abdomen beside the iliac vessels
+2b7665c0	in place of the patient’s kidney
+6b925587	behind the bladder
+ba872207	under the diaphragm
+7b47db2e	Transplanted kidney and iliac vessels
+1020cc84	A drug that reduces bladder spasm is…
+401a0cc2	In a kidney transplant, the patient’s own kidneys are always removed.
+6eebbdfa	They usually stay in place.
+437d9df5	Put the steps of a kidney transplant in order
+0bdd7a1d	Donation, placement, connection, follow-up.
+febb9558	increasing urine
+beef55c8	bladder spasm
+6ded656d	The well-known urine-increasing drug furosemide is a ___.
+f877575d	Spell the term for a drug that increases urine output
+103d20ab	Spelling trap: not diuritic.
+b7f613f2	Nephry
+5bce2230	The curious bean kidney
+5660c043	A happy kidney that filters about 180 litres of blood a day; nephr/o and ren/o are its names.
+c742d6aa	Master of nephr/o and cyst/o
+dd25e753	A living dictionary that breaks every urinary word into root, prefix and suffix and never mixes up ureter and urethra.
+568a6b76	King of the -uria suffix
+a0ef5871	Places an-, olig/o and poly- beside -uria, -lith and -tripsy and builds new words.
+2ca8531b	The blood-filtering tuft
+d42eb083	The capillary tuft inside Bowman capsule; it lets water, salt and urea out of the blood but keeps back cells and protein.
+e7d493a5	Reabsorption Champion
+15a019a2	From the proximal convoluted tubule to the loop of Henle, it returns most of the water and sugar to the blood so the body does not dry out.
+c0e53764	EPO Courier
+49da9700	Messenger to the bone marrow
+afbc28cf	Carries erythropoietin from the kidney to the bone marrow to make red blood cells; its friend renin raises blood pressure.
+84fc9587	Yellow Drop
+2029c04c	Traveller of the ureter
+a534c247	Rides the peristaltic waves down the ureter and drops into the bladder every 10 to 30 seconds.
+64bc5905	Bladdy
+d5dc8705	The elastic urine store
+f189d262	Stretches with its rugae folds and, at about 300 to 400 mL, sends the signal to empty through the detrusor muscle.
+82e84b17	Sphincter Lock
+0a8d600c	Guardian of bladder control
+2b7a0862	The external sphincter is voluntary; if it weakens, stress incontinence follows.
+9c8e8461	Sample Cup
+d1db2a2a	Clean-catch hunter
+d3d67e54	Catches only the middle of the stream (clean-catch) so skin microbes do not spoil the test.
+8d587986	Dipstick
+1a8072b2	Each square is a test: sugar, ketones, blood, protein, pH and specific gravity; every positive square is an -uria.
+a2aac1a2	Electrolyte Scales
+7f539970	Guardian of sodium and potassium
+6a4b8278	Tells hypernatremia from hypokalemia and knows how the kidney keeps blood pH steady.
+1d2ce55a	Pebble
+cea91cd3	Troublemaker of the renal pelvis
+79b712b3	A calcium-salt kidney stone that causes renal colic and hydronephrosis when it lodges in the ureter.
+5200e6a6	E. coli Hunter
+62109bee	Fights the microbes climbing up the urethra so cystitis does not become pyelonephritis.
+639e7629	Nephron Shield
+dfd7be94	Guardian of the kidney filter
+95884185	Protects the glomeruli from diabetes and high blood pressure so things never reach chronic kidney failure.
+13a002a4	Dialyzer
+33387b80	Passes blood across a semipermeable membrane so urea and excess potassium move into the dialysis fluid.
+ac5a3d43	eGFR Meter
+febb97e6	Calculator of kidney function
+4e564224	Works out eGFR from creatinine, age and sex and names the chronic kidney disease stage from G1 to G5.
+8dbdf5f5	Nephra’s Scribe
+e18117ac	Master of the urology chart
+eef7f712	Reads UA, KUB, IVP, ESWL and CAPD at a glance and stays with you from urinalysis to kidney transplant.
+3ac68f50	Referral to a urologist
+f4fa1a26	Betty Garble, a 46-year-old woman
+572dc402	In the textbook’s applied scenario, the family doctor has referred Mrs Betty Garble, who has had five children, to a urologist because she has trouble controlling her urine. You must explain to her who a urologist is and which structure controls the release of urine.
+8cd84b02	Who is a urologist?
+d77e6e7d	specialist in diseases of the urinary tract and male reproductive system
+6da4e0ab	kidney and dialysis specialist
+2a013988	nerve specialist
+f7c06583	The medical term for “inability to hold urine” is…
+3406fd50	Which structure controls the voluntary release of urine?
+ad603a9f	The external sphincter is voluntary.
+2d17286c	Childbirth
+3f1286b1	Many births can weaken the supporting tissue of the pelvis and cause stress incontinence.
+770756ac	The textbook’s applied scenario.
+c6b17b73	Spell the medical term for loss of bladder control
+6f0ac7c6	A record full of terms
+9c33f88e	Harvey Mews, a 90-year-old man
+49e0a003	In the textbook’s applied scenario, you are entering Mr Harvey Mews’s paper record into the electronic record. It says: renogram, cystitis, diabetes, hemodialysis, KUB, cystoscopy, cystourethrogram and cystotomy. You must sort procedures, imaging and diseases.
+f58e1d24	Match each term to its category
+dfdc4e54	Sorting.
+419491d5	The suffix -tomy in cystotomy means…
+4f114bed	cystotomy = incision into the bladder.
+e230eb4f	KUB means…
+02e10071	A plain abdominal X-ray.
+f0f91ffe	A cystourethrogram is an image of the bladder and urethra.
+d2d3af8d	The root ren/o in renogram means…
+596c3ee6	renogram = kidney scan.
+e79142af	Spell the term for bladder inflammation
+f81d0680	Rewriting with abbreviations
+397aa6a9	Chart note (the textbook’s applied scenario)
+d923b6c5	The textbook’s applied scenario contains this note: “The patient has recurrent urinary tract infections confirmed by urinalysis and a history of extracorporeal shock wave lithotripsy for a kidney stone. A voiding cystourethrogram, retrograde pyelogram, kidney-ureter-bladder X-ray and intravenous pyelogram were done.” You must rewrite it with abbreviations.
+4c93c503	Match each imaging study to its abbreviation
+849ece10	The imaging studies.
+998e24c7	Difference
+075b7f9c	In which X-ray is contrast given through a vein?
+3bb366a5	Stone X-ray
+6625f800	Spell the term for a urine test
+efe7ac98	Third grade: how does the kidney work?
+bf9d3cba	Mr Mark Grey’s class
+233a1532	In the textbook’s applied scenario, Mr Mark Grey, a third-grade teacher, has asked you to explain the structure and work of the kidney to the children: what the kidney is made of, what urine contains and which route it takes.
+f2aecab1	What is the outer part of the kidney called?
+10ce1e86	The smallest unit that makes urine is the…
+c1285be6	More than a million in each kidney.
+dfbc693e	Urine is about 95% water.
+261bb8af	Plus urea, salt and wastes.
+5d83f633	Put the route of urine in order for the children
+18f6582e	From the nephron to the outside.
+c3087714	Match each part to its simple description
+0948a5fb	blood filter
+167a3d03	collecting funnel
+8f862c20	tube to the bladder
+0868f6dd	holding bag
+115aa0af	Plain language.
+eb60e9a6	Spell the term for the kidney’s filtering unit
+0a116bd9	Following the flow
+9e127691	Cohen’s “Follow the Flow” exercise
+103d35e0	In the review exercise in Cohen’s textbook you must put the formation and movement of urine in order, from blood reaching the glomerulus to leaving through the urethra, and link each step to its part of the nephron.
+6fd7317f	Put the steps in order
+9d5ccaf9	The textbook’s order.
+f2e8f70b	In which part do water and nutrients return to the blood?
+21713ed6	The arteriole that carries blood away from the glomerulus is the…
+b7012b6f	Efferent.
+3ee5782d	Hormone
+34cc78dc	ADH increases water reabsorption and concentrates the urine.
+7530e144	Where the steps happen.
+c9251ef6	Spell the term for the capillary tuft in Bowman capsule
+a6974b85	Creatine or creatinine?
+1fb991ab	Mr Chavez, an inpatient
+8ba4e80e	In a look-alike words exercise in one of the appendix chapters, Mr Chavez has been admitted with glomerulonephritis, and his tests show an abnormal level of one of the urine waste products. You must choose the right word and work out what this substance says about kidney function.
+0bd1bac8	Trap
+198ba7dd	Which should be written in the record?
+1b6164f9	creatinine is a waste product.
+b17321bc	Where does creatinine come from?
+ac63c96b	muscle metabolism
+a813181b	fat metabolism
+ef59d4a4	Kidney function
+934f52d2	A rising blood creatinine is a sign of reduced kidney function.
+b4204bbe	A sign of failure.
+f80236ff	Which number estimates kidney function from creatinine, age and sex?
+4cbc39ce	muscle compound
+dd4dce17	Spell the term for the muscle waste product cleared by the kidneys
+e286dfd1	Two n’s.
+a77a622e	Incontinence on the golf course
+89e5fbab	Jade, a 52-year-old woman
+a933d309	A case study in Cohen’s textbook: Jade is a 52-year-old woman with a history of stress incontinence who has cut down on exercise because of leaking urine under physical strain. To join a clinical trial she had a clean-catch sample, cystometry (CMG) and cystoscopy and kept a bladder diary for two weeks. Muscle cells from her thigh were cultured and injected around the urethra, and a year later she was 95% better.
+e0e5f90b	Leaking urine when coughing, exercising or straining is…
+5f80d0a7	What does cystometry (CMG) measure?
+bc27bbd2	bladder pressure during filling
+16e9187a	kidney size
+6432e32c	nocturia means urinating at night.
+a5d0f99e	It was asked about in Jade’s history.
+326855c2	Put Jade’s course in order
+75dae022	From assessment to follow-up.
+e46d0ea0	ring muscle
+ddb75e74	Spell the term for an endoscopic view of the bladder
+76c52baa	Inpatient with right flank pain
+22415001	A discharge summary in Fremgen’s textbook: a man with a history of recurrent bladder infections was admitted with severe right flank pain and blood in his urine. A clean-catch urinalysis showed hematuria and pyuria without albuminuria. Cystoscopy showed chronic cystitis and a congenital bladder neck obstruction. The patient was catheterized so the bladder could empty completely.
+b4eb5a63	BNO means…
+05b75d44	Why was the patient catheterized?
+a0951ab1	so the bladder could empty completely
+1691e6d7	for a contrast X-ray
+78ccf633	to inject a drug into the kidney
+f015a75a	for lithotripsy
+b3ffb78e	Relieving retention.
+2d314297	pyuria means pus in the urine.
+c5b63b30	The likely cause of this patient’s chronic cystitis is…
+317593e8	a left kidney stone
+988b29b3	Stagnant urine brings infection.
+3a2b7000	chronic inflammation of the bladder
+055ec6f2	Spell the term for passing a catheter
+a017908f	Temporary incontinence
+8c2ab0d6	A 50-year-old woman
+978b3103	A chart note in Gylys’s textbook: a 50-year-old woman has had diffuse pelvic pain and bladder spasms since a cystoscopy 10 days ago, which had shown severe cystitis. She urinates three to four times a night and has frequency and urgency. She has a history of polyuria, hematuria and incontinence. The doctor’s conclusion: the incontinence is caused by the cystitis and is temporary.
+47f38662	Match each sign to its term
+e011990b	What is causing this patient’s incontinence?
+3a428312	spinal cord injury
+81c5e3dc	The doctor considers the incontinence temporary.

@@ -1,0 +1,229 @@
+81f4ddfa	Filtration.
+e4b055be	The return of water and sugar from the tubule to the blood is…
+05dc9c70	Reabsorption.
+36c7745d	Normally, blood cells and protein do not pass through the glomerulus.
+5b7ff80b	The filtered fluid should contain no cells or protein.
+4cd68bec	Put the three steps of urine formation in order
+b86db2dd	Filtration, reabsorption, secretion.
+6b0c3694	Match each step to where it happens
+c0bc57ad	glomerulus to capsule
+e9e29c94	tubule to capillary
+be5b0d30	capillary to tubule
+8388a9f4	fluid inside the nephron
+79dea3e4	The three steps.
+d4a5e0a3	The fluid that enters the nephron from the glomerulus is ___.
+2a89fc18	Spell the term for the return of water and solutes to the blood
+0155b858	From the aorta to the vena cava
+23876d83	⟦0⟧The ⟦1⟧ branches off the abdominal aorta. Its branches reach the ⟦2⟧, which brings blood to the glomerulus; the ⟦3⟧ takes blood away from the glomerulus to the ⟦4⟧. The filtered blood returns to the inferior vena cava through the ⟦5⟧.
+7836d895	Renal artery and vein
+ea80137b	Kidney vessels
+7e4ccd6f	Arterioles, glomerulus and capillaries
+8019f5e7	Blood supply of the nephron
+7540c1e9	afferent; towards the glomerulus
+447fc47a	efferent; away from the glomerulus
+eb1a26be	afferent with an a as in arrive: it comes in. efferent with an e as in exit: it goes out.
+9fb75f27	The arteriole that brings blood to the glomerulus is the…
+6db4afca	afferent = carrying towards.
+9cc17706	Where does the renal vein drain?
+1f8ecdaf	The inferior vena cava.
+bfeabed9	The renal artery is a branch of the abdominal aorta.
+c9f719c4	Put the route of blood in order
+d018e26d	The route of blood in the kidney.
+6ddaf5e5	towards the glomerulus
+035c8d2b	away from the glomerulus
+57dc72f1	around the tubules
+ee5fe7cd	return of blood
+65cc2939	The vessels.
+0f9bb032	The capillaries around the tubules take up reabsorbed substances: ___ capillaries.
+46c09787	Spell the term for the vessel draining blood from the kidney
+3974df7d	The kidney is a gland too
+39e37795	⟦0⟧• ⟦1⟧: an enzyme from the kidney that activates ⟦2⟧ and raises blood pressure<br>• ⟦3⟧: drives the bone marrow to make red blood cells<br>• ⟦4⟧: from the pituitary; makes the kidney hold on to water<br>• ⟦5⟧: from the adrenal gland; regulates sodium and potassium
+6edf1354	Hormones and the kidney
+e6ee7e73	ACE inhibitor drugs lower blood pressure by blocking the formation of angiotensin.
+8ff26bd9	In kidney failure, EPO falls and the patient becomes anaemic.
+bd11c42f	anti-diuretic means against urine: ADH makes urine scanty and concentrated.
+d15c99b5	The hormone that increases red blood cell production is…
+96cb0148	The enzyme from the kidney that raises blood pressure is…
+a832c0dc	ADH makes urine more plentiful and more dilute.
+15c1e760	ADH reabsorbs water; the urine becomes scanty and concentrated.
+9e5e4173	Put the chain that raises blood pressure in order
+e29f8d43	Renin, angiotensin, narrowing of vessels.
+30c4f33f	Match each hormone to its job
+432399cc	activating angiotensin
+6a1b028b	making red blood cells
+cf309e94	holding on to water
+99ded8b1	regulating sodium and potassium
+a64734e0	The hormones.
+f03148e4	Anaemia in kidney failure comes from a lack of ___.
+29ae2725	Spell the term for the kidney enzyme that raises blood pressure
+85c822e0	A kidney enzyme.
+87e37ce4	Homeostasis and GFR
+4b08f8b4	The body’s balance
+e30df122	⟦0⟧The kidneys maintain ⟦1⟧: they adjust water, ⟦2⟧ such as sodium and potassium, and blood pH, and they excrete ⟦3⟧, ⟦4⟧ and ⟦5⟧.⟦6⟧
+60cbfdea	Daily water intake and output
+485b50b1	Body water balance
+61639b68	Measuring kidney function
+c37a82ea	⟦0⟧ is the volume of fluid that all the glomeruli filter each minute; the best measure of kidney function. ⟦1⟧ is the volume of plasma cleared of a substance each minute.⟦2⟧⟦3⟧
+49d5d7af	In the “Kidney calculator” tool you can work out eGFR from creatinine, age and sex.
+fabd66e2	home/o means same and -stasis means standing: homeostasis means “staying the same”.
+e074e7d6	The best measure of overall kidney function is…
+219100fd	The muscle metabolism waste product that the kidney excretes is…
+2375f515	About 60% of the body’s daily water output is through urine.
+9efa27ef	About 1500 of 2500 mL.
+7c7efb8f	Build a word meaning “relating to the inner part of the kidney (medulla)”
+e91769fe	Match each concept to its meaning
+fba170b8	body ions
+c686c831	clearing of plasma
+2cae6375	waste product
+3bf56c5a	Balance.
+c8b61603	The abbreviation GFR means ___.
+e93cdbc3	Spell the term for keeping the internal environment stable
+18e81236	The Bladder and Voiding
+bd0afc71	Bladder and voiding
+dd1726da	The ureter and peristalsis, the bladder and its trigone, the sphincters, the female and male urethra, the voiding reflex, incontinence and retention
+95348c56	Ureter and bladder
+849ba7fd	Urethra and voiding
+4431afcb	Disorders of voiding and structure
+ac1bfad3	Muscular tubes
+da5c4ea7	⟦0⟧Each ⟦1⟧ is a narrow muscular tube running from the renal pelvis to the bladder. ⟦2⟧, the wave-like contraction of its wall, pushes urine down, and every 10 to 30 seconds a spurt of urine enters the bladder.
+6866f42b	⟦0⟧Urine enters the bladder through the ⟦1⟧. This opening is closed when the bladder contracts so that urine does not flow back into the ureter. The left ureter is slightly longer, because the left kidney is higher.⟦2⟧
+99f65fe6	Kidneys, ureters and bladder
+4b051ec7	The prefix peri- means around and stalsis means squeezing: peristalsis is rhythmic squeezing all around the tube.
+e4fce824	The wave-like movement that carries urine down the ureter is…
+9adfb833	Where does urine enter the bladder?
+b894fb58	The ureteral orifice.
+a43b3e80	The left ureter is slightly longer than the right ureter.
+2bad1aa1	Because the left kidney is higher.
+3aa79769	Build a word meaning “inflammation of a ureter”
+015a3a3b	The ureter.
+f3d33b12	The adjective meaning “relating to the ureter” is ___.
+53e1e4f3	Spell the term for the wave-like contractions of the ureter
+14608966	An elastic store
+9793945c	⟦0⟧The ⟦1⟧ is a muscular, elastic sac in the pelvis. Its wall has the smooth muscle ⟦2⟧, and its inner lining has folds called ⟦3⟧ that let the bladder stretch.
+7acb8982	The bladder in section
+1fd4af87	⟦0⟧An adult bladder sends the urge to urinate when it holds about 300 to 400 mL of urine, and at night it can hold up to about a litre.⟦1⟧
+11f7c90b	Ureter, bladder, sphincters and urethra
+02ec8b28	Remember rugae as “accordion folds”; when the bladder fills, the folds open out.
+17f44bea	What is the muscle of the bladder wall?
+1fab51c8	What are the folds of the bladder lining called?
+2f956c14	The bladder is an elastic muscular sac in the pelvis.
+1969f2c2	Build a word meaning “pain in the bladder”
+3845498a	muscle of the bladder wall
+692ce6fa	The bladder.
+b78f2f23	Bleeding from the bladder is ___.
+9b0bd862	Spell the two-word term for the sac that stores urine
+fb303112	Trigone and sphincters
+a03aaee8	⟦0⟧The ⟦1⟧ is the triangular area of the bladder floor whose three corners are the two ureteral openings and the urethral opening. The stability of this triangle keeps urine from flowing back into the ureters.
+585ac88b	Bladder trigone and sphincters
+223a554c	Two sphincters
+db4e929a	internal; involuntary; at the bladder neck
+796b9d9d	external; voluntary; under our control
+7755ddb8	In the textbook’s applied scenario you are asked which structure controls the release of urine; the answer is the external urethral sphincter.
+c95a1438	trigone, with tri meaning three: three openings, three corners.
+7955e343	The triangular area of the bladder floor is the…
+49ffbf36	Which sphincter is voluntary?
+fc600b3c	The external one is voluntary.
+b8f1a4c0	The internal urethral sphincter is under our voluntary control.
+e26a1fd6	The internal one is involuntary; the external one is voluntary.
+a757c318	Build a word meaning “inflammation of the trigone”
+faa59623	three openings in the bladder floor
+98e03750	contracts
+dc3432d4	Trigone and sphincters.
+ad34eed2	The three corners of the trigone are the two ureteral openings and the opening of the ___.
+0fceeed5	The urethral opening.
+91b64f65	Spell the term for the triangular area of the bladder floor
+1bcbc627	Women and men
+890865f2	⟦0⟧The ⟦1⟧ carries urine out of the bladder, and its outer opening is the ⟦2⟧.<br>• In women it is about 4 cm long and for urine only<br>• In men it is about 20 cm long; it passes through the ⟦3⟧ and also carries semen
+710d1f3c	Male and female urethra
+d8223e1f	Urinary infection is more common in women because the urethra is shorter and its opening is closer to the anus.
+87873071	meatus means passage or opening; the urinary meatus is the outer opening of the urethra.
+299a6704	What is the outer opening of the urethra called?
+f7cf81e4	Why is urinary infection more common in women?
+52048372	the urethra is shorter
+cf01e789	the bladder is larger
+1a232355	the kidneys are lower
+e051c5fd	the ureter is longer
+a80e8aaa	Microbes have a shorter route to the bladder.
+6b46f9fa	The male urethra passes through the prostate.
+77b509a2	That is why an enlarged prostate reduces urine flow.
+08d25b5d	Build a word meaning “inflammation of the urethra”
+605efadf	The urethra.
+65aeb91c	Pain in the urethra is ___.
+769fb767	Spell the term for an opening or passage, as at the end of the urethra
+a9f07f76	Three names for one act
+5e43fb80	⟦0⟧⟦1⟧, ⟦2⟧ and ⟦3⟧ all mean emptying the bladder. When the bladder fills, the ⟦4⟧ contracts the detrusor muscle and relaxes the internal sphincter; the external sphincter opens by our will.
+53199c19	bladder control
+dcbe5c4c	⟦0⟧ means the ability to hold urine; children usually learn to control the external sphincter after age two.⟦1⟧
+f3df999f	micturition comes from the Latin mictus, “making water”; it is often misspelled micturation.
+425227d2	The formal term for passing urine is…
+4c231b77	In the voiding reflex, what contracts?
+58e90264	The detrusor contracts and the internal sphincter relaxes.
+c55b1649	The correct spelling is micturition, not micturation.
+d7ffeb75	A common spelling trap.
+71a0380c	Put the voiding reflex in order
+8ebae2ea	Filling, stretch signal, contraction, emptying.
+3380f963	holding urine
+fbbac866	Passing urine.
+5ad8e671	The ability to control urination is ___.
+b25fb854	Spell the formal term for passing urine
+ca076598	Spelling trap: -ition.
+4a3e05c5	Types of incontinence
+1f5f1c55	⟦0⟧⟦1⟧ means inability to hold urine:<br>• ⟦2⟧: leaking urine with coughing, sneezing, laughing or exercise<br>• ⟦3⟧: sudden urgency and leaking before reaching the toilet<br>• ⟦4⟧: bedwetting after the age by which control should be learned
+9b2d818c	In a case study in Cohen’s textbook, a 52-year-old woman named Jade has stress incontinence and can no longer exercise comfortably. For assessment, a clean-catch sample, cystometry (CMG) and cystoscopy were done, and after an injection of muscle stem cells her bladder control improved by 95%.
+6e00fd80	The prefix in- means not: incontinence means being unable to hold.
+9ca021fe	Leaking urine when coughing and sneezing is…
+175d0a07	Because Jade leaks urine during exercise, she has stress incontinence.
+723d706b	Pressure on the bladder during activity.
+052227ae	Put Jade’s assessment in order
+c456b2de	History, sample, cystometry, treatment.
+aa6b0163	Match each type to its description
+b8040ee7	leak with coughing
+84806e18	sudden urgency
+879783c0	full control
+ded7c281	Incontinence.
+4e6a5c75	The abbreviation CMG means ___.
+6cee4174	Measuring bladder pressure.
+8c64f090	Spell the term for inability to hold urine
+4d5f41ee	Retention and obstruction
+9b3a50d4	Full bladder, weak flow
+a02ae284	• ⟦0⟧: the bladder does not empty completely; often from a blockage<br>• ⟦1⟧: blockage at the bladder neck, often from an enlarged prostate<br>• ⟦2⟧: weak flow and a delayed start of urination<br>• ⟦3⟧: bladder dysfunction from nerve damage such as a spinal cord lesion
+dc4af5ec	Frequency and urgency
+4f046cb4	urinating often without a larger total volume
+37783cec	an immediate need to urinate
+9898690e	In the textbook’s applied scenario, Mrs Kim Cardsheen complains of bladder spasms and urinary retention; an antispasmodic drug reduces the spasms.
+fcc5e994	neur/o means nerve and -genic means produced by: a neurogenic bladder is a bladder whose problem comes from the nerves.
+f47ed6b6	A bladder that does not empty completely has…
+5f0087ef	A common cause of bladder neck obstruction in men is…
+1d1362e1	enlarged prostate
+aa14310f	diabetes
+47006850	A neurogenic bladder is caused by damage to the nervous system.
+61b510ac	Such as spinal cord injury or MS.
+d50dd2bc	Build a word meaning “originating from a nerve”
+f60b8289	delayed start of urination
+f778b48a	immediate need
+9ab90beb	frequent voiding
+55861a4a	bladder not emptying
+bbcf565e	The abbreviation BNO means ___.
+31a628f1	Bladder neck obstruction.
+100f2073	Spell the term for holding urine back in the bladder
+b248f1b8	Narrowing, widening and bulging
+7215cf25	Three shape suffixes
+63046eb7	⟦0⟧• ⟦1⟧ = narrowing: ⟦2⟧, ⟦3⟧<br>• ⟦4⟧ = widening: ⟦5⟧<br>• ⟦6⟧ = bulging: ⟦7⟧, ⟦8⟧
+ead255cc	⟦0⟧A ⟦1⟧ is a cyst-like bulge at the end of the ureter inside the bladder that blocks the flow and sends urine back into the ureter and renal pelvis.⟦2⟧
+84ef9458	Bulge at the end of the ureter inside the bladder
+499d0286	stenosis sounds like “stern”: tight; ectasis sounds like “extend”: opened wide.
+b18e86a6	Narrowing of the urethra is…
+c302154b	-ectasis means widening.
+6b5a1dfb	A ureterocele is a bulge at the end of the ureter inside the bladder.
+03e953b1	-cele means bulging.
+0a919683	Build a word meaning “narrowing of a ureter”
+d5aeba28	bulging
+789f3df2	Bulging of the urethra is ___.
+403e1d6f	Spell the term for narrowing of the urethra
+e3b9c32b	Prolapse and fistula
+eeb60019	bladder prolapse
+b25c17d7	⟦0⟧⟦1⟧, or ⟦2⟧, is the bladder bulging into the vaginal wall when the supporting tissue has weakened (after childbirth or with age). Its treatment is ⟦3⟧, surgical fixation of the bladder.⟦4⟧
+f957ca76	Bladder, uterus and vagina
+a6ee14ba	Cystocele in section
+026e398b	Fistula
+90c56310	⟦0⟧A ⟦1⟧ is an abnormal passage between the bladder and the vagina through which urine leaks constantly.⟦2⟧
