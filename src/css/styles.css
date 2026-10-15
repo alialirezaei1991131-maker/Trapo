@@ -1317,7 +1317,7 @@ body.no-scroll .acfab, .player ~ .acfab { display: none; }
 .dc__m svg { display: block; }
 .dc__orbit { position: absolute; inset: 0; }
 .dc__orbit span { position: absolute; top: 50%; left: 50%; min-width: 42px; height: 30px; padding: 0 8px; margin: -15px 0 0 -21px; border-radius: 10px; display: grid; place-items: center;
-  background: var(--wc); color: #fff; font: 900 13px/1 Nunito, system-ui, sans-serif; box-shadow: 0 3px 0 rgba(0, 0, 0, .18);
+  background: var(--wc); color: #fff; font: 900 13px/1 Nunito, Vazirmatn, system-ui, sans-serif; box-shadow: 0 3px 0 rgba(0, 0, 0, .18);
   transform: rotate(calc(360deg / var(--n) * var(--i))) translateY(-76px) rotate(calc(-360deg / var(--n) * var(--i)));
   animation: dcbob 3.4s ease-in-out infinite; animation-delay: calc(var(--i) * -.7s); }
 .dc:hover .dc__orbit span { animation-duration: 1.4s; }
@@ -1328,7 +1328,7 @@ body.no-scroll .acfab, .player ~ .acfab { display: none; }
 .actb--lock { background: var(--bg3); color: var(--muted); }
 .dc__body { padding: 18px 22px 22px; display: flex; flex-direction: column; gap: 8px; }
 .dc h2 { font-size: 30px; font-weight: 900; color: var(--cc); display: flex; align-items: baseline; gap: 8px; line-height: 1.55; }
-.dc h2 small { font: 800 14px/1.4 Nunito, system-ui, sans-serif; color: var(--muted); letter-spacing: .3px; }
+.dc h2 small { font: 800 14px/1.4 Nunito, Vazirmatn, system-ui, sans-serif; color: var(--muted); letter-spacing: .3px; }
 .dc__sub { font-weight: 800; font-size: 16px; line-height: 1.75; }
 .dc__tag { color: var(--muted); font-weight: 600; font-size: 15px; line-height: 1.9; }
 .dc__prog { display: flex; flex-direction: column; gap: 4px; margin-top: 2px; }
@@ -1463,7 +1463,7 @@ body.no-scroll .acfab, .player ~ .acfab { display: none; }
 .up__intro p { line-height: 1.95; font-weight: 500; margin: 6px 0 10px; }
 .up__chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 12px; }
 .up__chips span { display: inline-flex; align-items: center; gap: 6px; padding: 3px 10px 3px 4px; border-radius: 99px; border: 1px solid color-mix(in srgb, var(--wc) 35%, var(--line)); font-size: 12.5px; font-weight: 800; }
-.up__chips b { background: var(--wc); color: #fff; border-radius: 99px; padding: 1px 8px; font: 900 11.5px/1.7 Nunito, system-ui, sans-serif; }
+.up__chips b { background: var(--wc); color: #fff; border-radius: 99px; padding: 1px 8px; font: 900 11.5px/1.7 Nunito, Vazirmatn, system-ui, sans-serif; }
 .up__plans { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
 .up__plan { position: relative; display: flex; flex-direction: column; align-items: stretch; gap: 4px; padding: 18px 14px 14px; border-radius: 20px; border: 2px solid var(--line); border-bottom-width: 4px; background: var(--bg); text-align: start; transition: border-color .15s, transform .15s, box-shadow .15s; }
 .up__plan:hover { transform: translateY(-2px); }
@@ -1764,7 +1764,8 @@ h1, h2, h3, h4, h5 { line-height: 1.6; }
 /* پس‌زمینه دوره ثابت: حرکت background-position کل صفحه را هر فریم دوباره رنگ می‌کرد */
 body.mode-course::before { animation: none; }
 /* هاله‌های صفحه اول: گرادیان نرم به‌جای فیلتر blur(80px)؛ حرکت فقط روی لایه جدا (GPU) */
-.dbg i { filter: none; opacity: .3; will-change: transform; }
+/* ثابت: حرکت ۲۴ ثانیه‌ای تقریباً دیده نمی‌شد ولی روی گوشی و مرورگرهای بدون شتاب گرافیکی تا ۹۰٪ پردازنده را در حالت بیکار می‌گرفت */
+.dbg i { filter: none; opacity: .3; animation: none; }
 .dbg i:nth-child(1) { background: radial-gradient(closest-side, var(--yona), transparent); }
 .dbg i:nth-child(2) { background: radial-gradient(closest-side, var(--homa), transparent); }
 .dbg i:nth-child(3) { background: radial-gradient(closest-side, var(--negar), transparent); }
@@ -2002,7 +2003,7 @@ body.mode-course::before { animation: none; }
 .acinv__i { font-size: 30px; line-height: 1; }
 .acinv__h small { display: block; color: var(--muted); line-height: 1.8; margin-top: 2px; }
 .acinv__code { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; margin: 12px 0; }
-.acinv__code code { font: 900 20px/1 Nunito, system-ui, sans-serif; letter-spacing: 2px; padding: 8px 14px; border-radius: 12px; background: var(--bg2); border: 2px dashed var(--line); }
+.acinv__code code { font: 900 20px/1 Nunito, Vazirmatn, system-ui, sans-serif; letter-spacing: 2px; padding: 8px 14px; border-radius: 12px; background: var(--bg2); border: 2px dashed var(--line); }
 .acinv__nums { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; text-align: center; }
 .acinv__nums div { padding: 8px; border-radius: 12px; background: var(--bg2); }
 .acinv__nums b { display: block; font-size: 20px; }
@@ -2015,6 +2016,77 @@ body.mode-course::before { animation: none; }
 /* حیطه‌ای که فعلاً فقط محتوای فارسی دارد (در حالت انگلیسی) */
 .actb--fa { background: var(--bg2); color: var(--muted); border: 1px solid var(--line); }
 .suite__fa { display: block; margin-top: 6px; font-weight: 700; color: var(--muted); }
+
+/* =====================================================================
+   کارایی صفحه اول و صفحه انتخاب حیطه (آخر فایل تا بر قاعده‌های قبلی غالب باشد)
+   اندازه‌گیری با پردازنده ×۴ کندتر (مثل گوشی معمولی): پیش از این صفحه اول ۷۴٪ و صفحه حیطه‌ها ۹۰٪
+   پردازنده را در حالت بیکار می‌گرفتند؛ همه حرکت‌های تزئینی حالا فقط transform/opacity روی لایه جدا هستند.
+   ===================================================================== */
+/* تپش‌ها با transform/opacity روی لایه جدا (پیش از این box-shadow متحرک کل کارت را هر فریم دوباره رنگ می‌کرد:
+   به‌تنهایی تا ۴۰٪ پردازنده گوشی در حالت بیکار) */
+.dchip i, .dc__more-i { position: relative; animation: none; box-shadow: none; }
+.dchip i::after, .dc__more-i::after { content: ""; position: absolute; inset: 0; border-radius: 50%; background: currentColor; opacity: 0; pointer-events: none; will-change: transform, opacity; animation: dpingR 2.4s cubic-bezier(.2, .7, .3, 1) 4; }
+.dchip i::after { color: var(--green); }
+.dc__more-i::after { color: var(--cc); }
+@keyframes dpingR { 0% { transform: scale(1); opacity: .55; } 70%, 100% { transform: scale(2.4); opacity: 0; } }
+/* درخشش متن عنوان: گرادیان ثابت (حرکت background-position متن را هر فریم دوباره رنگ می‌کرد) */
+.dhero h1 em { animation: none; background-position: 30% 0; }
+/* خط نوار قلب: یک بار کشیده می‌شود و می‌ماند */
+.decg path { animation: decgOnce 2.4s cubic-bezier(.45, 0, .2, 1) .3s 1 both; }
+@keyframes decgOnce { from { stroke-dashoffset: 1600; } to { stroke-dashoffset: 0; } }
+/* نشان‌های دور شخصیت کارت فقط هنگام اشاره یا تمرکز روی کارت می‌جنبند */
+.dc:not(:hover):not(:focus-within) .dc__orbit span { animation-play-state: paused; }
+/* نوار رنگی بالای «کیس امروز» ثابت (درخشش متحرکش، همراه چرخش حلقه‌ها، کل بخش بالای صفحه را هر فریم دوباره رنگ می‌کرد) */
+.dcase::before { animation: none; background-position: 50% 0; }
+/* حلقه‌های چرخان قهرمان صفحه اول روی لایه جدا: چرخش فقط با کارت گرافیک */
+.dring { will-change: transform; }
+
+/* ===== کارت‌های معرفی دوره و حیطه: همه هم‌اندازه، همیشه دیده‌شدنی، با «مناسب برای» =====
+ * - لایه سه‌بعدی دائمی (perspective + preserve-3d) برداشته شد: روی سافاری و گوشی‌ها با ۱۵ کارت، بعضی کارت‌ها
+ *   تا رفتن موس رویشان نقاشی نمی‌شدند و هزینه سبک/چیدمان صفحه ترمینو هم بالا بود. کج‌شدن با موس فقط هنگام هاور.
+ * - هر بخش متن تعداد سطر ثابت دارد (عنوان ۱، موضوع ۲، شعار ۲، مخاطب ۲) پس ارتفاع همه کارت‌ها یکی است؛
+ *   متن کامل در «معرفی دوره» می‌آید. نشان «کلینیک خطا» روی تصویر کارت است تا اندازه را تغییر ندهد. */
+.dcourses { perspective: none; align-items: stretch; }
+.dc { transform: none; transform-style: flat; }
+.dc.is-tilt { transform: perspective(1100px) rotateX(var(--rx, 0)) rotateY(var(--ry, 0)); }
+.dc__body { flex: 1; gap: 6px; }
+.dc h2 { min-width: 0; white-space: nowrap; overflow: hidden; }
+.dc h2 small { min-width: 0; overflow: hidden; text-overflow: ellipsis; }
+.dc__sub, .dc__tag, .dc__aud > span { display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; overflow: hidden; }
+.dc__sub { font-size: 15.5px; line-height: 1.8; min-height: calc(2 * 1.8em); }
+.dc__tag { font-size: 14.5px; line-height: 1.85; min-height: calc(2 * 1.85em); }
+.dc__aud { margin: 2px 0 0; padding: 7px 12px; border-radius: 14px; background: color-mix(in srgb, var(--cc) 7%, var(--bg2, var(--bg))); color: var(--text); font-size: 13px; font-weight: 600; line-height: 1.85; box-sizing: border-box; }
+.dc__aud > span { min-height: calc(2 * 1.85em); }
+.dc__aud b { color: color-mix(in srgb, var(--cc) 72%, var(--text)); font-weight: 900; margin-inline-end: 2px; }
+.dc__prog span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.dc__cta { margin-top: auto; padding-top: 6px; }
+.dc__cta .btn { flex: 1 1 auto; min-width: 42%; padding-inline: 14px; white-space: nowrap; }
+.dc__cta .dc__more { flex: 1 1 auto; min-width: 0; }
+.dc__more-t b { white-space: nowrap; }
+:root[lang="en"] .dc__cta .dc__chev { display: none; }
+:root[lang="en"] .dc__cta .btn { min-width: 38%; }
+.dc__art .dc__crit { position: absolute; z-index: 3; bottom: 12px; inset-inline-start: 14px; margin: 0; max-width: calc(100% - 28px); box-shadow: 0 2px 10px rgba(0, 0, 0, .12); }
+.dc__art .dc__crit--ok { background: var(--bg); }
+.dc__art .dc__crit { animation-iteration-count: 4; } /* تپش سایه بی‌پایان هر فریم صفحه را دوباره نقاشی می‌کرد */
+.dc--soon .dc__body { flex: 1; }
+
+/* ===== حروف‌نگاری فارسی و انگلیسی =====
+ * - در انگلیسی، حرف فارسی (نام فارسی دوره، واژه‌های دوزبانه) با وزیرمتن نوشته می‌شود نه با فونت سیستم (Segoe UI و …)؛
+ *   پس وزیرمتن بلافاصله بعد از Nunito می‌آید. لاتینِ درون متن فارسی با همان وزیرمتن یکدست است.
+ * - کج‌شدن ساختگی حروف فارسی (em/i) و ضخیم‌شدن ساختگی ممنوع؛ همه وزن‌ها فایل واقعی دارند.
+ * - فاصله سطر انگلیسی کمی جمع‌تر از فارسی (حروف لاتین دندانه و نقطه زیر و بالا ندارند). */
+:root { --font-fa: Vazirmatn, Tahoma, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji";
+  --font-en: Nunito, Vazirmatn, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji"; --font: var(--font-fa); }
+:root[lang="en"] { --font: var(--font-en); }
+[lang="en"] { font-family: var(--font-en); }
+:root[lang="en"] [lang="fa"] { font-family: var(--font-fa); }
+body { text-rendering: auto; font-kerning: normal; font-optical-sizing: auto; }
+:root[lang="fa"] body { font-synthesis: none; }
+:root[lang="fa"] em, :root[lang="fa"] i, :root[lang="fa"] cite { font-style: normal; }
+:where(:root[lang="en"]) p, :where(:root[lang="en"]) li { line-height: 1.7; }
+:root[lang="en"] .dc h2 { letter-spacing: -.015em; }
+:root[lang="en"] .dc__sub { letter-spacing: -.005em; }
+.dhero__nums b, .dc__prog span, .dd__nums b { font-variant-numeric: tabular-nums; }
 
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }

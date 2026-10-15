@@ -3517,14 +3517,21 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     if (animIO) animIO.disconnect();
     animIO = new IntersectionObserver(es => es.forEach(e => {
       const el = e.target;
-      if (!e.isIntersecting) { el.classList.add('ac-off'); return; }
-      if (el.classList.contains('ac-off')) {
-        // ورود به دید پس از شروع بیرون از صفحه: انیمیشن ورود بی‌درنگ (بدون تأخیر پلکانی)
-        el.getAnimations().forEach(a => { const t = a.effect && a.effect.getTiming(); if (t && t.iterations !== Infinity && !a.currentTime) { try { a.effect.updateTiming({ delay: 0 }); } catch (x) { /* */ } } });
-        el.classList.remove('ac-off');
-      }
+      // بیرون از دید: انیمیشن‌های ورودی (محدود) همین حالا به حالت پایانی می‌روند تا کارت هرگز نیمه‌شفاف و پنهان نماند
+      // (قبلاً با مکث در شفافیت صفر، کارت‌ها روی بعضی دستگاه‌ها تا رفتن موس رویشان دیده نمی‌شدند)؛ فقط انیمیشن‌های بی‌پایان مکث می‌کنند
+      if (!e.isIntersecting) { finishIn(el); el.classList.add('ac-off'); return; }
+      el.classList.remove('ac-off');
     }), { rootMargin: '160px 0px' });
     document.querySelectorAll(ANIM_SEL).forEach(el => animIO.observe(el));
+    // بیمه: هر انیمیشن ورودی که پس از ۲.۵ ثانیه هنوز تمام نشده (مثلاً زیر بار سنگین) تمام می‌شود
+    clearTimeout(guardAnims.t);
+    guardAnims.t = setTimeout(() => document.querySelectorAll(ANIM_SEL).forEach(el => finishIn(el, true)), 2500);
+  }
+  /** انیمیشن‌های محدود (ورود، نوار پیشرفت …) این عنصر و زیرشاخه‌اش را به حالت پایانی می‌برد؛ stalled: فقط آن‌هایی که مکث کرده یا هنوز شروع نشده‌اند */
+  function finishIn(el, stalled) {
+    if (!el.getAnimations) return;
+    let list; try { list = el.getAnimations({ subtree: true }); } catch (x) { list = el.getAnimations(); }
+    list.forEach(a => { const t = a.effect && a.effect.getTiming(); if (t && t.iterations !== Infinity && a.playState !== 'finished' && (!stalled || a.playState === 'paused' || (a.currentTime || 0) < (t.delay || 0))) { try { a.finish(); } catch (x) { /* */ } } });
   }
   /** پنجره یا صفحه درس باز است ← هرچه زیرش است مکث می‌کند */
   let held = null;
@@ -4181,18 +4188,19 @@ P — Plan: …`);
     const s = courseState(c.id), st = c.stats || {};
     const done = s && s.done ? Object.keys(s.done).length : 0, total = st.lessons || 45, pct = Math.round(done / total * 100);
     const fin = s && s.final && s.final.passed;
-    return `<article class="dc" data-dc="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light};--d:${(i || 0) * 110}ms" tabindex="0" aria-expanded="false" aria-label="${cName(c)} — ${cSubj(c)}">
+    return `<article class="dc" data-dc="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light};--d:${Math.min(i || 0, 5) * 90}ms" tabindex="0" aria-expanded="false" aria-label="${cName(c)} — ${cSubj(c)}">
       <div class="dc__art">
         <div class="dc__orbit" aria-hidden="true">${cat(c).worlds.map((w, i) => `<span style="--i:${i};--n:${cat(c).worlds.length};--wc:${w.color}">${w.sym}</span>`).join('')}</div>
         <div class="dc__m">${courseMascot(c, 'happy', 112)}</div>
         <div class="dc__badges">${tierBadge(a)}${fin ? `<span class="actb actb--cert">🎓 ${PT('گواهی', 'Certified')}</span>` : ''}</div>
+        ${(() => { const nm = s && s.mistakes ? s.mistakes.length : 0; if (!nm) return ''; return a && a.tier ? `<a class="dc__crit dc__crit--ok" href="?course=${c.id}&run=clinic">🩺 ${PT(`${nf(nm)} خطا برای مرور در کلینیک`, `${nf(nm)} mistakes to review in the clinic`)}</a>` : `<button class="dc__crit" data-ac="upsell" data-course="${c.id}" data-why="clinic">🩺 ${PT(`کلینیک خطاها: ${nf(nm)} مورد بحرانی`, `Mistake clinic: ${nf(nm)} critical`)}</button>`; })()}
       </div>
       <div class="dc__body">
         <h2>${cName(c)}<small dir="${PT('ltr', 'rtl')}" lang="${PT('en', 'fa')}">${PT(c.nameEn, c.nameFa)}</small></h2>
-        <p class="dc__sub">${c.parent ? bil(cSubj(c)) : cSubj(c)}</p>
+        <p class="dc__sub">${c.parent ? bil(cSubj(c).replace(/^ترمینولوژی پزشکی\s+/, '')) : cSubj(c)}</p>
         <p class="dc__tag">${c.parent ? bil(cat(c).tagline || cDesc(c)) : cat(c).tagline || cDesc(c)}</p>
+        ${cat(c).audience ? `<p class="dc__aud"><span><b>👥 ${PT('مناسب برای', 'For')}</b> ${cat(c).audience}</span></p>` : ''}
         <div class="dc__prog"><div class="dc__bar"><i style="width:${Math.max(pct, done ? 4 : 0)}%"></i></div><span>${done ? PT(`${nf(done)} از ${nf(total)} درس • ${nf(pct)}٪`, `${nf(done)} of ${nf(total)} lessons • ${nf(pct)}%`) : PT(`${nf(total)} درس • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ سؤال`, `${nf(total)} lessons • ${nf((st.questions || 0) + (st.roundSteps || 0))}+ questions`)}</span></div>
-        ${(() => { const nm = s && s.mistakes ? s.mistakes.length : 0; if (!nm) return ''; return a && a.tier ? `<a class="dc__crit dc__crit--ok" href="?course=${c.id}&run=clinic">🩺 ${PT(`${nf(nm)} خطا برای مرور در کلینیک`, `${nf(nm)} mistakes to review in the clinic`)}</a>` : `<button class="dc__crit" data-ac="upsell" data-course="${c.id}" data-why="clinic">🩺 ${PT(`کلینیک خطاها: ${nf(nm)} مورد بحرانی`, `Mistake clinic: ${nf(nm)} critical`)}</button>`; })()}
         <div class="dc__cta">
           <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? PT('ادامه یادگیری', 'Continue learning') : a && a.tier ? PT('شروع دوره', 'Start the course') : PT('شروع رایگان', 'Start free')}</a>
           <button class="dc__more" data-more="${c.id}" aria-label="${PT(`معرفی و جزئیات دوره ${c.nameFa}`, `About the ${c.nameEn} course`)}"><span class="dc__more-i" aria-hidden="true">i</span><span class="dc__more-t"><b>${PT('معرفی دوره', 'About the course')}</b><small>${PT('مسیر، اهداف و ابزارها', 'Path, goals and tools')}</small></span><i class="dc__chev" aria-hidden="true"><svg viewBox="0 0 24 24" width="18" height="18"><path d="M6 9l6 6 6-6" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg></i></button>
@@ -4201,7 +4209,7 @@ P — Plan: …`);
     </article>`;
   }
   function soonCard(i) {
-    return `<article class="dc dc--soon" style="--d:${(i || 0) * 110}ms" aria-label="${PT('دوره‌های جدید به‌زودی', 'New courses coming soon')}">
+    return `<article class="dc dc--soon" style="--d:${Math.min(i || 0, 5) * 90}ms" aria-label="${PT('دوره‌های جدید به‌زودی', 'New courses coming soon')}">
       <div class="dc__art"><div class="dc__soon" aria-hidden="true"><span>✨</span><i></i><i></i><i></i></div></div>
       <div class="dc__body"><h2>${PT('به‌زودی', 'Coming soon')}</h2><p class="dc__sub">${PT('دوره‌های تازه در راه است', 'New courses are on the way')}</p>
         <p class="dc__tag">${PT('مباحث بالینی تازه به‌زودی به آکادمی اضافه می‌شوند. پکیج الماس همه دوره‌های آینده را هم بدون هزینه اضافه شامل می‌شود.', 'New clinical topics are coming to the academy soon. The Diamond package includes every future course at no extra cost.')}</p></div>
@@ -4211,6 +4219,7 @@ P — Plan: …`);
     const a = access(c.id), st = c.stats || {}, k = cat(c);
     const s = courseState(c.id), done = s && s.done ? Object.keys(s.done).length : 0;
     const nums = [['🌍', nf(st.worlds || 5), PT('دنیا', 'worlds')], ['🧗', nf(st.levels || 15), PT('سطح', 'levels')], ['📚', nf(st.lessons || 45), PT('درس', 'lessons')], ['❓', nf((st.questions || 0) + (st.roundSteps || 0)) + '+', PT('سؤال و مرحله', 'questions & steps')], ['🏥', nf(st.rounds || 0), PT('بیمار در راند', 'round patients')], ['🧮', nf(k.tools.length), PT('ابزار بالینی', 'clinical tools')], ['🧸', nf(st.chars || 15), PT('کاراکتر', 'characters')]];
+    if (!k.tools.length) nums.splice(nums.findIndex(n => n[0] === '🧮'), 1); // حیطه‌های ترمینو ابزار بالینی جدا ندارند
     return `<section class="dd" data-dd="${c.id}" style="--cc:${c.color};--cd:${c.dark};--cl:${c.light}">
       <header class="dd__head">
         <div class="dd__m">${courseMascot(c, 'cheer', 92)}</div>
@@ -4230,8 +4239,8 @@ P — Plan: …`);
           <h4>👥 ${PT('مناسب برای', 'Who it’s for')}</h4><p class="dd__aud">${k.audience || ''}</p>
         </div>
       </div>
-      <h4 class="dd__th">🧮 ${PT('ابزارهای بالینی و ماشین‌حساب‌ها', 'Clinical tools & calculators')} ${a.tools ? `<span class="actb actb--pro">${PT('باز است', 'Unlocked')}</span>` : '<span class="actb actb--lock">🔒 Pro</span>'}</h4>
-      <div class="dd__tools">${k.tools.map(t => `<div class="dd__tool" style="--tc:${t.color}"><span dir="ltr">${t.sym}</span><div><b>${t.name}</b><small>${t.desc}</small></div></div>`).join('')}</div>
+      ${k.tools.length ? `<h4 class="dd__th">🧮 ${PT('ابزارهای بالینی و ماشین‌حساب‌ها', 'Clinical tools & calculators')} ${a.tools ? `<span class="actb actb--pro">${PT('باز است', 'Unlocked')}</span>` : '<span class="actb actb--lock">🔒 Pro</span>'}</h4>
+      <div class="dd__tools">${k.tools.map(t => `<div class="dd__tool" style="--tc:${t.color}"><span dir="ltr">${t.sym}</span><div><b>${t.name}</b><small>${t.desc}</small></div></div>`).join('')}</div>` : ''}
       <div class="dd__foot">
         <div class="dd__acc">${a.tier ? `${tierBadge(a)} <span>${a.life ? PT('اشتراک دائمی ♾️', 'Lifetime ♾️') : PT(`${leftText(a.expiry)} باقی‌مانده • تا ${fdate(a.expiry)}`, `${leftText(a.expiry)} left • until ${fdate(a.expiry)}`)}</span>` : ''}</div>
         <div class="dd__act">
