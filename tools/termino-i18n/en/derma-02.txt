@@ -1,0 +1,330 @@
+73a9e9c1	pinpoint bleeding spots
+2f4c27d6	breakdown, separation
+d22e46ea	resembling
+6d402918	viewing
+37625eb2	full of
+c49e09b5	abnormal condition
+ddb26b96	eating
+f92d0a5e	carrying, transmission
+85280637	body surface area (burn percentage)
+8509f12b	pressure sore
+9afe2588	study of the skin
+d487fb7c	family history
+2fa4db28	human papillomavirus (wart virus)
+b26cbcb6	herpes simplex virus (cold sores)
+fadd47cb	potassium hydroxide (fungus test)
+12051568	purified protein derivative (TB test)
+2c538937	psoralen plus UVA light (light therapy)
+8d09e3a6	prescription, treatment
+8c593de1	sun protection factor
+2e8c91f7	staphylococcus (cluster bacterium)
+56e6f4fe	streptococcus (chain bacterium)
+988225d6	ultraviolet A and B
+9e839994	varicella-zoster virus
+ba3c80ba	Skin structures and appendages
+043180b7	Cells and substances
+1d4f4681	Lesions and signs
+0e4cca3d	Diagnosis and tests
+8772141e	prefix: under
+d95c4c4a	root: skin
+feb6365d	suffix: pertaining to
+1d2966fb	under the skin
+0b275981	Skin cross-section: three layers and appendages
+2ee768a7	outer skin
+16c33d8f	sweat opening
+b9bd91e1	oil gland
+08a2d77f	hair sac
+7ee3a398	blood vessels
+80c6c439	Cross-section of the skin with its layers and appendages
+4aec4c9f	The skin is the body’s largest organ and has five main jobs
+c5c7ce02	barrier to microbes, water and UV
+8c0ab8a4	temperature control
+ca878d58	sweating and changing vessel width
+c3bff613	touch, pressure, pain, temperature
+dff5b6e5	making vitamin D
+0e0bb932	with ultraviolet light
+99819c55	excretion and secretion
+a1c2450f	sweat and skin oil
+d3e573fd	Jobs of the skin
+806a5969	Colour roots: describe the skin by its colour
+f97ce367	One letter, two completely different meanings
+964384d3	hidr/o without y = sweat; hydr/o with y = water
+e42cbde8	hidr/o and hydr/o
+bec49298	horny layer: dead cells
+c5776087	clear layer: palms and soles
+d74371a3	The epidermis is built from the bottom up
+dfc09c51	Cells move up, fill with keratin and are shed
+cd391661	Brown cells = melanocytes in the basal layer
+2b989d71	Layers of the epidermis
+2a2c63f9	Melanin forms an umbrella over the cells’ nuclei
+88bf7d21	Melanocytes in the basal layer
+e6b85ab5	keratin-making cell
+10cf87a5	melanin: the colour of skin, hair and eyes
+27441718	sun → more melanin → tan
+b015d4c3	Melanocytes and melanin
+c8a47b15	Dermis: a living layer, rich in vessels and nerves
+1a206e89	ridged upper layer
+801bf77d	net-like layer (collagen)
+2293f61f	touch receptor
+20a31a02	tiny vessels
+a2ad5a7f	pressure receptor
+b5d1bf3a	collagen fibre
+bb2bb17a	dermis = corium • the epidermis has no vessels and is fed by the dermal capillaries
+f48ff8d8	Layers of the dermis
+45d64ae2	Heat: vessels widen
+cccc108b	Cold: vessels narrow
+a718e710	more blood to the surface → heat is lost
+b209538b	sweat evaporates → cooling
+9279f6f8	less blood to the surface → heat is kept
+988a69d8	hair stands up (arrector pili)
+af18d650	thermoregulation: the skin is the body’s thermostat
+e2f02e5d	Clot and scab
+baa30519	Healing tissue
+4261b181	Scar
+ae76fe4d	Wound healing: scab → granulation tissue → scar
+dda5edec	fibroblasts make collagen; if they make too much → keloid
+a8a78a78	Stages of wound healing
+5ad4d967	Which layer does the needle reach?
+827820d7	into a vein
+041db7d7	The Mantoux test (PPD) is intradermal; insulin is subcutaneous
+168fed09	Hair grows from a follicle in the dermis
+0ca5f529	hair shaft (outside the skin)
+1e7a426a	hair root (inside the skin)
+8402a266	papilla: feeds the hair bulb
+ae0426b4	trich/o and pil/o both mean hair
+42302c8b	Anatomy of a hair
+29a42ab3	tip beyond the finger
+799f1e15	main nail
+29fa9a20	skin fold at the base
+099d5eed	nail sheet
+4d7dd009	matrix (growth)
+247e2126	skin under the tip
+18cbe44e	finger bone
+d30775b7	Anatomy of the nail
+43a5a935	eccrine: all over the body
+8db247a1	apocrine: armpit and groin
+ae75d254	duct opens straight onto a skin pore
+45290913	cools the body • sudoriferous
+3512cdd6	duct opens into a hair follicle
+85f37ab6	after puberty; source of sweat odour
+4e67d08b	hidr/o and sudor/o = sweat
+38a4643e	Sweat glands
+7ab36f11	healthy follicle
+d5472438	closed comedo
+4ecb4b71	open comedo
+2407ab76	pus pimple
+9689457f	Sebum + keratin get stuck in the follicle → comedo
+66394418	A blackhead is black from oxidised melanin, not from dirt
+4331d292	Stages of acne
+f9122e23	Flat lesions: the colour changes, not the surface
+a6f27a7b	macule: small spot
+0067cf5d	patch: large spot
+7bd8add8	pinpoint bleeds
+df6c6e88	Flat lesions
+2826ed68	Raised, solid lesions
+9a4e7e72	small bump
+a83d6940	plaque: broad and flat-topped
+b5a6308f	nodule: deeper
+37d45897	tumour: large mass
+c7908e2a	wheal: passing swelling
+b814b9c7	polyp: growth on a stalk
+31b205cf	Raised lesions
+56e6c8e8	Fluid-filled lesions
+28165dd9	vesicle: small blister
+448e15ad	bulla: large blister
+3e1d4009	pustule: full of pus
+4be891da	cyst: closed sac
+c8abbf98	abscess: pus in a cavity
+e521a3b2	hematoma: clotted blood
+c5e2de2d	Secondary and sunken lesions
+a791d8e3	flakes
+c2879036	thick and leathery
+46151cb5	fissure: deep crack
+f1769c46	ulcer: down to the dermis
+f0275b2a	keloid: raised scar
+519de0eb	Secondary lesions
+29e055a5	Small to large: all are blood that has leaked out of vessels
+564a5b5c	tiny dots
+65c358a4	under 3 mm
+5b851304	purple patch
+de0ed4c0	large bruise
+0167a5e0	pooled blood
+9e424393	raised clot
+40d2b64a	Bleeding under the skin
+86805fbf	The one-centimetre line: small or large?
+2534b151	small flat spot
+f77c4e27	large flat spot
+6987eb09	small bump
+3d71832a	large bump
+7f444761	small blister
+98bbde5e	large blister
+4b7d3bca	Lesion sizes
+b647ecd3	Burn degree = depth of damage
+269e75a6	epidermis only
+b4369c01	redness, no blisters
+dc84d9b6	into part of the dermis
+49a081f0	blisters, severe pain
+3189ae83	full thickness
+357391a6	white or charred
+b3fb6898	Burn depth
+be825392	back of trunk
+648da43a	front of trunk
+a9ecce0f	Adult: each area is 9% or a multiple of it (total 100%)
+b9b9f884	front (anterior)
+ef99f23f	back (posterior)
+1aa1705c	head 9 • each arm 9 • each leg 18 • trunk 36 • genital area 1
+4a53be60	The number on each half: percentage of body surface area (BSA)
+611ff982	Rule of nines
+b1c247be	Pressure sores over bony prominences
+d30c6bc7	back of the head
+b45d544c	sacral (most common)
+4eae4162	decubitus = lying down; change position every 2 hours
+9c7203d3	Pressure points
+9584c2d7	persistent redness
+7f995c53	shallow sore
+3be3e6bb	down to fat
+141ac61e	down to muscle and bone
+0f115b86	Stages of a pressure sore
+74a1b110	tinea + the Latin name of the site
+9cbe4e10	foot fungus
+dc605cfb	capitis = head • corporis = body
+be1ba843	cruris = thigh • pedis = foot
+8eda378e	Sites of ringworm
+89ef749a	Melanoma warning: ABCDE
+8a38f801	uneven halves
+b2ca66d4	irregular edge
+90a84472	several colours
+1fac355c	diameter over 6 mm
+6841bc79	changing over time
+6fbe2a15	ABCDE criteria for melanoma
+e4cb436d	Three common skin cancers from three cell types
+34de7471	basal cell
+0aa60a69	most common, low risk
+7d62ed04	squamous cell
+b0b4bfdc	sometimes spreads
+ab14b02e	pigment cell
+7b71a978	most dangerous
+6b9a4163	The main cause of all three: ultraviolet (UV) sunlight
+4ec6d14a	Skin cancers
+1723b8bf	shave
+4f3069a5	punch
+d113432f	incisional: part
+65a5d084	excisional: whole
+bda11b72	bi/o (living) + -opsy (viewing): a living sample for the microscope
+cc5115f2	dashed line = removal margin • Bx = biopsy
+e43905e5	Types of biopsy
+5532c0f3	Skin grafts: how thick? From where?
+9b4bb4be	STSG: epidermis + part of the dermis
+5318b9cb	FTSG: epidermis + the whole dermis
+d50e95f3	from the patient’s own body
+73a40ec6	from another person (homograft)
+359b7bb0	from an animal (heterograft)
+df59abb0	A dermatome is an instrument for taking a thin layer of skin for grafting
+400237ca	Types of skin graft
+f7cd0ed4	Mohs surgery: removal layer by layer until clear
+446ab644	each layer under the microscope
+3abac8b7	until the margin is cancer-free
+cdc07e52	the most healthy tissue is spared (face)
+5c3e4228	BCC and SCC
+6f52f2d8	Three skin tests: patch, scratch, intradermal
+faa82bfc	intradermal (ID) injection
+773c089d	scratch test for allergy
+c890f57f	PPD TB test: read the width of the hardening (induration) after 48 to 72 hours
+7b213352	Patch test: the allergen is taped to the skin and read after 48 hours
+a1beec2a	Skin tests
+b77c626f	Reading prescriptions: how many times a day?
+d6bce65d	oint = ointment
+a800d002	top = topical
+603fbc07	SubQ = subcutaneous
+e648947c	Prescription abbreviations
+aee2a614	Skin under the microscope (H&E stain)
+ceb60e46	epidermis: purple band on top
+212e5aa2	dermis: pink and fibrous
+b2abeefd	subcutaneous: fat (white)
+ecb6d9ba	Microscopic section of skin
+8b445fc6	The Language of the Skin
+020e5625	What the skin does and how its words are built: roots, prefixes, suffixes and colours
+b59bf4aa	The skin, the largest organ
+feda3455	Skin roots
+f8150edf	The Skin: Clothing You Never Take Off
+89da2ec7	The body’s largest organ
+5ac104b8	The skin is the body’s largest organ; in adults it covers about 2 square metres.<br>Its scientific name is ⟦0⟧, from the Latin word ⟦1⟧, meaning “covering”.<br>The skin and its appendages (hair, nails, sweat glands and oil glands) together make up the ⟦2⟧, the body’s <b>covering system</b>.⟦3⟧
+d5541d59	Say integument as “in-TEG-yoo-ment” and think of “a one-piece covering”: clothing you have worn since the day you were born.
+942110a3	Who is the skin doctor?
+b100875a	⟦0⟧ → ⟦1⟧ means the study of the skin<br>⟦2⟧ → ⟦3⟧ means a skin specialist<br>A dermatologist treats diseases of the skin, hair and nails, from acne and eczema to skin cancer. Sometimes a skin lesion is a sign of a <b>systemic</b> (whole-body) disease, such as a leg ulcer in a diabetic patient.⟦4⟧
+f79cdf9b	In a chart, the skin department is shortened to Derm: “referral to Derm” means referral to a dermatologist.
+1991932e	What is the scientific name for the “skin”, which gives the integumentary system its name?
+0d0eb569	integument comes from the Latin integumentum, “covering”.
+0e5f6cb4	The integumentary system includes only the skin; hair and nails are not part of it.
+43a18167	False; hair, nails, sweat glands and oil glands are the “skin appendages” and part of the integumentary system.
+17e230e5	pathologist
+86a001b3	plastic surgeon
+afb3ca9d	pressure-sore specialist
+de85c753	dermat/o (skin) + -logist (specialist).
+b22b7fae	The suffix ___ means “specialist” and ‎-logy means “study of”.
+e78e8e9f	A dermatologist is a specialist and dermatology is the field of study.
+7becfdc2	These four basic words are the foundation of every later lesson.
+76a91a1f	Spell the term for a skin specialist
+0c07ef4c	Five Jobs of the Skin
+1d65366b	The skin is never idle!
+ba8143c5	⟦0⟧The skin is not just a simple covering; it has five main jobs:<br>1. <b>Protection</b>: a barrier to microbes (⟦1⟧), water loss and ultraviolet light<br>2. <b>Temperature control</b> (⟦2⟧)<br>3. <b>Sensation</b>: touch, pressure, pain, heat and cold<br>4. <b>Making vitamin D</b> with sunlight<br>5. <b>Excretion and secretion</b>: sweat and skin oil
+8c56fb7b	The five main jobs of the skin
+3e9e1500	The body’s thermostat
+7d85d9f6	⟦0⟧When you are hot, the vessels of the dermis <b>widen</b> and the sweat glands go to work; evaporating sweat cools the body.<br>When you are cold, the vessels <b>narrow</b> to keep heat in and your hairs stand on end.⟦1⟧
+6c6ea495	Heat and cold
+511051e5	PTSEV: Protection, Temperature, Sensation, vitamin D, Excretion; five fingers of one hand for the skin’s five jobs.
+04126057	With the help of which light does the skin make vitamin D?
+18714481	Ultraviolet (UV) light
+2c4b027a	Infrared light
+b2dc8e8b	X-rays
+118e5a6d	Green light
+2a4797fe	The sun’s UV activates the vitamin D precursor in the skin.
+cedca976	In hot weather, the skin’s vessels narrow so that heat does not escape.
+67ca0318	False; in the heat the vessels widen (vasodilation) so that heat is lost.
+52db7d8f	outer layer of the skin
+357b70b3	antimicrobial drug
+0db7508e	path/o (disease) + -gen (producing). Healthy skin is the first barrier against them.
+9aae81b9	Match each job to its example
+d5e24757	keeping microbes out
+c5e1f569	sensing touch and pain
+a7fc71fb	Excretion
+ea1ad266	removing some salts with sweat
+1618b976	The skin’s five main jobs.
+12a02ae9	When your body heats up, put these steps in order
+69e892e2	Body temperature rises
+9e9362d3	The skin’s vessels widen
+6b0c5209	The sweat glands secrete
+414c9d80	Sweat evaporates and the body cools
+a064abc3	thermoregulation: more blood to the surface and evaporating sweat.
+6e4870ce	Control of body temperature is called ___ in medical terms.
+a61e60cf	therm/o = heat.
+3b8a4add	Spell the term for a disease-causing agent
+7d6ef21c	Map of the Skin: Three Layers
+ff5c5cad	Three floors of a building
+85cdd7fe	⟦0⟧The skin has three layers:<br>1. ⟦1⟧: the thin outer layer; it <b>has no blood vessels</b>.<br>2. ⟦2⟧: the thick middle layer, full of vessels, nerves, glands and hair follicles.<br>3. ⟦3⟧: fat that insulates and cushions the body.
+075eafca	Decode the names of the layers
+6e6378d3	⟦0⟧ → “upon the dermis”<br>⟦1⟧ → “under the skin”<br>⟦2⟧ → another name for the subcutaneous layer⟦3⟧
+7803541f	A three-storey building: the roof (epidermis) is waterproof but has no pipes; the middle floor (dermis) has all the plumbing and wiring; the basement (subcutaneous) is the fat store.
+a117a675	Which layer of the skin has no blood vessels?
+d7697cd0	All three have vessels
+ceb7cee0	The epidermis is avascular and is fed by the capillaries of the dermis.
+fc25e256	In which layer are the sweat glands and hair follicles?
+5f055a12	The dermis is the skin’s living, well-equipped layer.
+c3befed8	The subcutaneous layer is made mostly of fatty tissue.
+9577d76b	True; adipose tissue keeps the body warm and absorbs shocks.
+94f00edf	Build a word meaning “pertaining to under the skin”
+284aa3b7	Put the skin layers in order from outside to inside
+5790c111	Muscle lies beneath the subcutaneous tissue.
+2f0bde6e	Match each layer to its feature
+1ff0e5a0	no vessels, protective layer
+56b436e6	vessels, nerves and glands
+98d3cd9c	fat and insulation
+36b9f6b8	dead surface cells
+1567b539	The stratum corneum is the topmost part of the epidermis.
+8cc171d3	Spell the term for the outer layer of the skin
+5b95efe6	epi- (upon) + derm (skin) + -is.
+63e6b733	A medical word is a puzzle
+7c340efd	⟦0⟧Every medical word is built from pieces:<br>• the <b>root</b> (⟦1⟧): the core meaning, such as ⟦2⟧ = skin<br>• the <b>prefix</b> (⟦3⟧): at the start of the word, such as ⟦4⟧ = under<br>• the <b>suffix</b> (⟦5⟧): at the end of the word, such as ⟦6⟧ = inflammation<br>• the <b>combining vowel</b> (usually ⟦7⟧): joins the root to the suffix: ⟦8⟧
+a582bf8a	Prefix + root + suffix
+5ff3916f	The golden rule of reading
+52aaf28d	Start the meaning from the <b>suffix</b>, then the <b>prefix</b>, and finally the <b>root</b>:<br>⟦0⟧ → “inflammation of the skin”<br>⟦1⟧ → “pertaining to under the skin”⟦2⟧

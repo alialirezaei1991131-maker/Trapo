@@ -1,0 +1,279 @@
+da6f8504	From a healthy follicle to a pimple
+6077882a	Think of seb/o as oily soap: sebum is the skin’s natural oil.
+1a464d76	What is the gland that makes sebum called?
+663a72dd	seb/o = sebum.
+e5606fda	a plug of sebum and keratin in a follicle (blackhead or whitehead)
+f94d8deb	hairy cyst
+c2bad719	pigmented mole
+68fd6d99	Plural: comedones.
+922ded40	The black of a blackhead comes from dirt and dust.
+fc469c69	False; it comes from oxidised melanin and oil in the open mouth of the follicle.
+4bc51f92	Put the stages of pimple formation in order
+6e2c6111	Excess sebum secretion
+77dbede7	Blocked follicle opening (comedo)
+4a477539	Bacterial growth
+3e87a016	Inflammation and a pustule
+96b6b818	Sebum → plug → bacteria → pus.
+426742a7	Build a word meaning “excess secretion of skin oil”
+857a3829	skin oil
+b60d156f	excess oil secretion
+13b822e3	open comedo
+841e24e8	closed comedo
+7f179d77	Words of the oil glands.
+6bb9a77f	Spell the term for the skin’s natural oil
+0105f2aa	Appendages Summary
+7af94f9a	All the appendages at a glance
+b0acaaa4	Appendage
+92d1c353	Example disease
+3dcb5dd1	Sweat or oil?
+7b2cf19e	watery sweat; cools the body; opens onto a pore
+811f72e5	oily sebum; softens the skin; opens into a follicle
+33629f27	In a full-thickness burn the follicles and sweat glands are destroyed; grafted skin does not sweat and has no hair.
+b2040d15	Which pair of roots has the same meaning?
+11e03dd4	hidr/o and sudor/o
+a3b40afe	pil/o and py/o
+5e3fff45	onych/o and onc/o
+d72b89f2	Both mean sweat.
+2185cc58	Where does the oil gland release its secretion?
+4615bd52	Directly onto a skin pore
+c4ed784d	Lymph nodes
+89094ff2	Sebum reaches the surface through the follicle.
+38a2337d	ungu/o and onych/o both mean nail.
+b5740689	One is Latin and the other Greek.
+96b9e601	Match each appendage to its root
+d429ec17	Four roots of the appendages.
+5091820f	A patient complains of “heavy sweating of the palms that disrupts daily work”. The right term?
+9e71a439	Inflammation of the sweat glands is ___.
+6da820d9	hidr/o + aden/o (gland) + -itis.
+e34971b3	Spell the first word of the term for an oil gland
+8020f8bc	seb/o + -aceous (pertaining to).
+8114f0dc	Lesions
+778042f1	Macule to tumour, blisters and pus, crusts and ulcers, skin colours, bleeding under the skin and itching
+fa771a1b	Primary lesions
+d477b9c8	Fluid-filled, secondary and sunken
+632b5a9a	Colours and signs
+9505ac77	Any Abnormal Change
+79096c97	A ⟦0⟧ is any wound, injury or abnormal change in tissue, from a spot to an ulcer.<br>• ⟦1⟧: the first change that appears on healthy skin (macule, papule, blister…)<br>• ⟦2⟧: develops from a primary lesion through scratching, healing or infection (crust, scale, scar…)
+81074469	Three questions for every lesion
+67918585	1. <b>Flat, raised or sunken?</b><br>2. <b>Solid or fluid-filled?</b><br>3. <b>Smaller or larger than 1 cm?</b>⟦0⟧⟦1⟧
+1f94aa53	The one-centimetre line
+0327eb38	You have three keys for describing any lesion: surface, contents, size.
+eeeeff12	What kind of lesion is a crust that formed after a blister was scratched?
+f0adb29d	It came from a change in a primary lesion.
+500c11f2	What is the size cut-off between a macule and a patch?
+f14a2c5e	1 cm
+f7e866c3	1 mm
+e8a83ff5	5 cm
+5b05d034	10 cm
+47104fc0	Under 1 cm is a macule, above it a patch.
+b7dd68b5	Macules and papules are both primary lesions.
+3e187a7b	Both appear directly on healthy skin.
+5480403e	Match each lesion to its type
+ffcff0e5	primary, flat
+9b762a87	primary, raised
+26ab8725	secondary
+20024030	sunken
+78253c10	Surface and order of appearance.
+192823f7	A lesion that develops from a change in another lesion is called a ___.
+949f091f	Secondary.
+5eab1eae	Put the lesions in order from small to large
+f0b6ed1c	Under 1 cm → 1 to 2 cm → over 2 cm.
+4d696086	Spell the term for any abnormal area of damaged tissue
+be358534	lesion = a wound or abnormal change.
+465375b0	Only the Colour Changes
+b8a425e6	⟦0⟧⟦1⟧: a flat, discoloured spot smaller than 1 cm (a freckle).<br>⟦2⟧: a flat spot larger than 1 cm (vitiligo).<br>On touch its border cannot be felt; it can only be seen.
+5a9d6b75	Vitiligo: white patches
+98340f03	Moles on the face
+a482eead	Clinical examples
+f8d393ac	macule: small and smooth; patch: a big “patch” of cloth.
+645aa9eb	Check any new macule or mole with several colours and an irregular border using the ABCDE criteria.
+ae2c0b3d	What is a flat brown 4 mm spot on the face called?
+1732b9b9	Flat and under 1 cm.
+87ed569f	What type are the large white patches of vitiligo?
+8d7b15e6	Flat and larger than 1 cm.
+38b20b25	Vitiligo
+19b1ed94	A raised bump can be felt when you touch a macule.
+8798a17d	False; a macule is completely flat.
+9bbd0106	Match each lesion to its example
+8aee5e14	freckle
+7ab15509	pinpoint bleeding spots
+f13bea9c	Flat, coloured lesions.
+08f7d579	A flat spot larger than 1 cm is called a ___.
+ab0ed950	patch = a piece of cloth.
+eb7868c4	What is the difference between a macule and a patch?
+d143fab6	Raised surface
+c40867f4	Fluid content
+c4efe6e4	Both are flat; the line is 1 cm.
+e8946233	Spell the term for a small flat spot
+03b82c85	macule = small spot.
+34e1e605	From Papule to Tumour
+5e7cbfbb	raised and solid, under 1 cm
+78b987c0	raised and flat-topped, over 1 cm (psoriasis)
+71663ebb	solid and deeper, 1 to 2 cm
+f747dbe5	solid mass over 2 cm
+4c73d409	passing, itchy swelling (hives)
+e9de791e	growth on a stalk
+f5d779c5	Hives: here and gone
+b8dbab0c	A ⟦0⟧ is a smooth, slightly raised swelling that comes and goes within hours, like a mosquito bite or allergic hives (⟦1⟧).⟦2⟧⟦3⟧
+d378ef16	Hives
+070e7fe9	Scattered wheals in hives
+77966efb	A plaque is like a car number plate: flat and broad.
+c8783812	What is a 5 mm solid bump?
+c84fbd60	Solid and under 1 cm.
+9abcd01b	What are the flat, broad, scaly lesions of psoriasis called?
+14ada416	Raised, flat-topped and larger than 1 cm.
+e6eaf860	Psoriasis of the knee
+4b7c03b3	A wheal is a lasting lesion that stays unchanged for weeks.
+cb17eed0	False; a wheal is passing and usually goes within a few hours.
+ddea90ea	Put these solid lesions in order from small to large
+48e7ee98	Under 1, 1 to 2, over 2 centimetres.
+33828178	Match each lesion to its description
+e3b8c724	small solid bump
+54b26c44	broad, flat-topped bump
+3bb39dd2	deeper lump
+6175c21d	passing itchy swelling
+115399dd	Raised lesions.
+4b146077	A growth that projects from the surface on a stalk is a ___.
+6583cc7c	polyp = a growth on a stalk.
+ed62d5b3	Spell the term for a small solid raised bump
+26c45936	papule = small bump.
+9254dd0a	Blisters, Pus and Cysts
+9c1df31f	⟦0⟧⟦1⟧: a small blister with clear fluid, under 1 cm (vesic/o = sac)<br>⟦2⟧: a large blister, over 1 cm (plural: bullae)<br>⟦3⟧: a small bump full of pus<br>⟦4⟧: a closed sac filled with fluid or semisolid material<br>⟦5⟧: a cavity full of pus with inflamed tissue around it
+6a352fd7	Second-degree burn blister
+0169e27e	Pemphigus: bullae
+b47322cc	Large blisters
+ba6c55ff	vesicle is a little “vessel” or sac; bulla is like a “balloon”: a big sac.
+3486f773	Cloudy yellow, pus-like fluid means infection; clear fluid is seen more in burns, cold sores and chickenpox.
+18a05f91	What is a blister larger than 1 cm called?
+f7e8d200	bulla = large blister.
+92987be2	Burn blister
+cf269945	What is a small bump full of pus?
+43c49267	pustule = pus pimple.
+ec0a78f8	A vesicle is a small blister full of clear fluid.
+10cee3c4	vesic/o = sac.
+ab327c83	Put the stages of abscess formation in order
+dbeb3c80	Bacteria enter the skin
+a6843f17	Inflammation and an influx of white blood cells
+c61ee0b6	Pus collects in a cavity (abscess)
+5d44d0de	Incision and drainage (I&D)
+fdd25efb	Infection → inflammation → pus → drainage.
+7a24ef14	Match each lesion to its contents
+9f674304	clear fluid (small)
+3321575a	closed sac
+6bbd01e0	Fluid-filled lesions.
+c2a7421c	A cavity full of pus with inflamed tissue around it is called an ___.
+f0625be1	Usual treatment: I&D.
+4db2519d	Spell the term for a small blister
+eb47c5d7	After Scratching and Healing
+d1203e68	⟦0⟧⟦1⟧: a scab; dried serum, blood or pus<br>⟦2⟧: thin flakes of dead epidermis<br>⟦3⟧: thick, leathery skin with deep lines from long scratching<br>⟦4⟧: a linear scratch<br>⟦5⟧: a raised scar beyond the edge of the wound
+6e9c4dbc	Lichenification of the ankle
+f531f1be	Honey-coloured crust of impetigo
+c972dfd0	lichen = the lichen on a rock: thick, lined skin like lichen.
+aa63b66d	A “honey-coloured” crust around a child’s nose and mouth = impetigo; it is contagious.
+657f1678	What is thick, leathery skin from long scratching called?
+2c2d86f8	In chronic eczema.
+692b175e	What is a linear scratch from a fingernail?
+deacbe71	ex- + cori (skin) + -ation.
+87513907	Scale means thin flakes of dead epidermis, like dandruff.
+2b96bb07	In psoriasis the scales are silvery.
+c6ce0255	raised scar
+49d83aab	Secondary lesions.
+c3747543	Put the events in order
+cf37cd08	Scratching
+6d970e06	Itch → scratch → crust.
+8432db1b	A raised scar that goes beyond the edge of the wound is a ___.
+167757b9	Spell the term for a linear scratch mark
+55c34050	Cracks, Ulcers and Hollows
+abd670b7	Sunken lesions
+cb32f831	⟦0⟧: a deep, linear crack (athlete’s foot, chapped lips)<br>⟦1⟧: superficial loss of the epidermis; heals without a scar<br>⟦2⟧: an open sore reaching the dermis or deeper; heals with a scar<br>⟦3⟧: thinning and sinking of the skin⟦4⟧
+af216f8f	epidermis only; no scar
+f98dc003	into the dermis or deeper; with a scar
+c8aad8af	Ulcers at the bedside
+692f6d24	Venous ulcer of the ankle
+cf43b9a4	Two common chronic ulcers
+a5894de6	fissure as in a rock “fissure” = a split; ulcer as in “stomach ulcer” = an open sore.
+cc8ed160	What is a deep, linear crack in the skin called?
+e993a0f9	fissure = split.
+df423107	What is an open sore that reaches the dermis?
+b4a4c8cb	A deep ulcer heals with a scar.
+3734ce98	Venous ulcer
+af02879a	An erosion usually heals without a scar.
+12e87519	Because it involves only the epidermis.
+51f06305	deep linear crack
+fdc935d7	superficial loss of epidermis
+30087fca	sore down to the dermis
+2ab67141	thinning of the skin
+c209a8a9	Sunken lesions.
+de881ef0	Put the stages of a pressure sore in order from shallow to deep
+90ecc6ac	Stage 1: persistent redness
+c359b0cd	Stage 2: shallow sore
+ff65f1c2	Stage 3: down to fatty tissue
+3f3dafb5	Stage 4: down to muscle and bone
+28fb11b3	Each stage is one layer deeper.
+3f36fdd2	Thin, shiny, sunken skin is called ___.
+e1d0834d	Spell the term for an open sore reaching the dermis
+53a14b97	ulcer = open sore.
+8771531c	Skin Colours
+36d7b93a	Five warning colours
+d7f931d1	Colour and cause
+86458d01	<b>Red</b>: widened capillaries (inflammation, sun)
+ec5d753a	<b>Blue</b>: low blood oxygen
+0a65bc5f	<b>Pale</b>: anaemia, shock
+ba861cac	<b>Yellow</b>: high bilirubin (liver)
+264005e9	<b>Dark</b>: more melanin
+01951413	erythema and erythematous
+d9ab8372	⟦0⟧ is a noun (redness) and ⟦1⟧ an adjective (red): “an erythematous plaque”.<br>⟦2⟧ versus ⟦3⟧: more colour or loss of colour.⟦4⟧⟦5⟧
+f3054c4d	Age spots
+9b85e37a	Darkening of the skin with age and sun
+8610f043	Look for jaundice first in the whites of the eyes; in dark skin it shows there before the skin.
+60da496b	What is redness of the skin from widened capillaries called?
+a3782b76	erythem/o = red.
+67944f5f	A patient with blue lips and nails; which term?
+d8a57381	cyan/o = blue; lack of oxygen.
+2dd5e259	Jaundice means yellowing of the skin and eyes from high bilirubin.
+60d34eee	jaund/o = yellow.
+39d63963	Build a word meaning “darkening of the skin”
+ea978995	Match each colour to its term
+eff0bc6e	Pale
+d83772a9	Skin colours.
+8dab7338	The adjective for a “red” skin lesion is ___.
+f157d5dc	Spell the term for paleness
+b069a7db	pallor = paleness.
+b562f125	From Dot to Mass
+ed87ce7b	⟦0⟧⟦1⟧: tiny red or purple dots (singular: petechia)<br>⟦2⟧: larger purple patches<br>⟦3⟧: a large blue and purple bruise<br>⟦4⟧: a raised clot of blood under the skin (hemat/o = blood, -oma = mass)
+ba114d37	⟦0⟧⟦1⟧ = a bruise: an injury that does not break the skin.⟦2⟧⟦3⟧
+d593ce16	Purpura on the hand
+78185f62	Dots and patches
+9c4f83eb	From small to large: petechiae → purpura → ecchymosis; a hematoma is raised.
+ffc8986f	Petechiae do not fade under finger pressure; this simple test tells them apart from red rashes.
+7335a721	What are tiny red dots from bleeding under the skin called?
+bd2b3f26	Singular: petechia.
+a9d3266c	What is a large blue and purple bruise after a blow?
+6b8bfb02	A hematoma is a collection of clotted blood that forms a swelling.
+3bd90925	Put these lesions in order from small to large
+773c5b12	Dot → patch → large bruise.
+51b24889	purple patches
+141c5dc5	large bruise
+a02f6346	Bleeding under the skin.
+f8653609	Build a word meaning “mass of blood”
+9c9c8e11	Spell the term for a large bruise
+826b47cb	Itching, Hives and Discharge
+f9f3a90e	Common signs
+d6a9c40f	⟦0⟧: itching; its adjective is ⟦1⟧<br>⟦2⟧: hives; itchy wheals, usually allergic<br>⟦3⟧ or ⟦4⟧: skin eruption<br>⟦5⟧: swelling from excess fluid in the tissue<br>⟦6⟧: hardening of tissue (when reading a TB test)
+408ca9d8	Wound discharge
+533f7bb3	⟦0⟧: fluid, cells or pus that come out of a wound.<br>⟦1⟧: pus-filled (pur/o = pus).⟦2⟧⟦3⟧
+5cf03b3f	itching (a symptom)
+64b225f3	hives (a lesion and a disease)
+4177304f	An anti-itch drug is an antipruritic; be careful not to confuse it with an antipyretic (fever reducer)!
+cd7f264e	What is the medical term for intense itching?
+41065a22	prurit/o = itching.
+e28ade14	How is wound discharge full of pus described?
+c7299bee	pur/o (pus) + -ulent (full of).
+b5aa6ca7	Urticaria is hives and is usually an allergic reaction.
+e838499e	Itchy wheals.
+d34dce8d	Skin signs.
+06e02704	Build a word meaning “anti-itch drug”
+d927612b	The adjective for “itchy” is ___.
+83a62f3c	Spell the term for itching
+05bf8524	Skin Diseases
+aaab25e4	Bacterial, fungal and viral infections, parasites, eczema and psoriasis, acne, lupus, burns and pressure sores

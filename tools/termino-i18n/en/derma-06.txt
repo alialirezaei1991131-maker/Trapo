@@ -1,0 +1,266 @@
+1f4ffbba	Infections and parasites
+b8561faf	Inflammation and autoimmunity
+a50b3351	Burns and ulcers
+51291c25	Bacterial Infections
+01684760	Impetigo and cellulitis
+a84a089b	⟦0⟧: a highly contagious bacterial infection (staph or strep); pustules that burst and form <b>honey-coloured crusts</b>, often around children’s noses and mouths.<br>⟦1⟧: infection of the dermis and subcutaneous tissue; red, warm, swollen and painful skin.⟦2⟧
+b4a16c30	Impetigo beside the nose
+8ac6c656	Impetigo around the lips
+18fa11db	Honey-coloured crusts
+fb268559	Two famous bacteria
+b63e8509	⟦0⟧ (staph): round bacteria in <b>clusters</b> (staphyl/o = bunch of grapes)<br>⟦1⟧ (strep): round bacteria in <b>chains</b> (strept/o = twisted, chain)<br>⟦2⟧: methicillin-resistant Staphylococcus aureus; does not respond to many antibiotics.⟦3⟧
+02f4c5ca	To choose the right antibiotic, a “culture and sensitivity” (C&S) is taken from the wound discharge.
+f6426ce8	Honey-coloured crusts around a child’s nose are a sign of which disease?
+8a8af839	Impetigo is highly contagious.
+7009bd7a	Impetigo
+a8cd88e5	What is an infection of the dermis and subcutaneous tissue with red, warm, painful skin?
+91f34347	Staphylococci are bacteria in chains.
+d8105c52	False; staph is in clusters and strep in chains.
+466b8547	soft-tissue infection
+fccfad1b	pus-filled cavity
+e54e2206	antibiotic-resistant staph
+dbdc2570	Bacterial infections.
+7551c4a0	The usual treatment for an abscess is ___.
+6bc620bd	Incision and drainage of the pus.
+730ab2f5	C&S in a chart means…
+40dd3187	squamous cell carcinoma
+1d9ea46b	biopsy
+9d7b7a08	Spell the term for a contagious crusting skin infection
+f708f622	impetigo = a contagious bacterial infection.
+03bfa14f	Fungal Infections
+4adce3af	Ringworm: a ring that is not a worm
+41c1f668	⟦0⟧ is a fungal infection of the skin, hair or nails, also called ⟦1⟧; but there is no worm at all! Red rings with a paler centre.⟦2⟧
+a62d38ae	Name the site
+ed823363	⟦0⟧⟦1⟧: a candida yeast infection in moist places; in the mouth it is “thrush”.⟦2⟧
+ea6f4c79	foot (athlete’s foot)
+c594c02e	discoloured patches of the trunk
+7cb1bf7e	capitis = captain (head); pedis = pedal (foot); corporis = corporal (body).
+3620e153	What is athlete’s foot in medical terms?
+098ab739	pedis = foot.
+0f42587b	Which one is red rings with a pale centre on the trunk?
+b3d3df77	Ringworm of the body.
+581ca626	Ringworm is caused by a parasitic worm.
+8b3b7d0d	False; it is caused by a fungus and only has a ring shape.
+d8fd216e	Build a word meaning “fungal skin infection”
+81b920a6	Match each name to its site
+70351407	tinea + the Latin name of the site.
+a01c8083	The yeast infection that causes thrush in the mouth is ___.
+a0dc2c9a	Spell the term for a fungal ringworm infection
+5d01ebad	Viruses and Parasites
+13a8f60f	Skin viruses
+b0a36e54	⟦0⟧: a wart; from the human papillomavirus (⟦1⟧)<br>⟦2⟧: a cold sore; painful vesicles on the lip (⟦3⟧)<br>⟦4⟧: chickenpox; itchy vesicles that crust over<br>⟦5⟧: shingles; reactivation of the chickenpox virus (⟦6⟧) along a nerve⟦7⟧
+da6f4587	Rash crusting over
+7f63c3fb	Parasites
+a316cbbf	⟦0⟧: a tiny mite that tunnels under the skin and causes intense itching at night.<br>⟦1⟧: lice infestation (pedicul/o = louse); lice eggs (nits) stick to the hair.⟦2⟧⟦3⟧
+9adb658f	herpes zoster: think “zone”: only one zone (the path of one nerve) on one side of the body.
+dde30887	Anyone who has had chickenpox has the virus sleeping in their nerves and may get shingles years later.
+9358cfcf	Which virus causes warts?
+d2fef43c	Shingles is the reactivation of which virus?
+fdb24d9b	Chickenpox virus (VZV)
+f6bc7f86	Cold-sore virus (HSV)
+0bb84f79	Measles virus
+6bee6389	Scabies is caused by a mite that tunnels under the skin.
+9a971acc	Intense itching, especially at night.
+0a36da98	Scabies
+164390f6	Match each disease to its cause
+17d4c0fd	scabies mite
+1f40adcc	Viruses and parasites.
+1317a823	Build a word meaning “lice infestation”
+150e3a7c	Chickenpox is called ___ in medical terms.
+441635e7	Spell the second word of the term for shingles
+55466693	Dermatitis and Eczema
+d72bb3a0	Three types of dermatitis
+d2e35a1f	Type
+dfdf166e	chronic itchy eczema; with asthma and allergy; children
+f3ed55a3	contact with an irritant or allergen (nickel, poison ivy)
+14a2aa63	greasy yellow scales of the scalp and face (dandruff)
+67b0fd59	Atopic dermatitis of the wrist
+68747a36	Contact dermatitis from shoes
+464afb84	Two types of dermatitis
+eba5070d	⟦0⟧ is a chronic, itchy inflammation of the skin with redness, vesicles, crusts and scales; with long scratching → ⟦1⟧.⟦2⟧⟦3⟧⟦4⟧
+ad01e601	Eczema of the forearm
+5f123d16	Redness, crusts and scales in eczema
+c91753eb	To find the cause of contact dermatitis, a “patch test” is done: allergens are taped to the skin for 48 hours.
+178f3d70	atopic = “out of place” (a- + topos): the body reacts to harmless things.
+7a2a067b	What is chronic eczema in a child with a history of asthma and allergy called?
+20445a9a	Redness and blisters under a metal watch strap are most likely which?
+3197c576	Nickel allergy.
+60017dec	Dandruff is a mild form of seborrheic dermatitis.
+c1f2479f	Greasy yellow scales.
+ffc65230	Match each type to its feature
+292a5d73	with asthma and allergy
+50c15787	contact with an allergen
+82501dac	greasy scalp scales
+2170b8ac	chronic itchy inflammation
+b5ed453c	Types of dermatitis.
+e5e377ed	The abbreviation AD means ___.
+5aa5a427	Atopic dermatitis.
+ec251cf3	Put the steps of a patch test in order
+73f6e0bc	Tape allergens onto the back
+2d12b555	Wait 48 hours
+208b5bc7	Remove the patches
+49eee986	Read any red reaction
+2676d7b3	Spell the term for chronic itchy inflamed skin
+ac2fa4da	eczema = chronic itchy inflammation.
+41a4bdb4	Psoriasis, Acne and Rosacea
+ea0bc209	⟦0⟧: a chronic disease with <b>red plaques and silvery scales</b>, mostly on the elbows, knees and scalp. The cells of the epidermis multiply very fast.⟦1⟧
+0f250751	Psoriasis plaque
+d9f76b8a	Silvery scales
+eedd64f0	Acne and rosacea
+8a437324	⟦0⟧: common teenage acne; comedones, papules and pustules on the face, chest and back (vulgaris = common).<br>⟦1⟧: chronic redness of the cheeks and nose with tiny vessels and pimples; mostly adults.⟦2⟧⟦3⟧
+7a0510c2	Acne of the forehead
+a3e0a7b7	Acne papules and pustules
+572b53dd	The most severe acne is treated with an oral retinoid (isotretinoin); it is forbidden in pregnancy.
+341d2231	Red plaques with silvery scales on the elbows and knees?
+f177c221	psor/o = itching + -iasis.
+73cf55f6	In acne vulgaris, vulgaris means…
+ea475b51	common, ordinary
+8fe0fa55	severe
+72dae8ca	Common acne.
+9580f71b	Acne of the face
+f95444c5	Rosacea is seen mostly in teenagers with many comedones.
+a5924349	False; rosacea is seen mostly in adults and without comedones; teenage acne has comedones.
+7ef51f07	Match each disease to its feature
+b425f304	silvery scales
+b254915d	teenage comedones
+63b94eca	redness of cheeks and nose
+260dccc6	excess oil
+70b82ef4	Three common diseases.
+068a1e00	Build a word meaning “psoriasis”
+22c5edda	psor/o (itching) + -iasis.
+fefd5c41	The oral drug for severe acne belongs to the ___ family.
+0081689d	Isotretinoin is a retinoid.
+d59e7f58	Spell the term for a disease of red plaques with silvery scales
+86834d05	The first p is silent: “suh-RYE-uh-sis”.
+6cc19a6e	Autoimmune and Inherited
+78a367eb	The body against the skin
+24c708f9	⟦0⟧ (⟦1⟧): a chronic autoimmune disease of the skin, joints, kidneys and more; a <b>butterfly rash</b> on the cheeks and nose.<br>⟦2⟧ (⟦3⟧): lupus limited to the skin, with round scaly plaques.<br>⟦4⟧: hardening and thickening of the skin (scler/o = hard).<br>⟦5⟧: large blisters (bullae) on the skin and mucous membranes.
+f030502f	Inherited colour and scales
+69288648	⟦0⟧: loss of melanocytes → white patches.<br>⟦1⟧: inherited absence of melanin.<br>⟦2⟧: dry skin with fish-like scales.⟦3⟧⟦4⟧
+56fc84cc	Skin lupus on the chest
+349b3fb1	Ichthyosis
+a18dd6d9	A patient suspected of lupus should avoid the sun and use sunscreen; light makes the rash worse (photosensitivity).
+84631419	A butterfly rash on the cheeks and nose with joint pain makes you think of what?
+5092ecc8	Systemic lupus erythematosus.
+61073699	What is hardening and thickening of the skin in an autoimmune disease called?
+c963957d	Vitiligo is the loss of melanocytes and produces white patches.
+52144a33	butterfly rash
+894186f2	white patches
+92468475	fish-like scales
+208761ad	Autoimmune and inherited.
+8f61aa2b	Build a word meaning “inherited dry, scaly skin”
+47609013	Lupus limited to the skin is abbreviated ___.
+1e47cc86	Spell the term for white patches from loss of melanocytes
+773bc3c7	vitiligo = white patches.
+f7a2ff98	Burn Degrees
+a7fa6ca4	Depth of damage
+90722b58	Degree
+3d733d87	Other name
+054e1707	Appearance
+5b21ae27	red and painful
+7bc56885	epidermis and part of the dermis
+34d5d922	blisters and severe pain
+91189803	epidermis and the whole dermis
+a129e3f4	white or charred, sometimes painless
+ffdee9c4	Why does a third-degree burn hurt less?
+0e4e36a1	In a full-thickness burn the nerve endings of the dermis are destroyed too. The black, hard layer of dead tissue is called ⟦0⟧.⟦1⟧⟦2⟧
+d907c089	Blisters in a second-degree burn
+cd07098e	Degree 1 = sunburn; degree 2 = blisters; degree 3 = “charred and numb”.
+b942bbff	What degree is a simple sunburn without blisters?
+eb2a12f9	First degree (superficial)
+0f81e725	Second degree
+29a4c087	Third degree
+a3a61296	Fourth degree
+f9923eae	Epidermis only.
+a2af7c34	A burn with large blisters and severe pain?
+fe665784	Into part of the dermis.
+268451c8	A third-degree burn is always the most painful kind.
+9b851799	False; because the nerves are destroyed it may be painless.
+22b98f13	Put the burn degrees in order from superficial to deep
+756fe066	One → two → three.
+1cb31f53	Match each degree to its feature
+717fddc0	redness without blisters
+0256cb98	black dead tissue
+0eb02f76	Burn degrees.
+b0e99b3b	The black, hard layer of dead tissue after a burn is ___.
+7d0a1f49	eschar = the dead tissue of a burn.
+22304705	Spell the term for the black dead tissue of a burn
+afb7d7ab	Don’t confuse eschar with scar.
+98b67664	What Percentage of the Body Is Burned?
+36822389	⟦0⟧The ⟦1⟧ estimates the percentage of body surface area (⟦2⟧) burned in an adult:<br>head and neck 9% • each arm 9% • each leg 18% • front of trunk 18% • back of trunk 18% • genital area 1% = 100%
+30dcb271	Rule of nines in an adult
+78ec081a	From percentage to treatment
+84fb2a63	The higher the percentage and the deeper the burn, the more fluid therapy is needed and the higher the risk of infection.<br>⟦0⟧: removing dead tissue; ⟦1⟧: cutting through a tight eschar to free the circulation; then a ⟦2⟧.⟦3⟧
+50b81a9e	In children the head is larger relative to the body; separate charts (Lund-Browder) are used for them.
+275a3db9	In the rule of nines, what percentage is one whole adult arm?
+90d87a1a	Each arm 9%.
+81dfdba1	What percentage is a burn of the whole right leg (front and back)?
+75cdf22e	Each leg 18%.
+b2f5b24f	In the rule of nines, the genital area counts as 1%.
+26130cea	So that the total reaches 100.
+d9656c25	Adult patient: burns of the whole left arm and the front of the trunk. The total?
+1451bb6d	Arm 9 + front of trunk 18 = 27%.
+9ca6de0d	Match each area to its percentage
+66329f5e	Each leg
+87e5c0b0	Trunk (front and back)
+201304e7	Genital area
+0d19b601	Total = 100%.
+c057140c	The abbreviation for percentage of body surface area is ___.
+74a6eb61	Spell the term for removing dead tissue from a wound
+a1113a27	Removing dead tissue; French pronunciation: “day-breed-MAHN”.
+f5581b15	Pressure Sores and Gangrene
+58066118	Pressure, blood supply, tissue death
+22adf42f	⟦0⟧ (bedsore, pressure ulcer): from long pressure over bony prominences in a bedridden patient. Pressure cuts off the blood supply and the tissue dies (⟦1⟧).⟦2⟧
+809090fe	Stages and types of ulcer
+6a7dc9a4	⟦0⟧⟦1⟧: a leg ulcer from poor venous circulation.<br>⟦2⟧: tissue death from loss of blood supply, often with infection.⟦3⟧
+9f0c45ec	Prevention: change position every 2 hours, an alternating-pressure mattress, good nutrition and clean, dry skin.
+3acf1cc4	The most common site of a pressure sore in a patient lying on their back?
+2a1ea230	The sacral area (sacrum)
+482e6c03	The forehead
+9e86041d	The front of the knee
+c2710b5b	Over a bony prominence.
+0053966a	tissue swelling
+1837c7c7	necr/o = death.
+6b2fb917	Gangrene of the foot
+51b8b3da	A stage 4 ulcer has reached muscle and bone.
+b8bcc227	The deepest stage.
+f7164797	Deep pressure ulcer
+bc84fc63	Put the events of a pressure sore in order
+b10e38a1	Long pressure over a bone
+2616e296	Loss of blood supply
+6967002b	Tissue death (necrosis)
+81f9dec2	Open ulcer
+e1cc0718	Pressure → ischaemia → necrosis → ulcer.
+3f97dcf1	Match each ulcer to its cause
+c2153fe1	long pressure
+7a9373f6	poor venous circulation
+ee439396	complete loss of blood supply
+79fcc705	heat or chemicals
+500d4c3d	The cause of each ulcer.
+d737587c	In Latin, decubitus means ___.
+80fef7e8	lying down
+9cddadf6	burned
+2ec90b0d	The sore of someone who is lying down.
+30f97c26	Spell the term for tissue death from loss of blood supply
+eccfe831	gangrene = tissue death from loss of blood.
+bd6a800d	Tumours, Diagnosis and Treatment
+1d6ea5af	Moles and benign tumours, the three skin cancers and ABCDE, biopsy and skin tests, surgery, grafts and drugs
+e0aef323	Skin tumours
+5611e637	Diagnosis and charts
+c66a84a8	Benign Growths
+e39afb72	What does benign mean?
+f8fd5d30	benign: does not spread
+3d3f52b0	malignant: invasion and metastasis
+52b8f9b6	mole (plural: nevi)
+56aebc8b	benign tumour of vessels; a baby’s strawberry mark
+d0333e0d	soft fatty lump
+22ad3698	brown, waxy, “stuck-on” growth
+0a816d73	small fleshy tag
+fb5c4f5b	firm nodule of the dermis (dermatofibroma)
+759217dc	⟦0⟧⟦1⟧ is a rough scale on sun-damaged skin and is <b>precancerous</b>; it may turn into SCC (actin/o = ray).⟦2⟧
+481cc4f1	Infant hemangioma
+d2baf26d	hemangioma = hem (blood) + angi (vessel) + oma: a mass of blood vessels.
+6cdcc85a	A baby’s strawberry mark made of blood vessels?
+395da3f4	Hemangioma
+bcf7a3a2	Which lesion is precancerous?
+a4aeaaf1	On sun-damaged skin; it may become SCC.

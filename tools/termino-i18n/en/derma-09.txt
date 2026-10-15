@@ -1,0 +1,95 @@
+86e6f356	Removal layer by layer.
+e04dfe77	dermatoplasty means…
+6b155c48	cutting the skin
+42eaae71	sampling the skin
+9ebd5e83	Put the treatment steps in order
+2b488e3a	Biopsy confirming recurrence
+991d8971	Deep excision of the epidermis and dermis
+e50e26fc	Checking the margins
+17da59dd	Diagnosis → removal → reconstruction.
+0db06254	Hx in a report means history.
+a8210800	History and background.
+e5540400	A Psoriasis Note
+75ccbbb3	A 32-year-old woman
+7d1efb5a	Since adolescence the patient has had intermittent psoriasis that has worsened over the past year after sun exposure. She has itching of the scalp and abdomen. There is no family history of psoriasis. On examination there are thick red plaques with yellowish-white scale on the scalp, ears and trunk, and several firm brown macules and papules on the shins.
+9fe8ec95	psoriasis vulgaris; multiple histiocytomas
+36d2aeff	FH in the note means…
+68f6df36	examination finding
+3ef166bf	intermittent means…
+b0587648	coming and going
+d6c60478	chronic and constant
+56ce64d6	inherited
+0f07e404	broad, flat-topped bump
+12762240	Which light treatment is used for psoriasis?
+a89a0b96	Controlled UV light.
+04f6ec5f	A histiocytoma is a benign nodule of the dermis.
+69f364a0	Spell the term for a disease of red plaques with silvery scales
+1c4f7bb6	The first p is silent.
+9bba460f	The skin is the body’s largest organ: about 2 square metres and 16% of body weight.
+d64ba37a	Start the meaning from the suffix: hypo/derm/ic means “pertaining to under the skin”.
+2cd2c398	If the suffix starts with a vowel, the combining vowel is dropped: dermat/o + -itis = dermatitis.
+b745c623	derm/o, dermat/o and cutane/o all mean skin; -derma is also a suffix for skin.
+1a0bb30c	hidr/o with i means sweat; hydr/o with y means water. Hyperhidrosis is heavy sweating!
+77482990	xer/o means dry and xanth/o yellow; xeroderma is dry skin and a xanthoma a yellow lump.
+923a102a	‎-tomy means cutting, ‎-ectomy removal and ‎-tome a cutting instrument.
+9a967966	erythr/o is red, melan/o black, leuk/o white, cyan/o blue and xanth/o yellow.
+73f5469b	onych/o means nail but onc/o means tumour; one letter, two worlds.
+912c902a	The epidermis has no vessels (avascular); that is why a superficial scratch does not bleed.
+3c3725f4	The layers of the epidermis from the top: Corneum, Lucidum, Granulosum, Spinosum, Basale.
+ea6530c5	The epidermis renews itself about every 4 weeks; most household dust is our dead skin flakes!
+601a2b52	The number of melanocytes is about the same in everyone; the amount of melanin differs.
+8b127b6b	Fingerprints are made by the dermal papillae.
+fbed87b9	The Mantoux test is intradermal (ID) and insulin is subcutaneous (SubQ).
+b1dafce6	Collagen gives strength and elastin elasticity; both are made by fibroblasts.
+b55fc815	A keloid is a scar that goes beyond the edge of the wound, from overproduction of collagen.
+60bdaf82	trich/o and pil/o both mean hair; pilonidal means “hair nest”.
+6388e6ff	The arrector pili is a tiny muscle that makes the hair stand up: goose bumps.
+aa8e4ab0	lunula means little moon: the white half-moon at the base of the nail.
+eca0baba	Paronychia is an infection around the nail; para- means beside.
+44966151	The black of a blackhead comes from oxidised melanin, not dirt.
+01df8a9e	Eccrine glands are all over the body; apocrine glands are in the armpits and become active at puberty.
+6744fab1	Beau lines are transverse grooves in the nails that appear after a severe illness.
+563559a4	A macule is flat and a papule raised; for both the size line is 1 centimetre.
+a3365c4a	A vesicle is a small blister and a bulla a large one (over 1 centimetre).
+97a0ed29	Petechiae do not fade under finger pressure; inflammatory redness does.
+7c5c6b35	erythema is a noun (redness) and erythematous an adjective (red).
+2ccbba4b	An erosion removes only the epidermis and heals without a scar; an ulcer reaches the dermis.
+cb23cec9	An antipruritic stops itching; an antipyretic reduces fever. Don’t mix them up!
+d0e6f169	From small to large: petechiae → purpura → ecchymosis.
+7473d468	Ringworm (tinea) is a fungus, not a worm!
+1fbd9e45	tinea + the site: capitis head, corporis body, cruris groin, pedis foot, unguium nail.
+c4819a7f	Shingles is the chickenpox virus waking up in one nerve; only one side of the body.
+aadad1d5	Staph grows in clusters and strep in chains.
+ecb01764	Honey-coloured crusts around a child’s nose = impetigo.
+d068a547	Psoriasis: red plaques with silvery scales on the elbows and knees.
+28d819ce	Rule of nines: head 9, each arm 9, each leg 18, trunk 36, genital area 1.
+855ed48e	A third-degree burn may be painless; the nerves have burned too.
+843a2aef	The most common site of a pressure sore is the sacral area (sacrum).
+ba8a1835	An eschar is the black dead tissue of a burn; a scar is a healed wound.
+20a75cce	BCC is the most common skin cancer; melanoma the most dangerous.
+52bf5caf	ABCDE: Asymmetry, irregular Border, several Colours, Diameter over 6 mm, Evolving.
+85b543c8	biopsy = bi/o (living) + -opsy (viewing).
+b61cbff0	An autograft is from the patient, an allograft from another person, a xenograft from an animal.
+f4e9541a	Mohs surgery removes cancer layer by layer and spares the most healthy tissue.
+66b3b63b	ID means intradermal, but I&D means incision and drainage!
+09d7e2bb	bid twice, tid three times and qid four times a day; hs at bedtime.
+70e19cf7	SPF 30 blocks about 97% of UVB rays; reapply every 2 hours.
+bc2bfded	In the Mantoux test the width of the induration is read, not the redness.
+a38b95a1	Burn calculator
+a6db3915	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Derma is a learning tool; the dictionary and burn calculator do not replace examination and clinical judgment.</p>⏎    </section>
+51ad13bc	Search: derm, nail, tinea…
+56990fe6	<div class="tpane">⏎    <p class="muted">Type a medical word and it will be broken into prefix, root and suffix. The golden rule: start the meaning from the <b>suffix</b>, then the prefix, and finally the roots.</p>⏎    <label class="tsearch tsearch--big"><span aria-hidden="true">✂</span><input type="text" data-tp value="⟦0⟧" dir="ltr" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. dermatitis"></label>⏎    <div class="tchips tchips--btn">⟦1⟧</div>⏎    <div class="tout" aria-live="polite">⟦2⟧</div></div>
+1cba8171	Search: onych, hair, -itis…
+050adfea	Search: BCC, graft, biopsy…
+91803bdc	Left arm
+202c9677	Right leg
+04d2bda4	Left leg
+0c71cb91	<b>⟦0⟧%</b> <span>of body surface (BSA)</span><small>⟦1⟧</small>
+3ab5a297	Select the burned areas
+01b6a176	Limited burn
+183ba9df	Moderate burn; medical assessment
+a12bdc8a	Extensive burn; needs fluid therapy and a burn centre
+1caca881	<div class="tpane"><p class="muted">Select the burned areas; “half” means half of that area. Only second- and third-degree burns are counted.</p>⏎    <div class="burn">⟦0⟧</div>⏎    <div class="burn__out" aria-live="polite">⟦1⟧</div>⏎    ⟦2⟧⏎    <table class="mini"><tr><th>Degree</th><th>Layer</th><th>Appearance</th></tr>⏎      <tr><td>First <bdi dir="ltr">(superficial)</bdi></td><td>epidermis</td><td>red and painful</td></tr>⏎      <tr><td>Second <bdi dir="ltr">(partial-thickness)</bdi></td><td>epidermis and part of the dermis</td><td>blisters and severe pain</td></tr>⏎      <tr><td>Third <bdi dir="ltr">(full-thickness)</bdi></td><td>epidermis and the whole dermis</td><td>white or charred, sometimes painless</td></tr></table></div>
+901ed068	<div class="burn__r"><span class="burn__n">⟦0⟧ <small>⟦1⟧%</small></span><span class="seg">⟦2⟧</span></div>
+63e5ac78	Full
+251db84f	Burn degree

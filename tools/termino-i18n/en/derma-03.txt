@@ -1,0 +1,261 @@
+87914842	If the suffix starts with a vowel, the combining vowel is dropped: dermat/o + -itis = dermatitis, not dermatoitis.
+832b312d	In ⟦0⟧, which is the suffix and what does it mean?
+fb2544c7	‎-itis = inflammation
+c50b214a	‎-osis = abnormal condition
+e197edd4	‎-oma = tumour
+98bbc720	‎-logy = study of
+45b2690a	dermatitis = inflammation of the skin.
+fa27206a	any disease or abnormal condition of the skin
+3d63ad16	skin tumour
+c8595299	removal of skin
+ad9ddf5d	dermat/o + -osis (abnormal condition).
+983ef85e	In dermatitis the combining vowel o is dropped because ‎-itis starts with a vowel.
+43a6fa7e	True; dermat + itis.
+f085c0dd	In the word ___, the root dermat/o is joined to the suffix ‎-logy with the vowel o.
+19ea380e	Build a word meaning “any skin disease”
+f3f18e03	the o in dermatology
+4e8cf625	Three main pieces + the combining vowel.
+06414bcd	Spell the term for inflammation of the skin
+3ed6caae	Roots for Skin, Fat and Dryness
+475e7fa6	Three roots for “skin”
+b40d4b44	Example
+0911cc7d	skin (suffix)
+00e2046a	cutane looks like “cut”: the skin is the first thing hurt by a cut.
+908c473f	Fat, hardness, dryness
+6a34841a	dry and scaly (fish)
+6088f1c5	scale
+1c7dcfc3	red skin
+9eb0cb0a	hard skin
+640c7dbf	xer/o (dry) + -derma (skin).
+f410f98b	Which root does not mean “fat”?
+244767b0	kerat/o means horny and hard.
+8af1d082	Ichthyosis means dry, scaly skin like the skin of a fish.
+ceb99c84	ichthy/o = fish; dry and scaly.
+9b189713	Build a word meaning “hardening of the skin”
+3748ad59	horny, hard
+7a012c82	squamous cell = the scale-like cell of the epidermis.
+81085ecc	The word ___ means “pus-forming skin infection”.
+2aabe6e7	py/o (pus) + -derma.
+63e6bccb	Spell the term for dry skin
+a492e9be	A Rainbow of Roots
+89465b82	Describe the skin by its colour
+6d989880	⟦0⟧Physicians talk in skin colours: red, blue, yellow, white and black each have a root.
+2e22a0ce	Colour + derma
+8d80fec5	⟦0⟧ → widespread redness of the skin<br>⟦1⟧ → white patches of skin<br>⟦2⟧ → yellow skin<br>⟦3⟧ → bluish skin (lack of oxygen)⟦4⟧⟦5⟧
+eb4cdc2c	Erythrocyte = red blood cell; leukocyte = white blood cell. The same colours appear on the skin too.
+ba190f40	Blue lips and nails (cyanosis) mean the blood is low in oxygen; an urgent sign at the bedside.
+00381ee2	Which root means “yellow”?
+f062bc84	xanth/o = yellow; xer/o = dry. One letter apart!
+b75b0bbf	⟦0⟧ is built from which colour root?
+46686bd2	melan/o = black
+6b7a14ac	erythr/o = red
+8dc33d7a	leuk/o = white
+83098dab	cyan/o = blue
+066e7c80	melan/o + -oma (tumour): a tumour of pigment cells.
+431d1659	Erythroderma means widespread redness of the skin.
+82a60c96	erythr/o (red) + -derma.
+42258d2c	Build a word meaning “white patches of skin”
+76e18bd5	Match each colour to its root
+6a8a1563	Four common colours.
+addec88b	An inherited complete absence of pigment is called ___.
+1a77dbf9	albin/o = white (without pigment).
+aabbc6bc	Prefixes of Place and Direction
+706459d4	Where is the needle?
+f1fd9fca	⟦0⟧Prefixes tell where something is relative to the skin:<br>⟦1⟧
+ba5f61e2	Two prefixes of amount
+fd406fc5	⟦0⟧ = excessive: ⟦1⟧ (heavy sweating)<br>⟦2⟧ = without: ⟦3⟧ (no sweating), ⟦4⟧ (without vessels)⟦5⟧
+2a24ffa2	under or below normal: hypodermic
+0113ca5e	excessive: hyperhidrosis
+a1c8549c	within the skin
+2b9912c9	intra- (within) + derm + -al. The Mantoux test is intradermal.
+b42e3973	What is a medicated patch that passes the drug through intact skin called?
+fbbcb526	trans- = through.
+a77a31cb	A hypodermic needle is a needle for injecting under the skin.
+25fe44d2	hypo- (under) + derm + -ic.
+4a751904	Build a word meaning “without blood vessels”
+3a615550	Four prefixes of place and direction.
+8ff8baf6	The prefix ___ means “without”, as in anhidrosis.
+130d1d12	an- + hidr/o + -osis = absence of sweating.
+8cf6bb8e	Spell the term for within the skin
+a8412410	Disease and Surgery Suffixes
+4451f339	Surgery and treatment suffixes
+9971ee02	-tomy is the act (cutting), -tome is the tool (the knife); the final e of -tome is the edge of the blade.
+b034b1dc	benign fatty tumour
+57487c39	lip/o (fat) + -oma (tumour).
+9ceae27d	Which suffix means “surgical repair”?
+39958e74	dermatoplasty = surgical repair of the skin.
+50686d4c	A dermatome is an instrument for removing a thin layer of skin for grafting.
+02c78da1	-tome = cutting instrument.
+8d39f375	Build a word meaning “removal of a nail”
+37bb3f8d	Four common suffixes.
+65f1b266	Treatment with cold is called ___.
+7beb3cd1	Spell the term for surgical repair of the skin
+a3aa0b0b	Look-alike Traps
+7ac35384	One letter, a world of difference
+be8f76c1	hidr/o versus hydr/o
+0f4eca6d	sweat: hyperhidrosis
+5caa0b27	water: hydration
+e67128f5	dry: xeroderma
+d50b9aa8	yellow: xanthoma
+fe97c553	Other twins
+caae9bc0	incision: onychotomy
+17d04dd9	removal: onychectomy
+53b9e985	nail: onychomycosis
+bb9705db	tumour: oncology
+b9c7aee8	hair: pilonidal
+b820c9c1	pus: pyoderma
+a268fa14	In hidr/o the sweat has soaked the “i”; in hydr/o the “y” looks like a glass of water.
+90722250	excessive dryness
+4871e238	excessive urine
+f02e6901	hidr/o = sweat, not water.
+ea73b2bf	Which word relates to the nail?
+a7da6d91	onych/o = nail; onc/o = tumour.
+65d9374a	A xanthoma is a dry lump on the skin.
+92d20553	False; xanth/o means yellow: a yellow fatty lump in the skin.
+a8949a87	What is the difference between onychotomy and onychectomy?
+8d9294b6	The first is cutting into a nail, the second removing a nail
+c504aeed	Both are removal of a nail
+9377ec1c	The first is inflammation, the second incision
+df038423	The first is a fingernail, the second a toenail
+8a829b08	-tomy is incision and -ectomy removal.
+ec627f9e	Match each pair correctly
+32d87905	Deceptive twins.
+886c59aa	Absence of sweating is called ___.
+afca615a	an- + hidr/o + -osis; with i, not y.
+f96cf1c1	Spell the term for excessive sweating
+3a804dfd	Layers
+54824ecd	The epidermis and its five strata, melanin, the dermis and its receptors, subcutaneous fat, wound healing and injection routes
+92edb7f9	Subcutaneous tissue and healing
+526e3a44	The Epidermis: A Wall Without Vessels
+7de8a287	The protective outer layer
+aa627a99	⟦0⟧ is the thinnest layer of the skin: thinnest on the eyelids and thickest on the palms and soles.<br>It is made of ⟦1⟧, that is, several rows of flat <b>squamous</b> cells (squam/o = scale) stacked on top of each other.<br>The epidermis is ⟦2⟧: it has neither vessels nor nerves. It gets its food and oxygen from the capillaries of the dermis.
+35d7f398	Keratin: the skin’s armour
+340fd685	The main cell of the epidermis is the ⟦0⟧, which makes the hard, waterproof protein ⟦1⟧ (kerat/o = horny, hard).<br>The same keratin is found in hair and nails.⟦2⟧⟦3⟧
+0c3656dc	Picture keratin as armour: a hard, waterproof shield over the body.
+63e9ea1a	A superficial cut that removes only the epidermis does not bleed; if it bleeds, it has reached the dermis.
+49726908	Why does a very superficial scratch not bleed?
+51448c82	Because the epidermis has no vessels
+575c8033	Because keratin clots the blood
+a7f5c29b	Because the epidermis has nerves
+82f10cb6	Because the dermis contains fat
+d5b804b6	The epidermis is avascular.
+f4034631	keratin-making cell of the epidermis
+448def53	pigment-making cell
+697cd2e6	inflammatory cell
+27cdae42	keratin + -cyte (cell).
+68c3e14f	The epidermis is thicker on the palms and soles than on the eyelids.
+7476b970	The places rubbed most are the thickest.
+16697760	hard, waterproof protein
+368f6e38	flat, scale-like
+216b575b	Four features of the epidermis.
+c7dd509d	The hard protein of the epidermis, hair and nails is called ___.
+b0c16097	kerat/o = horny.
+96c57795	Spell the term meaning scale-like
+fe303214	squam/o (scale) + -ous.
+54e3a261	The Five Strata of the Epidermis
+98536659	From the bottom up
+c6fc753c	⟦0⟧Each layer of the epidermis is called a ⟦1⟧ (layer). Cells are made in the ⟦2⟧, move upward, fill with keratin, then die and are shed in the ⟦3⟧. The journey takes about 4 weeks.
+062aa090	The name of each stratum
+7626832f	horny: dead cells
+88f6100f	clear: palms and soles only
+f0ea38a1	grainy
+2f8a511b	spiny
+7d57928e	basal or germinating (germinativum)
+754032ab	From the top: “Come, Let’s Get Sun Burned”: Corneum, Lucidum, Granulosum, Spinosum, Basale.
+55011bd7	In which layer are new epidermal cells made?
+b584c6ed	The basal layer is the same as the germinating layer (germinativum).
+33f3e462	Where is the clear layer (stratum lucidum) found?
+82d323fd	Only in the thick skin of the palms and soles
+797b402b	On the eyelids
+56f1d575	In all the skin of the body
+bc5b54d5	In the dermis
+c3e76b6a	Thin skin does not have this layer.
+170ca1e2	The stratum corneum is made of living cells full of vessels.
+0d80c975	False; its cells are dead, full of keratin and constantly shed.
+e87c1059	Put the layers of the epidermis in order from inside to outside
+00ccf417	Match each layer to the meaning of its name
+3887ff6b	horny
+6110c129	clear
+514bbb2c	The Latin name of each layer describes its appearance.
+b5a843ae	Another name for the stratum basale is the stratum ___ (germinating layer).
+01ac9214	germ = sprout, growth.
+f62778d1	Spell the two-word name of the horny outer layer
+42540df7	stratum (layer) + corneum (horny).
+e9ebe85b	Melanin and Skin Colour
+e7e13eac	The skin’s colour umbrella
+cc5b833f	⟦0⟧The ⟦1⟧ is the pigment-making cell of the basal layer (melan/o = black, -cyte = cell).<br>Through its branches it passes ⟦2⟧ to the keratinocytes; melanin sits like an umbrella over the cells’ nuclei and absorbs ultraviolet (UV) light.
+63b0a0dc	Tan, freckles and albinism
+955ec42c	Sun → more melanin → tanning. The number of melanocytes is about the same in all people; differences in skin colour come from the <b>amount of melanin</b>.<br>⟦0⟧: an inherited absence of melanin in the skin, hair and eyes.⟦1⟧
+8097db75	Melanoma is cancer of these very melanocytes, so take any new or changing dark mole seriously.
+c5fe5bd2	In which cell is melanin made?
+59d61581	What is melanin’s main job?
+0d59c797	Absorbing ultraviolet light and protecting the cells’ nuclei
+cf206e28	Making keratin
+14360b98	Controlling sweating
+f9ab8609	Melanin is a natural sunscreen.
+40b577c0	Differences in human skin colour come mainly from the number of melanocytes.
+8312b828	False; the number is about the same; the amount of melanin produced differs.
+9595f6a6	Build a word meaning “pigment-making cell”
+da13547c	skin pigment
+e8eb1ba0	inherited lack of melanin
+fcc76ea7	Skin colour and the sun.
+b4565615	An inherited absence of melanin in the skin, hair and eyes is called ___.
+0ad024db	albin/o = white.
+6a9397f0	Spell the term for the skin’s dark pigment
+75a5d3ec	melan/o (black) + -in (substance).
+211dd277	The Dermis: The Living Layer
+3427fbb3	The factory beneath the surface
+a6affa0b	⟦0⟧The ⟦1⟧ or ⟦2⟧ is the thick layer under the epidermis. Unlike the epidermis it is ⟦3⟧ and contains vessels, nerves, sweat and oil glands and hair follicles.<br>It has two parts: the ⟦4⟧ (the upper, ridged layer) and the ⟦5⟧ (the lower, net-like layer, full of collagen).
+f44580c2	Dermal papillae and fingerprints
+7249473f	The ⟦0⟧ are finger-like ridges of the dermis that project into the epidermis (papill/o = nipple-like bump). These ridges increase the contact area between the two layers and, on the fingertips, form <b>fingerprints</b>.⟦1⟧
+515168a7	A fingerprint is a map of the dermal papillae. That is why a superficial burn does not change your fingerprints.
+fa957c97	What is another name for the dermis?
+ba23b7f0	corium = dermis (true skin).
+8ac03fa5	Which structure forms the fingerprints?
+9091e7ff	The dermal papillae make the pattern of ridges.
+ed319d54	Unlike the epidermis, the dermis has blood vessels and nerves.
+f78b9e3f	The dermis is vascular.
+de9e9cee	Build a word meaning “pertaining to the skin”
+7ab4894c	Match each part to its feature
+17509713	the upper part of the dermis, with ridges
+1da78da3	the lower, collagen-rich part
+49b1f002	forms fingerprints
+186df4fb	rich in vessels
+a7ccf076	The two parts of the dermis.
+3f9d38a1	The epidermis has no vessels; the dermis is ___.
+b611f1c4	vascul/o = vessel.
+8027be62	Spell the term for the layer beneath the epidermis
+a12f5e7e	Receptors and Vessels
+e70d3aba	The skin, the largest sense organ
+3d2b1956	The dermis is full of sensory receptors:<br>• ⟦0⟧: light touch, in the dermal papillae<br>• ⟦1⟧: pressure and vibration, deep in the dermis<br>• ⟦2⟧: pain, heat and cold
+da4fe687	Vessels and temperature
+7dcb0934	The capillaries of the dermis both feed the epidermis and control temperature: widening of the vessels (⟦0⟧) releases heat and narrowing (⟦1⟧) keeps it in.⟦2⟧
+7c2acc98	Cold, pale skin in shock means the body has moved blood from the skin to the vital organs.
+c66fc166	Which receptor senses deep pressure and vibration?
+bbb46e35	The Pacinian corpuscle is layered and deep.
+178a8334	Where in the skin is the light-touch receptor?
+14729c9c	The dermal papillae (Meissner)
+325f1703	The nail matrix
+a9a7c9ee	The Meissner corpuscle lies near the surface.
+86f56f68	In the cold, the vessels of the dermis widen so that heat reaches the skin.
+d81c3203	False; in the cold the vessels narrow to keep heat in.
+c2b4a72e	Put the path of a touch message in order
+f3154c22	Touching the skin
+de870808	Stimulation of the Meissner receptor
+2fc0026b	Message along the nerve
+ddaa78e9	Touch perceived in the brain
+7ea24fd8	Receptor → nerve → brain.
+ded21bfd	Match each receptor or structure to its job
+0b06e016	light touch
+6909a7a4	pressure and vibration
+577024ad	pain and temperature
+a584662b	nourishment and temperature control
+4dd8aeb1	The dermis = the sensory and vascular layer.
+a516052a	Widening of the vessels is called ___.
+fb1622ae	vas/o = vessel.
+eb156d3c	Spell the term for rich in blood vessels
+d40f33a6	Collagen, Elastin and Wrinkles
+2d2744c2	The ropes and springs of the dermis
+838bf8f6	⟦0⟧ is the strong fibrous protein of the dermis (coll/a = glue, -gen = producing) and gives it strength.<br>⟦1⟧ is the elastic fibre that returns the skin to its shape after stretching.<br>Both are made by the ⟦2⟧ cell (fibr/o = fibre).
+16473f55	Ageing and turgor
+363d39b5	With age and sun damage, collagen and elastin decrease → ⟦0⟧ (wrinkles).<br>⟦1⟧ is the elasticity of the skin: if you pinch the skin on the back of the hand and it is slow to return, turgor is low.⟦2⟧

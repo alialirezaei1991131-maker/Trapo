@@ -1,0 +1,253 @@
+0f7d4a7b	Low turgor in a child with diarrhoea is a sign of dehydration.
+f2f72117	Which protein gives the skin its strength?
+4e1d3938	Collagen is the main protein of the dermis.
+8756b4f0	wrinkle
+5c0d6a0b	scar
+2bb42750	blister
+d186bd98	mole
+f0c95439	rhytid/o = wrinkle; rhytidectomy = facelift.
+fda35183	Skin that is slow to return after a pinch has low turgor.
+d67b5dcb	A sign of dehydration or ageing skin.
+64e02f40	Build a word meaning “fibre maker (connective tissue cell)”
+a09eca63	fibr/o + -blast (young forming cell) = fibroblast.
+43a59287	strong fibre of the dermis
+559e79f6	elastic fibre
+29b69bd3	collagen maker
+4b90d738	skin elasticity
+5b40add1	The structure of the dermis.
+aff9e0f1	A wrinkle of the skin is called a ___ in medical terms.
+0ea2be95	rhytid/o = wrinkle.
+7d487c2a	Spell the term for the strong fibrous protein of the dermis
+1b1ecb7a	coll/a (glue) + -gen.
+9c73e59e	Subcutaneous Tissue and Fat
+31a06b7c	The warm basement
+6e107067	The ⟦0⟧ or ⟦1⟧ (and ⟦2⟧) lies under the dermis. Most of it is ⟦3⟧, or fatty tissue.<br>Three jobs: heat insulation, shock absorption and energy storage. It also attaches the skin to the muscle beneath it.
+af1f3d96	Three roots for fat
+4c8cfa89	⟦0⟧, ⟦1⟧ and ⟦2⟧ all mean fat:<br>⟦3⟧ → fat cell<br>⟦4⟧ → benign fatty tumour<br>⟦5⟧ → fatty tumour or oil cyst⟦6⟧
+d6ccaaa2	adipose is “a deposit” of fat; lip/o as in “lipid” and steat/o as in a fatty “steak”.
+0acfbb92	What is most of the subcutaneous tissue made of?
+3b17eae7	Fatty tissue.
+4dfeecde	Hypodermis is another name for the subcutaneous tissue.
+7683237c	hypo- (under) + derm + -is.
+0367ccdf	Build a word meaning “benign fatty tumour”
+f6cd980a	subcutaneous layer
+48682009	Fat under the skin.
+1f09436b	Fat removal by suction is called ___.
+3fb6390c	lip/o + suction.
+bf64f665	Wound Healing
+9fcbf47d	Three stages of healing
+73a12b5c	⟦0⟧1. <b>Clot and scab</b>: the blood clots and a scab (⟦1⟧) covers the surface.<br>2. <b>Granulation tissue</b> (⟦2⟧): red, grainy tissue full of capillaries fills the gap.<br>3. <b>Scar</b> (⟦3⟧): fibroblasts make collagen and a scar remains.
+14955592	Too much scar: keloid
+18eb3e4f	If too much collagen is made, it forms a raised scar that goes beyond the edge of the wound: a ⟦0⟧ (kel/o = growth).⟦1⟧⟦2⟧
+7d3f4a77	A superficial wound that involves only the epidermis heals without a scar; a wound that reaches the dermis leaves a scar.
+605cfef5	raised but within the wound
+57694cde	raised and beyond the wound edge
+bb0b73e9	What is the red, grainy tissue that fills a wound from its base called?
+af8bf856	Granulation tissue is full of new capillaries.
+039e30b4	scratch
+09afa303	A keloid is a scar that extends beyond the edges of the wound.
+66c35c74	From overproduction of collagen.
+481157b5	A keloid after ear piercing
+e8d0a20e	Put the stages of wound healing in order
+073dae92	Blood clots
+c5bbe8bd	Scab forms
+680fadaa	Scar forms
+0628ce55	excessive raised scar
+b63f77be	Words of healing.
+f9d127eb	The cell that makes the collagen of a scar is the ___.
+8cace1cd	fibr/o = fibre.
+2c965d5e	Spell the term for a raised scar that spreads beyond the wound
+ce9279d1	Drug Routes Through the Skin
+5a2969a6	How deep does the needle go?
+dc3f1d63	Injection routes and needle angle
+597a0bc1	10 to 15 degrees
+67b98818	vein
+da8cb23a	25 degrees
+d73401fb	Needle-free: through the skin
+3183bc09	⟦0⟧: local, such as an ointment on the skin.<br>⟦1⟧: the drug passes through intact skin into the blood (nicotine patch).<br>⟦2⟧: “through the skin” with a needle or tube.⟦3⟧⟦4⟧
+4224d1b7	ID ← In Dermis; SubQ ← Sub Cutaneous; the steeper the angle, the deeper the needle.
+332d6374	Careful: ID on a prescription means intradermal, but I&D means incision and drainage!
+8a123d47	By which route is the TB test (PPD) injected?
+1e1f87a0	The Mantoux test is intradermal and raises a small bump.
+9e365680	By which route is insulin usually injected?
+e4a8bc7e	Subcutaneous at a 45-degree angle.
+5b2a72c8	A medicated patch that delivers a drug through intact skin into the blood is transdermal.
+5607bd15	Put the injection routes in order from shallow to deep
+6f8861bd	Dermis → subcutaneous → muscle.
+d4a86ddf	Four injection routes.
+654571d1	Build a word meaning “through the skin” (with per-)
+63aa9b5f	Spell the term for a drug route through the skin, as with a patch
+00c7c2c1	Skin Appendages
+94f37366	Appendages
+d391ad2d	Hair and follicles, nails and their diseases, sweat and oil glands, acne and sweating
+d66306f7	Skin glands
+9174c9c1	Where Does Hair Grow From?
+fc39cf5c	⟦0⟧⟦1⟧: the part outside the skin<br>⟦2⟧: the part inside the skin<br>⟦3⟧: a tube-like sac in the dermis from which the hair grows (follicul/o = small sac)<br>⟦4⟧: a knot of vessels at the bottom of the follicle that feeds the hair bulb
+c45c8364	The hair-raising muscle
+6b9db26c	The ⟦0⟧ is a tiny smooth muscle attached to the follicle. In cold or fear it contracts, stands the hair up and produces “goose bumps”.⟦1⟧
+625afa0c	arrector sounds like “erect”: the muscle that stands the hair up.
+294faea3	What is the visible part of the hair outside the skin called?
+5772598d	shaft = stem.
+b307696b	Which structure feeds the hair bulb?
+ceb8953f	The papilla is full of capillaries.
+0f91d160	The arrector pili is a muscle that makes the hair stand up.
+9ff40056	True; that is what gives “goose bumps”.
+bf713c28	Put the parts of a hair in order from bottom to tip
+bea9d564	Nourishment at the bottom, the root inside the skin, the shaft outside.
+a6407823	Match each structure to its description
+a13e608c	sac the hair grows from
+d8e95447	part inside the skin
+21d09e6b	part outside the skin
+2bff2ee1	The structure of a hair.
+47dcd5a5	The tube-like sac that a hair grows from is called the ___.
+ae93b719	follicul/o = small sac.
+00c5776e	Spell the second word of the term for the sac a hair grows from
+b66e5775	Two roots for hair
+44067bf1	trich/o and pil/o
+01fd293a	Both mean “hair”:<br>⟦0⟧ → hair disease<br>⟦1⟧ → fungal infection of the hair<br>⟦2⟧ → “hair nest”: ⟦3⟧, a hair-filled cyst over the tailbone
+5fa8d2c9	Too little or too much hair
+65d8d265	⟦0⟧: hair loss, baldness; ⟦1⟧ = patchy, coin-shaped hair loss.<br>⟦2⟧: excess hair, especially a male pattern in women (hirsut/o = hairy).⟦3⟧⟦4⟧
+f610388b	too little hair: baldness
+81481fac	too much hair: hairiness
+f22fec98	In World War II the pilonidal cyst was called “jeep disease”; soldiers got it from sitting for long hours on hard jeep seats.
+49fab262	any hair disease
+209a637e	hair loss
+6cb9cf20	hair removal
+90d5aa8d	inflammation of a follicle
+7dbbfad8	trich/o (hair) + -pathy (disease).
+27c07cde	What is the medical term for hair loss or baldness?
+bc5f8737	alopecia areata = patchy hair loss.
+fc9d556d	Hirsutism means heavy hair growth, especially in a male pattern in women.
+18e0c58e	hirsut/o = hairy.
+07ec80a8	Build a word meaning “fungal infection of the hair”
+a6fb8bdd	hairy cyst over the tailbone
+7e40c786	Words for hair.
+5f9a8144	The prefix or root ___, like trich/o, means “hair”.
+bfe8396f	pil/o = hair; py/o = pus.
+22ed39a4	Spell the term for hair loss
+e73fb64e	Follicle Problems
+beae3273	An inflamed follicle
+bedecf43	⟦0⟧: inflammation of a hair follicle, usually from staphylococcus bacteria; small pus pimples around the hairs.<br>If the infection goes deeper → a ⟦1⟧ (boil); several joined boils → a ⟦2⟧.⟦3⟧
+a64e42ce	Boil on the neck
+c62a960e	Dome-shaped abscess of a hair follicle
+3c8e9591	Order of severity
+81777944	superficial, around one hair
+0bf8740d	abscess of one follicle
+4299bd25	several joined follicles
+a207f052	folliculitis → furuncle → carbuncle: “F, F, C”, like a pimple growing into a carbuncle.
+8b6acc94	Never squeeze a boil on the face; the infection may reach the sinuses of the brain.
+f62b8d70	What is inflammation of a hair follicle called?
+97fc97d4	What are several joined boils called?
+2124809c	carbuncle = cluster of boils.
+095bd38c	A furuncle is a boil: a painful abscess of a hair follicle.
+9df1c073	Put the lesions in order from mild to severe
+680c4a53	One follicle → abscess → several follicles.
+e083787b	boil
+539b6909	cluster of boils
+02eb1355	cluster-forming bacterium
+0de37060	Follicle infections.
+8434c0b9	The most common germ in a boil is ___.
+4a3efca3	staphyl/o = cluster.
+2998e8ab	Spell the term for a boil
+afde9200	⟦0⟧The ⟦1⟧ (nail plate) sits on the ⟦2⟧ (the pink bed).<br>⟦3⟧: the white half-moon at the base of the nail (luna = moon).<br>⟦4⟧ or ⟦5⟧: the band of skin at the nail base.<br>⟦6⟧: the growth area beneath the nail root.
+220f31d9	Nail roots
+b422a0f9	⟦0⟧ (Greek) and ⟦1⟧ (Latin) both mean nail.<br>⟦2⟧ → ⟦3⟧: the skin under the free edge<br>⟦4⟧ → ⟦5⟧: infection around the nail⟦6⟧⟦7⟧
+909acd95	lunula = little moon; the nail has a “new moon” at its base.
+05ecea34	The pink colour of the nail comes from the capillaries of the nail bed; that is why nails turn blue in cyanosis.
+d10ed44b	What is the white half-moon at the base of the nail called?
+a938d8d9	luna = moon.
+f0dd2f60	In which part is new nail made?
+55581021	matrix = growth area.
+822eb08c	The pink colour of the nail comes from the capillaries of the nail bed.
+ed8bf454	The nail bed is rich in vessels.
+287bba4f	Match each part to its description
+43b461da	visible plate of the nail
+cb4a6754	skin under the nail
+1be4d51f	skin band at the base
+4e1ee0ea	edge beyond the finger
+c649a332	Parts of the nail.
+2f7a0d93	Another name for the cuticle is ___.
+41afcb52	epi- (upon) + onych/o.
+fc0fad40	Build a word meaning “nail disease”
+551be4e7	Spell the term for the white half-moon at the nail base
+2a6b787d	luna = moon + -ula (small).
+d8f3acda	Nail Diseases
+7651ace3	onych/o + suffix
+1f2c5bd0	infection of the skin fold around the nail
+e6f405cd	nail fungus (tinea unguium)
+3d86b2e8	nail grown into the flesh
+41ccd803	nail separating from its bed
+364abd45	Paronychia
+681a2fb0	Infection and inflammation of the skin folds around the nail
+f6e9485b	The nail, mirror of the body
+e98bdc5f	⟦0⟧⟦1⟧: transverse grooves in the nails that appear after a severe illness (or chemotherapy); nail growth stopped for a while.⟦2⟧
+5b906ae5	Beau lines
+4f73f18c	Transverse nail groove after a severe illness
+3a75cd1b	onychocryptosis = a nail “hidden” (crypt/o) in the flesh, like treasure hidden in a crypt.
+9100d750	crypt/o = hidden.
+d5c17ba8	What is infection of the skin fold around the nail?
+bdbd3f7c	Onychophagia means the habit of nail biting.
+5eef5c09	-phagia = eating.
+cde82b95	Build a word meaning “softening of the nail”
+ed5a5cd6	nail separation
+ca50c6ab	transverse groove after illness
+3c8f4688	Nail diseases.
+91244e05	The Latin name for nail fungus is tinea ___.
+d551640f	ungu/o = nail.
+0db35e41	Spell the term for fungal infection of the nail
+d9f64d7b	Nail Surgery and Clinic
+0169f0ec	Cutting or removing
+044a320e	⟦0⟧For a recurrent ingrown nail, part of the nail and its matrix are sometimes removed so that it does not grow into the flesh again.
+bef6dac5	cutting into the nail (-tomy)
+f852db0d	removing the nail (-ectomy)
+77c915b9	When should we take the nail seriously?
+f790fcf9	• Blue nail bed → lack of oxygen (⟦0⟧)<br>• Transverse lines → a recent severe illness (⟦1⟧)<br>• Thick, yellow and brittle → fungus (⟦2⟧)<br>• Redness and pus around the nail → ⟦3⟧⟦4⟧
+fdae959b	To diagnose nail fungus, nail scrapings are examined with potassium hydroxide (KOH) under the microscope.
+11c6d3d4	nail repair
+9ff9b814	nail inflammation
+42fe1613	-ectomy = removal.
+a2a084ab	What is a thick, yellow, brittle nail most often a sign of?
+b0f48032	acute paronychia
+f9a8402d	Nail fungus.
+0e11aab5	Onychotomy means complete removal of a nail.
+de6c575f	False; -tomy is incision. Removal = onychectomy.
+47b6a361	Put the steps of diagnosing and treating nail fungus in order
+6465599c	Clinical suspicion: thick, yellow nail
+359d9dd2	Nail scraping for KOH
+8d77c88d	Seeing the fungus under the microscope
+607f6496	Treatment with an antifungal
+0ebe07b4	Lab diagnosis before treatment.
+357bd2ab	Match each finding to its meaning
+c15205b7	blue nail
+36f38677	lack of oxygen
+efb8e12d	transverse groove
+52277c3e	recent severe illness
+4608a67a	yellow, thick nail
+2b680e62	redness around the nail
+6ea50d90	The nail, mirror of the body.
+580dcf7a	Cutting into a nail is called ___.
+9bf44746	Spell the term for removal of a nail
+3431e9ee	Two kinds of sweat gland
+ddeacb28	⟦0⟧⟦1⟧ = sweat gland (sudor/o = sweat).<br>• ⟦2⟧: all over the body; opens directly onto a ⟦3⟧ and cools the body.<br>• ⟦4⟧: armpit and groin; opens into a hair follicle and is active from puberty.<br>• ⟦5⟧: a modified sweat gland of the ear that makes earwax (⟦6⟧).
+686c9759	Eccrine and apocrine
+2b73fb47	Roots for sweat
+8efec8db	⟦0⟧ and ⟦1⟧ = sweat.<br>⟦2⟧ heavy sweating • ⟦3⟧ no sweating • ⟦4⟧ foul-smelling sweat<br>⟦5⟧ = profuse sweating (dia- + -phoresis)⟦6⟧⟦7⟧
+f8031439	Once more: hidr/o with i = sweat; hydr/o with y = water.
+710ac053	Profuse cold sweating with chest pain (diaphoresis) is a warning sign of a heart attack.
+9021235d	The sweat gland found all over the body that opens directly onto a pore?
+2da18e8b	Eccrine = the body’s cooler.
+aaac8bd8	no sweating
+4a0ec1cf	oil secretion
+ae42c678	dia- + -phoresis; synonym sudoresis.
+f1824553	Apocrine glands become active at puberty and are plentiful in the armpits.
+461b9a58	Sweat odour comes from bacteria breaking down their secretion.
+068de7ff	Build a word meaning “absence of sweating”
+a30b29c0	hidr/o = sweat.
+8da53200	The gland that makes earwax is called the ___.
+40b08ddd	cerumen = earwax.
+4f25ee5c	Spell the term for profuse sweating
+d56fd2fc	Oil Glands and Sebum
+79c34440	The skin’s natural oil
+21281468	The ⟦0⟧ is the oil gland of the dermis, which releases ⟦1⟧ into the hair follicle (seb/o = skin oil).<br>Sebum keeps the skin and hair soft and waterproof and is slightly antimicrobial.<br>⟦2⟧ → ⟦3⟧: excess oil secretion
+a9521cee	When the pore gets blocked
+dad508dd	⟦0⟧Sebum and keratin get stuck in the follicle → ⟦1⟧ (plural: ⟦2⟧):<br>• closed = whitehead<br>• open = blackhead; the black comes from oxidised melanin, not dirt!⟦3⟧

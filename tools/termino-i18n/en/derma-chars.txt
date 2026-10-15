@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+210c961b@derma#1	Skinny
+66270c64@derma#1	Rooty
+43063b0b@derma#1	Puzzly
+add9beab@derma#2	Kera
+d5454a5c@derma#1	Cappy
+b4894d35@derma#1	Lipo
+842eb27e@derma#1	Folli
+8a626ca3@derma#1	Nailo
+89ffe7ff@derma#1	Droplet
+4ba3f82b@derma#1	Macky
+e0c9aa79@derma#1	Blistro
+d7ff71f4@derma#1	Signo
+08801cc9@derma#1	Staphy
+01020960@derma#1	Balmy
+dad02cf2@derma#1	Blaze
+bc46cf46@derma#1	Sunny
+1d9ea46b@derma#3	Bix
+38adcd85@derma#1	Patchy

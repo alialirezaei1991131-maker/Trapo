@@ -1,0 +1,270 @@
+a9c23648	Benign means a tumour that does not spread to other tissues.
+ac81a34f	Not cancerous.
+66c5fecf	Build a word meaning “tumour of blood vessels”
+6749f351	fatty lump
+47cafec1	waxy stuck-on growth
+8c4951b4	fleshy tag
+aedeca3c	Benign growths.
+802e70a8	A yellow fatty lump in the skin is a ___.
+2f044952	xanth/o = yellow.
+5992b040	Spell the term for a mole
+253a1069	Plural: nevi.
+8a820142	The Three Skin Cancers
+5bffc581	Three cells, three cancers
+735ccacc	BCC, SCC and melanoma
+daaf3e96	basal layer
+4c459544	most common; pearly papule with a raised edge; rarely spreads
+3fd5bf3b	squamous
+0718b469	firm, scaly or ulcerated nodule; may spread
+0bbf0fcf	most dangerous; early metastasis
+de98e2cf	The clinical picture
+7da75bab	⟦0⟧⟦1⟧: cancer of the vessel walls with purple lesions, often in AIDS patients.<br>⟦2⟧: spread of cancer to distant sites.⟦3⟧
+34605ba5	Pearly BCC
+c4ce18ef	SCC of the face
+8dad5c25	Melanoma
+cef42507	The main cause of all three is ultraviolet light; tanning beds carry the same risk.
+d25d6b03	Which is the most common skin cancer?
+90694cf0	BCC is the most common and the least dangerous.
+f8c02342	BCC of the nose
+5e0bfe07	The most dangerous skin cancer arises from which cell?
+4b0d6fd2	A carcinoma is a cancer of epithelial tissue.
+e2abea97	carcin/o + -oma; a sarcoma is a cancer of connective tissue.
+0fcecb52	SCC of the cheek
+0f42c1e9	actinic keratosis
+26dc098c	Tumour abbreviations.
+00c224cb	Put the cancers in order from low to high risk
+5f3e4e34	BCC rarely spreads; melanoma metastasizes early.
+f61b561e	The spread of cancer to distant organs is called ___.
+b675b883	meta- (beyond) + stasis.
+88d74894	Spell the term for the malignant tumour of pigment cells
+576fe64d	ABCDE and Prevention
+41d7659e	Check a mole with ABCDE
+70a9fc72	⟦0⟧⟦1⟧: uneven halves • ⟦2⟧: irregular edge • ⟦3⟧: several colours • ⟦4⟧: over 6 mm • ⟦5⟧: changing over time
+fe8a8fab	⟦0⟧⟦1⟧ blocks UV rays; its strength is measured by the ⟦2⟧ (protection factor), usually SPF 30 or higher.<br>⟦3⟧ causes more ageing and ⟦4⟧ more burning; both cause cancer.⟦5⟧⟦6⟧
+e590ba80	A, B and C on a melanoma
+91aa07c6	Asymmetry, irregular border, varied colour
+4c56e6d8	In Joanne’s chart (the nose BCC case), the physician advised always using SPF 30 and giving up tanning beds.
+43d4d513	In ABCDE, the letter D means…
+e64c69a1	dark colour
+f169c746	bleeding
+59f9e91c	SPF means…
+29d30a12	A mole that has grown larger and darker over a few months (Evolving) should be examined.
+6b7fa2ee	E = change; the most important warning.
+b314a570	Match each letter to its meaning
+a65459a1	Put the steps of assessing a suspicious mole in order
+0043ee33	Noticing a change in a mole
+9159fed3	Examination with ABCDE
+cc2dd227	Pathology report
+d95f7888	Suspicion → examination → sample → diagnosis.
+526e4fec	The invisible sun rays that are the main cause of skin cancer are ___.
+4bf464da	UV = ultraviolet.
+9bad865e	Spell the term for a cream that blocks UV rays
+bffd2f66	sun + screen.
+fd0d7ffc	Biopsy and Tests
+4dfca654	A living sample
+d8b46c10	⟦0⟧⟦1⟧ → ⟦2⟧ (Bx): removing a piece of living tissue for the microscope.<br>• ⟦3⟧: shaving off a raised lesion • ⟦4⟧: a small cylinder with a punch<br>• ⟦5⟧: part of a large lesion • ⟦6⟧: the whole lesion
+896b64fc	Other tests
+de754898	immediate frozen slice during surgery
+a9dcb6a7	growing the microbe and finding an effective antibiotic
+abdc90f3	skin scraping to look for fungus
+8fb811e5	UV lamp; shows fungus and colour changes
+8d8c9cb0	scraping surface cells for the microscope
+094b0961	In an excisional biopsy, the pathology report must confirm “clean margins”, meaning the whole tumour has been removed.
+1ad2b972	Removing a whole suspicious mole for examination is which type of biopsy?
+b976fa71	ex- = out: the whole lesion.
+a3b2af5d	What is sent to find the best antibiotic for an infected wound?
+6a358219	biopsy is built from bi/o (life) and -opsy (viewing).
+777dd555	A living sample to look at.
+e5311a7a	Match each test to its purpose
+2ddcad23	immediate diagnosis during surgery
+fb05ab02	seeing fungus
+b1d91eba	UV light for fungus and colour
+263773a1	cylinder-shaped sample
+03d879d7	Skin tests.
+3e0ad9fc	Build a word meaning “viewing living tissue”
+e57cb396	The chart abbreviation for biopsy is ___.
+9ba92a7e	Three tests, one goal
+411cf0cc	For
+8725f415	allergen taped on for 48 hours
+f6255a90	allergen on a small scratch
+f8759994	allergy
+3c5c91c5	intradermal injection
+ebc64e7c	allergy or tuberculosis
+7cfe2026	The Mantoux test
+17acd759	⟦0⟧: a small amount of ⟦1⟧ (purified protein derivative) is injected intradermally; after 48 to 72 hours the width of the ⟦2⟧ (hardening) is read with a ruler, not the redness!⟦3⟧⟦4⟧
+163691c7	Reading the Mantoux test
+a92f5dbe	Measuring the hardening with a ruler
+593bb937	PPD = purified protein derivative; TB = tuberculosis; ID = intradermal.
+71c72044	What is measured in the Mantoux test?
+55f93327	The width of the hardening (induration)
+4ebe7c0a	The width of the redness
+a636fc60	How long the itching lasts
+31b4f5c1	The number of blisters
+db42d13d	Hardening is what counts.
+2e8b8f09	Which test finds the cause of contact dermatitis?
+ec73235b	Allergens are taped onto the skin.
+664801dd	The Mantoux test is read right after the injection.
+b01f175f	False; after 48 to 72 hours.
+a77d0648	Put the steps of the Mantoux test in order
+d3ffdb71	Intradermal PPD injection
+54f469e2	Wait 48 to 72 hours
+a4ca644b	Feel the injection site
+e5e7fa9f	Measure the width of the hardening
+5bf81e80	purified protein derivative
+0eb152b3	Diagnostic abbreviations.
+0ccf404b	The allergy test that places the allergen on a small scratch of the skin is the ___.
+003b15ac	Spell the term for hardening of tissue
+fbba80ef	in- + dur (hard) + -ation.
+80bf0e22	Reading the Chart
+566a2b9a	“A 32 ⟦0⟧ woman with a history of ⟦1⟧ since adolescence. She has ⟦2⟧ of the scalp and abdomen. ⟦3⟧ negative for psoriasis. On ⟦4⟧: ⟦5⟧ covered with yellowish-white scale on the scalp and trunk.<br>⟦6⟧: ⟦7⟧.”⟦8⟧
+bb776c39	First expand the abbreviations, then read each word from its suffix; the note reads like a short story.
+450b50c7	Dx in a chart means…
+e749972d	“FH of melanoma” means…
+11f58a44	a family history of melanoma
+c42b3605	melanoma examination
+35c4cd26	frozen section of a melanoma
+ab959ef6	PE in a skin note means physical examination.
+d1f00aeb	Physical examination.
+2758789c	Chart abbreviations.
+685d90fb	The note says: “multiple erythematous papules”. It means…
+41531dcc	several small red bumps
+f42f3b49	several flat white spots
+c206992a	one large blister
+b3262146	several yellow pustules
+29df48c4	erythematous = red; papule = small bump.
+2796d29a	Put the parts of a note in their usual order
+6c11abc2	Hx and FH
+59156c49	From what the patient says to the treatment.
+6db0bd17	“40 ___” means 40 years old.
+f749235f	Skin Surgery
+fce8176d	Removing and destroying
+4fb10a0e	Tool or method
+63325a34	cutting out the lesion (ex- + cis/o)
+188c6b46	freezing with liquid nitrogen (cry/o)
+61713fe2	drying out with electric current
+d2790460	burning with heat or chemicals
+e3dc9c78	scraping with a spoon-shaped curette
+0675d192	incision and drainage of an abscess
+ec33aa25	removing dead tissue
+a0cab8c1	focused light for lesions, tattoos and vessels
+466fa50f	⟦0⟧⟦1⟧: skin cancer (BCC and SCC) is removed layer by layer and each layer is checked under the microscope at once until the margins are clear; the most healthy facial tissue is spared.⟦2⟧
+2013e1bc	In a dermatology consult report, a recurrent BCC of the cheek was treated with “deep excision… followed by dermatoplasty”.
+df94d74e	What is treating a wart with liquid nitrogen called?
+eff7939e	cry/o = cold.
+8a34f6e9	The method of removing cancer layer by layer with immediate microscopic checking?
+6aff8959	The most healthy tissue is spared.
+b9ce7458	I&D means incision and drainage, for example of an abscess.
+26147f81	spoon-shaped curette
+7817f7e7	focused light
+30f3a466	Skin surgery methods.
+33811430	Build a word meaning “cutting out a lesion”
+8209f12e	Removing dead tissue from a wound or burn is ___.
+985bfc8d	Spell the term for destroying tissue by freezing
+cc650331	Grafts and Reconstructive Surgery
+84b574ed	⟦0⟧By source: ⟦1⟧ (from the patient), ⟦2⟧ or homograft (from another person), ⟦3⟧ or heterograft (from an animal).<br>By thickness: ⟦4⟧ (epidermis + part of the dermis) and ⟦5⟧ (the whole dermis).<br>⟦6⟧: an instrument for taking a thin layer of skin.
+8e968e5d	Reconstructive and cosmetic surgery
+1b7b4559	sanding the skin for scars and wrinkles
+18a19301	chemical peeling (chemabrasion)
+343d345c	facelift (rhytid/o = wrinkle)
+df6d9083	Fresh autograft on the leg
+6f35c2a2	Donor skin meshed so it stretches further
+962eb23b	In Kathleen’s chart, a stage 3 pressure ulcer was closed with debridement and an FTSG from her own thigh, that is, an autograft.
+804ccb25	A skin graft from the patient’s own body?
+6721a452	A facelift in medical terms?
+a3cf05e5	rhytid/o (wrinkle) + -ectomy.
+bbba5e9f	A xenograft is a graft from an animal, for example pig skin.
+f4ebe4fd	xen/o = foreign.
+992a388b	Match each abbreviation or term to its meaning
+ac23e900	split-thickness graft
+5ad35155	full-thickness graft
+76164009	graft from another person
+351c7e2d	skin-cutting instrument
+5c0715b9	Skin grafts.
+a4432b51	Build a word meaning “reconstructive surgery of the eyelid”
+c92285a8	Sanding the skin with a rotating brush for acne scars is ___.
+e7125230	Spell the term for a graft from the patient’s own body
+8da60f66	Skin Drugs
+7e725f5c	anti- + target
+2babfc37	against bacteria
+f5516450	against fungi
+8d05e20a	against viruses (cold sores, shingles)
+0a33e93d	against histamine; hives and allergic itching
+93440490	disinfectant for the skin surface
+41134777	strong anti-inflammatory; eczema ointment
+908de0ec	dissolves keratin; warts and scales
+479ac08e	kills scabies / lice
+e8e5c75f	Read the prescription
+e7b237f5	⟦0⟧⟦1⟧ = local; ⟦2⟧ = ointment. Example: “hydrocortisone 2% oint ⟦3⟧” means hydrocortisone 2% ointment at bedtime.⟦4⟧⟦5⟧
+0cd6e32b	Retinoids (such as isotretinoin) work for severe acne but carry a risk of birth defects in pregnancy.
+87cdb2a6	A cream for athlete’s foot belongs to which group?
+3f37e64d	Tinea is a fungal infection.
+dfecebfe	“oint tid” means…
+73b0eb66	ointment three times a day
+faf6bcb0	tablet twice a day
+452d19d3	ointment at bedtime
+333eaf3b	oint = ointment; tid = three times a day.
+a9c88ee0	Keratolytics are drugs that soften and loosen keratin.
+b80e39c6	Match each drug to its use
+e594c141	allergic hives
+66a3ca39	shingles and cold sores
+2de86b0c	eczema inflammation
+eed4d79d	Skin drugs.
+7394edff	Match each prescription abbreviation to its meaning
+97ddef05	Reading prescriptions.
+bb693056	A drug that kills lice is a ___.
+cde8d484	Spell the term for a drug that kills fungi
+210c961b	Skinny
+87c41b8d	The Body’s One-Piece Suit
+0d7c9dbc	The body’s largest organ, with three floors: the epidermis roof, the dermis middle floor and the fat basement. You never take it off!
+8863d87f	Master of derm/o and cutane/o
+27479a0f	A living dictionary that breaks every skin word into root, prefix and suffix and knows the colours from erythr/o to xanth/o.
+d5bce96e	King of Prefixes and Suffixes
+39802b67	Puts sub- and epi- in place, attaches -itis and -ectomy, and never mixes up hidr/o and hydr/o.
+9da281d3	Armour of the Epidermis
+88085fd7	The hard, waterproof protein of the horny layer. Every four weeks it puts on fresh skin and sheds the old layer.
+d5454a5c	capillary
+947febf0	The Beating Heart of the Dermis
+b15a81b3	Lives in the dermis; widens in the heat, narrows in the cold, and feeds the vessel-free epidermis.
+b4894d35	Lipo
+8565058b	The Subcutaneous Cushion
+8b203e1b	Soft and warm; insulates the body, absorbs shocks and stores energy. adip/o, lip/o and steat/o are its three names.
+842eb27e	follicle
+34d0b8ca	Home of the Hair
+b8a1f84b	At the bottom of its sac is a vessel-rich papilla that feeds the hair bulb. When it gets scared, the arrector pili makes its hairs stand on end!
+8a626ca3	Nailo
+872a54cf	Shield of the Fingertip
+bbec864b	Sits on a pink bed with a white half-moon (lunula) at its base. Knows onych/o and ungu/o by heart.
+7162b309	The Cooling Sweat Gland
+a043a6f8	Comes out of the eccrine glands and cools the body by evaporating. hidr/o and sudor/o are its names; hydr/o is its watery cousin!
+4ba3f82b	Macky
+77de4664	The Quiet Spot
+960c5132	Completely flat; only its colour is different. If it grows larger than 1 cm, it is called a patch.
+e0c9aa79	Blistro
+e2bc6fec	The Clear Vesicle
+44f7dd75	Full of clear fluid. Larger than 1 cm it becomes a bulla, and if it fills with pus a pustule.
+d7ff71f4	sign finder
+40d6eade	Detective of Colour and Itch
+974989f0	Tells erythema from cyanosis and jaundice, and separates petechiae from simple redness with finger pressure.
+08801cc9	Staphy
+d34b84b4	Shaped like a bunch of grapes and loves boils and impetigo. It is hunted down with a culture and sensitivity (C&S).
+01020960	ointment-like
+5b560c46	The Inflammation Soother
+037dffb5	Calms eczema and psoriasis; a topical corticosteroid whose prescription is written with oint and bid.
+dad02cf2	firefighter
+cce34855	The Burn Guardian
+1f3263e2	Knows burn degrees by their depth and calculates the burned surface area at a glance with the rule of nines.
+bc46cf46	sunshade
+dc40fd87	SPF Sunscreen
+b2b7abdb	A kind sun that always wears SPF 30 and checks every mole with ABCDE.
+0a6281b6	The Detective Under the Microscope
+126db49e	From shave and punch to excisional; takes every sample to the pathologist and waits for “clean margins”.
+38adcd85	adhesive bandage
+8d119283	Master of Surgery and Grafts
+c17a204d	From Mohs surgery to autografts and STSGs, covers and repairs every wound and burn.
+09051ac3	Mr Cave’s Five Diagnoses
+083fc355	Lin Cave, a 38-year-old man
+67fd07cc	You are reviewing Mr Cave’s chart. The physician has written five diagnoses and the patient wants to know what each one means. Decode every term by its root and suffix.
+7917f953	Hidrosis means…
+651da981	(excessive) sweating
+159bf4c2	hidr/o = sweat, not water (hydr/o).
+56a3936c	Mycosis of left big toe means…

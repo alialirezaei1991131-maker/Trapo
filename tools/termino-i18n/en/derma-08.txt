@@ -1,0 +1,285 @@
+6a371679	fungal infection of the left big toe
+675318c9	inflammation of the big toenail
+177398b3	ulcer of the big toe
+b5b6f803	myc/o = fungus; if the nail is involved, onychomycosis.
+20002969	Xeroderma of right hand means…
+714917f4	dry skin of the right hand
+35065fd3	redness of the right hand
+d03ae8b7	yellowing of the right hand
+bffb9c63	hardened skin of the hand
+6e8074a8	xer/o = dry.
+5adc4a67	Match each diagnosis to its meaning
+de6be146	excess skin oil secretion
+12a9adc8	Root + suffix.
+c0bb9fdb	Differentiation
+8344c0f5	Trichopathy refers to a disease of the nails.
+36af3d81	False; trich/o = hair. Nail = onych/o.
+1d6dafcc	Spell the term for dry skin
+1f4fc941	Cold, Clammy Skin at Triage
+0df93053	A 58-year-old man in the emergency department
+1a1686bf	A man has come to the emergency department with chest pain. The triage nurse writes: skin cold, pale and wet with sweat; lips and nail beds blue. The patient is restless.
+3d253a9d	cold, pale (pallor)
+1e50aca3	heavy (diaphoresis)
+8be66a7a	Lips and nails
+31b2a2bd	blue (cyanosis)
+135bf658	Which term is used in the chart for heavy sweating?
+9dd3db37	What are blue lips and nail beds a sign of?
+9e584503	Low blood oxygen (cyanosis)
+27fd06dc	Jaundice
+a9d14e49	Cold, pale skin means the skin’s vessels have narrowed so blood can reach the vital organs.
+1fbbd42a	Vasoconstriction in shock.
+d4cbaaf8	Match each finding to its term
+58f0655c	Redness
+4a028992	Skin colour and secretion.
+a753d512	Which colour root appears in this chart?
+d546efc6	TB Test for a New Employee
+1eed9bf1	A 26-year-old nurse before employment
+eed653fa	For employment, the nurse has had a TB test (Mantoux). 0.1 mL of PPD was injected intradermally in the forearm, raising a small white bump. She returns after 72 hours for the reading.
+a29c228a	Reading time
+574febad	48 to 72 hours
+b75166ec	Reading the test
+b946ad80	Which layer does the needle reach in the Mantoux test?
+4abea8f1	The dermis (intradermal)
+7f5890be	ID at a 10 to 15 degree angle.
+937c560f	Reading
+bda21ed5	What is measured when the test is read?
+9dbbca45	intensity of itching
+9967cb18	number of blisters
+65962a1b	Hardening counts, not redness.
+f007248c	The abbreviations in this chart.
+0f079b65	Process
+30bd58cf	Put the steps of the test in order
+0aedcdc1	A small bump forms
+6859a11e	Measure the hardening
+bd4e9407	Interpretation
+6182826b	A 4 mm induration in a healthy employee is usually considered negative.
+47579291	For most healthy workers the positive cut-off is 10 mm.
+360f857c	Spell the term for within the skin
+82924a65	The Child Whose Skin Would Not Spring Back
+7ca59074	A 2-year-old boy with diarrhoea
+d13e74cc	The child has had diarrhoea and vomiting for two days. His lips are dry. The nurse pinches the skin of his abdomen; it stays wrinkled for a few seconds and is slow to return. His hands and feet are cold.
+4687dd73	Skin turgor
+9b6bec2a	decreased
+cd0379eb	Limbs
+47b7da20	cold
+9446c037	dehydration
+849039c5	Skin slow to return after a pinch means reduced…
+d29a3d4f	Skin elasticity; a sign of dehydration.
+211ab354	Which fibres of the dermis return the skin to its shape?
+c243e188	elastin = elastic fibre.
+b92c7de9	Cold hands and feet mean the skin’s vessels have narrowed to keep blood for the vital organs.
+3a4c6e90	the living, vascular layer
+9c105ccb	Turgor depends on a property of which layer?
+13c59e9d	Collagen and elastin are in the dermis.
+f545e94c	Spell the term for the elastic fibre of the dermis
+561ea7e2	The Cook’s Inflamed Finger
+969ce08a	A 34-year-old cook
+77ef4af0	A cook whose hands are always wet has had redness, swelling and pain around the nail of his index finger for 4 days, with a little pus. His toenails are also thick, yellow and brittle.
+d34f9de4	Hand
+b788a6e0	redness and pus around the nail
+aa6690fa	thick, yellow nail
+4caddc9e	Toenail KOH
+9a4d3663	fungus positive
+f17a7511	Pus C&S
+93b3d061	What is an infection of the skin fold around a fingernail?
+db4991fe	A thick, yellow toenail with a positive KOH?
+67740b0e	What is done to drain the pus around the nail?
+90a60dc6	Incision and drainage.
+beed3cae	fungus test
+d96a0aaa	Toenail fungus needs an antifungal drug.
+055d6baf	Fungus is treated with an antifungal.
+15a01535	Spell the term for infection around the nail
+fefc8fd4	Exam-Time Pimples
+1691d7f4	A 16-year-old girl
+5d15794e	A teenager has come in with pimples on her face, forehead and back. She has many blackheads and whiteheads and a few pus pimples. Her skin is oily and she says it gets worse before exams.
+17f7e903	comedones, papules, pustules
+08ae1de1	oily (seborrhea)
+c6ae21a5	face, forehead, back
+43c061f6	In which gland is sebum made?
+6a42a6c0	A blackhead means…
+ab74cb42	open comedo
+f19bbb1f	closed comedo
+478af09f	The black comes from oxidised melanin.
+142f96c5	Blocked follicle (comedo)
+c14bebca	From oil to pus.
+5c492159	In acne vulgaris, vulgaris means “common”.
+f65b801e	Common teenage acne.
+48192132	Which drug group is used for severe, resistant acne?
+bc4cab0a	an oral retinoid (isotretinoin)
+c788a033	It is forbidden in pregnancy.
+673ee939	Spell the term for excess oil secretion
+6a97ce30	Mrs Arlia’s Five Lesions
+92c46882	Rose Arlia, a 50-year-old woman
+ca65ad29	The physician has examined Mrs Arlia and written five findings. You must explain each one to the patient in simple language.
+33b97806	Macule on the right hand means…
+819625da	a small flat discoloured spot
+20cb1cdc	a solid bump
+1daa4c73	Bulla on the left hand means…
+6a5e1d4c	a blister larger than 1 cm
+697c08a3	A large blister.
+7ef93e2a	A vascular lesion is a lesion related to…
+d1137d7a	Match each finding to its explanation
+30143c64	flat spot
+cf7b10be	small solid bump
+a428630d	Five findings.
+2c729d1e	pilonidal means “hair nest”.
+9080fff5	pil/o (hair) + nid/o (nest) + -al.
+6afc2ec9	Spell the term for a small solid raised bump
+0f4cfc0a	A small solid bump.
+862df8a1	Spots That Don’t Fade
+7f5916f3	A 7-year-old girl
+1b5e1dfa	A mother says tiny red-purple dots appeared on her daughter’s shins yesterday, and she has several large bruises with no cause. The physician presses a glass on the dots; their colour does not fade.
+6491a35b	tiny red-purple dots
+5d05dd5e	several unexplained ecchymoses
+3bb13a6a	Pressure test
+38a71b51	does not fade
+7169ef2a	urgent platelet count
+9e7585fa	Tiny red-purple dots that do not fade under pressure?
+60623b77	sun macule
+139e37bd	Tiny bleeds under the skin.
+4e98693c	What is a large blue and purple bruise called?
+bc613f5e	Dot → patch → bruise.
+f917aba5	Inflammatory redness (erythema) fades under pressure, but petechiae do not.
+e7f958b0	In petechiae the blood is outside the vessels.
+0b9ede9e	Spell the plural term for pinpoint bleeding spots
+286dbbd2	Kathleen’s Pressure Sore
+7ac06eb5	Kathleen, an elderly woman after a stroke
+318f8511	After a stroke, Kathleen is bedbound at home. The home-care nurse finds her skin dry with poor turgor. Over the sacral area there is an open sore 2 cm wide and 1 cm deep with a red border. Her elbows and heels are red too. Six months later the sore had worsened, and a plastic surgeon performed debridement and a full-thickness skin graft (FTSG) from her thigh.
+5185591b	First stage
+1cbd530a	After 6 months
+075017fe	Ulcer stages
+66797eb0	What is another name for a pressure sore?
+db8e1cf4	decubitus = lying down.
+9a2d7145	What is the main cause of this sore?
+97acb23e	Long pressure over a bony prominence
+3c17bfed	Fungal infection
+41a03fd2	Pressure cuts off the blood supply.
+b74c9e9c	Long bed rest
+6f0af765	Pressure on the sacrum
+93d9a027	Loss of blood supply and necrosis
+5359c2a8	From pressure to ulcer.
+46992a5d	What kind of graft is an FTSG from the patient’s own thigh?
+da5f7397	a full-thickness autograft
+f454de89	auto- = self; FTSG = full-thickness.
+8848aba8	Match each measure to its purpose
+cf1c9bd9	Change position every 2 hours
+6d508893	reduce pressure
+77eb93a0	Alternating-pressure mattress
+36f1c204	spread the pressure
+19cb2b39	Adequate nutrition
+8c152e48	tissue repair
+f6e6eae7	Wound care.
+f1a7364b	Spell the term for removing dead tissue from a wound
+e15e28fe	Removing dead tissue.
+73874fec	Cellulitis of the Shin
+b3a43442	A 64-year-old woman
+41ff8660	Six weeks ago, intense itching and redness began below the patient’s right knee; a week later pus-filled bumps appeared, burst and left an open sore. Now the 3 × 5 cm sore reaches the deep layer of the skin and its edges show signs of tissue death. Culture of the discharge grew staphylococcus.
+22ade8c0	pruritus, erythema, pustules
+00515fb8	to the dermis, necrotic edge
+5cd3cc20	Leg ulcer
+dd29f8ae	Rewording
+42d6702d	Match each everyday phrase to its medical term
+be894d7f	intense itching
+0a271914	pus-filled bumps
+226277db	“Signs of tissue death” at the edge of the sore means…
+0637ef97	The test that grew the microbe and found the best antibiotic?
+5a26189e	What is “inflammation of the skin’s connective tissue” called?
+952011c7	Debridement means removing the dead and damaged tissue of a wound.
+770297e5	So that the wound can heal.
+4086cfd4	Spell the term for a skin specialist
+8388e2e5	Impetigo That Caused an Allergy
+e287c6c6	A 29-year-old woman
+51e985d0	Last week the patient developed an itchy forehead and her physician gave erythromycin (an antibiotic). Two days later the rash covered her whole face and she was admitted with a diagnosis of impetigo. The dermatologist sees that the lesions have become redder, there are pustules on the forehead, nose and cheeks, and the face is so swollen that she can barely open her eyes. Itching of the legs also appeared, which was considered a drug reaction, and the antibiotic was changed.
+5e24da09	impetigo; allergic response to erythromycin
+aab5eaf0	erythematous rash, pustules, facial edema
+a566dac4	antibiotic changed + antipruritic
+b79b8fe3	Honey-coloured crust
+ff105925	What kind of infection is impetigo?
+cdc1bd9a	Bacterial and contagious
+618bc8c7	Viral
+9dc788a9	Parasitic
+3bae8304	Staph or strep.
+29873821	pus pimples
+34bf4666	What is an antipruritic for?
+8f77d4dd	Relieving itching
+2cc8c6e9	Bringing down fever
+71617eda	Killing fungus
+edd186b2	Numbing
+66b406dc	Don’t confuse it with an antipyretic (fever reducer).
+22984809	The leg itching after the antibiotic was considered an allergic drug reaction.
+10e2679a	That is why the drug was changed.
+1f280331	dermatitis means…
+1832b8b1	nail infection
+5fa16a9f	Spell the term for a contagious crusting skin infection
+4082965a	A superficial bacterial infection.
+04ddc998	A 40-year-old woman
+9f40e4cb	An internist has referred the patient to a dermatologist to evaluate SLE. She has a red rash on her cheeks and nose, the rash becomes raised in the sun, she has several areas of hair loss, and her joints are painful and stiff. To rule out other causes the dermatologist takes exfoliative cytology and fungal scrapings, and prescribes a corticosteroid cream and sunscreen.
+a80f4d04	photosensitivity, patches of alopecia
+68b80238	exfoliative cytology, fungal scrapings, biopsy
+183e6942	Skin lupus
+7fa35e28	What does SLE stand for?
+9a8d745a	A multi-organ autoimmune disease.
+308b3d9c	Chart findings.
+479fe7b2	Why were the fungal scrapings taken?
+941b71b6	To rule out a fungal infection as the cause of the rash
+5e7c7718	To diagnose tuberculosis
+3bc3607d	To measure blood sugar
+a9994694	To confirm cancer
+fa2a612e	To rule out other causes.
+00d91475	What does a corticosteroid cream do?
+4660683f	Reduces inflammation
+a6b4e19c	Kills bacteria
+c389bbcd	A strong anti-inflammatory.
+822cc570	In lupus, sunscreen is needed because light makes the rash worse.
+7469d747	Spell the term for hair loss
+6d3772a1	alopecia areata = patchy.
+919499db	A Kitchen Burn
+c2e62a72	A 35-year-old man
+8eb7d349	Hot oil has spilled on the patient. The whole right arm has large blisters and severe pain. The front of the trunk is red and blistered too. A small area on the forearm is white, dry and painless.
+1075d0ff	Right arm
+c34b9311	blisters, severe pain
+eb14416d	Forearm
+7a2ff504	BSA calculated with the rule of nines
+80690d28	What degree are the blistered, very painful areas?
+24884a80	The white, dry, painless area of the forearm?
+faba258d	The nerves have been destroyed.
+9a12f561	Calculation
+d3bc18a3	What percentage of BSA is the whole right arm + the front of the trunk?
+6dbd0395	9 + 18 = 27.
+e32dbb57	Put the steps of treating a deep burn in order
+3cfb6659	Cooling and fluid therapy
+cb184e34	Debridement of dead tissue
+46e0c96f	Escharotomy if needed
+77746d00	From the emergency department to grafting.
+5203b987	An eschar is the same as the scar after healing.
+fc03aedb	False; an eschar is the black dead tissue of a burn.
+8c6cb4c9	Spell the term for a graft from the patient’s own body
+cfc92824	The Bump Beside Joanne’s Nose
+3351c2b9	Joanne, a 32-year-old fitness instructor
+8e055450	While washing her face, Joanne noticed “a tiny, firm bump” at the base of her left nostril that has been there for 2 months. She was a lifeguard for years and regularly goes to a tanning salon. She is worried about melanoma. The dermatologist sees a small pearly-white nodule. A plastic surgeon removes the lesion and pathology reports BCC with clean margins. Advice: always SPF 30 and no tanning salons.
+f01d3cef	Risk
+80105e19	sun exposure, tanning bed (UV)
+d024530e	Advice
+3321c28a	BCC means…
+5f8de85f	Basal cell carcinoma.
+3e8363e2	What is the likely cause of this cancer?
+8a944892	Ultraviolet light (sun and tanning beds)
+e1fc76f4	Vitamin D deficiency
+adf9df4f	What is a raised solid lesion larger than a papule called?
+ac631d76	A nodule.
+7e53e230	basal cell carcinoma
+5d15fb21	sun protection factor
+5ff2e0c4	Pathology
+d733f0c5	“Clean margins” means the whole tumour was removed with a rim of healthy tissue.
+e5835a0a	Clean margins.
+ec05d0b1	Spell the term for the skin-sanding treatment once used for her acne scars
+9bafc87a	Cancer Returning on the Cheek
+4d79f804	A 74-year-old man
+984f813b	Five years ago two facial lesions were biopsied; they were BCC and were removed. Now the lesion on the left cheek has come back, itches and is growing. On examination there is a 10 × 14 mm lesion with marked redness and indistinct borders; the skin around it has lost its colour and has vesicles.
+b791f18f	Reason for consultation
+55769000	marked erythema, depigmentation, vesicles
+fc4476fa	BCC with a ruler
+be0f8734	Match each term in the report to its meaning
+9cb401e7	loss of colour
+f32a2cc5	small blisters
+b4cfebe8	Which surgery is suitable for sparing the most healthy facial tissue?

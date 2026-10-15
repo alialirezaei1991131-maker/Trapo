@@ -1,0 +1,330 @@
+bc57ad2c	Derma
+d708015d	Derma • Terminology of the Skin
+fe28e752	Medical terminology of the integumentary system (skin, hair, nails and skin glands)
+311490aa	🧴 Medical terminology: Skin, Hair, Nails and Skin Glands
+d6a3730f	Hi, I’m <b>Derma</b>;
+2a84b617	Hi, I’m <b>Derma</b>, a smiling patch of skin with a single hair and an SPF sun on my shoulder! Here you won’t memorise words; you’ll <b>decode</b> them: you’ll recognise the root, prefix and suffix and read every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures and teaching figures, ⟦2⟧ clinical charts and Leitner cards are waiting for you.
+7f20b93a	Derma is an educational tool and does not replace examination, clinical judgment or a physician’s orders.
+4fad3324	Dozens of bilingual figures and clinical pictures, from a cross-section of the skin layers and lesions to burns, psoriasis and melanoma.
+79b3f7a4	Break every skin word into prefix, root and suffix and give its meaning
+3e27eee6	Point out the skin layers, hair, nails and skin glands on a cross-section of the skin
+cb72081b	Describe every skin lesion precisely with three keys: “surface, contents, size”
+f8e62751	Tell skin infections, inflammations and autoimmune diseases apart
+c085813a	Recognise the degree of a burn and calculate the burned area with the rule of nines
+94960c9b	Read skin cancers, biopsy, surgery, grafts, drugs and chart abbreviations
+3f52da10	Just 5 minutes a day. A few weeks from now you’ll read skin terms like your mother tongue.
+87b4cca9	Hi! I’m Derma, a smiling patch of skin 🧴 What’s your name?
+958f70bf	Which world shall we start with? If you’re new, “The Language of the Skin” is the best start; the system overview and basic roots are taught there!
+f78e9959	The word <b dir="ltr">onychomycosis</b> means…
+5a36d19d	The nail from above and from the side
+c08bc563	Fungal infection of the nail
+9d9cc442	Softening of the nail
+c87288b9	Inflammation around the nail
+35cc9156	Removal of the nail
+863f0f9d	⟦0⟧<br><b>onych/o</b> = nail, <b>myc/o</b> = fungus, <b>-osis</b> = abnormal condition. So it is a <b>fungal infection of the nail</b>: the yellow, thick, brittle nail. Start the meaning from the suffix!
+260aade1	Curious Keratinocyte
+8c906758	Junior Layer Expert
+c294fdaf	Guardian of the Epidermis
+85a9828d	Master of the Appendages
+23450bb9	Lesion Hunter
+b0b45ebc	Macule and Papule Detective
+7cf85296	Guardian of the Skin Barrier
+c22d3dbe	Master of the Rule of Nines
+0f367cc8	Fungus and Bacteria Hunter
+6cf9eb32	ABCDE Detective
+e2d2238f	Dermatology Legend
+a923a4ac	Dermatology resident
+0a1d0187	Burn unit nurse
+e6018eae	Wound care nurse
+8db83726	First Layer
+954d5633	Layer Expert
+207afe72	Guardian of the Appendages
+398b349a	Lesion Hunter
+47a38725	Skin Healer
+0caab2ce	Biopsy Detective
+31f34c79	skin scraped away by friction
+04e90d3b	pocket of pus in inflamed tissue
+c71e51bc	common pimples
+6c6040cd	precancerous sun-damage patch
+93d6a10f	inborn lack of pigment
+73f36e7d	graft from another person
+2ab58fc2	hair loss
+7a145f04	absence of sweating
+2d23a0d9	reduces inflammation
+b91d25d5	kills fungi
+dea4ac6e	drug that blocks histamine
+1bcc3345	relieves itching
+86a1b928	kills germs on the skin
+f9c045ff	acts against viruses
+59a6d8b1	odour-producing sweat gland of armpit and groin
+cb968e8f	tiny muscle that makes hair stand up
+dae3bb4f	allergic itchy eczema
+aaa92394	thinning and wasting
+20cd2a56	graft from one’s own body
+80e58b6c	without blood vessels
+f7267878	cancer of the skin’s base layer
+aa2d30cb	transverse grooves in the nail
+847bdea5	eyelid surgery
+201c9fc9	total area of the skin
+0d06758d	foul-smelling sweat
+9cbe0458	large blister
+00b25f0e	tissue injury from heat or chemicals
+6bc8ada9	yeast infection (thrush)
+f20c54eb	cluster of boils
+a0fcd30d	cancer of epithelial tissue
+f01af69b	spreading skin infection
+360cdbdf	earwax gland
+bff7d489	chemical skin peel
+fd555500	mark left by a healed wound
+f4b5bbb7	fibrous protein that gives skin strength
+db6a1bf0	blackhead or whitehead
+7473c5d0	rash from touching an irritant
+de6be74f	bruise
+6795349c	steroid anti-inflammatory drug
+783251f1	scab
+4705aab8	destroying tissue by freezing
+06906cf5	scraping with a curette
+307102e0	pertaining to the skin
+5d6d05e8	fold of skin at the nail base
+28da0697	removing dead tissue from a wound
+524386f3	pressure sore
+e0545dc9	loss of skin colour
+c06ef917	sanding away the top skin layer
+abc86a9f	pertaining to the skin
+80c573b9	finger-like ridges of the dermis
+4aaee87c	skin-cutting instrument for grafts
+95588298	fungal skin infection
+879fe3ac	specialist in skin tissue diagnosis
+fee14985	skin disease
+7ce7b5d3	surgical repair of the skin
+4ecff3b5	any skin condition
+cbb6641c	true skin under the epidermis
+8532c990	skin-only form of lupus
+5f76fca3	irregular mole
+c8d5f449	large bruise
+fa036617	cooling sweat gland
+953b24ae	itchy red inflamed skin
+cf2d8e0a	swelling
+635269c7	stretchy protein of the dermis
+0f6fdef0	drying tissue with electric current
+60ab01f9	moisturiser
+24c3bc9d	outer layer of the skin
+f606dbf7	resembling the epidermis
+555a94d7	shallow loss of the epidermis
+b0bf579a	redness of the skin
+e0b64971	reddened
+67e7532c	widespread redness of the skin
+3cae4815	dead tissue of a burn
+d82739ca	cutting through a burn scab
+1b920f81	removal of a whole lesion for testing
+14b418f8	scratch mark
+70b29b97	study of scraped-off cells
+f6498353	fluid oozing into a wound
+8c7e2aa1	cell that makes collagen
+c7096687	superficial burn
+cc219a44	crack in the skin
+74bfbace	inflammation of a hair follicle
+386b44a4	free edge of the nail
+5175b091	quickly frozen tissue slice
+35115e97	destroying tissue with electric sparks
+bd9bb375	graft of full-thickness skin
+d09d2f86	skin scraping test for fungus
+74c44844	boil
+a7d1db64	healing tissue in a wound
+9fceadb8	hair
+f4e903ed	sac that a hair grows from
+ec446220	tip that feeds the growing hair
+758ba3db	part of a hair below the skin
+a2a4d134	visible part of a hair
+fe9c7a60	birthmark of blood vessels
+599eea52	pool of clotted blood
+1a00557a	cold sore
+a3487598	shingles
+31b69899	inflammation of the sweat glands
+4845e7ed	sweating
+780d10b4	excessive hair in women
+e90702f0	firm benign skin nodule
+7ef1887a	excessive sweating
+5311ad42	darkening of the skin
+bf6605d0	under the skin
+59c37806	fatty layer under the skin
+3ca80af2	skin under the nail tip
+6f7173f7	fish-scale skin
+7b151686	contagious crusting skin infection
+505a0371	removal of part of a lesion for testing
+b2c7fbd0	hardened area
+ccf09dd2	skin as a body covering
+54d679aa	within the skin
+453df5ab	cancer with purple skin lesions
+411786ce	raised overgrown scar
+add9beab	hard protein of skin, hair and nails
+01fc8f26	keratin-making cell
+a3c61a94	drug that peels away hard skin
+1be93fd0	torn, jagged wound
+4e7354c0	treatment with laser light
+91c390e0	white patches of skin
+ac842e34	thick, leathery skin
+c69a2b36	surgical removal of fat
+02d204e5	fat cell
+f2f4f8d3	fatty lump
+165812a1	fat removal by suction
+15fcfce7	numbing a small area
+fbb52510	white half-moon at the nail base
+ee173d71	small flat spot
+800af5d5	malignant tumour of pigment cells
+444594b5	tuberculin skin test
+8a914f23	light-touch receptor
+064ff93c	skin pigment
+b0747994	pigment-making cell
+9f926175	spread of cancer
+95b852cd	layer-by-layer skin cancer surgery
+279c8aae	resistant staph infection
+bfbe6a28	skin beneath the nail
+edede1a2	visible nail plate
+d3133fbf	growth area of the nail
+341a3241	hidden base of the nail
+459d4179	flesh-eating infection
+60375097	mole
+ca6bd1ba	solid raised lump
+f621aa9b	inflammation of the nail bed
+723679ea	ingrown nail
+4b08b3bb	nail separating from its bed
+72878ee5	nail fungus
+ba90b9d0	nail disease
+18fff369	nail biting
+75215b9f	cutting into a nail
+4610ddfa	deep-pressure receptor
+a09e7b71	small raised bump
+aa3cadae	infection around the nail
+ee111446	large flat spot
+4a7d2ffa	taped allergy test
+894340f7	drug that kills lice
+4a37ab04	lice infestation
+83659c00	autoimmune blistering disease
+a287d19b	through the skin
+73a9e9c1	pinpoint bleeding spots
+b2a9d995	sensitivity to light
+4686d694	treatment with light
+991999ed	hair-containing cyst at the tailbone
+f775679c	broad raised patch
+f60aa0df	growth on a stalk
+4dc22aba	tiny opening of a sweat gland
+fa7173a0	first lesion of a disease
+469a0a8d	itchy
+5a15ec7c	silvery scaly patches
+c2530ec4	round core skin sample
+d66dfbd8	purple bleeding patches
+8e98c1a8	pus-filled pimple
+666b2143	pus-forming skin infection
+d80ab4cc	vitamin A-derived drug
+e80fc4f7	wrinkle
+732a80dc	facelift
+063f8d4c	facial redness with pimples
+ace67b9c	German measles
+84387410	measles
+57a04cc2	burn-area estimate in 9% blocks
+a813862f	drug that kills scabies mites
+d5f62765	itchy mite infestation
+add30e82	flake of dead skin
+bb9291a0	hardening of the skin
+b7913327	skin prick allergy test
+ce536fc8	oil-filled cyst
+1f7786db	oil gland
+394e6bde	excess oil secretion
+5f150b0b	flaky red rash of oily areas
+34596210	benign warty brown growth
+7ea368df	skin oil
+53a10330	partial-thickness burn
+da7022f0	change that follows a primary lesion
+c57f570a	sample shaved off the surface
+7f83172d	transplanted skin
+c9c95ebb	small flap of skin
+13ca559d	skin reaction test
+83f614c3	skin elasticity
+d7aea7e9	graft of partial skin thickness
+9bb2912d	scale-like
+260ce297	cancer of flat surface cells
+be981377	leg ulcer from poor vein flow
+e91c21b1	fatty tumour
+223b7f8a	deepest, cell-making layer
+d1867d42	horny outer layer
+11cc5456	grainy layer
+f7c729b5	clear layer
+bca98e7a	spiny layer
+5ac5130e	fatty tissue under the skin
+52e9cbff	gland that makes sweat
+90cf3082	sun protection cream
+4815940e	affecting the whole body
+f888bec8	whole-body lupus
+1911324b	control of body temperature
+01061070	full-thickness burn
+e24b5dc1	ringworm
+82d22977	ringworm of the scalp
+4320bd31	ringworm of the body
+a0fa3204	jock itch
+c4b9ed69	athlete’s foot
+18df08f8	patchy discoloured fungal rash
+17600dee	through the skin
+7434bc0c	fungal infection of the hair
+22d9246d	hair disease
+9b61e8ab	large lump
+1f029311	open sore
+67b914bc	ultraviolet light
+77fd5580	hives
+32d60c1c	chickenpox
+66b14657	rich in blood vessels
+aacbc1f2	wart
+c2ffb0cf	small blister
+a9e6b2da	vitamin D
+ae018609	patchy loss of pigment
+e7620bab	smooth itchy swelling
+e40f0dfb	UV lamp used to examine skin
+f6319ef4	yellow fatty deposit
+f0079115	graft from an animal
+f7da543e	other
+3e5a0f7b	self
+a9e39312	removal, loss
+0ff8f598	bad, abnormal
+8282130e	different
+6adf73c1	beside, around
+31466596	through
+17cd36ff	through, across
+f56a153e	beyond, excess
+efaae3bf	horny, hard (keratin)
+341483d7	scale
+c2a51697	nipple-like bump
+f9f6fc9f	black, dark
+fad72703	white (without pigment)
+86e1588e	dry and scaly (fish-like)
+c4723aa1	hard
+6686a6f9	wrinkle
+420ce8da	follicle (small sac)
+f682b06b	skin oil (sebum)
+ffb382ae	hidden
+02665cce	nest
+ad236a7b	stench
+764ef078	sac, blister
+7c4711cd	louse
+974b47d3	life, living
+7a766ae8	to burn
+062dadfe	to cut
+614f5681	foreign
+b165cd23	system, whole body
+323bb151	nipple (epithelial tissue)
+ce4ceafc	glue
+28c3d9bd	elastic
+22a85c73	pigment
+3c1fdcdc	growth, swelling
+7f38878b	sac
+30ece9fc	hairy
+cc50bb4e	candida (yeast)
+dcc3dae2	cell tissue
+5e81f7dd	to scrape, rub
+19a63b77	substance
+b1875fee	noun ending
+2e9ffd50	full of
+3934432b	producing
+302cd718	transplant
+751f1226	disease, condition
+2e180ae5	condition, state
+faac91a5	study of
