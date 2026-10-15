@@ -1,0 +1,118 @@
+3801960d	Next step
+4f67f2ae	CT with axial slices
+a60fd241	Raising the head of the bed for shortness of breath is which position?
+7cf8f4d3	Half sitting; the lungs expand more easily.
+c6a681c6	In a PA film, where does the beam enter?
+637f4be4	From the back
+b2dcf3d9	From the front
+55500cd5	CXR means…
+fc97b8ce	Head CT
+e0f71e40	Blood count
+7afdf8d1	Heart examination
+8e9939b5	Axial slices in CT are parallel to which body plane?
+cabc77f8	axial = transverse (horizontal).
+f1611dc6	CT uses x-rays but MRI does not.
+e2442f12	MRI works with a magnet and radio waves.
+73bd8d41	Spell the term for imaging that records the body in slices
+1b07ab31	Bicycle accident
+e3be986c	A bicycle handlebar has struck a teenager in the abdomen. The teenager complains of pain in the upper left abdomen, looks pale and has a fast pulse. Abdominal CT shows a ruptured spleen. The surgeon is deciding on a splenectomy.
+24796828	Handlebar blow to the abdomen
+177160db	LUQ, left hypochondriac
+4d233501	Considering splenectomy
+822f933d	LUQ means…
+4e98739b	Umbilical region
+6d4cda91	Which organ is in the LUQ?
+0720fe5f	The spleen and stomach are in the left upper quadrant.
+d39a988b	In the nine-region division, where is the spleen mostly found?
+1e364d36	Below the left ribs.
+5941f9f6	Which body cavity is the spleen in?
+b1c34f07	Below the diaphragm, in the abdominal cavity.
+346a001c	splenectomy means removal of the spleen.
+c6969380	Spell the term for surgical removal of the spleen
+3306b513	Shooting low back pain
+6e4fa757	After lifting a heavy object, the patient developed low back pain that shoots down the back of the right thigh and calf. A sagittal MRI of the lumbar spine shows a disc bulge between the fourth and fifth lumbar vertebrae.
+4e7b76b3	Pain on bending the trunk (flexion)
+c9146beb	L4 means…
+591d864d	Fourth rib
+c0e2a30f	How many vertebrae does the lumbar region have?
+9d0cadee	L1 to L5.
+0f6be45d	A sagittal MRI cuts the body into which parts?
+132a6d50	Superficial and deep
+5221460d	sagittal = right and left.
+5be846aa	Spine
+2a6204a3	Put the regions of the spine in order from top to bottom
+87f3b871	cervical → thoracic → lumbar → sacral → coccygeal.
+b88d7a04	Pain in the back of the thigh is on the posterior surface of the lower limb.
+acf5c7d9	posterior = back.
+fcf31fdb	Spell the plural of the term for the bones of the spine
+c65cbfeb	Start the meaning from the suffix: epigastric means “pertaining to” + “above” + “stomach”.
+7381c8fe	orifice comes from os (mouth) and facere (to make): “an opening that has been made”.
+39c2b17e	A stoma is an opening the surgeon creates; the suffix ‎-stomy means creating that opening.
+cf397bfe	The plural of vertebra is vertebrae, the plural of foramen is foramina and the plural of phalanx is phalanges.
+8b420b16	hidr/o means sweat and hydr/o means water; they differ by just one letter!
+37a69372	palpate means to feel by touch during an examination; palpitate means the heart is racing. One letter, two worlds.
+89f5f057	parenteral means any route of medication other than the digestive tract: IV, IM, SubQ, ID and intrathecal.
+622525d8	The cell is the smallest unit of life; the body has 10 to 100 trillion cells.
+7cf0903c	The largest cell in the body is the egg (ovum) and the smallest is the sperm.
+ef234534	Every body cell has 46 chromosomes (23 pairs); sex cells have only 23.
+167f3c3e	Mitosis makes two identical cells; meiosis halves the number of chromosomes.
+54b9c60e	metabolism = anabolism (building up) + catabolism (breaking down). ana means up and cata means down.
+5845e659	The mitochondrion is the cell’s power plant and makes energy in the form of ATP.
+d222ef24	The body has only four kinds of tissue: epithelial, connective, muscle and nervous.
+f7e4e59c	Connective tissue is the most abundant tissue in the body; even blood and fat are connective tissue.
+a5579f5a	A tendon attaches muscle to bone and a ligament attaches bone to bone.
+341e467b	Cardiac muscle is found only in the heart; it is striated but involuntary.
+ddc2d775	Nervous tissue needs more oxygen and nutrients than any other tissue.
+a034ff14	The parietal layer lines the wall of the cavity and the visceral layer covers the organ itself.
+d5e8780e	The skin is an organ: it is made of epithelial, connective and nervous tissue.
+e379ee1c	The kidneys lie behind the peritoneum (retroperitoneal); they are the only large abdominal organs outside the peritoneal sac.
+85bca4c3	Of each paired organ (such as the kidneys and lungs), one alone is enough to stay alive.
+bdeef5b0	otorhinolaryngology = ear + nose + larynx + study of; the same as ENT.
+8e64a9aa	The integumentary system includes the skin, hair, nails, and sweat and oil glands.
+37e4bb03	All directions are given from the anatomical position: standing, facing forward, palms facing forward.
+d0f46398	proximal and distal are used only for the arms and legs: the elbow is proximal to the wrist.
+aefc380d	The sagittal plane divides the body into left and right, the frontal into front and back, and the transverse into upper and lower.
+90b7c80e	supine means lying face up and prone means lying face down; remember supine as “spine on the bed”.
+3ea085a9	A PA chest film means the beam enters from the back (posterior) and exits from the front (anterior).
+ac3c125c	abduction is moving away from the midline and adduction is moving toward it; ab = away, ad = toward.
+446daa36	The diaphragm separates the thoracic cavity from the abdominal cavity; there is no wall between the abdomen and the pelvis.
+0cc7ee6f	Dorsal cavities: cranial and spinal. Ventral cavities: thoracic and abdominopelvic.
+091f414f	The appendix is in the right lower quadrant (RLQ); pain there brings appendicitis to mind first.
+b45da5b7	hypochondriac means below the rib cartilage: hypo (below) + chondr (cartilage) + iac.
+41985fc3	The spine: 7 cervical, 12 thoracic, 5 lumbar, 5 fused sacral vertebrae and the coccyx.
+928c609a	Left and right on the abdominal map are always the patient’s own left and right, not the viewer’s.
+18bef97e	Quick reference
+c7ffb1e1	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Peykar is a learning tool and does not replace anatomy references or clinical judgement.</p>⏎    </section>
+9b90fa83	<li class="dict__i ⟦0⟧">⏎        <button class="dict__h" data-term="⟦1⟧" aria-expanded="⟦2⟧">⏎          <span class="wsym wsym--xs" style="--wc:⟦3⟧;--wd:⟦4⟧">⟦5⟧</span>⏎          <span class="dict__t"><b dir="ltr">⟦6⟧</b><small>⟦7⟧</small></span>⏎          <span class="dict__box" title="Leitner box">⟦8⟧</span>⏎        </button>⏎        ⟦9⟧⏎      </li>
+486bed1d	Search: cavity, hollow, lateral…
+74bf8c4e	<div class="tpane">⏎    <p class="muted">Type a medical word and it will be broken into prefix, root and suffix. The golden rule: start the meaning from the <b>suffix</b>, then the prefix, and finally the roots.</p>⏎    <label class="tsearch tsearch--big"><span aria-hidden="true">✂</span><input type="text" data-tp value="⟦0⟧" dir="ltr" lang="en" autocomplete="off" autocapitalize="off" spellcheck="false" placeholder="e.g. leukocytosis"></label>⏎    <div class="tchips tchips--btn">⟦1⟧</div>⏎    <div class="tout" aria-live="polite">⟦2⟧</div></div>
+57d88679	Search: later, side, -logy…
+bfa64592	Search: RUQ, anterior, MRI…
+98ccc4aa	up / down (cephalic / caudal)
+eb923ae2	front / back (ventral / dorsal)
+f575acbf	toward the midline / toward the side
+9810dfeb	near / far from where the limb attaches
+1d76687f	near the surface / deep inside
+fb718ffa	same side / opposite side
+5af8f243	right and left (midsagittal: two equal halves)
+26644d9e	brain (dorsal cavity)
+99ec7ac7	spinal cord (dorsal cavity)
+ca3ee28a	heart, lungs, oesophagus, trachea (ventral cavity)
+a64fa76d	stomach, intestines, liver, spleen, pancreas
+43db396a	bladder, reproductive organs, rectum
+ad6e366d	appendix, right ovary and tube, right ureter
+5782b1f3	sigmoid colon, left ovary and tube, left ureter
+c5353a99	7 neck vertebrae
+fc6affe2	12 chest vertebrae
+6d75c3cb	5 lower-back vertebrae
+f7880697	5 fused vertebrae of the sacrum
+b412ab23	3 to 5 small tailbone vertebrae
+0ea68e87	Patient positions
+557e9388	face up: chest and abdominal exam, reflexes
+5630cc82	face down: exam of the back and spine
+cc16e720	half sitting: difficult breathing
+839ca5a6	on the left side: rectal exam, enema
+97281d7a	feet in stirrups: pelvic exam, Pap smear
+0609910a	head lower: postural drainage
+3a558e45	<div class="tpane"><p class="muted">Frequently used tables for reading charts and imaging reports.</p>⏎    ⟦0⟧⏎    ⟦1⟧</div>
+66e974ed	<h3 class="tgh">⟦0⟧</h3><table class="mini ref"><tr><th>Term</th><th>Meaning</th></tr>⟦1⟧</table>

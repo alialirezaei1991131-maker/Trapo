@@ -1,0 +1,330 @@
+0811cf55	Peykar
+99bb528e	Peykar • Terminology of Body Structure
+34658bf4	<div class="recap"><b class="recap__h">📌 What you learned at this level</b><ul>⟦0⟧</ul></div>
+baa892fb	Medical terminology of body structure
+ce34412b	🧭 Medical terminology: Body Structure
+ab604b6b	Hi, I’m <b>Peykar</b>;
+8e12426e	Hi, I’m <b>Peykar</b>, a cell with a compass for the body! Here you’ll learn how the body is built from cell to system, name every part of it with the exact term, and <b>decode</b> every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures from the textbooks, ⟦2⟧ clinical charts and Leitner cards are waiting for you.
+b819c7e1	Peykar is an educational tool and does not replace anatomy references, clinical judgment or a physician’s orders.
+d3b19a91	Dozens of textbook pictures and teaching figures: from cells and tissues under the microscope to body planes, cavities and the nine abdominal regions.
+062ba311	Break every anatomy term into prefix, root and suffix, form its Latin plural and name the body’s openings
+b78e0279	Describe the levels of organisation, cell structure, DNA, mitosis and metabolism with the right terms
+ce12c7e8	Recognise the four main tissues, the types of muscle and epithelium, and parietal and visceral membranes
+66e5dd4c	Know the twelve body systems, their organs and the medical specialty for each
+f232b8f7	Read directions, planes, movements, patient positions and imaging methods in a chart
+1b1dd7ae	Name the cavities, the nine regions and four quadrants of the abdomen, the spinal regions and the surface regions of the body precisely
+8bf75b99	Just 5 minutes a day. In a few weeks you’ll read anatomy terms like your mother tongue.
+5ea71140	Hi! I’m Peykar, a cell that knows the map of the body 🧭 What’s your name?
+f655a2ca	Which world shall we start with? If you’re new, “Body Language” is the best start; that’s where the word-building pieces are taught!
+e2fcf970	The patient has <b dir="ltr">epigastric</b> pain. Where is the pain?
+ae80ee0e	the nine regions of the abdomen
+201df5f1	upper abdomen, over the stomach
+5500a269	around the navel
+e0b275f1	lower abdomen, above the bladder
+0cc73386	right side, below the ribs
+15bf4326	⟦0⟧<br><b>epi-</b> = upon, above • <b>gastr/o</b> = stomach • <b>-ic</b> = pertaining to. So it is the region <b>above the stomach</b>, the upper middle abdomen. Start the meaning from the suffix!
+f79c522c	New Cell
+0c992dfe	Curious Histologist
+8de68b6e	Busy Organ
+e4fb494a	Direction Finder
+8c907499	Plane Slicer
+7924b6e9	Abdomen Map Reader
+8bca4fbc	Root Decoder
+0149692a	Cavity Master
+4024d262	Cell Commander
+3ea380a0	System Architect
+45724a61	Anatomy Detective
+0d9c4da3	Body Field Marshal
+1b2317ae	Word-Building Master
+c74d8217	Lab-science student
+f8921c28	Lab scientist
+3b10293a	Nutrition student
+eb365c0e	ICU nurse
+c559951b	Clinical dietitian
+af871468	Internal-medicine resident
+261db75e	Haematology ward nurse
+3fe968d3	First Cell
+cf54fd42	Decoder
+1e481053	Cytologist
+2691d0fa	Tissue Weaver
+3efc9a7e	nursing or midwifery student
+fe8d03e5	lab sciences
+de2ced78	nutrition
+8d0ec3ea	nurse or physician
+8b3cc626	other
+ef3bb69b	space holding the stomach, liver and intestines
+23aa23b4	combined abdominal and pelvic space
+ce2559ba	moving away from the midline (abduction)
+96526830	moving toward the midline (adduction)
+4befb423	tissues abnormally stuck together
+01dbbf94	fat cell
+f29e0e5a	fatty tissue
+86580a2a	building-up metabolism
+18688eee	study of body structure
+8325332a	in front of the elbow
+242ae003	toward the front (ventral)
+d5726706	from front to back
+613d2388	opening at the end of the digestive tract
+a81a77a8	opening or hole
+c7377e65	small pouch off the large intestine (singular/plural)
+764b5cca	vessel carrying blood from the heart (singular/plural)
+e662f766	the cell’s energy-carrying compound
+952909e2	around the ears
+b10c5a03	the armpits
+153cdf4f	two-headed upper-arm muscle
+d44413df	study of living things
+9d198edf	sampling of living tissue
+002f6f37	hollow space in the body
+db377755	imaginary flat surfaces dividing the body
+04e782b6	of the arm
+b684d73e	the cheeks
+7e4345f2	fluid sac near a joint (singular/plural)
+1738833f	the digestive tube from mouth to anus
+85618c09	sugars and starches
+1d613c13	cancer-causing substance
+b071bb20	cancer-causing
+f3789b54	cancer of epithelial tissue (singular/plural)
+8536d8f7	heart muscle tissue
+608db4c4	heart and vessel medicine
+5be8004d	heart and blood vessels
+373bdec7	the wrist
+88c31862	firm shock-absorbing connective tissue
+d9bb418e	breaking-down metabolism
+795c3f32	toward the tail; lower
+dd4b4722	basic units of living things
+7b05abb1	cell’s outer boundary
+3b3a5818	toward the head
+bee950c0	neck region of the spine
+6499a58d	gene-carrying structure in the nucleus
+63cf0747	collarbone area
+f26568e3	of the tailbone
+96f6347e	CT scan
+1afa3f9f	supporting tissue such as bone and tendon
+65ca0225	narrowing, tightening
+9d0dbf02	on the opposite side
+b618e4a8	toward the skull
+af3ec3ac	space inside the skull
+b2891e23	turning point of an illness (singular/plural)
+49ab437e	cell specialist
+98b9d24c	study of cells
+4298cded	cell fluid outside the nucleus
+d9c63dc7	abnormal condition of cells
+ebfe844a	away from the surface
+656c7c06	study of the skin
+e4ce5152	identification of a disease (singular/plural)
+efc6d723	muscle between chest and abdomen
+18923988	registered dietetic technician
+c76044eb	digestive tract and organs
+cbf1030f	widening, expansion
+fc67120d	farther from the point of origin
+360dfce6	pouch in the wall of a passage (singular/plural)
+652a686d	genetic material
+3bc1766c	back body cavity
+7b58fa7e	lying on the back with knees bent
+b8e7cac6	top of the foot
+df839cd7	ear canal
+47748534	study of early development before birth
+2ab225de	hormone-secreting glands
+5b0067df	study of hormone glands
+bb50f487	looking inside with a scope
+7af452af	protein that speeds up a reaction
+e5f9c1bb	region above the stomach
+6cdfcd83	cell of the lining tissue
+6b965f57	lining tissue
+dcc0de82	tumour of epithelial tissue
+108ead2c	standing upright
+6a6474e7	red blood cell
+6365a940	straightening a joint
+77883629	outside, outer
+2c9a5608	of the thigh
+04d1ce24	thigh bone (singular/plural)
+62203729	unborn baby after week 8
+6a35f1d6	tumour of fibrous tissue (singular/plural)
+e3a36f0c	abnormal fibrous-tissue growth
+9b4e1779	bending a joint
+30b6f21e	live moving X-ray imaging
+52de7243	opening or passage (singular/plural)
+f11e73fd	half-sitting position
+455cb5f9	plane dividing front from back
+1fb224b2	sex cell
+df47a250	study of the digestive system
+f440663a	unit of heredity
+33c2bead	urinary and reproductive organs
+c145d165	kneeling, chest on the table
+e0791652	blood sugar
+fe38406a	of the buttocks
+e233dc86	women’s health medicine
+f27c2393	study of blood
+b5957a45	gap, notch or tear
+8e1856a9	sweat production
+8d7c4a9a	tissue specialist
+78a2d2a0	stable internal balance
+833d8748	protrusion of brain and meninges with fluid
+333e4ac3	upper side regions below the ribs
+73f62e6b	region below the stomach
+4482eca3	study of immunity
+f9029a8b	in its original place
+1ddca3b6	in the laboratory
+5caabc01	within the living body
+f488ea0b	lower; toward the feet
+2273f36d	below the eyes
+84430d87	below the shoulder blades
+e286c288	right and left lower side regions
+14b8521a	skin, hair, nails and glands
+80b4f9c5	inside, interior
+17532e88	between the shoulder blades
+0d6c2dd3	within the skin
+80b0794f	within the spinal membranes
+6064d821	entrance to a passage
+54cbbade	on the same side
+1cfbbb23	chromosome map
+d1941423	kneeling with chest down
+3760dd84	toward the side
+8fc64f3e	lying on one side
+805924e4	from the side toward the centre
+e9ab55f5	band joining bone to bone
+d953cb65	fat
+9096a7bf	fat removal by suction
+efaf7f74	on the back, legs raised in stirrups
+f925996c	lower back
+22955829	inner channel of a tube (singular/plural)
+e2b24411	lymph vessels and immune defence
+5290def9	magnetic imaging
+69a38cf2	breast area
+abcfb473	external opening of a passage
+e97b5d6f	toward the middle
+ac85911d	central chest space between the lungs
+d5d179ed	from the centre toward the side
+ce2e93da	cell division that halves the chromosomes
+99fd4bb3	membranes around the brain and spinal cord (singular/plural)
+fad8fd0a	the chin
+afc4ec63	all the body’s chemical processes
+8e23737d	plane dividing body into equal left and right
+26cb8d9e	midline cut into left and right halves
+302685d4	cell’s energy factories
+d70380fd	ordinary cell division
+72933eb7	mixture of mucus and pus
+15a3ec8c	long, slender contracting cell
+d0f990ab	contracting tissue
+b20c772f	bones and muscles
+d43e4a2c	benign muscle tumour
+82a01504	malignant muscle tumour
+c728a66f	muscle inflammation
+b8a880cd	nostril
+c825d665	the nose
+70a88f20	tear duct to the nose
+9cffe95e	new abnormal growth
+1555bc2e	study of the kidneys
+80d319f4	nerve cell
+b4d2dc99	brain, spinal cord and nerves
+29af4904	impulse-carrying tissue
+dc92809f	study of the nervous system
+6a23968b	impulse-carrying cell
+2c3bef92	nerve disease
+6d278879	tip of the breast
+e4c2016e	radioactive tracer imaging
+c696767b	cell’s control centre
+eb1b9c88	back of the head
+058c9ae7	of the mouth; by mouth
+0a48c2b3	around the eyes
+de8fca80	structure with a specific job
+347f088a	tiny structure inside a cell
+3447206c	living being
+6aa7ed79	enlarged organ
+ce43a038	body opening, such as the anus
+047a6419	bone and joint medicine
+c2358dbe	mouth-like opening, such as the cervix
+8f822fea	ear, nose and throat medicine
+b1c9a1d2	egg-producing gland (singular/plural)
+15752eeb	egg cell (singular/plural)
+a7bb395e	examining by touch
+f9e59671	blinking
+8a6d91b9	throbbing, pulsing
+43d1e2a1	given other than by mouth
+f190c03c	lining the cavity wall
+8d89c5b8	infection around the nail
+9a22121c	of the kneecap
+0d333700	open, unblocked
+673caee3	study of disease
+c7649dc0	space within the hip bones
+d0d244e7	a hole through a wall
+a4b98a37	space around the heart
+79469d1d	tissue around the nail
+f2a7d2c6	abdominal lining space
+45046a7a	membrane lining the abdomen
+cb78d8a9	finger or toe bone (singular/plural)
+2f51e3ba	study of body function
+fb1897f6	sole of the foot
+d2c933e0	membrane around the lungs
+4937fc51	space around the lungs
+f07b4b3d	behind the knee
+09732316	PET scan
+908d9f2d	after death
+bcb860c5	lying face down
+7331af5e	building-block nutrient
+a22d681f	nearer the point of origin
+7d15a2da	above the pubic bone
+f9f36558	one quarter of the abdomen
+cd643e5c	X-ray imaging
+6378cdf8	radioactive drug for scans
+435bd4f3	registered dietitian nutritionists
+e3838a8b	organs that produce offspring
+c893c692	lungs and airways
+4d67ddd4	messenger nucleic acid
+07ad3d25	lowest back, over the sacrum
+7a2f1a7c	triangular bone at the base of the spine
+750039b7	plane dividing left from right
+9e95ea2e	fleshy tumour of the testis
+5d7c8abe	imaging study
+d0ba149c	eyes, ears and other senses
+29ef509c	infection spread through the blood
+224447d4	single-layer lining tissue
+05f82c14	on the left side, right knee drawn up
+58a6314b	SPECT scan
+85f87cb7	involuntary muscle of organ walls
+dc5d9a3f	sperm cell (singular/plural)
+1af76f52	space holding the spinal cord
+e1a5f763	over the breastbone
+81bb55b8	surgical opening onto the skin
+1b6c9291	layers
+f1ba8285	many-layered lining tissue
+6141ad7a	streaks or stripes
+1d6655de	striped voluntary muscle
+c0c5a1b5	below the chin
+e7256918	near the surface
+05c2b297	toward the head; upper
+e875791f	lying face up
+42ea7979	above the collarbones
+c867fde4	organs working together
+b02be5f4	band joining muscle to bone
+9d92bc44	chest cavity
+7bf7949f	of the chest
+65604133	the chest (singular/plural)
+ef8b5fc2	blood clot (singular/plural)
+c6b46432	slice imaging
+a45b4730	horizontal, crosswise
+3fd66949	head-down tilt
+3b4ad016	ultrasound imaging
+f2eb401c	region around the navel
+9b78cdd0	the navel
+37526ecb	urine outlet
+80cb2302	kidneys, bladder and urine passages
+9bdaaaa7	urinary tract medicine
+6c93e444	front body cavity
+f7075c68	small chamber in the heart or brain
+703eebd8	spinal bone (singular/plural)
+910510fd	the spine
+f9f42caa	internal organs
+77302358	of the internal organs
+3c963b23	toward
+bf02571e	up, building up
+89169b7c	down, breaking down
+7a88265a	change, beyond
+3f29421f	opposite, against
+3ca4f46e	same
+68c6a795	bad, painful, difficult
+a7e65551	unchanging, stable
+6dce538c	excessive, above
+22c34506	in, into
+3822c75b	between
+c4c05f12	new

@@ -1,0 +1,184 @@
+906f2258	hypo- (below) + chondr/o (cartilage) + -iac (pertaining to): the region below the rib cartilages.
+f5183b5b	In myoma there is no combining vowel o, because the suffix -oma starts with a vowel.
+6d8a8ce1	Correct: my/o + -oma = myoma (not myooma). In cytology, though, the o stays, because -logy starts with a consonant.
+7ef4bcdb	In histologist, the suffix ___ means “specialist”.
+7c65735f	-logy is the science and -logist the specialist in that science.
+bcd62e60	Build the term that means “the study of cells”
+107a0098	cyt/o (cell) + -logy (study of) = cytology.
+939f81ec	The prefix says “where?”
+e0eff98d	In anatomy, most prefixes show <b>position</b>:⟦0⟧The roots in these examples: ⟦1⟧ stomach, ⟦2⟧ tongue, ⟦3⟧ collarbone, ⟦4⟧ eye socket, ⟦5⟧ shoulder blade, ⟦6⟧ vein, ⟦7⟧ nail, ⟦8⟧ peritoneum.⟦9⟧
+325613a1	above the stomach
+6fce877e	above the collarbone
+4da98d88	below the eye socket
+24c9a783	between the shoulder blades
+26dcc3b5	around the nail
+e27f92a0	behind the peritoneum
+5db31de9	Remember ⟦0⟧ through the “hippo”: it is always <b>below</b> the water. ⟦1⟧ is like “super”: higher!
+fea3741d	below the collarbone
+9adc12d3	between the two collarbones
+8598c8f8	behind the collarbone
+bc4bdc6b	supra- (above) + clavicul/o (collarbone) + -ar.
+5c5f7f56	Between or within?
+de0226fc	Two similar prefixes with completely different meanings:⟦0⟧⟦1⟧
+1ae230a8	between two things: interscapular = between the shoulder blades
+7f102b68	within one thing: intramuscular = within a muscle
+428a1d0d	On a prescription, “IM” means intramuscular (into a muscle) and “IV” means intravenous (into a vein). Mixing them up in an injection is dangerous.
+cae08e29	Which term means “between the shoulder blades”?
+e3a7c563	inter- = between. infrascapular is below the shoulder blade.
+4a4ab97c	⟦0⟧ means “behind the peritoneum”, like the position of the kidneys.
+3c54c1fd	retro- (behind) + peritone/o (peritoneum) + -al. The kidneys are the only large abdominal organs behind the peritoneum.
+f42e222e	In perionychium, the prefix ___ means “around”.
+b63659d0	peri- (around) + onych/o (nail): the tissue around the nail.
+75573fc4	⟦0⟧⟦1⟧Whenever you see a prefix, remember its opposite twin too.
+4f0813c8	upon and above
+26b35b37	below and under
+a004e40b	Build the term that means “pertaining to below the eye socket”
+f5a62ce7	infra- (below) + orbit/o (eye socket) + -al = infraorbital.
+7ce7d9a3	“Pertaining to” suffixes
+11827489	From noun to adjective
+f9b555fc	To say “pertaining to”, we attach one of these suffixes to the root:<br>⟦0⟧<br><br>⟦1⟧⟦2⟧
+62bb77b6	-al, -ac, -ar, -ary, -ic, -ous, -iac, -ior
+5860228e	Noun
+8a4902f6	Adjective
+39d47083	thorax (chest)
+ce6bd664	abdomen (belly)
+cd444cd8	axilla (armpit)
+4a1174d3	of the armpit
+f2500470	cranium (skull)
+7c546d23	of the skull
+94c97db8	vertebra (spinal bone)
+421ed2f2	of a vertebra
+b314873c	cardia (heart)
+b1bc0719	umbilicus (navel)
+1d38c523	viscera (internal organs)
+550cc137	visceral: pertaining to the internal organs
+40ee3fd7	These suffixes all mean the same thing; which one is used is decided by the “ear”, not by a rule. Just learn the correct word.
+f67bbe11	Which is the adjective for “pertaining to the chest”?
+20a182a4	thorac/o + -ic = thoracic, as in thoracic cavity.
+27826ae7	Match each noun to its adjective
+5e3d331a	-ad means “toward”
+c7486419	The suffix ⟦0⟧ gives the direction of movement:<br>• <b>cephalad</b> = toward the head<br>• <b>caudad</b> = toward the tail (downward)<br>• <b>mediad</b> = toward the midline<br>By contrast, ⟦1⟧ only means “pertaining to”: cephalic = pertaining to the head.⟦2⟧
+47edb93f	An operative report may say “the incision was extended cephalad”, meaning the cut was continued toward the head.
+b15560b9	cephalad means “pertaining to the head”.
+7ecc7d36	False; cephalad means “toward the head”. “Pertaining to the head” is cephalic.
+0d98440d	In the word caudal, the root caud/o means ___.
+43bf9ccc	side
+58222dd1	caud/o = tail; in humans it means toward the lower body.
+df82f77f	pertaining to the internal organs (viscera)
+6acb707c	pertaining to the wall of a cavity
+1c934c88	pertaining to the skin
+a948b83e	pertaining to bone
+be11dd47	viscer/o = viscera + -al. Its opposite is parietal = pertaining to the wall.
+8f33d6e6	Build the term that means “pertaining to the skull”
+a65bcea8	Spell the adjective meaning “pertaining to the armpit”
+a577ebed	axill/o + -ary; it has two l’s.
+0b1a5f5e	Review of the “Puzzle pieces” level
+23161bcc	word = prefix + root + suffix; start the meaning from the suffix, then the prefix and finally the root
+8823ce3d	The combining vowel o is dropped before a suffix that starts with a vowel: myoma, but cytology
+b6d192bb	Position prefixes: epi- and supra- above • hypo-, sub- and infra- below • inter- between • intra- within • peri- around • retro- behind
+9065e7c2	<bdi dir="ltr">-al, -ac, -ar, -ary, -ic, -ous</bdi> all mean “pertaining to”; <bdi dir="ltr">-ad</bdi> means “toward”: cephalad
+fd3d7955	Body openings
+408e2f91	Openings and passages
+5103b6e2	<b>orifice</b> comes from two Latin roots: ⟦0⟧ = mouth and ⟦1⟧ = to make. The body is full of openings:⟦2⟧⟦3⟧
+875f1f25	any opening or mouth
+63784024	a natural hole, especially in a bone
+4b4a9649	a passage or opening (such as the urinary meatus)
+ac0a2e3f	the space inside a tube or hollow organ
+5035fb16	a gap or opening
+d08190db	the entrance to a passage or cavity
+c9dd1289	an artificial opening made by a surgeon
+9300348c	What is a natural hole passing through a bone called?
+af3ec727	A foramen is a natural hole in a bone, like the foramen magnum in the skull.
+eee29632	Open, narrowed or widened?
+cb9c1234	• <b>patent</b>: open and unblocked (“the tube is patent”)<br>• <b>constriction</b>: narrowing, closing<br>• <b>dilatation / dilation</b>: widening beyond normal<br>• <b>perforation</b>: a hole through, for example the stomach wall in a stomach ulcer<br>• <b>ventricle</b>: a small cavity or chamber in the brain or heart⟦0⟧
+ecca14d1	A “stoma” is an opening the surgeon makes, like a colostomy on the abdomen. The nurse checks its colour and whether it is open (patency).
+b091b602	open and unblocked
+bc2ddb31	a hole through a wall
+64262500	widening
+c9b4f5ce	narrowing
+4a056be1	space inside a tube
+7fb8fbbf	⟦0⟧• <b>nares</b> (nostrils): breathing and smell<br>• <b>nasolacrimal duct</b>: carries tears from the tear sac to the nasal cavity<br>• <b>ear canal</b>: the passage for sound to the eardrum<br>• <b>mouth (os)</b>: eating, breathing and speaking
+a3af6546	tears flow through the nasolacrimal duct into the nose
+19aa01fe	mouth and throat
+cd217319	Why does your nose run when you cry?
+78f02bcc	tears enter the nose through the nasolacrimal duct
+0966cd6e	the nasal glands secrete at the same time
+1908d403	tears flow from the ear to the nose
+ec3436cb	the nares make tears
+2d968c51	nas/o (nose) + lacrim/o (tear) + duct: the tear duct to the nose.
+d52cb018	A stoma is a natural opening of the body.
+d61fcde5	False; a stoma is an artificial opening made by surgery (such as a colostomy or tracheostomy).
+cef33dae	The medical term for the nostrils is ___.
+6e7bfc1b	nares (singular naris) = the nostrils.
+73f5fe0c	Spell the term for any body opening (from os + facere)
+d469ba36	os (mouth) + facere (to make).
+70749c41	Latin plurals (1)
+73784f1e	Plurals that don’t take an s
+f017761d	Greek and Latin words form their plurals by their own rules; the <b>ending of the word</b> decides the rule:⟦0⟧⟦1⟧
+3bda60de	Singular ending
+2bcda7f5	“US” goes out, “I” comes in: nucleus → nuclei.
+44d5b8b0	-a → -ae: bursa → bursae, vertebra → vertebrae.
+cddd8868	Two common traps
+10f5d22c	• ⟦0⟧: <b>diagnosis → diagnoses</b>; note the plural is not “diagnosises”.<br>• ⟦1⟧: <b>diverticulum → diverticula</b>; the final “a” here marks the plural, not the singular.<br>⟦2⟧
+818fe990	The ten most common plural rules at a glance
+3de119c4	⟦0⟧ is the plural of ⟦1⟧ (egg cell).
+99f6c38d	Correct; -um → -a.
+50e20fd1	The plural of diagnosis is ___.
+a3671f2f	What is the plural of ⟦0⟧ (clot)?
+fd5a5b1b	Write the plural of nucleus
+9d23b946	Write the plural of vertebra
+5d9a8d64	Latin plurals (2)
+5a2a82c2	Rarer rules
+171ba15b	Most modern textbooks also accept the English plural: carcinomas and fibromas. But for exams, know the classic rule.
+d01f6c6a	⟦0⟧ is the plural of which word?
+4ff961f4	-nx → -nges: meninx → meninges (the membranes of the brain and spinal cord).
+1dc7b101	Singular or plural?
+2221a758	Sometimes the plural is better known than the singular:<br>• <b>phalanges</b> (finger bones); singular phalanx<br>• <b>meninges</b> (brain membranes); singular meninx<br>• <b>strata</b> (layers); singular stratum<br>⟦0⟧
+965c4ed3	A word ending in -ges is usually the plural of an -nx word: larynx → larynges and pharynx → pharynges.
+6cc56e51	⟦0⟧ is the plural of ⟦1⟧.
+115c51e0	Correct; -oma → -omata. The form carcinomas is also common.
+66980405	The plural of foramen (hole) is ___.
+0c26971a	Put these plurals in table order by their rule: -ix, -on, -oma
+50a2ab05	-ix → -ices, -on → -a, -oma → -omata.
+20b98270	Write the plural of phalanx
+3a20e8b7	Review of the “Openings and plurals” level
+ba8b170b	Openings: orifice an opening • foramen a hole in bone • meatus a passage • lumen the space inside a tube • stoma a surgical opening
+834fe6ba	patent open • constriction narrowing • dilatation widening • perforation a hole through
+a41d5127	Basic plurals: <bdi dir="ltr">-a → -ae</bdi> • <bdi dir="ltr">-us → -i</bdi> • <bdi dir="ltr">-um → -a</bdi> • <bdi dir="ltr">-is → -es</bdi> • <bdi dir="ltr">-y → -ies</bdi>
+5e800f41	Rarer plurals: <bdi dir="ltr">-ix → -ices</bdi> • <bdi dir="ltr">-on → -a</bdi> • <bdi dir="ltr">-oma → -omata</bdi> • <bdi dir="ltr">-nx → -nges</bdi> • <bdi dir="ltr">-en → -ina</bdi> • <bdi dir="ltr">-ax → -aces</bdi>
+2abde537	Drug routes
+25b66091	Where does the drug go in?
+ca2076ac	⟦0⟧⟦1⟧ → below + tongue + pertaining to.
+34e53b87	Feature
+cdab6d88	easy, slow absorption; stomach acid may break the drug down
+3472a2b4	faster absorption than by mouth, through the vessels under the tongue
+0c426cfd	any route except the digestive tract
+26b43b95	invasive; the skin is pierced with a needle
+b1666515	Four common injections
+77ccb39e	Each needle goes to its target layer at its own angle: the smaller the angle, the shallower the injection.
+180200ee	Where?
+4a1bead7	Angle
+03ae729e	into the skin (dermis)
+aac90c5d	10–15°
+d36e7fef	under the skin, into the fat
+45c74259	45°
+d2e54935	90°
+19638c7b	25°
+73285a9a	the same four injections in the textbook picture
+44c56e3b	Which injection goes into the fatty layer under the skin?
+39d1aa50	sub- (below) + cutane/o (skin) + -ous.
+d90e7c7e	Match each abbreviation to its route
+513cae30	Intrathecal and inhaled
+44258514	• <b>intrathecal</b>: injection into the space around the spinal cord; ⟦0⟧ = sheath (meninges)<br>• <b>inhalation</b>: the drug reaches the lungs as you breathe, like an asthma inhaler⟦1⟧⟦2⟧
+11a24704	An inhaler with a chamber (spacer); the drug goes straight to the airways.
+e1ec19c1	parenteral = para (beside) + enteral (intestine): any route that goes “beside” the digestive tract.
+67df4b27	A drug placed under the tongue is usually absorbed more slowly than a tablet swallowed by mouth.
+e7d07f16	False; sublingual absorption through the vessels under the tongue is faster than by mouth.
+dd44c059	The prefix intra- in intramuscular means ___.
+60b7e532	intra- = within; inter- = between.
+95a44990	What is a drug injected into the space around the spinal cord called?
+263d54cd	thec/o = sheath, the membranes of the spinal cord.
+dadfe922	Build the term that means “within a vein”
+a75d7bb9	Confusing twins
+416e8dac	One letter, two worlds
+4ba8a7fc	sweat → hidropoiesis: making sweat

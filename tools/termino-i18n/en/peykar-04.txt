@@ -1,0 +1,185 @@
+d524b3bb	water → hydrencephalomeningocele: hernia of the brain and meninges with fluid
+6f8d58f5	flesh (connective tissue) → sarcocele
+98f16f1c	the bone at the base of the spine → sacrum
+2140c861	Remember hidr/o through “hide” (sweat hidden under clothes) and hydr/o through “hydrate” (water). sarc/o is flesh (sarcoma, a fleshy tumour) and sacr/o is the sacrum.
+73894cd8	production of sweat
+2dc281e7	production of water in the brain
+4ec357d2	formation of urine
+bc9d90e1	fluid build-up in tissue
+92a29ebd	hidr/o = sweat + -poiesis = production.
+0b8d54f2	Touch, throb or blink?
+ce91c7f5	Three words that sound alike:<br>• <b>palpate</b>: to feel with the hands during an examination<br>• <b>palpitate</b>: for the heart to throb, a sense of a racing beat<br>• <b>palpebrate</b>: to blink (⟦0⟧ = eyelid)⟦1⟧
+1419e864	In a chart, “abdomen palpated, no masses” means the abdomen was felt and no mass was found, while “patient reports palpitations” means the patient complains of a pounding heartbeat.
+cb21f36b	to feel by touch
+e18b6888	heart throbbing
+096abb6f	blinking
+4a0367c5	Layer or streak?
+96fd3fa0	plural of stratum: layers (strata of tissues)
+a9f0b65e	parallel lines and grooves, such as stretch marks
+541f89d2	tissue around the nail (a normal structure)
+a084a062	infection and inflammation beside the nail
+dab17589	paronychia is the name of the normal tissue around the nail.
+3c042513	False; the normal tissue is the perionychium, and paronychia is an infection beside the nail.
+9f55b16e	“The physician ___ the patient’s abdomen and found no mass.” Which word is correct?
+8dd55cc3	palpate = to feel during an examination.
+2731cdec	sacr/o refers to the ___ bone.
+73c72e4e	sacrum
+02040bc8	The sacrum is the bone at the bottom of the spine; sarc/o means flesh.
+a9cb0be4	Spell the term for “to feel with the hands during an examination”
+23848c80	palpate; compare palpitate (throbbing).
+caa63abf	Chart abbreviations
+b38d5a90	Charts are written in abbreviations
+a2236fab	Full form
+b64bcd62	blood pressure / body temperature
+59536192	upper limb (arm) / lower limb (leg)
+da291514	The chart says “Allergies: NKDA”. This means…
+95c2747f	the patient has no known drug allergies
+10eacbea	the patient is allergic to all drugs
+2a9bfa01	the type of allergy is unknown
+7ec12110	the patient takes no drugs
+b5f23455	A real chart
+9cf65791	An 18-month-old boy has been brought to the <b>ED</b>: blood is coming from his left nostril (<b>epistaxis</b>) and he is restless. For the <b>HEENT</b> examination the child is placed <b>supine</b> (on his back), and a piece of French fry is seen in the <b>anterior</b> (front) part of the nasal cavity. The physician removes it with forceps.⟦0⟧⟦1⟧
+69c3500f	HEENT examination: the throat is checked with a tongue depressor and a light.
+09b589d7	Toddlers often push small objects into the nares or the ear canal; a bad smell or one-sided nosebleed is an important sign.
+d9ab7247	In this child, epistaxis means…
+33636daa	nosebleed
+222992b9	a foreign body in the ear
+8217d70e	constant sneezing
+e5e11025	narrowing of a nostril
+477f378a	epistaxis = nosebleed.
+fa52adfb	Patient
+89284a8a	18-month-old boy
+fb849539	Complaint
+06e92c6f	blood from the left nostril
+03dda8fc	a foreign body in the anterior nasal cavity
+8aa47886	The HEENT examination includes the ears, nose and throat.
+6a9023e5	In a chart, “Temp” means body ___.
+b3cdc184	temperature
+fcad7dd2	pressure
+f477e9bd	Temp = temperature; BP = blood pressure.
+f9332004	In a chart, where does “LE edema” refer to swelling?
+a9d7907a	the lower limbs (legs)
+ee3fa116	the upper limbs (arms)
+7d05d5da	LE = lower extremity; UE = upper extremity.
+36f6626d	Write out “ED” in full (no abbreviation)
+8b897ab6	Review of the “Clinical language” level
+386a847d	Drug routes: PO by mouth • SL under the tongue • parenteral any route but the digestive tract
+699bd91b	Four injections: ID dermis (10–15°) • SubQ fat under the skin (45°) • IM muscle (90°) • IV vein (25°)
+7c393d36	Twins: hidr/o sweat ≠ hydr/o water • sarc/o flesh ≠ sacr/o sacrum • palpate touch ≠ palpitate throb
+f581aa84	Chart abbreviations: ED, HPI, ROS, NKDA, HEENT, WNL, BP, UE and LE
+9806d15e	Organisation and the Cell
+d47542cf	The body sciences, levels of organisation, metabolism, cell structure, DNA, mitosis and abnormal growth
+e9a37d81	From cell to human
+8b0bd342	Inside the cell
+ab11d8c3	Genes, division and the lab
+2cfb9d09	The body sciences
+a0f4831a	We look at the body from several angles
+aa0db080	Science
+6e1ec9fa	What does it study?
+0ba9ba25	body structure and how its parts relate; “cutting apart”
+c18e23ee	how the organs work
+9dcc06fb	life and living things
+47ff92c6	development of the unborn baby from fertilisation to birth
+41aec0ae	tissues under the microscope
+b70e120b	cells and their work
+732332bf	diseases and changes in tissues
+ab17b30a	Anatomy says “what is there”, physiology says “how it works”. Like a house plan versus its wiring!
+06923116	Which science studies how the organs work?
+4bee02b4	physi/o = nature, function + -logy. Anatomy studies structure.
+e4a74276	Match each science to its subject
+8eee44d6	a developing unborn baby
+f9a8bb2c	Roots hold the secret of the sciences’ names
+559cdbd6	⟦0⟧ → study of life<br>⟦1⟧ → study of disease<br>⟦2⟧ → study of the embryo<br>and the specialist in each with ⟦3⟧: <b>pathologist</b>, <b>histologist</b>, <b>cytologist</b>.⟦4⟧
+682059f1	A tissue sample removed by the surgeon goes to the pathology lab, where the histologist and pathologist examine it under the microscope.
+e83d7ece	Embryology is the study of how the unborn baby develops.
+ac65e995	embry/o = embryo (early unborn baby) + -logy.
+474428cf	A specialist who studies cells is a ___.
+f7ea46df	the study of diseases
+ed6e1268	the study of body structure
+b68c073f	the study of the embryo
+698ac923	the study of drugs
+4c5c0cc7	path/o = disease.
+2f82e07a	Build the term that means “the study of the developing embryo”
+e81ec4dd	embry/o (embryo) + -logy (study of) = embryology.
+a548f2c9	Spell the term for the study of body function
+5da884b0	Levels of organisation
+cc269f92	Like an organisation, the body has a hierarchy:⟦0⟧• <b>cell</b>: the smallest unit of life<br>• <b>tissue</b>: cells working together<br>• <b>organ</b>: several tissues with a special job<br>• <b>system</b>: several organs for a complex job<br>• <b>organism</b>: the whole living being
+d3cef622	Put the levels of organisation in order from small to large
+b8551745	Cell → tissue → organ → system → organism.
+fe4d8cb3	A real example: the biceps
+b8b0b6a2	⟦0⟧The skin is an <b>organ</b> too, because it is made of several tissues (epithelial, connective and nervous).⟦1⟧
+3f802859	muscle cell → skeletal muscle tissue → organ (biceps brachii) → muscular system → human
+c8e51225	Like language: letter → word → sentence → paragraph → book. The cell is the body’s letter and the organism the whole book.
+1917170b	At which level of organisation is the stomach?
+72d91016	The stomach is made of several kinds of tissue and has a special job, so it is an organ. The digestive tract is a “system”.
+17c41708	The skin is a tissue, not an organ.
+447937be	False; the skin is an organ made of epithelial, connective and nervous tissue.
+ff294065	Match each example to its level
+88b262ee	neuron
+4c30a1bf	urinary system
+b5f50201	Some amazing numbers
+73569d66	• The body has 10 to 100 <b>trillion</b> cells<br>• Every cell needs <b>food, water and oxygen</b> to survive<br>• Of each paired organ (kidney, lung), <b>one</b> is enough to live<br>• Over a lifetime we shed about 18 kilograms of skin!
+92ea9d36	A group of organs that work together on a complex job is called a ___.
+6f982b15	Like the digestive system: mouth, oesophagus, stomach, intestines and so on.
+ff1524c6	Spell the term for a group of cells working together
+81a286d1	tissue; its root is hist/o.
+322cdf23	Metabolism and balance
+3a9a51de	Building up and breaking down
+a16ffeba	⟦0⟧<b>metabolism</b> (⟦1⟧ = change + ⟦2⟧ = throw + ⟦3⟧) is the sum of all the body’s chemical processes, and it has two halves:⟦4⟧When metabolism stops, the organism dies.
+394f82a7	ana- = up: building large molecules from small ones (growth, repair)
+e7c5f071	cata- = down: breaking molecules down to release energy
+2cfb24b5	breaking substances down to release energy
+06cea10b	building new tissue
+245dd7ee	cell division
+aad2d61d	balancing body temperature
+b547cf67	cata- = down, breaking down.
+c93221f7	Match each prefix to its meaning
+a79a8111	change
+3df1a55a	Homeostasis: the balanced body
+8acc7640	<b>homeostasis</b> (⟦0⟧ = same + ⟦1⟧ = standing still) means the body keeps its internal conditions stable: temperature, osmotic pressure, blood sugar and the rate of cell division.⟦2⟧
+d142181e	Fever, sweating, shivering and thirst are all tools of homeostasis; disease is where this balance is upset.
+17f56ac4	Homeostasis means the body’s tendency to keep its internal conditions constant.
+7f9aec35	Correct; homeo (same) + stasis (standing still).
+21faabf6	Cell fuel
+29b189a9	The cell stores the energy for its reactions as <b>ATP</b> (adenosine triphosphate). The three big groups of cell molecules:⟦0⟧⟦1⟧
+96692ebc	Group
+2969050e	enzymes, some hormones, structural materials
+32516543	sugars and starches, such as glucose
+1e1f6a09	fats
+28b6a61f	Enzyme names often end in -ase: lipase breaks down fat, protease protein.
+22dea681	Which is the cell’s energy molecule?
+686c8699	adenosine triphosphate; glucose is the basic fuel, but energy is stored and used as ATP.
+9a8766e9	A protein that speeds up chemical reactions is called an ___.
+2a700d5f	Enzymes are proteins, and their names often end in -ase.
+91a683d6	Spell the term for all the body’s chemical processes
+8b1fd4eb	Review of the “From cell to human” level
+a0dc14ea	Sciences: anatomy structure • physiology function • histology tissue • cytology cells • pathology disease • embryology the embryo
+ec8f4f34	-logy is the science and -logist the specialist in it
+75c9f10d	The levels from small to large: <bdi dir="ltr">cell → tissue → organ → system → organism</bdi>
+8b28b7af	Metabolism has two halves: anabolism building up and catabolism breaking down; homeostasis means stable internal conditions
+d27daee3	Three parts every cell has
+ac9ab0de	Whatever its shape, every cell has these three parts:⟦0⟧• <b>cell membrane</b>: the outer wall; it chooses what goes in and out<br>• <b>cytoplasm</b>: the fluid inside the cell, around the nucleus<br>• <b>nucleus</b>: the control centre; the chromosomes and DNA are here
+630bf5d1	Which part of the cell is like a “command centre”?
+1f490025	The nucleus holds the chromosomes and directs the cell’s activities.
+d59f538d	Organelles: little workshops
+4dcc56bb	Inside the cytoplasm, “organelles” do the work:⟦0⟧⟦1⟧
+73584904	Job
+5a5b74e1	mitochondrion (plural: mitochondria)
+568e95c1	power plant; makes ATP
+381cf272	a network for making and carrying proteins and fats
+2c55a5d6	making proteins
+b64d33ca	hair-like projections for movement
+83637858	a 3-D cell
+93ae6108	the main organelles
+cf3dd788	Match each part to its job
+791439b5	controlling what goes in and out
+567364e5	holding the DNA
+a924fe01	making energy
+320681c2	fluid inside the cell
+98513cf0	In this picture, what are the hair-like projections at the bottom of the cell called?
+ae628863	cili/o = hair; cilia move mucus along the airways, for example.
+6c1cedee	Cytoplasm is the fluid inside the nucleus.
+67a0755f	False; the cytoplasm is outside the nucleus and inside the cell membrane. cyt/o (cell) + -plasm (formed substance).
+604d1b2e	The plural of mitochondrion is ___.
+46128b80	Build the term that means “the substance inside the cell”
+59b021fc	Spell the term for the cell’s control centre

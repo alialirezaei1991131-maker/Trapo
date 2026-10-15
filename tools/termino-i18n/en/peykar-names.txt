@@ -1,0 +1,8 @@
+# character names and figure labels that share a unit with ordinary words
+3fe71cea@peykar#1	covering tissue
+3fe71cea@peykar#2	body covering
+3fe71cea@peykar#3	integumentary
+3fe71cea@peykar#4	Epi
+3b009c54@peykar	Thump
+2f4293fa@peykar#2	Verta
+2dd51320@peykar#2	The Cell’s Power Plant

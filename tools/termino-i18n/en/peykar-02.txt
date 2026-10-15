@@ -1,0 +1,330 @@
+96a5c9be	beside, near, abnormal
+be99b5c3	around, surrounding
+c443ee67	after, behind
+1293c3aa	before, in front of
+023b41d3	behind, backward
+37ae8666	above
+53704be2	through, across
+bf8955c7	beyond, excess
+39b043ee	cell
+bcde460a	life
+c6d7fa98	embryo (early unborn baby)
+fff28361	shape, form
+b10de1ee	body
+8a383d80	origin, producing
+dd7010ed	cancer
+852096d9	to throw, cast
+f75f70d1	sugar, glucose
+08db20c7	eat, swallow
+8096fb26	thread
+83c780fa	epithelium (lining tissue)
+ca9b8ead	fibre
+d8140c29	tendon
+a4b06523	flesh (connective tissue)
+c60ce5e9	mucus
+51e3e9e1	cavity wall
+73838e85	viscera (internal organs)
+607ab83b	nail
+77ca5041	sweat
+04d6a99d	lymph
+8d2e1a2d	immunity, protection
+e5648aae	bronchus (main airway)
+254fb2eb	throat (pharynx)
+f11309fd	meninges (coverings of brain and spinal cord)
+c077ab4b	large intestine (colon)
+460db980	urine, urinary tract
+270bec94	gland
+73ca4f2b	to secrete
+81db2a44	straight
+4cc936ae	child; foot
+42eaedd5	front (anterior)
+1f393bbe	back (posterior)
+54652caa	above (superior)
+ddb1732d	below (inferior)
+ad57a0ec	tail, lower part of the body
+7db21ee1	back of the body
+22254fda	belly side, front
+4b7d4e5e	middle
+c5028ea4	side
+c92d2a88	near (the point of attachment)
+f258cfc2	far (from the point of attachment)
+0a8fed2c	arrow
+e06b1d55	crown
+256d5015	radiation, X-ray
+aa077a6e	luminous
+be211dcf	sole of the foot
+d5a6f3d2	skull
+f3e51ebb	spine
+dca458a2	abdomen
+b4b1b5b9	mediastinum
+238937a3	groin
+5af54530	hip bone (ilium)
+109f7527	neck; cervix of the uterus
+79bf2636	lower back
+c9b44a45	sacrum
+613d850c	tailbone
+7a8c41d0	armpit
+c9d3d648	cheek
+b6ff29cb	chin
+996834ac	back of the head
+c886e913	eye socket
+5e7e5742	chest
+418c74c8	breastbone
+ce22a5f3	collarbone
+53d56edd	shoulder blade
+e11780c1	arm
+fb0747ac	elbow
+64f37391	thigh
+539dc194	kneecap
+cbd3be57	buttock
+e04ba162	pubic bone
+8874fa38	outer ear
+c9e991c3	mouth, opening
+52b0eca6	opening, mouth
+e9234506	tear
+547b4443	sheath (meninges)
+97099075	study of
+a1fc703a	specialist in
+5f2ede2a	malignant tumour of connective tissue
+9fe1a837	condition (usually abnormal)
+b5442fd6	surgical removal
+8ad9cb4d	surgical creation of an opening
+2bc805d9	visual examination (with a scope)
+63574d62	recording process (imaging)
+8c21ef9c	recorded image
+58b7f3df	measuring instrument
+60c67665	formed substance
+ac55fc85	formation, development
+b34c5c7d	producing, origin
+54ecacb9	breakdown, destruction
+37e4e7eb	condition, process
+ff4aee19	standing still, control
+7d1e5e63	hernia, swelling
+ee716e4f	formation, production
+ab3cceb9	front (anterior)
+ce9ea3b3	front to back
+a7384bcb	adenosine triphosphate (cell energy)
+cd0b3ad9	autonomic nervous system
+47f2ca81	body mass index
+4937db56	tissue sampling
+db2b9b9c	cervical vertebrae 1 to 7
+3e0cdd05	central nervous system
+afc35b4e	computed tomography
+eacb0a8e	heart and blood vessels
+113622ad	chest X-ray
+cc374821	deoxyribonucleic acid
+b0922b8f	emergency department
+670b1f84	ear, nose and throat
+85eb078e	endoplasmic reticulum
+e15077c4	gluten-free diet
+fbf21007	women’s health
+158a70a0	head, eyes, ears, nose and throat
+d37eaf5a	history of present illness
+cd5a8b07	lumbar vertebrae 1 to 5
+79be6a7c	to the side
+2b70064f	lower limb
+d4f38317	left lower quadrant
+057fae89	left upper quadrant
+59c88ae7	pregnancy and childbirth care
+d0920dba	back to front
+2f1337a9	Pap smear test
+107fc6ff	positron emission tomography
+7ef49d44	registered dietitian nutritionist
+64acc278	right lower quadrant
+5c33fbd2	review of systems
+31f369d9	right upper quadrant
+486aebda	sacral vertebrae 1 to 5 (fused)
+846570d4	single-photon emission computed tomography
+1cdd69c4	thoracic vertebrae 1 to 12
+fc4771a2	body temperature
+0d95749e	apply to the surface
+0137bc42	upper limb
+4ba22654	ultrasound imaging
+f566350f	Sciences and specialties
+bf14cbc8	Cells, genes and metabolism
+5fb25c7c	Tissues and membranes
+d5527f82	Systems and organs
+41c47c05	Direction, plane and position
+7efeeaf5	Cavities and regions
+2db6fe05	Openings and drug routes
+7a712bfc	Imaging and procedures
+b89262b4	Diseases and findings
+46ae66bc	Singular and plural
+143fa62c	One word = prefix + root + suffix
+a5a49edd	prefix
+479588d8	root
+c72216d0	region above the stomach
+459123b6	Read the meaning from the end: suffix → prefix → root
+f403fb3a	The anatomy of a medical word
+a3e3b624	Singular → plural: the ending of the word sets the plural rule
+372919ac	Plural rules for medical words
+a8c808fe	nostrils
+bbfbf328	Every natural opening of the body is an orifice
+d29d84f7	Openings of the head and face
+0cb9e16c	into the muscle
+2107d6f2	into the vein
+2be00143	into the dermis
+94638dff	epidermis
+35bb950e	dermis
+ce48630b	subcutaneous fat
+57abfb00	parenteral: any route other than the digestive tract
+942740c8	Injection routes: intramuscular, subcutaneous, intravenous and intradermal
+3510cc04	organism
+3d438ce1	from small to large
+6e02ea84	Each step is built from the step below it
+07310295	Levels of organisation of the body
+8fc9c61a	cell membrane
+ad7bb561	nucleus: the control centre
+7dfb3e0a	nucleolus
+2dd51320	the cell’s power plant
+7ea820cc	Cell structure
+bbc23c18	46 = 23 pairs
+fc7633e9	gene = a piece of DNA
+1c206ff0	Chromosomes are in the nucleus, they are made of DNA, and each gene is a piece of it
+afb74062	Nucleus, chromosome, DNA and gene
+4db636ae	body cells: two identical cells
+1e6b3cfa	sex cells: the chromosomes are halved
+b69ca1ae	egg + sperm = 46
+74d6d712	Mitosis and meiosis
+af822d32	all the chemical reactions of the body
+dc4a415c	building up: ana = up
+9f23c57f	breaking down: cata = down
+5001a6ae	stable balance
+d2e8fe14	The cell stores and uses energy in the form of ATP
+8064aa49	Metabolism: anabolism and catabolism
+3fe71cea	epithelial
+ab93af20	covering
+398402bd	connective
+2acb00a1	connecting and supporting
+eb214217	muscle
+dd6ca977	contraction
+0b216573	signalling
+acdf93ff	The four tissue types
+6391af58	simple: one layer
+2aa3b5cd	absorption and transport
+6a9f7392	stratified: many layers
+da770eed	protection
+5d7abf3e	Epithelial tissue covers surfaces and lines passages
+358d86fc	Simple and stratified epithelium
+42147320	skeletal (striated)
+de36dfbb	voluntary • attached to bone
+ed22bfef	cardiac
+12ac326a	involuntary • heart only
+e4e133b1	smooth (visceral)
+90350f6f	involuntary • organ walls
+699e9913	Three types of muscle tissue
+c4673cf6	e.g. the lung
+8f911789	body wall
+2ff2df5d	space between the two layers
+9c56099a	parietal: on the wall
+cb0e9e08	visceral: on the organ
+4d4fb017	pleura around the lungs and peritoneum in the abdomen
+23ef321c	Both have two layers: parietal and visceral
+e0d3d088	Parietal and visceral layers
+00a4b611	skeletal
+7b677fda	endocrine glands
+d03ed09c	lymphatic-immune
+8ca9b404	sensory
+0c2d6f86	toward the middle
+635bec00	away from the midline
+86a5c216	near → far from the trunk
+ab7b0426	front
+3f673c20	Anatomic position and directions
+8ce926eb	sagittal
+36016c35	right
+a59552ae	left
+ca2ecef3	separates right and left
+5c77c8ef	frontal (coronal)
+8858387c	back
+12acab75	separates front and back
+3005ed55	transverse (horizontal)
+0f51c3da	up
+d5bcda17	down
+e1cedba5	separates upper and lower
+6d66f182	The three body planes: sagittal, frontal and transverse
+750c6fd1	toward the side
+cad314e7	toward the head
+89b117e6	toward the tail
+589bcb25	Opposite direction pairs
+56ff86ca	shoulder
+407785e6	flexion: the angle decreases
+766ae42d	extension: the angle increases
+6cfa0ed0	moving away from the midline
+e341f87b	Body movements: flexion and extension, abduction and adduction
+1a653e30	face ↑
+e00b82f9	supine: on the back, face up
+2002fc0e	face ↓
+206a7dce	prone: on the abdomen, face down
+47998280	Fowler: half sitting (45 to 60 degrees)
+b2450496	head lower
+75a6b11c	Trendelenburg: head lower than the feet
+969ee474	Sims: on the left side, upper knee bent
+f0d65b3d	lithotomy: legs up in stirrups
+4b8d6e6c	radiography (X-ray)
+c48fa964	computed tomography
+bb789a17	X-rays • slices
+1967bb29	magnetic resonance
+9eebee90	magnet • no radiation
+febaf3a8	ultrasonography (US)
+7a260618	sound waves
+0ef58435	nuclear medicine
+b8cb2715	endoscopy
+f68f5f3d	tube with a camera
+8671e239	Imaging methods
+842ad03b	cranial: brain
+f9fad8f4	spinal: spinal cord
+b5069ed7	thoracic: heart and lungs
+d61cda67	abdominal
+e8933a1e	ventral: chest + abdominopelvic
+abaf2003	dorsal: cranial + spinal
+cc6c52d4	Body cavities
+bc7aa4a6	right hypochondriac
+a79349bd	epigastric
+b2b44c77	left hypochondriac
+da965171	right lumbar
+816c0a9f	umbilical
+30cbc2ba	left lumbar
+834cd951	right inguinal
+59cc7a0a	hypogastric
+7850dddf	left inguinal
+1a0c6e73	Left and right = the patient’s own left and right
+c475a633	The nine abdominopelvic regions
+9b1a003a	liver, gallbladder
+59d689d1	stomach, spleen
+800c72bf	sigmoid colon
+cf3ec8ba	Two perpendicular lines through the navel (umbilicus)
+6d1ae195	The four abdominal quadrants
+2fc51193	cervical
+ffb4a3f2	S1–S5 (fused)
+77d7ce32	coccygeal
+6bb92251	3–5 small vertebrae
+b87976cc	From top to bottom: 7 cervical, 12 thoracic, 5 lumbar, sacral and coccygeal
+b643f74a	Regions of the spine
+a486aa5f	neck
+c705201a	knee
+f33bbfaa	foot
+4e1b4f54	Surface regions of the body
+cb868bd3	Body Language
+30f56755	Word pieces, position prefixes, body openings, Latin plurals, drug routes and chart abbreviations
+755c9c64	Puzzle pieces
+b63a5bbc	Openings and plurals
+4150cce2	Clinical language
+28d342a0	The anatomy of a word
+3d0d14fd	Every word is a puzzle
+9f6092ce	Anatomy terms are built from a few <b>fixed pieces</b>:<br>• the <b>prefix</b> at the start: ⟦0⟧ = upon, above<br>• the <b>root</b> in the middle: ⟦1⟧ = stomach<br>• the <b>suffix</b> at the end: ⟦2⟧ = pertaining to⟦3⟧
+32dc3deb	epigastric: pertaining to the region above the stomach; one of the nine abdominal regions.
+154c0348	The combining vowel o
+21d8aab3	We usually join a root to the next piece with a <b>combining vowel</b> (mostly <b>o</b>) and write it with a slash: ⟦0⟧, ⟦1⟧. Root + vowel = <b>combining form</b>.<br><br>The rule: if the suffix starts with a <b>vowel</b>, the o is dropped:<br>• ⟦2⟧ → ✅ <b>cytology</b> (the o stays)<br>• ⟦3⟧ → ✅ <b>myoma</b> (not myooma)⟦4⟧
+6d10f514	The o is like glue: it’s needed between two consonants; when the suffix already starts with a vowel, the glue isn’t needed.
+ef9ccccd	Why is there no vowel o in ⟦0⟧?
+eaba5eb6	because the suffix -itis starts with a vowel
+3ff75f79	because neur/o is a prefix
+f8d07396	because the o is always dropped
+1c937b07	because it isn’t a Latin word
+874bb5eb	When the suffix starts with a, e, i, o or u, the combining vowel is dropped: neur + itis.
+a58ba251	Read the meaning from the end
+ec9fa480	To work out the meaning, <b>start from the suffix</b>, then the prefix, and finally the roots:<br>⟦0⟧ → “study of” + “tissue” = <b>the study of tissues</b><br>⟦1⟧ → a <b>specialist</b> in tissues<br>⟦2⟧ → “pertaining to” + “below” + “cartilage” = the region below the rib cartilages⟦3⟧
+06f92e32	First ask “what happened, or what kind?” (suffix), then “where?” (prefix), then “which organ?” (root).
+ce64c995	Match each piece to its type
+6ad7bb77	the o in cyt/o
+890d1913	Put the pieces of ⟦0⟧ in writing order

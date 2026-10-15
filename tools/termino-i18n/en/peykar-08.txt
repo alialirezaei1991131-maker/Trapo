@@ -1,0 +1,202 @@
+2f243d09	The path of air: <bdi dir="ltr">rhin/o → pharyng/o → laryng/o → trache/o → bronch/o → pulmon/o</bdi>; pneum/o is also lung and phren/o the diaphragm
+ae98a6f5	Digestion: or/o mouth • esophag/o oesophagus • gastr/o stomach • enter/o intestine • col/o large intestine • hepat/o liver; GI
+5aa038d0	Urinary and reproductive
+443d760d	The <b>urinary</b> system (kidneys, ureters, bladder and urethra) filters waste out of the blood, keeps the water, salt and acid-base balance and helps control blood pressure.⟦0⟧⟦1⟧The study of kidney diseases is <b>nephrology</b>, and of urinary-tract diseases <b>urology</b>.
+021a2d44	kidney, ureter, bladder and urethra
+ddd0da01	nephr/o, ren/o
+309722b9	ureter
+4f3e6499	urethra
+04a05e83	urine, urinary system
+4b43a213	ureter
+0cd592bb	urethra
+1cc3b850	Ureter or urethra?
+ad262a90	two tubes: from kidney to bladder
+9c67817b	one tube: from the bladder to the outside
+41e38106	ureter has two e’s and there are two of them (one per kidney); the urethra is single and goes to the outside.
+94eb4487	What is the tube that carries urine from the kidney to the bladder?
+7d0701de	the ureter; the urethra runs from the bladder to the outside.
+1ce038b7	The reproductive system
+39f896a4	• The female reproductive system makes eggs, provides a place for the baby to grow and nourishes the newborn<br>• The male reproductive system makes sperm<br>The urinary and genital systems together are also called <b>genitourinary (GU)</b>.⟦0⟧
+fa81c0aa	The specialist in urinary-tract diseases is a urologist, and the women’s health specialist a gynecologist (gynec/o = woman).
+374a4dbd	The kidneys also help control blood pressure.
+cd4ea783	Correct; by regulating water and salt and secreting hormones.
+08bd1707	The study of kidney diseases is called ___.
+ba7ed1f8	nephr/o + -logy; urology covers urinary-tract diseases.
+cb62a25f	The abbreviation GU means…
+a329aed3	genitourinary = urinary and genital.
+82de4e94	Build the term that means “inflammation of the bladder”
+ab94e338	Messaging with hormones
+0117c594	The <b>endocrine</b> system (⟦0⟧ = within + ⟦1⟧ = secrete) is made of <b>ductless glands</b> that release hormones straight into the <b>blood</b> and regulate the body’s metabolic activities.⟦2⟧
+b46bc255	ductless; hormones into the blood
+d355c8fe	with ducts; secretion to the outside or into a tube (like sweat and salivary glands)
+f84d8d38	What is characteristic of endocrine glands?
+5d4943d3	they have no ducts and release hormones into the blood
+727efef7	their secretion goes through a duct to the skin
+85d97da7	they are only in the brain
+b39ee58a	they make digestive enzymes
+e0bc74a8	endo- = within.
+98519dbb	Key glands
+f6d8c089	⟦0⟧The endocrine specialist: an <b>endocrinologist</b>.⟦1⟧
+28d9648b	thyroid (neck)
+94c365d1	adrenal
+124139b0	pituitary (below the brain)
+e719295e	gland (general)
+fd915564	crin means secrete: endocrine “secreting within” and exocrine “secreting out”; like a sprinkler (exo) versus an IV drip (endo)!
+a3ec3846	Sweat glands are an example of endocrine glands.
+1a8912da	False; sweat glands have ducts and are exocrine.
+8c756b35	Zakaria’s chart again
+45009108	Zakaria thought his thyroid was underactive because he was tired. His thyroid tests were normal. An underactive thyroid (hypothyroidism) really does cause tiredness, weight gain and constipation, so it wasn’t a bad thought!⟦0⟧
+284efd8a	hypo- (low) + thyroid + -ism: “a state of low thyroid”. Hyperthyroidism is the opposite: palpitations, weight loss and feeling hot.
+b7401e8c	The endocrine specialist is an ___.
+8d8b8d35	overactive thyroid
+5cee8f48	underactive thyroid
+506fff28	removal of the thyroid
+33a98b49	thyroid tumour
+178252dc	hyper- = excessive.
+ad60b082	Spell the adjective for the ductless, hormone-secreting glands
+334b106c	Which specialist?
+bf2e088c	Every system, a specialty
+918859a6	Specialty
+5ff839bd	System or organ
+f817b44c	ear, nose, throat
+65ce603a	kidney / urinary tract
+62ad873f	female reproductive system
+53309c5e	glands
+d83dff0e	nervous system
+44fcfde8	The longest name
+8f2e62a5	⟦0⟧<br><b>otorhinolaryngology</b> = ear + nose + larynx + study of; the same as <b>ENT</b>.⟦1⟧
+821b628f	Read it from the outside of the head inward: oto (ear), rhino (nose), laryngo (voice box). A short trip around the head!
+ac8dd8f8	Refer each patient to the right specialist
+1a8a0075	John: finding it hard to hear quiet sounds
+c28ddc99	Ruth: a racing, pounding heart
+4f3c31e9	José: a broken wrist after a fall
+1e22a074	Marta: a persistent skin rash
+7c528b0a	Mr Sparks: a stomach ulcer
+e58b9673	Mrs Cortez’s daughter has had repeated bladder infections. Which specialist should she be referred to?
+92276c99	urology = the urinary tract and bladder.
+0e68bd64	Marianne complains of heavy uterine bleeding. Which specialty?
+f8c2a1eb	gynec/o = woman; diseases of the female reproductive system.
+56560d9b	The specialists’ tools
+c14472c9	⟦0⟧The gastroenterologist looks inside the stomach and intestines with <b>endoscopy</b> (⟦1⟧ = within + ⟦2⟧ = viewing).⟦3⟧
+47eb74bf	endoscopy: a fibre-optic tube for looking inside an organ and taking samples (biopsy)
+1f5ed025	The registered dietitian nutritionist (RDN) plays a key role in the care team for diseases such as coeliac disease.
+7c4709b6	Endoscopy means looking inside the body with a tube carrying a camera or optical fibres.
+b109c5e0	The abbreviation ENT is the same specialty as ___.
+892d9ad4	Spell the term for the study of the skin
+36007327	Review of the “Excretion, control and specialties” level
+bcf4784d	Urinary: nephr/o and ren/o kidney • ureter/o ureter (kidney to bladder) • cyst/o bladder • urethr/o urethra (bladder to outside); GU
+cb1a4a33	Glands: endocrine ductless, hormones into the blood • exocrine with ducts; hypo- underactive and hyper- overactive
+28772611	Specialties: dermatology, orthopedics, cardiology, neurology, gastroenterology, nephrology, urology, gynecology, endocrinology
+73ecea1e	ENT = otorhinolaryngology: ear + nose + larynx
+d828cc1a	Anatomic position, paired directions, body planes, movements, patient positions and imaging
+5b529bf7	Planes and movement
+434b2432	Patient position and imaging
+427484cb	The zero point of all directions
+378ffce4	Every direction on the body is given from the <b>anatomical position</b>:<br>• standing straight (<b>erect</b>), facing forward<br>• arms at the sides, <b>palms facing forward</b><br>• feet parallel, flat on the floor and toes pointing forward⟦0⟧
+bafa62be	anatomical position: palms facing forward
+d4221d3e	In anatomical position, which way do the palms face?
+553fc208	forward
+0263c925	backward
+4310f60a	toward the body
+3ba5325a	downward
+c2133c25	The palms face forward, so the thumb is on the outside (lateral).
+d0a08852	Whose left and right?
+1bd393bb	“Right” and “left” always mean <b>the patient’s own right and left</b>, not those of the person looking. When you stand facing a patient, their right side is opposite your left hand!⟦0⟧⟦1⟧
+227db561	front and side views; Right and Left under the feet are from the person’s own point of view.
+2ce54bea	Always put yourself in the patient’s place: “If I were standing there, where would my right hand be?”
+a787be29	In a front view, the patient’s right side appears on the viewer’s right.
+eeac2666	False; the patient’s right side is on the viewer’s left.
+10ae1234	Complete each part of the anatomical position
+4940df84	body
+8957d97a	standing straight
+8c27eed5	palms
+45fc275e	arms
+44f08f1f	at the sides
+9f977914	feet
+a26e210a	parallel and facing forward
+15466b67	In anatomical position, the body is ___.
+90848309	erect (standing)
+7241d9e3	supine (lying face up)
+33d1210b	prone (lying face down)
+eeb4652b	erect = upright and standing.
+1d9801ec	Why does everyone use one reference position?
+02408307	so the location of every part is described the same way, whatever the patient’s pose
+264b3545	because patients are always examined standing
+0476dc40	to measure height
+2250c337	for better photos
+060e8e24	Anatomical position is a “shared language”, even when the patient is lying down.
+a04cd3b7	Why does it matter?
+8ffeb43b	midline, medial, lateral, proximal, distal, superior and inferior on the body
+eaf2bc17	An injury report says: “a 3 cm wound on the anterior surface of the left forearm”. Every nurse and physician knows exactly where it is without seeing the patient.
+c916921d	Spell the adjective in “___ position”, the standard upright reference stance
+a8e25a00	Up, down, front, back
+38dfc28d	The up-down axis
+f1c396d1	Synonym
+50fab588	higher, toward the head
+0e540222	cephalic, cranial
+aa59bbe5	lower, away from the head
+c1617c27	the front of the body
+1a2e68b3	How is the heart positioned relative to the stomach?
+7c239320	The heart is higher than the stomach.
+686ecf95	Roots hold the secret of directions
+27dadbb4	⟦0⟧ → front • ⟦1⟧ → back<br>⟦2⟧ → belly side • ⟦3⟧ → back side<br>⟦4⟧ → head • ⟦5⟧ → tail⟦6⟧
+ef2558c4	Remember dorsal through the dolphin’s dorsal fin on its back; ventral is the belly side.
+15a5789f	Match each term to its synonym
+2d11d5d5	In a side view, how is the breastbone positioned relative to the spine?
+77f2e4b0	The breastbone is at the front of the body.
+b3137393	caudal means “toward the head”.
+80bf2138	False; caudal means toward the tail (downward). Toward the head is cephalic or cranial.
+734a3790	The navel is on the ___ surface of the body.
+0a3a345c	The navel is on the front of the abdomen.
+7ad28c8b	Build the term that means “pertaining to the back of the body”
+bc780f10	Spell the term for “toward the back of the body”
+975cf9c6	Middle, side, near, far
+94222654	The middle-side axis
+368ecb6f	nearer the midline
+8b3cb9e1	the nose relative to the eyes
+f4cba91e	away from the midline, toward the side
+27319ae9	the ears relative to the nose
+ea787832	nearer where a limb attaches to the trunk
+aa02e972	the elbow relative to the wrist
+c044811e	farther from the point of attachment
+fa88a8b1	the fingers relative to the wrist
+ea1c7815	Six opposite direction pairs
+32413b28	How is the wrist positioned relative to the elbow?
+602eb0ed	The wrist is farther from where the arm attaches to the trunk.
+9323125c	Superficial or deep?
+69af2179	near the body surface: the skin
+058acdf1	away from the surface: the bone
+eb0f756b	on the same side of the body
+9ba3cf87	on the opposite side
+fa93fd28	C: superficial and deep in a cross-section • D: supine • E: prone • F: top of the foot (dorsum) and sole (plantar)
+7d07fba7	Complete each pair
+71faafd5	proximal and distal only for the limbs
+f6652485	These two words are used for the <b>limbs</b> (arms and legs) or along a structure (such as the intestine); for the trunk use superior/inferior.⟦0⟧⟦1⟧
+2d791ac6	Remember proximal through “proximity” (nearness) and distal through “distance”.
+d459fe20	A stroke in the left hemisphere causes weakness on the contralateral (right) side of the body, because the nerve pathways cross over.
+ad320e9d	In anatomical position, the thumb is on the lateral side of the hand.
+36c205ef	Correct; because the palm faces forward, the thumb is on the outside.
+c61dad92	The skin is ___ to the muscle.
+c7948b4d	The skin is closer to the surface.
+8d20c8c7	Brain damage on the right side causes weakness on which side of the body?
+fe4849c9	contralateral (left)
+7131da15	ipsilateral (right)
+da126231	both sides
+8a2ed5d9	neither
+9c8e66a0	The motor pathways cross over in the brainstem.
+4b19158c	Spell the term for “toward the side”
+4eef484e	Review of the “Anatomic position and directions” level
+6e323a9e	Anatomical position: standing, facing forward, palms forward; left and right always belong to the patient
+63f2ab4a	medial ↔ lateral • proximal ↔ distal (limbs only) • superficial ↔ deep
+d2863229	ipsilateral same side • contralateral opposite side
+e8633d7e	Body planes
+c7c5c9d8	Three imaginary cuts
+80e2770d	Planes are flat surfaces that cut through the body or an organ:⟦0⟧⟦1⟧
+58210d64	Plane
+9db54007	Divides the body into
+ef80e440	right and left
+853ccdec	two equal right and left halves
+3154a152	front and back
+977e9cf6	upper and lower
+40a5c6e4	Which plane divides the body into two equal right and left halves?
+77486e32	The midsagittal (median) plane passes exactly through the midline.

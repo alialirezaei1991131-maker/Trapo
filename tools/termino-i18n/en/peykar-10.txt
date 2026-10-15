@@ -1,0 +1,190 @@
+09440d1c	the right and left pleural cavities, the mediastinum and the pericardial cavity; below them the diaphragm and the abdominopelvic cavity
+25f68963	What is the space between the two lungs that holds the heart called?
+7c7f13ca	mediastinum = the middle of the chest.
+162866fd	The mediastinum: the middle corridor
+7d73dcf9	The mediastinum is a mass of tissues and organs that separates the breastbone in front from the spine behind, and holds the heart and great vessels, the oesophagus, trachea and thymus.⟦0⟧⟦1⟧
+86318680	mediastinum = medi (middle) + stinum: the “middle corridor” of the chest, between the two big rooms of the lungs.
+d027087d	On a chest X-ray, a “widened mediastinum” (a broader middle shadow) can be a sign of a torn aorta after a crash.
+c240bf96	Match each part to its contents
+9b5938d6	heart, oesophagus, trachea and great vessels
+dde4a025	The lungs lie in the pleural cavities.
+910eb959	pleur/o = pleura; each lung has its own pleural cavity.
+e54d3079	The ___ cavity surrounds the heart.
+4ebe00e0	peri- (around) + cardi/o (heart).
+d36e06ce	Which organ is not in the mediastinum?
+841b2041	The liver is in the abdominal cavity, below the diaphragm.
+066b1ad4	Build the term that means “around the heart”
+daf4eea2	Spell the term for the space between the lungs that holds the heart
+8752ec59	The diaphragm and the abdominopelvic cavity
+8a7b8417	The wall between two floors
+3eaa98a4	The <b>diaphragm</b> is a dome-shaped muscle that separates the chest cavity from the abdominal cavity and is the main muscle of <b>breathing</b>. ⟦0⟧ = diaphragm.⟦1⟧
+a371918b	the dorsal and ventral cavities
+f4074ea4	the diaphragm between chest and abdomen
+0e17abae	Abdomen and pelvis without a wall
+09cd550b	There is <b>no wall</b> between the abdominal and pelvic cavities, so together they are called the <b>abdominopelvic cavity</b>.⟦0⟧⟦1⟧
+7f90d3bc	liver, gallbladder, spleen, stomach, pancreas, intestines and kidneys
+95a87457	bladder, reproductive organs and part of the intestine
+dbc2e7b4	The diaphragm is like a “tent roof”: domed, above the abdomen and below the lungs. When it contracts it flattens and moves down, and air comes into the lungs.
+7c3eba34	Which structure separates the chest from the abdomen?
+c6e194dd	The diaphragm.
+5dc3e4ba	There is a muscular wall between the abdominal and pelvic cavities.
+116a9816	False; together they are the abdominopelvic cavity.
+0e627ce5	Match each organ to its cavity
+a035e0b3	The peritoneum and behind it
+ec80621f	The abdominopelvic cavity is lined by the <b>peritoneum</b>; the space inside it is the <b>peritoneal cavity</b>. The <b>kidneys</b> are outside and behind this sac (retroperitoneal).⟦0⟧⟦1⟧
+afd1f6fe	sagittal section: the dorsal (cranial and spinal) and ventral (thoracic, abdominal and pelvic) cavities
+d9fc5934	A hiccup is a sudden, involuntary contraction of the diaphragm; the phrenic nerve gives the command.
+89d8dda6	The nerve that controls the diaphragm is the ___ nerve.
+b0966d87	phren/o = diaphragm.
+80e3306b	Which abdominal organ is behind the peritoneum?
+105e64ab	Spell the term for the dome-shaped main muscle of breathing
+60b73b60	diaphragm; the g is silent.
+1c1b694a	Review of the “Body cavities” level
+168721e1	dorsal: cranial (brain) + spinal (spinal cord) • ventral: thoracic + abdominopelvic
+328fe369	Chest: two pleural cavities around the lungs • the mediastinum in the middle • the pericardial cavity around the heart
+7c12d900	The diaphragm (phren/o) separates the chest from the abdomen and is the main muscle of breathing
+ae925ab1	The abdomen and pelvis have no wall between them (abdominopelvic); the peritoneum lines it and the kidneys are retroperitoneal
+6a3ee26a	Nine regions
+16a9ddac	A 3 × 3 grid on the abdomen
+56b68fef	To say exactly where a pain or organ is, the abdomen from the diaphragm to the groin is divided into <b>nine regions</b>:⟦0⟧
+d551eafc	What the names mean
+8eee14a1	• <b>hypochondriac</b>: hypo (below) + chondr (rib cartilage)<br>• <b>epigastric</b>: epi (above) + gastr (stomach)<br>• <b>lumbar</b>: lumb/o = loin<br>• <b>umbilical</b>: umbilic/o = navel<br>• <b>inguinal (iliac)</b>: inguin/o = groin; ili/o = hip bone<br>• <b>hypogastric</b>: hypo (below) + gastr (stomach)⟦0⟧
+2824d97b	the nine regions on the body
+53ee6cb7	the nine regions over the organs
+b58e4503	Which is the middle region of the abdomen, where the navel is?
+30e216ee	umbilic/o = navel.
+12fb3c9b	In this figure, which is region number 2?
+ed87a35c	Top row: 1 right hypochondriac, 2 epigastric, 3 left hypochondriac. The numbers are from the viewer’s side; region 1 is on the patient’s right.
+776be193	Match each region to the meaning of its name
+5aeb5877	below the rib cartilages
+95d10f95	The hypochondriac regions lie below the cartilages of the lower ribs.
+a01d85e6	hypo- (below) + chondr/o (cartilage).
+005a307a	The middle column
+3c759438	Read the middle column from top to bottom: epigastric, umbilical, hypogastric. The sides from the top: hypochondriac, lumbar, inguinal; “ribs, loins, groin”.
+48d81f1b	the nine regions over the ribs, organs and pelvis
+e9780b3a	The lower middle region of the abdomen, above the bladder, is the ___ region.
+b9e478ff	hypo- (below) + gastr/o.
+08a8e04b	Build the term that means “below the (rib) cartilage”
+8bbab9b6	Four quadrants
+39253750	Two lines through the navel
+952233d0	A simpler clinical method: two perpendicular lines through the <b>navel</b> divide the abdomen into <b>four quadrants</b>:⟦0⟧
+7f6361f9	What is where?
+0c972965	Quadrant
+c5549f30	Key contents
+d1632c45	right lobe of the liver, gallbladder, part of the pancreas and intestine
+0f5555c2	stomach, spleen, left lobe of the liver, part of the pancreas
+f2d599c4	appendix, right ovary and uterine tube, right ureter
+15551033	part of the large intestine, left ovary and tube, left ureter
+52ea7034	the four quadrants over the organs
+442cc213	the contents of each quadrant
+72b793e1	Which quadrant is the gallbladder in?
+ad8917fa	The gallbladder is under the liver, upper right.
+bf561df0	In this figure, which is quadrant number (4)?
+aec31cd9	It is a front view: (1) the viewer’s upper left = the patient’s RUQ, (2) the viewer’s upper right = LUQ, (3) RLQ and (4) the viewer’s lower right = the patient’s LLQ.
+b3412829	Match each organ to its quadrant
+80418403	gallbladder
+a7a63aa2	Region or quadrant?
+922188a5	the nine regions and four quadrants on one body
+8ceec91a	comparing the two methods
+b17ed40d	9 regions
+6a8e7966	more precise; used more in anatomy
+69effb13	4 quadrants
+7cf2d9c2	simpler; used more at the bedside and in charts
+d9e4dcf4	“RLQ tenderness” in a chart means pain on touching the right lower quadrant; think appendicitis first. RUQ pain after a fatty meal: think gallbladder.
+7434bc6a	The centre of the four quadrants is the navel.
+bbcf813d	Two perpendicular lines pass through the navel.
+904174ea	The stomach is mostly in the ___ quadrant.
+9e2e90ca	The stomach is upper left.
+95059897	Which method of division is shown in this picture?
+970382ba	A: four quadrants and B: nine regions
+5c5c0cae	both are nine regions
+96063fed	both are four quadrants
+f6ede110	A with two lines, B with four.
+54e94393	Picture test: the cavities
+e205f531	Test yourself
+c73fae8c	In this lesson you fill in the numbers and blank labels of the textbook pictures. Before you answer, review this order:<br>• the dorsal cavities: <b>cranial</b> and <b>spinal</b><br>• the ventral cavities: <b>thoracic</b>, then the diaphragm, then <b>abdominal</b> and <b>pelvic</b>⟦0⟧
+4c5bdecc	From top to bottom at the front of the body: “chest, diaphragm, abdomen, pelvis”, like the floors of a building: the first floor, the ceiling, the ground floor and the basement.
+1d1e7bc4	In this figure, which cavity is number (3)?
+b1d8b12d	The blue structure inside the skull is the brain; the cranial cavity.
+e4ff2cdb	In the same figure, which cavity is number (7), just above the diaphragm?
+c642f08a	Above the diaphragm is the chest cavity.
+b15dcc8e	Which large cavity is bracket (1), which takes in cavities (3) and (4)?
+c6ff0df4	(3) cranial and (4) spinal together are the dorsal cavity.
+5931e088	Put the ventral cavities in order from top to bottom
+29f2ad97	Chest → diaphragm → abdomen → pelvis.
+d3c7912c	The abdominopelvic cavity is made of the abdominal and pelvic cavities.
+9da56ff9	There is no wall between them.
+d2c02c37	Match each number in the same figure to its cavity
+e00d2fc9	The cranial and spinal cavities together are the ___ cavity.
+10b635a4	dorsal = back.
+31d0efcd	Answer key
+8a74a39c	⟦0⟧Note that the numbering in this figure differs from the test figure; in textbooks and exams always look at the <b>label</b>, not the number.
+d8bf05e6	the same cavities with labels: (1) cranial, (2) spinal, (3) diaphragm, (4) thoracic, (5) abdominopelvic, (6) abdominal, (7) pelvic
+a929f172	In the answer-key figure, which organ is in the pelvic cavity (7)?
+018b27c9	The bladder and reproductive organs are in the pelvis.
+1614f22f	Review of the “Map of the abdomen” level
+2c063999	The nine regions, middle column from the top: epigastric, umbilical, hypogastric
+36514057	The sides from the top: hypochondriac, lumbar, inguinal (iliac); the patient’s own left and right
+a042ec10	Four quadrants with two lines through the navel: RUQ liver and gallbladder • LUQ stomach and spleen • RLQ appendix • LLQ large intestine
+8de86063	9 regions are more precise and anatomical; 4 quadrants simpler and clinical
+1ca621fd	The five regions of the spine
+da3a1741	The <b>vertebral column</b> runs from the head to the tailbone and is made of bone; the spinal cord (nervous tissue) is inside it.⟦0⟧
+f0e32bb4	How many cervical vertebrae are there?
+cc7d3957	C1 to C7.
+3841b1f7	Abbreviations in the chart
+87f24f58	Region
+687f8df3	Number
+84eb0c59	cervical (neck)
+97d6b338	thoracic or dorsal (chest)
+2fdacfca	lumbar (lower back)
+0879955b	sacral
+e168169b	5 (fused)
+96a7e0c0	coccygeal (tailbone)
+4a001ae7	3 to 5 (fused)
+2bb0d618	Mealtimes: breakfast at 7 (7 cervical), lunch at 12 (12 thoracic), dinner at 5 (5 lumbar)!
+07e407f2	Match each region to its number of vertebrae
+c9c4ab2b	5 fused
+5bf33ed3	The spine is made of nervous tissue and the spinal cord of bone.
+00e8b742	The other way round: the spine is bone and the spinal cord is nervous tissue.
+1ae248cb	Back pain and MRI
+7293e969	A 45-year-old man complains of low back pain shooting down his right leg. A <b>sagittal MRI</b> shows a bulging disc between <b>L4 and L5</b>.⟦0⟧
+51c24bdc	Most disc herniations happen in the lumbar region (L4–L5 and L5–S1), because it bears the most weight.
+7eec745d	In this case, which vertebra does L4 refer to?
+dd96191d	the fourth lumbar vertebra
+9bf759d0	the fourth thoracic vertebra
+1e944910	the fourth cervical vertebra
+e792a23f	the fourth sacral vertebra
+de7363a5	45-year-old man
+cd062701	low back pain shooting down the right leg
+9d9992cf	sagittal: L4–L5 disc herniation
+6c7fa4f7	The plural of vertebra is ___.
+9298032d	Spell the adjective meaning “pertaining to the tailbone”
+3f7589a9	Regions of the head and trunk
+08d00e6e	The surface map of the body
+6872a92f	Every region of the body has an anatomical adjective used in the chart for the site of a wound, pain or examination:⟦0⟧
+12cfbcd6	Head and neck
+0f2e8295	eye socket / below it
+27980c5a	chin (ment/o) / below the chin
+edc892f3	In anatomy, mental has nothing to do with the mind! It comes from mentum (chin).
+0f07fd6d	Where is the ⟦0⟧ region?
+cc4c832b	bucc/o = cheek.
+175c223f	Match each region to its location
+3594abae	The trunk from front and back
+fbaacb88	over the breastbone
+eb66be22	armpit
+811523b1	collarbone / above the collarbone
+c13cc108	between the shoulder blades / below the shoulder blade
+1dbd1dfa	over the sacrum
+7ba87f37	Common names of body regions from the front and back; each region’s adjective is in brackets.
+3b30e76e	“The supraclavicular lymph node is enlarged.” Where is this node?
+5775a226	below the chin
+e5799a02	supra- (above) + clavicul/o (collarbone).
+c40608c1	interscapular means between the two shoulder blades.
+be942f2a	inter- (between) + scapul/o (shoulder blade).
+5bddc31a	The armpit region is called the ___ region.
+6b964ab8	Build the term that means “below the chin”
+ba969d6d	Limb regions and the chart
+c9401981	Arms and legs
+b4e62b1d	knee (kneecap)
+3dc1a38c	sole of the foot / foot
+64741729	Blood is usually drawn from the antecubital region (front of the elbow); the pulse can also be felt in the popliteal (behind the knee) and femoral (thigh) regions.

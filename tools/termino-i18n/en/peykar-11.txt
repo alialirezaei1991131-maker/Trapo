@@ -1,0 +1,277 @@
+d1ace3f7	Which region is blood usually drawn from?
+ca14dba2	ante- (in front) + cubit/o (elbow).
+31ffa5b5	front of the knee
+75d3d7af	Case: a bicycle accident
+e6cf192d	A teenager has come to the emergency department after the handlebar of his bike hit his abdomen: pain in the <b>LUQ</b>, pale, with a fast heart rate. An abdominal <b>CT</b> shows a torn <b>spleen</b>.⟦0⟧
+73106bc7	Remember the LUQ as “spleen on the upper left”; the big liver is on the upper right (RUQ).
+1dc7d53f	Where does a torn spleen mostly cause pain?
+2a7ab468	The spleen is in the left upper quadrant.
+078b5f2a	15-year-old boy
+032c6049	Incident
+c1f8b804	bike handlebar struck the abdomen
+3d06eb54	LUQ pain, pallor
+0de9f3a0	torn spleen
+efec7e53	The spleen lies in the left hypochondriac region.
+4c659129	The same as the left upper quadrant.
+da62515e	Put these lower-limb regions in order from top to bottom
+ec561a33	Groin → thigh → knee → sole of the foot.
+342c9a21	The back of the knee is the ___ region.
+7e9815bf	poplit/o = back of the knee.
+d5aa50b5	Spell the term for the front-of-the-elbow region
+b6099151	Review of the “Spine and surface regions” level
+32981ee8	The spine from the top: cervical 7 vertebrae • thoracic 12 • lumbar 5 • sacral 5 fused • coccygeal the tailbone
+43248a77	Head and neck: cephalic, occipital, orbital, nasal, buccal, mental (chin), auricular, cervical
+8b44756b	Trunk: sternal, pectoral, mammary, axillary, interscapular, lumbar, sacral, gluteal
+cca0c3eb	Limbs: brachial, antecubital, carpal, femoral, patellar, popliteal, plantar, pedal, inguinal
+95e80fde	The Piece Expert
+73f5e954	Breaks every scary word into prefix, root and suffix and reads it from the end. Its motto: “epigastric is just three pieces!”
+fc83e0c3	Orifice
+b21c2e2a	Keeper of the Openings
+bc1f2b9e	Knows every opening of the body, from os (mouth) to foramen and meatus, and knows that a stoma is an opening a surgeon made.
+ed9ed0b5	Pluro
+83f7ddd8	Master of Singular and Plural
+24781a9d	Turns vertebra into vertebrae, nucleus into nuclei and phalanx into phalanges, without a single extra s!
+47e45f09	Celly
+b5c4fe01	The Smallest Unit of Life
+22c158c3	Has a membrane, cytoplasm and nucleus and builds the body with trillions of its kind. Its biggest sister is the egg and its smallest brother the sperm.
+a065b750	Mito
+afeb7f82	An energetic mitochondrion that turns food into ATP; without it no anabolism or catabolism gets going.
+dec97a05	Geno
+755645be	The DNA Librarian
+5978269e	Keeps the 46 chromosomes neatly in pairs and doubles them all in mitosis, but sends only 23 in meiosis.
+82abe56d	The Epithelial Shield
+537afb49	Covers the surface of the body and lines the inside of tubes; sometimes simple and one-layered, sometimes stratified and many-layered.
+e4d74c52	Myo
+391807bf	The Contracting Spindle
+c7309a50	It’s a triplet: skeletal, which moves at your command; cardiac, which never tires; and smooth, which quietly churns the intestine.
+f79ff7f5	Connecto
+37e0469f	The Body’s Glue
+0961d4e6	Bone, cartilage, tendon, ligament, fat and even blood are all in its family; the most abundant tissue in the body.
+3b009c54	Tapesh
+ced004cd	Heart of the Circulation
+8d0b338b	Beats more than a hundred thousand times a day to deliver oxygen and nutrients to every organ.
+25d64cff	Breathy
+ca50fdb0	The Patient Lung
+e71244df	Takes in oxygen and gives back carbon dioxide, with the help of the diaphragm moving up and down beneath it.
+f287f194	Bean
+b1938f24	The Filtering Kidney
+2fc19ee2	Filters the blood, makes urine and lives behind the peritoneum (retroperitoneal), the only large abdominal organ that does.
+50739288	Compass
+91041c0c	The Body’s Direction Finder
+3e903890	Always starts from the “anatomical position”: standing, palms facing forward. Then it says superior, medial or distal.
+c845bb1c	Slicer
+b38f1988	Master of the Planes
+e7e3cb41	Cuts the body with three planes: sagittal (left and right), frontal (front and back) and transverse (upper and lower). It loves CT and MRI.
+984c1f53	Glove
+8491e3ec	Master of Positions
+c1f49f04	Places the patient in the right position for every examination: supine, prone, Fowler, Sims, lithotomy or Trendelenburg.
+89775bd1	Cavy
+20ea195e	Guardian of the Two Great Cavities
+ed6efff9	Watches over the dorsal cavity (skull and spinal cord) and the ventral cavity (chest and abdomen-pelvis); the diaphragm is the border between the two floors.
+9dc9df5c	Quad
+4557635c	The Abdomen Mapmaker
+b8e2cef4	Divides the abdomen into four quadrants and nine regions; when it hears “RLQ pain”, it thinks of the appendix first.
+f4a3e823	The Steady Column
+3a7c1d88	7 cervical, 12 thoracic, 5 lumbar; and below, the fused sacrum and tailbone. It keeps the spinal cord safe inside.
+996467f4	A French fry up the nose
+17961ce8	A mother has brought her child to the emergency department with bleeding from the left nostril and restlessness. The child has been healthy with no previous illness. On examination, a piece of French fry is seen in the front part of the nasal cavity.
+46039311	bleeding from the left nostril for 2 hours
+2b1f071b	Allergies
+b8b5d940	HEENT examination
+9736254f	a foreign body in the anterior left nasal cavity
+f3cacbc0	epistaxis means…
+2bec70f0	What is the medical term for the nostrils?
+be55ff12	nares (singular naris).
+bd533b62	The foreign body is in the anterior part of the nasal cavity, meaning…
+1f027706	in the front part, near the nostril
+57c57052	in the back part, near the throat
+d1c4dbb2	on the right side
+fc5453c9	at the top of the cavity
+2df1c95e	anterior = front.
+d207f56e	The child is laid on his back for the examination. What is this position called?
+d03831ca	supine = lying face up.
+8bce57c9	Match each chart abbreviation to its meaning
+182641c9	head, eyes, ears, nose, throat
+46598010	The ear, nose and throat specialist is called an otorhinolaryngologist.
+3a9b5ac5	Spell the medical term for the nostrils
+085d9802	Three drugs, three routes
+9e38fad3	a 60-year-old woman on the ward
+87643d89	Three drug orders have been written for the patient: a sublingual tablet for chest pain, an intravenous antibiotic and an intramuscular vaccine. The nurse must identify the route of each drug correctly.
+5654dac3	Order 1
+ab3679aa	Order 2
+5418af21	Order 3
+07c90c75	Skin test
+8a46a31a	injection layers and angles
+e49045e4	SL means…
+17bb6dd8	sublingual: under the tongue
+cafdf4fd	subcutaneous: under the skin
+dce969bb	slow
+3cf449d5	single: once
+826ee8e4	sub- (below) + lingu/o (tongue).
+a0ad27ef	Match each abbreviation to its injection site
+96f6211a	Absorption
+006c0cd2	Why is the chest-pain drug given under the tongue?
+ed58fa6b	faster absorption through the vessels under the tongue
+3f15f549	because the tablet is large
+8cf54db4	so stomach acid activates it
+21174e1e	so it is absorbed slowly
+4e560146	Sublingual absorption is faster than by mouth.
+941dd6d2	Put the injections in order from shallowest to deepest
+6cd9ccf3	Dermis → subcutaneous → muscle.
+2af70dbe	Category
+22bdb745	All these injections count as parenteral routes.
+b0326aa0	parenteral = any route except the digestive tract.
+3f984d80	The tired student
+465952d4	Zakaria has been tired for several weeks, can’t concentrate in class, has put on a little weight and is slightly constipated. He thinks he has an underactive thyroid. The GP does a review of systems and a full examination and orders tests.
+26010e11	fatigue, poor concentration
+985d2b0d	blood sugar, CBC, thyroid
+7daf35df	Result
+9781e4a5	all WNL
+5f975167	too little sleep and a poor diet
+14a82b91	metabolism
+4b42e838	ROS means…
+8c05daae	normal result
+7673d806	chest radiograph
+9f9379f4	In a test result, WNL means…
+3ab08e91	needs repeating
+a6c6e9c1	very high
+c3ba129b	unknown
+4132b073	Concept
+cf94f9e7	Which body system does the thyroid work with?
+f0e1a5d8	It is an endocrine gland; its hormones regulate metabolism.
+9b569739	What is an underactive thyroid called in English?
+653c1cb8	hypo- = low.
+a620e300	Catabolism is the part of metabolism that breaks substances down to release energy.
+48ea7698	Spell the term for all the body’s chemical processes
+54642094	A lump and a sample
+80ae5c6d	a 55-year-old man
+49a93690	A growing lump has been found in the skin of the patient’s forearm. The surgeon takes a biopsy and sends the sample to the pathology lab. Report: a neoplasm of epithelial tissue, “in situ”.
+9173ef30	a growing lump on the forearm
+201d3738	Action
+2a104aaa	Report
+a7b6afd6	a lot of sun exposure
+2ca3f196	kinds of cells
+e1d40b1b	Bx = biopsy: removing living tissue for diagnosis.
+431af69d	neoplasm means…
+093b43d0	a new, abnormal growth of tissue
+482d0907	a normal cell
+543ed327	a wound
+ee15c14f	Latin
+fbac625c	In the report, in situ means…
+4ab28803	in its original place; not spread
+f6b145bf	in situ = in place.
+1c39b611	Match each specialist to their work
+723cd28a	studying disease in tissue
+590a2fd3	studying tissue under the microscope
+64fbe452	studying cells
+84f38c0e	Cause
+44477e75	The sun’s ultraviolet rays are a carcinogen for the skin.
+ca4927fe	carcin/o + -gen: a cancer-causing agent.
+56b59163	Spell the term for removing living tissue for diagnosis
+abf06049	Abdominal pain after surgery
+6310cebb	a 42-year-old woman
+0e44c43b	The patient had abdominal surgery three years ago. Now she has cramping pain, bloating and vomiting. The physician suspects adhesions inside the abdomen and bowel obstruction. She has had a fever for a few days and her heart rate is fast; the physician is worried about sepsis.
+04be02f5	abdominal surgery 3 years ago
+b119aa83	cramping pain, bloating, vomiting
+62213092	fever, fast pulse, low BP
+fb47c097	Possible diagnosis
+9adb973f	adhesions, bowel obstruction, sepsis
+c54b8bf2	the layers of the peritoneum
+4eb5e913	adhesion means…
+dd48a67c	bands of scar tissue sticking separate surfaces together
+3eaa46ae	inflammation of the peritoneum
+a666a832	a bowel tumour
+4d0a7b0d	perforation of the stomach
+69a1b226	Mostly after abdominal surgery.
+d0860b1d	Membrane
+79282ba0	What is the membrane that lines the abdominal cavity?
+1192fa22	peritone/o = peritoneum.
+40e9cba3	Layer
+dd22220d	Match each layer to its place
+4367fa93	on the abdominal wall
+0b199726	on the surface of the intestine
+29b2c821	Sepsis
+ef7c70a6	Which set of signs fits sepsis?
+43d38da0	fever, fast pulse and breathing, low pressure
+a23915b6	low temperature and a slow pulse
+82dd962c	cough only
+72ff3a84	itchy skin
+1c875a65	A systemic inflammatory response to infection.
+5750f2ae	In a chart, BP means blood pressure.
+8ab82e59	Spell the term for bands of scar tissue that stick tissues together
+1103410a	An inflamed nail
+cca701a8	a 30-year-old hairdresser
+64679b56	The skin beside the nail of the patient’s index finger has been red, swollen and painful for two days. She had picked the skin beside the nail. The physician examines the skin and checks the inflammation of the surrounding tissue.
+46e15503	pain and swelling beside the nail
+3acd052b	picking the skin around the nail
+1c1e3eef	redness, heat, swelling
+42994261	the four tissues
+96e1bb02	paronychia means…
+2a444949	the normal tissue around the nail
+9588aa3f	a nail tumour
+59ffc409	an ingrown nail
+3eadb0a6	para- (beside) + onych/o (nail).
+11ed2125	Twin
+2fe3b17a	What is the normal tissue around the nail called?
+3f3a4851	Which group of signs are the classic signs of inflammation?
+d9348a8b	redness, heat, swelling and pain
+659b61a7	dryness, cold, bruising
+8cd985e7	fever, chills, cough
+d38abe12	itching and hair loss
+76788120	The nail is part of the integumentary system.
+f2958d6b	Hair, nails and skin glands are the appendages of the skin.
+290d1060	Spell the term for an infection beside the nail
+abe14aea	Bloating, diarrhoea and anaemia
+ffd0d9d3	For months the patient has had bloating, abdominal pain and chronic diarrhoea with pale, foul-smelling stools. Her BMI is 17.5. The gastroenterologist reports positive coeliac and anaemia tests. The care team includes a dietitian.
+ec16a77e	coeliac positive, anaemia
+040ec579	GFD, follow-up in 6 weeks
+2b1b1d58	Which part of the digestive system does coeliac disease damage?
+38d5b0e1	the small intestine (enter/o)
+4c78a07f	Gluten damages the villi of the small intestine.
+9db66a7a	GFD means…
+e737154b	digestive test
+5923dde8	reflux disease
+87840f4e	high-fat diet
+aead70cf	Which specialist was the patient referred to?
+726c0e12	Match each digestive root to its meaning
+f04f7dd5	An RDN is a registered dietitian nutritionist.
+232ba4d1	Spell the term for the study of the stomach and intestines
+1fff4004	A morning at the referral clinic
+742c0c72	seven patients
+8ff3ca44	The clinic receptionist must send each patient to the right specialist: John can’t hear quiet sounds, Ruth has palpitations, Marianne has uterine bleeding, José has broken his wrist, Mrs Cortez’s daughter has repeated bladder infections, Marta has a skin rash and Mr Sparks has a stomach ulcer.
+1fc85d18	John
+b74aac78	hearing loss
+8505abc0	Ruth
+b17e5be8	José
+d7e54fac	broken wrist
+a4e964a3	Mr Sparks
+da79394d	stomach ulcer
+e28c2683	Referral
+79eaaa3a	Match each patient to the right specialty
+b39fea81	Where should Mrs Cortez’s daughter, with repeated bladder infections, go?
+fb1553a8	ur/o = urinary tract.
+5e354753	Marianne, with heavy uterine bleeding…
+8321c0c7	gynec/o = woman.
+5b4cfdec	Marta, with a persistent skin rash…
+21cb504e	dermat/o = skin.
+724327ec	Cardiology is the study of heart diseases.
+5d06f856	Spell the one-word name of the ear, nose and throat specialty
+77526036	Katie’s appendectomy
+6d6c44d7	Katie has gone to the operating room to have her appendix removed. She is placed supine; the surgeon enters the abdominopelvic cavity through an incision on the front of the abdomen. After the operation, Katie can’t lie on her abdomen for about three weeks.
+efafbbd9	no prone position for up to 3 weeks
+5fd83894	supine means…
+e35228c4	lying on the back, face up
+3b6352ae	lying face down
+7014d0e6	on the side
+e48c250d	supine = lying on the back.
+26e253b7	Which quadrant is the appendix in?
+6808ca11	Which surface of the body is the surgical incision on?
+03ee95a8	The front of the abdomen.
+25d84f49	Put the layers in order from superficial to deep
+99963897	prone means lying on the abdomen.
+5756c047	That is why Katie shouldn’t lie prone for a while.
+8d51eb4e	Spell the term for removal of the appendix
+09ac1fff	Shortness of breath and a chest X-ray
+28780030	a 68-year-old man
+dea9f3cd	The patient has been admitted with shortness of breath. The nurse raises the head of the bed. The physician orders a PA and lateral chest X-ray, then a CT with transverse slices.
+b80b2d41	CXR PA and lat

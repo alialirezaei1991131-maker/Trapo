@@ -1,0 +1,203 @@
+70dd2a1a	Planes on the body
+0924b5f4	frontal, sagittal and transverse
+53d9f911	the three planes together
+af7a8874	sagittal comes from sagitta (arrow): an arrow piercing from front to back splits the body into left and right. coronal comes from corona (crown): the crown line that sits over the head from ear to ear.
+0892f19b	Match each plane to the division it makes
+4567fa46	In this picture, which plane is the horizontal orange one?
+366cbfbc	frontal and coronal are two names for the same plane.
+51a58ea9	Correct; both divide the body into front and back.
+0a5ab6fd	Slices in imaging
+8a9e21d2	In CT and MRI, images are taken as “slices” in these same planes: <b>axial</b> slices are the transverse ones.⟦0⟧
+6919ce0a	A radiologist writes: “sagittal MRI of the lumbar spine”, meaning left-right slices of the lower spine; the best view for the discs between the vertebrae.
+b9d6a2ec	The ___ plane divides the body into upper and lower parts.
+ba580450	Spell the plane that divides the body into right and left
+9c8532d8	sagitt/o = arrow; it has two t’s.
+bc291a45	Body movements
+e563b939	Bending and straightening
+868d01d4	⟦0⟧⟦1⟧When the biceps contracts, the elbow goes into flexion.
+5dd6f59e	bending a joint; the angle between the bones decreases
+905f424d	straightening a joint; the angle increases
+3a18924e	When you bend your elbow until your hand reaches your shoulder, what movement is it?
+6f60edc1	Bending a joint and decreasing the angle = flexion.
+895d585d	Moving away and toward
+c67bcb23	ab- (away from): moving away from the midline
+2a638756	ad- (toward): moving toward the midline
+5960c7b3	abduction as in “abduct”: someone is taken away! adduction means “adding” the limb back to the body.
+9cdefb9a	Match each movement to its description
+b7260f7d	decreasing the joint angle
+f23840e3	increasing the joint angle
+c6511f83	Raising the arm from the side of the body to the horizontal is abduction.
+1ec08c37	The arm moves away from the midline.
+41971940	The prefix ab- in abduction means ___.
+55dc0914	toward
+0b3c41a8	ab- = away from; ad- = toward.
+2b940132	Bringing the raised arm back to the side of the body is which movement?
+88d30f3b	Moving toward the midline.
+40e7d626	At the bedside
+a912cfad	⟦0⟧In exercise too: pushing up in a press-up is elbow extension and lowering down is flexion.
+ef9f17cc	The range of motion of every joint is recorded with these words: “shoulder abduction limited to 90°” means the arm can only be raised away to 90 degrees.
+a0e16893	ab- + duct (to lead).
+fc8668ca	Combined directions
+b9456161	Two directions in one word
+4b517596	Sometimes we join two direction roots with an o to say “from … to …”:⟦0⟧⟦1⟧
+3ba56914	from front to back
+70db7de5	from back to front
+898b6036	from the middle to the side
+10f5ba2c	from the side to the middle
+9c975415	upward and toward the side
+d904ce77	The order of the roots is the order of travel: the first is “from”, the second “to”. Like a travel address!
+e2a0b3f8	In a PA chest X-ray, where does the beam enter the body?
+c2dd6325	from the back (posterior)
+d1d9f709	from the front (anterior)
+40a4cd62	from the side
+ec85a800	from above
+06b8d347	posteroanterior = from back to front.
+7688a2fa	lateral (side view)
+7aa6a906	front
+39b0818c	Back and palm of the hand and foot
+ed5a9aff	• <b>dorsum</b>: the back of the hand or top of the foot<br>• <b>plantar</b>: the sole of the foot (⟦0⟧)<br>• <b>palmar</b>: the palm of the hand (⟦1⟧)⟦2⟧
+ee65c953	The standard chest X-ray is PA: the patient faces the film and the beam comes from behind, so the heart is close to the film and doesn’t look bigger than it is.
+2e9e5486	plantar refers to the sole of the foot.
+53f8c032	plant/o = sole of the foot; plantar fasciitis = inflammation of the sole’s fascia.
+8c38609d	The term mediolateral means from the ___ to the side.
+8858b26f	Where is the ⟦0⟧ of the foot?
+3fd4fd26	the top of the foot (upper surface)
+bfb167e8	the heel
+c3e8e13a	the big toe
+f3c20f6d	dorsum = back; on the foot it means the upper surface.
+b8c35a3a	Build the term that means “from front to back”
+55b4436b	Spell the term for “from front to back”
+b5348055	Review of the “Planes and movement” level
+f99d7aa2	Planes: sagittal right and left (midsagittal two equal halves) • frontal or coronal front and back • transverse or axial upper and lower
+0da55974	Movements: flexion angle decreases ↔ extension angle increases • abduction away from the midline ↔ adduction toward the midline
+1abae667	Combined direction: first root “from”, second “to”: anteroposterior (AP), posteroanterior (PA), mediolateral
+d409e917	dorsum back of the hand or top of the foot • palmar palm • plantar sole
+f3063ef1	Supine or prone?
+ece9a9d0	supine: lying face up
+d95668ee	prone: lying face down
+3095fc37	lying on the back, face up
+e5cc4eb3	lying on the abdomen, face down
+16bdd0e6	Remember supine as “spine on the bed”; and when supine you can hold a bowl of “soup” on your belly!
+587e7cf3	The patient is lying on the abdomen. The position is…
+df9ba923	prone = lying face down.
+8be8f552	Examination positions
+eca6bb57	knee-chest, lithotomy, dorsal recumbent, Sims, prone, Fowler and supine
+20e853b8	Use
+4a263ebb	examining the chest, heart, abdomen and reflexes
+aa30a93e	examining the back and spine
+c5328440	half sitting; difficult breathing
+b865708f	on the left side; rectal examination, enema
+34c1e5f4	feet in stirrups; pelvic examination and Pap smear
+b6b92bf9	rectal examination
+afa646ba	head lower than the feet; postural drainage
+faca729e	Match each position to its use
+b222ee29	the patient is short of breath
+cf7ac414	Pap smear
+0cafc058	enema
+ccb69e73	examining the spine
+ee7da4bc	postural drainage
+9a6ad4b3	The patient is short of breath. The nurse raises the head of the bed. Which position is this?
+c3c0681f	Fowler makes it easier for the lungs to expand.
+dda7c7c1	genupectoral is the same as the knee-chest position.
+5dc08518	genu (knee) + pector (chest).
+8ac78efb	Where do the names come from?
+7b9e2970	• <b>Fowler, Sims, Trendelenburg</b>: the names of the physicians who introduced these positions<br>• <b>lithotomy</b>: lith/o (stone) + -tomy, because it was once used for removing bladder stones<br>• <b>recumbent</b>: lying down⟦0⟧
+8f3f70ff	In the Trendelenburg position the head is down so that lung secretions drain by gravity (postural drainage).
+57dbd24a	lithotomy originally means “an incision to remove a ___”.
+90070dbd	baby
+ac6b795e	lith/o = stone.
+7e595308	Spell the term for lying face up
+aa8c3812	Imaging
+2f7fd1bf	Seeing inside the body
+7fb441ed	Method
+6e727be4	What does it use?
+fb4337bd	X-rays + a computer; cross-sectional slices
+4a6f10d4	a magnetic field and radio waves; no radiation
+1d39564c	high-frequency sound waves
+8ffd44be	a radioactive drug (radiopharmaceutical)
+8b944f73	continuous X-rays; a live image
+e3afc4d3	Which method uses no ionising radiation at all?
+541b5d02	MRI uses a magnet and radio waves; ultrasound is also radiation-free.
+18c24de7	Roots hold the secret of the methods’ names
+e4bb72ab	• ⟦0⟧ → recording slices<br>• ⟦1⟧ → recording with sound (ultra- = beyond)<br>• ⟦2⟧ → viewing with a glow<br>• ⟦3⟧ → recording with radiation⟦4⟧
+593c4f49	A: chest radiograph • B: Doppler ultrasound • C: nuclear scan • D and E: MRI • F: PET
+50ba3bc7	Match each method to its tool
+810384d7	magnet
+065543a8	X-rays and a computer
+75b84569	Which image in this set is a Doppler ultrasound?
+174b1dce	B (with blue colours)
+cd96e32b	A (black-and-white chest)
+fd3a2428	E (side view of the head)
+cbf6b351	F (yellow and red colours)
+1954cf0c	Doppler ultrasound shows blood flow in colour.
+ff2bb406	Fluoroscopy gives a live, moving X-ray image.
+1995542b	Correct; for example during a barium swallow.
+3d845cb4	The abbreviation CXR means a ___ radiograph.
+25633d9d	What is the radioactive substance that goes to a target organ and shows up on a nuclear scan called?
+4d40fff3	radi/o + pharmaceutical (drug).
+4578e022	Case: Katie’s appendix
+114ba693	Katie Riley in the operating room
+20a72ae9	Katie goes to the operating room for an <b>appendectomy</b> (removal of the appendix). She is placed <b>supine</b>. The surgeon enters the <b>abdominopelvic cavity</b> through an incision in the connective tissue and removes the appendix from the <b>RLQ</b>. Katie has pain for a few days and can’t sleep <b>prone</b> for about three weeks.
+5b4684a2	What position is Katie in during surgery?
+dc2547b9	For abdominal surgery the patient lies supine.
+31f232ab	Katie Riley
+e9fa898f	Operation
+c5355921	Site
+5c4fffce	Why can’t Katie sleep prone for a few weeks?
+041b3b2b	because prone means lying on the abdomen, where the surgical wound is
+d3d0d2c7	because prone means sitting
+7a82454a	because the appendix is at the back of the body
+1f8c2f39	because prone is the surgical position
+67f6fd33	prone = lying face down; pressure on the abdominal incision.
+12c955cf	Describe the site of the incision
+12e97813	The appendix is in the right lower quadrant: <b>inferior</b> to the navel and <b>lateral</b> on the right side. The surgeon’s incision is on the <b>anterior</b> surface of the abdomen and goes from the <b>superficial</b> layers (skin) to the <b>deep</b> layers (peritoneum).⟦0⟧⟦1⟧
+58ee7c59	the supine position
+53a3c30d	Appendicitis pain often starts around the navel (umbilical) and then moves to the RLQ; an important diagnostic clue.
+c81e81c5	Put the layers the surgeon passes through in order from superficial to deep
+4f673cdd	subcutaneous fat
+11addda1	abdominal muscle
+eaad0ebf	From superficial to deep.
+386c41c5	appendectomy means inflammation of the appendix.
+2d11bb65	False; -ectomy is removal. Inflammation is appendicitis.
+7ce8dcfe	Match each chart term to its meaning
+b266ed74	An abdominal surgical incision is on the ___ surface of the body.
+b52848f2	The abdomen is at the front of the body.
+91de7567	Review of the “Patient position and imaging” level
+82744208	supine lying face up • prone lying face down • Fowler half sitting • Trendelenburg head down • Sims on the left side • lithotomy feet in stirrups
+189270ea	Imaging: radiography and CT with X-rays • MRI magnet, no radiation • ultrasonography sound • PET radioactive drug • fluoroscopy live image
+b1a26d53	-graphy recording • -scopy viewing • tom/o slice • son/o sound
+9309f2b4	In a chart, the location of everything is written with these words: RLQ, inferior, lateral and from superficial to deep
+ee1679de	The dorsal and ventral cavities, the diaphragm, the nine regions and four quadrants of the abdomen, the spine and the surface regions of the body
+4792a04b	The map of the abdomen
+559b5721	The spine and surface regions
+7e8a08b6	Two large cavities
+c5de36a9	The dorsal and ventral cavities
+557bf0be	The body has two main cavities that hold the internal organs (viscera):⟦0⟧⟦1⟧
+823f9e11	Parts
+72a133db	Contents
+b901a2d6	the heart, lungs, and digestive, urinary and reproductive organs
+4e4cd9c5	Which cavity is the brain in?
+6c67130e	crani/o = skull; the cranial cavity is part of the dorsal cavity.
+e943ea97	The same cavities in the textbook
+f697edbb	the dorsal and ventral cavities in a side view
+0eb110fd	side and front views
+47853388	The dorsal cavity has two C/S parts: Cranial and Spinal, like “CS” for Central System (the central nervous system)!
+0981122a	Match each cavity to its contents
+56675f9a	spinal cord
+08793e72	heart and lungs
+a6adbcba	stomach, liver, intestines
+6eb5c57f	bladder and reproductive organs
+f9f8751f	The spinal cavity is part of the ventral cavity.
+9a1744bb	False; the cranial and spinal cavities are dorsal.
+56112df9	Together, the internal organs of the cavities are called the ___.
+90279293	viscera (singular viscus) = internal organs.
+011fd039	Into which two parts is the ventral cavity divided?
+ad72c7a7	thoracic and abdominopelvic
+99073783	cranial and spinal
+fbc02d76	pleural and pericardial
+7051a801	abdominal and spinal
+66356bb0	The diaphragm separates them.
+ea559a8f	Spell the term for the internal organs (plural)
+73fdafbc	viscera; singular viscus.
+c0e29b0b	Inside the chest cavity
+30334383	The <b>thoracic cavity</b> (⟦0⟧ = chest) holds the lungs, heart, aorta, oesophagus and trachea, and has three parts:<br>• two <b>pleural cavities</b>: around each lung<br>• the <b>mediastinum</b>: between the two lungs, between the breastbone in front and the spine behind<br>• the <b>pericardial cavity</b>: around the heart, inside the mediastinum⟦1⟧

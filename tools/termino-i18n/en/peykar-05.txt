@@ -1,0 +1,183 @@
+37cb7943	Its plural is nuclei.
+f68e4885	Specialised cells
+8d38e4c1	Every cell, a job
+318ce5c2	Cells differ in shape and size depending on their job:⟦0⟧⟦1⟧
+065e8c3a	nerve cell, white blood cell, ordinary cell, sperm and muscle cells
+ea3c91c8	long projections for carrying messages
+169fc813	long and contracting
+4b1cf22a	covering surfaces
+d2914890	fat cell; stores energy
+d97e32fc	red blood cell; carries oxygen
+fdcb229b	What kind of cell is ⟦0⟧?
+d651b1d8	fat cell
+c026f423	bone cell
+0a0a99af	nerve cell
+275bbfdb	adip/o = fat + -cyte = cell.
+5a878352	The largest and the smallest
+884d1d0b	• The largest cell in the body: the <b>ovum</b> (egg)<br>• The smallest cell in the body: the <b>sperm</b><br>These two sex cells are called <b>gametes</b>.⟦0⟧
+4216501f	-cyte always means “cell”: erythrocyte (red cell), leukocyte (white cell), adipocyte (fat cell), osteocyte (bone cell).
+5f42acb2	The largest cell in the human body is the egg.
+ce79b101	Correct; and the smallest is the sperm.
+9172ee2f	Match each cell to its job
+4db5182b	carrying nerve signals
+151cdd67	carrying oxygen
+85511e66	storing fat
+bc4a3651	What do cells do?
+b7fda332	The main jobs of cells:<br>• taking in food and oxygen and making energy and heat<br>• getting rid of waste<br>• responding to changes around them (mechanical, chemical and nervous stimuli)<br>• growth, secretion and reproduction⟦0⟧
+c82bad6b	Abnormal cell growth is a key factor in many diseases; that is why cells are examined under the microscope in pathology.
+53098066	In erythrocyte, the root erythr/o means ___.
+45c1033c	erythr/o = red.
+95209b1e	What are the sex cells (egg and sperm) called?
+cd1d1cb9	gamete = mature sex cell.
+c6b8b9c4	Build the term that means “fat cell”
+912a16d7	DNA and chromosomes
+b7ba83f9	The library inside the nucleus
+763cc507	⟦0⟧• <b>chromosome</b>: a thread-like structure in the nucleus that controls growth, repair and reproduction<br>• <b>DNA</b> (deoxyribonucleic acid): the substance chromosomes are made of<br>• <b>gene</b>: a section of DNA that controls the making of one protein (especially an enzyme)<br>• <b>RNA</b>: a relative of DNA that helps make proteins
+e7a388ee	How many chromosomes does each human body cell have (except sex cells)?
+76e94423	46 (23 pairs)
+91d297c6	46 pairs
+110476e3	46 chromosomes in 23 pairs; the egg and sperm have 23.
+afc52806	The karyotype: a family photo of the chromosomes
+80cd807f	⟦0⟧Pair 23 is the sex chromosomes: <b>XX</b> in females and <b>XY</b> in males.⟦1⟧
+e8c9c08d	the chromosomes of one cell
+34c2f93a	karyotype: the pairs in order of size
+aa3ae72c	chrom/o = colour + -some = body: chromosome means “coloured body”, because it was found by staining under the microscope.
+9209c122	Is the karyotype in this picture female or male?
+d2d7fa91	male; the last pair is XY
+ab63f52e	female; the last pair is XX
+d9ceb6e6	you can’t tell
+cf51ecca	it is a sex cell
+b7c90c3f	In the bottom corner, pair 23 is seen with an X and a Y.
+7d378a6d	Match each term to its definition
+63fa0438	unit of heredity; a section of DNA
+382dbaf8	thread-like structure in the nucleus
+9b957f94	an ordered photo of the chromosomes
+f4828868	helps make proteins
+cacf1241	Genes control the making of proteins, especially enzymes.
+c6987162	Correct; every gene is a recipe for one protein.
+831d4abe	In males, chromosome pair 23 is ___.
+15840005	Female XX and male XY.
+053bc6e7	What does ⟦0⟧ stand for?
+ead4ffd8	deoxyribonucleic acid.
+a8de7ee8	Spell the term for a thread-like structure in the nucleus
+c5bbee95	Review of the “Inside the cell” level
+d3d52300	Every cell: cell membrane (the wall), cytoplasm (the fluid inside) and nucleus (the control centre)
+f0ea83f6	Organelles: mitochondrion power plant (ATP) • ribosome makes protein • ER transport • cilia movement
+0d5cf355	-cyte means cell: erythrocyte, leukocyte, adipocyte, osteocyte
+6f4309cd	DNA is in the chromosomes; a gene is a section of DNA; 46 chromosomes in 23 pairs (XX female, XY male)
+6f16bbd1	Mitosis: one cell, two copies
+fc1ea7b5	<b>mitosis</b> (⟦0⟧ = thread) is the division of body cells: the chromosomes are doubled and shared equally between two daughter cells. Both daughter cells have <b>46</b> chromosomes.<br>The four steps of mitosis:<br>1. the chromosomes <b>double</b><br>2. they line up in the <b>middle</b> of the cell<br>3. they are pulled to <b>opposite ends</b> of the cell<br>4. the membrane splits the cell <b>in two</b>⟦1⟧
+019b92c1	The stages of mitosis under the microscope and in a drawing: the chromosomes separate and the cell becomes two.
+18d0fec4	Meiosis: halving for reproduction
+6370a996	⟦0⟧<b>meiosis</b> happens only when sex cells (<b>gametes</b>) are made, and it <b>halves</b> the chromosomes: 46 → 23. At <b>fertilisation</b>, the egg (23) and the sperm (23) together make one cell with 46.⟦1⟧
+2cbfb9ac	Remember meiosis as “me-half”: halving! Mitosis is “my twin”: two identical twins.
+5a79ddbf	Which division halves the chromosomes?
+67a1952e	Meiosis makes sex cells with 23 chromosomes.
+19810e84	division of body cells
+5a992c17	making sex cells
+8d17e612	a sex cell with 23 chromosomes
+9c318fce	the joining of egg and sperm
+e545c878	In mitosis, each daughter cell receives half of the parent cell’s chromosomes.
+71627f49	False; in mitosis each daughter cell has all 46 chromosomes. Halving belongs to meiosis.
+88925cb0	Put the stages of mitosis in order
+fc4f4f12	the chromosomes double
+78d65f75	the chromosomes line up in the middle of the cell
+40690711	the chromosomes are pulled to opposite ends of the cell
+19c25198	the membrane splits the cell in two
+ae4ec7c5	Doubling → lining up → separating → dividing the cytoplasm.
+29f6bde6	At fertilisation, the egg’s 23 chromosomes and the sperm’s 23 chromosomes make a cell with ___ chromosomes.
+183c03f9	23 + 23 = 46.
+f8aa1237	Which division repairs a skin wound?
+d11b5fd8	Skin cells multiply by mitosis.
+dadc7ad2	Spell the term for the cell division that halves the chromosomes
+319037a9	meiosis; reduction division.
+b76c850d	Abnormal growth
+4ff2e4dc	When cells get out of control
+9f894d3f	neo- (new) + -plasm: a new growth; a tumour
+b13992ca	carcin/o + -gen: a cancer-causing agent
+32c8d452	cancer-causing (adjective)
+65f2cd87	abnormal (increased) condition of cells
+ad5a2019	organ/o (organ) + -megaly (enlargement): abnormal enlargement of an organ
+b7242ef4	-gen is the producer and -genic its adjective: a carcinogen (cigarette smoke) is a carcinogenic substance.
+90d4c55a	a new, abnormal growth of tissue (a tumour)
+d63a94bf	blood plasma
+0ac7a312	a newborn cell
+0afdeb5f	the material inside the nucleus
+91b04c3a	neo- = new + -plasm = formation.
+319dac0f	-oma and -sarcoma
+f792b2a7	tumour or mass: myoma = muscle tumour
+f531f0b3	malignant tumour of connective tissue: myosarcoma
+33f503aa	Most -omas are benign (myoma, fibroma), but carcinoma and sarcoma are malignant. The suffix alone doesn’t tell you whether a tumour is benign or malignant.
+9f954dca	muscle tumour
+371cac49	malignant muscle tumour
+9d4b41b9	enlarged organ
+2a6e7e58	carcinogenic means “cancer-causing”.
+a311767a	carcin/o + -genic (producing).
+bea4cf20	In organomegaly, the suffix ___ means “enlargement”.
+27e9cf67	Which term refers to a malignant tumour of connective tissue?
+c3052685	benign neoplasm
+ca6863d4	sarc/o = flesh (connective tissue).
+bea5fc0e	Build the term that means “an agent that causes cancer”
+5193bb2e	Spell the term for a new, abnormal growth (tumour)
+2c715188	The cell and tissue lab
+24076db0	Biopsy: a piece for diagnosis
+d9bd9062	A <b>biopsy</b> (Bx) is the removal and examination of <b>living tissue</b> to reach a diagnosis (⟦0⟧ = life + ⟦1⟧ = viewing). The sample is examined under the microscope by a histologist or pathologist.
+dbfe080a	Latin lab phrases
+8b7dc99f	Phrase
+ed5e78ce	in the laboratory; “in glass”
+149b541a	in its original place; not spread
+cab9b147	as a whole
+8719b909	vitro means glass (as in vitrine); vivo means living (as in vivid). A test tube is glass!
+585bfab7	A test done on cells in a lab dish is…
+03abb223	vitro = glass.
+504fa648	Match each phrase to its meaning
+7bba804c	in the laboratory
+0e395870	in its original place
+38151d83	carcinoma in situ means a cancer that hasn’t yet spread from where it started.
+98fe1eab	in situ = in its original place.
+df9df5b3	Zakaria’s chart
+68817b0f	Zakaria is a medical student; he is tired, can’t concentrate and thinks he has an underactive thyroid. The physician does a <b>ROS</b> and a full examination and orders blood sugar, a <b>CBC</b> and thyroid tests; all <b>WNL</b>. The cause? Too little sleep and a poor diet.⟦0⟧
+691268db	Self-diagnosis is so common among medical students that it has a name: “medical student syndrome”. The tests always have the final word.
+63d4f3be	In Zakaria’s chart, ROS means…
+59ab10f0	reviewing the body systems by asking the patient
+7990d5b5	a tissue sample
+9fa7ed2d	a radiology study
+8ead93b2	Zakaria, a medical student
+40aa13ca	fatigue and poor concentration
+80c337be	Tests
+132747a6	sugar, CBC and thyroid: WNL
+e5322a22	Spell the term for removing living tissue for diagnosis
+80004cae	bi/o (life) + -opsy (viewing).
+6dd6b574	Review of the “Genes, division and the lab” level
+2d9c5b9b	mitosis: two identical cells with 46 • meiosis: sex cells with 23
+c0f12430	neoplasm a new growth (tumour) • carcinogen cancer-causing • -oma a mass • sarcoma a malignant connective-tissue tumour
+4b3e57cd	biopsy (Bx) removing living tissue for diagnosis
+41038369	in vivo in the body • in vitro in the lab • in situ in place • postmortem after death
+b04e50d3	Epithelial, connective, muscle and nervous tissue, parietal and visceral membranes, the skin and tissue injuries
+d4f460c2	The four main tissues
+c15297fb	Muscle, nerve and membrane
+841e459f	Skin and tissue injury
+53520683	The four tissue families
+c9cdd776	Just four kinds of tissue
+3fb09d04	A <b>tissue</b> is a group of similar cells that work together on one job. ⟦0⟧ = tissue. The whole body is made of just four kinds of tissue:⟦1⟧• <b>epithelial</b>: covering surfaces and lining passages<br>• <b>connective</b>: joining and supporting; the most widespread tissue in the body<br>• <b>muscle</b>: contraction and movement<br>• <b>nervous</b>: carrying messages
+5bf6e045	Match each tissue to its main job
+e4b53b80	covering and lining
+3cc59ce7	contraction and movement
+cf36544c	carrying electrical signals
+e1b057e9	Tissues throughout the body
+ba63de6b	Each circle shows a tissue under the microscope: nervous in the brain, epithelial in the skin, muscle in the heart and thigh, connective in bone and cartilage.
+82b34bae	Imagine the body as a house: the tiles and paint (epithelial), the steel beams and mortar (connective), the lift motor (muscle) and the wiring (nervous).
+208fe95a	Which is the most abundant and widespread tissue in the body?
+b3bfac67	Connective tissue is everywhere: bone, cartilage, tendon, fat and even blood.
+80915474	Nervous tissue needs oxygen and food more than any other tissue.
+2b2a5618	Correct; that is why the brain is damaged so quickly when oxygen runs short.
+e9d89c9c	The study of tissues is called ___.
+6a2001c4	Which is not an example of connective tissue?
+f3d18b6a	the outer skin (epidermis)
+c7846d70	The epidermis is epithelial tissue; the rest are connective.
+82f9f9f3	In this picture, which tissue is shown inside the skull?
+80fa3cdc	The brain and spinal cord are made of nervous tissue.
+59657e1e	Spell the two-word term for supporting tissue such as bone, tendon and fat
+46f08efb	Epithelial tissue
+04a15336	The body’s covering
+dbf12a77	<b>epithelial tissue</b> (⟦0⟧ = upon + ⟦1⟧ = nipple, a thin layer) covers the outer surface of the body, lines hollow organs and passages, and forms glands (<b>glandular epithelium</b>, which makes secretions). Its jobs: <b>protection, absorption, secretion and excretion</b>.

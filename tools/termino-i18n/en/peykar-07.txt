@@ -1,0 +1,197 @@
+f8c3d86d	Spell the term for the tissue response of redness, heat, swelling and pain
+d54cf6ce	inflammation; it has two m’s.
+2764e27d	Tissues in action
+4bfeac10	One muscle, several tissues
+ec010f2e	The biceps of the arm (<b>biceps brachii</b>) shows how several tissues make up one organ: <b>muscle tissue</b> contracts, the <b>tendon</b> (connective) attaches it to bone and a <b>nerve</b> gives the command.⟦0⟧
+80f78254	Contracting the biceps bends the elbow (flexion); tendons attach the muscle to the bones.
+7a62627f	In this picture, what is the part that attaches the muscle to the bone called?
+0e4eac78	tendon = muscle to bone.
+3cd88f5c	Where does a muscle get its name?
+c52bdba9	• <b>biceps</b> = bi- (two) + ceps (head): a two-headed muscle<br>• <b>brachii</b> = pertaining to the arm (⟦0⟧)<br>⟦1⟧
+f44b7266	Intramuscular (IM) injections are often given into the deltoid muscle of the shoulder or the gluteal muscle, because the muscle is large and away from big vessels and nerves.
+e99ff8e1	Match each part to its tissue
+793f3e4b	muscle fibre
+887eeb17	skin over the arm
+6013bed3	nerve of the arm
+80a96a41	The prefix bi- in biceps means “two”.
+fef9d84c	biceps = two heads; triceps = three heads.
+b5dc8b35	skeletal muscle tissue
+ae6acc51	biceps of the arm
+aafdf3ad	muscular system
+c19f6da4	Cell → tissue → organ → system.
+7c28266e	A ligament joins bone to ___.
+7ef5cd4a	A ligament joins bone to bone; a tendon joins muscle to bone.
+5c2fadfa	Which tissue acts as a shock absorber in the knee?
+e5ba514d	Joint cartilage is the shock absorber.
+ad1a8e2f	Spell the term for the band that joins muscle to bone
+cc14895e	tend/o, tendin/o.
+1898ed91	Review of the “Skin and tissue injury” level
+be959f34	Skin = epidermis + dermis; beneath it the subcutaneous layer (fat); derm/o, dermat/o and cutane/o = skin
+7d474e70	perionychium the tissue around the nail ≠ paronychia an infection beside the nail
+c327a3dd	Injury: inflammation with the suffix -itis • fibrosis scarring • adhesion scar bands sticking together • sepsis widespread inflammation from infection
+8011f5d5	Every organ is made of several tissues, like the biceps: muscle + tendon + nerve
+d8a22da0	The body systems, their organs and roots, from skin and skeleton to glands, and the medical specialties
+6be16415	The map of the systems
+38fc7572	Circulation, breathing and digestion
+c0ad8b36	Excretion, control and specialties
+6ff10249	Twelve teams, one body
+9b45ceb5	A <b>system</b> is a group of organs that work together on a complex job. Textbooks count 11 to 13 systems:⟦0⟧
+57ebe991	Each system’s job in one sentence
+b94c05c1	skin and appendages: a two-way protective barrier and temperature control
+ea7159b2	support, movement, making blood cells, storing minerals
+e59b5330	pumping blood to deliver food and oxygen
+fce04f5a	defence against disease and germs
+2e12f993	receiving sensory information and coordinating the response
+f213a584	regulating metabolism with hormones
+64eec6c2	taking in oxygen and getting rid of carbon dioxide
+b78513cf	digesting and absorbing food
+62c85466	filtering the blood and removing waste
+17f78b1c	making eggs and sperm; growth of the unborn baby
+69bbcc1b	integumentary comes from integument (covering), like the cover of a book that wraps all the pages.
+2d120923	Match each system to its main job
+410c5922	taking in oxygen, removing CO₂
+2b8013df	regulation by hormones
+0add9112	protective barrier and temperature control
+5a5cd44a	Which system is the body’s “two-way protective barrier” and helps control temperature?
+158431ba	The skin and its appendages.
+8170465c	The musculoskeletal system also helps make blood cells.
+d34a6395	Correct; the red bone marrow makes blood cells.
+cbcafc7d	The ___ system regulates metabolism with hormones it secretes straight into the blood.
+c66cdac3	endo- (within) + crin/o (secrete).
+91ee5384	Which system pumps blood to deliver nutrients and oxygen?
+355dd9e7	cardi/o (heart) + vascul/o (vessel).
+a41ec7eb	Build the term that means “pertaining to the heart and vessels”
+8975b453	Spell the adjective for the skin system (the ___ system)
+32870e73	Skeleton and muscle
+d716ae55	A moving framework
+6d1acbea	The <b>musculoskeletal</b> system includes 206 bones, the joints, cartilages, ligaments and all the muscles.⟦0⟧⟦1⟧
+1d2449a5	the skeletal system and its roots
+40b1146a	the muscular system and its roots
+045994ac	my/o, muscul/o
+fa425bfc	tend/o, tendin/o
+fb610d47	tendon inflammation
+0038c952	Word building with bone and joint
+1b222921	• ⟦0⟧ → <b>osteoarthritis</b>: inflammation of bone and joint<br>• ⟦1⟧ → <b>chondroma</b>: a cartilage tumour<br>• ⟦2⟧ → <b>myalgia</b>: muscle pain⟦3⟧
+84a79b92	The bone and joint specialist is an orthopedist: orth/o (straight) + ped/o (child), because the field began with straightening children’s crooked bones.
+4fd97932	The adult body has 206 bones.
+61524a5a	Correct; a newborn has more bones, which fuse later.
+57213a98	In myalgia, the suffix ___ means “pain”.
+7dda73ef	-algia and -dynia both mean pain.
+f2323cd5	Which system does the spine belong to?
+177a339d	lymphatic
+d11234a2	The spine is bone; the spinal cord inside it is nervous tissue.
+4f46607a	Build the term that means “inflammation of a joint”
+204693a6	Spell the specialty of bones and joints
+985b60a8	Nerves and senses
+3f5a839a	The body’s commander
+52760f3c	The <b>nervous</b> system regulates most of the body’s activities:<br>• <b>CNS</b> (central nervous system): the brain and spinal cord<br>• peripheral nerves: 12 pairs of cranial nerves and 31 pairs of spinal nerves⟦0⟧⟦1⟧The science of the nervous system is <b>neurology</b>.
+45cbb684	the brain, spinal cord and nerves, and the roots of the nervous system, eye and ear
+6d990519	cerebrum
+db769712	spinal cord (and bone marrow)
+1d55758e	What does the CNS include?
+4da7eedb	the brain and spinal cord
+a4174a21	the brain and eyes
+be78bb08	the spinal cord and peripheral nerves
+44df7823	all the nerves of the body
+58fcf44d	Eye and ear
+11b8c32f	⟦0⟧⟦1⟧Eye medicine is <b>ophthalmology</b>, and ⟦2⟧ appears in <b>otitis</b> (inflammation of the ear).⟦3⟧
+fdfc7027	section of the eye
+14970ecc	section of the ear
+475ae784	ophthalm/o, ocul/o
+e7e586ad	eyelid
+22c1ceae	Remember ocul/o through “ocular” and “binoculars”; ot/o through “otoscope”, the ear light.
+87a566e5	In the nervous system, myel/o refers to the spinal cord.
+212b8b95	Correct; in haematology the same root means bone marrow.
+4a0bf5ee	The study of diseases of the nervous system is ___.
+b1f6bbc3	How many pairs of spinal nerves are there?
+b3c2c91c	31 pairs
+dd396bf9	12 pairs
+afeee9e0	23 pairs
+7349b2b2	12 pairs of cranial nerves and 31 pairs of spinal nerves.
+b5e159e7	Build the term that means “inflammation of the brain”
+3b625a2a	ophthalm/o + -logy; don’t forget the ph and th.
+fa86b19a	Review of the “Map of the systems” level
+4f39f09c	Systems: integumentary, musculoskeletal, nervous, endocrine, cardiovascular, lymphatic, respiratory, digestive, urinary, reproductive
+c011c3bc	Skeleton and muscle: oste/o bone • arthr/o joint • chondr/o cartilage • my/o muscle • tendin/o tendon
+cd542f04	Nerves: encephal/o brain • cerebr/o cerebrum • myel/o spinal cord • neur/o nerve; CNS = brain + spinal cord
+22d3bedd	Senses: ophthalm/o and ocul/o eye • blephar/o eyelid • ot/o ear
+fd2b85c2	Heart, blood and lymph
+67967aad	The circulatory system
+c76103ad	The <b>cardiovascular</b> system is the heart and vessels; it carries blood to every tissue and takes waste away.⟦0⟧⟦1⟧• <b>cardiology</b>: the study of the heart<br>• <b>phlebotomy</b>: ⟦2⟧ (incision); drawing blood from a vein
+a22b853a	Arteries (red) carry blood away from the heart and veins (blue) bring it back.
+c1271d86	angi/o, vascul/o
+bb0b4c6d	artery: carries blood away from the heart
+a4411216	ven/o, phleb/o
+aca5e22f	vein: brings blood back to the heart
+ef9796dc	hem/o, hemat/o
+2d62eb77	Which vessel carries blood away from the heart?
+a3e267a9	An artery carries blood away from the heart; a vein carries it to the heart.
+cf30ea25	The lymphatic and immune system
+24e81f9f	nodes, lymph vessels, the spleen, thymus and tonsils
+1aa34119	lymph node
+c37033fd	adenoid
+3eea6fc9	Artery = Away from the heart (A-A). A vein visits the heart and comes back.
+333f5693	The lymphatic system protects the body against disease and germs.
+846f529a	Correct; together with the immune system.
+fc7b69b9	In phlebotomy (drawing blood), the root phleb/o means ___.
+924d66ed	phleb/o = ven/o = vein.
+104e1d57	Which specialty is ⟦0⟧?
+45f18759	Spell the adjective meaning “pertaining to the heart and vessels”
+7d3bbd5f	The respiratory system
+0ae5582e	The path of air
+5d44b39f	The <b>respiratory</b> system takes oxygen from the air and gets rid of carbon dioxide.⟦0⟧⟦1⟧
+7cacc04e	the nose, pharynx, larynx, trachea, bronchi, lungs and diaphragm
+209078b1	rhin/o, nas/o
+9a31ac4a	nose
+180a15d3	throat (pharynx)
+f21d01bf	voice box (larynx)
+ec66b71b	windpipe (trachea)
+b576ff1b	bronchus
+2e26c153	pulmon/o, pneum/o
+d35ffef6	lung
+1d5d46a1	Put the path of air in order from outside to inside
+6e38892d	Nose → pharynx → larynx → trachea → bronchus → lung.
+5b6d6469	Two roots for the lung
+0185f31a	Latin: pulmonary, pulmonology
+10c9b506	pneum/o, pneumon/o
+69bbccdf	Greek: pneumonia
+9ab30756	The pharynx is a passage for both air and food; that is why it also appears in the table of digestive roots.
+ba38a367	The larynx is the “voice box”; laryngitis means a hoarse voice. The pharynx is behind the mouth; pharyngitis means a sore throat.
+f8176fdc	What is the main symptom of ⟦0⟧?
+1779f21c	hoarseness or loss of voice
+f862d361	coughing blood
+fcbcbe65	larynx = voice box; its inflammation takes away the voice.
+be16e279	The diaphragm is the main muscle of breathing.
+cfddb91d	Correct; when it contracts the diaphragm moves down and draws air into the lungs.
+9fc0665f	In bronchitis, the root bronch/o means ___.
+29e5edaf	bronch/o = bronchus.
+ca62eb79	Build the term that means “inflammation of the throat (pharynx)”
+354bc799	Spell the term for the windpipe
+80bee077	The digestive system
+8c8138a7	The digestive tube
+a0e3dd9c	The <b>digestive</b> (gastrointestinal, or <b>GI</b>) system is one long tube: mouth, oesophagus, stomach and intestines. The accessory organs: <b>the liver, gallbladder, pancreas and salivary glands</b>.⟦0⟧⟦1⟧
+d1fb69cc	mouth, pharynx, oesophagus, stomach, liver, small and large intestine, anus
+79afc36d	or/o, stomat/o
+3608aba7	oesophagus
+91cbd2ff	intestine (especially the small intestine)
+989f6bd2	large intestine (colon)
+828f4a16	Which is an accessory organ of digestion, not part of the digestive tube?
+dadc2fa6	The liver, gallbladder, pancreas and salivary glands are accessory organs.
+fe598029	Common digestive terms
+66c787ae	• ⟦0⟧ → <b>gastroenterology</b>: the study of the stomach and intestines<br>• ⟦1⟧ → enlarged liver<br>• ⟦2⟧ → stomach inflammation⟦3⟧
+815bf384	the abdominal organs from the front: liver, stomach, small and large intestine
+17abdc11	Case: coeliac disease
+0a77cc12	A 23-year-old woman with bloating, abdominal pain, chronic diarrhoea and a <b>BMI</b> of 17.5 has been referred to a gastroenterologist. Tests show <b>coeliac disease</b> and anaemia. Treatment: a strict gluten-free diet (<b>GFD</b>) and a follow-up visit in 6 weeks.⟦0⟧
+eae0ee2c	In coeliac disease, gluten damages the small intestine (enter/o) and the absorption of iron and nutrients falls; that is why anaemia and weight loss go with it.
+d1abbc44	In this case, GFD means…
+c00a02c1	a digestive function test
+ae9385f5	stomach reflux
+27032845	the genitourinary system
+c77a5a58	23-year-old woman
+56de8096	bloating, abdominal pain, chronic diarrhoea
+0c34d850	coeliac disease and anaemia
+f002c730	Gastroenterology is the study of the stomach and intestines.
+5634b508	Spell the term for the food pipe from throat to stomach
+316ef5f0	Review of the “Circulation, breathing and digestion” level
+4a830fdf	Circulation: cardi/o heart • angi/o and vascul/o vessel • arteri/o artery (away from the heart) • ven/o and phleb/o vein (to the heart)
+ffaef3e7	Lymph: lymph/o lymph • lymphaden/o node • splen/o spleen • tonsill/o tonsil

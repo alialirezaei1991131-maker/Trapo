@@ -1,0 +1,174 @@
+dd29307c	Simple or stratified?
+353da367	⟦0⟧⟦1⟧<b>stratum</b> means layer (plural: <b>strata</b>).⟦2⟧
+3a24b532	simple: one layer
+3b8fcf2a	stratified: many layers
+2c321b8c	Remember stratified through the “storeys of a building”: the more storeys, the more protection. The skin is stratified, the intestinal wall simple.
+a7705542	What is many-layered epithelium that protects the tissues beneath called?
+8b7845a4	stratum = layer.
+9464cd96	Match each type to its job
+57da5297	absorbing and transporting substances
+7401833a	protecting the layers beneath
+090ef5b3	making secretions in glands
+34e79c40	The insides of the digestive, respiratory and urinary tracts are lined with epithelial tissue.
+a43486ff	Correct; epithelial tissue covers both the outer surface and the inner surface of passages.
+c1a351c3	Tumour of epithelial tissue
+cbd77337	⟦0⟧ → <b>epithelioma</b>: a tumour of epithelial tissue.⟦1⟧
+36a025c7	Most human cancers (carcinomas) start in epithelial tissue, because these cells divide constantly to keep the surface fresh.
+2ffca2bd	The plural of stratum (layer) is ___.
+a2b8afe5	-um → -a. striae means streaks and grooves.
+121b2c2c	inflammation of epithelial tissue
+ab90140d	removal of epithelial tissue
+adaae413	a healthy epithelial cell
+fd6c4647	Spell the term for lining tissue
+d9f63d9b	epithelium; plural epithelia.
+0a477632	The body’s glue and scaffolding
+67c14c7e	<b>connective tissue</b> joins the parts of the body and holds them up:⟦0⟧
+edda6d4a	framework and support
+f46e8c26	shock absorber in the joints
+907dc8fa	joins muscle to bone
+0789b4ec	joins bone to bone
+61679b62	adip/o, lip/o
+bba85ff0	energy store and padding
+ea44f629	liquid connective tissue
+692021b5	Which tissue joins muscle to bone?
+68f3e77b	Tendon = muscle to bone; ligament = bone to bone.
+dad86c48	Under the microscope
+7ee69165	A: fatty tissue (adipose) • B: cartilage • C: bone
+a6339d33	Tendon: To bone from muscle (T-T); Ligament: Links bones (L-L)
+24469534	Match each root to its tissue
+a330002c	fibre
+3ecc4f78	In this picture, which tissue is part B, where the cells sit in small spaces in a hard matrix?
+30a93008	Cartilage cells (chondrocytes) sit in spaces called lacunae.
+cc8f506d	Blood is also a kind of connective tissue.
+f57be232	Correct; a liquid connective tissue with a fluid matrix (plasma).
+d9f38c7b	In hypochondriac, the root chondr/o means ___.
+d1ab0384	The region below the rib cartilages.
+b2273f24	Spell the term for firm, shock-absorbing connective tissue
+f3fc8c0f	cartilage; root chondr/o.
+63b22411	Review of the “Four main tissues” level
+d93035b7	Four tissues: epithelial covering • connective joining and support • muscle contraction • nervous messages
+944eb8c9	Simple epithelium (one layer, absorption) and stratified (many layers, protection); glandular epithelium makes secretions
+5ce4f6d5	Connective: bone • cartilage • tendon muscle to bone • ligament bone to bone • adipose fat • blood
+1a289d47	Roots: hist/o tissue • oste/o bone • chondr/o cartilage • adip/o and lip/o fat
+6ad97c59	Three types of muscle
+c7ec0dea	The tissue that contracts
+c9ec8006	<b>muscle tissue</b> (⟦0⟧, ⟦1⟧) produces movement by contracting and relaxing:⟦2⟧• <b>skeletal</b>: attached to bone; voluntary and striped<br>• <b>cardiac</b>: only in the heart wall; involuntary and striped<br>• <b>smooth</b>: walls of the intestine, uterus and vessels; involuntary and smooth
+43a9615d	Match each muscle to where it is found
+629d568e	attached to bone
+4f32b408	only in the heart
+f317ce4a	walls of the intestine, uterus and vessels
+fb60b485	A: skeletal, with cross stripes (striations) • B: cardiac • C: smooth
+e5c5bd7c	voluntary: skeletal muscle; under our command
+fa154075	involuntary: cardiac and smooth
+d9935f19	striated means “striped”. Skeletal and cardiac are both striped; smooth muscle, as its name says, is smooth.
+608b597f	Which muscle is both striated and involuntary?
+0f6bc6e6	Cardiac muscle is striped but not under our command.
+2cbaf68e	Smooth muscle is also called visceral muscle.
+e6ce044d	Correct; because it is in the walls of the viscera (internal organs).
+57859446	Inflammation and tumours of muscle
+f6d2c301	• ⟦0⟧ → <b>myositis</b>: muscle inflammation<br>• ⟦1⟧ → <b>myoma</b>: a benign muscle tumour<br>• ⟦2⟧ → <b>myosarcoma</b>: a malignant muscle tumour⟦3⟧
+8c300993	A uterine myoma (fibroid) is the most common benign tumour in women and starts in the smooth muscle of the uterus.
+ff2cec7b	Because of its cross stripes, skeletal muscle is also called ___ muscle.
+25f0d8e2	striated
+b2af7b1e	smooth
+6d01172a	striated = striped.
+1712a1ad	muscle inflammation
+95c16ef8	torn tendon
+117148ba	Build the term that means “malignant muscle tumour”
+770f935e	The body’s wiring
+6572224f	<b>nervous tissue</b> (⟦0⟧) carries electrical messages between the brain, the spinal cord and every part of the body, and coordinates its activities. Its working unit is the <b>neuron</b> (nerve cell), and the science of the nervous system is called <b>neurology</b>.⟦1⟧
+6c80bddc	A: a neuron with its cell body and fibres • B: bundles of nerve fibres in a nerve • C: grey and white matter
+e5e96c4a	What is the working cell of the nervous system called?
+f378a5cf	neuron = nerve cell.
+d9dd5bf0	Grey and white
+6149cd75	⟦0⟧Nervous tissue makes up the brain, the spinal cord and the nerves throughout the body.⟦1⟧
+e5705128	neuron cell bodies; processing
+e62f05ed	nerve fibres covered in myelin; transmission
+f78890df	Neuropathy (nerve disease) is common in diabetes: the patient feels pins and needles and numbness in the feet.
+5af56b74	the science of the nervous system
+a398c0fe	Nervous tissue is found only in the brain.
+fe12cab7	False; the spinal cord and all the peripheral nerves are nervous tissue too.
+c2db4184	In neuropathy, the suffix ___ means “disease”.
+446423dc	What is the brain’s grey matter mostly made of?
+76b9e7c2	neuron cell bodies
+bd5b6ef7	myelinated fibres
+88e0b3a4	fat cells
+462fc755	White matter is fibres covered in myelin.
+36056903	Spell the term for a nerve cell
+e174eebf	Body membranes
+536a5a2b	The two-layered covering of organs
+af3b0e99	The large body cavities are lined with a <b>two-layered membrane</b>:⟦0⟧⟦1⟧
+86640d56	the layer covering the wall of the cavity (pariet/o = wall)
+af8425c7	the layer on the organ itself (viscer/o = internal organs)
+6ef1a323	Pleura and peritoneum
+a0348d5f	• <b>pleura</b>: the two-layered membrane around the lungs and the chest wall<br>• <b>peritoneum</b>: the two-layered membrane of the abdominopelvic cavity<br>• <b>retroperitoneal</b>: behind the peritoneum; the <b>kidneys</b> are the only large abdominal organs outside and behind the peritoneal sac⟦0⟧
+20277463	pleura = lung (pleur/o), peritoneum = abdomen. Both start with P and both have two layers, parietal and visceral; P and V again!
+368eb9b8	Where are the kidneys in relation to the peritoneum?
+425594e0	retroperitoneal: behind the peritoneum
+cb8cfac8	inside the peritoneal sac
+27dce46b	inside the pleura
+d18bf5fe	on the diaphragm
+4c7862c4	retro- = behind.
+56ef8e09	membrane of the lungs and chest
+62dd2ae0	membrane of the abdominal cavity
+91534dac	the wall layer
+60e9a464	the layer on the organ
+a4f90d81	The visceral layer of the pleura lies directly on the surface of the lung.
+5098ef6b	Correct; the parietal layer covers the chest wall.
+a0c5b4f7	Mucous membrane
+48d318a9	Mucous membranes line the passages that open to the outside (mouth, nose, gut) and secrete <b>mucus</b>. ⟦0⟧ = mucus.⟦1⟧
+79084f51	Mind the spelling: mucus is the noun (the slime itself) and mucous the adjective (mucous membrane).
+62a3637f	The slimy substance secreted by a mucous membrane is called ___.
+ddf9c6a5	mucus is the noun; mucous the adjective.
+6687ff97	What is inflammation of the pleura called?
+b4c9ed5b	pleur/o + -itis. Inflammation of the peritoneum is peritonitis.
+6f60d83b	Build the term that means “behind the peritoneum”
+6e923d4e	Review of the “Muscle, nerve and membrane” level
+93ea75b9	Muscle: skeletal voluntary and striped • cardiac involuntary and striped • smooth (visceral) involuntary and smooth
+da9fe9f3	my/o: myositis inflammation • myoma benign tumour • myosarcoma malignant tumour
+e6144279	Nervous: neuron nerve cell • grey matter cell bodies • white matter myelinated fibres
+97e1903c	Membranes: parietal on the wall • visceral on the organ • pleura around the lungs • peritoneum in the abdomen • mucus the noun and mucous the adjective
+e8191686	The skin, an organ of several tissues
+a1d9aecc	The integumentary system
+57024afd	The <b>integumentary system</b> (the body’s covering) includes the skin and its appendages: <b>hair, nails, sweat glands and oil glands</b>. The skin is a protective two-way barrier and helps regulate temperature. ⟦0⟧, ⟦1⟧, ⟦2⟧ = skin.
+fc2c57bd	Layers of the skin
+f7d27357	⟦0⟧• <b>epidermis</b>: the outer layer (epi- = upon)<br>• <b>dermis</b>: the layer beneath, with vessels and nerves<br>• <b>subcutaneous</b>: under the skin, fatty tissue
+52651199	from outside in: epidermis, dermis, subcutaneous fat and muscle
+728c1ee5	What is the outer layer of the skin called?
+7de79822	epi- (upon) + derm/o (skin).
+52e7ddea	Skin numbers
+067db1e8	• Every square inch of skin has about <b>3 million cells</b><br>• The skin contains about <b>72 kilometres</b> of nerves<br>• The skin is made of epithelial, connective and nervous tissue, so it is an <b>organ</b>⟦0⟧
+793c909d	dermatology = derm (skin) + logy; the skin specialist is a dermatologist. cutaneous also means skin, but from Latin.
+232e6752	Match each root to its meaning
+14b37306	The nail and around it
+3b79a660	peri- + onych/o: the tissue around the nail
+55a9533b	para- + onych/o: an infection beside the nail
+b0940fdb	Paronychia often starts after picking the skin beside the nail or a manicure: the nail fold is red, swollen and painful.
+7aeab24b	The integumentary system also includes the sweat and oil glands.
+ecf76320	Correct; hair, nails and glands are the appendages of the skin.
+e05ade28	An infection of the tissue beside the nail is called ___.
+6d1aedf9	para- = beside.
+06424013	Build the term that means “the study of the skin”
+258fa0c0	Tissue injury and repair
+fd6ae5b4	How tissue responds to injury
+c86ff565	<b>Inflammation</b> is the tissue’s protective response to irritation, infection or allergy. The signs: redness, heat, swelling and pain. Its suffix is ⟦0⟧.⟦1⟧
+2e2baee3	skin inflammation
+4f2a2611	Which is the suffix for “inflammation”?
+da999af7	-itis = inflammation.
+c8ad26ea	Scars and adhesions
+4811ebdf	• <b>fibrosis</b>: replacement of tissue with fibrous (scar) tissue; ⟦0⟧<br>• <b>adhesion</b>: bands of scar tissue that stick together two surfaces that should be separate, mostly in the <b>abdomen</b> after surgery, inflammation or injury<br>• <b>liposuction</b>: ⟦1⟧ (fat) + suction; removing fat under the skin by suction⟦2⟧
+c748795c	Abdominal adhesions after surgery are the most common cause of bowel obstruction in adults.
+bb135d98	When inflammation becomes widespread
+44e7892a	<b>Sepsis</b> is the body’s inflammatory response to infection, with <b>fever</b>, a <b>fast heart rate and breathing</b> and <b>low blood pressure</b>. It is a medical emergency.⟦0⟧
+8ea113f9	Remember sepsis through “septic” (infected): a septic tank is a tank of contaminated waste!
+8aed80c3	formation of fibrous tissue
+1b11a4e9	two surfaces stuck together by scar tissue
+9871d4d9	the tissue’s protective response
+291e3ac9	a whole-body inflammatory response to infection
+1b420f75	Adhesions most often form after abdominal surgery.
+046c1db5	Correct; surgery, inflammation or injury can create bands of scar tissue.
+e9134105	A condition with fever, a fast pulse and breathing and falling blood pressure after an infection refers to which?
+cdbd6991	Sepsis is the systemic inflammatory response to infection.
+c3e7f309	Liposuction means sucking out and removing ___.
+71aeb56a	brain fluid
+d5189aa7	lip/o = fat.
