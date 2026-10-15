@@ -2088,6 +2088,28 @@ body { text-rendering: auto; font-kerning: normal; font-optical-sizing: auto; }
 :root[lang="en"] .dc__sub { letter-spacing: -.005em; }
 .dhero__nums b, .dc__prog span, .dd__nums b { font-variant-numeric: tabular-nums; }
 
+/* ===== کیس بالینی امروز: دکمه در صفحه اول + پنجره ===== */
+.dcbtn { position: relative; display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 6px 16px 6px 14px; border-radius: 18px; cursor: pointer; font: inherit; color: var(--text); text-align: start;
+  border: 1.5px solid color-mix(in srgb, #ffc800 55%, var(--line)); background: linear-gradient(135deg, color-mix(in srgb, #ffc800 18%, var(--bg)), color-mix(in srgb, #ff9600 8%, var(--bg)));
+  box-shadow: 0 6px 18px -12px rgba(229, 165, 0, .9); transition: transform .15s, box-shadow .15s; }
+.dcbtn:hover { transform: translateY(-2px); box-shadow: 0 10px 24px -12px rgba(229, 165, 0, .95); }
+.dcbtn__i { font-size: 24px; line-height: 1; }
+.dcbtn__t { display: flex; flex-direction: column; line-height: 1.45; }
+.dcbtn__t b { font-weight: 900; font-size: 14.5px; }
+.dcbtn__t small { color: var(--muted); font-weight: 700; font-size: 12px; }
+.dcbtn__dot { position: absolute; top: -4px; inset-inline-end: -4px; width: 14px; height: 14px; border-radius: 50%; background: #ff4b4b; border: 2.5px solid var(--bg); }
+.dcbtn__ok { font-style: normal; font-weight: 900; color: #58a700; font-size: 18px; margin-inline-start: 2px; }
+.dcbtn.is-done { border-color: color-mix(in srgb, #58cc02 40%, var(--line)); background: color-mix(in srgb, #58cc02 7%, var(--bg)); box-shadow: none; }
+.modal--dcase .modal__card { position: relative; max-width: 640px; padding: 0; text-align: start; gap: 0; overflow-x: hidden; align-items: stretch; }
+.modal--dcase .dcase { margin: 0; border: 0; border-radius: 0; padding: 22px 22px 14px; }
+.modal--dcase .dcase__h { padding-inline-end: 40px; }
+.dcpop__x { position: absolute; top: 14px; inset-inline-end: 14px; z-index: 2; }
+.dcpop__f { display: flex; align-items: center; justify-content: space-between; gap: 12px; flex-wrap: wrap; padding: 12px 22px 18px; border-top: 1.5px solid var(--line); background: var(--bg2, var(--bg)); }
+.dcpop__auto { display: inline-flex; align-items: center; gap: 10px; font-weight: 700; font-size: 14px; color: var(--muted); cursor: pointer; }
+@media (max-width: 520px) { .dcpop__f .btn { width: 100%; } .modal--dcase .dcase { padding: 20px 16px 12px; } }
+/* کلید روشن/خاموش در صفحه اول (بدون رنگ دوره) هم وقتی روشن است رنگ بگیرد؛ رنگ هر دوره همچنان غالب است */
+:where(.sw):checked { background: var(--green, #58cc02); }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

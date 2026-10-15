@@ -3870,7 +3870,39 @@ P — Plan: …`);
       pSfx('done'); pConfetti(90);
     } else pSfx('wrong');
     const sec = b.closest('.dcase'); if (sec) sec.outerHTML = dailyCaseHTML();
+    document.querySelectorAll('.dcbtn').forEach(x => { x.outerHTML = dcaseBtn(); });
   });
+  /* کیس روزانه به‌شکل پنجره: دکمه «کیس امروز» در صفحه اول، باز شدن خودکار یک بار در روز (قابل خاموش کردن) */
+  const dcaseAutoOn = () => prefs().dcase !== false;
+  const dcaseSolved = () => { const d = dailyCase(), done = LS.json('academy.dcase', null); return !!(d && done && done.day === d.day); };
+  function dcaseBtn() {
+    const d = dailyCase(); if (!d) return '';
+    const solved = dcaseSolved();
+    return `<button class="dcbtn ${solved ? 'is-done' : ''}" data-ac="dcase" aria-haspopup="dialog"><span class="dcbtn__i" aria-hidden="true">🌟</span><span class="dcbtn__t"><b>${PT('کیس بالینی امروز', 'Today’s clinical case')}</b><small>${solved ? PT('جواب دادی • کیس بعدی فردا', 'Answered • next case tomorrow') : PT(`+${nf(DC_XP())} XP و +${nf(DC_GEMS())} 💎 با یک جواب درست`, `+${nf(DC_XP())} XP and +${nf(DC_GEMS())} 💎 for a right answer`)}</small></span>${solved ? '<i class="dcbtn__ok" aria-hidden="true">✓</i>' : '<i class="dcbtn__dot" aria-hidden="true"></i>'}</button>`;
+  }
+  function dcaseModal() {
+    const d = dailyCase(); if (!d) return;
+    LS.set('academy.dcase.seen', d.day);
+    const m = pModal(`<button class="iconbtn dcpop__x" data-close aria-label="${PT('بستن', 'Close')}">✕</button>${dailyCaseHTML()}
+      <footer class="dcpop__f"><label class="dcpop__auto"><input type="checkbox" class="sw" data-dcauto ${dcaseAutoOn() ? 'checked' : ''}><span>${PT('هر روز خودکار نشان بده', 'Show automatically every day')}</span></label>
+        <button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></footer>`, { cls: 'modal--dcase' });
+    m.el.addEventListener('change', e => {
+      if (!e.target.matches('[data-dcauto]')) return;
+      const p = prefs(); p.dcase = e.target.checked; LS.put(PREF_KEY, p);
+      pToast(e.target.checked ? PT('🌟 کیس روزانه هر روز خودکار باز می‌شود', '🌟 The daily case will open automatically') : PT('🌟 خودکار باز نمی‌شود؛ از دکمه «کیس بالینی امروز» یا تنظیمات در دسترس است', '🌟 It won’t open automatically — use the “Today’s clinical case” button or Settings'));
+    });
+    return m;
+  }
+  /** یک بار در روز، اگر کاربر خاموشش نکرده، جواب نداده و پنجره دیگری باز نیست */
+  function dcaseAuto() {
+    if (!dcaseAutoOn() || MODE !== 'dash' || SUITE || !profile()) return;
+    const d = dailyCase(); if (!d || dcaseSolved() || LS.raw('academy.dcase.seen') === d.day) return;
+    clearTimeout(dcaseAuto.t);
+    dcaseAuto.t = setTimeout(() => {
+      if (MODE !== 'dash' || SUITE || document.querySelector('body > .modal, body > .player') || LS.raw('academy.dcase.seen') === d.day) return;
+      dcaseModal();
+    }, 1400);
+  }
   /** پاداش‌های کیس روزانه هنگام ورود به همان دوره به حسابش اضافه می‌شود */
   function claimRewards(cid) {
     const rw = LS.json('academy.rewards', {}) || {}, r = rw[cid];
@@ -4291,7 +4323,6 @@ P — Plan: …`);
         </div>
       </div></header>
       <div class="dwrap">
-        ${dailyCaseHTML()}
         ${SRV ? inviteHTML(true) : ''}
         <section class="dhero">
           <div class="dhero__txt">
@@ -4301,6 +4332,7 @@ P — Plan: …`);
             <p>${PT('هر دوره یک مسیر کامل است: درس‌های سه‌دقیقه‌ای، بیمارهای واقعی‌نما، ماشین‌حساب بالینی و گواهی پایان دوره. روی هر دوره بزن تا جزئیاتش را ببینی.', 'Each course is a complete path: three-minute lessons, realistic patients, clinical calculators and a certificate of completion. Tap a course to see the details.')}</p>
             <div class="dhero__cta">
               ${last && AC[last] ? `<a class="dcont" href="?course=${last}" style="--cc:${AC[last].color};--cd:${AC[last].dark}"><span class="dcont__m">${courseMascot(AC[last], 'happy', 30)}</span><span>${PT('ادامه از', 'Continue')} <b>${cName(AC[last])}</b></span><i aria-hidden="true">${PT('←', '→')}</i></a>` : ''}
+              ${dcaseBtn()}
               <a class="dgo" href="#dcourses">${PT('مشاهده دوره‌ها', 'See the courses')} <i aria-hidden="true">↓</i></a>
             </div>
             <ul class="dhero__nums">${[[list.length, PT('دوره', 'courses')], [tot.l, PT('درس کوتاه', 'short lessons')], [tot.q, PT('سؤال و مرحله', 'questions & steps')], [tot.r, PT('بیمار در راند', 'round patients')], [tot.t, PT('ابزار بالینی', 'clinical tools')]].map((x, i) => `<li style="--d:${i * 90 + 300}ms"><b data-count="${x[0]}">${nf(x[0])}</b><small>${x[1]}</small></li>`).join('')}</ul>
@@ -4318,6 +4350,7 @@ P — Plan: …`);
     if (openId) toggleDetail(openId);
     countUp(el);
     guardAnims();
+    dcaseAuto();
   }
   /** شمارنده‌های بالای صفحه از صفر بالا می‌روند */
   function countUp(root) {
@@ -4555,6 +4588,7 @@ P — Plan: …`);
             <div class="setc__r"><span>🌐 ${PT('زبان برنامه', 'App language')}<small>${PT('صفحه اول، پنجره‌ها و همه دوره‌ها؛ بلافاصله عوض می‌شود', 'Home, windows and every course — switches instantly')}</small></span>
               <div class="seg">${[['fa', 'فارسی'], ['en', 'English']].map(l => `<button class="seg__b ${(LS.raw('academy.lang') || 'fa') === l[0] ? 'is-on' : ''}" data-lang="${l[0]}" lang="${l[0]}">${l[1]}</button>`).join('')}</div></div>
             ${SRV ? '</div>' + accountHTML() + '<div class="setc">' : ''}
+            <label class="setc__r"><span>🌟 ${PT('کیس بالینی روزانه', 'Daily clinical case')}<small>${PT('هر روز یک بار در صفحه اول خودکار باز شود', 'Open automatically once a day on the home page')}</small></span><input type="checkbox" class="sw" data-dcauto ${prefs().dcase !== false ? 'checked' : ''}></label>
             <label class="setc__r"><span>🎵 ${PT('موسیقی پس‌زمینه', 'Background music')}<small>${PT('آرام و بی‌کلام، داخل همه دوره‌ها', 'Calm and wordless, in every course')}</small></span><input type="checkbox" class="sw" data-gmusic ${prefs().music !== false ? 'checked' : ''}></label>
           </div>
         </div>`;
@@ -4571,6 +4605,7 @@ P — Plan: …`);
     card.addEventListener('change', e => {
       if (e.target.matches('[data-motion]')) { const p = prefs(); p.motion = e.target.checked; LS.put(PREF_KEY, p); applyPrefs(); }
       if (e.target.matches('[data-gmusic]')) { setMusic(e.target.checked); }
+      if (e.target.matches('[data-dcauto]')) { const p = prefs(); p.dcase = e.target.checked; LS.put(PREF_KEY, p); }
     });
     draw();
   }
@@ -4633,6 +4668,7 @@ P — Plan: …`);
     switch (a) {
       case 'store': return upgradeModal(b.dataset.course || null, b.dataset.why || null, b.dataset.tier || null);
       case 'settings': return settingsModal();
+      case 'dcase': return dcaseModal();
       case 'activate': return activateModal();
       case 'upsell': return upgradeModal(b.dataset.course || null, b.dataset.why || 'lesson');
       case 'clinic': return clinicModal();
