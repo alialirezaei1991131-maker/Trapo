@@ -1,0 +1,35 @@
+f25c46d8	Neoadjuvant treatment comes before surgery and adjuvant treatment after it.
+aabc32c2	palliative means easing: the aim is to reduce pain and symptoms, not to cure.
+103aadc2	Chemotherapy harms fast-dividing cells; that is why hair, the mouth lining and bone marrow are damaged.
+5b2185fe	<section class="tools" style="--tc:⟦0⟧">⏎      <header class="vhead"><h1>Tools</h1><p>A full dictionary of ⟦1⟧ terms, ⟦2⟧ word parts and ⟦3⟧ abbreviations, all offline.</p></header>⏎      <div class="ttabs" role="tablist">⟦4⟧</div>⏎      <div class="tcard">⟦5⟧</div>⏎      <p class="disclaimer">⚕️ Mahar is a learning tool and does not replace medical references or clinical judgement.</p>⏎    </section>
+c22c0169	Search: biopsy, tumour, sarcoma…
+57def4c2	Search: carcin, cancer, -oma…
+129ecba4	Search: PSA, leukaemia, TNM…
+a2f81b83	Naming tumours
+a518b30b	benign tumour: adenoma, lipoma, osteoma
+0263c84c	cancer of epithelial tissue: adenocarcinoma
+0d00490b	cancer of connective tissue: osteosarcoma, liposarcoma
+5e64d978	tumour of embryonic cells: retinoblastoma
+ccf1473e	blood cancer / cancer of the lymphatic system
+ba80e699	melanoma, lymphoma
+da32d341	always malignant despite the -oma
+f0d95012	benign: well differentiated • malignant: poorly differentiated
+b09df8ce	benign: slow, by pressure • malignant: fast, by infiltration
+2c76f7c5	benign: often encapsulated • malignant: no capsule
+10ade602	benign: local • malignant: metastasises through blood and lymph
+f0e261e2	one type of mature cell turning into another
+2815c98e	abnormal cells; precancerous
+8c0e9f0c	cancer in situ; not yet invasive
+2f713d2c	cancer invading the surrounding tissue
+01537ade	size and extent of the primary tumour (T0 to T4; Tis = in situ)
+2f935721	involvement of regional lymph nodes (N0 to N3)
+1120f7b5	distant metastasis (M0 none, M1 present)
+044366a8	from in situ to distant metastasis
+ce36e1e2	removal: mastectomy
+216bbecc	incision: thoracotomy
+89cd9d65	making an opening: colostomy
+b37e1c0e	viewing with an endoscope: colonoscopy
+c5f7cafc	viewing: biopsy
+3ba83963	Treatment approach
+d8de0671	aiming at a cure
+a71af5cb	relieving symptoms without a cure

@@ -1,0 +1,329 @@
+bee3d193	Steps of cell change in epithelial tissue
+6c0dce2c	misshapen cells
+b88f782d	cancer in situ
+7c727dfc	invasive
+cc22377d	Dashed line: basement membrane; crossing it means invasive cancer
+6ac179a4	From normal tissue to invasive cancer
+f75dfd03	moderately differentiated
+59f13283	The more a cell resembles a normal cell, the lower the grade
+aeb3d65c	Differentiation and tumour grade
+65fa6b71	oncogene
+bedbc6db	a stuck accelerator pedal
+1d989e38	the cell keeps getting the order to divide
+e99a7eec	broken brakes, such as BRCA1
+11e4ff9a	division no longer stops
+19f037fc	A mutation in either group of genes drives the cell towards cancer
+54b9ebd9	Oncogenes and tumour suppressor genes
+24874c9e	tobacco
+438dcd53	ionising radiation
+a7aab66e	chemicals, asbestos
+dea6fea5	HPV, EBV, hepatitis
+0a3afb67	inherited BRCA mutation
+fcd52719	increasing age
+a2c0546c	Cancer risk factors
+57c34ec0	Most cancers result from several mutations over the years
+be99a547	Cancer risk factors
+83993f31	primary organ
+ede4d9d0	1 local invasion
+4ecd1622	2 through the lymph
+62ba7a6b	3 through the blood
+91313b13	liver, lung, bone, brain
+a081cc8f	keeps the name of the primary tumour
+30267a17	meta = change • stasis = standing
+d0b77f7d	The cell changes place and “stands” in a new spot
+2d538710	Angiogenesis builds the blood route
+5b5860b3	Routes of cancer spread
+bb3c5082	bone, cartilage, fat
+a3f4beba	sarcoma
+a4d10072	blood-forming cells
+62f3b599	lymphocytes and lymph nodes
+6384fcc5	lymphoma
+5886df6b	immature embryonic cells
+bf78f8a3	blastoma
+0b3924d9	Tissue of origin
+9bf5d9c7	Cancer name
+67f50b9a	First ask “which tissue?”; the cancer’s name comes from there
+1b45a5ce	Tissue of origin and cancer name
+1ac8a7db	fibrous tissue
+14396668	malignant: connective tissue / epithelial tissue
+b7d3ab4c	A gland is epithelial tissue: adenocarcinoma, not adenosarcoma
+48deb674	The tumour-naming rule
+c1f3a2cd	dermis
+ffe73ff6	squamous surface cells
+3fdbfada	basal layer
+92bcbd7b	sometimes metastasises
+d8705c61	basal layer; the most common
+1380c19f	rarely metastasises
+6562cbf4	lymphocytic line
+a9bd7e08	myeloid line
+e143c3ee	acute, fast
+56540c11	chronic, slow
+d6b29b56	the most common childhood cancer
+ff43712e	acute leukaemia of adults
+cabf42c2	Two questions: how fast (acute or chronic)? Which line (lymphocytic or myeloid)?
+5ad4c90c	The four types of leukaemia
+e6e56309	in balance
+d90678fd	immature cells (blasts)
+bffc32e4	crowd out the others
+bf36f3e3	Result: anaemia, neutropenia and thrombocytopenia
+dd5a204e	that is, fatigue, infection and bleeding
+5690dcb5	Bone marrow in leukaemia
+bdc78d1e	cerebellum (brain)
+785e0e85	adrenal gland, nerve
+4763ce1a	children’s kidney
+1e7d6bc6	Organ root + -blastoma = tumour of immature embryonic cells; mostly in children
+0ecbcce8	Embryonic tumours of childhood
+c6ceac22	change in bowel or bladder habits
+881ecdb5	a sore that does not heal
+e634f6c4	unusual bleeding or discharge
+77bf0ccd	a thickening or lump in the breast or elsewhere
+44961e0e	indigestion or difficulty swallowing
+fba23086	an obvious change in a wart or mole
+3ba8f497	a nagging cough or hoarseness
+f6f2272f	The seven warning signs of cancer: CAUTION
+71a8d6e8	These signs do not prove cancer; they mean a doctor should be seen
+eb3c2293	Seven warning signs of cancer
+8fb8306f	brain: seizures
+35e374c2	larynx: hoarseness
+b5b930ec	oesophagus: difficulty swallowing
+e5a9b934	lung: coughing up blood
+70242505	breast: discharge, lump
+dee4a0a0	enlarged lymph node
+4eaba238	bowel: blood in the stool
+671e117d	bladder: blood in the urine
+1d993c39	prostate: burning on urination
+d6c1dcbf	skin: a changed mole
+3c73c1dc	Keywords: hem/o blood • -ptysis spitting • -uria urine • dys- difficult • -phagia swallowing
+0371701e	Signs of cancer in the organs
+920f068c	two unequal halves
+9f263a3a	ragged, notched edge
+adcb0913	several colours: brown, black, red
+128ba774	diameter over 6 mm
+29d58b54	change in size, shape or colour
+63b4e28c	If a mole has any of these features, it should be examined
+8306442e	The ABCDE rule for moles
+ea0459b8	mammography; an X-ray image
+9920d538	Pap smear, HPV test
+8955fe29	collecting cells with a brush
+5c46e68b	colonoscopy, FOBT
+fbf5be70	viewing the bowel; hidden blood in the stool
+24a8e651	PSA, DRE
+02149d59	blood test; finger examination
+9d89fe60	low-dose CT for smokers
+72cf180c	checking moles with ABCDE
+1e83ecd8	Screening: testing healthy people without symptoms
+b5a42671	The aim of screening: finding cancer or precancer before symptoms appear
+2005f6a2	Cancer screening tests
+f2b5522b	scaly sun-damaged patch
+a7ba1d25	white patch in the mouth
+b769ccc8	bowel polyp (adenoma)
+6392e192	irregular mole
+3f18ffa0	change in the lining of the oesophagus
+7eace9d0	it may become
+3acf16c4	Removing a precancerous lesion is prevention (prophylactic)
+888dc273	biopsy: removing tissue to look at under the microscope
+84146300	excisional
+cbb8af20	the whole lump is removed
+a83bee21	incisional
+bbb1ab6d	only a piece of the lump
+178c9918	core needle
+6bf35d6d	a cylinder of tissue
+d291089c	a few cells and fluid
+e0efc17b	trachea and bronchi
+924c87c1	the whole large intestine
+ac0f536d	rectum and sigmoid
+52bdf008	Organ root + -scopy = looking inside it with a lighted tube; often with a biopsy
+38b3cb22	computer X-ray slices
+e215b35a	with or without contrast
+a0674a8f	magnets and radio waves
+f2e12b05	best for the brain and soft tissue
+94d2b0c1	radioactive sugar in active cells
+2cff8199	for staging and finding metastases
+9c032859	sound waves (son/o)
+56c143d6	transrectal, guiding the needle
+c1a0d6a9	Imaging tools
+1592196c	breast tissue
+b83e1cd6	injecting dye or a radioactive tracer
+cf009312	sentinel node: the first station
+003f1780	the next nodes
+a017126b	If the sentinel node is healthy: the other nodes are probably healthy
+d19657c8	If it is cancerous: lymph node dissection (removing lymph nodes)
+2436a12c	sentinel = guard; like a soldier who sees the enemy first
+bba33e73	size of the primary tumour
+64a51dc6	small to large
+2403f4f2	no nodes involved
+8768cb0c	more nodes
+9c5a9fc4	Example: T2 N1 M0 means a medium tumour with node involvement and no distant metastasis
+13e9c809	larger
+84ac9486	regional nodes
+df2b3f25	distant metastasis
+334182b8	stage: how far has the cancer advanced?
+1966d915	The higher the stage, the harder the treatment and the worse the prognosis
+26061026	Stages of cancer
+5c562246	the whole lung
+52f5f04d	one lobe of the lung
+c6365f66	Organ root + -ectomy = surgical removal of that organ
+6d5ff65f	Cancer operations
+5cb205d1	removing the lump and a little healthy tissue
+bdd1ada7	the breast is preserved
+5a3db1f8	sometimes with the armpit nodes
+043448fb	lump = mass • mast/o = breast • -ectomy = removal
+f0c3b426	Lumpectomy and mastectomy
+aa7ee866	a machine outside the body
+8bebf5c2	aims at the tumour
+7a0194a7	brachytherapy (internal)
+c83dc09e	radioactive seed
+941fd6d3	in or beside the tumour
+7daf5f2d	radioactive liquid in the blood
+ca7d734d	such as iodine-131 for the thyroid
+c4578ac2	brachy- = near: the radiation source is placed right beside the tumour
+c8425eae	Three ways of giving radiotherapy
+80f89e96	mouth and gut sores
+4659fb4a	tingling of hands and feet
+091c5ab1	Cytotoxic drugs attack fast-dividing cells
+f61281aa	Hair, mucous membranes and bone marrow also divide fast, so they are harmed too
+82ea514f	Side effects of chemotherapy
+a623a22d	before surgery
+277cff17	shrinking the tumour
+e7404e92	remaining cells
+5e7f67f0	The usual order of treatment for a solid tumour
+6a7c3624	remission; no sign of cancer
+130dbdf2	relapse: the cancer returns
+5bd07f04	ad- = adding • neo- = new, before
+7efa3325	Timing of treatment
+5d7259e8	cell with oestrogen receptors
+2293864c	oestrogen is the key; the receptor is the lock
+a3c08329	key in the lock: a growth message
+de90b954	antiestrogen, such as tamoxifen
+f30f38e6	the drug blocks the lock
+13a866be	oestrogen has no place to go
+199514fd	An aromatase inhibitor reduces oestrogen production
+d530e0e4	Stem cell transplant in leukaemia and lymphoma
+062c6d92	harvesting cells
+9d8e1c18	from marrow or blood
+6038b93b	intensive chemotherapy
+243d463b	destroying the patient’s marrow
+ac6ee0f9	infusing the cells
+3a6362cd	through a vein
+91b40683	engraftment
+721ad412	and making blood
+375e83a4	BMT from bone marrow • PBSCT from peripheral blood
+41ebca27	Complication: GVHD, the donor’s immune cells attacking the recipient’s body
+70c88d13	aim: eradicating the cancer
+3e94eaec	relieving pain and symptoms, without a cure
+dffc1629	removing a precancerous lesion
+4b6c4985	supportive
+2e6c7732	antiemetics, nutrition, port
+d7b97a7e	breast reconstruction after mastectomy
+be64bfdd	What is the aim of treatment?
+971f41b6	Aims of cancer treatment
+40a71eff	Language of Cancer
+72c317ba	Tumour and tissue roots, suffixes of growth, diagnosis and surgery, prefixes, plurals and adjectives, the care team and record abbreviations
+daf81719	Cancer Roots
+8b5f7988	Cancer terms are built from a few <b>fixed pieces</b>: the <b>root</b>, which says “which tissue?”, and the <b>suffix</b>, which says “what happened?”.⟦0⟧⟦1⟧
+d4c6b025	osteosarcoma: malignant cancer of the connective tissue of bone.
+01351a1c	Three roots for cancer
+6c1bc54e	⟦0⟧And the basic suffix for all of them: ⟦1⟧ means <b>tumour, mass</b>.⟦2⟧
+fcaa18b5	oncology: the science of cancer
+727df829	The hospital’s cancer department is called “oncology”: onc/o + -logy.
+043fab43	the study of tumours and cancer
+f444f1bc	the study of blood
+6a08e002	the study of tissues
+520bdac7	the study of cells
+f8f211e4	onc/o (tumour) + -logy (study).
+62c2a92c	Two roots for “new growth”
+26bf8c40	⟦0⟧ = <b>neoplasm</b>: neo- means <b>new</b> and ⟦1⟧ means <b>growth, formation</b>; so “new growth”. In practice neoplasm and <b>tumor</b> mean the same: a mass of cells growing without purpose.⟦2⟧
+352b2583	neo as in “neon”: something new and bright; but this new growth is useless!
+308232fc	new, misplaced growth of tissue; a tumour
+9a07c23a	a skin wound
+b7081f59	neo- (new) + -plasm (growth).
+57fb6d74	neoplasm and tumor mean almost the same.
+70381900	Both mean a mass of abnormal cell growth.
+e5e1166e	In carcinoma, the suffix ___ means “tumour”.
+3d50412f	carcin/o (cancer) + -oma (tumour).
+f019dca7	Build a word meaning “the study of tumours and cancer”
+78a7beb3	Spell the term for the study of tumours and cancer
+24ffb238	Two big groups of tumour
+39b3a975	Every tumour is either <b>benign</b> or <b>malignant</b>. The word <b>cancer</b> is used only for a malignant tumour.⟦0⟧
+9909121f	malignant; cancerous and invasive
+c93e12c4	inflammatory
+f7d65539	The difference at a glance
+a92f2ae5	slow, encapsulated, only presses on its surroundings, no metastasis
+baad6058	fast, no capsule, invades nearby tissue, metastasises through blood and lymph
+b8f47ab5	benign starts like bene, “good” in Latin (as in benefit); malignant starts with mal, “bad” (as in malpractice).
+e6b9feb5	Match each feature to its type of tumour
+17cf8c2a	encapsulated and slow
+b71626c4	any malignant tumour
+debd1d9f	The word cancer is used for all tumours, benign or malignant.
+a5ff1ab0	False; cancer is used only for a malignant tumour.
+2dee0dc6	General record terms
+14cb3fb3	lesion; any abnormal area of tissue
+876ce97d	mass; may or may not be cancer
+9ad9b5dc	precancerous; likely to become cancer
+f8b0023e	relating to new growth
+a8b68658	Until the biopsy result comes, the doctor says “mass” or “lesion”, not “cancer”; a definite diagnosis comes from sampling.
+1934ed1e	An ultrasound report reads “a 2 cm mass”. This means…
+c538ca51	a 2-cm lump whose type is not yet known
+ac8a229b	definite cancer
+7de1e824	a definite cyst
+2e4442a2	mass just means a lump.
+e4750a54	A lesion that may turn into cancer is ___.
+ff01dee7	pre- (before) + cancerous.
+41e0fec7	Spell the term for a tumour that is not cancerous
+38e87e8c	The g is silent: “bi-NINE”.
+ebfe94ed	Tissues in tumour names
+dd964900	Each tumour’s name tells which tissue it arose from (Table 20-2 of the book):⟦0⟧
+95142f10	fat cancer
+31d6d03d	gland tumour
+18aa5156	lip/o (fat) + -oma.
+d4c1d2de	muscle: myoma, myocardial
+ed8efa6d	bone marrow: myeloma, myelogenous
+adb68af5	myel/o has an extra “el”; think of the marrow hidden inside the bone.
+a8cd7831	produced in the bone marrow
+ffc89237	relating to muscle
+6ca6c37a	relating to nerve
+03579170	relating to a gland
+d44dde5e	myel/o = bone marrow.
+5402ec8f	my/o and myel/o both mean muscle.
+54b9bb58	False; myel/o means bone marrow.
+51eb1589	A benign cartilage tumour is called a ___.
+72ad0f94	Build a word meaning “benign tumour of a gland”
+d16e172e	Review of “Cancer Roots”
+69b6dec5	onc/o tumour • carcin/o cancer of epithelial tissue • sarc/o connective tissue • -oma tumour
+1e7cdf7e	neoplasm = neo- (new) + -plasm (growth); the same as tumor
+01f06ea0	benign is harmless and malignant is cancerous; cancer only for malignant
+98d4cfef	Tissues: aden/o gland, chondr/o cartilage, fibr/o fibrous, lip/o fat, my/o muscle, oste/o bone; myel/o bone marrow
+b03007f2	Growth Suffixes
+192763e2	Growth and formation
+526641b4	hyperplasia, dysplasia
+b8f25bc1	producing, causing
+42dd2c7f	an anticancer drug
+839304a3	a kind of biopsy
+bc99c1e1	carcin/o + -gen (producing agent).
+fff4181a	leukemia, anemia
+708adeaa	leuk/o + -emia = “white blood”: in leukaemia immature white cells fill the blood.
+ce3b03fc	a clot in a vessel
+805a8686	cancer of platelets
+54c0e141	thromb/o + cyt/o + -penia (deficiency).
+d1320c33	-penia means increase.
+825b917e	False; -penia means deficiency.
+ca3419e7	In leukemia, the suffix ___ means “condition of the blood”.
+37e9c5b1	leuk/o (white) + -emia.
+4ae588f3	Build a word meaning “formation of cancer”
+ead7ea2b	Spell the term for a cancer-causing agent
+1195e174	Seeing and recording
+903b9c94	viewing with an endoscope
+fa2ca892	the image itself
+d8a8d7af	biopsy = bi/o (life) + -opsy (viewing): “viewing living tissue” under the microscope.
+eb35196f	X-ray image of the breast
+a77d453f	the process of imaging the breast
+052c2b95	breast biopsy
+2501eb4f	mamm/o + -gram (the image itself).
+fb4de2b2	Removal, incision or opening?
+be31a6ec	⟦0⟧⟦1⟧⟦2⟧ means incision: thoracotomy, incision of the chest • ⟦3⟧ means treatment: chemotherapy, drug treatment
+0b504a19	mastectomy: removal of the breast (mast/o); colectomy: removal of the large intestine
+6969e074	colostomy: making an opening of the colon on the abdomen
+50dfd46d	incision through the chest wall
+d26e7b21	removal of the chest
+46e4e0d8	an opening on the chest
+b18d105c	thorac/o + -tomy (incision).

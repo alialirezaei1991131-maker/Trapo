@@ -1,0 +1,5 @@
+# world names and short names in Title Case
+da186cba@govara#7	Language
+68956f70@govara#8	Mouth
+b605f4cf@govara#5	Intestine
+e5c46361@govara#1	Treatment

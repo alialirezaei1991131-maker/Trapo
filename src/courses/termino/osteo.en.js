@@ -2186,7 +2186,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'bn', sym: 'Bn', name: "bone", short: "bone", sub: "Bone cells, tissue and structure, shapes and landmarks, and diseases such as osteoporosis and osteomalacia",
+    id: 'bn', sym: 'Bn', name: "Bone", short: "Bone", sub: "Bone cells, tissue and structure, shapes and landmarks, and diseases such as osteoporosis and osteomalacia",
     color: '#B07D2E', dark: '#7F5719', light: '#F8EEDC',
     levels: ["Bone tissue and structure", "Shapes and landmarks", "Bone diseases"],
     gens: EA.genIds('bn'),
@@ -2333,7 +2333,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'sk', sym: 'Sk', name: "skeleton", short: "skeleton", sub: "The names of the bones from skull to toe: skull, spine, chest, limbs and pelvis",
+    id: 'sk', sym: 'Sk', name: "Skeleton", short: "Skeleton", sub: "The names of the bones from skull to toe: skull, spine, chest, limbs and pelvis",
     color: '#3F7FBF', dark: '#285A8C', light: '#E3EEF9',
     levels: ["Skull and axial skeleton", "Spine and chest", "Limbs and pelvis"],
     gens: EA.genIds('sk'),
@@ -2774,7 +2774,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'fx', sym: 'Fx', name: "Fractures, Diagnosis and Treatment", short: "Fractures and treatment", sub: "Types of fracture and healing, X-ray to DXA, reduction and ORIF, amputation and prostheses, drugs, physiotherapy and chart abbreviations",
+    id: 'fx', sym: 'Fx', name: "Fractures, Diagnosis and Treatment", short: "Fractures and Treatment", sub: "Types of fracture and healing, X-ray to DXA, reduction and ORIF, amputation and prostheses, drugs, physiotherapy and chart abbreviations",
     color: '#7B5CD6', dark: '#5B3FB0', light: '#ECE6FB',
     levels: ["Fractures and healing", "Diagnosis and charts", "Surgery, drugs and rehabilitation"],
     gens: EA.genIds('fx'),

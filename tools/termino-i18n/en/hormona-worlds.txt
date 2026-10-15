@@ -1,0 +1,6 @@
+# world names and short names in Title Case
+21d7cfa4@hormona#10	Pituitary
+5a423224@hormona#15	Thyroid
+b1317023@hormona#6	Adrenal
+aa14310f@hormona#2	Diabetes
+b9a6fc3b@hormona#1	Diagnosis

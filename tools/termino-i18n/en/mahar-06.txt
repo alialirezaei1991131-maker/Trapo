@@ -1,0 +1,218 @@
+7d39100c	tobacco (smoked or chewed)
+5b9c2fc9	sun
+45afc61d	heredity
+d333a34d	The book: tobacco tars.
+5f42a114	Barrett esophagus is a kind of ___.
+804602cb	Change of the oesophageal lining in reflux.
+acf54668	Build a word meaning “white patch”
+03cf557a	Spell the term for a lesion likely to become cancer
+4ac50245	Moles and ABCDE
+e8ed4179	A benign mole or melanoma?
+65014376	A <b>nevus</b> (mole; plural: nevi) is a benign tumour of pigment cells. <b>Melanoma</b> is the malignant cancer of the same cells. To spot a suspicious mole, use the ABCDE rule:⟦0⟧
+82cb08f3	In the ABCDE rule, the letter D stands for…
+02fa85f6	ragged border
+a8ef5572	A <b>dysplastic nevus</b> is an irregular mole with uneven colour and border that is more likely to turn into melanoma.⟦0⟧⟦1⟧
+e4f922e9	round, even, smooth border, small, stable
+09cb017b	asymmetrical, several colours, ragged border, large, changing
+d3e3afe3	The most important letter is E: any mole that changes, even a small one, must be examined.
+edecf2d9	A nevus is a malignant skin cancer.
+9006d504	False; a nevus is a benign mole.
+920c04a5	Which mole is more suspicious?
+b00c4c67	asymmetrical, multicoloured and growing
+3ad77636	round and evenly brown
+c5b4b3b7	small and unchanged since childhood
+0ad860a2	flat with a regular border
+02f25f79	Melanoma is cancer of the skin’s ___ cells.
+3e76b01b	pigment-producing
+f4a8a509	melan/o = black.
+c9805376	Breast Signs
+b72353fe	What a woman should know
+60a6905f	The book lists these signs of breast cancer: a <b>lump</b>, and <b>nipple discharge</b>, especially bloody discharge from one breast. In advanced cancer the skin changes too, becoming thick and dimpled: <b>peau d’orange</b> (French: orange peel).⟦0⟧
+a546ff4f	Orange-peel skin and skin dimpling (arrow) in advanced breast cancer; Figure 20-8 of the book.
+0c81c6b5	peau d’orange means…
+ab3f9f20	thick, dimpled skin like orange peel
+bf30ffde	a brown mole
+4a84f8db	French: orange peel.
+09a78ce6	Why does the skin look like orange peel?
+411de4ed	Cancer cells block the skin’s lymph vessels; fluid collects in the skin, and the hair follicles show as tiny dimples. A tumour beneath the nipple pulls it inwards: <b>nipple retraction</b>.⟦0⟧
+3d8c73f1	Breast self-examination (BSE) is done monthly after the period; any new lump or change should be shown to a doctor.
+60f4f940	Orange-peel skin comes from blocked skin lymph vessels.
+9a950e6a	Fluid collecting in the skin.
+08a7587c	BSE means…
+8dbfec95	breast ultrasound
+7ee1189f	Bloody discharge from ___ breast is more suspicious.
+022ffb67	One-sided and bloody.
+e2c5f72b	Review of “Precancer, Moles and the Breast”
+842f2af7	precancerous: actinic keratosis, leukoplakia, lentigo maligna, polyp, familial polyposis, Barrett esophagus
+d0256617	nevus benign and melanoma malignant; ABCDE; dysplastic nevus
+d5d4915b	Breast: lump, nipple discharge, nipple retraction, peau d’orange
+ddb7dfb4	BSE monthly breast self-examination
+e5a77ce1	Tests for healthy people
+6c8baf17	<b>Screening</b> means testing healthy people without symptoms to find cancer or precancer before symptoms appear.⟦0⟧
+deca9b41	Which statement about screening is correct?
+86f98f03	it is for healthy people without symptoms
+78e63264	it is only for patients with symptoms
+56bb3d2f	it is the same as cancer treatment
+b31dfccb	it is done only by biopsy
+24d9d26a	Aim: early detection.
+4475911f	⟦0⟧ = <b>mammography</b>: low-dose X-ray imaging of the breast. The resulting image is a <b>mammogram</b>.⟦1⟧
+b2b04319	A normal mammogram (Figure 20-5 of the book).
+b42467ca	Match each test to its organ
+39938f2d	• <b>Pap smear</b>: collecting cells from the cervix with a brush to find dysplasia<br>• <b>fecal occult blood test</b> (FOBT): fecal means stool and occult means hidden; the guaiac type is gFOBT<br>• <b>digital rectal examination</b> (DRE): feeling the prostate and rectum with a gloved finger<br>• <b>PSA</b>: a prostate blood test⟦0⟧
+c888c166	occult means “hidden”: blood that cannot be seen with the eye.
+e44f66e2	FOBT looks for hidden blood in the stool.
+e5fbc8d0	What is the difference between mammography and mammogram?
+1d371cfa	mammography is the process and a mammogram the image
+fc65a47f	there is no difference
+e4df2903	a mammogram is an operation
+5ffa5833	mammography is a blood test
+f7bae391	-graphy the process, -gram the image.
+ec8d866d	The abbreviation ___ means digital rectal examination.
+2b904a7d	Markers and Genes
+9c279dac	A <b>tumor marker</b> is a substance a tumour produces in the blood or tissue. It is used more for following treatment than for definite diagnosis.⟦0⟧
+f1c6e6c7	prostate-specific antigen: prostate
+95e9dc7a	carcinoembryonic antigen: large intestine
+aa637024	alpha-fetoprotein: liver, testis
+c75bb4ec	A rising PSA may be a sign of which cancer?
+5d286de7	Gene testing
+db5b985c	<b>Genetic testing</b> looks for high-risk inherited mutations, such as <b>BRCA1/BRCA2</b> for breast and ovarian cancer, or FAP for bowel cancer.⟦0⟧
+cf5f414b	A raised tumour marker means “investigate further”, not “definite cancer”; PSA also rises with benign prostate enlargement and inflammation.
+1d9ff73b	Match each marker to its cancer
+4e5893c8	liver and testis
+263fa5a8	A raised tumour marker alone is enough for a definite cancer diagnosis.
+68496c7c	False; definite diagnosis is by biopsy.
+bb928c7b	In which test are BRCA1/BRCA2 checked?
+52d61b98	Inherited mutations.
+3797ad47	The tumour marker ___ is used to follow bowel cancer.
+ca46439f	In which benign condition is a high PSA also seen?
+37767359	benign enlargement or inflammation of the prostate
+1f40d6ab	a broken bone
+1e3806e7	It is not a cancer-specific marker.
+03d4c7ff	Spell the term for testing healthy people for early cancer
+26872ba6	Screening in Practice
+344484b9	A day in the clinic
+0e130dce	A 55-year-old man with no complaints has come for a check-up. The doctor orders a <b>PSA</b>, and because his <b>FOBT</b> was positive, schedules a <b>colonoscopy</b>. During the colonoscopy a <b>polyp</b> is found and removed.⟦0⟧
+5347d0fb	Why is a colonoscopy done after a positive FOBT?
+e11adcfe	to see the whole bowel and find the source of the blood or a polyp
+2e0c8399	because the FOBT has confirmed cancer
+c95164f4	to treat the prostate
+84439220	to measure PSA
+d8d0acf3	The next diagnostic step.
+a95c41c8	Where does screening not help?
+c394da3c	Screening is only worthwhile when a cancer has a detectable <b>preclinical stage</b> and a suitable test exists (the book). That is why we do not have screening tests for every cancer.⟦0⟧
+ea036c60	A 60-year-old smoker is screened with low-dose CT of the lungs; a plain chest X-ray is not enough.
+1088f5bf	Match each finding to the next step
+8fbd6cd8	positive FOBT
+5d5016b4	Pap smear with dysplasia
+9a4d2bbc	cervical biopsy
+2fd39747	lump on a mammogram
+dac4af28	breast biopsy
+bb64baf2	high PSA
+296b246a	further prostate assessment
+bdbdd39c	There is screening for every cancer.
+a7713a46	False; only for cancers with a preclinical stage and a suitable test.
+389865c7	What kind of measure is removing a polyp during colonoscopy?
+94bae8e9	preventive (prophylactic)
+46b8348f	Before it turns into cancer.
+597a7374	Put the steps of bowel cancer screening in order
+cd67c65a	positive result
+74e3c50c	removing the polyp and biopsy
+64ddfaab	From screening to diagnosis.
+bae26218	An X-ray image of the breast is called a ___.
+1bf12b8b	Review of “Screening”
+8bc72914	screening: testing healthy people without symptoms for early detection
+9108cf3a	mammography and mammogram • Pap smear • FOBT and gFOBT • DRE • PSA • low-dose lung CT
+aae102ef	tumor markers: PSA, CEA, AFP, CA-125; for follow-up, not definite diagnosis
+7f382f0d	genetic testing: BRCA1/BRCA2, FAP; next step after a positive screen: diagnostic work-up and biopsy
+8756a5da	Diagnosis and Staging
+2e9a25c5	Biopsies and the sentinel node, endoscopy, imaging, receptors, grade and TNM staging
+83d78433	Grade and Stage
+6c3932b2	Definite diagnosis from tissue
+181806b8	⟦0⟧ = <b>biopsy</b>: removing cells or tissue to look at under the microscope. Images and blood tests raise suspicion; definite diagnosis of cancer is by biopsy.⟦1⟧
+3b0004a8	What is removed in an excisional biopsy?
+543e5f1d	the whole lump
+69a188dc	a few cells with a fine needle
+437241f2	excision = complete removal.
+affb1c29	Four methods
+f95cb800	What is removed?
+51b5346b	the whole lump or suspicious area
+575c5bc7	only part of the lump
+4d92557c	a cylinder of tissue with a thick needle
+b4a1359a	a few cells or fluid with a fine needle; FNA
+ddf1d18e	ex = out (the whole lump comes out) • in = into (only a cut into it).
+ccb33fe5	Match each biopsy to its feature
+b5b8063d	part of the lump
+a0940a5f	a cylinder of tissue
+52e248a8	a fine needle
+db070e1f	FNA is often done under CT or ultrasound guidance.
+2be35f31	The book: for the lung, with CT or ultrasound.
+b1fdc2eb	What does FNA stand for?
+c667377e	Fine-needle aspiration.
+e8c69a7f	The ___ examines biopsy tissue under the microscope.
+bc483ab0	Build a word meaning “viewing living tissue”
+ce484453	Spell the word for a biopsy that removes the whole lump
+b71b5665	Special Samples
+83811ac9	Each cancer, its own sample
+92f0de04	leukaemia and lymphoma: a hollow needle into the hip bone or breastbone
+912f8bf2	uterine cancer: a thin tube through the cervix
+b4c5e885	lung cancer: cells in the sputum
+4157200d	bladder and kidney cancer: cells in the urine
+b31f5dac	cervix: cells collected with a brush
+1a99f4eb	Where is the sample taken from to diagnose leukaemia?
+ab059a0a	bone marrow of the hip bone or breastbone
+9adfdd5a	At the operating table
+0bf9cf43	• <b>frozen section</b>: tissue is quickly frozen and sliced so the pathologist can answer during the operation<br>• <b>surgical margin</b>: the rim of healthy tissue around a removed tumour; “margins clear” means the edges contain no cancer⟦0⟧
+c236491e	If a margin is involved, cancer cells may remain in the body and further surgery or radiotherapy may be needed.
+46e73e53	Match each method to its cancer
+c2b0a38a	“Margins clear” means no cancer was seen at the edge of the removed tissue.
+0b795092	A healthy margin.
+8edd8593	How does cytology differ from histology?
+e4e392ce	cytology looks at separate cells and histology at tissue
+e7c146cb	cytology is imaging
+bec31214	histology is a blood test
+03de0983	cyt/o cell, hist/o tissue.
+1aceffc6	A quick pathology answer during surgery is given by a ___ section.
+48536894	Frozen section.
+78de1198	The book says bone marrow aspiration is a diagnostic tool for which?
+ca1ca075	leukaemia only
+a10d4b46	lymphoma only
+6eb85798	Table 20-5: leukemia and lymphoma.
+f2482d87	Spell the term for the study of separate cells
+efe5c8f7	The Sentinel Node
+fc115694	Cancer’s first station
+902a3062	Cancers such as breast cancer and melanoma first reach one or a few particular lymph nodes: the <b>sentinel lymph node</b>. In SLNB, dye or a radioactive tracer is injected beside the tumour, and the node that takes up the dye first is removed and examined.⟦0⟧
+af2806cd	What is a sentinel lymph node?
+1d6a9e6b	the first lymph node the cancer is likely to reach
+29043151	the largest node in the body
+0045108f	a node in the brain
+14194fa7	The guard node.
+18aeeb62	If the sentinel is involved
+7bb95587	⟦0⟧• <b>lymphangiography</b> or lymph node mapping: viewing lymph vessels and nodes by injecting blue dye⟦1⟧
+872d4e94	negative SLNB
+7aa7fdec	the other nodes are probably healthy; removing them all is not needed
+b6827ce8	positive SLNB
+272518c2	lymph node dissection: removing the regional nodes
+1e9612da	SLNB has replaced removing all the armpit nodes and has greatly reduced the risk of lymphoedema of the arm.
+2da3f326	If the sentinel node is healthy, the other nodes are probably healthy too.
+a73c8b22	The logic of SLNB.
+a84b34bd	sentinel node biopsy
+908a2cd9	removing the regional nodes
+1bee4850	image of lymph vessels and nodes
+881db0f1	guard
+eee3f0e3	Put the steps of SLNB in order
+3f25e64d	injecting dye or a radioactive tracer beside the tumour
+999eccfa	the dye flows through the lymph vessel
+72ac3d51	finding the node that took up the dye first
+98a21d39	removing and examining that node
+c841111a	The book: dye flows into the sentinel node.
+508877fc	SLNB is widely used in ___ cancer and melanoma.
+0fbbff45	Lymphatic spread.
+6ddcde64	Review of “Biopsy”
+151fe091	biopsy = bi/o + -opsy; the definite diagnosis of cancer
+fd2cb47b	excisional the whole lump • incisional part • core needle a cylinder • FNA a fine needle
+fa117eb7	bone marrow aspiration, endometrial biopsy, sputum cytology, urine cytology, Pap smear; frozen section and surgical margin
+7e4d2672	SLNB the sentinel node; positive → lymph node dissection; lymphangiography
+3dda325a	Root + -scopy
+4a3ca7c7	In endoscopy a thin lighted tube (scope) is passed into the body to see inside an organ, and a biopsy is often taken at the same time.⟦0⟧
+b926a71c	Which organ is viewed in cystoscopy?
+30dc309a	cyst/o = bladder; through the urethra.

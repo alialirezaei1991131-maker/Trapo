@@ -1454,7 +1454,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'lx', sym: 'Lx', name: "Language of Medicine", short: "tongue", sub: "The word code: parts, prefixes, suffixes, plurals, pronunciation and look-alike traps",
+    id: 'lx', sym: 'Lx', name: "Language of Medicine", short: "Language", sub: "The word code: parts, prefixes, suffixes, plurals, pronunciation and look-alike traps",
     color: '#4F5BD5', dark: '#3540A8', light: '#E3E6FB',
     levels: ["Puzzle pieces", "Suffixes in action", "Like a pro"],
     gens: EA.genIds('lx'),
@@ -1606,7 +1606,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'hb', sym: 'Hb', name: "Blood and cells", short: "blood", sub: "Blood roots, plasma, blood cells, blood formation and blood diseases",
+    id: 'hb', sym: 'Hb', name: "Blood and Cells", short: "Blood", sub: "Blood roots, plasma, blood cells, blood formation and blood diseases",
     color: '#E5374F', dark: '#B8233A', light: '#FDE1E5',
     levels: ["Components of blood", "Blood cells and blood formation", "Blood diseases"],
     gens: EA.genIds('hb'),
@@ -1766,7 +1766,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'co', sym: 'PT', name: "Haemostasis and transfusion", short: "Clotting", sub: "Platelets, the clotting cascade, clots, blood groups, transfusion and bleeding",
+    id: 'co', sym: 'PT', name: "Haemostasis and Transfusion", short: "Clotting", sub: "Platelets, the clotting cascade, clots, blood groups, transfusion and bleeding",
     color: '#7B5CE0', dark: '#5B3FBF', light: '#EDE7FC',
     levels: ["Platelets and clotting", "Blood groups", "Transfusion and bleeding"],
     gens: EA.genIds('co'),
@@ -1913,7 +1913,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ly', sym: 'Ly', name: "The lymphatic system", short: "lymph", sub: "Lymph, vessels and ducts, nodes, spleen, thymus, tonsils, lymphoedema and lymphoma",
+    id: 'ly', sym: 'Ly', name: "The Lymphatic System", short: "Lymph", sub: "Lymph, vessels and ducts, nodes, spleen, thymus, tonsils, lymphoedema and lymphoma",
     color: '#12A594', dark: '#0B7A6C', light: '#D9F5EF',
     levels: ["Lymph and vessels", "Lymphatic organs", "Diseases and procedures"],
     gens: EA.genIds('ly'),
@@ -2064,7 +2064,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'im', sym: 'Ig', name: "immunity, protection", short: "immunity, protection", sub: "Innate defence, lymphocytes, antibodies, allergy, autoimmunity and HIV",
+    id: 'im', sym: 'Ig', name: "Immunity and Protection", short: "Immunity and Protection", sub: "Innate defence, lymphocytes, antibodies, allergy, autoimmunity and HIV",
     color: '#1899D6', dark: '#1272A3', light: '#DDF1FB',
     levels: ["Innate and Acquired Defence", "Lymphocytes and antibodies", "Allergy, autoimmunity and immunodeficiency"],
     gens: EA.genIds('im'),
@@ -2216,7 +2216,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'dx', sym: 'Lab', name: "Tests, treatment and ICU", short: "test", sub: "CBC and specialised tests, drugs, transplant, SIRS and sepsis, iron and immunonutrition",
+    id: 'dx', sym: 'Lab', name: "Tests, Treatment and ICU", short: "Test", sub: "CBC and specialised tests, drugs, transplant, SIRS and sepsis, iron and immunonutrition",
     color: '#E58A00', dark: '#B86E00', light: '#FFF1D6',
     levels: ["Tests", "Treatments", "Critical care and immunonutrition"],
     gens: EA.genIds('dx'),

@@ -1533,7 +1533,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'lx', sym: 'Lx', name: "Language of the Heart", short: "tongue", sub: "Heart, vessel and disease roots, suffixes and prefixes, plurals and adjectives, specialists and chart abbreviations",
+    id: 'lx', sym: 'Lx', name: "Language of the Heart", short: "Language", sub: "Heart, vessel and disease roots, suffixes and prefixes, plurals and adjectives, specialists and chart abbreviations",
     color: '#4F5BD5', dark: '#3540A8', light: '#E3E6FB',
     levels: ["Heart and vessel roots", "Suffixes and prefixes", "Chart language"],
     gens: EA.genIds('lx'),
@@ -1688,7 +1688,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'an', sym: 'Ana', name: "Heart structure", short: "Structure", sub: "The heart’s position, wall layers and pericardium, four chambers and four valves, great vessels, blood flow and coronary arteries",
+    id: 'an', sym: 'Ana', name: "Heart Structure", short: "Structure", sub: "The heart’s position, wall layers and pericardium, four chambers and four valves, great vessels, blood flow and coronary arteries",
     color: '#E03131', dark: '#A61E1E', light: '#FDE4E4',
     levels: ["Position and wall of the heart", "Chambers and valves", "Blood flow and coronaries"],
     gens: EA.genIds('an'),
@@ -1996,7 +1996,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'vc', sym: 'Vas', name: "Vessels and circulation", short: "Vessels", sub: "Arteries, capillaries and veins, vessel wall layers, pulmonary and systemic circulation, fetal circulation, the body’s vessel map and lymph",
+    id: 'vc', sym: 'Vas', name: "Vessels and Circulation", short: "Vessels", sub: "Arteries, capillaries and veins, vessel wall layers, pulmonary and systemic circulation, fetal circulation, the body’s vessel map and lymph",
     color: '#0C8599', dark: '#08606E', light: '#DDF3F6',
     levels: ["Types of vessel", "The circulations", "Vessel map and lymph"],
     gens: EA.genIds('vc'),
@@ -2148,7 +2148,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ds', sym: 'Path', name: "Heart and vessel diseases", short: "disease", sub: "Atherosclerosis, coronary disease and heart attack, arrhythmias, valve and congenital defects, heart failure, blood pressure, aneurysm, clots and varicose veins",
+    id: 'ds', sym: 'Path', name: "Heart and Vessel Diseases", short: "Disease", sub: "Atherosclerosis, coronary disease and heart attack, arrhythmias, valve and congenital defects, heart failure, blood pressure, aneurysm, clots and varicose veins",
     color: '#AE3EC9', dark: '#7B2A8F', light: '#F5E3FA',
     levels: ["Narrowed and blocked vessels", "Rhythm, valves and muscle", "Pressure, clots and veins"],
     gens: EA.genIds('ds'),
@@ -2301,7 +2301,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Rx', name: "diagnosis and treatment", short: "treatment", sub: "Echo, tests, angiography and catheterisation, balloons and stents, vessel and heart surgery, drugs, pacemakers, shocks and resuscitation",
+    id: 'tx', sym: 'Rx', name: "Diagnosis and Treatment", short: "Treatment", sub: "Echo, tests, angiography and catheterisation, balloons and stents, vessel and heart surgery, drugs, pacemakers, shocks and resuscitation",
     color: '#2F9E44', dark: '#1F6E2F', light: '#E0F4E4',
     levels: ["Diagnosis and imaging", "Opening vessels and surgery", "Drugs, pacemakers and resuscitation"],
     gens: EA.genIds('tx'),

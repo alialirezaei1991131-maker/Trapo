@@ -1382,7 +1382,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'lx', sym: 'Lx', name: "Body Language", short: "tongue", sub: "Word pieces, position prefixes, body openings, Latin plurals, drug routes and chart abbreviations",
+    id: 'lx', sym: 'Lx', name: "Body Language", short: "Language", sub: "Word pieces, position prefixes, body openings, Latin plurals, drug routes and chart abbreviations",
     color: '#4F5BD5', dark: '#3540A8', light: '#E3E6FB',
     levels: ["Puzzle pieces", "Openings and plurals", "Clinical language"],
     gens: EA.genIds('lx'),
@@ -1536,7 +1536,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'og', sym: 'Cyt', name: "Organisation and the Cell", short: "cell", sub: "The body sciences, levels of organisation, metabolism, cell structure, DNA, mitosis and abnormal growth",
+    id: 'og', sym: 'Cyt', name: "Organisation and the Cell", short: "Cell", sub: "The body sciences, levels of organisation, metabolism, cell structure, DNA, mitosis and abnormal growth",
     color: '#D6457A', dark: '#A8305C', light: '#FCE4EE',
     levels: ["From cell to human", "Inside the cell", "Genes, division and the lab"],
     gens: EA.genIds('og'),
@@ -1689,7 +1689,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ts', sym: 'Hist', name: "Tissues and membranes", short: "tissue", sub: "Epithelial, connective, muscle and nervous tissue, parietal and visceral membranes, the skin and tissue injuries",
+    id: 'ts', sym: 'Hist', name: "Tissues and Membranes", short: "Tissue", sub: "Epithelial, connective, muscle and nervous tissue, parietal and visceral membranes, the skin and tissue injuries",
     color: '#E07A1F', dark: '#B35E10', light: '#FFEEDC',
     levels: ["The four main tissues", "Muscle, nerve and membrane", "Skin and tissue injury"],
     gens: EA.genIds('ts'),
@@ -1842,7 +1842,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'sy', sym: 'Sys', name: "Systems and organs", short: "system", sub: "The body systems, their organs and roots, from skin and skeleton to glands, and the medical specialties",
+    id: 'sy', sym: 'Sys', name: "Systems and Organs", short: "System", sub: "The body systems, their organs and roots, from skin and skeleton to glands, and the medical specialties",
     color: '#12A594', dark: '#0B7A6C', light: '#D9F5EF',
     levels: ["The map of the systems", "Circulation, breathing and digestion", "Excretion, control and specialties"],
     gens: EA.genIds('sy'),
@@ -1995,7 +1995,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'dr', sym: 'Dir', name: "Direction, plane and position", short: "Direction", sub: "Anatomic position, paired directions, body planes, movements, patient positions and imaging",
+    id: 'dr', sym: 'Dir', name: "Direction, Plane and Position", short: "Direction", sub: "Anatomic position, paired directions, body planes, movements, patient positions and imaging",
     color: '#1899D6', dark: '#1272A3', light: '#DDF1FB',
     levels: ["Anatomic position and directions", "Planes and movement", "Patient position and imaging"],
     gens: EA.genIds('dr'),
@@ -2148,7 +2148,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'cv', sym: 'Cav', name: "Cavities and regions", short: "hollow space in the body", sub: "The dorsal and ventral cavities, the diaphragm, the nine regions and four quadrants of the abdomen, the spine and the surface regions of the body",
+    id: 'cv', sym: 'Cav', name: "Cavities and Regions", short: "Cavities", sub: "The dorsal and ventral cavities, the diaphragm, the nine regions and four quadrants of the abdomen, the spine and the surface regions of the body",
     color: '#7B5CE0', dark: '#5B3FBF', light: '#EDE7FC',
     levels: ["Body cavities", "The map of the abdomen", "The spine and surface regions"],
     gens: EA.genIds('cv'),

@@ -1,0 +1,13 @@
+# match puzzles: right side must not repeat the left side
+fa379f26@mahar#2	rapid multiplication of cells
+3f68a774@mahar#2	sequence of growth and division
+b92eb15d@mahar#2	enclosed in a capsule
+1e5d19a2@mahar#4	still in its place
+7c727dfc@mahar#3	spreading into deeper tissue
+eeca3e02@mahar#1	thin layer beneath the epithelium
+f010bf2c@mahar#2	heavy sweating at night
+9ff5ed37@mahar#3	fluid leaking from the nipple
+b203a055@mahar#2	nipple pulled inwards
+595a801e@mahar#2	a hard mass
+e74a407a@mahar#1	signs of cancer disappear
+83192ae5@mahar#2	cancer comes back

@@ -1954,7 +1954,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'lx', sym: 'Lx', name: "The Language of Disease", short: "tongue", sub: "Disease roots, prefixes, the suffixes for pain, inflammation and rupture, and words such as stenosis and malacia that become suffixes themselves",
+    id: 'lx', sym: 'Lx', name: "The Language of Disease", short: "Language", sub: "Disease roots, prefixes, the suffixes for pain, inflammation and rupture, and words such as stenosis and malacia that become suffixes themselves",
     color: '#4C6EF5', dark: '#3448B8', light: '#E5EBFF',
     levels: ["Disease roots", "Prefixes and suffixes", "Words that become suffixes"],
     gens: EA.genIds('lx'),
@@ -2441,7 +2441,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'dx', sym: 'Dx', name: "Examination and Diagnosis", short: "examination", sub: "The history and its abbreviations, inspection, palpation, percussion and auscultation, vital signs and blood pressure, clinical signs, ‎-scope instruments and imaging",
+    id: 'dx', sym: 'Dx', name: "Examination and Diagnosis", short: "Examination", sub: "The history and its abbreviations, inspection, palpation, percussion and auscultation, vital signs and blood pressure, clinical signs, ‎-scope instruments and imaging",
     color: '#1098AD', dark: '#0B7285', light: '#E3FAFC',
     levels: ["history and physical", "Vital signs and clinical signs", "Instruments and imaging"],
     gens: EA.genIds('dx'),
@@ -2606,7 +2606,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Tx', name: "Surgery and Treatment", short: "surgery", sub: "Removal, incision and opening, drawing fluid, repair and fixation, the operating room and instruments, catheters and irrigation, treatment, prognosis and complementary medicine",
+    id: 'tx', sym: 'Tx', name: "Surgery and Treatment", short: "Surgery", sub: "Removal, incision and opening, drawing fluid, repair and fixation, the operating room and instruments, catheters and irrigation, treatment, prognosis and complementary medicine",
     color: '#E64980', dark: '#A61E4D', light: '#FFF0F6',
     levels: ["Surgical suffixes", "Operating room and instruments", "Treatments and complementary medicine"],
     gens: EA.genIds('tx'),
@@ -2768,7 +2768,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'rx', sym: 'Rx', name: "Drugs and prescriptions", short: "drug", sub: "Drugs and prescriptions, generic and brand names, side effects and interactions, routes of administration and injection angles, drug forms, drug word parts and abbreviations from bid to prn",
+    id: 'rx', sym: 'Rx', name: "Drugs and Prescriptions", short: "Drug", sub: "Drugs and prescriptions, generic and brand names, side effects and interactions, routes of administration and injection angles, drug forms, drug word parts and abbreviations from bid to prn",
     color: '#7950F2', dark: '#5F3DC4', light: '#F3F0FF',
     levels: ["Drugs and safety", "Drug routes and forms", "The language of prescriptions"],
     gens: EA.genIds('rx'),

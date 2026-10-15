@@ -1,0 +1,208 @@
+b2103435	Radioactive iodine (I-131) is an example of systemic radiotherapy: the thyroid takes up iodine, and thyroid cancer cells are irradiated from within.
+6bb848cc	a machine outside the body
+2a2aef45	radioactive seeds beside the tumour
+af0568ee	The book: radiotherapy with a radioactive substance injected into a vein is the systemic type.
+1c25376d	End-of-chapter question 2.
+4957a24e	radiosensitive means the tumour…
+e26236a1	is easily damaged by radiation
+a24d8b74	resists radiation
+51cf31e4	produces radiation
+b292a823	is treated with surgery
+47e1812c	Sensitive to radiation.
+1bc54a84	A radiotherapy specialist is a ___ oncologist.
+97eebab2	Build a word meaning “treatment from close by”
+07819dfe	Spell the term for radiotherapy from inside or beside the tumour
+8e6fa363	Drugs against fast-dividing cells
+7acef5a9	<b>Chemotherapy</b> is treatment with anticancer drugs that stop cancer cells growing and dividing. These drugs are <b>antineoplastic</b> and often <b>cytotoxic</b> (cell-killing), such as <b>methotrexate</b> and <b>fluorouracil</b>.⟦0⟧
+f6bab589	cyt/o + -toxic = “cell poison”: chemotherapy is a precise poison for fast-dividing cells.
+4adb0006	it stops cancer cells growing and multiplying
+ab74f909	it reduces nausea
+7b7720fa	it suppresses immunity
+801effeb	it reduces pain
+6bec43cf	Why does it have side effects?
+9896be59	sores and inflammation of the mouth and gut lining
+558a9623	a shortage of neutrophils; risk of infection
+0f80ddcb	reduced blood cell production in the bone marrow
+d3771507	Match each side effect to its meaning
+cefd410b	mouth sores
+3fe722a1	shortage of neutrophils
+132eb38a	Supportive treatment
+1a126780	• <b>antiemetic</b>: a drug against nausea; anti- + emesis (vomiting). Examples: chlorpromazine and dexamethasone<br>• <b>colony-stimulating factor</b> (CSF, G-CSF): prompts the bone marrow to make blood cells⟦0⟧
+fbc17ffd	A patient with neutropenia and fever is an oncology emergency: “neutropenic fever” needs antibiotics at once.
+5bce45e9	An antiemetic is a drug to prevent nausea and vomiting.
+0d8f0d02	The chapter’s drug table.
+067dc83f	Which drug stimulates white blood cell production after chemotherapy?
+d0b984cc	Hair loss in chemotherapy is called ___.
+dc811da5	Hormones and Immunity
+2a988acb	<b>Hormone therapy</b> (endocrine therapy) slows the growth of hormone-sensitive tumours by stopping hormone production or blocking its effect:⟦0⟧
+b06e2d89	In which cancer is an antiestrogen used?
+dcbee3ac	oestrogen-receptor-positive breast cancer
+11b197d0	The book: estrogen positive breast cancer.
+1936efc3	Hormonal drugs
+8ba6045b	blocking the effect of oestrogen, such as tamoxifen in the breast
+efc575c2	reducing oestrogen production after menopause
+fd5347d6	blocking male hormone; prostate
+2e4ac5af	reducing the secretion of sex hormones
+916957be	andr/o means male: an antiandrogen, “against male hormone”, is for the prostate.
+239dc76e	blocking the effect of oestrogen
+8c41f5a4	blocking male hormone
+33c66d7e	reducing oestrogen production
+90451eb3	reducing sex hormones
+53b2d93e	Waking up immunity
+3da7283d	• <b>immunotherapy</b> (biological therapy): boosting the immune system’s power to fight cancer<br>• <b>BCG vaccine</b>: a weakened bacterium that activates immunity in the bladder<br>• <b>monoclonal antibody</b>: a laboratory antibody that sticks to a specific target on the cancer cell<br>• <b>targeted therapy</b>: a drug that targets a particular molecule of cancer growth⟦0⟧
+0f220eae	An immunosuppressant is the opposite: it suppresses immunity; for transplant patients.
+5faaa7b0	Immunotherapy and an immunosuppressant do the same thing.
+c1db47ac	False; one boosts immunity and the other suppresses it.
+9fde67cb	In which cancer is BCG vaccine used?
+fe533dc0	Immunotherapy inside the bladder.
+09eb29e0	A drug that reduces oestrogen production after menopause is an ___ inhibitor.
+de772545	Review of “Radiation and Drugs”
+6d7f5b75	radiation therapy: external beam, brachytherapy (near), systemic (such as radioactive iodine)
+fbe17afb	chemotherapy: antineoplastic and cytotoxic; methotrexate, fluorouracil
+c9de04e8	Side effects: alopecia, mucositis, neutropenia, myelosuppression; support: antiemetic, colony-stimulating factor
+8d64688a	hormone therapy: antiestrogen, aromatase inhibitor, antiandrogen, LH-RH agonist • immunotherapy: BCG, monoclonal antibody, targeted therapy
+80051b95	Rebuilding the Bone Marrow
+cac84930	A <b>stem cell transplant</b> replaces blood-forming stem cells destroyed by intensive chemotherapy or radiotherapy; mostly for leukaemia and lymphoma.⟦0⟧
+2b4b70ad	Which cancers is a stem cell transplant mostly for?
+35652064	stage 1 breast cancer
+92cdf221	Two sources of cells
+69d24362	⟦0⟧The book says stem cells can come from bone marrow, blood or the <b>umbilical cord</b>.⟦1⟧
+0b252f28	bone marrow transplantation: cells from the bone marrow
+16221b54	peripheral blood stem cell transplantation: cells from the peripheral blood
+00902c37	Graft-versus-host disease (GVHD) means the donor’s immune cells attack the recipient’s body; an immunosuppressant is given to prevent it.
+55b10e9f	Put the steps of a stem cell transplant in order
+2a9378eb	collecting the stem cells
+149c51b8	infusing the cells through a vein
+11e99cf5	engraftment and making new blood
+edb96d14	The transplant figure.
+10ed5c02	In GVHD, the recipient’s body attacks the transplanted cells.
+2bf0b8b7	False; it is the reverse: the transplanted cells (graft) attack the host’s body.
+72424ac7	Where can blood stem cells be taken from?
+975e751e	bone marrow, blood or umbilical cord
+2741ae6e	only the skin
+dceaf67d	only the liver
+69baebf3	only the lymph nodes
+efc56d8c	A drug that suppresses immunity is called an ___.
+ded4ccff	Spell the one-word term for bone marrow suppression
+ed07661b	Before, During and After Surgery
+305622df	before surgery; to shrink the tumour
+305f382c	after surgery; to kill remaining cells
+38741c46	What is chemotherapy before surgery to shrink a tumour called?
+d6f70ead	neo- = new, before.
+74a3370e	After treatment
+828dc25b	lessening or disappearance of signs of cancer; complete remission (CR) means no cancer can be seen
+d9e70f1e	return of cancer after a period of improvement
+a1f13379	cancer that has come back after treatment, in the same place or elsewhere
+9b35c659	the percentage of patients alive five years after diagnosis
+19cadefd	re- means again: relapse and recurrence both mean “it came back”.
+e74a407a	remission
+f9c58da4	Complete remission means the cancer will definitely never return.
+884987fa	False; it means none can be seen for now; follow-up is needed.
+e48fe55e	What kind of treatment is radiotherapy after a lumpectomy to destroy remaining cells?
+1dae4e05	After the main treatment.
+1bb6ca94	The percentage of patients alive five years after diagnosis is the five-year ___ rate.
+2a52d0f2	Five-year survival rate.
+6f4c1698	Put the usual order of treatment for a solid tumour in sequence
+d4c93e8b	Before, during and after.
+093a6b31	Spell the term for the lessening or disappearance of cancer signs
+8cfac93a	Aims of Treatment
+3c3b9b3e	Every treatment has an aim
+aa611b11	The book groups treatments by their aim (Table 20-6):⟦0⟧
+ed0c4093	Palliative treatment means…
+68d48852	relieving symptoms without a cure
+3fa63bcf	preventing cancer
+ea441d44	breast reconstruction
+447c8b2b	From French palliatif: easing without curing.
+3930d471	Examples from Table 20-6
+fc2fe938	Approach
+27199e5b	primary or definitive: local removal, en bloc dissection
+eb2da56a	tumour debulking, pain control, nutritional support
+22b55ade	reconstruction after mastectomy
+78519d7c	chemotherapy port, antiemetics
+592745a5	end-of-life comfort care
+7f089e42	prophylactic = pro (before) + phylax (guard): “guarding in advance”.
+0c21403c	Match each approach to its example
+86632612	complete removal of the tumour
+279cef57	pain control
+18beaca0	The book: complete removal of a basal cell carcinoma of the skin is definitive treatment.
+8825b2d5	End-of-chapter question 8.
+840a90ee	A patient with metastatic cancer receives radiation to ease bone pain. What is the aim of treatment?
+01b1eb43	Relief, not cure.
+2fceddea	Comfort care for patients at the end of life is called ___.
+8ab9d492	What does the book say the choice of treatment depends on?
+9511766d	the type and site of the cancer, the stage, and the patient’s age and general health
+50e765ae	only the patient’s age
+0ea44508	only the tumour size
+cf0651d9	only the patient’s opinion
+225c7930	Cancer Treatment in the book.
+07cebcd5	Review of “Approach and Outcome”
+f00c4bbd	stem cell transplant: BMT (bone marrow), PBSCT (peripheral blood); GVHD and immunosuppressant
+69a5994c	neoadjuvant before surgery, adjuvant after it; remission, relapse, recurrence, five-year survival rate
+0bc8bd9b	Aims: curative (definitive), palliative, prophylactic, rehabilitative, supportive, hospice
+9f7943fc	Choice of treatment: type and site of cancer, stage, age and general health
+0a219648	Breaks every scary word into root and suffix and reads it from the end: osteosarcoma means cancer of the connective tissue of bone.
+ad1fb502	Knows the difference between -ectomy (removal), -tomy (incision) and -stomy (new opening) and never mixes up colectomy and colostomy.
+97dbeef7	The Abbreviation Decoder
+2a657813	Reads Bx, Dx, Tx, mets and s/p like a mother tongue and gives the plural of metastasis as metastases.
+f9117ac4	The Orderly Cell
+a5f3ffe0	Divides only as much as needed, stops on reaching its neighbours, and when the time comes bows out quietly by apoptosis.
+621d6b58	Brakey
+77932e53	The brake on cell division who repairs damaged DNA; if mutated (like BRCA1), the cell runs out of control.
+cabd4d17	Dee
+672e6c97	Guardian of the Genes
+b1660b78	Knows that an oncogene is a stuck accelerator and a suppressor gene the brake; a mutation in either drives the cell towards cancer.
+2e1e3051	Omy
+1d385176	Has a capsule, grows slowly and goes nowhere: lipoma, adenoma and osteoma are all family.
+63544359	Sarco
+dfbeeb87	The Tissue Namer
+76a40121	Sends epithelial tissue to carcinoma, connective tissue to sarcoma, bone marrow to leukemia and lymph to lymphoma.
+729f7eb4	The Embryonic Tumour Spotter
+188833c7	Knows retinoblastoma, neuroblastoma and medulloblastoma, and knows that Wilms tumor is the exception in this family.
+0c50483a	Cautie
+bd4f442f	Knows the seven letters of CAUTION by heart: from a change in bowel habits to a nagging cough and hoarseness.
+6600c982	Molly
+d1da7d53	Master of ABCDE
+e255b387	Checks every mole with five questions: asymmetrical? ragged border? several colours? larger than 6 mm? changing?
+3837b667	Sifty
+c928c858	The Early Finder
+b437fec7	Mammography, the Pap smear, colonoscopy and PSA are her tools for finding cancer before symptoms.
+a556a383	Needly
+fdd3b1b5	The Precise Sampler
+5dc40f4f	Sometimes removes the whole lump (excisional), sometimes a piece (incisional) and sometimes just a few cells with a fine needle (FNA).
+b3c24bf1	Patho
+6df57005	The Pathologist at the Microscope
+8ac4d23b	The definite diagnosis is his job: he writes the cell type, grade and surgical margin in the report.
+73229c90	Tenem
+24abbad2	The Stager
+88116381	Tells with three letters, T, N and M, how far a cancer has advanced: from stage 0 (in situ) to stage IV (distant metastasis).
+7fe75637	Bladey
+d08f4781	The Cancer Surgeon
+95d76a87	Removes a solid tumour with a healthy margin: lumpectomy, mastectomy or colectomy, depending on its size and site.
+4c2fbe65	Rayo
+58bfaef4	The Radiotherapist
+3389745e	Beams radiation from outside, places radioactive seeds beside the tumour (brachytherapy) or sends iodine-131 into the blood.
+0af1da92	Chemy
+de81ed8f	The Cancer Pharmacist
+20c3d3eb	Knows chemotherapy, hormone therapy and immunotherapy and keeps side effects in check with antiemetics and CSF.
+210d064a	Discharge summary: iodine-131
+ea6cb745	A 28-year-old woman with thyroid cancer
+efdb6b55	Mrs Smith has a history of papillary carcinoma of the thyroid and, after surgery, has been admitted for a second dose of radioactive iodine. The discharge summary is full of abbreviations; translate it for the patient’s family.
+8fddf191	Surgical history
+c1f59fa4	I-131, 150 mCi
+0dd53054	Discharge medicine
+ce2bb8d0	Synthroid 0.1 mg p.o. q.d.
+efc54be2	status after surgery
+547181f4	unit of radioactivity
+b70b56ca	thyroidectomy means…
+aa796682	removal of the thyroid gland
+3bb0c16c	imaging of the thyroid
+e09337f7	thyroid/o + -ectomy (removal).
+ad6e9947	Tumour name
+1b693906	papillary carcinoma means a cancer…
+73d6441f	of epithelial tissue with finger-like projections
+b64aca53	of connective tissue
+9b71673c	of the bone marrow
+b79ae128	that is benign and encapsulated
+44ad208c	carcinoma = cancer of epithelial tissue; papill/o = nipple-like projection.
+1889a940	Iodine-131, given by mouth and reaching thyroid cells through the blood, is which type of radiotherapy?
+e5d1dec5	A radioactive liquid circulates in the blood: systemic.

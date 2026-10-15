@@ -1,0 +1,10 @@
+# world names and short names in Title Case
+da186cba@peykar#2	Language
+39b043ee@peykar#4	Cell
+5fb25c7c@peykar#2	Tissues and Membranes
+d8cb72be@peykar#5	Tissue
+d5527f82@peykar#2	Systems and Organs
+7df5687d@peykar#2	System
+41c47c05@peykar#2	Direction, Plane and Position
+7efeeaf5@peykar#2	Cavities and Regions
+002f6f37@peykar#2	Cavities

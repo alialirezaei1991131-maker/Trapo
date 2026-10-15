@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+a461466a@mahar#1	Splitty
+3d6c2feb@mahar#1	Ecto
+c685e1ff@mahar#1	Chartie
+47e45f09@mahar#1	Celly
+621d6b58@mahar#1	Brakey
+cabd4d17@mahar#1	Dee
+2e1e3051@mahar#1	Omy
+63544359@mahar#1	Sarco
+7fefbeda@mahar#1	Blasto
+0c50483a@mahar#1	Cautie
+6600c982@mahar#1	Molly
+3837b667@mahar#1	Sifty
+a556a383@mahar#1	Needly
+b3c24bf1@mahar#1	Patho
+73229c90@mahar#1	Tenem
+7fe75637@mahar#1	Bladey
+4c2fbe65@mahar#1	Rayo
+0af1da92@mahar#1	Chemy

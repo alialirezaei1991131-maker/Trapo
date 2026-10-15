@@ -1,0 +1,211 @@
+9faace91	Carcinoma in situ can be cured by complete removal.
+af63f733	It has not yet spread.
+eeca3e02	basement membrane
+0cc52179	The tumour’s dead centre
+b4214aa1	Fast-growing tumours sometimes outgrow their blood supply, and their centre undergoes <b>necrosis</b> (tissue death; necr/o = dead). To escape this, the tumour builds new vessels: <b>angiogenesis</b> (angi/o vessel + -genesis formation).
+0df87251	What is the building of new vessels to feed a tumour called?
+807b631e	Tissue death in the centre of a tumour is called ___.
+60b386b1	necr/o = dead.
+9d8151aa	Build a word meaning “formation of vessels”
+b7355e30	Accelerator and Brake Genes
+14da64c5	Cancer is a disease of genes
+0b4f15da	A <b>mutation</b> is a lasting change in a cell’s DNA; it may be inherited or arise during life. Two groups of genes play the main part in cancer: <b>oncogenes</b> and <b>tumor suppressor genes</b>.⟦0⟧
+d08d2846	What does an oncogene resemble?
+16063041	broken brakes
+fea0103e	the tumour capsule
+a370eb49	It keeps giving the order to divide.
+302afc04	broken brakes
+766793f1	• <b>oncogene</b>: a mutated gene that forces the cell to divide non-stop<br>• <b>tumor suppressor gene</b>: a gene that slows division and repairs DNA; if it fails, the brakes are lost<br>• <b>BRCA1</b> and BRCA2: suppressor genes whose inherited mutation greatly raises the risk of breast and ovarian cancer⟦0⟧
+2259898a	BRCA1/BRCA2 testing is for women with several relatives who have had breast or ovarian cancer.
+44511aaa	a lasting change in DNA
+80cc7aa9	a gene driving uncontrolled division
+9333700c	a gene that brakes division
+b6d8761a	a breast cancer gene
+25b17da3	A BRCA1 mutation raises the risk of breast and ovarian cancer.
+94a23745	A tumour suppressor gene.
+9b8f5d4a	What happens if a tumour suppressor gene stops working?
+5a7f7c70	the brakes on cell division are lost
+7e3bb19a	the cell dies sooner
+f3c04a25	the tumour becomes benign
+455a0891	nothing happens
+0dd78869	Broken brakes.
+80eedf9e	A lasting change in a cell’s DNA is called a ___.
+13734ee0	mut/a = change.
+5bc7f3db	Review of “Cell Changes”
+05ed2b7b	hyperplasia more cells • metaplasia change of type • dysplasia abnormal (precancerous) • neoplasia tumour formation
+542264a3	carcinoma in situ is above the basement membrane and treatable by removal; invasive cancer has crossed it
+e9f9f9b5	necrosis tissue death; angiogenesis building new vessels for the tumour
+649f9060	mutation in DNA; oncogene the accelerator, tumor suppressor gene the brake; BRCA1 and BRCA2
+c4849881	Carcinogens
+d983ba6a	What causes cancer?
+deff6b67	⟦0⟧ = <b>carcinogen</b>: a cancer-causing agent. The process by which a normal cell becomes cancerous is called <b>carcinogenesis</b>.⟦1⟧
+879ad9f4	carcinogenesis means…
+ad88be04	the process of cancer formation
+040d8c72	cancer staging
+b48861ff	lung, mouth, bladder
+ffa8357d	skin: BCC, SCC, melanoma
+67d1793d	mesothelioma and lung
+d4e8f1d2	cervix, throat
+cb127b4f	some lymphomas
+280d9495	breast and ovary (inherited)
+66707b6a	Anything that raises the risk of disease is a risk factor; stopping smoking is the most important step in preventing cancer.
+57dffdb9	Match each agent to its cancer
+1f3675a9	Viruses never play a part in cancer.
+425818bc	False; HPV and EBV are oncogenic viruses.
+b7a9d98a	oncogenic means…
+7594e96f	antitumour
+2ec3936d	onc/o + -genic (producing).
+33770523	Anything that raises the chance of disease is a ___ factor.
+901930fe	Build a word meaning “tumour-producing”
+74c20211	Spell the name of the mineral fibre that causes mesothelioma
+37329c43	A mineral fibre; a cause of mesothelioma.
+f7ec9db6	Cancer travels
+5571e100	⟦0⟧ = <b>metastasis</b>: meta- means change and -stasis means standing; cancer cells break away from the <b>primary tumor</b> and build a new tumour elsewhere, a <b>secondary tumor</b>.⟦1⟧
+6b46c382	What is a new tumour formed by cancer spreading elsewhere called?
+34a39549	A secondary tumour.
+6b6916bb	Three routes of spread
+47f49033	direct invasion of nearby tissue
+952ed999	through lymph vessels to the lymph nodes
+6c8eded6	through the blood to distant organs: liver, lung, bone, brain
+2e8a95d2	hemat/o + -genous: “born of the blood”; that is, travelling in the blood.
+d249d13e	Match each route to its destination
+7a252622	liver, lung, bone
+da30daae	neighbouring tissue
+a19b8bb0	metastasize means the cancer spreads to another place.
+6450ab1d	The verb from metastasis.
+d40b777b	Which route most often carries cancer to the lymph nodes?
+0f14fe8c	The lymph vessels.
+e289dbe6	Spread of cancer through the blood is called ___ spread.
+cff12611	hemat/o = blood.
+efe6ad17	Put the steps of metastasis in order
+01da9f6f	cells break away from the primary tumour
+241e277e	they enter a blood or lymph vessel
+20a1262a	they travel in the blood or lymph
+5e8fb5d7	they settle in a distant organ and form a new tumour
+a2ee6e86	meta (moving) + stasis (standing).
+1fe456a6	Spell the term for cancer spreading to a distant site
+893a2e3c	Naming a Travelling Tumour
+2d277c42	Named after its first home
+fe167f6e	A secondary tumour has the same cells as the primary tumour and keeps <b>the same name</b>. The book says: if lung cancer spreads to the liver, the cells in the liver are “lung cancer cells” and the disease is <b>metastatic lung cancer</b>, not liver cancer.⟦0⟧
+75306bf9	Cancer is like a traveller: wherever it goes, its birth certificate names its home town.
+d78aa216	What is colon cancer that has spread to the liver called?
+eb3f3999	The name of the primary tumour is kept.
+2d9c3728	In the pathology report
+0ecec497	the tumour where the cancer began
+372563e3	a tumour in a new place with the same cells
+d1fa7e97	If the pathologist sees glandular bowel cells in the liver, they write: “metastatic adenocarcinoma, colonic origin”.
+b0d30bcf	Breast cancer that has spread to bone is called “bone cancer”.
+6b68a859	False; it is metastatic breast cancer.
+d6d83649	Match each description to its term
+e399279a	where the cancer started
+d18a3b43	a tumour in a new place
+01f1c886	spread
+26911d71	Why does the name of a metastatic tumour matter?
+60f2c161	because the original cell type decides the treatment
+13f3d5e4	because it is only for insurance
+2ce1c4ea	because it is a second cancer
+a933a4ea	because it is benign
+bd9e32dc	Breast cancer in bone is treated like breast cancer.
+65845815	Lung cancer that has spread to the brain is ___ lung cancer.
+d631c39d	Spread.
+5a74e206	Which route usually carries breast cancer first to the armpit nodes?
+7d166c15	The breast’s lymph vessels drain to the armpit.
+d1144241	Review of “Origin and Spread”
+5bef3096	carcinogen a cancer-causing agent; carcinogenesis the process of cancer formation; oncogenic tumour-producing
+98ba8333	risk factors: tobacco, ultraviolet radiation, asbestos, HPV, EBV, BRCA mutation
+f53f4e6a	metastasis = meta- + -stasis; primary and secondary tumor; lymphatic and hematogenous spread
+072ce9a6	A secondary tumour keeps the primary’s name: metastatic lung cancer, not liver cancer
+2e2a4f85	Naming Tumours
+d2d6b12c	The naming rule, benign tumours, carcinomas and sarcomas, leukaemia and lymphoma, embryonic tumours and special names
+c327508e	The Rule and Benign Tumours
+48a0cc57	Carcinoma and Sarcoma
+0a57c3ec	Blood, Lymph and Special Names
+bc6425c4	From Which Tissue?
+21943d88	Five families of cancer
+557d5509	The book says all cancers fall into a few groups based on their <b>tissue of origin</b>. First ask: “which tissue?”⟦0⟧
+aaa7fc0a	What is cancer of epithelial tissue called?
+20048b3f	Carcinoma; the most common type of cancer.
+9410b32a	Each family in one line
+33797e87	epithelial tissue (epithelium), which covers the body surface and lines the organs
+24911ccc	connective and supporting tissue: bone, cartilage, fat, muscle, vessels
+e218c04f	the blood-forming tissue of bone marrow
+23c86e64	lymphocytes and the lymphatic system
+4e3deee1	A carcinoma is “covering” and a sarcoma is “flesh and bone”: sarc/o means flesh.
+2450157d	Carcinoma is the most common type of cancer.
+ed827c0f	Most cancers arise from epithelial tissue.
+bf7cb6b3	What suffix does a cancer of immature embryonic cells have?
+8cb20a1c	blast/o = immature cell.
+208f29b2	Cancer of bone and cartilage belongs to the ___ group.
+27c35731	Connective tissue.
+88eb7a73	Build a word meaning “tumour of immature nerve cells”
+f5d70799	Root + -oma
+4bd96af3	The book says most benign tumours are named by adding ⟦0⟧ to the root of the tissue of origin:⟦1⟧
+4339452a	cartilage tumour
+5b0baecc	vessel tumour in the skin
+e80488da	⟦0⟧• <b>angioma</b>: a benign vessel tumour<br>• <b>hemangioma</b>: a benign blood-vessel tumour (hemangi/o); a red birthmark of babies<br>• <b>lymphangioma</b>: a benign lymph-vessel tumour
+fe615d94	angioma: a benign tumour of blood vessels in the skin of a child’s chest (Figure 20-1 of the book).
+5cb26967	Match each tumour to its tissue
+ca53bfc7	Muscle and surfaces
+8a9c3124	• <b>myoma</b>: a benign muscle tumour; <b>leiomyoma</b> is from smooth muscle (leiomy/o) and in the uterus is called a <b>fibroid</b><br>• <b>rhabdomyoma</b>: from striated muscle (rhabdomy/o)<br>• <b>papilloma</b>: a wart-like tumour of epithelial tissue<br>• <b>polyp</b>: a growth projecting from a mucous surface, mostly in the large intestine<br>• <b>nevus</b>: a mole; a benign tumour of pigment cells⟦0⟧
+956649cf	leio = smooth and rhabdo = rod-shaped, striated.
+c07cb648	What is a uterine leiomyoma called in everyday language?
+8c782879	A uterine fibroid.
+d57a8fc6	A polyp is a growth from a mucous surface and is seen mostly in the large intestine.
+a3517834	Table 20-3.
+ea1aa706	A benign tumour of smooth muscle is called a ___.
+f9c61800	-oma Traps
+98328c43	Not every -oma is benign
+1ab27fe7	Why is it a trap?
+08d54d41	despite -oma, it is a malignant skin cancer
+fa2d7efd	all lymphatic tumours are malignant
+19e786dd	not a tumour at all; blood collected outside a vessel
+70d938cd	carcinoma, sarcoma
+e756ea28	they have -oma but are malignant
+9da7e413	Three dangerous “-omas”: melanoma, lymphoma, myeloma. One innocent “-oma”: hematoma, which is only a bruise!
+50c691a0	In clinical medicine, hematoma means…
+7038c308	a collection of blood outside a vessel
+cde5b856	a benign blood tumour
+a3114734	blood cancer
+5adff075	a vessel tumour
+35dd5f05	The book: the word-for-word meaning “blood tumour” is not correct clinically.
+1bdd29ce	Benign breast lumps
+cc6c42c2	⟦0⟧• <b>fibroadenoma</b>: a benign tumour of fibrous and glandular tissue (fibr/o + aden/o + -oma)<br>• <b>cyst</b>: a fluid-filled sac; usually not cancer⟦1⟧
+45c7678a	fibroadenoma: a firm, rubbery lump
+99172924	cyst: a fluid-filled sac on section
+4e9b023b	Most breast lumps in young women are fibroadenomas or cysts; but every new lump must be checked.
+8d937914	cancer of pigment cells
+47993681	a collection of blood
+d9fecbc9	a benign breast tumour
+ae36ac37	Melanoma is a benign skin tumour.
+491e4a52	False; melanoma is malignant. A benign mole is called a nevus.
+f968f472	Which word is always malignant despite its -oma?
+4672ee51	Lymphatic tumours are malignant.
+51dd9b02	Another exception
+3dc7a024	A <b>meningioma</b> is a tumour of the brain membranes (mening/o) and is mostly <b>benign</b> and slow-growing; but because space in the skull is tight, it causes symptoms through pressure.
+160ba24f	A fibroadenoma is made of two tissues, fibr/o and ___.
+cc43fd46	Review of “The Rule and Benign Tumours”
+cc375f31	Tissue of origin → name: carcinoma (epithelial), sarcoma (connective), leukemia (bone marrow), lymphoma (lymph), blastoma (embryonic)
+f839ab10	Benign: root + -oma; adenoma, lipoma, chondroma, osteoma, fibroma, neuroma, angioma, leiomyoma (fibroid)
+946b17ac	polyp, papilloma, nevus, fibroadenoma and cyst are also benign
+34a59c80	Traps: melanoma and lymphoma are malignant; a hematoma is not a tumour
+d9170937	Carcinomas
+db62532b	A <b>carcinoma</b> arises from epithelial tissue and is named more precisely by the type of that tissue:⟦0⟧
+8a23c599	glandular cells that make fluid or mucus: breast, bowel, pancreas, prostate
+e01cd90d	squamous cells of the skin and the lining of the mouth, throat, cervix, anus
+446b5807	the basal layer of the epidermis
+322c0108	the stretchy lining of the bladder
+40990bdf	finger-like projections; mostly thyroid
+371d5ccb	Most breast, bowel and prostate cancers are of which type?
+f338105d	Glandular cells.
+f82a9b45	the most common skin cancer; slow; rarely metastasises
+d348884b	from pigment cells; the most dangerous
+73154e38	All three are seen mostly in skin that has had a lot of sun; sunscreen is the most important prevention.
+fd797eba	Match each cancer to its site
+6ccfc6ee	basal layer of the skin
+27fee16b	Basal cell carcinoma is the most common skin cancer and rarely metastasises.
+c087a61d	The book.
+e33230a3	What is cancer of the glands of the pancreas called?
+a864da8f	aden/o = gland; the book gives this very example.
+b0ebca5d	The abbreviation ___ means squamous cell carcinoma.
+aa911d39	Build a word meaning “cancer of glandular epithelium”
+4fd1aea0	Spell the word for the flat, scale-like cells in “… cell carcinoma”

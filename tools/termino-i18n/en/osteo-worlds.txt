@@ -1,0 +1,6 @@
+# world names and short names in Title Case
+09081cfe@osteo#5	Bone
+09081cfe@osteo#6	Bone
+fa8e57ba@osteo#1	Skeleton
+fa8e57ba@osteo#2	Skeleton
+457cc27a@osteo#1	Fractures and Treatment

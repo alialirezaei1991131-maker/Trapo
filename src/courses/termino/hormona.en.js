@@ -1598,7 +1598,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'hp', sym: 'Hp', name: "Hypothalamus and Pituitary", short: "pituitary", sub: "The brain’s commanders, stimulating hormones, growth hormone, ADH and pituitary disorders",
+    id: 'hp', sym: 'Hp', name: "Hypothalamus and Pituitary", short: "Pituitary", sub: "The brain’s commanders, stimulating hormones, growth hormone, ADH and pituitary disorders",
     color: '#8E44D9', dark: '#6A2FB0', light: '#F0E6FB',
     levels: ["The commander and the orchestra", "Pituitary hormones", "Pituitary disorders"],
     gens: EA.genIds('hp'),
@@ -1755,7 +1755,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'th', sym: 'Th', name: "Thyroid and Parathyroid", short: "thyroid", sub: "The butterfly of the neck, T3 and T4, iodine, calcium, overactivity and underactivity, goitre, tests and surgery",
+    id: 'th', sym: 'Th', name: "Thyroid and Parathyroid", short: "Thyroid", sub: "The butterfly of the neck, T3 and T4, iodine, calcium, overactivity and underactivity, goitre, tests and surgery",
     color: '#0FA3A3', dark: '#0B7B7B', light: '#DDF5F4',
     levels: ["The butterfly of the neck", "Overactive, underactive, goitre", "Calcium, tests and treatment"],
     gens: EA.genIds('th'),
@@ -1914,7 +1914,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ad', sym: 'Ad', name: "Adrenal Glands", short: "adrenal", sub: "Cortex and medulla, cortisol, aldosterone, adrenaline, Cushing, Addison and adrenal tumours",
+    id: 'ad', sym: 'Ad', name: "Adrenal Glands", short: "Adrenal", sub: "Cortex and medulla, cortisol, aldosterone, adrenaline, Cushing, Addison and adrenal tumours",
     color: '#E8892B', dark: '#B8651A', light: '#FDEBD7',
     levels: ["A cap on the kidney", "Overactive cortex", "Underactivity, tumours and treatment"],
     gens: EA.genIds('ad'),
@@ -2072,7 +2072,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'pa', sym: 'Pa', name: "The Pancreas and Diabetes", short: "diabetes", sub: "Islets of Langerhans, insulin and glucagon, types of diabetes, blood sugar tests, complications and treatment",
+    id: 'pa', sym: 'Pa', name: "The Pancreas and Diabetes", short: "Diabetes", sub: "Islets of Langerhans, insulin and glucagon, types of diabetes, blood sugar tests, complications and treatment",
     color: '#1E88E5', dark: '#1565C0', light: '#DDEEFD',
     levels: ["The sweet islands", "diabetes mellitus", "Complications and treatment"],
     gens: EA.genIds('pa'),
@@ -2232,7 +2232,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'dx', sym: 'Dx', name: "Other Glands, Diagnosis and Treatment", short: "diagnosis", sub: "Pineal, thymus, gonads, tests and imaging, operations, drugs and a summary of overactivity and underactivity",
+    id: 'dx', sym: 'Dx', name: "Other Glands, Diagnosis and Treatment", short: "Diagnosis", sub: "Pineal, thymus, gonads, tests and imaging, operations, drugs and a summary of overactivity and underactivity",
     color: '#D94F7B', dark: '#A8345B', light: '#FBE3EC',
     levels: ["The quiet glands", "Laboratory and imaging", "Treatment and summary"],
     gens: EA.genIds('dx'),

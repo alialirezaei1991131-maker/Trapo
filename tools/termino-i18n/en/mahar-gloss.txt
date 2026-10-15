@@ -1,0 +1,194 @@
+# معنی کوتاه واژه‌نامه (بدون تکرار خود واژه)
+20e5c20a@mahar#1	rough scaly sun-damaged patch, precancerous
+8393928b@mahar#1	malignant tumour of glandular epithelium
+5b97f50f@mahar#1	treatment after surgery to kill remaining cells
+d362878f@mahar#1	hair loss
+7517e988@mahar#1	formation of new blood vessels
+49c7c60e@mahar#1	benign vessel tumour
+01013e8a@mahar#1	malignant tumour of vessel lining
+7003f009@mahar#1	drug blocking male hormone
+646f22f5@mahar#1	drug against nausea and vomiting
+68fa036a@mahar#1	drug blocking oestrogen, such as tamoxifen
+9b6b78ce@mahar#1	programmed cell death
+271eefe6@mahar#1	drug lowering oestrogen after menopause
+14e7e96c@mahar#1	mineral fibre causing mesothelioma
+9f8a36a8@mahar#1	glioma of star-shaped cells
+1da70e9a@mahar#1	contrast X-ray of the large bowel
+6df1e25b@mahar#1	commonest skin malignancy, rarely spreads
+6a97f24e@mahar#1	weakened bacterium used inside the bladder
+374c6a6d@mahar#1	tumour of immature embryonic cells
+a6d387c7@mahar#1	radioactive scan for skeletal metastases
+b433172b@mahar#1	radiation source placed beside the tumour
+e189df67@mahar#1	inherited breast and ovarian risk gene
+62b7f1fb@mahar#1	monthly self-check of the breasts
+529dbf70@mahar#1	viewing the airways with a scope
+7476d61c@mahar#1	severe wasting in advanced illness
+dd7010ed@mahar#1	malignant tumour
+9452b748@mahar#1	malignant
+fbb3f67b@mahar#1	tumour marker for bowel malignancy
+3b224a29@mahar#1	agent that causes malignancy
+3f68a774@mahar#1	sequence of growth and division
+b7c4ca34@mahar#1	benign cartilage tumour
+a2735460@mahar#1	malignant cartilage tumour
+d12f2cdc@mahar#1	removal of the large intestine
+e0262e21@mahar#1	drug prompting the marrow to make blood cells
+f4519095@mahar#1	opening of the colon on the abdomen
+4ea9ca5c@mahar#1	count of red cells, white cells and platelets
+598d006b@mahar#1	thick-needle sample of a tissue cylinder
+c67d5570@mahar#1	destroying tissue with extreme cold
+3866d531@mahar#1	aimed at a cure
+c2473e30@mahar#1	fluid-filled sac
+aad86659@mahar#1	removal of the bladder
+bc7c4464@mahar#1	viewing the bladder with a scope
+32522317@mahar#1	study of cells
+77f18d24@mahar#1	cell-killing
+86397eb2@mahar#1	removing as much tumour as possible
+5749254f@mahar#1	identifications of disease (plural)
+b9a6fc3b@mahar#1	identification of a disease
+31b576e2@mahar#1	cell maturing into its special form
+f260d4b7@mahar#1	gloved-finger check of rectum and prostate
+9c011fb4@mahar#1	spread to far organs (M1)
+a69767c3@mahar#1	non-invasive malignancy in a breast duct
+a5e51871@mahar#1	difficulty swallowing
+8116fea0@mahar#1	abnormal, precancerous cell growth
+b92eb15d@mahar#1	enclosed in a capsule
+d5983f5b@mahar#1	sample of the uterine lining
+601134cd@mahar#1	virus linked with some lymphomas
+f777c33c@mahar#1	viewing the gullet with a scope
+fd48b5b5@mahar#1	binding site for the main female hormone on tumour cells
+1b982130@mahar#1	cutting out tissue
+f9a74f87@mahar#1	removing the whole lump for testing
+20d30ddb@mahar#1	hundreds of inherited bowel growths
+1dd50167@mahar#1	tiredness not relieved by rest
+3adcb44b@mahar#1	benign breast lump of fibrous and gland tissue
+8defe9e7@mahar#1	benign fibrous tumour
+f4eac570@mahar#1	malignant fibrous tumour
+541f2dcd@mahar#1	drawing a few cells with a thin needle
+6b5b5622@mahar#1	share of patients alive five years after diagnosis
+a34d743d@mahar#1	cell-killing drug often used for bowel cancer
+b4fac75d@mahar#1	quick pathology slice during surgery
+c9c09fdb@mahar#1	checking DNA for inherited mutations
+ee62ed6a@mahar#1	most aggressive adult brain malignancy
+62716d7b@mahar#1	tumour of the brain’s supporting cells
+7620668a@mahar#1	degree of cell abnormality
+e4950387@mahar#1	embryonic liver tumour of children
+6c32d210@mahar#1	rough, husky voice
+d11fd8a6@mahar#1	lymph node malignancy with Reed-Sternberg cells
+8b2d478c@mahar#1	blocking hormones that feed a tumour
+0218badd@mahar#1	end-of-life comfort care
+bbcdb91b@mahar#1	increase in the number of normal cells
+d8107301@mahar#1	removal of the uterus
+f5d82979@mahar#1	drug that dampens immunity
+294c9ee4@mahar#1	boosting immunity against malignancy
+1e5d19a2@mahar#1	in its original place, not invading
+070fc7d7@mahar#1	removing part of a lump for testing
+65d44aed@mahar#1	seeping into nearby tissue
+c6c983a2@mahar#1	spreading into healthy tissue
+f129f40a@mahar#1	spreading into deeper tissue
+2ac21529@mahar#1	removal of the voice box
+37f72993@mahar#1	viewing the voice box with a scope
+f110f6de@mahar#1	cutting with a beam of light
+a468e722@mahar#1	benign smooth muscle tumour (fibroid)
+2f83ee81@mahar#1	malignant smooth muscle tumour
+c43e5a77@mahar#1	melanoma in situ, “malignant freckle”
+f0e00f6b@mahar#1	drug that lowers sex hormones
+422d161e@mahar#1	benign fatty tumour
+87d3ef47@mahar#1	malignant fatty tumour
+5aabed82@mahar#1	removal of one lobe
+27b5da5c@mahar#1	removal of a breast lump with a margin
+acf16397@mahar#1	removal of regional nodes
+f9b5df5e@mahar#1	enlarged nodes
+e42468be@mahar#1	dye imaging of lymph vessels
+6d24e3a7@mahar#1	benign lymph vessel tumour
+002fe957@mahar#1	malignancy of lymphocytes
+6b2f3b6d@mahar#1	old name for malignant lymphatic tumour
+5e59c63f@mahar#1	X-ray image of the breast
+ea484c18@mahar#1	removal of the breast
+a7f284ce@mahar#1	physician who gives anticancer drugs
+1c62f989@mahar#1	embryonic tumour of the cerebellum
+3943c482@mahar#1	malignancy of pigment cells
+a8fa7590@mahar#1	usually benign tumour of the brain membranes
+f4dc35dd@mahar#1	malignancy of the chest or abdominal lining
+3eed4a78@mahar#1	change from one mature cell type to another
+8d32ac97@mahar#1	secondary tumours (plural)
+afa78901@mahar#1	spread from the original site
+cc011f68@mahar#1	cell-killing drug that blocks folate use
+31803bd3@mahar#1	division of a cell into two
+e7276c57@mahar#1	breast removal with some armpit nodes
+99a20ea5@mahar#1	sores of the mouth and gut lining
+d93dd8a1@mahar#1	lasting change in DNA
+30b6005f@mahar#1	arising in bone marrow
+7b0254e5@mahar#1	benign muscle tumour
+ed657938@mahar#1	treatment before surgery to shrink a tumour
+d99e4dc1@mahar#1	formation of a tumour
+87642db6@mahar#1	new abnormal growth; a tumour
+93ab22e1@mahar#1	relating to tumour growth
+09c500e9@mahar#1	embryonic tumour of nerve tissue
+1d398872@mahar#1	benign nerve tumour
+54db070f@mahar#1	shortage of neutrophils
+f010bf2c@mahar#1	heavy sweating at night
+9ff5ed37@mahar#1	fluid leaking from the nipple
+b203a055@mahar#1	nipple pulled inwards
+db5915ee@mahar#1	lymph malignancy without Reed-Sternberg cells
+782b7462@mahar#1	lung malignancy of squamous, glandular or large cells
+a5b41da7@mahar#1	tumour specialist
+a39e6ed4@mahar#1	nurse caring for patients with tumours
+bcac5537@mahar#1	removal of a testis
+60f75cd1@mahar#1	benign bone tumour
+c52d6a98@mahar#1	malignant bone tumour
+1ba6dc3d@mahar#1	easing symptoms without a cure
+cf7ac414@mahar#1	cervical cell sample for dysplasia
+8ae24459@mahar#1	malignancy with finger-like projections, often thyroid
+e09236a6@mahar#1	wart-like benign tumour
+6861b3d3@mahar#1	distant symptoms caused by tumour substances
+39136da6@mahar#1	stem cells collected from circulating blood
+cac401ab@mahar#1	removal of a whole lung
+73c65828@mahar#1	growth projecting from a mucous surface
+9b842d7a@mahar#1	growths from a mucous surface (plural)
+d2ff9113@mahar#1	cells look very unlike normal cells
+4f85d007@mahar#1	likely to become malignant
+cdd06f7e@mahar#1	binding site for the pregnancy hormone on tumour cells
+fa379f26@mahar#1	rapid multiplication of cells
+7e9098a5@mahar#1	preventive
+96c79dc5@mahar#1	blood marker of the prostate
+7caab50f@mahar#1	removal of the prostate
+eabb54ac@mahar#1	specialist in radiotherapy
+d60b8523@mahar#1	treatment with high-energy rays
+343a4ddf@mahar#1	iodine-131 that destroys thyroid cells
+457fe9bf@mahar#1	easily damaged by rays
+2f48e87f@mahar#1	restoring shape after surgery
+8691802c@mahar#1	return of the disease after treatment
+880c28f0@mahar#1	large two-nucleus cell of Hodgkin disease
+637ec5bd@mahar#1	spread to nearby nodes or tissue
+83192ae5@mahar#1	disease coming back
+2d2181df@mahar#1	signs of the disease disappearing
+f32515b8@mahar#1	removal of part of an organ
+e835cf19@mahar#1	embryonic eye tumour of children
+75f6552b@mahar#1	benign striated muscle tumour
+98c70cd3@mahar#1	malignant striated muscle tumour
+d750455d@mahar#1	anything that raises the chance of disease
+85536086@mahar#1	removal of the uterine tubes and ovaries
+56998389@mahar#1	testing healthy people for early disease
+4a1f5e54@mahar#1	sudden electrical storm in the brain
+6ebfe1df@mahar#1	germ cell malignancy of the testis
+585e6fb2@mahar#1	removing the first draining node
+6983f42b@mahar#1	fast-growing oat cell lung malignancy
+f92f66ef@mahar#1	examining cells in coughed-up mucus
+df6ca423@mahar#1	extent of a malignancy in the body
+5663a9be@mahar#1	working out the size and spread of a tumour
+c776a069@mahar#1	replacing blood-forming cells
+290cd172@mahar#1	easing side effects and maintaining comfort
+3c7cf083@mahar#1	rim of healthy tissue around a removed tumour
+87da8954@mahar#1	surgeon who removes tumours
+71f8b430@mahar#1	drug aimed at a specific growth molecule
+f900d926@mahar#1	germ cell tumour with hair or teeth
+d41e1ba5@mahar#1	incision into the chest
+7fc3138d@mahar#1	shortage of platelets
+c2288745@mahar#1	removal of the thyroid
+92b0a7c9@mahar#1	tumour, node and metastasis classification
+4f01cb50@mahar#1	malignancy of the bladder lining
+c2d53752@mahar#1	sound-wave scan through the rectum
+3afc21c1@mahar#1	without features of mature cells
+f32ee3c1@mahar#1	barium swallow X-ray
+72e2d389@mahar#1	examining cells in the urine
+5ad12bec@mahar#1	cells closely resemble normal cells

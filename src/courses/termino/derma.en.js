@@ -1634,7 +1634,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ly', sym: 'Ly', name: "Layers of the skin", short: "Layers", sub: "The epidermis and its five strata, melanin, the dermis and its receptors, subcutaneous fat, wound healing and injection routes",
+    id: 'ly', sym: 'Ly', name: "Layers of the Skin", short: "Layers", sub: "The epidermis and its five strata, melanin, the dermis and its receptors, subcutaneous fat, wound healing and injection routes",
     color: '#D9506E', dark: '#A83350', light: '#FCE6EC',
     levels: ["outer skin", "dermis", "Subcutaneous tissue and healing"],
     gens: EA.genIds('ly'),
@@ -1932,7 +1932,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'le', sym: 'Le', name: "Lesions and signs", short: "Lesions", sub: "Macule to tumour, blisters and pus, crusts and ulcers, skin colours, bleeding under the skin and itching",
+    id: 'le', sym: 'Le', name: "Lesions and Signs", short: "Lesions", sub: "Macule to tumour, blisters and pus, crusts and ulcers, skin colours, bleeding under the skin and itching",
     color: '#D48A00', dark: '#A56A00', light: '#FFF4D6',
     levels: ["Primary lesions", "Fluid-filled, secondary and sunken", "Colours and signs"],
     gens: EA.genIds('le'),
@@ -2232,7 +2232,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Tx', name: "Tumours, Diagnosis and Treatment", short: "diagnosis and treatment", sub: "Moles and benign tumours, the three skin cancers and ABCDE, biopsy and skin tests, surgery, grafts and drugs",
+    id: 'tx', sym: 'Tx', name: "Tumours, Diagnosis and Treatment", short: "Diagnosis and Treatment", sub: "Moles and benign tumours, the three skin cancers and ABCDE, biopsy and skin tests, surgery, grafts and drugs",
     color: '#1F9E8F', dark: '#137568', light: '#DDF5F1',
     levels: ["Skin tumours", "Diagnosis and charts", "treatment"],
     gens: EA.genIds('tx'),

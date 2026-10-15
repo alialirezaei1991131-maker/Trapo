@@ -2105,7 +2105,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tr', sym: 'Tr', name: "The Bladder and Voiding", short: "Bladder and voiding", sub: "The ureter and peristalsis, the bladder and its trigone, the sphincters, the female and male urethra, the voiding reflex, incontinence and retention",
+    id: 'tr', sym: 'Tr', name: "The Bladder and Voiding", short: "Bladder and Voiding", sub: "The ureter and peristalsis, the bladder and its trigone, the sphincters, the female and male urethra, the voiding reflex, incontinence and retention",
     color: '#2B86C5', dark: '#1B5E8E', light: '#E6F2FB',
     levels: ["Ureter and bladder", "Urethra and voiding", "Disorders of voiding and structure"],
     gens: EA.genIds('tr'),
@@ -2546,7 +2546,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Tx', name: "diagnosis and treatment", short: "diagnosis and treatment", sub: "KUB, IVP and pyelography, cystoscopy, catheterization, haemodialysis and peritoneal dialysis, lithotripsy, kidney and bladder operations, transplant and drugs",
+    id: 'tx', sym: 'Tx', name: "Diagnosis and Treatment", short: "Diagnosis and Treatment", sub: "KUB, IVP and pyelography, cystoscopy, catheterization, haemodialysis and peritoneal dialysis, lithotripsy, kidney and bladder operations, transplant and drugs",
     color: '#17A398', dark: '#0E6E66', light: '#E2F6F3',
     levels: ["Imaging and endoscopy", "Catheterization, dialysis and lithotripsy", "Surgery, transplant and drugs"],
     gens: EA.genIds('tx'),

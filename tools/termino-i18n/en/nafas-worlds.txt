@@ -1,0 +1,6 @@
+# world names and short names in Title Case
+99adf998@nafas#1	Upper Tract
+4c31bcf6@nafas#1	Lower Tract
+6d75c599@nafas#1	Respiratory Diseases
+e712189f@nafas#2	Diagnosis and Treatment
+e712189f@nafas#3	Diagnosis and Treatment

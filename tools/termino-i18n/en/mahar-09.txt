@@ -1,0 +1,240 @@
+b49ec03a	A 1 × 2 cm neck lymph node after surgery may be a sign of cancer spread.
+93ed3907	Lymphatic spread to the neck lymph nodes.
+693a1318	Write the name of the medical field that treats cancer
+4a8cb702	A tumour board note
+2d135601	The cancer team’s weekly meeting
+d0831ad6	At the tumour board, the surgeon, pathologist, oncologist and radiotherapist decide about a patient. The meeting secretary must understand their short note.
+8b53ea57	Ca colon, no mets
+23282dd1	colectomy, then chemo
+8c31a785	every 3 months
+fa447e13	colectomy means…
+b8e42118	making an opening of the colon on the abdomen
+e77a2716	looking inside the bowel
+bf32d430	cutting into the bowel
+9f2dbe84	“No mets” means the cancer has not spread elsewhere.
+625ffc68	NED in a follow-up note means…
+1879af93	needs urgent treatment
+f999ac71	end of chemotherapy
+fd4dcaaa	Spell the term for a cancer specialist
+004bcc48	An abnormal Pap smear
+6cdb417d	At routine screening, a young woman’s Pap smear showed abnormal cells and her HPV test is positive. The doctor explains that this is not cancer yet but must be treated.
+358968b3	not carcinoma in situ
+037196fe	removing the dysplastic area
+86039261	steps of cell change
+aff025d9	dysplasia means…
+38dd46b0	abnormal growth of cells; precancerous
+c4244909	an increase in the number of normal cells
+a855ca4e	invasive cancer
+e97ee701	dys- (abnormal) + -plasia (growth).
+52a6b407	Steps
+b33c992d	Put the steps of epithelial change in order
+65df8b8a	From normal to invasive.
+bf677c29	What part does HPV play in this case?
+9940614a	a cancer-causing virus for the cervix
+1109b15f	human papillomavirus: its high-risk types cause cervical cancer.
+ec7b3d32	Removing a dysplastic lesion is a preventive (prophylactic) treatment.
+cf1c8c93	Border
+11f0c121	How does carcinoma in situ differ from invasive carcinoma?
+cdcaa342	in situ has not crossed the basement membrane
+5fcc2d54	in situ is benign
+f9dacfea	invasive has a capsule
+91da73a1	there is no difference
+e0d99136	Write the term for a cancer-causing agent such as tobacco
+e9e6f46f	Lung cancer in the liver
+dcdc7aa2	A 64-year-old man who smokes
+eb11bf8c	On a CT scan of a patient with lung cancer, masses have been seen in the liver. The family ask: “Does he have liver cancer too now?” You need to give the right answer.
+34a61bf2	several lesions in the liver
+31eec300	liver biopsy
+c88dadf8	lung adenocarcinoma cells
+e3d126f1	tobacco, 40 years
+6fea60c1	What is this patient’s cancer called?
+315ffe77	A secondary tumour keeps the name of the primary tumour.
+85d09cb3	By what route did the lung cancer cells reach the liver?
+4778434d	hematogenous spread (through the blood)
+b0416790	through the air
+6f3fccd3	an inherited mutation
+2a9c6634	Distant spread is mostly through the blood.
+c014ecc1	meta- means change and -stasis means standing.
+b95c366c	The cell changes place and stands in a new spot.
+4c75788d	Which risk factor is most important in this patient?
+25ebb281	Tobacco is the main cause of lung cancer.
+9da174b9	Spell the plural of metastasis
+d248c7fb	A teenager’s knee pain
+73fb4611	A 15-year-old football player
+1a27ac24	A teenager has had pain and swelling above the knee for a few months. The X-ray shows bone destruction and a biopsy has confirmed the diagnosis. You need to decode the tumour’s name.
+6fe1018f	pain and swelling above the knee
+459f9136	destructive lesion of the femur
+6df6ddfb	lung CT
+a5082ef7	no mets
+41aaf588	osteosarcoma means…
+b2e8724d	If the same tumour were benign, what would it be called?
+d9e28b81	root + -oma = benign.
+4f88ffb1	Match each malignant tumour to its tissue
+ea5b4191	A sarcoma arises from epithelial tissue and a carcinoma from connective tissue.
+713ff09e	The reverse: a sarcoma comes from connective tissue and a carcinoma from epithelial tissue.
+4b999a31	Why is a lung CT done before treatment?
+d8b737f2	the lung is the most common site of sarcoma metastasis
+3525cd0a	to see the heart
+40a07437	to screen for HPV
+da3054ea	to measure hormones
+f24ec055	Sarcomas often spread to the lungs through the blood.
+004c1188	Spell the term for cancer of connective tissue
+4c7d6769	A child’s abdominal mass
+0a731989	A 4-year-old child
+0993d43d	While bathing her child, a mother felt a lump in the child’s side. Ultrasound shows a mass in the kidney. The doctor talks about an embryonic childhood tumour.
+04006e7b	large mass in the right flank
+6cb99bf6	kidney mass
+4140f57e	Wilms tumor is cancer of which organ?
+a7495397	the adrenal gland
+6d463328	An embryonic kidney tumour of children.
+9e4a2d38	Why is Wilms tumor an exception to the naming rule?
+b9422602	it is not called nephroblastoma
+42783d52	it occurs in adults
+57340309	it arises from connective tissue
+40245404	The rule: organ root + -blastoma.
+d74ae567	adrenal gland and nerve
+3962e2b3	blast/o means immature or embryonic cell.
+527a0ca9	blastoma = tumour of immature cells.
+19ad2eb0	Which specialist coordinates this child’s treatment?
+c835a723	A paediatric oncologist.
+06d7f8fc	Spell the term for embryonic cancer of the retina
+c94bd32f	A mole that changed
+28bb5d98	A woman says the mole on her back has grown larger and darker over a few months and its edge is ragged. The doctor checks the mole with the ABCDE rule.
+7ec08df2	change in the colour and size of the mole
+be75822a	8 mm
+00cd6da2	asymmetrical, several colours
+72063c2f	ABCDE rule
+b5481978	several colours
+93ab86b0	An 8-mm mole, in terms of the letter D…
+7f4fee3f	is suspicious; larger than 6 mm
+40517a95	does not matter
+08c37375	Diameter: larger than 6 mm across.
+0fb51438	Melanoma is cancer of which cell?
+62c99c13	the pigment-producing cell of the skin
+7547fb8d	the basal layer cell
+1cec9abb	melan/o = black; melanocyte.
+e1617773	Warning
+d324f2bf	“An obvious change in a mole” is one of the seven CAUTION warning signs.
+ad271117	Precancer
+40898891	Which lesion makes melanoma more likely?
+20c1c6b8	A dysplastic nevus.
+a1b4532b	A 55-year-old man’s check-up
+0a2e34a1	A 55-year-old man with no symptoms
+7a28af0a	A healthy man has come for his yearly check-up and has no complaints. The doctor suggests several cancer screening tests, and you need to know the aim of each.
+0ba39b5c	within normal limits
+01667339	Screening tests
+e90375f1	Screening means testing healthy people without symptoms to find cancer early.
+3fbafd38	A positive FOBT means…
+08b38f20	hidden blood has been found in the stool
+8cf151a2	cancer is certain
+884e3ea1	the prostate is enlarged
+f53ef5b9	blood fats are high
+f734a308	fecal occult blood: hidden blood in the stool.
+a40c7090	After a positive FOBT, which examination is done?
+690363ae	Viewing the whole large intestine and removing polyps.
+f27398fb	In colonoscopy, which lesion is removed to prevent cancer?
+0afbc804	A bowel polyp can turn into adenocarcinoma.
+120bfa71	A breast lump
+01d17292	A 49-year-old woman
+9cc2b9b1	A woman has felt a hard lump in her left breast. Mammography shows a suspicious lesion, and several tests are done for diagnosis and staging.
+287ffa21	irregular 2-cm mass
+3cb97f6e	normal mammogram for comparison
+7a6931bd	Which method gives the definite diagnosis of cancer?
+17c75623	Only the pathologist’s look at the tissue is definite.
+13a3560a	What is removed in a core needle biopsy?
+af583100	a cylinder of tissue with a thick needle
+80d3ee50	the whole lump by surgery
+3e37a8d1	venous blood
+0eaccfa4	core = centre, cylinder.
+2fbb1101	ER/PR positive means…
+2c75e6a6	the tumour grows with oestrogen and progesterone
+5490f6ee	the tumour is radiosensitive
+896664b8	the lymph nodes are involved
+f1f7438b	there is metastasis
+c5289f27	Hormone therapy works.
+f6cd5eb7	A negative SLNB means…
+6422f134	the sentinel lymph node has no cancer
+e7b7228d	the cancer has metastasised
+30de8c6c	the biopsy failed
+2490690b	A 2-cm tumour with no node involvement and no metastasis is N0 and M0 in TNM.
+f27be59a	N0 = no nodes; M0 = no distant metastasis.
+91c834c0	Spell the term for X-ray imaging of the breast
+b756b4f0	A 60-year-old man who smokes
+80073ef1	A smoker has come with a long-standing cough and blood-stained sputum. A CT scan shows a mass in the lung, and the team plans diagnosis and staging.
+e721f35e	hemoptysis, dyspnea
+e2002505	5-cm mass in the right lung
+665c2ccc	mediastinal lymph nodes involved
+952d6d4a	hemoptysis means…
+d837e649	What is seen in bronchoscopy?
+a30441f6	examining cells in the sputum
+cf70229a	In TNM, what does the letter N show?
+7bbb67f1	involvement of regional lymph nodes
+11cf5f96	the grade of the cells
+7b9607ef	Small cell lung cancer has small round cells like oat grains.
+9c35d272	Spell the term for viewing inside the bronchi
+c08932bb	A breast cancer treatment plan
+b53706d4	The same 49-year-old woman, after diagnosis
+ea91ab41	For early-stage, hormone-receptor-positive breast cancer, the team has proposed a multistep plan. You need to know each step and its aim.
+cf359397	antiestrogen (tamoxifen) for five years
+4f5f2a12	lumpectomy means…
+52ac854c	removing the lump and a little healthy tissue around it
+ad9dd2f2	removing the armpit nodes
+48a6872e	What kind of treatment is radiotherapy after surgery to kill remaining cells?
+67709fd3	adjuvant = additional, after the main treatment.
+74c54b96	What does tamoxifen do in this patient?
+14ffdb6b	it blocks the effect of oestrogen on the cancer cells
+e56667de	it kills the cells with radiation
+172851ad	it stimulates the bone marrow
+1444ee00	Order
+b9c91d89	Put this patient’s treatment steps in order
+e940977f	biopsy and diagnosis
+7382f65c	Diagnosis, surgery, adjuvant radiotherapy, hormone therapy.
+f1199919	The aim of this plan is palliative.
+3c6f3f5b	False; the aim is curative.
+eda23c7e	Spell the term for removal of the breast
+3fbdc204	Leukaemia in childhood
+e1b21dd0	A 6-year-old girl
+d248c544	A child has been brought in with tiredness, lots of bruises and repeated fevers. The blood count is abnormal and a bone marrow examination confirms the diagnosis. Long treatment lies ahead.
+cfe31c34	anemia, thrombocytopenia, many blasts
+f88d81eb	multistep chemotherapy
+226edc65	neutropenia, alopecia, mucositis
+c32df717	ALL means…
+91369063	The most common childhood cancer.
+8d938135	Match each finding to its cause
+08f5f7da	bruising and bleeding
+15f8315d	repeated infections
+271473ea	Which method gives the definite diagnosis of leukaemia?
+2ac53839	A sample of bone marrow.
+a81fd8fa	Support
+cb7141e1	Which drug reduces the nausea of chemotherapy?
+c552392f	anti- + emesis (vomiting).
+ee8cf002	If the disease relapses, a stem cell transplant can be a treatment option.
+ecca4f99	After intensive chemotherapy, the stem cells are replaced.
+c177a310	Spell the term for treatment with anticancer drugs
+4aa434d0	Start the meaning of a word from the suffix: osteosarcoma means “cancer of the connective tissue” of “bone”.
+10a751b1	onc/o means tumour: oncology is the study of tumours and cancer, and an oncologist is its specialist.
+33030b9d	neo- means new and -plasm means growth; neoplasm means “new growth”, that is, a tumour.
+6b0bff47	The plural of metastasis is metastases and the plural of nevus is nevi.
+4b6ac080	In apoptosis the second p is silent: “a-po-TOE-sis”; it means programmed cell death.
+ed3a9dd5	A cancer cell has two features: it divides without control and it escapes programmed death (apoptosis).
+045b15d4	hyperplasia means more cells, dysplasia misshapen cells and anaplasia undifferentiated cells.
+d5ec0d83	An oncogene is like a stuck accelerator and a tumor suppressor gene like broken brakes.
+9efa660a	meta- means change and -stasis means standing: metastasis means the cancer has “changed its place and settled elsewhere”.
+ed20c030	Lung cancer that has gone to the liver is still “lung cancer”: metastatic lung cancer, not liver cancer.
+383e9c3d	Root + -oma is usually a benign tumour: lipoma, chondroma, osteoma.
+1fd19b85	Epithelial tissue → carcinoma; connective tissue → sarcoma; bone marrow → leukemia; lymphocytes → lymphoma.
+9f962460	Melanoma and lymphoma are always malignant despite their -oma; a hematoma is not a tumour at all!
+0989a137	my/o is muscle and myel/o bone marrow; a myoma is a muscle tumour and a myeloma a bone marrow cancer.
+bc6f8fcb	A uterine leiomyoma is called a fibroid in everyday language.
+1b4963ea	Wilms tumor is an exception to naming: although it is an embryonic kidney tumour, it is not called nephroblastoma.
+05cdf348	hem/o + -ptysis means coughing up blood (lung cancer) and hemat/o + -uria means blood in the urine (bladder and kidney).
+ee029213	A mole that changes in size, colour or shape should be examined; remember the ABCDE rule.
+5de8bdaf	Hoarseness for more than a week is a warning sign of laryngeal cancer.
+9c687c2f	Screening means testing healthy people without symptoms; the aim is to find cancer before symptoms appear.
+00ca112b	fecal = stool and occult = hidden; FOBT finds hidden blood in the stool for bowel cancer.
+b29edcb6	The definite diagnosis of cancer is by biopsy and the pathologist’s look under the microscope, not by imaging.
+355415a4	Grade is how misshapen the cells are; stage is how far the cancer has advanced.
+54d30787	In TNM, the letter T is the tumour size, N the lymph nodes and M distant metastasis.
+7e359d53	The sentinel lymph node is the first node the cancer reaches; if it is clear, the rest are probably clear too.
+f10c1c3b	-ectomy is removal, -tomy incision and -stomy making an opening: mastectomy, thoracotomy, colostomy.
+93bca527	brachy- means near: in brachytherapy the radiation source is placed right beside the tumour.

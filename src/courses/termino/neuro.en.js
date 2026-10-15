@@ -1839,7 +1839,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'pn', sym: 'Pn', name: "Peripheral and Autonomic Nerves", short: "Peripheral nerves", sub: "Neuron and synapse, cranial and spinal nerves, dermatomes, the reflex arc, sympathetic and parasympathetic",
+    id: 'pn', sym: 'Pn', name: "Peripheral and Autonomic Nerves", short: "Peripheral Nerves", sub: "Neuron and synapse, cranial and spinal nerves, dermatomes, the reflex arc, sympathetic and parasympathetic",
     color: '#E89A1E', dark: '#B06F06', light: '#FDF3DC',
     levels: ["Neuron, Synapse and Myelin", "Cranial and Spinal Nerves", "Reflexes and the Autonomic System"],
     gens: EA.genIds('pn'),
@@ -1986,7 +1986,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ds', sym: 'Ds', name: "Neurological Signs and Diseases", short: "Neurological diseases", sub: "Paralysis and weakness, speech and sensory disorders, coma, stroke, haematoma, epilepsy, Parkinson’s, Alzheimer’s, MS, meningitis and tumours",
+    id: 'ds', sym: 'Ds', name: "Neurological Signs and Diseases", short: "Neurological Diseases", sub: "Paralysis and weakness, speech and sensory disorders, coma, stroke, haematoma, epilepsy, Parkinson’s, Alzheimer’s, MS, meningitis and tumours",
     color: '#D9534F', dark: '#A8312E', light: '#FDE6E4',
     levels: ["Neurological Signs", "Stroke, Injury and Seizure", "Diseases and Tumours"],
     gens: EA.genIds('ds'),

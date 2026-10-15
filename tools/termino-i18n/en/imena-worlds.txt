@@ -1,0 +1,11 @@
+# world names and short names in Title Case
+da186cba@imena#1	Language
+4dc4cddd@imena#1	Blood and Cells
+275ca66a@imena#5	Blood
+dc2a4191@imena#1	Haemostasis and Transfusion
+c65c60b8@imena#1	The Lymphatic System
+04d6a99d@imena#3	Lymph
+8d2e1a2d@imena#3	Immunity and Protection
+8d2e1a2d@imena#4	Immunity and Protection
+18407b36@imena#1	Tests, Treatment and ICU
+e9ba4faa@imena#2	Test

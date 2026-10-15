@@ -1,0 +1,5 @@
+# world names and short names in Title Case
+92b72da6@zaya#2	Female
+dacedc2f@zaya#2	Pregnancy and Childbirth
+021711bd@zaya#5	Pregnancy
+e712189f@zaya#1	Diagnosis and Treatment

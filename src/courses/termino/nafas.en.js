@@ -1627,7 +1627,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'up', sym: 'Up', name: "Upper Airway", short: "Upper tract", sub: "The nose, sinuses, pharynx, tonsils and larynx, and their diseases and surgery",
+    id: 'up', sym: 'Up', name: "Upper Airway", short: "Upper Tract", sub: "The nose, sinuses, pharynx, tonsils and larynx, and their diseases and surgery",
     color: '#E0708C', dark: '#B04A66', light: '#FCE6EC',
     levels: ["Nose and sinuses", "Pharynx and larynx", "Upper airway disease and surgery"],
     gens: EA.genIds('up'),
@@ -1774,7 +1774,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'lo', sym: 'Lo', name: "Lower Airway", short: "Lower tract", sub: "The trachea, bronchi, alveoli, lung lobes, pleura, mediastinum and diaphragm",
+    id: 'lo', sym: 'Lo', name: "Lower Airway", short: "Lower Tract", sub: "The trachea, bronchi, alveoli, lung lobes, pleura, mediastinum and diaphragm",
     color: '#8E6BD8', dark: '#6447B0', light: '#EFE8FB',
     levels: ["The trachea and bronchial tree", "Lungs and alveoli", "Pleura, mediastinum and diaphragm"],
     gens: EA.genIds('lo'),
@@ -2068,7 +2068,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'ds', sym: 'Ds', name: "Respiratory diseases", short: "Diseases", sub: "Asthma and COPD, pneumonia and TB, cystic fibrosis, pneumothorax and effusion, dust diseases and lung cancer",
+    id: 'ds', sym: 'Ds', name: "Respiratory Diseases", short: "Diseases", sub: "Asthma and COPD, pneumonia and TB, cystic fibrosis, pneumothorax and effusion, dust diseases and lung cancer",
     color: '#E07A3A', dark: '#B0561E', light: '#FDEEE3',
     levels: ["Asthma and COPD", "Lung infections", "Pleura, newborns, dust and cancer"],
     gens: EA.genIds('ds'),
@@ -2215,7 +2215,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Tx', name: "diagnosis and treatment", short: "diagnosis and treatment", sub: "Spirometry, ABG and pulse oximetry, bronchoscopy and thoracentesis, intubation and tracheostomy, oxygen, drugs, lung surgery and chart abbreviations",
+    id: 'tx', sym: 'Tx', name: "Diagnosis and Treatment", short: "Diagnosis and Treatment", sub: "Spirometry, ABG and pulse oximetry, bronchoscopy and thoracentesis, intubation and tracheostomy, oxygen, drugs, lung surgery and chart abbreviations",
     color: '#3D6FD6', dark: '#274FA8', light: '#E4ECFB',
     levels: ["Tests and imaging", "Airway and oxygen", "Drugs, surgery and charts"],
     gens: EA.genIds('tx'),

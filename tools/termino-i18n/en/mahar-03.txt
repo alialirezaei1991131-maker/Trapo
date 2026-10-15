@@ -1,0 +1,229 @@
+457fa32b	colectomy and colostomy mean the same thing.
+2a35a654	False; colectomy is removal of the large intestine and colostomy is making an opening of the colon on the abdomen.
+770ba991	In chemotherapy, the suffix ___ means “treatment”.
+1bed0858	chem/o (drug) + -therapy.
+c9cdc18d	Build a word meaning “removal of the breast”
+45809153	Spell the term for removing tissue for examination
+fb4ac092	Prefixes of Cell Change
+41ad2e1d	dysplasia, dysphagia
+0c8de632	metaplasia, metastasis
+aa8952e2	meta as in “metamorphosis”: change of form. metastasis means the cancer has changed its place.
+42fa0529	In ⟦0⟧, the prefix meta- means…
+a263d5bb	meta- + -stasis (standing).
+715797d1	abnormal
+db01fcf6	without, backward
+c543448e	Prefixes of treatment and time
+dbb75b6a	• ⟦0⟧ against: antineoplastic, antiemetic<br>• ⟦1⟧ before: precancerous<br>• ⟦2⟧ before, forward: prophylactic, preventive<br>• ⟦3⟧ short, near: brachytherapy, radiotherapy from close by<br>• ⟦4⟧ through: transrectal ultrasound⟦5⟧
+cf8e11ac	antineoplastic is an anticancer drug: anti- + neo- + plas/o + -tic.
+426faea8	Which word means “a drug against new growth” (anticancer)?
+841f117c	brachytherapy means radiotherapy from a distance.
+3b699281	False; brachy- means near: the radiation source sits beside the tumour.
+d66e8f22	The prefix ___ in precancerous means “before”.
+5bfcfb74	pre- = before.
+ea9050f5	Build a word meaning “abnormal growth of cells”
+8b9349b9	Growth: -plasia, -plasm, -genesis, -gen, -genic; -stasis standing
+2c18e664	Signs: -emia blood, -penia deficiency, -pathy disease, -uria urine, -ptysis spitting
+5ea9acfb	Diagnosis and surgery: -scopy, -opsy, -graphy, -gram; -ectomy removal, -tomy incision, -stomy opening
+533abd25	Prefixes: neo- new, hyper- excessive, dys- abnormal, meta- change, ana- without, anti- against, pre- before, brachy- near
+bbdfa0ef	Latin and Greek plurals
+7ddf732f	“IS” goes, “ES” comes: metastasis → metastases. “US” goes, “I” comes: nevus → nevi.
+7a87d846	What is the plural of metastasis?
+e8751678	Adjectives in the pathology report
+75298cf5	metastatic; spread
+fa9937ee	in situ; not yet invasive
+4bc04cfb	In a report, “metastatic adenocarcinoma, consistent with colon primary” means a cancer that has spread and originated in the large intestine.
+5696b23b	“metastatic” means…
+042949b0	spread from its original site
+32ef1cd0	in place and not invasive
+162ff253	meta- (change) + -stasis + -ic.
+a82fae69	The plural of carcinoma can be carcinomata or carcinomas.
+06a43ed0	The Latin form is carcinomata and the English form carcinomas.
+54fd3140	The Latin plural of leiomyoma is leiomyo___.
+1c86926f	“in situ” in a report means the cancer…
+84a7c95c	is still in its place and has not invaded
+ddd53f26	has gone all over the body
+65b2f947	is benign
+91b5051e	in situ = in its place.
+b5e809a6	Spell the plural of nevus
+0e6edaf8	The Cancer Team
+db4c65a3	Teamwork
+0edb638f	Cancer treatment is not one person’s job; a team of specialists decides together at the <b>tumor board</b>:⟦0⟧
+9c6017f2	Who does what?
+aefc94d0	chemotherapy, hormone therapy and coordinating treatment
+2b61902c	biopsy and tumour removal
+e7ff877e	diagnosis and staging by examining tissue
+a2abf08f	blood diseases, leukaemia and lymphoma
+dd9ea401	giving drugs and caring for side effects
+e0c3021b	Who examines biopsy tissue under the microscope and makes the definitive diagnosis?
+4bbccf5f	path/o (disease) + -logist.
+eb992efa	leukaemia and lymphoma
+f42000d5	• ⟦0⟧ → tumour specialist<br>• ⟦1⟧ → disease (tissue) specialist<br>• ⟦2⟧ → blood specialist<br>• ⟦3⟧ → study of cells; ⟦4⟧ → study of tissues⟦5⟧
+87528f08	For children, a pediatric oncologist leads treatment; childhood cancers differ from adult ones.
+93602b05	cytology means…
+c2b45e90	the study of cells; examining cells under the microscope
+144503bd	the study of tumours
+420373dd	cyt/o (cell) + -logy.
+c541d077	A tumor board is a meeting where different specialists decide on a patient’s treatment together.
+c8e0d1ae	The tumour board.
+eed8f047	The study of tissues under the microscope is called ___.
+8921ba86	hist/o (tissue) + -logy.
+8497e655	Spell the term for a doctor who diagnoses disease from tissue
+4f2e41af	CA, Ca
+e600408e	cancer, carcinoma
+84e85bd0	after (an operation)
+190eb1a0	The record says “s/p mastectomy”. This means…
+d11b5125	the patient has already had a mastectomy
+31b0594e	the patient needs a mastectomy
+f7e6845a	mastectomy is forbidden
+385f9ce7	a mastectomy will not be done
+5ab47e3d	A real discharge summary
+8414670f	From the book’s discharge summary: a 28-year-old woman with thyroid <b>papillary carcinoma</b>, <b>s/p</b> left thyroidectomy, was admitted for a second dose of <b>I-131</b>. Discharge medicine: Synthroid 0.1 mg <b>p.o.</b> <b>q.d.</b>⟦0⟧
+722eed72	per os: by mouth
+13a71148	quaque die: once a day
+1ff8ff72	millicurie: unit of radioactivity
+2549f887	radioactive iodine-131
+0001ae59	“p.o. q.d.” means the drug is taken…
+2a69405e	by mouth, once a day
+25c77eee	by injection, twice a day
+95634958	by mouth, every night
+a2da41b3	under the tongue, every week
+99f76da5	NED in a follow-up record is good news.
+f5bccfa9	no evidence of disease: there is no sign of disease.
+d50cdbe8	The abbreviation ___ means patient history.
+6152eb5a	“Ca colon with liver mets” means…
+6695080e	cancer of the large intestine with metastases to the liver
+30bef679	liver cancer
+a8c258d6	high calcium in the bowel
+a0487e67	Ca = cancer; mets = metastases.
+30fedff8	Plurals: -is → -es (metastases) • -us → -i (nevi) • -oma → -omata (carcinomata)
+2499598e	Adjectives: malignant, benign, metastatic, neoplastic, invasive, in situ
+d120c46e	Team: medical, surgical and radiation oncologists, pathologist, hematologist, oncology nurse; tumor board
+1ffe604b	Record: CA, Dx, Tx, Bx, Hx, mets, s/p, p.o., q.d., F/U, NED
+185905c4	Controlled division, differentiation, benign and malignant, steps of cell change, genes and carcinogens, metastasis
+f2d26a8e	Normal and Cancerous Growth
+b38d7bf9	Cell Changes
+1cea3081	Origin and Spread
+aba9c627	Controlled Division
+83631d4f	Cells divide only as much as needed
+313f000e	Body cells replace damaged and old cells by <b>mitosis</b> (cell division). This division is tightly controlled in the <b>cell cycle</b>: once the space is filled, division stops.⟦0⟧
+1bf35658	What is the division of one cell into two identical cells called?
+73b72cfc	Programmed death
+86f3a8f7	An old or damaged cell bows out quietly by <b>apoptosis</b> (programmed death). A cancer cell has two features:<br>• uncontrolled <b>proliferation</b><br>• escape from apoptosis⟦0⟧⟦1⟧
+a159b639	orderly, programmed death of a single cell
+d2976f2b	sudden tissue death from injury or lack of blood
+09182781	Say apoptosis as “a-po-TOE-sis” (the second p is silent); like an autumn leaf that falls quietly from the tree by itself.
+0bfdf748	A cancer cell escapes apoptosis.
+794395f9	That is why it survives and piles up.
+40a6a182	What do normal cells do when they reach their neighbours?
+3f0611e2	they stop dividing
+6cf676d9	they pile up on each other
+fb7c6581	they go into the blood
+c6d28aed	they get bigger
+f93b0f38	Controlled division.
+0d3af2d1	Rapid growth and division of cells is called ___.
+9f9c7bf5	proliferation = multiplication.
+b7d1cead	Cancer in one sentence is…
+c313b659	uncontrolled division of cells that can invade other tissues
+46f96a60	the death of cells
+6efdc5e7	a shortage of cells
+b7c18a50	The book’s definition.
+1a4246a9	Spell the term for division of a cell into two
+2ff7e5fc	mit/o (thread) + -osis.
+e50fe053	A mature cell has a special shape and job
+266859bb	<b>differentiation</b> means a cell matures and takes on its special structure and job. The more a tumour’s cells resemble normal cells (<b>well differentiated</b>), the calmer the tumour.⟦0⟧
+5546e04c	well differentiated means the tumour cells…
+0f0e2f40	closely resemble normal cells
+c580b81f	bear no resemblance to normal cells
+3a56beea	are dead
+30c5d894	are in the blood
+3c431584	Well differentiated; calmer behaviour.
+177df256	Three states of differentiation
+1784e879	⟦0⟧<b>anaplasia</b> (ana- + -plasia) means loss of differentiation; a sign of a malignant cell.⟦1⟧
+fe14a3c4	Behaviour
+d8c75cc4	resembles a normal cell
+6669cb3b	slow; benign or low grade
+dffbe408	very different
+ae37e025	fast; malignant and high grade
+cbfdbc93	without features of a mature cell
+2e7482f8	highly aggressive
+be13c133	The pathologist uses this differentiation to set the tumour’s grade: grade 1 is well differentiated and grade 3 poorly differentiated.
+c107795e	very different from a normal cell
+f956619b	loss of differentiation
+5f0f98d3	maturing of a cell
+a8e2d391	A poorly differentiated tumour usually grows faster.
+14701594	Poorly differentiated = more malignant.
+8d72063b	Which grade means the cells are well differentiated?
+a53bb8a6	Low grade = resembles a normal cell.
+c533435a	Loss of cell differentiation is called ___.
+a8b1ea62	ana- (without) + -plasia.
+f2a62afc	Spell the term for a cell maturing into its special form
+33ce2bc4	Benign versus Malignant
+6a78c280	Table 20-1 of the book
+5c194c20	Cell differentiation
+a4eeee0d	Type of growth
+3ab30098	expansion (pressing on its surroundings)
+3b40024c	infiltration (spreading into its surroundings)
+e9cf66da	Rate of growth
+dde40afa	slow
+8672cdd9	Spread
+03ef7234	What type of growth does a malignant tumour have?
+d25184ac	infiltration; spreading into nearby tissue
+7047831b	expansion; pressure only
+f9d162e3	no growth
+cfcd536f	only inside a capsule
+7ca387b6	Table 20-1.
+0e9e5a9a	Capsule, infiltration, invasion
+0a44c07e	• <b>encapsulated</b>: enclosed in a capsule; a feature of many benign tumours<br>• <b>infiltration</b>: malignant cells seeping into neighbouring tissue<br>• <b>invasion</b>: attacking the healthy tissue around it⟦0⟧
+ca7784fa	A benign tumour is a “ball in a bag”: it pushes but does not pierce. A malignant one is a “crab”: it digs its claws into the tissue. cancer is Latin for crab!
+8779f4bb	Match each feature to its meaning
+76796304	spreading into nearby tissue
+5a71b7dd	growing by pressing on its surroundings
+8567595a	spreading to a distant site
+c910406d	Benign tumours metastasise.
+da67a1ef	False; a benign tumour stays local.
+377f826b	Which features most suggest malignancy?
+5c06e6fb	poorly differentiated and infiltration
+4e09d47e	encapsulated and slow growth
+c88bce35	staying local
+29da27ac	A benign tumour grows by ___ and only pushes the surrounding tissue aside.
+9fa09d14	expansion = growing by pressure.
+e7463251	Review of “Normal and Cancerous Growth”
+fc798c50	mitosis is cell division in the cell cycle; apoptosis programmed death; proliferation multiplication
+192f8460	Cancer cell: uncontrolled division and escape from apoptosis
+a5eb4df4	differentiation: well (resembles normal) • poorly • undifferentiated; anaplasia means loss of differentiation
+2600fb73	benign: encapsulated, expansion, slow, local • malignant: infiltration, invasion, fast, metastasis
+9190d055	Steps of Change
+13f56cc2	From normal to cancer
+9fea74e2	Epithelial tissue usually moves towards cancer step by step:⟦0⟧
+85a572b3	Four words with -plasia
+d98c5efe	more cells, but normal; they may become cancerous later
+f943c400	one type of mature cell turning into another, often in response to irritation
+f7aa974d	abnormal cells; precancerous
+3de3be3e	formation of new growth (a tumour)
+9e536abd	hyper = excessive • meta = change • dys = misshapen • neo = new; all with -plasia meaning “growth”.
+9a202538	an increase in the number of normal-looking cells
+7894c003	misshapen cells
+45e8937e	more cells, normal appearance
+2c87537a	abnormal cells
+fb81886f	tumour formation
+1291fc11	Put the steps of tissue change in order
+14fc4622	From simple change to invasive cancer.
+d7e5481c	Dysplasia is invasive cancer.
+a6340f34	False; dysplasia is precancerous and not yet cancer.
+a45372f4	A clinical example
+2db6df18	In the oesophagus of a patient with long-standing acid reflux, the squamous lining turns into a glandular lining: <b>metaplasia</b>, called Barrett esophagus.⟦0⟧
+5d1b00e2	The Pap smear looks for cervical dysplasia; removing the dysplastic area prevents cancer.
+5117e213	What is the change of the oesophageal lining in long-standing reflux called?
+3467deec	Spell the term for abnormal, precancerous cell growth
+81af1f3d	In Situ or Invasive?
+dfdd972b	The basement membrane border
+38ef3df7	Beneath epithelial tissue lies a thin layer called the <b>basement membrane</b>:⟦0⟧⟦1⟧
+3668e07a	cancer cells are still above the basement membrane; in situ
+01717644	cells have crossed the basement membrane into the tissue below
+6b28c55f	in situ is Latin for “in its own place”: the cancer has not yet left home.
+4278675c	carcinoma in situ means…
+5e31b138	a cancer that has not yet crossed the basement membrane
+2adb3058	a cancer that has gone to the liver
+6b0875ad	in situ = in place.
+fce056de	The book says carcinoma in situ is <b>cured</b> by complete removal (excision), because it does not yet reach the vessels and lymph. An important example: <b>ductal carcinoma in situ</b> (DCIS) in the breast ducts.⟦0⟧
+e96bc21a	Invasive cancer reaches the blood and lymph vessels of the tissue below; from here the route to metastasis opens.

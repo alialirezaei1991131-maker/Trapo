@@ -1,0 +1,8 @@
+# world names and short names in Title Case
+da186cba@tapesh#1	Language
+d0de1f56@tapesh#2	Heart Structure
+b0d69b15@tapesh#2	Vessels and Circulation
+9a0f8c08@tapesh#1	Heart and Vessel Diseases
+14d599b3@tapesh#4	Disease
+e712189f@tapesh#1	Diagnosis and Treatment
+e5c46361@tapesh#2	Treatment

@@ -1,0 +1,186 @@
+a52e8fae	squam/o = scale.
+e87be45a	Sarcomas
+499e221d	A <b>sarcoma</b> arises in bone and the soft tissues (muscle, fat, vessels, fibrous tissue). The tissue root gives the exact type; for example oste/o + -sarcoma = <b>osteosarcoma</b>:⟦0⟧
+61b765e6	malignant bone cancer; the most common bone cancer
+ed3e02fd	Benign and malignant side by side
+3ffd052f	Add a “sarc” and a benign tumour becomes malignant: lipoma → liposarcoma.
+75f28158	Match each sarcoma to its tissue
+da5db916	A gland is epithelial tissue, so its cancer is called adenosarcoma.
+e4367d74	False; cancer of a gland is adenocarcinoma.
+7f198b7e	Two special names
+0cfcca68	• <b>Kaposi sarcoma</b>: cancer of the vessel lining with purple skin patches; in people with weak immunity, such as AIDS<br>• <b>lymphosarcoma</b>: an old name for a malignant tumour of lymphatic tissue; the book mentions it as a “second cancer” after mastectomy⟦0⟧
+24c1d297	Rhabdomyosarcoma is the most common soft-tissue sarcoma in children.
+8d93b67c	Purple skin patches in a patient with AIDS are a sign of which sarcoma?
+7781586d	Cancer of the vessel lining.
+23415a58	Malignant cancer of smooth muscle is called a ___.
+7bccfffc	Build a word meaning “malignant cancer of cartilage”
+564c7ea1	Lung, Breast and Membranes
+807d2802	Lung cancer comes in two groups
+ce8157f3	SCLC: small round cells like oat grains (oat cell); fast-growing
+cc09440f	NSCLC: squamous cell, adenocarcinoma and large cell
+86dcc534	oat = oat grain; SCLC cells look like small round oat grains under the microscope.
+cfe4a829	oat cell cancer is another name for which?
+a3ba7f62	Small, round cells.
+b0e230ae	Breast and membranes
+280be2d6	• <b>ductal carcinoma in situ</b> (DCIS): abnormal cells only in the lining of a breast duct; they have not yet left it<br>• <b>mesothelioma</b>: cancer of the membrane lining the chest or abdomen (mes/o + theli/o + -oma); linked with asbestos⟦0⟧
+e7475f48	A mesothelioma patient often worked with asbestos (pipes, insulation, brakes) years before.
+cd4e12b1	Match each cancer to its feature
+7df0e5b0	small oat-like cells
+89e7a45a	squamous, adenocarcinoma, large cell
+762fbf32	in situ in a breast duct
+e64f1a59	chest membrane; asbestos
+15839f55	DCIS has not left the breast duct.
+06e3277d	Which cancer is strongly linked with asbestos?
+e96d52f7	Cancer of the membranes.
+1456c1d1	Large cell carcinoma belongs to the ___ lung cancer group.
+b625b09b	Review of “Carcinoma and Sarcoma”
+7dbb1a4e	carcinoma: adenocarcinoma (gland), squamous cell, basal cell (the most common skin cancer), transitional cell (bladder), papillary (thyroid)
+18640e98	melanoma from pigment cells; the most dangerous skin cancer
+2836f12c	sarcoma: osteo-, chondro-, lipo-, leiomyo-, rhabdomyo-, angio-, fibrosarcoma; Kaposi sarcoma
+6d7782bf	Lung: SCLC (oat cell) and NSCLC • breast: DCIS • membrane: mesothelioma and asbestos
+5bbcfe83	Leukaemias
+6651ecec	Cancer of the blood-forming tissue
+547e1269	⟦0⟧ = <b>leukemia</b>: “white blood”. In leukaemia, immature cells multiply out of control in the bone marrow, take the place of normal cells and spill into the blood.⟦1⟧
+70489a8a	Why does a leukaemia patient have anaemia, infection and bleeding?
+b6908db2	immature cells have taken the place of normal blood cells in the marrow
+a949cf62	because blood leaks out of the vessels
+1b48c6f4	because the liver is enlarged
+0c18ff9b	because the lymph nodes have been removed
+c68315df	The book: low levels of normal cells.
+96950dbc	Two questions, four types
+55d53782	⟦0⟧• <b>acute</b> or <b>chronic</b>: how fast does the disease progress?<br>• <b>lymphocytic</b> or <b>myeloid</b> (myelogenous): from which cell line?⟦1⟧
+c638bb12	Remember ALL as “All kids”: the most common childhood cancer.
+a85da8dd	ALL is the most common childhood cancer.
+2611169b	Acute lymphocytic leukaemia.
+fdf65caa	myelogenous means…
+be01f81a	relating to lymph
+e165ed48	A slowly progressing leukaemia is called ___.
+7a25e73d	Chronic.
+02c7fe09	The book says biopsy is “not used” to diagnose which cancer, with a bone marrow sample taken instead?
+28e97e93	Diagnosis is by bone marrow aspiration and CBC.
+21ad73b0	Lymphoma and Myeloma
+ae6ace9e	Cancer of the lymphatic system
+4b335127	A <b>lymphoma</b> starts in lymphocytes (T or B). Because lymphatic tissue is everywhere in the body, lymphoma can start almost anywhere and reach the liver and lungs.⟦0⟧
+8c14935f	Severe enlargement of the neck lymph nodes in malignant lymphoma (Figure 20-3 of the book).
+897d5774	What is the enlargement of the neck lymph nodes in this picture called?
+2811fa60	Two main types
+5ebc87e1	⟦0⟧<b>Multiple myeloma</b> is a cancer of the bone marrow plasma cells that eats away bone.⟦1⟧
+27dc922b	large two-nucleus Reed-Sternberg cells; often young people, neck nodes
+40de8266	a large group of B- or T-cell lymphomas without Reed-Sternberg cells
+a567332a	Night sweats, fever and weight loss are the three “B” symptoms of lymphoma; the doctor always asks about them.
+49cba2a5	with Reed-Sternberg cells
+1d44687a	without Reed-Sternberg cells
+f4d19b24	cancer of bone marrow plasma cells
+947fd729	cancer of lymphocytes
+104d747a	The book says all tumours of lymphatic tissue are malignant.
+1f0cad78	The Reed-Sternberg cell is a sign of which disease?
+c230f973	A large two-nucleus cell.
+9589f864	myeloma is built from the root ___ (bone marrow).
+63371ae3	Not my/o (muscle)!
+ee5f1336	The abbreviation NHL means…
+09b071e1	Non-Hodgkin lymphoma.
+43074038	Embryonic Tumours and Special Names
+06d68fe8	Organ root + -blastoma
+d328f130	The book says embryonic tumours arise from leftover groups of embryonic cells in the brain, retina, adrenal gland, kidney, liver or reproductive organs and are named with ⟦0⟧:⟦1⟧
+63ffa0bc	Retinoblastoma is cancer of which organ?
+5504e250	An exception and the brain
+740d85b9	• <b>Wilms tumor</b>: an embryonic kidney tumour; an exception to the rule, because nephroblastoma is not used<br>• <b>glioma</b>: a tumour of the supporting cells of the brain (gli/o = glue)<br>• <b>astrocytoma</b>: a glioma of star-shaped cells (astr/o + cyt/o + -oma)<br>• <b>glioblastoma</b>: the most aggressive brain cancer in adults⟦0⟧
+6b2a2811	astrocytoma = “star cell”; astro as in “astronaut” means star.
+553c1d26	Match each embryonic tumour to its organ
+f482ec29	Wilms tumor is also called nephroblastoma, and that name is common.
+97167088	False; the book says nephroblastoma is not used; it is an exception.
+52e174f5	Teratoma: an astonishing tumour
+3df566b6	A <b>teratoma</b> (terat/o = monster) arises from cells that can make many different tissues: hair, teeth, bone, muscle. It may be benign or malignant and is seen in the ovary, testis, chest and abdomen. A <b>seminoma</b> is a germ cell cancer of the testis.
+959137d5	What is a tumour with hair and teeth inside called?
+951f04ec	terat/o = monster.
+fa44751e	A glioma of the star-shaped brain cells is called an ___.
+317f5baf	Review of “Blood, Lymph and Special Names”
+c8960a53	leukemia = leuk/o + -emia; ALL (children), AML, CLL, CML; myelogenous = from bone marrow
+2dc6ac0d	lymphoma: Hodgkin (Reed-Sternberg) and non-Hodgkin; multiple myeloma in plasma cells
+ae306450	blastoma: retino-, neuro-, medullo-, hepatoblastoma; Wilms tumor the kidney exception
+8c7c04cb	Brain: glioma, astrocytoma, glioblastoma • teratoma (hair and teeth) • seminoma (testis)
+185da5fd	Signs and Screening
+241210b8	The seven warning signs, signs in the organs, precancerous lesions, moles and the breast, screening and tumour markers
+5969c59c	Warning Signs
+cca6aa01	Precancer, Moles and the Breast
+76ff80a0	The Seven Warning Signs
+2d48f382	Remember the seven warning signs of cancer with the word <b>CAUTION</b>:⟦0⟧
+ab3ca2d6	In CAUTION, the letter O stands for…
+201d8b80	nagging cough
+1c0a5d7a	unusual bleeding
+e3f8ff23	A sign, not a diagnosis
+98572343	These signs do <b>not prove</b> cancer; many have simple causes. But if they persist, a doctor should be seen.⟦0⟧
+0ddfd454	The book says a full history and examination, including family history, smoking, alcohol and occupational exposure to chemicals or radiation, are the basis of early cancer detection.
+2acecb1f	Match each letter of CAUTION to its sign
+f66b404f	change in bowel or bladder habits
+1d15c7e2	thickening or lump
+0e0f44b0	Anyone with one of the CAUTION signs definitely has cancer.
+30ad64bf	False; it is only a warning to get checked.
+5226b1f2	Hoarseness for more than a week is a warning of which cancer?
+febcecc1	larynx and throat
+7e6d63ee	The book: oropharynx, hoarseness for more than one week.
+6f9463a8	In CAUTION, the letter U stands for ___ bleeding or discharge.
+28896510	unusual
+ab3ee3ec	Which sign does the letter I in CAUTION refer to?
+3a573d0e	Spell the English word that spells out the seven warning signs
+351b7cb2	Signs in the Organs
+c388c1e5	Each organ has its own language
+0f175962	⟦0⟧The book lists the signs for each system; you can read most of them from their roots and suffixes.
+bf3e0fc1	Meaning and cancer
+e0a21893	blood in the urine: bladder, kidney, prostate
+1e966252	coughing up blood: lung
+69ed1296	difficulty swallowing: oesophagus, throat
+60750dbc	burning on urination: urinary tract, prostate
+0884cbbd	shortness of breath: lung
+3f1af8a3	painful intercourse: cervix, uterus
+c80ae229	bright red blood from the rectum: large intestine
+3417d971	seizures: brain
+1a2bd965	dys- means difficult: dysphagia “difficult swallowing”, dyspnea “difficult breathing”, dysuria “difficult urination”.
+5e1c5b3a	⟦0⟧ is a sign of which cancer?
+2732d514	hem/o (blood) + -ptysis (spitting).
+cf2dea2a	Match each sign to its organ
+d846400f	hematochezia means bright red blood from the rectum; a warning of bowel cancer.
+2b000961	The book: change in bowel habits, bleeding.
+612b125d	Which signs does the book list for brain cancer?
+5f4ea121	seizures and problems with balance, vision, hearing or speech
+657bbd05	Difficulty swallowing is called ___.
+25983a11	Build a word meaning “blood in the urine”
+22580008	General signs
+80dc8129	When the whole body is involved
+61b8ea5a	anaemia; a sign of bleeding from a gut or uterine cancer
+928eb762	loss of appetite; a sign of cancer or a side effect of treatment
+d7bd1e3e	severe weight loss and muscle wasting in advanced cancer
+3e1c2ad4	tiredness that rest does not relieve
+19df067a	night sweats; leukaemia and lymphoma
+209884cf	enlarged lymph nodes; lymphoma or metastasis
+8f3c4429	lymphadenopathy means…
+14030494	disease or enlargement of the lymph nodes
+a2e725d9	swelling of the arm
+563b65cc	inflammation of a lymph vessel
+2cb56b85	Blood and nerve signs
+e7338d36	• <b>thrombocytopenia</b>: a shortage of platelets; easy bruising and bleeding<br>• <b>peripheral neuropathy</b>: pain, numbness and tingling of the hands and feet; a sign of cancer or a side effect of chemotherapy<br>• <b>paraneoplastic syndrome</b>: signs caused at a distant site by a substance from the tumour (para- beside + neoplastic)⟦0⟧
+9b9ed971	anorexia here means loss of appetite; it is different from anorexia nervosa (a mental illness).
+5d63eb22	severe weight loss and wasting
+5867674b	Night sweats can be a sign of lymphoma or leukaemia.
+c4089480	Table 20-5.
+10c0c52c	Easy bruising and prolonged bleeding from a cut are a sign of which?
+e419dd1c	A shortage of platelets.
+f1b701d5	In cachexia the patient has severe ___.
+4324ab93	wasting
+eff92e2b	Loss of muscle and fat.
+314ed47e	Review of “Warning Signs”
+1550f3e9	CAUTION: seven warning signs; a sign, not a diagnosis
+1f754b05	hematuria (bladder), hemoptysis (lung), dysphagia (oesophagus), dysuria, dyspnea, dyspareunia, hoarseness, seizure
+14420ddf	General: anemia, anorexia, cachexia, fatigue, night sweats, lymphadenopathy
+c457554d	thrombocytopenia a shortage of platelets; peripheral neuropathy; paraneoplastic syndrome
+6daf15b6	Before Cancer
+b501039b	The book calls lesions with a high chance of becoming cancer <b>precancerous</b>:⟦0⟧
+b15b349a	What cancer can actinic keratosis turn into?
+901d3a96	actin/o = sun ray.
+20c37aa4	• ⟦0⟧: actin/o (sun ray) + kerat/o (horny tissue); a rough, scaly patch on sun-damaged skin<br>• ⟦1⟧ = <b>leukoplakia</b>: a “white patch” in the mouth, often from tobacco<br>• <b>lentigo maligna</b>: Latin for “malignant freckle”; melanoma in situ<br>• <b>familial polyposis</b>: hundreds of inherited polyps in the large intestine⟦2⟧
+7a56177e	leuko = white (as in leukaemia) and plakia = patch; so leukoplakia means “white patch”.
+3c600d34	malignant freckle
+2c9dce9b	inherited bowel polyps
+ddc2b630	Removing bowel polyps is one way to prevent bowel cancer.
+c2d0cc17	A polyp can turn into adenocarcinoma.
+0cc7a5b1	What most often causes leukoplakia?

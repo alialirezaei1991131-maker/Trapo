@@ -1,0 +1,6 @@
+# world names and short names in Title Case
+da186cba@timar#2	Language
+f828e2b4@timar#2	Examination
+1fd8db25@timar#3	Surgery
+63dd575e@timar#1	Drugs and Prescriptions
+3b722565@timar#4	Drug

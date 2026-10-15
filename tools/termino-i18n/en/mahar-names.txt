@@ -1,0 +1,10 @@
+# overrides: world names
+da186cba@mahar#1	Language
+39b043ee@mahar#3	Cell
+54960eda@mahar#1	Names
+8a02b88b@mahar#1	Signs
+b9a6fc3b@mahar#5	Diagnosis
+e5c46361@mahar#6	Treatment
+c851c1df@mahar#2	Cancer Treatment
+074d1c68@mahar#1	holding back
+d25afd82@mahar#1	poisonous

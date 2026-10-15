@@ -1,0 +1,4 @@
+# world names and short names in Title Case
+fc2c57bd@derma#1	Layers of the Skin
+1d4f4681@derma#2	Lesions and Signs
+e712189f@derma#1	Diagnosis and Treatment

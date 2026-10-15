@@ -1732,7 +1732,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'fm', sym: 'Fm', name: "Female Reproductive System", short: "female", sub: "Ovary, fallopian tubes, uterus and cervix, vagina and vulva, breast, the menstrual cycle and menopause",
+    id: 'fm', sym: 'Fm', name: "Female Reproductive System", short: "Female", sub: "Ovary, fallopian tubes, uterus and cervix, vagina and vulva, breast, the menstrual cycle and menopause",
     color: '#E46A8E', dark: '#B0405F', light: '#FDE6EC',
     levels: ["Internal organs", "External organs and the breast", "Cycle and hormones"],
     gens: EA.genIds('fm'),
@@ -2026,7 +2026,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'pg', sym: 'Pg', name: "pregnancy and childbirth", short: "pregnancy", sub: "Fertilization and implantation, embryo and fetus, placenta and membranes, gravida and para, due date, stages of labour, fetal presentation, after birth and the newborn",
+    id: 'pg', sym: 'Pg', name: "Pregnancy and Childbirth", short: "Pregnancy", sub: "Fertilization and implantation, embryo and fetus, placenta and membranes, gravida and para, due date, stages of labour, fetal presentation, after birth and the newborn",
     color: '#E8913A', dark: '#B5641A', light: '#FDEEDC',
     levels: ["Fertilization to fetus", "Counting pregnancies", "Labour and the newborn"],
     gens: EA.genIds('pg'),
@@ -2320,7 +2320,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Tx', name: "Diagnosis, Treatment and Prevention", short: "diagnosis and treatment", sub: "Pap smear and colposcopy, mammography and ultrasound, prenatal tests, PSA and biopsy, hysterectomy, TURP, caesarean section, contraception and IVF",
+    id: 'tx', sym: 'Tx', name: "Diagnosis, Treatment and Prevention", short: "Diagnosis and Treatment", sub: "Pap smear and colposcopy, mammography and ultrasound, prenatal tests, PSA and biopsy, hysterectomy, TURP, caesarean section, contraception and IVF",
     color: '#17A398', dark: '#0E756C', light: '#DDF5F2',
     levels: ["Tests and imaging", "Operations", "Contraception and fertility"],
     gens: EA.genIds('tx'),

@@ -1,0 +1,330 @@
+cb393d20	Mahar
+133c47bd	Mahar • Cancer Terminology
+888367bb	Medical terminology of cancer (Cancer Medicine)
+50b9a6f3	🎗️ Medical terminology: Cancer Medicine
+aaff92fd	Hi, I’m <b>Mahar</b>;
+cf989485	Hi, I’m <b>Mahar</b>, a healthy cell who keeps its growth in check! Here you will learn how a cell becomes cancerous and how tumours are named, and you will name the signs, screening, diagnosis, staging and treatment of cancer with precise terms and <b>decode</b> every new word yourself. ⟦0⟧ terms with pronunciation and meaning, ⟦1⟧ pictures from the book, ⟦2⟧ teaching figures, ⟦3⟧ clinical cases and Leitner cards are waiting for you.
+58eb49f3	Mahar is a learning tool and does not replace medical references, clinical judgement or a physician’s orders.
+9d2af3f5	Dozens of teaching figures and pictures from the book, from cell division and metastasis to the map of tumour naming, TNM staging and the types of treatment.
+5815035f	Break every cancer word into prefix, root and suffix and build new words
+0425c908	Explain the difference between benign and malignant tumours, cell changes (hyperplasia to dysplasia) and the routes of metastasis
+44d7c1a5	Tell from a tumour’s name what tissue it comes from and whether it is benign or malignant: carcinoma, sarcoma, leukaemia, lymphoma and blastoma
+60f7f276	Recognise warning signs, precancerous lesions and screening tests
+b65ae5f2	Read biopsies, endoscopies, imaging, grading and TNM staging
+3f6759c1	Understand surgery, radiotherapy, chemotherapy, hormone therapy, immunotherapy and the abbreviations of a cancer record
+4cffb20e	Just 5 minutes a day. A few weeks from now you’ll read a pathology report and a cancer patient’s record like your mother tongue.
+7ca24aa1	Hi! I’m Mahar, a healthy cell who keeps its growth in check 🎗️ What’s your name?
+3b81e20c	The pathology report says: <b dir="ltr">osteosarcoma</b>. That means…
+b1240746	Tissue and cancer name
+8a41d3e6	malignant cancer of bone
+cc146924	cancer of epithelial tissue
+5d8bbda8	⟦0⟧<br><b>oste/o</b> = bone • <b>-sarcoma</b> = cancer of connective tissue. So it means <b>malignant cancer of bone</b>, the commonest bone cancer in teenagers. If it were just <b>-oma</b> (osteoma), it would be a benign tumour. Start the meaning from the suffix!
+71ce7e4e	Microscope in Hand
+720e8be7	Tumour Namer
+a44243ec	Polyp Hunter
+9a4fa495	Careful Screener
+7af16454	Biopsy Taker
+db376e24	Young Pathologist
+f26fe043	TNM Stager
+c318d02f	Metastasis Detective
+f586f080	Oncologist’s Partner
+5b259992	Mahar Commander
+7801c27d	Master of the Language of Cancer
+7e616899	oncology ward nurse
+72aa9277	Namer
+a85acd10	Screener
+3b31af01	Pathologist
+20e5c20a	actinic (solar) keratosis
+0fc33cfe	acute lymphocytic leukaemia
+8393928b	adenocarcinoma
+5b97f50f	adjuvant therapy
+d362878f	alopecia (hair loss)
+7517e988	angiogenesis
+49c7c60e	angioma (benign vessel tumour)
+01013e8a	angiosarcoma
+7003f009	antiandrogen
+646f22f5	antiemetic
+68fa036a	antiestrogen
+af9ba312	anticancer (antineoplastic)
+9b6b78ce	apoptosis (programmed cell death)
+271eefe6	aromatase inhibitor
+14e7e96c	asbestos (fireproof fibre)
+9f8a36a8	astrocytoma
+6df1e25b	basal cell carcinoma
+6a97f24e	BCG vaccine
+374c6a6d	blastoma (embryonic tumour)
+b433172b	brachytherapy (internal radiotherapy)
+e189df67	BRCA1 gene (breast cancer 1)
+8a2aa0dc	CA-125 marker (ovarian cancer)
+7476d61c	cachexia (extreme wasting)
+fbb3f67b	carcinoembryonic antigen
+3b224a29	carcinogen (cancer-causing agent)
+a71c20b1	carcinomas (Latin plural)
+3f68a774	cell cycle
+b7c4ca34	chondroma (benign cartilage tumour)
+a2735460	chondrosarcoma (cartilage cancer)
+d12f2cdc	colectomy (removal of the large intestine)
+e0262e21	colony-stimulating factor
+f4519095	colostomy (opening of the colon on the abdomen)
+598d006b	core needle biopsy
+c67d5570	cryosurgery (surgery with cold)
+3866d531	curative treatment
+aad86659	cystectomy (removal of the bladder)
+32522317	cytology (study of cells)
+77f18d24	cytotoxic (cell-killing)
+86397eb2	tumour debulking (cytoreduction)
+5749254f	diagnoses (plural)
+31b576e2	differentiation
+f260d4b7	digital rectal examination
+a69767c3	ductal carcinoma in situ
+a5e51871	dysphagia (difficulty swallowing)
+8116fea0	dysplasia (abnormal growth)
+cd917ede	dysplastic naevus
+590ab272	en bloc removal
+b92eb15d	encapsulated
+d5983f5b	endometrial biopsy
+f777c33c	oesophagoscopy
+fd48b5b5	oestrogen receptor
+1b982130	excision
+f9a74f87	excisional biopsy
+032f5ec6	external beam radiotherapy
+20d30ddb	familial polyposis
+1dd50167	fatigue
+3adcb44b	fibroadenoma of the breast
+8defe9e7	fibroma (benign fibrous tumour)
+f4eac570	fibrosarcoma
+541f2dcd	fine-needle aspiration
+6b5b5622	five-year survival rate
+a34d743d	fluorouracil
+b4fac75d	frozen section
+c9c09fdb	genetic testing
+ee62ed6a	glioblastoma
+62716d7b	glioma
+7620668a	tumour grade
+fafa3f2e	haemangioma (benign blood vessel tumour)
+9ba48e1b	bleeding from the rectum
+aa764f27	spread through the blood
+b39de3fb	haematologist (blood specialist)
+d309cb48	haematoma (collection of blood)
+ab932a15	haematuria (blood in the urine)
+ce4fd2af	haemoptysis (coughing up blood)
+e4950387	hepatoblastoma (embryonic liver cancer)
+ee21155c	HER2 receptor
+d11fd8a6	Hodgkin lymphoma
+0218badd	hospice (end-of-life care)
+bbcdb91b	hyperplasia (increase in cell number)
+d8107301	hysterectomy (removal of the uterus)
+f5d82979	immunosuppressant
+294c9ee4	immunotherapy
+1e5d19a2	in situ
+070fc7d7	incisional biopsy
+65d44aed	infiltration
+c6c983a2	invasion
+f129f40a	invasive
+2ac21529	laryngectomy (removal of the larynx)
+37f72993	laryngoscopy
+f110f6de	laser surgery
+a468e722	leiomyoma (uterine fibroid)
+13839a0e	leiomyomas (plural)
+2f83ee81	leiomyosarcoma
+c43e5a77	lentigo maligna
+f0e00f6b	LH-RH agonist
+422d161e	lipoma (benign fatty tumour)
+87d3ef47	liposarcoma (fat cancer)
+5aabed82	lobectomy (removal of a lobe)
+27b5da5c	lumpectomy (removal of a breast lump)
+acf16397	lymph node dissection
+f9b5df5e	lymphadenopathy (enlarged lymph nodes)
+e42468be	lymphangiography
+6d24e3a7	lymphangioma (benign lymph vessel tumour)
+34f4cf04	spread through the lymph
+8813ab43	lymphoedema (lymphatic swelling)
+002fe957	lymphoma (cancer of the lymphatic system)
+6b2f3b6d	lymphosarcoma
+5e59c63f	mammogram (breast X-ray)
+ea484c18	mastectomy (removal of the breast)
+a7f284ce	medical oncologist
+1c62f989	medulloblastoma
+3943c482	melanoma (cancer of pigment cells)
+a8fa7590	meningioma (tumour of the brain membranes)
+f4dc35dd	mesothelioma
+3eed4a78	metaplasia (change in cell type)
+8d32ac97	metastases (plural)
+2713953b	to metastasise
+afa78901	metastatic
+cc011f68	methotrexate
+31803bd3	mitosis (cell division)
+e7276c57	modified radical mastectomy
+99a20ea5	mucositis (sores of the mouth lining)
+d93dd8a1	mutation
+30b6005f	myelogenous (from bone marrow)
+6cc8ce56	bone marrow suppression
+7b0254e5	myoma (benign muscle tumour)
+ed657938	neoadjuvant therapy (before surgery)
+d99e4dc1	neoplasia (formation of new growth)
+87642db6	neoplasm (new growth)
+93ab22e1	neoplastic (relating to new growth)
+09c500e9	neuroblastoma
+1d398872	neuroma (benign nerve tumour)
+54db070f	neutropenia (shortage of neutrophils)
+3d9c9c1d	naevi (plural of naevus)
+f010bf2c	night sweats
+9ff5ed37	nipple discharge
+b203a055	nipple retraction
+db5915ee	non-Hodgkin lymphoma
+782b7462	non-small cell lung cancer
+a5b41da7	oncologist (cancer specialist)
+a39e6ed4	oncology nurse
+bcac5537	orchiectomy (removal of a testis)
+60f75cd1	osteoma (benign bone tumour)
+c52d6a98	osteosarcoma (bone cancer)
+1ba6dc3d	palliative
+8ae24459	papillary carcinoma
+e09236a6	papilloma (wart-like tumour)
+6861b3d3	paraneoplastic syndrome
+5dbd0bc7	orange-peel skin
+a2f3031f	paediatric oncologist
+39136da6	peripheral blood stem cell transplant
+cac401ab	pneumonectomy (removal of a whole lung)
+9b842d7a	polyps (plural)
+d2ff9113	poorly differentiated
+e5847bc2	chemotherapy port
+4f85d007	precancerous
+cdd06f7e	progesterone receptor
+fa379f26	proliferation
+7e9098a5	prophylactic
+7caab50f	prostatectomy
+eabb54ac	radiation oncologist (radiotherapist)
+d60b8523	radiation therapy (radiotherapy)
+457fe9bf	radiosensitive
+2f48e87f	reconstructive surgery
+8691802c	cancer recurrence
+880c28f0	Reed-Sternberg cell
+637ec5bd	regional
+83192ae5	relapse
+2d2181df	remission
+f32515b8	resection (removal of part of an organ)
+e835cf19	retinoblastoma (cancer of the retina)
+75f6552b	rhabdomyoma (benign striated muscle tumour)
+98c70cd3	rhabdomyosarcoma
+d750455d	risk factor
+85536086	salpingo-oophorectomy
+9a6f6cfb	sarcomas (Latin plural)
+f5885c02	secondary tumour
+6ebfe1df	seminoma (testicular cancer)
+585e6fb2	sentinel lymph node biopsy
+6983f42b	small cell lung cancer
+f92f66ef	sputum cytology
+df6ca423	cancer stage
+5663a9be	staging
+290cd172	supportive care
+3c7cf083	surgical margin
+87da8954	surgical oncologist
+105e0746	systemic radiotherapy
+71f8b430	targeted therapy
+f900d926	teratoma
+d41e1ba5	thoracotomy (incision of the chest)
+7fc3138d	thrombocytopenia (shortage of platelets)
+c2288745	thyroidectomy
+92b0a7c9	TNM staging
+4f01cb50	transitional cell carcinoma (bladder)
+c2d53752	transrectal ultrasound
+1c1d545a	tumour board (multidisciplinary team)
+bfffb439	tumour marker
+069adddc	tumour suppressor gene
+3afc21c1	undifferentiated
+f32ee3c1	upper GI series (barium swallow)
+72e2d389	urine cytology
+5ad12bec	well differentiated
+6c2e96f0	Wilms tumour (childhood kidney cancer)
+a488dac5	backward, without
+18ffd8e1	short, near
+c6279f20	bad, difficult, abnormal
+3e80298f	beside, abnormal
+d9346f0b	cancer (of epithelial tissue)
+e3b4c078	immature, embryonic cell
+533015cf	producing, formation
+3cfec403	separate
+db9c0fe0	lymph vessel
+9cd2d96a	fibre, fibrous tissue
+e9456188	striated muscle
+7f9905c6	glue; glial cell
+de47b252	nipple-like projection
+0b95f5e4	scale, squamous
+747d6bcb	nipple; covering layer
+c3025002	monster, malformation
+1cfb846f	clot; platelet
+7275c1a1	neutral; neutrophil
+40d6efa6	horny tissue
+5f86173c	ray (of the sun)
+67c83080	drug, chemical
+2c8daf5e	germ cell tumour
+5da49bca	growth, formation
+9f2a2ddd	growth, development
+a77878ae	standing
+9a46683c	causing agent
+2a079bec	falling
+04066608	spitting, sputum
+db160c77	spot, plate
+e82b5483	visual examination
+d40f76a8	new opening
+074d1c68	suppression
+74913940	cancer; carcinoma
+1d65e16c	metastases
+8aaa56f6	status post (an operation or treatment)
+6d3a1365	millicurie (unit of radioactivity)
+59ff1fec	no evidence of disease
+e6f6e1bf	DNA (genetic material)
+9332332a	breast cancer genes 1 and 2
+9d11b44d	ductal carcinoma in situ of the breast
+f32575c2	guaiac faecal occult blood test
+f012b230	white blood cell; white blood cell count
+eb6d5d89	oestrogen / progesterone receptor
+e5e68597	tumour, node, metastasis
+81541f48	granulocyte colony-stimulating factor
+c36f941b	bacillus Calmette–Guérin (BCG vaccine)
+91361768	luteinising hormone-releasing hormone
+9d2e58ba	iodine-131 (radioactive)
+24a8e8e9	complete remission
+9f6b8aa7	Basic Terms and Specialties
+8d79e26a	The Cell and Tumour Growth
+e187cfc6	Benign Tumours
+b306c3d8	Malignant Tumours
+c14692d7	Cancers of Blood and Lymph
+d663dcae	Precancerous Lesions
+39ac6244	Screening and Tests
+018cf950	Biopsy and Endoscopy
+995aa5d6	Grade, Stage and Receptors
+4ea558a7	Drugs and Systemic Treatment
+42529950	Treatment Approach and Outcome
+27a06cfd	Adjectives and Plurals
+a549d034	One word = root + root + suffix
+ea438621	suffix
+0793c585	malignant cancer
+ede44a50	connective tissue of bone
+57cc6581	Read the meaning from the end: suffix first, then the roots
+486861c6	Anatomy of the word osteosarcoma
+0b2c7f60	well differentiated • slow growth
+887dca04	pushes on its surroundings • no metastasis
+b8708123	poorly differentiated • fast growth • invasion
+96c1c7f1	metastasis through blood and lymph
+bba223fe	Benign: a “ball in a bag” • Malignant: a “crab” with claws reaching outwards
+2f395888	Benign and malignant tumours
+dd57c7d6	Chemotherapy and drugs
+b26111a9	Diagnosis under the microscope
+ee954518	Care and drugs
+19a67353	The cancer care team
+cad5da42	Singular and plural: the word ending decides the plural rule
+03945be4	Singular and plural of cancer terms
+73cd73c5	opening of the colon on the abdomen
+3a20e4ee	Removing, cutting or making an opening? The suffix tells you
+24d53abf	Space is full; stop!
+b70d1b9e	one orderly layer
+e30b007d	dividing only as needed
+482b08d8	old cell: apoptosis
+a609f980	cancer cell
+eb23e6e2	piled up and disorderly
+40c6aa81	uncontrolled division
+a6aa23e1	escaping apoptosis
+d48eaad7	Cancer is division that no longer has “brakes”
+b3135eea	Normal and cancerous cell division

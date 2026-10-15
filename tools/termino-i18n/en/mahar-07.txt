@@ -1,0 +1,223 @@
+11b996be	The book’s list
+1c9812f4	What is seen?
+4de4145c	trachea, bronchi and lung; through the nose or mouth
+5570948c	the whole large intestine; through the anus
+8910a44e	rectum and sigmoid colon
+54cca1a6	the chest cavity through a small cut between the ribs
+1c6ba4c0	Match each endoscopy to its organ
+30918d35	Colonoscopy views the whole large intestine, but sigmoidoscopy only its last part.
+c743b353	sigmoid = the S-shaped last part.
+057de7db	Scopy or tomy?
+9e24cb3f	a small cut and viewing through a tube
+1f0c5d06	a large cut between the ribs, opening the chest
+f0da27b1	-scopy is “looking”, -tomy is “cutting”.
+a41d0b60	What is opening the chest with a large cut between the ribs called?
+6377fe3a	Viewing inside the uterus with a scope is called ___.
+c735cf70	Build a word meaning “viewing inside the bronchi”
+6685e746	Four main tools
+3e36e42d	Several imaging methods are used to find a tumour, its size and its metastases; each works with a physical force:⟦0⟧
+985016ea	Which method shows busy cancer cells with radioactive sugar?
+00a390ba	Read the names
+59a6038b	CT or CAT (computed axial tomography): computer X-ray slices
+fb1b5d9e	MRI: magnets and radio waves; brain, spinal cord, soft tissue
+53dc5d5e	PET: finding metastases and staging
+a5ed5f29	scintigraphy: a radioactive tracer and a scanner
+2d5c375f	finding bone metastases
+4cff58f0	TRUS: prostate and rectum
+0ef393bd	tom/o means slice: tomography means “a slice-by-slice image”.
+bded9647	X-rays and a computer
+563fba2d	bone metastasis
+aae64e0a	MRI uses X-rays.
+7e24bbed	False; MRI uses magnets and radio waves. CT uses X-rays.
+ab8d6dfe	What does CAT stand for in CAT scan?
+7cd602db	Table 20-8.
+7d28011a	A nuclear scan is also called scinti___.
+ad8057ec	What is ultrasound of the prostate through the rectum called?
+6d9fd299	trans- (through) + rect/o.
+34aea6b7	Spell the full two-word name for CT
+e6ab14ad	tom/o slice + -graphy.
+eaa3b427	Images with Contrast
+e8a8e2fa	Dye for seeing
+7e70147d	Some organs cannot be seen on a plain X-ray; they are seen with a <b>contrast medium</b> (such as barium or an injected dye):⟦0⟧
+8eee82d1	barium by enema; an image of the large intestine for bowel cancer
+6cf3624e	barium swallow; an image of the oesophagus and stomach
+3cd68b4c	IVP: dye in a vein that collects in the urine; kidneys, ureters, bladder
+f5c94215	blue dye in a lymph vessel; lymph nodes
+dc67b33b	Which organ is seen in a barium enema?
+d9cf7ebc	Enema = through the anus.
+dea316c2	• ⟦0⟧: pyel/o is the renal pelvis; an image of the kidneys<br>• intravenous: intra- (within) + ven/o (vein); dye through a vein<br>• upper GI: the upper part of the digestive tract⟦1⟧
+285b0db5	Before injecting dye, the patient is asked about iodine allergy and kidney function.
+50168f39	kidney and bladder
+498b252d	An upper GI series is also called a barium swallow.
+393d7376	Barium swallow.
+965723f4	What does IVP stand for?
+565d5c8e	In an IVP the dye is given through a ___.
+d2c59ebc	Review of “Seeing Inside the Body”
+05762049	-scopy: bronchoscopy, colonoscopy, sigmoidoscopy, cystoscopy, esophagoscopy, laryngoscopy, hysteroscopy, thoracoscopy
+e11a9cc8	thoracotomy a large chest cut; -scopy looking and -tomy cutting
+df4ee767	CT (CAT), MRI, PET, radionuclide scanning (scintigraphy), bone scan, transrectal ultrasound
+5bdf322b	Contrast: barium enema, upper GI series (barium swallow), IVP, lymphangiography
+dca852d6	Grade and Receptors
+d34c77fe	Grade versus stage
+85981866	How abnormal are the cells under the microscope? (differentiation)
+473ab26f	How big and widespread is the cancer in the body?
+d56c081e	The pathologist sees the grade under the microscope; the team sets the stage from images and surgery.
+295a4902	What does a tumour’s grade show?
+c3f1a53a	how abnormal and differentiated the cells are
+68bdc3ec	the size of the tumour
+129f7845	the number of nodes involved
+7555dde6	the patient’s age
+a19ee3c2	grade = degree.
+bcb83e7d	Receptors in breast cancer
+7e841b31	After breast cancer is diagnosed, the cells are checked for receptors:<br>• <b>estrogen receptor</b> (ER) and <b>progesterone receptor</b> (PR): if positive, the tumour grows with hormones and hormone therapy works<br>• <b>HER2</b>: a growth-promoting protein; a HER2-positive tumour grows faster but responds to targeted drugs⟦0⟧
+84340605	A report of “ER+/PR+/HER2−” means the tumour is hormone-sensitive and HER2-negative; treatment with an antiestrogen.
+07913794	growth-promoting protein
+6c02fee3	degree of cell abnormality
+4062b42a	An ER-positive tumour responds better to hormone therapy.
+2eba9d1f	Its growth depends on oestrogen.
+1f4caf1d	For which cancer is the CBC especially important?
+5c45f368	A grade 3 tumour has ___ cells.
+9897bdff	poorly differentiated
+52fd421a	From which sample are ER/PR checked?
+a5afacbf	breast tumour tissue
+b50fe710	The book: cells are taken from breast tissue.
+81438186	Spell the word for a protein that receives a hormone signal
+bf56e7a8	Latin: receiver.
+7206a10a	Three letters for the extent of cancer
+44ad6d23	<b>Staging</b> means finding the tumour’s size and how far it has spread; the most common method is <b>TNM staging</b>:⟦0⟧
+253b8464	In TNM, the letter M stands for…
+00365d85	cell grade
+bdcc50bf	Read an example
+022863c2	Code
+82864860	tumour in situ
+654a0e72	T1 to T4
+c3f54823	small to large and widespread tumour
+f3828db8	no lymph nodes involved
+52c5b13b	N1 to N3
+2aa19f9f	more or more distant nodes
+9ffaaf97	no distant metastasis
+0df6f66e	distant metastasis present
+ea0a3158	T2 N0 M0 means a medium tumour, no nodes and no metastasis; usually curable.
+e345c7bb	Match each code to its meaning
+238739ef	no nodes involved
+4bf1f60c	large, widespread tumour
+f80b7f14	M0 means the patient has distant metastasis.
+38b88f18	False; M0 means none.
+7e9a9360	Three words for extent
+2500ac0b	• <b>localized</b>: confined to where it began<br>• <b>regional</b>: spread to nearby nodes or tissues<br>• <b>distant metastasis</b>: spread to distant organs or nodes (the M)
+566ab401	What is a cancer that has reached only nearby lymph nodes called?
+ed4d2659	Regional.
+3e930c8e	In TNM, the letter ___ is the state of the lymph nodes.
+9716a667	Spell the term for finding the size and spread of a cancer
+eb67fe78	Stage 0 to 4
+0aa2bcb4	Five steps
+e8e0a37c	TNM is finally summed up as a <b>stage</b>:⟦0⟧
+59b947a9	Stage IV means…
+c557763a	a small local tumour
+2721b1e9	no cancer
+dfc00ef2	The highest stage.
+e89d1a03	Breast cancer stages in the book
+61564bfe	Stages of breast cancer (Figure 20-4 of the book).
+ebf46638	The book’s description
+5cee0ea7	localised cancer (in situ)
+6efdc3be	invasion of nearby breast tissue
+2123db9f	invasion of the lymph nodes
+083c127b	metastasis to the liver
+1ecdb6c7	Put the stages of breast cancer in order
+ffaae787	invasion of breast tissue
+fc6d78b7	Figure 20-4.
+d426b745	The higher the stage, the worse the prognosis.
+826e787b	Harder treatment.
+3a3baf33	Match each stage to its feature
+1353ea95	small and local
+50569a56	prognosis means…
+4329e630	the predicted course and outcome of the disease
+ed5fa51c	pro- (before) + gnosis (knowing).
+73d3927b	The choice of treatment depends on the cancer’s type, site and ___.
+fbc9c5dd	The book: stage of the disease.
+c6569d3f	Review of “Grade and Stage”
+8ec82991	grade = cell abnormality (grade 1 well differentiated to grade 3 poorly differentiated) • stage = extent of cancer
+b27457c1	ER, PR and HER2 on breast cancer cells; ER-positive → hormone therapy
+5221b7f8	TNM: T tumour (Tis to T4), N nodes (N0 to N3), M metastasis (M0, M1); localized, regional, distant
+4032f610	stage 0 in situ to stage IV distant metastasis; prognosis the outlook
+1d77cd6d	Surgery, radiotherapy, chemotherapy and side effects, hormone therapy and immunotherapy, stem cell transplant and the aims of treatment
+4f7ba952	Radiation and Drugs
+159bc03c	Approach and Outcome
+ca0e65dc	Cancer Surgery
+af6b249d	Organ root + -ectomy
+e107f3b4	The book says surgery is best for <b>solid tumours</b> confined to one area; it is not used for leukaemia or widespread cancer.⟦0⟧
+7b0e02fb	removal of a whole lung
+edf24c86	looking inside the lung
+b8437a54	Operations in Table 20-5
+8c6eb0dd	a whole lung
+702770e4	all or part of the larynx
+88f6b31d	all or part of the prostate
+ec59727e	one or both testes
+bd9be1bc	tubes and ovaries
+18d58fc6	salping/o is the uterine tube and oophor/o the ovary: salpingo-oophorectomy means removing both together.
+77f417e7	Match each operation to its organ
+91353918	General surgical terms
+bd904d94	• <b>excision</b>: cutting out tissue<br>• <b>resection</b>: removing part of an organ or a metastasis (e.g. in the lung or liver)<br>• <b>en bloc resection</b>: removing the tumour in one piece with the surrounding tissue and nodes<br>• <b>debulking</b> (cytoreduction): removing as much tumour as possible when not all of it can be removed⟦0⟧
+470938bb	For bladder cancer, cystectomy; but cystoscopy is only viewing the bladder. Read the suffix carefully!
+18eac34b	Surgery is the best treatment for leukaemia.
+b8647406	False; surgery is for a local solid tumour, not blood cancer.
+50327aa3	What is removing a tumour in one piece with the surrounding tissue and nodes called?
+1b14c8ae	en bloc = in one piece.
+7c1c5654	Spell the term for removal of the prostate
+8a5e1c70	Save the breast or remove it?
+abe7e9cf	The book’s definition
+9daf6c9a	removing the tumour and a little healthy tissue around it
+2a71583c	removing the breast or most of its tissue; with or without the lymph nodes
+6e8589fb	removing the breast, some armpit nodes and the lining over the chest muscles
+f69165f8	What is removed in a lumpectomy?
+3ef735e7	the tumour and a little healthy tissue around it
+a5f18ce9	the whole breast
+68f25afb	the breast and chest muscle
+b0331ccb	only the armpit nodes
+f7bcd867	A complication that lasts for years
+0d722095	Removing the armpit lymph nodes blocks the lymph flow of the arm and may cause <b>lymphedema</b>:⟦0⟧⟦1⟧
+db7e0b9c	Severe swelling of the arm from long-term lymph blockage, years after radical breast cancer surgery (Figure 20-9 of the book).
+b786345c	After lymph node dissection, blood is not drawn and blood pressure is not taken on that arm, so lymphoedema does not worsen.
+86c3ccbf	lymphatic swelling
+ffbc5366	breast, armpit nodes and muscle lining
+e9bb4071	Lymphoedema of the arm can appear years after the armpit nodes are removed.
+cfe0a1d6	Figure 20-9.
+91b0994e	After mastectomy, <b>reconstructive surgery</b> restores the shape of the breast; the book calls this <b>rehabilitative</b> treatment.
+2a5c9ebf	Which treatment approach is breast reconstruction after mastectomy?
+3e18e704	Table 20-6.
+74601f3c	The abbreviation ___ means modified radical mastectomy.
+3b6df64d	Modified radical mastectomy.
+5f1464ee	Spell the term for removing only a breast lump
+2454d7f1	Special Operations
+757277ff	Cold, light and an opening
+d2120bc6	cry/o = cold; freezing and destroying tissue: early skin cancer, retinoblastoma, precancerous lesions of the skin and cervix
+5e4a6955	a beam of light for cutting surface tissue or organ linings
+700e0d54	col/o + -stomy: an opening of the colon on the abdomen
+e84ac5e9	a small device under the chest skin for giving chemotherapy
+67170a72	What does cryosurgery destroy tissue with?
+f0c247b6	radioactive substances
+617de27e	Ectomy, stomy, tomy
+9b76954c	The book calls these three “confusing terms”: blepharectomy removal, salpingostomy an opening and prostatolithotomy an incision.
+2b430356	Colostomy means removal of the large intestine.
+21b5e945	False; removal is colectomy and colostomy is making an opening.
+cb080e2b	What is the device placed under the chest skin for chemotherapy?
+eabbe714	The book: access devices for chemotherapy.
+c6d52049	Removal of the thyroid is called ___.
+2a2e8470	Build a word meaning “surgery with cold”
+c0c9f36b	Review of “Surgery”
+568bb561	Surgery for a local solid tumour; excision, resection, en bloc resection, debulking
+5101bf1d	ectomies: pneumonectomy, lobectomy, cystectomy, hysterectomy, laryngectomy, prostatectomy, orchiectomy, salpingo-oophorectomy, thyroidectomy
+482ba067	Breast: lumpectomy, mastectomy, modified radical mastectomy; lymphedema; reconstructive surgery
+760713df	cryosurgery, laser surgery, colostomy, port catheter; -ectomy removal, -tomy incision, -stomy opening
+6e94855d	Radiation to kill cells
+25829a39	<b>Radiation therapy</b> (radiotherapy) kills cancer cells or slows their growth with high-energy rays such as X-rays. It is given in three ways:⟦0⟧
+1eb24560	In brachytherapy, where is the radiation source?
+a42d0eb6	in a machine outside the body
+1b9307e4	in the blood
+64b3d4a0	in the bone marrow
+5a9350f2	brachy- = near.
+b69b36ff	Three types in the book
+a463860f	⟦0⟧⟦1⟧A tumour easily damaged by radiation is <b>radiosensitive</b>.
+a0457bd0	a machine aims the radiation at the tumour from outside
+ffb4cb82	radioactive seeds, needles, wires or catheters in or beside the tumour
+a3e090e2	a liquid radioactive substance by mouth or vein circulates in the blood

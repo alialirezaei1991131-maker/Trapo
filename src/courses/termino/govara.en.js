@@ -1766,7 +1766,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'lx', sym: 'Lx', name: "Language of Digestion", short: "tongue", sub: "Word structure, mouth roots, the GI tract, liver and bile, symptom and surgical suffixes, adjectives, plurals and look-alike words",
+    id: 'lx', sym: 'Lx', name: "Language of Digestion", short: "Language", sub: "Word structure, mouth roots, the GI tract, liver and bile, symptom and surgical suffixes, adjectives, plurals and look-alike words",
     color: '#4C6EF5', dark: '#364FC7', light: '#EDF2FF',
     levels: ["Word structure and mouth roots", "Roots of the GI tract and accessory organs", "Suffixes, adjectives and plurals"],
     gens: EA.genIds('lx'),
@@ -1933,7 +1933,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'mo', sym: 'Oro', name: "Mouth to Stomach", short: "mouth", sub: "The GI tract and its jobs, mouth and teeth, saliva, pharynx and swallowing, oesophagus and peristalsis, the stomach and its juice",
+    id: 'mo', sym: 'Oro', name: "Mouth to Stomach", short: "Mouth", sub: "The GI tract and its jobs, mouth and teeth, saliva, pharynx and swallowing, oesophagus and peristalsis, the stomach and its juice",
     color: '#E8590C', dark: '#C2410C', light: '#FFF4E6',
     levels: ["Digestion, mouth and teeth", "Saliva, pharynx and oesophagus", "Stomach and enzymes"],
     gens: EA.genIds('mo'),
@@ -2095,7 +2095,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'bw', sym: 'Gut', name: "The Intestines and Accessory Organs", short: "intestine", sub: "Duodenum, jejunum and ileum, villi and absorption, peritoneum, the large intestine and defecation, abdominal quadrants, liver, bile and pancreas",
+    id: 'bw', sym: 'Gut', name: "The Intestines and Accessory Organs", short: "Intestine", sub: "Duodenum, jejunum and ileum, villi and absorption, peritoneum, the large intestine and defecation, abdominal quadrants, liver, bile and pancreas",
     color: '#2F9E44', dark: '#2B8A3E', light: '#EBFBEE',
     levels: ["Small intestine and peritoneum", "Large intestine and the abdominal map", "Liver, bile and pancreas"],
     gens: EA.genIds('bw'),
@@ -2584,7 +2584,7 @@
   const e = s => `<bdi dir="ltr">${s}</bdi>`;
 
   EA.worlds.push({
-    id: 'tx', sym: 'Tx', name: "Diagnosis, Surgery and Drugs", short: "treatment", sub: "Endoscopy and imaging, tests, removal and repair, stomas and anastomoses, Billroth and weight-loss surgery, tubes and feeding, GI drugs",
+    id: 'tx', sym: 'Tx', name: "Diagnosis, Surgery and Drugs", short: "Treatment", sub: "Endoscopy and imaging, tests, removal and repair, stomas and anastomoses, Billroth and weight-loss surgery, tubes and feeding, GI drugs",
     color: '#1098AD', dark: '#0B7285', light: '#E3FAFC',
     levels: ["Endoscopy, imaging and tests", "Operations and openings", "Tubes, feeding and drugs"],
     gens: EA.genIds('tx'),
