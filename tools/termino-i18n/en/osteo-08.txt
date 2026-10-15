@@ -1,0 +1,250 @@
+36e6ab80	What is a fracture of the end of the radius from falling on an outstretched hand called?
+38541765	A wrist fracture.
+bc603056	What type is a vertebral fracture in osteoporosis usually?
+18eea174	The vertebra is crushed.
+ce17a809	A pathologic fracture occurs in a bone weakened by disease.
+327739e2	For example a tumour or osteoporosis.
+aff3e15e	Match each fracture to its description
+06c47201	crack from repeated stress
+9bbbc8a3	bone chip pulled off with a tendon
+f381df1e	two pieces driven into each other
+ab2f36d1	Special fractures.
+d7aec58e	A ___ fracture is common in runners and soldiers.
+b7e34be8	Repeated stress.
+ce3be353	In the report “comminuted fracture of the femoral neck”, how is the bone broken?
+aa750c01	Shattered into several pieces at the neck of the femur
+7961899d	Only cracked
+795e63fd	Spiral, in the shaft of the femur
+62091a25	Undisplaced, in the kneecap
+4ef319e9	comminuted = shattered; femoral neck = neck of the femur.
+f1546535	Spell the term for a fracture shattered into several pieces
+b1d38d7e	Two m’s and one n.
+e077cc31	Healing and Reduction
+53cbd779	How the body heals a bone
+e3676b25	⟦0⟧1. A blood clot (⟦1⟧) at the fracture site<br>2. A soft cartilage callus<br>3. A bony callus (⟦2⟧)<br>4. Remodelling (⟦3⟧) until the bone regains its shape<br>If it does not heal it is a ⟦4⟧, and if it heals crooked a ⟦5⟧.
+27a8b205	Stages of healing
+af7554b0	Reduction and fixation
+581871fe	⟦0⟧• ⟦1⟧: returning the bone to its correct position; ⟦2⟧ without an incision and ⟦3⟧ with surgery.<br>• ⟦4⟧: open reduction and internal fixation with a plate, screws or a rod<br>• ⟦5⟧: pins in the bone and a frame outside the body<br>• ⟦6⟧: pulling with weights; a ⟦7⟧ and a ⟦8⟧ for immobilisation⟦9⟧
+7be93841	Cast, ORIF and external fixation
+db008cbe	Orthopaedic follow-up note: a 76-year-old woman after ORIF of a left supracondylar femur fracture; the wound has healed well, with “fixation in place, mild osteopenia”.
+1151c184	What is the new tissue formed around a fracture called?
+f87e688a	The bony callus.
+232e932f	Closed reduction with a cast
+6dbb730f	External fixation with a frame
+19f4bad5	Traction with weights
+1eb07d69	Malunion means the fracture has not healed at all.
+bd01f182	False; malunion means healing crooked. Failure to heal is nonunion.
+41590e1a	Put the stages of fracture healing in order
+cb1e12ab	Clot → soft callus → bony callus → remodelling.
+d1a2dbba	Match each method to its description
+115795ca	reduction without an incision
+545df1c8	pins and an external frame
+e7f5fc31	Methods of treating fractures.
+ab800631	Returning a broken bone to its correct position is called ___.
+28436ac9	Spell the term for the new bone formed at a healing fracture
+813fc9c9	Two l’s.
+8fc6d874	Which Image for What?
+9762577a	fracture and dislocation
+ec9cdebe	cross-sectional slices; complex fractures
+4ac4ab42	soft tissue: disc, ligament, meniscus
+a6c2efe5	bone density and osteoporosis
+2d3b3120	spinal canal with contrast
+ad4d8cdd	Building imaging words
+619ee60f	⟦0⟧ → the method of imaging with rays<br>⟦1⟧ → slice-by-slice imaging (⟦2⟧ = ⟦3⟧)<br>⟦4⟧ → measuring density<br>⟦5⟧ → image of the spinal canal⟦6⟧⟦7⟧
+e5cfb235	MRI of the lumbar spine: herniated disc
+ea7c4c79	the recorded image itself
+ceb3bca9	Which method is best for seeing a torn meniscus or a herniated disc?
+93a0e260	MRI shows soft tissue well.
+90e891a7	Which test measures bone density?
+7783257a	In a bone scan the radioactive material collects in highly active areas of bone.
+9011d3cc	A nuclear scan.
+5abc70fc	Build a word meaning “the method of imaging with rays”
+816be219	Match each method to its use
+51c0b9a4	disc and ligament
+e4d12d6a	spinal canal
+ae21aedd	Imaging.
+6bdb795d	A recorded image is built with the suffix ___, as in myelogram.
+4f4ee3c6	Spell the term for imaging with X-rays
+54d9dee4	Blood Tests and the T-score
+c01c2c04	Tests for inflammation and arthritis
+38240bd8	erythrocyte sedimentation rate; high = inflammation
+17584905	C-reactive protein; high = inflammation
+71ca4ddc	rheumatoid factor; in most RA patients
+d86d0387	antinuclear antibody; lupus
+1803a35c	high in gout
+eed5404d	blood calcium
+9f948e4b	Interpreting the T-score
+195e7836	⟦0⟧The ⟦1⟧ report compares bone density with the average of a healthy young adult:<br>• ⟦2⟧: normal<br>• ⟦3⟧ to ⟦4⟧: ⟦5⟧<br>• ⟦6⟧: ⟦7⟧⟦8⟧
+1258358a	The “Goniometer and bone density” tool in the Tools section interprets the T-score for you.
+80f34560	What do a high ESR and CRP indicate?
+e68e7fcf	Inflammation in the body
+20c72f43	Muscle damage
+c861cda7	Calcium deficiency
+26bf9ea5	Markers of inflammation.
+461c02ca	A T-score of ‎-2.8‎ means…
+e4db9b4c	Osteopenia
+c3dad5d4	RF is positive in most patients with rheumatoid arthritis.
+625b5b7f	Match each test to its disease
+fa19bc72	lupus
+79e50846	Orthopaedic and rheumatology tests.
+38479d85	How is a T-score of ‎-1.6‎ interpreted?
+ead7b281	Between ‎-1‎ and ‎-2.5‎.
+afe8dcd9	The erythrocyte sedimentation rate is abbreviated ___.
+d4c594af	Spell the term for measuring density
+05b90574	Orthopaedic Chart Abbreviations
+24afcf40	Limbs and amputations
+c7b2fe6e	upper / lower extremity
+14303467	right, left upper extremity
+d36637bc	right, left lower extremity
+b9167fcc	above / below the elbow
+d03685f0	above / below the knee
+19079639	Common abbreviations
+51755956	total hip / knee replacement
+8d9fcee1	non-steroidal anti-inflammatory drug
+4a906f27	physical therapy / occupational therapy
+c9582527	A means Above and B means Below; E means Elbow and K means Knee. Just four letters and four combinations!
+6228fac1	below-knee amputation
+06e96c29	above-knee amputation
+3b47954d	below-elbow amputation
+3d99a2ac	knee fracture
+c7e2dd41	right elbow
+cd73c669	ADLs means everyday activities such as dressing and eating.
+be6cda3d	occupational therapy: practising daily activities
+be5c4646	Put a follow-up note in its usual order
+4bcd0773	CC: chief complaint
+712d34a8	HPI: history of present illness
+dbed6a80	Exam: examination and ROM
+5b7a09f1	IMP: impression and plan
+ba9dc2b5	The structure of a clinical note.
+dabb16a9	“Flexion of left knee greater than 90 degrees” means the ___ of the left knee is over 90 degrees.
+87d8daf7	bending
+78ef8acb	straightening
+b9b586d7	flexion = bending.
+6daf49c5	In “C5–C6 HNP”, where is the problem?
+5d77337f	A herniated disc between cervical vertebrae 5 and 6
+1f5bbb6e	A fracture of the lumbar vertebrae
+893cb40d	Osteoarthritis of the knee
+6c1aff98	A dislocated shoulder
+f4945da8	C = cervical; HNP = herniated nucleus pulposus.
+bb8437a5	Bone Surgery
+65504f22	Cutting, removing, repairing
+44ed25d4	cutting a bone to correct its angle
+dd8af4ba	removing a bone or part of it
+30af4719	surgically breaking a bone to correct a deformity
+2c67719c	removing the lamina of a vertebra
+5c2be6c3	fusing vertebrae with a graft and rods
+6b12f686	Graft, prosthesis, orthosis
+20ba14a6	• ⟦0⟧: a bone transplant; an ⟦1⟧ from the patient (for example the ilium) and an ⟦2⟧ from a donor<br>• ⟦3⟧: removal of a limb<br>• ⟦4⟧: an artificial limb or joint (⟦5⟧ = addition)<br>• ⟦6⟧: a brace or splint to hold and correct (⟦7⟧ = straight)⟦8⟧⟦9⟧
+dfde5d06	replaces a lost body part
+6a7b457c	supports and corrects an existing part
+2707802e	In Case Study 5-2, 3-year-old Cooper with OI had ORIF of a femur fracture with a rod in the marrow canal (IM rodding) and a hip spica cast.
+aae10022	surgical cutting of bone
+41bd9688	repair of bone
+1e70e090	‎-tomy = cutting.
+ece28212	What is a bone graft from the patient’s own body called?
+c1d6c67d	An orthosis replaces a lost body part.
+9c816135	False; the replacement is a prosthesis. An orthosis is a supporting brace.
+41fa984c	Build a word meaning “surgical breaking of a bone”
+b8277047	Match each operation to its meaning
+2bfb43fb	fusing vertebrae
+e2012834	graft from a donor
+a0fe2248	Bone surgery.
+dc361367	An artificial leg is a ___.
+2e98de65	prosthet/o = addition.
+3b1644ad	Spell the term for an artificial body part
+08517d46	Its plural is prostheses.
+f192676d	Muscle and Tendon Surgery
+faddd53c	Suture, incision, repair
+9671a503	cutting a tendon
+fcf977db	repairing a tendon
+eb48f780	cutting the fascia to relieve pressure
+179659c4	cutting the wrist ligament to free the median nerve
+6554b73a	Why is the fascia cut?
+b8961f4f	Sometimes after a fracture or crush injury, the pressure inside a muscle compartment rises so high that the blood supply is cut off. With a ⟦0⟧ the surgeon opens the fascia to release the pressure.⟦1⟧ → cutting the fascia⟦2⟧
+d050f675	The double r in rrhaphy, rrhexis and rrhea: the suffixes for “flowing” and “sewing” are written with two r’s.
+6d336984	Which operation is done to relieve pressure on the muscles?
+71d19396	Cutting the fascia.
+d7e04095	Myoplasty means surgical repair of a muscle.
+ff7f7c94	Build a word meaning “cutting a tendon”
+620b7590	cutting the fascia
+e78a2bf6	freeing the median nerve
+42dc532f	Muscle and tendon surgery.
+78ee5327	Suturing a muscle is called ___.
+591dd175	‎-rrhaphy = suture.
+52011a40	Spell the term for suturing a tendon
+26e0be5e	ten/o + -rrhaphy; two r’s.
+e23be054	Drugs and Rehabilitation
+b104563e	Drugs
+25e9d383	reduces pain, inflammation and swelling; ibuprofen, naproxen
+dc423ead	relaxes muscles and relieves spasm
+bce3ab51	strong anti-inflammatory; sometimes injected into a joint
+a96c851b	slows osteoclasts in osteoporosis
+0b0aed98	calcium and vitamin D
+d1cf5084	prevents and treats osteoporosis and osteomalacia
+06b9b07f	• ⟦0⟧ (⟦1⟧): exercise, heat, cold, water and ultrasound to restore strength and movement<br>• ⟦2⟧ (⟦3⟧): restoring daily skills (⟦4⟧) and work<br>• ⟦5⟧: exercise in warm water<br>• ⟦6⟧: the whole process of regaining ability after injury or surgery⟦7⟧⟦8⟧
+0fa9f5b6	Therapeutic ultrasound in physiotherapy
+a0f8f7cb	In the book’s physiotherapy note, the treatment was “moist heat and ultrasound to the cervical spine and 45 minutes of therapeutic exercise”; the patient had rotator cuff tendinitis.
+be6d9957	What kind of drug is an NSAID?
+40700fe5	A muscle relaxant
+926d824b	Which drug slows osteoclasts in osteoporosis?
+18eb63af	It reduces bone breakdown.
+b845305e	Occupational therapy (OT) focuses on restoring activities of daily living.
+01550bfd	Build a word meaning “treatment with water”
+463945e7	Match each treatment to its job
+38d12105	pain relief
+0a421a56	relief of muscle spasm
+5d4fa143	exercise and movement therapy
+ee830600	daily skills
+3372ba7e	Drugs and rehabilitation.
+51aace6d	In analgesic, the prefix ___ means “without”.
+2ad4e794	an- + alges/o (sensation of pain) + -ic.
+4f11f866	Spell the term for restoring ability after injury
+b2d9de0b	little bone
+346064ea	Pillar of the Body
+a4fa259d	One of the body’s 206 bones: a lever for movement, a shield for organs, a calcium store and a blood factory. Together with the muscles it makes up the musculoskeletal team.
+493bcd6c	Master of oste/o and my/o
+2a2d55f6	A living dictionary that breaks every word into root, prefix and suffix and knows arthr/o, chondr/o and ten/o by heart.
+c4110962	Puts inter- and supra- in place, attaches -desis and -rrhaphy, and never mixes up my/o and myel/o.
+7fefbeda	Blasto
+60112dce	The Hard-Working Bone Builder
+8b144b7a	A lively osteoblast that builds new tissue day and night; its eternal rival is the osteoclast, which eats old tissue.
+60f4a0fd	Calci
+387a70eb	The Crystal of Hardness
+c91a441e	A crystal of calcium and phosphorus that keeps bone hard. When vitamin D is low, its place empties and the bone softens.
+8032441f	red marrow
+417b6a59	The Blood Factory
+b9b6e668	Lives in spongy bone and makes millions of red cells every second; hematopoiesis is its job.
+8d28dd04	Skully
+896dea04	Guardian of the Brain
+f06815fe	Stitches the eight skull bones together with sutures and moves only its lower jaw. Knows them all, from frontal to occipital.
+799fe3d4	One of the spine’s 26 vertebrae, sheltering the spinal cord in its opening; knows 7 cervical, 12 thoracic and 5 lumbar by heart.
+e047a879	cage
+d097f165	Shield of the Heart and Lungs
+53f93da7	Twelve pairs of ribs and one sternum; knows its true, false and floating ribs well and protects the heart and lungs.
+7589b921	Synovia
+afb1e055	A drop of synovial fluid that keeps the knee and shoulder slippery so the cartilage glides silently.
+a0bed54c	The Precise Goniometer
+9845c92d	Measures flexion, extension, abduction and pronation in degrees and writes every ROM in the chart.
+b294db3e	surgeon’s glove
+eae41f3b	Master of Arthroscopy
+eaf3f6da	Sees inside the knee through a small incision, removes a torn meniscus and, if needed, replaces the joint with a TKA.
+851a5d35	kettlebell
+e0e7a0c0	The Skeletal Muscle Coach
+4c5b7c72	Loves hypertrophy and fears atrophy. Knows that muscle only pulls and never pushes.
+dec68139	delta
+67981094	The Triangular Shoulder Muscle
+6e51b099	The deltoid; abducts the arm and is a favourite site for intramuscular injections. It takes its name from the letter Δ.
+7ea2bde0	Achilles
+f97cc5bf	The Swift-Footed Tendon
+876f3e62	The strongest tendon in the body, joining the calf muscle to the heel; every plantar flexion happens with its help.
+b3b34393	plaster cast
+39efd226	Guardian of the Fracture
+134c6325	Keeps a closed fracture still so the callus can join it. Knows greenstick and spiral fractures by their lines.
+6bf70815	The Imaging Detective
+3d49d557	From X-ray and CT to MRI and DXA, finds every hidden fracture and bulging disc and interprets the T-score.
+c685e1ff	chart reader
+f9216783	Master of ORIF and Rehabilitation
+ada48886	Reads ORIF, THA and BK at a glance and accompanies the patient through physiotherapy and back to ADLs.
+30d8b8a2	Mrs Young’s History
+e356d286	Nicole Young, a 76-year-old woman
+105c0402	The nurse takes her history: “When I was young I injured the ligaments of my left ankle several times playing basketball. Later the same ankle twisted and they said the tendon was inflamed. Last year I fell off my bike and partly dislocated my right shoulder. Last year they also said my bone density was low.” You must rewrite it in medical terms.

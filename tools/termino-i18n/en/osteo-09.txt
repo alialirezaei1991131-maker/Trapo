@@ -1,0 +1,262 @@
+b039ba9b	repeated ligament injury of the left ankle
+5c363d25	partial dislocation of the right shoulder
+8ad81ede	low bone density
+fb3e1a9f	What is a ligament injury from twisting the ankle called?
+c091a53c	sprain = ligament injury; strain = muscle or tendon.
+758e34ee	Which word is written for “an inflamed tendon”?
+19252bbc	“A partly dislocated shoulder” means…
+fc5ad374	sub- = less than; a partial dislocation.
+65a1bf81	What is low bone density that is not yet full osteoporosis called?
+5de24229	oste/o + -penia (deficiency).
+99596d00	Match each part of the history to its direction word
+2f221ae3	left ankle
+b6473e4e	right shoulder
+8d434af9	only one shoulder
+5c9609c2	both ankles
+31248936	Directions in the chart.
+4ca6a424	Spell the term for partial dislocation
+aa412e47	Mrs Connolly’s Hip Pain
+8696b98a	Janet Connolly, a 48-year-old woman
+50042557	Mrs Connolly complains of left hip pain, both on movement and at rest. Her left leg is turned outward, and it hurts when the ankle is bent upward. You must write the findings with medical terms and abbreviations.
+18ca96d0	left hip pain
+091f9a60	leg turned outward
+1dbbbc89	when the ankle is bent upward
+21a34976	Which abbreviation is written for the affected limb?
+03a1e20d	What is “bending the ankle upward” called?
+89f2b808	Toes toward the shin.
+9d4bc063	Which word is written for “leg turned outward”?
+44159d14	lateral = away from the midline.
+2f447121	What is the thighbone called?
+a1a2ff97	femor/o = thigh; “thigh pain” = femoral pain.
+87f855c3	Joint pain is called arthralgia and muscle pain myalgia.
+cbbabae9	-algia = pain.
+7d52c62c	Spell the term for bending the foot upward
+2ff8c7ed	Cooper’s Fifteenth Fracture
+d538b78b	Cooper, a 3-year-old boy
+6a845a72	Cooper has osteogenesis imperfecta (OI) type III and has had 15 fractures of his arms and legs since birth. This time, while standing in his walker, his left thigh twisted and broke. He is short and both his legs are bowed. He receives a bisphosphonate infusion every two months.
+81c60803	Thin, broken bones in OI
+c11aa1f8	What kind of disease is OI?
+f82e41fe	An inherited collagen disease with brittle bones
+f54887d3	Bone cancer
+7210d4e9	Bone softening from lack of vitamin D
+e792d05c	What does a bisphosphonate do?
+ec7c64d7	It slows the breakdown of bone by osteoclasts
+0e4d3337	It softens the bone
+73eeaa70	It treats infection
+5d12be81	It only reduces pain
+ad2dc7e3	Less bone is absorbed.
+6485f435	ORIF means…
+74320b67	closed reduction
+cb53c472	IM rodding means placing a rod in…
+9ab9985b	the marrow canal of the bone (intramedullary)
+5ab3e3cc	the hip joint
+0d76721b	intra- + medull/o: inside the marrow cavity.
+aa79d0bd	A fracture that occurs in a bone weakened by disease is a pathologic fracture.
+a9398b0d	In OI the bone breaks with little force.
+48e290b9	Spell the term for the thighbone
+6c16d37b	A Fall on the Ice
+59dc7a9a	An 82-year-old woman in the emergency department
+b2f3ea05	An 82-year-old woman has come in with severe left hip pain after a fall on the ice. Two years ago she broke her wrist and had a cast. A bone specialist had diagnosed moderate osteoporosis on a low-dose bone density X-ray. Now she holds her thigh bent and cannot straighten it.
+3aa7dfca	Who is “the specialist who treats bone diseases”?
+14291930	What are “porous bones” called?
+4aa8b683	Which is the “low-dose X-ray for bone density”?
+22f457ba	BDT with DXA.
+adb43104	Match each description to its term
+2d52b310	bent thigh
+743a9151	movement toward straightening
+96316fc4	shattered bone
+08071bd6	immobilising with a cast
+5cdc5f70	What is “putting in an artificial hip joint” called?
+88c9c700	Hip prosthesis
+57292eef	Spell the term for porous, fragile bone
+971b3d63	Rachel’s Scoliosis
+3caad763	Rachel, a 15-year-old girl
+5d8c6a48	Four years ago Rachel had a posterior spinal fusion (PSF) with hooks and two rods for adolescent idiopathic scoliosis. The bone graft was taken from her right posterior superior iliac spine. Now her right scapula sticks out, her ribs are asymmetrical and she has mid and lower back pain. CT showed rotational scoliosis and angled ribs.
+fc5e5dff	scoliosis means…
+55edfd7a	PSF means…
+a7822518	Fusing the vertebrae from the back.
+5e9fa9d9	What is a bone graft from the patient’s own ilium called?
+5c118af2	Match each planned operation to its meaning
+4daceb51	cutting bone
+14e2da02	removing part of a rib (costectomy)
+b4660fe2	removing part of the scapula
+9235359e	Rachel’s operations.
+1763faaa	Extent
+451e19f3	T4 to L2 means from the…
+bbb4b66a	fourth thoracic vertebra to the second lumbar vertebra
+86ec3066	fourth cervical vertebra to the second lumbar
+c216e20a	fourth rib to the second vertebra
+e99a72fd	fourth lumbar vertebra to the second sacral
+0a0e1cea	T = thoracic, L = lumbar.
+4e123d42	Spell the term for a sideways curve of the spine
+69824f36	Radiology Report of the Lumbar Spine
+a7b31b18	A patient with chronic low back pain
+bdedb8f7	Report: “Anteroposterior and lateral views of the lumbar spine… The L5-S1 intervertebral disk space contains a slight shadow of decreased density. Slight narrowing of the L3-4 and L4-5 spaces. Bilateral laminectomies at L5-S1. Slight hypertrophic lipping of L4. The sacroiliac joint spaces are well preserved.”
+063918aa	MRI of the lumbar spine
+0af0fcd1	anteroposterior means…
+90d946b7	from back to front
+6c394ea9	from top to bottom
+5ff1568a	intervertebral means…
+d556dcbf	between the vertebrae
+5f57e48a	inside a vertebra
+6a5adef9	under a vertebra
+0f820063	on a vertebra
+7e36087b	bilateral laminectomies means…
+730b6a6e	removal of the lamina on both sides
+b2f7af7f	removal of a disc on one side
+b65a749c	fusing two vertebrae
+dc9a4c5a	cutting two ribs
+4de20244	bi- = two; lamin/o + -ectomy.
+5caefb17	Which two bones does sacroiliac refer to?
+ad851e2b	sacrum and ilium
+5f49dbd8	lumbar and sacrum
+b55a4f70	coccyx and ilium
+0b68facf	femur and ilium
+26927e4c	Hypertrophic means relating to the enlargement of a structure.
+a6bb685b	Spell the term for lumbar and sacral together
+eaba451f	Susan’s TMJ Arthroplasty
+1b674431	Susan, a 38-year-old teacher
+953b0848	After a car accident, Susan has suffered chronic pain of the jaw, neck and right ear. CT confirmed degenerative joint disease (DJD) of the right TMJ. Conservative treatment with a dental splint, NSAIDs and steroid injections did not work. An oral surgeon removed part of the head of the mandibular condyle (condylectomy).
+ca7c55f9	TMJ means…
+8af559d8	DJD is another name for which disease?
+1edf33d2	condylectomy means…
+8367556b	removal of a condyle
+40869b8c	repair of a condyle
+6e4e961e	‎-ectomy = removal.
+9431367c	The removed condyle belongs to which bone?
+cddbe46a	An NSAID is a non-steroidal anti-inflammatory drug.
+ec84b37a	Spell the term for surgical repair or replacement of a joint
+3e83bfd2	An Acute Rheumatoid Flare
+5377032c	Mary Pearl, a 60-year-old woman
+1b6f1813	Mrs Pearl has come in with swelling, stiffness and pain in her joints, especially the elbows, wrists and hands. A bone scan showed acute inflammation in several joints with damage to the articular cartilage, and an ESR test confirmed significant inflammation. Diagnosis: an acute flare of rheumatoid arthritis. Treatment: NSAIDs and physiotherapy with hydrotherapy and therapeutic exercise.
+fd5b8642	Advanced rheumatoid arthritis
+904461ce	arthralgia means…
+6cd5ab3d	joint stiffness
+c66a4fc6	joint swelling
+e4c595c8	What does the ESR show?
+3ff4b9c3	The degree of inflammation in the body
+09315cc1	What kind of disease is rheumatoid arthritis?
+05c7455f	Autoimmune, with inflammation of the synovial membrane
+bd0d84d3	Wear of cartilage with age
+7492bd9a	Uric acid deposits
+a2420ba3	Bacterial infection of a joint
+684fcd88	Hand deformity in rheumatoid arthritis
+6d7e2c3e	Match each treatment to its meaning
+ffdaa87f	therapeutic exercise
+01fd7a3f	The treatment plan.
+053abf8d	Course
+3bc7159c	Acute means sudden onset and a short course, unlike chronic.
+02d8ad83	An acute flare of a chronic disease.
+497169d5	Spell the adjective in the name of autoimmune joint arthritis
+c7cb2de9	Right Knee Replacement
+2c4ca615	A 68-year-old man
+1ba81438	Since injuring his knees playing football in high school, he has had occasional knee pain and swelling. In his fifties, working on concrete made it worse. Constant pain and swelling now disturb his sleep and activity, and he walks with a cane. X-rays showed severe bilateral osteoarthritis, and he was admitted for a right TKR.
+0e13d123	osteoarthritis bilateral knees means…
+2b3a6da5	osteoarthritis of both knees
+8abca0b8	rheumatoid arthritis of one knee
+3bfc2032	fracture of both knees
+40fbe539	knee bursitis
+8e080a74	bi- = two.
+51744ff4	TKA means…
+d65af08e	knee arthroscopy
+582704ac	knee fusion
+47dc43be	daily activities
+fbdd6199	The discharge summary.
+9dbf1fca	Put the patient’s course in order
+e6d003e4	Knee injury when young
+c9d8539d	Worsening pain and swelling
+59ddca5f	Right TKR
+3571e067	Walking with a walker and discharge
+41e7db5a	From the discharge summary.
+9f7b7c49	ambulate means…
+1dcbd8e4	to walk
+6862ae36	to bend the knee
+785ac0cc	to turn in bed
+b88cba0d	to stand on tiptoe
+cd9f6c41	ambul/o = to walk.
+2d5aab00	A Physiotherapy Note
+3c2fc7aa	A middle-aged office worker
+eecaaf40	Chief complaint: neck pain with limited movement and right shoulder pain with limited ROM. Today’s treatment: moist heat and ultrasound to the cervical spine and 45 minutes of therapeutic exercise. Neck flexion, extension and rotation have improved, but the right shoulder hurts in flexion and abduction, especially resisted abduction; rotator cuff tendinitis, probably from impingement.
+de6bc7e7	Therapeutic ultrasound
+b3ddceef	What is raising the arm out from the side of the body called?
+3230954a	ROM means…
+35c84f09	tendonitis means…
+c539a835	It is also spelled tendinitis.
+c7716dbe	Match each neck movement to its description
+ab3df121	bending the head forward
+ce1c8fbd	bringing the head back upright
+ba497b86	turning the head left and right
+8f2e1edd	tipping the head back
+4af17278	Neck movements.
+68dd7ac9	In this note, US means…
+40ea5dbd	ultrasound (therapeutic ultrasound)
+953044e7	Spell the term for pertaining to the neck
+2578acb8	Thomas’s Brachial Plexus Injury
+eb541fda	Thomas, a 16-year-old boy
+ad8a2f5d	Thomas suffered a severe right brachial plexus injury in a lacrosse accident and his arm went “limp”. It has neither sensation nor movement. The supraspinatus, infraspinatus and deltoid have wasted and the shoulder is partly dislocated. ROM of the hip, knee and ankle is full. An EMG, nerve conduction study and SSEP were ordered; a gracilis muscle transfer is also possible.
+b4426da6	atrophy means…
+db3fecda	EMG means…
+3670e4b0	magnetic imaging
+a2862587	a muscle enzyme test
+00ed378e	The supraspinatus and infraspinatus belong to which group?
+08f756b3	subluxation of the shoulder means…
+a9f8f584	partial dislocation of the shoulder
+fea31543	fracture of the shoulder
+361d7108	inflammation of the shoulder
+ad50c6f6	stiffness of the shoulder
+5dd02f73	sub- = partial.
+02f18e78	R/O in a chart means to “rule out” a diagnosis.
+2f1c1753	Spell the term for muscle wasting
+b15b5b0d	A Child’s Muscle Weakness
+40ff1c57	A 7-year-old boy
+de23c2d1	He has had muscle weakness since age 3 to 4. A muscle biopsy confirmed destruction of muscle fibres and muscular dystrophy was diagnosed. He still walks and has been on medication for four months. On examination he has proximal muscle weakness, hypertrophy and a short Achilles tendon.
+a22b09c6	What is muscular dystrophy?
+240b617c	An inherited disease with progressive weakness and wasting of muscle
+9388b07e	Autoimmune inflammation of muscle
+0609dc18	Muscle infection
+a83e1200	MD; the Duchenne type in boys.
+a64b759b	biopsy means…
+566b906e	removing a tissue sample for the microscope
+a123443b	taking an X-ray
+7bfaad43	a muscle tracing
+ea1ed4d3	proximal muscle weakness means weakness of the muscles…
+f003fde9	near the trunk (shoulders and thighs)
+912407ff	far from the trunk (hands and feet)
+b755edc4	on one side of the body
+9d768a19	of the face
+be953e82	proximal = near the trunk.
+f51f0c34	The Achilles tendon joins which muscle to the heel?
+4a204145	Hypertrophy means a muscle getting smaller.
+5c31b81d	False; hypertrophy means enlargement.
+e73d6eec	Spell the term for progressive wasting from poor nourishment
+9ec7d914	Michael, a 56-year-old manager
+397608af	Michael, who played football at university, has come to the orthopaedist with recurring shoulder pain. Even after 6 months of physiotherapy and NSAIDs he cannot abduct his right arm without pain. His shoulder dislocated 35 years ago. MRI confirmed a complete rotator cuff tear, and the surgeon suggested a Bankart repair.
+5166abe7	abduct means…
+2667f44c	to move the arm away from the midline
+74b0d243	to bring the arm toward the body
+5024ae76	to bend the elbow
+f12f2354	to turn the palm
+f64f2d86	Why was an MRI ordered for the rotator cuff tear?
+c2cdb682	MRI shows soft tissue such as tendons well
+efd5ceaa	MRI shows only bone
+e33ea6d2	It is the cheapest method
+3bc384f2	It measures bone density
+b92be34f	Tendon = soft tissue.
+919cfa47	Match each rotator cuff muscle to its location
+1e1035c8	above the spine of the scapula
+a898a794	below the spine of the scapula
+52d4c2f9	small round muscle
+f1fba595	front surface of the scapula
+82655900	SITS: the four rotator cuff muscles.
+d63cb158	In surgery, the subscapularis tendon was cut “proximal to its insertion”, which means…
+81670402	slightly closer to the trunk than its attachment
+f915816f	exactly at the attachment
+6db1ec7e	at the muscle’s origin
+feb04d96	on the humerus
+f9006580	PT after surgery means…
+62918d45	prosthesis
+e4d05abf	Spell the term for complete separation of joint surfaces
+c7f82d84	Hip ORIF Follow-up
+40a6b147	A 76-year-old woman
+23831e65	Orthopaedic follow-up note: the patient has come for follow-up after ORIF of a left supracondylar femur fracture. X-ray: the fixation is in place, she has mild osteopenia and nothing significant has changed since surgery. The wound has healed well. Extension of the left knee is 20 degrees short of full ROM and flexion is over 90 degrees.
+bb7266e5	CC in the note means…

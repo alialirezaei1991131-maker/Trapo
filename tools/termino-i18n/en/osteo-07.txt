@@ -1,0 +1,275 @@
+2632768e	Muscle tissue and structure
+ca221ebf	Major muscles of the body
+4d0fe2fc	Muscle disease and diagnosis
+fa7d364f	Skeletal, Smooth, Cardiac
+dfb9c356	Control
+b0d4986a	striated
+31557a06	voluntary
+02ed6de0	smooth (unstriped)
+57e23066	involuntary
+a6781dab	walls of the gut, vessels, bladder
+d681113c	striated and branching
+12de6ce8	heart wall
+1e35dc3a	Words for muscle tissue
+9972ba79	• ⟦0⟧: striped under the microscope<br>• ⟦1⟧: under conscious control; ⟦2⟧: not under conscious control<br>• ⟦3⟧ is also called ⟦4⟧.<br>⟦5⟧ → ⟦6⟧: heart muscle⟦7⟧
+440f50a3	The heart is “striated” like skeletal muscle but “involuntary” like smooth muscle; a special combination.
+27c412df	Which muscle is both striated and involuntary?
+5c4b4a59	Cardiac muscle.
+62d17fa8	What type is the muscle of the intestinal wall?
+3e5ab28b	Smooth or visceral muscle.
+c2a00625	Skeletal muscle is voluntary and attaches to bone by tendons.
+33b1f978	Match each muscle to its feature
+8a457d5f	voluntary and striated
+7e4e73ec	involuntary and smooth
+dd714da7	involuntary and striated
+3b6a17c8	muscle of the heart wall
+5945fdda	Three types of muscle.
+4e3b16f2	Build a word meaning “heart muscle”
+62a3a0ea	A muscle that looks striped under the microscope is ___.
+2bdae449	striated = striped.
+8f309242	Spell the term for muscle that moves the skeleton
+987780ec	From Tendon to Fibre
+7e409ad2	Structure of skeletal muscle
+9e7a76a9	⟦0⟧• ⟦1⟧: one long muscle cell<br>• ⟦2⟧: a bundle of fibres<br>• ⟦3⟧: the fibrous covering around a muscle<br>• ⟦4⟧: a fibrous cord that ties muscle to bone<br>• ⟦5⟧: a flat, sheet-like tendon
+33cbf513	Origin and insertion
+02110117	⟦0⟧Every muscle has two attachments:<br>• ⟦1⟧: on the bone that stays <b>still</b><br>• ⟦2⟧: on the bone that <b>moves</b><br>The muscle that performs the movement is the ⟦3⟧ (⟦4⟧), the opposing muscle the ⟦5⟧ and the helper the ⟦6⟧.⟦7⟧⟦8⟧
+f3cb6d00	Biceps and triceps of the arm
+2a07edba	Teamwork of the arm muscles
+3fc9b8ea	A muscle always pulls the insertion toward the origin; no muscle ever “pushes”.
+73888678	What is the attachment of a muscle to the fixed bone called?
+b9330467	The origin.
+64aa2977	When the biceps bends the elbow, what role does the triceps play?
+5c325940	antagonist (opposing)
+1eb3781d	The triceps must relax.
+1a440378	A fascicle is a bundle of muscle fibres.
+fd536c82	fascicle = little bundle.
+9493dbf9	Put the structures in order from small to large
+1b6b6b4e	Fibre → fascicle → muscle → muscle group.
+7a0a3063	fibrous covering of a muscle
+30b1e304	flat tendon
+fc1824cb	helper muscle
+8ff2ecd6	attachment on the moving bone
+28fecf4d	Muscle structure and roles.
+577d8ba4	A tendon joins muscle to ___.
+57c51e01	another muscle
+7295ee41	Spell the term for the fibrous covering around a muscle
+f600aba7	How Muscles Are Named
+15bf12b5	A muscle’s name is its ID card
+5bcd4f9c	Criterion
+47149b90	Example and meaning
+e8bfb1d4	: largest
+769e5e95	: triangular; 
+97106d2f	: trapezoid
+c7d84186	Fibre direction
+d4fa0d8b	: straight; 
+b6bda805	: slanting
+9834d130	Number of heads
+0b30df80	: 2, 3 and 4 heads
+e551fe31	: front of the tibia
+a500c9ad	Some decoded examples
+1dc7d524	⟦0⟧ → a muscle running from the sternum and clavicle to the mastoid process of the skull.<br>⟦1⟧ → the “straight” muscle of the abdomen<br>⟦2⟧ → from the arm (⟦3⟧) to the radius⟦4⟧
+0847f89e	deltoid comes from the Greek letter Δ (delta): the shoulder muscle is triangular.
+21d79812	What criterion does the name deltoid come from?
+762ec42e	Shape (triangular)
+2c3d7dcf	Δ = delta.
+cf6cc128	⟦0⟧ means a muscle with…
+ce59325e	four heads
+269f2c52	two heads
+7be65385	three heads
+e18b95fd	slanting fibres
+2a0f95cd	quadri- = four.
+9e89107b	rectus means the muscle fibres are straight and parallel to the body’s axis.
+5ef64cca	Match each name to its criterion
+5f843276	action and size
+e29c6adb	Seven criteria.
+ad7e4a69	Build the name of the muscle that runs from the sternum and clavicle to the mastoid process
+1157dc40	The three-headed muscle at the back of the arm is the ___ brachii.
+f1290fda	Spell the term for the triangular shoulder muscle
+b16b3267	Head, Neck and Trunk
+4174dff4	Major muscles from the front
+ba3bfbbe	closing the mouth to chew
+536e7fd5	closing the eyelid
+d9e5e4a9	turning and bending the head
+9936464d	bringing the arm in and bending it
+bd42bc72	bending the trunk; the “six-pack”
+807768bb	turning the trunk
+22002722	Back and breathing muscles
+c0d62919	⟦0⟧• ⟦1⟧: the trapezoid at the back of the neck and shoulders<br>• ⟦2⟧: the broadest muscle of the back; pulls the arm down and back<br>• ⟦3⟧: the dome-shaped muscle under the lungs; the main muscle of breathing<br>• ⟦4⟧: the muscles between the ribs⟦5⟧
+5085894f	Major muscles from the back
+2ef273ce	orbicularis comes from orbit: a muscle that circles round the eye or mouth.
+9aa324b0	Which is the main muscle of breathing?
+7835afdd	The dome between the chest and abdomen.
+6e3e0422	Which muscle closes the jaw for chewing?
+5a78852b	masseter = chewer.
+3809d509	The latissimus dorsi is a broad muscle of the back.
+8f42f164	latissimus = broadest, dorsi = of the back.
+caaad4a8	front of the abdomen
+6d865c9c	back of the neck and shoulders
+c92a09ff	around the eye
+32425ba1	Muscles of the trunk and head.
+b48edf7c	The muscle that turns the head and starts at the sternum and clavicle is the ___.
+11483376	Its name comes from its origin and insertion.
+6958dae2	The root pector/o in pectoralis major means…
+214f13d8	The g is silent.
+db71c305	Shoulder and Arm
+4406af29	Muscles of the upper limb
+816b657f	raises the arm sideways; an IM injection site
+87cbcc16	bends the elbow and turns the forearm up
+aa8e08b5	straightens the elbow
+b0511fe9	bends and straightens the wrist
+95c82c33	In adults, intramuscular (IM) injections are often given in the deltoid, the vastus lateralis (outer thigh) or the ventrogluteal area.
+810c6646	The rotator cuff
+013570c7	The ⟦0⟧ is four muscles and tendons that hold the head of the humerus in the shoulder socket and rotate it: ⟦1⟧, ⟦2⟧, ⟦3⟧, ⟦4⟧.<br>A tear (⟦5⟧) causes shoulder pain and weakness in raising the arm.⟦6⟧⟦7⟧
+68c8505c	SITS: the four muscles that “sit” on the head of the humerus.
+6f497ff7	In Case Study 6-1, Michael, with a history of shoulder dislocation, had a complete rotator cuff tear, and a Bankart repair was done to stabilise the joint.
+5318a77e	Which muscle straightens (extends) the elbow?
+f8ea01ce	The triceps at the back of the arm.
+953f435e	How many muscles make up the rotator cuff?
+c46d9aaf	The deltoid is a common site for intramuscular injections.
+d16f70d9	Match each muscle to its action
+7d0b4cca	raising the arm sideways
+c7731390	stabilising and rotating the shoulder
+9557727d	Muscles of the upper limb.
+6e5eab8f	Build a word meaning “below the scapula”
+b092f18d	The root ___ means arm.
+25981698	Spell the name of the two-headed arm muscle
+849fbd73	bi- = two, brachi/o = arm.
+5d366df5	Muscles of the lower limb
+3a0e9788	extends the hip; the largest buttock muscle
+f93d4174	extends the knee; the four heads at the front of the thigh
+b7c7042c	bends the knee; the three muscles at the back of the thigh
+9137739c	the longest muscle of the body; the tailor’s muscle
+67fe071c	plantar flexion; the calf muscle
+ec2d1518	dorsiflexion of the foot
+56e77fa7	The calf muscles attach to the heel bone (⟦1⟧) by the ⟦0⟧, the strongest tendon in the body.⟦2⟧⟦3⟧
+c0989d52	sartorius comes from sartor, “tailor”: tailors sat cross-legged, and this muscle produces that very movement.
+68fbab38	The knee reflex (knee-jerk) is tested by tapping the patellar tendon, which makes the quadriceps contract; it is a DTR.
+7d351706	Which muscle straightens (extends) the knee?
+53dfdc39	The quadriceps at the front of the thigh.
+9663dd3c	Which is the longest muscle in the body?
+d0fb7df2	The sartorius.
+7a24eaa6	The Achilles tendon joins the calf muscles to the heel bone.
+51923797	plantar flexion
+6ec6dc2a	dorsiflexion
+377ed5fb	hip extension
+85daa5e3	Muscles of the lower limb.
+3b67acbb	The calf muscle is called the ___.
+d47ba9d9	gastr/o = belly (the bulge of the calf).
+7fa9fd8e	Sprinting sometimes injures which group at the back of the thigh?
+5231d0f7	Hamstring strains are common in runners.
+03502450	Spell the name of the back-of-thigh muscle group
+e1bf7534	The three muscles at the back of the thigh.
+cc75919f	Weakness, Wasting and Tone
+ccb192c0	Muscle signs
+0660a49d	wasting and shrinking of a muscle
+ed494ef1	enlargement of a muscle
+ce9f2247	abnormal tone with twisting movements
+378d3080	failure of a muscle to relax after contracting
+19715e5e	sudden involuntary contraction
+fd660b7c	permanent shortening of a muscle or tendon
+125f915b	Movement words
+010a3f69	⟦0⟧ → slow movement (for example in Parkinson disease)<br>⟦1⟧ → difficult movement<br>⟦2⟧ → excessive movement<br>⟦3⟧ → “without nourishment” = wasting⟦4⟧⟦5⟧
+0bbf3b05	shrinking; for example after wearing a cast
+8f79a224	enlarging; for example with strength training
+d17b08a5	In a case study, after a brachial plexus injury Thomas had atrophy of the supraspinatus, infraspinatus and deltoid.
+e3415340	muscle cramp
+73824091	What is slow movement called?
+4bd366c0	brady- = slow.
+ca6787bb	Myotonia means the muscle is slow to relax after contracting.
+4c8c79c6	Build a word meaning “muscle weakness”
+56f1ce9b	abnormal tone
+3487c96a	sudden contraction
+f6e13bd6	permanent shortening
+0dac492f	Muscle signs.
+67bffdbe	Absence of muscle tone is called ___.
+a544ab3c	Spell the term for slow movement
+1715a717	Muscle Diseases and Injuries
+dc939a15	Muscle diseases
+a703bffa	• ⟦0⟧ (⟦1⟧): a group of inherited diseases with progressive weakness and wasting of the muscles; the Duchenne type affects boys.<br>• ⟦2⟧: autoimmune; nerve signals do not reach the muscle; severe weakness and drooping eyelids.<br>• ⟦3⟧: widespread muscle pain, tender points and fatigue.<br>• ⟦4⟧: inflammation of several muscles at once.<br>• ⟦5⟧: breakdown of skeletal muscle; muscle protein enters the blood and damages the kidneys.
+4d4793a6	Muscle and tendon injuries
+afd80ed9	overstretched muscle or tendon
+46d95f8a	pressure on the median nerve at the wrist; tingling and numbness
+f5285ce6	pain at the front of the shin in runners
+4442e81c	severe infection of fascia and muscle
+51924760	Carpal tunnel: the tendons and median nerve at the wrist
+aa95e108	In the book’s discharge summary, a 7-year-old boy had had muscle weakness since age 3 to 4; a muscle biopsy confirmed muscular dystrophy.
+188f464b	Which disease is inherited and causes progressive muscle weakness in boys?
+87e2a8b9	MD; the Duchenne type.
+6354a958	breakdown of skeletal muscle
+d7331b3e	inflammation of several muscles
+df52e875	autoimmune muscle weakness
+62e36588	Carpal tunnel syndrome is caused by pressure on the median nerve at the wrist.
+538b1213	CTS; tingling from the thumb to the ring finger.
+331f613f	Build a word meaning “pain of muscle and fibrous tissue”
+1bf533ad	autoimmune weakness and drooping eyelids
+706c3edc	Diseases and injuries.
+ad343b1a	Rupture of a muscle is called ___.
+c0b012ff	‎-rrhexis = rupture; ‎-rrhaphy = suture.
+e1731b92	Spell the term for inflammation of a tendon
+6b7007f5	Paralysis and Muscle Tests
+491c2812	Complete or partial paralysis
+734f0fa4	paralysis of one side of the body
+59d3930f	weakness or partial paralysis of one side
+c09e235d	complete paralysis
+b35642da	Muscle tests
+f42226b3	⟦0⟧⟦1⟧ → recording the muscle’s electricity⟦2⟧
+7d5b1e05	recording the muscle’s electrical activity
+1170973a	an enzyme that rises in the blood with muscle damage
+b8fedd78	taking a muscle sample for the microscope
+9f871dfa	deep tendon reflex with a reflex hammer
+98d84851	In a case study, Thomas had an EMG and nerve conduction study for a brachial plexus injury.
+44cff3df	What is paralysis of both legs and the lower body called?
+74ad4219	Which blood test shows muscle damage?
+6910a86e	CK or CPK.
+cbd203df	An EMG records the electrical activity of muscle.
+f8c2b4b5	Build a word meaning “paralysis of all four limbs”
+0cdaa22c	electromyography
+80759b1b	muscle enzyme
+b3248df5	Muscle abbreviations.
+836c7a91	Weakness of one side of the body (not complete paralysis) is called ___.
+0a12187f	‎-paresis = weakness.
+f3ab20f2	Spell the term for paralysis of one side of the body
+9c927604	Fractures, Diagnosis and Treatment
+457cc27a	Fractures and treatment
+95c3be70	Types of fracture and healing, X-ray to DXA, reduction and ORIF, amputation and prostheses, drugs, physiotherapy and chart abbreviations
+c212ee22	Fractures and healing
+5f8eed8d	Surgery, drugs and rehabilitation
+348910b0	Closed, Open, Greenstick
+d2b6af4a	The first question: is the skin intact?
+3e7ee29d	⟦0⟧• ⟦1⟧ (closed, simple): the skin is intact.<br>• ⟦2⟧ (open, compound): the broken bone has come through the skin; high risk of infection.<br>• ⟦3⟧: an <b>incomplete</b> fracture; the bone bends like a green twig and breaks on one side only. Common in children.<br>In a chart a fracture is abbreviated ⟦4⟧.
+9a128ac1	Shape of the fracture line
+6df6e3ba	Fracture line
+579c8281	transverse; straight across, at right angles to the shaft
+1d738500	oblique; at an angle
+17c49c92	spiral; from a twisting force
+3a667719	comminuted; several pieces
+9ac78722	X-ray: oblique fracture of the tibia
+81d6d175	compound means “combined”: fracture + skin wound = an open fracture.
+67f8f04d	A spiral fracture in a young child with no clear history may be a sign of child abuse and must be reported.
+9a8d28f5	In which fracture has the bone come through the skin?
+6c6530a9	compound = fracture + wound.
+8f3be48d	Which incomplete fracture is common in children?
+58977439	Like a green twig.
+0a88d5cb	A spiral fracture is usually caused by a twisting force.
+327e4f22	spiral = twisting.
+aff8b02c	Match each fracture to its line
+9f849db0	several pieces
+61853975	Shape of the fracture line.
+df05bc9e	Which fracture does this X-ray show?
+b5d701b0	transverse, in the radius and ulna
+5f19c653	A straight line at right angles to the shaft of both forearm bones.
+0612a99c	X-ray of the forearm
+ad2240cf	The abbreviation ___ means fracture.
+60b94ab3	fract = to break.
+6b676065	Named Fractures
+9e552341	Special fractures
+07ae4044	compression; a crushed vertebra, often in osteoporosis
+ae1aa979	one piece driven into the other
+3ae125fb	end of the radius at the wrist; falling on an outstretched hand
+d4b447e3	end of the fibula at the ankle
+2e069176	in a bone weakened by disease
+dc67a434	a hairline crack from repeated stress; runners
+a9eb4396	a tendon or ligament pulls off a piece of bone
+d25c6712	⟦0⟧If a bone breaks with very little force, think of an underlying disease: osteoporosis, tumour, osteomyelitis or OI. This is a ⟦1⟧.⟦2⟧
+71637219	Colles fracture: the end of the radius
+688d3761	In a consultation report from Pearson Hospital: an 82-year-old woman with osteoporosis slipped on ice and had a comminuted fracture of the left femoral neck and a hip replacement. Years earlier she had also had a Colles fracture.

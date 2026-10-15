@@ -1,0 +1,19 @@
+# نام کاراکترها (فقط رخداد CHARS)
+b2d9de0b@osteo#1	Boney
+66270c64@osteo#1	Rooty
+43063b0b@osteo#1	Puzzly
+7fefbeda@osteo#1	Blasto
+60f4a0fd@osteo#1	Calci
+8032441f@osteo#1	Marrowy
+8d28dd04@osteo#1	Skully
+421ed2f2@osteo#1	Verty
+e047a879@osteo#1	Cagey
+7589b921@osteo#1	Synovia
+207803d1@osteo#2	Goni
+b294db3e@osteo#1	Scopey
+851a5d35@osteo#1	Kettle
+dec68139@osteo#1	Delta
+7ea2bde0@osteo#1	Achilles
+b3b34393@osteo#1	Casty
+97e57f8e@osteo#1	Rayo
+c685e1ff@osteo#1	Charty

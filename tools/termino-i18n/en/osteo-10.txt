@@ -1,0 +1,106 @@
+4bf909ee	chief complaint
+fc7ed9b4	full cast
+d984b606	total joint replacement
+216f3f78	supracondylar means…
+ef2aba6b	above the condyles
+473855c8	below the condyles
+ca2de01e	between the condyles
+f8ffcb8c	on the condyles
+1a66e935	supra- = above.
+31edc4ea	mild osteopenia means…
+2116c432	a mild decrease in bone mass
+5f933dd0	severe osteoporosis
+e268195c	a new fracture
+36d0f9fb	“Extension 20° short of full ROM” means…
+f65146cb	the knee straightens 20 degrees less than fully
+3bc49f97	the knee bends 20 degrees
+f9e834ad	the knee straightens fully
+bf44ad68	the knee straightens 20 degrees too far
+001be8f6	Limited extension.
+023ab819	Spell the one-word term for after surgery
+3bf54469	The Wake-up Test in Spinal Surgery
+14fede8e	Lynn, a spinal fusion patient
+1459f653	During Lynn’s spinal fusion surgery, somatosensory evoked potentials (SSEP) were monitored. After the pedicle screws, hooks and rods were placed, the anaesthesia was lightened and she was asked to move her legs. Dorsiflexion confirmed the tibialis anterior was working, plantar flexion the gastrocnemius, knee flexion the hamstrings and knee extension the quadriceps.
+155bbd0d	Match each movement to the muscle it showed was working
+419b9dc3	spinal fusion means…
+b4894436	joining vertebrae together
+70284166	removing a disc
+35df3abd	cutting the spinal cord
+9c9758ec	removing the lamina
+3e85aefc	fusion = joining.
+a1f09c67	Which movement is lifting the toes upward?
+95461eef	dors/o = back of the foot.
+5afff160	Which vertebrae are L2 to L4?
+081c70a0	the second to fourth lumbar vertebrae
+f0fc9af8	The PACU is the post-anaesthesia care unit.
+1f7f7060	Spell the name of the back-of-thigh muscle group
+f1f5feff	A Fall on an Outstretched Hand
+b16a4f6f	A woman slipped in the yard and fell on her outstretched hand. Her right wrist is swollen and deformed (“dinner-fork” shape). AP and lateral wrist X-rays are taken. After diagnosis, a closed reduction and cast are done and she is referred for bone density testing.
+fe5931a2	Colles fracture
+d5dd3171	distal radius means…
+4c0ef348	the end of the radius near the wrist
+cb9b7ebb	the start of the radius near the elbow
+0c7ab01b	the shaft of the radius
+b3a5a6d2	the ulna
+ed7957df	distal = far from the trunk.
+ede949cf	closed reduction means…
+837ea917	setting without a surgical incision
+b1733d1a	setting with surgery
+5c88f5d9	fixation with a plate
+8cc59cef	closed = without an incision.
+7cceb3b1	Why was she sent for DXA?
+3c1ea6ce	A low-force fracture in an older woman may be a sign of osteoporosis
+59df1ec1	To see the ligaments
+c41d47f4	To test the muscles
+ff0d94b3	To diagnose gout
+d4601ef9	AP and lateral means two images, from the front and from the side.
+7d9808ba	Two views to see any displacement.
+a8c4dcf6	Spell the name of the thumb-side forearm bone
+e9f2eca9	An adult body has 206 bones and more than 600 skeletal muscles.
+3cc8b7d1	Start the meaning from the suffix: inter/vertebr/al means “pertaining to between the vertebrae”.
+2ff5c29a	oste/o is bone, my/o muscle, arthr/o joint, chondr/o cartilage and ten/o tendon.
+6ce802d2	my/o means muscle but myel/o means bone marrow or spinal cord.
+b0e250ed	ilium with i is the hip bone; ileum with e is part of the gut.
+928bc2f3	Proximal is near the trunk and distal far from the trunk.
+dfeb2d1d	‎-plegia is complete paralysis and ‎-paresis weakness or partial paralysis.
+2e9eedc8	orthopedics comes from orth/o (straight) and ped/o (child): straightening children’s bones.
+94f63e36	An osteoblast builds (Build), an osteoclast breaks down (Crash).
+08d74cb0	Blood formation (hematopoiesis) takes place in the red marrow of spongy bone.
+3b4c5323	The diaphysis is the shaft of a long bone and the epiphyses its two ends.
+8d80f346	The periosteum is the outer membrane of bone and full of nerves; that is why a fracture hurts so much.
+823cd792	The kneecap is the largest sesamoid bone and grows inside the quadriceps tendon.
+ff050ad8	A T-score of ‎-2.5‎ or lower on DXA means osteoporosis.
+f791826a	Rickets is osteomalacia in children.
+c54da724	A sarcoma is a malignancy of connective tissue: osteosarcoma in bone and chondrosarcoma in cartilage.
+cfb7aec5	The spine: 7 cervical, 12 thoracic, 5 lumbar; like breakfast at 7, lunch at 12 and dinner at 5.
+38320e6e	The atlas (C1) holds the head and turns on the axis (C2).
+97f04b8f	The mandible is the only movable bone of the skull.
+9f0f2531	The radius is on the thumb side and the ulna on the little-finger side.
+5ebebe6f	Ribs 1 to 7 are true, 8 to 12 false, and 11 and 12 floating.
+69a6ff06	Each hip bone is made of the fused ilium, ischium and pubis.
+6047efdf	Kyphosis is a hunched back, lordosis a swayback and scoliosis a sideways curve.
+f3a35a3f	The femur is the longest and strongest bone in the body.
+52e2ab18	Synarthrosis is immovable, amphiarthrosis slightly movable and diarthrosis freely movable.
+b0de833a	Abduction is away from the midline (AB as in Away) and adduction toward it.
+b4360301	Supination: you hold a bowl of “soup” in your palm.
+993cb29a	OA is wear of cartilage; RA an autoimmune disease of the synovial membrane.
+0d8bccdf	Gout comes from deposits of uric acid crystals and often starts in the big toe.
+8463dc68	A sprain is a ligament injury and a strain a muscle or tendon injury.
+fbbba3be	‎-desis means fusion and ‎-centesis puncture to draw fluid.
+314665a3	THA and THR are both total hip replacement; TKA and TKR the knee.
+66ecf635	Skeletal muscle is striated and voluntary; smooth involuntary; cardiac striated and involuntary.
+1b5e1988	The origin is on the fixed bone and the insertion on the moving bone.
+f5d4b8a9	The deltoid is named after the letter Δ and is a common IM injection site.
+c95397b6	The rotator cuff has four muscles: SITS.
+7e29cb07	The sartorius is the longest muscle in the body and the Achilles tendon the strongest tendon.
+2cc53905	Atrophy means muscle wasting and hypertrophy enlargement.
+32e581b3	CK or CPK is an enzyme that rises in the blood with muscle damage.
+da741926	An open (compound) fracture means the bone has come through the skin.
+7d3a99eb	A greenstick fracture is incomplete and common in children.
+2fb509db	A Colles fracture is a fracture of the end of the radius from falling on an outstretched hand.
+be8b0d31	ORIF means open reduction and internal fixation with a plate, screws or a rod.
+0560aa2d	Malunion means healing crooked; nonunion means failing to heal.
+35903e43	AK and BK above and below the knee; AE and BE above and below the elbow.
+27a564ee	A prosthesis replaces a body part; an orthosis supports an existing one.
+625f92f7	‎-rrhaphy means suture and ‎-rrhexis rupture.
+43c66949	MRI is better for soft tissue (disc, ligament, meniscus) and X-ray for fractures.

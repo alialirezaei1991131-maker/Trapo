@@ -1,0 +1,236 @@
+d23a5d45	weakness or partial paralysis: hemiparesis
+8fc255eb	cutting: osteotomy
+ce70448f	removal: ostectomy
+9d5c7646	ilium with i is in the hip (hIp); ileum with e is in the gut (Eat).
+9f955b93	tumour of bone marrow cells
+8d3be9ae	inflammation of the spinal cord
+da68905f	myel/o (bone marrow) + -oma; different from my/o (muscle).
+12b093bc	Which word relates to the hip bone?
+9f5fdafd	ilium with i = hip; the others relate to the gut.
+257edadb	Hemiparesis means complete paralysis of one side of the body.
+d1598734	False; ‎-paresis is weakness or partial paralysis. Complete paralysis of one side is hemiplegia.
+ed697b2d	What is the difference between osteotomy and ostectomy?
+06eab556	The first is cutting bone, the second removing bone
+510ae741	Both are removal of bone
+6285aa7e	The first is repair, the second breaking
+28b3fdba	Complete paralysis of both legs is called ___.
+a01ba6bc	‎-plegia = complete paralysis.
+472b321b	Spell the term for a tumour of bone marrow cells
+d3aa32f8	Bone cells, tissue and structure, shapes and landmarks, and diseases such as osteoporosis and osteomalacia
+61f3cb15	Bone tissue and structure
+70b2a1fe	Shapes and landmarks
+367e09c2	Bone diseases
+e121b42e	Bone Is Alive
+f17072c2	Three cells, one workshop
+e68cd068	⟦0⟧Bone is a living tissue that is always being built and broken down:<br>• ⟦1⟧: the <b>building</b> cell; it makes new tissue.<br>• ⟦2⟧: the <b>mature</b> cell; it lives in a small space inside the bone and maintains the tissue.<br>• ⟦3⟧: the <b>destroying</b> cell; it eats old tissue and returns calcium to the blood.
+6cefee8e	Three bone cells
+166ddba4	From cartilage to bone
+4c1b579d	The fetal skeleton is made of <b>cartilage</b> at first and is gradually replaced by bone; this process is called ⟦0⟧ or ⟦1⟧.<br>Bone’s hardness comes from the minerals <b>calcium</b> (⟦2⟧) and <b>phosphorus</b> (⟦3⟧) and its flexibility from <b>collagen</b> fibres.⟦4⟧⟦5⟧
+42cab901	Remember blast with Build and clast with Crash; cyte means a resident cell.
+30280823	In osteoporosis the osteoclasts outpace the osteoblasts; bisphosphonate drugs slow these osteoclasts down.
+20b4fe48	Which cell makes new bone?
+4e454da5	‎-blast = forming cell.
+fbbb2043	What does an ⟦0⟧ do?
+476a507b	It breaks down and absorbs old bone tissue
+a579a8e3	It makes new tissue
+5547f94b	It makes cartilage
+325301ed	It makes blood
+a05bd703	‎-clast = breaking.
+325cf695	Ossification means cartilage being replaced by bone.
+8be23176	True; the process of bone formation.
+de7af0af	building bone
+75a53284	maintaining tissue
+eea36487	breaking down old bone
+bbd0fb65	cartilage cell
+c26918e2	‎-blast, ‎-cyte, ‎-clast.
+3f4e78c3	Build a word meaning “mature bone cell”
+fcebb90d	The abbreviation ___ means calcium.
+3ab41261	Spell the term for a bone-forming cell
+69465320	The Head, Neck and Shaft of a Bone
+5247c1dc	A long bone in lengthwise section
+0d2595a7	shaft of a long bone
+1d40ebc5	the wide ends
+84402bb8	the flaring region between the shaft and the end
+e4ccaad4	the cavity in the shaft, full of yellow marrow
+a1cd2950	smooth cartilage on the bone end in a joint
+06f004fa	Two coverings
+2f52bce7	⟦0⟧ → <b>periosteum</b>: a tough fibrous membrane covering the <b>outside</b> of the bone, with vessels and nerves. It is everywhere except the joint surfaces.<br>⟦1⟧ → <b>endosteum</b>: a thin membrane lining the <b>inside</b> of the marrow cavity.⟦2⟧⟦3⟧
+badb2b2c	dia- means “through”: the diaphysis runs through the bone. epi- means “upon”: the epiphyses sit upon its two ends.
+09c87792	Most of the severe pain of a fracture comes from the torn periosteum, because it is full of nerves.
+140e4526	What is the shaft of a long bone called?
+70244a8d	Where is the ⟦0⟧?
+c8640063	A fibrous membrane on the outer surface of the bone
+90cd1139	Inside the marrow cavity
+fef45c48	On the end of the bone in a joint
+364158b4	Between two vertebrae
+a051d8ba	peri- = around.
+58b7a3fd	In adults, the marrow cavity of a long bone’s shaft holds mostly yellow marrow (fat).
+ff84ea5f	Yellow marrow is in the medullary cavity; red marrow is in the spongy bone of the ends.
+ffb5ce97	Put the parts of the femur in order from top to bottom
+9a2926d2	upper epiphysis
+8a798869	lower epiphysis
+5639aaac	End, flaring region, shaft, the other end.
+95dc3588	Match each part to its location
+ef68757c	lining of the cavity
+5d13512d	joint surface
+bfd969f5	Anatomy of a long bone.
+f54a33df	Build a word meaning “membrane around the bone”
+7f3f4374	Spell the term for the shaft of a long bone
+8b35a349	Compact and Spongy; Red and Yellow Marrow
+5cfe4639	Two kinds of tissue
+8f18d5d3	⟦0⟧• ⟦1⟧ (dense or cortical): the hard outer layer, made of cylinders called <b>osteons</b>, each with a ⟦2⟧ carrying vessels and nerves at its centre.<br>• ⟦3⟧ (spongy): inside the ends of bones; a network of thin plates (⟦4⟧) with red marrow between them.
+13f92f31	Red marrow, yellow marrow
+5b9bb2e4	⟦0⟧• ⟦1⟧: blood formation (⟦2⟧); red cells, white cells and platelets.<br>• ⟦3⟧: mostly fat; in the marrow cavity of adult long bones.⟦4⟧ → making blood⟦5⟧
+34748ef4	A real lengthwise section of the femur
+567231f6	A haversian canal is like a water pipe running through a tree trunk: rings around it and vessels inside.
+97281777	Where does blood formation take place?
+01c9efaa	Red marrow in spongy bone
+76cb3232	Yellow marrow in the marrow cavity
+50b3e027	Compact bone
+2da74245	What are the thin plates of spongy bone called?
+304bd057	trabeculae = little beams.
+4508d69a	Compact bone is also called cortical bone.
+b2e4bb46	cortic/o = outer layer (cortex).
+25a206f9	hard outer layer
+64854f56	vessel and nerve canal in an osteon
+fef45c48	On the end of the bone in a joint
+fef49566	fatty marrow
+4d8dfec5	Bone tissue.
+4aa79320	Making blood cells is called ___.
+7743e1f0	Blood formation: put the path in order
+bd53087e	A stem cell in the red marrow
+d3953adf	The cell divides and matures
+997ccb22	Red cells, white cells and platelets
+a3507b25	Entry into the bloodstream
+6edb46d0	Hematopoiesis in the red bone marrow.
+10acd468	Spell the term for blood cell formation
+171a9186	Recognise It by Its Shape
+73a3fa4f	femur, humerus, tibia
+764a09eb	wrist and ankle
+e0e4b74a	ribs, sternum, scapula, skull bones
+58f1169c	vertebrae and facial bones
+32844004	kneecap (inside a tendon)
+603678e1	A sesame seed inside a tendon
+670565d7	⟦0⟧ means “like a sesame seed”. These small bones grow <b>inside a tendon</b>; the largest is the <b>kneecap</b> (⟦1⟧), inside the tendon of the quadriceps.⟦2⟧⟦3⟧
+39816052	A flat bone is like a shield: the scapula, skull and ribs protect the important things beneath them.
+37e3fa3f	Flat bones such as the sternum and pelvis have plenty of red marrow; bone marrow samples are often taken from the iliac crest.
+7711833b	What shape of bone are the vertebrae?
+db71c3dc	Complex shape = irregular.
+b79fbf60	What kind of bone is the kneecap?
+61948628	It grows inside the tendon of the quadriceps.
+924c5da9	The wrist bones (carpals) are short bones.
+adce473e	Short bones are roughly cube-shaped.
+ed942236	Match each bone to its shape
+dda6a314	Five shapes.
+2d87964b	The ribs and sternum are ___ bones.
+65adb31e	Flat bones protect organs.
+df6af0e7	Which feature belongs to a long bone?
+accb3e56	It has a shaft and two ends
+3aeafe71	It lies inside a tendon
+d0fd2bed	It is roughly cube-shaped
+360d59b4	It has a complex shape
+1df2a764	Spell the term for a bone that grows inside a tendon
+11ee4904	sesam = sesame + -oid = like.
+7cfb611f	Projections: Head, Condyle, Trochanter
+44e81a5c	Where muscles and joints attach
+4e5267c5	⟦0⟧⟦1⟧ is the general name for any bony projection:<br>• ⟦2⟧: a rounded end that fits into a joint<br>• ⟦3⟧: a rounded, smooth joint knob<br>• ⟦4⟧: a projection above a condyle (⟦5⟧ = upon)<br>• ⟦6⟧: a large projection of the femur for muscles
+b1d508d2	Landmarks of the femur
+5b7edb6e	Small and large
+eef0fdaf	small, rounded bump
+32630c44	large, rough bump
+a5844e39	raised ridge; such as the iliac crest
+dd263284	sharp projection
+ccc9548b	A trochanter belongs only to the femur; it has two: greater and lesser.
+422f8f54	“Tennis elbow” is inflammation of the tendons attached to the lateral epicondyle of the humerus; that is why it is called lateral epicondylitis.
+19ee1280	What is the large projection below the neck of the femur?
+7f24ef94	A trochanter is found only on the femur.
+0a7b47b5	projection above a condyle
+57d9377c	hollow below a condyle
+d9b8d188	hole in a bone
+e4a3976f	epi- (upon) + condyle.
+75e54a0a	A tuberosity is larger and rougher than a tubercle.
+112d5fc7	A tubercle is small and round; a tuberosity large and rough.
+f2db4832	rounded joint knob
+64e6e516	large knob of the femur
+f1d5f4b4	raised ridge
+892fc08a	any bony projection
+f997e1cc	Projections.
+37435e18	The rounded, smooth knob at the end of a bone that takes part in a joint is called a ___.
+2ad17d02	condyle = joint knob.
+a4b7e426	Which one is a “depression”, not a projection?
+972c288a	fossa = shallow hollow.
+c205b6d0	Spell the term for the large knob at the top of the femur
+64464bb3	Large projection of the femur.
+b28dcd35	Depressions and the Growth Plate
+aac0f5c5	Hole, hollow, slit
+b5471658	a hole for vessels and nerves to pass through
+7dc39240	shallow hollow
+9a927592	hollow on the scapula
+0ce8e2e2	narrow slit
+563f0803	slit in the eye socket
+e1be2619	air-filled cavity inside a bone
+326274c2	sinuses around the nose
+43fa2a6f	groove
+752fe332	groove on the humerus
+0cc2b6ca	⟦0⟧A long bone grows in length at the <b>growth plate</b> (⟦1⟧), a layer of cartilage between the end and the shaft. After puberty this plate turns to bone and only a line remains (⟦2⟧).⟦3⟧⟦4⟧
+b26c71ac	Child versus adult
+3f452a3d	X-ray of a teenager’s knee: open growth plates
+45b7d365	A fracture through the growth plate is dangerous in a child, because it can stop that bone from growing.
+f1a996b1	Through which opening of the skull do the brain and spinal cord meet?
+f97da7ed	foramen = hole; magnum = large.
+cff709fa	Where does a child’s long bone grow in length?
+faf3714b	The cartilage growth plate.
+641fdeb7	In adults the growth plate is open and the bone is still lengthening.
+73c59368	False; after puberty the plate closes and becomes the epiphyseal line.
+8dcb7c7c	hole
+ec3c9597	air space
+dbf6b1b4	Depressions.
+b5dbaada	The air spaces inside the facial bones are called ___.
+d889a26b	On an X-ray an open growth plate appears as a dark line between the end and the shaft.
+c2cc77a8	Cartilage looks darker than bone on an X-ray.
+b1288d6f	Spell the term for an opening in a bone
+e8ded32f	Its plural is foramina.
+4b8c6506	Fragile Bone: Osteoporosis and Osteomalacia
+ff4c2709	⟦0⟧⟦1⟧ → ⟦2⟧: bone mass decreases and the bone becomes <b>porous and fragile</b>; mostly in women after menopause. Fractures of the wrist, hip and vertebrae are common.<br>⟦3⟧ → ⟦4⟧: bone mass below normal but not yet as low as osteoporosis.⟦5⟧
+70bad8d2	From healthy bone to osteoporosis
+7a780957	Head of the femur: healthy (left) and porous (right)
+ab1b0b09	⟦0⟧ → ⟦1⟧: an adult’s bones become <b>soft</b> because of a lack of vitamin D or calcium.<br>In a child the same disease is called ⟦2⟧: the legs bow and the growth plates widen.⟦3⟧⟦4⟧⟦5⟧
+ac55bcdb	Rickets: widened growth plate at the knee
+cdd0f314	full of holes and fragile (low mass)
+be25cdaf	soft and bendable (lack of minerals)
+f0c641e2	Osteoporosis is diagnosed with a bone density scan (DXA); a T-score of ‎-2.5‎ or lower means osteoporosis.
+f34ab829	loss of bone mass and porous bone
+390c5f08	bone infection
+790d31e2	oste/o + -porosis (porous).
+6ba73455	Rickets is mostly related to a lack of what?
+93495a4f	vitamin C
+58d02aa4	rickets = osteomalacia in children.
+ae4f605a	Osteopenia is more severe than osteoporosis.
+96e90955	False; osteopenia is the milder stage of low bone mass.
+553213e8	Build a word meaning “softening of bone”
+e9e691ae	porous and fragile
+402ef66d	softening in an adult
+27af16c3	softening in a child
+2f6f0f4e	mildly low mass
+333c4afe	Metabolic bone diseases.
+b5b9631c	The abbreviation ___ is the name of the bone density test.
+5ae57853	Bone Infection and Deformity
+9311c7c8	Infection down to the marrow
+6a851427	⟦0⟧ → ⟦1⟧: inflammation of bone and bone marrow, usually from a bacterial infection; through the blood or from an open wound (such as a diabetic foot ulcer).⟦2⟧⟦3⟧ → ⟦4⟧: death of bone tissue from loss of blood supply (⟦5⟧).
+84cca3c4	Osteomyelitis of a toe
+d6235ae4	Diseases of bone formation
+e8038e1b	• ⟦0⟧ or <b>Paget disease</b>: bone is broken down and rebuilt too fast; thick, weak and deformed.⟦1⟧• ⟦2⟧ (⟦3⟧): an inherited collagen disease; the bones are thin and brittle and break again and again.<br>• ⟦4⟧: an inherited disorder of cartilage growth; the limbs stay short.⟦5⟧
+0ac97d20	Paget disease: irregular bone tissue of the femur
+4fc8de81	OI: thin, broken bones
+e7ca43b0	inflammation of bone and bone marrow
+9d94e921	tumour of bone marrow
+21425cfb	What is another name for Paget disease?
+ce64dfd8	deformans = deforming.
+a07ce175	Osteogenesis imperfecta is an inherited disease that makes the bones brittle.
+ce93a9c2	Brittle bone disease; a defect in collagen.
+b927d3a3	Match each disease to its description
+5ddbd7ff	infection of bone and marrow
+55f38032	tissue death from loss of blood supply
+44313320	inherited short limbs
+c134a897	Paget disease
+d5ca56cd	Infection and deformity.

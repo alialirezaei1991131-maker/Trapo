@@ -1,0 +1,252 @@
+ec1ec186	⟦0⟧ → heel pain<br>⟦1⟧ → above the kneecap<br>⟦2⟧ → pertaining to the femur; the ⟦3⟧ is the artery of the thigh.⟦4⟧⟦5⟧
+bcddf04b	The tibia is thick and Tough and on the inside; the fibula is thin like a Fibre and on the outside.
+ee0cef64	The medial malleolus is the lower end of the tibia and the lateral malleolus the lower end of the fibula.
+fcc44fd5	Which is the longest bone in the body?
+6d3f9358	The thighbone.
+214f78be	ankle knob
+e6f55f42	foot bone
+4cfe1d71	The largest ankle bone.
+f9ff6a90	The fibula is the main weight-bearing bone of the leg.
+6d4f6fe3	False; the tibia bears the weight. The fibula is thinner and on the outside.
+4f53288b	Build a word meaning “heel pain”
+71cebacf	Put the bones in order from the pelvis to the toes
+90776f3b	Thigh, leg, ankle, foot, toes.
+3c1f3c02	Match each bone to its name
+6d13600a	The lower limb.
+9087f728	Spell the term for the kneecap
+99efc504	Joints and Movement
+1110ac81	Joints
+dcb7cb46	Types of joint, parts of a synovial joint, movement words (flexion, abduction…) and arthritis, dislocation and joint surgery
+bd4c56e6	Joint disease and surgery
+514900b0	Immovable, Slightly Movable, Freely Movable
+9cc7e4b3	Three types of joint
+485b56c0	⟦0⟧A joint (⟦1⟧ or ⟦2⟧) is where two bones meet:<br>• ⟦3⟧: <b>immovable</b> and fibrous; such as the skull sutures<br>• ⟦4⟧: <b>slightly movable</b> and cartilaginous; such as the discs between the vertebrae and the pubic symphysis<br>• ⟦5⟧: <b>freely movable</b> and synovial; such as the knee, shoulder and hip
+00c8dc93	Decoding the names
+546c7e9a	⟦0⟧ → “joint bound together” = immovable<br>⟦1⟧ → “joint on both sides” = a little movement both ways<br>⟦2⟧ → “joint open through” = free⟦3⟧
+4481f6be	S-A-D in order of movement: Synarthrosis (Still), Amphiarthrosis (A little), Diarthrosis (Do move).
+3ff2f561	What type of joint are the knee and shoulder?
+46a0e612	diarthrosis (synovial)
+48013398	synarthrosis (fibrous)
+075da88a	amphiarthrosis (cartilaginous)
+b5963d2b	A freely movable joint.
+96d68d6c	immovable joint
+c122605f	freely movable joint
+4283ddf7	slightly movable joint
+372f1bcd	syn- (together, bound) + arthr/o + -osis.
+375d8a7b	The pubic symphysis is a slightly movable cartilaginous joint.
+f85fb822	Match each joint to its type
+f6085f3b	intervertebral disc
+8523423d	Immovable, slightly movable, freely movable.
+3585a24f	A freely movable joint is also called a ___.
+127b89c6	Build a word meaning “slightly movable joint”
+a02097b9	Spell the term for the place where two bones meet
+8f17ff13	Its other name is articulation.
+23c4befa	Inside a Synovial Joint
+b39e7431	Parts of a freely movable joint
+b10d11a2	A synovial joint and its parts
+ea25351c	smooth covering of the bone ends
+6404ffda	fibrous sac around the joint
+fda1ae85	inner lining of the capsule; makes the fluid
+f1e2e31f	the joint’s oil
+4376f62c	ligament; ties bone to bone
+c664e90d	crescent-shaped cartilage pad of the knee
+4ec2fc35	fluid sac that reduces tendon friction
+9bb3ea5a	The knee up close
+e6be536d	bursa
+76ce87b2	synovial comes from syn (with) + ovum (egg): joint fluid is slippery and sticky like egg white.
+55596750	Meniscus injuries of the knee are common in athletes; they are seen with MRI or arthroscopy.
+9fe292dc	Arthroscopic view of a torn knee meniscus
+831265d4	Which part makes the joint fluid?
+9a556f81	The synovial membrane.
+849bb514	small fluid-filled sac that reduces friction
+b387bd1c	crescent-shaped knee cartilage
+04e4ac29	fibrous band between two bones
+1325d477	covering of the bone end
+9ddc41ae	burs/o = sac.
+4ad8e7db	The meniscus is a crescent-shaped cartilage cushion in the knee.
+33b00adc	C-shaped; a shock absorber.
+b891aee7	smooth covering of the bone end
+74fbe36c	joint lubricant
+c4144772	tying bone to bone
+14aaa552	The synovial joint.
+9e2303a1	Build a word meaning “removal of a meniscus”
+499b2250	Inflammation of the synovial membrane is called ___.
+f678a52c	Spell the term for the crescent-shaped cartilage pad of the knee
+adca4d90	Its plural is menisci.
+5da19116	Ball, Hinge, Pivot
+06a92f05	The shape of a joint decides the movement
+15b95ed7	in all directions
+43c4e7c5	only bending and straightening
+90a5ddb5	turning around an axis
+9c92cdea	the atlas on the axis
+8383533b	two directions
+52612c58	surfaces sliding
+7341bcba	between the wrist bones
+53279328	The artificial joint
+0f363a11	The hip joint is a <b>ball and socket</b>: the head of the femur (the ball) sits in the ⟦0⟧ (the socket).<br>When osteoarthritis disables this joint, ⟦1⟧ replaces it with a metal and plastic ball and socket: a ⟦2⟧ or ⟦3⟧.⟦4⟧⟦5⟧
+0a2ad713	Hip prosthesis: a metal ball in the socket
+71d2c196	hinge = a door hinge: it only opens and closes; so do the elbow and knee.
+8222561c	What type of joint is the shoulder?
+03d515c9	Movement in all directions.
+e33e0afe	In which joint does the head turn left and right?
+7c18656f	pivot (atlas and axis)
+e9d120a5	The atlas turns on the peg of the axis.
+b9bcdba3	The elbow is a hinge joint.
+ee5f337e	Only flexion and extension.
+5192f174	Synovial types.
+115359c5	The abbreviation ___ means total hip replacement.
+c36a712c	Which joint has the greatest range of motion?
+ef15e5f0	Movement in all planes.
+55c7c2f3	Spell the term for a joint that moves like a door
+276a642b	hinge = a door hinge.
+a989d202	Bend It, Straighten It
+461822f6	⟦0⟧• ⟦1⟧: bending; the angle between two bones <b>decreases</b>.<br>• ⟦2⟧: straightening; the angle <b>increases</b>.<br>• ⟦3⟧: extending beyond normal, such as tipping the head back.⟦4⟧ → the act of bending⟦5⟧
+8b0b7459	Flexion, extension and hyperextension of the neck
+c9c4c108	⟦0⟧• ⟦1⟧: toes toward the shin, upward (⟦2⟧ = back of the foot)<br>• ⟦3⟧: toes pointing down, like standing on tiptoe (⟦4⟧ = sole of the foot)⟦5⟧⟦6⟧
+214a3088	Plantar as in plant: you plant your foot in the ground (toes down). Dorsi as in dolphin: the dorsal fin rises up.
+5e847ccb	In the wake-up test during spinal surgery (Case Study 6-2), dorsiflexion showed the tibialis anterior was working and plantar flexion the gastrocnemius.
+fb71831e	What is bending the elbow called?
+cef9c8fa	The angle decreases.
+fe9bf31e	Which movement is standing on tiptoe?
+9f5a5d55	plant/o = sole of the foot.
+fc114b1a	In extension the angle between two bones increases.
+95a6878e	Straightening a joint.
+aacdd92f	Build a word meaning “extending beyond normal”
+74ea976a	Match each movement to its description
+0b709799	angle decreases
+82b91fe3	angle increases
+f25dc4fc	toes up
+16fbdc45	toes down
+47c40bcb	Bending and straightening.
+41453768	Looking at the ceiling by tipping the head back is ___ of the neck.
+c4b7d6c9	Extending beyond normal.
+092b26aa	Spell the term for bending a joint
+a1ecfe6a	Away, Toward and Rotation
+3a53028c	⟦0⟧⟦1⟧ → ⟦2⟧: moving a limb <b>away from</b> the midline of the body<br>⟦3⟧ → ⟦4⟧: bringing a limb <b>toward</b> the midline⟦5⟧
+5999a76e	Abduction, adduction and circumduction
+f37b113e	Abduction and adduction of the shoulder
+325341e9	Rotation and circling
+fc5f33e1	• ⟦0⟧: a bone turning around its own axis; like shaking your head “no”<br>• ⟦1⟧: a circular movement of a limb whose end traces a cone (⟦2⟧ = around)⟦3⟧⟦4⟧
+12db0310	AB = Away: away from the body
+ff529563	AD = ADD: add it to the body
+81a68eba	In Case Study 6-1, Michael could not abduct his right arm without pain; MRI showed a complete tear of the rotator cuff.
+3c47e1e4	What is raising the arm outward from the side of the body called?
+3fb2b7cc	ab- = away from.
+e9a0c2e5	circular movement of a limb
+a2514d9d	turning around its own axis
+da9faebc	moving toward the midline
+87335643	circum- = around.
+00a109e6	Adduction means bringing a limb toward the midline of the body.
+f14d5179	ad- = toward.
+a88aa507	Build a word meaning “moving away from the midline”
+083ca262	Match each movement to its example
+b0f54ab1	spreading the legs in a star jump
+d9c5e688	bringing the arms to the sides
+feed614d	shaking the head for “no”
+1f315ffb	swinging the arm round like butterfly stroke
+9991d98c	Four movements.
+b7f9d0d3	The root ___ means “to lead, bring”.
+7cc28603	abduction and adduction.
+c6665d2f	Spell the term for moving toward the midline
+fdac7093	Special Turns and ROM
+eed042f0	Palm and sole
+bdc18903	⟦0⟧• ⟦1⟧: palm facing <b>up</b> (or forward)<br>• ⟦2⟧: palm facing <b>down</b> (or backward)<br>• ⟦3⟧: sole turned <b>in</b><br>• ⟦4⟧: sole turned <b>out</b>⟦5⟧
+960311dd	Supination: you hold a bowl of “soup” in your palm. Pronation: your palm lies “prone” on the ground.
+542c4aaf	⟦0⟧ (⟦1⟧): the greatest possible movement in a joint, in <b>degrees</b>.<br>It is measured with a ⟦2⟧ (⟦3⟧ = angle). ⟦4⟧ means <b>passive</b> range of motion; the therapist moves the limb.⟦5⟧⟦6⟧
+8367f8c5	Goniometer on the elbow
+995edcfb	In an orthopaedic follow-up note: “Extension of left knee: 20 degrees short of full ROM” means the knee straightens 20 degrees less than fully. The “goniometer” tool calculates exactly this.
+7e20d59d	What movement is the palm facing up?
+fbcae8ba	Soup in the palm!
+cdc828cc	X-ray of a joint
+54e7d407	setting a joint
+eea3fdee	Eversion means turning the sole inward.
+9238e6b2	False; eversion is outward and inversion inward.
+482f4b0f	Special turns.
+96ee6cdc	Build a word meaning “angle-measuring instrument”
+b46f0195	Range of motion in which the therapist moves the patient’s limb is called ___.
+dbca9ef9	What does a goniometer measure?
+cde50c9d	The angle of joint motion
+af0b9be9	Muscle strength
+dda28ffa	Joint fluid
+01f205a8	goni/o = angle.
+2b9579ba	Goniometer on a finger joint
+c154d38f	Osteoarthritis, Rheumatoid, Gout
+22961a1b	The two big arthritides
+e8c5cb35	Healthy joint, osteoarthritis and rheumatoid arthritis
+b852bd70	wear of cartilage with age and weight; bone spurs; knee and hip; also called DJD
+a4ecd62c	autoimmune; inflamed synovial lining; small hand joints on both sides; RF positive
+ef7dbdd8	Advanced rheumatoid arthritis: swelling and deviation of the fingers
+25ce201b	Gout and others
+cd15e421	• ⟦0⟧: <b>uric acid</b> crystals in a joint, often the big toe; caused by ⟦1⟧. Hard deposits under the skin are called ⟦2⟧.<br>• ⟦3⟧: stiffening and fusion of a joint<br>• ⟦4⟧: juvenile rheumatoid arthritis⟦5⟧⟦6⟧
+dc0cab44	Deformed hands with uric acid deposits (tophi)
+804faadb	In a case study, 60-year-old Mary Pearl had painful swelling of the elbow, wrist and hand joints and a high ESR; the diagnosis was an acute flare of RA, and she received NSAIDs and physical therapy.
+17d41366	Which disease is autoimmune and inflames the synovial membrane?
+3de4027b	RA; the RF test.
+745bbbf7	Early rheumatoid arthritis: swollen finger joints
+746c3914	The abbreviation DJD is another name for which disease?
+b17bf6dc	Gout is caused by uric acid crystals deposited in a joint.
+59afb032	Gouty arthritis; often the big toe.
+11e600c0	Build a word meaning “high blood uric acid”
+f2190968	wear of cartilage
+a3d7c0ea	autoimmune, both sides
+c02f421f	uric acid crystal
+d19f2259	stiffening and fusion of a joint
+21df8ae3	Arthritides.
+0b701ad7	Hard uric acid deposits under the skin are called ___.
+d4cdf6d0	Singular: tophus.
+2bab3937	Spell the term for wear-and-tear joint disease
+d26bbbe7	Dislocation, Sprain and Cysts
+ed442762	Joint injuries
+c450abc3	dislocation: the joint surfaces completely separated
+36d5b3ee	sprain: ligament injury; often the ankle
+9736a5d5	blood in the joint cavity
+066d3e99	softening of cartilage, often behind the kneecap
+f8359397	injured ligament (bone to bone)
+7ecd6aae	overstretched muscle or tendon
+27d8cd73	Bumps and infection
+24bd4b0a	• ⟦0⟧: a fluid-filled cyst on a tendon sheath or joint capsule, often on the back of the wrist<br>• ⟦1⟧ (⟦2⟧): enlargement of the joint at the base of the big toe, with the toe turned in<br>• ⟦3⟧: a bacterial infection from a tick bite; later arthritis<br>• ⟦4⟧: lupus; an autoimmune disease of the joints, skin and kidneys; the ⟦5⟧ test⟦6⟧⟦7⟧
+c9c2287d	Bunion of the big toe
+94af2ccb	Ganglion cyst of the wrist
+ee2fe4d7	What is a ligament injury from twisting a joint called?
+472cbc20	sprain = ligament; strain = muscle or tendon.
+51c5094e	partial dislocation of a joint
+9849384d	complete dislocation
+b8f3c341	fusion of a joint
+e43784e1	sub- = less than.
+8acebfb0	Hemarthrosis means bleeding into the joint cavity.
+99689375	Build a word meaning “softening of cartilage”
+8875778f	fluid cyst on the wrist
+4066c0ad	bump at the base of the big toe
+adc7605f	infection from a tick bite
+12e6df77	Injuries and diseases.
+419cf637	Another name for a bunion is ___.
+4fc03323	hallux = big toe.
+7751bede	Spell the term for complete separation of joint surfaces
+57d19b30	dis- = apart.
+e73c79c5	Looking Inside and Repairing a Joint
+c9d8cfe7	viewing inside a joint with a thin camera through a small incision
+7f35f4af	drawing joint fluid with a needle
+3d6017cc	joint X-ray after injecting contrast
+2e9a21a1	blood test for rheumatoid arthritis
+02fd406d	blood test for lupus
+7dacdc4d	Nuclear scan of the knee: active areas of arthritis
+6f7ffa52	joint replacement or repair; THA, TKA
+52e8fab0	removing a torn meniscus
+51cdec69	In the book’s discharge summary: a 68-year-old man with bilateral knee osteoarthritis had a right TKR; after surgery he had PT for walking with a walker and OT for ADLs.
+93a4d6c0	What is viewing inside a joint with a camera called?
+78beb810	What is drawing joint fluid with a needle?
+d4323550	‎-centesis = puncture to draw out fluid.
+3f1ddb70	TKA means total knee replacement.
+e0eb9d5a	total knee arthroplasty; the same as TKR.
+3b7ff959	Build a word meaning “surgical fusion of a joint”
+8bb8432a	joint X-ray with contrast
+55b34f3b	Diagnosis and surgery.
+7b25f2ee	Put the path of a patient with severe knee osteoarthritis in order
+40073742	Pain, swelling and limited movement
+0e0dee93	X-ray: severe osteoarthritis
+cd59da67	TKR (total knee replacement)
+60781519	Physical therapy and walking with a walker
+28ab5615	From the book’s discharge summary.
+2a1634c6	Spell the term for looking inside a joint with a scope
+e90c45ed	Muscles
+81d15bbd	The three types of muscle tissue, origin and insertion, how muscles are named and the major muscles of the body, weakness and paralysis, dystrophy and tendon injuries

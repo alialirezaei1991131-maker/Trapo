@@ -1,0 +1,330 @@
+f4c44b7b	Osteo • Musculoskeletal Terminology
+caf7ed76	Medical terminology of the musculoskeletal system (bones, joints, muscles and tendons)
+99480094	🦴 Medical terminology: Bones, Joints, Muscles and Tendons
+3f007183	Hi, I’m <b>Osteo</b>, a smiling bone with a sports headband and a little dumbbell!
+9e23b1c0	Osteo is an educational tool and does not replace examination, clinical judgment or a physician’s orders.
+ca39764e	Dozens of bilingual figures and clinical pictures, from the skeleton and a cut long bone to fracture X-rays, arthritis and joint movements.
+8abe0fa2	Break every musculoskeletal word into prefix, root and suffix and give its meaning
+3c0bfe1a	Know bone structure, bone cells and bone diseases
+3d50bff8	Point out the bones of the skull, spine, chest and limbs on the skeleton
+8393cab2	Describe the types of joint and joint movements with the right word (flexion, abduction…)
+6aaa4bc6	Tell apart the major muscles of the body, how they are named, and diseases of muscles and tendons
+45c577f5	Read fracture types, imaging, surgeries and the abbreviations of an orthopaedic chart
+d7b36096	Just 5 minutes a day. A few weeks from now you’ll read an orthopaedic report like a familiar story.
+207cf763	Hi! I’m Osteo, a smiling bone 🦴 What’s your name?
+336572e3	Which world shall we start with? If you’re new, “The Language of Bone and Muscle” is the best start; the basic roots and body directions are taught there!
+493141d5	The word <b dir="ltr">osteoporosis</b> means…
+b6efc026	Healthy bone and porous bone
+fcb4142c	⟦0⟧<br><b>oste/o</b> = bone, <b>-porosis</b> = porous. So it is <b>porous bone</b>: a bone full of holes and fragile, which breaks with a simple fall. Start the meaning from the suffix!
+8f5390c6	Curious Osteoblast
+912de67a	Junior Cartilage Expert
+f83197e7	Guardian of the Joint
+c4153716	Skeleton Map Reader
+9f4681f4	Master of the Spine
+2d63d95b	Movement Detective
+0d2a799c	Muscle Champion
+f45f0c0e	Fracture Hunter
+5997cb42	Radiograph Reader
+a0705bae	Arthritis Detective
+9c184c3a	Orthopaedics Legend
+56dd05c0	Physiotherapist
+e516cb3e	Occupational therapy student
+94a9c6ac	Radiologic technology student
+c254cc98	Orthopaedic resident
+262f42bc	Physical education student
+11407641	Fitness coach
+8842d259	Orthopaedic nurse
+1c5d7e05	First Bone
+112d2a58	Bone Expert
+5c95ec88	Master of Joints
+f86e36ee	Fracture Detective
+6707e157	Search: oste, knee, fracture…
+2d0c88b8	Search: arthr, vertebra, -desis…
+09d54e12	Search: ORIF, fracture, ROM…
+74f85a8d	⚕️ Osteo is a learning tool; the dictionary, goniometer and T-score interpretation do not replace examination and clinical judgment.
+f80f5ba3	Shoulder abduction
+02cb3784	Shoulder flexion
+68009d93	Elbow flexion
+05165677	Forearm pronation
+d0961d17	Forearm supination
+41247b66	Wrist flexion
+fa13a400	Hip flexion
+1652f94c	Knee flexion
+0816706c	Ankle dorsiflexion
+98432edc	Ankle plantar flexion
+018781f9	<b>—</b> <span>Reference value: <bdi dir="ltr">⟦0⟧°</bdi></span><small>Enter the angle measured with the goniometer</small>
+e98c170e	Nearly full range of motion (full ROM)
+c5239836	Partly limited range of motion
+eb95ff2f	Severely limited; needs assessment and physiotherapy
+d95b1b4f	<b>⟦0⟧%</b> <span>of the normal range (<bdi dir="ltr">⟦1⟧° / ⟦2⟧°</bdi>)</span><small>⟦3⟧</small>
+d9fda3ba	<small>Enter the T-score from the DXA report, for example ‎-2.7‎</small>
+dcfbe506	Bone density is within the normal range.
+60f96d3b	Osteopenia
+28a119af	Bone mass is below normal but not yet osteoporosis.
+4b608b8a	Osteoporosis
+d7a488e8	High fracture risk; drug treatment, calcium and vitamin D, and fall prevention.
+b82bc46e	Goniometer and bone density
+7ce7bc9a	<div class="tpane"><p class="muted">Choose a movement and type the measured angle; you will see the percentage of the normal range and what it means.</p>⏎    <div class="seg rom__m">⟦0⟧</div>⏎    <div class="rom">⏎      ⟦1⟧⏎      <label class="rom__in"><span><bdi dir="ltr">⟦2⟧</bdi></span><input type="text" inputmode="decimal" dir="ltr" data-keep="romv" data-romv value="⟦3⟧" placeholder="°" autocomplete="off"></label>⏎    </div>⏎    <div class="rom__out" aria-live="polite">⟦4⟧</div>⏎    <h4 class="rom__h">T-score interpretation (bone density scan, <bdi dir="ltr">DXA</bdi>)</h4>⏎    <label class="rom__in rom__in--t"><span>T-score</span><input type="text" inputmode="decimal" dir="ltr" data-keep="tsc" data-tsc value="⟦5⟧" placeholder="-2.5" autocomplete="off"></label>⏎    <div class="rom__out rom__out--t" aria-live="polite">⟦6⟧</div>⏎    ⟦7⟧⏎    <table class="mini"><tr><th>T-score</th><th>Interpretation</th></tr>⏎      <tr><td><bdi dir="ltr">≥ -1.0</bdi></td><td>normal</td></tr>⏎      <tr><td><bdi dir="ltr">-1.0 to -2.5</bdi></td><td>osteopenia (low bone mass)</td></tr>⏎      <tr><td><bdi dir="ltr">≤ -2.5</bdi></td><td>osteoporosis</td></tr></table>⏎    <p class="muted">Reference values for range of motion are approximate and differ by a few degrees between textbooks.</p></div>
+9f2d31d7	T-score scale
+a60fa2f3	Measuring with a goniometer
+5f5ce777	moving away from the midline
+4a4af13a	hip socket
+299d428b	heel cord
+7d37666a	inherited dwarfism
+1c56ed4d	tip of the shoulder blade
+e1e5b053	moving toward the midline
+f544697c	graft from a donor
+bf52c443	slightly movable joint
+3538a53f	removal of a limb
+eb10ff3c	inflammatory fusing spine disease
+fd773d0a	stiffening and fusion of a joint
+f1df9713	muscle that opposes another
+9677d129	antinuclear antibody
+765bd4cd	flat sheet-like tendon
+8a050d74	bones of the limbs and girdles
+b4cb55d2	drawing fluid from a joint
+3a126ce9	surgical fusion of a joint
+8a65eb90	contrast X-ray of a joint
+c14bcf05	study of joints
+332ae335	joint disease
+031a2bc8	joint replacement or repair
+15bdb41e	pertaining to a joint
+f34519e9	smooth cartilage on bone ends
+580f0e74	first neck vertebra
+de2ba5fc	lack of muscle tone
+2628b925	wasting away
+69c54f2d	graft from the patient’s own body
+2e1c4377	bone chip pulled off by a tendon
+f9b7908a	skull, spine, ribs and sternum
+dd14f5e7	second neck vertebra
+d5304cda	ball-and-socket joint
+513c2e2c	drug for osteoporosis
+0b547554	bone transplant
+a6d387c7	radioactive bone scan
+81c5666e	forearm muscle that bends the elbow
+4cc9d3c7	slow movement
+432d5773	bump at the base of the big toe
+f29385a6	removal of a bunion
+615829e0	fluid sac that cushions a joint
+15a0fc3b	removal of a bursa
+f460aa97	inflammation of a bursa
+5c28a8f4	C-reactive protein
+6bd9e3a5	heel pain
+a29dac84	heel bone
+c53d5414	calcium
+ff46030b	new bone at a healing fracture
+afb39b35	spongy bone
+4da91c1e	carpal tunnel release
+14d452b2	carpal tunnel syndrome
+bcbc2a49	wrist bones
+268b85cb	wrist drop
+46fb1ae6	rigid cast
+cd75c133	neck vertebrae
+3e4ed7e2	spinal manipulation practitioner
+edaff9bd	pertaining to cartilage
+25605cb8	removal of cartilage
+d0811176	cartilage cell
+6707f29b	benign cartilage tumour
+2b4f68fc	softening of cartilage
+912500f0	cartilage disease
+b31dcdd0	cancer of cartilage
+634f021e	circular movement
+2c09fb31	collarbone
+b2d0c8a9	fracture without a skin wound
+4ef50bf1	setting a bone without surgery
+1082ce5b	tailbone pain
+0ae4def8	fracture of the end of the radius
+7520edf3	shattered fracture
+3562ea2d	dense outer bone
+f459ca7d	crushed vertebra fracture
+3eb620a3	rounded knob on a bone end
+461fd2f9	permanent shortening of a muscle
+c47b8c76	rib cartilage
+c885b810	removal of a rib
+fa7e8ecb	pertaining to rib and cartilage
+bb168444	skull
+3f3cea3a	creatine kinase enzyme
+19eb831a	deep tendon reflex
+a3e1b215	shoulder muscle
+7397b926	bone density measurement
+74fe058b	breathing muscle under the lungs
+fd1293e2	shaft of a long bone
+0cfa6a46	freely movable joint
+dbc07016	farther from the trunk
+375e7b0f	bending the foot upward
+e3ceb5f4	bone density scan
+5824ee51	difficult movement
+70bdedb7	abnormal muscle tone
+352e3b38	recording of muscle electrical activity
+abfcf98b	membrane lining the marrow cavity
+a65b3b14	projection above a condyle
+cc7b8b37	growth plate
+194c1172	end of a long bone
+8e0ba1cf	erythrocyte sedimentation rate
+2cfc85ec	sieve-like bone between the eyes
+dc54eb7e	turning the sole outward
+876311b3	bone cancer of children
+43cdb024	bony outgrowth
+0df7db94	straightening a joint
+61043686	external fixation
+d75b7bc5	outer slanting abdominal muscle
+5c537fdf	ribs not joined directly to the sternum
+68e6500d	fibrous band around muscles
+4787090e	bundle of muscle fibres
+5053d16a	cutting into fascia
+dd648be6	widespread muscle pain
+77dcf02a	thin lower-leg bone
+8f051e13	narrow slit in a bone
+145a424f	flat bone
+0f819102	bending a joint
+d665060d	ribs with free front ends
+f43fe76f	soft spot of a baby’s skull
+0babd85d	opening in a bone
+99b20184	shallow depression
+351d3552	forehead bone
+fb7bcefa	fluid cyst on a tendon
+5aa1cf64	calf muscle
+f61b4cbe	gliding joint
+1ea59597	largest buttock muscle
+9cb06037	joint-angle measuring instrument
+ffbd53fe	uric acid arthritis
+bfcb581f	incomplete bending fracture
+1fa67d61	back-of-thigh muscles
+450bfa63	haversian canal
+7fc59163	blood in a joint
+30d3bdb8	blood cell formation
+e6d1cbfc	weakness of one side of the body
+27f51c89	slipped disc
+c6e3bbe6	hinge joint
+7eadd41a	water therapy
+d69d3807	U-shaped bone under the tongue
+fcb93f1e	high blood calcium
+f03f874a	over-straightening
+1bcb224e	excessive movement
+87550cf4	enlargement
+f8e22724	high blood uric acid
+9402fa4c	upper hip bone
+369b9544	keeping a part still
+3adbd626	fracture with ends driven together
+830a1406	moving attachment of a muscle
+e7273467	between vertebrae
+cdb0a787	cushion between vertebrae
+c3a6bbd8	turning the sole inward
+20cefe71	involuntary muscle
+2ccd561e	irregular bone
+1f29b54f	sitting bone
+35225faa	joint capsule
+5272e31f	childhood rheumatoid arthritis
+7f126279	study of movement
+462a4537	flat plate of a vertebral arch
+91979830	removal of a vertebral lamina
+b91a9db4	toward the side
+2896ef25	tennis elbow
+e1090302	broad back muscle
+196b8ca4	long bone
+c71921d6	swayback
+1e847232	lower-back vertebrae
+55ef860c	lower back and sacrum
+4974f4e3	ankle knob
+10fafa66	fracture healed out of line
+9970ec61	lower jaw
+78b6f6d1	chewing muscle
+c192d674	upper jaw
+07879eb6	toward the midline
+ac5dd7da	marrow cavity
+2675e56d	removal of a knee cartilage
+bee57a1b	knee cartilage pad
+85878768	hand bones
+b97f3375	flared part between shaft and end
+98b48652	foot bones
+48ae0862	muscle biopsy
+75d0ca2d	muscle cell
+95c29e2f	muscle tone
+57603367	inherited muscle wasting
+825fdbe4	bones, joints and muscles
+798d7096	muscle weakness
+3331c499	autoimmune muscle weakness
+d7700775	contrast X-ray of the spinal canal
+b213577f	bone marrow tumour
+c827e370	heart muscle
+7c348cd5	study of muscles
+d10a5ac7	muscle disease
+fed388b9	surgical repair of a muscle
+8bfd9925	rupture of a muscle
+a7de0a66	slow muscle relaxation
+c87a5d75	flesh-eating infection
+8e6d3182	fracture that fails to heal
+0cd734eb	gel centre of a disc
+7f571483	slanting fracture
+33f15ac4	back-of-skull bone
+2b0f037a	occupational therapy
+c7b286d6	point of the elbow
+957d9da7	fracture breaking the skin
+dc163451	open reduction and internal fixation
+d9871e49	circular eye muscle
+1a01d65d	fixed attachment of a muscle
+7645955e	bone and joint medicine
+988f537a	brace
+9bb75cfb	bony
+48838599	bone formation
+7113078a	removal of bone
+3672b671	Paget disease of bone
+e86735da	bone-forming cell
+e7d049bf	surgical breaking of a bone
+0f4794f4	bone-dissolving cell
+8ac66ec3	mature bone cell
+dcb177fd	bone formation
+81928589	brittle bone disease
+18e436a0	study of bones
+95bd4cfd	benign bone tumour
+000b2195	infection of bone and marrow
+970dfa12	death of bone tissue
+53296574	bone disease
+5ea26378	low bone mass
+1ac90d15	surgical repair of bone
+11bfe7cc	bone cancer
+d55ac13d	surgical cut into bone
+8e1b52de	paralysis of both legs
+a322d328	side-of-skull bone
+34419a51	kneecap
+f2474fd8	fracture through diseased bone
+8056d696	shoulder girdle
+6e898a40	large chest muscle
+8b7a17ab	pelvic girdle
+e0232e12	membrane covering bone
+12cc524a	phosphorus
+7a6c50f8	rehabilitation physician
+0d021a66	physical therapy
+a44ede8a	pivot joint
+3c90c8a3	pointing the foot down
+f64b9d0c	foot specialist
+3d35a565	inflammation of many muscles
+6ce2d2a4	ankle fracture
+a434491d	prime mover muscle
+78d0a11f	bony projection
+a85934cf	turning the palm down
+49d89047	artificial body part
+f4fa7147	nearer to the trunk
+729309c6	joint at the front of the pelvis
+6fab2bd9	front pelvic bone
+f8071fd7	front thigh muscle
+e16d5071	X-ray imaging
+f2f187b4	thumb-side forearm bone
+3bcdf3ed	range of motion
+c35a06cd	straight abdominal muscle
+692ee069	red bone marrow
+7812f292	setting a bone
+aef5d5e3	breakdown of muscle tissue
+5e66f912	autoimmune joint inflammation
+e16d444a	rheumatoid factor
+82c62508	joint and connective tissue specialist
+fe78ce65	study of joint and connective tissue disease
+53cf7aa6	childhood bone softening
+309a39d6	turning around an axis
+76e11f23	shoulder-turning muscles
+c8bd780b	torn shoulder muscles
+1c1748cc	pertaining to the sacrum and ilium
+a648d106	saddle joint
+f37ba287	longest thigh muscle
+5df44aba	shoulder blade
+c138abeb	removal of the shoulder blade

@@ -1,0 +1,246 @@
+c2c200bd	In the word achondroplasia, the prefix ___ means “without”.
+da5e86e3	a- + chondr/o + -plasia: lack of normal cartilage growth.
+26dff2bd	Spell the term for infection of bone and marrow
+7d1e304c	Bone and Cartilage Tumours
+373739c7	benign bone tumour
+1fe59d4d	benign bony spur on the surface
+ff247bd2	bone cancer; mostly teenagers, near the knee
+a11d288f	cartilage cancer
+658170d7	cancer of the shaft of long bones in children
+d2fddc2b	What does sarcoma mean?
+cf687bc6	⟦0⟧ → <b>osteosarcoma</b><br>⟦1⟧ means “flesh” and refers to connective tissue. Any malignant tumour that starts in bone, cartilage or muscle is called a <b>sarcoma</b>; cancers of epithelial tissue are <b>carcinomas</b>.⟦2⟧ → <b>myeloma</b>: a cancer of bone marrow cells that riddles the bone with holes.⟦3⟧⟦4⟧⟦5⟧
+0db0e750	-oma on its own is usually benign; if sarc or carcin comes before it, it is malignant.
+d3faf1b7	A bone scan shows highly active spots of bone, such as tumours and metastases, as darker areas.
+0c190c1e	Nuclear scan of all the bones
+5c4f47ed	malignant bone tumour
+99df7fe9	bony spur
+f635a302	sarc/o = connective tissue; sarcoma = malignant.
+6272bf19	Which tumour is benign?
+71a4f9af	Without sarc = usually benign.
+efc1f132	An exostosis is a benign bony bump on the surface of a bone.
+758a334a	ex- (out) + ost/o + -osis = a bone spur.
+3e315540	Build a word meaning “cartilage cancer”
+2ed0f407	Match each tumour to its description
+f2b677af	benign, of bone
+3f490c87	malignant, of bone
+81672e06	bone marrow cancer
+78d8f073	Tumours.
+96b6c283	High blood calcium is called ___; it is seen in bone metastases.
+27fa7150	Spell the term for bone cancer
+1a56abc7	The names of the bones from skull to toe: skull, spine, chest, limbs and pelvis
+55805e02	Skull and axial skeleton
+5614b5f3	Spine and chest
+a9573f47	Limbs and pelvis
+6fdf1b92	Axial and Appendicular
+8e9fb42d	The two parts of the skeleton
+571aea94	⟦0⟧• ⟦1⟧ (80 bones): the central axis of the body; the skull, spine, ribs, sternum and hyoid bone.<br>• ⟦2⟧ (126 bones): the limbs and the two girdles, shoulder and pelvis, that attach them to the trunk.
+2ea50902	The skeleton: axial (ivory) and appendicular (blue)
+c4d0a05c	Girdles
+7bf8c4f2	• ⟦0⟧ (shoulder girdle): the clavicles and scapulae<br>• ⟦1⟧ (pelvic girdle): two hip bones, each made of fused ⟦2⟧, ⟦3⟧ and ⟦4⟧.⟦5⟧⟦6⟧
+740ce7d8	appendicular comes from appendage, “something that hangs on”: the arms and legs hang from the trunk.
+63adee08	80 + 126 = 206; a newborn has about 300 bones, some of which fuse together later.
+a1e65784	Which bone belongs to the axial skeleton?
+7f72f7e1	The sternum is on the central axis; the clavicle and scapula belong to the shoulder girdle.
+56ea163f	How many bones does the appendicular skeleton have?
+34f888aa	80 axial + 126 appendicular = 206.
+0e19272e	The pelvic girdle is part of the axial skeleton.
+29c90716	False; the pelvic girdle belongs to the appendicular skeleton (but the sacrum is axial).
+d5c5b306	Match each part to its bones
+00deb839	skull, spine and ribs
+cc77fda2	limbs and girdles
+fb3db32c	clavicle and scapula
+0e48bf8e	ilium, ischium and pubis
+81bf6fc3	Axial = the central axis; appendicular = the limbs.
+cc41dcd5	The clavicles and scapulae make up the ___.
+06f6b33e	pector/o = chest.
+ea0a26a1	What is special about the hyoid bone?
+e801c73d	It does not join any other bone
+873125fc	It is the most movable bone of the skull
+aaf97c60	It is part of the spine
+e831bbec	It is in the shoulder girdle
+139f3efd	U-shaped, in the neck; it supports the tongue.
+b10fa1e3	Spell the term for the skull, spine and rib cage together
+7b2006fd	axis = axis.
+4f31f0c7	The Skull: Home of the Brain
+fb7b27bf	The eight bones of the cranium
+f629451d	The skull from the side
+9ddba9b6	the roof and upper sides
+062bc9b5	the lower sides; the ear canal
+3ac40ccd	the back and floor of the skull
+c7565add	floor of the skull; butterfly-shaped
+eb21ab60	between the two eye sockets
+042271b1	Sutures and fontanels
+cc87bc79	The skull bones are stitched together by immovable joints called ⟦0⟧.<br>In a newborn there are soft spots between these bones called ⟦1⟧, which close gradually.⟦2⟧ → <b>cranium</b>: the skull⟦3⟧⟦4⟧
+255a5240	temporal comes from tempus, “time”: the hair at the temples turns grey first and shows the passing of time.
+a2f16ee6	Coloured X-ray of the skull from the side
+3d863009	Which bone is at the back of the skull?
+f2778ecb	occipital = back of the head.
+ed8624ff	soft spot between a newborn’s skull bones
+a48d2027	adult skull suture
+92b38e9e	large opening in the floor of the skull
+21838e63	frontal air sinus
+acfb38f6	The fontanels close in the first months of life.
+4fad4620	The temporal bone contains the ear canal.
+0af0049d	The auditory canal is in the temporal bone.
+f9f86617	Match each bone to its location
+349c83a3	roof of the skull
+5e1eb435	back of the head
+479a914d	floor of the skull
+e68ed06e	The bones of the skull.
+b5ee018d	The immovable joint between skull bones is called a ___.
+7e7fe8fc	suture = seam.
+15a5bf37	How many parietal bones are there?
+f38a468c	six
+6bc2fc85	One pair; left and right.
+fc60681c	Spell the term for the skull
+3eb56325	Face and Jaw
+d168e7fd	Bones of the face
+525a4371	lower jaw; the only movable bone of the skull
+00db5a69	upper jaw; the upper teeth
+9ee2aa3b	bridge of the nose
+b697d1e3	inner corner of the eye
+513d89ba	the middle partition of the nose
+12749bf6	The jaw joint
+ca4a6725	The lower jaw joins the temporal bone: the ⟦0⟧ or ⟦1⟧.⟦2⟧ → pertaining to the lower jaw<br>⟦3⟧ → pertaining to the upper jaw⟦4⟧⟦5⟧
+ad429562	Mandible: M for Move; the lower jaw moves. Maxilla, with its x, stays fixed above the mouth.
+76ad8d7d	In the book’s case study, Susan had arthroplasty for degenerative joint disease of the TMJ (DJD); the diseased head of the mandibular condyle was removed.
+2eceecfd	Which is the only movable bone of the skull?
+8d4a7ab1	The lower jaw moves for chewing and speaking.
+a25417e7	joint between vertebrae
+239c4813	shoulder joint
+ebde1c6a	The cheekbone is called the zygomatic bone.
+221fa48d	Bones of the face.
+0c1607da	Build a word meaning “pertaining to the lower jaw”
+34d5fd6b	The upper jaw is called the ___.
+c9755758	Spell the term for the lower jaw
+e2449845	The Spine: 26 Links
+55f0b821	Five regions
+c1209ca0	The spine from the side
+ca2066c6	7 (neck)
+59959043	12 (chest)
+0eb9a502	5 (lower back)
+3466c0d5	4 fused
+7ee33735	The first two neck vertebrae have special names:<br>• ⟦0⟧ (⟦1⟧): holds up the skull, like Atlas who held the world on his shoulders in the myth.<br>• ⟦2⟧ (⟦3⟧): the atlas pivots on it and the head turns left and right.⟦4⟧⟦5⟧
+2091d12c	Breakfast at 7, lunch at 12, dinner at 5: 7 cervical, 12 thoracic, 5 lumbar.
+696e6b61	X-ray of the cervical vertebrae
+c0639be8	How many lumbar vertebrae are there?
+b44e8c6d	Which vertebra is the ⟦0⟧?
+f2031841	The first cervical vertebra (C1)
+17a7e039	The second cervical vertebra
+156495de	The last thoracic vertebra
+7729f162	The first lumbar vertebra
+1d952afd	It holds up the skull.
+951b0577	The ribs attach to the thoracic vertebrae.
+badbfaf0	T1 to T12 join the 12 pairs of ribs.
+55c92b78	Put the regions of the spine in order from top to bottom
+bf7bb19d	Neck, chest, lower back, sacrum, coccyx.
+f010fb98	Match each region to its number of vertebrae
+2675d806	The abbreviation L4 means the fourth ___ vertebra.
+d1aa7556	Spell the term for the tailbone
+80eceb88	Vertebra, Disc and Rib Cage
+5264d54c	A vertebra from above
+d98187e2	⟦0⟧⟦1⟧Between the vertebral bodies is a cushion of fibrocartilage: the ⟦2⟧; its jelly-like centre is called the ⟦3⟧.
+7f983e66	A lumbar vertebra from above
+f9490892	vertebral body; the front, weight-bearing part
+7fe33878	vertebral foramen; the passage of the spinal cord
+9feb1780	the back plate of the vertebral arch
+13741749	spinous process; the bumps along the back
+3921bf02	transverse process; on both sides
+db4f83ec	⟦0⟧The breastbone (⟦1⟧) has three parts: the handle (⟦2⟧), the body and the ⟦3⟧.<br>• ⟦4⟧ (1 to 7): joined directly to the sternum by costal cartilage.<br>• ⟦5⟧ (8 to 12): reach the sternum indirectly or not at all.<br>• ⟦6⟧ (11 and 12): their front ends are free.⟦7⟧ → between the ribs⟦8⟧
+063eff25	The rib cage from the front
+f2c0af21	In cardiopulmonary resuscitation (CPR), pressure is applied to the lower half of the sternum; pressing on the xiphoid can break it.
+ba2f4cf7	Through which part of a vertebra does the spinal cord pass?
+dd18d960	foramen = opening.
+1e199743	Which are the true ribs?
+93490b1c	Ribs 1 to 7
+2d4e6741	Ribs 8 to 10
+464a0c71	Ribs 11 and 12
+ba09fe24	All 12 pairs
+be8f32f4	True ribs reach the sternum directly.
+486af008	The bumps you feel along the back are the spinous processes.
+5b46db6c	The spinous processes.
+be878cd4	Build a word meaning “removal of a rib”
+5542422f	jelly centre of the disc
+0e49f63a	lower tip of the sternum
+5b12f96e	Vertebra and rib cage.
+bcd768ef	The root ___ means rib.
+ebb42304	costal = pertaining to the ribs.
+fa8ef6d5	Spell the term for between the vertebrae
+a504bfb5	Diseases of the Spine
+b8a0d5b9	Three abnormal curves
+1504d3f2	 = hump
+bb030e33	excessive rounding of the upper back
+e35a3239	 = bent backward
+623f2fea	excessive inward curve of the lower back
+de8de69a	 = crooked
+7b2cd640	sideways curve of the spine
+3935485b	In the book’s case study, 15-year-old Rachel had a posterior spinal fusion (PSF) with rods and hooks for adolescent idiopathic scoliosis.
+d4f06efc	Disc, slipping and inflammation
+9bc1febf	⟦0⟧• ⟦1⟧ (⟦2⟧): the centre of the disc bulges out and presses on a nerve root; a “slipped disc”.<br>• ⟦3⟧ → one vertebra slipping over the one below<br>• ⟦4⟧: wear of the vertebrae and discs<br>• ⟦5⟧: a chronic inflammation that fuses the vertebrae<br>• ⟦6⟧: the vertebral arch fails to close in the fetus⟦7⟧⟦8⟧
+9c4dd3d2	L4 slipping over L5
+23265945	spondyl/o and vertebr/o both mean vertebra; disease words are mostly built with spondyl/o and anatomy words with vertebr/o.
+30290e7f	slipped vertebra
+fd7a551f	scoli/o = crooked.
+287cf7c0	What is the bulging of the disc’s jelly centre called?
+ed1b15e8	HNP; it presses on a nerve root.
+18aff297	Kyphosis means an excessive inward curve of the lower back.
+93bb296e	False; kyphosis is a hunched upper back. The lower-back curve is lordosis.
+84113423	Build a word meaning “inflammation of the vertebrae”
+971b5fa9	wear of the vertebrae
+9007de9e	inflammatory fusion of the vertebrae
+62b89f3d	failure of the vertebral arch to close
+52c32a0d	Diseases of the spine.
+849c4447	Which part of a vertebra is removed to free the spinal cord or a nerve root?
+701177aa	laminectomy = removal of the lamina.
+418beca4	Ankylosing spondylitis: bony bridges between the vertebrae
+a9223ab9	Spell the term for a sideways curve of the spine
+03649074	Shoulder, Arm and Hand
+7ba2ef57	From the collarbone to the fingers
+7648b5d9	shoulder blade; its tip is the acromion
+cc68d00a	radius; thumb side
+5e1384e0	ulna; little-finger side; the olecranon is the point of the elbow
+8c8d5df9	Radius or ulna?
+e4475c3d	Hold your palm facing up: the bone in line with the <b>thumb</b> is the ⟦0⟧ and the bone on the <b>little-finger</b> side the ⟦1⟧.⟦2⟧ → the palm: “after the wrist”⟦3⟧⟦4⟧
+4c8caeec	Radius as in Rotate: when the forearm turns, the radius rotates around the ulna.
+a5a1d31c	A Colles fracture is a fracture of the end of the radius at the wrist, usually from falling on an outstretched hand.
+755efa0f	Which forearm bone is on the thumb side?
+ada34b9e	radius = the thumb-side forearm bone.
+21f39b7e	point of the elbow on the ulna
+90afa9a0	tip of the shoulder on the scapula
+813cd178	head of the humerus
+7e731d99	The bump you lean on.
+655fe952	The wrist has 8 small bones (carpals).
+91d3e56b	Eight short bones in two rows.
+2bd5eb23	The upper limb.
+e8d0193c	Which term is written for wrist drop?
+29eff005	carp/o + -ptosis (drooping).
+2ed0c0a7	The highest point of the shoulder is the ___ process of the scapula.
+c3088a6e	acromion = tip of the shoulder.
+3a08e7c5	Pelvis and Pelvic Girdle
+4f8b661d	Three bones in one
+89df0753	⟦0⟧Each hip bone is made of three fused bones:<br>• ⟦1⟧: the upper wings; its edge is the ⟦2⟧<br>• ⟦3⟧: lower and at the back; we sit on it<br>• ⟦4⟧: at the front; the two pubic bones meet at the ⟦5⟧.
+5aab0569	The pelvis from the front
+7d3b6e26	Where all three bones meet there is a deep socket called the ⟦0⟧; the head of the femur sits in it and forms the hip joint.<br>⟦1⟧ → <b>sacroiliac</b>: the joint between the sacrum and ilium<br>⟦2⟧ → <b>lumbosacral</b>: lumbar and sacral⟦3⟧⟦4⟧
+be426002	acetabulum means “vinegar cup” in Latin: a cup in which the ball of the thigh turns.
+305fc074	X-ray of a total hip replacement
+e19caf6b	In which socket does the head of the femur sit?
+a4538ddb	acetabulum = hip socket.
+f2c19e31	Which bone do we rest on when sitting?
+bf86f20e	ischi/o = ischium.
+0997de08	The sacroiliac joint lies between the sacrum and the ilium.
+dcc11e93	Build a word meaning “lumbar and sacral”
+a0189746	upper wing of the pelvis
+312ae128	lower and at the back
+b0154d88	back of the pelvis, between the two ilia
+b3d569cc	The pelvic girdle.
+43af8215	The cartilage joint at the front of the pelvis is called the ___.
+3812126e	sym- (together) + -physis.
+5adcf055	Spell the term for the hip socket
+7b74b7e2	Thigh, Leg and Foot
+412af528	From the thigh to the toes
+0cb7a54c	thighbone; the longest and strongest bone
+9e9e0ccc	shinbone; the weight-bearing bone of the leg
+07bd21e5	fibula; outer leg
+dbce3728	the knobs on either side of the ankle
+74182e59	ankle bones; the largest is the calcaneus (heel)
+81fdd14c	Words of pain and condition

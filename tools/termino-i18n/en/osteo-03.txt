@@ -1,0 +1,284 @@
+6eb958e9	rotation = turning a bone around its own axis
+1978d27c	Abduction and adduction
+8849fb87	Pronation and supination of the forearm
+43373df2	palm facing up
+e8436442	palm facing down
+5d831328	The radius rotates over the ulna
+679b4dc2	“Hold a bowl of soup in your palm”
+a196798f	Pronation and supination
+a813891b	Ankle movements
+537622b5	toes up
+99e73163	toes down
+01f10e58	sole turned in
+0b145eed	sole turned out
+7236e2cb	Healthy joint, osteoarthritis and rheumatoid arthritis
+e5b72e4c	smooth cartilage and enough space
+145812f3	worn cartilage, bone spurs
+8657232e	inflamed synovial lining, erosion
+ecdce79d	Arthritis
+137b7c20	Gout: uric acid crystals in the big-toe joint
+3055b398	needle-shaped uric acid crystals
+61dc3511	hot, red, painful joint
+92b052e3	Three types of muscle tissue
+ddf424ee	skeletal: striated and voluntary
+52a13e5a	smooth: non-striated and involuntary
+d478d7ed	cardiac: striated and involuntary
+580dac35	to bone
+b5470427	walls of the gut and vessels
+18a90dc4	wall of the heart (myocardium)
+793fc9e8	Types of muscle
+05b6e9fa	From bone to muscle fibre
+44fd59ee	fascia: the muscle’s covering
+869ec4e2	muscle belly
+e270c8dd	fascicle
+f3b4a142	muscle fibre (one cell)
+cf6a0963	Muscle structure
+f8f4072e	Origin, insertion and opposing muscle: biceps and triceps
+9846b3af	origin: fixed end
+cc5ee30b	insertion: on the moving bone (radius)
+b4249994	biceps: prime mover
+56ea43c2	triceps: antagonist
+50d714da	Origin and insertion of a muscle
+90a25fb4	Major muscles of the body from the front
+4382e4cf	sternocleidomastoid
+862be387	deltoid (shoulder)
+4bc5bded	biceps brachii
+f1352ebf	external oblique
+aed2ae26	quadriceps
+5b4e4081	pectoralis major
+7c06accd	rectus abdominis
+dac7d196	sartorius
+f654a9a4	tibialis anterior
+e44d1994	Muscles of the front of the body
+6f77918f	Major muscles of the body from the back
+7fee30af	trapezius
+393b3f44	triceps brachii
+76e86974	gluteus maximus
+8e47bad4	gastrocnemius
+872ea1f2	deltoid
+518bdd2f	latissimus dorsi
+dedd5f7d	hamstrings
+d56ae8bd	Muscles of the back of the body
+aa6dc2e7	Paralysis: which part of the body is involved?
+9c501770	paralysis of one side (hemi-)
+b8f97930	paralysis of both legs and lower body
+8b6e92b2	paralysis of all four limbs (quadri-)
+00fd5b97	‎-plegia = complete paralysis • ‎-paresis = weakness or partial paralysis (hemiparesis)
+6bc74b80	Types of paralysis
+1c1e2b53	closed (simple)
+ba85fb4a	open (compound)
+6ca3b409	greenstick (incomplete)
+562d4552	transverse
+007c4d4e	oblique
+5813ebbf	comminuted
+df941577	compression (vertebra)
+c4b19f41	Types of fracture
+4e53fd93	soft callus (cartilage)
+274eac14	bony callus
+a87bbae5	A fracture heals in a few weeks
+d4fd1e5b	If it does not heal, nonunion; if it heals crooked, malunion
+3f596e1d	Fracture healing
+8473b5b2	Immobilising and fixing a fracture
+d0d1cbda	plate and screws (internal fixation)
+99a1fb81	Reduction always comes before fixation
+f003a1df	Fixation methods
+fda567b7	Imaging in orthopaedics: which one for what?
+f2fc23c0	fracture, dislocation
+d8ac14b9	cross-sectional slices
+b7041ae7	complex fracture
+940ffa07	soft tissue
+79b75f17	disc, ligament, meniscus
+d20c42b4	tumour, infection, hidden fracture
+dbfe75a1	bone density
+1e192006	Interpreting the T-score in bone density testing (DXA)
+0462a3ab	low bone mass
+6c0c67e4	Goniometer: measuring the angle of joint motion (ROM)
+207803d1	angle meter
+4f67d086	pivot over the joint,
+9e7c5056	one arm along the fixed bone,
+5572058f	the other arm along the moving bone
+d29c4f67	The result is recorded in degrees; for example, elbow ROM 0 to 150 degrees
+549486e7	Goniometer
+17db6601	Amputation level in the chart
+c6105d59	above the elbow
+6607fdd8	below the elbow
+f9ba3701	above the knee
+8301a553	below the knee
+99bc4ba2	Amputation level
+5ceede5a	The Language of Bone and Muscle
+6f6b9c3c	Language of Movement
+c01eb6f6	What the locomotor system does and how its words are built: roots, prefixes, suffixes and directions
+39f59cb4	The locomotor system
+a3146b12	Main roots
+7eee4415	206 Bones and 600 Muscles
+52cac4f0	One system, two teams
+e75f83a3	⟦0⟧An adult body has about <b>206 bones</b> and more than <b>600 skeletal muscles</b>. Bones, joints, cartilage and ligaments make up the <b>skeletal system</b>, and muscles and tendons the <b>muscular system</b>.<br>The two work together and share one name: the ⟦1⟧, or <b>musculoskeletal system</b>.⟦2⟧
+099eef43	Parts of the locomotor system
+d0a60fcb	musculo + skeletal: muscle first, then skeleton. Muscle provides the force and bone is the lever; without each other there is no movement.
+e4aba741	Tendon or ligament?
+e9ded7fe	Two strong white bands that are often confused:<br>• ⟦0⟧: joins <b>muscle to bone</b>.<br>• ⟦1⟧: joins <b>bone to bone</b> and keeps the joint stable.<br>• ⟦2⟧: a smooth, flexible cushion on the ends of bones in a joint.⟦3⟧
+3c7ab7d7	muscle to bone: the Achilles tendon
+55fdeb25	bone to bone: knee ligament
+b4dacd5d	About how many bones does an adult body have?
+12f11d55	206 bones; 600 is roughly the number of skeletal muscles.
+33de1d28	A tendon joins bone to bone.
+33c5c64c	False; a tendon joins muscle to bone and a ligament joins bone to bone.
+be725a3a	the muscular system only
+0c767918	the neuromuscular system
+2dc90103	bones only
+27f0ad39	muscul/o (muscle) + skelet/o (skeleton).
+88b37694	muscle to bone
+3973d086	smooth joint cushion
+8c140cb2	producing force and movement
+58f4302f	The four main parts of the locomotor system.
+b06723a4	The place where two bones meet is called a ___.
+ad2d2c5c	joint or articulation.
+e7877ff2	Spell the term for the band joining bone to bone
+e6ecbb9a	It joins bone to bone.
+ac490741	Six Jobs of Bone and Muscle
+f60f45e5	The skeleton is more than scaffolding
+c54113cd	⟦0⟧The musculoskeletal system has six main jobs:<br>1. <b>Support</b> and body shape<br>2. <b>Protection</b>: the skull guards the brain and the rib cage the heart and lungs<br>3. <b>Movement</b>: bone is the lever and muscle the force<br>4. <b>Blood cell formation</b> (⟦1⟧) in the red bone marrow<br>5. <b>Mineral storage</b>: calcium and phosphorus<br>6. <b>Heat production</b> through muscle work
+874a6a5a	Jobs of bone and muscle
+310e85ef	Know the specialists
+ec71e854	bones, joints and muscles; orthopaedic surgeon
+21a3f976	arthritis and autoimmune joint diseases
+fa682069	diseases of the foot
+ed5e3076	manual treatment of the spine
+82c72658	orth/o means “straight” and ped/o “child”. Orthopaedics began as the science of straightening children’s crooked bones.
+58ce573f	In a chart, the orthopaedic department is shortened to Ortho: “referral to Ortho” means referral to an orthopaedist.
+670ba1b4	Where does blood cell formation take place?
+ba955676	Hematopoiesis takes place in the red marrow of spongy bone; yellow marrow is mostly fat.
+28f3c3f5	Which mineral is stored in bone more than any other?
+194c4b47	Iron
+5714fcd2	Sodium
+694b8538	Iodine
+b33c2e10	Calcium (Ca) and phosphorus (P) make bone hard.
+545d846b	Muscles produce body heat by working.
+a44c2401	True; shivering is rapid muscle contraction to produce heat.
+feb159eb	autoimmune arthritis
+bb214a1e	pod/o = foot; rheumat/o = watery flow (joint disease).
+2a2f9610	The study of body movement is called ___.
+61f1f44d	kinesi/o = movement.
+22f2f62b	Spell the term for the branch of medicine for bones and joints
+f77ee5d9	orth/o (straight) + ped/o (child) + -ics.
+bbe5a9a4	⟦0⟧Every medical word is built from a few pieces:<br>• the <b>root</b> (⟦1⟧): the core meaning, such as ⟦2⟧ = bone<br>• the <b>prefix</b> (⟦3⟧): at the start of the word, such as ⟦4⟧ = between<br>• the <b>suffix</b> (⟦5⟧): at the end of the word, such as ⟦6⟧ = inflammation<br>• the <b>combining vowel</b> (usually ⟦7⟧): joins the root to the next piece: ⟦8⟧
+2415362d	Start the meaning from the <b>suffix</b>, then the <b>prefix</b>, and finally the <b>root</b>:<br>⟦0⟧ → “inflammation of a joint”<br>⟦1⟧ → “pertaining to between the vertebrae”<br>⟦2⟧ → “inflammation of bone and joint”⟦3⟧
+090c7ff7	If the suffix starts with a vowel, the combining vowel is dropped: arthr/o + -itis = arthritis, not arthroitis.
+80dd7300	‎-algia = pain
+79c4bfa2	‎-pathy = disease
+d2bd7129	arthritis = inflammation of a joint.
+d7b66e26	any bone disease
+fc8c38dd	study of bones
+dc995056	oste/o + -pathy (disease).
+869515af	In arthralgia the combining vowel o is dropped because ‎-algia starts with a vowel.
+776b71cb	True; arthr + algia = joint pain.
+d200aa8a	Build a word meaning “inflammation of bone”
+0658befb	Read intervertebral with the golden rule: put the pieces in reading order
+d4381618	‎-al: pertaining to
+6554fbcb	inter-: between
+2cbb6b5f	vertebr/o: vertebra
+65beb119	result: pertaining to between the vertebrae
+93ce1e01	Suffix → prefix → root.
+fe37e318	the o in osteoporosis
+8d70421a	Spell the term for inflammation of a joint
+823e27bf	Three Pillars: Bone, Muscle, Joint
+485b8bef	Three roots you’ll see everywhere
+2d6daa85	Six basic roots
+1edaa072	Three disease suffixes on three roots
+5b70e2df	Three words
+ae85a8b3	 inflammation
+94a6bb9f	 pain
+35bd10c4	 disease
+6c7135c5	Three roots × three suffixes: change the root and keep the suffix; you learn 9 words at once!
+54cc4465	Ostealgia is also called osteodynia; ‎-algia and ‎-dynia both mean pain.
+8f814f27	muscle weakness
+43beea78	muscle disease
+21477596	my/o (muscle) + -algia (pain).
+4b4f2cd5	Which word means “inflammation of a muscle”?
+7b499469	myos/o + -itis; the vowel in myos is kept.
+f500e274	Arthropathy means any joint disease.
+ba8baa64	Build a word meaning “joint pain”
+9f04664b	The 3 × 3 table.
+a01acd34	The word ___ means “pertaining to a joint”.
+8dad006e	Spell the term for muscle pain
+fa91a89e	Companion Roots: Cartilage, Tendon, Marrow
+0c1d3b4a	Tissue roots
+1e58a96e	Bone marrow or spinal cord?
+6c6e0bef	⟦0⟧ has two meanings: <b>bone marrow</b> and <b>spinal cord</b>. The context tells you which:<br>⟦1⟧ → inflammation of bone and <b>bone marrow</b><br>⟦2⟧ → contrast X-ray of the <b>spinal</b> canal⟦3⟧
+e8947d04	tendin/o, with i, appears in tendinitis, and ten/o in tenotomy and tenorrhaphy; all three mean tendon.
+0e1bc9a7	inflammation of cartilage
+892794df	chondr/o (cartilage) + -oma (tumour).
+3a3d8204	Which root does not mean “tendon”?
+fda0e9dc	fasci/o means fascia, the fibrous covering of a muscle.
+da8f7189	In osteomyelitis, myel/o means spinal cord.
+1275cadb	False; in this word myel/o means bone marrow: inflammation of bone and bone marrow.
+312680de	Build a word meaning “inflammation of a bursa”
+58a5b574	joint sac
+a6b7a990	fascia
+1214050f	Tissue roots.
+7a295c9e	Inflammation of a tendon is called ___.
+46d9f5c0	Spell the term for inflammation of the joint lining
+d359c3a7	Proximal, Distal, Medial, Lateral
+bcf2ee9d	⟦0⟧In orthopaedics the site of every injury is given with direction words:<br>• ⟦1⟧: near the trunk; the elbow is proximal to the wrist.<br>• ⟦2⟧: far from the trunk; the fingers are distal to the wrist.<br>• ⟦3⟧: toward the midline of the body<br>• ⟦4⟧: toward the side, away from the midline
+1a442dad	Directions on a mannequin
+86875b9c	One side or both?
+13fc3267	⟦0⟧ → both sides: “<b>bilateral</b> osteoarthritis of the knees” means both knees.<br>⟦1⟧ → one side<br>⟦2⟧ → front to back; an ⟦3⟧ radiograph sends the beam from front to back.⟦4⟧⟦5⟧
+167d6e0a	Proximal as in proximity (nearness); distal as in distance.
+694910b0	In a radiology report, “AP and lateral views” means one image from the front and one from the side.
+e35fd153	Which sentence is correct?
+9c18381e	The knee is proximal to the ankle
+b8e2c133	The wrist is proximal to the elbow
+001539bb	The thumb is proximal to the wrist
+e1e9ad34	The fingers are proximal to the shoulder
+8d148342	The knee is closer to the trunk than the ankle.
+0b6e5419	toward the side, away from the midline
+5e4c2756	toward the midline
+cf242b6d	from front to back
+c29601e3	later/o = side.
+8fe5d0e7	A distal radius fracture is a fracture of the end of the radius near the wrist.
+a393b681	distal = far from the trunk; the lower end of the radius is next to the wrist (as in a Colles fracture).
+973876ce	Four direction words.
+6fee5500	The abbreviation ___ means “anteroposterior” in a radiology report.
+ac47034b	Prefixes of Place, Number and Direction
+6909dba0	Prefixes of number and movement
+bb1d6af7	between: intercostal = between the ribs
+ed2b2a69	within: intramuscular = into a muscle
+9fcc49bd	The biceps has two heads, the triceps three and the quadriceps four; a muscle’s name tells you how many heads it has.
+c967967b	between muscles
+56064c80	under a muscle
+0189eb3c	on a muscle
+f09ce9c3	intra- (within) + muscul/o + -ar. An IM injection goes into a muscle.
+e30f1b3e	Which prefix means “above”?
+542f9f45	suprapatellar = above the kneecap.
+2d3e5cdd	The periosteum is a membrane that surrounds the bone.
+66f7c89f	peri- (around) + oste/o + -um.
+df1090c1	Build a word meaning “pertaining to between the ribs”
+c8e6d627	Prefixes of number and direction.
+6332ea5d	tri- = three.
+e3c2c766	Spell the term for within a muscle
+e3a5012b	Suffixes Special to the Locomotor System
+0eea561f	Suffixes of disease and condition
+1c9643d0	porous
+95ff1c4e	Surgery and cell suffixes
+90f2c899	forming cell
+a0f27bf3	breaking
+166fd1d2	A blast builds (Build), a clast breaks down (Crash): b for building, c for crashing.
+ea30f425	surgical fusion of a joint
+23cc80d7	joint replacement
+5dc365bd	arthr/o + -desis (fusion).
+239e9888	Which suffix means “weakness”?
+292a4ea4	myasthenia = muscle weakness.
+11d20a8d	An osteoclast is a cell that builds new bone.
+27e0c73a	False; an osteoclast breaks down old bone. The builder is the osteoblast.
+209abc40	Build a word meaning “suture of a tendon”
+c77f841e	Special suffixes.
+468e3fb8	Softening of bone is called ___.
+16bbd977	Spell the term for surgical fusion of a joint
+b7416218	my/o and myel/o; ilium and ileum
+89c73c10	muscle: myalgia
+49978e60	bone marrow or spinal cord: myeloma
+a43f7317	hip bone (ili/o)
+78987d9e	last part of the small intestine (ile/o)
+2ba58fba	the radius bone, and also rays: radiography
+f78e7ae1	the ulna (little-finger side)
+f1181f7f	complete paralysis: hemiplegia

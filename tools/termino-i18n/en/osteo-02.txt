@@ -1,0 +1,330 @@
+19eb831a	deep tendon reflex
+fa154ccd	sideways curve of the spine
+564c7c27	bone formed inside a tendon
+5714ee6b	pain along the shin
+efd2837b	short bone
+35308261	air-filled cavity in a bone
+593bed12	muscle that moves the skeleton
+5306539f	drug that relaxes skeletal muscle
+7867e467	bones and their connections
+d897e16c	sudden involuntary contraction
+efb28ef4	butterfly-shaped skull bone
+a732cfde	split spine at birth
+eee4a186	surgical joining of vertebrae
+b4d07111	narrowing of the spinal canal
+2843b371	spiny back projection of a vertebra
+9c70ebe8	twisting fracture
+dfa1837a	rigid support for an injured limb
+a4feca03	inflammation of the vertebrae
+3bbe5c42	forward slipping of a vertebra
+1571027d	degeneration of the spine
+1dd73115	ligament injury
+1da03efb	neck muscle that turns the head
+f0d68358	breastbone
+941726c6	overstretched muscle or tendon
+728dcf9b	fracture from repeated stress
+d303ed76	striped
+973b216a	partial dislocation
+80c3e3eb	turning the palm up
+eb6a54e7	above the kneecap
+dc6a2f9a	fixed joint between skull bones
+bc94a30c	immovable joint
+89424bc6	helper muscle
+d505152b	removal of the joint lining
+3939f37e	joint lubricating fluid
+305eaf04	freely movable joint
+225e3d59	membrane lining a joint
+f8c525d9	inflammation of the joint lining
+883f1f50	ankle bones
+7803b345	bone at the side of the skull
+bae69c17	jaw joint
+5aa8da18	inflammation of a tendon
+4c9229bc	cord joining muscle to bone
+ad6be4e6	surgical repair of a tendon
+7dda821f	suturing a tendon
+a174416e	cutting into a tendon
+3619c9fd	chest vertebrae
+b21ab53d	shinbone
+df8f4b3c	front shin muscle
+dcc1034c	gout crystal deposits
+2f7f1a76	thin plates of spongy bone
+ca9034d7	pulling force on a limb
+e3657176	fracture straight across the bone
+9d4aa048	side projection of a vertebra
+245fccd5	upper back and neck muscle
+2513a29e	large knob at the top of the femur
+05cab036	ribs joined directly to the sternum
+8b862bf5	small rounded bump
+7e95c30c	large rough bump
+eacbd33a	little-finger-side forearm bone
+ab5d1990	uric acid
+e5f8dcf7	injecting cement into a vertebra
+6be9f4a7	muscle under conscious control
+4a1c5c8c	lower tip of the breastbone
+7252bdd2	yellow bone marrow
+b4fd60ea	cheekbone
+d3ba1e07	on both sides
+6336c353	around
+a54f5987	bad, abnormal, difficult
+80a43f77	in, into
+4f37ca6c	between
+5e40e018	beyond, after
+a8b0dde7	beside, abnormal
+97661219	under, less
+b3b18d13	together, joined
+261dfe4e	child (also foot)
+f891b36b	watery flow (joint disease)
+00e26abd	nature, body
+9d925a9a	near
+0148b25f	far
+a2669588	bone marrow; spinal cord
+c2f34dae	inner part (medulla)
+04eec197	outer layer (cortex)
+c1075a3e	lower jaw
+0fcd5278	upper jaw
+08ec23b1	bent backward (swayback)
+81a4a0e8	crooked, bent
+2ec02ceb	radius bone; ray
+50cd23ce	ulna
+a9a70942	ilium
+be3bc24c	ischium
+ba594c5b	hip socket
+feef4040	shinbone
+ad9fc6fb	fibula
+46578450	ankle bones
+d6367dfe	breast-like (mastoid process)
+32bd057f	meniscus (crescent)
+90a5e89c	stiff, fused
+86f94b66	to stretch, pull
+3b5bcb37	to lead, bring
+77a7706c	to turn
+f716b1a4	fascia (fibrous band)
+8b3be064	tone, tension
+697bc3ae	rod-shaped (striated)
+00cd80f6	to cut, section
+be63ad4a	density
+81e63492	addition (artificial part)
+d326d42b	ability
+dd8f67e3	sensation of pain
+2b124b3f	process, action
+ff1cad40	study, practice
+b9960d74	immature (forming) cell
+1a7bd3f3	breaking (destroying cell)
+952c00aa	producing, forming
+5c0a2653	formation
+e11c4c5f	porous, full of holes
+99af8fb6	slipping
+c3a9c26c	surgical fusion
+6e2593f9	puncture to draw fluid
+7f303e61	record, image
+f0a09ecb	process of recording
+6ae2b52a	slight paralysis, weakness
+6ba9a8f1	surgical breaking
+47f6fc81	activities of daily living
+d8c6a731	above the elbow (amputation)
+631bab6d	above the knee (amputation)
+62ec7d41	bone mineral density
+9c05a55b	below the elbow (amputation)
+0c3ba80f	below the knee (amputation)
+262237d9	cervical vertebrae 1 to 7
+220ff65b	creatine kinase (muscle enzyme)
+a066fb05	creatine phosphokinase (same as CK)
+994bb070	C-reactive protein (inflammation marker)
+66d2c73d	degenerative joint disease (osteoarthritis)
+9bf46a43	dual-energy X-ray absorptiometry (DXA)
+dacbcccf	herniated intervertebral disc
+f52bc965	lumbar vertebrae 1 to 5
+a085d27b	left lower extremity
+46b2d3e6	left upper extremity
+2d20643e	osteogenesis imperfecta
+73d5a1e3	after surgery
+659883ea	passive range of motion (moved by someone else)
+b261a4d3	posterior spinal fusion
+6a2ec7b8	right lower extremity
+ec9efe45	right upper extremity
+45855955	thoracic vertebrae 1 to 12
+4a67be49	total hip replacement
+c5620bc0	total knee replacement
+24b60960	ultrasound; therapeutic ultrasound
+36552538	Bones and structures
+86ddd461	Tissue, cells and minerals
+3778714f	Muscles and tendons
+02f0fd8c	Movements and directions
+2bce11bc	Diseases and injuries
+8a02b88b	Signs
+c3268c07	Diagnosis, imaging and tests
+d1db28de	The locomotor system: bone, cartilage, joint, ligament, muscle and tendon
+9202a6e9	bone • oste/o
+43f935a0	cartilage • chondr/o
+435d0159	joint • arthr/o
+882c1eed	muscle • my/o
+9f9a9d1e	tendon • ten/o
+5d790a9f	bone to bone
+5325d2b5	tendon: muscle to bone • ligament: bone to bone
+443294f7	Parts of the musculoskeletal system
+e246a56f	The skeleton and muscles together have six main jobs
+eb4faa41	support and body shape
+ecc573e7	the skull guards the brain, the ribs the heart
+1c017516	bone is the lever, muscle the force
+5d079aee	in the red bone marrow
+e2a7c620	mineral storage
+d40f2e47	calcium and phosphorus
+3cf49f6d	heat production
+f1998e86	work of the muscles
+9da42bfb	Jobs of the musculoskeletal system
+112e140c	prefix: between
+5caa7b04	root: vertebra
+8dd02681	between the vertebrae
+90bd568a	Six basic roots of the locomotor system
+536bbccb	Basic roots
+9d5b6833	Directions: proximal and distal, medial and lateral
+860f7eaa	dashed line: the midline of the body
+e18177a7	lateral: away from the midline
+c978d616	medial: toward the midline
+846aacc0	both knees involved = bilateral; only one = unilateral
+ec1c78aa	Anatomical directions
+a85c1382	hip bone
+636d29ac	small intestine (digestion)
+8d24ec93	ilium with i belongs to the hip; ileum with e belongs to the gut (e for eat)
+8a0e53ce	Look-alike words
+2426c651	Three bone cells: builder, keeper, destroyer
+85ce096b	bone builder
+a84b7218	mature bone cell
+5408229f	bone eater
+19e97a97	Bone cells
+f5c08dd3	Anatomy of a long bone (lengthwise section)
+d7eab3a2	end of the bone
+ff3adc5d	shaft of the bone
+2364f110	lower end
+ce589a2a	growth line (closed growth plate)
+c56ab1c3	spongy bone + red marrow
+c7916214	marrow cavity: yellow marrow
+a4e89ba7	periosteum: outer covering
+710dc754	nutrient artery
+5b8c794f	Anatomy of a long bone
+155903d6	Two kinds of bone tissue
+eba09427	compact: hard outer layer (osteons)
+648d6ddb	spongy: thin plates + red marrow
+5e161b54	Compact and spongy bone
+6df5e207	Five bone shapes
+1bf86eb1	long: femur, humerus
+f02c5d15	short: wrist and ankle
+c1e540ee	flat: scapula, sternum, skull
+28aad5d3	irregular: vertebra
+b1571c89	sesamoid: kneecap (in a tendon)
+0a26b160	Bone shapes
+766395a2	Landmarks of the femur: projections
+48028b1b	greater trochanter
+d2ad9164	lesser trochanter
+6111633c	shaft
+f2ee5c11	lateral epicondyle
+07f052c9	lateral condyle
+19d2ed65	medial condyle
+a68ade9f	medial epicondyle
+8fc5cecb	Depressions:
+70ed217b	foramen opening
+ae34ad8d	fossa hollow
+92495d07	fissure slit
+02a09eeb	sinus air space
+228a1a52	Bone landmarks
+4b0f8978	Growth plate: child versus adult
+7d879cc6	child: open cartilage plate; the bone lengthens
+7168f5b9	adult: plate closed and turned to bone
+d4d3d2aa	Growth plate
+716164b7	thick plates
+a7447b13	slightly low mass
+e9867c85	full of holes and fragile
+1d08e329	From healthy bone to osteoporosis (magnified spongy bone)
+dec53303	Diagnosed with a bone density scan (DXA) and the T-score
+465f7587	The skeleton: 206 bones (axial and appendicular)
+a5b35bb5	radius and ulna
+88dd5e13	ribs
+7fd390bc	axial (80)
+bc65dff3	appendicular (126)
+da205375	The human skeleton
+e0439ffa	The skull from the side: bones of the head and face
+a91278a8	parietal
+044e5ea6	temporal
+9b6c020b	mandible (movable)
+ad837847	ear canal
+e847e43a	⟦0⟧: ⟦1⟧ vertebrae
+c655e5dd	sacral: 5 fused vertebrae
+f3c2c55c	The spine: 26 bones seen from the side
+4698b09a	cervical curve ↶
+8111ebd9	thoracic curve ↷
+3fc6a0e2	lumbar curve ↶
+6fa260b4	front (anterior) ← • → back (posterior)
+4f30e835	A lumbar vertebra from above
+e766b865	spinous process (back)
+62bd706c	transverse process
+f74a5797	vertebral foramen (spinal cord)
+bd72079a	pedicle
+ef8fa4fa	vertebral body (front)
+95eae8ea	The spinal cord passes through the vertebral foramen; a laminectomy removes the lamina to free it
+e09879f0	Intervertebral disc: healthy and herniated (top view)
+b84873d1	nucleus pulposus
+873545b0	annulus fibrosus
+8534d430	healthy disc
+42cc1f6d	the nucleus bulges out and presses on a nerve root
+fa25d1a7	Herniated disc
+2b97e781	The rib cage: the sternum and 12 pairs of ribs
+fc1a2a24	manubrium
+bab08f85	body of the sternum
+0bbaafab	xiphoid process
+093d808f	true: directly to the sternum
+80f1b35b	floating: not attached to the sternum
+39e21667	Bones of the shoulder, arm, forearm and hand
+99bc2279	acromion
+757298f8	olecranon
+1ddc58ac	radius (thumb side)
+290fac68	ulna
+42e0b46f	Bones of the upper limb
+428db633	The pelvis: ilium, ischium and pubis
+ed61d8e1	ilium
+b2b081ae	sacrum
+8d00baec	ischium
+d39ce111	symphysis (cartilage)
+54d4dc17	iliac crest
+76b70dcc	Bones of the thigh, leg and foot
+010ed3bd	lateral malleolus
+23790868	medial malleolus
+8cfd9b7e	tarsals
+4a5874c3	phalanges
+994ef9ae	Bones of the lower limb
+38e7cb04	Curves of the spine: normal and abnormal
+f592f30f	normal (side view)
+f8c2a684	hunchback
+165db3d0	swayback
+e933e30c	sideways curve (back view)
+e5df7138	kyph/o = hump • lord/o = bent backward • scoli/o = crooked
+8159ea48	Curves of the spine
+e573fb6e	Three kinds of joint: immovable, slightly movable, freely movable
+0f52661e	immovable: skull suture
+f7f6f1a3	slightly movable: disc, symphysis
+b1ccd6da	freely movable: synovial (knee)
+3c922d18	fibrous
+9944b7fa	synovial
+c4493ba7	Types of joint
+3f2b41bc	A synovial (freely movable) joint and its parts
+b1498cb6	cavity + synovial fluid
+c61a6f8c	bursa
+488791f4	Synovial fluid lubricates the joint; a bursa reduces tendon friction
+62eb47ac	The shape of a joint decides the kind of movement
+4f816ac3	ball and socket
+7f0c9714	hip, shoulder
+49dd0a06	hinge
+ba0fc4af	elbow, knee
+dde46527	pivot
+f81455ad	atlas and axis
+142dff7b	saddle
+703c6565	base of the thumb
+60376662	gliding
+740ece30	between the wrist bones
+6ccf6a11	Types of synovial joint
+0da55367	Flexion and extension of the elbow
+dc1be7ef	hyperextension = extending beyond the normal
+1afe2433	Flexion and extension
+2de24062	Abduction and adduction, rotation and circumduction
+f0d7f1f6	moving away from the midline (ab-)
+e221ed6e	moving toward the midline (ad-)
+911700bd	circular movement (cone-shaped)
