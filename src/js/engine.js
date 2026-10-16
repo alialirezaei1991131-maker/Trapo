@@ -2969,6 +2969,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   /** افزودن کد: کدهای تازه با قبلی‌ها ترکیب می‌شوند (OR بیتی دوره‌ها، بالاترین سطح، دورترین انقضا) */
   function redeem(raw) {
     const code = String(raw || '').trim();
+    if (/^TRH1/i.test(code.replace(/[^0-9A-Za-z]/g, ''))) return { ok: false, msg: PT('این «کد قلب» است و فقط در نسخه آنلاین تراپو (پس از ورود به حساب) کار می‌کند.', 'This is a heart code — it only works in the online version of Therapo, after signing in.') };
     const dev = deviceId();
     const g = parseCode(code, dev);
     if (!g.ok) return { ok: false, msg: g.err === 'sig' ? PT('این کد برای این دستگاه صادر نشده یا ناقص کپی شده است. کد کامل را دوباره بچسبان یا با پشتیبانی تماس بگیر.', 'This code was not issued for this device or was copied incompletely. Paste the full code again or contact support.') : PT('قالب کد درست نیست. کد کامل را (که با TRP1 شروع می‌شود) بدون کم و زیاد بچسبان.', 'The code format is wrong. Paste the full code (starting with TRP1) exactly as sent.') };
@@ -3148,9 +3149,10 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   /* ================= ورود کد فعال‌سازی ================= */
   function activateModal() {
-    const m = pModal(`<div class="big-i">🔑</div><h3>${PT('فعال‌سازی اشتراک', 'Activate subscription')}</h3>
-      <p class="muted">${PT('کدی را که پشتیبانی برایت فرستاده وارد کن.', 'Enter the code support sent you.')}</p>
-      <input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="${PT('TRP1-… (کد کامل را این‌جا بچسبان)', 'TRP1-… (paste the full code here)')}">
+    const srv = !!window.TRAPO_SERVER;
+    const m = pModal(`<div class="big-i">${srv ? '🎟️' : '🔑'}</div><h3>${srv ? PT('وارد کردن کد', 'Enter a code') : PT('فعال‌سازی اشتراک', 'Activate subscription')}</h3>
+      <p class="muted">${srv ? PT('کد قلب (TRH1-…) یا کد فعال‌سازی (TRP1-…) که برایت فرستاده شده را کامل بچسبان. هر کد فقط روی حساب خودت و فقط یک بار کار می‌کند.', 'Paste the full heart code (TRH1-…) or activation code (TRP1-…) you received. Each code works only on your account, and only once.') : PT('کدی را که پشتیبانی برایت فرستاده وارد کن.', 'Enter the code support sent you.')}</p>
+      <input class="ob__in acin" dir="ltr" autocomplete="off" spellcheck="false" placeholder="${srv ? PT('TRH1-… یا TRP1-… (کد کامل)', 'TRH1-… or TRP1-… (full code)') : PT('TRP1-… (کد کامل را این‌جا بچسبان)', 'TRP1-… (paste the full code here)')}">
       <div class="acerr" hidden></div>
       <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>${PT('فعال‌سازی', 'Activate')}</button><button class="btn btn--ghost" data-close>${PT('انصراف', 'Cancel')}</button></div>`);
     const inp = m.el.querySelector('.acin'), err = m.el.querySelector('.acerr');
@@ -4338,6 +4340,7 @@ P — Plan: …`);
   }
   async function srvRedeem(v, errEl, inp, onOk) {
     const r = await api('redeem', { code: v });
+    if (r.ok && r.heart) { onOk && onOk(); return heartCodeDone(r.heart); }
     if (!r.ok) {
       if (r.err === 'code_already') { const x = redeem(v); if (x.ok) { onOk && onOk(); return showActivated(x); } }
       if (errEl) { errEl.hidden = false; errEl.textContent = srvMsg(r.err); }
@@ -4348,6 +4351,19 @@ P — Plan: …`);
     const x = redeem(v); // ثبت محلی برای اجرای آفلاین همین جلسه و هدیه الماس
     onOk && onOk();
     showActivated(x.ok ? x : { ok: true, g: r.grant, before: summary(), after: summary() });
+  }
+  /** کد قلب ثبت شد: جشن کوچک و به‌روز شدن کیف (اگر دسترسی به درس‌ها عوض شد، با «ادامه» صفحه تازه می‌شود) */
+  function heartCodeDone(h) {
+    const changed = WALLET ? WALLET.set(h.wallet, true) : false;
+    const PL = { bronze: ['برنزی', 'Bronze'], silver: ['نقره‌ای', 'Silver'], gold: ['طلایی', 'Gold'] };
+    const big = h.kind === 'hearts' ? `+${nf(h.amount)} ❤️` : h.kind === 'ult' ? '♾️' : '⭐';
+    const line = h.kind === 'hearts' ? PT(`${nf(h.amount)} قلب به حسابت اضافه شد؛ این قلب‌ها تاریخ انقضا ندارند و در همه دوره‌ها خرج می‌شوند.`, `${nf(h.amount)} hearts were added. They never expire and work in every course.`)
+      : h.kind === 'ult' ? PT(`قلب بی‌نهایت برای ${nf(h.amount)} روز فعال شد (تا ${fdate(h.wallet.ultUntil * 1000)})؛ از هر درسی که بخواهی شروع کن.`, `Unlimited hearts for ${nf(h.amount)} days (until ${fdate(h.wallet.ultUntil * 1000)}) — start any lesson you like.`)
+      : PT(`اشتراک ${PL[h.tier][0]} ${nf(h.amount)} ماهه فعال شد؛ هر روز ${nf(h.wallet.daily)} قلب تازه داری.`, `${PL[h.tier][1]} plan for ${nf(h.amount)} month(s): ${nf(h.wallet.daily)} fresh hearts every day.`);
+    const m = pModal(`<div class="hcd"><div class="hcd__big" aria-hidden="true">${big}</div><h3>${PT('کد قلب فعال شد! 🎉', 'Heart code activated! 🎉')}</h3><p>${line}</p>
+      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-hcgo>${PT('ادامه یادگیری 🚀', 'Keep learning 🚀')}</button></div></div>`, { sticky: true, cls: 'modal--hcd' });
+    pConfetti(80); pSfx('chest');
+    m.el.querySelector('[data-hcgo]').onclick = () => { m.close(); if (changed) location.reload(); };
   }
   /** سفارش روی سرور: مبلغ نهایی، تخفیف دوست و اعتبار کیف پول را سرور حساب می‌کند */
   async function srvOrder(req, box) {
@@ -4489,7 +4505,7 @@ P — Plan: …`);
       document.querySelectorAll('.dbtn--heart > span').forEach(e => { e.textContent = u ? '♾️' : '❤️'; });
       subs.forEach(f => { try { f(); } catch (e) { /* */ } });
     }
-    function apply(w) {
+    function apply(w, quiet) {
       const was = isPaid(), wasU = !!W.unl;
       const ready = x => (x || []).filter(q => !q.done && q.have >= q.n).map(q => q.id).join();
       const before = ready(W.quests);
@@ -4499,6 +4515,7 @@ P — Plan: …`);
       if (now && now !== before && now.length > before.length) { pToast(PT('🎯 یک مأموریت امروز کامل شد! جایزه‌ات را بگیر', '🎯 Daily quest complete! Claim your reward')); pSfx('chest'); }
       // خرید تأیید شد: محتوای کامل دوره‌ها از سرور می‌آید، پس صفحه یک بار تازه می‌شود (نه وسط درس)
       if (isPaid() !== was || !!W.unl !== wasU) {
+        if (quiet) return true;
         pToast(PT('❤️ کیف قلبت به‌روز شد!', '❤️ Your hearts were updated!'));
         const go = () => { if (window.EA && EA.player && EA.player.active()) return setTimeout(go, 3000); location.reload(); };
         setTimeout(go, 1600);
@@ -4783,7 +4800,7 @@ P — Plan: …`);
         done && done();
       };
     }
-    return { on: () => true, questsHTML, questsModal, qfab, earnModal, unlimited, balance, cost, can, label, spend, pay, tool, outModal, infoModal, toolView, nextIn, refresh, flush, paid: isPaid, state: () => W, sub: f => subs.push(f) };
+    return { on: () => true, set: apply, questsHTML, questsModal, qfab, earnModal, unlimited, balance, cost, can, label, spend, pay, tool, outModal, infoModal, toolView, nextIn, refresh, flush, paid: isPaid, state: () => W, sub: f => subs.push(f) };
   })();
   /* ================= پیام همراهان (تبلیغ) — آماده ولی خاموش =================
    * فقط وقتی سرور فهرست بفرستد (ads.enabled در config.php). هرگز وسط درس نیست: بعد از برگشتن به مسیر،
@@ -5072,7 +5089,7 @@ P — Plan: …`);
           ${WALLET ? `<button class="dbtn dbtn--heart" data-ac="hearts" title="${PT('قلب‌های من', 'My hearts')}"><span aria-hidden="true">${WALLET.unlimited() ? '♾️' : '❤️'}</span><b data-wbal>${WALLET.label()}</b></button><button class="dbtn dbtn--hstore" data-ac="hstore"><span aria-hidden="true">💗</span><b>${PT('پر کردن قلب', 'Refill hearts')}</b></button>` : ''}
           <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT('پوسته ' + t[2], t[3] + ' theme')}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
           <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('EN', 'فا')}</b></button>
-          <button class="dbtn ${WALLET ? 'dbtn--minor' : ''}" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
+          <button class="dbtn ${WALLET ? 'dbtn--minor' : ''}" data-ac="activate"><span aria-hidden="true">${WALLET ? '🎟️' : '🔑'}</span><b>${WALLET ? PT('وارد کردن کد', 'Enter code') : PT('کد فعال‌سازی', 'Activation code')}</b></button>
           <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
           <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
         </div>

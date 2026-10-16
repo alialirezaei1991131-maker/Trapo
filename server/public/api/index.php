@@ -49,7 +49,10 @@ try {
         /* ---------- کد فعال‌سازی ---------- */
         case 'redeem': {
             Auth::requireCsrf(); $u = Auth::requireUser(); $b = Http::body();
-            $g = License::redeem($u, Http::str($b, 'code', 200));
+            $raw = Http::str($b, 'code', 200);
+            // کد قلب (TRH1): قلب، نامحدود یا اشتراک روزانه مستقیم به کیف قلب
+            if (strpos(preg_replace('/[^0-9A-Z]/', '', strtoupper($raw)), 'TRH1') === 0) { Http::limit('redeem|' . $u['id'], 12, 3600); Http::json(['ok' => true, 'heart' => Hearts::redeemCode($u, $raw)]); }
+            $g = License::redeem($u, $raw);
             Http::json(['ok' => true, 'grant' => $g, 'codes' => License::codes((int) $u['id'])]);
         }
 

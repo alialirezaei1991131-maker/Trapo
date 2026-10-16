@@ -25,6 +25,7 @@ final class Hearts
         'practice_max' => 5,
         // تطبیق با پیشرفت: هر درس تازه‌ای که تمام می‌شود دست‌کم این‌قدر قلب پاسخ پشتش دارد؛ اگر نداشت (درخواست خرج قلب جلویش گرفته شده) کسر می‌شود
         'lesson_min' => 3,
+        'code_days' => 60, // کد قلب تا چند روز بعد از صدور قابل استفاده است
         // مأموریت‌های روزانه: هر روز ۳ تا از این فهرست (پاداش = قلب هدیه)؛ chest = جایزه کامل کردن هر سه
         'quests' => [
             'right20' => ['c' => 'right', 'n' => 20, 'h' => 4, 'i' => '✅', 'fa' => '۲۰ پاسخ درست بده', 'en' => 'Get 20 answers right'],
@@ -47,7 +48,7 @@ final class Hearts
     {
         $c = (array) Cfg::get('hearts', []);
         $d = self::DEF;
-        foreach (['free_daily', 'practice_max', 'lesson_min'] as $k) if (isset($c[$k])) $d[$k] = (int) $c[$k];
+        foreach (['free_daily', 'practice_max', 'lesson_min', 'code_days'] as $k) if (isset($c[$k])) $d[$k] = (int) $c[$k];
         if (isset($c['quests']) && is_array($c['quests'])) $d['quests'] = $c['quests'];
         if (isset($c['quest_chest'])) $d['quest_chest'] = (int) $c['quest_chest'];
         foreach (['plans', 'cost'] as $k) if (isset($c[$k]) && is_array($c[$k])) $d[$k] = array_replace_recursive($d[$k], $c[$k]);
@@ -243,6 +244,71 @@ final class Hearts
             Db::exec('UPDATE wallets SET plan = ?, plan_until = ?, day_left = ?, updated_at = ? WHERE user_id = ?', [$plan, $until, $left, $now, $uid]);
         }
         Http::audit($uid, 'hearts_credit', ['product' => $code]);
+    }
+
+    /* ---------- کد قلب (TRH1): ساخته‌شده با کلید پنل مدیر، فقط برای یک حساب و فقط یک بار ----------
+     * ۸ بایت داده + ۶۴ بایت امضای Ed25519 روی «TRAPO-HRT-1|شناسه حساب|داده» (سرور فقط کلید عمومی دارد).
+     * بایت ۰: دو بیت بالا = 10 (کد قلب)، بیت‌های ۵-۴ = نوع (0 قلب، 1 نامحدود به روز، 2 اشتراک روزانه)
+     * بایت ۱-۲: مقدار (قلب، روز، یا برای اشتراک: بایت ۱ = سطح ۱..۳، بایت ۲ = ماه)؛ بایت ۳-۶: دقیقه صدور از ۲۰۲۴؛ بایت ۷: تصادفی */
+    private const HC_EPOCH = 1704067200; // 2024-01-01 UTC (ثانیه)
+    public static function parseCode(string $code, string $dev): array
+    {
+        $s = preg_replace('/[^0-9A-Z]/', '', strtoupper($code));
+        if (strlen($s) === 120 && strpos($s, 'TRH1') === 0) $s = substr($s, 4);
+        if (strlen($s) !== 116) return ['ok' => false, 'err' => 'format'];
+        $all = B32::dec($s, 72); if ($all === null) return ['ok' => false, 'err' => 'format'];
+        $p = substr($all, 0, 8); $sig = substr($all, 8, 64);
+        $msg = 'TRAPO-HRT-1|' . License::normDev($dev) . '|' . bin2hex($p);
+        $ok = false;
+        foreach ((array) Cfg::get('license_public_keys', []) as $k) {
+            $pk = base64_decode($k, true);
+            if ($pk !== false && strlen($pk) === SODIUM_CRYPTO_SIGN_PUBLICKEYBYTES && sodium_crypto_sign_verify_detached($sig, $msg, $pk)) { $ok = true; break; }
+        }
+        if (!$ok) return ['ok' => false, 'err' => 'sig'];
+        $b = array_values(unpack('C*', $p));
+        if (($b[0] >> 6) !== 2) return ['ok' => false, 'err' => 'ver'];
+        $kind = ['hearts', 'ult', 'plan'][($b[0] >> 4) & 3] ?? null;
+        if (!$kind) return ['ok' => false, 'err' => 'ver'];
+        $issued = self::HC_EPOCH + ((($b[3] << 24) | ($b[4] << 16) | ($b[5] << 8) | $b[6]) * 60);
+        $r = ['ok' => true, 'kind' => $kind, 'issued' => $issued];
+        if ($kind === 'plan') { $tier = [1 => 'bronze', 2 => 'silver', 3 => 'gold'][$b[1]] ?? null; if (!$tier || $b[2] < 1) return ['ok' => false, 'err' => 'ver']; $r += ['tier' => $tier, 'months' => $b[2]]; }
+        else { $n = ($b[1] << 8) | $b[2]; if ($n < 1) return ['ok' => false, 'err' => 'ver']; $r['amount'] = $n; }
+        return $r;
+    }
+    /** ثبت کد قلب روی حساب: امضا با شناسه همین حساب، هنوز در مهلت، و هرگز قبلاً مصرف نشده */
+    public static function redeemCode(array $u, string $code): array
+    {
+        $uid = (int) $u['id'];
+        $g = self::parseCode($code, (string) $u['dev_id']);
+        if (!$g['ok']) { Http::audit($uid, 'heart_code_fail', ['err' => $g['err']]); throw new RuntimeException('code_' . $g['err']); }
+        $days = max(1, (int) (self::cfg()['code_days'] ?? 60));
+        if (time() > $g['issued'] + $days * 86400) throw new RuntimeException('code_expired');
+        $norm = preg_replace('/[^0-9A-Z]/', '', strtoupper($code));
+        if (strpos($norm, 'TRH1') !== 0) $norm = 'TRH1' . $norm;
+        return Db::tx(function () use ($u, $uid, $g, $norm) {
+            $dup = Db::one('SELECT user_id FROM heart_codes WHERE code = ?', [$norm]);
+            if ($dup) throw new RuntimeException((int) $dup['user_id'] === $uid ? 'code_already' : 'code_used');
+            $r = self::fresh($uid); $now = time();
+            if ($g['kind'] === 'hearts') {
+                $n = min(100000, $g['amount']);
+                Db::exec('UPDATE wallets SET bank = bank + ?, updated_at = ? WHERE user_id = ?', [$n, $now, $uid]);
+                $amount = $n;
+            } elseif ($g['kind'] === 'ult') {
+                $d = min(3650, $g['amount']);
+                Db::exec('UPDATE wallets SET ult_until = ?, updated_at = ? WHERE user_id = ?', [max($now, (int) $r['ult_until']) + $d * 86400, $now, $uid]);
+                $amount = $d;
+            } else {
+                $C = self::cfg(); $tier = $g['tier']; $mo = min(24, $g['months']);
+                $active = $r['plan'] && (int) $r['plan_until'] > $now;
+                $plan = $active && self::RANK[$r['plan']] > self::RANK[$tier] ? $r['plan'] : $tier;
+                $until = max($now, $active ? (int) $r['plan_until'] : $now) + $mo * self::MONTH;
+                Db::exec('UPDATE wallets SET plan = ?, plan_until = ?, day_left = ?, updated_at = ? WHERE user_id = ?', [$plan, $until, max((int) $r['day_left'], (int) $C['plans'][$plan]['daily']), $now, $uid]);
+                $amount = $mo;
+            }
+            Db::exec('INSERT INTO heart_codes (code, user_id, kind, amount, created_at) VALUES (?, ?, ?, ?, ?)', [$norm, $uid, $g['kind'] === 'plan' ? 'plan:' . $g['tier'] : $g['kind'], $amount, $now]);
+            Http::audit($uid, 'heart_code', ['kind' => $g['kind'], 'amount' => $amount]);
+            return ['kind' => $g['kind'], 'amount' => $amount, 'tier' => $g['tier'] ?? null, 'wallet' => self::state($uid)];
+        });
     }
 
     /** هدیه مدیر: قلب به بسته، یا روزهای نامحدود */

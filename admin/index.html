@@ -144,6 +144,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
     <div class="brand"><i>✚</i><div>پنل مدیر تراپو<small id="hdrSub"></small></div></div>
     <nav class="tabs" id="tabs">
       <button class="tab on" data-tab="issue">🧾 صدور کد</button>
+      <button class="tab" data-tab="hearts">❤️ کد قلب</button>
       <button class="tab" data-tab="buyers">👥 خریداران</button>
       <button class="tab" data-tab="promo">🎁 کد تخفیف</button>
       <button class="tab" data-tab="check">🔍 بررسی کد</button>
@@ -190,6 +191,42 @@ table.codes th { color: var(--mu); font-weight: 800; }
       </div>
     </section>
 
+    <!-- کد قلب -->
+    <section data-pane="hearts" class="hide">
+      <h2>صدور کد قلب (سایت)</h2>
+      <p class="lead">پیام درخواستی که کاربر از «ایستگاه قلب» سایت فرستاده را بچسبان. کد فقط روی <b>همان حساب</b> و فقط <b>یک بار</b> کار می‌کند و تا ۶۰ روز بعد از ساخت قابل استفاده است.
+        (راه دیگر: در پنل مدیریت سرور روی همان سفارش «پرداخت شد» را بزنی؛ قلب‌ها بدون کد خودکار واریز می‌شوند.)</p>
+      <div class="card">
+        <textarea id="hMsg" placeholder="🧾 سفارش قلب تراپو&#10;🪪 شناسه حساب: XXXX-XXXX-XXXX&#10;🔧 TRAPO-HEART:..."></textarea>
+        <div class="row" style="margin-top:8px"><button class="btn btn--sm" id="hPaste">📋 چسباندن از کلیپ‌بورد</button><button class="btn btn--sm" id="hClear">پاک کردن</button><span class="muted">یا دستی پر کن (مثلاً برای هدیه یا جایزه مسابقه).</span></div>
+        <div id="hParse"></div>
+      </div>
+      <div class="card">
+        <h3>👤 حساب کاربر</h3>
+        <div class="grid2">
+          <label class="f">نام<input type="text" id="hName" placeholder="نام کاربر"></label>
+          <label class="f">شناسه حساب<input type="text" id="hDev" class="ltr" placeholder="XXXX-XXXX-XXXX"></label>
+          <label class="f">مبلغ دریافتی (تومان)<input type="text" id="hPrice" inputmode="numeric" placeholder="مثلاً 149000"></label>
+          <label class="f">شماره سفارش (اختیاری)<input type="text" id="hOrder" class="ltr" placeholder="ORD-XXXXXX"></label>
+        </div>
+      </div>
+      <div class="card">
+        <h3>🎁 چه چیزی؟</h3>
+        <div class="seg" id="hKind"></div>
+        <h3 style="margin-top:14px" id="hAmtT">مقدار</h3>
+        <div class="seg" id="hAmt"></div>
+        <label class="f" style="margin-top:10px" id="hCustomL">مقدار دلخواه<input type="number" id="hCustom" min="1" max="65535" placeholder="مثلاً 250"></label>
+      </div>
+      <div id="hErr"></div>
+      <button class="btn btn--gold btn--lg" id="hGo" style="width:100%">❤️ ساخت کد قلب و پیام آماده</button>
+      <div class="card hide" id="hOut">
+        <h3>✅ پیام آماده برای کاربر <span class="badge b-ok">در فهرست زیر ثبت شد</span></h3>
+        <div class="ready" id="hReady"></div>
+        <div class="row" style="margin-top:10px"><button class="btn btn--pr" id="hCopy">📋 کپی پیام کامل</button><button class="btn" id="hCopyCode">📋 فقط کد</button><button class="btn" id="hNew">درخواست بعدی</button></div>
+      </div>
+      <div class="card"><h3>📋 کدهای قلب صادرشده</h3><div id="hList"></div></div>
+    </section>
+
     <!-- خریداران -->
     <section data-pane="buyers" class="hide">
       <h2>خریداران</h2>
@@ -226,7 +263,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
       <h2>بررسی یک کد</h2>
       <p class="lead">کدی که خریدار می‌گوید کار نمی‌کند را این‌جا بچسبان.</p>
       <div class="card">
-        <label class="f">کد فعال‌سازی<textarea id="cCode" class="ltr" style="min-height:80px" placeholder="TRP1-..."></textarea></label>
+        <label class="f">کد فعال‌سازی یا کد قلب<textarea id="cCode" class="ltr" style="min-height:80px" placeholder="TRP1-... یا TRH1-..."></textarea></label>
         <label class="f" style="margin-top:10px">Device ID دستگاه خریدار<input type="text" id="cDev" class="ltr" placeholder="XXXX-XXXX-XXXX"></label>
         <button class="btn btn--pr" id="cGo" style="margin-top:12px">بررسی</button>
         <div id="cOut"></div>
@@ -498,6 +535,98 @@ var NACL = {};
   };
   function goTab(t) { document.querySelector('.tab[data-tab="' + t + '"]').click(); }
 
+  /* ================= کد قلب (TRH1) برای نسخه سایت =================
+   * ۸ بایت: [10 kk 0000][مقدار ۱۶ بیتی یا سطح+ماه][دقیقه صدور ۳۲ بیتی][تصادفی] + امضای Ed25519 روی «TRAPO-HRT-1|شناسه حساب|داده» */
+  var hrtMsg = function (dev, p) { return enc.encode('TRAPO-HRT-1|' + normDev(dev) + '|' + hex(p)); };
+  var HK = { hearts: 0, ult: 1, plan: 2 }, PLANS = { bronze: [1, 'برنزی', 40], silver: [2, 'نقره‌ای', 80], gold: [3, 'طلایی', 150] };
+  function makeHeartCode(sk, dev, kind, a, b) {
+    var min = Math.floor((NOW() - EPOCH) / 60000), p = new Uint8Array(8), r = new Uint8Array(1); crypto.getRandomValues(r);
+    p[0] = (2 << 6) | (HK[kind] << 4);
+    if (kind === 'plan') { p[1] = a & 255; p[2] = b & 255; } else { p[1] = (a >>> 8) & 255; p[2] = a & 255; }
+    p[3] = (min >>> 24) & 255; p[4] = (min >>> 16) & 255; p[5] = (min >>> 8) & 255; p[6] = min & 255; p[7] = r[0];
+    var all = new Uint8Array(72); all.set(p); all.set(NACL.sign.detached(hrtMsg(dev, p), sk), 8);
+    return 'TRH1-' + b32enc(all).match(/.{1,8}/g).join('-');
+  }
+  function parseHeartCode(code, dev) {
+    var s = String(code || '').toUpperCase().replace(/[^0-9A-Z]/g, '');
+    if (s.length === 120 && s.indexOf('TRH1') === 0) s = s.slice(4);
+    if (s.length !== 116) return { ok: false, err: 'قالب کد قلب درست نیست (ناقص کپی شده)' };
+    var all = b32dec(s, 72); if (!all) return { ok: false, err: 'قالب کد قلب درست نیست' };
+    var p = all.slice(0, 8), sig = all.slice(8);
+    if (!PUBKEYS.some(function (k) { return NACL.sign.detached.verify(hrtMsg(dev, p), sig, b64bytes(k)); })) return { ok: false, err: 'این کد قلب برای این شناسه حساب نیست، یا یک نویسه‌اش تغییر کرده است' };
+    var kind = ['hearts', 'ult', 'plan'][(p[0] >> 4) & 3], min = ((p[3] << 24) >>> 0) + (p[4] << 16) + (p[5] << 8) + p[6];
+    var o = { ok: true, kind: kind, issued: EPOCH + min * 60000 };
+    if (kind === 'plan') { o.tier = ['', 'bronze', 'silver', 'gold'][p[1]]; o.months = p[2]; } else o.amount = (p[1] << 8) | p[2];
+    return o;
+  }
+  var HS = null;
+  function hReset() { HS = { dev: '', name: '', price: '', order: '', kind: 'hearts', amt: 150, tier: 'silver', custom: '' }; ['hMsg', 'hName', 'hDev', 'hPrice', 'hOrder', 'hCustom'].forEach(function (id) { $(id).value = ''; }); $('hParse').innerHTML = ''; $('hErr').innerHTML = ''; $('hOut').classList.add('hide'); renderHearts(); }
+  function hLabel(c) { return c.kind === 'hearts' ? nf(c.amount) + ' قلب' : c.kind === 'ult' ? 'نامحدود ' + nf(c.amount) + ' روز' : 'اشتراک ' + PLANS[c.tier][1] + ' ' + nf(c.months) + ' ماه'; }
+  function renderHearts() {
+    if (!HS) return hReset();
+    $('hKind').innerHTML = [['hearts', '❤️ شارژ قلب'], ['ult', '♾️ نامحدود (زمان‌دار)'], ['plan', '📅 اشتراک روزانه']].map(function (k) { return '<button data-hk="' + k[0] + '" class="' + (HS.kind === k[0] ? 'on' : '') + '">' + k[1] + '</button>'; }).join('');
+    var opts = HS.kind === 'hearts' ? [[50, '۵۰ قلب'], [150, '۱۵۰ قلب'], [400, '۴۰۰ قلب'], [1000, '۱۰۰۰ قلب']]
+      : HS.kind === 'ult' ? [[90, '۳ ماه'], [180, '۶ ماه'], [270, '۹ ماه'], [365, '۱۲ ماه']] : [[1, '۱ ماه'], [3, '۳ ماه']];
+    $('hAmtT').textContent = HS.kind === 'hearts' ? 'تعداد قلب' : HS.kind === 'ult' ? 'مدت نامحدود (بعد از آن خودکار حساب عادی می‌شود)' : 'سطح و مدت';
+    $('hAmt').innerHTML = (HS.kind === 'plan' ? Object.keys(PLANS).map(function (t) { return '<button data-ht="' + t + '" class="' + (HS.tier === t ? 'on' : '') + '">' + PLANS[t][1] + ' (' + nf(PLANS[t][2]) + ' در روز)</button>'; }).join('') + '<span style="width:100%"></span>' : '') +
+      opts.map(function (o) { return '<button data-ha="' + o[0] + '" class="' + (+HS.amt === o[0] && !HS.custom ? 'on' : '') + '">' + o[1] + '</button>'; }).join('');
+    $('hCustomL').firstChild.textContent = HS.kind === 'hearts' ? 'تعداد دلخواه قلب' : HS.kind === 'ult' ? 'تعداد دلخواه روز' : 'تعداد دلخواه ماه';
+    var list = (DATA && DATA.hcodes) || [];
+    $('hList').innerHTML = list.length ? list.slice().reverse().slice(0, 60).map(function (c, i) { return '<div class="msg info" style="display:flex;gap:8px;align-items:center;flex-wrap:wrap"><b>' + esc(c.name || 'بی‌نام') + '</b><span class="ltr">' + esc(c.dev) + '</span><span>' + esc(hLabel(c)) + '</span><span class="muted">' + esc(fdt(c.at)) + (c.order ? ' • ' + esc(c.order) : '') + (c.price ? ' • ' + nf(c.price) + ' تومان' : '') + '</span><button class="btn btn--sm" data-hcopy="' + (list.length - 1 - i) + '">📋 پیام</button></div>'; }).join('') : '<p class="muted">هنوز کد قلبی نساخته‌ای.</p>';
+  }
+  function hReady(c) {
+    var S = DATA.settings, kind = hLabel(c);
+    return ['سلام' + (c.name ? ' ' + c.name + ' عزیز' : '') + ' 🌷', 'کد قلب شما در «' + S.brand + '» آماده است ❤️', '',
+      '🎁 ' + kind + (c.kind === 'ult' ? ' (در این مدت قلب بی‌نهایت و شروع از هر درس؛ بعد از آن حساب خودکار به حالت عادی برمی‌گردد)' : c.kind === 'hearts' ? ' (بدون تاریخ انقضا، برای همه دوره‌ها)' : ''),
+      c.order ? '🔢 شماره سفارش: ' + c.order : null, '🪪 شناسه حساب: ' + c.dev, '',
+      '🎟️ کد قلب (کامل کپی کنید):', c.code, '',
+      'راهنما: در سایت وارد حساب شوید ← «🎟️ وارد کردن کد» ← کد بالا را بچسبانید.',
+      '⚠️ این کد فقط روی همین حساب و فقط یک بار کار می‌کند و تا ۶۰ روز دیگر معتبر است.', S.support ? '💬 ' + S.support : null].filter(function (x) { return x !== null; }).join('\n');
+  }
+  $('hMsg').oninput = function () {
+    var t = fa2en($('hMsg').value);
+    var m = /TRAPO-HEART:([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4}):([a-z]+(?::[a-z0-9]+){1,2}):(ORD-[0-9A-Z]{6})/i.exec(t), got = [];
+    if (m) {
+      HS.dev = m[1].toUpperCase(); HS.order = m[3].toUpperCase(); got.push('شناسه حساب', 'سفارش');
+      var pr = m[2].toLowerCase().split(':');
+      if (pr[0] === 'pack') { HS.kind = 'hearts'; HS.amt = +pr[1]; HS.custom = ''; got.push(nf(+pr[1]) + ' قلب'); }
+      else if (pr[0] === 'ult') { HS.kind = 'ult'; HS.amt = +pr[1] * 30; HS.custom = [90, 180, 270, 365].indexOf(+pr[1] * 30) >= 0 ? '' : String(+pr[1] * 30); got.push('نامحدود ' + nf(+pr[1]) + ' ماه'); }
+      else if (pr[0] === 'plan' && PLANS[pr[1]]) { HS.kind = 'plan'; HS.tier = pr[1]; HS.amt = +pr[2]; HS.custom = ''; got.push('اشتراک ' + PLANS[pr[1]][1]); }
+    } else { var d = /\b([0-9A-Z]{4}-[0-9A-Z]{4}-[0-9A-Z]{4})\b/i.exec(t); if (d) { HS.dev = d[1].toUpperCase(); got.push('شناسه حساب'); } }
+    var n = /(?:^|\n)\s*(?:👤\s*)?(?:نام|Name)\s*:\s*(.+)/.exec($('hMsg').value); if (n) { HS.name = n[1].trim().slice(0, 80); got.push('نام'); }
+    var pz = /(?:مبلغ|Amount)\s*:\s*([\d,٬.\s]+)/.exec(t); if (pz) { HS.price = +pz[1].replace(/[^\d]/g, '') || ''; got.push('مبلغ'); }
+    $('hName').value = HS.name; $('hDev').value = HS.dev; $('hPrice').value = HS.price ? String(HS.price) : ''; $('hOrder').value = HS.order; $('hCustom').value = HS.custom;
+    var dupe = HS.order && (DATA.hcodes || []).filter(function (c) { return c.order === HS.order; })[0];
+    $('hParse').innerHTML = (got.length ? '<div class="msg ok">✓ از پیام خوانده شد: ' + esc(got.join('، ')) + '</div>' : '<div class="msg warn">پیام شناخته نشد؛ دستی پر کن.</div>') +
+      (dupe ? '<div class="msg warn">⚠️ برای این سفارش در ' + esc(fdt(dupe.at)) + ' قبلاً کد قلب ساخته‌ای.</div>' : '');
+    renderHearts();
+  };
+  $('hPaste').onclick = function () { if (!navigator.clipboard || !navigator.clipboard.readText) return toast('با Ctrl+V بچسبان'); navigator.clipboard.readText().then(function (t) { $('hMsg').value = t; $('hMsg').oninput(); }).catch(function () { toast('با Ctrl+V بچسبان'); }); };
+  $('hClear').onclick = hReset; $('hNew').onclick = function () { hReset(); window.scrollTo(0, 0); };
+  ['hName', 'hDev', 'hPrice', 'hOrder', 'hCustom'].forEach(function (id) { $(id).addEventListener('input', function () { HS.name = $('hName').value; HS.dev = $('hDev').value; HS.order = $('hOrder').value.trim().toUpperCase(); HS.price = +fa2en($('hPrice').value).replace(/[^\d]/g, '') || ''; HS.custom = fa2en($('hCustom').value).replace(/[^\d]/g, ''); if (id === 'hCustom') renderHearts(); }); });
+  $('hKind').onclick = function (e) { var b = e.target.closest('[data-hk]'); if (b) { HS.kind = b.dataset.hk; HS.amt = HS.kind === 'hearts' ? 150 : HS.kind === 'ult' ? 90 : 1; HS.custom = ''; $('hCustom').value = ''; renderHearts(); } };
+  $('hAmt').onclick = function (e) { var b = e.target.closest('[data-ha]'); if (b) { HS.amt = +b.dataset.ha; HS.custom = ''; $('hCustom').value = ''; renderHearts(); } var t = e.target.closest('[data-ht]'); if (t) { HS.tier = t.dataset.ht; renderHearts(); } };
+  $('hList').onclick = function (e) { var b = e.target.closest('[data-hcopy]'); if (b) copy(hReady(DATA.hcodes[+b.dataset.hcopy])); };
+  $('hGo').onclick = function () {
+    var fail = function (t) { $('hErr').innerHTML = '<div class="msg bad">' + esc(t) + '</div>'; };
+    $('hErr').innerHTML = '';
+    if (!SK) return fail('پنل قفل است.');
+    var dev = normDev(HS.dev); if (dev.length !== 12) return fail('شناسه حساب باید ۱۲ نویسه باشد (مثل ABCD-EFGH-JKMN). پیام کامل کاربر را بچسبان یا از «تنظیمات ← حساب» کاربر بپرس.');
+    var a = +(HS.custom || HS.amt);
+    if (!(a >= 1)) return fail('مقدار را انتخاب کن.');
+    if (HS.kind === 'hearts' && a > 65535) return fail('حداکثر ۶۵۵۳۵ قلب در یک کد.');
+    if (HS.kind === 'ult' && a > 3650) return fail('حداکثر ۳۶۵۰ روز.');
+    if (HS.kind === 'plan' && a > 24) return fail('حداکثر ۲۴ ماه.');
+    var devF = fmtDev(dev), code = HS.kind === 'plan' ? makeHeartCode(SK, devF, 'plan', PLANS[HS.tier][0], a) : makeHeartCode(SK, devF, HS.kind, a);
+    var g = parseHeartCode(code, devF); if (!g.ok) return fail('خطای داخلی در ساخت کد: ' + g.err);
+    var c = { at: NOW(), dev: devF, name: (HS.name || '').trim().slice(0, 80), kind: HS.kind, amount: HS.kind === 'plan' ? undefined : a, tier: HS.kind === 'plan' ? HS.tier : undefined, months: HS.kind === 'plan' ? a : undefined, price: +HS.price || 0, order: HS.order || '', code: code };
+    DATA.hcodes = DATA.hcodes || []; DATA.hcodes.push(c); save();
+    $('hReady').textContent = hReady(c); $('hOut').classList.remove('hide'); HS.last = c; renderHearts();
+    copy(hReady(c)); setTimeout(function () { $('hOut').scrollIntoView({ behavior: 'smooth', block: 'center' }); }, 30);
+  };
+  $('hCopy').onclick = function () { if (HS && HS.last) copy(hReady(HS.last)); };
+  $('hCopyCode').onclick = function () { if (HS && HS.last) copy(HS.last.code); };
+
   /* ================= خواندن پیام سفارش ================= */
   function parseOrder(text) {
     var t = fa2en(text), o = {};
@@ -767,6 +896,17 @@ var NACL = {};
   /* ================= بررسی کد ================= */
   $('cGo').onclick = function () {
     var code = $('cCode').value, dev = $('cDev').value, out = $('cOut');
+    if (/^\s*TRH1/i.test(code)) {
+      var cn = String(code).toUpperCase().replace(/[^0-9A-Z]/g, ''), hh = DATA && (DATA.hcodes || []).filter(function (c) { return c.code.replace(/[^0-9A-Z]/g, '') === cn; })[0];
+      if (!dev && hh) dev = hh.dev;
+      if (!dev) { out.innerHTML = '<div class="msg warn">شناسه حساب خریدار را هم بنویس (این کد قلب در فهرست این پنل نیست).</div>'; return; }
+      var q = parseHeartCode(code, dev), age = q.ok ? Math.floor((NOW() - q.issued) / 86400000) : 0;
+      out.innerHTML = !q.ok ? '<div class="msg bad">✗ ' + esc(q.err) + '</div>' + (hh ? '<div class="msg info">این کد برای ' + esc(hh.name || 'بی‌نام') + ' با شناسه ' + esc(hh.dev) + ' ساخته شده؛ احتمالاً خریدار با حساب دیگری وارد شده است.</div>' : '')
+        : '<div class="msg ' + (age <= 60 ? 'ok' : 'bad') + '">' + (age <= 60 ? '✓ کد قلب معتبر' : '✗ کد قلب درست است ولی مهلت ۶۰ روزه‌اش گذشته') + ' — ' + esc(hLabel(q)) + ' • ساخته‌شده ' + esc(fdt(q.issued)) + '</div>'
+          + '<div class="msg info">هر کد قلب فقط یک بار روی همین حساب وارد می‌شود. اگر خریدار می‌گوید «قبلاً استفاده شده»، یعنی قلب‌ها پیش‌تر به حسابش اضافه شده‌اند.</div>'
+          + (hh ? '<div class="msg info">👤 ساخته‌شده برای ' + esc(hh.name || 'بی‌نام') + (hh.order ? ' • ' + esc(hh.order) : '') + '</div>' : '<div class="msg warn">این کد در فهرست کدهای قلب این پنل نیست.</div>');
+      return;
+    }
     var hit = null; if (DATA) for (var k in DATA.buyers) DATA.buyers[k].codes.forEach(function (c) { if (c.code.replace(/[^0-9A-Z]/g, '') === String(code).toUpperCase().replace(/[^0-9A-Z]/g, '')) hit = { b: DATA.buyers[k], c: c }; });
     if (!dev && hit) dev = hit.b.dev;
     if (!dev) { out.innerHTML = '<div class="msg warn">Device ID دستگاه خریدار را هم بنویس (این کد در فهرست خریداران نیست).</div>'; return; }
@@ -866,7 +1006,7 @@ var NACL = {};
 
   function renderAll() {
     $('hdrSub').textContent = 'خریداران: ' + nf(Object.keys(DATA.buyers).length) + '  |  دوره‌ها: ' + nf(COURSES.length);
-    renderIssue(); renderBuyers(); renderSettings();
+    renderIssue(); renderBuyers(); renderSettings(); renderHearts();
   }
   var _rb = renderBuyers; renderBuyers = function () { _rb(); if (DATA) $('hdrSub').textContent = 'خریداران: ' + nf(Object.keys(DATA.buyers).length) + '  |  دوره‌ها: ' + nf(COURSES.length); };
 

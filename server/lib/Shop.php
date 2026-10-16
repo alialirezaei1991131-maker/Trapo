@@ -169,8 +169,10 @@ final class Shop
             if ($q['creditUsed']) $L[] = '👛 ' . $T('اعتبار کیف پول', 'Wallet credit') . ': −' . $nf($q['creditUsed']) . ' ' . $cur;
             $L[] = '💰 ' . $T('مبلغ', 'Amount') . ': ' . $nf($q['final']) . ' ' . $cur;
             $L[] = '🔢 ' . $T('کد سفارش', 'Order ID') . ': ' . $code;
+            $L[] = '🪪 ' . $T('شناسه حساب', 'Account ID') . ': ' . $u['dev_id'];
             $L[] = '━━━━━━━━━━━━━━';
-            $L[] = $T('پس از تأیید پرداخت، قلب‌ها خودکار به حسابت اضافه می‌شوند. 🙏', 'Once your payment is confirmed, the hearts are added to your account automatically. 🙏');
+            $L[] = $T('پس از تأیید پرداخت، قلب‌ها خودکار به حسابت اضافه می‌شوند یا یک «کد قلب» برایت فرستاده می‌شود. 🙏', 'Once your payment is confirmed, the hearts are added automatically or you receive a heart code. 🙏');
+            $L[] = '🔧 TRAPO-HEART:' . $u['dev_id'] . ':' . $q['product'] . ':' . $code; // خط ماشینی برای پنل مدیر (صدور کد قلب)
             return implode("\n", $L);
         }
         $L = [

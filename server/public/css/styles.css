@@ -2472,6 +2472,9 @@ body.no-scroll .qfab, .player ~ .qfab { display: none; }
 @media (prefers-reduced-motion: reduce) { .av__b, .av__eyes, .av__sh, .avp__o, .avp__say.is-in { animation: none !important; } }
 .modal.modal--quests .modal__card { padding: 0 !important; }
 .modal--quests .dcpop__x { z-index: 2; color: #3d2a00; }
+.hcd { display: grid; gap: 8px; justify-items: center; text-align: center; }
+.hcd__big { font: 900 clamp(40px, 10vw, 56px)/1.1 Nunito, Vazirmatn, sans-serif; color: #e5383b; animation: avPop .7s cubic-bezier(.3, 1.8, .5, 1), hbump 1.4s ease-in-out .7s infinite; }
+.hcd h3 { margin: 0; font-size: 22px; font-weight: 900; } .hcd p { margin: 0; color: var(--muted); font-weight: 700; line-height: 1.9; }
 
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
