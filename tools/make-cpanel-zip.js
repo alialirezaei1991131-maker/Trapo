@@ -33,8 +33,11 @@ const dirs = [...new Set(entries.flatMap(([n]) => n.split('/').slice(0, -1).map(
 entries.unshift(...dirs.map(d => [d, null]));
 for (const [name] of entries) if (/(^|\/)config\.php$|\.sqlite|admin-key/i.test(name)) { console.error('refusing to pack secret file:', name); process.exit(1); }
 
-// نوشتن ZIP (بدون وابستگی): فشرده‌سازی deflate، نام فایل UTF-8، زمان ثابت تا بسته تکرارپذیر باشد
-const DOS_TIME = 0, DOS_DATE = (2024 - 1980) << 9 | 1 << 5 | 1;
+// نوشتن ZIP (بدون وابستگی): فشرده‌سازی deflate، نام فایل UTF-8
+// زمان فایل‌ها = زمان ساخت بسته؛ اگر ثابت باشد، کش PHP هاست (opcache) فایل تازه را با فایل قبلی یکی می‌گیرد و کد قدیمی را اجرا می‌کند
+const NOW = new Date();
+const DOS_TIME = NOW.getHours() << 11 | NOW.getMinutes() << 5 | Math.floor(NOW.getSeconds() / 2);
+const DOS_DATE = (NOW.getFullYear() - 1980) << 9 | (NOW.getMonth() + 1) << 5 | NOW.getDate();
 const parts = [], central = []; let off = 0;
 for (const [name, file] of entries) {
   const data = file ? fs.readFileSync(file) : Buffer.alloc(0), nameB = Buffer.from(name, 'utf8');

@@ -3,7 +3,7 @@
 (function () {
   'use strict';
   var EN = {
-    brand: 'Therapo', navCourses: 'Courses', navFaq: 'FAQ', install: 'Install app', login: 'Sign in', register: 'Create free account',
+    brand: 'Therapo', navCourses: 'Courses', navPrice: 'Pricing', navFaq: 'FAQ', install: 'Install app', login: 'Sign in', register: 'Create free account',
     kicker: 'Clinical training academy · for students and healthcare staff',
     h1: 'Learn clinical skills with three-minute lessons and realistic patients',
     lead: 'Electrolyte correction, blood gas interpretation, the nutrition-focused exam and medical terminology — short, interactive and practical for the ward, on-call and exams. With a completion certificate.',
@@ -23,7 +23,7 @@
     w4t: '🚨 Combined ICU cases', w4: 'Critically ill patients who need electrolytes, blood gases and nutrition at once.',
     w5t: '🎓 Completion certificate', w5: 'Pass the final exam to get a certificate with your name and a tracking code.',
     w6t: '📱 On every device', w6: 'Phone, tablet, laptop — installable like an app, with progress tied to your account.',
-    sT: 'Start in three steps', s1: 'Sign up free (email or mobile number).', s2: 'Pick your course and start the free lessons.', s3: 'A subscription unlocks every lesson, case, tool and certificate.',
+    sT: 'Start in three steps', s1: 'Sign up free (email or mobile number).', s2: 'Pick your course and start the free lessons.', s3: 'Buying hearts (a daily plan, a pack or Ultimate) unlocks every lesson, case, tool and certificate.',
     fT: 'Frequently asked questions', endT: 'Start your first lesson today',
     foot: 'Therapo is an educational tool and does not replace clinical judgment or a physician’s orders.', wait: 'Please wait…'
   };
@@ -53,7 +53,7 @@
   var mode = 'login';
   var $ = function (s) { return document.querySelector(s); };
   var f = $('.au__f'), err = $('.au__err'), go = $('.au__go');
-  if ($('[data-gift]')) mode = 'register';
+  if ($('[data-gift]') || /[?&]signup=1/.test(location.search)) mode = 'register';
   var FA = [];
   document.querySelectorAll('[data-t]').forEach(function (el) { FA.push([el, el.innerHTML]); });
   var titles = { fa: document.title, en: 'Therapo | Clinical training in electrolytes, blood gases, clinical nutrition and medical terminology' };

@@ -13,8 +13,10 @@ if (($_GET['f'] ?? '') === 'sitemap') {
     $ms = preg_match('/^[0-9a-z]{6,12}$/', $ver) ? (int) base_convert($ver, 36, 10) : 0;
     $last = gmdate('Y-m-d', $ms > 1.6e12 ? intdiv($ms, 1000) : time());
     echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n" . '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n"
-        . '  <url><loc>' . htmlspecialchars($base . '/', ENT_XML1) . '</loc><lastmod>' . $last . '</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' . "\n"
-        . '</urlset>' . "\n";
+        . '  <url><loc>' . htmlspecialchars($base . '/', ENT_XML1) . '</loc><lastmod>' . $last . '</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>' . "\n";
+    foreach ((array) require TRAPO_ROOT . '/lib/views/seo-courses.php' as $c)
+        echo '  <url><loc>' . htmlspecialchars($base . '/course/' . $c['slug'], ENT_XML1) . '</loc><lastmod>' . $last . '</lastmod><changefreq>monthly</changefreq><priority>0.9</priority></url>' . "\n";
+    echo '</urlset>' . "\n";
     exit;
 }
 header('Content-Type: text/plain; charset=utf-8');

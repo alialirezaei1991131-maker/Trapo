@@ -3,6 +3,7 @@
  * متغیرها از index.php: $esc, $refPre, $R, $kicked, $maxDev, $nonce
  * هیچ کدی از برنامه در این صفحه نیست؛ فقط معرفی و فرم. */
 $base = rtrim((string) Cfg::get('base_url', ''), '/');
+require_once TRAPO_ROOT . '/lib/views/pricing.php';
 $fd = (int) ($R['friend_discount_pct'] ?? 0);
 $title = 'تراپو | آموزش بالینی الکترولیت، گاز خون، تغذیه بالینی و ترمینولوژی پزشکی';
 $desc = 'تراپو آکادمی آموزش بالینی برای دانشجویان پزشکی، پرستاری و تغذیه: اصلاح الکترولیت، تفسیر گاز خون (ABG)، معاینه تغذیه‌محور (NFPE) و ترمینولوژی پزشکی با ۹۴۵ درس کوتاه، ۲۷۲ کیس بالینی و گواهی پایان دوره. شروع رایگان.';
@@ -29,8 +30,11 @@ $faq = [
      'برای دانشجویان و فارغ‌التحصیلان پزشکی، پرستاری، مامایی، داروسازی، تغذیه و پیراپزشکی، و کادر درمان بخش‌های ICU و اورژانس که می‌خواهند مهارت‌های بالینی را سریع و کاربردی تمرین کنند.',
      'Students and graduates of medicine, nursing, midwifery, pharmacy, nutrition and allied health, and ICU/ER staff who want fast, practical clinical practice.'],
     ['آیا استفاده از تراپو رایگان است؟', 'Is Therapo free?',
-     'ثبت‌نام رایگان است و درس‌های اول هر دوره بدون پرداخت باز می‌شوند. برای همه درس‌ها، کیس‌ها، ابزارها و گواهی، اشتراک یک دوره یا پکیج الماس (همه دوره‌ها) را تهیه می‌کنی.',
-     'Signing up is free and the first lessons of every course are open. A course subscription or the Diamond package (all courses) unlocks every lesson, case, tool and certificate.'],
+     'ثبت‌نام رایگان است و هر روز ' . trapo_fa_num(Hearts::catalog()['free']) . ' قلب رایگان برای درس‌های رایگان هر دوره داری. برای همه درس‌ها، کیس‌ها، ابزارها و گواهی، قلب می‌خری: اشتراک روزانه (برنزی، نقره‌ای، طلایی)، بسته قلب بدون انقضا یا پلن نامحدود؛ همان قلب‌ها همه دوره‌ها را باز می‌کنند.',
+     'Signing up is free and you get ' . Hearts::catalog()['free'] . ' free hearts a day for the free lessons. To open every lesson, case, tool and certificate you buy hearts — a daily plan (Bronze, Silver, Gold), a heart pack that never expires, or Ultimate — and they work on every course.'],
+    ['قلب‌ها چطور خرج می‌شوند؟', 'How are hearts spent?',
+     'هر پاسخ درست ' . trapo_fa_num(Hearts::catalog()['cost']['right']) . ' قلب و هر پاسخ نادرست ' . trapo_fa_num(Hearts::catalog()['cost']['wrong']) . ' قلب، هر ابزار بالینی ' . trapo_fa_num(Hearts::catalog()['cost']['tool']) . ' قلب (تا ۱۵ دقیقه)، هر کیس بالینی ' . trapo_fa_num(Hearts::catalog()['cost']['round']) . '، آزمون مرحله ' . trapo_fa_num(Hearts::catalog()['cost']['checkpoint']) . ' و امتحان نهایی ' . trapo_fa_num(Hearts::catalog()['cost']['final']) . ' قلب. تمرین مرور رایگان است و قلب هم برمی‌گرداند. سهمیه روزانه هر نیمه‌شب دوباره پر می‌شود.',
+     'Each correct answer costs ' . Hearts::catalog()['cost']['right'] . ' heart and each wrong one ' . Hearts::catalog()['cost']['wrong'] . '; each clinical tool ' . Hearts::catalog()['cost']['tool'] . ' (for 15 minutes), each clinical case ' . Hearts::catalog()['cost']['round'] . ', a checkpoint ' . Hearts::catalog()['cost']['checkpoint'] . ' and the final exam ' . Hearts::catalog()['cost']['final'] . '. Review practice is free and gives hearts back. Daily hearts refill every midnight.'],
     ['هر درس چقدر طول می‌کشد؟', 'How long is each lesson?',
      'هر درس حدود سه دقیقه است: یک کارت آموزشی کوتاه، سؤال‌های تعاملی و در پایان هر بخش، بیمار واقعی‌نما و آزمون مرحله.',
      'About three minutes: a short teaching card and interactive questions, with realistic patients and a stage test at the end of each section.'],
@@ -47,7 +51,7 @@ $ld = [
         ['@type' => 'EducationalOrganization', '@id' => $base . '/#org', 'name' => 'تراپو', 'alternateName' => 'Therapo', 'url' => $base . '/', 'logo' => $base . '/appicons/icon-512.png', 'description' => $desc],
         ['@type' => 'WebSite', '@id' => $base . '/#site', 'name' => 'تراپو', 'url' => $base . '/', 'inLanguage' => 'fa-IR', 'publisher' => ['@id' => $base . '/#org']],
         ['@type' => 'ItemList', 'name' => 'دوره‌های تراپو', 'itemListElement' => array_map(function ($c, $i) use ($base) {
-            return ['@type' => 'ListItem', 'position' => $i + 1, 'item' => ['@type' => 'Course', 'name' => $c[1] . ' · ' . $c[3], 'description' => $c[6], 'inLanguage' => 'fa',
+            return ['@type' => 'ListItem', 'position' => $i + 1, 'url' => $base . '/course/' . $c[0], 'item' => ['@type' => 'Course', 'name' => $c[1] . ' · ' . $c[3], 'description' => $c[6], 'inLanguage' => 'fa', 'url' => $base . '/course/' . $c[0], 'offers' => trapo_offers($base . '/course/' . $c[0]),
                 'provider' => ['@id' => $base . '/#org'], 'educationalLevel' => 'Professional', 'hasCourseInstance' => ['@type' => 'CourseInstance', 'courseMode' => 'online']]];
         }, $courses, array_keys($courses))],
         ['@type' => 'FAQPage', 'mainEntity' => array_map(function ($q) { return ['@type' => 'Question', 'name' => $q[0], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $q[2]]]; }, $faq)],
@@ -93,7 +97,7 @@ $ld = [
     <b data-t="brand">تراپو</b>
   </a>
   <nav class="lp-nav">
-    <a href="#courses" data-t="navCourses">دوره‌ها</a><a href="#faq" data-t="navFaq">سؤال‌های رایج</a>
+    <a href="#courses" data-t="navCourses">دوره‌ها</a><a href="#pricing" data-t="navPrice">قیمت‌ها</a><a href="#faq" data-t="navFaq">سؤال‌های رایج</a>
     <button type="button" class="lp-inst" data-install hidden>📲 <span data-t="install">نصب اپ</span></button>
     <button type="button" class="au__lang" data-lang aria-label="English">🌐 <b>English</b></button>
     <a class="lp-cta lp-cta--sm" href="#join" data-go-tab="login" data-t="login">ورود</a>
@@ -153,13 +157,16 @@ $ld = [
       <?php foreach ($courses as $c): ?>
       <article class="lp-c" style="--cc:<?= $c[5] ?>">
         <img src="img/m-<?= $c[0] ?>.svg" width="96" height="120" alt="<?= $esc($c[1]) ?>" loading="lazy">
-        <h3><span data-l="fa"><?= $esc($c[1]) ?></span><span data-l="en" lang="en"><?= $esc($c[2]) ?></span> <small><span data-l="fa"><?= $esc($c[3]) ?></span><span data-l="en" lang="en"><?= $esc($c[4]) ?></span></small></h3>
+        <h3><a href="course/<?= $c[0] ?>"><span data-l="fa"><?= $esc($c[1]) ?></span><span data-l="en" lang="en"><?= $esc($c[2]) ?></span> <small><span data-l="fa"><?= $esc($c[3]) ?></span><span data-l="en" lang="en"><?= $esc($c[4]) ?></span></small></a></h3>
         <p><span data-l="fa"><?= $esc($c[6]) ?></span><span data-l="en" lang="en"><?= $esc($c[7]) ?></span></p>
         <p class="lp-aud">👥 <b data-t="for">مناسب برای</b> <span data-l="fa"><?= $esc($c[8]) ?></span><span data-l="en" lang="en"><?= $esc($c[9]) ?></span></p>
+        <a class="lp-more" href="course/<?= $c[0] ?>"><span data-l="fa">سرفصل‌ها و معرفی کامل <?= $esc($c[1]) ?> ←</span><span data-l="en" lang="en">Full syllabus of <?= $esc($c[2]) ?> →</span></a>
       </article>
       <?php endforeach; ?>
     </div>
   </section>
+
+  <?= trapo_pricing_html($esc) ?>
 
   <section class="lp-sec" aria-labelledby="w-t">
     <h2 id="w-t" data-t="wT">چرا تراپو؟</h2>
@@ -178,7 +185,7 @@ $ld = [
     <ol class="lp-steps">
       <li><b>۱</b><span data-t="s1">رایگان ثبت‌نام کن (ایمیل یا شماره موبایل).</span></li>
       <li><b>۲</b><span data-t="s2">دوره‌ات را انتخاب کن و درس‌های رایگان را شروع کن.</span></li>
-      <li><b>۳</b><span data-t="s3">با اشتراک، همه درس‌ها، کیس‌ها، ابزارها و گواهی باز می‌شوند.</span></li>
+      <li><b>۳</b><span data-t="s3">با خرید قلب (اشتراک روزانه، بسته یا نامحدود)، همه درس‌ها، کیس‌ها، ابزارها و گواهی باز می‌شوند.</span></li>
     </ol>
   </section>
 

@@ -77,6 +77,8 @@ final class Db
             "CREATE TABLE IF NOT EXISTS promos (code $S PRIMARY KEY, pct $I NOT NULL, plans $S NOT NULL, until_at $I NULL, max_uses $I NULL,
                uses $I NOT NULL DEFAULT 0, label $S NOT NULL DEFAULT '', active $I NOT NULL DEFAULT 1, created_at $I NOT NULL)$E",
             "CREATE TABLE IF NOT EXISTS rate (k $S PRIMARY KEY, n $I NOT NULL, reset_at $I NOT NULL)$E",
+            "CREATE TABLE IF NOT EXISTS wallets (user_id $I PRIMARY KEY, plan $S NULL, plan_until $I NOT NULL DEFAULT 0, ult_until $I NOT NULL DEFAULT 0,
+               bank $I NOT NULL DEFAULT 0, day $S NOT NULL DEFAULT '', day_left $I NOT NULL DEFAULT 0, prac_n $I NOT NULL DEFAULT 0, updated_at $I NOT NULL DEFAULT 0)$E",
             "CREATE TABLE IF NOT EXISTS audit (id $PK, user_id $I NULL, action $S NOT NULL, ip $S NOT NULL DEFAULT '', meta $T NULL, created_at $I NOT NULL)$E",
         ];
         foreach ($sql as $s) self::$pdo->exec($s);
@@ -84,6 +86,8 @@ final class Db
         foreach (['login_key', 'contact', 'contact_key'] as $col) {
             try { self::$pdo->exec("ALTER TABLE users ADD COLUMN $col $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ }
         }
+        try { self::$pdo->exec("ALTER TABLE orders ADD COLUMN product $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ } // محصول قلب
+        try { self::$pdo->exec("ALTER TABLE wallets ADD COLUMN ans_pool $I NOT NULL DEFAULT 0"); } catch (Throwable $e) { /* ستون از قبل هست */ } // قلب پاسخ‌های درس برای تطبیق
         try {
             foreach (self::$pdo->query('SELECT id, login FROM users WHERE login_key IS NULL')->fetchAll() as $r) {
                 self::$pdo->prepare('UPDATE users SET login_key = ? WHERE id = ?')->execute([Auth::identityKey((string) $r['login']), $r['id']]);

@@ -30,4 +30,6 @@ AddDefaultCharset utf-8
   # موتورهای جست‌وجو: robots.txt و sitemap.xml با نشانی همین سایت (seo.php)
   RewriteRule ^robots\.txt$ seo.php?f=robots [L]
   RewriteRule ^sitemap\.xml$ seo.php?f=sitemap [L]
+  # صفحه معرفی هر دوره: /course/yona → course.php?c=yona
+  RewriteRule ^course/([a-z]{2,20})/?$ course.php?c=$1 [L,QSA]
 </IfModule>

@@ -56,15 +56,18 @@ final class Manage
     {
         $q = trim($q);
         $cols = 'id, login, contact, name, dev_id, ref_code, credit, created_at, last_login';
-        if ($q === '') return Db::all("SELECT $cols FROM users ORDER BY id DESC LIMIT 50");
+        if ($q === '') $rows = Db::all("SELECT $cols FROM users ORDER BY id DESC LIMIT 50");
+        else {
         $like = '%' . str_replace(['%', '_'], ['\%', '\_'], mb_substr($q, 0, 60)) . '%';
         $key = Auth::identityKey($q);
         $rows = Db::all("SELECT $cols FROM users WHERE login LIKE ? ESCAPE '\\' OR contact LIKE ? ESCAPE '\\' OR name LIKE ? ESCAPE '\\' OR dev_id LIKE ? ESCAPE '\\' OR ref_code = ? OR login_key = ? OR contact_key = ? ORDER BY id DESC LIMIT 50",
             [$like, $like, $like, $like, strtoupper($q), $key, $key]);
+        }
         foreach ($rows as &$r) {
             $r['licenses'] = Db::all('SELECT tier, mask, dur, exp, life, created_at FROM licenses WHERE user_id = ?', [$r['id']]);
             $r['orders'] = Db::all('SELECT order_code, final_price, status, created_at FROM orders WHERE user_id = ? ORDER BY id DESC LIMIT 10', [$r['id']]);
             $r['invited'] = (int) Db::val('SELECT COUNT(*) FROM referrals WHERE referrer_id = ?', [$r['id']]);
+            $r['wallet'] = Hearts::state((int) $r['id']);
         }
         return $rows;
     }

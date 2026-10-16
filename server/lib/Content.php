@@ -22,7 +22,8 @@ final class Content
         $dir = self::dir();
         $full = $dir . '/' . $f;
         if (!is_file($full)) return null;
-        $paid = function (string $course) use ($u): bool { return License::access((int) $u['id'], $course)['tier'] >= 1; };
+        $hp = Hearts::paid((int) $u['id']); // خریدار قلب (اشتراک، بسته یا نامحدود) همه دوره‌ها را کامل می‌گیرد
+        $paid = function (string $course) use ($u, $hp): bool { return $hp || License::access((int) $u['id'], $course)['tier'] >= 1; };
         // حیطه‌های ترمینو: مقدمه (لِکسا) برای همه (پیش‌نمایش)، بقیه فقط برای مشترکان
         if (preg_match('~^courses/termino/([a-z]+)(-img|\.en)?\.js$~', $f, $m)) {
             if ($paid('termino')) return $full;
@@ -70,6 +71,7 @@ final class Content
     /** همان قاعده برنامه: الماس، یا اشتراک فعال در حداقل ۲ دوره */
     public static function grandAllowed(int $uid): bool
     {
+        if (Hearts::paid($uid)) return true; // با قلب: هر کیس ۳ قلب
         $n = 0;
         foreach (array_keys((array) Cfg::get('course_bits', [])) as $c) {
             $t = License::access($uid, (string) $c)['tier'];

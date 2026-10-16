@@ -99,3 +99,58 @@ html[lang="en"] .lp-hero h1 { line-height: 1.15; letter-spacing: -.02em; }
   .lp-logo b { font-size: 19px; }
   .lp-hero__cta > * { flex: 1 1 100%; }
 }
+
+/* ===== قیمت قلب‌ها ===== */
+.lp-c h3 a { color: inherit; text-decoration: none; display: grid; gap: 2px; }
+.lp-more { margin-top: 2px; font-weight: 800; font-size: 14px; color: var(--cc); text-decoration: none; }
+.lp-more:hover, .lp-c h3 a:hover { text-decoration: underline; }
+.lp-plans { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 230px), 1fr)); gap: 14px; margin-top: 18px; }
+.lp-plan { position: relative; display: grid; gap: 8px; align-content: start; padding: 20px 18px; border-radius: 22px; background: var(--card); border: 1.5px solid color-mix(in srgb, var(--pc, #ff4b4b) 35%, var(--line)); box-shadow: 0 14px 34px -26px color-mix(in srgb, var(--pc, #ff4b4b) 80%, transparent); }
+.lp-plan--free { --pc: #12b3a8; } .lp-plan--bronze { --pc: #cd7f32; } .lp-plan--silver { --pc: #7f93a1; } .lp-plan--gold { --pc: #e5a500; }
+.lp-plan.is-pop { border-width: 2.5px; transform: translateY(-4px); }
+.lp-plan__b { position: absolute; top: -12px; inset-inline-start: 18px; padding: 2px 12px; border-radius: 999px; background: #ff4b4b; color: #fff; font-size: 12.5px; font-weight: 900; }
+.lp-plan h3 { margin: 0; font-size: 20px; font-weight: 900; }
+.lp-plan__d { margin: 0; color: var(--muted); font-weight: 700; } .lp-plan__d b { color: #e5383b; font-size: 22px; font-weight: 900; }
+.lp-plan__p { margin: 0; font-weight: 800; color: var(--muted); } .lp-plan__p b { color: var(--ink); font-size: 26px; font-weight: 900; }
+.lp-plan ul, .lp-x ul { list-style: none; margin: 0; padding: 0; display: grid; gap: 6px; }
+.lp-plan li { font-weight: 600; font-size: 14px; color: var(--muted); padding-inline-start: 22px; position: relative; }
+.lp-plan li::before { content: '✓'; position: absolute; inset-inline-start: 0; color: var(--pc); font-weight: 900; }
+.lp-plan .lp-ghost { justify-self: start; margin-top: 4px; }
+.lp-extra { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 320px), 1fr)); gap: 14px; margin-top: 14px; }
+.lp-x { padding: 18px; border-radius: 22px; background: var(--card); border: 1px solid var(--line); display: grid; gap: 10px; }
+.lp-x h3 { margin: 0; font-size: 17px; font-weight: 900; }
+.lp-x li { display: flex; justify-content: space-between; gap: 10px; padding: 8px 12px; border-radius: 12px; background: color-mix(in srgb, #ff4b4b 6%, var(--card)); font-weight: 700; }
+.lp-x--ult li { background: color-mix(in srgb, #a560e8 9%, var(--card)); }
+.lp-x li b { font-weight: 900; }
+.lp-note { margin: 14px 0 0; color: var(--muted); font-weight: 700; }
+
+/* ===== صفحه معرفی هر دوره ===== */
+.cp-bc { max-width: 1160px; margin: 0 auto; padding: 10px 16px 0; font-size: 14px; font-weight: 700; color: var(--muted); }
+.cp-bc a { color: var(--brand-d); text-decoration: none; } .cp-bc a:hover { text-decoration: underline; }
+.cp-hero h1 { color: var(--ink); }
+.cp-tag { margin: 0 0 6px; font-size: 18px; font-weight: 900; color: var(--cc); }
+.cp-art { display: grid; place-items: center; padding: 20px; border-radius: 32px; background: radial-gradient(circle at 50% 40%, color-mix(in srgb, var(--cc) 22%, transparent), transparent 70%); }
+.cp-art img { width: min(220px, 60vw); height: auto; filter: drop-shadow(0 18px 24px color-mix(in srgb, var(--cc) 40%, transparent)); }
+.cp-out { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 340px), 1fr)); gap: 10px; }
+.cp-out li { position: relative; padding: 12px 16px; padding-inline-start: 42px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); font-weight: 700; line-height: 1.9; }
+.cp-out li::before { content: '✓'; position: absolute; inset-inline-start: 14px; top: 12px; width: 20px; height: 20px; border-radius: 50%; display: grid; place-items: center; background: var(--cc); color: #fff; font-size: 12px; font-weight: 900; }
+.cp-aud { margin: 16px 0 0; padding: 12px 16px; border-radius: 16px; background: color-mix(in srgb, var(--cc) 8%, var(--card)); font-weight: 700; line-height: 1.9; }
+.cp-aud b { color: var(--cc); }
+.cp-hl { list-style: none; margin: 12px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.cp-hl li { padding: 6px 14px; border-radius: 999px; background: var(--card); border: 1px solid var(--line); font-weight: 800; font-size: 14px; }
+.cp-syl { list-style: none; margin: 16px 0 0; padding: 0; display: grid; gap: 8px; counter-reset: w; }
+.cp-syl > li { counter-increment: w; }
+.cp-syl details { background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px 16px; }
+.cp-syl summary { cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; font-size: 16px; }
+.cp-syl summary::before { content: counter(w); display: inline-grid; place-items: center; min-width: 28px; height: 28px; border-radius: 9px; background: var(--cc); color: #fff; font-weight: 900; font-size: 14px; }
+.cp-syl summary b { font-weight: 900; } .cp-syl summary small { color: var(--muted); font-weight: 700; }
+.cp-syl ul { margin: 10px 0 0; padding-inline-start: 46px; display: grid; gap: 4px; color: var(--muted); font-weight: 700; }
+.cp-tools { list-style: none; margin: 16px 0 0; padding: 0; display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 300px), 1fr)); gap: 10px; }
+.cp-tools li { display: flex; gap: 12px; align-items: flex-start; padding: 12px 14px; border-radius: 16px; background: var(--card); border: 1px solid var(--line); }
+.cp-tools span { flex: none; min-width: 40px; height: 34px; padding: 0 6px; border-radius: 10px; display: grid; place-items: center; background: var(--cc); color: #fff; font: 900 14px/1 system-ui, sans-serif; }
+.cp-tools b { display: block; font-weight: 900; } .cp-tools small { color: var(--muted); font-weight: 600; line-height: 1.8; }
+.cp-more { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 220px), 1fr)); gap: 12px; margin-top: 16px; }
+.cp-mc { text-decoration: none; color: var(--ink); grid-template-columns: auto 1fr; align-items: center; }
+.cp-mc img { width: 56px; height: 70px; } .cp-mc h3 { font-size: 18px; }
+.cp-mc:hover { transform: translateY(-2px); }
+@media (max-width: 860px) { .cp-hero { grid-template-columns: 1fr; } .cp-art { order: -1; padding: 6px; } .cp-art img { width: 150px; } }

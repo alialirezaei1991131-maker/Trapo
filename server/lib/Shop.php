@@ -68,6 +68,7 @@ final class Shop
     /** پیش‌فاکتور (بدون ثبت): برای نمایش زنده در پنجره خرید */
     public static function quote(array $u, array $b): array
     {
+        if (!empty($b['product'])) return self::quoteHearts($u, $b);
         $tier = (int) ($b['tier'] ?? 0); $dur = (int) ($b['dur'] ?? 1);
         if (!isset(self::TIERS[$tier]) || !isset(self::DUR[$dur])) Http::fail('bad_plan');
         $bits = (array) Cfg::get('course_bits', []);
@@ -100,6 +101,34 @@ final class Shop
                 'credit' => $credit, 'creditUsed' => $useCredit, 'final' => max(0, $afterDisc - $useCredit)];
     }
 
+    /** پیش‌فاکتور محصول قلب (اشتراک، بسته، نامحدود): همان تخفیف دوست، کد تخفیف و اعتبار کیف پول */
+    private static function quoteHearts(array $u, array $b): array
+    {
+        $p = Hearts::product(Http::str($b, 'product', 30));
+        if (!$p) Http::fail('bad_plan');
+        $base = $p['price'];
+        $promo = null; $promoErr = null;
+        $pin = Http::str($b, 'promo', 40);
+        if ($pin !== '') {
+            $x = self::promo($pin);
+            if (!$x) $promoErr = 'promo_invalid';
+            elseif (isset($x['err'])) $promoErr = $x['err'];
+            elseif (!in_array($p['promoPlan'], $x['plans'], true) && !($p['promoPlan'] === 1 && array_intersect([1, 2], $x['plans']))) $promoErr = 'promo_plan';
+            else $promo = $x;
+        }
+        $fp = self::friendPct($u);
+        $pct = max($promo ? $promo['pct'] : 0, $fp);
+        $useRef = $fp > 0 && $fp >= ($promo ? $promo['pct'] : 0);
+        $afterDisc = $pct ? self::r1k($base * (1 - $pct / 100)) : $base;
+        $credit = (int) Db::val('SELECT credit FROM users WHERE id = ?', [$u['id']]);
+        $maxUse = self::r1k($afterDisc * ((int) (Cfg::get('referral')['max_credit_use_pct'] ?? 50)) / 100);
+        $useCredit = !empty($b['use_credit']) ? min($credit, $maxUse) : 0;
+        return ['product' => $p['code'], 'productFa' => $p['fa'], 'productEn' => $p['en'], 'tier' => 0, 'dur' => 0, 'courses' => [], 'mask' => 0, 'base' => $base,
+                'promo' => $promo && !$useRef ? $promo : null, 'promoErr' => $promoErr, 'promoBeaten' => $promo && $useRef,
+                'refPct' => $useRef ? $fp : 0, 'pct' => $pct, 'afterDiscount' => $afterDisc,
+                'credit' => $credit, 'creditUsed' => $useCredit, 'final' => max(0, $afterDisc - $useCredit)];
+    }
+
     public static function createOrder(array $u, array $b): array
     {
         Http::limit('order|' . $u['id'], 20, 3600);
@@ -113,10 +142,10 @@ final class Shop
                 $n = Db::exec('UPDATE users SET credit = credit - ? WHERE id = ? AND credit >= ?', [$q['creditUsed'], $u['id'], $q['creditUsed']]);
                 if ($n !== 1) throw new RuntimeException('credit');
             }
-            $oid = Db::insert('INSERT INTO orders (order_code, user_id, courses, mask, tier, dur, base_price, promo, promo_pct, ref_pct, credit_used, final_price, status, created_at)
-                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+            $oid = Db::insert('INSERT INTO orders (order_code, user_id, courses, mask, tier, dur, base_price, promo, promo_pct, ref_pct, credit_used, final_price, status, created_at, product)
+                VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
                 [$code, $u['id'], implode(',', $q['courses']), $q['mask'], $q['tier'], $q['dur'], $q['base'], $q['promo']['code'] ?? null, $q['promo']['pct'] ?? 0,
-                 $q['refPct'], $q['creditUsed'], $q['final'], 'pending', time()]);
+                 $q['refPct'], $q['creditUsed'], $q['final'], 'pending', time(), $q['product'] ?? null]);
             if ($q['creditUsed'] > 0) Db::exec('INSERT INTO credit_log (user_id, delta, reason, order_id, created_at) VALUES (?, ?, ?, ?, ?)', [$u['id'], -$q['creditUsed'], 'order', $oid, time()]);
             if (!empty($q['promo']['code'])) Db::exec('UPDATE promos SET uses = uses + 1 WHERE code = ?', [$q['promo']['code']]);
             return $oid;
@@ -132,6 +161,18 @@ final class Shop
         $T = fn($fa, $e) => $en ? $e : $fa;
         $nf = fn($n) => $en ? number_format($n) : strtr(number_format($n), ['0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹', ',' => '٬']);
         $cur = $T('تومان', 'Toman');
+        if (!empty($q['product'])) {
+            // سفارش قلب: کد فعال‌سازی لازم نیست؛ با تأیید پرداخت در پنل مدیریت سرور قلب‌ها خودکار به حساب می‌روند
+            $L = [$T('🧾 سفارش قلب تراپو', '🧾 Therapo hearts order'), '━━━━━━━━━━━━━━', '👤 ' . $T('نام', 'Name') . ': ' . $u['name'],
+                  '📧 ' . $T('حساب', 'Account') . ': ' . $u['login'], '❤️ ' . $T('محصول', 'Product') . ': ' . $q[$en ? 'productEn' : 'productFa']];
+            if ($q['pct']) $L[] = '🏷️ ' . $T('قیمت پایه', 'Base price') . ': ' . $nf($q['base']) . ' ' . $cur . ' · ' . ($q['refPct'] ? $T('تخفیف دعوت دوست', 'Friend discount') . ' ' . $q['refPct'] . '%' : $q['promo']['code'] . ' ' . $q['pct'] . '%');
+            if ($q['creditUsed']) $L[] = '👛 ' . $T('اعتبار کیف پول', 'Wallet credit') . ': −' . $nf($q['creditUsed']) . ' ' . $cur;
+            $L[] = '💰 ' . $T('مبلغ', 'Amount') . ': ' . $nf($q['final']) . ' ' . $cur;
+            $L[] = '🔢 ' . $T('کد سفارش', 'Order ID') . ': ' . $code;
+            $L[] = '━━━━━━━━━━━━━━';
+            $L[] = $T('پس از تأیید پرداخت، قلب‌ها خودکار به حسابت اضافه می‌شوند. 🙏', 'Once your payment is confirmed, the hearts are added to your account automatically. 🙏');
+            return implode("\n", $L);
+        }
         $L = [
             $T('🧾 سفارش اشتراک تراپو', '🧾 Therapo subscription order'), '━━━━━━━━━━━━━━',
             '👤 ' . $T('نام', 'Name') . ': ' . $u['name'],
@@ -158,7 +199,7 @@ final class Shop
 
     public static function myOrders(array $u): array
     {
-        return Db::all('SELECT order_code, courses, tier, dur, base_price, promo, promo_pct, ref_pct, credit_used, final_price, status, created_at, paid_at FROM orders WHERE user_id = ? ORDER BY id DESC LIMIT 30', [$u['id']]);
+        return Db::all('SELECT order_code, product, courses, tier, dur, base_price, promo, promo_pct, ref_pct, credit_used, final_price, status, created_at, paid_at FROM orders WHERE user_id = ? ORDER BY id DESC LIMIT 30', [$u['id']]);
     }
 
     /** وضعیت معرف کاربر: کد، تعداد دعوت‌ها، خریدهای موفق، اعتبار */
@@ -181,6 +222,7 @@ final class Shop
             if (!$o) throw new RuntimeException('no_order');
             if ($o['status'] !== 'pending') throw new RuntimeException('not_pending');
             Db::exec("UPDATE orders SET status = 'paid', paid_at = ?, note = ? WHERE id = ?", [time(), $note ?: null, $o['id']]);
+            if (!empty($o['product'])) Hearts::credit((int) $o['user_id'], (string) $o['product']); // قلب‌ها همین حالا به حساب خریدار
             $reward = 0;
             $ref = Db::one("SELECT * FROM referrals WHERE referred_id = ? AND status = 'joined'", [$o['user_id']]);
             if ($ref && (int) $o['final_price'] > 0) {

@@ -12,15 +12,15 @@ Http::securityHeaders();
 
 $a = preg_replace('/[^a-z_]/', '', (string) ($_GET['a'] ?? ''));
 $post = ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST';
-$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order',
-             'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle'];
+$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order', 'spend',
+             'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle', 'm_gift'];
 if (in_array($a, $needPost, true) && !$post) Http::fail('method', 405);
 
 /** وضعیت کامل حساب برای برنامه */
 function mePayload(array $u, array $s): array
 {
     return ['ok' => true, 'user' => ['name' => $u['name'], 'login' => $u['login'], 'dev' => $u['dev_id'], 'ref' => $u['ref_code'], 'since' => (int) $u['created_at']],
-            'csrf' => $s['csrf'], 'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u)];
+            'csrf' => $s['csrf'], 'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wallet' => Hearts::state((int) $u['id'])];
 }
 
 try {
@@ -63,6 +63,13 @@ try {
         case 'progress': { $u = Auth::requireUser(); Http::json(['ok' => true, 'items' => Progress::get($u)]); }
         case 'progress_put': { Auth::requireCsrf(); $u = Auth::requireUser(); $b = Http::body(); Http::json(['ok' => true, 'saved' => Progress::put($u, (array) ($b['items'] ?? []))]); }
 
+        /* ---------- کیف قلب ---------- */
+        case 'wallet': { $u = Auth::requireUser(); Http::json(['ok' => true, 'wallet' => Hearts::state((int) $u['id'])]); }
+        case 'spend': {
+            Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('spend|' . $u['id'], 1500, 3600); $b = Http::body();
+            Http::json(['ok' => true, 'wallet' => Hearts::spend((int) $u['id'], (array) ($b['ev'] ?? []))]);
+        }
+
         /* ---------- خرید، تخفیف و معرف ---------- */
         case 'quote': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::json(['ok' => true] + Shop::quote($u, Http::body())); }
         case 'order': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::json(['ok' => true] + Shop::createOrder($u, Http::body())); }
@@ -78,6 +85,7 @@ try {
         case 'm_users': { Manage::require(); Http::json(['ok' => true, 'users' => Manage::users((string) ($_GET['q'] ?? ''))]); }
         case 'm_users_csv': { Manage::require(); Manage::usersCsv(); }
         case 'm_trace': { Manage::require(); $f = Content::wmFind((string) ($_GET['tag'] ?? '')); Http::audit(null, 'm_trace', ['found' => (bool) $f]); Http::json(['ok' => true, 'user' => $f]); }
+        case 'm_gift': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(['ok' => true, 'wallet' => Hearts::gift((int) ($b['uid'] ?? 0), (int) ($b['hearts'] ?? 0), (int) ($b['ult_days'] ?? 0))]); }
         case 'm_promos': { Manage::require(); Http::json(['ok' => true, 'promos' => Manage::promos()]); }
         case 'm_paid': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(['ok' => true] + Shop::markPaid(Http::str($b, 'order', 20), Http::str($b, 'note', 300))); }
         case 'm_cancel': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Shop::cancel(Http::str($b, 'order', 20)); Http::json(['ok' => true]); }

@@ -3,6 +3,14 @@
   'use strict';
   var CSRF = '';
   var $ = function (s, r) { return (r || document).querySelector(s); };
+  /** نام محصول قلب از روی کدش (plan:silver:3 ، pack:150 ، ult:6) */
+  var PROD = function (c) {
+    var p = String(c || '').split(':'), N = { bronze: 'برنزی', silver: 'نقره‌ای', gold: 'طلایی' };
+    if (p[0] === 'plan') return 'اشتراک قلب ' + (N[p[1]] || p[1]) + ' · ' + p[2] + ' ماهه';
+    if (p[0] === 'pack') return 'بسته ' + p[1] + ' قلب';
+    if (p[0] === 'ult') return 'نامحدود · ' + p[1] + ' ماهه';
+    return c;
+  };
   var esc = function (s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); };
   var nf = function (n) { return Number(n || 0).toLocaleString('fa-IR'); };
   var dt = function (t) { return t ? new Date(t * 1000).toLocaleString('fa-IR', { dateStyle: 'medium', timeStyle: 'short' }) : '—'; };
@@ -41,6 +49,12 @@
     if (a === 'cancel') { if (!confirm('سفارش ' + id + ' لغو شود؟ اعتبار کیف پول کاربر برمی‌گردد.')) return; var c = await api('m_cancel', { order: id }); toast(c.ok ? 'لغو شد' : (ERR[c.err] || 'خطا')); return tab('orders', st.ost); }
     if (a === 'copy') { navigator.clipboard.writeText(b.dataset.txt).then(function () { toast('📋 کپی شد؛ در پنل آفلاین مدیر بچسبانید'); }); return; }
     if (a === 'ost') return tab('orders', id);
+    if (a === 'gift') {
+      var h = prompt('چند قلب به «بسته» این کاربر اضافه شود؟ (۰ = هیچ)', '50'); if (h === null) return;
+      var d = prompt('چند روز «نامحدود» هدیه داده شود؟ (۰ = هیچ)', '0'); if (d === null) return;
+      var g = await api('m_gift', { uid: +id, hearts: parseInt(h, 10) || 0, ult_days: parseInt(d, 10) || 0 });
+      if (g.ok) alert('✅ ثبت شد'); return tab('users');
+    }
     if (a === 'ptoggle') { await api('m_promo_toggle', { code: id }); return tab('promos'); }
   });
   var st = { ost: 'pending' };
@@ -63,11 +77,11 @@
           var msg = '👤 نام: ' + r.name + '\n💰 مبلغ: ' + r.final_price + '\n🔢 کد سفارش: ' + r.order_code + '\n🔧 ' + line + (r.promo ? '\n🔧 TRAPO-PROMO:' + r.promo + ':' + r.promo_pct + ':' + r.final_price : '');
           return '<article class="mg__o"><header><b>' + esc(r.order_code) + '</b><span>' + dt(r.created_at) + '</span></header>' +
             '<p>👤 ' + esc(r.name) + ' · <span dir="ltr">' + esc(r.login) + '</span> · شناسه <code dir="ltr">' + esc(r.dev_id) + '</code></p>' +
-            '<p>📚 ' + esc(r.courses) + ' · ' + TIER[r.tier] + ' · ' + DUR[r.dur] + '</p>' +
+            (r.product ? '<p>❤️ <b>' + esc(PROD(r.product)) + '</b> <span class="mg__muted">· با «پرداخت شد» قلب‌ها خودکار به حساب خریدار می‌رود؛ کد فعال‌سازی لازم نیست</span></p>' : '<p>📚 ' + esc(r.courses) + ' · ' + TIER[r.tier] + ' · ' + DUR[r.dur] + '</p>') +
             '<p>💰 <b>' + nf(r.final_price) + '</b> تومان' + (r.base_price !== r.final_price ? ' (پایه ' + nf(r.base_price) + ')' : '') + (r.promo ? ' · 🎁 ' + esc(r.promo) + ' ' + nf(r.promo_pct) + '٪' : '') + (r.ref_pct ? ' · 🤝 دعوت ' + nf(r.ref_pct) + '٪' : '') + (r.credit_used ? ' · 👛 ' + nf(r.credit_used) : '') + (r.ref_name ? ' · معرف: ' + esc(r.ref_name) : '') + '</p>' +
             (r.note ? '<p class="mg__muted">📝 ' + esc(r.note) + '</p>' : '') +
             '<div class="mg__btns">' + (r.status === 'pending' ? '<button class="au__go" data-act="paid" data-id="' + esc(r.order_code) + '">✅ پرداخت شد</button><button data-act="cancel" data-id="' + esc(r.order_code) + '">لغو</button>' : '') +
-            '<button data-act="copy" data-txt="' + esc(msg) + '">📋 پیام برای پنل آفلاین (صدور کد)</button></div></article>';
+            (r.product ? '' : '<button data-act="copy" data-txt="' + esc(msg) + '">📋 پیام برای پنل آفلاین (صدور کد)</button>') + '</div></article>';
         }).join('') : '<p class="mg__muted">سفارشی نیست.</p>');
     }
     if (name === 'promos') {
@@ -109,6 +123,8 @@
         $('#ul').innerHTML = u.users.map(function (r) {
           return '<article class="mg__o"><header><b>' + esc(r.name) + '</b><span dir="ltr">' + esc(r.login) + (r.contact ? ' · ' + esc(r.contact) : '') + '</span></header><p>شناسه <code dir="ltr">' + esc(r.dev_id) + '</code> · کد معرف <code dir="ltr">' + esc(r.ref_code) + '</code> · عضویت ' + dt(r.created_at) + ' · آخرین ورود ' + dt(r.last_login) + '</p>' +
             '<p>👛 اعتبار: ' + nf(r.credit) + ' تومان' + (r.invited != null ? ' · 🤝 دعوت: ' + nf(r.invited) : '') + '</p>' +
+            (r.wallet ? '<p>❤️ ' + (r.wallet.unl ? '♾️ نامحدود تا ' + dt(r.wallet.ultUntil) : 'امروز ' + nf(r.wallet.left) + ' از ' + nf(r.wallet.daily) + ' · بسته ' + nf(r.wallet.bank) + (r.wallet.plan ? ' · اشتراک ' + esc(r.wallet.plan) + ' تا ' + dt(r.wallet.planUntil) : '')) +
+              ' <button data-act="gift" data-id="' + r.id + '">🎁 هدیه قلب / نامحدود</button></p>' : '') +
             (r.licenses ? '<p>🔑 ' + (r.licenses.length ? r.licenses.map(function (l) { return TIER[l.tier] + ' (بیت ' + l.mask + ')' + (+l.life ? ' دائمی' : ' تا ' + new Date(+l.exp).toLocaleDateString('fa-IR')); }).join(' · ') : 'بدون اشتراک') + '</p>' : '') +
             (r.orders && r.orders.length ? '<p>🧾 ' + r.orders.map(function (o) { return esc(o.order_code) + ' ' + nf(o.final_price) + ' (' + o.status + ')'; }).join(' · ') + '</p>' : '') + '</article>';
         }).join('') || '<p class="mg__muted">کاربری پیدا نشد.</p>';

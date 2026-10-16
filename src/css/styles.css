@@ -2142,6 +2142,87 @@ body { text-rendering: auto; font-kerning: normal; font-optical-sizing: auto; }
 .ins__steps { text-align: start; margin: 4px 0 0; padding-inline-start: 22px; display: grid; gap: 8px; line-height: 1.9; font-weight: 600; }
 .ins__ic { display: inline-grid; place-items: center; min-width: 26px; height: 26px; border-radius: 8px; background: var(--bg3, #eef2f4); font-weight: 900; }
 
+/* ===== کیف قلب و فروشگاه قلب (نسخه هاست) ===== */
+.dbtn--heart { border-color: color-mix(in srgb, #ff4b4b 45%, var(--line)); background: color-mix(in srgb, #ff4b4b 8%, var(--bg)); }
+.dbtn--heart b { font-family: Nunito, Vazirmatn, system-ui, sans-serif; font-weight: 900; color: #e5383b; }
+.dbtn--hstore { border-color: color-mix(in srgb, #e5a500 55%, var(--line)); background: color-mix(in srgb, #ffc800 14%, var(--bg)); }
+.dbtn--minor { opacity: .82; }
+@media (max-width: 760px) {
+  .dbar .dbtn.dbtn--heart { width: auto; padding: 0 12px; }
+  .dbar .dbtn.dbtn--heart b { display: inline; }
+}
+.actb--heart { background: color-mix(in srgb, #ff4b4b 14%, var(--bg)); color: #d62f33; border-color: color-mix(in srgb, #ff4b4b 40%, var(--line)); }
+.actb--hult { background: linear-gradient(120deg, #a560e8, #e5a500); color: #fff; border-color: transparent; }
+.acside__wal { --tc: #ff4b4b; display: grid; gap: 10px; }
+.acside__wal.is-unl { --tc: #a560e8; }
+.wside { display: grid; grid-template-columns: auto 1fr; align-items: center; column-gap: 10px; width: 100%; padding: 6px 4px; background: none; border: 0; cursor: pointer; font: inherit; color: var(--text); text-align: start; }
+.wside > span { grid-row: span 2; font-size: 30px; line-height: 1; }
+.wside b { font: 900 24px/1.1 Nunito, Vazirmatn, system-ui, sans-serif; }
+.wside small { color: var(--muted); font-weight: 700; font-size: 12px; line-height: 1.6; }
+.acprof__card--wal { --tc: #ff4b4b; }
+
+.modal--wmy .modal__card { max-width: 460px; text-align: start; }
+.wmy { display: grid; gap: 12px; padding: 6px 2px 2px; }
+.wmy__big { display: grid; justify-items: center; gap: 2px; padding: 16px; border-radius: 20px; background: linear-gradient(140deg, color-mix(in srgb, #ff4b4b 16%, var(--bg)), color-mix(in srgb, #ff9600 10%, var(--bg))); }
+.wmy__big.is-unl { background: linear-gradient(140deg, color-mix(in srgb, #a560e8 22%, var(--bg)), color-mix(in srgb, #e5a500 16%, var(--bg))); }
+.wmy__big span { font-size: 34px; line-height: 1; }
+.wmy__big b { font: 900 40px/1.1 Nunito, Vazirmatn, system-ui, sans-serif; }
+.wmy__big small { color: var(--muted); font-weight: 800; }
+.wmy__rows { display: grid; gap: 2px; border: 1.5px solid var(--line); border-radius: 16px; padding: 6px 14px; }
+.wmy__rows > div { display: flex; justify-content: space-between; gap: 12px; padding: 7px 0; border-bottom: 1px dashed var(--line); font-weight: 700; }
+.wmy__rows > div:last-child { border-bottom: 0; }
+.wmy__rows b { font-weight: 900; text-align: end; }
+.wmy h4 { margin: 4px 0 0; font-size: 15px; font-weight: 900; }
+.wmy__cost { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.wmy__cost li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 12px; border-radius: 12px; background: var(--bg2); font-weight: 700; font-size: 14px; }
+.wmy__cost li b { font-family: Nunito, Vazirmatn, sans-serif; font-weight: 900; color: #e5383b; white-space: nowrap; }
+.wmy__cost li b::after { content: ' ❤️'; font-size: 12px; }
+.wmy__cost li.is-gain b { color: #3a9a00; }
+.wmy__note { margin: 0; padding: 10px 14px; border-radius: 14px; background: color-mix(in srgb, #1cb0f6 10%, var(--bg)); font-weight: 700; line-height: 1.9; }
+.wmy__seq { margin: 0; line-height: 1.9; }
+.modal--wout .modal__card { max-width: 440px; }
+.wcost { margin: 6px 0 0; font-weight: 800; color: #d62f33; }
+
+.modal--hstore .modal__card { max-width: 760px; }
+.hs__h > span { font-size: 30px; }
+.hs { display: grid; gap: 14px; padding: 16px 18px 20px; }
+.hs__why { display: flex; gap: 12px; align-items: center; padding: 12px 14px; border-radius: 16px; background: color-mix(in srgb, #ffc800 16%, var(--bg)); border: 1.5px solid color-mix(in srgb, #e5a500 40%, var(--line)); }
+.hs__why > span { font-size: 28px; }
+.hs__why div { display: grid; gap: 2px; } .hs__why small { color: var(--muted); font-weight: 700; }
+.hs__tabs { display: flex; gap: 6px; padding: 4px; border-radius: 16px; background: var(--bg2); overflow-x: auto; scrollbar-width: none; }
+.hs__tab { flex: 1 0 auto; min-height: 44px; padding: 0 14px; border-radius: 12px; border: 0; background: none; font: inherit; font-weight: 900; color: var(--muted); cursor: pointer; white-space: nowrap; }
+.hs__tab.is-on { background: var(--bg); color: var(--text); box-shadow: 0 2px 0 var(--line); }
+.hs__lead { margin: 0; color: var(--muted); font-weight: 700; line-height: 1.9; }
+.hsg { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 10px; }
+.hsg--plans { grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); }
+.hsplan { display: grid; gap: 8px; padding: 12px; border-radius: 18px; border: 1.5px solid var(--line); background: var(--bg); }
+.hsplan--bronze { --pc: #cd7f32; } .hsplan--silver { --pc: #8a9ba8; } .hsplan--gold { --pc: #e5a500; }
+.hsplan { border-color: color-mix(in srgb, var(--pc, #ff4b4b) 45%, var(--line)); background: color-mix(in srgb, var(--pc, #ff4b4b) 6%, var(--bg)); }
+.hsplan__h { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.hsplan__h b { font-size: 16px; font-weight: 900; } .hsplan__h small { font-weight: 800; color: var(--muted); }
+.hsplan__c { display: grid; gap: 8px; }
+.hsc { position: relative; display: grid; gap: 2px; justify-items: start; text-align: start; padding: 12px 14px; border-radius: 16px; border: 2px solid var(--line); background: var(--bg); font: inherit; color: var(--text); cursor: pointer; box-shadow: 0 3px 0 var(--line); transition: transform .1s, border-color .15s, box-shadow .15s; }
+.hsc:hover { border-color: var(--line2); }
+.hsc:active { transform: translateY(2px); box-shadow: 0 1px 0 var(--line); }
+.hsc.is-on { border-color: #58cc02; box-shadow: 0 3px 0 #58a700; background: color-mix(in srgb, #58cc02 8%, var(--bg)); }
+.hsc__t { font-size: 16px; font-weight: 900; }
+.hsc__s, .hsc__x { color: var(--muted); font-weight: 700; font-size: 12.5px; line-height: 1.6; }
+.hsc__p { font-weight: 800; font-size: 13px; margin-top: 4px; }
+.hsc__p b { font: 900 19px/1.2 Nunito, Vazirmatn, system-ui, sans-serif; }
+.hsc__b { position: absolute; top: -10px; inset-inline-end: 10px; padding: 1px 9px; border-radius: 999px; background: #ff4b4b; color: #fff; font-size: 11.5px; font-weight: 900; }
+.hs__buy { display: grid; gap: 10px; padding: 14px; border-radius: 18px; border: 2px dashed color-mix(in srgb, #58cc02 50%, var(--line)); background: color-mix(in srgb, #58cc02 5%, var(--bg)); }
+.hs__buy[hidden] { display: none; }
+.hs__sum { display: grid; gap: 4px; } .hs__sum p { margin: 0; font-weight: 700; }
+.hs__final b { font: 900 22px/1.2 Nunito, Vazirmatn, sans-serif; }
+.hs__promo { display: flex; gap: 8px; } .hs__promo .ob__in { flex: 1; margin: 0; min-width: 0; }
+.hs__cr { display: flex; align-items: center; gap: 8px; font-weight: 700; }
+.hs__how summary { cursor: pointer; font-weight: 900; }
+.hs__how ol { margin: 8px 0; padding-inline-start: 22px; display: grid; gap: 6px; line-height: 1.9; font-weight: 600; }
+.wlocked { position: relative; min-height: 320px; }
+.wlocked > :not(.wlock) { filter: blur(3px); pointer-events: none; user-select: none; }
+.wlock { position: absolute; inset: 0; z-index: 4; display: grid; place-content: center; justify-items: center; gap: 8px; padding: 24px; text-align: center; background: color-mix(in srgb, var(--bg) 70%, transparent); }
+.wlock > span { font-size: 44px; } .wlock b { font-size: 18px; font-weight: 900; } .wlock small { color: var(--muted); font-weight: 700; }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }
