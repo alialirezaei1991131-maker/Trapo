@@ -40,7 +40,7 @@ $cfg = [
     'csrf' => $s['csrf'], 'ck' => $s['ck'], 'files' => $files,
     'user' => ['name' => $u['name'], 'login' => $u['login'], 'dev' => $u['dev_id'], 'since' => (int) $u['created_at']],
     'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wm' => Content::wmTag((int) $u['id']),
-    'wallet' => Hearts::state((int) $u['id']), 'store' => Hearts::catalog(),
+    'wallet' => Hearts::state((int) $u['id']), 'store' => Hearts::catalog(), 'rewards' => Rewards::state($u), 'ads' => Ads::forUser($u),
 ];
 $json = json_encode($cfg, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT);
 echo strtr($tpl, ['{{NONCE}}' => $nonce, '{{CFG}}' => $json, '{{VER}}' => $esc(trim((string) @file_get_contents($dir . '/version.txt')))]);

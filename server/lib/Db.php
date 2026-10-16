@@ -44,6 +44,7 @@ final class Db
     public static function tx(callable $fn)
     {
         $pdo = self::pdo();
+        if ($pdo->inTransaction()) return $fn(); // داخل تراکنش بیرونی (مثلاً جایزه معرف هنگام تأیید پرداخت)
         $pdo->beginTransaction();
         try { $r = $fn(); $pdo->commit(); return $r; }
         catch (Throwable $e) { $pdo->rollBack(); throw $e; }
@@ -88,6 +89,10 @@ final class Db
         }
         try { self::$pdo->exec("ALTER TABLE orders ADD COLUMN product $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ } // محصول قلب
         try { self::$pdo->exec("ALTER TABLE wallets ADD COLUMN ans_pool $I NOT NULL DEFAULT 0"); } catch (Throwable $e) { /* ستون از قبل هست */ } // قلب پاسخ‌های درس برای تطبیق
+        try { self::$pdo->exec("ALTER TABLE wallets ADD COLUMN gift $I NOT NULL DEFAULT 0"); } catch (Throwable $e) { /* ستون از قبل هست */ } // قلب هدیه (مأموریت، دعوت، پروفایل)
+        try { self::$pdo->exec("ALTER TABLE wallets ADD COLUMN q $T NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ } // شمارنده‌ها و مأموریت‌های امروز
+        foreach (['field', 'degree'] as $col) { try { self::$pdo->exec("ALTER TABLE users ADD COLUMN $col $S NULL"); } catch (Throwable $e) { /* */ } } // رشته و مقطع
+        self::$pdo->exec("CREATE TABLE IF NOT EXISTS rewards (user_id $I NOT NULL, kind $S NOT NULL, hearts $I NOT NULL DEFAULT 0, created_at $I NOT NULL, PRIMARY KEY (user_id, kind))$E");
         try {
             foreach (self::$pdo->query('SELECT id, login FROM users WHERE login_key IS NULL')->fetchAll() as $r) {
                 self::$pdo->prepare('UPDATE users SET login_key = ? WHERE id = ?')->execute([Auth::identityKey((string) $r['login']), $r['id']]);

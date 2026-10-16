@@ -104,6 +104,7 @@ final class Auth
             return $id;
         });
         Http::audit($uid, 'register', $refUser ? ['ref' => (int) $refUser['id']] : []);
+        Rewards::onRegister($uid, $refUser ? (int) $refUser['id'] : null); // قلب خوش‌آمد دوستِ دعوت‌شده
         return self::startSession($uid, 'user');
     }
 

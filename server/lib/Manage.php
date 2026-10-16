@@ -74,7 +74,7 @@ final class Manage
     /** همه کاربران برای Excel (CSV با BOM): نام، ایمیل/موبایل، راه تماس دوم، تاریخ‌ها، معرف، خرید و اشتراک */
     public static function usersCsv(): void
     {
-        $rows = Db::all('SELECT u.id, u.name, u.login, u.contact, u.dev_id, u.ref_code, u.credit, u.created_at, u.last_login, u.status, r.login AS ref_login,
+        $rows = Db::all('SELECT u.id, u.name, u.login, u.contact, u.field, u.degree, u.dev_id, u.ref_code, u.credit, u.created_at, u.last_login, u.status, r.login AS ref_login,
             (SELECT COUNT(*) FROM orders o WHERE o.user_id = u.id AND o.status = ?) AS paid_n,
             (SELECT COALESCE(SUM(final_price), 0) FROM orders o WHERE o.user_id = u.id AND o.status = ?) AS paid_sum,
             (SELECT COUNT(*) FROM referrals x WHERE x.referrer_id = u.id) AS invited
@@ -86,7 +86,7 @@ final class Manage
             return '"' . str_replace('"', '""', $v) . '"';
         };
         $out = "\xEF\xBB\xBF" . implode(',', array_map($cell, ['شناسه', 'نام', 'ایمیل یا موبایل (ورود)', 'راه تماس دوم', 'تاریخ ثبت‌نام', 'آخرین ورود',
-            'وضعیت', 'دعوت‌شده توسط', 'کد معرف', 'تعداد دعوت', 'اعتبار (تومان)', 'خرید پرداخت‌شده', 'جمع پرداخت (تومان)', 'اشتراک فعال', 'شناسه حساب'])) . "\r\n";
+            'وضعیت', 'دعوت‌شده توسط', 'کد معرف', 'تعداد دعوت', 'اعتبار (تومان)', 'خرید پرداخت‌شده', 'جمع پرداخت (تومان)', 'اشتراک فعال', 'شناسه حساب', 'رشته', 'مقطع'])) . "\r\n";
         foreach ($rows as $r) {
             $act = [];
             foreach (Db::all('SELECT tier, mask, exp, life FROM licenses WHERE user_id = ?', [$r['id']]) as $l) {
@@ -94,7 +94,7 @@ final class Manage
                 $act[] = ['', 'آموزشی', 'Pro', 'الماس'][(int) $l['tier']] . ' ' . ((int) $l['life'] === 1 ? 'دائمی' : 'تا ' . self::jdate((int) floor((int) $l['exp'] / 1000)));
             }
             $out .= implode(',', array_map($cell, [$r['id'], $r['name'], $r['login'], $r['contact'], self::jdate((int) $r['created_at']), $r['last_login'] ? self::jdate((int) $r['last_login']) : '',
-                $r['status'] === 'active' ? 'فعال' : 'غیرفعال', $r['ref_login'], $r['ref_code'], $r['invited'], $r['credit'], $r['paid_n'], $r['paid_sum'], implode(' | ', $act), $r['dev_id']])) . "\r\n";
+                $r['status'] === 'active' ? 'فعال' : 'غیرفعال', $r['ref_login'], $r['ref_code'], $r['invited'], $r['credit'], $r['paid_n'], $r['paid_sum'], implode(' | ', $act), $r['dev_id'], Rewards::FIELDS[$r['field'] ?? ''][0] ?? '', Rewards::DEGREES[$r['degree'] ?? ''][0] ?? ''])) . "\r\n";
         }
         Http::audit(null, 'm_users_csv', ['n' => count($rows)]);
         http_response_code(200);

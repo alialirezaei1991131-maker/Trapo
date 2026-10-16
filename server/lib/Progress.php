@@ -39,7 +39,11 @@ final class Progress
             $total += strlen($v) - (int) ($old['n'] ?? 0);
             $saved[] = $k;
         }
-        if ($newDone > 0) Hearts::settle((int) $u['id'], min($newDone, 200));
+        if ($newDone > 0) {
+            Hearts::settle((int) $u['id'], min($newDone, 200));
+            Hearts::track((int) $u['id'], 'lesson', min($newDone, 20)); // مأموریت «درس تازه»
+            Rewards::onLessons((int) $u['id']);                         // جایزه معرف وقتی دوستش اولین درس را تمام کرد
+        }
         return $saved;
     }
     private static function doneCount(string $v): int

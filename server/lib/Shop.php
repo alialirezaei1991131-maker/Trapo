@@ -223,6 +223,7 @@ final class Shop
             if ($o['status'] !== 'pending') throw new RuntimeException('not_pending');
             Db::exec("UPDATE orders SET status = 'paid', paid_at = ?, note = ? WHERE id = ?", [time(), $note ?: null, $o['id']]);
             if (!empty($o['product'])) Hearts::credit((int) $o['user_id'], (string) $o['product']); // قلب‌ها همین حالا به حساب خریدار
+            Rewards::onPaid((int) $o['user_id']); // قلب هدیه برای معرفِ خریدار
             $reward = 0;
             $ref = Db::one("SELECT * FROM referrals WHERE referred_id = ? AND status = 'joined'", [$o['user_id']]);
             if ($ref && (int) $o['final_price'] > 0) {

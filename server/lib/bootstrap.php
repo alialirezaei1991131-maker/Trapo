@@ -17,6 +17,8 @@ require __DIR__ . '/License.php';
 require __DIR__ . '/Content.php';
 require __DIR__ . '/Shop.php';
 require __DIR__ . '/Hearts.php';
+require __DIR__ . '/Rewards.php';
+require __DIR__ . '/Ads.php';
 require __DIR__ . '/Progress.php';
 require __DIR__ . '/Manage.php';
 

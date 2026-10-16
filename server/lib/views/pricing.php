@@ -16,9 +16,9 @@ function trapo_pricing_html(callable $esc): string
     $L = fn($fa, $en) => '<span data-l="fa">' . $fa . '</span><span data-l="en" lang="en">' . $en . '</span>';
     $medal = ['🥉', '🥈', '🥇'];
     $h = '<section class="lp-sec lp-price" id="pricing" aria-labelledby="p-t">'
-        . '<h2 id="p-t">' . $L('قیمت‌ها: قلب بخر، هر روز یاد بگیر', 'Pricing: buy hearts, learn every day') . '</h2>'
-        . '<p class="lp-sub">' . $L('در تراپو اشتراک دوره نمی‌خری؛ قلب می‌خری و با همان قلب‌ها همه دوره‌ها باز است. هر پاسخ درست ' . $f($C['cost']['right']) . ' قلب، هر پاسخ نادرست ' . $f($C['cost']['wrong']) . ' قلب، هر ابزار بالینی ' . $f($C['cost']['tool']) . ' قلب و هر کیس بالینی ' . $f($C['cost']['round']) . ' قلب. تمرین مرور رایگان است و قلب هم برمی‌گرداند.',
-            'At Therapo you don’t buy a course — you buy hearts, and they open every course. A correct answer costs ' . $C['cost']['right'] . ', a wrong one ' . $C['cost']['wrong'] . ', each clinical tool ' . $C['cost']['tool'] . ' and each clinical case ' . $C['cost']['round'] . ' hearts. Review practice is free and gives hearts back.') . '</p>'
+        . '<h2 id="p-t">' . $L('برنامه‌های یادگیری: هر روز با قلب پر جلو برو', 'Learning plans: keep your hearts full, learn every day') . '</h2>'
+        . '<p class="lp-sub">' . $L('در تراپو با قلب پیش می‌روی و همان قلب‌ها همه دوره‌ها را باز می‌کنند. هر پاسخ درست ' . $f($C['cost']['right']) . ' قلب، هر پاسخ نادرست ' . $f($C['cost']['wrong']) . ' قلب، هر ابزار بالینی ' . $f($C['cost']['tool']) . ' قلب و هر کیس بالینی ' . $f($C['cost']['round']) . ' قلب. تمرین مرور رایگان است و قلب هم برمی‌گرداند.',
+            'At Therapo you move forward with hearts, and they open every course. A correct answer costs ' . $C['cost']['right'] . ', a wrong one ' . $C['cost']['wrong'] . ', each clinical tool ' . $C['cost']['tool'] . ' and each clinical case ' . $C['cost']['round'] . ' hearts. Review practice is free and gives hearts back.') . '</p>'
         . '<div class="lp-plans">'
         . '<article class="lp-plan lp-plan--free"><h3>🆓 ' . $L('رایگان', 'Free') . '</h3><p class="lp-plan__d"><b>' . $f($C['free']) . '</b> ' . $L('قلب در روز', 'hearts a day') . '</p>'
         . '<p class="lp-plan__p"><b>' . $L('۰', '0') . '</b></p><ul><li>' . $L('درس‌های رایگان هر دوره', 'Free lessons of every course') . '</li><li>' . $L('بدون نیاز به کارت بانکی', 'No payment details needed') . '</li></ul>'
@@ -33,7 +33,7 @@ function trapo_pricing_html(callable $esc): string
     }
     $h .= '</div><div class="lp-extra">';
     $packs = $C['packs']; ksort($packs);
-    $h .= '<article class="lp-x"><h3>🎒 ' . $L('بسته قلب (بدون تاریخ انقضا)', 'Heart packs (never expire)') . '</h3><ul>';
+    $h .= '<article class="lp-x"><h3>🎒 ' . $L('شارژ قلب (بدون تاریخ انقضا)', 'Heart refills (never expire)') . '</h3><ul>';
     foreach ($packs as $n => $pr) $h .= '<li><span>' . $L($f($n) . ' قلب', "$n hearts") . '</span><b>' . $L($f($pr), $e($pr)) . ' ' . $L('تومان', 'Toman') . '</b></li>';
     $h .= '</ul></article>';
     $ult = $C['ultimate']; ksort($ult);

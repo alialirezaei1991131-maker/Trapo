@@ -24,4 +24,5 @@ if (!$c) {
 if (Auth::user()) { header('Cache-Control: no-store'); header('Location: ' . $root . '?course=' . $slug, true, 302); exit; }
 header('Cache-Control: private, max-age=600');
 require TRAPO_ROOT . '/lib/views/pricing.php';
+require TRAPO_ROOT . '/lib/views/scenes.php';
 require TRAPO_ROOT . '/lib/views/course.php';

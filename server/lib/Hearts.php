@@ -25,7 +25,21 @@ final class Hearts
         'practice_max' => 5,
         // تطبیق با پیشرفت: هر درس تازه‌ای که تمام می‌شود دست‌کم این‌قدر قلب پاسخ پشتش دارد؛ اگر نداشت (درخواست خرج قلب جلویش گرفته شده) کسر می‌شود
         'lesson_min' => 3,
+        // مأموریت‌های روزانه: هر روز ۳ تا از این فهرست (پاداش = قلب هدیه)؛ chest = جایزه کامل کردن هر سه
+        'quests' => [
+            'right20' => ['c' => 'right', 'n' => 20, 'h' => 4, 'i' => '✅', 'fa' => '۲۰ پاسخ درست بده', 'en' => 'Get 20 answers right'],
+            'lessons2' => ['c' => 'lesson', 'n' => 2, 'h' => 5, 'i' => '📚', 'fa' => '۲ درس تازه تمام کن', 'en' => 'Finish 2 new lessons'],
+            'practice1' => ['c' => 'practice', 'n' => 1, 'h' => 3, 'i' => '🔁', 'fa' => 'یک تمرین مرور انجام بده', 'en' => 'Do one review practice'],
+            'boss2' => ['c' => 'boss', 'n' => 2, 'h' => 5, 'i' => '👹', 'fa' => '۲ غول آخر درس را شکست بده', 'en' => 'Defeat 2 lesson bosses'],
+            'perfect1' => ['c' => 'perfect', 'n' => 1, 'h' => 5, 'i' => '💯', 'fa' => 'یک درس را بی‌اشتباه تمام کن', 'en' => 'Finish a lesson with no mistakes'],
+            'tool2' => ['c' => 'tool', 'n' => 2, 'h' => 3, 'i' => '🧮', 'fa' => 'با ۲ ابزار بالینی کار کن', 'en' => 'Use 2 clinical tools'],
+            'game1' => ['c' => 'game', 'n' => 1, 'h' => 3, 'i' => '🃏', 'fa' => 'یک بازی جفت‌ها را تمام کن', 'en' => 'Finish a memory-match game'],
+            'round1' => ['c' => 'round', 'n' => 1, 'h' => 4, 'i' => '🏥', 'fa' => 'یک کیس بالینی را حل کن', 'en' => 'Solve a clinical case'],
+        ],
+        'quest_chest' => 5,
     ];
+    /** رویدادهای بی‌هزینه فقط برای شمارش مأموریت‌ها (سقف روزانه دارند) */
+    private const TRACK = ['boss', 'perfect', 'game'];
     private const RANK = ['bronze' => 1, 'silver' => 2, 'gold' => 3];
     private const MONTH = 30 * 86400;
 
@@ -34,6 +48,8 @@ final class Hearts
         $c = (array) Cfg::get('hearts', []);
         $d = self::DEF;
         foreach (['free_daily', 'practice_max', 'lesson_min'] as $k) if (isset($c[$k])) $d[$k] = (int) $c[$k];
+        if (isset($c['quests']) && is_array($c['quests'])) $d['quests'] = $c['quests'];
+        if (isset($c['quest_chest'])) $d['quest_chest'] = (int) $c['quest_chest'];
         foreach (['plans', 'cost'] as $k) if (isset($c[$k]) && is_array($c[$k])) $d[$k] = array_replace_recursive($d[$k], $c[$k]);
         foreach (['packs', 'ultimate'] as $k) if (isset($c[$k]) && is_array($c[$k]) && $c[$k]) $d[$k] = $c[$k]; // فهرست کامل جایگزین می‌شود
         return $d;
@@ -58,8 +74,8 @@ final class Hearts
     {
         $C = self::cfg(); $r = self::row($uid); $t = self::today();
         if ($r['day'] !== $t) {
-            $r['day'] = $t; $r['day_left'] = self::daily($r, $C); $r['prac_n'] = 0;
-            Db::exec('UPDATE wallets SET day = ?, day_left = ?, prac_n = 0, updated_at = ? WHERE user_id = ?', [$t, $r['day_left'], time(), $uid]);
+            $r['day'] = $t; $r['day_left'] = self::daily($r, $C); $r['prac_n'] = 0; $r['q'] = '{}';
+            Db::exec("UPDATE wallets SET day = ?, day_left = ?, prac_n = 0, q = '{}', updated_at = ? WHERE user_id = ?", [$t, $r['day_left'], time(), $uid]);
         }
         return $r;
     }
@@ -68,12 +84,62 @@ final class Hearts
         $C = self::cfg(); $now = time();
         $ult = (int) $r['ult_until'] > $now;
         $plan = ($r['plan'] && (int) $r['plan_until'] > $now) ? $r['plan'] : null;
-        return ['unl' => $ult, 'ultUntil' => $ult ? (int) $r['ult_until'] : 0, 'plan' => $plan, 'planUntil' => $plan ? (int) $r['plan_until'] : 0,
+        $q = self::q($r);
+        $quests = array_map(fn($id) => ['id' => $id, 'i' => $C['quests'][$id]['i'], 'fa' => $C['quests'][$id]['fa'], 'en' => $C['quests'][$id]['en'], 'n' => (int) $C['quests'][$id]['n'],
+            'have' => min((int) $C['quests'][$id]['n'], (int) ($q['c'][$C['quests'][$id]['c']] ?? 0)), 'h' => (int) $C['quests'][$id]['h'], 'done' => !empty($q['ok'][$id])], self::todayQuests((int) $r['user_id'], (string) $r['day'], $C));
+        return ['gift' => (int) ($r['gift'] ?? 0), 'quests' => $quests, 'chest' => ['h' => (int) $C['quest_chest'], 'done' => !empty($q['ok']['chest'])],
+                'unl' => $ult, 'ultUntil' => $ult ? (int) $r['ult_until'] : 0, 'plan' => $plan, 'planUntil' => $plan ? (int) $r['plan_until'] : 0,
                 'daily' => self::daily($r, $C), 'left' => (int) $r['day_left'], 'bank' => (int) $r['bank'], 'day' => $r['day'],
                 'paid' => $ult || $plan || (int) $r['bank'] > 0, 'cost' => $C['cost'], 'free' => (int) $C['free_daily'],
                 'practiceLeft' => max(0, (int) $C['practice_max'] - (int) $r['prac_n'])];
     }
     public static function state(int $uid): array { return self::view(self::fresh($uid)); }
+    private static function q(array $r): array { $q = json_decode((string) ($r['q'] ?? ''), true); return is_array($q) ? $q + ['c' => [], 'ok' => []] : ['c' => [], 'ok' => []]; }
+    /** سه مأموریت امروز این کاربر (ثابت در طول روز، متفاوت برای هر کاربر و هر روز) */
+    private static function todayQuests(int $uid, string $day, array $C): array
+    {
+        $ids = array_keys($C['quests']);
+        usort($ids, fn($a, $b) => crc32("$uid|$day|$a") <=> crc32("$uid|$day|$b"));
+        return array_slice($ids, 0, min(3, count($ids)));
+    }
+    /** شمارنده مأموریت‌های امروز */
+    public static function track(int $uid, string $counter, int $n = 1): void
+    {
+        if ($n <= 0) return;
+        Db::tx(function () use ($uid, $counter, $n) {
+            $r = self::fresh($uid); $q = self::q($r);
+            $q['c'][$counter] = min(500, (int) ($q['c'][$counter] ?? 0) + $n);
+            Db::exec('UPDATE wallets SET q = ? WHERE user_id = ?', [json_encode($q), $uid]);
+        });
+    }
+    /** گرفتن جایزه مأموریت (سرور خودش شمارنده را بررسی می‌کند) */
+    public static function questClaim(int $uid, string $id): array
+    {
+        $C = self::cfg();
+        return Db::tx(function () use ($uid, $id, $C) {
+            $r = self::fresh($uid); $q = self::q($r); $today = self::todayQuests($uid, (string) $r['day'], $C);
+            if ($id === 'chest') {
+                foreach ($today as $t) if (empty($q['ok'][$t])) throw new RuntimeException('quest_not_done');
+                $h = (int) $C['quest_chest'];
+            } else {
+                if (!in_array($id, $today, true)) throw new RuntimeException('quest_unknown');
+                $d = $C['quests'][$id];
+                if ((int) ($q['c'][$d['c']] ?? 0) < (int) $d['n']) throw new RuntimeException('quest_not_done');
+                $h = (int) $d['h'];
+            }
+            if (!empty($q['ok'][$id])) throw new RuntimeException('quest_claimed');
+            $q['ok'][$id] = 1; $r['gift'] = (int) ($r['gift'] ?? 0) + $h; $r['q'] = json_encode($q);
+            Db::exec('UPDATE wallets SET q = ?, gift = ?, updated_at = ? WHERE user_id = ?', [$r['q'], $r['gift'], time(), $uid]);
+            return self::view($r) + ['got' => $h];
+        });
+    }
+    /** قلب هدیه (پاداش‌ها و مأموریت‌ها): مثل بقیه قلب‌ها خرج می‌شود ولی محتوای پولی را باز نمی‌کند */
+    public static function addGift(int $uid, int $n): void
+    {
+        if ($n <= 0) return;
+        self::fresh($uid);
+        Db::exec('UPDATE wallets SET gift = gift + ?, updated_at = ? WHERE user_id = ?', [min($n, 1000), time(), $uid]);
+    }
     /** کاربری که قلب خریده (اشتراک فعال، نامحدود فعال یا بسته قلب باقی‌مانده) همه محتوای دوره‌ها را می‌گیرد */
     public static function paid(int $uid): bool { return self::state($uid)['paid']; }
     public static function unlimited(int $uid): bool { return self::state($uid)['unl']; }
@@ -82,10 +148,13 @@ final class Hearts
     public static function spend(int $uid, array $events): array
     {
         $C = self::cfg();
-        $events = array_slice(array_values(array_filter($events, fn($e) => is_string($e) && (isset($C['cost'][$e]) || $e === 'practice'))), 0, 60);
+        $events = array_slice(array_values(array_filter($events, fn($e) => is_string($e) && (isset($C['cost'][$e]) || $e === 'practice' || in_array($e, self::TRACK, true)))), 0, 60);
         return Db::tx(function () use ($uid, $events, $C) {
-            $r = self::fresh($uid); $v = self::view($r); $short = false; $spent = 0;
+            $r = self::fresh($uid); $v = self::view($r); $short = false; $spent = 0; $q = self::q($r);
             foreach ($events as $e) {
+                // شمارش برای مأموریت‌های روزانه (رویدادهای بدون هزینه سقف ۲۰ در روز دارند)
+                $q['c'][$e] = min(in_array($e, self::TRACK, true) ? 20 : 500, (int) ($q['c'][$e] ?? 0) + 1);
+                if (in_array($e, self::TRACK, true)) continue;
                 if ($e === 'practice') {
                     if ((int) $r['prac_n'] < (int) $C['practice_max']) { $r['prac_n']++; if (!$v['unl']) $r['day_left'] = min((int) $r['day_left'] + 1, max($v['daily'], (int) $r['day_left'])); }
                     continue;
@@ -93,12 +162,14 @@ final class Hearts
                 if ($v['unl']) continue;
                 $n = (int) $C['cost'][$e];
                 $a = min($n, (int) $r['day_left']); $r['day_left'] -= $a; $n -= $a;
+                $g = min($n, (int) ($r['gift'] ?? 0)); $r['gift'] = (int) ($r['gift'] ?? 0) - $g; $n -= $g;
                 $b = min($n, (int) $r['bank']); $r['bank'] -= $b; $n -= $b;
-                $spent += $a + $b;
+                $spent += $a + $g + $b;
                 if ($n > 0) $short = true;
                 if ($e === 'right' || $e === 'wrong') $r['ans_pool'] = min(300, (int) ($r['ans_pool'] ?? 0) + (int) $C['cost'][$e]);
             }
-            Db::exec('UPDATE wallets SET day_left = ?, bank = ?, prac_n = ?, ans_pool = ?, updated_at = ? WHERE user_id = ?', [$r['day_left'], $r['bank'], $r['prac_n'], (int) ($r['ans_pool'] ?? 0), time(), $uid]);
+            $r['q'] = json_encode($q);
+            Db::exec('UPDATE wallets SET day_left = ?, gift = ?, bank = ?, prac_n = ?, ans_pool = ?, q = ?, updated_at = ? WHERE user_id = ?', [$r['day_left'], (int) ($r['gift'] ?? 0), $r['bank'], $r['prac_n'], (int) ($r['ans_pool'] ?? 0), $r['q'], time(), $uid]);
             return self::view($r) + ['short' => $short, 'spent' => $spent];
         });
     }
@@ -115,10 +186,10 @@ final class Hearts
             if (Db::val('SELECT 1 FROM licenses WHERE user_id = ? AND tier >= 2 AND (life = 1 OR exp > ?)', [$uid, time()])) return 0;
             $need = $n * (int) $C['lesson_min'];
             $pool = (int) ($r['ans_pool'] ?? 0); $cov = min($need, $pool); $miss = $need - $cov;
-            $a = min($miss, (int) $r['day_left']); $b = min($miss - $a, (int) $r['bank']);
-            Db::exec('UPDATE wallets SET ans_pool = ?, day_left = ?, bank = ?, updated_at = ? WHERE user_id = ?', [$pool - $cov, (int) $r['day_left'] - $a, (int) $r['bank'] - $b, time(), $uid]);
+            $a = min($miss, (int) $r['day_left']); $g = min($miss - $a, (int) ($r['gift'] ?? 0)); $b = min($miss - $a - $g, (int) $r['bank']);
+            Db::exec('UPDATE wallets SET ans_pool = ?, day_left = ?, gift = ?, bank = ?, updated_at = ? WHERE user_id = ?', [$pool - $cov, (int) $r['day_left'] - $a, (int) ($r['gift'] ?? 0) - $g, (int) $r['bank'] - $b, time(), $uid]);
             if ($miss > 0) Http::audit($uid, 'hearts_settle', ['lessons' => $n, 'missing' => $miss]);
-            return $a + $b;
+            return $a + $g + $b;
         });
     }
 

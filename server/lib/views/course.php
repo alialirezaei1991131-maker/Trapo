@@ -50,13 +50,14 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
 <script type="application/ld+json" nonce="<?= $esc($nonce) ?>"><?= json_encode($ld, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
 </head>
 <body class="cp" style="--cc:<?= $esc($c['color']) ?>">
+<div class="lp-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="lp-bg__grid"></span></div>
 <header class="lp-bar">
   <a class="lp-logo" href="./" aria-label="تراپو">
     <svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>
     <b>تراپو</b>
   </a>
   <nav class="lp-nav">
-    <a href="./#courses">دوره‌ها</a><a href="course/<?= $esc($c['slug']) ?>#pricing">قیمت‌ها</a>
+    <a href="./#courses">دوره‌ها</a><a href="course/<?= $esc($c['slug']) ?>#pricing">برنامه‌ها</a>
     <a class="lp-cta lp-cta--sm" href="./#join">ورود</a>
   </nav>
 </header>
@@ -71,8 +72,11 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
       <div class="lp-hero__cta"><a class="lp-cta" href="<?= $esc($join) ?>">ثبت‌نام رایگان و شروع</a><a class="lp-ghost" href="course/<?= $esc($c['slug']) ?>#syllabus">سرفصل‌ها</a></div>
       <ul class="lp-nums"><?php foreach ($c['nums'] as $n): ?><li><b><?= $esc($n[0]) ?></b><span><?= $esc($n[1]) ?></span></li><?php endforeach; ?></ul>
     </div>
-    <div class="cp-art"><img src="img/m-<?= $esc($c['slug']) ?>.svg" width="220" height="275" alt="<?= $esc($c['fa'] . ' — ' . $c['subject']) ?>"></div>
+    <div class="cp-art"><span class="cp-ring" aria-hidden="true"></span><span class="cp-ring cp-ring--2" aria-hidden="true"></span><span class="lp-spark lp-spark--a" aria-hidden="true">✦</span><span class="lp-spark lp-spark--c" aria-hidden="true">✦</span><img src="img/m-<?= $esc($c['slug']) ?>.svg" width="220" height="275" alt="<?= $esc($c['fa'] . ' — ' . $c['subject']) ?>"></div>
   </section>
+  <svg class="lp-ecg" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="lpecg" x1="0" x2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><path d="M0 40 H330 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H760 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H1200"/></svg>
+
+  <section class="lp-sec cp-scene"><?= trapo_scene(['yona' => 'ward', 'homa' => 'icu', 'negar' => 'lab', 'termino' => 'class'][$c['slug']] ?? 'ward') ?></section>
 
   <section class="lp-sec" aria-labelledby="o-t">
     <h2 id="o-t">بعد از این دوره می‌توانی…</h2>
@@ -119,5 +123,6 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
   </section>
 </main>
 <footer class="lp-foot"><p>تراپو ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p><p>© <?= date('Y') ?> تراپو</p></footer>
+<script src="<?= $esc(trapo_asset('lp.js')) ?>"></script>
 </body>
 </html>

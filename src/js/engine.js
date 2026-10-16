@@ -1078,6 +1078,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       function close() {
         if (!root) return;
         clearInterval(P && P.timer); stopCB();
+        if (root) root.classList.remove('is-boss', 'boss-shake');
         document.removeEventListener('keydown', onKey);
         root.remove(); root = null;
         if (EA.audio) EA.audio.setDuck(false);
@@ -1098,6 +1099,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         else if (P.mode === 'lesson') meta.innerHTML = EA.S.noHearts() ? '<span class="p-hearts">❤️ ∞</span>' : `<span class="p-hearts">❤️ ${fa(S().hearts)}</span>`;
         else meta.innerHTML = `<span class="p-count">${fa(Math.min(P.idx + 1, P.total))} / ${fa(P.total)}</span>`;
         if (P.mode === 'speed') meta.innerHTML = `<span class="p-timer">⚡ ${fa(P.correct)} • ${mmss(P.endsAt - Date.now())}</span>`;
+        if (P.boss) meta.innerHTML = `<span class="p-boss">👹 ${fa(P.boss.hp)} • ${'🛡️'.repeat(P.boss.lives) || '💔'}</span>`;
       }
 
       function tickTimer() {
@@ -1187,6 +1189,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         }
         body().innerHTML = `<div class="qwrap qwrap--${it.kind}">${html}</div>`;
         engageRender(it);
+        if (P.boss) bossPanel();
         body().scrollTop = 0;
         if (it.kind === 'order') drawOrder(it);
         if (it.kind === 'build') drawBuild(it);
@@ -1478,6 +1481,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         if (!it || it.state) return;
         const ok = grade(it, skipped);
         engageCheck(it, ok);
+        if (P.boss) bossHit(ok);
         it.state = ok ? 'ok' : 'bad';
         const first = !it.retry;
         const w = it.world || P.world;
@@ -1493,14 +1497,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           P.xp += it.calc ? 3 : 2;
           if (P.combo >= 3 && P.combo % 3 === 0) { P.xp += 3; showCombo(P.combo); }
           if ((P.mode === 'practice' || P.mode === 'clinic') && it.key) EA.S.clearMistake(it.key);
-          if (P.mode === 'lesson' && WLT()) WLT().spend('right');
+          if (P.mode === 'lesson' && !P.boss && WLT()) WLT().spend('right');
           sfx('correct'); buzz(15);
         } else {
           if (first) P.wrong++;
           P.combo = 0; st.wrong++;
           if (it.key && P.mode !== 'speed' && P.mode !== 'round') EA.S.recordMistake(it.key);
-          if (P.mode === 'lesson') EA.S.loseHeart();
-          if (!P.exam && P.mode !== 'speed' && P.mode !== 'round') { it.retry = true; P.queue.push(it); }
+          if (P.mode === 'lesson' && !P.boss) EA.S.loseHeart();
+          if (!P.exam && !P.boss && P.mode !== 'speed' && P.mode !== 'round') { it.retry = true; P.queue.push(it); }
           sfx('wrong'); buzz([30, 40, 30]);
         }
         EA.S.save();
@@ -1546,13 +1550,78 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         root.appendChild(fx); setTimeout(() => fx.remove(), 1800);
       }
 
+      /* ---------- غول مرحله آخر درس ---------- */
+      const BOSS_NAMES = [['غول فراموشی', 'The Forgetting Fiend'], ['هیولای اشتباه', 'The Mistake Monster'], ['ویروس شک', 'The Doubt Virus'], ['غول حواس‌پرتی', 'The Distraction Ogre'], ['هیولای عجله', 'The Rush Beast'], ['اژدهای سردرگمی', 'The Confusion Dragon']];
+      function bossSVG(cls) {
+        const pts = Array.from({ length: 32 }, (_, i) => { const a = i * Math.PI / 16, r = i % 2 ? 37 : 48; return (60 + r * Math.cos(a)).toFixed(1) + ',' + (62 + r * Math.sin(a)).toFixed(1); }).join(' ');
+        return `<svg class="bossm ${cls || ''}" viewBox="0 0 120 120" aria-hidden="true"><g class="bossm__b">
+          <ellipse cx="60" cy="112" rx="30" ry="5" fill="rgba(0,0,0,.18)" class="bossm__sh"/>
+          <polygon points="${pts}" fill="var(--bc)" class="bossm__spk"/><circle cx="60" cy="62" r="35" fill="var(--bc)"/><circle cx="50" cy="50" r="18" fill="#fff" opacity=".14"/>
+          <g class="bossm__eyes"><ellipse cx="47" cy="58" rx="9" ry="10" fill="#fff"/><ellipse cx="73" cy="58" rx="9" ry="10" fill="#fff"/><circle class="bossm__p" cx="48" cy="60" r="4.6" fill="#1d1b2e"/><circle class="bossm__p" cx="72" cy="60" r="4.6" fill="#1d1b2e"/></g>
+          <path d="M35 44L55 51M85 44L65 51" stroke="#1d1b2e" stroke-width="5" stroke-linecap="round" class="bossm__br"/>
+          <path d="M42 78Q60 92 78 78Q60 84 42 78z" fill="#3a1020" class="bossm__m"/><path d="M49 80l3 6 3-5zM65 80l3 5 3-6z" fill="#fff"/></g></svg>`;
+      }
+      function bossPick() {
+        if (P.mode !== 'lesson' || P.boss || P.noBoss) return null;
+        const w = worldOf(P.world), l = w && w.lessons.find(x => x.id === P.lesson); if (!l) return null;
+        const OKK = ['mcq', 'tf', 'fill', 'num', 'spell', 'build'];
+        const src = shuffle(l.items.map((x, i) => ({ x, i })).filter(o => o.x.t !== 'learn')).filter(o => { const t = inst(o.x, { key: P.lesson + ':' + o.i, world: P.world }); return t && OKK.includes(t.kind); });
+        if (src.length < 2) return null;
+        P.bossSrc = src; P.bossNext = 0;
+        return Array.from({ length: Math.min(3, src.length) }, () => bossMore());
+      }
+      /** سؤال تازه برای ادامه نبرد (چرخشی از سؤال‌های همین درس) */
+      function bossMore() { const o = P.bossSrc[P.bossNext++ % P.bossSrc.length]; return inst(o.x, { key: P.lesson + ':' + o.i, world: P.world }); }
+      function bossStart(qs) {
+        const nm = BOSS_NAMES[[...String(P.lesson)].reduce((a, c) => a + c.charCodeAt(0), 0) % BOSS_NAMES.length];
+        P.boss = { hp: qs.length, max: qs.length, lives: 3, name: T(nm[0], nm[1]) };
+        P.queue.push(...qs);
+        root.classList.add('is-boss');
+        const ov = document.createElement('div'); ov.className = 'bossin';
+        ov.innerHTML = `<div class="bossin__c">${bossSVG('bossm--in')}<small>${T('⚠️ غول مرحله آخر', '⚠️ Final boss')}</small><h3>${P.boss.name}</h3>
+          <p>${T(`${fa(qs.length)} سؤال از همین درس. هر پاسخ درست یک ضربه است؛ با ${fa(3)} سپر شکستش بده!`, `${fa(qs.length)} questions from this lesson. Every right answer is a hit — beat it before your ${fa(3)} shields break!`)}</p>
+          <button class="btn btn--red btn--lg" data-bgo>⚔️ ${T('شروع نبرد', 'Fight!')}</button></div>`;
+        root.appendChild(ov); sfx('combo'); buzz([40, 60, 40]);
+        ov.querySelector('[data-bgo]').onclick = () => { ov.classList.add('is-out'); setTimeout(() => ov.remove(), 380); render(); };
+      }
+      function bossPanel() {
+        const b = P.boss; if (!b) return;
+        const p = document.createElement('div'); p.className = 'bossp' + (b.hp <= 0 ? ' is-dead' : '');
+        p.innerHTML = `${bossSVG()}<div class="bossp__i"><b>👹 ${b.name}</b><span class="bossp__hp"><i style="width:${b.hp / b.max * 100}%"></i></span>
+          <span class="bossp__sh">${[0, 1, 2].map(i => `<em class="${i < b.lives ? '' : 'is-off'}">🛡️</em>`).join('')}</span></div>`;
+        body().prepend(p);
+      }
+      function bossHit(ok) {
+        const b = P.boss, p = body().querySelector('.bossp'); if (!b || !p) return;
+        p.classList.remove('is-hit', 'is-attack'); void p.offsetWidth;
+        if (ok) {
+          b.hp = Math.max(0, b.hp - 1);
+          p.classList.add('is-hit');
+          const d = document.createElement('span'); d.className = 'bossp__dmg'; d.textContent = T('ضربه! −۱', 'Hit! −1'); p.appendChild(d);
+          if (b.hp <= 0) { b.won = true; setTimeout(() => { p.classList.add('is-dead'); confetti(90); sfx('chest'); buzz([30, 30, 80]); }, 350); }
+        } else {
+          b.lives = Math.max(0, b.lives - 1);
+          p.classList.add('is-attack'); root.classList.remove('boss-shake'); void root.offsetWidth; root.classList.add('boss-shake');
+          if (b.lives <= 0) b.lost = true; else P.queue.push(bossMore()); // نبرد تا شکست غول یا تمام شدن سپرها ادامه دارد
+        }
+        p.querySelector('.bossp__hp i').style.width = (b.hp / b.max * 100) + '%';
+        p.querySelectorAll('.bossp__sh em').forEach((e, i) => e.classList.toggle('is-off', i >= b.lives));
+      }
+      function bossResultHTML() {
+        const b = P.boss; if (!b) return '';
+        return b.won ? `<div class="bossr bossr--won">${bossSVG('bossm--dead')}<div><b>${T(`${b.name} شکست خورد!`, `${b.name} defeated!`)}</b><small>+${fa(10)} XP • +${fa(5)} 💎</small></div></div>`
+          : `<div class="bossr bossr--lost">${bossSVG()}<div><b>${T(`${b.name} فرار کرد!`, `${b.name} got away!`)}</b><small>${T('درس را دوباره برو و این بار شکستش بده 💪', 'Replay the lesson and beat it next time 💪')}</small></div></div>`;
+      }
       function next() {
         if (!P || P.finished) return;
         stopCB();
         const it = cur();
         if (it && it.kind === 'learn') { P.done++; }
-        if (P.mode === 'lesson' && !EA.S.noHearts() && S().hearts <= 0) return outOfHearts();
+        if (P.boss && (P.boss.won || P.boss.lost)) return finish();
+        if (P.boss && P.idx + 1 >= P.queue.length) { P.boss.lost = true; return finish(); }
+        if (P.mode === 'lesson' && !P.boss && !EA.S.noHearts() && S().hearts <= 0) return outOfHearts();
         P.idx++;
+        if (P.idx >= P.queue.length && !P.boss) { const bq = bossPick(); if (bq) return bossStart(bq); }
         if (P.mode === 'speed' && P.idx >= P.queue.length) P.queue.push(...P.refill());
         if (P.idx >= P.queue.length) return finish();
         render();
@@ -1572,7 +1641,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       }
 
       function outOfHearts() {
-        if (WLT()) return WLT().outModal('lesson', { end: () => { close(); EA.app.refresh(); }, practice: () => { close(); EA.app.go('practice'); }, resume: () => { if (!P || P.finished) return; P.idx++; P.idx >= P.queue.length ? finish() : render(); } });
+        if (WLT()) return WLT().outModal('lesson', { left: Math.max(0, P.queue.length - P.idx - 1), end: () => { close(); EA.app.refresh(); }, practice: () => { close(); EA.app.go('practice'); }, resume: () => { if (!P || P.finished) return; P.idx++; P.idx >= P.queue.length ? finish() : render(); } });
         const s = S();
         const m = modal(`${mascot('sad', '#FF4B4B', 90)}
           <h3>${T('قلب‌هات تموم شد!', 'You’re out of hearts!')}</h3>
@@ -1610,6 +1679,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           s.stats.lessons++; if (perfect) s.stats.perfect++;
           extra = `<div class="stars">${[1, 2, 3].map(i => `<span class="star ${i <= stars ? 'on' : ''}" style="--d:${i * 0.18}s">★</span>`).join('')}</div>` + lessonEndHTML(gems, P.firstDone);
           if (perfect) title = T('درس بی‌نقص!', 'Perfect lesson!');
+          if (P.boss) { if (P.boss.won) { P.xp += 10; s.gems += 5; try { window.ACADEMY && ACADEMY.wallet && ACADEMY.wallet.spend('boss'); } catch (e) { /* */ } } extra = bossResultHTML() + extra; }
+          try { window.ACADEMY && ACADEMY.onLessonDone && ACADEMY.onLessonDone({ perfect, first: P.firstDone, course: C.id }); } catch (e) { /* */ }
         } else if (P.mode === 'checkpoint') {
           passed = acc >= EA.exam.checkpoint.pass;
           const w = worldOf(P.world);
@@ -2012,7 +2083,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <section class="final ${fin ? 'is-open' : ''} ${s.final && s.final.passed ? 'is-done' : ''}">
             <div class="final__icon">${s.final && s.final.passed ? '🎓' : fin ? '🏆' : '🔒'}</div>
             <h2>${T('امتحان نهایی', 'Final exam')}</h2>
-            <p>${finPay ? (WLT() ? T('🔒 امتحان نهایی و گواهی‌نامه با خرید قلب باز می‌شود.', '🔒 The final exam and certificate unlock once you buy hearts.') : T('🔒 امتحان نهایی و گواهی‌نامه با پلن آموزشی یا Pro باز می‌شود.', '🔒 The final exam and certificate unlock with the Standard or Pro plan.')) : fin ? T(`${fa(EA.worlds.length * EA.exam.final.perWorld)} سؤال از هر پنج دنیا، ${fa(EA.exam.final.minutes)} دقیقه. با ${fa(EA.exam.final.pass * 100)}٪ قبول می‌شوی و گواهی می‌گیری.`, `${fa(EA.worlds.length * EA.exam.final.perWorld)} questions from all five worlds, ${fa(EA.exam.final.minutes)} minutes. Score ${fa(EA.exam.final.pass * 100)}% to pass and earn your certificate.`) : T('آزمون مرحله هر پنج دنیا را قبول شو تا امتحان نهایی باز شود.', 'Pass the checkpoint of all five worlds to unlock the final exam.')}</p>
+            <p>${finPay ? (WLT() ? T('🔒 امتحان نهایی و گواهی‌نامه با پر کردن قلب باز می‌شود.', '🔒 The final exam and certificate unlock once you refill hearts.') : T('🔒 امتحان نهایی و گواهی‌نامه با پلن آموزشی یا Pro باز می‌شود.', '🔒 The final exam and certificate unlock with the Standard or Pro plan.')) : fin ? T(`${fa(EA.worlds.length * EA.exam.final.perWorld)} سؤال از هر پنج دنیا، ${fa(EA.exam.final.minutes)} دقیقه. با ${fa(EA.exam.final.pass * 100)}٪ قبول می‌شوی و گواهی می‌گیری.`, `${fa(EA.worlds.length * EA.exam.final.perWorld)} questions from all five worlds, ${fa(EA.exam.final.minutes)} minutes. Score ${fa(EA.exam.final.pass * 100)}% to pass and earn your certificate.`) : T('آزمون مرحله هر پنج دنیا را قبول شو تا امتحان نهایی باز شود.', 'Pass the checkpoint of all five worlds to unlock the final exam.')}</p>
             <div class="final__w">${EA.worlds.map(w => `<span class="final__dot ${s.checkpoints[w.id] && s.checkpoints[w.id].passed ? 'on' : ''}" style="--wc:${w.color}">${w.sym}</span>`).join('')}</div>
             ${finPay ? `<button class="btn btn--gold btn--lg" data-ac="upsell" data-why="final">👑 ${T('ارتقای اشتراک', 'Upgrade')}</button>` : ''}
             ${fin ? `<button class="btn btn--gold btn--lg" data-act="final">${s.final && s.final.passed ? T('دوباره امتحان بده', 'Retake the exam') : T('شروع امتحان نهایی', 'Start the final exam')}</button>` : ''}
@@ -2033,7 +2104,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
         pop.style.setProperty('--wc', w.color); pop.style.setProperty('--wd', w.dark);
         const lv = Math.floor(i / EA.PER_LEVEL);
         pop.innerHTML = `<small class="pop__k">${T('سطح', 'Level')} ${fa(lv + 1)} • ${w.levels[lv]}</small><h4>${l.title}</h4><p>${T(`درس ${fa(i % EA.PER_LEVEL + 1)} از ${fa(EA.PER_LEVEL)} این سطح • ${fa(n)} سؤال`, `Lesson ${fa(i % EA.PER_LEVEL + 1)} of ${fa(EA.PER_LEVEL)} in this level • ${fa(n)} questions`)}</p>
-          ${pay ? `<p class="pop__pay">👑 ${(WLT() ? T('🔒 با خرید قلب (اشتراک، بسته یا نامحدود) همه درس‌ها باز می‌شوند.', '🔒 Buying hearts (a plan, a pack or Ultimate) unlocks every lesson.') : T('🔒 با پلن آموزشی یا Pro همه درس‌ها باز می‌شوند.', '🔒 The Standard or Pro plan unlocks every lesson.'))}</p><button class="btn btn--white btn--block" data-ac="upsell" data-why="lesson">🔓 ${T('باز کردن قفل', 'Unlock')}</button>`
+          ${pay ? `<p class="pop__pay">👑 ${(WLT() ? T('🔒 با پر کردن قلب (اشتراک، بسته یا نامحدود) همه درس‌ها باز می‌شوند.', '🔒 Buying hearts (a plan, a pack or Ultimate) unlocks every lesson.') : T('🔒 با پلن آموزشی یا Pro همه درس‌ها باز می‌شوند.', '🔒 The Standard or Pro plan unlocks every lesson.'))}</p><button class="btn btn--white btn--block" data-ac="upsell" data-why="lesson">🔓 ${T('باز کردن قفل', 'Unlock')}</button>`
             : st === 'locked' ? `<button class="btn btn--block" disabled>${T('اول درس قبلی را تمام کن', 'Finish the previous lesson first')}</button>`
             : `<button class="btn btn--white btn--block" data-act="start" data-w="${w.id}" data-l="${l.id}">${st === 'done' ? T(`تکرار +${fa(10)} امتیاز`, `Practice again +${fa(10)} XP`) : T(`شروع +${fa(15)} امتیاز`, `Start +${fa(15)} XP`)}</button>`}`;
         btn.parentNode.appendChild(pop);
@@ -2226,7 +2297,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
           <div class="badges">${EA.S.BADGES.map(b => `<div class="badge ${s.badges[b.id] ? 'on' : ''}" title="${b.desc}"><span>${b.icon}</span><b>${b.name}</b><small>${b.desc}</small></div>`).join('')}</div>
           <h2 class="sh">${T('فروشگاه', 'Shop')}</h2>
           <div class="shop">
-            ${WLT() ? `<div class="shop__i"><span>❤️</span><div><b>${T('خرید قلب', 'Buy hearts')}</b><small>${T('اشتراک روزانه، بسته قلب یا نامحدود', 'Daily plans, heart packs or Ultimate')}</small></div><button class="btn btn--gold" data-ac="hstore">🛒 ${T('فروشگاه', 'Store')}</button></div>` : `<div class="shop__i"><span>❤️</span><div><b>${T('پر کردن قلب‌ها', 'Refill hearts')}</b><small>${T('همه قلب‌ها برمی‌گردند', 'All your hearts come back')}</small></div><button class="btn btn--blue" data-act="buy" data-item="hearts" ${s.hearts >= EA.S.MAX_HEARTS || s.gems < ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150) ? 'disabled' : ''}>${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎</button></div>`}
+            ${WLT() ? `<div class="shop__i"><span>❤️</span><div><b>${T('پر کردن قلب', 'Refill hearts')}</b><small>${T('اشتراک روزانه، بسته قلب یا نامحدود', 'Daily plans, heart packs or Ultimate')}</small></div><button class="btn btn--gold" data-ac="hstore">💗 ${T('فروشگاه', 'Store')}</button></div>` : `<div class="shop__i"><span>❤️</span><div><b>${T('پر کردن قلب‌ها', 'Refill hearts')}</b><small>${T('همه قلب‌ها برمی‌گردند', 'All your hearts come back')}</small></div><button class="btn btn--blue" data-act="buy" data-item="hearts" ${s.hearts >= EA.S.MAX_HEARTS || s.gems < ((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150) ? 'disabled' : ''}>${fa(((window.ACADEMY && ACADEMY.CFG.HEART_REFILL_GEMS) || 150))} 💎</button></div>`}
             <div class="shop__i"><span>🧊</span><div><b>${T('یخ‌زدگی زنجیره', 'Streak freeze')}</b><small>${T(`یک روز غیبت، زنجیره نمی‌شکند • داری: ${fa(s.freeze)}`, `Miss a day without losing your streak • you have ${fa(s.freeze)}`)}</small></div><button class="btn btn--blue" data-act="buy" data-item="freeze" ${s.freeze >= 2 || s.gems < 200 ? 'disabled' : ''}>${fa(200)} 💎</button></div>
           </div>
           <h2 class="sh">${T('تنظیمات', 'Settings')}</h2>
@@ -3024,7 +3095,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     pModal(`<div class="big-i">⌛</div><h3>${PT('پایان مهلت اشتراک', 'Your subscription has ended')}</h3>
       <p>${PT(`اعتبار اشتراک <b>${names}</b> به پایان رسید. درس‌های ۲ به بعد، امتحان نهایی و ماشین‌حساب‌ها دوباره قفل شدند.`, `Your access to <b>${names}</b> has expired. Lessons 2+, the final exam and the calculators are locked again.`)}</p>
       <div class="acsafe">🛡️ ${PT('نگران نباش: همه امتیازها (XP)، ستاره‌ها، زنجیره روزانه، کاراکترها و پیشرفت درس‌هایت سالم و محفوظ است. با وارد کردن کد تمدید، دقیقاً از همان‌جا ادامه می‌دهی.', 'Don’t worry: all your XP, stars, streak, characters and lesson progress are safe. Enter a renewal code and you’ll continue exactly where you left off.')}</div>
-      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-ac="activate">🔑 ${PT('وارد کردن کد تمدید', 'Enter renewal code')}</button><button class="btn btn--gold" data-ac="store">🛒 ${PT('فروشگاه و تمدید', 'Store & renew')}</button><button class="btn btn--ghost" data-close>${PT('باشه', 'OK')}</button></div>`,
+      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-ac="activate">🔑 ${PT('وارد کردن کد تمدید', 'Enter renewal code')}</button><button class="btn btn--gold" data-ac="store">💗 ${PT('فروشگاه و تمدید', 'Store & renew')}</button><button class="btn btn--ghost" data-close>${PT('باشه', 'OK')}</button></div>`,
     { onClose: () => { const x = lic(); gone.forEach(g => x.ack.push(g.code)); saveLic(x); } });
   }
 
@@ -3158,25 +3229,72 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   const ROLES_EN = ['Medical student', 'Intern or resident', 'Physician', 'Nurse', 'Dietitian', 'Pharmacist', 'Anesthesia / respiratory therapy', 'Other'];
   /** نقش ذخیره‌شده (فارسی) به زبان رابط؛ نقش‌های دوره‌ها هم با همین نگاشت ترجمه می‌شوند */
   const roleName = r => { const i = ROLES_P.indexOf(r); return i >= 0 ? PT(r, ROLES_EN[i]) : r; };
-  function onboardModal(after) {
-    const d = { name: '', role: '' };
-    // اگر قبلاً در یکی از دوره‌ها نام داده، همان را پیشنهاد بده
-    courses().some(c => { const s = courseState(c.id); if (s && s.profile) { d.name = s.profile.name; d.photo = s.profile.photo; return true; } return false; });
-    const m = pModal(`<div class="acob__m">${['💧', '🫁', '🔍'].map(x => `<span>${x}</span>`).join('')}</div><h3>${PT(`به ${CFG.BRAND_FA} خوش آمدی!`, `Welcome to ${CFG.BRAND_EN}!`)}</h3>
-      <p class="muted">${PT(`${courses().map(c => `${c.nameFa} (${c.domainFa || c.subjectFa})`).join('، ')} در یک پلتفرم. نامت روی گواهی‌نامه‌ها چاپ می‌شود.`, `${courses().map(c => `${c.nameEn} (${c.subjectEn || c.domainEn || c.nameEn})`).join(', ')} in one platform. Your name is printed on your certificates.`)}</p>
-      <input class="ob__in acin" maxlength="40" placeholder="${PT('نام و نام خانوادگی', 'Full name')}" value="${pesc(d.name)}">
-      <div class="ob__grid acroles">${ROLES_P.map(r => `<button class="ob__opt" data-role="${r}">${roleName(r)}</button>`).join('')}</div>
-      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go>${PT('بزن بریم! 🚀', 'Let’s go! 🚀')}</button></div>`, { sticky: true });
-    const inp = m.el.querySelector('input'); setTimeout(() => inp.focus(), 80);
-    m.el.querySelector('.acroles').onclick = e => { const b = e.target.closest('[data-role]'); if (!b) return; d.role = b.dataset.role; m.el.querySelectorAll('[data-role]').forEach(x => x.classList.toggle('is-sel', x === b)); };
+  /* ================= شخصیت همراه (آواتار): انتخاب در شروع، روی صفحه اصلی و پروفایل ================= */
+  const EYES = (lx, rx, y, r) => `<g class="av__eyes"><ellipse cx="${lx}" cy="${y}" rx="${r}" ry="${r * 1.15}" fill="#fff"/><ellipse cx="${rx}" cy="${y}" rx="${r}" ry="${r * 1.15}" fill="#fff"/><circle cx="${lx + 1}" cy="${y + 1}" r="${r * .58}" fill="#1d2433"/><circle cx="${rx + 1}" cy="${y + 1}" r="${r * .58}" fill="#1d2433"/><circle cx="${lx + 2.4}" cy="${y - 1.4}" r="${r * .22}" fill="#fff"/><circle cx="${rx + 2.4}" cy="${y - 1.4}" r="${r * .22}" fill="#fff"/></g>`;
+  const SMILE = (x, y, w) => `<path d="M${x - w} ${y}q${w} ${w * .9} ${w * 2} 0" fill="none" stroke="#1d2433" stroke-width="3.2" stroke-linecap="round"/>`;
+  const BLUSH = (lx, rx, y) => `<ellipse cx="${lx}" cy="${y}" rx="5" ry="3" fill="#ff7aa2" opacity=".55"/><ellipse cx="${rx}" cy="${y}" rx="5" ry="3" fill="#ff7aa2" opacity=".55"/>`;
+  const AVATARS = [
+    { id: 'drop', fa: 'دکتر قطره', en: 'Doctor Drop', c: '#1cb0f6', say: ['سلام! من دکتر قطره‌ام؛ با هم الکترولیت‌ها را فتح می‌کنیم 💧', 'Hi! I’m Doctor Drop — let’s conquer electrolytes together 💧'],
+      svg: `<path d="M50 8C38 26 22 42 22 62a28 28 0 0 0 56 0C78 42 62 26 50 8z" fill="#1cb0f6"/><path d="M36 40c-5 8-7 14-7 20" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".5" fill="none"/>${EYES(41, 59, 58, 6.5)}${BLUSH(33, 67, 70)}${SMILE(50, 72, 7)}<path d="M30 86q4 8 12 6M70 86q-4 8-12 6" stroke="#5a6b7c" stroke-width="3" fill="none"/><circle cx="50" cy="94" r="4.5" fill="#c0c9d2" stroke="#5a6b7c" stroke-width="2"/>` },
+    { id: 'nurse', fa: 'پرستار مهربان', en: 'Kind Nurse', c: '#ff7aa2', say: ['من همیشه کنارتم؛ هر روز یک کم، ولی پیوسته 💗', 'I’m always by your side — a little every day 💗'],
+      svg: `<circle cx="50" cy="58" r="32" fill="#ffb3c8"/><path d="M28 34h44l-4-16H32z" fill="#fff" stroke="#ffd1de" stroke-width="2"/><path d="M47 21h6v5h5v6h-5v5h-6v-5h-5v-6h5z" fill="#ff4b6e"/>${EYES(40, 60, 56, 6)}${BLUSH(31, 69, 67)}${SMILE(50, 70, 7)}` },
+    { id: 'pill', fa: 'کپسول داروساز', en: 'Captain Capsule', c: '#ff9600', say: ['دوز درست، زمان درست! بزن بریم 💊', 'Right dose, right time! Let’s go 💊'],
+      svg: `<g transform="rotate(-18 50 52)"><rect x="24" y="14" width="52" height="78" rx="26" fill="#fff" stroke="#ffd7a3" stroke-width="2"/><path d="M24 53V40a26 26 0 0 1 52 0v13z" fill="#ff9600"/></g>${EYES(41, 60, 56, 6)}${BLUSH(33, 68, 66)}${SMILE(51, 69, 6)}` },
+    { id: 'heart', fa: 'قلب قهرمان', en: 'Hero Heart', c: '#ff4b4b', say: ['قلبت را قوی نگه دار؛ هر پاسخ درست یک ضربان قوی‌تر! ❤️', 'Keep your heart strong — every right answer is a stronger beat! ❤️'],
+      svg: `<path d="M18 46c-6-22 18-36 32-18 14-18 38-4 32 18-6 22-32 38-32 38S24 68 18 46z" fill="#ff4b4b"/><path d="M26 36c2-6 8-9 14-7" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".45" fill="none"/><path d="M14 52q-8 18 4 34l10-14z" fill="#ffc800"/>${EYES(40, 60, 46, 6)}${BLUSH(31, 69, 57)}${SMILE(50, 60, 7)}` },
+    { id: 'brain', fa: 'مغز متفکر', en: 'Thinker Brain', c: '#ce82ff', say: ['هر روز یک نکته تازه؛ مغزم عاشق این کار است 🧠', 'A new fact every day — my favourite workout 🧠'],
+      svg: `<path d="M50 20c-8-8-24-6-26 6-12 2-16 18-8 26-6 10 2 24 14 22 4 10 16 10 20 2 4 8 16 8 20-2 12 2 20-12 14-22 8-8 4-24-8-26-2-12-18-14-26-6z" fill="#e8a3ff"/><path d="M50 22v50M34 34q8 4 6 14M66 34q-8 4-6 14" stroke="#c46be8" stroke-width="3" fill="none" stroke-linecap="round"/><circle cx="40" cy="52" r="10" fill="none" stroke="#3a2a4a" stroke-width="3"/><circle cx="62" cy="52" r="10" fill="none" stroke="#3a2a4a" stroke-width="3"/><path d="M50 52h2" stroke="#3a2a4a" stroke-width="3"/>${EYES(40, 62, 52, 5)}${SMILE(51, 68, 6)}` },
+    { id: 'cell', fa: 'گلبول قرمز', en: 'Red Cell', c: '#e5484d', say: ['من اکسیژن می‌رسانم، تو دانش! ⚡', 'I deliver oxygen, you deliver knowledge! ⚡'],
+      svg: `<ellipse cx="50" cy="54" rx="38" ry="32" fill="#e5484d"/><ellipse cx="50" cy="54" rx="22" ry="17" fill="#c9343a" opacity=".55"/><path d="M24 40q6-10 18-12" stroke="#fff" stroke-width="5" stroke-linecap="round" opacity=".4" fill="none"/>${EYES(41, 59, 52, 6)}${BLUSH(30, 70, 64)}${SMILE(50, 66, 7)}` },
+    { id: 'lungs', fa: 'ریه ورزشکار', en: 'Athlete Lungs', c: '#58cc02', say: ['نفس عمیق… حالا سؤال بعدی! 🫁', 'Deep breath… now the next question! 🫁'],
+      svg: `<path d="M46 26v20M54 26v20" stroke="#ff9eb6" stroke-width="6" stroke-linecap="round"/><path d="M44 40c-16-8-30 6-30 26s10 26 20 22 12-14 12-30z" fill="#ff9eb6"/><path d="M56 40c16-8 30 6 30 26s-10 26-20 22-12-14-12-30z" fill="#ff9eb6"/><rect x="20" y="30" width="60" height="8" rx="4" fill="#58cc02"/>${EYES(34, 66, 60, 5.5)}${SMILE(50, 74, 6)}` },
+    { id: 'bone', fa: 'استخوان شاد', en: 'Happy Bone', c: '#f5c542', say: ['محکم و استوار؛ مثل دانشی که با هم می‌سازیم 🦴', 'Strong and steady — like the knowledge we build together 🦴'],
+      svg: `<g fill="#fff6dc" stroke="#e9d39a" stroke-width="2.5"><circle cx="24" cy="30" r="12"/><circle cx="34" cy="20" r="12"/><circle cx="76" cy="80" r="12"/><circle cx="66" cy="90" r="12"/><path d="M30 26l44 44-8 8-44-44z"/></g>${EYES(42, 58, 50, 5.5)}${BLUSH(37, 63, 60)}${SMILE(50, 61, 6)}` },
+  ];
+  const avatarOf = id => AVATARS.find(a => a.id === id) || null;
+  function avatarSVG(id, cls) {
+    const a = avatarOf(id); if (!a) return '';
+    return `<svg class="av ${cls || ''}" viewBox="0 0 100 100" style="--ac:${a.c}" role="img" aria-label="${pesc(PT(a.fa, a.en))}"><ellipse cx="50" cy="97" rx="24" ry="3.5" fill="rgba(0,0,0,.12)" class="av__sh"/><g class="av__b">${a.svg}</g></svg>`;
+  }
+  /** پنجره انتخاب شخصیت (اولین ورود، یا از تنظیمات) */
+  function avatarModal(after, withName, sticky) {
+    const p = profile() || {};
+    const st = { id: p.avatar || null, name: p.name || '' };
+    const m = pModal(`<div class="avp"><h3>${PT('شخصیت همراهت را انتخاب کن ✨', 'Pick your study buddy ✨')}</h3>
+      <p class="muted">${PT('در همه دوره‌ها کنارت است، تشویقت می‌کند و روی صفحه اصلی به تو سلام می‌کند.', 'It stays with you in every course, cheers you on and greets you on the home screen.')}</p>
+      <div class="avp__stage"><div class="avp__big">${avatarSVG(st.id || AVATARS[0].id, 'av--big')}</div><div class="avp__say" dir="auto"></div></div>
+      <div class="avp__grid">${AVATARS.map((a, i) => `<button class="avp__o ${st.id === a.id ? 'is-sel' : ''}" data-av="${a.id}" style="--ac:${a.c};--d:${i * 50}ms" aria-label="${pesc(PT(a.fa, a.en))}">${avatarSVG(a.id)}<small>${pesc(PT(a.fa, a.en))}</small></button>`).join('')}</div>
+      ${withName ? `<input class="ob__in acin" maxlength="40" placeholder="${PT('نام و نام خانوادگی (روی گواهی‌ها)', 'Full name (on certificates)')}" value="${pesc(st.name)}">` : ''}
+      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-go ${st.id ? '' : 'disabled'}>${PT('بزن بریم! 🚀', 'Let’s go! 🚀')}</button>${sticky ? '' : `<button class="btn btn--ghost" data-close>${PT('بعداً', 'Later')}</button>`}</div></div>`, { sticky: !!sticky, cls: 'modal--avp' });
+    const say = () => { const a = avatarOf(st.id); m.el.querySelector('.avp__say').textContent = a ? PT(a.say[0], a.say[1]) : PT('یکی را انتخاب کن!', 'Choose one!'); };
+    say();
+    m.el.querySelector('.avp__grid').onclick = e => {
+      const b = e.target.closest('[data-av]'); if (!b) return;
+      st.id = b.dataset.av; pSfx('tap');
+      m.el.querySelectorAll('[data-av]').forEach(x => x.classList.toggle('is-sel', x === b));
+      const big = m.el.querySelector('.avp__big'); big.innerHTML = avatarSVG(st.id, 'av--big av--pop'); say();
+      const s = m.el.querySelector('.avp__say'); s.classList.remove('is-in'); void s.offsetWidth; s.classList.add('is-in');
+      m.el.querySelector('[data-go]').disabled = false;
+    };
+    const inp = m.el.querySelector('input');
     const go = () => {
-      const v = inp.value.trim();
-      if (!v) { inp.classList.add('shake'); setTimeout(() => inp.classList.remove('shake'), 400); return; }
-      LS.put('academy.profile', { name: v, role: d.role || 'سایر', goal: 50, photo: d.photo || null, joined: Date.now() });
-      m.close(); after && after();
+      if (!st.id) return;
+      const v = inp ? inp.value.trim() : st.name;
+      if (inp && !v) { inp.classList.add('shake'); setTimeout(() => inp.classList.remove('shake'), 400); return; }
+      const cur = profile() || { role: 'سایر', goal: 50, joined: Date.now() };
+      cur.name = v || cur.name; cur.avatar = st.id; LS.put('academy.profile', cur);
+      pConfetti(40); pSfx('done'); m.close(); after && after();
     };
     m.el.querySelector('[data-go]').onclick = go;
-    inp.onkeydown = e => { if (e.key === 'Enter') go(); };
+    if (inp) inp.onkeydown = e => { if (e.key === 'Enter') go(); };
+    return m;
+  }
+  function onboardModal(after) {
+    // شروع تازه: نام + انتخاب شخصیت همراه (رشته و مقطع بعداً در پروفایل)
+    let name = '';
+    courses().some(c => { const s = courseState(c.id); if (s && s.profile) { name = s.profile.name; return true; } return false; });
+    if (name && !profile()) LS.put('academy.profile', { name, role: 'سایر', goal: 50, joined: Date.now() });
+    return avatarModal(after, true, true);
   }
 
   /* ================= کلینیک خطاها (داشبورد) ================= */
@@ -3228,9 +3346,9 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     const prog = LS.json('academy.grand', {});
     const m = pModal(`<header class="acsheet__h acsheet__h--icu"><span>🚨</span><div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU emergency shift: combined cases')}</h3><small>${PT('Grand Rounds — الکترولیت + گاز خون + معاینه تغذیه‌محور در یک بیمار', 'Grand Rounds — electrolytes + blood gas + nutrition-focused exam in one patient')}</small></div><button class="iconbtn" data-close aria-label="${PT('بستن', 'Close')}">✕</button></header>
       <div class="acsheet__b">
-        ${sm.grand ? '' : WALLET ? `<div class="acwarn">${PT('🔒 این بخش با خرید قلب (اشتراک، بسته یا نامحدود) باز می‌شود. پیش‌نمایش کیس‌ها را ببین:', '🔒 This section unlocks once you buy hearts (a plan, a pack or Ultimate). Preview the cases:')}</div>` : `<div class="acwarn">${PT('🔒 این بخش با داشتن حداقل ۲ دوره (پلن آموزشی یا Pro) یا پکیج الماس باز می‌شود. پیش‌نمایش کیس‌ها را ببین:', '🔒 This section unlocks with at least 2 courses (Standard or Pro) or the Diamond package. Preview the cases:')}</div>`}
+        ${sm.grand ? '' : WALLET ? `<div class="acwarn">${PT('🔒 این بخش با پر کردن قلب (اشتراک، بسته یا نامحدود) باز می‌شود. پیش‌نمایش کیس‌ها را ببین:', '🔒 This section unlocks once you refill hearts (a plan, a pack or Ultimate). Preview the cases:')}</div>` : `<div class="acwarn">${PT('🔒 این بخش با داشتن حداقل ۲ دوره (پلن آموزشی یا Pro) یا پکیج الماس باز می‌شود. پیش‌نمایش کیس‌ها را ببین:', '🔒 This section unlocks with at least 2 courses (Standard or Pro) or the Diamond package. Preview the cases:')}</div>`}
         <div class="gcases">${GR().map(gLoc).map((c, i) => { const p = prog[c.id]; return `<button class="gcase ${p && p.passed ? 'is-done' : ''}" data-gcase="${c.id}"><span class="gcase__n">${nf(i + 1)}</span><span class="gcase__t"><b>${c.title}</b><small>${c.who}</small><span class="gcase__tags">${c.domains.map(d => `<i style="--dc:${DOM[d][2]}">${DOM[d][0]} ${DOM[d][1]}</i>`).join('')}</span></span><span class="gcase__s">${p ? (p.passed ? '✓ ' : '') + nf(Math.round(p.best * 100)) + PT('٪', '%') : PT(nf(c.steps.length) + ' مرحله', nf(c.steps.length) + ' steps')}</span></button>`; }).join('')}</div>
-        ${sm.grand ? '' : WALLET ? `<div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="hstore">❤️ ${PT('خرید قلب', 'Buy hearts')}</button></div>` : `<div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="store" data-tier="3">💎 ${PT('پکیج الماس', 'Diamond package')}</button></div>`}
+        ${sm.grand ? '' : WALLET ? `<div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="hstore">❤️ ${PT('پر کردن قلب', 'Refill hearts')}</button></div>` : `<div class="modal__btns"><button class="btn btn--gold btn--lg" data-ac="store" data-tier="3">💎 ${PT('پکیج الماس', 'Diamond package')}</button></div>`}
       </div>`, { cls: 'modal--sheet' });
     m.el.addEventListener('click', e => {
       const b = e.target.closest('[data-gcase]'); if (!b) return;
@@ -3824,6 +3942,79 @@ P — Plan: …`);
     document.addEventListener('keydown', key, true);
     build(); draw();
   }
+  /* ================= بازی جفت‌ها (حافظه): جفت‌های کوتاه درس‌ها؛ هر جفت درست = یادآوری فعال ================= */
+  function matchPairs() {
+    if (!(window.EA && EA.worlds)) return [];
+    const s = curState() || { done: {} }, seen = new Set(), done = [], rest = [];
+    EA.worlds.forEach(w => w.lessons.forEach(l => (l.items || []).forEach(it => {
+      if (it.t !== 'match' || !Array.isArray(it.pairs)) return;
+      it.pairs.forEach(p => { const a = plainOf(p[0]), b = plainOf(p[1]); if (!a || !b || a.length > 46 || b.length > 46 || seen.has(a) || seen.has(b)) return; seen.add(a); seen.add(b); (s.done && s.done[l.id] ? done : rest).push([a, b]); });
+    })));
+    const mix = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+    return mix(done).concat(mix(rest)); // اول جفت‌های درس‌هایی که خوانده‌ای (مرور)
+  }
+  function matchCardHTML() {
+    const n = matchPairs().length; if (n < 4) return '';
+    const best = LS.json('academy.match', {})[(window.EA && EA.COURSE && EA.COURSE.id) || ''];
+    return `<article class="pcard pcard--wide pcard--match"><div class="pcard__i">🃏</div><h3>${PT('بازی جفت‌ها', 'Pairs game')}</h3>
+      <p>${PT('کارت‌ها را برگردان و هر واژه یا یافته را به جفتش برسان؛ با کمترین حرکت!', 'Flip the cards and match each term to its partner — in as few moves as you can!')}${best ? ` • ${PT('بهترین', 'best')}: ${'⭐'.repeat(best.stars)}` : ''}</p>
+      <button class="btn btn--brand btn--block" data-ac="match">🃏 ${PT('شروع بازی', 'Play')}</button></article>`;
+  }
+  function matchGame() {
+    const all = matchPairs(); if (all.length < 4) return pToast(PT('اول چند درس را بخوان تا جفت‌ها باز شوند', 'Finish a few lessons to unlock pairs'));
+    const cid = (window.EA && EA.COURSE && EA.COURSE.id) || '';
+    const small = matchMedia('(max-width: 520px)').matches;
+    const n = Math.min(all.length, small ? 6 : 8), pairs = all.slice(0, n);
+    const cards = pairs.flatMap((p, i) => [{ i, t: p[0], side: 0 }, { i, t: p[1], side: 1 }]);
+    for (let k = cards.length - 1; k > 0; k--) { const j = Math.floor(Math.random() * (k + 1)); [cards[k], cards[j]] = [cards[j], cards[k]]; }
+    const st = { open: [], got: 0, moves: 0, combo: 0, best: 0, t0: Date.now(), lock: false };
+    const root = document.createElement('div'); root.className = 'mg'; root.setAttribute('role', 'dialog'); root.setAttribute('aria-modal', 'true');
+    root.innerHTML = `<header class="mg__top"><button class="iconbtn" data-mgx aria-label="${PT('بستن', 'Close')}">✕</button><b>🃏 ${PT('بازی جفت‌ها', 'Pairs game')}</b>
+        <span class="mg__hud"><span>🔁 <i data-mv>۰</i></span><span>⏱ <i data-tm>۰:۰۰</i></span><span class="mg__cb" data-cb></span></span></header>
+      <div class="mg__bar"><i></i></div>
+      <div class="mg__grid mg__grid--${cards.length}">${cards.map((c, k) => `<button class="mgc" data-k="${k}" style="--d:${k * 45}ms" aria-label="${PT('کارت', 'Card')} ${nf(k + 1)}"><span class="mgc__in"><span class="mgc__b" aria-hidden="true">?</span><span class="mgc__f mgc__f--${c.side}" dir="auto">${pesc(c.t)}</span></span></button>`).join('')}</div>`;
+    document.body.appendChild(root); document.body.classList.add('no-scroll');
+    requestAnimationFrame(() => root.classList.add('is-in'));
+    const fa2 = v => nf(v), q = s => root.querySelector(s);
+    const timer = setInterval(() => { const s = Math.floor((Date.now() - st.t0) / 1000); q('[data-tm]').textContent = fa2(Math.floor(s / 60)) + ':' + String(s % 60).padStart(2, '0').replace(/\d/g, d => fa2(+d)); }, 500);
+    const close = () => { clearInterval(timer); root.classList.remove('is-in'); document.body.classList.remove('no-scroll'); setTimeout(() => root.remove(), 250); };
+    root.addEventListener('click', e => {
+      if (e.target.closest('[data-mgx]')) return close();
+      if (e.target.closest('[data-mgagain]')) { close(); return setTimeout(matchGame, 260); }
+      const b = e.target.closest('.mgc'); if (!b || st.lock || b.classList.contains('is-up')) return;
+      b.classList.add('is-up'); pSfx('tap'); st.open.push(b);
+      if (st.open.length < 2) return;
+      st.moves++; q('[data-mv]').textContent = fa2(st.moves);
+      const [x, y] = st.open, cx = cards[+x.dataset.k], cy = cards[+y.dataset.k];
+      if (cx.i === cy.i) {
+        st.open = []; st.got++; st.combo++; st.best = Math.max(st.best, st.combo);
+        setTimeout(() => { x.classList.add('is-ok'); y.classList.add('is-ok'); pSfx('correct'); }, 280);
+        q('[data-cb]').textContent = st.combo >= 2 ? `🔥 ×${fa2(st.combo)}` : '';
+        q('.mg__bar i').style.width = (st.got / n * 100) + '%';
+        if (st.got === n) setTimeout(win, 750);
+      } else {
+        st.lock = true; st.combo = 0; q('[data-cb]').textContent = '';
+        setTimeout(() => { x.classList.add('is-no'); y.classList.add('is-no'); pSfx('wrong'); }, 300);
+        setTimeout(() => { x.classList.remove('is-up', 'is-no'); y.classList.remove('is-up', 'is-no'); st.open = []; st.lock = false; }, 1050);
+      }
+    });
+    function win() {
+      clearInterval(timer);
+      const secs = Math.round((Date.now() - st.t0) / 1000), stars = st.moves <= n + 2 ? 3 : st.moves <= n * 2 ? 2 : 1;
+      const rec = LS.json('academy.match', {}), old = rec[cid];
+      if (!old || stars > old.stars || (stars === old.stars && st.moves < old.moves)) { rec[cid] = { stars, moves: st.moves, secs }; LS.put('academy.match', rec); }
+      const s = curState(); if (s) { s.xp = (s.xp || 0) + 5 + stars * 2; s.gems = (s.gems || 0) + stars; try { EA.S.save(); } catch (e) { /* */ } }
+      try { if (typeof WALLET !== 'undefined' && WALLET) WALLET.spend('game'); } catch (e) { /* */ }
+      pConfetti(stars * 40); pSfx('done');
+      const w = document.createElement('div'); w.className = 'mg__win';
+      w.innerHTML = `<div class="mg__wc"><div class="mg__stars">${[1, 2, 3].map(i => `<span class="${i <= stars ? 'on' : ''}" style="--d:${i * 0.2}s">★</span>`).join('')}</div>
+        <h3>${stars === 3 ? PT('حافظه طلایی! 🧠', 'Golden memory! 🧠') : PT('همه جفت‌ها پیدا شد!', 'All pairs found!')}</h3>
+        <p>${PT(`${fa2(st.moves)} حرکت • ${fa2(secs)} ثانیه • بهترین زنجیره ${fa2(st.best)}`, `${fa2(st.moves)} moves • ${fa2(secs)} s • best streak ${fa2(st.best)}`)}</p>
+        <p class="mg__rw">+${fa2(5 + stars * 2)} XP • +${fa2(stars)} 💎</p>
+        <div class="modal__btns"><button class="btn btn--brand btn--lg" data-mgagain>🔁 ${PT('یک دست دیگر', 'Play again')}</button><button class="btn btn--ghost" data-mgx>${PT('پایان', 'Done')}</button></div></div>`;
+      root.appendChild(w);
+    }
+  }
   function flashCardHTML(cid) {
     const n = flashDeck().length, s = curState(), known = s && s.flash ? Object.keys(s.flash).filter(k => s.flash[k].k).length : 0, op = access(cid).lessons;
     return `<article class="pcard pcard--wide pcard--flash"><div class="pcard__i">🗂️</div><h3>${PT('فلش‌کارت‌های مرور سریع (شب امتحان)', 'Quick-review flashcards (exam night)')}</h3>
@@ -4120,7 +4311,16 @@ P — Plan: …`);
     credit: ['اعتبار کیف پول تغییر کرده؛ دوباره امتحان کن.', 'Your wallet credit changed — please try again.'],
     bad_credentials: ['رمز فعلی درست نیست.', 'The current password is wrong.'],
     pass_short: ['رمز تازه حداقل ۸ نویسه باشد.', 'The new password must be at least 8 characters.'],
-    pass_weak: ['این رمز خیلی ساده است.', 'This password is too simple.']
+    pass_weak: ['این رمز خیلی ساده است.', 'This password is too simple.'],
+    quest_not_done: ['این مأموریت هنوز کامل نشده است.', 'This quest isn’t complete yet.'],
+    quest_claimed: ['جایزه این مأموریت را قبلاً گرفته‌ای.', 'You already claimed this quest.'],
+    quest_unknown: ['مأموریت‌ها عوض شده‌اند؛ صفحه را تازه کن.', 'Quests changed — refresh the page.'],
+    bad_mobile: ['شماره موبایل معتبر نیست (مثل 09121234567).', 'Enter a valid mobile number (e.g. 09121234567).'],
+    bad_email: ['ایمیل معتبر نیست.', 'Enter a valid email address.'],
+    bad_field: ['رشته را از فهرست انتخاب کن.', 'Choose your field from the list.'],
+    bad_degree: ['مقطع را از فهرست انتخاب کن.', 'Choose your level from the list.'],
+    contact_taken: ['این ایمیل یا شماره متعلق به حساب دیگری است.', 'That email or number belongs to another account.'],
+    social_wait: ['اول کانال را باز کن و چند ثانیه صبر کن.', 'Open the channel first and wait a few seconds.']
   };
   const srvMsg = err => { const e = SRV_ERR[err] || ['خطایی پیش آمد؛ دوباره امتحان کن.', 'Something went wrong — please try again.']; return PT(e[0], e[1]); };
 
@@ -4152,15 +4352,15 @@ P — Plan: …`);
   /** سفارش روی سرور: مبلغ نهایی، تخفیف دوست و اعتبار کیف پول را سرور حساب می‌کند */
   async function srvOrder(req, box) {
     box.hidden = false;
-    box.innerHTML = `<p class="muted">⏳ ${PT('در حال ثبت سفارش…', 'Placing your order…')}</p>`;
+    box.innerHTML = `<p class="muted">⏳ ${PT('در حال ثبت درخواست…', 'Sending your request…')}</p>`;
     const r = await api('order', Object.assign({ lang: UILANG() }, req));
     if (!r.ok) { box.innerHTML = `<div class="acerr">${pesc(srvMsg(r.err))}</div>`; return pSfx('wrong'); }
-    box.innerHTML = `<h4>✅ ${PT(`سفارش ${r.order} ثبت شد`, `Order ${r.order} placed`)}</h4>
+    box.innerHTML = `<h4>✅ ${PT(`درخواست ${r.order} ثبت شد`, `Request ${r.order} sent`)}</h4>
       <div class="acsum">${r.pct ? `<p>🏷️ ${PT('قیمت پایه', 'Base price')}: <s>${nf(r.base)}</s> ${CUR()} • ${r.refPct ? PT(`🤝 تخفیف دعوت دوست ${nf(r.refPct)}٪`, `🤝 friend invite ${nf(r.refPct)}% off`) : PT(`🎁 ${pesc(r.promo.code)} ${nf(r.pct)}٪`, `🎁 ${pesc(r.promo.code)} ${nf(r.pct)}% off`)}</p>` : ''}
         ${r.creditUsed ? `<p>👛 ${PT('اعتبار کیف پول', 'Wallet credit')}: −${nf(r.creditUsed)} ${CUR()}</p>` : ''}
         <p><b>💰 ${PT('مبلغ قابل پرداخت', 'Amount to pay')}: ${nf(r.final)} ${CUR()}</b></p></div>
       ${copyBox(r.message, 9)}<p class="muted acsmall">${PT(CFG.SUPPORT_HINT, CFG.SUPPORT_HINT_EN)}</p>
-      <button class="btn btn--brand" data-copyorder>📋 ${PT('کپی متن سفارش', 'Copy order text')}</button>`;
+      <button class="btn btn--brand" data-copyorder>📋 ${PT('کپی متن درخواست', 'Copy request text')}</button>`;
     box.querySelector('[data-copyorder]').onclick = () => copyText(r.message).then(ok => pToast(ok ? PT('📋 کپی شد', '📋 Copied') : PT('متن را دستی کپی کن', 'Copy the text manually'), ok ? '' : 'toast--bad'));
     copyText(r.message);
     if (r.creditUsed && SRV.referral) SRV.referral.credit = Math.max(0, SRV.referral.credit - r.creditUsed);
@@ -4202,6 +4402,7 @@ P — Plan: …`);
           <p class="ivp__link" dir="ltr">${pesc(R.link)}</p></div>
         <div class="acinv__nums"><div><b>${nf(R.joined)}</b><small>${PT('دوست ثبت‌نام‌کرده', 'friends joined')}</small></div><div><b>${nf(R.paid)}</b><small>${PT('خرید موفق', 'purchases')}</small></div><div><b>${nf(R.credit)}</b><small>${PT('اعتبار کیف پول', 'wallet credit')} (${CUR()})</small></div></div>
         ${R.myFriendPct ? `<p class="acinv__mine">🤝 ${PT(`تو با دعوت یک دوست آمده‌ای: ${nf(R.myFriendPct)}٪ تخفیف اولین خریدت خودکار اعمال می‌شود.`, `You joined through a friend: ${nf(R.myFriendPct)}% off your first purchase is applied automatically.`)}</p>` : ''}
+        ${SRV.rewards && SRV.rewards.invite ? `<p class="ivp__hearts">❤️ ${PT(`برای هر دوستی که اولین درسش را تمام کند <b>${nf(SRV.rewards.invite.join)} قلب</b> و وقتی خرید کند <b>${nf(SRV.rewards.invite.buy)} قلب دیگر</b> هدیه می‌گیری؛ دوستت هم ${nf(SRV.rewards.invite.welcome)} قلب خوش‌آمد می‌گیرد.`, `For every friend who finishes their first lesson you get <b>${nf(SRV.rewards.invite.join)} hearts</b>, and <b>${nf(SRV.rewards.invite.buy)} more</b> when they buy; your friend gets ${nf(SRV.rewards.invite.welcome)} welcome hearts.`)}</p>` : ''}
         <h4>${PT('چطور کار می‌کند؟', 'How does it work?')}</h4>
         <ol class="ivp__steps">
           <li>${PT('لینک یا کد را برای دوستت بفرست.', 'Send your link or code to a friend.')}</li>
@@ -4269,7 +4470,8 @@ P — Plan: …`);
     /** نامحدود: پلن نامحدود کیف، یا کد قدیمی Pro/الماس (قلب بی‌نهایت) برای دوره‌ای که الان باز است */
     const legacyInf = () => { try { const id = window.EA && EA.COURSE && EA.COURSE.id; if (!id) return false; const a = access(id); return !!a.infinite && a.heart !== 'ult'; } catch (e) { return false; } };
     const unlimited = () => { roll(); return !!W.unl || legacyInf(); };
-    const balance = () => { roll(); return W.unl ? 9999 : Math.max(0, W.left) + Math.max(0, W.bank); };
+    const balance = () => { roll(); return W.unl ? 9999 : Math.max(0, W.left) + Math.max(0, W.gift || 0) + Math.max(0, W.bank); };
+    const TRACK = { boss: 1, perfect: 1, game: 1 }; // فقط برای شمارش مأموریت‌ها، بی‌هزینه
     const cost = k => (W.cost && W.cost[k]) || 0;
     const can = k => unlimited() || balance() >= cost(k);
     const label = () => (unlimited() ? '∞' : nf(balance()));
@@ -4289,8 +4491,12 @@ P — Plan: …`);
     }
     function apply(w) {
       const was = isPaid(), wasU = !!W.unl;
+      const ready = x => (x || []).filter(q => !q.done && q.have >= q.n).map(q => q.id).join();
+      const before = ready(W.quests);
       Object.assign(W, w);
       paint();
+      const now = ready(W.quests);
+      if (now && now !== before && now.length > before.length) { pToast(PT('🎯 یک مأموریت امروز کامل شد! جایزه‌ات را بگیر', '🎯 Daily quest complete! Claim your reward')); pSfx('chest'); }
       // خرید تأیید شد: محتوای کامل دوره‌ها از سرور می‌آید، پس صفحه یک بار تازه می‌شود (نه وسط درس)
       if (isPaid() !== was || !!W.unl !== wasU) {
         pToast(PT('❤️ کیف قلبت به‌روز شد!', '❤️ Your hearts were updated!'));
@@ -4298,16 +4504,20 @@ P — Plan: …`);
         setTimeout(go, 1600);
       }
     }
+    function queue(k) { q.push(k); clearTimeout(timer); timer = setTimeout(flush, 800); }
     function spend(k) {
       roll();
       let gain = 0;
-      if (k !== 'practice' && unlimited()) return { gain }; // نامحدود (یا کد قدیمی با قلب بی‌نهایت): چیزی خرج نمی‌شود
+      if (TRACK[k]) { queue(k); return { gain }; }
+      // کد قدیمی با قلب بی‌نهایت: چیزی خرج و فرستاده نمی‌شود. نامحدود: فرستاده می‌شود (فقط برای مأموریت‌ها) ولی کم نمی‌شود
+      if (k !== 'practice' && !W.unl && legacyInf()) return { gain };
       if (k === 'practice') {
         if (W.practiceLeft > 0) { W.practiceLeft--; if (!W.unl) { const b = W.left; W.left = Math.min(W.left + 1, Math.max(W.daily, W.left)); gain = W.left - b; } }
       } else if (!W.unl) {
-        let n = cost(k); const a = Math.min(n, Math.max(0, W.left)); W.left -= a; n -= a; W.bank -= Math.min(n, Math.max(0, W.bank));
+        let n = cost(k); const a = Math.min(n, Math.max(0, W.left)); W.left -= a; n -= a;
+        const g = Math.min(n, Math.max(0, W.gift || 0)); W.gift = (W.gift || 0) - g; n -= g; W.bank -= Math.min(n, Math.max(0, W.bank));
       }
-      q.push(k); clearTimeout(timer); timer = setTimeout(flush, 800);
+      queue(k);
       paint();
       return { gain };
     }
@@ -4332,6 +4542,7 @@ P — Plan: …`);
       if (q.length || inflight) return;
       const r = await api('wallet');
       lastPull = Date.now();
+      if (r.ok && r.rewards) SRV.rewards = r.rewards;
       if (r.ok && r.wallet && !q.length && !inflight) apply(r.wallet);
     }
     addEventListener('pagehide', () => flush(true));
@@ -4345,15 +4556,23 @@ P — Plan: …`);
       h = h || {};
       const need = cost(kind === 'lesson' ? 'right' : kind), K = KIND[kind] || KIND.lesson;
       document.querySelectorAll('.modal--wout').forEach(x => x.remove());
-      const m = pModal(`<div class="big-i">💔</div><h3>${PT('قلب کافی نداری!', 'Not enough hearts!')}</h3>
-        <p>${PT(`برای ${K[0]} ${nf(need)} قلب لازم است؛ موجودی‌ات <b>${label()}</b> قلب است.`, `${K[1][0].toUpperCase() + K[1].slice(1)} needs ${nf(need)} heart${need === 1 ? '' : 's'}; you have <b>${label()}</b>.`)}</p>
-        <p class="muted">${PT(`سهمیه روزانه‌ات (${nf(W.daily)} قلب) <b class="wout__t">${hm(nextIn())}</b> دیگر دوباره پر می‌شود.`, `Your daily ${nf(W.daily)} hearts refill in <b class="wout__t">${hm(nextIn())}</b>.`)}</p>
+      const packs = Object.keys(STO.packs || {}).map(Number).sort((a, b) => a - b).slice(0, 3);
+      const bronze = (STO.plans || [])[0];
+      const m = pModal(`<div class="wout__hero" aria-hidden="true"><span class="wout__h">💔</span><i>❤️</i><i>❤️</i><i>❤️</i></div><h3>${PT('قلبت تموم شد!', 'You’re out of hearts!')}</h3>
+        <p>${h.left ? PT(`فقط <b>${nf(h.left)} قدم</b> تا پایان این درس مانده! `, `Only <b>${nf(h.left)} steps</b> left in this lesson! `) : ''}${PT(`برای ${K[0]} ${nf(need)} قلب لازم است. قلب‌هایت را پر کن و زنجیره یادگیری‌ات را نشکن 🔥`, `${K[1][0].toUpperCase() + K[1].slice(1)} needs ${nf(need)} heart${need === 1 ? '' : 's'}. Refill and keep your learning streak alive 🔥`)}</p>
+        <p class="wout__or">${PT('یا همین حالا قلب‌هایت را پر کن:', 'Or refill right now:')}</p>
+        <div class="wout__buy">${packs.map((n, i) => `<button class="wout__p ${i === 1 ? 'is-pop' : ''}" data-wpack="pack:${n}">${i === 1 ? `<em>${PT('محبوب', 'Popular')}</em>` : ''}<b>❤️ ${nf(n)}</b><small>${nf(STO.packs[n])} ${CUR()}</small></button>`).join('')}
+          ${bronze ? `<button class="wout__p wout__p--plan" data-wpack="plan:${bronze.id}:1"><b>📅 ${PT(`روزی ${nf(bronze.daily)}`, `${nf(bronze.daily)}/day`)}</b><small>${nf(bronze.price[1])} ${CUR()}</small></button>` : ''}</div>
+        <p class="muted">${PT(`یا صبر کن: سهمیه روزانه‌ات (${nf(W.daily)} قلب) <b class="wout__t">${hm(nextIn())}</b> دیگر پر می‌شود.`, `Or wait: your daily ${nf(W.daily)} hearts refill in <b class="wout__t">${hm(nextIn())}</b>.`)}</p>
         <div class="modal__btns">
-          <button class="btn btn--gold btn--lg" data-wstore>🛒 ${PT('خرید قلب', 'Buy hearts')}</button>
+          <button class="btn btn--brand btn--lg" data-wearn>🎁 ${PT('قلب رایگان بگیر', 'Get free hearts')}</button>
+          <button class="btn btn--ghost" data-wstore>💗 ${PT('همه گزینه‌های ایستگاه قلب', 'Everything at the Heart Station')}</button>
           ${h.practice && W.practiceLeft > 0 ? `<button class="btn btn--green" data-wprac>🔁 ${PT('تمرین مرور (+۱ قلب)', 'Review practice (+1 heart)')}</button>` : ''}
           <button class="btn btn--ghost" data-wend>${h.end ? PT('پایان درس', 'End lesson') : PT('بعداً', 'Later')}</button>
         </div>`, { sticky: !!h.end, cls: 'modal--wout' });
       m.el.querySelector('[data-wstore]').onclick = () => heartStore(null, null, true);
+      m.el.querySelectorAll('[data-wpack]').forEach(b => { b.onclick = () => heartStore(null, null, true, b.dataset.wpack); });
+      m.el.querySelector('[data-wearn]').onclick = () => earnModal();
       const p = m.el.querySelector('[data-wprac]'); if (p) p.onclick = () => { m.close(); h.practice(); };
       m.el.querySelector('[data-wend]').onclick = () => { m.close(); h.end && h.end(); };
       let k = 0;
@@ -4369,6 +4588,7 @@ P — Plan: …`);
     }
     /** شروع کاری که قلب ثابت می‌خواهد (کیس، آزمون، دور سرعت) */
     function pay(kind) {
+      if (W.unl) { queue(kind); return true; }
       if (unlimited()) return true;
       if (!can(kind)) { outModal(kind); return false; }
       spend(kind);
@@ -4377,9 +4597,10 @@ P — Plan: …`);
     }
     /** هر ابزار: یک قلب، و تا ۱۵ دقیقه همان ابزار دوباره قلب نمی‌خواهد */
     function tool(key) {
-      if (unlimited()) return true;
       const n = Date.now();
       if (toolAt[key] && n - toolAt[key] < 15 * 60000) return true;
+      if (W.unl) { toolAt[key] = n; queue('tool'); return true; }
+      if (unlimited()) return true;
       if (!can('tool')) { outModal('tool'); return false; }
       toolAt[key] = n;
       try { sessionStorage.setItem('trp.toolAt', JSON.stringify(toolAt)); } catch (e) { /* */ }
@@ -4393,7 +4614,7 @@ P — Plan: …`);
       const cur = root.querySelector('[data-tool].is-on');
       if (tool(cid + ':' + (cur ? cur.dataset.tool : 'tab'))) return;
       root.classList.add('wlocked');
-      root.insertAdjacentHTML('afterbegin', `<div class="wlock"><span>💔</span><b>${PT('برای استفاده از ابزار قلب لازم است', 'Tools need hearts')}</b><small>${PT(`هر ابزار ${nf(cost('tool'))} قلب و تا ۱۵ دقیقه آزاد است.`, `Each tool costs ${nf(cost('tool'))} heart and stays open for 15 minutes.`)}</small><button class="btn btn--gold" data-ac="hstore">🛒 ${PT('خرید قلب', 'Buy hearts')}</button></div>`);
+      root.insertAdjacentHTML('afterbegin', `<div class="wlock"><span>💔</span><b>${PT('برای استفاده از ابزار قلب لازم است', 'Tools need hearts')}</b><small>${PT(`هر ابزار ${nf(cost('tool'))} قلب و تا ۱۵ دقیقه آزاد است.`, `Each tool costs ${nf(cost('tool'))} heart and stays open for 15 minutes.`)}</small><button class="btn btn--gold" data-ac="hstore">💗 ${PT('پر کردن قلب', 'Refill hearts')}</button></div>`);
     }
     // عوض کردن ابزار داخل تب ابزار
     document.addEventListener('click', e => {
@@ -4412,6 +4633,7 @@ P — Plan: …`);
           <div class="wmy__rows">
             ${u ? `<div><span>♾️ ${PT('نامحدود', 'Ultimate')}</span><b>${PT('تا', 'until')} ${fdate(W.ultUntil * 1000)}</b></div>` : `
             <div><span>📅 ${PT('سهمیه امروز', 'Today’s hearts')}</span><b>${nf(Math.max(0, W.left))} / ${nf(W.daily)}</b></div>
+            <div><span>🎁 ${PT('قلب هدیه (مأموریت و جایزه)', 'Gift hearts (quests & rewards)')}</span><b>${nf(W.gift || 0)}</b></div>
             <div><span>🎒 ${PT('بسته قلب (بدون انقضا)', 'Heart pack (never expires)')}</span><b>${nf(W.bank)}</b></div>
             <div><span>⏰ ${PT('پر شدن سهمیه', 'Daily refill in')}</span><b class="wmy__t">${hm(nextIn())}</b></div>`}
             <div><span>${pl ? '⭐' : '🆓'} ${PT('پلن', 'Plan')}</span><b>${u ? PT('نامحدود', 'Ultimate') : pl ? `${PT(pl.fa, pl.en)} • ${PT('تا', 'until')} ${fdate(W.planUntil * 1000)}` : W.bank > 0 ? PT('بسته قلب', 'Heart pack') : PT(`رایگان (${nf(W.daily)} قلب در روز)`, `Free (${nf(W.daily)} a day)`)}</b></div>
@@ -4429,15 +4651,163 @@ P — Plan: …`);
             <li class="is-gain"><span>🔁 ${PT(`تمرین مرور: رایگان و +۱ قلب (تا ${nf(STO.practiceMax || 5)} بار در روز)`, `Review practice: free and +1 heart (up to ${nf(STO.practiceMax || 5)} a day)`)}</span><b>+${nf(1)}</b></li>
           </ul>
           <p class="muted wmy__seq">${u ? PT('♾️ با نامحدود از هر درسی که بخواهی شروع کن.', '♾️ With Ultimate you can start from any lesson.') : PT('🧭 با قلب، درس‌ها به ترتیب باز می‌شوند (هر دنیا بعد از تمام شدن دنیای قبل). با پلن نامحدود از هر درسی می‌توانی شروع کنی.', '🧭 With hearts, lessons open in order (each world after the previous one). Ultimate lets you start from any lesson.')}</p>
-          <div class="modal__btns">${u ? '' : `<button class="btn btn--gold btn--lg" data-wstore>🛒 ${PT('خرید قلب', 'Buy hearts')}</button>`}${h.practice && !u && W.practiceLeft > 0 ? `<button class="btn btn--green" data-wprac>🔁 ${PT('تمرین مرور', 'Review practice')}</button>` : ''}<button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></div>
+          <div class="modal__btns"><button class="btn btn--gold" data-ac="quests">🎯 ${PT('مأموریت‌های امروز', 'Daily quests')}</button>${u ? '' : `<button class="btn btn--gold btn--lg" data-wstore>💗 ${PT('پر کردن قلب', 'Refill hearts')}</button>`}<button class="btn btn--brand" data-wearn>🎁 ${PT('قلب رایگان', 'Free hearts')}</button>${h.practice && !u && W.practiceLeft > 0 ? `<button class="btn btn--green" data-wprac>🔁 ${PT('تمرین مرور', 'Review practice')}</button>` : ''}<button class="btn btn--ghost" data-close>${PT('بستن', 'Close')}</button></div>
         </div>`, { cls: 'modal--wmy' });
       const s = m.el.querySelector('[data-wstore]'); if (s) s.onclick = () => { m.close(); heartStore(); };
+      m.el.querySelector('[data-wearn]').onclick = () => { m.close(); earnModal(); };
       const p = m.el.querySelector('[data-wprac]'); if (p) p.onclick = () => { m.close(); h.practice(); };
       const iv = setInterval(() => { if (!document.body.contains(m.el)) return clearInterval(iv); const t = m.el.querySelector('.wmy__t'); if (t) t.textContent = hm(nextIn()); }, 15000);
       refresh();
       return m;
     }
-    return { on: () => true, unlimited, balance, cost, can, label, spend, pay, tool, outModal, infoModal, toolView, nextIn, refresh, flush, paid: isPaid, state: () => W, sub: f => subs.push(f) };
+    /* ---------- مأموریت‌های روزانه ---------- */
+    function questsHTML(compact) {
+      const Q = W.quests || []; if (!Q.length) return '';
+      const all = Q.every(x => x.done), ch = W.chest || { h: 0, done: false };
+      return `<section class="dq ${compact ? 'dq--c' : ''}" data-dq>
+        <header class="dq__h"><span class="dq__i" aria-hidden="true">🎯</span><div><b>${PT('مأموریت‌های امروز', 'Daily quests')}</b><small>${PT(`جایزه: قلب هدیه • ${hm(nextIn())} تا مأموریت‌های تازه`, `Reward: gift hearts • new quests in ${hm(nextIn())}`)}</small></div></header>
+        <ul class="dq__l">${Q.map(x => { const ok = x.have >= x.n, pc = Math.round(x.have / x.n * 100); return `<li class="dq__q ${x.done ? 'is-done' : ok ? 'is-ready' : ''}">
+          <span class="dq__qi">${x.i}</span><div class="dq__qt"><b>${pesc(PT(x.fa, x.en))}</b><span class="dq__bar"><i style="width:${pc}%"></i><em>${nf(x.have)} / ${nf(x.n)}</em></span></div>
+          ${x.done ? '<span class="dq__got">✔️</span>' : ok ? `<button class="btn btn--gold btn--sm dq__claim" data-quest="${x.id}">+${nf(x.h)} ❤️</button>` : `<span class="dq__rw">+${nf(x.h)} ❤️</span>`}</li>`; }).join('')}</ul>
+        <div class="dq__chest ${ch.done ? 'is-done' : all ? 'is-ready' : ''}"><span class="dq__box" aria-hidden="true">${ch.done ? '📭' : '🎁'}</span><span>${ch.done ? PT('صندوق امروز را گرفتی!', 'Today’s chest claimed!') : PT(`هر سه مأموریت = صندوق جایزه (+${nf(ch.h)} ❤️)`, `All three = reward chest (+${nf(ch.h)} ❤️)`)}</span>${all && !ch.done ? `<button class="btn btn--brand btn--sm" data-quest="chest">${PT('باز کن!', 'Open!')}</button>` : ''}</div>
+      </section>`;
+    }
+    function redrawQuests() { document.querySelectorAll('[data-dq]').forEach(el => { const c = el.classList.contains('dq--c'); const t = document.createElement('div'); t.innerHTML = questsHTML(c); if (t.firstElementChild) el.replaceWith(t.firstElementChild); }); }
+    subs.push(redrawQuests);
+    /** دکمه گوشه صفحه: حلقه پیشرفت مأموریت‌ها و عدد جایزه‌های آماده */
+    function qfab() {
+      const Q = W.quests || []; let b = document.querySelector('.qfab');
+      if (!Q.length || (window.EA && EA.player && EA.player.active())) { if (b) b.remove(); return; }
+      const done = Q.filter(x => x.have >= x.n).length, ready = Q.filter(x => !x.done && x.have >= x.n).length + (Q.every(x => x.done) && W.chest && !W.chest.done ? 1 : 0);
+      const all = Q.every(x => x.done) && W.chest && W.chest.done, C = 2 * Math.PI * 27;
+      const html = `<svg class="qfab__ring" viewBox="0 0 64 64" aria-hidden="true"><circle cx="32" cy="32" r="27" class="qfab__bg"/><circle cx="32" cy="32" r="27" class="qfab__fg" style="stroke-dasharray:${C};stroke-dashoffset:${C * (1 - done / Q.length)}"/></svg>
+        <span class="qfab__i" aria-hidden="true">${all ? '🏆' : ready ? '🎁' : '🎯'}</span>${ready ? `<b class="qfab__n">${nf(ready)}</b>` : ''}`;
+      if (!b) { b = document.createElement('button'); b.className = 'qfab'; b.dataset.ac = 'quests'; document.body.appendChild(b); requestAnimationFrame(() => b.classList.add('is-in')); }
+      b.setAttribute('aria-label', PT(`مأموریت‌های امروز: ${nf(done)} از ${nf(Q.length)}`, `Daily quests: ${nf(done)} of ${nf(Q.length)}`));
+      b.classList.toggle('is-ready', !!ready); b.classList.toggle('is-all', !!all);
+      if (b.dataset.h !== html) { b.dataset.h = html; b.innerHTML = html; }
+    }
+    subs.push(qfab);
+    /** پنجره مأموریت‌ها */
+    function questsModal() {
+      document.querySelectorAll('.modal--quests').forEach(x => x.remove());
+      const Q = W.quests || [], done = Q.filter(x => x.have >= x.n).length;
+      const m = pModal(`<button class="iconbtn dcpop__x" data-close aria-label="${PT('بستن', 'Close')}">✕</button>
+        <div class="qm"><header class="qm__h"><div class="qm__art" aria-hidden="true"><span class="qm__t">🎯</span><i>✦</i><i>✦</i><i>✦</i></div>
+          <h3>${PT('مأموریت‌های امروز', 'Today’s quests')}</h3><p>${PT(`${nf(done)} از ${nf(Q.length)} انجام شده • هر مأموریت قلب هدیه دارد`, `${nf(done)} of ${nf(Q.length)} done • every quest pays gift hearts`)}</p>
+          <span class="qm__clock">⏳ ${PT(`${hm(nextIn())} تا مأموریت‌های تازه`, `New quests in ${hm(nextIn())}`)}</span></header>
+          ${questsHTML()}
+          <button class="btn btn--ghost btn--block" data-ac="earn">🎁 ${PT('راه‌های دیگر برای قلب رایگان', 'More ways to earn free hearts')}</button></div>`, { cls: 'modal--quests' });
+      pSfx('tap');
+      return m;
+    }
+    /** پرواز قلب‌ها از دکمه به شمارنده بالای صفحه */
+    function flyHearts(from, n) {
+      const a = from && from.getBoundingClientRect(), tgt = document.querySelector('.dbtn--heart, .chip-stat.is-heart');
+      if (!a || !tgt || matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+      const b = tgt.getBoundingClientRect();
+      for (let i = 0; i < Math.min(8, Math.max(3, n)); i++) {
+        const h = document.createElement('span'); h.className = 'hfly'; h.textContent = '❤️';
+        h.style.left = (a.left + a.width / 2) + 'px'; h.style.top = (a.top + a.height / 2) + 'px';
+        h.style.setProperty('--dx', (b.left + b.width / 2 - a.left - a.width / 2) + 'px'); h.style.setProperty('--dy', (b.top + b.height / 2 - a.top - a.height / 2) + 'px');
+        h.style.animationDelay = (i * 80) + 'ms'; document.body.appendChild(h); setTimeout(() => h.remove(), 1400 + i * 80);
+      }
+      setTimeout(() => { tgt.classList.remove('is-bump'); void tgt.offsetWidth; tgt.classList.add('is-bump'); }, 900);
+    }
+    function gotHearts(btn, n) {
+      if (!n) return;
+      flyHearts(btn, n); pSfx('chest');
+      try { window.EA && EA.ui && EA.ui.confetti ? EA.ui.confetti(40) : pConfetti(40); } catch (e) { /* */ }
+      pToast(PT(`🎉 +${nf(n)} قلب هدیه گرفتی!`, `🎉 +${nf(n)} gift hearts!`));
+    }
+    document.addEventListener('click', async e => {
+      const b = e.target.closest('[data-quest]'); if (!b) return;
+      b.disabled = true;
+      const r = await api('quest', { id: b.dataset.quest });
+      if (!r.ok) { b.disabled = false; return pToast(srvMsg(r.err), 'toast--bad'); }
+      apply(r.wallet); gotHearts(b, r.wallet.got);
+    });
+
+    /* ---------- قلب رایگان: پروفایل، دعوت، کانال‌ها، مأموریت‌ها ---------- */
+    const RW = () => SRV.rewards || {};
+    function earnModal() {
+      document.querySelectorAll('.modal--earn').forEach(x => x.remove());
+      const R = RW(), P = R.profile || {}, I = R.invite || {}, S = R.social || {};
+      const row = (ic, title, sub, right, cls) => `<li class="earn__r ${cls || ''}"><span class="earn__i">${ic}</span><div><b>${title}</b><small>${sub}</small></div>${right}</li>`;
+      const badge = (h, done) => done ? '<span class="earn__done">✔️</span>' : `<span class="earn__h">+${nf(h)} ❤️</span>`;
+      const NET = { telegram: ['✈️', 'کانال تلگرام تراپو', 'Therapo on Telegram'], instagram: ['📸', 'صفحه اینستاگرام تراپو', 'Therapo on Instagram'] };
+      const m = pModal(`<button class="iconbtn dcpop__x" data-close aria-label="${PT('بستن', 'Close')}">✕</button>
+        <div class="earn"><header class="earn__top"><span class="earn__gift" aria-hidden="true">🎁</span><div><h3>${PT('قلب رایگان بگیر', 'Get free hearts')}</h3><p>${PT('قلب هدیه مثل بقیه قلب‌ها خرج می‌شود؛ هر کار یک بار جایزه دارد.', 'Gift hearts work like any other hearts; each task pays once.')}</p></div></header>
+        <ul class="earn__l">
+          ${row('👤', PT('پروفایلت را کامل کن', 'Complete your profile'), PT('رشته، مقطع، ایمیل و شماره موبایل', 'Field, degree, email and mobile'), P.done ? badge(0, true) : `<button class="btn btn--brand btn--sm" data-earn="profile">${badge(P.h)}</button>`, P.done ? 'is-done' : '')}
+          ${row('🤝', PT('دوستانت را دعوت کن', 'Invite your friends'), PT(`دوستت ${nf(I.welcome)} قلب خوش‌آمد می‌گیرد؛ تو با اولین درسِ او ${nf(I.join)} قلب و با خریدش ${nf(I.buy)} قلب. تا حالا ${nf(I.total || 0)} قلب گرفته‌ای.`, `Your friend gets ${nf(I.welcome)} welcome hearts; you get ${nf(I.join)} when they finish their first lesson and ${nf(I.buy)} when they buy. Earned so far: ${nf(I.total || 0)}.`), `<button class="btn btn--gold btn--sm" data-earn="invite">${PT('دعوت', 'Invite')}</button>`)}
+          ${Object.keys(S).map(k => row(NET[k] ? NET[k][0] : '🔗', PT('عضو ' + (NET[k] ? NET[k][1] : k) + ' شو', 'Join ' + (NET[k] ? NET[k][2] : k)), S[k].done ? PT('ممنون که همراه مایی 💚', 'Thanks for joining 💚') : PT('اول کانال را باز کن و عضو شو، بعد جایزه را بگیر', 'Open the channel and join, then claim'),
+              S[k].done ? badge(0, true) : `<span class="earn__soc"><a class="btn btn--ghost btn--sm" href="${pesc(S[k].url)}" target="_blank" rel="noopener" data-sopen="${k}">${PT('باز کردن', 'Open')}</a><button class="btn btn--brand btn--sm" data-sclaim="${k}" disabled>${badge(S[k].h)}</button></span>`, S[k].done ? 'is-done' : '')).join('')}
+          ${row('🔁', PT('تمرین مرور', 'Review practice'), PT(`هر تمرین مرور +۱ قلب (امروز ${nf(W.practiceLeft || 0)} بار دیگر)`, `+1 heart per review (${nf(W.practiceLeft || 0)} left today)`), badge(1, !(W.practiceLeft > 0)))}
+        </ul>
+        <button class="btn btn--gold btn--block" data-ac="quests">🎯 ${PT('مأموریت‌های امروز', 'Daily quests')}</button>
+        <form class="earn__pf" hidden novalidate></form></div>`, { cls: 'modal--earn' });
+      const el = m.el;
+      el.addEventListener('click', async e => {
+        const b = e.target.closest('[data-earn]');
+        if (b && b.dataset.earn === 'invite') { m.close(); return inviteModal(); }
+        if (b && b.dataset.earn === 'profile') return profileForm(el.querySelector('.earn__pf'), () => { m.close(); earnModal(); });
+        const o = e.target.closest('[data-sopen]');
+        if (o) { api('social_open', { net: o.dataset.sopen }); const c = el.querySelector(`[data-sclaim="${o.dataset.sopen}"]`); let t = 8; c.disabled = true; const tick = setInterval(() => { if (--t <= 0) { clearInterval(tick); c.disabled = false; c.innerHTML = badge(S[o.dataset.sopen].h); } else c.textContent = nf(t); }, 1000); c.textContent = nf(t); return; }
+        const c = e.target.closest('[data-sclaim]');
+        if (c) { c.disabled = true; const r = await api('social_claim', { net: c.dataset.sclaim }); if (!r.ok) { c.disabled = false; return pToast(srvMsg(r.err), 'toast--bad'); } SRV.rewards = r.rewards; apply(r.wallet); gotHearts(c, r.got); m.close(); earnModal(); }
+      });
+      return m;
+    }
+    /** فرم پروفایل (رشته، مقطع، ایمیل، موبایل) */
+    function profileForm(f, done) {
+      const R = RW(), P = R.profile || {}, F = R.fields || {}, D = R.degrees || {};
+      const opt = (o, v) => Object.keys(o).map(k => `<option value="${k}" ${k === v ? 'selected' : ''}>${pesc(PT(o[k][0], o[k][1]))}</option>`).join('');
+      f.hidden = false;
+      f.innerHTML = `<h4>👤 ${PT('پروفایل من', 'My profile')}</h4>
+        <label>${PT('رشته', 'Field of study')}<select class="ob__in" name="field"><option value="">—</option>${opt(F, P.field)}</select></label>
+        <label>${PT('مقطع', 'Level')}<select class="ob__in" name="degree"><option value="">—</option>${opt(D, P.degree)}</select></label>
+        <label>${PT('ایمیل', 'Email')}<input class="ob__in" name="email" type="email" dir="ltr" value="${pesc(P.email || '')}" ${P.email && SRV.user.login.indexOf('@') >= 0 ? 'readonly' : ''}></label>
+        <label>${PT('شماره موبایل', 'Mobile')}<input class="ob__in" name="mobile" type="tel" dir="ltr" placeholder="09…" value="${pesc(P.mobile || '')}" ${P.mobile && SRV.user.login.indexOf('@') < 0 ? 'readonly' : ''}></label>
+        <div class="acerr" hidden></div>
+        <button class="btn btn--brand btn--lg btn--block" type="submit">${P.done ? PT('ذخیره', 'Save') : PT(`ذخیره و گرفتن ${nf(P.h)} قلب`, `Save & get ${nf(P.h)} hearts`)}</button>`;
+      f.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      f.onsubmit = async e => {
+        e.preventDefault();
+        const er = f.querySelector('.acerr'), btn = f.querySelector('[type=submit]'); er.hidden = true; btn.disabled = true;
+        const r = await api('profile', { field: f.field.value, degree: f.degree.value, email: f.email.value.trim(), mobile: f.mobile.value.trim() });
+        btn.disabled = false;
+        if (!r.ok) { er.hidden = false; er.textContent = srvMsg(r.err); return; }
+        SRV.rewards = r.rewards; apply(r.wallet);
+        if (r.got) gotHearts(btn, r.got); else if (!(r.rewards.profile.field && r.rewards.profile.degree && r.rewards.profile.email && r.rewards.profile.mobile)) pToast(PT('ذخیره شد؛ برای جایزه همه موردها را پر کن', 'Saved — fill in every field for the reward')); else pToast(PT('✅ ذخیره شد', '✅ Saved'));
+        done && done();
+      };
+    }
+    return { on: () => true, questsHTML, questsModal, qfab, earnModal, unlimited, balance, cost, can, label, spend, pay, tool, outModal, infoModal, toolView, nextIn, refresh, flush, paid: isPaid, state: () => W, sub: f => subs.push(f) };
+  })();
+  /* ================= پیام همراهان (تبلیغ) — آماده ولی خاموش =================
+   * فقط وقتی سرور فهرست بفرستد (ads.enabled در config.php). هرگز وسط درس نیست: بعد از برگشتن به مسیر،
+   * هر «every» درس یک بار و با فاصله «gap» دقیقه؛ بستن بعد از ۳ ثانیه؛ پیوند با rel="sponsored". */
+  const ADS = (() => {
+    const A = SRV && SRV.ads; if (!A || !A.items || !A.items.length) return null;
+    const K = 'trp.ads', st = () => { try { return JSON.parse(localStorage.getItem(K) || '{}') || {}; } catch (e) { return {}; } };
+    const save = o => { try { localStorage.setItem(K, JSON.stringify(o)); } catch (e) { /* */ } };
+    let pending = false;
+    function lessonDone() { const o = st(); o.n = (o.n || 0) + 1; save(o); if (o.n % A.every === 0) pending = true; }
+    function maybe() {
+      if (!pending || (window.EA && EA.player && EA.player.active()) || document.querySelector('.modal')) return;
+      const o = st(); if (o.at && Date.now() - o.at < A.gap * 60000) { pending = false; return; }
+      pending = false; o.at = Date.now(); o.i = ((o.i || 0) + 1) % A.items.length; save(o);
+      const it = A.items[o.i];
+      setTimeout(() => {
+        const m = pModal(`<div class="adm"><span class="adm__lbl">${PT('پیام همراهان', 'From our partners')}</span>
+          ${it.img ? `<img class="adm__img" src="${pesc(it.img)}" alt="" loading="lazy">` : ''}<h3>${pesc(it.title)}</h3><p>${pesc(it.text)}</p>
+          <div class="modal__btns"><a class="btn btn--brand btn--lg" href="${pesc(it.url)}" target="_blank" rel="sponsored noopener">${pesc(it.cta)}</a><button class="btn btn--ghost" data-adx disabled>3</button></div></div>`, { sticky: true, cls: 'modal--ad' });
+        const x = m.el.querySelector('[data-adx]'); let t = 3;
+        const iv = setInterval(() => { if (--t <= 0) { clearInterval(iv); x.disabled = false; x.textContent = PT('بستن و ادامه یادگیری', 'Close & keep learning'); x.onclick = () => m.close(); } else x.textContent = nf(t); }, 1000);
+      }, 700);
+    }
+    return { lessonDone, maybe };
   })();
   /** متن دسترسی دوره در حالت قلب (کارت دوره و پروفایل) */
   function hAccText(a) {
@@ -4451,7 +4821,7 @@ P — Plan: …`);
     const u = WALLET.unlimited(), W = SRV.wallet, paid = WALLET.paid();
     return `<div class="acside__plan acside__wal ${u ? 'is-unl' : ''}">
       <button class="wside" data-ac="hearts"><span>${u ? '♾️' : '❤️'}</span><b data-wbal>${WALLET.label()}</b><small>${u ? PT('نامحدود', 'Ultimate') : PT(`سهمیه امروز ${nf(Math.max(0, W.left))} از ${nf(W.daily)}${W.bank ? ` • بسته ${nf(W.bank)}` : ''}`, `today ${nf(Math.max(0, W.left))}/${nf(W.daily)}${W.bank ? ` • pack ${nf(W.bank)}` : ''}`)}</small></button>
-      ${u ? '' : `<div class="acside__btns"><button class="btn btn--gold btn--sm" data-ac="hstore">🛒 ${paid ? PT('خرید قلب', 'Buy hearts') : PT('باز کردن همه درس‌ها', 'Unlock every lesson')}</button></div>`}
+      ${u ? '' : `<div class="acside__btns"><button class="btn btn--gold btn--sm" data-ac="hstore">💗 ${paid ? PT('پر کردن قلب', 'Refill hearts') : PT('باز کردن همه درس‌ها', 'Unlock every lesson')}</button></div>`}
     </div>`;
   }
   /** کارت کیف قلب در پروفایل دوره */
@@ -4461,17 +4831,17 @@ P — Plan: …`);
       <div class="acprof__row"><span>${PT('موجودی', 'Balance')}</span><b>${u ? '♾️' : '❤️'} <span data-wbal>${WALLET.label()}</span></b></div>
       <div class="acprof__row"><span>${PT('پلن', 'Plan')}</span><b>${u ? `♾️ ${PT('نامحدود تا', 'Ultimate until')} ${fdate(W.ultUntil * 1000)}` : pl ? `${PT(pl.fa, pl.en)} • ${PT('تا', 'until')} ${fdate(W.planUntil * 1000)}` : W.bank > 0 ? PT('بسته قلب', 'Heart pack') : PT('رایگان', 'Free')}</b></div>
       ${u ? '' : `<div class="acprof__row"><span>${PT('سهمیه روزانه', 'Daily hearts')}</span><b>${nf(Math.max(0, W.left))} / ${nf(W.daily)}</b></div><div class="acprof__row"><span>${PT('بسته قلب', 'Heart pack')}</span><b>${nf(W.bank)}</b></div>`}
-      <div class="acprof__btns">${u ? '' : `<button class="btn btn--gold btn--sm" data-ac="hstore">🛒 ${PT('خرید قلب', 'Buy hearts')}</button>`}<button class="btn btn--ghost btn--sm" data-ac="hearts">❤️ ${PT('قاعده قلب‌ها', 'How hearts work')}</button><button class="btn btn--ghost btn--sm" data-ac="settings">⚙️ ${PT('تنظیمات نمایش', 'Display settings')}</button></div>
+      <div class="acprof__btns">${u ? '' : `<button class="btn btn--gold btn--sm" data-ac="hstore">💗 ${PT('پر کردن قلب', 'Refill hearts')}</button>`}<button class="btn btn--ghost btn--sm" data-ac="hearts">❤️ ${PT('قاعده قلب‌ها', 'How hearts work')}</button><button class="btn btn--ghost btn--sm" data-ac="settings">⚙️ ${PT('تنظیمات نمایش', 'Display settings')}</button></div>
     </div>`;
   }
 
-  /* ================= فروشگاه قلب: اشتراک ماهانه، بسته قلب و نامحدود ================= */
-  function heartStore(why, tab, over) {
+  /* ================= ایستگاه قلب: اشتراک ماهانه، بسته قلب و نامحدود ================= */
+  function heartStore(why, tab, over, pre) {
     if (!WALLET) return;
     if (!over) document.querySelectorAll('.modal').forEach(x => { if (!x.classList.contains('modal--tamper')) x.remove(); });
     const STO = SRV.store || {}, W = SRV.wallet, w = why && WHY[why];
     const plans = STO.plans || [], packs = STO.packs || {}, ult = STO.ultimate || {};
-    const st = { tab: tab || (WALLET.paid() ? 'packs' : 'plans'), sel: null, promo: '', promoMsg: '', useCredit: true, quote: null };
+    const st = { tab: tab || (pre ? (/^plan/.test(pre) ? 'plans' : /^ult/.test(pre) ? 'ult' : 'packs') : WALLET.paid() ? 'packs' : 'plans'), sel: pre || null, promo: '', promoMsg: '', useCredit: true, quote: null };
     const ppd = (price, hearts) => Math.round(price / Math.max(1, hearts));
     const card = (code, title, sub, price, extra, badge) => `<button class="hsc ${st.sel === code ? 'is-on' : ''}" data-hp="${code}" aria-pressed="${st.sel === code}">
         ${badge ? `<span class="hsc__b">${badge}</span>` : ''}<b class="hsc__t">${title}</b><small class="hsc__s">${sub}</small>
@@ -4490,14 +4860,14 @@ P — Plan: …`);
         <div class="hsg">${Object.keys(ult).map(Number).sort((a, b) => a - b).map((mo, i, all) => card(`ult:${mo}`, PT(`${nf(mo)} ماهه`, `${nf(mo)} months`), PT('قلب بی‌نهایت • شروع از هر درس', 'unlimited • start anywhere'), ult[mo], PT(`ماهی ${nf(Math.round(ult[mo] / mo / 1000) * 1000)}`, `${nf(Math.round(ult[mo] / mo / 1000) * 1000)} a month`), i === all.length - 1 ? PT('به‌صرفه‌ترین', 'Best value') : '')).join('')}</div>`;
     };
     const R = SRV.referral || {};
-    const m = pModal(`<header class="acsheet__h hs__h"><span>❤️</span><div><h3>${PT('فروشگاه قلب', 'Heart store')}</h3><small>${PT(`موجودی: ${WALLET.label()} قلب`, `Balance: ${WALLET.label()} hearts`)}${WALLET.unlimited() ? PT(' • نامحدود فعال است', ' • Ultimate is on') : ''}</small></div><button class="iconbtn" data-close aria-label="${PT('بستن', 'Close')}">✕</button></header>
+    const m = pModal(`<header class="acsheet__h hs__h"><span>❤️</span><div><h3>${PT('ایستگاه قلب', 'Heart Station')}</h3><small>${PT(`موجودی: ${WALLET.label()} قلب`, `Balance: ${WALLET.label()} hearts`)}${WALLET.unlimited() ? PT(' • نامحدود فعال است', ' • Ultimate is on') : ''}</small></div><button class="iconbtn" data-close aria-label="${PT('بستن', 'Close')}">✕</button></header>
       <div class="acsheet__b hs">
-        ${w ? `<div class="hs__why"><span>${w[0]}</span><div><b>${PT(`برای «${w[1]}» قلب بخر`, `Buy hearts to open “${w[2]}”`)}</b><small>${PT('هر اشتراک، بسته یا نامحدود همه درس‌ها و ابزارها را باز می‌کند.', 'Any plan, pack or Ultimate unlocks every lesson and tool.')}</small></div></div>` : ''}
-        <div class="hs__tabs" role="tablist">${[['plans', '📅', 'اشتراک ماهانه', 'Monthly plans'], ['packs', '🎒', 'بسته قلب', 'Heart packs'], ['ult', '♾️', 'نامحدود', 'Ultimate']].map(t => `<button role="tab" class="hs__tab ${st.tab === t[0] ? 'is-on' : ''}" data-htab="${t[0]}" aria-selected="${st.tab === t[0]}">${t[1]} ${PT(t[2], t[3])}</button>`).join('')}</div>
+        ${w ? `<div class="hs__why"><span>${w[0]}</span><div><b>${PT(`برای «${w[1]}» قلب بخر`, `Refill hearts to open “${w[2]}”`)}</b><small>${PT('هر اشتراک، بسته یا نامحدود همه درس‌ها و ابزارها را باز می‌کند.', 'Any plan, pack or Ultimate unlocks every lesson and tool.')}</small></div></div>` : ''}
+        <div class="hs__tabs" role="tablist">${[['plans', '📅', 'برنامه روزانه', 'Daily plans'], ['packs', '🎒', 'شارژ قلب', 'Heart refills'], ['ult', '♾️', 'نامحدود', 'Ultimate']].map(t => `<button role="tab" class="hs__tab ${st.tab === t[0] ? 'is-on' : ''}" data-htab="${t[0]}" aria-selected="${st.tab === t[0]}">${t[1]} ${PT(t[2], t[3])}</button>`).join('')}</div>
         <div class="hs__panel"></div>
         <div class="hs__buy" hidden></div>
-        <details class="hs__how"><summary>${PT('پرداخت چطور انجام می‌شود؟', 'How does payment work?')}</summary>
-          <ol><li>${PT('محصول را انتخاب کن و «ثبت سفارش» را بزن.', 'Pick a product and press “Place order”.')}</li><li>${PT('متن سفارش را برای پشتیبانی بفرست و مبلغ را واریز کن.', 'Send the order text to support and make the payment.')}</li><li>${PT('به محض تأیید پرداخت، قلب‌ها خودکار به حسابت اضافه می‌شوند؛ کد فعال‌سازی لازم نیست.', 'As soon as the payment is confirmed, the hearts are added to your account automatically — no activation code needed.')}</li></ol>
+        <details class="hs__how"><summary>${PT('قلب‌ها چطور به حسابم می‌آیند؟', 'How do the hearts reach my account?')}</summary>
+          <ol><li>${PT('برنامه‌ات را انتخاب کن و «ثبت درخواست» را بزن.', 'Pick your plan and press “Send request”.')}</li><li>${PT('متن درخواست را برای پشتیبانی بفرست و مبلغ را واریز کن.', 'Send the order text to support and make the payment.')}</li><li>${PT('به محض تأیید پرداخت، قلب‌ها خودکار به حسابت اضافه می‌شوند؛ کد فعال‌سازی لازم نیست.', 'As soon as the payment is confirmed, the hearts are added to your account automatically — no activation code needed.')}</li></ol>
           <p class="muted">${PT('هزینه هر کار: پاسخ درست ۱، پاسخ نادرست ۲، هر ابزار ۱، هر کیس ۳، آزمون مرحله ۵، امتحان نهایی ۱۰ قلب. تمرین مرور رایگان است و قلب هم برمی‌گرداند.', 'Costs: correct answer 1, wrong answer 2, each tool 1, each case 3, checkpoint 5, final exam 10 hearts. Review practice is free and gives hearts back.')}</p></details>
       </div>`, { cls: 'modal--sheet modal--hstore' });
     const el = m.el;
@@ -4513,7 +4883,7 @@ P — Plan: …`);
         <div class="hs__promo"><input class="ob__in" dir="ltr" data-hpromo placeholder="${PT('کد تخفیف (اختیاری)', 'Discount code (optional)')}" value="${pesc(st.promo)}"><button class="btn btn--ghost btn--sm" data-hpcheck>${PT('اعمال', 'Apply')}</button></div>
         ${st.promoMsg ? `<p class="acerr">${pesc(st.promoMsg)}</p>` : ''}
         ${qt && qt.credit > 0 ? `<label class="hs__cr"><input type="checkbox" data-hcredit ${st.useCredit ? 'checked' : ''}> ${PT(`استفاده از اعتبار کیف پول (${nf(qt.credit)} ${CUR()})`, `Use wallet credit (${nf(qt.credit)} ${CUR()})`)}</label>` : ''}
-        <button class="btn btn--brand btn--lg btn--block" data-horder ${qt ? '' : 'disabled'}>✅ ${PT('ثبت سفارش', 'Place order')}</button>
+        <button class="btn btn--brand btn--lg btn--block" data-horder ${qt ? '' : 'disabled'}>✅ ${PT('ثبت درخواست', 'Send request')}</button>
         <div class="hs__res" hidden></div>`;
     }
     let qn = 0;
@@ -4544,6 +4914,7 @@ P — Plan: …`);
     el.addEventListener('change', e => { if (e.target.matches('[data-hcredit]')) { st.useCredit = e.target.checked; quote(); } });
     el.addEventListener('keydown', e => { if (e.key === 'Enter' && e.target.matches('[data-hpromo]')) { st.promo = e.target.value.trim(); quote(); } });
     draw();
+    if (st.sel) quote();
     if (R.myFriendPct && !WALLET.paid()) pToast(PT(`🤝 ${nf(R.myFriendPct)}٪ تخفیف دعوت دوست روی اولین خریدت اعمال می‌شود`, `🤝 ${nf(R.myFriendPct)}% friend discount applies to your first purchase`));
     return m;
   }
@@ -4660,7 +5031,7 @@ P — Plan: …`);
         <div class="dd__act">
           <a class="btn btn--cc btn--lg" href="?course=${c.id}">${done ? PT('ادامه یادگیری', 'Continue learning') : PT('شروع دوره', 'Start the course')} ${PT('←', '→')}</a>
           ${a.tools ? `<a class="btn btn--ghost" href="?course=${c.id}#/tools">🧮 ${PT('ابزارها', 'Tools')}</a>` : ''}
-          ${WALLET ? (a.heart === 'ult' ? '' : `<button class="btn btn--gold" data-ac="hstore">❤️ ${a.heart ? PT('خرید قلب بیشتر', 'Get more hearts') : PT('خرید قلب و باز کردن همه درس‌ها', 'Buy hearts & unlock everything')}</button>`) : a.tier < 3 ? `<button class="btn btn--gold" data-ac="store" data-course="${c.id}">👑 ${a.tier ? PT('ارتقا / تمدید', 'Upgrade / renew') : PT('فعال‌سازی کامل', 'Unlock everything')}</button>` : ''}
+          ${WALLET ? (a.heart === 'ult' ? '' : `<button class="btn btn--gold" data-ac="hstore">❤️ ${a.heart ? PT('پر کردن قلب', 'Refill hearts') : PT('پر کردن قلب و باز کردن همه درس‌ها', 'Refill hearts & unlock everything')}</button>`) : a.tier < 3 ? `<button class="btn btn--gold" data-ac="store" data-course="${c.id}">👑 ${a.tier ? PT('ارتقا / تمدید', 'Upgrade / renew') : PT('فعال‌سازی کامل', 'Unlock everything')}</button>` : ''}
         </div>
       </div>
     </section>`;
@@ -4698,7 +5069,7 @@ P — Plan: …`);
         <button class="dbar__logo" data-logo aria-label="${PT(CFG.BRAND_FA, CFG.BRAND_EN)}">${LOGO}<span><b>${PT(CFG.BRAND_FA, CFG.BRAND_EN)}</b><small>${PT(CFG.BRAND_TAG_FA, CFG.BRAND_TAG_EN)} • ${list.map(cName).join(' • ')}</small></span></button>
         <div class="dbar__act">
           ${sm.vip ? `<span class="acvip">💎 ${PT('الماس', 'Diamond')}</span>` : ''}
-          ${WALLET ? `<button class="dbtn dbtn--heart" data-ac="hearts" title="${PT('قلب‌های من', 'My hearts')}"><span aria-hidden="true">${WALLET.unlimited() ? '♾️' : '❤️'}</span><b data-wbal>${WALLET.label()}</b></button><button class="dbtn dbtn--hstore" data-ac="hstore"><span aria-hidden="true">🛒</span><b>${PT('خرید قلب', 'Buy hearts')}</b></button>` : ''}
+          ${WALLET ? `<button class="dbtn dbtn--heart" data-ac="hearts" title="${PT('قلب‌های من', 'My hearts')}"><span aria-hidden="true">${WALLET.unlimited() ? '♾️' : '❤️'}</span><b data-wbal>${WALLET.label()}</b></button><button class="dbtn dbtn--hstore" data-ac="hstore"><span aria-hidden="true">💗</span><b>${PT('پر کردن قلب', 'Refill hearts')}</b></button>` : ''}
           <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT('پوسته ' + t[2], t[3] + ' theme')}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
           <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('EN', 'فا')}</b></button>
           <button class="dbtn ${WALLET ? 'dbtn--minor' : ''}" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
@@ -4709,7 +5080,7 @@ P — Plan: …`);
       <div class="dwrap">
         <section class="dhero">
           <div class="dhero__txt">
-            <small>${p.name ? PT(`سلام ${pesc(p.name)} 👋`, `Hi ${pesc(p.name)} 👋`) : PT('خوش آمدی 👋', 'Welcome 👋')}</small>
+            <div class="dhello">${p.avatar ? `<button class="dhello__av" data-ac="avatar" title="${PT('تغییر شخصیت همراه', 'Change your buddy')}">${avatarSVG(p.avatar, 'av--wave')}</button>` : `<button class="dhello__add" data-ac="avatar">✨ ${PT('انتخاب شخصیت', 'Pick a buddy')}</button>`}<small>${p.name ? PT(`سلام ${pesc(p.name)} 👋`, `Hi ${pesc(p.name)} 👋`) : PT('خوش آمدی 👋', 'Welcome 👋')}</small></div>
             <h1>${PT('امروز کدام مهارت بالینی را <em>تمرین کنیم؟</em>', 'Which clinical skill shall we <em>practise today?</em>')}</h1>
             <p>${PT('هر دوره یک مسیر کامل است: درس‌های سه‌دقیقه‌ای، بیمارهای واقعی‌نما، ماشین‌حساب بالینی و گواهی پایان دوره. روی هر دوره بزن تا جزئیاتش را ببینی.', 'Each course is a complete path: three-minute lessons, realistic patients, clinical calculators and a certificate of completion. Tap a course to see the details.')}</p>
             <div class="dhero__cta">
@@ -4732,6 +5103,7 @@ P — Plan: …`);
       </div>`;
     if (openId) toggleDetail(openId);
     countUp(el);
+    if (WALLET) WALLET.qfab();
     guardAnims();
     dcaseAuto();
   }
@@ -5055,7 +5427,10 @@ P — Plan: …`);
       case 'settings': return settingsModal();
       case 'dcase': return dcaseModal();
       case 'invite': return inviteModal();
+      case 'avatar': return avatarModal(renderDash);
       case 'hearts': return WALLET ? WALLET.infoModal() : null;
+      case 'earn': return WALLET ? WALLET.earnModal() : null;
+      case 'quests': return WALLET ? WALLET.questsModal() : null;
       case 'hstore': return WALLET ? heartStore(b.dataset.why || null, b.dataset.tab || null) : upgradeModal(null, null);
       case 'install': return installApp();
       case 'activate': return activateModal();
@@ -5063,6 +5438,7 @@ P — Plan: …`);
       case 'clinic': return clinicModal();
       case 'grand': return needAssets(courses(), grandModal);
       case 'flash': return flashModal();
+      case 'match': return matchGame();
       case 'backup': return backupModal();
       case 'restore': return restoreDialog();
       case 'quickcalc': return quickCalc();
@@ -5260,6 +5636,8 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     dashTitle();
     renderDash();
     if (!profile()) onboardModal(renderDash);
+    // شخصیت همراه: حساب‌هایی که هنوز انتخاب نکرده‌اند یک بار می‌پرسیم (با «بعداً» بسته می‌شود)
+    else if (!profile().avatar && !LS.raw('academy.avask')) { LS.set('academy.avask', '1'); setTimeout(() => avatarModal(renderDash), 700); }
   }
   /* ================= ورود نرم به دوره: بدون صفحه سفید ================= */
   /** صفحه ورود (#boot در index.html) پس از ساخته شدن دوره آرام محو می‌شود */
@@ -5375,15 +5753,20 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     certCode, recordCert, storyCard, needAssets, dailyCase, setUILang, uiLang: UILANG, roleName,
     store: STORE, migration: () => MIGRATION, courses,
     wallet: WALLET, heartStore,
+    /** پایان هر درس (از موتور بازی): مأموریت «درس بی‌اشتباه» و نوبت پیام همراهان */
+    onLessonDone: info => { if (WALLET && info && info.perfect) WALLET.spend('perfect'); if (typeof ADS !== 'undefined' && ADS) ADS.lessonDone(); },
     afterRender: (cid, view) => {
       fab(); syncMusicUI(false); requestAnimationFrame(stickyFit); guardAnims();
+      if (typeof ADS !== 'undefined' && ADS) ADS.maybe();
+      if (WALLET) WALLET.qfab();
       // کیس‌های ترکیبی ICU فقط داخل دوره‌ها: کارت ویژه در تب تمرین
       if (view === 'tools') attachClinicalNote(cid);
       const grid = view === 'practice' && document.querySelector('#view .pgrid');
       if (grid && !grid.querySelector('.pcard--flash')) grid.insertAdjacentHTML('afterbegin', flashCardHTML(cid));
+      if (grid && !grid.querySelector('.pcard--match')) grid.insertAdjacentHTML('afterbegin', matchCardHTML());
       if (grid && !grid.querySelector('.pcard--icu')) {
         const ok = summary().grand, g = LS.json('academy.grand', {}), n = GR().filter(x => g[x.id] && g[x.id].passed).length;
-        grid.insertAdjacentHTML('beforeend', `<article class="pcard pcard--wide pcard--icu"><div class="pcard__i">🚨</div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU grand rounds')}</h3><p>${PT(`${nf(GR().length)} بیمار بدحال که الکترولیت، گاز خون و معاینه تغذیه‌محور را با هم می‌خواهند • ${nf(n)} از ${nf(GR().length)} قبول`, `${nf(GR().length)} critically ill patients combining electrolytes, blood gases and NFPE`)}</p><button class="btn ${ok ? 'btn--red' : 'btn--ghost'} btn--block" data-ac="grand">${ok ? PT('ورود به شیفت 🚑', 'Start the shift 🚑') : (WALLET ? PT('🔒 با خرید قلب باز می‌شود', '🔒 Unlocks with hearts') : PT('🔒 حداقل ۲ دوره یا پکیج الماس', '🔒 2 courses or Diamond'))}</button></article>`);
+        grid.insertAdjacentHTML('beforeend', `<article class="pcard pcard--wide pcard--icu"><div class="pcard__i">🚨</div><h3>${PT('شیفت اورژانس: کیس‌های ترکیبی ICU', 'ICU grand rounds')}</h3><p>${PT(`${nf(GR().length)} بیمار بدحال که الکترولیت، گاز خون و معاینه تغذیه‌محور را با هم می‌خواهند • ${nf(n)} از ${nf(GR().length)} قبول`, `${nf(GR().length)} critically ill patients combining electrolytes, blood gases and NFPE`)}</p><button class="btn ${ok ? 'btn--red' : 'btn--ghost'} btn--block" data-ac="grand">${ok ? PT('ورود به شیفت 🚑', 'Start the shift 🚑') : (WALLET ? PT('🔒 با پر کردن قلب باز می‌شود', '🔒 Unlocks with hearts') : PT('🔒 حداقل ۲ دوره یا پکیج الماس', '🔒 2 courses or Diamond'))}</button></article>`);
       }
     },
     sha256hex: s => hex(sha256(s))

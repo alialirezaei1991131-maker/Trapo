@@ -4,6 +4,7 @@
  * هیچ کدی از برنامه در این صفحه نیست؛ فقط معرفی و فرم. */
 $base = rtrim((string) Cfg::get('base_url', ''), '/');
 require_once TRAPO_ROOT . '/lib/views/pricing.php';
+require_once TRAPO_ROOT . '/lib/views/scenes.php';
 $fd = (int) ($R['friend_discount_pct'] ?? 0);
 $title = 'تراپو | آموزش بالینی الکترولیت، گاز خون، تغذیه بالینی و ترمینولوژی پزشکی';
 $desc = 'تراپو آکادمی آموزش بالینی برای دانشجویان پزشکی، پرستاری و تغذیه: اصلاح الکترولیت، تفسیر گاز خون (ABG)، معاینه تغذیه‌محور (NFPE) و ترمینولوژی پزشکی با ۹۴۵ درس کوتاه، ۲۷۲ کیس بالینی و گواهی پایان دوره. شروع رایگان.';
@@ -91,13 +92,14 @@ $ld = [
 <script type="application/ld+json" nonce="<?= $esc($nonce) ?>"><?= json_encode($ld, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
 </head>
 <body>
+<div class="lp-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="lp-bg__grid"></span></div>
 <header class="lp-bar">
   <a class="lp-logo" href="./" aria-label="تراپو">
     <svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>
     <b data-t="brand">تراپو</b>
   </a>
   <nav class="lp-nav">
-    <a href="#courses" data-t="navCourses">دوره‌ها</a><a href="#pricing" data-t="navPrice">قیمت‌ها</a><a href="#faq" data-t="navFaq">سؤال‌های رایج</a>
+    <a href="#courses" data-t="navCourses">دوره‌ها</a><a href="#pricing" data-t="navPrice">برنامه‌ها</a><a href="#faq" data-t="navFaq">سؤال‌های رایج</a>
     <button type="button" class="lp-inst" data-install hidden>📲 <span data-t="install">نصب اپ</span></button>
     <button type="button" class="au__lang" data-lang aria-label="English">🌐 <b>English</b></button>
     <a class="lp-cta lp-cta--sm" href="#join" data-go-tab="login" data-t="login">ورود</a>
@@ -115,13 +117,15 @@ $ld = [
         <a class="lp-ghost" href="#courses" data-t="ctaCourses">دیدن دوره‌ها</a>
       </div>
       <ul class="lp-nums">
-        <li><b>۴</b><span data-t="nCourses">دوره تخصصی</span></li>
+        <li><b><?= trapo_fa_num(count($courses)) ?></b><span data-t="nCourses">دوره تخصصی</span></li>
         <li><b>۹۴۵</b><span data-t="nLessons">درس کوتاه</span></li>
         <li><b>۸٬۸۰۰+</b><span data-t="nQ">سؤال و مرحله</span></li>
         <li><b>۲۷۲</b><span data-t="nCases">کیس بالینی</span></li>
       </ul>
     </div>
 
+    <div class="lp-joinwrap">
+    <div class="lp-fly" aria-hidden="true"><?php foreach (['yona', 'homa', 'negar', 'termino'] as $i => $m): ?><img class="lp-fm lp-fm--<?= $i ?>" src="img/m-<?= $m ?>.svg" width="72" height="90" alt=""><?php endforeach; ?><span class="lp-spark lp-spark--a">✦</span><span class="lp-spark lp-spark--b">❤️</span><span class="lp-spark lp-spark--c">✦</span></div>
     <section class="au__card lp-join" id="join" aria-labelledby="au-t">
       <header class="au__h">
         <div><h2 id="au-t" data-t="joinT">شروع رایگان</h2><p data-t="tag">ثبت‌نام در کمتر از یک دقیقه · درس‌های اول هر دوره رایگان</p></div>
@@ -148,10 +152,14 @@ $ld = [
         <p class="au__note" data-only="register" data-t="terms">با ثبت‌نام، درس اول هر دوره رایگان باز می‌شود. هر ایمیل یا شماره موبایل فقط یک حساب دارد؛ رمز را جایی امن نگه دار.</p>
       </form>
     </section>
+    </div>
   </section>
+  <svg class="lp-ecg" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="lpecg" x1="0" x2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><path d="M0 40 H330 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H760 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H1200"/></svg>
+
+  <?= trapo_scenes_html() ?>
 
   <section class="lp-sec" id="courses" aria-labelledby="c-t">
-    <h2 id="c-t" data-t="cT">چهار دوره، یک مسیر روشن</h2>
+    <h2 id="c-t" data-t="cT">دوره‌ها؛ هر کدام یک مسیر روشن</h2>
     <p class="lp-sub" data-t="cS">هر دوره چند دنیا و سطح دارد؛ هر روز چند درس سه‌دقیقه‌ای، بیمار واقعی‌نما، ابزار و ماشین‌حساب بالینی، و در پایان امتحان و گواهی.</p>
     <div class="lp-courses">
       <?php foreach ($courses as $c): ?>
@@ -205,5 +213,6 @@ $ld = [
 </main>
 <footer class="lp-foot"><p data-t="foot">تراپو ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p><p>© <?= date('Y') ?> <span data-t="brand">تراپو</span></p></footer>
 <script src="<?= $esc(trapo_asset('auth.js')) ?>"></script>
+<script src="<?= $esc(trapo_asset('lp.js')) ?>"></script>
 </body>
 </html>

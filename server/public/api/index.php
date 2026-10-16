@@ -12,7 +12,7 @@ Http::securityHeaders();
 
 $a = preg_replace('/[^a-z_]/', '', (string) ($_GET['a'] ?? ''));
 $post = ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST';
-$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order', 'spend',
+$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order', 'spend', 'quest', 'profile', 'social_open', 'social_claim',
              'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle', 'm_gift'];
 if (in_array($a, $needPost, true) && !$post) Http::fail('method', 405);
 
@@ -20,7 +20,7 @@ if (in_array($a, $needPost, true) && !$post) Http::fail('method', 405);
 function mePayload(array $u, array $s): array
 {
     return ['ok' => true, 'user' => ['name' => $u['name'], 'login' => $u['login'], 'dev' => $u['dev_id'], 'ref' => $u['ref_code'], 'since' => (int) $u['created_at']],
-            'csrf' => $s['csrf'], 'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wallet' => Hearts::state((int) $u['id'])];
+            'csrf' => $s['csrf'], 'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wallet' => Hearts::state((int) $u['id']), 'rewards' => Rewards::state($u)];
 }
 
 try {
@@ -64,7 +64,12 @@ try {
         case 'progress_put': { Auth::requireCsrf(); $u = Auth::requireUser(); $b = Http::body(); Http::json(['ok' => true, 'saved' => Progress::put($u, (array) ($b['items'] ?? []))]); }
 
         /* ---------- کیف قلب ---------- */
-        case 'wallet': { $u = Auth::requireUser(); Http::json(['ok' => true, 'wallet' => Hearts::state((int) $u['id'])]); }
+        case 'wallet': { $u = Auth::requireUser(); Http::json(['ok' => true, 'wallet' => Hearts::state((int) $u['id']), 'rewards' => Rewards::state($u)]); }
+        /* ---------- مأموریت روزانه و جایزه‌ها (قلب هدیه) ---------- */
+        case 'quest': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('quest|' . $u['id'], 60, 3600); Http::json(['ok' => true, 'wallet' => Hearts::questClaim((int) $u['id'], Http::str(Http::body(), 'id', 20))]); }
+        case 'profile': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('profile|' . $u['id'], 30, 3600); Http::json(['ok' => true] + Rewards::saveProfile($u, Http::body())); }
+        case 'social_open': { Auth::requireCsrf(); $u = Auth::requireUser(); Rewards::socialOpen($u, Http::str(Http::body(), 'net', 20)); Http::json(['ok' => true]); }
+        case 'social_claim': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('social|' . $u['id'], 30, 3600); Http::json(['ok' => true] + Rewards::socialClaim($u, Http::str(Http::body(), 'net', 20))); }
         case 'spend': {
             Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('spend|' . $u['id'], 1500, 3600); $b = Http::body();
             Http::json(['ok' => true, 'wallet' => Hearts::spend((int) $u['id'], (array) ($b['ev'] ?? []))]);
