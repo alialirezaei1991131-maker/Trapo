@@ -15,6 +15,8 @@ final class Auth
     private const DUMMY = '$2y$10$JUrqDvBILjrE6vPiy6lYO.w8xJ9vY6zGe06B7.xVxSFdgFdJGA2Ua';
     private static ?array $cur = null;
     private static bool $loaded = false;
+    /** کوکی نشست بود ولی نشست بسته شده (مثلاً با ورود روی دستگاه دیگر): صفحه ورود توضیح می‌دهد */
+    public static bool $kicked = false;
 
     /** ایمیل یا شماره موبایل ایران (۰۹…) را یکدست می‌کند؛ نامعتبر = '' */
     public static function normLogin(string $raw): string
@@ -29,6 +31,26 @@ final class Auth
         if (preg_match('/^(?:\+98|0098|98)?0?(9\d{9})$/', $d, $m)) return '0' . $m[1];
         return '';
     }
+    /**
+     * کلید یکتای هویت برای جلوگیری از حساب تکراری: یک صندوق ایمیل یا یک شماره = فقط یک حساب.
+     * ایمیل: حروف کوچک، بدون «+برچسب»؛ جیمیل بدون نقطه (a.b+x@gmail.com = ab@gmail.com). موبایل: 09xxxxxxxxx.
+     */
+    public static function identityKey(string $raw): string
+    {
+        $l = self::normLogin($raw);
+        if ($l === '' || strpos($l, '@') === false) return $l;
+        [$u, $d] = explode('@', $l, 2);
+        $u = explode('+', $u, 2)[0];
+        if ($d === 'googlemail.com') $d = 'gmail.com';
+        if ($d === 'gmail.com') $u = str_replace('.', '', $u);
+        return $u . '@' . $d;
+    }
+    /** آیا این ایمیل/شماره (به هر شکل نوشتاری) قبلاً در حسابی (به‌عنوان ورود یا راه تماس) ثبت شده؟ */
+    public static function identityTaken(string $key): bool
+    {
+        return $key !== '' && (bool) Db::val('SELECT 1 FROM users WHERE login_key = ? OR contact_key = ? OR login = ?', [$key, $key, $key]);
+    }
+
     public static function passwordProblem(string $p): ?string
     {
         if (mb_strlen($p) < 8) return 'pass_short';
@@ -54,7 +76,7 @@ final class Auth
         throw new RuntimeException('ref code');
     }
 
-    public static function register(string $login, string $pass, string $name, string $ref): array
+    public static function register(string $login, string $pass, string $name, string $ref, string $contact = ''): array
     {
         $ip = Http::ip();
         Http::limit('reg|' . $ip, (int) Cfg::get('register_max_per_ip_day', 8), 86400);
@@ -63,14 +85,21 @@ final class Auth
         if ($e = self::passwordProblem($pass)) Http::fail($e);
         $name = trim(preg_replace('/[\x00-\x1F\x7F<>]/u', '', $name));
         if (mb_strlen($name) < 2 || mb_strlen($name) > 60) Http::fail('bad_name');
-        if (Db::val('SELECT 1 FROM users WHERE login = ?', [$l])) Http::fail('login_taken', 409);
+        $lk = self::identityKey($l);
+        if (Db::val('SELECT 1 FROM users WHERE login = ?', [$l]) || self::identityTaken($lk)) Http::fail('login_taken', 409);
+        // راه تماس دوم (اختیاری): اگر ورود با ایمیل است شماره موبایل و برعکس؛ آن هم نباید مال حساب دیگری باشد
+        $c = trim($contact) === '' ? '' : self::normLogin($contact);
+        if (trim($contact) !== '' && $c === '') Http::fail('bad_contact');
+        $ck = $c === '' ? '' : self::identityKey($c);
+        if ($ck !== '' && $ck === $lk) { $c = ''; $ck = ''; }
+        if ($ck !== '' && self::identityTaken($ck)) Http::fail('contact_taken', 409);
         $hash = password_hash($pass, PASSWORD_DEFAULT);
         $refUser = null;
         $ref = strtoupper(preg_replace('/[^0-9A-Za-z]/', '', $ref));
         if ($ref !== '') $refUser = Db::one('SELECT id FROM users WHERE ref_code = ? AND status = ?', [$ref, 'active']);
-        $uid = Db::tx(function () use ($l, $name, $hash, $refUser) {
-            $id = Db::insert('INSERT INTO users (login, name, pass_hash, dev_id, ref_code, referred_by, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
-                [$l, $name, $hash, self::devId(), self::refCode(), $refUser ? (int) $refUser['id'] : null, time()]);
+        $uid = Db::tx(function () use ($l, $lk, $c, $ck, $name, $hash, $refUser) {
+            $id = Db::insert('INSERT INTO users (login, login_key, contact, contact_key, name, pass_hash, dev_id, ref_code, referred_by, created_at) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)',
+                [$l, $lk, $c !== '' ? $c : null, $ck !== '' ? $ck : null, $name, $hash, self::devId(), self::refCode(), $refUser ? (int) $refUser['id'] : null, time()]);
             if ($refUser) Db::exec('INSERT INTO referrals (referrer_id, referred_id, created_at) VALUES (?, ?, ?)', [(int) $refUser['id'], $id, time()]);
             return $id;
         });
@@ -85,7 +114,8 @@ final class Auth
         $max = (int) Cfg::get('login_max_attempts', 6);
         Http::limit('login|' . $ip . '|' . $l, $max, 900);
         Http::limit('login-ip|' . $ip, $max * 5, 900);
-        $u = $l === '' ? null : Db::one('SELECT id, pass_hash, status FROM users WHERE login = ?', [$l]);
+        $u = $l === '' ? null : (Db::one('SELECT id, pass_hash, status FROM users WHERE login = ?', [$l])
+            ?: Db::one('SELECT id, pass_hash, status FROM users WHERE login_key = ? OR contact_key = ? ORDER BY id LIMIT 1', [self::identityKey($l), self::identityKey($l)]));
         // زمان پاسخ برای حساب ناموجود و موجود یکسان می‌ماند
         $ok = password_verify($pass, $u ? $u['pass_hash'] : self::DUMMY);
         if (!$u || !$ok) { Http::audit($u ? (int) $u['id'] : null, 'login_fail'); Http::fail('bad_credentials', 401); }
@@ -108,9 +138,10 @@ final class Auth
         if ($role === 'user') {
             Db::exec('UPDATE users SET last_login = ? WHERE id = ?', [$now, $uid]);
             // سقف نشست هم‌زمان: قدیمی‌ترین‌ها بسته می‌شوند
-            $keep = max(1, (int) Cfg::get('max_sessions_per_user', 3));
-            $old = Db::all("SELECT id_hash FROM sessions WHERE user_id = ? AND role = 'user' ORDER BY created_at DESC", [$uid]);
-            foreach (array_slice($old, $keep) as $o) Db::exec('DELETE FROM sessions WHERE id_hash = ?', [$o['id_hash']]);
+            $keep = max(1, (int) Cfg::get('max_sessions_per_user', 2));
+            // نشست همین ورود همیشه می‌ماند؛ از بقیه فقط تازه‌ترین‌ها (keep - 1 تا)
+            $old = Db::all("SELECT id_hash FROM sessions WHERE user_id = ? AND role = 'user' AND id_hash <> ? ORDER BY created_at DESC, seen_at DESC", [$uid, $s['id_hash']]);
+            foreach (array_slice($old, $keep - 1) as $o) Db::exec('DELETE FROM sessions WHERE id_hash = ?', [$o['id_hash']]);
         }
         self::setCookie($token, $s['expires_at'], $role);
         self::$cur = $s; self::$loaded = true;
@@ -130,7 +161,7 @@ final class Auth
         $tok = $_COOKIE[self::cookieName($role)] ?? '';
         if (!is_string($tok) || !preg_match('/^[A-Za-z0-9_-]{40,60}$/', $tok)) return null;
         $s = Db::one('SELECT * FROM sessions WHERE id_hash = ? AND role = ?', [self::hashTok($tok), $role]);
-        if (!$s) return null;
+        if (!$s) { if ($role === 'user') self::$kicked = true; return null; }
         $now = time();
         if ((int) $s['expires_at'] < $now) { Db::exec('DELETE FROM sessions WHERE id_hash = ?', [$s['id_hash']]); return null; }
         if ($now - (int) $s['seen_at'] > 300) Db::exec('UPDATE sessions SET seen_at = ? WHERE id_hash = ?', [$now, $s['id_hash']]);

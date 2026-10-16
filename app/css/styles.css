@@ -2110,6 +2110,38 @@ body { text-rendering: auto; font-kerning: normal; font-optical-sizing: auto; }
 /* کلید روشن/خاموش در صفحه اول (بدون رنگ دوره) هم وقتی روشن است رنگ بگیرد؛ رنگ هر دوره همچنان غالب است */
 :where(.sw):checked { background: var(--green, #58cc02); }
 
+/* ===== دعوت دوستان: دکمه صفحه اول + پنجره ===== */
+.dinv { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; padding: 6px 16px 6px 14px; border-radius: 18px; cursor: pointer; font: inherit; color: var(--text); text-align: start;
+  border: 1.5px solid color-mix(in srgb, #a560e8 45%, var(--line)); background: linear-gradient(135deg, color-mix(in srgb, #a560e8 14%, var(--bg)), color-mix(in srgb, #12b3a8 8%, var(--bg))); transition: transform .15s; }
+.dinv:hover { transform: translateY(-2px); }
+.dinv > span:first-child { font-size: 24px; line-height: 1; }
+.dinv > span:last-child { display: flex; flex-direction: column; line-height: 1.45; }
+.dinv b { font-weight: 900; font-size: 14.5px; } .dinv small { color: var(--muted); font-weight: 700; font-size: 12px; }
+.modal--inv .modal__card { max-width: 600px; }
+.ivp { padding: 22px 22px 20px; display: grid; gap: 14px; }
+.ivp__h { display: flex; gap: 12px; align-items: flex-start; padding-inline-end: 36px; }
+.ivp__i { font-size: 36px; line-height: 1; }
+.ivp__h h3 { font-size: 19px; font-weight: 900; margin: 0 0 4px; }
+.ivp__h p { margin: 0; color: var(--muted); font-weight: 600; line-height: 1.9; }
+.ivp__code { display: grid; gap: 8px; justify-items: center; padding: 14px; border-radius: 18px; border: 1.5px dashed color-mix(in srgb, #a560e8 45%, var(--line)); background: color-mix(in srgb, #a560e8 6%, var(--bg)); }
+.ivp__code small { color: var(--muted); font-weight: 800; }
+.ivp__code code { font: 900 28px/1.2 Nunito, Vazirmatn, monospace; letter-spacing: 3px; }
+.ivp__btns { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
+.ivp__btns .btn { text-decoration: none; }
+.ivp__link { margin: 0; font-size: 12.5px; color: var(--muted); word-break: break-all; text-align: center; }
+.ivp h4 { margin: 4px 0 0; font-size: 16px; font-weight: 900; }
+.ivp__steps { margin: 0; padding-inline-start: 22px; display: grid; gap: 6px; line-height: 1.9; font-weight: 600; }
+.ivp__fmt { border-radius: 14px; background: var(--bg2, var(--bg)); padding: 10px 14px; }
+.ivp__fmt summary { cursor: pointer; font-weight: 800; }
+.ivp__fmt p { margin: 8px 0 0; line-height: 1.9; font-size: 14px; color: var(--text); }
+.ivp__fmt code { font-family: Nunito, monospace; }
+
+/* ===== نصب به‌صورت اپ ===== */
+.dbtn--inst[hidden] { display: none !important; }
+.dbtn--inst { border-color: color-mix(in srgb, #12b3a8 45%, var(--line)); }
+.ins__steps { text-align: start; margin: 4px 0 0; padding-inline-start: 22px; display: grid; gap: 8px; line-height: 1.9; font-weight: 600; }
+.ins__ic { display: inline-grid; place-items: center; min-width: 26px; height: 26px; border-radius: 8px; background: var(--bg3, #eef2f4); font-weight: 900; }
+
 /* نشانگر «این دوره CSS اختصاصی دارد» (دوره تازه‌ای که CSS خودش را بیاورد هم همین را تعریف کند) */
 html[data-course="yona"] { --course-css: 1; }
 html[data-course="homa"] { --course-css: 1; }

@@ -3984,6 +3984,7 @@ P — Plan: …`);
           <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT(t[2], t[3])}">${t[1]}</button>`).join('')}</div>
           <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('English', 'فارسی')}</b></button>
           <button class="dbtn" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
+          <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
           <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
         </div>
       </div></header>
@@ -4139,6 +4140,37 @@ P — Plan: …`);
       ${R.myFriendPct ? `<p class="acinv__mine">🤝 ${PT(`تو با دعوت یک دوست آمده‌ای: ${nf(R.myFriendPct)}٪ تخفیف اولین خریدت خودکار اعمال می‌شود.`, `You joined through a friend: ${nf(R.myFriendPct)}% off your first purchase is applied automatically.`)}</p>` : ''}
     </section>`;
   }
+  /** پنجره «دعوت دوستان»: کد و لینک، اشتراک‌گذاری، و توضیح کامل شکل کد و قاعده اعتبار */
+  function inviteModal() {
+    const R = SRV && SRV.referral; if (!R) return;
+    const msg = PT(`با کد معرف من در تراپو ثبت‌نام کن تا ${nf(R.friendPct)}٪ تخفیف اولین خرید بگیری: ${R.link}`, `Join Therapo with my referral code and get ${nf(R.friendPct)}% off your first purchase: ${R.link}`);
+    const share = encodeURIComponent(msg);
+    const m = pModal(`<button class="iconbtn dcpop__x" data-close aria-label="${PT('بستن', 'Close')}">✕</button>
+      <div class="ivp">
+        <header class="ivp__h"><span class="ivp__i" aria-hidden="true">🎁</span><div><h3>${PT('دوستانت را دعوت کن، اعتبار بگیر', 'Invite friends, earn credit')}</h3>
+          <p>${PT(`دوستت <b>${nf(R.friendPct)}٪ تخفیف</b> اولین خرید می‌گیرد و تو <b>${nf(R.rewardPct)}٪ مبلغ خریدش</b> را اعتبار کیف پول.`, `Your friend gets <b>${nf(R.friendPct)}% off</b> their first purchase and you get <b>${nf(R.rewardPct)}% of it</b> as wallet credit.`)}</p></div></header>
+        <div class="ivp__code"><small>${PT('کد معرف تو', 'Your referral code')}</small><code dir="ltr">${pesc(R.code)}</code>
+          <div class="ivp__btns"><button class="btn btn--brand" data-srv="copylink">🔗 ${PT('کپی لینک دعوت', 'Copy invite link')}</button><button class="btn btn--ghost" data-srv="copycode">📋 ${PT('کپی کد', 'Copy code')}</button>
+          ${navigator.share ? `<button class="btn btn--ghost" data-srv="share">📤 ${PT('ارسال', 'Share')}</button>` : ''}
+          <a class="btn btn--ghost" href="https://t.me/share/url?url=${encodeURIComponent(R.link)}&amp;text=${share}" target="_blank" rel="noopener">✈️ ${PT('تلگرام', 'Telegram')}</a>
+          <a class="btn btn--ghost" href="https://wa.me/?text=${share}" target="_blank" rel="noopener">💬 ${PT('واتساپ', 'WhatsApp')}</a></div>
+          <p class="ivp__link" dir="ltr">${pesc(R.link)}</p></div>
+        <div class="acinv__nums"><div><b>${nf(R.joined)}</b><small>${PT('دوست ثبت‌نام‌کرده', 'friends joined')}</small></div><div><b>${nf(R.paid)}</b><small>${PT('خرید موفق', 'purchases')}</small></div><div><b>${nf(R.credit)}</b><small>${PT('اعتبار کیف پول', 'wallet credit')} (${CUR()})</small></div></div>
+        ${R.myFriendPct ? `<p class="acinv__mine">🤝 ${PT(`تو با دعوت یک دوست آمده‌ای: ${nf(R.myFriendPct)}٪ تخفیف اولین خریدت خودکار اعمال می‌شود.`, `You joined through a friend: ${nf(R.myFriendPct)}% off your first purchase is applied automatically.`)}</p>` : ''}
+        <h4>${PT('چطور کار می‌کند؟', 'How does it work?')}</h4>
+        <ol class="ivp__steps">
+          <li>${PT('لینک یا کد را برای دوستت بفرست.', 'Send your link or code to a friend.')}</li>
+          <li>${PT('دوستت با همین لینک ثبت‌نام می‌کند، یا هنگام ثبت‌نام کد را در «کد معرف» می‌نویسد.', 'They sign up through the link, or type the code in “Referral code” when signing up.')}</li>
+          <li>${PT(`در اولین خریدش ${nf(R.friendPct)}٪ تخفیف خودکار می‌گیرد.`, `Their first purchase is automatically ${nf(R.friendPct)}% off.`)}</li>
+          <li>${PT(`وقتی پرداختش تأیید شد، ${nf(R.rewardPct)}٪ مبلغی که پرداخته${R.cap ? ` (حداکثر ${nf(R.cap)} ${CUR()} برای هر خرید)` : ''} به کیف پول تو اضافه می‌شود.`, `Once their payment is confirmed, ${nf(R.rewardPct)}% of what they paid${R.cap ? ` (up to ${nf(R.cap)} ${CUR()} per purchase)` : ''} is added to your wallet.`)}</li>
+          <li>${PT(`اعتبار در خرید بعدی خودت خودکار کم می‌شود${R.maxUse ? `؛ تا ${nf(R.maxUse)}٪ مبلغ هر سفارش` : ''}.`, `Your credit is deducted automatically from your next purchase${R.maxUse ? `, up to ${nf(R.maxUse)}% of each order` : ''}.`)}</li>
+        </ol>
+        <details class="ivp__fmt"><summary>${PT('شکل کد معرف', 'About the code format')}</summary>
+          <p>${PT('هر حساب یک کد ثابت و یکتا دارد: حرف <b dir="ltr">T</b> و شش نویسه از حروف و اعداد انگلیسی (مثل <code dir="ltr">TQS9XRZ</code>). حروف شبیه به هم (O و I و L) در کد نیستند تا اشتباه خوانده نشود؛ بزرگ و کوچک بودن حروف مهم نیست. لینک دعوت همان نشانی سایت با <code dir="ltr">?ref=</code> و کد توست و کد را خودش پر می‌کند.', 'Every account has one fixed, unique code: the letter <b>T</b> followed by six English letters and digits (e.g. <code>TQS9XRZ</code>). Look-alike letters (O, I, L) are never used, and case does not matter. The invite link is the site address with <code>?ref=</code> and your code, and fills the code in automatically.')}</p>
+          <p>${PT('تخفیف دوست و کد تخفیف کمپین با هم جمع نمی‌شوند؛ هر کدام بیشتر باشد اعمال می‌شود. اگر سفارشی لغو شود، اعتباری که در آن خرج شده بود به کیف پول برمی‌گردد.', 'A friend discount and a campaign promo code do not stack — the larger one applies. If an order is cancelled, any credit spent on it goes back to your wallet.')}</p></details>
+      </div>`, { cls: 'modal--dcase modal--inv' });
+    return m;
+  }
   function accountHTML() {
     if (!SRV) return '';
     return `<div class="setc">
@@ -4152,6 +4184,7 @@ P — Plan: …`);
     const act = b.dataset.srv, R = SRV.referral || {};
     if (act === 'copylink') return copyText(R.link).then(ok => pToast(ok ? PT('🔗 لینک دعوت کپی شد', '🔗 Invite link copied') : R.link));
     if (act === 'copycode') return copyText(R.code).then(ok => pToast(ok ? PT('📋 کد معرف کپی شد', '📋 Referral code copied') : R.code));
+    if (act === 'share') { try { await navigator.share({ title: PT('تراپو', 'Therapo'), text: PT(`با کد معرف من ${nf(R.friendPct)}٪ تخفیف اولین خرید بگیر`, `Get ${nf(R.friendPct)}% off your first purchase with my code`), url: R.link }); } catch (x) { /* لغو شد */ } return; }
     if (act === 'logout') { if (!confirm(PT('از حساب خارج شوی؟', 'Sign out?'))) return; await api('logout', {}); location.href = './'; return; }
     if (act === 'pass') {
       const m = pModal(`<h3>🔒 ${PT('تغییر رمز', 'Change password')}</h3>
@@ -4319,20 +4352,20 @@ P — Plan: …`);
           <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT('پوسته ' + t[2], t[3] + ' theme')}" aria-pressed="${th === t[0]}">${t[1]}</button>`).join('')}</div>
           <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('EN', 'فا')}</b></button>
           <button class="dbtn" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
+          <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
           <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
         </div>
       </div></header>
       <div class="dwrap">
-        ${SRV ? inviteHTML(true) : ''}
         <section class="dhero">
           <div class="dhero__txt">
-            <span class="dchip"><i></i>${PT('آموزش بالینی بازی‌وار • کاملاً آفلاین', 'Game-based clinical learning • fully offline')}</span>
             <small>${p.name ? PT(`سلام ${pesc(p.name)} 👋`, `Hi ${pesc(p.name)} 👋`) : PT('خوش آمدی 👋', 'Welcome 👋')}</small>
             <h1>${PT('امروز کدام مهارت بالینی را <em>تمرین کنیم؟</em>', 'Which clinical skill shall we <em>practise today?</em>')}</h1>
             <p>${PT('هر دوره یک مسیر کامل است: درس‌های سه‌دقیقه‌ای، بیمارهای واقعی‌نما، ماشین‌حساب بالینی و گواهی پایان دوره. روی هر دوره بزن تا جزئیاتش را ببینی.', 'Each course is a complete path: three-minute lessons, realistic patients, clinical calculators and a certificate of completion. Tap a course to see the details.')}</p>
             <div class="dhero__cta">
               ${last && AC[last] ? `<a class="dcont" href="?course=${last}" style="--cc:${AC[last].color};--cd:${AC[last].dark}"><span class="dcont__m">${courseMascot(AC[last], 'happy', 30)}</span><span>${PT('ادامه از', 'Continue')} <b>${cName(AC[last])}</b></span><i aria-hidden="true">${PT('←', '→')}</i></a>` : ''}
               ${dcaseBtn()}
+              ${SRV && SRV.referral ? `<button class="dinv" data-ac="invite" aria-haspopup="dialog"><span aria-hidden="true">🎁</span><span><b>${PT('دعوت دوستان', 'Invite friends')}</b><small>${PT(`${nf(SRV.referral.rewardPct)}٪ اعتبار برای تو`, `${nf(SRV.referral.rewardPct)}% credit for you`)}</small></span></button>` : ''}
               <a class="dgo" href="#dcourses">${PT('مشاهده دوره‌ها', 'See the courses')} <i aria-hidden="true">↓</i></a>
             </div>
             <ul class="dhero__nums">${[[list.length, PT('دوره', 'courses')], [tot.l, PT('درس کوتاه', 'short lessons')], [tot.q, PT('سؤال و مرحله', 'questions & steps')], [tot.r, PT('بیمار در راند', 'round patients')], [tot.t, PT('ابزار بالینی', 'clinical tools')]].map((x, i) => `<li style="--d:${i * 90 + 300}ms"><b data-count="${x[0]}">${nf(x[0])}</b><small>${x[1]}</small></li>`).join('')}</ul>
@@ -4588,6 +4621,7 @@ P — Plan: …`);
             <div class="setc__r"><span>🌐 ${PT('زبان برنامه', 'App language')}<small>${PT('صفحه اول، پنجره‌ها و همه دوره‌ها؛ بلافاصله عوض می‌شود', 'Home, windows and every course — switches instantly')}</small></span>
               <div class="seg">${[['fa', 'فارسی'], ['en', 'English']].map(l => `<button class="seg__b ${(LS.raw('academy.lang') || 'fa') === l[0] ? 'is-on' : ''}" data-lang="${l[0]}" lang="${l[0]}">${l[1]}</button>`).join('')}</div></div>
             ${SRV ? '</div>' + accountHTML() + '<div class="setc">' : ''}
+            ${installable() ? `<div class="setc__r"><span>📲 ${PT('نصب به‌صورت اپ', 'Install as an app')}<small>${PT('آیکون تراپو روی صفحه اصلی گوشی، تبلت یا دسکتاپ', 'A Therapo icon on your phone, tablet or desktop')}</small></span><button class="btn btn--ghost btn--sm" data-ac="install">${PT('نصب', 'Install')}</button></div>` : ''}
             <label class="setc__r"><span>🌟 ${PT('کیس بالینی روزانه', 'Daily clinical case')}<small>${PT('هر روز یک بار در صفحه اول خودکار باز شود', 'Open automatically once a day on the home page')}</small></span><input type="checkbox" class="sw" data-dcauto ${prefs().dcase !== false ? 'checked' : ''}></label>
             <label class="setc__r"><span>🎵 ${PT('موسیقی پس‌زمینه', 'Background music')}<small>${PT('آرام و بی‌کلام، داخل همه دوره‌ها', 'Calm and wordless, in every course')}</small></span><input type="checkbox" class="sw" data-gmusic ${prefs().music !== false ? 'checked' : ''}></label>
           </div>
@@ -4669,6 +4703,8 @@ P — Plan: …`);
       case 'store': return upgradeModal(b.dataset.course || null, b.dataset.why || null, b.dataset.tier || null);
       case 'settings': return settingsModal();
       case 'dcase': return dcaseModal();
+      case 'invite': return inviteModal();
+      case 'install': return installApp();
       case 'activate': return activateModal();
       case 'upsell': return upgradeModal(b.dataset.course || null, b.dataset.why || 'lesson');
       case 'clinic': return clinicModal();
@@ -4945,6 +4981,35 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     if (location.protocol.startsWith('http') && 'serviceWorker' in navigator && !SRV) {
       window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { /* بدون حالت آفلاین */ }); });
     }
+  }
+
+  /* ================= نصب به‌صورت اپ (PWA): گوشی، تبلت، لپ‌تاپ و دسکتاپ ================= */
+  const isStandalone = () => { try { return matchMedia('(display-mode: standalone)').matches || matchMedia('(display-mode: minimal-ui)').matches || navigator.standalone === true; } catch (e) { return false; } };
+  const isIOS = () => /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1);
+  let BIP = null; // رویداد beforeinstallprompt (کروم، اج، سامسونگ، اپرا)
+  const installable = () => location.protocol.startsWith('http') && !isStandalone();
+  const syncInstall = () => document.querySelectorAll('[data-ac="install"]').forEach(b => { b.hidden = !installable(); });
+  window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); BIP = e; syncInstall(); });
+  document.addEventListener('trp-installable', () => { BIP = window.__trpInstall || BIP; syncInstall(); });
+  window.addEventListener('appinstalled', () => { BIP = null; window.__trpInstall = null; syncInstall(); pToast(PT('✅ تراپو نصب شد؛ از صفحه اصلی دستگاهت بازش کن', '✅ Therapo is installed — open it from your home screen')); });
+  async function installApp() {
+    const ev = BIP || window.__trpInstall;
+    if (ev) {
+      try { ev.prompt(); const c = await ev.userChoice; if (c && c.outcome === 'accepted') { BIP = null; window.__trpInstall = null; } } catch (e) { /* */ }
+      return;
+    }
+    const ua = navigator.userAgent, ios = isIOS(), android = /Android/i.test(ua), fx = /Firefox\//.test(ua), samsung = /SamsungBrowser/i.test(ua);
+    const steps = ios ? [PT('این صفحه را در <b>Safari</b> باز کن (در کروم آیفون هم همین دکمه هست).', 'Open this page in <b>Safari</b> (Chrome on iPhone has the same button).'),
+        PT('دکمه <b>اشتراک‌گذاری</b> <span class="ins__ic">⬆︎</span> (مربع با فلش رو به بالا) را بزن.', 'Tap the <b>Share</b> button <span class="ins__ic">⬆︎</span> (square with an up arrow).'),
+        PT('گزینه <b>Add to Home Screen</b> (افزودن به صفحه اصلی) را بزن و بعد <b>Add</b>.', 'Choose <b>Add to Home Screen</b>, then <b>Add</b>.')]
+      : samsung ? [PT('منوی ☰ پایین صفحه را بزن.', 'Tap the ☰ menu at the bottom.'), PT('<b>Add page to</b> ← <b>Home screen</b> را بزن.', 'Tap <b>Add page to</b> → <b>Home screen</b>.')]
+      : android ? [PT('منوی <b>⋮</b> بالای مرورگر کروم را بزن.', 'Tap the <b>⋮</b> menu at the top of Chrome.'), PT('<b>Install app</b> (نصب برنامه) یا <b>Add to Home screen</b> را بزن.', 'Tap <b>Install app</b> or <b>Add to Home screen</b>.')]
+      : fx ? [PT('فایرفاکسِ کامپیوتر نصب اپ را پشتیبانی نمی‌کند؛ همین صفحه را در <b>کروم</b> یا <b>اج</b> باز کن.', 'Desktop Firefox cannot install apps — open this page in <b>Chrome</b> or <b>Edge</b>.'), PT('بعد دکمه «نصب اپ» را دوباره بزن.', 'Then press “Install app” again.')]
+      : [PT('در نوار آدرس کروم یا اج، آیکون <b>نصب</b> <span class="ins__ic">⊕</span> را بزن.', 'In the Chrome or Edge address bar, click the <b>install</b> icon <span class="ins__ic">⊕</span>.'), PT('یا از منوی <b>⋮</b> گزینه <b>Install Therapo</b> / <b>Apps → Install this site as an app</b> را بزن.', 'Or open the <b>⋮</b> menu and choose <b>Install Therapo</b> / <b>Apps → Install this site as an app</b>.')];
+    pModal(`<div class="big-i">📲</div><h3>${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}</h3>
+      <p>${PT('بعد از نصب، تراپو با آیکون خودش روی صفحه اصلی یا دسکتاپ می‌نشیند و مثل یک اپ جدا، تمام‌صفحه باز می‌شود.', 'Once installed, Therapo gets its own icon on your home screen or desktop and opens full-screen like a separate app.')}</p>
+      <ol class="ins__steps">${steps.map(s => `<li>${s}</li>`).join('')}</ol>
+      <div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${PT('باشه', 'OK')}</button></div>`, { cls: 'modal--ins' });
   }
 
   window.ACADEMY = {

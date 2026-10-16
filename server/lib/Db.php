@@ -80,8 +80,18 @@ final class Db
             "CREATE TABLE IF NOT EXISTS audit (id $PK, user_id $I NULL, action $S NOT NULL, ip $S NOT NULL DEFAULT '', meta $T NULL, created_at $I NOT NULL)$E",
         ];
         foreach ($sql as $s) self::$pdo->exec($s);
+        // ستون‌های تازه برای پایگاه داده‌های قبلی (تکرار بی‌خطر): کلید یکتای هویت و راه تماس دوم
+        foreach (['login_key', 'contact', 'contact_key'] as $col) {
+            try { self::$pdo->exec("ALTER TABLE users ADD COLUMN $col $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ }
+        }
+        try {
+            foreach (self::$pdo->query('SELECT id, login FROM users WHERE login_key IS NULL')->fetchAll() as $r) {
+                self::$pdo->prepare('UPDATE users SET login_key = ? WHERE id = ?')->execute([Auth::identityKey((string) $r['login']), $r['id']]);
+            }
+        } catch (Throwable $e) { /* */ }
         foreach (['CREATE INDEX IF NOT EXISTS ix_lic_user ON licenses(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ord_user ON orders(user_id)',
-                  'CREATE INDEX IF NOT EXISTS ix_sess_user ON sessions(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ref_referrer ON referrals(referrer_id)'] as $ix) {
+                  'CREATE INDEX IF NOT EXISTS ix_sess_user ON sessions(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ref_referrer ON referrals(referrer_id)',
+                  'CREATE INDEX IF NOT EXISTS ix_user_lkey ON users(login_key)', 'CREATE INDEX IF NOT EXISTS ix_user_ckey ON users(contact_key)'] as $ix) {
             try { self::$pdo->exec($my ? str_replace('IF NOT EXISTS ', '', $ix) : $ix); } catch (Throwable $e) { /* شاخص از قبل هست */ }
         }
     }

@@ -170,7 +170,7 @@ final class Shop
         return ['code' => $u['ref_code'], 'link' => rtrim((string) Cfg::get('base_url'), '/') . '/?ref=' . $u['ref_code'],
                 'joined' => $joined, 'paid' => (int) $rew['n'], 'earned' => (int) $rew['s'], 'credit' => (int) Db::val('SELECT credit FROM users WHERE id = ?', [$u['id']]),
                 'friendPct' => (int) ($R['friend_discount_pct'] ?? 0), 'rewardPct' => (int) ($R['referrer_reward_pct'] ?? 0),
-                'myFriendPct' => self::friendPct($u)];
+                'myFriendPct' => self::friendPct($u), 'cap' => (int) ($R['reward_cap'] ?? 0), 'maxUse' => (int) ($R['max_credit_use_pct'] ?? 0)];
     }
 
     /* ---------- پنل مدیریت سرور ---------- */

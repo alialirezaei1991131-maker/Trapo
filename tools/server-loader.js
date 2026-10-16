@@ -10,6 +10,34 @@
   var keyP = crypto.subtle.importKey('raw', hex(S.ck), { name: 'AES-GCM' }, false, ['decrypt']);
   delete S.ck; // کلید فقط درون این بارگذار می‌ماند
   var done = window.TRAPO_LOADED = {};
+  // نصب به‌صورت اپ: Service Worker پوسته (sw.js هرگز /api را ذخیره نمی‌کند) و نگه‌داشتن رویداد نصب برای دکمه «نصب اپ»
+  if ('serviceWorker' in navigator) navigator.serviceWorker.register('sw.js').catch(function () { /* */ });
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); window.__trpInstall = e; document.dispatchEvent(new Event('trp-installable')); });
+
+  /* نشان نامرئی کاربر (S.wm): ۱) متن کپی‌شده از برنامه یک رشته نویسه نامرئی با نشان او می‌گیرد؛
+     ۲) لایه‌ای تقریباً نامرئی با نشان روی صفحه است تا عکس صفحه هم قابل ردیابی باشد. ردیابی: پنل مدیریت سرور. */
+  (function (wm) {
+    if (!/^[0-9A-Z]{8}$/.test(wm || '')) return;
+    var A = '0123456789ABCDEFGHJKMNPQRSTVWXYZ', bits = '';
+    for (var i = 0; i < wm.length; i++) bits += ('0000' + A.indexOf(wm[i]).toString(2)).slice(-5);
+    var zw = '\u2060' + bits.replace(/0/g, '\u200B').replace(/1/g, '\u200C') + '\u2060';
+    document.addEventListener('copy', function (e) {
+      var t = String(window.getSelection ? window.getSelection() : '');
+      if (t.length < 24 || !e.clipboardData) return; // کپی کوتاه (کد، شماره) دست نمی‌خورد
+      var i = t.indexOf(' ', Math.floor(t.length / 3)); if (i < 0) i = t.length;
+      e.clipboardData.setData('text/plain', t.slice(0, i) + zw + t.slice(i));
+      e.preventDefault();
+    }, true);
+    var svg = '<svg xmlns="http://www.w3.org/2000/svg" width="260" height="170"><text x="10" y="95" transform="rotate(-24 130 85)" font-family="monospace" font-size="15" fill="#7f7f7f">' + wm + '</text></svg>';
+    var put = function () {
+      if (document.querySelector('.trp-wm')) return;
+      var d = document.createElement('div'); d.className = 'trp-wm'; d.setAttribute('aria-hidden', 'true');
+      d.style.cssText = 'position:fixed;inset:0;z-index:2147483646;pointer-events:none;opacity:.022;background-repeat:repeat;background-image:url("data:image/svg+xml;charset=utf-8,' + encodeURIComponent(svg) + '")';
+      document.body.appendChild(d);
+    };
+    if (document.body) put(); else document.addEventListener('DOMContentLoaded', put);
+    setInterval(put, 4000); // اگر کسی لایه را پاک کند دوباره می‌آید
+  })(S.wm);
 
   function b64(s) { var bin = atob(s.trim()), u = new Uint8Array(bin.length); for (var i = 0; i < bin.length; i++) u[i] = bin.charCodeAt(i); return u; }
   async function get(f) {

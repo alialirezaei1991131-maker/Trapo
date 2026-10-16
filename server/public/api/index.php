@@ -29,7 +29,7 @@ try {
         case 'register': {
             if (!Http::sameOrigin()) Http::fail('origin', 403);
             $b = Http::body();
-            $s = Auth::register(Http::str($b, 'login', 120), (string) ($b['pass'] ?? ''), Http::str($b, 'name', 60), Http::str($b, 'ref', 20));
+            $s = Auth::register(Http::str($b, 'login', 120), (string) ($b['pass'] ?? ''), Http::str($b, 'name', 60), Http::str($b, 'ref', 20), Http::str($b, 'contact', 120));
             Http::json(mePayload(Auth::user(), $s));
         }
         case 'login': {
@@ -76,6 +76,8 @@ try {
         case 'm_stats': { Manage::require(); Http::json(['ok' => true] + Manage::stats()); }
         case 'm_orders': { Manage::require(); Http::json(['ok' => true, 'orders' => Manage::orders((string) ($_GET['status'] ?? 'pending'))]); }
         case 'm_users': { Manage::require(); Http::json(['ok' => true, 'users' => Manage::users((string) ($_GET['q'] ?? ''))]); }
+        case 'm_users_csv': { Manage::require(); Manage::usersCsv(); }
+        case 'm_trace': { Manage::require(); $f = Content::wmFind((string) ($_GET['tag'] ?? '')); Http::audit(null, 'm_trace', ['found' => (bool) $f]); Http::json(['ok' => true, 'user' => $f]); }
         case 'm_promos': { Manage::require(); Http::json(['ok' => true, 'promos' => Manage::promos()]); }
         case 'm_paid': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(['ok' => true] + Shop::markPaid(Http::str($b, 'order', 20), Http::str($b, 'note', 300))); }
         case 'm_cancel': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Shop::cancel(Http::str($b, 'order', 20)); Http::json(['ok' => true]); }

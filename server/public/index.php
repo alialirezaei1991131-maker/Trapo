@@ -26,6 +26,8 @@ $esc = fn($x) => htmlspecialchars((string) $x, ENT_QUOTES, 'UTF-8');
 if (!$u || !$s) {
     $refPre = $ref !== '' ? $ref : strtoupper(preg_replace('/[^0-9A-Za-z]/', '', (string) ($_COOKIE['trp_ref'] ?? '')));
     $R = (array) Cfg::get('referral', []);
+    $kicked = Auth::$kicked; // این مرورگر نشست داشت ولی با ورود روی دستگاه دیگر بسته شد
+    $maxDev = max(1, (int) Cfg::get('max_sessions_per_user', 2));
     require TRAPO_ROOT . '/lib/views/auth.php';
     exit;
 }
@@ -37,7 +39,7 @@ if ($tpl === false || !is_array($files)) { http_response_code(503); exit('app no
 $cfg = [
     'csrf' => $s['csrf'], 'ck' => $s['ck'], 'files' => $files,
     'user' => ['name' => $u['name'], 'login' => $u['login'], 'dev' => $u['dev_id'], 'since' => (int) $u['created_at']],
-    'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u),
+    'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wm' => Content::wmTag((int) $u['id']),
 ];
 $json = json_encode($cfg, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT);
 echo strtr($tpl, ['{{NONCE}}' => $nonce, '{{CFG}}' => $json, '{{VER}}' => $esc(trim((string) @file_get_contents($dir . '/version.txt')))]);

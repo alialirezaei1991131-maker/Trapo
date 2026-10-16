@@ -32,9 +32,9 @@ return [
 
     /* نشست و امنیت */
     'session_days' => 30,
-    'max_sessions_per_user' => 3,                               // ورود هم‌زمان روی چند دستگاه
+    'max_sessions_per_user' => 2,                               // ورود هم‌زمان: با ورود روی دستگاه سوم، قدیمی‌ترین بسته می‌شود
     'login_max_attempts' => 6,                                  // در ۱۵ دقیقه برای هر IP + شناسه
-    'register_max_per_ip_day' => 8,
+    'register_max_per_ip_day' => 30,                         // ثبت‌نام از یک IP در روز (خوابگاه و دانشگاه یک IP مشترک دارند)
 
     /* سیستم معرف (ارجاع) */
     'referral' => [

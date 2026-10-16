@@ -32,7 +32,7 @@ header('X-Robots-Tag: noindex, nofollow');
   <section id="app" hidden>
     <header class="mg__bar"><b>🛠️ مدیریت سرور تراپو</b>
       <nav class="mg__tabs">
-        <button data-tab="dash" class="is-on">داشبورد</button><button data-tab="orders">سفارش‌ها</button><button data-tab="promos">کد تخفیف</button><button data-tab="users">کاربران</button>
+        <button data-tab="dash" class="is-on">داشبورد</button><button data-tab="orders">سفارش‌ها</button><button data-tab="promos">کد تخفیف</button><button data-tab="users">کاربران</button><button data-tab="trace">🔎 ردیابی نشان</button>
       </nav><button class="mg__out" data-out>خروج</button></header>
     <div id="view"></div>
   </section>

@@ -22,3 +22,6 @@
 .mg__pf .au__go { padding: 9px 16px; font-size: 15px; box-shadow: none; margin: 0; }
 .mg__muted { color: var(--muted); }
 .mg__toast { position: fixed; bottom: 20px; left: 50%; transform: translateX(-50%); background: #1f2a2e; color: #fff; padding: 10px 16px; border-radius: 12px; z-index: 9; }
+.mg__dl { display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font-weight: 800; text-decoration: none; margin-inline-start: auto; }
+.mg__dl:hover { border-color: #12b3a8; }
+.mg__tr textarea { flex: 1 1 100%; font: inherit; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); min-height: 120px; }

@@ -55,16 +55,66 @@ final class Manage
     public static function users(string $q): array
     {
         $q = trim($q);
-        if ($q === '') return Db::all('SELECT id, login, name, dev_id, ref_code, credit, created_at, last_login FROM users ORDER BY id DESC LIMIT 50');
+        $cols = 'id, login, contact, name, dev_id, ref_code, credit, created_at, last_login';
+        if ($q === '') return Db::all("SELECT $cols FROM users ORDER BY id DESC LIMIT 50");
         $like = '%' . str_replace(['%', '_'], ['\%', '\_'], mb_substr($q, 0, 60)) . '%';
-        $rows = Db::all("SELECT id, login, name, dev_id, ref_code, credit, created_at, last_login FROM users WHERE login LIKE ? ESCAPE '\\' OR name LIKE ? ESCAPE '\\' OR dev_id LIKE ? ESCAPE '\\' OR ref_code = ? ORDER BY id DESC LIMIT 50",
-            [$like, $like, $like, strtoupper($q)]);
+        $key = Auth::identityKey($q);
+        $rows = Db::all("SELECT $cols FROM users WHERE login LIKE ? ESCAPE '\\' OR contact LIKE ? ESCAPE '\\' OR name LIKE ? ESCAPE '\\' OR dev_id LIKE ? ESCAPE '\\' OR ref_code = ? OR login_key = ? OR contact_key = ? ORDER BY id DESC LIMIT 50",
+            [$like, $like, $like, $like, strtoupper($q), $key, $key]);
         foreach ($rows as &$r) {
             $r['licenses'] = Db::all('SELECT tier, mask, dur, exp, life, created_at FROM licenses WHERE user_id = ?', [$r['id']]);
             $r['orders'] = Db::all('SELECT order_code, final_price, status, created_at FROM orders WHERE user_id = ? ORDER BY id DESC LIMIT 10', [$r['id']]);
             $r['invited'] = (int) Db::val('SELECT COUNT(*) FROM referrals WHERE referrer_id = ?', [$r['id']]);
         }
         return $rows;
+    }
+    /** همه کاربران برای Excel (CSV با BOM): نام، ایمیل/موبایل، راه تماس دوم، تاریخ‌ها، معرف، خرید و اشتراک */
+    public static function usersCsv(): void
+    {
+        $rows = Db::all('SELECT u.id, u.name, u.login, u.contact, u.dev_id, u.ref_code, u.credit, u.created_at, u.last_login, u.status, r.login AS ref_login,
+            (SELECT COUNT(*) FROM orders o WHERE o.user_id = u.id AND o.status = ?) AS paid_n,
+            (SELECT COALESCE(SUM(final_price), 0) FROM orders o WHERE o.user_id = u.id AND o.status = ?) AS paid_sum,
+            (SELECT COUNT(*) FROM referrals x WHERE x.referrer_id = u.id) AS invited
+            FROM users u LEFT JOIN users r ON r.id = u.referred_by ORDER BY u.id', ['paid', 'paid']);
+        $now = (int) floor(microtime(true) * 1000);
+        $cell = function ($v): string {
+            $v = str_replace(["\r", "\n"], ' ', (string) $v);
+            if ($v !== '' && strpbrk($v[0], '=+-@') !== false) $v = "'" . $v; // جلوگیری از اجرای فرمول در Excel
+            return '"' . str_replace('"', '""', $v) . '"';
+        };
+        $out = "\xEF\xBB\xBF" . implode(',', array_map($cell, ['شناسه', 'نام', 'ایمیل یا موبایل (ورود)', 'راه تماس دوم', 'تاریخ ثبت‌نام', 'آخرین ورود',
+            'وضعیت', 'دعوت‌شده توسط', 'کد معرف', 'تعداد دعوت', 'اعتبار (تومان)', 'خرید پرداخت‌شده', 'جمع پرداخت (تومان)', 'اشتراک فعال', 'شناسه حساب'])) . "\r\n";
+        foreach ($rows as $r) {
+            $act = [];
+            foreach (Db::all('SELECT tier, mask, exp, life FROM licenses WHERE user_id = ?', [$r['id']]) as $l) {
+                if ((int) $l['life'] !== 1 && (int) $l['exp'] <= $now) continue;
+                $act[] = ['', 'آموزشی', 'Pro', 'الماس'][(int) $l['tier']] . ' ' . ((int) $l['life'] === 1 ? 'دائمی' : 'تا ' . self::jdate((int) floor((int) $l['exp'] / 1000)));
+            }
+            $out .= implode(',', array_map($cell, [$r['id'], $r['name'], $r['login'], $r['contact'], self::jdate((int) $r['created_at']), $r['last_login'] ? self::jdate((int) $r['last_login']) : '',
+                $r['status'] === 'active' ? 'فعال' : 'غیرفعال', $r['ref_login'], $r['ref_code'], $r['invited'], $r['credit'], $r['paid_n'], $r['paid_sum'], implode(' | ', $act), $r['dev_id']])) . "\r\n";
+        }
+        Http::audit(null, 'm_users_csv', ['n' => count($rows)]);
+        http_response_code(200);
+        header('Content-Type: text/csv; charset=utf-8');
+        header('Content-Disposition: attachment; filename="trapo-users-' . gmdate('Y-m-d') . '.csv"');
+        header('Cache-Control: no-store');
+        echo $out;
+        exit;
+    }
+    /** تاریخ شمسی (به وقت تهران) برای گزارش‌ها: 1405/07/24 14:05 */
+    public static function jdate(int $ts): string
+    {
+        $dt = new DateTime('@' . $ts); $dt->setTimezone(new DateTimeZone('Asia/Tehran'));
+        [$gy, $gm, $gd] = array_map('intval', explode('-', $dt->format('Y-n-j')));
+        $g_d_m = [0, 31, 59, 90, 120, 151, 181, 212, 243, 273, 304, 334];
+        $gy2 = $gm > 2 ? $gy + 1 : $gy;
+        $days = 355666 + (365 * $gy) + intdiv($gy2 + 3, 4) - intdiv($gy2 + 99, 100) + intdiv($gy2 + 399, 400) + $gd + $g_d_m[$gm - 1];
+        $jy = -1595 + (33 * intdiv($days, 12053)); $days %= 12053;
+        $jy += 4 * intdiv($days, 1461); $days %= 1461;
+        if ($days > 365) { $jy += intdiv($days - 1, 365); $days = ($days - 1) % 365; }
+        $jm = $days < 186 ? 1 + intdiv($days, 31) : 7 + intdiv($days - 186, 30);
+        $jd = 1 + ($days < 186 ? $days % 31 : ($days - 186) % 30);
+        return sprintf('%04d/%02d/%02d %s', $jy, $jm, $jd, $dt->format('H:i'));
     }
     public static function promos(): array { return Db::all('SELECT * FROM promos ORDER BY created_at DESC'); }
     public static function promoAdd(array $b): array

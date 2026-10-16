@@ -30,13 +30,27 @@ walk(path.join(APP, 'js')).forEach(f => cp(path.join(APP, 'js', f), path.join(PR
 walk(path.join(APP, 'courses')).forEach(f => cp(path.join(APP, 'courses', f), path.join(PRIV, 'courses', f)));
 
 // ۲. فایل‌های عمومی
-['css', 'icons'].forEach(d => { rm(path.join(PUB, d)); walk(path.join(APP, d)).forEach(f => cp(path.join(APP, d, f), path.join(PUB, d, f))); });
-cp(path.join(APP, 'manifest.json'), path.join(PUB, 'manifest.json'));
+// آیکون‌ها در public/appicons (نه icons/: در بسیاری از هاست‌های Apache و cPanel نشانی /icons/ مال خود سرور است و 404 می‌دهد)
+rm(path.join(PUB, 'icons'));
+[['css', 'css'], ['icons', 'appicons']].forEach(([d, to]) => { rm(path.join(PUB, to)); walk(path.join(APP, d)).forEach(f => cp(path.join(APP, d, f), path.join(PUB, to, f))); });
+// مانیفست نسخه هاست (نصب به‌صورت اپ روی گوشی، تبلت، لپ‌تاپ و دسکتاپ): آدرس شروع index.php است، نه index.html
+{
+  const mf = JSON.parse(fs.readFileSync(path.join(APP, 'manifest.json'), 'utf8'));
+  mf.icons = mf.icons.map(i => Object.assign({}, i, { src: i.src.replace(/^icons\//, 'appicons/') }));
+  Object.assign(mf, {
+    name: 'تراپو · آکادمی آموزش بالینی', short_name: 'تراپو', id: '/', start_url: './?source=pwa', scope: './',
+    description: 'آموزش تعاملی اصلاح الکترولیت (یونا)، تفسیر گاز خون (هما)، معاینه تغذیه‌محور (نگار) و ترمینولوژی پزشکی (ترمینو) با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.',
+    shortcuts: [['یونا · الکترولیت', 'یونا', 'yona'], ['هما · گاز خون', 'هما', 'homa'], ['نگار · معاینه تغذیه‌محور', 'نگار', 'negar'], ['ترمینو · ترمینولوژی پزشکی', 'ترمینو', 'termino']]
+      .map(([name, short_name, c]) => ({ name, short_name, url: './?course=' + c, icons: [{ src: 'appicons/icon-192.png', sizes: '192x192' }] }))
+  });
+  fs.writeFileSync(path.join(PUB, 'manifest.json'), JSON.stringify(mf, null, 2));
+}
 
 // ۳. قالب صفحه
 let html = fs.readFileSync(path.join(APP, 'index.html'), 'utf8');
 const srcs = [];
 html = html.replace(/<!--[\s\S]*?-->/g, '');  // نظرها (و نمونه‌های درونشان) حذف می‌شوند
+html = html.replace(/(href|src)="icons\//g, '$1="appicons/');  // آیکون‌ها از public/appicons
 html = html.replace(/<script src="([^"]+)"><\/script>\s*/g, (m, src) => { srcs.push(src); return ''; });
 // بارگذار فایل‌های جانبی دوره (document.write) در نسخه هاست کار بارگذار است
 html = html.replace(/<script>\s*\/\* فایل‌های جانبی دوره[\s\S]*?<\/script>\s*/, '');

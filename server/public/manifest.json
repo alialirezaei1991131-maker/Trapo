@@ -1,27 +1,94 @@
 {
-  "name": "تراپو · آکادمی بالینی یونا، هما، نگار",
+  "name": "تراپو · آکادمی آموزش بالینی",
   "short_name": "تراپو",
-  "description": "آموزش بازی‌وار اصلاح الکترولیت (یونا)، تفسیر گاز خون (هما) و معاینه فیزیکی تغذیه‌محور (نگار)، با کیس‌های ترکیبی ICU؛ کاملاً آفلاین.",
+  "description": "آموزش تعاملی اصلاح الکترولیت (یونا)، تفسیر گاز خون (هما)، معاینه تغذیه‌محور (نگار) و ترمینولوژی پزشکی (ترمینو) با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.",
   "lang": "fa",
   "dir": "rtl",
-  "id": "./",
-  "start_url": "./index.html",
+  "id": "/",
+  "start_url": "./?source=pwa",
   "scope": "./",
   "display": "standalone",
-  "display_override": ["standalone", "minimal-ui"],
+  "display_override": [
+    "standalone",
+    "minimal-ui"
+  ],
   "orientation": "any",
   "background_color": "#ffffff",
   "theme_color": "#3b5bdb",
-  "categories": ["education", "medical"],
+  "categories": [
+    "education",
+    "medical"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
-    { "src": "icons/icon-512-maskable.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" },
-    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+    {
+      "src": "appicons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "appicons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "appicons/icon-512-maskable.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "appicons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
   ],
   "shortcuts": [
-    { "name": "یونا · الکترولیت", "short_name": "یونا", "url": "./index.html?course=yona", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "هما · گاز خون", "short_name": "هما", "url": "./index.html?course=homa", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] },
-    { "name": "نگار · NFPE", "short_name": "نگار", "url": "./index.html?course=negar", "icons": [{ "src": "icons/icon-192.png", "sizes": "192x192" }] }
+    {
+      "name": "یونا · الکترولیت",
+      "short_name": "یونا",
+      "url": "./?course=yona",
+      "icons": [
+        {
+          "src": "appicons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "هما · گاز خون",
+      "short_name": "هما",
+      "url": "./?course=homa",
+      "icons": [
+        {
+          "src": "appicons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "نگار · معاینه تغذیه‌محور",
+      "short_name": "نگار",
+      "url": "./?course=negar",
+      "icons": [
+        {
+          "src": "appicons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "ترمینو · ترمینولوژی پزشکی",
+      "short_name": "ترمینو",
+      "url": "./?course=termino",
+      "icons": [
+        {
+          "src": "appicons/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
   ]
 }

@@ -47,6 +47,26 @@ final class Content
         return $full;
     }
 
+    /**
+     * نشان نامرئی هر کاربر: ۸ نویسه از HMAC(app_secret, شناسه کاربر). در هر فایلی که به او داده می‌شود، در متنی که
+     * از برنامه کپی می‌کند (با نویسه‌های نامرئی) و در لایه تقریباً نامرئی روی صفحه می‌آید؛ از روی آن در پنل
+     * مدیریت سرور («ردیابی نشان») معلوم می‌شود محتوا از حساب چه کسی بیرون رفته.
+     */
+    public static function wmTag(int $uid): string
+    {
+        return substr(B32::enc(hash_hmac('sha256', 'wm|' . $uid, Cfg::secret(), true)), 0, 8);
+    }
+    /** کاربر صاحب یک نشان (یا null) */
+    public static function wmFind(string $tag): ?array
+    {
+        $tag = strtoupper(preg_replace('/[^0-9A-Za-z]/', '', $tag));
+        if (strlen($tag) !== 8) return null;
+        foreach (Db::all('SELECT id, name, login, contact, dev_id, created_at, last_login FROM users ORDER BY id') as $u) {
+            if (hash_equals(self::wmTag((int) $u['id']), $tag)) return $u;
+        }
+        return null;
+    }
+
     /** همان قاعده برنامه: الماس، یا اشتراک فعال در حداقل ۲ دوره */
     public static function grandAllowed(int $uid): bool
     {
@@ -67,6 +87,7 @@ final class Content
         if ($path === null) Http::fail('forbidden', 403);
         $data = file_get_contents($path);
         if ($data === false) Http::fail('missing', 404);
+        $data .= "\n;\"TRAPO-WM:" . self::wmTag((int) $u['id']) . "\";\n"; // نشان کاربر در خود فایل (بی‌اثر در اجرا)
         $key = hex2bin($sess['ck']);
         $iv = random_bytes(12);
         $tag = '';
