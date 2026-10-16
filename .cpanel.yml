@@ -1,0 +1,39 @@
+---
+# تراپو — استقرار خودکار روی هاست cPanel
+# (cPanel → Git™ Version Control → Manage → Pull or Deploy → «Deploy HEAD Commit»)
+#
+# فقط نسخه هاست (پوشه server/) منتشر می‌شود؛ src/ (کد خوانا)، admin/ (پنل مدیر)، tools/ و app/ هرگز روی هاست نمی‌روند.
+#
+#   ~/public_html/   ← محتوای server/public: صفحه ورود، /api، /manage، CSS و آیکون‌ها (تنها بخشی که از وب دیده می‌شود)
+#   ~/trapo_app/     ← بیرون از وب: lib (کد PHP)، private (کد رمزنگاری‌شده برنامه و دوره‌ها)، data (پایگاه داده) و config.php
+#
+# config.php و هرچه در data/ است (حساب‌ها، سفارش‌ها، پیشرفت کاربران) هیچ‌وقت بازنویسی یا پاک نمی‌شود.
+# بار اول بعد از استقرار: ~/trapo_app/config.sample.php را به config.php کپی و پر کنید (راهنما: server/README.md).
+# اگر هاست شما $HOME را نمی‌شناسد، آن را با مسیر کامل پوشه خانه عوض کنید (مثلاً /home/USERNAME).
+deployment:
+  tasks:
+    - export DEPLOYPATH=$HOME/public_html
+    - export APPDIR=$HOME/trapo_app
+    - /bin/mkdir -p $DEPLOYPATH $APPDIR/data $APPDIR/lib $APPDIR/private
+
+    # کد سرور و برنامه: نسخه تازه کنار نسخه فعلی آماده و بعد یک‌جا جایگزین می‌شود (فایل‌های حذف‌شده هم پاک می‌شوند)
+    - /bin/rm -rf $APPDIR/lib.new $APPDIR/private.new $APPDIR/lib.old $APPDIR/private.old
+    - /bin/cp -R server/lib $APPDIR/lib.new
+    - /bin/cp -R server/private $APPDIR/private.new
+    - /bin/mv $APPDIR/lib $APPDIR/lib.old
+    - /bin/mv $APPDIR/lib.new $APPDIR/lib
+    - /bin/mv $APPDIR/private $APPDIR/private.old
+    - /bin/mv $APPDIR/private.new $APPDIR/private
+    - /bin/rm -rf $APPDIR/lib.old $APPDIR/private.old
+
+    # قفل‌های Apache (اگر روزی این پوشه زیر وب قرار گیرد هم چیزی دیده نشود) و نمونه تنظیمات برای مرجع
+    - /bin/cp -f server/.htaccess $APPDIR/.htaccess
+    - /bin/cp -f server/data/.htaccess $APPDIR/data/.htaccess
+    - /bin/cp -f server/config.sample.php $APPDIR/config.sample.php
+
+    # ریشه وب: فقط محتوای server/public (همراه .htaccess آن: HTTPS اجباری، بستن فایل‌های نقطه‌دار و پشتیبان)
+    - /bin/cp -R server/public/. $DEPLOYPATH/
+
+    # دسترسی‌ها: پوشه برنامه و پایگاه داده فقط برای صاحب حساب؛ config.php غیرقابل خواندن برای دیگران
+    - /bin/chmod 750 $APPDIR $APPDIR/data
+    - '/usr/bin/find $APPDIR -maxdepth 1 -name config.php -exec /bin/chmod 640 {} +'

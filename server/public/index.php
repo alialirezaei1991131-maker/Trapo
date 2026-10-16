@@ -5,7 +5,10 @@ declare(strict_types=1);
  *  - کاربر وارد نشده: صفحه ورود / ثبت‌نام (هیچ کد برنامه‌ای فرستاده نمی‌شود)
  *  - کاربر واردشده: قالب برنامه + بارگذار؛ کد برنامه بعداً رمزنگاری‌شده از /api می‌آید
  */
-require dirname(__DIR__) . '/lib/bootstrap.php';
+// پوشه برنامه (lib، private، data، config.php) بیرون از وب: کنار پوشه وب، یا در «trapo_app» کنار آن (چیدمان cPanel با .cpanel.yml)
+$trapoRoot = dirname(__DIR__);
+if (!is_file($trapoRoot . '/lib/bootstrap.php') && is_file($trapoRoot . '/trapo_app/lib/bootstrap.php')) $trapoRoot .= '/trapo_app';
+require $trapoRoot . '/lib/bootstrap.php';
 
 $nonce = rtrim(strtr(base64_encode(random_bytes(18)), '+/', '-_'), '=');
 Http::securityHeaders($nonce, true);
@@ -23,7 +26,7 @@ $esc = fn($x) => htmlspecialchars((string) $x, ENT_QUOTES, 'UTF-8');
 if (!$u || !$s) {
     $refPre = $ref !== '' ? $ref : strtoupper(preg_replace('/[^0-9A-Za-z]/', '', (string) ($_COOKIE['trp_ref'] ?? '')));
     $R = (array) Cfg::get('referral', []);
-    require dirname(__DIR__) . '/lib/views/auth.php';
+    require TRAPO_ROOT . '/lib/views/auth.php';
     exit;
 }
 

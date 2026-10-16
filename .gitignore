@@ -1,3 +1,23 @@
 node_modules/
+
 # کلید خصوصی مدیر هرگز در ریپو نباشد
 *admin-key*.txt
+
+# رمزها و داده کاربران هرگز در گیت (هر جای پروژه)
+config.php
+*.sqlite
+*.sqlite-journal
+*.sqlite-wal
+*.sqlite-shm
+*.db
+
+# فایل‌های موقت سیستم و ویرایشگر
+.DS_Store
+Thumbs.db
+desktop.ini
+*.log
+*.bak
+*.swp
+*~
+.idea/
+.vscode/

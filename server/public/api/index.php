@@ -4,7 +4,10 @@ declare(strict_types=1);
  * تراپو — API سرور:  /api/?a=<کار>
  * هر درخواست تغییردهنده: فقط POST + Origin همین سایت + سربرگ X-CSRF نشست.
  */
-require dirname(__DIR__, 2) . '/lib/bootstrap.php';
+// پوشه برنامه (lib، private، data، config.php) بیرون از وب: کنار پوشه وب، یا در «trapo_app» کنار آن (چیدمان cPanel با .cpanel.yml)
+$trapoRoot = dirname(__DIR__, 2);
+if (!is_file($trapoRoot . '/lib/bootstrap.php') && is_file($trapoRoot . '/trapo_app/lib/bootstrap.php')) $trapoRoot .= '/trapo_app';
+require $trapoRoot . '/lib/bootstrap.php';
 Http::securityHeaders();
 
 $a = preg_replace('/[^a-z_]/', '', (string) ($_GET['a'] ?? ''));

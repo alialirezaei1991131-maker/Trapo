@@ -39,6 +39,24 @@
 5. سایت را باز کنید: صفحه ورود باید بیاید. یک حساب آزمایشی بسازید و وارد شوید.
 6. `https://دامنه/manage/` پنل مدیریت سرور است.
 
+### نصب با Git در cPanel (پیشنهادی؛ با فایل `.cpanel.yml`)
+
+1. در cPanel → **Git™ Version Control** → **Create**: «Clone a Repository» را روشن کنید و نشانی مخزن را بدهید
+   (مخزن خصوصی است: اول در cPanel → **SSH Access** یک کلید بسازید و کلید عمومی‌اش را در GitHub → مخزن → Settings →
+   **Deploy keys** با دسترسی فقط‌خواندنی اضافه کنید و نشانی را به شکل `git@github.com:…/trapo.git` بدهید).
+   مسیر مخزن را چیزی مثل `repositories/trapo` بگذارید (نه `public_html` و نه `trapo_app`).
+2. **Manage** → **Pull or Deploy** → **Deploy HEAD Commit**. فایل `.cpanel.yml`:
+   - محتوای `server/public` را در `~/public_html` می‌گذارد (فایل‌های دیگر آن پوشه پاک نمی‌شوند)؛
+   - `lib`، `private` و `data` را در `~/trapo_app` (بیرون از وب) می‌گذارد؛ `index.php`ها خودشان آن را پیدا می‌کنند؛
+   - `config.php` و `data/` را هرگز بازنویسی نمی‌کند؛ دسترسی‌ها را `750` (پوشه‌ها) و `640` (`config.php`) می‌کند.
+3. **فقط بار اول:** در File Manager فایل `~/trapo_app/config.sample.php` را به `config.php` در همان پوشه کپی کنید و
+   مثل گام ۳ بالا پر کنید (`sqlite_path` همان پیش‌فرض بماند تا پایگاه داده در `~/trapo_app/data` ساخته شود).
+   در cPanel → **MultiPHP Manager** نسخه PHP را ۸ یا بالاتر بگذارید و از **SSL/TLS Status** گواهی HTTPS بگیرید.
+4. **هر به‌روزرسانی:** بعد از `npm run build` و `npm run build:server` و push، در cPanel «Update from Remote» و
+   بعد «Deploy HEAD Commit» را بزنید.
+
+> cPanel فقط وقتی Deploy می‌کند که در مخزنِ روی هاست تغییر دستی نباشد؛ فایل‌های مخزن را روی هاست ویرایش نکنید.
+
 ### Nginx
 
 ```nginx
