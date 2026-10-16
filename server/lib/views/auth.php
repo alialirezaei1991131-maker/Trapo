@@ -87,7 +87,7 @@ $ld = [
 <link rel="icon" href="appicons/icon-192.png">
 <link rel="apple-touch-icon" href="appicons/icon-192.png">
 <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="auth.css">
+<link rel="stylesheet" href="<?= $esc(trapo_asset('auth.css')) ?>">
 <script type="application/ld+json" nonce="<?= $esc($nonce) ?>"><?= json_encode($ld, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
 </head>
 <body>
@@ -204,6 +204,6 @@ $ld = [
   </section>
 </main>
 <footer class="lp-foot"><p data-t="foot">تراپو ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p><p>© <?= date('Y') ?> <span data-t="brand">تراپو</span></p></footer>
-<script src="auth.js"></script>
+<script src="<?= $esc(trapo_asset('auth.js')) ?>"></script>
 </body>
 </html>

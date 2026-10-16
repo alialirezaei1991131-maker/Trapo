@@ -1,5 +1,11 @@
 <?php
 /* تراپو — بخش «قیمت قلب‌ها» برای صفحه معرفی و صفحه هر دوره (عددها از Hearts::catalog، همان قیمت‌های فروشگاه برنامه) */
+/** نشانی فایل ثابت با نسخه (زمان فایل)؛ بعد از هر به‌روزرسانی مرورگر و Service Worker حتماً فایل تازه را می‌گیرند */
+function trapo_asset(string $f): string
+{
+    $t = @filemtime(dirname((string) ($_SERVER['SCRIPT_FILENAME'] ?? __FILE__)) . '/' . $f);
+    return $f . ($t ? '?v=' . base_convert((string) $t, 10, 36) : '');
+}
 function trapo_fa_num($n): string
 {
     return strtr(number_format((int) $n), ['0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹', ',' => '٬']);

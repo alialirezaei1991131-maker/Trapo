@@ -45,7 +45,7 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
 <link rel="icon" type="image/svg+xml" href="appicons/icon.svg">
 <link rel="apple-touch-icon" href="appicons/icon-192.png">
 <link rel="manifest" href="manifest.json">
-<link rel="stylesheet" href="auth.css">
+<link rel="stylesheet" href="<?= $esc(trapo_asset('auth.css')) ?>">
 <link rel="stylesheet" href="css/fonts.css">
 <script type="application/ld+json" nonce="<?= $esc($nonce) ?>"><?= json_encode($ld, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG) ?></script>
 </head>
