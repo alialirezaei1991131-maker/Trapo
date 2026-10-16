@@ -19,6 +19,15 @@ final class Cfg
 /** پاسخ JSON، ورودی، سربرگ‌های امنیتی، CSRF و محدودیت نرخ */
 final class Http
 {
+    /** خروجی HTML فشرده (فاصله‌ها و شکست خط‌های قالب‌بندی بین برچسب‌ها حذف؛ متن و <pre>/<textarea> دست نمی‌خورند) */
+    public static function minHtml(string $h): string
+    {
+        $keep = [];
+        $h = preg_replace_callback('~<(pre|textarea)\b.*?</\1>~is', function ($m) use (&$keep) { $keep[] = $m[0]; return "\x00" . (count($keep) - 1) . "\x00"; }, $h);
+        $h = preg_replace(['~<!--(?!\[).*?-->~s', '~>\s*[\r\n]+\s*<~', '~^[ \t]+~m', '~[\r\n]+~'], ['', '><', '', "\n"], $h);
+        return preg_replace_callback('~\x00(\d+)\x00~', fn($m) => $keep[(int) $m[1]], trim($h));
+    }
+
     public const MAX_BODY = 600000; // ۶۰۰ کیلوبایت (بزرگ‌ترین ورودی: همگام‌سازی پیشرفت)
 
     public static function https(): bool

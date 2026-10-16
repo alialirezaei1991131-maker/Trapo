@@ -38,9 +38,24 @@ for (const [name] of entries) if (/(^|\/)config\.php$|\.sqlite|admin-key/i.test(
 const NOW = new Date();
 const DOS_TIME = NOW.getHours() << 11 | NOW.getMinutes() << 5 | Math.floor(NOW.getSeconds() / 2);
 const DOS_DATE = (NOW.getFullYear() - 1980) << 9 | (NOW.getMonth() + 1) << 5 | NOW.getDate();
+// فایل‌های عمومی سایت در بسته فشرده و ناخوانا می‌شوند (منبع خوانا فقط در مخزن می‌ماند):
+// CSS و HTML فشرده؛ JS (جز loader.js که از قبل درهم است) درهم و یک‌خطی
+const MIN = require('./minify');
+let JO = null; try { JO = require('javascript-obfuscator'); } catch (e) { console.warn('javascript-obfuscator not found (set NODE_PATH): public JS packed unminified'); }
+function pack(name, file) {
+  const raw = fs.readFileSync(file);
+  if (!name.startsWith('public_html/')) return raw;
+  if (/\.css$/.test(name)) return Buffer.from(MIN.css(raw.toString('utf8')), 'utf8');
+  if (/\.html$/.test(name)) return Buffer.from(MIN.html(raw.toString('utf8')), 'utf8');
+  if (/\.js$/.test(name) && !/\/loader\.js$/.test(name) && JO) {
+    return Buffer.from(JO.obfuscate(raw.toString('utf8'), { compact: true, simplify: true, stringArray: true, stringArrayThreshold: 1, stringArrayEncoding: ['base64'],
+      identifierNamesGenerator: 'hexadecimal', renameGlobals: false, seed: 11, target: /\/sw\.js$/.test(name) ? 'service-worker' : 'browser' }).getObfuscatedCode(), 'utf8');
+  }
+  return raw;
+}
 const parts = [], central = []; let off = 0;
 for (const [name, file] of entries) {
-  const data = file ? fs.readFileSync(file) : Buffer.alloc(0), nameB = Buffer.from(name, 'utf8');
+  const data = file ? pack(name, file) : Buffer.alloc(0), nameB = Buffer.from(name, 'utf8');
   const def = zlib.deflateRawSync(data, { level: 9 }), useDef = def.length < data.length, body = useDef ? def : data;
   const crc = zlib.crc32(data) >>> 0;
   const lh = Buffer.alloc(30); lh.writeUInt32LE(0x04034b50, 0); lh.writeUInt16LE(20, 4); lh.writeUInt16LE(0x0800, 6); lh.writeUInt16LE(useDef ? 8 : 0, 8);

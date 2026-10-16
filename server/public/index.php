@@ -28,7 +28,9 @@ if (!$u || !$s) {
     $R = (array) Cfg::get('referral', []);
     $kicked = Auth::$kicked; // این مرورگر نشست داشت ولی با ورود روی دستگاه دیگر بسته شد
     $maxDev = max(1, (int) Cfg::get('max_sessions_per_user', 2));
+    ob_start([Http::class, 'minHtml']); // صفحه فشرده (مثل سایت‌های بزرگ)
     require TRAPO_ROOT . '/lib/views/auth.php';
+    ob_end_flush();
     exit;
 }
 

@@ -25,4 +25,6 @@ if (Auth::user()) { header('Cache-Control: no-store'); header('Location: ' . $ro
 header('Cache-Control: private, max-age=600');
 require TRAPO_ROOT . '/lib/views/pricing.php';
 require TRAPO_ROOT . '/lib/views/scenes.php';
+ob_start([Http::class, 'minHtml']);
 require TRAPO_ROOT . '/lib/views/course.php';
+ob_end_flush();

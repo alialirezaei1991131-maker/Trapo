@@ -54,11 +54,19 @@ html = html.replace(/(href|src)="icons\//g, '$1="appicons/');  // آیکون‌�
 html = html.replace(/<script src="([^"]+)"><\/script>\s*/g, (m, src) => { srcs.push(src); return ''; });
 // بارگذار فایل‌های جانبی دوره (document.write) در نسخه هاست کار بارگذار است
 html = html.replace(/<script>\s*\/\* فایل‌های جانبی دوره[\s\S]*?<\/script>\s*/, '');
+// اسکریپت‌ها و استایل‌های درون‌خطی فشرده و ناخوانا (مثل سایت‌های بزرگ؛ نمای «View Source» فقط یک خط فشرده است)
+{
+  const JO0 = require('javascript-obfuscator');
+  html = html.replace(/<script>([\s\S]*?)<\/script>/g, (m, js) => '<script>' + JO0.obfuscate(js, { compact: true, simplify: true, stringArray: true, stringArrayThreshold: 1, identifierNamesGenerator: 'hexadecimal', renameGlobals: false, seed: 7, target: 'browser' }).getObfuscatedCode() + '</script>');
+  html = html.replace(/<style>([\s\S]*?)<\/style>/g, (m, css) => '<style>' + require('./minify').css(css) + '</style>');
+}
+html = html.replace(/<title>[^<]*<\/title>/, '<title>تراپو · آکادمی آموزش بالینی</title>')
+  .replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="تراپو، آکادمی آموزش بالینی: الکترولیت، گاز خون، معاینه تغذیه‌محور و ترمینولوژی پزشکی با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.">');
 html = html.replace(/<script>/g, '<script nonce="{{NONCE}}">');
 const files = { data: srcs.filter(s => s !== 'js/engine.js'), engine: ['js/engine.js'] };
 if (!files.data.length || !srcs.includes('js/engine.js')) { console.error('unexpected index.html scripts', srcs); process.exit(1); }
 html = html.replace('</body>', `<script nonce="{{NONCE}}">window.TRAPO_SERVER = {{CFG}};</script>\n<script src="loader.js?v={{VER}}"></script>\n</body>`);
-fs.writeFileSync(path.join(PRIV, 'shell.html'), html);
+fs.writeFileSync(path.join(PRIV, 'shell.html'), require('./minify').html(html));
 fs.writeFileSync(path.join(PRIV, 'files.json'), JSON.stringify(files));
 
 // ۴. بارگذار درهم‌شده
