@@ -1,0 +1,36 @@
+تراپو — نصب در هاست cPanel با File Manager (بدون Git)
+====================================================
+
+این بسته دو پوشه دارد:
+  public_html/  ← صفحه‌های سایت (تنها بخشی که از اینترنت دیده می‌شود)
+  trapo_app/    ← کد سرور، کد رمزنگاری‌شده دوره‌ها، پایگاه داده و تنظیمات (بیرون از وب، کسی نمی‌بیند)
+
+۱. بارگذاری
+   - File Manager را باز کنید و به «پوشه خانه» بروید (پوشه‌ای که public_html داخلش است، مثل /home/USERNAME).
+     مهم: فایل را داخل public_html بارگذاری نکنید.
+   - trapo-cpanel.zip را همان‌جا Upload کنید، روی آن راست‌کلیک کنید و Extract را بزنید (مسیر همان پوشه خانه).
+   - بعد از استخراج، فایل zip را پاک کنید.
+   - برای دیدن فایل .htaccess: Settings (بالا سمت راست) ← Show Hidden Files (dotfiles).
+
+۲. تنظیمات (فقط بار اول)
+   - در trapo_app، فایل config.sample.php را Copy کنید با نام config.php (در همان پوشه trapo_app).
+   - config.php را Edit کنید:
+       base_url               نشانی سایت، مثل https://trapo.ir
+       app_secret             ۶۴ نویسه تصادفی (0-9 و a-f)
+       manage_password_hash   هش رمز پنل مدیریت سرور
+     اگر cPanel شما «Terminal» دارد، این دو دستور مقدارها را می‌سازند:
+       php -r "echo bin2hex(random_bytes(32)), PHP_EOL;"
+       php -r "echo password_hash('یک-رمز-خیلی-قوی', PASSWORD_DEFAULT), PHP_EOL;"
+     اگر Terminal ندارید، از پشتیبانی تراپو (سازنده برنامه) بخواهید config.php آماده را برایتان بسازد.
+   - Permissions پوشه trapo_app/data را 750 و config.php را 640 بگذارید.
+
+۳. هاست
+   - MultiPHP Manager: نسخه PHP 8.0 یا بالاتر.
+   - SSL/TLS Status: گواهی HTTPS برای دامنه (بدون HTTPS ورود کار نمی‌کند).
+   - سایت را باز کنید: باید صفحه ورود / ثبت‌نام بیاید. پنل مدیریت سرور: https://دامنه/manage/
+
+۴. به‌روزرسانی (نسخه تازه)
+   - همین zip تازه را دوباره در «پوشه خانه» Extract کنید و «Overwrite» را تأیید کنید.
+     config.php و پایگاه داده (کاربران، سفارش‌ها، پیشرفت) در بسته نیستند و دست نمی‌خورند.
+
+هرگز این‌ها را در هاست نگذارید: فایل trapo-admin-key.txt، پوشه‌های src، admin و tools.

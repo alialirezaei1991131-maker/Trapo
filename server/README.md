@@ -41,6 +41,11 @@
 5. سایت را باز کنید: صفحه ورود باید بیاید. یک حساب آزمایشی بسازید و وارد شوید.
 6. `https://دامنه/manage/` پنل مدیریت سرور است.
 
+### نصب در cPanel با File Manager (بدون Git)
+
+بسته `deploy/trapo-cpanel.zip` (ساخت: `npm run build:cpanel`) را در پوشه خانه هاست Extract کنید؛ گام‌ها در
+`server/INSTALL-cpanel.txt` (داخل بسته: `trapo_app/README-INSTALL.txt`) است.
+
 ### نصب با Git در cPanel (پیشنهادی؛ با فایل `.cpanel.yml`)
 
 1. در cPanel → **Git™ Version Control** → **Create**: «Clone a Repository» را روشن کنید و نشانی مخزن را بدهید

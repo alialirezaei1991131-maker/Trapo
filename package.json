@@ -4,7 +4,8 @@
   "description": "Therapo (تراپو) clinical academy — protected build tooling",
   "scripts": {
     "build": "node tools/build.js",
-    "build:server": "node tools/build-server.js"
+    "build:server": "node tools/build-server.js",
+    "build:cpanel": "node tools/make-cpanel-zip.js"
   },
   "devDependencies": {
     "javascript-obfuscator": "4.2.2"

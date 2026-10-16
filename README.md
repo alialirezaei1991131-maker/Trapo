@@ -36,6 +36,15 @@
 سفارش‌ها، تخفیف‌ها، **کد معرف** (۱۵٪ تخفیف برای دوست، ۲۰٪ اعتبار برای معرف) و پیشرفت کاربران روی سرور است.
 کد فعال‌سازی همچنان فقط با همین پنل آفلاین مدیر ساخته می‌شود (برای «شناسه حساب» کاربر).
 
+## انتشار روی هاست cPanel با File Manager (بدون Git)
+
+فایل آماده **`deploy/trapo-cpanel.zip`** را از GitHub دانلود کنید (روی فایل ← Download raw file) و در File Manager
+در **پوشه خانه** هاست (همان‌جا که `public_html` هست، نه داخل آن) Upload و Extract کنید. خودش `public_html` و پوشه
+`trapo_app` (بیرون از وب) را درست می‌چیند. راهنمای کامل داخل بسته است: `trapo_app/README-INSTALL.txt`.
+
+> «Download ZIP» کل مخزن را با یک پوشه بیرونی (`trapo-main`) می‌دهد و پوشه‌های `src` و `admin` را هم دارد؛ آن را
+> هرگز در `public_html` باز نکنید. بعد از هر تغییر: `npm run build`، `npm run build:server` و `npm run build:cpanel`.
+
 ## انتشار خودکار روی هاست cPanel
 
 فایل `.cpanel.yml` در ریشه پروژه، با هر «Deploy» در cPanel نسخه هاست را منتشر می‌کند:
