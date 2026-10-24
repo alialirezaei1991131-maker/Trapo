@@ -78,11 +78,11 @@ final class Shop
         Http::audit($uid, 'revoke', ['course' => $course]);
     }
 
-    /** راه‌های ارسال پیام سفارش و نماد اعتماد (config.php؛ تلگرام و بله اگر خالی باشند پشتیبانی پیش‌فرض تراپو، ایمیل خالی = پنهان) */
+    /** راه‌های ارسال پیام سفارش و نماد اعتماد (config.php؛ هرکدام خالی باشد، نشانی پشتیبانی پیش‌فرض تراپو) */
     public static function contact(): array
     {
         $c = (array) Cfg::get('contact', []);
-        return ['telegram' => (string) (($c['telegram'] ?? '') ?: 'Therapo_support'), 'bale' => (string) (($c['bale'] ?? '') ?: 'Therapo'), 'email' => (string) ($c['email'] ?? '')];
+        return ['telegram' => (string) (($c['telegram'] ?? '') ?: 'Therapo_support'), 'bale' => (string) (($c['bale'] ?? '') ?: 'Therapo'), 'email' => (string) (($c['email'] ?? '') ?: 'info@therapo1.ir')];
     }
     public static function enamad(): array
     {

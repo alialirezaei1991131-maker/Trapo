@@ -2655,7 +2655,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
      *   bale:     نام کاربری بله بدون @، یا نشانی کامل https://ble.ir/...
      *   email:    نشانی ایمیل
      * خالی = آن دکمه نمایش داده نمی‌شود. نسخه هاست این‌ها را از config.php (contact) می‌گیرد. */
-    CONTACT: { telegram: 'Therapo_support', bale: 'Therapo', email: '' },
+    CONTACT: { telegram: 'Therapo_support', bale: 'Therapo', email: 'info@therapo1.ir' },
     /* ---- پانویس سایت: حقوق و نماد اعتماد الکترونیکی (اینماد؛ فقط وقتی برنامه از سایت باز شود نمایش داده می‌شود) ---- */
     COPYRIGHT_FA: 'تمامی حقوق مادی و معنوی این سایت متعلق به تراپو است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.',
     COPYRIGHT_EN: 'All rights reserved. Copying any part of the content is prohibited.',
@@ -4582,6 +4582,7 @@ P — Plan: …`);
           <b>${LOGO} ${PT(CFG.BRAND_FA + ' • ' + CFG.BRAND_TAG_FA, CFG.BRAND_EN + ' • ' + CFG.BRAND_TAG_EN)}</b>
           <p>${PT(`${CFG.BRAND_FA} ابزار آموزشی است و جایگزین قضاوت بالینی، دستور پزشک یا پروتکل بیمارستان نیست.`, `${CFG.BRAND_EN} is an educational tool and does not replace clinical judgement, physician orders or hospital protocols.`)}</p>
           <p class="dfoot__c">© ${y} ${PT(CFG.COPYRIGHT_FA, CFG.COPYRIGHT_EN)}</p>
+          ${contactBarHTML()}
         </div>
         ${web && E.id && E.code ? `<a class="dfoot__enamad" referrerpolicy="origin" target="_blank" rel="noopener" href="https://trustseal.enamad.ir/?id=${encodeURIComponent(E.id)}&amp;Code=${encodeURIComponent(E.code)}" title="${PT('نماد اعتماد الکترونیکی', 'e-Namad trust seal')}"><img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=${encodeURIComponent(E.id)}&amp;Code=${encodeURIComponent(E.code)}" alt="${PT('نماد اعتماد الکترونیکی', 'e-Namad trust seal')}" width="125" height="136" loading="lazy" style="cursor:pointer" data-code="${pesc(E.code)}"></a>` : ''}
       </div>
@@ -4703,15 +4704,32 @@ P — Plan: …`);
     showActivated(r);
   }
   /** نشانی گفت‌وگو با پشتیبانی؛ متن سفارش در گفت‌وگو آماده می‌شود (تلگرام و بله ?text= را می‌فهمند) و در کلیپ‌بورد هم هست */
+  /** آیکن راه‌های تماس (تلگرام، بله، ایمیل) */
+  const CT_ICON = {
+    telegram: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.4 3.6 2.9 10.8c-1 .4-1 1.8.1 2.1l4.6 1.4 1.8 5.6c.3.8 1.3 1 1.9.4l2.6-2.5 4.6 3.4c.7.5 1.7.1 1.9-.7l3.1-14.9c.2-1.1-.9-2-1.9-1.6Zm-3.6 3.9-8 7.3-.3 3.3-1.4-4.5 9.2-6.4c.4-.3.8.1.5.3Z"/></svg>',
+    bale: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5c-5.5 0-10 4-10 9 0 2.6 1.2 4.9 3.2 6.6L4.6 21c-.2.6.4 1.1 1 .9l3.6-1.6c.9.2 1.8.3 2.8.3 5.5 0 10-4 10-9s-4.5-9.1-10-9.1Zm-4.5 10.6a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2Zm4.5 0a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2Zm4.5 0a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2Z"/></svg>',
+    email: '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4.5h16c1.1 0 2 .9 2 2v11c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-11c0-1.1.9-2 2-2Zm.4 2 7.6 5.7 7.6-5.7H4.4Zm15.6 2-7.4 5.5c-.4.3-.8.3-1.2 0L4 8.5v9h16v-9Z"/></svg>'
+  };
+  /** راه‌های تماس با پشتیبان؛ با txt لینک‌ها پیام آماده سفارش را هم می‌برند */
   function contactLinks(txt, subject) {
     const C = CFG.CONTACT || {}, out = [];
     const url = (v, base) => /^https?:\/\//i.test(v) ? v : base + String(v).replace(/^@/, '');
-    const q = (u, t) => u + (u.indexOf('?') < 0 ? '?' : '&') + 'text=' + encodeURIComponent(t);
+    const q = (u, t) => t ? u + (u.indexOf('?') < 0 ? '?' : '&') + 'text=' + encodeURIComponent(t) : u;
     const at = v => /^https?:\/\//i.test(v) ? '' : '@' + String(v).replace(/^@/, '');
-    if (C.telegram) out.push({ id: 'telegram', icon: '✈️', fa: 'ارسال در تلگرام', en: 'Send on Telegram', at: at(C.telegram), href: q(url(C.telegram, 'https://t.me/'), txt) });
-    if (C.bale) out.push({ id: 'bale', icon: '💬', fa: 'ارسال در بله', en: 'Send on Bale', at: at(C.bale), href: q(url(C.bale, 'https://ble.ir/'), txt) });
-    if (C.email) out.push({ id: 'email', icon: '📧', fa: 'ارسال با ایمیل', en: 'Send by email', href: 'mailto:' + C.email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(txt) });
+    if (C.telegram) out.push({ id: 'telegram', fa: 'ارسال در تلگرام', en: 'Send on Telegram', name: PT('تلگرام', 'Telegram'), at: at(C.telegram), href: q(url(C.telegram, 'https://t.me/'), txt) });
+    if (C.bale) out.push({ id: 'bale', fa: 'ارسال در بله', en: 'Send on Bale', name: PT('بله', 'Bale'), at: at(C.bale), href: q(url(C.bale, 'https://ble.ir/'), txt) });
+    if (C.email) out.push({ id: 'email', fa: 'ارسال با ایمیل', en: 'Send by email', name: PT('ایمیل', 'Email'), at: String(C.email), href: 'mailto:' + C.email + (txt ? '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(txt) : '') });
     return out;
+  }
+  /** دکمه‌های ارسال سفارش: کارت رنگی با آیکن، نام کانال و نشانی پشتیبان */
+  const sendCardsHTML = links => `<div class="buy__send">${links.map(l => `<a class="sendc sendc--${l.id}" href="${pesc(l.href)}" target="_blank" rel="noopener" data-sendvia="${l.id}">
+      <span class="sendc__ic">${CT_ICON[l.id]}</span>
+      <span class="sendc__t"><b>${PT(l.fa, l.en)}</b>${l.at ? `<small><bdi dir="ltr">${pesc(l.at)}</bdi></small>` : ''}</span>
+      <span class="sendc__go" aria-hidden="true">${PT('←', '→')}</span></a>`).join('')}</div>`;
+  /** نوار «پشتیبانی و پرداخت» در پانویس */
+  function contactBarHTML() {
+    const links = contactLinks();
+    return links.length ? `<div class="dfoot__ct"><span>💬 ${PT('پشتیبانی و پرداخت', 'Support & payment')}</span>${links.map(l => `<a class="ctchip ctchip--${l.id}" href="${pesc(l.href)}" target="_blank" rel="noopener" title="${pesc(l.name)}">${CT_ICON[l.id]}<bdi dir="ltr">${pesc(l.at)}</bdi></a>`).join('')}</div>` : '';
   }
   /** سفارش ثبت شد: مبلغ، گام‌های بعدی، متن پیام و دکمه‌های ارسال مستقیم */
   function orderReady(box, o) {
@@ -4726,7 +4744,7 @@ P — Plan: …`);
         <li>${PT('پشتیبان همان‌جا جوابت را می‌دهد و راه پرداخت را می‌فرستد.', 'Support replies there with how to pay.')}</li>
         <li>${SRV ? PT('بعد از پرداخت، دوره خودکار و برای همیشه روی حسابت باز می‌شود.', 'Once paid, the course opens on your account automatically — for good.') : PT('بعد از پرداخت، پشتیبان کد فعال‌سازی دائمی این دستگاه را در همان گفت‌وگو برایت می‌فرستد.', 'Once paid, support sends the lifetime activation code for this device in the same chat.')}</li>
       </ol>
-      ${links.length ? `<div class="buy__send">${links.map(l => `<a class="btn btn--send btn--send-${l.id}" href="${pesc(l.href)}" target="_blank" rel="noopener" data-sendvia="${l.id}"><span aria-hidden="true">${l.icon}</span> ${PT(l.fa, l.en)}${l.at ? ` <bdi dir="ltr">${pesc(l.at)}</bdi>` : ''}</a>`).join('')}</div>`
+      ${links.length ? `<p class="buy__via">${PT('از کدام راه می‌فرستی؟', 'How would you like to send it?')}</p>${sendCardsHTML(links)}`
         : `<div class="acwarn">${PT('راه‌های ارتباطی (تلگرام، بله، ایمیل) به‌زودی این‌جا اضافه می‌شوند؛ فعلاً متن سفارش را کپی کن و برای پشتیبانی بفرست.', 'Our contact links (Telegram, Bale, email) are coming soon — for now copy the order text and send it to support.')}</div>`}
       ${copyBox(o.txt, 9)}
       <button class="btn btn--ghost btn--sm" data-copyorder>📋 ${PT('کپی متن پیام', 'Copy the message')}</button></div>`;

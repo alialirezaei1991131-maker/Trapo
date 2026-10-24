@@ -58,6 +58,23 @@ function trapo_pricing_html(callable $esc, ?string $only = null): string
     return $h;
 }
 /** پانویس همه صفحه‌های سایت: هشدار آموزشی، حقوق محفوظ و نماد اعتماد الکترونیکی (اینماد) */
+/** نوار «پشتیبانی و پرداخت»: تلگرام، بله و ایمیل پشتیبان */
+function trapo_contact_html(callable $esc): string
+{
+    $C = Shop::contact();
+    $ic = [
+        'telegram' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.4 3.6 2.9 10.8c-1 .4-1 1.8.1 2.1l4.6 1.4 1.8 5.6c.3.8 1.3 1 1.9.4l2.6-2.5 4.6 3.4c.7.5 1.7.1 1.9-.7l3.1-14.9c.2-1.1-.9-2-1.9-1.6Zm-3.6 3.9-8 7.3-.3 3.3-1.4-4.5 9.2-6.4c.4-.3.8.1.5.3Z"/></svg>',
+        'bale' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.5c-5.5 0-10 4-10 9 0 2.6 1.2 4.9 3.2 6.6L4.6 21c-.2.6.4 1.1 1 .9l3.6-1.6c.9.2 1.8.3 2.8.3 5.5 0 10-4 10-9s-4.5-9.1-10-9.1Zm-4.5 10.6a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2Zm4.5 0a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2Zm4.5 0a1.6 1.6 0 1 1 0-3.2 1.6 1.6 0 0 1 0 3.2Z"/></svg>',
+        'email' => '<svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M4 4.5h16c1.1 0 2 .9 2 2v11c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2v-11c0-1.1.9-2 2-2Zm.4 2 7.6 5.7 7.6-5.7H4.4Zm15.6 2-7.4 5.5c-.4.3-.8.3-1.2 0L4 8.5v9h16v-9Z"/></svg>',
+    ];
+    $web = fn($v, $base) => preg_match('~^https?://~i', $v) ? $v : $base . ltrim($v, '@');
+    $at = fn($v) => preg_match('~^https?://~i', $v) ? $v : '@' . ltrim($v, '@');
+    $out = '';
+    if ($C['telegram']) $out .= '<a class="lp-ct lp-ct--telegram" href="' . $esc($web($C['telegram'], 'https://t.me/')) . '" target="_blank" rel="noopener" title="Telegram">' . $ic['telegram'] . '<bdi dir="ltr">' . $esc($at($C['telegram'])) . '</bdi></a>';
+    if ($C['bale']) $out .= '<a class="lp-ct lp-ct--bale" href="' . $esc($web($C['bale'], 'https://ble.ir/')) . '" target="_blank" rel="noopener" title="Bale">' . $ic['bale'] . '<bdi dir="ltr">' . $esc($at($C['bale'])) . '</bdi></a>';
+    if ($C['email']) $out .= '<a class="lp-ct lp-ct--email" href="mailto:' . $esc($C['email']) . '" title="Email">' . $ic['email'] . '<bdi dir="ltr">' . $esc($C['email']) . '</bdi></a>';
+    return $out === '' ? '' : '<div class="lp-foot__ct"><span>💬 <span data-l="fa">پشتیبانی و پرداخت</span><span data-l="en" lang="en">Support &amp; payment</span></span>' . $out . '</div>';
+}
 function trapo_footer_html(callable $esc): string
 {
     $E = Shop::enamad();
@@ -68,6 +85,7 @@ function trapo_footer_html(callable $esc): string
     return '<footer class="lp-foot"><div class="lp-foot__in"><div class="lp-foot__t">'
         . '<p data-t="foot">تراپو ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p>'
         . '<p class="lp-foot__c">© ' . $L($y, date('Y')) . ' ' . $L('تمامی حقوق مادی و معنوی این سایت متعلق به تراپو است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.', 'Therapo — all rights reserved. Copying any part of the content is prohibited.') . '</p>'
+        . trapo_contact_html($esc)
         . '<nav class="lp-foot__nav"><a href="./#courses">' . $L('دوره‌ها', 'Courses') . '</a><a href="./#pricing">' . $L('قیمت‌ها', 'Prices') . '</a><a href="./#faq">' . $L('سؤال‌های رایج', 'FAQ') . '</a></nav>'
         . '</div>' . $badge . '</div></footer>';
 }

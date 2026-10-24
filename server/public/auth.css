@@ -95,6 +95,14 @@ html[lang="en"] .lp-hero h1 { line-height: 1.15; letter-spacing: -.02em; }
 .lp-foot__c { font-weight: 700; }
 .lp-foot__nav { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 6px; }
 .lp-foot__nav a { color: inherit; font-weight: 700; }
+.lp-foot__ct { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 8px; margin-top: 8px; }
+.lp-foot__ct > span { font-weight: 800; color: var(--ink); }
+.lp-ct { display: inline-flex; align-items: center; gap: 6px; padding: 4px 10px 4px 8px; border-radius: 999px; border: 1.5px solid var(--line); background: var(--card); color: var(--ink); text-decoration: none; font-weight: 700; font-size: 12.5px; line-height: 1.6; transition: border-color .15s, transform .12s; }
+.lp-ct svg { width: 16px; height: 16px; }
+.lp-ct--telegram svg { color: #229ed9; }
+.lp-ct--bale svg { color: #12a56a; }
+.lp-ct--email svg { color: #5b4fe0; }
+.lp-ct:hover { border-color: currentColor; transform: translateY(-1px); }
 .lp-enamad { flex: none; display: inline-flex; padding: 6px; border-radius: 14px; background: #fff; border: 1px solid var(--line); }
 .lp-enamad img { display: block; width: 92px; height: auto; }
 .lp-plan h3 small { display: block; font-size: 13px; font-weight: 700; color: var(--muted); margin-top: 2px; }
