@@ -15,7 +15,7 @@ final class Ads
     {
         $c = array_replace(self::DEF, (array) Cfg::get('ads', []));
         if (empty($c['enabled']) || !is_array($c['items']) || !$c['items']) return [];
-        if (!empty($c['skip_paid']) && Hearts::paid((int) $u['id'])) return [];
+        if (!empty($c['skip_paid']) && Shop::ownedCourses((int) $u['id'])) return []; // خریداران دوره تبلیغ نمی‌بینند
         $ok = fn($x) => is_string($x) && preg_match('~^(https://[^\s"<>]{4,300}|/?[A-Za-z0-9_\-/]{1,120}\.(png|jpe?g|webp|svg))$~', $x);
         $items = [];
         foreach ($c['items'] as $i) {

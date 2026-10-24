@@ -9,7 +9,7 @@
  *  - به داده‌های کاربر (localStorage: academy_global_state، academy_license_data، academy_course_*) هیچ دسترسی‌ای
  *    ندارد و هرگز به آن‌ها دست نمی‌زند؛ اشتراک، الماس، زنجیره و پیشرفت با هر به‌روزرسانی سالم می‌ماند. */
 const CACHE_PREFIX = 'academy-';
-const CACHE_VERSION = CACHE_PREFIX + 'v1.9.5';
+const CACHE_VERSION = CACHE_PREFIX + 'v2.0.0';
 const SHELL = [
   './',
   './index.html',
@@ -22,6 +22,8 @@ const SHELL = [
   './courses/data-negar.js',
   './courses/data-negar-img.js',
   './courses/data-termino.js',
+  './courses/data-ritma.js',
+  './courses/data-ritma-img.js',
   './courses/data-grand-rounds.js',
   './icons/icon.svg',
   './icons/icon-192.png',

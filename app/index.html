@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>تراپو • یونا، هما، نگار</title>
-<meta name="description" content="تراپو (Therapo)، آکادمی بالینی بازی‌وار: یونا (اصلاح اختلالات الکترولیتی)، هما (تفسیر گازهای خون و اسید-باز) و نگار (معاینه فیزیکی تغذیه‌محور NFPE)؛ با مسیر یادگیری، کیس‌های بیمارستانی، ماشین‌حساب بالینی، کیس‌های ترکیبی ICU، کلینیک خطاها و گواهی‌نامه. کاملاً آفلاین.">
+<title>تراپو • یونا، هما، نگار، ترمینو، ریتما</title>
+<meta name="description" content="تراپو (Therapo)، آکادمی بالینی بازی‌وار: یونا (اصلاح اختلالات الکترولیتی)، هما (تفسیر گازهای خون و اسید-باز)، نگار (معاینه فیزیکی تغذیه‌محور NFPE)، ترمینو (ترمینولوژی پزشکی) و ریتما (تفسیر نوار قلب ECG)؛ با مسیر یادگیری، کیس‌های بیمارستانی، ماشین‌حساب بالینی، کیس‌های ترکیبی ICU، کلینیک خطاها و گواهی‌نامه. کاملاً آفلاین.">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" content="#3b5bdb">
 <meta name="mobile-web-app-capable" content="yes">
@@ -38,7 +38,7 @@ html[data-theme="dark"] { background: #131f24; color-scheme: dark; }
 #boot.is-on { --c: #3b5bdb; --bg: #fff; --tx: #3c3c3c; display: flex; position: fixed; inset: 0; z-index: 2147483000; flex-direction: column; align-items: center; justify-content: center; gap: 18px; background: var(--bg); color: var(--tx); font: 800 22px/1.4 Vazirmatn, Tahoma, system-ui, sans-serif; }
 @media (prefers-color-scheme: dark) { html:not([data-theme="light"]) #boot.is-on { --bg: #131f24; --tx: #f1f7fb; } }
 html[data-theme="dark"] #boot.is-on { --bg: #131f24; --tx: #f1f7fb; }
-#boot[data-c="yona"] { --c: #58cc02; } #boot[data-c="homa"] { --c: #12b3a8; } #boot[data-c="negar"] { --c: #8e2c6e; }
+#boot[data-c="yona"] { --c: #58cc02; } #boot[data-c="homa"] { --c: #12b3a8; } #boot[data-c="negar"] { --c: #8e2c6e; } #boot[data-c="ritma"] { --c: #d7263d; }
 html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
 .boot__art { position: relative; width: 150px; height: 150px; display: grid; place-items: center; border-radius: 50%; background: radial-gradient(closest-side, color-mix(in srgb, var(--c) 26%, transparent), transparent); animation: bootPop .45s cubic-bezier(.2, 1.4, .4, 1) both; }
 .boot__art::before { content: ""; position: absolute; inset: 6px; border-radius: 50%; border: 3px solid color-mix(in srgb, var(--c) 30%, transparent); border-top-color: var(--c); animation: bootSpin 1s linear infinite; }
@@ -65,7 +65,7 @@ html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
   var c = document.documentElement.getAttribute('data-course'), b = document.getElementById('boot');
   if (!c || !/[?&]course=/.test(location.search)) return;
   // نام، رنگ و شخصیت هر دوره (حتی دوره‌های آینده) از کش موتور در academy_cache خوانده می‌شود
-  var N = { yona: ['یونا', 'Yona'], homa: ['هما', 'Homa'], negar: ['نگار', 'Negar'] }, en = false, art = '', m = null;
+  var N = { yona: ['یونا', 'Yona'], homa: ['هما', 'Homa'], negar: ['نگار', 'Negar'], termino: ['ترمینو', 'Termino'], ritma: ['ریتما', 'Ritma'] }, en = false, art = '', m = null;
   try {
     var g = JSON.parse(localStorage.getItem('academy_global_state') || '{}') || {}, k = JSON.parse(localStorage.getItem('academy_cache') || '{}') || {};
     en = (g.lang || localStorage.getItem('academy.lang')) === 'en';
@@ -110,6 +110,8 @@ html[data-theme="dark"] #boot[data-c="negar"] { --c: #c05a9c; }
 <script src="courses/data-negar.js"></script>
 <!-- ترمینو (ترمینولوژی پزشکی): یک دوره با ۱۵ حیطه؛ محتوای هر حیطه (courses/termino/*.js) فقط هنگام ورود به همان حیطه -->
 <script src="courses/data-termino.js"></script>
+<!-- ریتما (تفسیر نوار قلب ECG): با کیت مشترک ترمینو؛ نوارها (data-ritma-img.js) فقط هنگام ورود به همین دوره -->
+<script src="courses/data-ritma.js"></script>
 <script>
 /* فایل‌های جانبی دوره (مثل ۲ مگابایت تصویر بالینی نگار: assets در فایل دوره) فقط برای همان دوره همراه صفحه
    می‌آیند؛ صفحه اول و دوره‌های دیگر سبک‌تر باز می‌شوند. دوره‌هایی که بعد از این خط اضافه شوند، فایل جانبی‌شان

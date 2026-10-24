@@ -25,3 +25,10 @@
 .mg__dl { display: inline-flex; align-items: center; gap: 6px; padding: 9px 14px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); font-weight: 800; text-decoration: none; margin-inline-start: auto; }
 .mg__dl:hover { border-color: #12b3a8; }
 .mg__tr textarea { flex: 1 1 100%; font: inherit; padding: 10px 12px; border-radius: 12px; border: 1px solid var(--line); background: var(--card); color: var(--ink); min-height: 120px; }
+/* کد تخفیف برای دوره‌های مشخص، و باز/بستن دستی دوره روی حساب کاربر */
+.mg__cs { flex-basis: 100%; display: flex; flex-wrap: wrap; gap: 6px 14px; border: 1px solid var(--line); border-radius: 12px; padding: 8px 12px; margin: 0; }
+.mg__cs legend { font-weight: 700; font-size: 13px; padding: 0 6px; }
+.mg__cs label { display: inline-flex; align-items: center; gap: 4px; font-size: 14px; }
+.mg__cs small { opacity: .7; }
+.mg__own button { font-size: 13px; }
+.mg__own button.is-on { background: #d7ffb8; border-color: #58cc02; }

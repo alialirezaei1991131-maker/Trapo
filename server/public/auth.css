@@ -88,8 +88,16 @@ html[lang="en"] .lp-hero h1 { line-height: 1.15; letter-spacing: -.02em; }
 .lp-faq summary { cursor: pointer; font-weight: 900; font-size: 16px; }
 .lp-faq p { margin: 8px 0 0; color: var(--muted); font-weight: 600; }
 .lp-end { text-align: center; padding: 30px 16px 46px; display: grid; justify-items: center; gap: 14px; }
-.lp-foot { border-top: 1px solid var(--line); padding: 18px 16px 26px; text-align: center; color: var(--muted); font-size: 13px; }
-.lp-foot p { margin: 2px 0; }
+.lp-foot { border-top: 1px solid var(--line); padding: 20px 16px 28px; color: var(--muted); font-size: 13px; }
+.lp-foot p { margin: 2px 0; line-height: 1.9; }
+.lp-foot__in { max-width: 1120px; margin: 0 auto; display: flex; align-items: center; justify-content: space-between; gap: 18px; flex-wrap: wrap; }
+.lp-foot__t { flex: 1 1 320px; min-width: 0; }
+.lp-foot__c { font-weight: 700; }
+.lp-foot__nav { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 6px; }
+.lp-foot__nav a { color: inherit; font-weight: 700; }
+.lp-enamad { flex: none; display: inline-flex; padding: 6px; border-radius: 14px; background: #fff; border: 1px solid var(--line); }
+.lp-enamad img { display: block; width: 92px; height: auto; }
+.lp-plan h3 small { display: block; font-size: 13px; font-weight: 700; color: var(--muted); margin-top: 2px; }
 @media (max-width: 900px) {
   .lp-hero { grid-template-columns: 1fr; gap: 26px; padding-top: 28px; }
   .lp-nums { grid-template-columns: repeat(2, minmax(0, 1fr)); }
@@ -193,6 +201,7 @@ html[lang="en"] .lp-hero h1 { line-height: 1.15; letter-spacing: -.02em; }
 .lp-fm--1 { top: 32%; inset-inline-start: -18px; width: 66px; animation-delay: -1.6s; animation-duration: 5.2s; z-index: 3; }
 .lp-fm--2 { bottom: -14px; inset-inline-end: 10%; width: 64px; animation-delay: -2.4s; animation-duration: 5.8s; z-index: 3; }
 .lp-fm--3 { bottom: 18%; inset-inline-end: -26px; width: 60px; animation-delay: -3.1s; animation-duration: 4.9s; z-index: 3; }
+.lp-fm--4 { top: -14px; inset-inline-start: 18%; width: 58px; animation-delay: -2s; animation-duration: 5.4s; z-index: 3; }
 @keyframes lpFloat { 0%, 100% { transform: translateY(0) rotate(-4deg); } 50% { transform: translateY(-14px) rotate(4deg); } }
 .lp-spark { position: absolute; font-size: 18px; color: #ffc800; animation: lpTwinkle 2.4s ease-in-out infinite; pointer-events: none; }
 .lp-spark--a { top: 4%; inset-inline-start: 12%; } .lp-spark--b { top: 46%; inset-inline-end: -8px; font-size: 16px; animation-delay: -.8s; animation-name: lpBeat; z-index: 3; } .lp-spark--c { bottom: 6%; inset-inline-start: 4%; color: #12b3a8; animation-delay: -1.5s; }
@@ -251,7 +260,7 @@ html[lang="en"] .lp-hero h1 { line-height: 1.15; letter-spacing: -.02em; }
 
 @media (max-width: 860px) {
   .lp-fly { inset: -30px -6px; }
-  .lp-fm { width: 52px; } .lp-fm--1 { inset-inline-start: -6px; width: 46px; } .lp-fm--2 { width: 46px; } .lp-fm--3 { inset-inline-end: -6px; width: 44px; }
+  .lp-fm { width: 52px; } .lp-fm--1 { inset-inline-start: -6px; width: 46px; } .lp-fm--2 { width: 46px; } .lp-fm--3 { inset-inline-end: -6px; width: 44px; } .lp-fm--4 { width: 42px; }
   .lp-ecg { height: 40px; }
 }
 @media (prefers-reduced-motion: reduce) {

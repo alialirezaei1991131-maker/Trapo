@@ -144,7 +144,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
     <div class="brand"><i>✚</i><div>پنل مدیر تراپو<small id="hdrSub"></small></div></div>
     <nav class="tabs" id="tabs">
       <button class="tab on" data-tab="issue">🧾 صدور کد</button>
-      <button class="tab" data-tab="hearts">❤️ کد قلب</button>
+      <!-- کد قلب (TRH1) دیگر فروخته نمی‌شود؛ بخش آن فقط برای بررسی کدهای قبلی در کد مانده است -->
       <button class="tab" data-tab="buyers">👥 خریداران</button>
       <button class="tab" data-tab="promo">🎁 کد تخفیف</button>
       <button class="tab" data-tab="check">🔍 بررسی کد</button>
@@ -159,7 +159,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
       <h2>صدور کد از روی پیام خریدار</h2>
       <p class="lead">پیام سفارشی که خریدار از داخل برنامه فرستاده را کامل این‌جا بچسبان؛ بقیه‌اش خودکار است.</p>
       <div class="card">
-        <textarea id="iMsg" placeholder="🧾 سفارش اشتراک ...&#10;📱 شناسه دستگاه (Device ID): XXXX-XXXX-XXXX&#10;..."></textarea>
+        <textarea id="iMsg" placeholder="🛒 سفارش خرید دوره ...&#10;📱 شناسه دستگاه (Device ID): XXXX-XXXX-XXXX&#10;..."></textarea>
         <div class="row" style="margin-top:8px"><button class="btn btn--sm" id="iPaste">📋 چسباندن از کلیپ‌بورد</button><button class="btn btn--sm" id="iClear">پاک کردن</button><span class="muted">یا بدون پیام، مشخصات را پایین دستی پر کن.</span></div>
         <div id="iParse"></div>
       </div>
@@ -316,6 +316,7 @@ var NACL = {};
 <script src="../app/courses/data-homa.js"></script>
 <script src="../app/courses/data-negar.js"></script>
 <script src="../app/courses/data-termino.js"></script>
+<script src="../app/courses/data-ritma.js"></script>
 <script>
 (function () {
   'use strict';
@@ -641,8 +642,9 @@ var NACL = {};
     var bp = /(?:قیمت پایه|Base price)\s*:\s*([\d,٬.\s]+)/.exec(t); if (bp) o.basePrice = +bp[1].replace(/[^\d]/g, '');
     return o;
   }
-  var IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 1, dur: 1, order: '', orderDate: '', note: '', promo: '' };
-  function issueReset() { IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 1, dur: 1, order: '', orderDate: '', note: '', promo: '' }; $('iMsg').value = ''; $('iParse').innerHTML = ''; $('iOut').classList.add('hide'); syncIssueInputs(); renderIssue(); }
+  /* پیش‌فرض: خرید دوره = پلن ۲ (دوره کامل با ابزارها) و مدت ۵ (دائمی) */
+  var IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 2, dur: 5, order: '', orderDate: '', note: '', promo: '' };
+  function issueReset() { IS = { dev: '', name: '', contact: '', price: '', sel: {}, extra: 0, tier: 2, dur: 5, order: '', orderDate: '', note: '', promo: '' }; $('iMsg').value = ''; $('iParse').innerHTML = ''; $('iOut').classList.add('hide'); syncIssueInputs(); renderIssue(); }
   function syncIssueInputs() { $('iName').value = IS.name; $('iContact').value = IS.contact; $('iDev').value = IS.dev; $('iPrice').value = IS.price ? String(IS.price) : ''; $('iNote').value = IS.note; }
   $('iMsg').oninput = function () {
     var t = $('iMsg').value.trim();

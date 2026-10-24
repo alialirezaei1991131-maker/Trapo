@@ -6,7 +6,8 @@ $title = $c['title'];
 $desc = $c['desc'];
 $join = './?signup=1#join';
 $faq = array_merge($c['faq'], [
-    ['هزینه این دوره چقدر است؟', 'ثبت‌نام رایگان است و هر روز ' . trapo_fa_num(Hearts::catalog()['free']) . ' قلب رایگان برای درس‌های رایگان داری. برای همه درس‌ها، کیس‌ها، ابزارها و گواهی، اشتراک قلب (از ' . trapo_fa_num(min(array_map(fn($p) => $p['price'][1] ?? PHP_INT_MAX, Hearts::catalog()['plans']))) . ' تومان در ماه)، بسته قلب یا پلن نامحدود می‌خری؛ همان قلب‌ها همه دوره‌ها را باز می‌کنند.'],
+    ['هزینه این دوره چقدر است؟', 'ثبت‌نام رایگان است و درس اول ' . $c['fa'] . ' را رایگان می‌بینی. همه درس‌ها، کیس‌ها، ابزارها، امتحان نهایی و گواهی با یک بار خرید (' . trapo_fa_num(Shop::coursePrice($c['slug'])) . ' تومان) برای همیشه روی حسابت باز می‌ماند؛ بدون اشتراک ماهانه.'],
+    ['چطور می‌خرم؟', 'بعد از ثبت‌نام، در برنامه «خرید دوره» را بزن و پیام آماده سفارش را با یک دکمه در تلگرام، بله یا ایمیل برای ما بفرست؛ پس از پرداخت، دوره خودکار روی حسابت باز می‌شود.'],
     ['گواهی پایان دوره می‌دهد؟', 'بله. با قبولی در امتحان نهایی، گواهی پایان دوره با نام تو و کد پیگیری صادر می‌شود.'],
 ]);
 $ld = ['@context' => 'https://schema.org', '@graph' => [
@@ -19,7 +20,7 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
      'teaches' => $c['outcomes'], 'keywords' => implode('، ', $c['kw']), 'image' => $base . '/img/og.png', 'isAccessibleForFree' => false,
      'hasCourseInstance' => ['@type' => 'CourseInstance', 'courseMode' => 'online', 'courseWorkload' => 'PT3M'],
      'syllabusSections' => array_map(fn($w) => ['@type' => 'Syllabus', 'name' => $w['name'], 'description' => $w['sub']], $c['worlds']),
-     'offers' => trapo_offers($url)],
+     'offers' => trapo_offers($url, $c['slug'])],
     ['@type' => 'FAQPage', 'mainEntity' => array_map(fn($q) => ['@type' => 'Question', 'name' => $q[0], 'acceptedAnswer' => ['@type' => 'Answer', 'text' => $q[1]]], $faq)],
 ]];
 ?><!doctype html>
@@ -57,7 +58,7 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
     <b>تراپو</b>
   </a>
   <nav class="lp-nav">
-    <a href="./#courses">دوره‌ها</a><a href="course/<?= $esc($c['slug']) ?>#pricing">برنامه‌ها</a>
+    <a href="./#courses">دوره‌ها</a><a href="course/<?= $esc($c['slug']) ?>#pricing">قیمت</a>
     <a class="lp-cta lp-cta--sm" href="./#join">ورود</a>
   </nav>
 </header>
@@ -76,7 +77,7 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
   </section>
   <svg class="lp-ecg" viewBox="0 0 1200 70" preserveAspectRatio="none" aria-hidden="true"><defs><linearGradient id="lpecg" x1="0" x2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><path d="M0 40 H330 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H760 l12 -6 l10 6 h18 l8 10 l14 -46 l14 58 l10 -22 h22 l14 -8 l14 8 H1200"/></svg>
 
-  <section class="lp-sec cp-scene"><?= trapo_scene(['yona' => 'ward', 'homa' => 'icu', 'negar' => 'lab', 'termino' => 'class'][$c['slug']] ?? 'ward') ?></section>
+  <section class="lp-sec cp-scene"><?= trapo_scene(['yona' => 'ward', 'homa' => 'icu', 'negar' => 'lab', 'termino' => 'class', 'ritma' => 'icu'][$c['slug']] ?? 'ward') ?></section>
 
   <section class="lp-sec" aria-labelledby="o-t">
     <h2 id="o-t">بعد از این دوره می‌توانی…</h2>
@@ -103,7 +104,7 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
   </section>
   <?php endif; ?>
 
-  <?= str_replace('href="#join"', 'href="' . $esc($join) . '"', trapo_pricing_html($esc)) ?>
+  <?= str_replace('href="#join"', 'href="' . $esc($join) . '"', trapo_pricing_html($esc, $c['slug'])) ?>
 
   <section class="lp-sec" id="faq" aria-labelledby="f-t">
     <h2 id="f-t">سؤال‌های رایج درباره <?= $esc($c['fa']) ?></h2>
@@ -122,7 +123,7 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
     <a class="lp-cta" href="<?= $esc($join) ?>">ثبت‌نام رایگان و شروع</a>
   </section>
 </main>
-<footer class="lp-foot"><p>تراپو ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p><p>© <?= date('Y') ?> تراپو</p></footer>
+<?= trapo_footer_html($esc) ?>
 <script src="<?= $esc(trapo_asset('lp.js')) ?>"></script>
 </body>
 </html>

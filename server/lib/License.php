@@ -69,10 +69,11 @@ final class License
         return array_map(fn($r) => $r['code'], Db::all('SELECT code FROM licenses WHERE user_id = ? ORDER BY id', [$uid]));
     }
 
-    /** دسترسی هر دوره (مثل access() برنامه): بالاترین سطح میان کدهای فعالی که بیت دوره را دارند */
+    /** دسترسی هر دوره (مثل access() برنامه): خرید دائمی ثبت‌شده روی سرور، یا بالاترین سطح میان کدهای فعالی که بیت دوره را دارند */
     public static function access(int $uid, string $course): array
     {
-        $bits = (array) Cfg::get('course_bits', []);
+        if (Db::val('SELECT 1 FROM purchases WHERE user_id = ? AND course = ?', [$uid, $course])) return ['tier' => 2, 'life' => true, 'exp' => 0];
+        $bits = Shop::bits();
         $bit = (int) ($bits[$course] ?? 0);
         $nowMs = (int) floor(microtime(true) * 1000);
         $tier = 0; $exp = -1; $life = false;

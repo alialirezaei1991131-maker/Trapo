@@ -3,7 +3,7 @@
   'use strict';
   var CSRF = '';
   var $ = function (s, r) { return (r || document).querySelector(s); };
-  /** نام محصول قلب از روی کدش (plan:silver:3 ، pack:150 ، ult:6) */
+  /** نام محصول قلب سفارش‌های قدیمی (plan:silver:3 ، pack:150 ، ult:6) */
   var PROD = function (c) {
     var p = String(c || '').split(':'), N = { bronze: 'برنزی', silver: 'نقره‌ای', gold: 'طلایی' };
     if (p[0] === 'plan') return 'اشتراک قلب ' + (N[p[1]] || p[1]) + ' · ' + p[2] + ' ماهه';
@@ -15,7 +15,10 @@
   var nf = function (n) { return Number(n || 0).toLocaleString('fa-IR'); };
   var dt = function (t) { return t ? new Date(t * 1000).toLocaleString('fa-IR', { dateStyle: 'medium', timeStyle: 'short' }) : '—'; };
   var TIER = { 1: 'آموزشی', 2: 'Pro', 3: 'الماس' }, DUR = { 1: '۱ ماه', 2: '۳ ماه', 3: '۶ ماه', 4: '۱ سال' };
-  var ERR = { bad_credentials: 'رمز درست نیست.', rate_limited: 'تلاش زیاد بود؛ کمی بعد دوباره امتحان کنید.', forbidden: 'از این IP اجازه دسترسی نیست.', not_pending: 'این سفارش در انتظار پرداخت نیست.', promo_exists: 'این کد از قبل هست.', bad_promo: 'مقدارها درست نیست (کد ۳+ نویسه، درصد ۱ تا ۷۰).' };
+  var ERR = { bad_credentials: 'رمز درست نیست.', rate_limited: 'تلاش زیاد بود؛ کمی بعد دوباره امتحان کنید.', forbidden: 'از این IP اجازه دسترسی نیست.', not_pending: 'این سفارش در انتظار پرداخت نیست.', promo_exists: 'این کد از قبل هست.', bad_promo: 'مقدارها درست نیست (کد ۳+ نویسه، درصد ۱ تا ۹۰).', no_user: 'کاربر پیدا نشد.' };
+  /** دوره‌ها (نام و قیمت) از سرور؛ برای نام دوره در سفارش‌ها، کد تخفیف و باز کردن دستی دوره */
+  var COURSES = [], CN = function (id) { var c = COURSES.find(function (x) { return x.id === id; }); return c ? c.fa : id; };
+  var loadCourses = async function () { if (COURSES.length) return; var j = await api('m_courses'); if (j.ok) COURSES = j.courses; };
   async function api(a, body, q) {
     var opt = { credentials: 'same-origin', headers: { Accept: 'application/json' } };
     if (body !== undefined) { opt.method = 'POST'; opt.headers['Content-Type'] = 'application/json'; opt.headers['X-CSRF'] = CSRF; opt.body = JSON.stringify(body); }
@@ -43,17 +46,18 @@
       var note = prompt('یادداشت پرداخت (اختیاری؛ مثلاً شماره پیگیری کارت‌به‌کارت):', '') ;
       if (note === null) return;
       var j = await api('m_paid', { order: id, note: note });
-      toast(j.ok ? '✅ پرداخت ثبت شد' + (j.reward ? ' — پاداش معرف: ' + nf(j.reward) + ' تومان' : '') : (ERR[j.err] || 'خطا'));
+      toast(j.ok ? '✅ پرداخت ثبت شد' + (j.granted && j.granted.length ? ' — باز شد: ' + j.granted.map(CN).join('، ') : '') + (j.reward ? ' — پاداش معرف: ' + nf(j.reward) + ' تومان' : '') : (ERR[j.err] || 'خطا'));
       return tab('orders', st.ost);
     }
     if (a === 'cancel') { if (!confirm('سفارش ' + id + ' لغو شود؟ اعتبار کیف پول کاربر برمی‌گردد.')) return; var c = await api('m_cancel', { order: id }); toast(c.ok ? 'لغو شد' : (ERR[c.err] || 'خطا')); return tab('orders', st.ost); }
     if (a === 'copy') { navigator.clipboard.writeText(b.dataset.txt).then(function () { toast('📋 کپی شد؛ در پنل آفلاین مدیر بچسبانید'); }); return; }
     if (a === 'ost') return tab('orders', id);
-    if (a === 'gift') {
-      var h = prompt('چند قلب به «بسته» این کاربر اضافه شود؟ (۰ = هیچ)', '50'); if (h === null) return;
-      var d = prompt('چند روز «نامحدود» هدیه داده شود؟ (۰ = هیچ)', '0'); if (d === null) return;
-      var g = await api('m_gift', { uid: +id, hearts: parseInt(h, 10) || 0, ult_days: parseInt(d, 10) || 0 });
-      if (g.ok) alert('✅ ثبت شد'); return tab('users');
+    if (a === 'grant' || a === 'revoke') {
+      if (!confirm(a === 'grant' ? 'دوره «' + CN(b.dataset.c) + '» برای همیشه روی حساب این کاربر باز شود؟' : 'دسترسی دوره «' + CN(b.dataset.c) + '» از حساب این کاربر برداشته شود؟')) return;
+      var g = await api('m_' + a, { uid: +id, course: b.dataset.c });
+      toast(g.ok ? (a === 'grant' ? '✅ دوره باز شد' : 'دسترسی برداشته شد') : (ERR[g.err] || 'خطا'));
+      if (g.ok) { var q = $('#uf'); return q ? q.dispatchEvent(new Event('submit')) : tab('users'); }
+      return;
     }
     if (a === 'ptoggle') { await api('m_promo_toggle', { code: id }); return tab('promos'); }
   });
@@ -69,6 +73,7 @@
         (s.top.map(function (r) { return '<tr><td>' + esc(r.name) + '</td><td dir="ltr">' + esc(r.login) + '</td><td dir="ltr">' + esc(r.ref_code) + '</td><td>' + nf(r.joined) + '</td><td>' + nf(r.paid) + '</td><td>' + nf(r.earned) + '</td></tr>'; }).join('') || '<tr><td colspan="6">هنوز دعوتی نیست</td></tr>') + '</table>';
     }
     if (name === 'orders') {
+      await loadCourses();
       st.ost = arg || st.ost;
       var o = await api('m_orders', undefined, '&status=' + st.ost); if (!o.ok) return;
       v.innerHTML = '<div class="mg__seg">' + [['pending', 'در انتظار پرداخت'], ['paid', 'پرداخت‌شده'], ['cancelled', 'لغوشده']].map(function (x) { return '<button data-act="ost" data-id="' + x[0] + '" class="' + (st.ost === x[0] ? 'is-on' : '') + '">' + x[1] + '</button>'; }).join('') + '</div>' +
@@ -77,22 +82,24 @@
           var msg = '👤 نام: ' + r.name + '\n💰 مبلغ: ' + r.final_price + '\n🔢 کد سفارش: ' + r.order_code + '\n🔧 ' + line + (r.promo ? '\n🔧 TRAPO-PROMO:' + r.promo + ':' + r.promo_pct + ':' + r.final_price : '');
           return '<article class="mg__o"><header><b>' + esc(r.order_code) + '</b><span>' + dt(r.created_at) + '</span></header>' +
             '<p>👤 ' + esc(r.name) + ' · <span dir="ltr">' + esc(r.login) + '</span> · شناسه <code dir="ltr">' + esc(r.dev_id) + '</code></p>' +
-            (r.product ? '<p>❤️ <b>' + esc(PROD(r.product)) + '</b> <span class="mg__muted">· با «پرداخت شد» قلب‌ها خودکار به حساب خریدار می‌رود؛ کد فعال‌سازی لازم نیست</span></p>' : '<p>📚 ' + esc(r.courses) + ' · ' + TIER[r.tier] + ' · ' + DUR[r.dur] + '</p>') +
+            (r.product ? '<p>❤️ <b>' + esc(PROD(r.product)) + '</b> <span class="mg__muted">· سفارش قلب از نسخه قبلی؛ قلب دیگر فروخته نمی‌شود (در صورت نیاز از «کاربران» دوره را دستی باز کنید)</span></p>' : '<p>📚 <b>' + esc(String(r.courses).split(',').filter(Boolean).map(CN).join('، ')) + '</b> · ♾️ دائمی <span class="mg__muted">· با «پرداخت شد» دوره‌ها خودکار روی حساب خریدار باز می‌شوند</span></p>') +
             '<p>💰 <b>' + nf(r.final_price) + '</b> تومان' + (r.base_price !== r.final_price ? ' (پایه ' + nf(r.base_price) + ')' : '') + (r.promo ? ' · 🎁 ' + esc(r.promo) + ' ' + nf(r.promo_pct) + '٪' : '') + (r.ref_pct ? ' · 🤝 دعوت ' + nf(r.ref_pct) + '٪' : '') + (r.credit_used ? ' · 👛 ' + nf(r.credit_used) : '') + (r.ref_name ? ' · معرف: ' + esc(r.ref_name) : '') + '</p>' +
             (r.note ? '<p class="mg__muted">📝 ' + esc(r.note) + '</p>' : '') +
             '<div class="mg__btns">' + (r.status === 'pending' ? '<button class="au__go" data-act="paid" data-id="' + esc(r.order_code) + '">✅ پرداخت شد</button><button data-act="cancel" data-id="' + esc(r.order_code) + '">لغو</button>' : '') +
-            (r.product ? '' : '<button data-act="copy" data-txt="' + esc(msg) + '">📋 پیام برای پنل آفلاین (صدور کد)</button>') + '</div></article>';
+            (r.product ? '' : '<button data-act="copy" data-txt="' + esc(msg) + '">📋 پیام برای پنل آفلاین (فقط اگر کد فعال‌سازی هم بخواهد)</button>') + '</div></article>';
         }).join('') : '<p class="mg__muted">سفارشی نیست.</p>');
     }
     if (name === 'promos') {
+      await loadCourses();
       var p = await api('m_promos'); if (!p.ok) return;
-      v.innerHTML = '<form class="mg__pf" id="pf"><input name="code" placeholder="کد (مثلاً NOWRUZ)" dir="ltr" required><input name="pct" type="number" min="1" max="70" placeholder="درصد" required><input name="days" type="number" min="0" placeholder="روز اعتبار (۰ = بی‌پایان)"><input name="max" type="number" min="1" placeholder="حداکثر استفاده (خالی = بی‌نهایت)"><input name="label" placeholder="عنوان کمپین"><select name="plans"><option value="1,2,3">همه پلن‌ها</option><option value="2,3">Pro و الماس</option><option value="3">فقط الماس</option></select><button class="au__go">ساخت کد</button></form>' +
-        '<table class="mg__t"><tr><th>کد</th><th>درصد</th><th>پلن</th><th>تا</th><th>استفاده</th><th>وضعیت</th><th></th></tr>' + p.promos.map(function (r) {
-          return '<tr><td dir="ltr">' + esc(r.code) + '</td><td>' + nf(r.pct) + '٪</td><td>' + esc(r.plans) + '</td><td>' + (r.until_at ? dt(r.until_at) : '—') + '</td><td>' + nf(r.uses) + (r.max_uses ? ' / ' + nf(r.max_uses) : '') + '</td><td>' + (+r.active ? 'فعال' : 'خاموش') + '</td><td><button data-act="ptoggle" data-id="' + esc(r.code) + '">' + (+r.active ? 'خاموش کن' : 'روشن کن') + '</button></td></tr>';
+      v.innerHTML = '<form class="mg__pf" id="pf"><input name="code" placeholder="کد (مثلاً NOWRUZ)" dir="ltr" required><input name="pct" type="number" min="1" max="70" placeholder="درصد" required><input name="days" type="number" min="0" placeholder="روز اعتبار (۰ = بی‌پایان)"><input name="max" type="number" min="1" placeholder="حداکثر استفاده (خالی = بی‌نهایت)"><input name="label" placeholder="عنوان کمپین (مثلاً جشنواره نوروز)"><fieldset class="mg__cs"><legend>کد روی کدام دوره‌ها اثر دارد؟ (هیچ‌کدام = همه دوره‌ها)</legend>' + COURSES.map(function (c) { return '<label><input type="checkbox" name="c" value="' + esc(c.id) + '"> ' + esc(c.fa) + ' <small>(' + nf(c.price) + ' تومان)</small></label>'; }).join('') + '</fieldset><button class="au__go">ساخت کد</button></form>' +
+        '<p class="mg__muted">کاربر کد را در پنجره خرید (بخش «🎁 کد تخفیف») وارد می‌کند و مبلغ همان‌جا کم می‌شود. با «خاموش کن» کد فوراً از کار می‌افتد. کد دوستِ دعوت‌شده و کد تخفیف روی هم جمع نمی‌شوند؛ هر کدام بیشتر باشد اعمال می‌شود.</p>' +
+        '<table class="mg__t"><tr><th>کد</th><th>درصد</th><th>دوره‌ها</th><th>عنوان</th><th>تا</th><th>استفاده</th><th>وضعیت</th><th></th></tr>' + p.promos.map(function (r) {
+          return '<tr><td dir="ltr">' + esc(r.code) + '</td><td>' + nf(r.pct) + '٪</td><td>' + (r.courses ? esc(String(r.courses).split(',').map(CN).join('، ')) : 'همه') + '</td><td>' + esc(r.label || '') + '</td><td>' + (r.until_at ? dt(r.until_at) : '—') + '</td><td>' + nf(r.uses) + (r.max_uses ? ' / ' + nf(r.max_uses) : '') + '</td><td>' + (+r.active ? 'فعال' : 'خاموش') + '</td><td><button data-act="ptoggle" data-id="' + esc(r.code) + '">' + (+r.active ? 'خاموش کن' : 'روشن کن') + '</button></td></tr>';
         }).join('') + '</table>';
       $('#pf').addEventListener('submit', async function (e) {
         e.preventDefault();
-        var f = this, j = await api('m_promo_add', { code: f.code.value, pct: +f.pct.value, days: +f.days.value || 0, max: f.max.value, label: f.label.value, plans: f.plans.value.split(',').map(Number) });
+        var f = this, j = await api('m_promo_add', { code: f.code.value, pct: +f.pct.value, days: +f.days.value || 0, max: f.max.value, label: f.label.value, courses: Array.from(f.querySelectorAll('[name=c]:checked')).map(function (x) { return x.value; }) });
         toast(j.ok ? '✅ کد ساخته شد' : (ERR[j.err] || 'خطا')); if (j.ok) tab('promos');
       });
     }
@@ -118,14 +125,15 @@
       v.innerHTML = '<form class="mg__pf" id="uf"><input name="q" placeholder="جست‌وجو: ایمیل، موبایل، نام، شناسه یا کد معرف"><button class="au__go">جست‌وجو</button>' +
         '<a class="mg__dl" href="../api/?a=m_users_csv" download>⬇️ فهرست همه کاربران (Excel)</a></form>' +
         '<p class="mg__muted">هر ایمیل یا شماره موبایل فقط یک حساب می‌سازد (حتی با نوشتار متفاوت، مثل a.b@gmail.com و ab@gmail.com). هر حساب حداکثر روی ۲ دستگاه هم‌زمان باز می‌ماند.</p><div id="ul"></div>';
+      await loadCourses();
       var run = async function (q) {
         var u = await api('m_users', undefined, '&q=' + encodeURIComponent(q || '')); if (!u.ok) return;
         $('#ul').innerHTML = u.users.map(function (r) {
           return '<article class="mg__o"><header><b>' + esc(r.name) + '</b><span dir="ltr">' + esc(r.login) + (r.contact ? ' · ' + esc(r.contact) : '') + '</span></header><p>شناسه <code dir="ltr">' + esc(r.dev_id) + '</code> · کد معرف <code dir="ltr">' + esc(r.ref_code) + '</code> · عضویت ' + dt(r.created_at) + ' · آخرین ورود ' + dt(r.last_login) + '</p>' +
             '<p>👛 اعتبار: ' + nf(r.credit) + ' تومان' + (r.invited != null ? ' · 🤝 دعوت: ' + nf(r.invited) : '') + '</p>' +
-            (r.wallet ? '<p>❤️ ' + (r.wallet.unl ? '♾️ نامحدود تا ' + dt(r.wallet.ultUntil) : 'امروز ' + nf(r.wallet.left) + ' از ' + nf(r.wallet.daily) + ' · بسته ' + nf(r.wallet.bank) + (r.wallet.plan ? ' · اشتراک ' + esc(r.wallet.plan) + ' تا ' + dt(r.wallet.planUntil) : '')) +
-              ' <button data-act="gift" data-id="' + r.id + '">🎁 هدیه قلب / نامحدود</button></p>' : '') +
-            (r.licenses ? '<p>🔑 ' + (r.licenses.length ? r.licenses.map(function (l) { return TIER[l.tier] + ' (بیت ' + l.mask + ')' + (+l.life ? ' دائمی' : ' تا ' + new Date(+l.exp).toLocaleDateString('fa-IR')); }).join(' · ') : 'بدون اشتراک') + '</p>' : '') +
+            '<p>📚 دوره‌های خریده‌شده: ' + (r.owned && r.owned.length ? '<b>' + r.owned.map(CN).map(esc).join('، ') + '</b>' : 'هیچ') + '</p>' +
+            '<div class="mg__btns mg__own">' + COURSES.map(function (c) { var on = r.owned && r.owned.indexOf(c.id) >= 0; return '<button data-act="' + (on ? 'revoke' : 'grant') + '" data-id="' + r.id + '" data-c="' + esc(c.id) + '" class="' + (on ? 'is-on' : '') + '">' + (on ? '✓ ' : '+ ') + esc(c.fa) + '</button>'; }).join('') + '</div>' +
+            (r.licenses ? '<p>🔑 ' + (r.licenses.length ? r.licenses.map(function (l) { return TIER[l.tier] + ' (بیت ' + l.mask + ')' + (+l.life ? ' دائمی' : ' تا ' + new Date(+l.exp).toLocaleDateString('fa-IR')); }).join(' · ') : 'بدون کد فعال‌سازی') + '</p>' : '') +
             (r.orders && r.orders.length ? '<p>🧾 ' + r.orders.map(function (o) { return esc(o.order_code) + ' ' + nf(o.final_price) + ' (' + o.status + ')'; }).join(' · ') + '</p>' : '') + '</article>';
         }).join('') || '<p class="mg__muted">کاربری پیدا نشد.</p>';
       };

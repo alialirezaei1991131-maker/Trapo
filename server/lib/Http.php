@@ -48,7 +48,7 @@ final class Http
         if (self::https()) header('Strict-Transport-Security: max-age=31536000; includeSubDomains');
         if ($html) {
             $n = $nonce ? " 'nonce-$nonce'" : '';
-            header("Content-Security-Policy: default-src 'self'; script-src 'self' blob:$n; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob:; connect-src 'self'; frame-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'");
+            header("Content-Security-Policy: default-src 'self'; script-src 'self' blob:$n; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: blob: https://trustseal.enamad.ir; connect-src 'self'; frame-src 'self'; frame-ancestors 'self'; base-uri 'self'; form-action 'self'; object-src 'none'");
         } else {
             header("Content-Security-Policy: default-src 'none'; frame-ancestors 'none'");
         }

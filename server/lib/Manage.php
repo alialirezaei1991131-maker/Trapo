@@ -7,6 +7,12 @@ declare(strict_types=1);
  */
 final class Manage
 {
+    /** نام فارسی رشته و مقطع کاربران قدیمی (برای گزارش Excel) */
+    private const FIELDS = ['medicine' => 'پزشکی', 'nursing' => 'پرستاری', 'midwifery' => 'مامایی', 'pharmacy' => 'داروسازی', 'nutrition' => 'تغذیه',
+        'anesthesia' => 'هوشبری و اتاق عمل', 'lab' => 'علوم آزمایشگاهی', 'paramed' => 'سایر رشته‌های پیراپزشکی', 'records' => 'مدارک پزشکی', 'other' => 'سایر'];
+    private const DEGREES = ['bsc' => 'دانشجوی کارشناسی', 'msc' => 'دانشجوی ارشد', 'md' => 'دانشجوی دکترا / پزشکی عمومی', 'intern' => 'انترن',
+        'resident' => 'رزیدنت', 'grad' => 'فارغ‌التحصیل', 'staff' => 'کادر درمان', 'faculty' => 'عضو هیئت علمی'];
+
     public static function allowed(): bool
     {
         $allow = (array) Cfg::get('manage_ip_allow', []);
@@ -67,7 +73,7 @@ final class Manage
             $r['licenses'] = Db::all('SELECT tier, mask, dur, exp, life, created_at FROM licenses WHERE user_id = ?', [$r['id']]);
             $r['orders'] = Db::all('SELECT order_code, final_price, status, created_at FROM orders WHERE user_id = ? ORDER BY id DESC LIMIT 10', [$r['id']]);
             $r['invited'] = (int) Db::val('SELECT COUNT(*) FROM referrals WHERE referrer_id = ?', [$r['id']]);
-            $r['wallet'] = Hearts::state((int) $r['id']);
+            $r['owned'] = Shop::ownedCourses((int) $r['id']);
         }
         return $rows;
     }
@@ -77,7 +83,8 @@ final class Manage
         $rows = Db::all('SELECT u.id, u.name, u.login, u.contact, u.field, u.degree, u.dev_id, u.ref_code, u.credit, u.created_at, u.last_login, u.status, r.login AS ref_login,
             (SELECT COUNT(*) FROM orders o WHERE o.user_id = u.id AND o.status = ?) AS paid_n,
             (SELECT COALESCE(SUM(final_price), 0) FROM orders o WHERE o.user_id = u.id AND o.status = ?) AS paid_sum,
-            (SELECT COUNT(*) FROM referrals x WHERE x.referrer_id = u.id) AS invited
+            (SELECT COUNT(*) FROM referrals x WHERE x.referrer_id = u.id) AS invited,
+            (SELECT GROUP_CONCAT(p.course) FROM purchases p WHERE p.user_id = u.id) AS owned
             FROM users u LEFT JOIN users r ON r.id = u.referred_by ORDER BY u.id', ['paid', 'paid']);
         $now = (int) floor(microtime(true) * 1000);
         $cell = function ($v): string {
@@ -86,7 +93,7 @@ final class Manage
             return '"' . str_replace('"', '""', $v) . '"';
         };
         $out = "\xEF\xBB\xBF" . implode(',', array_map($cell, ['شناسه', 'نام', 'ایمیل یا موبایل (ورود)', 'راه تماس دوم', 'تاریخ ثبت‌نام', 'آخرین ورود',
-            'وضعیت', 'دعوت‌شده توسط', 'کد معرف', 'تعداد دعوت', 'اعتبار (تومان)', 'خرید پرداخت‌شده', 'جمع پرداخت (تومان)', 'اشتراک فعال', 'شناسه حساب', 'رشته', 'مقطع'])) . "\r\n";
+            'وضعیت', 'دعوت‌شده توسط', 'کد معرف', 'تعداد دعوت', 'اعتبار (تومان)', 'خرید پرداخت‌شده', 'جمع پرداخت (تومان)', 'دوره‌های خریده‌شده', 'کد فعال‌سازی فعال', 'شناسه حساب', 'رشته', 'مقطع'])) . "\r\n";
         foreach ($rows as $r) {
             $act = [];
             foreach (Db::all('SELECT tier, mask, exp, life FROM licenses WHERE user_id = ?', [$r['id']]) as $l) {
@@ -94,7 +101,7 @@ final class Manage
                 $act[] = ['', 'آموزشی', 'Pro', 'الماس'][(int) $l['tier']] . ' ' . ((int) $l['life'] === 1 ? 'دائمی' : 'تا ' . self::jdate((int) floor((int) $l['exp'] / 1000)));
             }
             $out .= implode(',', array_map($cell, [$r['id'], $r['name'], $r['login'], $r['contact'], self::jdate((int) $r['created_at']), $r['last_login'] ? self::jdate((int) $r['last_login']) : '',
-                $r['status'] === 'active' ? 'فعال' : 'غیرفعال', $r['ref_login'], $r['ref_code'], $r['invited'], $r['credit'], $r['paid_n'], $r['paid_sum'], implode(' | ', $act), $r['dev_id'], Rewards::FIELDS[$r['field'] ?? ''][0] ?? '', Rewards::DEGREES[$r['degree'] ?? ''][0] ?? ''])) . "\r\n";
+                $r['status'] === 'active' ? 'فعال' : 'غیرفعال', $r['ref_login'], $r['ref_code'], $r['invited'], $r['credit'], $r['paid_n'], $r['paid_sum'], implode('، ', array_map(fn($c) => Shop::courseName($c), array_filter(explode(',', (string) $r['owned'])))), implode(' | ', $act), $r['dev_id'], self::FIELDS[$r['field'] ?? ''] ?? ($r['field'] ?? ''), self::DEGREES[$r['degree'] ?? ''] ?? ($r['degree'] ?? '')])) . "\r\n";
         }
         Http::audit(null, 'm_users_csv', ['n' => count($rows)]);
         http_response_code(200);
@@ -104,6 +111,8 @@ final class Manage
         echo $out;
         exit;
     }
+    /** سال شمسی امروز (برای پانویس سایت) */
+    public static function jyear(): int { return (int) substr(self::jdate(time()), 0, 4); }
     /** تاریخ شمسی (به وقت تهران) برای گزارش‌ها: 1405/07/24 14:05 */
     public static function jdate(int $ts): string
     {
@@ -124,12 +133,14 @@ final class Manage
     {
         $code = strtoupper(preg_replace('/[^0-9A-Za-z-]/', '', Http::str($b, 'code', 24)));
         $pct = (int) ($b['pct'] ?? 0);
-        $plans = array_values(array_intersect([1, 2, 3], array_map('intval', (array) ($b['plans'] ?? [1, 2, 3]))));
+        // دوره‌هایی که کد رویشان اثر دارد (خالی = همه دوره‌ها)؛ پلن‌ها فقط برای سازگاری با کدهای قبلی ثبت می‌شوند
+        $courses = array_values(array_intersect(array_keys(Shop::bits()), array_map('strval', (array) ($b['courses'] ?? []))));
+        $plans = [1, 2, 3];
         $days = (int) ($b['days'] ?? 0); $max = isset($b['max']) && $b['max'] !== '' ? max(1, (int) $b['max']) : null;
-        if (strlen($code) < 3 || $pct < 1 || $pct > 70 || !$plans) Http::fail('bad_promo');
+        if (strlen($code) < 3 || $pct < 1 || $pct > 90) Http::fail('bad_promo');
         if (Db::val('SELECT 1 FROM promos WHERE code = ?', [$code]) || isset(((array) Cfg::get('promos', []))[$code])) Http::fail('promo_exists', 409);
-        Db::exec('INSERT INTO promos (code, pct, plans, until_at, max_uses, label, created_at) VALUES (?, ?, ?, ?, ?, ?, ?)',
-            [$code, $pct, implode(',', $plans), $days > 0 ? time() + $days * 86400 : null, $max, Http::str($b, 'label', 80), time()]);
+        Db::exec('INSERT INTO promos (code, pct, plans, until_at, max_uses, label, created_at, courses) VALUES (?, ?, ?, ?, ?, ?, ?, ?)',
+            [$code, $pct, implode(',', $plans), $days > 0 ? time() + $days * 86400 : null, $max, Http::str($b, 'label', 80), time(), $courses ? implode(',', $courses) : null]);
         Http::audit(null, 'promo_add', ['code' => $code, 'pct' => $pct]);
         return Db::one('SELECT * FROM promos WHERE code = ?', [$code]);
     }

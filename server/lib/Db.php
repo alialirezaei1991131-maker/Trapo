@@ -94,6 +94,11 @@ final class Db
         foreach (['field', 'degree'] as $col) { try { self::$pdo->exec("ALTER TABLE users ADD COLUMN $col $S NULL"); } catch (Throwable $e) { /* */ } } // رشته و مقطع
         self::$pdo->exec("CREATE TABLE IF NOT EXISTS heart_codes (code $S PRIMARY KEY, user_id $I NOT NULL, kind $S NOT NULL, amount $I NOT NULL, created_at $I NOT NULL)$E"); // کدهای قلب مصرف‌شده
         self::$pdo->exec("CREATE TABLE IF NOT EXISTS rewards (user_id $I NOT NULL, kind $S NOT NULL, hearts $I NOT NULL DEFAULT 0, created_at $I NOT NULL, PRIMARY KEY (user_id, kind))$E");
+        // خرید دائمی دوره‌ها (فروش دوره به‌جای قلب): هر ردیف = یک دوره برای همیشه روی حساب. جدول‌های قلب (wallets، heart_codes،
+        // rewards) فقط برای سازگاری با پایگاه داده‌های قبلی می‌مانند و هیچ داده‌ای از کاربران پاک نمی‌شود.
+        self::$pdo->exec("CREATE TABLE IF NOT EXISTS purchases (id $PK, user_id $I NOT NULL, course $S NOT NULL, order_id $I NULL, source $S NOT NULL DEFAULT 'order',
+            created_at $I NOT NULL, UNIQUE (user_id, course))$E");
+        try { self::$pdo->exec("ALTER TABLE promos ADD COLUMN courses $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ } // کد تخفیف فقط برای این دوره‌ها (خالی = همه)
         try {
             foreach (self::$pdo->query('SELECT id, login FROM users WHERE login_key IS NULL')->fetchAll() as $r) {
                 self::$pdo->prepare('UPDATE users SET login_key = ? WHERE id = ?')->execute([Auth::identityKey((string) $r['login']), $r['id']]);

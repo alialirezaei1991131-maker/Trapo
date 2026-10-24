@@ -5,7 +5,7 @@ declare(strict_types=1);
  * تحویل امن فایل‌های برنامه
  *  - فایل‌های اصلی برنامه (موتور، دوره‌ها، تصویرها) در private/app هستند و آدرس مستقیم ندارند
  *  - فقط کاربر واردشده آن‌ها را می‌گیرد؛ هر فایل با کلید جداگانه همان نشست (AES-256-GCM) رمزنگاری می‌شود
- *  - محتوای پولی فقط برای مشترکان: کاربر بدون اشتراک «نسخه پیش‌نمایش» (فقط درس رایگان، بدون پرونده‌ها) می‌گیرد
+ *  - محتوای پولی فقط برای خریداران دوره: کاربر بدون اشتراک «نسخه پیش‌نمایش» (فقط درس رایگان، بدون پرونده‌ها) می‌گیرد
  *    و حیطه‌های قفل ترمینو را اصلاً دریافت نمی‌کند
  */
 final class Content
@@ -22,8 +22,7 @@ final class Content
         $dir = self::dir();
         $full = $dir . '/' . $f;
         if (!is_file($full)) return null;
-        $hp = Hearts::paid((int) $u['id']); // خریدار قلب (اشتراک، بسته یا نامحدود) همه دوره‌ها را کامل می‌گیرد
-        $paid = function (string $course) use ($u, $hp): bool { return $hp || License::access((int) $u['id'], $course)['tier'] >= 1; };
+        $paid = fn(string $course): bool => License::access((int) $u['id'], $course)['tier'] >= 1; // خرید دائمی یا کد فعال‌سازی
         // حیطه‌های ترمینو: مقدمه (لِکسا) برای همه (پیش‌نمایش)، بقیه فقط برای مشترکان
         if (preg_match('~^courses/termino/([a-z]+)(-img|\.en)?\.js$~', $f, $m)) {
             if ($paid('termino')) return $full;
@@ -34,7 +33,7 @@ final class Content
             return is_file($pv) ? $pv : null;
         }
         // فایل دوره‌های تک: بدون اشتراک ← نسخه پیش‌نمایش؛ اگر پیش‌نمایش ساخته نشده باشد هیچ (هرگز نسخه کامل)
-        if (preg_match('~^courses/data-([a-z0-9]+)\.js$~', $f, $m) && isset(((array) Cfg::get('course_bits', []))[$m[1]]) && $m[1] !== 'termino') {
+        if (preg_match('~^courses/data-([a-z0-9]+)\.js$~', $f, $m) && isset(Shop::bits()[$m[1]]) && $m[1] !== 'termino') {
             if ($paid($m[1])) return $full;
             $pv = $dir . '/courses/data-' . $m[1] . '.preview.js';
             return is_file($pv) ? $pv : null;
@@ -68,12 +67,11 @@ final class Content
         return null;
     }
 
-    /** همان قاعده برنامه: الماس، یا اشتراک فعال در حداقل ۲ دوره */
+    /** همان قاعده برنامه: کد قدیمی الماس، یا خرید حداقل ۲ دوره */
     public static function grandAllowed(int $uid): bool
     {
-        if (Hearts::paid($uid)) return true; // با قلب: هر کیس ۳ قلب
         $n = 0;
-        foreach (array_keys((array) Cfg::get('course_bits', [])) as $c) {
+        foreach (array_keys(Shop::bits()) as $c) {
             $t = License::access($uid, (string) $c)['tier'];
             if ($t >= 3) return true;
             if ($t >= 1 && ++$n >= 2) return true;

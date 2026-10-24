@@ -277,7 +277,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
       <section class="land__sec">
         <h2>${T('همه چیزهایی که یک بازی خوب لازم دارد', 'Everything a great game needs')}</h2>
         <div class="land__feat">${[
-          ['❤️', T('قلب‌ها', 'Hearts'), T('هر اشتباه یک قلب؛ با تمرین برمی‌گردد', 'Each mistake costs a heart; practice wins it back')],
+          ['🎯', T('هدف روزانه', 'Daily goal'), T('هر روز هدفت را کامل کن و پیشرفتت را ببین', 'Hit your goal every day and watch your progress grow')],
           ['🔥', T('زنجیره روزانه', 'Daily streak'), T('هر روز چند دقیقه، آتشت روشن می‌ماند', 'A few minutes a day keeps your flame burning')],
           ['🏆', T('لیگ هفتگی', 'Weekly league'), T(`${fa(30)} نفر در هر گروه، از برنز تا الماس`, `${fa(30)} players per group, from Bronze to Diamond`)],
           ['🧮', T('تفسیرگر ABG', 'ABG interpreter'), T('و پنج ابزار دیگر با راه‌حل گام‌به‌گام', 'plus five more tools with step-by-step solutions')],

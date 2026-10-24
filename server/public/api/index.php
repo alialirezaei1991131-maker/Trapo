@@ -12,15 +12,15 @@ Http::securityHeaders();
 
 $a = preg_replace('/[^a-z_]/', '', (string) ($_GET['a'] ?? ''));
 $post = ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST';
-$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order', 'spend', 'quest', 'profile', 'social_open', 'social_claim',
-             'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle', 'm_gift'];
+$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order',
+             'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle', 'm_grant', 'm_revoke'];
 if (in_array($a, $needPost, true) && !$post) Http::fail('method', 405);
 
 /** وضعیت کامل حساب برای برنامه */
 function mePayload(array $u, array $s): array
 {
     return ['ok' => true, 'user' => ['name' => $u['name'], 'login' => $u['login'], 'dev' => $u['dev_id'], 'ref' => $u['ref_code'], 'since' => (int) $u['created_at']],
-            'csrf' => $s['csrf'], 'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wallet' => Hearts::state((int) $u['id']), 'rewards' => Rewards::state($u)];
+            'csrf' => $s['csrf'], 'codes' => License::codes((int) $u['id']), 'owned' => Shop::ownedCourses((int) $u['id']), 'referral' => Shop::referral($u)];
 }
 
 try {
@@ -50,8 +50,8 @@ try {
         case 'redeem': {
             Auth::requireCsrf(); $u = Auth::requireUser(); $b = Http::body();
             $raw = Http::str($b, 'code', 200);
-            // کد قلب (TRH1): قلب، نامحدود یا اشتراک روزانه مستقیم به کیف قلب
-            if (strpos(preg_replace('/[^0-9A-Z]/', '', strtoupper($raw)), 'TRH1') === 0) { Http::limit('redeem|' . $u['id'], 12, 3600); Http::json(['ok' => true, 'heart' => Hearts::redeemCode($u, $raw)]); }
+            // کدهای قلب (TRH1) دیگر فروخته نمی‌شوند
+            if (strpos(preg_replace('/[^0-9A-Z]/', '', strtoupper($raw)), 'TRH1') === 0) Http::fail('code_heart');
             $g = License::redeem($u, $raw);
             Http::json(['ok' => true, 'grant' => $g, 'codes' => License::codes((int) $u['id'])]);
         }
@@ -66,17 +66,6 @@ try {
         case 'progress': { $u = Auth::requireUser(); Http::json(['ok' => true, 'items' => Progress::get($u)]); }
         case 'progress_put': { Auth::requireCsrf(); $u = Auth::requireUser(); $b = Http::body(); Http::json(['ok' => true, 'saved' => Progress::put($u, (array) ($b['items'] ?? []))]); }
 
-        /* ---------- کیف قلب ---------- */
-        case 'wallet': { $u = Auth::requireUser(); Http::json(['ok' => true, 'wallet' => Hearts::state((int) $u['id']), 'rewards' => Rewards::state($u)]); }
-        /* ---------- مأموریت روزانه و جایزه‌ها (قلب هدیه) ---------- */
-        case 'quest': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('quest|' . $u['id'], 60, 3600); Http::json(['ok' => true, 'wallet' => Hearts::questClaim((int) $u['id'], Http::str(Http::body(), 'id', 20))]); }
-        case 'profile': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('profile|' . $u['id'], 30, 3600); Http::json(['ok' => true] + Rewards::saveProfile($u, Http::body())); }
-        case 'social_open': { Auth::requireCsrf(); $u = Auth::requireUser(); Rewards::socialOpen($u, Http::str(Http::body(), 'net', 20)); Http::json(['ok' => true]); }
-        case 'social_claim': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('social|' . $u['id'], 30, 3600); Http::json(['ok' => true] + Rewards::socialClaim($u, Http::str(Http::body(), 'net', 20))); }
-        case 'spend': {
-            Auth::requireCsrf(); $u = Auth::requireUser(); Http::limit('spend|' . $u['id'], 1500, 3600); $b = Http::body();
-            Http::json(['ok' => true, 'wallet' => Hearts::spend((int) $u['id'], (array) ($b['ev'] ?? []))]);
-        }
 
         /* ---------- خرید، تخفیف و معرف ---------- */
         case 'quote': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::json(['ok' => true] + Shop::quote($u, Http::body())); }
@@ -93,7 +82,10 @@ try {
         case 'm_users': { Manage::require(); Http::json(['ok' => true, 'users' => Manage::users((string) ($_GET['q'] ?? ''))]); }
         case 'm_users_csv': { Manage::require(); Manage::usersCsv(); }
         case 'm_trace': { Manage::require(); $f = Content::wmFind((string) ($_GET['tag'] ?? '')); Http::audit(null, 'm_trace', ['found' => (bool) $f]); Http::json(['ok' => true, 'user' => $f]); }
-        case 'm_gift': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(['ok' => true, 'wallet' => Hearts::gift((int) ($b['uid'] ?? 0), (int) ($b['hearts'] ?? 0), (int) ($b['ult_days'] ?? 0))]); }
+        /* باز کردن یا بستن دستی یک دوره روی حساب کاربر (هدیه، پرداخت بیرون از سایت، خریداران قبلی) */
+        case 'm_grant': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); $uid = (int) ($b['uid'] ?? 0); if (!Db::val('SELECT 1 FROM users WHERE id = ?', [$uid])) Http::fail('no_user', 404); Shop::grant($uid, Http::str($b, 'course', 20), null, 'admin'); Http::json(['ok' => true, 'owned' => Shop::ownedCourses($uid)]); }
+        case 'm_revoke': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); $uid = (int) ($b['uid'] ?? 0); Shop::revoke($uid, Http::str($b, 'course', 20)); Http::json(['ok' => true, 'owned' => Shop::ownedCourses($uid)]); }
+        case 'm_courses': { Manage::require(); Http::json(['ok' => true, 'courses' => array_map(fn($id) => ['id' => $id, 'fa' => Shop::courseName($id), 'price' => Shop::coursePrice($id)], array_keys(Shop::bits()))]); }
         case 'm_promos': { Manage::require(); Http::json(['ok' => true, 'promos' => Manage::promos()]); }
         case 'm_paid': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(['ok' => true] + Shop::markPaid(Http::str($b, 'order', 20), Http::str($b, 'note', 300))); }
         case 'm_cancel': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Shop::cancel(Http::str($b, 'order', 20)); Http::json(['ok' => true]); }

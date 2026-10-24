@@ -3,13 +3,13 @@
 (function () {
   'use strict';
   var EN = {
-    brand: 'Therapo', navCourses: 'Courses', navPrice: 'Plans', navFaq: 'FAQ', install: 'Install app', login: 'Sign in', register: 'Create free account',
+    brand: 'Therapo', navCourses: 'Courses', navPrice: 'Prices', navFaq: 'FAQ', install: 'Install app', login: 'Sign in', register: 'Create free account',
     kicker: 'Clinical training academy · for students and healthcare staff',
     h1: 'Learn clinical skills with three-minute lessons and realistic patients',
-    lead: 'Electrolyte correction, blood gas interpretation, the nutrition-focused exam and medical terminology — short, interactive and practical for the ward, on-call and exams. With a completion certificate.',
+    lead: 'Electrolyte correction, blood gas interpretation, the nutrition-focused exam, medical terminology and ECG interpretation — short, interactive and practical for the ward, on-call and exams. With a completion certificate.',
     ctaStart: 'Sign up free & start', ctaCourses: 'See the courses',
     nCourses: 'specialist courses', nLessons: 'short lessons', nQ: 'questions & steps', nCases: 'clinical cases',
-    joinT: 'Start free', tag: 'Sign up in under a minute · first lessons of every course free',
+    joinT: 'Start free', tag: 'Sign up in under a minute · first lesson of every course free',
     name: 'Full name (printed on certificates)', loginLbl: 'Email or mobile number', contactLbl: 'Second contact: mobile or email (optional)',
     pass: 'Password', ref: 'Referral code (optional)', goLogin: 'Sign in', goRegister: 'Create account & start',
     terms: 'Signing up unlocks the first lesson of every course for free. One account per email or mobile number — keep your password somewhere safe.',
@@ -18,12 +18,12 @@
     cT: 'Every course, one clear path', cS: 'Each course has worlds and levels: a few three-minute lessons a day, realistic patients, clinical tools and calculators, then a final exam and certificate.',
     for: 'For', wT: 'Why Therapo?',
     w1t: '⏱️ Three-minute lessons', w1: 'Fits between shifts or on the way — a little every day, consistently.',
-    w2t: '🏥 Realistic patients', w2: '272 clinical cases with labs, blood gases and images — like a ward round.',
+    w2t: '🏥 Realistic patients', w2: '290 clinical cases with labs, blood gases, ECGs and images — like a ward round.',
     w3t: '🧮 Clinical tools & calculators', w3: '22 tools: sodium deficit, potassium and magnesium dosing, anion gap, P/F and more.',
     w4t: '🚨 Combined ICU cases', w4: 'Critically ill patients who need electrolytes, blood gases and nutrition at once.',
     w5t: '🎓 Completion certificate', w5: 'Pass the final exam to get a certificate with your name and a tracking code.',
     w6t: '📱 On every device', w6: 'Phone, tablet, laptop — installable like an app, with progress tied to your account.',
-    sT: 'Start in three steps', s1: 'Sign up free (email or mobile number).', s2: 'Pick your course and start the free lessons.', s3: 'Buying hearts (a daily plan, a pack or Ultimate) unlocks every lesson, case, tool and certificate.',
+    sT: 'Start in three steps', s1: 'Sign up free (email or mobile number).', s2: 'Pick your course and try the first lesson free.', s3: 'If you like it, buy the course once — every lesson, case, tool and the certificate stay open for good.',
     fT: 'Frequently asked questions', endT: 'Start your first lesson today',
     foot: 'Therapo is an educational tool and does not replace clinical judgment or a physician’s orders.', wait: 'Please wait…'
   };
