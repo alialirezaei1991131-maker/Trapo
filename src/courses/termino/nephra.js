@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «nephra» (Urinary System: Kidneys and Urinary Tract)
+/* Therapo • ترمینو — حیطه «nephra» (Urinary System: Kidneys and Urinary Tract)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_nephra;

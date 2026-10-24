@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «hormona» (Endocrine System)
+/* Therapo • ترمینو — حیطه «hormona» (Endocrine System)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_hormona;

@@ -1,4 +1,4 @@
-/* تراپو — دوره «ترمینو» (ترمینولوژی پزشکی): یک دوره در صفحه اول، ۱۵ حیطه درون آن
+/* Therapo — دوره «ترمینو» (ترمینولوژی پزشکی): یک دوره در صفحه اول، ۱۵ حیطه درون آن
  * این فایل سبک است و فقط فهرست حیطه‌ها، کیت مشترک و سبک‌ها را ثبت می‌کند؛ محتوای هر حیطه
  * (courses/termino/<حیطه>.js) هنگام ورود به همان حیطه بارگذاری می‌شود.
  * «لِکسا» (مقدمه ترمینولوژی) پیش‌نیاز همه حیطه‌های دیگر است؛ همه حیطه‌ها با خرید همین دوره (bitFlag 8) باز می‌شوند. */
@@ -6,7 +6,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 window.ACADEMY_SUBCOURSES = window.ACADEMY_SUBCOURSES || {};
 (function (AC, SUB) {
   /* =====================================================================
-     کیت مشترک ترمینولوژی: پیکربندی موتور مشترک تراپو را از EA.APP هر حیطه می‌سازد
+     کیت مشترک ترمینولوژی: پیکربندی موتور مشترک Therapo را از EA.APP هر حیطه می‌سازد
      (صفحه معرفی، آشنایی، تمرین، گواهی، نشان‌ها، راند بالینی و برچسب سؤال‌های واژه‌نامه).
      هر متن ثابت رابط دوزبانه است؛ متن‌های اختصاصی هر حیطه از EA.APP و ترجمه‌اش از EA.APP.en می‌آید.
      ===================================================================== */
@@ -111,7 +111,7 @@ window.ACADEMY_SUBCOURSES = window.ACADEMY_SUBCOURSES || {};
         cert: function (s) {
           const ws = EA.worlds.map(w => w.name);
           return {
-            kicker: `<small class="cert__kicker">${A.certKicker || T(`${M.nameFa} • آکادمی ترمینولوژی پزشکی تراپو`, `${M.nameEn} • Therapo Medical Terminology Academy`)}</small>`,
+            kicker: `<small class="cert__kicker">${A.certKicker || T(`${M.nameFa} • آکادمی ترمینولوژی پزشکی Therapo`, `${M.nameEn} • Therapo Medical Terminology Academy`)}</small>`,
             body: `<p>${T(`دوره آموزشی <b>${A.subject}</b> شامل ${ws.slice(0, -1).join('، ')}، و ${ws[ws.length - 1]} را با موفقیت به پایان رساند و در امتحان نهایی نمره <b>${fa(Math.round(s.final.score * 100))}٪</b> کسب کرد.`, `has successfully completed the course <b>${AT('subject')}</b>, covering ${ws.slice(0, -1).join(', ')} and ${ws[ws.length - 1]}, scoring <b>${fa(Math.round(s.final.score * 100))}%</b> on the final exam.`)}</p>`
           };
         },

@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-/* تراپو — robots.txt و sitemap.xml برای موتورهای جست‌وجو (نشانی سایت از base_url در config.php) */
+/* Therapo — robots.txt و sitemap.xml برای موتورهای جست‌وجو (نشانی سایت از base_url در config.php) */
 $trapoRoot = dirname(__DIR__);
 if (!is_file($trapoRoot . '/lib/bootstrap.php') && is_file($trapoRoot . '/trapo_app/lib/bootstrap.php')) $trapoRoot .= '/trapo_app';
 require $trapoRoot . '/lib/bootstrap.php';

@@ -1,5 +1,5 @@
 <?php
-/* تراپو — منابع هر دوره برای صفحه معرفی دوره در سایت (همان فهرست refs فایل‌های دوره در برنامه) */
+/* Therapo — منابع هر دوره برای صفحه معرفی دوره در سایت (همان فهرست refs فایل‌های دوره در برنامه) */
 return [
     'yona' => [
         'Rose BD, Post TW. Clinical Physiology of Acid-Base and Electrolyte Disorders. 5th ed. New York: McGraw-Hill; 2001.',

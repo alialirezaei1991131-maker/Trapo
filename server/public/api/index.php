@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 /*
- * تراپو — API سرور:  /api/?a=<کار>
+ * Therapo — API سرور:  /api/?a=<کار>
  * هر درخواست تغییردهنده: فقط POST + Origin همین سایت + سربرگ X-CSRF نشست.
  */
 // پوشه برنامه (lib، private، data، config.php) بیرون از وب: کنار پوشه وب، یا در «trapo_app» کنار آن (چیدمان cPanel با .cpanel.yml)

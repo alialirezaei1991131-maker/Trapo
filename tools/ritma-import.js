@@ -1,12 +1,12 @@
 #!/usr/bin/env node
 /*
- * تراپو — ساخت دوره «ریتما» (تفسیر نوار قلب) از نسخه مستقل آن (ritma.html)
+ * Therapo — ساخت دوره «ریتما» (تفسیر نوار قلب) از نسخه مستقل آن (ritma.html)
  *   node tools/ritma-import.js <path/to/ritma.html>
  *
  * ریتما با همان موتور حیطه‌های ترمینو ساخته شده (واژه‌نامه، تجزیه‌گر، کارت لایتنر، راند بالینی)؛ پس:
  *  - ماژول‌های محتوا (core, config, terms, lexicon, art, worlds, chars, rounds, tips) بدون تغییر در content() می‌آیند
  *  - کارت‌ها و ابزارها (cards, tools) در tools() می‌آیند
- *  - موتور خود نسخه مستقل (audio, state, ui, runner, shell) کنار گذاشته می‌شود؛ موتور مشترک تراپو جای آن است
+ *  - موتور خود نسخه مستقل (audio, state, ui, runner, shell) کنار گذاشته می‌شود؛ موتور مشترک Therapo جای آن است
  *  - پیکربندی (صفحه معرفی، آشنایی، تمرین، گواهی، نشان‌ها) از کیت مشترک ترمینو (AC.termino.kit) ساخته می‌شود
  *
  * خروجی:
@@ -49,7 +49,7 @@ const imgM = html.match(/<script>window\.EA=window\.EA\|\|\{\};window\.EA\.IMG=(
 if (!imgM) { console.error('no image block'); process.exit(1); }
 const styleM = html.match(/<style>([\s\S]*?)<\/style>/);
 
-/* ---------- ۲. سبک‌های اختصاصی ریتما (فقط قاعده‌هایی که در پوسته تراپو و سبک مشترک ترمینو نیستند) ---------- */
+/* ---------- ۲. سبک‌های اختصاصی ریتما (فقط قاعده‌هایی که در پوسته Therapo و سبک مشترک ترمینو نیستند) ---------- */
 function rules(css) {
   // قاعده‌های سطح بالا؛ بلوک‌های @media/@supports با قاعده‌های درونی‌شان
   css = css.replace(/\/\*[\s\S]*?\*\//g, '');
@@ -75,7 +75,7 @@ learn(rules(fs.readFileSync(path.join(ROOT, 'src', 'css', 'styles.css'), 'utf8')
   const m = t.match(/\n    css: ("(?:[^"\\]|\\.)*"),\n/);
   if (m) learn(rules(JSON.parse(m[1])));
 }
-// متغیرهای رنگ و پایه صفحه را پوسته تراپو می‌دهد؛ این قاعده‌ها هرگز آورده نمی‌شوند
+// متغیرهای رنگ و پایه صفحه را پوسته Therapo می‌دهد؛ این قاعده‌ها هرگز آورده نمی‌شوند
 const SKIP = /^(:root|html|body|\*|\.app\b|\.side\b|\.main\b|\.top\b|\.rail\b|\.bnav\b|\.view\b|@font-face|@keyframes)/;
 function pick(list) {
   const keep = [];
@@ -96,14 +96,14 @@ const CSS = styleM ? pick(rules(styleM[1])).join('\n') : '';
 /* ---------- ۳. اجرای محتوا در Node برای آمار، کاتالوگ و نسخه پیش‌نمایش ---------- */
 const CONTENT_MODS = ['engine/core', 'config', 'terms', 'lexicon', 'art'];
 const SHIM = `
-/* ریتما در تراپو: قالب نشان‌ها و متن‌های صفحه معرفی برای کیت مشترک ترمینو */
+/* ریتما در Therapo: قالب نشان‌ها و متن‌های صفحه معرفی برای کیت مشترک ترمینو */
 (function (EA) {
   const A = EA.APP;
   if (A.firstBadge && !Array.isArray(A.firstBadge)) A.firstBadge = [A.firstBadge.icon, A.firstBadge.name];
   Object.keys(A.worldBadges || {}).forEach(k => { const b = A.worldBadges[k]; if (b && !Array.isArray(b)) A.worldBadges[k] = [b.icon, b.name]; });
   A.landP = () => A.hello;
   A.landH = 'هر نوار قلب<br><em>یک داستان است</em>';
-  A.certKicker = 'ریتما • آکادمی تفسیر نوار قلب تراپو';
+  A.certKicker = 'ریتما • آکادمی تفسیر نوار قلب Therapo';
   A.finalBadge = 'استاد نوار قلب';
   A.stepRounds = 'راند بالینی: نوار و پرونده بیمار را بخوان، تشخیص بده و اصول اقدام اولیه را انتخاب کن.';
   A.obRoles = [['دانشجوی پزشکی', ''], ['دانشجوی پرستاری', ''], ['پرستار بخش، CCU یا ICU', ''], ['فوریت‌های پزشکی و اورژانس', ''], ['پزشک یا رزیدنت', ''], ['سایر', '']];
@@ -164,7 +164,7 @@ const J = x => JSON.stringify(x);
 const unitRun = '/([−≈+]?[\\d۰-۹][\\d۰-۹٫.,]*(?:\\s?[×÷=+−-]\\s?[\\d۰-۹][\\d۰-۹٫.,]*)*\\s?(?:mm\\/s|mm\\/mV|mEq\\/L|mg\\/dL|mmHg|mm Hg|bpm|msec|ms|mV|mm|sec|s|\\/min)(?![A-Za-z]))/g';
 
 function courseFile(content, preview) {
-  return `/* تراپو — دوره «ریتما» (تفسیر نوار قلب ECG/EKG)
+  return `/* Therapo — دوره «ریتما» (تفسیر نوار قلب ECG/EKG)
  * ساخته‌شده خودکار با tools/ritma-import.js از نسخه مستقل ریتما؛ دستی ویرایش نکنید (فایل را دوباره بسازید).
  * این فایل فقط دوره را در window.ACADEMY_COURSES ثبت می‌کند؛ محتوا هنگام ورود به دوره اجرا می‌شود.
  *   content(): ماژول‌های محتوایی ریتما (هسته، پیکربندی، واژه‌نامه، شکل‌ها، دنیاها، کاراکترها، راند بالینی، نکته‌ها) بدون تغییر
@@ -258,7 +258,7 @@ const preview = head + pvBlock + '\n' + MODS.chars + '\n' + MODS.tips;
 
 fs.writeFileSync(path.join(OUT, 'data-ritma.js'), courseFile(full, false));
 fs.writeFileSync(path.join(OUT, 'data-ritma.preview.js'), courseFile(preview, true));
-fs.writeFileSync(path.join(OUT, 'data-ritma-img.js'), `/* تراپو — نوارها و شکل‌های دوره «ریتما» (webp، درون فایل برای اجرای آفلاین)
+fs.writeFileSync(path.join(OUT, 'data-ritma-img.js'), `/* Therapo — نوارها و شکل‌های دوره «ریتما» (webp، درون فایل برای اجرای آفلاین)
  * جدا از data-ritma.js تا صفحه اول و دوره‌های دیگر این حجم را بارگذاری نکنند؛ فقط هنگام ورود به ریتما می‌آید. */
 window.ACADEMY_COURSES.ritma.IMG = ${imgM[1]};
 `);

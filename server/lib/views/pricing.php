@@ -1,5 +1,5 @@
 <?php
-/* تراپو — بخش «قیمت دوره‌ها» و پانویس صفحه معرفی و صفحه هر دوره (عددها از Shop::catalog، همان قیمت‌هایی که سرور حساب می‌کند) */
+/* Therapo — بخش «قیمت دوره‌ها» و پانویس صفحه معرفی و صفحه هر دوره (عددها از Shop::catalog، همان قیمت‌هایی که سرور حساب می‌کند) */
 /** نشانی فایل ثابت با نسخه (زمان فایل)؛ بعد از هر به‌روزرسانی مرورگر و Service Worker حتماً فایل تازه را می‌گیرند */
 function trapo_asset(string $f): string
 {
@@ -83,8 +83,8 @@ function trapo_footer_html(callable $esc): string
     $badge = $E['id'] && $E['code'] ? '<a class="lp-enamad" referrerpolicy="origin" target="_blank" rel="noopener" href="https://trustseal.enamad.ir/?id=' . $esc($E['id']) . '&amp;Code=' . $esc($E['code']) . '" title="نماد اعتماد الکترونیکی">'
         . '<img referrerpolicy="origin" src="https://trustseal.enamad.ir/logo.aspx?id=' . $esc($E['id']) . '&amp;Code=' . $esc($E['code']) . '" alt="نماد اعتماد الکترونیکی" width="125" height="136" loading="lazy" style="cursor:pointer" code="' . $esc($E['code']) . '"></a>' : '';
     return '<footer class="lp-foot"><div class="lp-foot__in"><div class="lp-foot__t">'
-        . '<p data-t="foot">تراپو ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p>'
-        . '<p class="lp-foot__c">© ' . $L($y, date('Y')) . ' ' . $L('تمامی حقوق مادی و معنوی این سایت متعلق به تراپو است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.', 'Therapo — all rights reserved. Copying any part of the content is prohibited.') . '</p>'
+        . '<p data-t="foot">Therapo ابزار آموزشی است و جایگزین قضاوت بالینی یا دستور پزشک نیست.</p>'
+        . '<p class="lp-foot__c">© ' . $L($y, date('Y')) . ' ' . $L('تمامی حقوق مادی و معنوی این سایت متعلق به Therapo است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.', 'Therapo — all rights reserved. Copying any part of the content is prohibited.') . '</p>'
         . trapo_contact_html($esc)
         . '<nav class="lp-foot__nav"><a href="./#courses">' . $L('دوره‌ها', 'Courses') . '</a><a href="./#pricing">' . $L('قیمت‌ها', 'Prices') . '</a><a href="./#faq">' . $L('سؤال‌های رایج', 'FAQ') . '</a></nav>'
         . '</div>' . $badge . '</div></footer>';

@@ -6,8 +6,8 @@ $base = rtrim((string) Cfg::get('base_url', ''), '/');
 require_once TRAPO_ROOT . '/lib/views/pricing.php';
 require_once TRAPO_ROOT . '/lib/views/scenes.php';
 $fd = (int) ($R['friend_discount_pct'] ?? 0);
-$title = 'تراپو | آموزش بالینی الکترولیت، گاز خون، تغذیه بالینی، ترمینولوژی پزشکی و نوار قلب';
-$desc = 'تراپو آکادمی آموزش بالینی برای دانشجویان پزشکی، پرستاری و تغذیه: اصلاح الکترولیت، تفسیر گاز خون (ABG)، معاینه تغذیه‌محور (NFPE)، ترمینولوژی پزشکی و تفسیر نوار قلب (ECG) با ۹۹۹ درس کوتاه، ۲۹۰ کیس بالینی و گواهی پایان دوره. درس اول هر دوره رایگان، هر دوره با یک بار خرید برای همیشه.';
+$title = 'Therapo | آموزش بالینی الکترولیت، گاز خون، تغذیه بالینی، ترمینولوژی پزشکی و نوار قلب';
+$desc = 'Therapo آکادمی آموزش بالینی برای دانشجویان پزشکی، پرستاری و تغذیه: اصلاح الکترولیت، تفسیر گاز خون (ABG)، معاینه تغذیه‌محور (NFPE)، ترمینولوژی پزشکی و تفسیر نوار قلب (ECG) با ۹۹۹ درس کوتاه، ۲۹۰ کیس بالینی و گواهی پایان دوره. درس اول هر دوره رایگان، هر دوره با یک بار خرید برای همیشه.';
 $courses = [
     ['yona', 'یونا', 'Yona', 'اصلاح اختلالات الکترولیت', 'Electrolyte disorders', '#58cc02',
      'سدیم، پتاسیم، کلسیم، منیزیم و فسفر را مثل یک پزشک کشیک اصلاح کن: فرمول‌ها، پروتکل‌ها، مسئله‌های محاسباتی تازه و ماشین‌حساب بالینی.',
@@ -31,10 +31,10 @@ $courses = [
      'دانشجوی پزشکی و پرستاری، پرستار CCU، ICU و اورژانس، فوریت‌های پزشکی، کارورز و رزیدنت', 'Medical and nursing students, CCU/ICU/ER nurses, paramedics, interns and residents'],
 ];
 $faq = [
-    ['تراپو برای چه کسانی است؟', 'Who is Therapo for?',
+    ['Therapo برای چه کسانی است؟', 'Who is Therapo for?',
      'برای دانشجویان و فارغ‌التحصیلان پزشکی، پرستاری، مامایی، داروسازی، تغذیه و پیراپزشکی، و کادر درمان بخش‌های ICU و اورژانس که می‌خواهند مهارت‌های بالینی را سریع و کاربردی تمرین کنند.',
      'Students and graduates of medicine, nursing, midwifery, pharmacy, nutrition and allied health, and ICU/ER staff who want fast, practical clinical practice.'],
-    ['آیا استفاده از تراپو رایگان است؟', 'Is Therapo free?',
+    ['آیا استفاده از Therapo رایگان است؟', 'Is Therapo free?',
      'ثبت‌نام رایگان است و درس اول هر دوره را رایگان می‌بینی تا با روش آموزش آشنا شوی. برای باز شدن همه درس‌ها، کیس‌ها، ابزارها، امتحان نهایی و گواهی، همان دوره را یک بار می‌خری و برای همیشه در دسترست می‌ماند.',
      'Signing up is free and the first lesson of every course is free so you can get to know the method. To open every lesson, case, tool, the final exam and the certificate, you buy that course once and keep it for good.'],
     ['قیمت دوره‌ها چقدر است و چطور می‌خرم؟', 'How much are the courses and how do I buy?',
@@ -47,7 +47,7 @@ $faq = [
      'هر درس حدود سه دقیقه است: یک کارت آموزشی کوتاه، سؤال‌های تعاملی و در پایان هر بخش، بیمار واقعی‌نما و آزمون مرحله.',
      'About three minutes: a short teaching card and interactive questions, with realistic patients and a stage test at the end of each section.'],
     ['روی گوشی هم کار می‌کند؟', 'Does it work on my phone?',
-     'بله. تراپو روی گوشی، تبلت، لپ‌تاپ و دسکتاپ اجرا می‌شود و می‌توانی آن را مثل یک اپ روی صفحه اصلی نصب کنی. پیشرفتت با ورود به حساب روی همه دستگاه‌ها همراهت است.',
+     'بله. Therapo روی گوشی، تبلت، لپ‌تاپ و دسکتاپ اجرا می‌شود و می‌توانی آن را مثل یک اپ روی صفحه اصلی نصب کنی. پیشرفتت با ورود به حساب روی همه دستگاه‌ها همراهت است.',
      'Yes — phone, tablet, laptop and desktop, and you can install it like an app on your home screen. Your progress follows your account to every device.'],
     ['گواهی پایان دوره می‌دهد؟', 'Do I get a certificate?',
      'بله. با قبولی در امتحان نهایی هر دوره، گواهی پایان دوره با نام تو و کد پیگیری صادر می‌شود.',
@@ -56,9 +56,9 @@ $faq = [
 $ld = [
     '@context' => 'https://schema.org',
     '@graph' => [
-        ['@type' => 'EducationalOrganization', '@id' => $base . '/#org', 'name' => 'تراپو', 'alternateName' => 'Therapo', 'url' => $base . '/', 'logo' => $base . '/appicons/icon-512.png', 'description' => $desc],
-        ['@type' => 'WebSite', '@id' => $base . '/#site', 'name' => 'تراپو', 'url' => $base . '/', 'inLanguage' => 'fa-IR', 'publisher' => ['@id' => $base . '/#org']],
-        ['@type' => 'ItemList', 'name' => 'دوره‌های تراپو', 'itemListElement' => array_map(function ($c, $i) use ($base) {
+        ['@type' => 'EducationalOrganization', '@id' => $base . '/#org', 'name' => 'Therapo', 'alternateName' => 'تراپو', 'url' => $base . '/', 'logo' => $base . '/appicons/icon-512.png', 'description' => $desc],
+        ['@type' => 'WebSite', '@id' => $base . '/#site', 'name' => 'Therapo', 'url' => $base . '/', 'inLanguage' => 'fa-IR', 'publisher' => ['@id' => $base . '/#org']],
+        ['@type' => 'ItemList', 'name' => 'دوره‌های Therapo', 'itemListElement' => array_map(function ($c, $i) use ($base) {
             return ['@type' => 'ListItem', 'position' => $i + 1, 'url' => $base . '/course/' . $c[0], 'item' => ['@type' => 'Course', 'name' => $c[1] . ' · ' . $c[3], 'description' => $c[6], 'inLanguage' => 'fa', 'url' => $base . '/course/' . $c[0], 'offers' => trapo_offers($base . '/course/' . $c[0], $c[0]),
                 'provider' => ['@id' => $base . '/#org'], 'educationalLevel' => 'Professional', 'hasCourseInstance' => ['@type' => 'CourseInstance', 'courseMode' => 'online']]];
         }, $courses, array_keys($courses))],
@@ -76,7 +76,7 @@ $ld = [
 <link rel="canonical" href="<?= $esc($base) ?>/">
 <meta name="theme-color" content="#12b3a8">
 <meta property="og:type" content="website">
-<meta property="og:site_name" content="تراپو">
+<meta property="og:site_name" content="Therapo">
 <meta property="og:locale" content="fa_IR">
 <meta property="og:title" content="<?= $esc($title) ?>">
 <meta property="og:description" content="<?= $esc($desc) ?>">
@@ -90,7 +90,7 @@ $ld = [
 <meta name="twitter:image" content="<?= $esc($base) ?>/img/og.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="تراپو">
+<meta name="apple-mobile-web-app-title" content="Therapo">
 <link rel="icon" type="image/svg+xml" href="appicons/icon.svg">
 <link rel="icon" href="appicons/icon-192.png">
 <link rel="apple-touch-icon" href="appicons/icon-192.png">
@@ -101,9 +101,9 @@ $ld = [
 <body>
 <div class="lp-bg" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="lp-bg__grid"></span></div>
 <header class="lp-bar">
-  <a class="lp-logo" href="./" aria-label="تراپو">
-    <svg viewBox="0 0 64 64" width="40" height="40" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>
-    <b data-t="brand">تراپو</b>
+  <a class="lp-logo" href="./" aria-label="Therapo">
+    <svg viewBox="0 0 128 128" width="40" height="40" class="tlogo" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="128" height="128" rx="36" fill="url(#acg)"/><path d="M33 50C27 38 27 27 30 17c9 6 17 14 23 23z" fill="#fff"/><path d="M95 50c6-12 6-23 3-33-9 6-17 14-23 23z" fill="#fff"/><ellipse cx="29" cy="84" rx="10" ry="18" fill="#d6f2ec" transform="rotate(18 29 84)"/><ellipse cx="99" cy="84" rx="10" ry="18" fill="#d6f2ec" transform="rotate(-18 99 84)"/><ellipse cx="64" cy="74" rx="38" ry="40" fill="#fff"/><ellipse cx="64" cy="101" rx="19" ry="11" fill="#e3f6f2"/><path d="M57 99q7 4 14 0M57 106q7 4 14 0" stroke="#bfe6df" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="49" cy="64" r="15" fill="#fff" stroke="#8e2c6e" stroke-width="4"/><circle cx="79" cy="64" r="15" fill="#fff" stroke="#8e2c6e" stroke-width="4"/><path d="M60 62q4-3 8 0" stroke="#8e2c6e" stroke-width="4" fill="none" stroke-linecap="round"/><g class="owl-eyes"><ellipse cx="49" cy="65" rx="6.5" ry="7.8" fill="#1d2b3a"/><ellipse cx="79" cy="65" rx="6.5" ry="7.8" fill="#1d2b3a"/><circle cx="51.5" cy="61.5" r="2.6" fill="#fff"/><circle cx="81.5" cy="61.5" r="2.6" fill="#fff"/><circle cx="47" cy="68" r="1.1" fill="#fff"/><circle cx="77" cy="68" r="1.1" fill="#fff"/></g><ellipse cx="37" cy="82" rx="6" ry="3.6" fill="#ff8fab" opacity=".75"/><ellipse cx="91" cy="82" rx="6" ry="3.6" fill="#ff8fab" opacity=".75"/><path d="M58.6 79h10.8c1.3 0 2 1.5 1.2 2.5l-5.4 7c-.6.8-1.8.8-2.4 0l-5.4-7c-.8-1 0-2.5 1.2-2.5z" fill="#ffb020"/><path d="M57.5 91.5q6.5 5 13 0" stroke="#1d2b3a" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M36 86c2 18 14 26 28 26s26-8 28-26" stroke="#12b3a8" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="64" cy="112" r="6" fill="#12b3a8"/><circle cx="64" cy="112" r="2.4" fill="#fff"/><path d="M106 16l2.2 5.3 5.3 2.2-5.3 2.2-2.2 5.3-2.2-5.3-5.3-2.2 5.3-2.2z" fill="#ffd23f"/></svg>
+    <b data-t="brand">Therapo</b>
   </a>
   <nav class="lp-nav">
     <a href="#courses" data-t="navCourses">دوره‌ها</a><a href="#pricing" data-t="navPrice">قیمت‌ها</a><a href="#faq" data-t="navFaq">سؤال‌های رایج</a>
@@ -184,7 +184,7 @@ $ld = [
   <?= trapo_pricing_html($esc) ?>
 
   <section class="lp-sec" aria-labelledby="w-t">
-    <h2 id="w-t" data-t="wT">چرا تراپو؟</h2>
+    <h2 id="w-t" data-t="wT">چرا Therapo؟</h2>
     <ul class="lp-why">
       <li><b data-t="w1t">⏱️ درس‌های سه‌دقیقه‌ای</b><span data-t="w1">بین دو کشیک یا در مسیر هم می‌شود خواند؛ هر روز کمی، ولی پیوسته.</span></li>
       <li><b data-t="w2t">🏥 بیمار واقعی‌نما</b><span data-t="w2">۲۹۰ کیس بالینی با آزمایش، گاز خون، نوار قلب و تصویر؛ مثل راند بخش.</span></li>

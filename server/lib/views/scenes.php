@@ -1,5 +1,5 @@
 <?php
-/* تراپو — صحنه‌های متحرک صفحه معرفی و صفحه دوره‌ها (فقط SVG و CSS، بدون کد برنامه)
+/* Therapo — صحنه‌های متحرک صفحه معرفی و صفحه دوره‌ها (فقط SVG و CSS، بدون کد برنامه)
  * ward = بخش بیمارستان (یونا)، class = کلاس درس (ترمینو)، icu = اورژانس و ICU (هما)، lab = آزمایشگاه و کلینیک تغذیه (نگار) */
 function trapo_scene(string $k): string
 {
@@ -87,7 +87,7 @@ function trapo_scenes_html(): string
         ['lab', 'در آزمایشگاه و کلینیک', 'In the lab & clinic', 'آلبومین، قدرت چنگش و معاینه عضله؛ سوءتغذیه را مثل یک متخصص تشخیص بده.', 'Albumin, grip strength and muscle exam — diagnose malnutrition like a pro.'],
     ];
     $h = '<section class="lp-sec lp-scenes" id="scenes" aria-labelledby="sc-t"><h2 id="sc-t">' . $L('یادگیری در دل بیمارستان', 'Learning inside the hospital') . '</h2>'
-        . '<p class="lp-sub">' . $L('هر درس تراپو یک صحنه واقعی است: سر بالین، سر کلاس، در ICU و آزمایشگاه. تو تصمیم می‌گیری و شخصیت‌های دوره همراهت هستند.', 'Every Therapo lesson is a real scene — at the bedside, in class, in the ICU and the lab. You decide, and the course characters are right there with you.') . '</p><div class="lp-scg">';
+        . '<p class="lp-sub">' . $L('هر درس Therapo یک صحنه واقعی است: سر بالین، سر کلاس، در ICU و آزمایشگاه. تو تصمیم می‌گیری و شخصیت‌های دوره همراهت هستند.', 'Every Therapo lesson is a real scene — at the bedside, in class, in the ICU and the lab. You decide, and the course characters are right there with you.') . '</p><div class="lp-scg">';
     foreach ($cards as $c) $h .= '<article class="lp-sci">' . trapo_scene($c[0]) . '<div class="lp-sci__t"><h3>' . $L($c[1], $c[2]) . '</h3><p>' . $L($c[3], $c[4]) . '</p></div></article>';
     return $h . '</div></section>';
 }

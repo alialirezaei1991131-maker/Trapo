@@ -1226,6 +1226,10 @@ body.no-scroll .acfab, .player ~ .acfab { display: none; }
 .dbar__logo { display: flex; align-items: center; gap: 12px; border: 0; background: none; padding: 0; text-align: start; -webkit-tap-highlight-color: transparent; }
 .dbar__logo svg { transition: transform .4s cubic-bezier(.3, 1.6, .5, 1); }
 .dbar__logo:hover svg { transform: rotate(-8deg) scale(1.06); }
+/* لوگوی جغد: پلک زدن آرام */
+.tlogo .owl-eyes { transform-origin: 64px 65px; animation: owlblink 5.5s infinite; }
+@keyframes owlblink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+@media (prefers-reduced-motion: reduce) { .tlogo .owl-eyes { animation: none; } }
 .dbar__logo b { display: block; font-size: 21px; font-weight: 900; line-height: 1.5; }
 .dbar__logo small { display: block; color: var(--muted); font-weight: 700; font-size: 12.5px; line-height: 1.6; }
 .dbar__act { display: flex; align-items: center; gap: 10px; }

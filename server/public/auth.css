@@ -40,6 +40,10 @@ html[lang="en"] body { font-family: Nunito, Vazirmatn, system-ui, sans-serif; li
 .lp-bar { position: sticky; top: 0; z-index: 20; display: flex; align-items: center; gap: 12px; padding: 10px max(16px, calc((100% - 1160px) / 2)); background: color-mix(in srgb, var(--card) 86%, transparent); -webkit-backdrop-filter: blur(12px); backdrop-filter: blur(12px); border-bottom: 1px solid var(--line); }
 .lp-logo { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; }
 .lp-logo b { font-size: 22px; font-weight: 900; }
+/* لوگوی جغد: پلک زدن آرام */
+.tlogo .owl-eyes { transform-origin: 64px 65px; animation: owlblink 5.5s infinite; }
+@keyframes owlblink { 0%, 92%, 100% { transform: scaleY(1); } 95% { transform: scaleY(.1); } }
+@media (prefers-reduced-motion: reduce) { .tlogo .owl-eyes { animation: none; } }
 .lp-nav { margin-inline-start: auto; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; justify-content: flex-end; }
 .lp-nav > a:not(.lp-cta) { color: var(--muted); font-weight: 800; text-decoration: none; padding: 6px 10px; border-radius: 10px; }
 .lp-nav > a:not(.lp-cta):hover { color: var(--ink); background: var(--bg); }

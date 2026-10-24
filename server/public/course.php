@@ -1,6 +1,6 @@
 <?php
 declare(strict_types=1);
-/* تراپو — صفحه معرفی هر دوره برای موتورهای جست‌وجو (/course/yona، /course/homa، …)
+/* Therapo — صفحه معرفی هر دوره برای موتورهای جست‌وجو (/course/yona، /course/homa، …)
  * فقط متن معرفی، سرفصل و قیمت؛ هیچ کد یا محتوای درسی برنامه در این صفحه نیست. */
 $trapoRoot = dirname(__DIR__);
 if (!is_file($trapoRoot . '/lib/bootstrap.php') && is_file($trapoRoot . '/trapo_app/lib/bootstrap.php')) $trapoRoot .= '/trapo_app';
@@ -17,7 +17,7 @@ $c = null;
 foreach ($all as $x) if ($x['slug'] === $slug) $c = $x;
 if (!$c) {
     http_response_code(404); header('Cache-Control: no-store');
-    echo '<!doctype html><html lang="fa" dir="rtl"><meta charset="utf-8"><meta name="robots" content="noindex"><title>دوره پیدا نشد | تراپو</title><p style="font-family:system-ui;text-align:center;margin:20vh 16px">این دوره پیدا نشد. <a href="' . $esc($root) . '">صفحه اصلی تراپو</a></p></html>';
+    echo '<!doctype html><html lang="fa" dir="rtl"><meta charset="utf-8"><meta name="robots" content="noindex"><title>دوره پیدا نشد | Therapo</title><p style="font-family:system-ui;text-align:center;margin:20vh 16px">این دوره پیدا نشد. <a href="' . $esc($root) . '">صفحه اصلی Therapo</a></p></html>';
     exit;
 }
 // کاربر واردشده مستقیم به خود دوره در برنامه می‌رود

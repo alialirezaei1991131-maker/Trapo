@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «hessa» (Special Senses: Eyes and Ears)
+/* Therapo • ترمینو — حیطه «hessa» (Special Senses: Eyes and Ears)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_hessa;

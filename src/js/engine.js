@@ -1,5 +1,5 @@
 /* ==========================================================================
-   تراپو (آکادمی بالینی) — موتور مشترک (js/engine.js)
+   Therapo (آکادمی بالینی) — موتور مشترک (js/engine.js)
    یونا (الکترولیت) • هما (گاز خون و اسید-باز) • نگار (معاینه فیزیکی تغذیه‌محور)
 
    بدون سرور، بدون ساخت (Zero Build) و بدون ES Module: با دابل‌کلیک روی index.html
@@ -484,7 +484,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
      ====================================================================== */
   ENGINE.state = function (C) {
     /* وضعیت کاربر و قواعد بازی‌وارسازی (امتیاز، هدف و زنجیره روزانه، لیگ، نشان‌ها)
-     * قلب و جان در تراپو نیست: اشتباه فقط یعنی یادگیری؛ دسترسی را فقط خرید دوره تعیین می‌کند.
+     * قلب و جان در Therapo نیست: اشتباه فقط یعنی یادگیری؛ دسترسی را فقط خرید دوره تعیین می‌کند.
      * همه‌چیز در حافظه همین مرورگر می‌ماند. */
     (function (root) {
       const EA = root.EA = root.EA || {};
@@ -2614,7 +2614,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
 
   /* ================= پیکربندی (قیمت‌ها و پشتیبانی را این‌جا ویرایش کنید) ================= */
   const CFG = {
-    BRAND_FA: 'تراپو', BRAND_EN: 'Therapo',   // نام نرم‌افزار اصلی؛ یونا، هما، نگار و دوره‌های بعدی زیرمجموعه آن‌اند
+    BRAND_FA: 'Therapo', BRAND_EN: 'Therapo',   // نام نرم‌افزار اصلی؛ یونا، هما، نگار و دوره‌های بعدی زیرمجموعه آن‌اند
     BRAND_TAG_FA: 'آکادمی بالینی', BRAND_TAG_EN: 'Clinical academy',
     /** کلید عمومی امضای کدهای فعال‌سازی (Ed25519). این کلید فقط «بررسی» می‌کند و با آن نمی‌شود کد ساخت؛
      *  کلید خصوصی سازنده کدها فقط در فایل کلید مدیر است و هرگز داخل برنامه نیست. (برای تعویض کلید،
@@ -2657,7 +2657,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
      * خالی = آن دکمه نمایش داده نمی‌شود. نسخه هاست این‌ها را از config.php (contact) می‌گیرد. */
     CONTACT: { telegram: 'Therapo_support', bale: 'Therapo', email: 'info@therapo1.ir' },
     /* ---- پانویس سایت: حقوق و نماد اعتماد الکترونیکی (اینماد؛ فقط وقتی برنامه از سایت باز شود نمایش داده می‌شود) ---- */
-    COPYRIGHT_FA: 'تمامی حقوق مادی و معنوی این سایت متعلق به تراپو است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.',
+    COPYRIGHT_FA: 'تمامی حقوق مادی و معنوی این سایت متعلق به Therapo است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.',
     COPYRIGHT_EN: 'All rights reserved. Copying any part of the content is prohibited.',
     ENAMAD: { id: '8269784', code: 'LFiJT2p4RkYAtQBsW7x4ywIuqiMCu3lJ' }
   };
@@ -4137,7 +4137,7 @@ P — Plan: …`);
           <div class="dtheme" role="group" aria-label="${PT('رنگ صفحه', 'Page colour')}">${[['light', '☀️', 'روشن', 'Light'], ['auto', '🌗', 'خودکار', 'Auto'], ['dark', '🌙', 'تیره', 'Dark']].map(t => `<button class="dtheme__b ${th === t[0] ? 'is-on' : ''}" data-dtheme="${t[0]}" title="${PT(t[2], t[3])}" aria-label="${PT(t[2], t[3])}">${t[1]}</button>`).join('')}</div>
           <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('English', 'فارسی')}</b></button>
           <button class="dbtn" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
-          <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
+          <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب Therapo به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
           <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
         </div>
       </div></header>
@@ -4200,7 +4200,7 @@ P — Plan: …`);
   }, true);
 
   /* ================= حالت سرور (نسخه هاست): حساب کاربری، کد فعال‌سازی، سفارش، دعوت دوستان و همگام‌سازی =================
-   * فقط وقتی فعال است که صفحه از سرور تراپو آمده باشد (window.TRAPO_SERVER را سرور می‌گذارد).
+   * فقط وقتی فعال است که صفحه از سرور Therapo آمده باشد (window.TRAPO_SERVER را سرور می‌گذارد).
    * نسخه آفلاین (app/index.html) بدون هیچ تغییری مثل قبل کار می‌کند. */
   const SRV = window.TRAPO_SERVER || null;
   async function api(a, body) {
@@ -4298,7 +4298,7 @@ P — Plan: …`);
   /** پنجره «دعوت دوستان»: کد و لینک، اشتراک‌گذاری، و توضیح کامل شکل کد و قاعده اعتبار */
   function inviteModal() {
     const R = SRV && SRV.referral; if (!R) return;
-    const msg = PT(`با کد معرف من در تراپو ثبت‌نام کن تا ${nf(R.friendPct)}٪ تخفیف اولین خرید بگیری: ${R.link}`, `Join Therapo with my referral code and get ${nf(R.friendPct)}% off your first purchase: ${R.link}`);
+    const msg = PT(`با کد معرف من در Therapo ثبت‌نام کن تا ${nf(R.friendPct)}٪ تخفیف اولین خرید بگیری: ${R.link}`, `Join Therapo with my referral code and get ${nf(R.friendPct)}% off your first purchase: ${R.link}`);
     const share = encodeURIComponent(msg);
     const m = pModal(`<button class="iconbtn dcpop__x" data-close aria-label="${PT('بستن', 'Close')}">✕</button>
       <div class="ivp">
@@ -4339,7 +4339,7 @@ P — Plan: …`);
     const act = b.dataset.srv, R = SRV.referral || {};
     if (act === 'copylink') return copyText(R.link).then(ok => pToast(ok ? PT('🔗 لینک دعوت کپی شد', '🔗 Invite link copied') : R.link));
     if (act === 'copycode') return copyText(R.code).then(ok => pToast(ok ? PT('📋 کد معرف کپی شد', '📋 Referral code copied') : R.code));
-    if (act === 'share') { try { await navigator.share({ title: PT('تراپو', 'Therapo'), text: PT(`با کد معرف من ${nf(R.friendPct)}٪ تخفیف اولین خرید بگیر`, `Get ${nf(R.friendPct)}% off your first purchase with my code`), url: R.link }); } catch (x) { /* لغو شد */ } return; }
+    if (act === 'share') { try { await navigator.share({ title: PT('Therapo', 'Therapo'), text: PT(`با کد معرف من ${nf(R.friendPct)}٪ تخفیف اولین خرید بگیر`, `Get ${nf(R.friendPct)}% off your first purchase with my code`), url: R.link }); } catch (x) { /* لغو شد */ } return; }
     if (act === 'logout') { if (!confirm(PT('از حساب خارج شوی؟', 'Sign out?'))) return; await api('logout', {}); location.href = './'; return; }
     if (act === 'pass') {
       const m = pModal(`<h3>🔒 ${PT('تغییر رمز', 'Change password')}</h3>
@@ -4403,7 +4403,8 @@ P — Plan: …`);
   }
 
   /* ================= صفحه اول: فقط دوره‌ها (کارت + جزئیات بازشونده) ================= */
-  const LOGO = `<svg viewBox="0 0 64 64" width="42" height="42" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="64" height="64" rx="18" fill="url(#acg)"/><path d="M32 12c-6 8-12 15-12 22a12 12 0 0 0 24 0c0-7-6-14-12-22z" fill="#fff" opacity=".95"/><path d="M26 35h12M32 29v12" stroke="#12b3a8" stroke-width="4" stroke-linecap="round"/></svg>`;
+  /** لوگوی Therapo: «جغدپو» (منبع: tools/logo.js) */
+  const LOGO = `<svg viewBox="0 0 128 128" width="42" height="42" class="tlogo" aria-hidden="true"><defs><linearGradient id="acg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#58cc02"/><stop offset=".5" stop-color="#12b3a8"/><stop offset="1" stop-color="#8e2c6e"/></linearGradient></defs><rect width="128" height="128" rx="36" fill="url(#acg)"/><path d="M33 50C27 38 27 27 30 17c9 6 17 14 23 23z" fill="#fff"/><path d="M95 50c6-12 6-23 3-33-9 6-17 14-23 23z" fill="#fff"/><ellipse cx="29" cy="84" rx="10" ry="18" fill="#d6f2ec" transform="rotate(18 29 84)"/><ellipse cx="99" cy="84" rx="10" ry="18" fill="#d6f2ec" transform="rotate(-18 99 84)"/><ellipse cx="64" cy="74" rx="38" ry="40" fill="#fff"/><ellipse cx="64" cy="101" rx="19" ry="11" fill="#e3f6f2"/><path d="M57 99q7 4 14 0M57 106q7 4 14 0" stroke="#bfe6df" stroke-width="2" fill="none" stroke-linecap="round"/><circle cx="49" cy="64" r="15" fill="#fff" stroke="#8e2c6e" stroke-width="4"/><circle cx="79" cy="64" r="15" fill="#fff" stroke="#8e2c6e" stroke-width="4"/><path d="M60 62q4-3 8 0" stroke="#8e2c6e" stroke-width="4" fill="none" stroke-linecap="round"/><g class="owl-eyes"><ellipse cx="49" cy="65" rx="6.5" ry="7.8" fill="#1d2b3a"/><ellipse cx="79" cy="65" rx="6.5" ry="7.8" fill="#1d2b3a"/><circle cx="51.5" cy="61.5" r="2.6" fill="#fff"/><circle cx="81.5" cy="61.5" r="2.6" fill="#fff"/><circle cx="47" cy="68" r="1.1" fill="#fff"/><circle cx="77" cy="68" r="1.1" fill="#fff"/></g><ellipse cx="37" cy="82" rx="6" ry="3.6" fill="#ff8fab" opacity=".75"/><ellipse cx="91" cy="82" rx="6" ry="3.6" fill="#ff8fab" opacity=".75"/><path d="M58.6 79h10.8c1.3 0 2 1.5 1.2 2.5l-5.4 7c-.6.8-1.8.8-2.4 0l-5.4-7c-.8-1 0-2.5 1.2-2.5z" fill="#ffb020"/><path d="M57.5 91.5q6.5 5 13 0" stroke="#1d2b3a" stroke-width="2.4" fill="none" stroke-linecap="round"/><path d="M36 86c2 18 14 26 28 26s26-8 28-26" stroke="#12b3a8" stroke-width="4" fill="none" stroke-linecap="round"/><circle cx="64" cy="112" r="6" fill="#12b3a8"/><circle cx="64" cy="112" r="2.4" fill="#fff"/><path d="M106 16l2.2 5.3 5.3 2.2-5.3 2.2-2.2 5.3-2.2-5.3-5.3-2.2 5.3-2.2z" fill="#ffd23f"/></svg>`;
   /** شخصیت هر دوره (قطره یونا، گلبول بال‌دار هما، ذره‌بین نگار) از فایل داده خودش؛ بدون بارگذاری کل دوره */
   const FAKE_EA = { T: f => f, fa: n => n, lang: 'fa', ui: {} };
   const mascotFns = {};
@@ -4606,7 +4607,7 @@ P — Plan: …`);
           <button class="dbtn dbtn--lang" data-dlang="${PT('en', 'fa')}" lang="${PT('en', 'fa')}" title="${PT('English', 'فارسی')}" aria-label="${PT('تغییر زبان به انگلیسی', 'Switch language to Persian')}"><span aria-hidden="true">🌐</span><b>${PT('EN', 'فا')}</b></button>
           <button class="dbtn dbtn--buy" data-ac="buy"><span aria-hidden="true">🛒</span><b>${PT('خرید دوره', 'Buy courses')}</b></button>
           <button class="dbtn dbtn--minor" data-ac="activate"><span aria-hidden="true">🔑</span><b>${PT('کد فعال‌سازی', 'Activation code')}</b></button>
-          <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
+          <button class="dbtn dbtn--inst" data-ac="install" ${installable() ? '' : 'hidden'} title="${PT('نصب Therapo به‌صورت اپ', 'Install Therapo as an app')}"><span aria-hidden="true">📲</span><b>${PT('نصب اپ', 'Install app')}</b></button>
           <button class="dbtn dbtn--icon" data-ac="settings" aria-label="${PT('تنظیمات', 'Settings')}">⚙️</button>
         </div>
       </div></header>
@@ -4740,7 +4741,7 @@ P — Plan: …`);
       <div class="acsum">${o.pct ? `<p>🏷️ ${PT('قیمت پایه', 'Base price')}: <s>${nf(o.base)}</s> ${CUR()} • ${pesc(o.disc)}</p>` : ''}${o.credit ? `<p>👛 ${PT('اعتبار کیف پول', 'Wallet credit')}: −${nf(o.credit)} ${CUR()}</p>` : ''}
         <p><b>💰 ${PT('مبلغ قابل پرداخت', 'Amount to pay')}: ${nf(o.final)} ${CUR()}</b></p></div>
       <ol class="buy__steps">
-        <li>${PT('تلگرام یا بله را انتخاب کن تا گفت‌وگو با پشتیبان تراپو باز شود و پیام آماده زیر را بفرست (متن خودکار کپی شده است؛ اگر در کادر پیام نیامد، فقط بچسبان و بفرست).', 'Pick Telegram or Bale to open a chat with Therapo support and send the ready-made message below (it has already been copied — if it isn’t in the message box, just paste and send).')}</li>
+        <li>${PT('تلگرام یا بله را انتخاب کن تا گفت‌وگو با پشتیبان Therapo باز شود و پیام آماده زیر را بفرست (متن خودکار کپی شده است؛ اگر در کادر پیام نیامد، فقط بچسبان و بفرست).', 'Pick Telegram or Bale to open a chat with Therapo support and send the ready-made message below (it has already been copied — if it isn’t in the message box, just paste and send).')}</li>
         <li>${PT('پشتیبان همان‌جا جوابت را می‌دهد و راه پرداخت را می‌فرستد.', 'Support replies there with how to pay.')}</li>
         <li>${SRV ? PT('بعد از پرداخت، دوره خودکار و برای همیشه روی حسابت باز می‌شود.', 'Once paid, the course opens on your account automatically — for good.') : PT('بعد از پرداخت، پشتیبان کد فعال‌سازی دائمی این دستگاه را در همان گفت‌وگو برایت می‌فرستد.', 'Once paid, support sends the lifetime activation code for this device in the same chat.')}</li>
       </ol>
@@ -4904,7 +4905,7 @@ P — Plan: …`);
             <div class="setc__r"><span>🌐 ${PT('زبان برنامه', 'App language')}<small>${PT('صفحه اول، پنجره‌ها و همه دوره‌ها؛ بلافاصله عوض می‌شود', 'Home, windows and every course — switches instantly')}</small></span>
               <div class="seg">${[['fa', 'فارسی'], ['en', 'English']].map(l => `<button class="seg__b ${(LS.raw('academy.lang') || 'fa') === l[0] ? 'is-on' : ''}" data-lang="${l[0]}" lang="${l[0]}">${l[1]}</button>`).join('')}</div></div>
             ${SRV ? '</div>' + accountHTML() + '<div class="setc">' : ''}
-            ${installable() ? `<div class="setc__r"><span>📲 ${PT('نصب به‌صورت اپ', 'Install as an app')}<small>${PT('آیکون تراپو روی صفحه اصلی گوشی، تبلت یا دسکتاپ', 'A Therapo icon on your phone, tablet or desktop')}</small></span><button class="btn btn--ghost btn--sm" data-ac="install">${PT('نصب', 'Install')}</button></div>` : ''}
+            ${installable() ? `<div class="setc__r"><span>📲 ${PT('نصب به‌صورت اپ', 'Install as an app')}<small>${PT('آیکون Therapo روی صفحه اصلی گوشی، تبلت یا دسکتاپ', 'A Therapo icon on your phone, tablet or desktop')}</small></span><button class="btn btn--ghost btn--sm" data-ac="install">${PT('نصب', 'Install')}</button></div>` : ''}
             <label class="setc__r"><span>🌟 ${PT('کیس بالینی روزانه', 'Daily clinical case')}<small>${PT('هر روز یک بار در صفحه اول خودکار باز شود', 'Open automatically once a day on the home page')}</small></span><input type="checkbox" class="sw" data-dcauto ${prefs().dcase !== false ? 'checked' : ''}></label>
             <label class="setc__r"><span>🎵 ${PT('موسیقی پس‌زمینه', 'Background music')}<small>${PT('آرام و بی‌کلام، داخل همه دوره‌ها', 'Calm and wordless, in every course')}</small></span><input type="checkbox" class="sw" data-gmusic ${prefs().music !== false ? 'checked' : ''}></label>
           </div>
@@ -5285,7 +5286,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
   const syncInstall = () => document.querySelectorAll('[data-ac="install"]').forEach(b => { b.hidden = !installable(); });
   window.addEventListener('beforeinstallprompt', e => { e.preventDefault(); BIP = e; syncInstall(); });
   document.addEventListener('trp-installable', () => { BIP = window.__trpInstall || BIP; syncInstall(); });
-  window.addEventListener('appinstalled', () => { BIP = null; window.__trpInstall = null; syncInstall(); pToast(PT('✅ تراپو نصب شد؛ از صفحه اصلی دستگاهت بازش کن', '✅ Therapo is installed — open it from your home screen')); });
+  window.addEventListener('appinstalled', () => { BIP = null; window.__trpInstall = null; syncInstall(); pToast(PT('✅ Therapo نصب شد؛ از صفحه اصلی دستگاهت بازش کن', '✅ Therapo is installed — open it from your home screen')); });
   async function installApp() {
     const ev = BIP || window.__trpInstall;
     if (ev) {
@@ -5300,8 +5301,8 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
       : android ? [PT('منوی <b>⋮</b> بالای مرورگر کروم را بزن.', 'Tap the <b>⋮</b> menu at the top of Chrome.'), PT('<b>Install app</b> (نصب برنامه) یا <b>Add to Home screen</b> را بزن.', 'Tap <b>Install app</b> or <b>Add to Home screen</b>.')]
       : fx ? [PT('فایرفاکسِ کامپیوتر نصب اپ را پشتیبانی نمی‌کند؛ همین صفحه را در <b>کروم</b> یا <b>اج</b> باز کن.', 'Desktop Firefox cannot install apps — open this page in <b>Chrome</b> or <b>Edge</b>.'), PT('بعد دکمه «نصب اپ» را دوباره بزن.', 'Then press “Install app” again.')]
       : [PT('در نوار آدرس کروم یا اج، آیکون <b>نصب</b> <span class="ins__ic">⊕</span> را بزن.', 'In the Chrome or Edge address bar, click the <b>install</b> icon <span class="ins__ic">⊕</span>.'), PT('یا از منوی <b>⋮</b> گزینه <b>Install Therapo</b> / <b>Apps → Install this site as an app</b> را بزن.', 'Or open the <b>⋮</b> menu and choose <b>Install Therapo</b> / <b>Apps → Install this site as an app</b>.')];
-    pModal(`<div class="big-i">📲</div><h3>${PT('نصب تراپو به‌صورت اپ', 'Install Therapo as an app')}</h3>
-      <p>${PT('بعد از نصب، تراپو با آیکون خودش روی صفحه اصلی یا دسکتاپ می‌نشیند و مثل یک اپ جدا، تمام‌صفحه باز می‌شود.', 'Once installed, Therapo gets its own icon on your home screen or desktop and opens full-screen like a separate app.')}</p>
+    pModal(`<div class="big-i">📲</div><h3>${PT('نصب Therapo به‌صورت اپ', 'Install Therapo as an app')}</h3>
+      <p>${PT('بعد از نصب، Therapo با آیکون خودش روی صفحه اصلی یا دسکتاپ می‌نشیند و مثل یک اپ جدا، تمام‌صفحه باز می‌شود.', 'Once installed, Therapo gets its own icon on your home screen or desktop and opens full-screen like a separate app.')}</p>
       <ol class="ins__steps">${steps.map(s => `<li>${s}</li>`).join('')}</ol>
       <div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${PT('باشه', 'OK')}</button></div>`, { cls: 'modal--ins' });
   }

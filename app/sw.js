@@ -1,4 +1,4 @@
-/* تراپو — کارگر سرویس (Service Worker) برای نصب PWA و اجرای ۱۰۰٪ آفلاین در بیمارستان
+/* Therapo — کارگر سرویس (Service Worker) برای نصب PWA و اجرای ۱۰۰٪ آفلاین در بیمارستان
  * فقط روی http(s) ثبت می‌شود (روی file:// مرورگرها کارگر سرویس ندارند و برنامه بدون آن هم کار می‌کند).
  * راهبرد: همه فایل‌های برنامه هنگام نصب کش می‌شوند؛ درخواست‌ها اول از کش (Cache-first) پاسخ می‌گیرند
  * و نسخه تازه در پس‌زمینه گرفته می‌شود (stale-while-revalidate). با تغییر CACHE_VERSION، کش قبلی همین برنامه پاک می‌شود. */
@@ -9,7 +9,7 @@
  *  - به داده‌های کاربر (localStorage: academy_global_state، academy_license_data، academy_course_*) هیچ دسترسی‌ای
  *    ندارد و هرگز به آن‌ها دست نمی‌زند؛ اشتراک، الماس، زنجیره و پیشرفت با هر به‌روزرسانی سالم می‌ماند. */
 const CACHE_PREFIX = 'academy-';
-const CACHE_VERSION = CACHE_PREFIX + 'v2.0.0';
+const CACHE_VERSION = CACHE_PREFIX + 'v2.1.0';
 const SHELL = [
   './',
   './index.html',

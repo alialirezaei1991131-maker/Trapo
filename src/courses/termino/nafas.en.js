@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «nafas» (Respiratory System)
+/* Therapo • ترمینو — حیطه «nafas» (Respiratory System)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_nafas;

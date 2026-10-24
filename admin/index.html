@@ -7,9 +7,9 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' 'self' file:; style-src 'unsafe-inline' 'self' file:; font-src data: 'self' file:; img-src data:; connect-src 'none'; form-action 'none'; base-uri 'none'">
 <meta name="referrer" content="no-referrer">
 <meta name="robots" content="noindex, nofollow">
-<title>پنل مدیر تراپو</title>
+<title>پنل مدیر Therapo</title>
 <!--
-  پنل مدیر تراپو — فقط برای سازنده. پوشه admin را هرگز به کاربران ندهید.
+  پنل مدیر Therapo — فقط برای سازنده. پوشه admin را هرگز به کاربران ندهید.
   • کلید خصوصی و فهرست خریداران فقط به‌صورت رمزشده (AES-256-GCM، کلید از رمز شما با PBKDF2-SHA256) در همین مرورگر ذخیره می‌شوند.
   • هیچ ارتباط اینترنتی ندارد؛ پشتیبان هم یک فایل رمزشده است.
   • فهرست دوره‌ها از فایل‌های خود برنامه (../app/courses) خوانده می‌شود؛ برای دوره تازه خط script آن را پایین همین فایل اضافه کنید.
@@ -126,7 +126,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
 <section class="gate hide" id="lock">
   <div class="card">
     <div class="ico">🔒</div>
-    <h1>پنل مدیر تراپو</h1>
+    <h1>پنل مدیر Therapo</h1>
     <p class="lead">برای ورود رمز پنل را وارد کن.</p>
     <input type="password" id="lPass" autocomplete="current-password" placeholder="رمز پنل">
     <div id="lErr"></div>
@@ -141,7 +141,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
 <!-- ======== پنل ======== -->
 <div id="app" class="hide">
   <header class="top"><div class="top__in">
-    <div class="brand"><i>✚</i><div>پنل مدیر تراپو<small id="hdrSub"></small></div></div>
+    <div class="brand"><i>✚</i><div>پنل مدیر Therapo<small id="hdrSub"></small></div></div>
     <nav class="tabs" id="tabs">
       <button class="tab on" data-tab="issue">🧾 صدور کد</button>
       <!-- کد قلب (TRH1) دیگر فروخته نمی‌شود؛ بخش آن فقط برای بررسی کدهای قبلی در کد مانده است -->
@@ -197,7 +197,7 @@ table.codes th { color: var(--mu); font-weight: 800; }
       <p class="lead">پیام درخواستی که کاربر از «ایستگاه قلب» سایت فرستاده را بچسبان. کد فقط روی <b>همان حساب</b> و فقط <b>یک بار</b> کار می‌کند و تا ۶۰ روز بعد از ساخت قابل استفاده است.
         (راه دیگر: در پنل مدیریت سرور روی همان سفارش «پرداخت شد» را بزنی؛ قلب‌ها بدون کد خودکار واریز می‌شوند.)</p>
       <div class="card">
-        <textarea id="hMsg" placeholder="🧾 سفارش قلب تراپو&#10;🪪 شناسه حساب: XXXX-XXXX-XXXX&#10;🔧 TRAPO-HEART:..."></textarea>
+        <textarea id="hMsg" placeholder="🧾 سفارش قلب Therapo&#10;🪪 شناسه حساب: XXXX-XXXX-XXXX&#10;🔧 TRAPO-HEART:..."></textarea>
         <div class="row" style="margin-top:8px"><button class="btn btn--sm" id="hPaste">📋 چسباندن از کلیپ‌بورد</button><button class="btn btn--sm" id="hClear">پاک کردن</button><span class="muted">یا دستی پر کن (مثلاً برای هدیه یا جایزه مسابقه).</span></div>
         <div id="hParse"></div>
       </div>
@@ -444,18 +444,18 @@ var NACL = {};
   }
   function parseKeyFile(text) {
     var m = /TRAPO-ADMIN-KEY-1\s+([A-Za-z0-9+/=]{80,})/.exec(String(text || ''));
-    if (!m) return { err: 'این فایل کلید مدیر تراپو نیست.' };
+    if (!m) return { err: 'این فایل کلید مدیر Therapo نیست.' };
     var sk; try { sk = b64bytes(m[1]); } catch (e) { return { err: 'فایل کلید خراب است.' }; }
     if (sk.length !== 64) return { err: 'فایل کلید خراب است.' };
     var pub = b64of(NACL.sign.keyPair.fromSecretKey(sk).publicKey);
     if (PUBKEYS.indexOf(pub) < 0) return { err: 'این کلید با کلید داخل برنامه جور نیست؛ کدهایش پذیرفته نمی‌شوند.' };
     return { sk: m[1] };
   }
-  function newData(skB64) { return { v: 1, sk: skB64, createdAt: NOW(), buyers: {}, settings: { lockMin: 15, brand: 'تراپو', support: '' } }; }
+  function newData(skB64) { return { v: 1, sk: skB64, createdAt: NOW(), buyers: {}, settings: { lockMin: 15, brand: 'Therapo', support: '' } }; }
   async function enter(key, box, data) {
     KEY = key; BOX = box; DATA = data;
-    DATA.settings = Object.assign({ lockMin: 15, brand: 'تراپو', support: '' }, DATA.settings || {});
-    if (DATA.settings.brand === 'آکادمی بالینی تراپو') DATA.settings.brand = 'تراپو'; // نام تازه نرم‌افزار
+    DATA.settings = Object.assign({ lockMin: 15, brand: 'Therapo', support: '' }, DATA.settings || {});
+    if (DATA.settings.brand === 'آکادمی بالینی Therapo') DATA.settings.brand = 'Therapo'; // نام تازه نرم‌افزار
     DATA.buyers = DATA.buyers || {};
     SK = b64bytes(DATA.sk);
     try { localStorage.removeItem(LEGACY_KEY); localStorage.removeItem(FAIL_KEY); } catch (e) { /* */ } // کلید ساده قدیمی پاک می‌شود
@@ -950,7 +950,7 @@ var NACL = {};
     $('stBrand').value = S.brand; $('stSupport').value = S.support || '';
   }
   $('stLock').onclick = function (e) { var b = e.target.closest('[data-lm]'); if (b) { DATA.settings.lockMin = +b.dataset.lm; save(); renderSettings(); bump(); } };
-  $('stBrand').onchange = function () { DATA.settings.brand = $('stBrand').value.trim().slice(0, 60) || 'تراپو'; save(); };
+  $('stBrand').onchange = function () { DATA.settings.brand = $('stBrand').value.trim().slice(0, 60) || 'Therapo'; save(); };
   $('stSupport').onchange = function () { DATA.settings.support = $('stSupport').value.trim().slice(0, 120); save(); };
   $('stExport').onclick = async function () {
     await save();

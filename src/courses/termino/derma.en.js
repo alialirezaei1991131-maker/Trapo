@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «derma» (Integumentary System: Skin, Hair, Nails and Glands)
+/* Therapo • ترمینو — حیطه «derma» (Integumentary System: Skin, Hair, Nails and Glands)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_derma;

@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «lexa» (Introduction to Medical Terminology: Word Building, Prefixes, Roots and Suffixes)
+/* Therapo • ترمینو — حیطه «lexa» (Introduction to Medical Terminology: Word Building, Prefixes, Roots and Suffixes)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_lexa;

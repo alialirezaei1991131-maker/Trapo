@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «tapesh» (Cardiovascular System)
+/* Therapo • ترمینو — حیطه «tapesh» (Cardiovascular System)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_tapesh;

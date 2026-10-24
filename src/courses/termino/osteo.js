@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «osteo» (Musculoskeletal System)
+/* Therapo • ترمینو — حیطه «osteo» (Musculoskeletal System)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_osteo;

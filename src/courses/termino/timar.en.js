@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «timar» (Disease and Treatment)
+/* Therapo • ترمینو — حیطه «timar» (Disease and Treatment)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_timar;

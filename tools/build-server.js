@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
- * تراپو — ساخت نسخه هاست (server/) از روی نسخه درهم‌شده کاربران (app/)
+ * Therapo — ساخت نسخه هاست (server/) از روی نسخه درهم‌شده کاربران (app/)
  *   node tools/build-server.js        (اول: node tools/build.js)
  *
  *  - کد برنامه (موتور، دوره‌ها، تصویرها) ← server/private/app (آدرس مستقیم ندارد؛ فقط از /api و رمزنگاری‌شده)
@@ -38,7 +38,7 @@ rm(path.join(PUB, 'icons'));
   const mf = JSON.parse(fs.readFileSync(path.join(APP, 'manifest.json'), 'utf8'));
   mf.icons = mf.icons.map(i => Object.assign({}, i, { src: i.src.replace(/^icons\//, 'appicons/') }));
   Object.assign(mf, {
-    name: 'تراپو · آکادمی آموزش بالینی', short_name: 'تراپو', id: '/', start_url: './?source=pwa', scope: './',
+    name: 'Therapo · آکادمی آموزش بالینی', short_name: 'Therapo', id: '/', start_url: './?source=pwa', scope: './',
     description: 'آموزش تعاملی اصلاح الکترولیت (یونا)، تفسیر گاز خون (هما)، معاینه تغذیه‌محور (نگار)، ترمینولوژی پزشکی (ترمینو) و تفسیر نوار قلب (ریتما) با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.',
     shortcuts: [['یونا · الکترولیت', 'یونا', 'yona'], ['هما · گاز خون', 'هما', 'homa'], ['نگار · معاینه تغذیه‌محور', 'نگار', 'negar'], ['ترمینو · ترمینولوژی پزشکی', 'ترمینو', 'termino'], ['ریتما · نوار قلب', 'ریتما', 'ritma']]
       .map(([name, short_name, c]) => ({ name, short_name, url: './?course=' + c, icons: [{ src: 'appicons/icon-192.png', sizes: '192x192' }] }))
@@ -60,8 +60,8 @@ html = html.replace(/<script>\s*\/\* فایل‌های جانبی دوره[\s\S]
   html = html.replace(/<script>([\s\S]*?)<\/script>/g, (m, js) => '<script>' + JO0.obfuscate(js, { compact: true, simplify: true, stringArray: true, stringArrayThreshold: 1, identifierNamesGenerator: 'hexadecimal', renameGlobals: false, seed: 7, target: 'browser' }).getObfuscatedCode() + '</script>');
   html = html.replace(/<style>([\s\S]*?)<\/style>/g, (m, css) => '<style>' + require('./minify').css(css) + '</style>');
 }
-html = html.replace(/<title>[^<]*<\/title>/, '<title>تراپو · آکادمی آموزش بالینی</title>')
-  .replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="تراپو، آکادمی آموزش بالینی: الکترولیت، گاز خون، معاینه تغذیه‌محور، ترمینولوژی پزشکی و نوار قلب با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.">');
+html = html.replace(/<title>[^<]*<\/title>/, '<title>Therapo · آکادمی آموزش بالینی</title>')
+  .replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="Therapo، آکادمی آموزش بالینی: الکترولیت، گاز خون، معاینه تغذیه‌محور، ترمینولوژی پزشکی و نوار قلب با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.">');
 html = html.replace(/<script>/g, '<script nonce="{{NONCE}}">');
 const files = { data: srcs.filter(s => s !== 'js/engine.js'), engine: ['js/engine.js'] };
 if (!files.data.length || !srcs.includes('js/engine.js')) { console.error('unexpected index.html scripts', srcs); process.exit(1); }

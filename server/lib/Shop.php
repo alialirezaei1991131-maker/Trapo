@@ -193,7 +193,7 @@ final class Shop
         $nf = fn($n) => $en ? number_format($n) : strtr(number_format($n), ['0' => '۰', '1' => '۱', '2' => '۲', '3' => '۳', '4' => '۴', '5' => '۵', '6' => '۶', '7' => '۷', '8' => '۸', '9' => '۹', ',' => '٬']);
         $cur = $T('تومان', 'Toman');
         $L = [
-            $T('🛒 سفارش خرید دوره تراپو', '🛒 Therapo course order'), '━━━━━━━━━━━━━━',
+            $T('🛒 سفارش خرید دوره Therapo', '🛒 Therapo course order'), '━━━━━━━━━━━━━━',
             '👤 ' . $T('نام', 'Name') . ': ' . $u['name'],
             '📧 ' . $T('حساب', 'Account') . ': ' . $u['login'],
             '📚 ' . $T('دوره‌ها', 'Courses') . ': ' . implode($T('، ', ', '), array_map(fn($c) => self::courseName($c, $en), $q['courses'])),

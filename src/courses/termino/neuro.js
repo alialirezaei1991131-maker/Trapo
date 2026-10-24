@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «neuro» (Nervous System and Mental Health)
+/* Therapo • ترمینو — حیطه «neuro» (Nervous System and Mental Health)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_neuro;

@@ -1,4 +1,4 @@
-/* تراپو — دوره «ریتما» (تفسیر نوار قلب ECG/EKG)
+/* Therapo — دوره «ریتما» (تفسیر نوار قلب ECG/EKG)
  * ساخته‌شده خودکار با tools/ritma-import.js از نسخه مستقل ریتما؛ دستی ویرایش نکنید (فایل را دوباره بسازید).
  * این فایل فقط دوره را در window.ACADEMY_COURSES ثبت می‌کند؛ محتوا هنگام ورود به دوره اجرا می‌شود.
  *   content(): ماژول‌های محتوایی ریتما (هسته، پیکربندی، واژه‌نامه، شکل‌ها، دنیاها، کاراکترها، راند بالینی، نکته‌ها) بدون تغییر
@@ -1800,14 +1800,14 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
   EA.art = k => (A[k] ? A[k]() : `<svg class="art" viewBox="0 0 10 10"></svg>`);
   if (typeof module !== 'undefined') module.exports = EA;
 })(typeof window !== 'undefined' ? window : globalThis);
-/* ریتما در تراپو: قالب نشان‌ها و متن‌های صفحه معرفی برای کیت مشترک ترمینو */
+/* ریتما در Therapo: قالب نشان‌ها و متن‌های صفحه معرفی برای کیت مشترک ترمینو */
 (function (EA) {
   const A = EA.APP;
   if (A.firstBadge && !Array.isArray(A.firstBadge)) A.firstBadge = [A.firstBadge.icon, A.firstBadge.name];
   Object.keys(A.worldBadges || {}).forEach(k => { const b = A.worldBadges[k]; if (b && !Array.isArray(b)) A.worldBadges[k] = [b.icon, b.name]; });
   A.landP = () => A.hello;
   A.landH = 'هر نوار قلب<br><em>یک داستان است</em>';
-  A.certKicker = 'ریتما • آکادمی تفسیر نوار قلب تراپو';
+  A.certKicker = 'ریتما • آکادمی تفسیر نوار قلب Therapo';
   A.finalBadge = 'استاد نوار قلب';
   A.stepRounds = 'راند بالینی: نوار و پرونده بیمار را بخوان، تشخیص بده و اصول اقدام اولیه را انتخاب کن.';
   A.obRoles = [['دانشجوی پزشکی', ''], ['دانشجوی پرستاری', ''], ['پرستار بخش، CCU یا ICU', ''], ['فوریت‌های پزشکی و اورژانس', ''], ['پزشک یا رزیدنت', ''], ['سایر', '']];

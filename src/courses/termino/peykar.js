@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «peykar» (Body Structure)
+/* Therapo • ترمینو — حیطه «peykar» (Body Structure)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_peykar;

@@ -1,4 +1,4 @@
-/* تراپو • ترمینو — حیطه «imena» (Blood, Lymphatic and Immune Systems)
+/* Therapo • ترمینو — حیطه «imena» (Blood, Lymphatic and Immune Systems)
  * این فایل هنگام ورود به همین حیطه بارگذاری می‌شود؛ ماژول‌های محتوایی دست‌نخورده‌اند. */
 (function (SUB) {
   const D = SUB.tm_imena;

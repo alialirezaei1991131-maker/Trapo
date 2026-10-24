@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 /*
- * تراپو — بسته آماده بارگذاری در File Manager هاست cPanel (بدون نیاز به Git)
+ * Therapo — بسته آماده بارگذاری در File Manager هاست cPanel (بدون نیاز به Git)
  *   node tools/make-cpanel-zip.js          (اول: npm run build و npm run build:server)
  *
  * خروجی: deploy/trapo-cpanel.zip با دو پوشه، همان چیدمان .cpanel.yml:
