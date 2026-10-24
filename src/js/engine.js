@@ -2655,7 +2655,7 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
      *   bale:     نام کاربری بله بدون @، یا نشانی کامل https://ble.ir/...
      *   email:    نشانی ایمیل
      * خالی = آن دکمه نمایش داده نمی‌شود. نسخه هاست این‌ها را از config.php (contact) می‌گیرد. */
-    CONTACT: { telegram: '', bale: '', email: '' },
+    CONTACT: { telegram: 'Therapo_support', bale: 'Therapo', email: '' },
     /* ---- پانویس سایت: حقوق و نماد اعتماد الکترونیکی (اینماد؛ فقط وقتی برنامه از سایت باز شود نمایش داده می‌شود) ---- */
     COPYRIGHT_FA: 'تمامی حقوق مادی و معنوی این سایت متعلق به تراپو است و هرگونه کپی‌برداری از محتوا پیگرد قانونی دارد.',
     COPYRIGHT_EN: 'All rights reserved. Copying any part of the content is prohibited.',
@@ -4168,6 +4168,7 @@ P — Plan: …`);
         </section>` : ''}
         <div class="dsec"><h2>${PT('حیطه‌ها', 'Modules')}</h2><p>${PT('هر حیطه یک دوره کامل است با درس، تمرین، واژه‌نامه، کارت لایتنر، راند بالینی، کاراکتر، لیگ و گواهی. روی هر حیطه بزن تا جزئیاتش را ببینی.', 'Each module is a complete course with lessons, practice, a dictionary, Leitner cards, clinical rounds, characters, a league and a certificate. Tap a module for details.')}${subs.some(faOnly) ? ' <b class="suite__fa">The lessons in these modules are taught in Persian: every medical term stays in English, explained in Persian. The menus and tools follow your language setting.</b>' : ''}</p></div>
         <section class="dcourses suite__grid" id="dcourses" aria-label="${PT('حیطه‌ها', 'Modules')}">${subs.map((d, i) => subCard(d, i)).join('')}</section>
+        ${refsHTML(c.id) ? `<div class="suite__refs">${refsHTML(c.id)}</div>` : ''}
         ${siteFooterHTML()}
       </div>`;
     if (openId) toggleDetail(openId);
@@ -4425,6 +4426,15 @@ P — Plan: …`);
       outcomes: e.outcomes || k.outcomes, highlights: e.highlights || k.highlights
     });
   };
+  /** منابع دوره (refs در فایل هر دوره): پایان جزئیات دوره در صفحه اول و پایان صفحه معرفی خود دوره */
+  function refsHTML(cid, landing) {
+    const c = AC[rootOf(cid)], list = c && Array.isArray(c.refs) ? c.refs : [];
+    if (!list.length) return '';
+    const items = list.map(r => `<li>${pesc(r)}</li>`).join('');
+    return landing
+      ? `<section class="land__sec land__refs"><h2>${PT('منابع', 'References')}</h2><p class="land__sub">${PT('منابع و راهنماهای بین‌المللی که این دوره بر پایه آن‌ها ساخته شده است.', 'The international textbooks and guidelines this course is built on.')}</p><ol class="crefs__l" dir="ltr" lang="en">${items}</ol></section>`
+      : `<details class="crefs"><summary>📚 ${PT(`منابع (${nf(list.length)})`, `References (${nf(list.length)})`)}</summary><ol class="crefs__l" dir="ltr" lang="en">${items}</ol></details>`;
+  }
   const cName = c => PT(c.nameFa, c.nameEn), cSubj = c => PT(c.subjectFa, c.subjectEn || c.subjectFa), cDesc = c => PT(c.descFa, c.descEn || c.descFa);
 
   function dCard(c, a, i) {
@@ -4484,6 +4494,7 @@ P — Plan: …`);
       </div>
       ${k.tools.length ? `<h4 class="dd__th">🧮 ${PT('ابزارهای بالینی و ماشین‌حساب‌ها', 'Clinical tools & calculators')} ${a.tools ? `<span class="actb actb--pro">${PT('باز است', 'Unlocked')}</span>` : `<span class="actb actb--lock">🔒 ${PT('با خرید دوره', 'With the course')}</span>`}</h4>
       <div class="dd__tools">${k.tools.map(t => `<div class="dd__tool" style="--tc:${t.color}"><span dir="ltr">${t.sym}</span><div><b>${t.name}</b><small>${t.desc}</small></div></div>`).join('')}</div>` : ''}
+      ${refsHTML(c.id)}
       <div class="dd__foot">
         <div class="dd__acc">${a.tier ? `${tierBadge(a)} <span>${a.life ? PT('دسترسی دائمی ♾️', 'Lifetime access ♾️') : PT(`${leftText(a.expiry)} باقی‌مانده • تا ${fdate(a.expiry)}`, `${leftText(a.expiry)} left • until ${fdate(a.expiry)}`)}</span>` : `<span class="dd__price">🛒 ${PT('خرید دائمی', 'Lifetime')}: <b>${nf(coursePrice(c.id))}</b> ${CUR()}</span>`}</div>
         <div class="dd__act">
@@ -4696,8 +4707,9 @@ P — Plan: …`);
     const C = CFG.CONTACT || {}, out = [];
     const url = (v, base) => /^https?:\/\//i.test(v) ? v : base + String(v).replace(/^@/, '');
     const q = (u, t) => u + (u.indexOf('?') < 0 ? '?' : '&') + 'text=' + encodeURIComponent(t);
-    if (C.telegram) out.push({ id: 'telegram', icon: '✈️', fa: 'ارسال در تلگرام', en: 'Send on Telegram', href: q(url(C.telegram, 'https://t.me/'), txt) });
-    if (C.bale) out.push({ id: 'bale', icon: '💬', fa: 'ارسال در بله', en: 'Send on Bale', href: q(url(C.bale, 'https://ble.ir/'), txt) });
+    const at = v => /^https?:\/\//i.test(v) ? '' : '@' + String(v).replace(/^@/, '');
+    if (C.telegram) out.push({ id: 'telegram', icon: '✈️', fa: 'ارسال در تلگرام', en: 'Send on Telegram', at: at(C.telegram), href: q(url(C.telegram, 'https://t.me/'), txt) });
+    if (C.bale) out.push({ id: 'bale', icon: '💬', fa: 'ارسال در بله', en: 'Send on Bale', at: at(C.bale), href: q(url(C.bale, 'https://ble.ir/'), txt) });
     if (C.email) out.push({ id: 'email', icon: '📧', fa: 'ارسال با ایمیل', en: 'Send by email', href: 'mailto:' + C.email + '?subject=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(txt) });
     return out;
   }
@@ -4710,11 +4722,11 @@ P — Plan: …`);
       <div class="acsum">${o.pct ? `<p>🏷️ ${PT('قیمت پایه', 'Base price')}: <s>${nf(o.base)}</s> ${CUR()} • ${pesc(o.disc)}</p>` : ''}${o.credit ? `<p>👛 ${PT('اعتبار کیف پول', 'Wallet credit')}: −${nf(o.credit)} ${CUR()}</p>` : ''}
         <p><b>💰 ${PT('مبلغ قابل پرداخت', 'Amount to pay')}: ${nf(o.final)} ${CUR()}</b></p></div>
       <ol class="buy__steps">
-        <li>${PT('پیام آماده زیر را با یکی از دکمه‌ها برای ما بفرست (متن خودکار کپی شده است).', 'Send the ready-made message below with one of the buttons (it has already been copied).')}</li>
-        <li>${PT('راه پرداخت را همان‌جا برایت می‌فرستیم.', 'We reply there with how to pay.')}</li>
-        <li>${SRV ? PT('بعد از پرداخت، دوره خودکار و برای همیشه روی حسابت باز می‌شود.', 'Once paid, the course opens on your account automatically — for good.') : PT('بعد از پرداخت، کد فعال‌سازی دائمی این دستگاه را برایت می‌فرستیم.', 'Once paid, we send you the lifetime activation code for this device.')}</li>
+        <li>${PT('تلگرام یا بله را انتخاب کن تا گفت‌وگو با پشتیبان تراپو باز شود و پیام آماده زیر را بفرست (متن خودکار کپی شده است؛ اگر در کادر پیام نیامد، فقط بچسبان و بفرست).', 'Pick Telegram or Bale to open a chat with Therapo support and send the ready-made message below (it has already been copied — if it isn’t in the message box, just paste and send).')}</li>
+        <li>${PT('پشتیبان همان‌جا جوابت را می‌دهد و راه پرداخت را می‌فرستد.', 'Support replies there with how to pay.')}</li>
+        <li>${SRV ? PT('بعد از پرداخت، دوره خودکار و برای همیشه روی حسابت باز می‌شود.', 'Once paid, the course opens on your account automatically — for good.') : PT('بعد از پرداخت، پشتیبان کد فعال‌سازی دائمی این دستگاه را در همان گفت‌وگو برایت می‌فرستد.', 'Once paid, support sends the lifetime activation code for this device in the same chat.')}</li>
       </ol>
-      ${links.length ? `<div class="buy__send">${links.map(l => `<a class="btn btn--send btn--send-${l.id}" href="${pesc(l.href)}" target="_blank" rel="noopener" data-sendvia="${l.id}"><span aria-hidden="true">${l.icon}</span> ${PT(l.fa, l.en)}</a>`).join('')}</div>`
+      ${links.length ? `<div class="buy__send">${links.map(l => `<a class="btn btn--send btn--send-${l.id}" href="${pesc(l.href)}" target="_blank" rel="noopener" data-sendvia="${l.id}"><span aria-hidden="true">${l.icon}</span> ${PT(l.fa, l.en)}${l.at ? ` <bdi dir="ltr">${pesc(l.at)}</bdi>` : ''}</a>`).join('')}</div>`
         : `<div class="acwarn">${PT('راه‌های ارتباطی (تلگرام، بله، ایمیل) به‌زودی این‌جا اضافه می‌شوند؛ فعلاً متن سفارش را کپی کن و برای پشتیبانی بفرست.', 'Our contact links (Telegram, Bale, email) are coming soon — for now copy the order text and send it to support.')}</div>`}
       ${copyBox(o.txt, 9)}
       <button class="btn btn--ghost btn--sm" data-copyorder>📋 ${PT('کپی متن پیام', 'Copy the message')}</button></div>`;
@@ -5280,7 +5292,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     CFG, TIERS, DUR,
     access, summary, deviceId, parseCode, redeem, clockCheck,
     theme: globalTheme, setTheme: setPageTheme,
-    upsell, storeModal, buyModal, upgradeModal: buyModal, activateModal, settingsModal,
+    refsHTML, upsell, storeModal, buyModal, upgradeModal: buyModal, activateModal, settingsModal,
     sideHTML, topChips, profileHTML, lockedTools, vipBadge,
     hasProfile, autoProfile, wantIntro, restoreDialog, backupString, restoreString,
     certCode, recordCert, storyCard, needAssets, dailyCase, setUILang, uiLang: UILANG, roleName,

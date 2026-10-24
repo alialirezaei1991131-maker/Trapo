@@ -137,9 +137,9 @@
     subject: "Medical terminology of cancer (Cancer Medicine)",
     kicker: "🎗️ Medical terminology: Cancer Medicine",
     hello: "Hi, I’m <b>Mahar</b>;",
-    landP: () => `Hi, I’m <b>Mahar</b>, a healthy cell who keeps its growth in check! Here you will learn how a cell becomes cancerous and how tumours are named, and you will name the signs, screening, diagnosis, staging and treatment of cancer with precise terms and <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 8)} pictures from the book, ${fa(EA.ART_KEYS.length)} teaching figures, ${fa(EA.rounds.length)} clinical cases and Leitner cards are waiting for you.`,
+    landP: () => `Hi, I’m <b>Mahar</b>, a healthy cell who keeps its growth in check! Here you will learn how a cell becomes cancerous and how tumours are named, and you will name the signs, screening, diagnosis, staging and treatment of cancer with precise terms and <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 8)} clinical pictures, ${fa(EA.ART_KEYS.length)} teaching figures, ${fa(EA.rounds.length)} clinical cases and Leitner cards are waiting for you.`,
     disclaimer: "Mahar is a learning tool and does not replace medical references, clinical judgement or a physician’s orders.",
-    eyes: "Dozens of teaching figures and pictures from the book, from cell division and metastasis to the map of tumour naming, TNM staging and the types of treatment.",
+    eyes: "Dozens of teaching figures and clinical pictures, from cell division and metastasis to the map of tumour naming, TNM staging and the types of treatment.",
     outcomes: [
           "Break every cancer word into prefix, root and suffix and build new words",
           "Explain the difference between benign and malignant tumours, cell changes (hyperplasia to dysplasia) and the routes of metastasis",
@@ -1583,7 +1583,7 @@
       },
       {
         id: 'lx3', title: "Tissue roots", icon: '🧱', items: [
-          L("Tissues in tumour names", `Each tumour’s name tells which tissue it arose from (Table 20-2 of the book):${tbl([["root", "Meaning", "benign tumour"], [e('aden/o'), "gland", 'adenoma'], [e('angi/o'), "vessel", 'angioma'], [e('chondr/o'), "firm shock-absorbing connective tissue", 'chondroma'], [e('fibr/o'), "fibrous tissue", 'fibroma'], [e('lip/o'), "fat", 'lipoma'], [e('my/o'), "muscle", 'myoma'], [e('neur/o'), "nerve", 'neuroma'], [e('oste/o'), "bone", 'osteoma']])}`),
+          L("Tissues in tumour names", `Each tumour’s name tells which tissue it arose from:${tbl([["root", "Meaning", "benign tumour"], [e('aden/o'), "gland", 'adenoma'], [e('angi/o'), "vessel", 'angioma'], [e('chondr/o'), "firm shock-absorbing connective tissue", 'chondroma'], [e('fibr/o'), "fibrous tissue", 'fibroma'], [e('lip/o'), "fat", 'lipoma'], [e('my/o'), "muscle", 'myoma'], [e('neur/o'), "nerve", 'neuroma'], [e('oste/o'), "bone", 'osteoma']])}`),
           P("Match each root to its meaning", [['aden/o', "gland"], ['chondr/o', "firm shock-absorbing connective tissue"], ['lip/o', "fat"], ['oste/o', "bone"]]),
           M(`${e('<b>lipoma</b>')} means…`, ["benign fatty tumour", "fat cancer", "gland tumour", "inflammation of fat"], "lip/o (fat) + -oma."),
           L("Two roots that get mixed up", `${vs(['my/o', "muscle: myoma, myocardial"], ['myel/o', "bone marrow: myeloma, myelogenous"])}${memo("myel/o has an extra “el”; think of the marrow hidden inside the bone.")}`),
@@ -1674,7 +1674,7 @@
           L("Charts are written in abbreviations", `${tbl([["abbreviation", "Full form", "Meaning"], ["CA, Ca", "cancer, carcinoma", "cancer"], ['Dx', 'diagnosis', "diagnosis"], ['Tx', 'treatment', "treatment"], ['Bx', 'biopsy', "tissue sample"], ['Hx', 'history', "history of"], ['mets', 'metastases', "metastases"], ['s/p', 'status post', "after (an operation)"], ['F/U', 'follow-up', "follow-up"], ['NED', 'no evidence of disease', "no evidence of disease"]])}`),
           M("The record says “s/p mastectomy”. This means…", ["the patient has already had a mastectomy", "the patient needs a mastectomy", "mastectomy is forbidden", "a mastectomy will not be done"], 's/p = status post.'),
           P("Match each abbreviation to its meaning", [['Bx', "tissue sample"], ['Dx', "diagnosis"], ['mets', "metastases"], ['F/U', "follow-up"]]),
-          L("A real discharge summary", `From the book’s discharge summary: a 28-year-old woman with thyroid <b>papillary carcinoma</b>, <b>s/p</b> left thyroidectomy, was admitted for a second dose of <b>I-131</b>. Discharge medicine: Synthroid 0.1 mg <b>p.o.</b> <b>q.d.</b>${tbl([["abbreviation", "Meaning"], ['p.o.', "per os: by mouth"], ['q.d.', "quaque die: once a day"], ['mCi', "millicurie: unit of radioactivity"], ['I-131', "radioactive iodine-131"]])}`),
+          L("A real discharge summary", `From the standard reference’s discharge summary: a 28-year-old woman with thyroid <b>papillary carcinoma</b>, <b>s/p</b> left thyroidectomy, was admitted for a second dose of <b>I-131</b>. Discharge medicine: Synthroid 0.1 mg <b>p.o.</b> <b>q.d.</b>${tbl([["abbreviation", "Meaning"], ['p.o.', "per os: by mouth"], ['q.d.', "quaque die: once a day"], ['mCi', "millicurie: unit of radioactivity"], ['I-131', "radioactive iodine-131"]])}`),
           M("“p.o. q.d.” means the drug is taken…", ["by mouth, once a day", "by injection, twice a day", "by mouth, every night", "under the tongue, every week"], 'per os + quaque die.'),
           T("NED in a follow-up record is good news.", true, "no evidence of disease: there is no sign of disease."),
           B("The abbreviation ___ means patient history.", ['Hx', 'Dx', 'Tx'], 'history.'),
@@ -1713,7 +1713,7 @@
           T("A cancer cell escapes apoptosis.", true, "That is why it survives and piles up."),
           M("What do normal cells do when they reach their neighbours?", ["they stop dividing", "they pile up on each other", "they go into the blood", "they get bigger"], "Controlled division."),
           B("Rapid growth and division of cells is called ___.", ['proliferation', 'apoptosis', 'differentiation'], "proliferation = multiplication."),
-          M("Cancer in one sentence is…", ["uncontrolled division of cells that can invade other tissues", "inflammation of tissue", "the death of cells", "a shortage of cells"], "The book’s definition."),
+          M("Cancer in one sentence is…", ["uncontrolled division of cells that can invade other tissues", "inflammation of tissue", "the death of cells", "a shortage of cells"], "The standard reference’s definition."),
           S("Spell the term for division of a cell into two", 'mitosis', "mit/o (thread) + -osis.", 'mito…'),
           N('t2f:cl')
         ]
@@ -1734,7 +1734,7 @@
       },
       {
         id: 'cl3', title: "Benign versus Malignant", icon: '⚖️', items: [
-          L("Table 20-1 of the book", `${tbl([["Feature", 'benign', 'malignant'], ["Cell differentiation", "good", "low"], ["Type of growth", "expansion (pressing on its surroundings)", "infiltration (spreading into its surroundings)"], ["Rate of growth", "slow", "fast"], ["Spread", "applied to the skin", "metastasis through blood and lymph"]])}${fig('benign-malignant')}`),
+          L("Teaching figure", `${tbl([["Feature", 'benign', 'malignant'], ["Cell differentiation", "good", "low"], ["Type of growth", "expansion (pressing on its surroundings)", "infiltration (spreading into its surroundings)"], ["Rate of growth", "slow", "fast"], ["Spread", "applied to the skin", "metastasis through blood and lymph"]])}${fig('benign-malignant')}`),
           M("What type of growth does a malignant tumour have?", ["infiltration; spreading into nearby tissue", "expansion; pressure only", "no growth", "only inside a capsule"], "Table 20-1."),
           L("Capsule, infiltration, invasion", `• <b>encapsulated</b>: enclosed in a capsule; a feature of many benign tumours<br>• <b>infiltration</b>: malignant cells seeping into neighbouring tissue<br>• <b>invasion</b>: attacking the healthy tissue around it${memo("A benign tumour is a “ball in a bag”: it pushes but does not pierce. A malignant one is a “crab”: it digs its claws into the tissue. cancer is Latin for crab!")}`),
           P("Match each feature to its meaning", [['encapsulated', "enclosed in a capsule"], ['infiltration', "spreading into nearby tissue"], ['expansion', "growing by pressing on its surroundings"], ['metastasis', "spreading to a distant site"]]),
@@ -1765,7 +1765,7 @@
         id: 'cl5', title: "In Situ or Invasive?", icon: '🚧', items: [
           L("The basement membrane border", `Beneath epithelial tissue lies a thin layer called the <b>basement membrane</b>:${vs(['carcinoma in situ', "cancer cells are still above the basement membrane; in situ"], ['invasive carcinoma', "cells have crossed the basement membrane into the tissue below"])}${memo("in situ is Latin for “in its own place”: the cancer has not yet left home.")}`),
           M("carcinoma in situ means…", ["a cancer that has not yet crossed the basement membrane", "a cancer that has gone to the liver", "benign tumour", "inflammation of epithelial tissue"], "in situ = in place."),
-          L("Why does it matter?", `The book says carcinoma in situ is <b>cured</b> by complete removal (excision), because it does not yet reach the vessels and lymph. An important example: <b>ductal carcinoma in situ</b> (DCIS) in the breast ducts.${pearl("Invasive cancer reaches the blood and lymph vessels of the tissue below; from here the route to metastasis opens.")}`),
+          L("Why does it matter?", `The standard reference says carcinoma in situ is <b>cured</b> by complete removal (excision), because it does not yet reach the vessels and lymph. An important example: <b>ductal carcinoma in situ</b> (DCIS) in the breast ducts.${pearl("Invasive cancer reaches the blood and lymph vessels of the tissue below; from here the route to metastasis opens.")}`),
           T("Carcinoma in situ can be cured by complete removal.", true, "It has not yet spread."),
           P("Match each term to its meaning", [['in situ', "still in its place"], ['invasive', "spreading into deeper tissue"], ['DCIS', "ductal carcinoma in situ of the breast"], ['basement membrane', "thin layer beneath the epithelium"]]),
           L("The tumour’s dead centre", `Fast-growing tumours sometimes outgrow their blood supply, and their centre undergoes <b>necrosis</b> (tissue death; necr/o = dead). To escape this, the tumour builds new vessels: <b>angiogenesis</b> (angi/o vessel + -genesis formation).`),
@@ -1820,7 +1820,7 @@
       },
       {
         id: 'cl9', title: "Naming a Travelling Tumour", icon: '🏷️', items: [
-          L("Named after its first home", `A secondary tumour has the same cells as the primary tumour and keeps <b>the same name</b>. The book says: if lung cancer spreads to the liver, the cells in the liver are “lung cancer cells” and the disease is <b>metastatic lung cancer</b>, not liver cancer.${memo("Cancer is like a traveller: wherever it goes, its birth certificate names its home town.")}`),
+          L("Named after its first home", `A secondary tumour has the same cells as the primary tumour and keeps <b>the same name</b>. The standard reference says: if lung cancer spreads to the liver, the cells in the liver are “lung cancer cells” and the disease is <b>metastatic lung cancer</b>, not liver cancer.${memo("Cancer is like a traveller: wherever it goes, its birth certificate names its home town.")}`),
           M("What is colon cancer that has spread to the liver called?", ['metastatic colon cancer', 'liver cancer', 'colon and liver cancer', 'hepatoblastoma'], "The name of the primary tumour is kept."),
           L("In the pathology report", `${vs(['primary', "the tumour where the cancer began"], ['metastatic', "a tumour in a new place with the same cells"])}${pearl("If the pathologist sees glandular bowel cells in the liver, they write: “metastatic adenocarcinoma, colonic origin”.")}`),
           T("Breast cancer that has spread to bone is called “bone cancer”.", false, "False; it is metastatic breast cancer."),
@@ -1855,7 +1855,7 @@
       /* ================= سطح ۱: قاعده و خوش‌خیم‌ها ================= */
       {
         id: 'nm1', title: "From Which Tissue?", icon: '🗺️', items: [
-          L("Five families of cancer", `The book says all cancers fall into a few groups based on their <b>tissue of origin</b>. First ask: “which tissue?”${fig('tissue-map')}`),
+          L("Five families of cancer", `The standard reference says all cancers fall into a few groups based on their <b>tissue of origin</b>. First ask: “which tissue?”${fig('tissue-map')}`),
           M("What is cancer of epithelial tissue called?", ['carcinoma', 'sarcoma', 'leukemia', 'lymphoma'], "Carcinoma; the most common type of cancer."),
           L("Each family in one line", `${tbl([["Name", "Tissue of origin"], [e('carcinoma'), "epithelial tissue (epithelium), which covers the body surface and lines the organs"], [e('sarcoma'), "connective and supporting tissue: bone, cartilage, fat, muscle, vessels"], [e('leukemia'), "the blood-forming tissue of bone marrow"], [e('lymphoma'), "lymphocytes and the lymphatic system"], [e('blastoma'), "immature embryonic cells"]])}${memo("A carcinoma is “covering” and a sarcoma is “flesh and bone”: sarc/o means flesh.")}`),
           P("Match each cancer to its tissue", [['carcinoma', "Epithelial tissue"], ['sarcoma', "supporting tissue such as bone and tendon"], ['leukemia', "bone marrow"], ['lymphoma', "The lymphatic system"]]),
@@ -1869,9 +1869,9 @@
       },
       {
         id: 'nm2', title: "Benign Tumours", icon: '🟢', items: [
-          L("Root + -oma", `The book says most benign tumours are named by adding ${e('-oma')} to the root of the tissue of origin:${tbl([["tumour", "tissue"], [e('adenoma'), "gland"], [e('lipoma'), "fat"], [e('chondroma'), "firm shock-absorbing connective tissue"], [e('osteoma'), "bone"], [e('fibroma'), "fibrous tissue"], [e('neuroma'), "nerve"], [e('angioma'), "vessel"]])}`),
+          L("Root + -oma", `The standard reference says most benign tumours are named by adding ${e('-oma')} to the root of the tissue of origin:${tbl([["tumour", "tissue"], [e('adenoma'), "gland"], [e('lipoma'), "fat"], [e('chondroma'), "firm shock-absorbing connective tissue"], [e('osteoma'), "bone"], [e('fibroma'), "fibrous tissue"], [e('neuroma'), "nerve"], [e('angioma'), "vessel"]])}`),
           M(`${e('<b>osteoma</b>')} means…`, ["benign bone tumour", "Bone cancer", "bone inflammation", "cartilage tumour"], 'oste/o + -oma.'),
-          L("vessel tumour in the skin", `${fig('angioma', '', "angioma: a benign tumour of blood vessels in the skin of a child’s chest (Figure 20-1 of the book).")}• <b>angioma</b>: a benign vessel tumour<br>• <b>hemangioma</b>: a benign blood-vessel tumour (hemangi/o); a red birthmark of babies<br>• <b>lymphangioma</b>: a benign lymph-vessel tumour`),
+          L("vessel tumour in the skin", `${fig('angioma', '', "angioma: a benign tumour of blood vessels in the skin of a child’s chest.")}• <b>angioma</b>: a benign vessel tumour<br>• <b>hemangioma</b>: a benign blood-vessel tumour (hemangi/o); a red birthmark of babies<br>• <b>lymphangioma</b>: a benign lymph-vessel tumour`),
           P("Match each tumour to its tissue", [['lipoma', "fat"], ['chondroma', "firm shock-absorbing connective tissue"], ['hemangioma', "blood vessel"], ['neuroma', "nerve"]]),
           L("Muscle and surfaces", `• <b>myoma</b>: a benign muscle tumour; <b>leiomyoma</b> is from smooth muscle (leiomy/o) and in the uterus is called a <b>fibroid</b><br>• <b>rhabdomyoma</b>: from striated muscle (rhabdomy/o)<br>• <b>papilloma</b>: a wart-like tumour of epithelial tissue<br>• <b>polyp</b>: a growth projecting from a mucous surface, mostly in the large intestine<br>• <b>nevus</b>: a mole; a benign tumour of pigment cells${memo("leio = smooth and rhabdo = rod-shaped, striated.")}`),
           M("What is a uterine leiomyoma called in everyday language?", ['fibroid', 'polyp', 'cyst', 'nevus'], "A uterine fibroid."),
@@ -1884,7 +1884,7 @@
       {
         id: 'nm3', title: "-oma Traps", icon: '⚠️', items: [
           L("Not every -oma is benign", `${tbl([["Term", "Why is it a trap?"], [e('melanoma'), "despite -oma, it is a malignant skin cancer"], [e('lymphoma'), "all lymphatic tumours are malignant"], [e('hematoma'), "not a tumour at all; blood collected outside a vessel"], [e("carcinoma, sarcoma"), "they have -oma but are malignant"]])}${memo("Three dangerous “-omas”: melanoma, lymphoma, myeloma. One innocent “-oma”: hematoma, which is only a bruise!")}`),
-          M("In clinical medicine, hematoma means…", ["a collection of blood outside a vessel", "a benign blood tumour", "blood cancer", "a vessel tumour"], "The book: the word-for-word meaning “blood tumour” is not correct clinically."),
+          M("In clinical medicine, hematoma means…", ["a collection of blood outside a vessel", "a benign blood tumour", "blood cancer", "a vessel tumour"], "the word-for-word meaning “blood tumour” is not correct clinically."),
           L("Benign breast lumps", `${fig(['fibroadenoma', 'breast-cyst'], ["fibroadenoma: a firm, rubbery lump", "cyst: a fluid-filled sac on section"])}• <b>fibroadenoma</b>: a benign tumour of fibrous and glandular tissue (fibr/o + aden/o + -oma)<br>• <b>cyst</b>: a fluid-filled sac; usually not cancer${pearl("Most breast lumps in young women are fibroadenomas or cysts; but every new lump must be checked.")}`),
           P("Match each term to its meaning", [['melanoma', "cancer of pigment cells"], ['hematoma', "a collection of blood"], ['fibroadenoma', "a benign breast tumour"], ['cyst', "fluid-filled sac"]]),
           T("Melanoma is a benign skin tumour.", false, "False; melanoma is malignant. A benign mole is called a nevus."),
@@ -1903,8 +1903,8 @@
           M("Most breast, bowel and prostate cancers are of which type?", ['adenocarcinoma', 'sarcoma', 'basal cell carcinoma', 'lymphoma'], "Glandular cells."),
           L("The Three Skin Cancers", `${fig('skin-cancers')}${vs(['basal cell carcinoma', "the most common skin cancer; slow; rarely metastasises"], ['melanoma', "from pigment cells; the most dangerous"])}${pearl("All three are seen mostly in skin that has had a lot of sun; sunscreen is the most important prevention.")}`),
           P("Match each cancer to its site", [['basal cell carcinoma', "basal layer of the skin"], ['squamous cell carcinoma', "squamous cell"], ['transitional cell carcinoma', "bladder"], ['papillary carcinoma', "thyroid"]]),
-          T("Basal cell carcinoma is the most common skin cancer and rarely metastasises.", true, "The book."),
-          M("What is cancer of the glands of the pancreas called?", ['adenocarcinoma of the pancreas', 'pancreatic sarcoma', 'pancreatoma', 'pancreatic lymphoma'], "aden/o = gland; the book gives this very example."),
+          T("Basal cell carcinoma is the most common skin cancer and rarely metastasises.", true, "Per standard references."),
+          M("What is cancer of the glands of the pancreas called?", ['adenocarcinoma of the pancreas', 'pancreatic sarcoma', 'pancreatoma', 'pancreatic lymphoma'], "aden/o = gland; a classic example."),
           B("The abbreviation ___ means squamous cell carcinoma.", ['SCC', 'BCC', 'DCIS'], 'squamous cell carcinoma.'),
           W("Build a word meaning “cancer of glandular epithelium”", ['aden/o', '-carcinoma'], ['-sarcoma', 'lip/o', '-oma'], 'aden/o + -carcinoma = adenocarcinoma.'),
           S("Spell the word for the flat, scale-like cells in “… cell carcinoma”", 'squamous', "squam/o = scale.", 'squa…'),
@@ -1918,7 +1918,7 @@
           L("Benign and malignant side by side", `${tbl([["tissue", "not cancerous", "cancerous and spreading"], ["smooth muscle", 'leiomyoma', 'leiomyosarcoma'], ["striated muscle", 'rhabdomyoma', 'rhabdomyosarcoma'], ["vessel", 'angioma', 'angiosarcoma'], ["fibrous tissue", 'fibroma', 'fibrosarcoma']])}${memo("Add a “sarc” and a benign tumour becomes malignant: lipoma → liposarcoma.")}`),
           P("Match each sarcoma to its tissue", [['chondrosarcoma', "firm shock-absorbing connective tissue"], ['liposarcoma', "fat"], ['rhabdomyosarcoma', "striated muscle"], ['angiosarcoma', "vessel"]]),
           T("A gland is epithelial tissue, so its cancer is called adenosarcoma.", false, "False; cancer of a gland is adenocarcinoma."),
-          L("Two special names", `• <b>Kaposi sarcoma</b>: cancer of the vessel lining with purple skin patches; in people with weak immunity, such as AIDS<br>• <b>lymphosarcoma</b>: an old name for a malignant tumour of lymphatic tissue; the book mentions it as a “second cancer” after mastectomy${pearl("Rhabdomyosarcoma is the most common soft-tissue sarcoma in children.")}`),
+          L("Two special names", `• <b>Kaposi sarcoma</b>: cancer of the vessel lining with purple skin patches; in people with weak immunity, such as AIDS<br>• <b>lymphosarcoma</b>: an old name for a malignant tumour of lymphatic tissue; the standard reference mentions it as a “second cancer” after mastectomy${pearl("Rhabdomyosarcoma is the most common soft-tissue sarcoma in children.")}`),
           M("Purple skin patches in a patient with AIDS are a sign of which sarcoma?", ['Kaposi sarcoma', 'osteosarcoma', 'liposarcoma', 'chondrosarcoma'], "Cancer of the vessel lining."),
           B("Malignant cancer of smooth muscle is called a ___.", ['leiomyosarcoma', 'leiomyoma', 'rhabdomyosarcoma'], 'leiomy/o + -sarcoma.'),
           W("Build a word meaning “malignant cancer of cartilage”", ['chondr/o', '-sarcoma'], ['-oma', 'oste/o', '-carcinoma'], 'chondr/o + -sarcoma = chondrosarcoma.'),
@@ -1943,24 +1943,24 @@
       {
         id: 'nm7', title: "Leukaemias", icon: '🩸', items: [
           L("Cancer of the blood-forming tissue", `${wb('leuk/o', '-emia')} = <b>leukemia</b>: “white blood”. In leukaemia, immature cells multiply out of control in the bone marrow, take the place of normal cells and spill into the blood.${fig('marrow-crowding')}`),
-          M("Why does a leukaemia patient have anaemia, infection and bleeding?", ["immature cells have taken the place of normal blood cells in the marrow", "because blood leaks out of the vessels", "because the liver is enlarged", "because the lymph nodes have been removed"], "The book: low levels of normal cells."),
+          M("Why does a leukaemia patient have anaemia, infection and bleeding?", ["immature cells have taken the place of normal blood cells in the marrow", "because blood leaks out of the vessels", "because the liver is enlarged", "because the lymph nodes have been removed"], "low levels of normal cells."),
           L("Two questions, four types", `${fig('leukemia-grid')}• <b>acute</b> or <b>chronic</b>: how fast does the disease progress?<br>• <b>lymphocytic</b> or <b>myeloid</b> (myelogenous): from which cell line?${memo("Remember ALL as “All kids”: the most common childhood cancer.")}`),
           P("Match each abbreviation to its name", [['ALL', 'acute lymphocytic leukemia'], ['AML', 'acute myeloid leukemia'], ['CLL', 'chronic lymphocytic leukemia'], ['CML', 'chronic myeloid leukemia']]),
           T("ALL is the most common childhood cancer.", true, "Acute lymphocytic leukaemia."),
           M("myelogenous means…", ["produced in the bone marrow", "relating to muscle", "relating to lymph", "pertaining to the skin"], "myel/o = bone marrow."),
           B("A slowly progressing leukaemia is called ___.", ['chronic', 'acute', 'in situ'], "Chronic."),
-          M("The book says biopsy is “not used” to diagnose which cancer, with a bone marrow sample taken instead?", ['leukemia', 'breast cancer', 'lung cancer', 'bladder cancer'], "Diagnosis is by bone marrow aspiration and CBC."),
+          M("The standard reference says biopsy is “not used” to diagnose which cancer, with a bone marrow sample taken instead?", ['leukemia', 'breast cancer', 'lung cancer', 'bladder cancer'], "Diagnosis is by bone marrow aspiration and CBC."),
           S("Spell the term for cancer of the white blood cells", 'leukemia', 'leuk/o + -emia.', 'leuk…'),
           N('ab:nm')
         ]
       },
       {
         id: 'nm8', title: "Lymphoma and Myeloma", icon: '🫧', items: [
-          L("Cancer of the lymphatic system", `A <b>lymphoma</b> starts in lymphocytes (T or B). Because lymphatic tissue is everywhere in the body, lymphoma can start almost anywhere and reach the liver and lungs.${fig('lymphoma-neck', '', "Severe enlargement of the neck lymph nodes in malignant lymphoma (Figure 20-3 of the book).")}`),
+          L("Cancer of the lymphatic system", `A <b>lymphoma</b> starts in lymphocytes (T or B). Because lymphatic tissue is everywhere in the body, lymphoma can start almost anywhere and reach the liver and lungs.${fig('lymphoma-neck', '', "Severe enlargement of the neck lymph nodes in malignant lymphoma.")}`),
           M("What is the enlargement of the neck lymph nodes in this picture called?", ['lymphadenopathy', 'lymphedema', 'lymphangioma', 'hematoma'], 'lymph/o + aden/o + -pathy.', null, F('lymphoma-neck')),
           L("Two main types", `${vs(['Hodgkin lymphoma', "large two-nucleus Reed-Sternberg cells; often young people, neck nodes"], ['non-Hodgkin lymphoma', "a large group of B- or T-cell lymphomas without Reed-Sternberg cells"])}<b>Multiple myeloma</b> is a cancer of the bone marrow plasma cells that eats away bone.${pearl("Night sweats, fever and weight loss are the three “B” symptoms of lymphoma; the doctor always asks about them.")}`),
           P("Match each term to its meaning", [['Hodgkin lymphoma', "with Reed-Sternberg cells"], ['non-Hodgkin lymphoma', "without Reed-Sternberg cells"], ['multiple myeloma', "cancer of bone marrow plasma cells"], ['lymphoma', "cancer of lymphocytes"]]),
-          T("The book says all tumours of lymphatic tissue are malignant.", true, 'lymphoid tumors are malignant.'),
+          T("The standard reference says all tumours of lymphatic tissue are malignant.", true, 'lymphoid tumors are malignant.'),
           M("The Reed-Sternberg cell is a sign of which disease?", ['Hodgkin lymphoma', 'non-Hodgkin lymphoma', 'ALL', 'melanoma'], "A large two-nucleus cell."),
           B("myeloma is built from the root ___ (bone marrow).", ['myel/o', 'my/o', 'lymph/o'], "Not my/o (muscle)!"),
           M("The abbreviation NHL means…", ['non-Hodgkin lymphoma', 'neck Hodgkin lymphoma', 'new hematologic leukemia', 'normal Hodgkin level'], "Non-Hodgkin lymphoma."),
@@ -1970,11 +1970,11 @@
       },
       {
         id: 'nm9', title: "Embryonic Tumours and Special Names", icon: '👶', items: [
-          L("Organ root + -blastoma", `The book says embryonic tumours arise from leftover groups of embryonic cells in the brain, retina, adrenal gland, kidney, liver or reproductive organs and are named with ${e('-blastoma')}:${fig('blastoma-map')}`),
+          L("Organ root + -blastoma", `The standard reference says embryonic tumours arise from leftover groups of embryonic cells in the brain, retina, adrenal gland, kidney, liver or reproductive organs and are named with ${e('-blastoma')}:${fig('blastoma-map')}`),
           M("Retinoblastoma is cancer of which organ?", ["retina", "kidney", "liver", "cerebellum"], 'retin/o + -blastoma.'),
           L("An exception and the brain", `• <b>Wilms tumor</b>: an embryonic kidney tumour; an exception to the rule, because nephroblastoma is not used<br>• <b>glioma</b>: a tumour of the supporting cells of the brain (gli/o = glue)<br>• <b>astrocytoma</b>: a glioma of star-shaped cells (astr/o + cyt/o + -oma)<br>• <b>glioblastoma</b>: the most aggressive brain cancer in adults${memo("astrocytoma = “star cell”; astro as in “astronaut” means star.")}`),
           P("Match each embryonic tumour to its organ", [['retinoblastoma', "retina"], ['hepatoblastoma', "liver"], ['medulloblastoma', "cerebellum"], ['Wilms tumor', "kidney"]]),
-          T("Wilms tumor is also called nephroblastoma, and that name is common.", false, "False; the book says nephroblastoma is not used; it is an exception."),
+          T("Wilms tumor is also called nephroblastoma, and that name is common.", false, "False; the standard reference says nephroblastoma is not used; it is an exception."),
           L("Teratoma: an astonishing tumour", `A <b>teratoma</b> (terat/o = monster) arises from cells that can make many different tissues: hair, teeth, bone, muscle. It may be benign or malignant and is seen in the ovary, testis, chest and abdomen. A <b>seminoma</b> is a germ cell cancer of the testis.`),
           M("What is a tumour with hair and teeth inside called?", ['teratoma', 'seminoma', 'lipoma', 'cyst'], "terat/o = monster."),
           B("A glioma of the star-shaped brain cells is called an ___.", ['astrocytoma', 'glioblastoma', 'medulloblastoma'], 'astr/o + cyt/o + -oma.'),
@@ -2006,10 +2006,10 @@
         id: 'sx1', title: "The Seven Warning Signs", icon: '🚨', items: [
           L('CAUTION', `Remember the seven warning signs of cancer with the word <b>CAUTION</b>:${fig('warning-signs')}`),
           M("In CAUTION, the letter O stands for…", ["an obvious change in a wart or mole", "nagging cough", "unusual bleeding", "a sore that does not heal"], 'Obvious change in a wart or mole.'),
-          L("A sign, not a diagnosis", `These signs do <b>not prove</b> cancer; many have simple causes. But if they persist, a doctor should be seen.${pearl("The book says a full history and examination, including family history, smoking, alcohol and occupational exposure to chemicals or radiation, are the basis of early cancer detection.")}`),
+          L("A sign, not a diagnosis", `These signs do <b>not prove</b> cancer; many have simple causes. But if they persist, a doctor should be seen.${pearl("The standard reference says a full history and examination, including family history, smoking, alcohol and occupational exposure to chemicals or radiation, are the basis of early cancer detection.")}`),
           P("Match each letter of CAUTION to its sign", [['C', "change in bowel or bladder habits"], ['A', "a sore that does not heal"], ['T', "thickening or lump"], ['N', "a nagging cough or hoarseness"]]),
           T("Anyone with one of the CAUTION signs definitely has cancer.", false, "False; it is only a warning to get checked."),
-          M("Hoarseness for more than a week is a warning of which cancer?", ["larynx and throat", "intestine", "skin", "kidney"], "The book: oropharynx, hoarseness for more than one week."),
+          M("Hoarseness for more than a week is a warning of which cancer?", ["larynx and throat", "intestine", "skin", "kidney"], "oropharynx, hoarseness for more than one week."),
           B("In CAUTION, the letter U stands for ___ bleeding or discharge.", ["unusual", "normal", "at night"], 'Unusual bleeding or discharge.'),
           M("Which sign does the letter I in CAUTION refer to?", ["indigestion or difficulty swallowing", "infection", "itching", "headache"], 'Indigestion or difficulty swallowing.'),
           S("Spell the English word that spells out the seven warning signs", 'CAUTION', 'C-A-U-T-I-O-N.', 'CAU…'),
@@ -2018,12 +2018,12 @@
       },
       {
         id: 'sx2', title: "Signs in the Organs", icon: '🧍', items: [
-          L("Each organ has its own language", `${fig('symptom-map')}The book lists the signs for each system; you can read most of them from their roots and suffixes.`),
+          L("Each organ has its own language", `${fig('symptom-map')}The standard reference lists the signs for each system; you can read most of them from their roots and suffixes.`),
           L("Break the words apart", `${tbl([["Term", "Structure", "Meaning and cancer"], [e('hematuria'), 'hemat/o + ‎-uria', "blood in the urine: bladder, kidney, prostate"], [e('hemoptysis'), 'hem/o + ‎-ptysis', "coughing up blood: lung"], [e('dysphagia'), 'dys- + ‎-phagia', "difficulty swallowing: oesophagus, throat"], [e('dysuria'), 'dys- + ‎-uria', "burning on urination: urinary tract, prostate"], [e('dyspnea'), 'dys- + ‎-pnea', "shortness of breath: lung"], [e('dyspareunia'), 'dys- + pareunia', "painful intercourse: cervix, uterus"], [e('hematochezia'), 'hemat/o + chezia', "bright red blood from the rectum: large intestine"], [e('seizure'), '—', "seizures: brain"]])}${memo("dys- means difficult: dysphagia “difficult swallowing”, dyspnea “difficult breathing”, dysuria “difficult urination”.")}`),
           M(`${e('<b>hemoptysis</b>')} is a sign of which cancer?`, ["lung", "bladder", "skin", "brain"], "hem/o (blood) + -ptysis (spitting)."),
           P("Match each sign to its organ", [['hematuria', "bladder"], ['dysphagia', "oesophagus"], ['seizure', "brain"], ['hoarseness', "voice box"]]),
-          T("hematochezia means bright red blood from the rectum; a warning of bowel cancer.", true, "The book: change in bowel habits, bleeding."),
-          M("Which signs does the book list for brain cancer?", ["seizures and problems with balance, vision, hearing or speech", "coughing up blood", "blood in the urine", "nipple discharge"], 'Brain: seizures, loss of balance…'),
+          T("hematochezia means bright red blood from the rectum; a warning of bowel cancer.", true, "change in bowel habits, bleeding."),
+          M("Which signs does the standard reference list for brain cancer?", ["seizures and problems with balance, vision, hearing or speech", "coughing up blood", "blood in the urine", "nipple discharge"], 'Brain: seizures, loss of balance…'),
           B("Difficulty swallowing is called ___.", ['dysphagia', 'dyspnea', 'dysuria'], 'dys- + -phagia.'),
           W("Build a word meaning “blood in the urine”", ['hemat/o', '-uria'], ['-ptysis', 'dys-', '-emia'], 'hemat/o + -uria = hematuria.'),
           S("Spell the term for difficult breathing", 'dyspnea', 'dys- + -pnea.', 'dysp…'),
@@ -2047,12 +2047,12 @@
       /* ================= سطح ۲: پیش‌سرطان، خال و پستان ================= */
       {
         id: 'sx4', title: "Precancerous Lesions", icon: '⏳', items: [
-          L("Before Cancer", `The book calls lesions with a high chance of becoming cancer <b>precancerous</b>:${fig('precancer')}`),
+          L("Before Cancer", `The standard reference calls lesions with a high chance of becoming cancer <b>precancerous</b>:${fig('precancer')}`),
           M("What cancer can actinic keratosis turn into?", ['squamous cell carcinoma', 'leukemia', 'osteosarcoma', 'lymphoma'], "actin/o = sun ray."),
           L("Break the words apart", `• ${e('actinic keratosis')}: actin/o (sun ray) + kerat/o (horny tissue); a rough, scaly patch on sun-damaged skin<br>• ${wb('leuk/o', '-plakia')} = <b>leukoplakia</b>: a “white patch” in the mouth, often from tobacco<br>• <b>lentigo maligna</b>: Latin for “malignant freckle”; melanoma in situ<br>• <b>familial polyposis</b>: hundreds of inherited polyps in the large intestine${memo("leuko = white (as in leukaemia) and plakia = patch; so leukoplakia means “white patch”.")}`),
           P("Match each lesion to its meaning", [['leukoplakia', "white patch in the mouth"], ['actinic keratosis', "scaly sun-damaged patch"], ['lentigo maligna', "malignant freckle"], ['familial polyposis', "inherited bowel polyps"]]),
           T("Removing bowel polyps is one way to prevent bowel cancer.", true, "A polyp can turn into adenocarcinoma."),
-          M("What most often causes leukoplakia?", ["tobacco (smoked or chewed)", "sun", "asbestos", "heredity"], "The book: tobacco tars."),
+          M("What most often causes leukoplakia?", ["tobacco (smoked or chewed)", "sun", "asbestos", "heredity"], "tobacco tars."),
           B("Barrett esophagus is a kind of ___.", ['metaplasia', 'carcinoma', 'hematoma'], "Change of the oesophageal lining in reflux."),
           W("Build a word meaning “white patch”", ['leuk/o', '-plakia'], ['-emia', 'melan/o', '-oma'], 'leuk/o + -plakia = leukoplakia.'),
           S("Spell the term for a lesion likely to become cancer", 'precancerous', 'pre- + cancerous.', 'pre…'),
@@ -2074,7 +2074,7 @@
       },
       {
         id: 'sx6', title: "Breast Signs", icon: '🎗️', items: [
-          L("What a woman should know", `The book lists these signs of breast cancer: a <b>lump</b>, and <b>nipple discharge</b>, especially bloody discharge from one breast. In advanced cancer the skin changes too, becoming thick and dimpled: <b>peau d’orange</b> (French: orange peel).${fig('peau-orange', '', "Orange-peel skin and skin dimpling (arrow) in advanced breast cancer; Figure 20-8 of the book.")}`),
+          L("What a woman should know", `The standard reference lists these signs of breast cancer: a <b>lump</b>, and <b>nipple discharge</b>, especially bloody discharge from one breast. In advanced cancer the skin changes too, becoming thick and dimpled: <b>peau d’orange</b> (French: orange peel).${fig('peau-orange', '', "Orange-peel skin and skin dimpling (arrow) in advanced breast cancer; Teaching figure.")}`),
           M("peau d’orange means…", ["thick, dimpled skin like orange peel", "a brown mole", "a skin wound", "large bruise"], "French: orange peel."),
           L("Why does the skin look like orange peel?", `Cancer cells block the skin’s lymph vessels; fluid collects in the skin, and the hair follicles show as tiny dimples. A tumour beneath the nipple pulls it inwards: <b>nipple retraction</b>.${pearl("Breast self-examination (BSE) is done monthly after the period; any new lump or change should be shown to a doctor.")}`),
           P("Match each sign to its meaning", [['nipple discharge', "fluid leaking from the nipple"], ['nipple retraction', "nipple pulled inwards"], ['peau d\'orange', "orange-peel skin"], ['lump', "a hard mass"]]),
@@ -2091,7 +2091,7 @@
         id: 'sx7', title: "Screening", icon: '🧪', items: [
           L("Tests for healthy people", `<b>Screening</b> means testing healthy people without symptoms to find cancer or precancer before symptoms appear.${fig('screening-tests')}`),
           M("Which statement about screening is correct?", ["it is for healthy people without symptoms", "it is only for patients with symptoms", "it is the same as cancer treatment", "it is done only by biopsy"], "Aim: early detection."),
-          L("breast X-ray imaging", `${wb('mamm/o', '-graphy')} = <b>mammography</b>: low-dose X-ray imaging of the breast. The resulting image is a <b>mammogram</b>.${fig('mammogram', '', "A normal mammogram (Figure 20-5 of the book).")}`),
+          L("breast X-ray imaging", `${wb('mamm/o', '-graphy')} = <b>mammography</b>: low-dose X-ray imaging of the breast. The resulting image is a <b>mammogram</b>.${fig('mammogram', '', "A normal mammogram.")}`),
           P("Match each test to its organ", [['mammography', "breast"], ['Pap smear', "cervix"], ['PSA', "prostate"], ['FOBT', "large intestine"]]),
           L("Other tests", `• <b>Pap smear</b>: collecting cells from the cervix with a brush to find dysplasia<br>• <b>fecal occult blood test</b> (FOBT): fecal means stool and occult means hidden; the guaiac type is gFOBT<br>• <b>digital rectal examination</b> (DRE): feeling the prostate and rectum with a gloved finger<br>• <b>PSA</b>: a prostate blood test${memo("occult means “hidden”: blood that cannot be seen with the eye.")}`),
           T("FOBT looks for hidden blood in the stool.", true, 'fecal occult blood.'),
@@ -2119,7 +2119,7 @@
         id: 'sx9', title: "Screening in Practice", icon: '🩺', items: [
           L("A day in the clinic", `A 55-year-old man with no complaints has come for a check-up. The doctor orders a <b>PSA</b>, and because his <b>FOBT</b> was positive, schedules a <b>colonoscopy</b>. During the colonoscopy a <b>polyp</b> is found and removed.${fig('screening-tests')}`),
           M("Why is a colonoscopy done after a positive FOBT?", ["to see the whole bowel and find the source of the blood or a polyp", "because the FOBT has confirmed cancer", "to treat the prostate", "to measure PSA"], "The next diagnostic step."),
-          L("Where does screening not help?", `Screening is only worthwhile when a cancer has a detectable <b>preclinical stage</b> and a suitable test exists (the book). That is why we do not have screening tests for every cancer.${pearl("A 60-year-old smoker is screened with low-dose CT of the lungs; a plain chest X-ray is not enough.")}`),
+          L("Where does screening not help?", `Screening is only worthwhile when a cancer has a detectable <b>preclinical stage</b> and a suitable test exists. That is why we do not have screening tests for every cancer.${pearl("A 60-year-old smoker is screened with low-dose CT of the lungs; a plain chest X-ray is not enough.")}`),
           P("Match each finding to the next step", [["positive FOBT", 'colonoscopy'], ["Pap smear with dysplasia", "cervical biopsy"], ["lump on a mammogram", "breast biopsy"], ["high PSA", "further prostate assessment"]]),
           T("There is screening for every cancer.", false, "False; only for cancers with a preclinical stage and a suitable test."),
           M("What kind of measure is removing a polyp during colonoscopy?", ["preventive (prophylactic)", "palliative", "treatment with radiation", "Hormone therapy"], "Before it turns into cancer."),
@@ -2155,7 +2155,7 @@
           M("What is removed in an excisional biopsy?", ["the whole lump", "only a piece of the lump", "a few cells with a fine needle", "blood"], "excision = complete removal."),
           L("Four methods", `${tbl([["Method", "What is removed?"], [e('excisional biopsy'), "the whole lump or suspicious area"], [e('incisional biopsy'), "only part of the lump"], [e('core needle biopsy'), "a cylinder of tissue with a thick needle"], [e('fine-needle aspiration'), "a few cells or fluid with a fine needle; FNA"]])}${memo("ex = out (the whole lump comes out) • in = into (only a cut into it).")}`),
           P("Match each biopsy to its feature", [['excisional', "the whole lump"], ['incisional', "part of the lump"], ['core needle', "a cylinder of tissue"], ['FNA', "a fine needle"]]),
-          T("FNA is often done under CT or ultrasound guidance.", true, "The book: for the lung, with CT or ultrasound."),
+          T("FNA is often done under CT or ultrasound guidance.", true, "for the lung, with CT or ultrasound."),
           M("What does FNA stand for?", ['fine-needle aspiration', 'full node analysis', 'fluid needle anesthesia', 'final nodal assessment'], "Fine-needle aspiration."),
           B("The ___ examines biopsy tissue under the microscope.", ['pathologist', 'radiologist', 'surgeon'], 'path/o + -logist.'),
           W("Build a word meaning “viewing living tissue”", ['bi/o', '-opsy'], ['-scopy', 'cyt/o', '-gram'], 'bi/o + -opsy = biopsy.'),
@@ -2172,7 +2172,7 @@
           T("“Margins clear” means no cancer was seen at the edge of the removed tissue.", true, "A healthy margin."),
           M("How does cytology differ from histology?", ["cytology looks at separate cells and histology at tissue", "there is no difference", "cytology is imaging", "histology is a blood test"], "cyt/o cell, hist/o tissue."),
           B("A quick pathology answer during surgery is given by a ___ section.", ['frozen', 'fine', 'core'], "Frozen section."),
-          M("The book says bone marrow aspiration is a diagnostic tool for which?", ["leukaemia and lymphoma", "leukaemia only", "lymphoma only", "neither"], "Table 20-5: leukemia and lymphoma."),
+          M("The standard reference says bone marrow aspiration is a diagnostic tool for which?", ["leukaemia and lymphoma", "leukaemia only", "lymphoma only", "neither"], "Table 20-5: leukemia and lymphoma."),
           S("Spell the term for the study of separate cells", 'cytology', 'cyt/o + -logy.', 'cyto…'),
           N('f2t:dx')
         ]
@@ -2184,7 +2184,7 @@
           L("If the sentinel is involved", `${vs(["negative SLNB", "the other nodes are probably healthy; removing them all is not needed"], ["positive SLNB", "lymph node dissection: removing the regional nodes"])}• <b>lymphangiography</b> or lymph node mapping: viewing lymph vessels and nodes by injecting blue dye${pearl("SLNB has replaced removing all the armpit nodes and has greatly reduced the risk of lymphoedema of the arm.")}`),
           T("If the sentinel node is healthy, the other nodes are probably healthy too.", true, "The logic of SLNB."),
           P("Match each term to its meaning", [['SLNB', "sentinel node biopsy"], ['lymph node dissection', "removing the regional nodes"], ['lymphangiography', "image of lymph vessels and nodes"], ['sentinel', "guard"]]),
-          O("Put the steps of SLNB in order", ["injecting dye or a radioactive tracer beside the tumour", "the dye flows through the lymph vessel", "finding the node that took up the dye first", "removing and examining that node"], "The book: dye flows into the sentinel node."),
+          O("Put the steps of SLNB in order", ["injecting dye or a radioactive tracer beside the tumour", "the dye flows through the lymph vessel", "finding the node that took up the dye first", "removing and examining that node"], "dye flows into the sentinel node."),
           B("SLNB is widely used in ___ cancer and melanoma.", ["breast", "blood", "brain"], "Lymphatic spread."),
           L("Review of “Biopsy”", recap(["biopsy = bi/o + -opsy; the definite diagnosis of cancer", "excisional the whole lump • incisional part • core needle a cylinder • FNA a fine needle", "bone marrow aspiration, endometrial biopsy, sputum cytology, urine cytology, Pap smear; frozen section and surgical margin", "SLNB the sentinel node; positive → lymph node dissection; lymphangiography"])),
           N('m2r:dx')
@@ -2196,7 +2196,7 @@
         id: 'dx4', title: "Endoscopies", icon: '🔦', items: [
           L("Root + -scopy", `In endoscopy a thin lighted tube (scope) is passed into the body to see inside an organ, and a biopsy is often taken at the same time.${fig('scope-map')}`),
           M("Which organ is viewed in cystoscopy?", ["bladder", "large intestine", "lung", "uterus"], "cyst/o = bladder; through the urethra."),
-          L("The book’s list", `${tbl([["Method", "What is seen?"], [e('bronchoscopy'), "trachea, bronchi and lung; through the nose or mouth"], [e('colonoscopy'), "the whole large intestine; through the anus"], [e('sigmoidoscopy'), "rectum and sigmoid colon"], [e('esophagoscopy'), "oesophagus"], [e('laryngoscopy'), "voice box"], [e('hysteroscopy'), "within the uterus"], [e('thoracoscopy'), "the chest cavity through a small cut between the ribs"]])}`),
+          L("The standard reference’s list", `${tbl([["Method", "What is seen?"], [e('bronchoscopy'), "trachea, bronchi and lung; through the nose or mouth"], [e('colonoscopy'), "the whole large intestine; through the anus"], [e('sigmoidoscopy'), "rectum and sigmoid colon"], [e('esophagoscopy'), "oesophagus"], [e('laryngoscopy'), "voice box"], [e('hysteroscopy'), "within the uterus"], [e('thoracoscopy'), "the chest cavity through a small cut between the ribs"]])}`),
           P("Match each endoscopy to its organ", [['bronchoscopy', "bronchi"], ['laryngoscopy', "voice box"], ['hysteroscopy', "uterus"], ['esophagoscopy', "oesophagus"]]),
           T("Colonoscopy views the whole large intestine, but sigmoidoscopy only its last part.", true, "sigmoid = the S-shaped last part."),
           L("Scopy or tomy?", `${vs(['thoracoscopy', "a small cut and viewing through a tube"], ['thoracotomy', "a large cut between the ribs, opening the chest"])}${memo("-scopy is “looking”, -tomy is “cutting”.")}`),
@@ -2244,7 +2244,7 @@
           T("An ER-positive tumour responds better to hormone therapy.", true, "Its growth depends on oestrogen."),
           M("For which cancer is the CBC especially important?", ["leukaemia", "skin cancer", "bladder cancer", "black pigment-cell tumour (melanoma)"], 'complete blood count.'),
           B("A grade 3 tumour has ___ cells.", ["poorly differentiated", "well differentiated", "normal"], 'poorly differentiated.'),
-          M("From which sample are ER/PR checked?", ["breast tumour tissue", "blood", "urine", "thick mucus from the airways"], "The book: cells are taken from breast tissue."),
+          M("From which sample are ER/PR checked?", ["breast tumour tissue", "blood", "urine", "thick mucus from the airways"], "cells are taken from breast tissue."),
           S("Spell the word for a protein that receives a hormone signal", 'receptor', "Latin: receiver.", 'recep…'),
           N('ab:dx')
         ]
@@ -2267,12 +2267,12 @@
         id: 'dx9', title: "Stage 0 to 4", icon: '🪜', items: [
           L("Five steps", `TNM is finally summed up as a <b>stage</b>:${fig('stages')}`),
           M("Stage IV means…", ["distant metastasis", "cancer in situ", "a small local tumour", "no cancer"], "The highest stage."),
-          L("Breast cancer stages in the book", `${fig('breast-stages', '', "Stages of breast cancer (Figure 20-4 of the book).")}${tbl([["Stage", "The book’s description"], ['Stage I', "localised cancer (in situ)"], ['Stage II', "invasion of nearby breast tissue"], ['Stage III', "invasion of the lymph nodes"], ['Stage IV', "metastasis to the liver"]])}`),
+          L("Breast cancer stages in the standard reference", `${fig('breast-stages', '', "Stages of breast cancer.")}${tbl([["Stage", "The standard reference’s description"], ['Stage I', "localised cancer (in situ)"], ['Stage II', "invasion of nearby breast tissue"], ['Stage III', "invasion of the lymph nodes"], ['Stage IV', "metastasis to the liver"]])}`),
           O("Put the stages of breast cancer in order", ["applied to the skin", "invasion of breast tissue", "invasion of the lymph nodes", "metastasis to the liver"], "Figure 20-4."),
           T("The higher the stage, the worse the prognosis.", true, "Harder treatment."),
           P("Match each stage to its feature", [['stage 0', "in situ"], ['stage I', "small and local"], ['stage III', "regional nodes"], ['stage IV', "distant metastasis"]]),
           M("prognosis means…", ["the predicted course and outcome of the disease", "diagnosis", "treatment", "tissue sample"], "pro- (before) + gnosis (knowing)."),
-          B("The choice of treatment depends on the cancer’s type, site and ___.", ["Stage", "colour", "weight"], "The book: stage of the disease."),
+          B("The choice of treatment depends on the cancer’s type, site and ___.", ["Stage", "colour", "weight"], "stage of the disease."),
           L("Review of “Grade and Stage”", recap(["grade = cell abnormality (grade 1 well differentiated to grade 3 poorly differentiated) • stage = extent of cancer", "ER, PR and HER2 on breast cancer cells; ER-positive → hormone therapy", "TNM: T tumour (Tis to T4), N nodes (N0 to N3), M metastasis (M0, M1); localized, regional, distant", "stage 0 in situ to stage IV distant metastasis; prognosis the outlook"])),
           N('d2t:dx')
         ]
@@ -2299,7 +2299,7 @@
       /* ================= سطح ۱: جراحی ================= */
       {
         id: 'tx1', title: "Cancer Surgery", icon: '✂️', items: [
-          L("Organ root + -ectomy", `The book says surgery is best for <b>solid tumours</b> confined to one area; it is not used for leukaemia or widespread cancer.${fig('surgery-map')}`),
+          L("Organ root + -ectomy", `The standard reference says surgery is best for <b>solid tumours</b> confined to one area; it is not used for leukaemia or widespread cancer.${fig('surgery-map')}`),
           M(`${e('<b>pneumonectomy</b>')} means…`, ["removal of a whole lung", "removal of one lobe of a lung", "cutting into the chest", "looking inside the lung"], 'pneumon/o + -ectomy.'),
           L("Operations in Table 20-5", `${tbl([["surgery", "removal"], [e('pneumonectomy'), "a whole lung"], [e('cystectomy'), "bladder"], [e('hysterectomy'), "uterus"], [e('laryngectomy'), "all or part of the larynx"], [e('lobectomy'), "one lobe of the lung"], [e('prostatectomy'), "all or part of the prostate"], [e('orchiectomy'), "one or both testes"], [e('salpingo-oophorectomy'), "tubes and ovaries"]])}${memo("salping/o is the uterine tube and oophor/o the ovary: salpingo-oophorectomy means removing both together.")}`),
           P("Match each operation to its organ", [['cystectomy', "bladder"], ['hysterectomy', "uterus"], ['orchiectomy', "testis"], ['laryngectomy', "voice box"]]),
@@ -2314,12 +2314,12 @@
       },
       {
         id: 'tx2', title: "Breast surgery", icon: '🎗️', items: [
-          L("Save the breast or remove it?", `${fig('lump-mast')}${tbl([["surgery", "The book’s definition"], [e('lumpectomy'), "removing the tumour and a little healthy tissue around it"], [e('mastectomy'), "removing the breast or most of its tissue; with or without the lymph nodes"], [e('modified radical mastectomy'), "removing the breast, some armpit nodes and the lining over the chest muscles"]])}`),
+          L("Save the breast or remove it?", `${fig('lump-mast')}${tbl([["surgery", "The standard reference’s definition"], [e('lumpectomy'), "removing the tumour and a little healthy tissue around it"], [e('mastectomy'), "removing the breast or most of its tissue; with or without the lymph nodes"], [e('modified radical mastectomy'), "removing the breast, some armpit nodes and the lining over the chest muscles"]])}`),
           M("What is removed in a lumpectomy?", ["the tumour and a little healthy tissue around it", "the whole breast", "the breast and chest muscle", "only the armpit nodes"], "lump = mass."),
-          L("A complication that lasts for years", `Removing the armpit lymph nodes blocks the lymph flow of the arm and may cause <b>lymphedema</b>:${fig('lymphedema-arm', '', "Severe swelling of the arm from long-term lymph blockage, years after radical breast cancer surgery (Figure 20-9 of the book).")}${pearl("After lymph node dissection, blood is not drawn and blood pressure is not taken on that arm, so lymphoedema does not worsen.")}`),
+          L("A complication that lasts for years", `Removing the armpit lymph nodes blocks the lymph flow of the arm and may cause <b>lymphedema</b>:${fig('lymphedema-arm', '', "Severe swelling of the arm from long-term lymph blockage, years after radical breast cancer surgery.")}${pearl("After lymph node dissection, blood is not drawn and blood pressure is not taken on that arm, so lymphoedema does not worsen.")}`),
           P("Match each term to its meaning", [['lumpectomy', "removing the lump"], ['mastectomy', "removal of the breast"], ['lymphedema', "lymphatic swelling"], ['modified radical mastectomy', "breast, armpit nodes and muscle lining"]]),
           T("Lymphoedema of the arm can appear years after the armpit nodes are removed.", true, "Figure 20-9."),
-          L("reconstruction", `After mastectomy, <b>reconstructive surgery</b> restores the shape of the breast; the book calls this <b>rehabilitative</b> treatment.`),
+          L("reconstruction", `After mastectomy, <b>reconstructive surgery</b> restores the shape of the breast; the standard reference calls this <b>rehabilitative</b> treatment.`),
           M("Which treatment approach is breast reconstruction after mastectomy?", ['rehabilitative', 'palliative', 'prophylactic', 'neoadjuvant'], "Table 20-6."),
           B("The abbreviation ___ means modified radical mastectomy.", ['MRM', 'SLNB', 'DCIS'], "Modified radical mastectomy."),
           S("Spell the term for removing only a breast lump", 'lumpectomy', 'lump + -ectomy.', 'lump…'),
@@ -2328,12 +2328,12 @@
       },
       {
         id: 'tx3', title: "Special Operations", icon: '❄️', items: [
-          L("Cold, light and an opening", `${tbl([["Method", "The book’s description"], [e('cryosurgery'), "cry/o = cold; freezing and destroying tissue: early skin cancer, retinoblastoma, precancerous lesions of the skin and cervix"], [e('laser surgery'), "a beam of light for cutting surface tissue or organ linings"], [e('colostomy'), "col/o + -stomy: an opening of the colon on the abdomen"], [e('port catheter'), "a small device under the chest skin for giving chemotherapy"]])}`),
+          L("Cold, light and an opening", `${tbl([["Method", "The standard reference’s description"], [e('cryosurgery'), "cry/o = cold; freezing and destroying tissue: early skin cancer, retinoblastoma, precancerous lesions of the skin and cervix"], [e('laser surgery'), "a beam of light for cutting surface tissue or organ linings"], [e('colostomy'), "col/o + -stomy: an opening of the colon on the abdomen"], [e('port catheter'), "a small device under the chest skin for giving chemotherapy"]])}`),
           M("What does cryosurgery destroy tissue with?", ["extreme cold", "electricity", "light", "radioactive substances"], "cry/o = cold."),
-          L("Ectomy, stomy, tomy", `${fig('ectomy-tomy-stomy')}${memo("The book calls these three “confusing terms”: blepharectomy removal, salpingostomy an opening and prostatolithotomy an incision.")}`),
+          L("Ectomy, stomy, tomy", `${fig('ectomy-tomy-stomy')}${memo("The standard reference calls these three “confusing terms”: blepharectomy removal, salpingostomy an opening and prostatolithotomy an incision.")}`),
           P("Match each suffix to its meaning", [['-ectomy', "removal"], ['-stomy', "making an opening"], ['-tomy', "incision"], ['cry/o', "cold"]]),
           T("Colostomy means removal of the large intestine.", false, "False; removal is colectomy and colostomy is making an opening."),
-          M("What is the device placed under the chest skin for chemotherapy?", ['port catheter', 'stent', 'pacemaker', 'shunt'], "The book: access devices for chemotherapy."),
+          M("What is the device placed under the chest skin for chemotherapy?", ['port catheter', 'stent', 'pacemaker', 'shunt'], "access devices for chemotherapy."),
           B("Removal of the thyroid is called ___.", ['thyroidectomy', 'thyroidotomy', 'thyroidostomy'], 'thyroid/o + -ectomy.'),
           W("Build a word meaning “surgery with cold”", ['cry/o', 'surgery'], ['radi/o', '-tomy', 'chem/o'], 'cry/o + surgery = cryosurgery.'),
           L("Review of “Surgery”", recap(["Surgery for a local solid tumour; excision, resection, en bloc resection, debulking", "ectomies: pneumonectomy, lobectomy, cystectomy, hysterectomy, laryngectomy, prostatectomy, orchiectomy, salpingo-oophorectomy, thyroidectomy", "Breast: lumpectomy, mastectomy, modified radical mastectomy; lymphedema; reconstructive surgery", "cryosurgery, laser surgery, colostomy, port catheter; -ectomy removal, -tomy incision, -stomy opening"])),
@@ -2346,9 +2346,9 @@
         id: 'tx4', title: "treatment with radiation", icon: '☢️', items: [
           L("Radiation to kill cells", `<b>Radiation therapy</b> (radiotherapy) kills cancer cells or slows their growth with high-energy rays such as X-rays. It is given in three ways:${fig('radiation-types')}`),
           M("In brachytherapy, where is the radiation source?", ["in or beside the tumour", "in a machine outside the body", "in the blood", "in the bone marrow"], "brachy- = near."),
-          L("Three types in the book", `${tbl([["Type", "Description"], [e('external beam radiation'), "a machine aims the radiation at the tumour from outside"], [e('brachytherapy'), "radioactive seeds, needles, wires or catheters in or beside the tumour"], [e('systemic radiation therapy'), "a liquid radioactive substance by mouth or vein circulates in the blood"]])}${pearl("Radioactive iodine (I-131) is an example of systemic radiotherapy: the thyroid takes up iodine, and thyroid cancer cells are irradiated from within.")}A tumour easily damaged by radiation is <b>radiosensitive</b>.`),
+          L("Three types in the standard reference", `${tbl([["Type", "Description"], [e('external beam radiation'), "a machine aims the radiation at the tumour from outside"], [e('brachytherapy'), "radioactive seeds, needles, wires or catheters in or beside the tumour"], [e('systemic radiation therapy'), "a liquid radioactive substance by mouth or vein circulates in the blood"]])}${pearl("Radioactive iodine (I-131) is an example of systemic radiotherapy: the thyroid takes up iodine, and thyroid cancer cells are irradiated from within.")}A tumour easily damaged by radiation is <b>radiosensitive</b>.`),
           P("Match each type to its feature", [['external beam', "a machine outside the body"], ['brachytherapy', "radioactive seeds beside the tumour"], ['systemic', "radioactive liquid in the blood"], ['radioactive iodine', "thyroid cancer"]]),
-          T("The book: radiotherapy with a radioactive substance injected into a vein is the systemic type.", true, "End-of-chapter question 2."),
+          T("radiotherapy with a radioactive substance injected into a vein is the systemic type.", true, "End-of-chapter question 2."),
           M("radiosensitive means the tumour…", ["is easily damaged by radiation", "resists radiation", "produces radiation", "is treated with surgery"], "Sensitive to radiation."),
           B("A radiotherapy specialist is a ___ oncologist.", ['radiation', 'medical', 'surgical'], 'radiation oncologist.'),
           W("Build a word meaning “treatment from close by”", ['brachy-', '-therapy'], ['radi/o', 'chem/o', '-tomy'], 'brachy- + -therapy = brachytherapy.'),
@@ -2373,7 +2373,7 @@
       {
         id: 'tx6', title: "Hormones and Immunity", icon: '🛡️', items: [
           L("Lock and key", `<b>Hormone therapy</b> (endocrine therapy) slows the growth of hormone-sensitive tumours by stopping hormone production or blocking its effect:${fig('hormone-block')}`),
-          M("In which cancer is an antiestrogen used?", ["oestrogen-receptor-positive breast cancer", "skin cancer", "leukaemia", "lung cancer"], "The book: estrogen positive breast cancer."),
+          M("In which cancer is an antiestrogen used?", ["oestrogen-receptor-positive breast cancer", "skin cancer", "leukaemia", "lung cancer"], "estrogen positive breast cancer."),
           L("Hormonal drugs", `${tbl([["drug", "Job"], [e('antiestrogen'), "blocking the effect of oestrogen, such as tamoxifen in the breast"], [e('aromatase inhibitor'), "reducing oestrogen production after menopause"], [e('antiandrogen'), "blocking male hormone; prostate"], [e('LH-RH agonist'), "reducing the secretion of sex hormones"]])}${memo("andr/o means male: an antiandrogen, “against male hormone”, is for the prostate.")}`),
           P("Match each drug to its job", [['antiestrogen', "blocking the effect of oestrogen"], ['antiandrogen', "blocking male hormone"], ['aromatase inhibitor', "reducing oestrogen production"], ['LH-RH agonist', "reducing sex hormones"]]),
           L("Waking up immunity", `• <b>immunotherapy</b> (biological therapy): boosting the immune system’s power to fight cancer<br>• <b>BCG vaccine</b>: a weakened bacterium that activates immunity in the bladder<br>• <b>monoclonal antibody</b>: a laboratory antibody that sticks to a specific target on the cancer cell<br>• <b>targeted therapy</b>: a drug that targets a particular molecule of cancer growth${pearl("An immunosuppressant is the opposite: it suppresses immunity; for transplant patients.")}`),
@@ -2389,12 +2389,12 @@
       {
         id: 'tx7', title: "stem cell transplant", icon: '🌱', items: [
           L("Rebuilding the Bone Marrow", `A <b>stem cell transplant</b> replaces blood-forming stem cells destroyed by intensive chemotherapy or radiotherapy; mostly for leukaemia and lymphoma.${fig('stem-cell')}`),
-          M("Which cancers is a stem cell transplant mostly for?", ["leukaemia and lymphoma", "skin cancer", "stage 1 breast cancer", "black pigment-cell tumour (melanoma)"], "The book."),
-          L("Two sources of cells", `${vs(['BMT', "bone marrow transplantation: cells from the bone marrow"], ['PBSCT', "peripheral blood stem cell transplantation: cells from the peripheral blood"])}The book says stem cells can come from bone marrow, blood or the <b>umbilical cord</b>.${pearl("Graft-versus-host disease (GVHD) means the donor’s immune cells attack the recipient’s body; an immunosuppressant is given to prevent it.")}`),
+          M("Which cancers is a stem cell transplant mostly for?", ["leukaemia and lymphoma", "skin cancer", "stage 1 breast cancer", "black pigment-cell tumour (melanoma)"], "Per standard references."),
+          L("Two sources of cells", `${vs(['BMT', "bone marrow transplantation: cells from the bone marrow"], ['PBSCT', "peripheral blood stem cell transplantation: cells from the peripheral blood"])}The standard reference says stem cells can come from bone marrow, blood or the <b>umbilical cord</b>.${pearl("Graft-versus-host disease (GVHD) means the donor’s immune cells attack the recipient’s body; an immunosuppressant is given to prevent it.")}`),
           P("Match each abbreviation to its meaning", [['BMT', "replacing diseased marrow with donor marrow"], ['PBSCT', "peripheral blood stem cell transplant"], ['GVHD', "donor immune cells attacking the recipient"], ['CSF', "colony-stimulating factor"]]),
           O("Put the steps of a stem cell transplant in order", ["collecting the stem cells", "intensive chemotherapy", "infusing the cells through a vein", "engraftment and making new blood"], "The transplant figure."),
           T("In GVHD, the recipient’s body attacks the transplanted cells.", false, "False; it is the reverse: the transplanted cells (graft) attack the host’s body."),
-          M("Where can blood stem cells be taken from?", ["bone marrow, blood or umbilical cord", "only the skin", "only the liver", "only the lymph nodes"], "The book."),
+          M("Where can blood stem cells be taken from?", ["bone marrow, blood or umbilical cord", "only the skin", "only the liver", "only the lymph nodes"], "Per standard references."),
           B("A drug that suppresses immunity is called an ___.", ['immunosuppressant', 'immunotherapy', 'antineoplastic'], 'immun/o + suppressant.'),
           S("Spell the one-word term for bone marrow suppression", 'myelosuppression', 'myel/o + -suppression.', 'myelo…'),
           N('f2t:tx')
@@ -2416,14 +2416,14 @@
       },
       {
         id: 'tx9', title: "Aims of Treatment", icon: '🎯', items: [
-          L("Every treatment has an aim", `The book groups treatments by their aim (Table 20-6):${fig('care-goals')}`),
+          L("Every treatment has an aim", `The standard reference groups treatments by their aim (Table 20-6):${fig('care-goals')}`),
           M("Palliative treatment means…", ["relieving symptoms without a cure", "definitive cure", "preventing cancer", "breast reconstruction"], "From French palliatif: easing without curing."),
           L("Examples from Table 20-6", `${tbl([["Approach", "Example"], [e('curative'), "primary or definitive: local removal, en bloc dissection"], [e('palliative'), "tumour debulking, pain control, nutritional support"], [e('prophylactic'), "removing a precancerous lesion"], [e('rehabilitative'), "reconstruction after mastectomy"], [e('supportive'), "chemotherapy port, antiemetics"], [e('hospice'), "end-of-life comfort care"]])}${memo("prophylactic = pro (before) + phylax (guard): “guarding in advance”.")}`),
           P("Match each approach to its example", [['curative', "complete removal of the tumour"], ['palliative', "pain control"], ['prophylactic', "removal of a polyp"], ['rehabilitative', "breast reconstruction"]]),
-          T("The book: complete removal of a basal cell carcinoma of the skin is definitive treatment.", true, "End-of-chapter question 8."),
+          T("complete removal of a basal cell carcinoma of the skin is definitive treatment.", true, "End-of-chapter question 8."),
           M("A patient with metastatic cancer receives radiation to ease bone pain. What is the aim of treatment?", ['palliative', 'curative', 'prophylactic', 'rehabilitative'], "Relief, not cure."),
           B("Comfort care for patients at the end of life is called ___.", ['hospice', 'remission', 'resection'], 'hospice.'),
-          M("What does the book say the choice of treatment depends on?", ["the type and site of the cancer, the stage, and the patient’s age and general health", "only the patient’s age", "only the tumour size", "only the patient’s opinion"], "Cancer Treatment in the book."),
+          M("What does the standard reference say the choice of treatment depends on?", ["the type and site of the cancer, the stage, and the patient’s age and general health", "only the patient’s age", "only the tumour size", "only the patient’s opinion"], "Cancer Treatment."),
           L("Review of “Approach and Outcome”", recap(["stem cell transplant: BMT (bone marrow), PBSCT (peripheral blood); GVHD and immunosuppressant", "neoadjuvant before surgery, adjuvant after it; remission, relapse, recurrence, five-year survival rate", "Aims: curative (definitive), palliative, prophylactic, rehabilitative, supportive, hospice", "Choice of treatment: type and site of cancer, stage, age and general health"])),
           N('d2t:tx')
         ]

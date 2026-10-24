@@ -1834,7 +1834,7 @@
       {
         id: 'lx2', title: "Urologist or nephrologist?", icon: '👩‍⚕️', items: [
           L("Two specialists", `${fig('specialists', [], "Two specialists")}${tbl([["specialist", "Job"], [e('urologist'), "surgeon of the male and female urinary tract and the male reproductive system: stones, bladder, prostate"], [e('nephrologist'), "internal medicine kidney specialist: kidney failure, dialysis and transplant"], [e('urogynecologist'), "urinary problems related to the female reproductive system"]])}`),
-          L("genital and urinary", `In men the urethra carries both urine and semen, which is why this system is sometimes called ${e('<b>genitourinary (GU)</b>')}.${wb('genit/o', 'urin/o', '-ary')} → urinary and genital${pearl("In the textbook’s applied scenario, Mrs Betty Garble, aged 46, who has had five children, has trouble controlling her urine, and her doctor has referred her to a urologist.")}${memo("nephr means kidney, so a nephrologist is a kidney doctor. ur means urine; a urologist is a urinary tract doctor.")}`),
+          L("genital and urinary", `In men the urethra carries both urine and semen, which is why this system is sometimes called ${e('<b>genitourinary (GU)</b>')}.${wb('genit/o', 'urin/o', '-ary')} → urinary and genital${pearl("In a clinical scenario, Mrs Betty Garble, aged 46, who has had five children, has trouble controlling her urine, and her doctor has referred her to a urologist.")}${memo("nephr means kidney, so a nephrologist is a kidney doctor. ur means urine; a urologist is a urinary tract doctor.")}`),
           M("Which specialist mainly looks after a dialysis patient?", ['nephrologist', 'urologist', 'cardiologist', 'neurologist'], "nephr/o means kidney.", null, F('specialists', [])),
           M("Surgery for bladder stones and the prostate is the work of which specialist?", ['urologist', 'nephrologist', 'dermatologist', 'radiologist'], "A urologist is a urinary tract surgeon."),
           T("A urologist also treats diseases of the male reproductive system.", true, "Because the male urethra is shared."),
@@ -1906,7 +1906,7 @@
       {
         id: 'lx7', title: "Common prefixes", icon: '⬅️', items: [
           L("Prefixes", `${tbl([["prefix", "Meaning", "Example"], [e('a-, an-'), "without", e('anuria')], [e('dys-'), "painful, difficult", e('dysuria')], [e('poly-'), "many", e('polyuria')], [e('hyper-'), "excessive", e('hyperkalemia')], [e('hypo-'), "low", e('hypospadias')], [e('retro-'), "behind, backward", e('retrograde')], [e('extra-'), "outside", e('extracorporeal')]])}`),
-          L("At the bedside", `${fig('uria-family', [], "The -uria family")}${wb('an-', '-uria')} → no urine<br>${wb('poly-', '-uria')} → excessive urine<br>${wb('dys-', '-uria')} → painful urination${pearl("In a consultation report in Fremgen’s textbook, a 36-year-old man came to the urologist with right flank pain and blood in his urine; that is, hematuria.")}${memo("olig/o, as in “oligarchy”, means few; oliguria means scanty urine.")}`),
+          L("At the bedside", `${fig('uria-family', [], "The -uria family")}${wb('an-', '-uria')} → no urine<br>${wb('poly-', '-uria')} → excessive urine<br>${wb('dys-', '-uria')} → painful urination${pearl("In a consultation report, a 36-year-old man came to the urologist with right flank pain and blood in his urine; that is, hematuria.")}${memo("olig/o, as in “oligarchy”, means few; oliguria means scanty urine.")}`),
           M("The prefix dys- means…", ["painful, difficult", "many", "without", "behind"], 'dysuria.'),
           M(`${e('<b>polyuria</b>')} means…`, ["excessive urine", "little urine", "night-time urination", "painful urination"], "poly- means many."),
           T("retro- in retroperitoneal means behind the peritoneum.", true, "The kidneys are behind the peritoneum."),
@@ -1981,7 +1981,7 @@
       {
         id: 'kd2', title: "Cortex and medulla", icon: '🔪', items: [
           L("Lengthwise section", `${fig('kidney-section-art', [], "Lengthwise section of the kidney")}A section of the kidney shows two regions: the outer ${e('<b>renal cortex</b>')} and the inner ${e('<b>renal medulla</b>')}. The medulla is made of triangular ${e('<b>renal pyramids</b>')}, whose tips, the ${e('renal papilla')}, point towards the hilum.`),
-          L("On the textbook figure", `${fig('kidney-internal', ["Cortex, medulla, pyramid and papilla"], "Internal structure of the kidney")}${vs(['cortex', "outer; the rind; renal corpuscles"], ['medulla', "inner; pyramids; loops and ducts"])}${memo("In Latin, medulla means bone marrow; the adrenal gland and the brainstem also have a “medulla”. cortex means tree bark.")}`),
+          L("On the figure", `${fig('kidney-internal', ["Cortex, medulla, pyramid and papilla"], "Internal structure of the kidney")}${vs(['cortex', "outer; the rind; renal corpuscles"], ['medulla', "inner; pyramids; loops and ducts"])}${memo("In Latin, medulla means bone marrow; the adrenal gland and the brainstem also have a “medulla”. cortex means tree bark.")}`),
           M("Which is the outer part of the kidney?", ['renal cortex', 'renal medulla', 'renal pelvis', 'calyx'], "cortex means rind.", null, F('kidney-section-art', [])),
           M("The triangular structures of the renal medulla are the…", ['renal pyramids', 'calyces', 'glomeruli', 'rugae'], "The renal pyramids."),
           T("The tip of each renal pyramid points towards the hilum and is called the papilla.", true, 'renal papilla.', F('kidney-internal', [])),
@@ -2010,7 +2010,7 @@
       {
         id: 'kd4', title: "nephron", icon: '🔬', items: [
           L("The kidney’s working unit", `${fig('nephron-art', [], "nephron")}Each kidney contains more than a million working units, each a ${e('<b>nephron</b>')}. Every nephron has two parts:<br>• ${e('<b>renal corpuscle</b>')}: the ${e('glomerulus')} (capillary tuft) inside the ${e('glomerular capsule')}, or Bowman capsule<br>• ${e('<b>renal tubule</b>')}: a tube that completes the urine`),
-          L("On the textbook figure", `${fig('nephron-section', ["Nephron in the kidney"], "Where the nephron sits in the kidney")}${memo("glomerulus comes from the Latin glomus, “ball of yarn”; the tangled tuft of capillaries has just that shape.")}${pearl("A person can live a normal life with one healthy kidney, because there are more nephrons than the body needs.")}`),
+          L("On the figure", `${fig('nephron-section', ["Nephron in the kidney"], "Where the nephron sits in the kidney")}${memo("glomerulus comes from the Latin glomus, “ball of yarn”; the tangled tuft of capillaries has just that shape.")}${pearl("A person can live a normal life with one healthy kidney, because there are more nephrons than the body needs.")}`),
           M("What is the functional unit of the kidney?", ['nephron', 'neuron', 'glomerulus', 'calyx'], 'nephron.', null, F('nephron-art', [])),
           M("The capillary tuft inside Bowman capsule is the…", ['glomerulus', 'tubule', 'papilla', 'medulla'], 'glomerulus.'),
           T("The renal corpuscle is made of the glomerulus and Bowman capsule.", true, 'renal corpuscle.'),
@@ -2038,7 +2038,7 @@
       {
         id: 'kd6', title: "Three steps of urine formation", icon: '🧪', items: [
           L("Filtration, reabsorption, secretion", `${fig('urine-formation', [], "Three steps")}1. ${e('<b>filtration</b>')}: blood pressure pushes water and dissolved substances from the glomerulus into Bowman capsule; this fluid is the ${e('glomerular filtrate')}.<br>2. ${e('<b>reabsorption</b>')}: water, sugar and needed salts return from the tubule to the peritubular capillaries.<br>3. ${e('<b>secretion</b>')}: the tubule moves ammonia, uric acid and hydrogen ions from the blood into the urine.`),
-          L("On the textbook figure", `${fig('urine-stages', ["filtration A, reabsorption B, secretion C"], "Three steps of urine formation")}${fig('glomerulus-zoom', [], "renal corpuscle")}${pearl("About 180 litres of fluid are filtered by the glomeruli each day and about 99% of the water is reabsorbed; only 1 to 2 litres of urine remain.")}${memo("The prefix re- means again: reabsorption means absorbing again.")}`),
+          L("On the figure", `${fig('urine-stages', ["filtration A, reabsorption B, secretion C"], "Three steps of urine formation")}${fig('glomerulus-zoom', [], "renal corpuscle")}${pearl("About 180 litres of fluid are filtered by the glomeruli each day and about 99% of the water is reabsorbed; only 1 to 2 litres of urine remain.")}${memo("The prefix re- means again: reabsorption means absorbing again.")}`),
           M("The first step of urine formation, in the glomerulus, is…", ['filtration', 'reabsorption', 'secretion', 'excretion'], "Filtration.", null, F('urine-formation', [])),
           M("The return of water and sugar from the tubule to the blood is…", ['reabsorption', 'filtration', 'secretion', 'diuresis'], "Reabsorption."),
           T("Normally, blood cells and protein do not pass through the glomerulus.", true, "The filtered fluid should contain no cells or protein.", F('glomerulus-zoom', [])),
@@ -2053,7 +2053,7 @@
       {
         id: 'kd7', title: "Blood flow in the kidney", icon: '🩸', items: [
           L("From the aorta to the vena cava", `${fig('renal-blood', [], "The path of blood")}The ${e('<b>renal artery</b>')} branches off the abdominal aorta. Its branches reach the ${e('<b>afferent arteriole</b>')}, which brings blood to the glomerulus; the ${e('<b>efferent arteriole</b>')} takes blood away from the glomerulus to the ${e('peritubular capillaries')}. The filtered blood returns to the inferior vena cava through the ${e('renal vein')}.`),
-          L("On the textbook figure", `${fig('kidney-blood', ["Renal artery and vein"], "Kidney vessels")}${fig('nephron-blood', ["Arterioles, glomerulus and capillaries"], "Blood supply of the nephron")}${vs(['afferent', "afferent; towards the glomerulus"], ['efferent', "efferent; away from the glomerulus"])}${memo("afferent with an a as in arrive: it comes in. efferent with an e as in exit: it goes out.")}`),
+          L("On the figure", `${fig('kidney-blood', ["Renal artery and vein"], "Kidney vessels")}${fig('nephron-blood', ["Arterioles, glomerulus and capillaries"], "Blood supply of the nephron")}${vs(['afferent', "afferent; towards the glomerulus"], ['efferent', "efferent; away from the glomerulus"])}${memo("afferent with an a as in arrive: it comes in. efferent with an e as in exit: it goes out.")}`),
           M("The arteriole that brings blood to the glomerulus is the…", ['afferent arteriole', 'efferent arteriole', 'renal vein', 'peritubular capillary'], "afferent = carrying towards.", null, F('renal-blood', [])),
           M("Where does the renal vein drain?", ['inferior vena cava', 'abdominal aorta', 'renal artery', 'ureter'], "The inferior vena cava."),
           T("The renal artery is a branch of the abdominal aorta.", true, 'renal artery.', F('kidney-blood', [])),
@@ -2128,7 +2128,7 @@
       {
         id: 'tr2', title: "bladder", icon: '🎈', items: [
           L("An elastic store", `${fig('bladder-art', [], "The bladder in section")}The ${e('<b>urinary bladder</b>')} is a muscular, elastic sac in the pelvis. Its wall has the smooth muscle ${e('<b>detrusor</b>')}, and its inner lining has folds called ${e('<b>rugae</b>')} that let the bladder stretch.`),
-          L("On the textbook figure", `${fig('bladder-wall', ["Ureter, bladder, sphincters and urethra"], "bladder wall")}An adult bladder sends the urge to urinate when it holds about 300 to 400 mL of urine, and at night it can hold up to about a litre.${memo("Remember rugae as “accordion folds”; when the bladder fills, the folds open out.")}`),
+          L("On the figure", `${fig('bladder-wall', ["Ureter, bladder, sphincters and urethra"], "bladder wall")}An adult bladder sends the urge to urinate when it holds about 300 to 400 mL of urine, and at night it can hold up to about a litre.${memo("Remember rugae as “accordion folds”; when the bladder fills, the folds open out.")}`),
           M("What is the muscle of the bladder wall?", ['detrusor muscle', 'external sphincter', 'diaphragm', 'psoas'], 'detrusor.', null, F('bladder-art', [])),
           M("What are the folds of the bladder lining called?", ['rugae', 'calyces', 'villi', 'papillae'], 'rugae.'),
           T("The bladder is an elastic muscular sac in the pelvis.", true, 'urinary bladder.', F('bladder-wall', [])),
@@ -2142,7 +2142,7 @@
       {
         id: 'tr3', title: "Trigone and sphincters", icon: '🔺', items: [
           L("trigone", `${fig('bladder-trigone', ["Bladder trigone and sphincters"], "trigone")}The ${e('<b>trigone</b>')} is the triangular area of the bladder floor whose three corners are the two ureteral openings and the urethral opening. The stability of this triangle keeps urine from flowing back into the ureters.`),
-          L("Two sphincters", `${vs(['internal urethral sphincter', "internal; involuntary; at the bladder neck"], ['external urethral sphincter', "external; voluntary; under our control"])}${pearl("In the textbook’s applied scenario you are asked which structure controls the release of urine; the answer is the external urethral sphincter.")}${memo("trigone, with tri meaning three: three openings, three corners.")}`),
+          L("Two sphincters", `${vs(['internal urethral sphincter', "internal; involuntary; at the bladder neck"], ['external urethral sphincter', "external; voluntary; under our control"])}${pearl("In a clinical scenario you are asked which structure controls the release of urine; the answer is the external urethral sphincter.")}${memo("trigone, with tri meaning three: three openings, three corners.")}`),
           M("The triangular area of the bladder floor is the…", ['trigone', 'hilum', 'meatus', 'rugae'], 'trigon/o.', null, F('bladder-trigone', [])),
           M("Which sphincter is voluntary?", ['external urethral sphincter', 'internal urethral sphincter', 'pyloric sphincter', 'detrusor'], "The external one is voluntary."),
           T("The internal urethral sphincter is under our voluntary control.", false, "The internal one is involuntary; the external one is voluntary."),
@@ -2157,7 +2157,7 @@
       {
         id: 'tr4', title: "urethra", icon: '🚪', items: [
           L("Women and men", `${fig('urethra-compare', [], "Female and male urethra")}The ${e('<b>urethra</b>')} carries urine out of the bladder, and its outer opening is the ${e('<b>urinary meatus</b>')}.<br>• In women it is about 4 cm long and for urine only<br>• In men it is about 20 cm long; it passes through the ${e('prostate gland')} and also carries semen`),
-          L("On the textbook figure", `${fig('urethra-sexes', ["Male and female urethra"], "Female and male urethra")}${pearl("Urinary infection is more common in women because the urethra is shorter and its opening is closer to the anus.")}${memo("meatus means passage or opening; the urinary meatus is the outer opening of the urethra.")}`),
+          L("On the figure", `${fig('urethra-sexes', ["Male and female urethra"], "Female and male urethra")}${pearl("Urinary infection is more common in women because the urethra is shorter and its opening is closer to the anus.")}${memo("meatus means passage or opening; the urinary meatus is the outer opening of the urethra.")}`),
           M("What is the outer opening of the urethra called?", ['urinary meatus', 'ureteral orifice', 'hilum', 'trigone'], 'meat/o.', null, F('urethra-compare', [])),
           M("Why is urinary infection more common in women?", ["the urethra is shorter", "the bladder is larger", "the kidneys are lower", "the ureter is longer"], "Microbes have a shorter route to the bladder."),
           T("The male urethra passes through the prostate.", true, "That is why an enlarged prostate reduces urine flow.", F('urethra-sexes', [])),
@@ -2185,7 +2185,7 @@
       {
         id: 'tr6', title: "incontinence", icon: '💦', items: [
           L("Types of incontinence", `${fig('incontinence-types', [], "Problems with bladder control")}${e('<b>urinary incontinence</b>')} means inability to hold urine:<br>• ${e('<b>stress incontinence</b>')}: leaking urine with coughing, sneezing, laughing or exercise<br>• ${e('<b>urge incontinence</b>')}: sudden urgency and leaking before reaching the toilet<br>• ${e('<b>enuresis</b>')}: bedwetting after the age by which control should be learned`),
-          L("At the bedside", `${pearl("In a case study in Cohen’s textbook, a 52-year-old woman named Jade has stress incontinence and can no longer exercise comfortably. For assessment, a clean-catch sample, cystometry (CMG) and cystoscopy were done, and after an injection of muscle stem cells her bladder control improved by 95%.")}${memo("The prefix in- means not: incontinence means being unable to hold.")}`),
+          L("At the bedside", `${pearl("In a case study, a 52-year-old woman named Jade has stress incontinence and can no longer exercise comfortably. For assessment, a clean-catch sample, cystometry (CMG) and cystoscopy were done, and after an injection of muscle stem cells her bladder control improved by 95%.")}${memo("The prefix in- means not: incontinence means being unable to hold.")}`),
           M("Leaking urine when coughing and sneezing is…", ['stress incontinence', 'urge incontinence', 'urinary retention', 'anuria'], 'stress incontinence.', null, F('incontinence-types', [])),
           M(`${e('<b>enuresis</b>')} means…`, ["bed-wetting", "failure to pass urine", "painful urination", "blood in the urine"], 'nocturnal enuresis.'),
           T("Because Jade leaks urine during exercise, she has stress incontinence.", true, "Pressure on the bladder during activity."),
@@ -2200,7 +2200,7 @@
       {
         id: 'tr7', title: "Retention and obstruction", icon: '🚧', items: [
           L("Full bladder, weak flow", `• ${e('<b>urinary retention</b>')}: the bladder does not empty completely; often from a blockage<br>• ${e('<b>bladder neck obstruction (BNO)</b>')}: blockage at the bladder neck, often from an enlarged prostate<br>• ${e('<b>hesitancy</b>')}: weak flow and a delayed start of urination<br>• ${e('<b>neurogenic bladder</b>')}: bladder dysfunction from nerve damage such as a spinal cord lesion`),
-          L("Frequency and urgency", `${vs(['urinary frequency', "urinating often without a larger total volume"], ['urgency', "an immediate need to urinate"])}${pearl("In the textbook’s applied scenario, Mrs Kim Cardsheen complains of bladder spasms and urinary retention; an antispasmodic drug reduces the spasms.")}${memo("neur/o means nerve and -genic means produced by: a neurogenic bladder is a bladder whose problem comes from the nerves.")}`),
+          L("Frequency and urgency", `${vs(['urinary frequency', "urinating often without a larger total volume"], ['urgency', "an immediate need to urinate"])}${pearl("In a clinical scenario, Mrs Kim Cardsheen complains of bladder spasms and urinary retention; an antispasmodic drug reduces the spasms.")}${memo("neur/o means nerve and -genic means produced by: a neurogenic bladder is a bladder whose problem comes from the nerves.")}`),
           M("A bladder that does not empty completely has…", ['urinary retention', 'urinary incontinence', 'polyuria', 'enuresis'], 'retention.'),
           M("A common cause of bladder neck obstruction in men is…", ["enlarged prostate", "kidney stone", "diabetes", "dehydration"], 'BNO.'),
           T("A neurogenic bladder is caused by damage to the nervous system.", true, "Such as spinal cord injury or MS."),
@@ -2214,7 +2214,7 @@
       {
         id: 'tr8', title: "Narrowing, widening and bulging", icon: '↔️', items: [
           L("Three shape suffixes", `${fig('tract-narrowing', [], "Narrowing and Widening")}• ${e('-stenosis')} = narrowing: ${e('<b>ureterostenosis</b>')}, ${e('<b>urethrostenosis</b>')}<br>• ${e('-ectasis')} = widening: ${e('<b>ureterectasis</b>')}<br>• ${e('-cele')} = bulging: ${e('<b>ureterocele</b>')}, ${e('<b>urethrocele</b>')}`),
-          L("On the textbook figure", `${fig('ureterocele', ["Bulge at the end of the ureter inside the bladder"], "ureterocele")}A ${e('ureterocele')} is a cyst-like bulge at the end of the ureter inside the bladder that blocks the flow and sends urine back into the ureter and renal pelvis.${memo("stenosis sounds like “stern”: tight; ectasis sounds like “extend”: opened wide.")}`),
+          L("On the figure", `${fig('ureterocele', ["Bulge at the end of the ureter inside the bladder"], "ureterocele")}A ${e('ureterocele')} is a cyst-like bulge at the end of the ureter inside the bladder that blocks the flow and sends urine back into the ureter and renal pelvis.${memo("stenosis sounds like “stern”: tight; ectasis sounds like “extend”: opened wide.")}`),
           M("Narrowing of the urethra is…", ['urethrostenosis', 'ureterectasis', 'urethrocele', 'urethritis'], 'urethr/o + ‎-stenosis‎.', null, F('tract-narrowing', [])),
           M(`${e('<b>ureterectasis</b>')} means…`, ["widening of the ureter", "narrowing of a ureter", "stone in the ureter", "removal of a ureter"], "-ectasis means widening."),
           T("A ureterocele is a bulge at the end of the ureter inside the bladder.", true, "-cele means bulging.", F('ureterocele', [])),
@@ -2318,7 +2318,7 @@
       {
         id: 'ur5', title: "Night, pain and thirst", icon: '🌙', items: [
           L("Three signs", `• ${e('<b>nocturia</b>')}: a lot of, or frequent, urination at night (${e('noct/i')} = night)<br>• ${e('<b>dysuria</b>')}: painful or difficult urination, as in cystitis<br>• ${e('<b>polydipsia</b>')}: excessive thirst (${e('dips/o')} = thirst), often with polyuria`),
-          L("At the bedside", `${pearl("In the textbook’s applied scenario, Ms Jana Smith, who is training for a marathon and has eaten and drunk little, complains of painful urination, scanty urine and thirst; that is, dysuria, oliguria and polydipsia. Her test also showed a trace of ketones.")}${memo("nocturnal means at night; nocturia is night-time urination.")}`),
+          L("At the bedside", `${pearl("In a clinical scenario, Ms Jana Smith, who is training for a marathon and has eaten and drunk little, complains of painful urination, scanty urine and thirst; that is, dysuria, oliguria and polydipsia. Her test also showed a trace of ketones.")}${memo("nocturnal means at night; nocturia is night-time urination.")}`),
           M("Frequent urination at night is…", ['nocturia', 'enuresis', 'polyuria', 'anuria'], 'noct/i + ‎-uria‎.'),
           M(`${e('<b>polydipsia</b>')} means…`, ["excessive thirst", "excessive urine", "excessive hunger", "excessive tiredness"], 'poly- + dips/o + ‎-ia‎.'),
           T("dysuria means painful or difficult urination.", true, 'dys- + ‎-uria‎.'),
@@ -2347,7 +2347,7 @@
       {
         id: 'ur7', title: "Sugar, ketones and protein", icon: '🍬', items: [
           L("What should not be in urine", `• ${e('<b>glycosuria</b>')}: sugar in the urine; as in uncontrolled diabetes<br>• ${e('<b>ketonuria</b>')}: ketones in the urine; when the body burns fat instead of sugar (diabetes, starvation)<br>• ${e('<b>proteinuria</b>')}: protein in the urine; glomerular damage<br>• ${e('<b>albuminuria</b>')}: albumin in the urine; a sign of kidney disease`),
-          L("At the bedside", `${pearl("In the textbook’s applied scenario, Brad Leighton is an 11-year-old boy with juvenile diabetes, and the doctor has ordered a urinalysis for acetone, ketones, sugar, specific gravity and pH.")}${memo("glyc/o and glycos/o mean sugar, as in glucose.")}`),
+          L("At the bedside", `${pearl("In a clinical scenario, Brad Leighton is an 11-year-old boy with juvenile diabetes, and the doctor has ordered a urinalysis for acetone, ketones, sugar, specific gravity and pH.")}${memo("glyc/o and glycos/o mean sugar, as in glucose.")}`),
           M("Sugar in the urine is…", ['glycosuria', 'ketonuria', 'proteinuria', 'pyuria'], 'glycos/o + ‎-uria‎.'),
           M("In which condition are ketones in the urine mostly seen?", ["uncontrolled diabetes or starvation", "kidney stone", "cystitis", "enlarged prostate"], "Fat burning."),
           T("proteinuria can be a sign of glomerular damage.", true, "A healthy glomerulus does not let protein through."),
@@ -2422,7 +2422,7 @@
       {
         id: 'dz2', title: "Pyelonephritis", icon: '🔥', items: [
           L("Kidney infection", `${e('<b>pyelonephritis</b>')} is inflammation of the renal pelvis and kidney, usually climbing up from an untreated cystitis.${tbl([['', e('cystitis'), e('pyelonephritis')], ["Location", "bladder; superficial", "renal pelvis and kidney"], ["symptom", "burning, frequency, urgency", "fever, chills, flank pain"], ["test", "pyuria, bacteriuria", "plus a raised white blood cell count"]])}`),
-          L("At the bedside", `${pearl("A case study in Fremgen’s textbook: a 32-year-old woman came with fever, chills, urgency, frequency, painful urination and blood in her urine. Her urine was cloudy and foul-smelling. Urinalysis showed pyuria and bacteriuria, and the diagnosis was acute pyelonephritis arising from cystitis.")}${memo("pyelonephritis has three pieces: pyel/o renal pelvis, nephr/o kidney and -itis inflammation; three pieces, one disease.")}`),
+          L("At the bedside", `${pearl("A case study: a 32-year-old woman came with fever, chills, urgency, frequency, painful urination and blood in her urine. Her urine was cloudy and foul-smelling. Urinalysis showed pyuria and bacteriuria, and the diagnosis was acute pyelonephritis arising from cystitis.")}${memo("pyelonephritis has three pieces: pyel/o renal pelvis, nephr/o kidney and -itis inflammation; three pieces, one disease.")}`),
           M("Inflammation of the renal pelvis and kidney is…", ['pyelonephritis', 'glomerulonephritis', 'cystitis', 'nephrosis'], 'pyel/o + nephr/o + ‎-itis‎.'),
           M("Which sign points more to pyelonephritis than to cystitis?", ["fever and flank pain", "burning on urination", "frequent urination", "urgency"], "Kidney involvement."),
           T("Pyelonephritis often arises from a bladder infection that has climbed up.", true, "An ascending infection."),
@@ -2465,7 +2465,7 @@
       {
         id: 'dz5', title: "Colic and hydronephrosis", icon: '💥', items: [
           L("blockage", `${fig('hydronephrosis-art', [], "hydronephrosis")}When a stone or narrowing (${e('stricture')}) blocks the ureter:<br>• ${e('<b>renal colic</b>')}: severe, wave-like flank pain<br>• ${e('<b>hydroureter</b>')}: the ureter swells with urine<br>• ${e('<b>hydronephrosis</b>')}: urine collects in the renal pelvis and calyces and the kidney swells`),
-          L("On the textbook figure", `${fig('hydronephrosis', ["Hydronephrosis, hydroureter and stricture"], "hydronephrosis")}${pearl("In a case exercise in one of the appendix chapters, a 65-year-old man had abdominal pain with a kidney stone, hydroureter and right hydronephrosis; his right kidney was small and scarred (hypoplastic), and he was admitted for nephrectomy.")}${memo("hydr/o means water: hydronephrosis means a “water-logged kidney”.")}`),
+          L("On the figure", `${fig('hydronephrosis', ["Hydronephrosis, hydroureter and stricture"], "hydronephrosis")}${pearl("In a case exercise in one of the appendix chapters, a 65-year-old man had abdominal pain with a kidney stone, hydroureter and right hydronephrosis; his right kidney was small and scarred (hypoplastic), and he was admitted for nephrectomy.")}${memo("hydr/o means water: hydronephrosis means a “water-logged kidney”.")}`),
           M("Urine collecting in the renal pelvis from a blockage is…", ['hydronephrosis', 'nephrosis', 'nephroptosis', 'pyelitis'], 'hydr/o + nephr/o + ‎-osis‎.', null, F('hydronephrosis-art', [])),
           M("Severe flank pain as a stone passes is…", ['renal colic', 'cystalgia', 'dysuria', 'urgency'], 'renal colic.'),
           T("hydroureter means swelling of the ureter with urine behind a blockage.", true, 'hydr/o + ureter.', F('hydronephrosis', [])),
@@ -2494,7 +2494,7 @@
       {
         id: 'dz7', title: "Diabetes, blood pressure and the kidney", icon: '🩺', items: [
           L("The kidney’s silent enemies", `• ${e('<b>diabetic nephropathy</b>')}: damage to the glomerular capillaries from long-term high blood sugar<br>• ${e('<b>renal hypertension</b>')}: high blood pressure caused by kidney disease<br>• ${e('<b>nephrosclerosis</b>')}: hardening of kidney tissue<br>• ${e('<b>diabetes insipidus</b>')}: lack of ADH; a lot of dilute urine and extreme thirst`),
-          L("At the bedside", `${pearl("In the textbook’s applied scenario, Ms Jocelyn Workus, aged 25, has diabetes and her kidneys are damaged. Her record lists nephromegaly, nephritis, uremia, anuria and trigonitis, and she is on the kidney transplant waiting list.")}${vs(['diabetes mellitus', "diabetes mellitus; sugar in the urine"], ['diabetes insipidus', "diabetes insipidus; low ADH"])}${memo("insipidus means tasteless; in the old days urine was tasted, and these patients’ urine was not sweet!")}`),
+          L("At the bedside", `${pearl("In a clinical scenario, Ms Jocelyn Workus, aged 25, has diabetes and her kidneys are damaged. Her record lists nephromegaly, nephritis, uremia, anuria and trigonitis, and she is on the kidney transplant waiting list.")}${vs(['diabetes mellitus', "diabetes mellitus; sugar in the urine"], ['diabetes insipidus', "diabetes insipidus; low ADH"])}${memo("insipidus means tasteless; in the old days urine was tasted, and these patients’ urine was not sweet!")}`),
           M("Kidney damage from diabetes is…", ['diabetic nephropathy', 'diabetes insipidus', 'nephroptosis', 'pyelitis'], 'nephr/o + ‎-pathy‎.'),
           M("A lack of which hormone causes diabetes insipidus?", ['ADH', 'EPO', 'renin', 'insulin'], 'antidiuretic hormone.'),
           T("Kidney disease can raise blood pressure.", true, 'renal hypertension.'),
@@ -2583,7 +2583,7 @@
       {
         id: 'tx3', title: "Cystoscopy and cystometry", icon: '🔭', items: [
           L("looking inside the bladder", `${fig('cystoscopy-art', [], "cystoscopy")}A ${e('<b>cystoscope</b>')} is an optical instrument passed through the urethra into the bladder. ${e('<b>cystoscopy</b>')} is for seeing tumours and inflammation, taking biopsies and removing stones and polyps. Similar instruments: ${e('urethroscope')}, ${e('ureteroscope')} and ${e('nephroscopy')}.`),
-          L("On the textbook figure", `${fig('cystoscopy', ["Cystoscope in the urethra and bladder"], "cystoscopy")}${e('<b>cystometrography (CMG)</b>')} measures bladder function: the bladder is filled and the wall pressure is recorded; its tracing is a ${e('cystometrogram')}.${memo("The suffix -scope is the instrument and -scopy the procedure with it; you hold a cystoscope and perform a cystoscopy.")}`),
+          L("On the figure", `${fig('cystoscopy', ["Cystoscope in the urethra and bladder"], "cystoscopy")}${e('<b>cystometrography (CMG)</b>')} measures bladder function: the bladder is filled and the wall pressure is recorded; its tracing is a ${e('cystometrogram')}.${memo("The suffix -scope is the instrument and -scopy the procedure with it; you hold a cystoscope and perform a cystoscopy.")}`),
           M("The instrument for looking inside the bladder is a…", ['cystoscope', 'cystoscopy', 'urinometer', 'nephroscope'], "-scope = instrument.", null, F('cystoscopy-art', [])),
           M("The test that measures bladder pressure during filling is…", ['cystometrography', 'cystography', 'urinalysis', 'renogram'], 'CMG.'),
           T("Cystoscopy is also used for biopsy and removing stones.", true, 'cysto.', F('cystoscopy', [])),
@@ -2598,7 +2598,7 @@
       {
         id: 'tx4', title: "catheterization", icon: '🧷', items: [
           L("Urinary catheter", `${fig('catheter-art', [], "Foley catheter")}A ${e('<b>catheter</b>')} is a flexible tube for removing or introducing fluid. ${e('<b>catheterization (cath)</b>')} is passing a catheter through the urethra into the bladder. A ${e('<b>Foley catheter</b>')} is an indwelling catheter with a balloon that holds it in the bladder.`),
-          L("On the textbook figure", `${fig('foley-female', ["Foley catheter in a female bladder"], "Foley catheter")}${fig('catheter-bag', ["Emptying the urine bag"], "Catheter bag")}A ${e('condom catheter')} is an external catheter with a sheath and leg bag. With a catheter, ${e('intake and output (I&O)')} is recorded accurately.${memo("In Greek, catheter means “something sent down”; a catheter sends urine down.")}`),
+          L("On the figure", `${fig('foley-female', ["Foley catheter in a female bladder"], "Foley catheter")}${fig('catheter-bag', ["Emptying the urine bag"], "Catheter bag")}A ${e('condom catheter')} is an external catheter with a sheath and leg bag. With a catheter, ${e('intake and output (I&O)')} is recorded accurately.${memo("In Greek, catheter means “something sent down”; a catheter sends urine down.")}`),
           M("An indwelling catheter with a balloon is a…", ['Foley catheter', 'condom catheter', 'ureteral stent', 'cystoscope'], 'Foley.', null, F('catheter-art', [])),
           M("The abbreviation cath means…", ['catheterization', 'cathartic', 'cystoscopy', 'calculus'], "Catheterization."),
           T("A urinary catheter lowers the risk of urinary infection.", false, "A catheter raises the risk of UTI.", F('catheter-female', ["Catheter in a female bladder and a separate catheter"])),
@@ -2641,7 +2641,7 @@
       {
         id: 'tx7', title: "Stone crushing and removal", icon: '🔨', items: [
           L("Without or with an incision", `${fig('eswl-art', [], "extracorporeal shock wave lithotripsy")}• ${e('<b>lithotripsy</b>')}: crushing a stone so it passes in the urine<br>• ${e('<b>extracorporeal shock wave lithotripsy (ESWL)</b>')}: shock waves from outside the body; no surgery<br>• ${e('<b>lithotomy</b>')}: an incision to remove a stone<br>• ${e('<b>nephrolithotomy</b>')}: removing a stone from the kidney; the percutaneous type goes through the skin with an endoscope`),
-          L("On the textbook figure", `${fig('eswl-machine', ["Lithotripsy table and machine"], "ESWL machine")}${fig('ureteral-stent', ["Stent from kidney to bladder"], "ureteral stent")}${fig('lithotripsy-bag', ["The wave reaches the kidney from a water bag"], "Lithotripsy with a water bag")}A ${e('ureteral stent')} is a thin tube in the ureter that lets urine pass a blockage.${memo("The prefix extra- (outside) + corpor/o (body) + -eal: extracorporeal means outside the body.")}`),
+          L("On the figure", `${fig('eswl-machine', ["Lithotripsy table and machine"], "ESWL machine")}${fig('ureteral-stent', ["Stent from kidney to bladder"], "ureteral stent")}${fig('lithotripsy-bag', ["The wave reaches the kidney from a water bag"], "Lithotripsy with a water bag")}A ${e('ureteral stent')} is a thin tube in the ureter that lets urine pass a blockage.${memo("The prefix extra- (outside) + corpor/o (body) + -eal: extracorporeal means outside the body.")}`),
           M("Crushing stones with waves from outside the body is…", ['ESWL', 'lithotomy', 'nephrectomy', 'cystoscopy'], 'extracorporeal.', null, F('eswl-art', [])),
           M("An incision into the kidney to remove a stone is…", ['nephrolithotomy', 'nephropexy', 'nephrostomy', 'nephrorrhaphy'], 'nephr/o + lith/o + ‎-tomy‎.'),
           T("ESWL does not need a surgical incision.", true, 'noninvasive.', F('eswl-beam', ["Focused beam on the kidney stone"])),
@@ -2949,7 +2949,7 @@
     /* ================= زبان کلیه ================= */
     {
       id: 'r1', w: 'lx', title: "Referral to a urologist", who: "Betty Garble, a 46-year-old woman",
-      brief: "In the textbook’s applied scenario, the family doctor has referred Mrs Betty Garble, who has had five children, to a urologist because she has trouble controlling her urine. You must explain to her who a urologist is and which structure controls the release of urine.",
+      brief: "In a clinical scenario, the family doctor has referred Mrs Betty Garble, who has had five children, to a urologist because she has trouble controlling her urine. You must explain to her who a urologist is and which structure controls the release of urine.",
       chart: [['Age', '46'], ['CC', 'trouble controlling urine'], ['Referral', 'urologist']],
       fig: { a: 'specialists', l: [] },
       steps: [
@@ -2957,13 +2957,13 @@
         M("Term", "The medical term for “inability to hold urine” is…", ['incontinence', 'retention', 'anuria', 'dysuria'], 'urinary incontinence.'),
         M("Structure", "Which structure controls the voluntary release of urine?", ['external urethral sphincter', 'internal urethral sphincter', 'trigone', 'detrusor muscle'], "The external sphincter is voluntary.", null, { a: ['bladder-art'], l: [] }),
         T("Childbirth", "Many births can weaken the supporting tissue of the pelvis and cause stress incontinence.", true, 'stress incontinence.'),
-        P("Term", "Match each term to its meaning", [['urology', "surgical specialty of the urinary tract"], ['continence', "bladder control"], ['incontinence', "inability to hold urine"], ['urologist', "urinary tract specialist"]], "The textbook’s applied scenario."),
+        P("Term", "Match each term to its meaning", [['urology', "surgical specialty of the urinary tract"], ['continence', "bladder control"], ['incontinence', "inability to hold urine"], ['urologist', "urinary tract specialist"]], "A clinical scenario."),
         S("Spelling", "Spell the medical term for loss of bladder control", 'incontinence', 'in- + continence.', 'incon…')
       ]
     },
     {
       id: 'r2', w: 'lx', title: "A record full of terms", who: "Harvey Mews, a 90-year-old man",
-      brief: "In the textbook’s applied scenario, you are entering Mr Harvey Mews’s paper record into the electronic record. It says: renogram, cystitis, diabetes, hemodialysis, KUB, cystoscopy, cystourethrogram and cystotomy. You must sort procedures, imaging and diseases.",
+      brief: "In a clinical scenario, you are entering Mr Harvey Mews’s paper record into the electronic record. It says: renogram, cystitis, diabetes, hemodialysis, KUB, cystoscopy, cystourethrogram and cystotomy. You must sort procedures, imaging and diseases.",
       chart: [['Age', '90'], ['Dx', 'cystitis, diabetes'], ['Imaging', 'renogram, KUB, cystourethrogram'], ['Procedures', 'hemodialysis, cystoscopy, cystotomy']],
       fig: { a: 'wordparts', l: [] },
       steps: [
@@ -2976,8 +2976,8 @@
       ]
     },
     {
-      id: 'r3', w: 'lx', title: "Rewriting with abbreviations", who: "Chart note (the textbook’s applied scenario)",
-      brief: "The textbook’s applied scenario contains this note: “The patient has recurrent urinary tract infections confirmed by urinalysis and a history of extracorporeal shock wave lithotripsy for a kidney stone. A voiding cystourethrogram, retrograde pyelogram, kidney-ureter-bladder X-ray and intravenous pyelogram were done.” You must rewrite it with abbreviations.",
+      id: 'r3', w: 'lx', title: "Rewriting with abbreviations", who: "Chart note (a clinical scenario)",
+      brief: "A clinical scenario contains this note: “The patient has recurrent urinary tract infections confirmed by urinalysis and a history of extracorporeal shock wave lithotripsy for a kidney stone. A voiding cystourethrogram, retrograde pyelogram, kidney-ureter-bladder X-ray and intravenous pyelogram were done.” You must rewrite it with abbreviations.",
       chart: [['Hx', 'frequent infections, stones'], ['Tests', 'urinalysis, four imaging studies'], ['Plan', 'refer back to urologist']],
       fig: { a: 'imaging-art', l: [] },
       steps: [
@@ -2992,7 +2992,7 @@
     /* ================= کلیه و نفرون ================= */
     {
       id: 'r4', w: 'kd', title: "Third grade: how does the kidney work?", who: "Mr Mark Grey’s class",
-      brief: "In the textbook’s applied scenario, Mr Mark Grey, a third-grade teacher, has asked you to explain the structure and work of the kidney to the children: what the kidney is made of, what urine contains and which route it takes.",
+      brief: "In a clinical scenario, Mr Mark Grey, a third-grade teacher, has asked you to explain the structure and work of the kidney to the children: what the kidney is made of, what urine contains and which route it takes.",
       chart: [['Audience', 'third-grade class'], ['Topic', 'kidney structure and function'], ['Questions', 'parts, urine, flow']],
       fig: { a: 'kidney-section-art', l: [] },
       steps: [
@@ -3005,12 +3005,12 @@
       ]
     },
     {
-      id: 'r5', w: 'kd', title: "Following the flow", who: "Cohen’s “Follow the Flow” exercise",
-      brief: "In the review exercise in Cohen’s textbook you must put the formation and movement of urine in order, from blood reaching the glomerulus to leaving through the urethra, and link each step to its part of the nephron.",
+      id: 'r5', w: 'kd', title: "Following the flow", who: "“Follow the Flow” exercise",
+      brief: "In the review exercise you must put the formation and movement of urine in order, from blood reaching the glomerulus to leaving through the urethra, and link each step to its part of the nephron.",
       chart: [['Start', 'blood flows through glomerulus'], ['Middle', 'filtrate, reabsorption, collecting ducts'], ['End', 'urethra']],
       fig: { a: 'urine-formation', l: [] },
       steps: [
-        O("flow", "Put the steps in order", ['blood enters glomerulus', 'filtrate enters nephron', 'tubular reabsorption', 'urine to collecting ducts', 'renal pelvis to ureters', 'bladder to urethra'], "The textbook’s order."),
+        O("flow", "Put the steps in order", ['blood enters glomerulus', 'filtrate enters nephron', 'tubular reabsorption', 'urine to collecting ducts', 'renal pelvis to ureters', 'bladder to urethra'], "The standard reference’s order."),
         M("Step", "In which part do water and nutrients return to the blood?", ['peritubular capillaries', 'glomerular capsule', 'urethra', 'calyx'], "Reabsorption."),
         M("vessel", "The arteriole that carries blood away from the glomerulus is the…", ['efferent arteriole', 'afferent arteriole', 'renal vein', 'aorta'], "Efferent.", null, { a: ['renal-blood'], l: [] }),
         T("Hormone", "ADH increases water reabsorption and concentrates the urine.", true, 'antidiuretic hormone.'),
@@ -3035,7 +3035,7 @@
     /* ================= مثانه و دفع ادرار ================= */
     {
       id: 'r7', w: 'tr', title: "Incontinence on the golf course", who: "Jade, a 52-year-old woman",
-      brief: "A case study in Cohen’s textbook: Jade is a 52-year-old woman with a history of stress incontinence who has cut down on exercise because of leaking urine under physical strain. To join a clinical trial she had a clean-catch sample, cystometry (CMG) and cystoscopy and kept a bladder diary for two weeks. Muscle cells from her thigh were cultured and injected around the urethra, and a year later she was 95% better.",
+      brief: "A case study: Jade is a 52-year-old woman with a history of stress incontinence who has cut down on exercise because of leaking urine under physical strain. To join a clinical trial she had a clean-catch sample, cystometry (CMG) and cystoscopy and kept a bladder diary for two weeks. Muscle cells from her thigh were cultured and injected around the urethra, and a year later she was 95% better.",
       chart: [['Age', '52'], ['Dx', 'stress incontinence'], ['Tests', 'clean-catch, CMG, cystoscopy'], ['Tx', 'muscle stem cell injection']],
       fig: { a: 'incontinence-types', l: [] },
       steps: [
@@ -3049,7 +3049,7 @@
     },
     {
       id: 'r8', w: 'tr', title: "bladder neck obstruction", who: "Inpatient with right flank pain",
-      brief: "A discharge summary in Fremgen’s textbook: a man with a history of recurrent bladder infections was admitted with severe right flank pain and blood in his urine. A clean-catch urinalysis showed hematuria and pyuria without albuminuria. Cystoscopy showed chronic cystitis and a congenital bladder neck obstruction. The patient was catheterized so the bladder could empty completely.",
+      brief: "A discharge summary: a man with a history of recurrent bladder infections was admitted with severe right flank pain and blood in his urine. A clean-catch urinalysis showed hematuria and pyuria without albuminuria. Cystoscopy showed chronic cystitis and a congenital bladder neck obstruction. The patient was catheterized so the bladder could empty completely.",
       chart: [['Admit Dx', 'right side pain, hematuria'], ['Final Dx', 'pyelonephritis R kidney; chronic cystitis'], ['Finding', 'bladder neck obstruction'], ['Tx', 'catheterization, antibiotics, fluids']],
       fig: { a: 'bladder-art', l: [] },
       steps: [
@@ -3063,7 +3063,7 @@
     },
     {
       id: 'r9', w: 'tr', title: "Temporary incontinence", who: "A 50-year-old woman",
-      brief: "A chart note in Gylys’s textbook: a 50-year-old woman has had diffuse pelvic pain and bladder spasms since a cystoscopy 10 days ago, which had shown severe cystitis. She urinates three to four times a night and has frequency and urgency. She has a history of polyuria, hematuria and incontinence. The doctor’s conclusion: the incontinence is caused by the cystitis and is temporary.",
+      brief: "A chart note: a 50-year-old woman has had diffuse pelvic pain and bladder spasms since a cystoscopy 10 days ago, which had shown severe cystitis. She urinates three to four times a night and has frequency and urgency. She has a history of polyuria, hematuria and incontinence. The doctor’s conclusion: the incontinence is caused by the cystitis and is temporary.",
       chart: [['Age', '50'], ['Sx', 'nocturia ×3–4, frequency, urgency'], ['Hx', 'polyuria, hematuria, incontinence'], ['Impression', 'incontinence from cystitis, temporary']],
       fig: { a: 'incontinence-types', l: [] },
       steps: [
@@ -3092,7 +3092,7 @@
     },
     {
       id: 'r11', w: 'ur', title: "Diabetes and the dipstick", who: "Brad Leighton, an 11-year-old boy",
-      brief: "In the textbook’s applied scenario, Brad Leighton is an 11-year-old boy with juvenile diabetes. The doctor has ordered a urinalysis for acetone, ketones, sugar, specific gravity and pH. You must know what each test means and say whether sugar is normally present in urine.",
+      brief: "In a clinical scenario, Brad Leighton is an 11-year-old boy with juvenile diabetes. The doctor has ordered a urinalysis for acetone, ketones, sugar, specific gravity and pH. You must know what each test means and say whether sugar is normally present in urine.",
       chart: [['Age', '11'], ['Dx', 'juvenile diabetes'], ['Order', 'UA: acetone, ketones, glucose, SG, pH']],
       fig: { a: 'ua-dipstick', l: [] },
       steps: [
@@ -3106,7 +3106,7 @@
     },
     {
       id: 'r12', w: 'ur', title: "The thirsty runner", who: "Jana Smith, a marathon runner",
-      brief: "In the textbook’s applied scenario, Ms Jana Smith, who is training for a marathon and ate and drank little before running, complains of painful urination, scanty urine and thirst. Her test shows negative sugar, trace ketones and acetone, many white cells and positive red cells.",
+      brief: "In a clinical scenario, Ms Jana Smith, who is training for a marathon and ate and drank little before running, complains of painful urination, scanty urine and thirst. Her test shows negative sugar, trace ketones and acetone, many white cells and positive red cells.",
       chart: [['Sx', 'painful, scanty urine; thirst'], ['Glucose', 'negative'], ['Ketones / acetone', 'trace'], ['WBC', 'large'], ['RBC', 'positive']],
       fig: { a: 'output-terms', l: [] },
       steps: [
@@ -3121,7 +3121,7 @@
     /* ================= بیماری‌های ادراری ================= */
     {
       id: 'r13', w: 'dz', title: "Fever, chills and burning urination", who: "A 32-year-old woman at the urology clinic",
-      brief: "A case study in Fremgen’s textbook: a 32-year-old woman came with fever, chills and tiredness and reports urgency, frequency, painful urination and blood in her urine. Her urine is cloudy and foul-smelling. The doctor ordered a clean-catch urinalysis, culture and sensitivity and a KUB X-ray. Urinalysis showed pyuria, bacteriuria and a slightly acidic pH, and the diagnosis was acute pyelonephritis arising from cystitis. Antibiotics and drinking two litres of water a day were prescribed.",
+      brief: "A case study: a 32-year-old woman came with fever, chills and tiredness and reports urgency, frequency, painful urination and blood in her urine. Her urine is cloudy and foul-smelling. The doctor ordered a clean-catch urinalysis, culture and sensitivity and a KUB X-ray. Urinalysis showed pyuria, bacteriuria and a slightly acidic pH, and the diagnosis was acute pyelonephritis arising from cystitis. Antibiotics and drinking two litres of water a day were prescribed.",
       chart: [['Age', '32'], ['Sx', 'fever, chills, urgency, frequency, dysuria, hematuria'], ['UA', 'pyuria, bacteriuria'], ['Dx', 'acute pyelonephritis from cystitis'], ['Tx', 'antibiotic, push fluids']],
       fig: { a: 'uti-ascending', l: [] },
       steps: [
@@ -3135,7 +3135,7 @@
     },
     {
       id: 'r14', w: 'dz', title: "staghorn calculus", who: "Helen, a 48-year-old woman",
-      brief: "Case Study 14-1 in Cohen’s textbook: Helen is a 48-year-old woman with severe right flank pain that painkillers do not relieve. She has had a chronic urinary infection for three months and has been taking calcium supplements for osteoporosis for six months. An intravenous urogram showed a right staghorn calculus. The ureteral stone was broken up with a laser, a retrograde catheter was placed and a percutaneous nephrolithotomy was done. At discharge she was told to strain her urine for a week.",
+      brief: "Case Study: Helen is a 48-year-old woman with severe right flank pain that painkillers do not relieve. She has had a chronic urinary infection for three months and has been taking calcium supplements for osteoporosis for six months. An intravenous urogram showed a right staghorn calculus. The ureteral stone was broken up with a laser, a retrograde catheter was placed and a percutaneous nephrolithotomy was done. At discharge she was told to strain her urine for a week.",
       chart: [['Age', '48'], ['CC', 'severe right flank pain'], ['Hx', 'chronic UTI; calcium supplements'], ['Imaging', 'IV urogram: right staghorn calculus'], ['Tx', 'laser lithotripsy, percutaneous nephrolithotomy']],
       fig: { a: 'stones-sites', l: [] },
       steps: [
@@ -3164,7 +3164,7 @@
     /* ================= تشخیص و درمان ================= */
     {
       id: 'r16', w: 'tx', title: "Stone in the right ureter", who: "A 36-year-old man",
-      brief: "A chart note transcription in Fremgen’s textbook: a 36-year-old man came to the urinary tract specialist with right flank pain and blood in his urine. He had a history of bladder infection. Clean-catch urinalysis showed blood without pus. On an X-ray taken after injecting contrast into the bladder, the dye rose only halfway up the right ureter. The diagnosis was a right ureteral stone; it was broken up with sound waves and the fragments were passed.",
+      brief: "A chart note transcription: a 36-year-old man came to the urinary tract specialist with right flank pain and blood in his urine. He had a history of bladder infection. Clean-catch urinalysis showed blood without pus. On an X-ray taken after injecting contrast into the bladder, the dye rose only halfway up the right ureter. The diagnosis was a right ureteral stone; it was broken up with sound waves and the fragments were passed.",
       chart: [['Age', '36'], ['CC', 'right flank pain, hematuria'], ['Imaging', 'retrograde pyelogram: right ureter fills halfway'], ['Dx', 'right ureterolith'], ['Tx', 'ESWL']],
       fig: { a: 'eswl-art', l: [] },
       steps: [
@@ -3178,7 +3178,7 @@
     },
     {
       id: 'r17', w: 'tx', title: "From dialysis to transplant", who: "Adrien, a 20-year-old student",
-      brief: "Case Study 14-2 in Cohen’s textbook: Adrien is a 20-year-old student who has had chronic glomerulonephritis since age 7, has done CAPD at home for 16 months and is waiting for a kidney transplant. He came to the emergency department with chest pain, shortness of breath and oliguria. BUN and creatinine were very high and haemoglobin was 8.2. Diagnosis: ESRD, fluid overload and metabolic acidosis. He was sent for haemodialysis and a bed was reserved for him on the transplant ward.",
+      brief: "Case Study: Adrien is a 20-year-old student who has had chronic glomerulonephritis since age 7, has done CAPD at home for 16 months and is waiting for a kidney transplant. He came to the emergency department with chest pain, shortness of breath and oliguria. BUN and creatinine were very high and haemoglobin was 8.2. Diagnosis: ESRD, fluid overload and metabolic acidosis. He was sent for haemodialysis and a bed was reserved for him on the transplant ward.",
       chart: [['Age', '20'], ['Hx', 'chronic glomerulonephritis since age 7; CAPD 16 months'], ['Labs', 'BUN, creatinine high; Hgb 8.2'], ['Dx', 'ESRD, fluid overload, metabolic acidosis'], ['Plan', 'hemodialysis; transplant list']],
       fig: { a: 'hemodialysis-art', l: [] },
       steps: [

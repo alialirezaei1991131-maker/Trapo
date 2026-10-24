@@ -106,6 +106,14 @@ $ld = ['@context' => 'https://schema.org', '@graph' => [
 
   <?= str_replace('href="#join"', 'href="' . $esc($join) . '"', trapo_pricing_html($esc, $c['slug'])) ?>
 
+  <?php $refs = (require TRAPO_ROOT . '/lib/views/refs.php')[$c['slug']] ?? []; if ($refs): ?>
+  <section class="lp-sec" id="refs" aria-labelledby="r-t">
+    <h2 id="r-t">منابع</h2>
+    <p class="lp-sub">منابع و راهنماهای بین‌المللی که دوره <?= $esc($c['fa']) ?> بر پایه آن‌ها ساخته شده است.</p>
+    <ol class="cp-refs" dir="ltr" lang="en"><?php foreach ($refs as $r): ?><li><?= $esc($r) ?></li><?php endforeach; ?></ol>
+  </section>
+  <?php endif; ?>
+
   <section class="lp-sec" id="faq" aria-labelledby="f-t">
     <h2 id="f-t">سؤال‌های رایج درباره <?= $esc($c['fa']) ?></h2>
     <div class="lp-faq"><?php foreach ($faq as $q): ?><details><summary><?= $esc($q[0]) ?></summary><p><?= $esc($q[1]) ?></p></details><?php endforeach; ?></div>

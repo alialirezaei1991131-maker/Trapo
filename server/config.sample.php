@@ -66,7 +66,7 @@ return [
 
     /* راه‌های ارسال پیام خرید: کاربر در پنجره خرید با یک دکمه پیام آماده سفارش را مستقیم به این‌ها می‌فرستد (خالی = دکمه پنهان)
      *   telegram: نام کاربری بدون @ یا نشانی https://t.me/...    bale: نام کاربری بدون @ یا https://ble.ir/...    email: نشانی ایمیل */
-    'contact' => ['telegram' => '', 'bale' => '', 'email' => ''],
+    'contact' => ['telegram' => 'Therapo_support', 'bale' => 'Therapo', 'email' => ''],
 
     /* نماد اعتماد الکترونیکی (اینماد) در پانویس همه صفحه‌ها */
     'enamad' => ['id' => '8269784', 'code' => 'LFiJT2p4RkYAtQBsW7x4ywIuqiMCu3lJ'],

@@ -135,9 +135,9 @@
     subject: "Medical terminology of the blood, lymphatic system and immunity",
     kicker: "🩸 Medical terminology: Blood, the Lymphatic System and Immunity",
     hello: "Hi, I’m <b>Imena</b>;",
-    landP: () => `Hi, I’m <b>Imena</b>, a red blood cell with an immune shield! Here you won’t memorise words; you’ll <b>decode</b> them: you’ll learn the roots, prefixes and suffixes and read every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 45)} pictures from the textbooks, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
+    landP: () => `Hi, I’m <b>Imena</b>, a red blood cell with an immune shield! Here you won’t memorise words; you’ll <b>decode</b> them: you’ll learn the roots, prefixes and suffixes and read every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 45)} clinical picturess, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
     disclaimer: "Imena is an educational tool and does not replace clinical judgment, a physician’s orders or laboratory references.",
-    eyes: "Dozens of textbook pictures and teaching figures, from blood smears and sickle cells to lymph nodes and the lupus rash.",
+    eyes: "Dozens of clinical pictures and teaching figures, from blood smears and sickle cells to lymph nodes and the lupus rash.",
     outcomes: [
           "Break every blood, lymph and immune word into prefix, root and suffix and say what it means",
           "Describe the components of blood, the types of blood cell and blood formation with the right words",
@@ -1629,7 +1629,7 @@
       {
         id: 'hb2', title: "Blood and plasma", icon: '🩸', items: [
           L("Blood at a glance", `An adult has about <b>5 litres</b> of blood, roughly <b>8% of body weight</b>.<br><br>Jobs of the blood:<br>• carrying <b>oxygen</b>, nutrients and hormones to the cells<br>• carrying <b>carbon dioxide</b> and waste away from the cells<br>• helping to <b>regulate temperature</b> and fluid volume (homeostasis)<br>• defending the body and clotting at wounds${fig('blood-process', '', "From blood draw to centrifuge: yellow plasma on top and cells below; then the types of blood cell.")}`),
-          L("The two main parts of blood", `If blood is spun in a tube (centrifuged), two parts separate:<br>• <b>plasma</b> (the liquid part, pale yellow): about <b>55%</b><br>• <b>formed elements</b>: about <b>45%</b>: red cells, white cells and platelets<br>${fig(['tube', 'tube-diagram'], ["Imena diagram", "From the textbook: Blood sample"], "The thin white middle layer (buffy coat) is the white cells and platelets. Sources give the plasma share as 52 to 62%.")}`),
+          L("The two main parts of blood", `If blood is spun in a tube (centrifuged), two parts separate:<br>• <b>plasma</b> (the liquid part, pale yellow): about <b>55%</b><br>• <b>formed elements</b>: about <b>45%</b>: red cells, white cells and platelets<br>${fig(['tube', 'tube-diagram'], ["Imena diagram", "From the standard reference: Blood sample"], "The thin white middle layer (buffy coat) is the white cells and platelets. Sources give the plasma share as 52 to 62%.")}`),
           M("What percentage of blood volume is the liquid part?", ["about 55%", "about 45%", "about 8%", "about 90%"], "Plasma is about 55% and formed elements about 45% of blood. 8% is blood’s share of body weight.", null, F('tube')),
           L("What is plasma made of?", `Plasma is <b>90 to 92% water</b> and 8 to 10% dissolved substances: proteins, glucose, gases, <b>electrolytes</b> and hormones. Its pH is about <b>7.4</b>.<br><br>Plasma proteins:<br>• <b>albumin</b>: regulates water movement between blood and tissue (lack of it → oedema)<br>• <b>globulin</b>: alpha and beta carry fats and vitamins; <b>gamma</b> = antibodies<br>• <b>fibrinogen</b> and <b>prothrombin</b>: clotting proteins`),
           P("Match each plasma protein to its job", [['albumin', "keeping water in the vessels"], ['gamma globulin', "antibodies (immunity)"], ['fibrinogen', "making the clot threads"], ['alpha/beta globulin', "carrying fats and vitamins"]]),
@@ -1690,7 +1690,7 @@
       },
       {
         id: 'hb6', title: "Blood formation and bone marrow", icon: '🦴', items: [
-          L("Haematopoiesis", `<b>Hematopoiesis</b> (or hemopoiesis) means the making of all blood cells in the <b>red bone marrow</b>.<br>${wb('hemat/o', '-poiesis')}<br>They all start from one <b>stem cell</b> (hemocytoblast) and split into two lines: myeloid and lymphoid.${fig('hemato')}${fig('hematopoiesis', '', "Textbook diagram: erythropoiesis, thrombopoiesis and leukopoiesis, from precursor cell to mature cell.")}`),
+          L("Haematopoiesis", `<b>Hematopoiesis</b> (or hemopoiesis) means the making of all blood cells in the <b>red bone marrow</b>.<br>${wb('hemat/o', '-poiesis')}<br>They all start from one <b>stem cell</b> (hemocytoblast) and split into two lines: myeloid and lymphoid.${fig('hemato')}${fig('hematopoiesis', '', "Diagram: erythropoiesis, thrombopoiesis and leukopoiesis, from precursor cell to mature cell.")}`),
           M("By what other name is the blood-forming stem cell known?", ['hemocytoblast', 'megakaryocyte', 'reticulocyte', 'macrophage'], "hem/o (blood) + cyt/o (cell) + -blast (immature cell) = an immature cell that forms blood."),
           L("The suffix -blast", `${e('-blast')} means an <b>immature cell</b> (a germ).<br>• <b>myeloblast</b>: precursor of granulocytes; fills the bone marrow in some leukaemias<br>• <b>erythroblast</b>: precursor of the red cell<br>${e('myel/o')} = bone marrow (and spinal cord) → <b>myelogenous</b> = made in the bone marrow`),
           P("Root and meaning", [['myel/o', "bone marrow"], ['-blast', "immature cell"], ['-poiesis', "formation"], ['kary/o', "cell’s control centre"]]),
@@ -1724,7 +1724,7 @@
       {
         id: 'hb8', title: "Cell shape and colour", icon: '🎨', items: [
           L("Size and shape", `In assessing <b>RBC morphology</b>:<br>• ${e('anis/o')} = unequal → <b>anisocytosis</b>: large differences in <b>size</b><br>• ${e('poikil/o')} = varied → <b>poikilocytosis</b>: differences in <b>shape</b><br>• <b>macrocyte</b> = large cell, <b>microcyte</b> = small cell<br>• <b>spherocyte</b> = ball-shaped cell (${e('spher/o')} = sphere)${fig('rbcshapes')}`),
-          L("Under the microscope", `Four blood smears from the textbook:${fig('smears', "A, B, C, D", "A: round, uniform cells • B: varied shape and size (poikilocytosis and anisocytosis) • C: sickle cells • D: very few cells")}`),
+          L("Under the microscope", `Four blood smears from the standard reference:${fig('smears', "A, B, C, D", "A: round, uniform cells • B: varied shape and size (poikilocytosis and anisocytosis) • C: sickle cells • D: very few cells")}`),
           M("In which part of this picture are sickle cells seen?", ['C', 'A', 'B', 'D'], "In C, crescent-shaped, elongated (sickle) cells are seen.", null, F('smears')),
           M("What is a large difference in the “size” of red cells called?", ['anisocytosis', 'poikilocytosis', 'spherocytosis', 'polycythemia'], "anis/o = unequal (size). poikil/o relates to shape.", null, F('rbcshapes')),
           P("Root and meaning", [['anis/o', "not equal"], ['poikil/o', "unequal, irregular"], ['spher/o', "globe, round"], ['macro-', "large"]]),
@@ -1745,11 +1745,11 @@
           P("Abbreviation and type of leukaemia", [['ALL', "acute lymphocytic"], ['CLL', "chronic lymphocytic"], ['AML', "acute myeloid"], ['CML', "chronic myeloid"]]),
           L("Confirming the diagnosis", `Leukaemia and most dyscrasias are confirmed by <b>bone marrow aspiration</b> and <b>biopsy</b>: the needle usually enters the marrow through the <b>hip crest</b> (iliac crest).${fig('marrow-aspiration', '', "Bone marrow aspiration lying on the side or front")}`),
           M("In most patients with which leukaemia is the Philadelphia (Ph) chromosome found?", ['CML', 'ALL', 'CLL', 'hairy cell leukemia'], "The Philadelphia chromosome is the hallmark of chronic myeloid leukaemia (CML)."),
-          T("ALL is the commonest childhood cancer and often shows itself with fever, petechiae and bleeding gums.", true, "True; as in the textbook case of a 2-year-old boy with fever, nosebleeds and petechiae. The diagnosis is confirmed by bone marrow aspiration."),
+          T("ALL is the commonest childhood cancer and often shows itself with fever, petechiae and bleeding gums.", true, "True; as in the standard reference case of a 2-year-old boy with fever, nosebleeds and petechiae. The diagnosis is confirmed by bone marrow aspiration."),
           L("Myeloma and others", `• <b>multiple myeloma</b>: cancer of the bone marrow’s <b>plasma cells</b>; it destroys bone and <b>Bence Jones protein</b> appears in the urine<br>• <b>myelodysplastic syndrome</b> (MDS): faulty marrow growth; too little production of one or more lines<br>• <b>myelofibrosis</b>: bone marrow replaced by fibrous tissue<br>• <b>hairy cell leukemia</b>: the cells have hair-like projections`),
           M("Bence Jones protein in the urine is a sign of which disease?", ['multiple myeloma', 'hemophilia', 'thalassemia', 'polycythemia vera'], "Cancerous plasma cells make immunoglobulin light chains that appear in the urine."),
           B("In myelofibrosis, the bone marrow is replaced by ___ tissue.", ["fibrous", "fat", "bony"], 'myel/o + fibr/o + -osis.'),
-          O("Order the diagnostic path for leukaemia", ["symptoms: tiredness, fever, bruising and repeated infections", "CBC: many immature white cells, low RBCs and platelets", "bone marrow aspiration and biopsy", "chemotherapy to reach remission"], "As in the textbook case of a 22-year-old woman: CBC, bone marrow examination and aggressive chemotherapy."),
+          O("Order the diagnostic path for leukaemia", ["symptoms: tiredness, fever, bruising and repeated infections", "CBC: many immature white cells, low RBCs and platelets", "bone marrow aspiration and biopsy", "chemotherapy to reach remission"], "As in the standard reference case of a 22-year-old woman: CBC, bone marrow examination and aggressive chemotherapy."),
           S("Spell the term for cancer of the white blood cells", 'leukemia', "leuk/o (white) + -emia (blood condition)."),
           N('ab:hb')
         ]
@@ -1816,7 +1816,7 @@
       },
       {
         id: 'co4', title: "ABO blood groups", icon: '🅰️', items: [
-          L("Antigens on the cell, antibodies in the plasma", `Blood group is set by inherited <b>antigens</b> on the red cell surface (agglutinogens).<br>The plasma has antibodies against the antigen it <b>lacks</b>:${tbl([["Group", "Antigen on RBCs", "Antibody in plasma"], ['A', 'A', 'anti-B'], ['B', 'B', 'anti-A'], ['AB', "A and B", "none"], ['O', "none", "anti-A and anti-B"]])}${fig(['abo-table', 'abo'], ["Textbook table: ABO Blood Types", "Imena diagram"])}`),
+          L("Antigens on the cell, antibodies in the plasma", `Blood group is set by inherited <b>antigens</b> on the red cell surface (agglutinogens).<br>The plasma has antibodies against the antigen it <b>lacks</b>:${tbl([["Group", "Antigen on RBCs", "Antibody in plasma"], ['A', 'A', 'anti-B'], ['B', 'B', 'anti-A'], ['AB', "A and B", "none"], ['O', "none", "anti-A and anti-B"]])}${fig(['abo-table', 'abo'], ["Table: ABO Blood Types", "Imena diagram"])}`),
           M("Which antibody is in the plasma of someone with blood group B?", ['anti-A', 'anti-B', "both", "neither"], "They have the B antigen, so they have antibodies against A.", null, F('abo')),
           L("Universal donor and recipient", `• Group <b>O</b> has no A or B antigen → <b>universal donor</b> of red cells<br>• Group <b>AB</b> has no antibodies → <b>universal recipient</b><br><br>In the case of <b>Dianne Love</b>, the doctor ordered <b>2 units of O-negative blood</b> in an emergency.`),
           T("Blood group AB is the “universal donor”.", false, "AB is the universal recipient; the universal donor is O (especially O negative)."),
@@ -1950,7 +1950,7 @@
       },
       {
         id: 'ly3', title: "Lymph nodes", icon: '🫘', items: [
-          L("Bean-shaped filters", `A <b>lymph node</b> is a small <b>bean-shaped</b> mass of lymphatic tissue that <b>filters</b> lymph. Lymph enters through <b>afferent</b> vessels and leaves through an <b>efferent</b> vessel. Inside, lymphocytes and macrophages trap germs.${fig(['lymph-node-structure', 'node'], ["Node structure from the textbook", "Imena diagram"], "cortex with nodules and germinal centres (B cells), medulla (macrophages and T cells), hilum and the afferent and efferent vessels")}`),
+          L("Bean-shaped filters", `A <b>lymph node</b> is a small <b>bean-shaped</b> mass of lymphatic tissue that <b>filters</b> lymph. Lymph enters through <b>afferent</b> vessels and leaves through an <b>efferent</b> vessel. Inside, lymphocytes and macrophages trap germs.${fig(['lymph-node-structure', 'node'], ["Node structure", "Imena diagram"], "cortex with nodules and germinal centres (B cells), medulla (macrophages and T cells), hilum and the afferent and efferent vessels")}`),
           L("Where are nodes clustered?", `• <b>cervical</b> (${e('cervic/o')} = neck)<br>• <b>axillary</b> (${e('axill/o')} = armpit)<br>• <b>inguinal</b> (${e('inguin/o')} = groin)<br>• <b>mediastinal</b> (middle of the chest) and submandibular (under the jaw)<br>${fig('lymph-nodes-regional', '', "Regional lymph nodes: cervical, mediastinal, axillary and inguinal; and where the thoracic duct and right lymphatic duct enter the subclavian veins")}`),
           P("Region and root", [['cervic/o', "neck"], ['axill/o', "armpit"], ['inguin/o', "groin"], ['lymphaden/o', "lymph node"]]),
           M("What are the lymph nodes of the armpit called?", ['axillary', 'cervical', 'inguinal', 'mediastinal'], "axill/o = armpit.", null, F('lymph-nodes-regional')),

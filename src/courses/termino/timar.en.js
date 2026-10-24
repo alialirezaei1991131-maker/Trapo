@@ -137,9 +137,9 @@
     subject: "Medical terminology of disease and treatment",
     kicker: "🩺 Medical terminology: Disease and Treatment",
     hello: "Hi, I’m <b>Timar</b>;",
-    landP: () => `Hi, I’m <b>Timar</b>, a capsule that takes good care of its patient! Here you’ll learn how diseases are named, what microbes and the body’s response are, how a physician examines and images, which suffixes and instruments a surgeon works with and how to read a prescription; and you’ll <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 30)} pictures from the textbooks, ${fa(EA.ART_KEYS.length)} teaching figures, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
+    landP: () => `Hi, I’m <b>Timar</b>, a capsule that takes good care of its patient! Here you’ll learn how diseases are named, what microbes and the body’s response are, how a physician examines and images, which suffixes and instruments a surgeon works with and how to read a prescription; and you’ll <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 30)} clinical picturess, ${fa(EA.ART_KEYS.length)} teaching figures, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
     disclaimer: "Timar is an educational tool and does not replace medical references, clinical judgment or a physician’s orders.",
-    eyes: "Dozens of teaching figures and textbook pictures, from the shapes of bacteria and inflammation to examination, imaging, surgical instruments and injection angles.",
+    eyes: "Dozens of teaching figures and clinical pictures, from the shapes of bacteria and inflammation to examination, imaging, surgical instruments and injection angles.",
     outcomes: [
           "Break every disease word into prefix, root and suffix, and build new words with suffixes such as ‎-itis, ‎-megaly and ‎-stenosis",
           "Recognise the types of disease, microbes such as cocci, bacilli, viruses and fungi, and spread words such as epidemic and nosocomial",
@@ -1977,7 +1977,7 @@
       },
       {
         id: 'lx2', title: "Pain, Stone, Tumour", icon: '🪨', items: [
-          L("Five basic roots", `Table 3-1 of the book has ten disease roots; here are the first five:${tbl([["root", "Meaning", "Example"], [e('alg/o, algesi/o'), "pain", "algesia: sense of pain"], [e('carcin/o'), "cancer", "carcinogen: cancer-causing"], [e('cyst/o'), "sac, cyst, bladder", "cystic: having cysts"], [e('lith/o'), "stone", "lithiasis: stone formation"], [e('onc/o'), "tumour", "oncogenic: tumour-causing"]])}${fig('disease-roots')}`),
+          L("Five basic roots", `Teaching figure has ten disease roots; here are the first five:${tbl([["root", "Meaning", "Example"], [e('alg/o, algesi/o'), "pain", "algesia: sense of pain"], [e('carcin/o'), "cancer", "carcinogen: cancer-causing"], [e('cyst/o'), "sac, cyst, bladder", "cystic: having cysts"], [e('lith/o'), "stone", "lithiasis: stone formation"], [e('onc/o'), "tumour", "oncogenic: tumour-causing"]])}${fig('disease-roots')}`),
           P("Match each root to its meaning", [['alg/o', "pain"], ['lith/o', "stone"], ['onc/o', "tumour"], ['carcin/o', "cancer"]]),
           M(`${e('<b>lithiasis</b>')} means…`, ["stone formation in the body", "stone pain", "kidney cancer", "bladder inflammation"], "lith (stone) + -iasis (condition)."),
           L("Pain and no pain", `${wb('algesi/o', '-ia')} = <b>algesia</b>: the sense of pain. With the prefix an- (without), <b>analgesia</b> means absence of pain, and a drug that takes pain away is an <b>analgesic</b>. The instrument that measures pain sensitivity is the <b>algesimeter</b>.${pearl("A nurse writes in the chart “PCA for analgesia”: a painkiller pump whose button the patient presses.")}`),
@@ -2043,7 +2043,7 @@
           L("Three suffixes with rr", `${tbl([["suffix", "Meaning", "Example"], [e('-rrhage, -rrhagia'), "bursting forth, heavy bleeding", "hemorrhage • menorrhagia (heavy menstrual bleeding)"], [e('-rrhea'), "flow, discharge", "pyorrhea: discharge of pus"], [e('-rrhexis'), "rupture", "hepatorrhexis: rupture of the liver • amniorrhexis: rupture of the amniotic sac"]])}${fig('rr-rule')}${memo("Three r’s for three flowing things: rrhage bursts, rrhea flows, rrhexis ruptures and spills the fluid out.")}`),
           M(`${e('<b>hemorrhage</b>')} means…`, ["heavy bleeding", "rupture of a vessel", "flow of pus", "stopping of blood"], 'hem/o + -rrhage.'),
           M(`${e('<b>hepatorrhexis</b>')} means…`, ["rupture of the liver", "bleeding from the liver", "enlarged liver", "liver inflammation"], "hepat/o + -rrhexis (rupture)."),
-          T("When ‎-rhage attaches to a root such as hem/o, the r is doubled: hemorrhage.", true, "The book’s double-rr rule."),
+          T("When ‎-rhage attaches to a root such as hem/o, the r is doubled: hemorrhage.", true, "The standard reference’s double-rr rule."),
           L("Bulging, breaking and splitting", `${tbl([["suffix", "Meaning", "Example"], [e('-cele'), "hernia, local bulge", "gastrocele (hernia of the stomach) • hydrocele (fluid sac) • adipocele"], [e('-clasis, -clasia'), "breaking", "osteoclasis (breaking of a bone) • karyoclasis (breaking of the nucleus)"], [e('-schisis'), "split, cleft", "retinoschisis (splitting of the retina) • thoracoschisis"]])}`),
           P("Match each suffix to its meaning", [['-cele', "hernia, swelling"], ['-clasis', "breaking"], ['-schisis', "split"], ['-rrhea', "flow, discharge"]]),
           M(`${e('<b>osteoclasis</b>')} means…`, ["Breaking of a bone", "softening of bone", "death of bone", "bone pain"], 'oste/o + -clasis.'),
@@ -2127,7 +2127,7 @@
       /* ================= سطح ۱: انواع و سیر بیماری ================= */
       {
         id: 'mc1', title: "What Is Disease?", icon: '🗂️', items: [
-          L("Seven groups of disease", `<b>disease</b> means any disturbance in the normal working of the body. The book puts diseases into seven (sometimes overlapping) groups:${fig('disease-types')}`),
+          L("Seven groups of disease", `<b>disease</b> means any disturbance in the normal working of the body. The standard reference puts diseases into seven (sometimes overlapping) groups:${fig('disease-types')}`),
           P("Match each group to its example", [['infectious', "microbes and parasites"], ['degenerative', "wear and ageing, such as arthritis"], ['hormonal', "such as diabetes mellitus"], ['metabolic', "enzyme deficiency, malnutrition"]]),
           M(`${e('<b>infectious disease</b>')} means a disease…`, ["infectious; caused by microbes or parasites", "degenerative, from wear", "hormonal", "present at birth"], "It is caused by microorganisms and parasites."),
           L("Degenerative and structural", `A <b>degenerative</b> disease comes from wear, ageing or <b>trauma</b> (a blow, an injury); examples are arthritis, cardiovascular problems and emphysema. Structural defects such as a <b>congenital</b> malformation, prolapse and hernia can also lead to degenerative changes.${pearl("trauma is not only a physical blow; a psychological wound is also called trauma.")}`),
@@ -2157,13 +2157,13 @@
       },
       {
         id: 'mc3', title: "Where does a disease’s name come from?", icon: '🏷️', items: [
-          L("Place, person or sign", `Box 3-1 of the book says diseases get their names in different ways:${tbl([["Named after", "Example"], ["place of discovery", "Lyme disease (the town of Lyme), Ebola, West Nile"], ["discoverer’s name", "Hodgkin disease, Crohn disease, Cooley anemia"], ["a sign of the disease", "tuberculosis: small lesions called tubercles • sickle cell anemia: sickle-shaped red cells"], ["colour", "yellow fever, scarlet fever, rubella"]])}${pearl("The World Health Organization (WHO) now advises against naming diseases after people, places and animals; such names are sometimes offensive or misleading.")}`),
+          L("Place, person or sign", `Box 3-1 of the standard reference says diseases get their names in different ways:${tbl([["Named after", "Example"], ["place of discovery", "Lyme disease (the town of Lyme), Ebola, West Nile"], ["discoverer’s name", "Hodgkin disease, Crohn disease, Cooley anemia"], ["a sign of the disease", "tuberculosis: small lesions called tubercles • sickle cell anemia: sickle-shaped red cells"], ["colour", "yellow fever, scarlet fever, rubella"]])}${pearl("The World Health Organization (WHO) now advises against naming diseases after people, places and animals; such names are sometimes offensive or misleading.")}`),
           M("What is tuberculosis named after?", ["Small lesions called tubercles in the lung", "The name of its discoverer", "The town where it was discovered", "The colour of the patient’s skin"], "Named after a sign of the disease."),
           T("Hodgkin disease is named after the person who described it.", true, "Like Crohn disease."),
           L("Picture names", `In <b>lupus erythematosus</b> (lupus, Latin: wolf) the red facial rash gives a wolf-like look. In skin <b>anthrax</b> the lesions turn black (related to anthracite, coal). <b>Bubonic plague</b> produces large, painful lymph nodes called buboes.${memo("A disease name is often a “picture” of its sign: wolf, coal, sickle.")}`),
           M("In Latin, lupus means…", ["Wolf", "Coal", "Sickle", "yellow"], "Because of the wolf-like red rash on the face."),
           P("Match each disease to the origin of its name", [['Lyme disease', "the town where it was found"], ['sickle cell anemia', "sickle-shaped red blood cells"], ['scarlet fever', "colour"], ['Crohn disease', "descriptive name"]]),
-          L("emergency medical technician", `Box 3-2 of the book: the <b>emergency medical technician</b> (EMT) is the first health worker to reach the scene of an accident or heart attack. The EMT takes a history, examines the patient, <b>stabilizes</b> them and brings them to a treatment centre, immobilizes injuries with a backboard and treats cardiac arrest with an AED.`),
+          L("emergency medical technician", `Box 3-2 of the standard reference: the <b>emergency medical technician</b> (EMT) is the first health worker to reach the scene of an accident or heart attack. The EMT takes a history, examines the patient, <b>stabilizes</b> them and brings them to a treatment centre, immobilizes injuries with a backboard and treats cardiac arrest with an AED.`),
           M(`Who is a ${e('<b>EMT</b>')}?`, ["emergency medical technician", "Infectious disease specialist", "Operating room nurse", "pharmacist"], 'emergency medical technician.'),
           L("Review of the “Types and Course of Disease” level", recap(["Seven groups: infectious, degenerative, neoplasia, immune, metabolic, hormonal, mental", "acute sudden and short • chronic long • exacerbation flare-up • remission easing", "etiology cause • idiopathic unknown cause • iatrogenic caused by treatment • congenital present at birth • trauma injury", "A disease name comes from a place, a discoverer, a sign or a colour; WHO advises against names of people and places"])),
           B("A disease present from birth is called ___.", ['congenital', 'chronic', 'iatrogenic'], 'congenital = present at birth.'),
@@ -2223,7 +2223,7 @@
         id: 'mc7', title: "Microbes’ Doors", icon: '🚪', items: [
           L("Where do microbes get in?", `Microbes enter the body by several routes, or <b>portals of entry</b>: broken skin, the respiratory tract, the digestive tract and the urinary and genital tracts. Body secretions of an infected person can spread microbes through <b>air, food, water or direct contact</b>.${fig('portals')}`),
           M("Which of these is not a portal of entry for microbes?", ["Healthy, unbroken skin", "Broken skin", "The respiratory system", "The digestive system"], "Healthy skin is a defensive barrier."),
-          O("Put the four routes of transmission in order (as in the book)", ["Air", "Food", "water", "Direct contact"], "air, food, water and direct contact."),
+          O("Put the four routes of transmission in order", ["Air", "Food", "water", "Direct contact"], "air, food, water and direct contact."),
           L("Toxins and contagion", `Many microbes cause disease with the <b>toxins</b> (poisons) they release. A disease that passes from one person to another is <b>communicable</b>.${pearl("A patient spreads respiratory droplets by coughing and sneezing; that is why we wear masks for contagious respiratory diseases.")}`),
           M(`${e('<b>communicable</b>')} means…`, ["contagious; from one person to another", "present at birth", "without a cause", "whole-body"], 'communicable = capable of passing from one person to another.'),
           L("Normal flora and opportunists", `${vs(['normal flora', "microbes always living on and in the body; usually harmless and even helpful"], ['opportunistic', "an infection that appears when the body is weak"])}Normal flora can also cause disease if the body’s barriers are damaged or immunity weakens.`),
@@ -2290,7 +2290,7 @@
       {
         id: 'rs1', title: "The four signs of inflammation", icon: '🔥', items: [
           L("The Body Responds to Injury", `The body’s common response to infection and injury is <b>inflammation</b>: damaged cells release chemicals that bring blood and fluid into the tissue. The result is four signs:${fig('inflammation-signs')}`),
-          O("Put the four signs of inflammation in order (as in the book)", ['heat', 'pain', 'redness', 'swelling'], "Heat, pain, redness and swelling."),
+          O("Put the four signs of inflammation in order", ['heat', 'pain', 'redness', 'swelling'], "Heat, pain, redness and swelling."),
           P("Match each sign to its classic Latin name", [['heat', "calor"], ['pain', "dolor"], ['redness', "rubor"], ['swelling', "tumor"]]),
           L("The suffix ‎-itis", `The suffix <b>‎-itis</b> means inflammation:${tbl([["Term", "Meaning"], [e('appendicitis'), "inflammation of the appendix"], [e('tonsillitis'), "inflammation of the tonsils"], [e('cystitis'), "bladder inflammation"]])}${memo("itis is like fire: wherever it settles, that place is hot, red and swollen.")}`),
           M(`${e('<b>tonsillitis</b>')} means…`, ["inflammation of the tonsils", "removal of the tonsils", "tumour of the tonsil", "enlarged tonsil"], 'tonsill/o + -itis.'),
@@ -2548,7 +2548,7 @@
           M("The instrument in this picture has a funnel tip for examining the ear. Its name is…", ['otoscope', 'ophthalmoscope', 'bronchoscope', 'speculum'], "ot/o (ear) + -scope.", null, F('otoscope-img', "Ear-examining instrument")),
           L("viewing tube (endoscope)", `An <b>endoscope</b> is an instrument for looking inside an organ or cavity through a natural body opening or a small incision; most use fibre optics. A <b>bronchoscope</b> is an endoscope for the bronchi. A <b>speculum</b> is an instrument for opening and viewing a canal.${fig('bronchoscopy-img', "A bronchoscope passes through the mouth into the bronchi")}`),
           M("In this picture, which instrument is being used to view the bronchi?", ['bronchoscope', 'stethoscope', 'otoscope', 'sphygmomanometer'], 'bronch/o + -scope.', null, F('bronchoscopy-img', "Examining the bronchi")),
-          L("Recording and measuring", `${fig('graph-gram')}${pearl("The book says ‎-graphy is not only recording; it also includes interpreting the data.")}`),
+          L("Recording and measuring", `${fig('graph-gram')}${pearl("The standard reference says ‎-graphy is not only recording; it also includes interpreting the data.")}`),
           P("Match each suffix to its meaning", [['-graph', "recording instrument"], ['-graphy', "recording process"], ['-gram', "the record itself"], ['-metry', "measurement"]]),
           M(`An ${e('<b>electrocardiogram</b>')} (ECG) means…`, ["the recorded tracing of the heart’s electrical activity itself", "the machine that records the heart tracing", "recording process", "a pressure-measuring device"], '-gram = a record.'),
           T("A stethoscope is a viewing instrument.", false, "False; we listen with it; it is the exception in the ‎-scope family."),
@@ -2559,7 +2559,7 @@
       },
       {
         id: 'dx8', title: "Physical Forces", icon: '⚡', items: [
-          L("Twelve roots", `Table 3-6 of the book has roots for forces and energies used in diagnosis and treatment:${fig('physical-forces')}`),
+          L("Twelve roots", `Teaching figure has roots for forces and energies used in diagnosis and treatment:${fig('physical-forces')}`),
           P("Match each root to its meaning", [['aer/o', "Air"], ['cry/o', "cold"], ['phot/o', "light"], ['erg/o', "Job"]]),
           L("Examples", `${tbl([["Term", "Meaning"], [e('anaerobic'), "not needing oxygen"], [e('hyperbaric'), "relating to high pressure"], [e('chromatic / achromatic'), "coloured / colourless"], [e('chronologic'), "in time order"], [e('cryotherapy'), "cold treatment"], [e('electrolysis'), "breakdown by electric current"], [e('photoreaction'), "response to light"], [e('barotrauma'), "injury caused by pressure"], [e('synchrony'), "happening together in time (syn-: together)"]])}`),
           M(`${e('<b>aerobic</b>')} means…`, ["needing air (oxygen)", "without air", "relating to pressure", "relating to light"], 'aer/o + -bic.'),
@@ -2709,7 +2709,7 @@
       /* ================= سطح ۳: درمان‌ها و طب مکمل ================= */
       {
         id: 'tx7', title: "Tubes and Irrigation", icon: '🧴', items: [
-          L("Catheter", `A <b>catheter</b> is a thin tube passed into a cavity, organ or vessel to draw fluid out or put it in. Figure 3-19 of the book shows continuous <b>irrigation</b> (washing) of the bladder with a catheter.${fig('irrigation-img', "Continuous bladder irrigation with a catheter")}`),
+          L("Catheter", `A <b>catheter</b> is a thin tube passed into a cavity, organ or vessel to draw fluid out or put it in. Teaching figure shows continuous <b>irrigation</b> (washing) of the bladder with a catheter.${fig('irrigation-img', "Continuous bladder irrigation with a catheter")}`),
           M("In this picture, fluid from the upper bag enters the bladder through a catheter and returns to the lower bag. This is…", ['irrigation', 'paracentesis', 'cautery', 'resection'], 'irrigation = flushing with a fluid.', null, F('irrigation-img', "Washing the bladder")),
           L("Irrigation and drainage", `${fig('tubes-tools')}${tbl([["Term", "Meaning"], [e('lavage'), "washing out a cavity"], [e('drain'), "a device that lets discharge out of a wound or cavity; such as Penrose and Jackson–Pratt"], [e('clysis'), "putting fluid into the body by a route other than the mouth"], [e('normal saline'), "a salt solution compatible with cells (NS)"]])}`),
           P("Match each term to its meaning", [['lavage', "washing a cavity"], ['drain', "letting fluid flow out of a wound"], ['clysis', "putting fluid in"], ['catheter', "thin tube"]]),
@@ -2839,7 +2839,7 @@
       {
         id: 'rx5', title: "Injections", icon: '💉', items: [
           L("Injection routes", `An <b>injection</b> is given with a needle and syringe, and the injection routes are called <b>parenteral</b> (apart from the digestive tract).${tbl([["Route", "Meaning"], [e('intradermal • ID'), "into the skin"], [e('subcutaneous • SC, SQ'), "under the skin; hypodermic"], [e('intramuscular • IM'), "into a muscle"], [e('intravenous • IV'), "into the vein"]])}`),
-          L("Needle angle", `${fig(['injection-img', 'injection-angles'], ["Figure 3-22 of the book", "the deeper, the steeper the angle"])}${memo("90 - 45 - 15: muscle, subcutaneous, skin; from deep to shallow.")}`),
+          L("Needle angle", `${fig(['injection-img', 'injection-angles'], ["Teaching figure", "the deeper, the steeper the angle"])}${memo("90 - 45 - 15: muscle, subcutaneous, skin; from deep to shallow.")}`),
           M("At what angle is an intramuscular (IM) injection given?", ["90 degrees", "45 degrees", "15 degrees", "5 degrees"], 'IM 90°.', null, F('injection-img', "Injection angles")),
           M("A needle at a 15-degree angle enters only the skin layer. This injection is…", ['ID', 'SC', 'IM', 'IV'], 'intradermal.'),
           P("Match each abbreviation to its meaning", [['ID', "into the skin"], ['SC', "subcutaneously"], ['IM', "into a muscle"], ['IV', "into a vein"]]),
@@ -3196,7 +3196,7 @@
       chart: [["examination", "pain and tenderness in the lower right abdomen; fever"], ["test", "too many white blood cells"], ["ultrasound scan", "appendicitis with abscess"], ["Plan", 'appendectomy']],
       fig: { a: ['inflammation-signs'], l: ["The four signs of inflammation"] },
       steps: [
-        O("inflammation", "Put the four signs of inflammation in order (as in the book)", ['heat', 'pain', 'redness', 'swelling'], "Heat, pain, redness and swelling."),
+        O("inflammation", "Put the four signs of inflammation in order", ['heat', 'pain', 'redness', 'swelling'], "Heat, pain, redness and swelling."),
         M("Term", "appendicitis means…", ["inflammation of the appendix", "removal of the appendix", "hernia of the appendix", "tumour of the appendix"], 'appendic/o + -itis.'),
         M("area of damaged tissue", "abscess means…", ["pus collected in one place", "inflammation spread through tissue", "abnormal passage between two organs", "mass on a stalk"], "Cellulitis is spreading inflammation and a fistula is an abnormal passage."),
         T("Defence", "Pus is made of fluid and white blood cells that have swallowed bacteria.", true, "What remains after phagocytosis is pus."),

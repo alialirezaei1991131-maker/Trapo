@@ -1681,7 +1681,7 @@
       {
         id: 'lx2', title: "Eye, Ear and Their Specialists", icon: '👩‍⚕️', items: [
           L("Two organs, several specialists", `${fig('eye-ear-overview', [], "Eye and ear")}${tbl([["specialist", "Job"], [e('ophthalmologist'), "eye physician and surgeon"], [e('optometrist'), "examining the eyes and prescribing glasses"], [e('optician'), "making and selling glasses"], [e('audiologist'), "measuring and treating hearing loss"], [e('otorhinolaryngologist (ENT)'), "ear, nose and throat physician"]])}`),
-          L("At the bedside", `${pearl("In the Case Study in Cohen’s book, the paediatrician referred Kelly to an ophthalmologist for “lazy eye”; an optician made her glasses.")}${pearl("In the Pearson consultation report, an 8-year-old girl was sent to an ear, nose and throat (ENT) specialist for a chronic middle ear infection.")}${memo("opt means vision: an optometrist measures (-metry) vision and an optician makes glasses.")}`),
+          L("At the bedside", `${pearl("In the Case Study, the paediatrician referred Kelly to an ophthalmologist for “lazy eye”; an optician made her glasses.")}${pearl("In a consultation report, an 8-year-old girl was sent to an ear, nose and throat (ENT) specialist for a chronic middle ear infection.")}${memo("opt means vision: an optometrist measures (-metry) vision and an optician makes glasses.")}`),
           M("Which specialist performs eye surgery?", ['ophthalmologist', 'optometrist', 'optician', 'audiologist'], "The eye physician.", null, F('eye-ear-overview', [])),
           M("The abbreviation ENT means…", ["ear, nose and throat", "Eye and ear", "emergency department", "glands"], 'ears, nose and throat.'),
           T("An optician makes and dispenses glasses but does not treat eye disease.", true, "A spectacles technician."),
@@ -1724,7 +1724,7 @@
       {
         id: 'lx5', title: "Ear Roots", icon: '👂', items: [
           L("The root map", `${fig('root-map-ear', [], "Map of ear roots")}${tbl([["root", "Meaning"], [e('ot/o, aur/o, auricul/o'), "ear"], [e('myring/o, tympan/o'), "eardrum"], [e('staped/o'), "stapes"], [e('cochle/o'), "cochlea"], [e('labyrinth/o'), "inner ear"], [e('vestibul/o'), "upper heart chamber"], [e('mastoid/o'), "mastoid process"]])}`),
-          L("On a real figure", `${fig('ear-roots', ["Roots on a section of the ear"], "Ear Roots")}${memo("myring looks like ring; the eardrum is a stretched ring. tympan means drum.")}${pearl("In the Chart Note in Gylys’s book, the patient was admitted for tympanoplasty, that is, repair of the eardrum.")}`),
+          L("On a real figure", `${fig('ear-roots', ["Roots on a section of the ear"], "Ear Roots")}${memo("myring looks like ring; the eardrum is a stretched ring. tympan means drum.")}${pearl("In the Chart Note, the patient was admitted for tympanoplasty, that is, repair of the eardrum.")}`),
           M("Which is the root for “eardrum”?", ['myring/o', 'mastoid/o', 'cochle/o', 'aur/o'], "myring/o and tympan/o.", null, F('root-map-ear', [])),
           M("Which ossicle does the root staped/o refer to?", ["stapes", "malleus", "incus", "mastoid"], 'stapes.'),
           T("ot/o and aur/o both mean ear.", true, "Greek and Latin roots.", F('ear-roots', [])),
@@ -1738,7 +1738,7 @@
       {
         id: 'lx6', title: "Hearing and tears", icon: '💧', items: [
           L("Roots of hearing", `• ${e('audi/o, audit/o')}: hearing, sound; e.g. ${e('audiology')} and ${e('auditory')}<br>• ${e('acous/o, acus/o')}: hearing; e.g. ${e('acoustic')}<br>• the suffix ${e('-cusis')}: condition of hearing; e.g. ${e('presbycusis')} (age-related hearing loss)${memo("In everyday language, audio also means sound; an audiometer is a hearing meter.")}`),
-          L("Roots of tears", `${e('dacry/o')} (Greek) and ${e('lacrim/o')} (Latin) both mean tear.<br>${wb('dacry/o', 'cyst/o', '-itis')} → ${e('dacryocystitis')}: inflammation of the tear sac<br>${wb('dacry/o', '-rrhea')} → ${e('dacryorrhea')}: excessive tearing${pearl("The book’s applied scenario: Mrs Julie Halbritter has a red eye with excessive tearing and frequent blinking.")}`),
+          L("Roots of tears", `${e('dacry/o')} (Greek) and ${e('lacrim/o')} (Latin) both mean tear.<br>${wb('dacry/o', 'cyst/o', '-itis')} → ${e('dacryocystitis')}: inflammation of the tear sac<br>${wb('dacry/o', '-rrhea')} → ${e('dacryorrhea')}: excessive tearing${pearl("A clinical scenario: Mrs Julie Halbritter has a red eye with excessive tearing and frequent blinking.")}`),
           M("The root meaning “sound, hearing” is…", ['audi/o', 'aur/o', 'opt/o', 'dacry/o'], 'audiology.'),
           M(`${e('<b>dacryocystitis</b>')} means…`, ["inflammation of the tear sac", "tearing", "inflammation of the eyelid", "dry eyes"], 'dacry/o + cyst/o + -itis.'),
           T("lacrim/o and dacry/o both mean tear.", true, "Latin and Greek."),
@@ -1753,7 +1753,7 @@
       {
         id: 'lx7', title: "Prefixes", icon: '⬅️', items: [
           L("Common prefixes", `${tbl([["prefix", "Meaning", "Example"], [e('a-, an-'), "without", e('anacusis')], [e('dipl-'), "two-unit", e('diplopia')], [e('eso-'), "inwards", e('esotropia')], [e('exo-'), "outwards", e('exotropia')], [e('hemi-'), "half", e('hemianopia')], [e('presby-'), "old age", e('presbyopia')], [e('intra-'), "within", e('intraocular')]])}`),
-          L("At the bedside", `${wb('eso-', '-tropia')} → turning of the eye inwards<br>${wb('exo-', '-tropia')} → turning of the eye outwards${memo("eso- means inwards, towards you; exo- is like exit, meaning outwards.")}${pearl("In the Case Study in Cohen’s book, Kelly’s left eye turned towards the inner corner of the eye (medial canthus); that is, esotropia.")}`),
+          L("At the bedside", `${wb('eso-', '-tropia')} → turning of the eye inwards<br>${wb('exo-', '-tropia')} → turning of the eye outwards${memo("eso- means inwards, towards you; exo- is like exit, meaning outwards.")}${pearl("In the Case Study, Kelly’s left eye turned towards the inner corner of the eye (medial canthus); that is, esotropia.")}`),
           M("The prefix eso- means…", ["inwards", "outwards", "two-unit", "half"], 'esotropia.'),
           M(`${e('<b>hemianopia</b>')} means…`, ["blindness in half the visual field", "double vision", "night blindness", "colour blindness"], "hemi- means half."),
           T("The prefix intra- means “within”, as in intraocular.", true, "Within the eye."),
@@ -1767,7 +1767,7 @@
       {
         id: 'lx8', title: "Suffixes", icon: '➡️', items: [
           L("Sense Suffixes", `${tbl([["suffix", "Meaning", "Example"], [e('-opia') + '<br>' + e('-opsia'), "vision", e('myopia, achromatopsia')], [e('-cusis'), "hearing", e('presbycusis')], [e('-tropia'), "turning around an axis", e('esotropia')], [e('-ptosis'), "drooping", e('blepharoptosis')], [e('-algia') + '<br>' + e('-dynia'), "pain", e('otalgia, otodynia')], [e('-rrhea'), "secrete", e('otorrhea')]])}`),
-          L("Eye and ear pain", `There are two same-meaning suffixes for pain: ${e('<b>otalgia</b>')} and ${e('<b>otodynia</b>')} both mean earache; ${e('<b>ophthalmalgia</b>')} and ${e('<b>oculodynia</b>')} both mean eye pain.${pearl("The book’s applied scenario: the record of 68-year-old Mrs Kelly Post reads oculodynia, mastoiditis and conjunctivitis; that is, eye pain, inflammation of the mastoid and inflammation of the conjunctiva.")}`),
+          L("Eye and ear pain", `There are two same-meaning suffixes for pain: ${e('<b>otalgia</b>')} and ${e('<b>otodynia</b>')} both mean earache; ${e('<b>ophthalmalgia</b>')} and ${e('<b>oculodynia</b>')} both mean eye pain.${pearl("A clinical scenario: the record of 68-year-old Mrs Kelly Post reads oculodynia, mastoiditis and conjunctivitis; that is, eye pain, inflammation of the mastoid and inflammation of the conjunctiva.")}`),
           M("The suffix -cusis means…", ["hearing", "vision", "pain", "drooping"], 'presbycusis.'),
           M(`${e('<b>oculodynia</b>')} means…`, ["eye pain", "eye inflammation", "dry eyes", "double vision"], "-dynia means pain."),
           T("-opia and -opsia both mean vision.", true, "Same-meaning twins."),
@@ -1814,7 +1814,7 @@
       {
         id: 'ey1', title: "The Three Layers of the Eyeball", icon: '🧅', items: [
           L("From outside in", `${fig('eye-section', [], "Section of the eyeball")}The ${e('<b>eyeball</b>')} sits in the ${e('<b>orbit</b>')} (eye socket), and its wall has three layers:<br>• outer (fibrous) layer: the ${e('<b>sclera</b>')} (white of the eye) and, in front, the ${e('<b>cornea</b>')}<br>• middle layer (${e('<b>uvea</b>')}): the ${e('choroid')}, ${e('ciliary body')} and ${e('iris')}<br>• inner layer: the ${e('<b>retina</b>')}`),
-          L("On the textbook figure", `${fig('eye-layers', ["The Three Layers of the Eyeball"], "Layers of the eye")}The ${e('<b>choroid</b>')} is full of vessels and nourishes the retina. The space behind the lens is filled by the ${e('<b>vitreous humor</b>')} (a clear jelly).${memo("Three layers like an onion: the tough sclera, the vessel-rich choroid and the light-sensitive retina.")}`),
+          L("On the figure", `${fig('eye-layers', ["The Three Layers of the Eyeball"], "Layers of the eye")}The ${e('<b>choroid</b>')} is full of vessels and nourishes the retina. The space behind the lens is filled by the ${e('<b>vitreous humor</b>')} (a clear jelly).${memo("Three layers like an onion: the tough sclera, the vessel-rich choroid and the light-sensitive retina.")}`),
           M("What is the white of the eye called?", ['sclera', 'cornea', 'choroid', 'retina'], "scler/o means hard.", null, F('eye-section', [])),
           M("The vessel-rich layer that nourishes the retina is…", ['choroid', 'sclera', 'cornea', 'lens'], "The choroid."),
           T("The uvea includes the choroid, ciliary body and iris.", true, "The middle layer.", F('eye-layers', [])),
@@ -1857,7 +1857,7 @@
       {
         id: 'ey4', title: "Eyelid, Conjunctiva and Eyebrow", icon: '😉', items: [
           L("Protective structures", `${fig('eye-front', [], "The eye from the front")}• ${e('<b>eyelid</b>')} (${e('palpebra')}; ${e('blephar/o')}): the lid that closes the eye and helps spread tears<br>• ${e('<b>canthus</b>')}: the corner of the eye; inner (medial) and outer (lateral)<br>• ${e('<b>conjunctiva</b>')}: a thin mucous membrane over the sclera and under the lid<br>• ${e('<b>meibomian gland</b>')}: the oil gland of the eyelid margin`),
-          L("On the textbook figure", `${fig('eye-accessory', ["Accessory structures of the eye"], "Accessory structures")}${pearl("The book’s applied scenario: the doctor ordered surgery on Mr Smith’s drooping eyelids, which were blocking his vision; that is, blepharoplasty.")}${memo("canthus is the corner of the eye.")}`),
+          L("On the figure", `${fig('eye-accessory', ["Accessory structures of the eye"], "Accessory structures")}${pearl("A clinical scenario: the doctor ordered surgery on Mr Smith’s drooping eyelids, which were blocking his vision; that is, blepharoplasty.")}${memo("canthus is the corner of the eye.")}`),
           M("The mucous membrane over the white of the eye and under the lid is…", ['conjunctiva', 'cornea', 'sclera', 'canthus'], "The conjunctiva.", null, F('eye-front', [])),
           M("The root blephar/o means…", ["eyelid", "eyelash", "eyebrow", "tear"], 'blepharitis.'),
           T("canthus means the corner of the eye, where the upper and lower lids meet.", true, "Inner and outer.", F('eye-accessory', [])),
@@ -1871,7 +1871,7 @@
       {
         id: 'ey5', title: "lacrimal apparatus", icon: '😢', items: [
           L("The Path of Tears", `${fig('lacrimal-path', [], "The Path of Tears")}The ${e('<b>lacrimal apparatus</b>')}:<br>• ${e('<b>lacrimal gland</b>')}: above the outer corner of the eye; makes tears<br>• tears wash the surface of the eye and flow to the inner corner<br>• ${e('lacrimal canals')} and ${e('lacrimal sac')}<br>• ${e('<b>nasolacrimal duct</b>')}: carries tears to the nose`),
-          L("On the textbook figure", `${fig('lacrimal', ["Protective structures and the lacrimal apparatus"], "lacrimal apparatus")}${memo("When you cry your nose runs too, because the nasolacrimal duct carries tears into the nose.")}${wb('dacry/o', 'aden/o', '-itis')} → ${e('dacryoadenitis')}: inflammation of the tear gland`),
+          L("On the figure", `${fig('lacrimal', ["Protective structures and the lacrimal apparatus"], "lacrimal apparatus")}${memo("When you cry your nose runs too, because the nasolacrimal duct carries tears into the nose.")}${wb('dacry/o', 'aden/o', '-itis')} → ${e('dacryoadenitis')}: inflammation of the tear gland`),
           M("Where are tears made?", ['lacrimal gland', 'lacrimal sac', 'conjunctiva', 'cornea'], "The lacrimal gland.", null, F('lacrimal-path', [])),
           M("Which duct carries tears to the nose?", ['nasolacrimal duct', 'eustachian tube', 'lacrimal gland', 'canthus'], 'naso + lacrimal.'),
           T("The lacrimal gland is above the outer (lateral) corner of the eye.", true, "Under the upper lid.", F('lacrimal', [])),
@@ -1885,7 +1885,7 @@
       {
         id: 'ey6', title: "Eye Muscles", icon: '💪', items: [
           L("Six muscles", `${fig('eye-muscles', [], "extraocular muscles")}The six ${e('<b>extraocular muscles (EOM)</b>')} lie outside the eyeball and rotate it: four rectus muscles (superior, inferior, medial, lateral) and two oblique muscles (superior and inferior).`),
-          L("On the textbook figure", `${fig('extraocular-muscles', ["Eye muscles from the side and front"], "Eye Muscles")}${memo("extra means outside; extraocular means outside the eyeball.")}${pearl("In an examination, EOM intact means eye movements are full in all directions.")}`),
+          L("On the figure", `${fig('extraocular-muscles', ["Eye muscles from the side and front"], "Eye Muscles")}${memo("extra means outside; extraocular means outside the eyeball.")}${pearl("In an examination, EOM intact means eye movements are full in all directions.")}`),
           M("How many extraocular muscles are there?", ["six", "four", "two", "eight"], "Four rectus and two oblique.", null, F('eye-muscles', [])),
           M("The muscle that turns the eye towards the nose is…", ['medial rectus', 'lateral rectus', 'superior oblique', 'inferior rectus'], "medial means towards the middle."),
           T("The extraocular muscles are inside the eyeball.", false, "They are outside the eyeball.", F('extraocular-muscles', [])),
@@ -1928,7 +1928,7 @@
       {
         id: 'ey9', title: "Visual Acuity and Field", icon: '🎯', items: [
           L("Measuring vision", `• ${e('<b>visual acuity (VA)</b>')}: sharpness of vision; measured with the Snellen chart, e.g. ${e('20/20')}<br>• ${e('<b>visual field (VF)</b>')}: everything the eye sees without moving<br>• ${e('<b>peripheral vision</b>')}: vision at the edges of the field<br>• ${e('<b>binocular vision</b>')}: two-eyed vision and depth perception`),
-          L("At the bedside", `${pearl("The Discharge Summary in Ehrlich’s book says: Mrs Serowan’s <bdi dir=\"ltr\">“best corrected visual acuity”</bdi> in the right eye was 20/70; that is, even with glasses she saw only 20/70.")}${tbl([["abbreviation", "Meaning"], [e('VA'), "visual acuity"], [e('BCVA'), "best corrected acuity"], [e('cc'), "with glasses or contact lenses"], [e('sc'), "without glasses or contact lenses"]])}`),
+          L("At the bedside", `${pearl("The Discharge Summary says: Mrs Serowan’s <bdi dir=\"ltr\">“best corrected visual acuity”</bdi> in the right eye was 20/70; that is, even with glasses she saw only 20/70.")}${tbl([["abbreviation", "Meaning"], [e('VA'), "visual acuity"], [e('BCVA'), "best corrected acuity"], [e('cc'), "with glasses or contact lenses"], [e('sc'), "without glasses or contact lenses"]])}`),
           M("With what instrument is sharpness of vision measured?", ['Snellen chart', 'otoscope', 'tonometer', 'audiometer'], "The Snellen chart."),
           M("Vision at the edges of the visual field…", ['peripheral vision', 'central vision', 'binocular vision', 'night vision'], "Peripheral."),
           T("sc means without glasses and cc means with glasses.", true, "sine and cum correction."),
@@ -1961,7 +1961,7 @@
       {
         id: 'vd1', title: "Refractive errors", icon: '👓', items: [
           L("Where does the light fall?", `${fig('refraction-errors', [], "Refractive errors")}• ${e('<b>myopia</b>')} (nearsightedness): long eyeball; focus in front of the retina; distance is blurred<br>• ${e('<b>hyperopia</b>')} (farsightedness): short eyeball; focus behind the retina; near is blurred<br>• ${e('<b>astigmatism</b>')}: irregular cornea; the image is stretched and blurred`),
-          L("Correcting with lenses", `${fig('refractive-errors', ["Correction with concave and convex lenses"], "Correcting refractive errors")}${fig('astigmatism', ["Nearsightedness, farsightedness and astigmatism"], "Refractive errors")}A concave lens corrects nearsightedness and a convex lens corrects farsightedness.${pearl("In the Case Study in Cohen’s book, besides lazy eye, Kelly also had mild hyperopia and was given glasses.")}`),
+          L("Correcting with lenses", `${fig('refractive-errors', ["Correction with concave and convex lenses"], "Correcting refractive errors")}${fig('astigmatism', ["Nearsightedness, farsightedness and astigmatism"], "Refractive errors")}A concave lens corrects nearsightedness and a convex lens corrects farsightedness.${pearl("In the Case Study, besides lazy eye, Kelly also had mild hyperopia and was given glasses.")}`),
           M("In nearsightedness, where does the image fall?", ["in front of the retina", "behind the retina", "on the retina", "on the cornea"], "A long eyeball.", null, F('refraction-errors', [])),
           M("Which lens corrects farsightedness?", ["convex", "concave", "cylindrical", "tinted"], "It converges light.", null, F('refractive-errors', [])),
           T("Astigmatism comes from irregular curvature of the cornea or lens.", true, "Several focal points.", F('astigmatism', [])),
@@ -1975,7 +1975,7 @@
       {
         id: 'vd2', title: "Cataract and Presbyopia", icon: '🌫️', items: [
           L("cataract", `${fig('cataract-art', [], "cataract")}${e('<b>cataract</b>')}: clouding of the lens; vision gradually becomes blurred and faded and light is dazzling. Causes: ageing, diabetes, injury, medicines. Treatment: removing the lens and inserting an artificial lens.`),
-          L("At the bedside", `${fig('cataract-photo', ["Advanced cataract"], "cataract")}${fig('visual-disorders', ["Vision in eye diseases"], "Visual disorders")}${pearl("The Ophthalmology Consultation in Fremgen’s book says: a 79-year-old woman came with gradually decreasing vision and photophobia; examination showed a large cataract in the right eye.")}${e('<b>presbyopia</b>')}: stiffening of the lens with age and inability to see near.`),
+          L("At the bedside", `${fig('cataract-photo', ["Advanced cataract"], "cataract")}${fig('visual-disorders', ["Vision in eye diseases"], "Visual disorders")}${pearl("The Ophthalmology Consultation says: a 79-year-old woman came with gradually decreasing vision and photophobia; examination showed a large cataract in the right eye.")}${e('<b>presbyopia</b>')}: stiffening of the lens with age and inability to see near.`),
           M("A cataract is clouding of which part?", ["lens", "cornea", "vitreous body", "retina"], 'lens.', null, F('cataract-art', [])),
           M("At what age does presbyopia usually begin?", ["from about age 40 onwards", "childhood", "infancy", "adolescence"], "Age-related farsightedness."),
           T("A cataract is cured with glasses.", false, "The definitive treatment is surgery.", F('cataract-photo', [])),
@@ -1989,7 +1989,7 @@
       {
         id: 'vd3', title: "Glaucoma", icon: '⏫', items: [
           L("High pressure", `${fig('glaucoma-art', [], "Glaucoma")}${e('<b>glaucoma</b>')}: the aqueous humour does not drain properly, ${e('<b>intraocular pressure (IOP)</b>')} rises and the optic nerve is damaged. It is often symptomless until peripheral vision is lost.`),
-          L("On the textbook figure", `${fig('glaucoma', ["Aqueous flow and optic disc damage"], "Glaucoma")}${memo("glauc/o means grey-green; this is how the Greeks saw the colour of the patient’s pupil.")}${pearl("The book’s applied scenario: a patient asks the difference between IOP and IOL; IOP is intraocular pressure and IOL is an intraocular lens.")}`),
+          L("On the figure", `${fig('glaucoma', ["Aqueous flow and optic disc damage"], "Glaucoma")}${memo("glauc/o means grey-green; this is how the Greeks saw the colour of the patient’s pupil.")}${pearl("A clinical scenario: a patient asks the difference between IOP and IOL; IOP is intraocular pressure and IOL is an intraocular lens.")}`),
           M("Which number rises in glaucoma?", ['IOP', 'VA', 'dB', 'IOL'], "The pressure inside the eye.", null, F('glaucoma-art', [])),
           M("Which part does untreated glaucoma damage?", ["optic nerve", "lens", "cornea", "eyelid"], "Permanent blindness.", null, F('glaucoma', [])),
           T("Glaucoma is usually symptomless until serious damage occurs.", true, "Screening with tonometry."),
@@ -2047,7 +2047,7 @@
       {
         id: 'vd7', title: "Strabismus and Lazy Eye", icon: '👀', items: [
           L("Two misaligned eyes", `${fig('strabismus-art', [], "Strabismus")}${e('<b>strabismus</b>')}: lack of coordination of the eye muscles; the two eyes do not look at the same point.<br>• ${e('<b>esotropia (ET)</b>')}: turning inwards (cross-eye)<br>• ${e('<b>exotropia (XT)</b>')}: turning outwards (walleye)`),
-          L("lazy eye", `${fig('strabismus-drawing', ["Esotropia and exotropia"], "Strabismus")}${fig('strabismus-photos', ["Two examples of strabismus"], "Strabismus")}${e('<b>amblyopia</b>')} (${e('ambly/o')} means dull): the brain ignores the image from the weaker eye. ${e('<b>nystagmus</b>')}: involuntary trembling movement of the eye.${pearl("The Case Study in Cohen’s book says: 7-year-old Kelly had strabismic amblyopia; a patch was placed over her healthy eye to strengthen the lazy eye.")}`),
+          L("lazy eye", `${fig('strabismus-drawing', ["Esotropia and exotropia"], "Strabismus")}${fig('strabismus-photos', ["Two examples of strabismus"], "Strabismus")}${e('<b>amblyopia</b>')} (${e('ambly/o')} means dull): the brain ignores the image from the weaker eye. ${e('<b>nystagmus</b>')}: involuntary trembling movement of the eye.${pearl("The Case Study says: 7-year-old Kelly had strabismic amblyopia; a patch was placed over her healthy eye to strengthen the lazy eye.")}`),
           M("Turning of the eye towards the nose…", ['esotropia', 'exotropia', 'nystagmus', 'amblyopia'], "eso- means inwards.", null, F('strabismus-art', [])),
           M("What was the treatment for Kelly’s lazy eye?", ["a patch over the healthy eye and glasses", "corneal surgery", "dilating drops", "retinal laser"], 'patching.', null, F('strabismus-drawing', [])),
           T("nystagmus means involuntary trembling movement of the eyes.", true, "Eye tremor.", F('strabismus-photos', [])),
@@ -2061,7 +2061,7 @@
       {
         id: 'vd8', title: "eyelid diseases", icon: '😑', items: [
           L("Five eyelid diseases", `${fig('lid-disorders', [], "eyelid diseases")}• ${e('<b>hordeolum</b>')} (stye): a painful infection of a gland on the eyelid margin<br>• ${e('<b>chalazion</b>')}: a painless cyst of a meibomian gland<br>• ${e('<b>blepharoptosis</b>')}: drooping of the upper eyelid<br>• ${e('<b>ectropion</b>')}: eyelid turned outwards<br>• ${e('<b>entropion</b>')}: eyelid turned inwards`),
-          L("At the bedside", `${fig('hordeolum', ["stye"], "hordeolum")}${pearl("The book’s applied scenario: Mrs Julie Halbritter has a “red bump on the eyelid”; in medical terms, a hordeolum.")}${memo(`The prefix ${e('ec-')} means out and ${e('en-')} means in; ectropion turns the eyelid outwards and entropion turns it inwards.`)}`),
+          L("At the bedside", `${fig('hordeolum', ["stye"], "hordeolum")}${pearl("A clinical scenario: Mrs Julie Halbritter has a “red bump on the eyelid”; in medical terms, a hordeolum.")}${memo(`The prefix ${e('ec-')} means out and ${e('en-')} means in; ectropion turns the eyelid outwards and entropion turns it inwards.`)}`),
           M("A painful infection of the eyelid margin…", ['hordeolum', 'chalazion', 'ectropion', 'blepharoptosis'], "A stye.", null, F('lid-disorders', [])),
           M("What happens in entropion?", ["the eyelid and lashes turn inwards", "the eyelid turns outwards", "the eyelid droops", "the eyelid becomes inflamed"], "en- means in."),
           T("A chalazion is usually painless.", true, "A cyst of a meibomian gland.", F('hordeolum', [])),
@@ -2075,7 +2075,7 @@
       {
         id: 'vd9', title: "Inflammations and Infections", icon: '🔥', items: [
           L("-itis in the eye", `${fig('eye-infections', [], "Eye inflammations")}• ${e('<b>conjunctivitis</b>')} (pinkeye): inflammation of the conjunctiva; red eye and discharge<br>• ${e('<b>blepharitis</b>')}: inflammation of the eyelid margin<br>• ${e('<b>keratitis</b>')}: inflammation of the cornea<br>• ${e('<b>dacryocystitis</b>')}: inflammation of the tear sac<br>• ${e('<b>uveitis</b>')}, ${e('iritis')}, ${e('scleritis')}`),
-          L("Dry and bulging eyes", `${wb('xer/o', 'ophthalm/o', '-ia')} → ${e('<b>xerophthalmia</b>')}: dryness of the eye, for example with contact lenses<br>${e('<b>exophthalmos</b>')}: bulging of the eyeball, often in thyroid disease<br>${e('corneal abrasion')}: a scratch on the cornea${pearl("The book’s applied scenario: the record of 68-year-old Mrs Kelly Post lists conjunctivitis; that is, inflammation of the conjunctiva.")}`),
+          L("Dry and bulging eyes", `${wb('xer/o', 'ophthalm/o', '-ia')} → ${e('<b>xerophthalmia</b>')}: dryness of the eye, for example with contact lenses<br>${e('<b>exophthalmos</b>')}: bulging of the eyeball, often in thyroid disease<br>${e('corneal abrasion')}: a scratch on the cornea${pearl("A clinical scenario: the record of 68-year-old Mrs Kelly Post lists conjunctivitis; that is, inflammation of the conjunctiva.")}`),
           M("The common name for conjunctivitis…", ['pinkeye', 'sty', 'walleye', 'cross-eye'], "Pinkeye.", null, F('eye-infections', [])),
           M(`${e('<b>exophthalmos</b>')} means…`, ["bulging eyes", "dry eyes", "inflammation of the cornea", "drooping eyelid"], "ex- means out."),
           T("xerophthalmia means dryness of the eye.", true, "xer/o means dry."),
@@ -2108,7 +2108,7 @@
       {
         id: 'er1', title: "The three parts of the ear", icon: '👂', items: [
           L("Outer, Middle, Inner", `${fig('ear-section', [], "The three parts of the ear")}• ${e('<b>external ear</b>')}: the auricle and ear canal up to the eardrum<br>• ${e('<b>middle ear</b>')}: an air-filled cavity with three ossicles<br>• ${e('<b>inner ear</b>')}: the ${e('labyrinth')}, with the cochlea, vestibule and semicircular canals`),
-          L("On the textbook figure", `${fig('ear-labeled', ["Outer, middle and inner ear"], "The three parts of the ear")}${fig('ear-sections', ["Structures of the ear"], "section of the ear")}${memo("The outer ear collects sound, the middle ear amplifies it and the inner ear turns it into a nerve message.")}`),
+          L("On the figure", `${fig('ear-labeled', ["Outer, middle and inner ear"], "The three parts of the ear")}${fig('ear-sections', ["Structures of the ear"], "section of the ear")}${memo("The outer ear collects sound, the middle ear amplifies it and the inner ear turns it into a nerve message.")}`),
           M("In which part of the ear are the ossicles?", ['middle ear', 'external ear', 'inner ear', 'mastoid'], "The middle ear.", null, F('ear-section', [])),
           M("In which part is the cochlea?", ['inner ear', 'middle ear', 'external ear', 'canal'], "The inner ear.", null, F('ear-labeled', [])),
           T("The eardrum is the border between the outer and middle ear.", true, 'tympanic membrane.', F('ear-sections', [])),
@@ -2122,7 +2122,7 @@
       {
         id: 'er2', title: "Auricle and Ear Canal", icon: '🐚', items: [
           L("outer ear", `• ${e('<b>auricle</b>')} or ${e('pinna')}: the ear flap; collects sound (${e('auricul/o')})<br>• ${e('<b>external auditory meatus</b>')}: the external auditory canal up to the eardrum<br>• ${e('<b>cerumen</b>')}: earwax; traps dust and insects`),
-          L("At the bedside", `${pearl("An Exercise scenario in Cohen’s book: before the myringotomy, the ear canal was cleaned of dry wax (cerumen) and debris.")}${e('<b>aural</b>')} means relating to the ear and ${e('<b>auditory</b>')} means relating to hearing.${memo("The word meatus means passage; the ear canal is the outer passage of sound.")}`),
+          L("At the bedside", `${pearl("An Exercise scenario: before the myringotomy, the ear canal was cleaned of dry wax (cerumen) and debris.")}${e('<b>aural</b>')} means relating to the ear and ${e('<b>auditory</b>')} means relating to hearing.${memo("The word meatus means passage; the ear canal is the outer passage of sound.")}`),
           M("What is another name for the auricle?", ['pinna', 'meatus', 'cochlea', 'incus'], "The ear flap."),
           M("What is cerumen?", ["earwax", "inner ear fluid", "eardrum", "pus from the ear"], 'earwax.'),
           T("Earwax protects the ear from dust and insects.", true, "A protective role."),
@@ -2136,7 +2136,7 @@
       {
         id: 'er3', title: "Eardrum and Ossicles", icon: '🥁', items: [
           L("A chain of three", `${fig('ossicle-chain', [], "Ossicles")}The ${e('<b>tympanic membrane (TM)</b>')} vibrates with sound and passes the vibration to the three ${e('<b>auditory ossicles</b>')}:<br>• ${e('<b>malleus</b>')} (hammer)<br>• ${e('<b>incus</b>')} (anvil)<br>• ${e('<b>stapes</b>')} (stirrup), which sits on the ${e('<b>oval window</b>')}`),
-          L("On the textbook figure", `${fig('ossicles', ["Eardrum and Ossicles"], "Ossicles")}${memo("Read their first letters from outside in: M, I and S; that is, Malleus, Incus and Stapes.")}The stapes is the smallest bone in the body.`),
+          L("On the figure", `${fig('ossicles', ["Eardrum and Ossicles"], "Ossicles")}${memo("Read their first letters from outside in: M, I and S; that is, Malleus, Incus and Stapes.")}The stapes is the smallest bone in the body.`),
           M("Which ossicle is attached to the eardrum?", ['malleus', 'incus', 'stapes', 'cochlea'], "The malleus.", null, F('ossicle-chain', [])),
           M("Which window does the stapes sit on?", ['oval window', 'round window', 'tympanic membrane', 'eustachian tube'], "The oval window.", null, F('ossicles', [])),
           T("The stapes is the smallest bone in the body.", true, "The stirrup."),
@@ -2165,7 +2165,7 @@
       {
         id: 'er5', title: "inner ear", icon: '🐌', items: [
           L("labyrinth", `${fig('inner-ear-art', [], "inner ear")}The inner ear lies in the temporal bone:<br>• ${e('<b>cochlea</b>')}: the organ of hearing<br>• ${e('<b>vestibule</b>')}: balance and gravity<br>• ${e('<b>semicircular canals</b>')}: three canals; head rotation<br>• ${e('<b>vestibulocochlear nerve</b>')}: the eighth cranial nerve`),
-          L("On the textbook figure", `${fig('inner-ear', ["Bony and membranous labyrinth"], "inner ear")}The ${e('oval window')} is the entrance for vibration into the cochlea, and the ${e('<b>round window</b>')} releases the pressure.${memo("cochlea is Latin for snail shell, and that is its shape.")}`),
+          L("On the figure", `${fig('inner-ear', ["Bony and membranous labyrinth"], "inner ear")}The ${e('oval window')} is the entrance for vibration into the cochlea, and the ${e('<b>round window</b>')} releases the pressure.${memo("cochlea is Latin for snail shell, and that is its shape.")}`),
           M("Which is the organ of hearing in the inner ear?", ['cochlea', 'vestibule', 'semicircular canals', 'malleus'], "The cochlea.", null, F('inner-ear-art', [])),
           M("Which cranial nerve is the nerve of hearing and balance?", ["the eighth (CN VIII)", "the second (CN II)", "the fifth", "the seventh"], 'vestibulocochlear.', null, F('inner-ear', [])),
           T("The semicircular canals play no part in hearing; they are for balance.", true, "Head rotation."),
@@ -2208,7 +2208,7 @@
       {
         id: 'er8', title: "Decibels and Sound Conduction", icon: '📢', items: [
           L("Loudness and pitch", `${fig('decibel-scale', [], "The decibel scale")}• ${e('<b>decibel (dB)</b>')}: loudness of sound; conversation is about 60 dB<br>• ${e('<b>hertz (Hz)</b>')}: frequency or pitch of sound<br>Long-term sound above 85 dB damages hearing.`),
-          L("Air and bone", `• ${e('<b>air conduction (AC)</b>')}: sound through the canal, eardrum and ossicles<br>• ${e('<b>bone conduction (BC)</b>')}: sound through the skull bone directly to the inner ear<br>In a healthy ear, AC is stronger than BC.${pearl("The book’s applied scenario: Mr Bob Noel’s employer at the factory has asked him to wear earplugs, because loud, prolonged noise causes hearing loss.")}`),
+          L("Air and bone", `• ${e('<b>air conduction (AC)</b>')}: sound through the canal, eardrum and ossicles<br>• ${e('<b>bone conduction (BC)</b>')}: sound through the skull bone directly to the inner ear<br>In a healthy ear, AC is stronger than BC.${pearl("A clinical scenario: Mr Bob Noel’s employer at the factory has asked him to wear earplugs, because loud, prolonged noise causes hearing loss.")}`),
           M("Which is the unit of loudness?", ['decibel', 'hertz', 'diopter', 'millimeter'], 'dB.', null, F('decibel-scale', [])),
           M("In a healthy ear, which is stronger?", ["air conduction", "bone conduction", "both are equal", "neither"], 'AC > BC.'),
           T("Hertz shows the pitch of sound.", true, "Frequency."),
@@ -2269,11 +2269,11 @@
       {
         id: 'hd2', title: "Otitis media", icon: '🧒', items: [
           L("On the otoscope", `${fig('otitis-media-art', [], "Otitis media")}In ${e('acute otitis media')} the eardrum is red and bulging, and pus has collected behind it (${e('suppurative')}). If the fluid is clear: ${e('<b>serous otitis media (SOM)</b>')}.`),
-          L("Perforated eardrum", `${fig('perforated-tm', ["Perforated eardrum"], "perforated eardrum")}The pressure of the pus may burst the eardrum: ${e('<b>perforated tympanic membrane</b>')}.${pearl("In the Pearson consultation report: an 8-year-old girl had a chronic left middle ear infection; the left eardrum was bulging and tympanometry showed fluid behind it.")}${pearl("The Chart Note in Gylys’s book says: a 30-year-old woman had mucoserous otitis media; that is, mucous and serous fluid in the middle ear.")}`),
+          L("Perforated eardrum", `${fig('perforated-tm', ["Perforated eardrum"], "perforated eardrum")}The pressure of the pus may burst the eardrum: ${e('<b>perforated tympanic membrane</b>')}.${pearl("In a consultation report: an 8-year-old girl had a chronic left middle ear infection; the left eardrum was bulging and tympanometry showed fluid behind it.")}${pearl("The Chart Note says: a 30-year-old woman had mucoserous otitis media; that is, mucous and serous fluid in the middle ear.")}`),
           M("What does the eardrum look like in acute otitis media?", ["red and bulging", "grey and healthy", "permanently perforated", "white and flat"], "Pus behind it.", null, F('otitis-media-art', [])),
           M("The abbreviation SOM means…", ["serous otitis media", "outer ear otitis", "hole in the eardrum", "earwax"], 'serous otitis media.', null, F('perforated-tm', [])),
           T("Chronic otitis media can cause hearing loss.", true, "Conductive hearing loss."),
-          O("Put the 8-year-old girl’s course in order", ['recurrent ear infections', 'ENT referral', 'otoscopy and tympanometry', 'myringotomy with PE tube'], 'Pearson.'),
+          O("Put the 8-year-old girl’s course in order", ['recurrent ear infections', 'ENT referral', 'otoscopy and tympanometry', 'myringotomy with PE tube'], 'Per standard references.'),
           P("Match each term to its meaning", [['suppurative', "containing pus"], ['serous', "watery"], ['mucoserous', "mucous and serous"], ['perforated', "with a hole"]], "Type of fluid."),
           B("Inflammation of the eardrum is ___.", ['myringitis', 'mastoiditis', 'labyrinthitis'], 'myring/o + -itis.'),
           S("Spell the adjective for watery fluid like serum", 'serous', "Serum.", 'ser…'),
@@ -2283,7 +2283,7 @@
       {
         id: 'hd3', title: "Mastoid, Labyrinth and Earwax", icon: '🦴', items: [
           L("Other inflammations", `• ${e('<b>mastoiditis</b>')}: inflammation of the air cells of the mastoid process behind the ear; a complication of otitis media<br>• ${e('<b>labyrinthitis</b>')}: inflammation of the inner ear with vertigo<br>• ${e('<b>myringitis</b>')}: inflammation of the eardrum`),
-          L("Wax and pressure", `${e('<b>impacted cerumen</b>')}: packed wax in the canal; blocks the ear and causes hearing loss. Treatment: ear irrigation.<br>${e('<b>barotrauma</b>')}: ear injury from a sudden change in pressure.${pearl("The book’s applied scenario: Mrs Kelly Post has mastoiditis in her record; that is, inflammation of the mastoid.")}`),
+          L("Wax and pressure", `${e('<b>impacted cerumen</b>')}: packed wax in the canal; blocks the ear and causes hearing loss. Treatment: ear irrigation.<br>${e('<b>barotrauma</b>')}: ear injury from a sudden change in pressure.${pearl("A clinical scenario: Mrs Kelly Post has mastoiditis in her record; that is, inflammation of the mastoid.")}`),
           M("Where is the mastoid?", ["behind the ear in the temporal bone", "inside the cochlea", "in the auricle", "in the throat"], 'mastoid process.'),
           M("What does impacted earwax do?", ["it blocks the canal and causes hearing loss", "it damages the nerve", "it breaks the cochlea", "it causes severe vertigo"], 'impacted cerumen.'),
           T("Labyrinthitis comes with vertigo.", true, "The inner ear."),
@@ -2298,7 +2298,7 @@
       {
         id: 'hd4', title: "Two Types of Hearing Loss", icon: '🔇', items: [
           L("Conductive or sensorineural", `${fig('hearing-loss-types', [], "Types of hearing loss")}• ${e('<b>conductive hearing loss</b>')}: sound does not pass through the outer or middle ear; e.g. earwax, otitis media, otosclerosis<br>• ${e('<b>sensorineural hearing loss</b>')}: damage to the cochlea or auditory nerve; e.g. presbycusis, noise, acoustic neuroma`),
-          L("At the bedside", `${pearl("The Case Study in Fremgen’s book says: a 35-year-old musician who has played loud instruments for 20 years without earplugs has progressive hearing loss in both ears; Rinne and Weber tests showed moderate hearing loss, and he was referred for a hearing aid.")}${memo("conductive means “conducting”; the path that conducts sound is blocked. sensorineural means the sense organ and nerve are damaged.")}`),
+          L("At the bedside", `${pearl("The Case Study says: a 35-year-old musician who has played loud instruments for 20 years without earplugs has progressive hearing loss in both ears; Rinne and Weber tests showed moderate hearing loss, and he was referred for a hearing aid.")}${memo("conductive means “conducting”; the path that conducts sound is blocked. sensorineural means the sense organ and nerve are damaged.")}`),
           M("Which type is hearing loss from earwax?", ["conductive", "sensorineural", "central", "mental"], 'conductive.', null, F('hearing-loss-types', [])),
           M("What type of hearing loss does cochlear damage cause?", ["sensorineural", "conductive", "always mixed", "none"], 'sensorineural.'),
           T("Otosclerosis causes conductive hearing loss.", true, "The stapes is locked."),
@@ -2318,7 +2318,7 @@
           T("In presbycusis, high-pitched (high-frequency) sounds are usually the first to go.", true, "High frequency."),
           W("Build a word meaning “excessive sensitivity to sound”", ['hyper-', '-acusis'], ['presby/o', '-opia', 'an-'], 'hyperacusis.'),
           P("Match each term to its meaning", [['presbycusis', "age-related hearing loss"], ['anacusis', "complete deafness"], ['hyperacusis', "ordinary sounds seem too loud"], ['ASL', "American Sign Language"]], "Auditory."),
-          B("The cause of the Fremgen musician’s hearing loss was ___.", ["loud noise", "infection", "a blow"], 'noise-induced.'),
+          B("The cause of a musician’s hearing loss was ___.", ["loud noise", "infection", "a blow"], 'noise-induced.'),
           S("Spell the term for hearing loss of old age", 'presbycusis', 'presby/o + -cusis.', 'presby…'),
           N('t2f:hd')
         ]
@@ -2341,7 +2341,7 @@
       {
         id: 'hd7', title: "Tinnitus and Vertigo", icon: '🔔', items: [
           L("Inner ear signs", `• ${e('<b>tinnitus</b>')}: ringing, buzzing or roaring in the ear<br>• ${e('<b>vertigo</b>')}: a feeling that the room is spinning<br>• ${e('<b>aural fullness</b>')}: a feeling of fullness and pressure in the ear<br>• ${e('motion sickness')}: travel sickness`),
-          L("At the bedside", `${pearl("Case Study 8-1 in Cohen’s book says: Mr George, 55, has had hearing loss, tinnitus and aural fullness in his left ear for three years.")}${memo("tinnitus comes from the Latin tinnire, to ring; a ringing that only the patient hears.")}`),
+          L("At the bedside", `${pearl("Case Study says: Mr George, 55, has had hearing loss, tinnitus and aural fullness in his left ear for three years.")}${memo("tinnitus comes from the Latin tinnire, to ring; a ringing that only the patient hears.")}`),
           M("A ringing sound in the ear…", ['tinnitus', 'vertigo', 'otalgia', 'otorrhea'], "Tinnitus."),
           M("A feeling that the room is spinning…", ['vertigo', 'tinnitus', 'syncope', 'nystagmus'], "Spinning dizziness."),
           T("aural fullness means a feeling of fullness in the ear.", true, "Ear pressure."),
@@ -2369,7 +2369,7 @@
       {
         id: 'hd9', title: "Cholesteatoma and Acoustic Neuroma", icon: '⚠️', items: [
           L("Ear masses", `• ${e('<b>cholesteatoma</b>')}: a cyst-like skin mass in the middle ear, often after chronic otitis; it erodes the ossicles<br>• ${e('<b>acoustic neuroma</b>')}: a benign tumour of the eighth nerve; one-sided hearing loss, tinnitus and imbalance`),
-          L("At the bedside", `${pearl("The Chart Note in Gylys’s book says: a 30-year-old woman with chronic otitis developed a cholesteatoma; tubes were placed but the mass grew, and she was admitted for tympanoplasty.")}${pearl("Case Study 8-1 in Cohen’s book says: the BAEP test showed no response in Mr George’s left ear, and MRI showed a 1-cm acoustic neuroma.")}`),
+          L("At the bedside", `${pearl("The Chart Note says: a 30-year-old woman with chronic otitis developed a cholesteatoma; tubes were placed but the mass grew, and she was admitted for tympanoplasty.")}${pearl("Case Study says: the BAEP test showed no response in Mr George’s left ear, and MRI showed a 1-cm acoustic neuroma.")}`),
           M("Which tumour is on the eighth nerve?", ['acoustic neuroma', 'cholesteatoma', 'retinoblastoma', 'chalazion'], 'neur/o + -oma.'),
           M("Where is a cholesteatoma?", ["middle ear", "cochlea", "auricle", "Eustachian tube"], "A skin mass."),
           T("An acoustic neuroma usually causes one-sided hearing loss.", true, "One nerve."),
@@ -2416,7 +2416,7 @@
       {
         id: 'tx2', title: "Eye examination instruments", icon: '🔬', items: [
           L("Three important instruments", `${fig('eye-exam-tools', [], "Eye examination instruments")}• ${e('<b>ophthalmoscopy</b>')}: viewing the retina and optic disc through the pupil<br>• ${e('<b>tonometry</b>')}: measuring the pressure inside the eye (${e('ton/o')} means pressure)<br>• ${e('<b>slit lamp</b>')}: a microscope with a narrow beam for the front of the eye<br>• ${e('<b>fluorescein angiography</b>')}: colour images of the retinal vessels`),
-          L("Pupil examination", `${fig('tonometry', ["tonometry"], "tonometry")}${fig('slit-lamp', ["Slit-lamp examination"], "slit lamp")}${e('<b>PERRLA</b>')}: pupils equal, round and reactive to light and accommodation. To see the back of the eye, the pupil is dilated with ${e('<b>mydriatic</b>')} drops.${pearl("The Ophthalmology Consultation in Fremgen’s book says: <bdi dir=\"ltr\">“ophthalmoscopy after application of mydriatic drops”</bdi> showed a cataract in the right eye.")}`),
+          L("Pupil examination", `${fig('tonometry', ["tonometry"], "tonometry")}${fig('slit-lamp', ["Slit-lamp examination"], "slit lamp")}${e('<b>PERRLA</b>')}: pupils equal, round and reactive to light and accommodation. To see the back of the eye, the pupil is dilated with ${e('<b>mydriatic</b>')} drops.${pearl("The Ophthalmology Consultation says: <bdi dir=\"ltr\">“ophthalmoscopy after application of mydriatic drops”</bdi> showed a cataract in the right eye.")}`),
           M("With which test is the pressure inside the eye measured?", ['tonometry', 'audiometry', 'ophthalmoscopy', 'otoscopy'], 'ton/o + -metry.', null, F('eye-exam-tools', [])),
           M("PERRLA is about which part?", ["pupil", "eyelid", "cornea", "lens"], 'pupils equal, round, reactive.', null, F('slit-lamp', [])),
           T("Mydriatic drops dilate the pupil.", true, "To see the back of the eye.", F('tonometry', [])),
@@ -2445,7 +2445,7 @@
       {
         id: 'tx4', title: "Cataract Surgery", icon: '💎', items: [
           L("Phaco and IOL", `${fig('phaco-iol', [], "Phaco and intraocular lens")}${e('<b>phacoemulsification</b>')}: the cloudy lens is broken up with ultrasound waves and suctioned out; then an ${e('<b>intraocular lens (IOL)</b>')} is placed in the capsule.`),
-          L("On the textbook figure", `${fig('phaco', ["phacoemulsification"], "Phaco")}${fig('cataract-surgery', ["Position of the artificial lens"], "Cataract Surgery")}${e('ECCE')}: the lens is removed and the back of the capsule remains.${pearl("The Discharge Summary in Ehrlich’s book says: for Mrs Serowan, <bdi dir=\"ltr\">“ultrasound was used to destroy the cataract”</bdi> and a prosthetic intraocular lens was inserted; she was discharged the next day.")}`),
+          L("On the figure", `${fig('phaco', ["phacoemulsification"], "Phaco")}${fig('cataract-surgery', ["Position of the artificial lens"], "Cataract Surgery")}${e('ECCE')}: the lens is removed and the back of the capsule remains.${pearl("The Discharge Summary says: for Mrs Serowan, <bdi dir=\"ltr\">“ultrasound was used to destroy the cataract”</bdi> and a prosthetic intraocular lens was inserted; she was discharged the next day.")}`),
           M("In phaco, what breaks up the lens?", ["ultrasound waves", "an excimer laser", "a knife", "cold"], 'ultrasound.', null, F('phaco-iol', [])),
           M("The abbreviation IOL means…", ["intraocular lens", "intraocular pressure", "inflammation of the iris", "contact lens"], 'intraocular lens.', null, F('phaco', [])),
           T("In ECCE the back of the lens capsule remains.", true, 'extracapsular.', F('cataract-surgery', [])),
@@ -2473,7 +2473,7 @@
       {
         id: 'tx6', title: "Retina, Eyelid and Tear Surgery", icon: '🩹', items: [
           L("retina", `${fig('scleral-buckle', ["Scleral buckle for retinal detachment"], "scleral buckle")}• ${e('<b>scleral buckling</b>')}: a silicone band around the sclera so the retina reattaches<br>• ${e('<b>vitrectomy</b>')}: removing the vitreous<br>• ${e('<b>enucleation</b>')}: complete removal of the eyeball, e.g. in retinoblastoma`),
-          L("Eyelid and tears", `• ${e('<b>blepharoplasty</b>')}: eyelid surgery, e.g. for a drooping lid<br>• ${e('<b>dacryocystorhinostomy</b>')}: a new passage between the tear sac and the nose<br>• ${e('<b>eye patching</b>')}: a patch over the healthy eye in lazy eye${pearl("The book’s applied scenario: blepharoplasty was planned for Mr Smith’s drooping eyelids, which were blocking his vision.")}`),
+          L("Eyelid and tears", `• ${e('<b>blepharoplasty</b>')}: eyelid surgery, e.g. for a drooping lid<br>• ${e('<b>dacryocystorhinostomy</b>')}: a new passage between the tear sac and the nose<br>• ${e('<b>eye patching</b>')}: a patch over the healthy eye in lazy eye${pearl("A clinical scenario: blepharoplasty was planned for Mr Smith’s drooping eyelids, which were blocking his vision.")}`),
           M("Treating retinal detachment with a band around the sclera…", ['scleral buckling', 'vitrectomy', 'keratoplasty', 'iridectomy'], "A buckle.", null, F('scleral-buckle', [])),
           M(`${e('<b>enucleation</b>')} means…`, ["complete removal of the eyeball", "removing the lens", "removal of the eyelid", "removal of the vitreous"], "Removal."),
           T("blepharoplasty means reconstructive surgery of the eyelid.", true, 'blephar/o + -plasty.'),
@@ -2502,7 +2502,7 @@
       {
         id: 'tx8', title: "Audiometry", icon: '🎧', items: [
           L("audiogram", `${fig('audiogram-art', [], "audiogram")}${e('<b>audiometry</b>')} uses an ${e('<b>audiometer</b>')} to measure the hearing threshold at each frequency (Hz) in decibels (dB HL); the result is plotted on an ${e('<b>audiogram</b>')}: O for the right ear and X for the left.`),
-          L("Nerve tests", `${fig('audiometry', ["Audiometry in a child"], "Audiometry")}• ${e('<b>auditory brainstem response</b>')}: the response of the hearing nerve pathway to sound; also called ${e('ABR')} and ${e('BAEP')}<br>• ${e('electronystagmography (ENG)')}: a balance test${pearl("Case Study 8-1 in Cohen’s book says: George’s pure-tone test showed normal hearing in the right ear and moderate sensorineural hearing loss in the left.")}`),
+          L("Nerve tests", `${fig('audiometry', ["Audiometry in a child"], "Audiometry")}• ${e('<b>auditory brainstem response</b>')}: the response of the hearing nerve pathway to sound; also called ${e('ABR')} and ${e('BAEP')}<br>• ${e('electronystagmography (ENG)')}: a balance test${pearl("Case Study says: George’s pure-tone test showed normal hearing in the right ear and moderate sensorineural hearing loss in the left.")}`),
           M("On an audiogram, X is the symbol for which ear?", ["left ear", "right ear", "both", "neither"], "O right, X left.", null, F('audiogram-art', [])),
           M("The instrument for audiometry…", ['audiometer', 'otoscope', 'tonometer', 'tuning fork'], 'audi/o + -meter.', null, F('audiometry', [])),
           T("An audiogram is a graph of hearing at different frequencies.", true, 'audi/o + -gram.'),
@@ -2516,7 +2516,7 @@
       {
         id: 'tx9', title: "Ear Surgery, Hearing Aids and Cochlear Implants", icon: '🦻', items: [
           L("Operations", `${fig('myringotomy-art', [], "Myringotomy")}${fig('pe-tube', ["Position of the ventilation tube"], "PE tube")}• ${e('<b>myringotomy</b>')}: cutting the eardrum to drain fluid; often with a ${e('<b>PE tube</b>')}<br>• ${e('<b>tympanoplasty</b>')}: repairing the eardrum and ossicles<br>• ${e('<b>stapedectomy</b>')}, ${e('<b>mastoidectomy</b>')}, ${e('otoplasty')} (surgery of the ear flap)<br>• ${e('ear irrigation')}: washing out earwax`),
-          L("Hearing aids and implants", `${fig('hearing-devices', [], "Hearing aid and cochlear implant")}${fig('cochlear-implant', ["A child with a cochlear implant"], "cochlear implant")}${fig('ear-irrigation', ["ear irrigation"], "ear irrigation")}${fig('sign-language', ["Talking in sign language"], "Sign language")}A ${e('<b>hearing aid</b>')} makes sound louder; a ${e('<b>cochlear implant</b>')} stimulates the auditory nerve directly with an electrode in the cochlea.${pearl("The Operative Report in Ehrlich’s book says: <bdi dir=\"ltr\">“bilateral myringotomy with tube insertion”</bdi> was performed for recurrent otitis media.")}`),
+          L("Hearing aids and implants", `${fig('hearing-devices', [], "Hearing aid and cochlear implant")}${fig('cochlear-implant', ["A child with a cochlear implant"], "cochlear implant")}${fig('ear-irrigation', ["ear irrigation"], "ear irrigation")}${fig('sign-language', ["Talking in sign language"], "Sign language")}A ${e('<b>hearing aid</b>')} makes sound louder; a ${e('<b>cochlear implant</b>')} stimulates the auditory nerve directly with an electrode in the cochlea.${pearl("The Operative Report says: <bdi dir=\"ltr\">“bilateral myringotomy with tube insertion”</bdi> was performed for recurrent otitis media.")}`),
           M("Cutting the eardrum to drain fluid…", ['myringotomy', 'tympanoplasty', 'mastoidectomy', 'otoplasty'], 'myring/o + -tomy.', null, F('myringotomy-art', [])),
           M("Which device is for profound sensorineural deafness?", ['cochlear implant', 'hearing aid', 'PE tube', 'earplug'], "A cochlear implant.", null, F('cochlear-implant', [])),
           T("A PE tube equalises middle ear pressure and drains fluid.", true, 'pressure-equalizing.', F('pe-tube', [])),
@@ -2790,7 +2790,7 @@
       chart: [['Age', '68'], ['Dx 1', 'oculodynia'], ['Dx 2', 'mastoiditis'], ['Dx 3', 'conjunctivitis']],
       fig: { a: 'wordparts', l: [] },
       steps: [
-        P("Term", "Match each term to its meaning", [['oculodynia', "eye pain"], ['mastoiditis', "inflammation of the bone behind the ear"], ['conjunctivitis', "pinkeye"], ['otalgia', "earache"]], "The textbook’s applied scenario."),
+        P("Term", "Match each term to its meaning", [['oculodynia', "eye pain"], ['mastoiditis', "inflammation of the bone behind the ear"], ['conjunctivitis', "pinkeye"], ['otalgia', "earache"]], "A clinical scenario."),
         M("suffix", "The suffix -dynia means…", ["pain", "inflammation", "secrete", "drooping"], 'oculodynia.'),
         M("Site", "Where is the mastoid process?", ["behind the ear in the temporal bone", "below the eye", "in the throat", "inside the cochlea"], 'mastoid process.', null, { a: ['root-map-ear'], l: [] }),
         T("Common name", "Conjunctivitis is the same as “pinkeye”.", true, "Inflammation of the conjunctiva."),
@@ -2813,8 +2813,8 @@
       ]
     },
     {
-      id: 'r3', w: 'lx', title: "When nothing smells", who: "A hypothetical patient (the book’s applied scenario)",
-      brief: "The book’s scenario asks you: “You have lost your sense of smell; how does this affect your daily life?” The patient says they cannot smell food or smoke and that food has become tasteless.",
+      id: 'r3', w: 'lx', title: "When nothing smells", who: "A hypothetical patient (a clinical scenario)",
+      brief: "The standard reference’s scenario asks you: “You have lost your sense of smell; how does this affect your daily life?” The patient says they cannot smell food or smoke and that food has become tasteless.",
       chart: [['CC', 'loss of smell'], ['Associated', 'food tastes bland'], ['Risk', 'cannot smell smoke or gas']],
       fig: { a: 'senses-overview', l: [] },
       steps: [
@@ -2829,7 +2829,7 @@
     /* ================= چشم ================= */
     {
       id: 'r4', w: 'ey', title: "An eye that turns inwards", who: "Kelly, a 7-year-old girl",
-      brief: "The Case Study in Cohen’s book says: Kelly, who has just been adopted, has come to see Dr McLaren (a paediatrician); her family are worried because one of her eyes seems to turn inwards and she has fallen behind at school. The ophthalmologist saw that the left eye turned towards the medial canthus.",
+      brief: "The Case Study says: Kelly, who has just been adopted, has come to see Dr McLaren (a paediatrician); her family are worried because one of her eyes seems to turn inwards and she has fallen behind at school. The ophthalmologist saw that the left eye turned towards the medial canthus.",
       chart: [['Age', '7 y/o'], ['CC', 'one eye deviates inward'], ['Exam', 'L eye deviates toward medial canthus'], ['Referral', 'ophthalmologist']],
       fig: { a: 'strabismus-art', l: [] },
       steps: [
@@ -2843,7 +2843,7 @@
     },
     {
       id: 'r5', w: 'ey', title: "Eyelids that block the view", who: "Mr Smith",
-      brief: "The book’s applied scenario: while examining Mr Smith, the doctor asks the medical assistant to schedule surgery for his drooping eyelids, which are blocking his vision. The assistant must write the name of the condition and the operation correctly.",
+      brief: "A clinical scenario: while examining Mr Smith, the doctor asks the medical assistant to schedule surgery for his drooping eyelids, which are blocking his vision. The assistant must write the name of the condition and the operation correctly.",
       chart: [['CC', 'droopy upper eyelids'], ['Exam', 'lids obstruct visual field'], ['Plan', 'surgical repair of eyelids']],
       fig: { a: 'lid-disorders', l: [] },
       steps: [
@@ -2857,7 +2857,7 @@
     },
     {
       id: 'r6', w: 'ey', title: "Health class: how do we see?", who: "Sixth-grade pupils",
-      brief: "The book’s applied scenario: you are to explain to a sixth-grade class how we see, from light entering the eye to the message reaching the brain.",
+      brief: "A clinical scenario: you are to explain to a sixth-grade class how we see, from light entering the eye to the message reaching the brain.",
       chart: [['Topic', 'how sight occurs'], ['Key terms', 'cornea, lens, retina, optic nerve'], ['Brain', 'visual cortex']],
       fig: { a: 'visual-pathway', l: [] },
       steps: [
@@ -2872,11 +2872,11 @@
     /* ================= بیماری‌های چشم ================= */
     {
       id: 'r7', w: 'vd', title: "A curtain over the right eye", who: "A 79-year-old woman",
-      brief: "The Ophthalmology Consultation in Fremgen’s book says: over the past year the 79-year-old patient has had gradually decreasing vision and photophobia, mostly in the right eye, and says it is as if there is a curtain over her right eye. She has worn glasses for hyperopia all her life. Her intraocular pressure is normal. Ophthalmoscopy after mydriatic drops showed a large cataract in the right eye. Recommendation: phacoemulsification and an artificial lens.",
+      brief: "The Ophthalmology Consultation says: over the past year the 79-year-old patient has had gradually decreasing vision and photophobia, mostly in the right eye, and says it is as if there is a curtain over her right eye. She has worn glasses for hyperopia all her life. Her intraocular pressure is normal. Ophthalmoscopy after mydriatic drops showed a large cataract in the right eye. Recommendation: phacoemulsification and an artificial lens.",
       chart: [['CC', 'progressive loss of vision OD, photophobia'], ['Hx', 'hyperopia, corrective lenses'], ['Exam', 'IOP normal; large opaque cataract OD'], ['Plan', 'phacoemulsification + prosthetic lens']],
       fig: { a: 'cataract-art', l: [] },
       steps: [
-        P("Term", "Match each term to its meaning", [['photophobia', "sensitivity to light"], ['hyperopia', "farsightedness"], ['mydriatic', "pupil dilator"], ['cataract', "clouding of the lens"]], 'Fremgen.'),
+        P("Term", "Match each term to its meaning", [['photophobia', "sensitivity to light"], ['hyperopia', "farsightedness"], ['mydriatic', "pupil dilator"], ['cataract', "clouding of the lens"]], 'Per standard references.'),
         M("examination", "Why were mydriatic drops put in before ophthalmoscopy?", ["to dilate the pupil so the back of the eye could be seen", "to lower the eye pressure", "to reduce pain", "to treat an infection"], "Pupil dilation.", null, { a: ['eye-exam-tools'], l: [] }),
         T("Ruling out", "The intraocular pressure was normal, so glaucoma is not suspected.", true, 'IOP normal.'),
         M("treatment", "What does phacoemulsification do?", ["it breaks up the cloudy lens with ultrasound and removes it", "it reshapes the cornea with a laser", "it reattaches the retina", "it repairs the eyelid"], "phac/o means lens.", null, { a: ['phaco-iol'], l: [] }),
@@ -2886,7 +2886,7 @@
     },
     {
       id: 'r8', w: 'vd', title: "A red bump on the eyelid", who: 'Julie Halbritter',
-      brief: "The book’s applied scenario: as a nurse you are taking the details of a new patient, Mrs Halbritter. She has a red bump on her eyelid, and her left eye is red and inflamed, with excessive tearing and frequent blinking. Write the signs in medical terms.",
+      brief: "A clinical scenario: as a nurse you are taking the details of a new patient, Mrs Halbritter. She has a red bump on her eyelid, and her left eye is red and inflamed, with excessive tearing and frequent blinking. Write the signs in medical terms.",
       chart: [['Sx 1', 'reddened lump on eyelid'], ['Sx 2', 'reddened, inflamed left eye'], ['Sx 3', 'excessive tearing and blinking']],
       fig: { a: 'eye-infections', l: [] },
       steps: [
@@ -2894,17 +2894,17 @@
         M("Term", "“A red, inflamed eye”…", ['conjunctivitis', 'keratitis', 'glaucoma', 'uveitis'], "Inflammation of the conjunctiva."),
         M("abbreviation", "How do you write “left eye”?", ['OS', 'OD', 'OU', 'AS'], 'oculus sinister.'),
         T("Term", "Excessive tearing is written dacryorrhea or epiphora.", true, 'dacry/o + -rrhea.'),
-        P("Term", "Match each sign to its medical term", [['lump on eyelid', 'hordeolum'], ['red, inflamed eye', 'conjunctivitis'], ['excessive tearing', 'dacryorrhea'], ['inflamed eyelid edge', 'blepharitis']], "The textbook’s applied scenario."),
+        P("Term", "Match each sign to its medical term", [['lump on eyelid', 'hordeolum'], ['red, inflamed eye', 'conjunctivitis'], ['excessive tearing', 'dacryorrhea'], ['inflamed eyelid edge', 'blepharitis']], "A clinical scenario."),
         S("Spelling", "Write the scientific term for the red bump on her eyelid", 'hordeolum', 'sty.', 'hord…')
       ]
     },
     {
       id: 'r9', w: 'vd', title: "IOP or IOL?", who: "A glaucoma patient",
-      brief: "The book’s applied scenario: a patient has seen both IOP and IOL on their form and asks what the difference is. The ophthalmologist said their eye pressure is high and they must use drops, and years later may need a lens for a cataract.",
+      brief: "A clinical scenario: a patient has seen both IOP and IOL on their form and asks what the difference is. The ophthalmologist said their eye pressure is high and they must use drops, and years later may need a lens for a cataract.",
       chart: [['Dx', 'glaucoma; elevated IOP'], ['Plan', 'eye drops; monitor optic disc'], ['Future', 'possible cataract surgery with IOL']],
       fig: { a: 'glaucoma-art', l: [] },
       steps: [
-        P("abbreviation", "Match each abbreviation to its meaning", [['IOP', "intraocular pressure"], ['IOL', "intraocular lens"], ['VA', "visual acuity"], ['VF', "visual field"]], "The textbook’s applied scenario."),
+        P("abbreviation", "Match each abbreviation to its meaning", [['IOP', "intraocular pressure"], ['IOL', "intraocular lens"], ['VA', "visual acuity"], ['VF', "visual field"]], "A clinical scenario."),
         M("disease", "High IOP goes with which disease?", ['glaucoma', 'cataract', 'myopia', 'conjunctivitis'], "Glaucoma."),
         M("damage", "Which part does untreated glaucoma damage?", ["optic nerve", "lens", "cornea", "eyelid"], 'optic nerve.'),
         T("Test", "Intraocular pressure is measured with tonometry.", true, 'ton/o + -metry.', { a: ['tonometry'], l: [] }),
@@ -2915,7 +2915,7 @@
     /* ================= گوش ================= */
     {
       id: 'r10', w: 'er', title: "Earplugs at the factory", who: "Mr Bob Noel, a factory worker",
-      brief: "The book’s applied scenario: Mr Noel works in a factory and his employer has asked him to wear earplugs. He does not know why; you need to explain what loud noise does to the ear.",
+      brief: "A clinical scenario: Mr Noel works in a factory and his employer has asked him to wear earplugs. He does not know why; you need to explain what loud noise does to the ear.",
       chart: [['Job', 'factory worker'], ['Exposure', 'loud machinery, many hours a day'], ['Advice', 'ear plugs']],
       fig: { a: 'decibel-scale', l: [] },
       steps: [
@@ -2929,7 +2929,7 @@
     },
     {
       id: 'r11', w: 'er', title: "A hearing test report", who: "George, a 55-year-old man",
-      brief: "Case Study 8-1 in Cohen’s book says: for three years Mr George’s hearing in his left ear has decreased, and he has tinnitus and a feeling of fullness in the ear. Pure tone: right ear normal and left ear moderate sensorineural hearing loss. The contralateral and ipsilateral acoustic reflexes were absent in the left ear. BAEP was normal in the right ear and showed no response in the left.",
+      brief: "Case Study says: for three years Mr George’s hearing in his left ear has decreased, and he has tinnitus and a feeling of fullness in the ear. Pure tone: right ear normal and left ear moderate sensorineural hearing loss. The contralateral and ipsilateral acoustic reflexes were absent in the left ear. BAEP was normal in the right ear and showed no response in the left.",
       chart: [['CC', 'decreased hearing AS, 3 years'], ['Sx', 'tinnitus, aural fullness'], ['Audiometry', 'moderate SNHL AS; AD normal'], ['BAEP', 'no response AS']],
       fig: { a: 'audiogram-art', l: [] },
       steps: [
@@ -2943,11 +2943,11 @@
     },
     {
       id: 'r12', w: 'er', title: "Translating a note into medical language", who: "An 8-year-old girl",
-      brief: "The Chart Note Transcription in Fremgen’s book (Pearson General Hospital) says: the paediatrician sent an 8-year-old girl to an “ear, nose and throat specialist” for a “chronic infection of the left middle ear”. “Visual examination of the ear canal and eardrum in both ears” showed the “membrane between the ear canal and middle ear” was healthy on the right and bulging on the left; there was a lot of “earwax”. “Measurement of eardrum movement” showed fluid in the left middle ear.",
+      brief: "The Chart Note Transcription (Central General Hospital) says: the paediatrician sent an 8-year-old girl to an “ear, nose and throat specialist” for a “chronic infection of the left middle ear”. “Visual examination of the ear canal and eardrum in both ears” showed the “membrane between the ear canal and middle ear” was healthy on the right and bulging on the left; there was a lot of “earwax”. “Measurement of eardrum movement” showed fluid in the left middle ear.",
       chart: [['Referral', 'ENT specialist'], ['Dx', 'chronic left middle ear infection'], ['Tests', 'visual exam of ear; eardrum movement test; hearing tests'], ['Plan', 'left eardrum incision + PE tube']],
       fig: { a: 'ear-section', l: [] },
       steps: [
-        P("Translation", "Match each phrase to its medical term", [['specialist in ears, nose and throat', 'otorhinolaryngologist'], ['middle ear infection', 'otitis media'], ['both ears', 'AU'], ['earwax', 'cerumen']], 'Fremgen.'),
+        P("Translation", "Match each phrase to its medical term", [['specialist in ears, nose and throat', 'otorhinolaryngologist'], ['middle ear infection', 'otitis media'], ['both ears', 'AU'], ['earwax', 'cerumen']], 'Per standard references.'),
         M("Translation", "“Visual examination of the ear canal and eardrum” means…", ['otoscopy', 'audiometry', 'tympanometry', 'ophthalmoscopy'], 'ot/o + -scopy.', null, { a: ['otoscope'], l: [] }),
         M("Translation", "“The membrane between the ear canal and middle ear”…", ['tympanic membrane', 'oval window', 'cochlea', 'auricle'], "The eardrum."),
         M("Translation", "“Measurement of eardrum movement”…", ['tympanometry', 'audiometry', 'otoscopy', 'tonometry'], 'tympan/o + -metry.'),
@@ -2958,7 +2958,7 @@
     /* ================= بیماری‌های گوش ================= */
     {
       id: 'r13', w: 'hd', title: "A musician who cannot hear", who: "A 35-year-old man, a musician",
-      brief: "The Case Study in Fremgen’s book says: a 35-year-old musician at the EENT clinic complains of progressive hearing loss over the past 15 years; he cannot follow speech in noisy places. He has played loud instruments for 20 years without earplugs. Otoscopy and tympanometry were normal, and audiometry showed hearing loss in both ears. Rinne and Weber tests confirmed moderate hearing loss. He was referred for a hearing aid.",
+      brief: "The Case Study says: a 35-year-old musician at the EENT clinic complains of progressive hearing loss over the past 15 years; he cannot follow speech in noisy places. He has played loud instruments for 20 years without earplugs. Otoscopy and tympanometry were normal, and audiometry showed hearing loss in both ears. Rinne and Weber tests confirmed moderate hearing loss. He was referred for a hearing aid.",
       chart: [['CC', 'progressive hearing loss, 15 years'], ['Hx', 'amplified music, no earplugs'], ['Tests', 'otoscopy, tympanometry normal; audiometry ↓ bilaterally; Rinne, Weber'], ['Plan', 'hearing aid evaluation']],
       fig: { a: 'hearing-loss-types', l: [] },
       steps: [
@@ -2972,7 +2972,7 @@
     },
     {
       id: 'r14', w: 'hd', title: "A mass that keeps growing", who: "A 30-year-old woman",
-      brief: "The Chart Note in Gylys’s book says: this 30-year-old woman was seen by an ENT specialist for mucoserous otitis media on the right. In hospital she developed a cholesteatoma. Tubes were placed for chronic adhesive otitis media with secondary cholesteatoma; she improved after the operation, but the mass is growing. She is now admitted for a right tympanoplasty under general anaesthesia.",
+      brief: "The Chart Note says: this 30-year-old woman was seen by an ENT specialist for mucoserous otitis media on the right. In hospital she developed a cholesteatoma. Tubes were placed for chronic adhesive otitis media with secondary cholesteatoma; she improved after the operation, but the mass is growing. She is now admitted for a right tympanoplasty under general anaesthesia.",
       chart: [['Dx', 'mucoserous otitis media, right'], ['Complication', 'cholesteatoma'], ['Hx', 'tube for chronic adhesive OM'], ['Plan', 'right tympanoplasty, general anesthesia']],
       fig: { a: 'otitis-media-art', l: [] },
       steps: [
@@ -2980,18 +2980,18 @@
         M("lump", "What is a cholesteatoma?", ["a cyst-like skin mass in the middle ear", "tumour of the eighth nerve", "earwax", "pus of the outer ear"], "A complication of chronic otitis."),
         M("abbreviation", "ENT means…", ["ear, nose and throat", "Eye and ear", "emergency department", "neurology"], 'ears, nose and throat.'),
         T("surgery", "tympanoplasty means repair of the eardrum (and sometimes the ossicles).", true, 'tympan/o + -plasty.', { a: ['pe-tube'], l: [] }),
-        O("Process", "Put the patient’s course in order", ['mucoserous otitis media', 'cholesteatoma', 'tube insertion', 'tympanoplasty'], 'Gylys.'),
+        O("Process", "Put the patient’s course in order", ['mucoserous otitis media', 'cholesteatoma', 'tube insertion', 'tympanoplasty'], 'Per standard references.'),
         S("Spelling", "Write the operation she was admitted for: repair of the eardrum", 'tympanoplasty', 'tympan/o + -plasty.', 'tympano…')
       ]
     },
     {
       id: 'r15', w: 'hd', title: "What did the MRI show?", who: "George, a 55-year-old man",
-      brief: "Continuing Case Study 8-1 in Cohen’s book: one-sided sensorineural hearing loss in the left ear, tinnitus, ear fullness and no BAEP response on the left made the doctor think of a mass. MRI showed a 1-cm acoustic neuroma.",
+      brief: "Continuing Case Study: one-sided sensorineural hearing loss in the left ear, tinnitus, ear fullness and no BAEP response on the left made the doctor think of a mass. MRI showed a 1-cm acoustic neuroma.",
       chart: [['Sx', 'unilateral SNHL AS, tinnitus, aural fullness'], ['BAEP', 'no response AS'], ['MRI', '1-cm acoustic neuroma']],
       fig: { a: 'inner-ear-art', l: [] },
       steps: [
         M("tumour", "Which nerve is an acoustic neuroma on?", ["the eighth nerve (vestibulocochlear)", "the second nerve (optic)", "the fifth nerve", "the seventh nerve"], 'CN VIII.'),
-        M("Other name", "Another name for acoustic neuroma in the book…", ['acoustic neurilemmoma', 'cholesteatoma', 'otosclerosis', 'macular degeneration'], 'Case Study 8-1 Questions.'),
+        M("Other name", "Another name for acoustic neuroma in the standard reference…", ['acoustic neurilemmoma', 'cholesteatoma', 'otosclerosis', 'macular degeneration'], 'Case Study 8-1 Questions.'),
         T("Type", "An acoustic neuroma causes sensorineural hearing loss.", true, "Nerve damage.", { a: ['hearing-loss-types'], l: [] }),
         P("Term", "Match each term to its meaning", [['unilateral', "on one side"], ['neuroma', "nerve tumour"], ['MRI', "magnetic resonance imaging"], ['sensorineural', "damage to the cochlea or nerve"]], "Diagnosis."),
         M("root", "In neuroma, the suffix -oma means…", ["tumour", "inflammation", "pain", "incision"], 'neur/o + -oma.'),
@@ -3001,13 +3001,13 @@
     /* ================= تشخیص و درمان ================= */
     {
       id: 'r16', w: 'tx', title: "Discharge summary: cataract", who: "Mrs Serowan",
-      brief: "The Discharge Summary in Ehrlich’s book says: Mrs Serowan had progressive loss of vision in her right eye for years. Her best corrected visual acuity in the right eye was 20/70. On 21 June the cataract was broken up with ultrasound and a prosthetic intraocular lens was inserted. She was discharged on the first day after the operation.",
+      brief: "The Discharge Summary says: Mrs Serowan had progressive loss of vision in her right eye for years. Her best corrected visual acuity in the right eye was 20/70. On 21 June the cataract was broken up with ultrasound and a prosthetic intraocular lens was inserted. She was discharged on the first day after the operation.",
       chart: [['Admission Dx', 'cataract for extraction'], ['Exam', 'BCVA 20/70 OD'], ['Procedure', 'ultrasound cataract removal + IOL'], ['Discharge', 'postoperative day 1']],
       fig: { a: 'phaco-iol', l: [] },
       steps: [
         M("abbreviation", "BCVA means…", ["best corrected visual acuity", "intraocular pressure", "visual acuity without glasses", "visual field"], 'best corrected visual acuity.'),
         M("Snellen", "20/70 means…", ["she sees at 20 feet what a healthy eye sees at 70 feet", "she has seventy per cent of her vision", "she is blind", "she has normal vision"], "The Snellen fraction.", null, { a: ['snellen-art'], l: [] }),
-        P("Term", "Match each term to its meaning", [['deteriorating', "getting worse"], ['ultrasound', "high-frequency sound waves"], ['prosthetic', "artificial"], ['intraocular lens', "artificial lens inside the eye"]], 'Ehrlich.'),
+        P("Term", "Match each term to its meaning", [['deteriorating', "getting worse"], ['ultrasound', "high-frequency sound waves"], ['prosthetic', "artificial"], ['intraocular lens', "artificial lens inside the eye"]], 'Per standard references.'),
         T("Method", "Breaking up the lens with ultrasound is phacoemulsification.", true, "Phaco.", { a: ['cataract-surgery'], l: [] }),
         O("Process", "Put the patient’s course in order", ['progressive vision loss', 'BCVA 20/70', 'cataract removal', 'IOL insertion', 'discharge'], "From complaint to discharge."),
         S("Spelling", "Spell the word meaning artificial in “… intraocular lens”", 'prosthetic', "A prosthesis.", 'prost…')
@@ -3015,7 +3015,7 @@
     },
     {
       id: 'r17', w: 'tx', title: "Operative report: tubes in both ears", who: "A child with recurrent otitis",
-      brief: "The Operative Report in Ehrlich’s book says: the preoperative diagnosis was otitis media and the postoperative diagnosis recurrent otitis media. The patient lay supine under general anaesthesia. Under the microscope the right ear canal was cleared of wax; the eardrum was abnormal with pus behind it. A myringotomy was performed, the pus was suctioned and a tube was inserted. The same was done on the left, where watery fluid was found.",
+      brief: "The Operative Report says: the preoperative diagnosis was otitis media and the postoperative diagnosis recurrent otitis media. The patient lay supine under general anaesthesia. Under the microscope the right ear canal was cleared of wax; the eardrum was abnormal with pus behind it. A myringotomy was performed, the pus was suctioned and a tube was inserted. The same was done on the left, where watery fluid was found.",
       chart: [['Pre-op Dx', 'otitis media'], ['Post-op Dx', 'recurrent otitis media'], ['Procedure', 'bilateral myringotomy with tube insertion'], ['Findings', 'R: pus; L: watery fluid']],
       fig: { a: 'myringotomy-art', l: [] },
       steps: [
@@ -3029,7 +3029,7 @@
     },
     {
       id: 'r18', w: 'tx', title: "Eye patch and glasses", who: "Kelly, a 7-year-old girl",
-      brief: "Continuing the Case Study in Cohen’s book: for Kelly, who has amblyopia and mild hyperopia, the ophthalmologist prescribed a patch over the right (strong) eye and glasses. Kelly wore the patch 4 to 5 hours a day, and the glasses made by the optician helped her read. A month later her vision had improved.",
+      brief: "Continuing the Case Study: for Kelly, who has amblyopia and mild hyperopia, the ophthalmologist prescribed a patch over the right (strong) eye and glasses. Kelly wore the patch 4 to 5 hours a day, and the glasses made by the optician helped her read. A month later her vision had improved.",
       chart: [['Dx', 'strabismic amblyopia OS; mild hyperopia'], ['Rx', 'patch over OD, glasses'], ['Follow-up', '1 month: improved vision']],
       fig: { a: 'strabismus-art', l: [] },
       steps: [

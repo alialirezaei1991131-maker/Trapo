@@ -137,9 +137,9 @@
     subject: "Medical terminology of body structure",
     kicker: "🧭 Medical terminology: Body Structure",
     hello: "Hi, I’m <b>Peykar</b>;",
-    landP: () => `Hi, I’m <b>Peykar</b>, a cell with a compass for the body! Here you’ll learn how the body is built from cell to system, name every part of it with the exact term, and <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 65)} pictures from the textbooks, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
+    landP: () => `Hi, I’m <b>Peykar</b>, a cell with a compass for the body! Here you’ll learn how the body is built from cell to system, name every part of it with the exact term, and <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 65)} clinical picturess, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
     disclaimer: "Peykar is an educational tool and does not replace anatomy references, clinical judgment or a physician’s orders.",
-    eyes: "Dozens of textbook pictures and teaching figures: from cells and tissues under the microscope to body planes, cavities and the nine abdominal regions.",
+    eyes: "Dozens of clinical pictures and teaching figures: from cells and tissues under the microscope to body planes, cavities and the nine abdominal regions.",
     outcomes: [
           "Break every anatomy term into prefix, root and suffix, form its Latin plural and name the body’s openings",
           "Describe the levels of organisation, cell structure, DNA, mitosis and metabolism with the right terms",
@@ -1482,7 +1482,7 @@
       {
         id: 'lx7', title: "Drug routes", icon: '💉', items: [
           L("Where does the drug go in?", `${tbl([["Route", "Meaning", "Feature"], ['oral (PO)', "by mouth", "easy, slow absorption; stomach acid may break the drug down"], ['sublingual (SL)', "under the tongue", "faster absorption than by mouth, through the vessels under the tongue"], ['parenteral', "any route except the digestive tract", "invasive; the skin is pierced with a needle"]])}${wb('sub-', 'lingu/o', '-al')} → below + tongue + pertaining to.`),
-          L("Four common injections", `${fig('routes', '', "Each needle goes to its target layer at its own angle: the smaller the angle, the shallower the injection.")}${tbl([["abbreviation", "Route", "Where?", "Angle"], ['ID', 'intradermal', "into the skin (dermis)", "10–15°"], ['SubQ', 'subcutaneous', "under the skin, into the fat", "45°"], ['IM', 'intramuscular', "into the muscle", "90°"], ['IV', 'intravenous', "into the vein", "25°"]])}${fig('injection-layers', '', "the same four injections in the textbook picture")}`),
+          L("Four common injections", `${fig('routes', '', "Each needle goes to its target layer at its own angle: the smaller the angle, the shallower the injection.")}${tbl([["abbreviation", "Route", "Where?", "Angle"], ['ID', 'intradermal', "into the skin (dermis)", "10–15°"], ['SubQ', 'subcutaneous', "under the skin, into the fat", "45°"], ['IM', 'intramuscular', "into the muscle", "90°"], ['IV', 'intravenous', "into the vein", "25°"]])}${fig('injection-layers', '', "the same four injections in the standard reference picture")}`),
           M("Which injection goes into the fatty layer under the skin?", ['subcutaneous', 'intradermal', 'intramuscular', 'intravenous'], "sub- (below) + cutane/o (skin) + -ous.", null, F('injection-angles')),
           P("Match each abbreviation to its route", [['IV', "into the vein"], ['IM', "into the muscle"], ['ID', "into the skin"], ['SL', "under the tongue"]]),
           L("Intrathecal and inhaled", `• <b>intrathecal</b>: injection into the space around the spinal cord; ${e('thec/o')} = sheath (meninges)<br>• <b>inhalation</b>: the drug reaches the lungs as you breathe, like an asthma inhaler${fig('inhaler', '', "An inhaler with a chamber (spacer); the drug goes straight to the airways.")}${pearl("parenteral = para (beside) + enteral (intestine): any route that goes “beside” the digestive tract.")}`),
@@ -2158,7 +2158,7 @@
         id: 'cv1', title: "Two large cavities", icon: '🏺', items: [
           L("The dorsal and ventral cavities", `The body has two main cavities that hold the internal organs (viscera):${fig('cavities')}${tbl([["hollow space in the body", "Parts", "Contents"], ['dorsal (posterior)', 'cranial + spinal (vertebral)', "the brain and spinal cord"], ['ventral (anterior)', 'thoracic + abdominopelvic', "the heart, lungs, and digestive, urinary and reproductive organs"]])}`),
           M("Which cavity is the brain in?", ['cranial', 'thoracic', 'spinal', 'pelvic'], "crani/o = skull; the cranial cavity is part of the dorsal cavity."),
-          L("The same cavities in the textbook", `${fig(['cavities-line', 'cavities-views'], ["the dorsal and ventral cavities in a side view", "side and front views"])}${memo("The dorsal cavity has two C/S parts: Cranial and Spinal, like “CS” for Central System (the central nervous system)!")}`),
+          L("The same cavities in the standard reference", `${fig(['cavities-line', 'cavities-views'], ["the dorsal and ventral cavities in a side view", "side and front views"])}${memo("The dorsal cavity has two C/S parts: Cranial and Spinal, like “CS” for Central System (the central nervous system)!")}`),
           P("Match each cavity to its contents", [['cranial', "brain"], ['spinal', "spinal cord"], ['thoracic', "heart and lungs"], ['abdominal', "stomach, liver, intestines"], ['pelvic', "bladder and reproductive organs"]]),
           T("The spinal cavity is part of the ventral cavity.", false, "False; the cranial and spinal cavities are dorsal."),
           B("Together, the internal organs of the cavities are called the ___.", ['viscera', 'strata', 'ventricles'], "viscera (singular viscus) = internal organs."),
@@ -2229,7 +2229,7 @@
       },
       {
         id: 'cv6', title: "Picture test: the cavities", icon: '🎯', items: [
-          L("Test yourself", `In this lesson you fill in the numbers and blank labels of the textbook pictures. Before you answer, review this order:<br>• the dorsal cavities: <b>cranial</b> and <b>spinal</b><br>• the ventral cavities: <b>thoracic</b>, then the diaphragm, then <b>abdominal</b> and <b>pelvic</b>${memo("From top to bottom at the front of the body: “chest, diaphragm, abdomen, pelvis”, like the floors of a building: the first floor, the ceiling, the ground floor and the basement.")}`),
+          L("Test yourself", `In this lesson you fill in the numbers and blank labels of the clinical pictures. Before you answer, review this order:<br>• the dorsal cavities: <b>cranial</b> and <b>spinal</b><br>• the ventral cavities: <b>thoracic</b>, then the diaphragm, then <b>abdominal</b> and <b>pelvic</b>${memo("From top to bottom at the front of the body: “chest, diaphragm, abdomen, pelvis”, like the floors of a building: the first floor, the ceiling, the ground floor and the basement.")}`),
           M("In this figure, which cavity is number (3)?", ['cranial', 'spinal', 'thoracic', 'abdominal'], "The blue structure inside the skull is the brain; the cranial cavity.", null, F('cavities-quiz')),
           M("In the same figure, which cavity is number (7), just above the diaphragm?", ['thoracic', 'abdominal', 'pelvic', 'spinal'], "Above the diaphragm is the chest cavity.", null, F('cavities-quiz')),
           M("Which large cavity is bracket (1), which takes in cavities (3) and (4)?", ['dorsal cavity', 'ventral cavity', 'abdominopelvic cavity', 'thoracic cavity'], "(3) cranial and (4) spinal together are the dorsal cavity.", null, F('cavities-quiz')),

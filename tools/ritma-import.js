@@ -32,6 +32,19 @@ const need = ['engine/core', 'config', 'terms', 'lexicon', 'art', 'chars', 'roun
 const WORLDS = Object.keys(MODS).filter(k => k.startsWith('worlds/'));
 need.forEach(k => { if (!MODS[k]) { console.error('missing module', k); process.exit(1); } });
 if (!WORLDS.length) { console.error('no worlds'); process.exit(1); }
+// متن دوره از هیچ کتاب یا جزوه‌ای به‌عنوان منبع نام نمی‌برد (منابع فقط در فهرست «منابع» دوره می‌آیند)
+Object.keys(MODS).forEach(k => { MODS[k] = MODS[k].replace(/در کتاب دوره/g, 'در برخی جزوه‌های آموزشی'); });
+/** منابع دوره: در پایان معرفی دوره و صفحه معرفی سایت */
+const REFS = [
+  "Goldberger AL, Goldberger ZD, Shvilkin A. Goldberger’s Clinical Electrocardiography: A Simplified Approach. 9th ed. Philadelphia: Elsevier; 2018.",
+  "Hampton JR, Hampton J. The ECG Made Easy. 9th ed. Edinburgh: Elsevier; 2019.",
+  "Surawicz B, Knilans TK. Chou’s Electrocardiography in Clinical Practice. 6th ed. Philadelphia: Saunders Elsevier; 2008.",
+  "Kligfield P, Gettes LS, Bailey JJ, et al. Recommendations for the standardization and interpretation of the electrocardiogram: Part I. Circulation. 2007;115(10):1306–1324.",
+  "Thygesen K, Alpert JS, Jaffe AS, et al. Fourth universal definition of myocardial infarction (2018). Circulation. 2018;138(20):e618–e651.",
+  "Byrne RA, Rossello X, Coughlan JJ, et al. 2023 ESC Guidelines for the management of acute coronary syndromes. Eur Heart J. 2023;44(38):3720–3826.",
+  "Kusumoto FM, Schoenfeld MH, Barrett C, et al. 2018 ACC/AHA/HRS guideline on the evaluation and management of patients with bradycardia and cardiac conduction delay. Circulation. 2019;140(8):e382–e482.",
+  "Panchal AR, Bartos JA, Cabañas JG, et al. Part 3: Adult basic and advanced life support: 2020 American Heart Association guidelines for cardiopulmonary resuscitation and emergency cardiovascular care. Circulation. 2020;142(16 Suppl 2):S366–S468."
+];
 const imgM = html.match(/<script>window\.EA=window\.EA\|\|\{\};window\.EA\.IMG=(\{[\s\S]*?\});<\/script>/);
 if (!imgM) { console.error('no image block'); process.exit(1); }
 const styleM = html.match(/<style>([\s\S]*?)<\/style>/);
@@ -205,6 +218,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     skin: 'negar', kitOf: 'termino', mascotFn: MASCOT,
     stats: ${J(stats)},
     catalog: ${J(catalog)},
+    /* منابع دوره (در پایان معرفی دوره و صفحه معرفی سایت نمایش داده می‌شوند) */
+    refs: ${J(REFS)},
     css: ${J(CSS)}
   };
 

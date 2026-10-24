@@ -1664,7 +1664,7 @@
       {
         id: 'up3', title: 'خون‌دماغ، آبریزش و پولیپ', icon: '🩸', items: [
           L('نشانه‌های بینی', `${tbl([['واژه', 'معنی'], [e('rhinorrhea'), 'آبریزش بینی'], [e('epistaxis'), 'خون‌دماغ (rhinorrhagia)'], [e('rhinitis'), 'التهاب مخاط بینی'], [e('coryza'), 'سرماخوردگی (زکام)'], [e('nasal polyps'), 'برآمدگی‌های خوش‌خیم مخاط بینی'], [e('deviated septum'), 'انحراف تیغه بینی']])}`),
-          L('ترمیم بینی', `${wb('rhin/o', '-plasty')} ← ترمیم جراحی بینی<br>${wb('sept/o', '-plasty')} ← ترمیم تیغه بینی؛ برای ${e('deviated septum')}<br>${wb('polyp/o', '-ectomy')} ← برداشتن پولیپ${pearl('یادداشت بالینی کتاب: مرد ۴۵ ساله با انسداد راه هوایی از پولیپ‌های بزرگ حفره بینی راست؛ با snare بینی polypectomy شد و پاتولوژی کارسینوم پاپیلاری کم‌درجه گزارش کرد.')}`),
+          L('ترمیم بینی', `${wb('rhin/o', '-plasty')} ← ترمیم جراحی بینی<br>${wb('sept/o', '-plasty')} ← ترمیم تیغه بینی؛ برای ${e('deviated septum')}<br>${wb('polyp/o', '-ectomy')} ← برداشتن پولیپ${pearl('یادداشت بالینی: مرد ۴۵ ساله با انسداد راه هوایی از پولیپ‌های بزرگ حفره بینی راست؛ با snare بینی polypectomy شد و پاتولوژی کارسینوم پاپیلاری کم‌درجه گزارش کرد.')}`),
           M(`${e('<b>epistaxis</b>')} یعنی…`, ['خون‌دماغ', 'آبریزش بینی', 'عطسه', 'خلط خونی'], 'rhinorrhagia هم می‌گویند.'),
           M('جراحی اصلاح تیغه کج بینی چه نام دارد؟', ['septoplasty', 'rhinorrhea', 'polypectomy', 'sinusitis'], 'sept/o + -plasty.'),
           T('coryza همان سرماخوردگی معمولی است.', true, 'common cold.'),
@@ -1811,7 +1811,7 @@
       {
         id: 'lo3', title: 'تنگی ناگهانی نایژه', icon: '🌀', items: [
           L('اسپاسم نایژه', `دیواره نایژه‌ها عضله صاف دارد. اگر این عضله ناگهان منقبض شود، راه هوا تنگ می‌شود: ${e('<b>bronchospasm</b>')}. این همان اتفاق حمله آسم است.${fig('asthma-airway', [], 'نایژک عادی و در حمله آسم')}`),
-          L('دارو', `${e('<b>bronchodilator</b>')} (گشادکننده نایژه) عضله صاف را شل می‌کند و راه هوا را باز می‌کند؛ مثل اسپری سالبوتامول (${e('Proventil')}).${wb('bronch/o', '-spasm')} ← انقباض ناگهانی نایژه${vs(['bronchospasm', 'تنگ شدن ناگهانی نایژه'], ['bronchodilator', 'دارویی که نایژه را باز می‌کند'])}${pearl('در گزارش مشاوره ریه کتاب، پسر ۱۰ ساله آسمی با Proventil بهتر شد و ادامه آن «برای رفع bronchospasm» توصیه شد.')}`),
+          L('دارو', `${e('<b>bronchodilator</b>')} (گشادکننده نایژه) عضله صاف را شل می‌کند و راه هوا را باز می‌کند؛ مثل اسپری سالبوتامول (${e('Proventil')}).${wb('bronch/o', '-spasm')} ← انقباض ناگهانی نایژه${vs(['bronchospasm', 'تنگ شدن ناگهانی نایژه'], ['bronchodilator', 'دارویی که نایژه را باز می‌کند'])}${pearl('در گزارش مشاوره ریه، پسر ۱۰ ساله آسمی با Proventil بهتر شد و ادامه آن «برای رفع bronchospasm» توصیه شد.')}`),
           M(`${e('<b>bronchospasm</b>')} یعنی…`, ['انقباض ناگهانی عضله نایژه', 'گشادی دائمی نایژه', 'التهاب نایژه', 'برداشتن نایژه'], 'bronch/o + -spasm.', null, F('asthma-airway', [])),
           M('کدام دارو نایژه را باز می‌کند؟', ['bronchodilator', 'antitussive', 'decongestant', 'antihistamine'], 'dilator = گشادکننده.'),
           T('دیواره نایژه عضله صاف دارد.', true, 'smooth muscle.'),
@@ -1973,7 +1973,7 @@
       {
         id: 'br4', title: 'کمبود اکسیژن', icon: '🫥', items: [
           L('واژه‌های اکسیژن و CO2', `${tbl([['واژه', 'معنی'], [e('hypoxia'), 'کمبود اکسیژن در بافت‌ها'], [e('hypoxemia'), 'کمبود اکسیژن در خون'], [e('anoxia'), 'فقدان کامل اکسیژن'], [e('hypercapnia'), 'افزایش CO2 خون'], [e('asphyxia'), 'خفگی: کمبود O2 و تجمع CO2']])}`),
-          L('نشانه‌های بیرونی', `${fig('cyanosis', [], 'کبودی و چماقی شدن')}• ${e('<b>cyanosis</b>')}: کبودی پوست، لب و بستر ناخن از کمبود اکسیژن<br>• ${e('<b>clubbing</b>')}: چماقی و گرد شدن نوک انگشتان در کمبود مزمن اکسیژن${pearl('در گزارش مشاوره ریه کتاب: «cyanosis around the lips» و «ABGs indicate hypoxemia» در یک حمله شدید آسم.')}`),
+          L('نشانه‌های بیرونی', `${fig('cyanosis', [], 'کبودی و چماقی شدن')}• ${e('<b>cyanosis</b>')}: کبودی پوست، لب و بستر ناخن از کمبود اکسیژن<br>• ${e('<b>clubbing</b>')}: چماقی و گرد شدن نوک انگشتان در کمبود مزمن اکسیژن${pearl('در گزارش مشاوره ریه: «cyanosis around the lips» و «ABGs indicate hypoxemia» در یک حمله شدید آسم.')}`),
           M(`${e('<b>hypoxemia</b>')} یعنی…`, ['کمبود اکسیژن در خون', 'کمبود اکسیژن در بافت', 'افزایش CO2 خون', 'فقدان کامل اکسیژن'], '‎-emia = خون.'),
           M('کبودی لب و بستر ناخن چه نام دارد؟', ['cyanosis', 'clubbing', 'pallor', 'jaundice'], 'cyan/o = آبی.', null, F('cyanosis', [])),
           T('hypercapnia یعنی کمبود دی‌اکسید کربن در خون.', false, 'نادرست؛ hyper- = بیش از حد؛ CO2 زیاد است.'),
@@ -1987,7 +1987,7 @@
       {
         id: 'br5', title: 'سرفه و خلط', icon: '😷', items: [
           L('انواع سرفه', `• ${e('<b>productive cough</b>')}: سرفه خلط‌دار<br>• ${e('<b>nonproductive cough</b>')}: سرفه خشک<br>• ${e('<b>sputum</b>')}: خلطی که از ریه بالا می‌آید؛ ${e('phlegm')}: مخاط غلیظ<br>• ${e('<b>purulent</b>')}: چرکی؛ خلط زرد یا سبز<br>• ${e('<b>expectoration</b>')}: بالا آوردن و بیرون انداختن خلط`),
-          L('خون در خلط', `${wb('hem/o', '-ptysis')} ← ${e('<b>hemoptysis</b>')}: سرفه کردن خون از ریه؛ می‌تواند نشانه سل یا سرطان ریه باشد.${vs(['hemoptysis', 'خون از ریه با سرفه'], ['epistaxis', 'خون از بینی'])}${pearl('در تمرین Exercise 12-9 کتاب، خانم ۳۰ ساله‌ای با «nonproductive cough، dyspnea و تب» آمد؛ یعنی سرفه خشک و تنگی نفس.')}`),
+          L('خون در خلط', `${wb('hem/o', '-ptysis')} ← ${e('<b>hemoptysis</b>')}: سرفه کردن خون از ریه؛ می‌تواند نشانه سل یا سرطان ریه باشد.${vs(['hemoptysis', 'خون از ریه با سرفه'], ['epistaxis', 'خون از بینی'])}${pearl('در یک تمرین بالینی، خانم ۳۰ ساله‌ای با «nonproductive cough، dyspnea و تب» آمد؛ یعنی سرفه خشک و تنگی نفس.')}`),
           M('سرفه‌ای که خلط بالا می‌آورد چه نام دارد؟', ['productive cough', 'nonproductive cough', 'hemoptysis', 'stridor'], 'productive = خلط‌دار.'),
           M(`${e('<b>purulent sputum</b>')} یعنی…`, ['خلط چرکی', 'خلط خونی', 'خلط شفاف', 'سرفه خشک'], 'purulent = حاوی چرک.'),
           T('hemoptysis می‌تواند نشانه سل یا سرطان ریه باشد.', true, 'خون در خلط همیشه بررسی می‌شود.'),
@@ -2022,7 +2022,7 @@
           T('stridor صدای انسداد راه هوایی فوقانی است.', true, 'حنجره یا نای؛ مثلاً در خروسک.'),
           P('هر صدا را به علتش وصل کن', [['wheeze', 'راه هوایی تنگ'], ['stridor', 'انسداد حنجره'], ['rhonchi', 'مخاط در نایژه بزرگ'], ['pleural rub', 'پرده جنب ملتهب']], 'صداهای ریه.'),
           B('اختصار ___ یعنی سمع ریه پاک و طبیعی است.', ['CTA', 'CXR', 'SOB'], 'clear to auscultation.'),
-          M('در Exercise 12-9 کتاب «inspiratory rales» شنیده شد؛ یعنی…', ['کراکل هنگام دم', 'خس‌خس هنگام بازدم', 'صدای خشن حنجره', 'سکوت کامل ریه'], 'rales = crackles؛ inspiratory = هنگام دم.'),
+          M('در این یادداشت بالینی «inspiratory rales» شنیده شد؛ یعنی…', ['کراکل هنگام دم', 'خس‌خس هنگام بازدم', 'صدای خشن حنجره', 'سکوت کامل ریه'], 'rales = crackles؛ inspiratory = هنگام دم.'),
           S('املای انگلیسی «سمع» را بنویس', 'auscultation', 'listening.', 'ausc…'),
           N('t2f:br')
         ]
@@ -2077,7 +2077,7 @@
       {
         id: 'ds1', title: 'آسم', icon: '🌬️', items: [
           L('حمله آسم', `${fig('asthma-airway', [], 'نایژک در حمله آسم')}${e('<b>asthma</b>')} بیماری مزمنی است که در حمله‌هایش سه اتفاق در راه هوایی می‌افتد:<br>۱. انقباض عضله صاف (${e('bronchospasm')})<br>۲. التهاب و تورم دیواره<br>۳. ترشح مخاط زیاد<br>نتیجه: خس‌خس (${e('wheeze')})، سرفه و تنگی نفس.`),
-          L('درمان و پایش', `• ${e('bronchodilator')} (مثل اسپری سالبوتامول) برای باز کردن سریع راه هوا<br>• ${e('inhaled corticosteroid')} برای پیشگیری از التهاب<br>• ${e('peak flow meter')} برای پایش روزانه در خانه${fig('mdi', [], 'اسپری استنشاقی با اسپیسر')}${pearl('گزارش مشاوره ریه کتاب: پسر ۱۰ ساله با dyspnea، cyanosis دور لب، rhonchi و hypoxemia در ABG؛ اسپیرومتری انسداد متوسط تا شدید راه هوایی را نشان داد.')}`),
+          L('درمان و پایش', `• ${e('bronchodilator')} (مثل اسپری سالبوتامول) برای باز کردن سریع راه هوا<br>• ${e('inhaled corticosteroid')} برای پیشگیری از التهاب<br>• ${e('peak flow meter')} برای پایش روزانه در خانه${fig('mdi', [], 'اسپری استنشاقی با اسپیسر')}${pearl('گزارش مشاوره ریه: پسر ۱۰ ساله با dyspnea، cyanosis دور لب، rhonchi و hypoxemia در ABG؛ اسپیرومتری انسداد متوسط تا شدید راه هوایی را نشان داد.')}`),
           M('کدام مورد در حمله آسم رخ نمی‌دهد؟', ['تخریب دیواره آلوئول‌ها', 'انقباض عضله نایژه', 'التهاب دیواره', 'ترشح مخاط زیاد'], 'تخریب آلوئول مال آمفیزم است.', null, F('asthma-airway', [])),
           M('صدای شاخص آسم هنگام سمع چیست؟', ['wheeze', 'stridor', 'pleural rub', 'rales'], 'خس‌خس سوت‌مانند.'),
           T('peak flow meter برای پایش آسم در خانه به کار می‌رود.', true, 'PEFR.'),
@@ -2120,7 +2120,7 @@
       {
         id: 'ds4', title: 'پنومونی', icon: '🦠', items: [
           L('التهاب و عفونت ریه', `${fig('pneumonia', [], 'پنومونی لوبی و برونکوپنومونی')}در ${e('<b>pneumonia</b>')} آلوئول‌ها پر از مایع و چرک می‌شوند. نشانه‌ها: تب، سرفه خلط‌دار، تنگی نفس، کراکل (${e('rales')}) و لکه کدر در ${e('CXR')}.<br>• ${e('lobar pneumonia')}: کل یک لوب<br>• ${e('bronchopneumonia')}: لکه‌های پراکنده دور نایژک‌ها<br>• ${e('aspiration pneumonia')}: از استنشاق غذا یا استفراغ`),
-          L('از منابع', `${pearl('Chart Note Transcription کتاب: خانم ۴۳ ساله با تنفس دردناک و دشوار و سریع، تب، کراکل در قفسه سینه چپ پایین و خلط چرکی؛ CXR لکه کدر در لوب تحتانی ریه چپ نشان داد. تشخیص: پنومونی باکتریایی LLL؛ درمان: آنتی‌بیوتیک IV و اینتوباسیون.')}${wb('pneumon/o', '-ia')} ← پنومونی؛ ${wb('pneumon/o', '-itis')} ← التهاب ریه${vs(['pneumonia', 'عفونت و پر شدن آلوئول‌ها'], ['pneumonitis', 'التهاب بافت ریه (نه لزوماً عفونی)'])}`),
+          L('از منابع', `${pearl('Chart Note Transcription: خانم ۴۳ ساله با تنفس دردناک و دشوار و سریع، تب، کراکل در قفسه سینه چپ پایین و خلط چرکی؛ CXR لکه کدر در لوب تحتانی ریه چپ نشان داد. تشخیص: پنومونی باکتریایی LLL؛ درمان: آنتی‌بیوتیک IV و اینتوباسیون.')}${wb('pneumon/o', '-ia')} ← پنومونی؛ ${wb('pneumon/o', '-itis')} ← التهاب ریه${vs(['pneumonia', 'عفونت و پر شدن آلوئول‌ها'], ['pneumonitis', 'التهاب بافت ریه (نه لزوماً عفونی)'])}`),
           M('کدام نوع پنومونی کل یک لوب را درگیر می‌کند؟', ['lobar pneumonia', 'bronchopneumonia', 'aspiration pneumonia', 'pneumonitis'], 'lob/o = لوب.', null, F('pneumonia', [])),
           M('پنومونی ناشی از استنشاق غذا یا استفراغ چیست؟', ['aspiration pneumonia', 'lobar pneumonia', 'pneumoconiosis', 'atelectasis'], 'aspiration = استنشاق مواد خارجی.'),
           T('در پنومونی آلوئول‌ها پر از مایع و چرک می‌شوند.', true, 'consolidation.'),
@@ -2244,7 +2244,7 @@
           T('RA در گزارش ABG یعنی بیمار هوای اتاق تنفس می‌کرد.', true, 'room air.'),
           W('واژه‌ای بساز به معنی «ابزار سنجش اکسیژن»', ['ox/i', '-meter'], ['-metry', 'spir/o', 'capn/o'], 'ox/i + -meter = oximeter.'),
           P('هر واژه را به معنی‌اش وصل کن', [['ABGs', 'گازهای خون شریانی'], ['oximeter', 'اکسیمتر'], ['RA', 'هوای اتاق'], ['hypoxemia', 'کمبود اکسیژن خون']], 'اکسیژن خون.'),
-          B('در Exercise 12-9 کتاب، ABG در «room air» اکسیژن ___ نشان داد.', ['کم', 'زیاد', 'طبیعی'], 'low oxygen content = hypoxemia.'),
+          B('در این یادداشت بالینی، ABG در «room air» اکسیژن ___ نشان داد.', ['کم', 'زیاد', 'طبیعی'], 'low oxygen content = hypoxemia.'),
           S('املای انگلیسی «اکسیمتر» را بنویس', 'oximeter', 'ox/i + -meter.', 'oxi…'),
           N('f2t:tx')
         ]
@@ -2295,7 +2295,7 @@
       {
         id: 'tx6', title: 'اکسیژن و دستگاه‌های تنفسی', icon: '💨', items: [
           L('راه‌های دادن اکسیژن', `${fig('oxygen-devices', [], 'دستگاه‌های اکسیژن و داروی استنشاقی')}• ${e('<b>nasal cannula</b>')}: دو شاخه پلاستیکی در بینی<br>• ${e('face mask')}: ماسک صورت برای اکسیژن بیشتر<br>• ${e('<b>CPAP</b>')}: فشار مثبت مداوم برای آپنه خواب<br>• ${e('<b>IPPB</b>')}: تنفس با فشار مثبت متناوب برای باز کردن ریه${fig('nasal-cannula', [], 'کانولای بینی')}`),
-          L('دارو به شکل استنشاق', `• ${e('<b>MDI</b>')} (metered-dose inhaler): اسپری با دوز مشخص؛ با ${e('spacer')} بهتر به ریه می‌رسد<br>• ${e('<b>nebulizer</b>')}: داروی مایع را به مه تبدیل می‌کند؛ برای کودکان و بیماران بدحال${fig('nebulizer-photo', [], 'نبولایزر')}${pearl('در Case Study کتاب، خانم ۸۸ ساله با پنومونی، آنتی‌بیوتیک IV و IPPB گرفت و روز سوم مرخص شد.')}`),
+          L('دارو به شکل استنشاق', `• ${e('<b>MDI</b>')} (metered-dose inhaler): اسپری با دوز مشخص؛ با ${e('spacer')} بهتر به ریه می‌رسد<br>• ${e('<b>nebulizer</b>')}: داروی مایع را به مه تبدیل می‌کند؛ برای کودکان و بیماران بدحال${fig('nebulizer-photo', [], 'نبولایزر')}${pearl('در Case Study، خانم ۸۸ ساله با پنومونی، آنتی‌بیوتیک IV و IPPB گرفت و روز سوم مرخص شد.')}`),
           M('اکسیژن با دو شاخه کوچک در سوراخ‌های بینی با چه دستگاهی داده می‌شود؟', ['nasal cannula', 'CPAP', 'nebulizer', 'ventilator'], 'cannula = لوله کوچک.', null, F('oxygen-devices', [])),
           M('کدام دستگاه داروی مایع را به مه تبدیل می‌کند؟', ['nebulizer', 'MDI', 'spirometer', 'oximeter'], 'NMT = nebulized mist treatment.'),
           T('spacer کمک می‌کند داروی اسپری بهتر به ریه برسد.', true, 'با MDI.', F('mdi', [], 'اسپری استنشاقی با اسپیسر')),
@@ -2338,7 +2338,7 @@
       {
         id: 'tx9', title: 'خواندن پرونده تنفسی', icon: '📋', items: [
           L('اختصارهای رایج', `${tbl([['اختصار', 'معنی'], [e('SOB / DOE'), 'تنگی نفس / هنگام فعالیت'], [e('CTA'), 'سمع پاک'], [e('CXR'), 'عکس قفسه سینه'], [e('ABGs'), 'گازهای خون شریانی'], [e('COPD'), 'بیماری انسدادی مزمن ریه'], [e('URI'), 'عفونت تنفسی فوقانی'], [e('O2 / RA'), 'اکسیژن / هوای اتاق'], [e('TPR'), 'دما، نبض، تنفس']])}`),
-          L('یک یادداشت واقعی', `${pearl('Exercise 12-9 کتاب: «HISTORY: 30-year-old female c/o nonproductive cough, dyspnea and fever of 3 days. PE: T 102°F, R 26, P 108. Tachypnea with mild cyanosis, inspiratory rales. CXR: diffuse infiltrates at the bases of both lungs. ABG on room air: low oxygen. Dx: pneumonia of unknown etiology. Plan: ICU, antibiotics and oxygen by face mask.»')}${memo('c/o یعنی complains of؛ یعنی بیمار از … شکایت دارد.')}`),
+          L('یک یادداشت واقعی', `${pearl('یادداشت بالینی: «HISTORY: 30-year-old female c/o nonproductive cough, dyspnea and fever of 3 days. PE: T 102°F, R 26, P 108. Tachypnea with mild cyanosis, inspiratory rales. CXR: diffuse infiltrates at the bases of both lungs. ABG on room air: low oxygen. Dx: pneumonia of unknown etiology. Plan: ICU, antibiotics and oxygen by face mask.»')}${memo('c/o یعنی complains of؛ یعنی بیمار از … شکایت دارد.')}`),
           M('در یادداشت بالا R 26 یعنی…', ['۲۶ تنفس در دقیقه؛ تنفس تند', '۲۶ ضربان قلب', 'دمای ۲۶ درجه', 'ریه راست'], 'R = respiration؛ بیش از ۲۰ = tachypnea.'),
           M('«c/o nonproductive cough» یعنی…', ['شکایت از سرفه خشک', 'شکایت از خلط خونی', 'سرفه خلط‌دار', 'بدون سرفه'], 'c/o = complains of.'),
           T('etiology یعنی علت بیماری.', true, 'pneumonia of unknown etiology = پنومونی با علت نامعلوم.'),
@@ -2702,7 +2702,7 @@
         M('نشانه', 'orthopnea یعنی…', ['تنگی نفس در حالت خوابیده', 'تنفس تند', 'سرفه خلط‌دار', 'تنفس طبیعی'], 'orth/o + -pnea.'),
         M('لوب', 'RUL یعنی…', ['لوب فوقانی ریه راست', 'لوب تحتانی ریه راست', 'لوب فوقانی ریه چپ', 'لوب میانی راست'], 'right upper lobe.'),
         M('علائم حیاتی', 'تنفس ۲۴ بار در دقیقه یعنی…', ['tachypnea', 'eupnea', 'bradypnea', 'apnea'], 'بیش از ۲۰.'),
-        P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['auscultation', 'سمع'], ['crackles', 'کراکل'], ['IPPB', 'تنفس با فشار مثبت متناوب'], ['CXR', 'عکس قفسه سینه']], 'Fremgen case.'),
+        P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['auscultation', 'سمع'], ['crackles', 'کراکل'], ['IPPB', 'تنفس با فشار مثبت متناوب'], ['CXR', 'عکس قفسه سینه']], 'یک کیس بالینی.'),
         T('علائم حیاتی', 'VS یعنی علائم حیاتی: دما، نبض، تنفس و فشار خون.', true, 'vital signs.'),
         S('املا', 'املای «پنومونی» را بنویس', 'pneumonia', 'pneumon/o + -ia.', 'pneu…')
       ]

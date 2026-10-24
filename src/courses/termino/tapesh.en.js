@@ -137,9 +137,9 @@
     subject: "Medical terminology of the cardiovascular system",
     kicker: "❤️ Medical terminology: The Cardiovascular System",
     hello: "Hi, I’m <b>Tapesh</b>;",
-    landP: () => `Hi, I’m <b>Tapesh</b>, a heart that reads its own ECG! Here you’ll learn how the heart and vessels are built and how they work, name their diseases, tests and treatments with the exact word, and <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 65)} pictures from the textbooks, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
+    landP: () => `Hi, I’m <b>Tapesh</b>, a heart that reads its own ECG! Here you’ll learn how the heart and vessels are built and how they work, name their diseases, tests and treatments with the exact word, and <b>decode</b> every new word yourself. ${fa(EA.lex.TERMS.length)} terms with pronunciation and meaning, ${fa(Object.keys(EA.IMG).length || 65)} clinical picturess, ${fa(EA.rounds.length)} clinical charts and Leitner cards are waiting for you.`,
     disclaimer: "Tapesh is an educational tool and does not replace medical references, clinical judgment or a physician’s orders.",
-    eyes: "Dozens of textbook pictures and teaching figures, from the chambers and valves of the heart and the path of blood to the ECG, angiography and stents.",
+    eyes: "Dozens of clinical pictures and teaching figures, from the chambers and valves of the heart and the path of blood to the ECG, angiography and stents.",
     outcomes: [
           "Break every cardiovascular word into prefix, root and suffix and build new words",
           "Name the layers, chambers, valves and great vessels of the heart and the path of blood exactly",
@@ -2052,7 +2052,7 @@
         id: 'vc4', title: "Lesser and greater circulation", icon: '♾️', items: [
           L("Two loops in a figure of eight", `Blood circulates in two loops that meet at the heart:${fig('two-circuits')}${vs(['pulmonary circulation', "pulmonary (lesser) circulation: from the right ventricle to the lungs and back to the left atrium"], ['systemic circulation', "systemic (greater) circulation: from the left ventricle to the whole body and back to the right atrium"])}`),
           M("Which circulation starts at the left ventricle and goes to the whole body?", ['systemic circulation', 'pulmonary circulation', 'coronary circulation', 'fetal circulation'], "systemic = all the body systems."),
-          L("In the textbook picture", `${fig('circulation', '', "Red: oxygen-rich blood (blood high in oxygen); blue: oxygen-poor blood. The upper loop is the pulmonary circulation and the lower loop the systemic circulation.")}In the pulmonary circulation blood <b>takes up oxygen</b> and gives off carbon dioxide; in the systemic circulation blood <b>delivers oxygen to the tissues</b>.${memo("Remember pulmonary through “pulmo”, Latin for lung: pulmon/o means lung.")}`),
+          L("In the standard reference picture", `${fig('circulation', '', "Red: oxygen-rich blood (blood high in oxygen); blue: oxygen-poor blood. The upper loop is the pulmonary circulation and the lower loop the systemic circulation.")}In the pulmonary circulation blood <b>takes up oxygen</b> and gives off carbon dioxide; in the systemic circulation blood <b>delivers oxygen to the tissues</b>.${memo("Remember pulmonary through “pulmo”, Latin for lung: pulmon/o means lung.")}`),
           T("In the pulmonary circulation, blood goes from the left ventricle to the lungs.", false, "False; it goes from the right ventricle to the lungs."),
           O("Order the pulmonary circulation", ['right ventricle', 'pulmonary artery', 'lungs', 'pulmonary veins', 'left atrium'], "From the right ventricle to the left atrium."),
           P("Match each circulation to its feature", [['pulmonary circulation', "taking up oxygen in the lungs"], ['systemic circulation', "delivering oxygen to the tissues"], ['coronary circulation', "blood supply to the heart itself"]]),

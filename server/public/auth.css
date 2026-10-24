@@ -364,3 +364,4 @@ html[lang="en"] .lp-hero h1 { line-height: 1.15; letter-spacing: -.02em; }
 /* صحنه بیرون از دید: انیمیشن‌ها متوقف (lp.js) تا گوشی داغ نکند */
 .lp-anim .sc:not(.is-play) *, .lp-anim .sc:not(.is-play) { animation-play-state: paused !important; }
 @media (prefers-reduced-motion: reduce) { .sc *, .sc { animation: none !important; } .sc-bub span:first-child, .sc-a1, .sc-write, .sc-spo { opacity: 1; } .sc-bar { transform: none; } }
+.cp-refs { margin: 12px 0 0; padding-inline-start: 22px; display: grid; gap: 8px; text-align: left; color: var(--muted); font: 600 14px/1.7 Nunito, Vazirmatn, system-ui, sans-serif; }

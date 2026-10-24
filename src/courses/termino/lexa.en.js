@@ -152,7 +152,7 @@
     <div class="pl__ex">${RX_SAMPLES.map((s, i) => `<button type="button" class="pl__chip" data-rxex="${i}">${L(EA.ui.esc(s.split(' ').slice(0, 2).join(' ')))}</button>`).join('')}</div>
     <div class="rx__out" aria-live="polite">${rxOut()}</div>
     ${EA.ui.figCard({ a: ['prescription-anatomy'], l: ["Parts of a prescription"] })}
-    <p class="muted">The sample prescriptions come from the “Prescription Practice” exercise in chapter 1 of Fremgen. Never take or change a medicine without a physician’s and pharmacist’s instructions.</p></div>`,
+    <p class="muted">The sample prescriptions come from the “Prescription Practice” exercise. Never take or change a medicine without a physician’s and pharmacist’s instructions.</p></div>`,
     click: e => {
       const a = e.target.closest('[data-plex]'), b = e.target.closest('[data-rxex]');
       if (a) { st.w = a.dataset.plex; return true; }
@@ -1759,7 +1759,7 @@
     return svg(360, 262, `${title("Reading a prescription")}${pad}
       ${ex(78, "The prescription sign; Rx means “take”")}${ex(100, "drug name and strength of each tablet")}${ex(136, "label directions (Sig): one tablet")}${f(350, 152, "by mouth (po), three times a day (tid)", { size: 9.2, fill: INK, w: 700, anchor: 'end' })}
       ${ex(168, "dispense 30 (Disp)")}${ex(198, "the prescription can be refilled twice")}${ex(224, "physician’s signature; no prescription without one")}
-      ${f(180, 254, "Sample from chapter 1 of Fremgen; Tagamet reduces stomach acid", { size: 8.6 })}`, "prescription", shadow(sh));
+      ${f(180, 254, "Sample from; Tagamet reduces stomach acid", { size: 8.6 })}`, "prescription", shadow(sh));
   };
 
   A['dose-clock'] = () => {
@@ -1842,7 +1842,7 @@
       {
         id: 'bs1', title: "Why a medical language?", icon: '💬', items: [
           L("A shared language", `${fig('cartoon', [], "When there is no shared language")}${e('<b>medical terminology</b>')} is the precise language of medicine. Instead of “tummy ache, maybe a kidney stone”, physicians, nurses and pharmacists speak with one exact word and understand each other without error.`),
-          L("Words that are built", `Most medical words are built from a few Greek and Latin pieces. Learn the pieces and you can work out thousands of words without memorising them.${pearl("Chapter 1 of Fremgen points out that one spelling mistake or one bad abbreviation in a drug dose can put a patient’s life at risk.")}${memo("Medical language is like a puzzle: few pieces, countless words.")}`),
+          L("Words that are built", `Most medical words are built from a few Greek and Latin pieces. Learn the pieces and you can work out thousands of words without memorising them.${pearl("The standard reference points out that one spelling mistake or one bad abbreviation in a drug dose can put a patient’s life at risk.")}${memo("Medical language is like a puzzle: few pieces, countless words.")}`),
           M("What is the most important reason to learn medical terminology?", ["precise, error-free communication among the care team", "a nicer-looking chart", "hiding the diagnosis from the patient", "shortening drug names"], "A shared language reduces errors.", null, F('cartoon', [])),
           T("Most medical words are built from Greek and Latin pieces.", true, "That is why knowing the pieces lets you work out a new word."),
           M("If you know the pieces of a word…", ["you can work out new words too", "you understand only that one word", "you never need a dictionary again", "pronunciation no longer matters"], "Word building is the key to understanding unfamiliar words."),
@@ -1870,7 +1870,7 @@
       {
         id: 'bs3', title: "From Hippocrates to today", icon: '📜', items: [
           L("The father of medicine", `${fig('hippocratic-oath', ["Hippocratic Oath"], "Hippocratic Oath")}Hippocrates, the Greek physician (460–377 BC), is called “the father of medicine”. He brought order to medicine, and the ${e('<b>Hippocratic Oath</b>')} is still the foundation of medical ethics.`),
-          L("New words are still being made", `${fig('medicine-timeline', [], "Some great steps in medicine")}From the stethoscope in 1816 to the face transplant in 2008, every new discovery has been named with the same ancient pieces, such as ${e('electrocardiogram')}.${pearl("Chapter 1 of Fremgen points out that word building is still the main way new medical discoveries are named.")}`),
+          L("New words are still being made", `${fig('medicine-timeline', [], "Some great steps in medicine")}From the stethoscope in 1816 to the face transplant in 2008, every new discovery has been named with the same ancient pieces, such as ${e('electrocardiogram')}.${pearl("The standard reference points out that word building is still the main way new medical discoveries are named.")}`),
           M("What title is Hippocrates known by?", ["The father of medicine", "discoverer of germs", "inventor of the stethoscope", "the first heart surgeon"], "Hippocrates is called the father of medicine.", null, F('hippocratic-oath', [])),
           O("Put these discoveries in time order", ['stethoscope', 'x-rays', 'penicillin', 'heart transplant'], "1816, 1895, 1928, 1967."),
           T("New medical words are built from the same Greek and Latin roots.", true, "Such as electrocardiogram or laparoscopy."),
@@ -1928,7 +1928,7 @@
       {
         id: 'bs7', title: "word with two or more roots", icon: '🔗', items: [
           L("Two roots in one word", `${fig('word-parts', [], "Five pieces of one word")}A word with more than one root is a ${e('<b>compound word</b>')}: ${e('gastroenterology')} has two roots, stomach and intestine.${fig('english-puzzle', ["English compound words"], "like sunflower in English")}`),
-          L("An example from the textbook", `${fig('gastroduodenostomy', ["stomach and duodenum"], 'gastroduodenostomy')}${wb('gastr/o', 'duoden/o', '-stomy')} → a new opening between the stomach and the duodenum${memo("Read a compound word like two English words stuck together: sun + flower, gastro + entero.")}`),
+          L("An example", `${fig('gastroduodenostomy', ["stomach and duodenum"], 'gastroduodenostomy')}${wb('gastr/o', 'duoden/o', '-stomy')} → a new opening between the stomach and the duodenum${memo("Read a compound word like two English words stuck together: sun + flower, gastro + entero.")}`),
           M("Which word is a compound word?", ['osteoarthritis', 'gastritis', 'arthritis', 'carcinoma'], "It has two roots, oste and arthr.", null, F('word-parts', [])),
           M(`${e('<b>gastroenterology</b>')} means…`, ["study of the stomach and intestines", "inflammation of the stomach and intestines", "removal of the stomach", "stomach pain"], "-logy means study of."),
           T("gastroduodenostomy means making a new opening between the stomach and the duodenum.", true, "-stomy means a new opening.", F('gastroduodenostomy', [])),
@@ -1942,7 +1942,7 @@
       {
         id: 'bs8', title: "Read from the suffix", icon: '🔍', items: [
           L("Three translation steps", `${fig('translate-steps', [], "Three translation steps")}To work out a meaning, read the suffix first, then the prefix and finally the root: ${e('pericarditis')} → inflammation, around, heart → “inflammation around the heart”.`),
-          L("The suffix makes the meaning", `${fig('suffix-puzzle', ["the root, base of the puzzle"], "the root is the base; the suffixes are separate pieces")}With one root and a few suffixes you have several new words: ${e('gastritis')}, ${e('gastralgia')}, ${e('gastrectomy')} and ${e('gastroscopy')}.${pearl("In a case study in Cohen, a 22-year-old student named David had epigastric pain and underwent gastroduodenoscopy; both terms can be worked out with these same three steps.")}`),
+          L("The suffix makes the meaning", `${fig('suffix-puzzle', ["the root, base of the puzzle"], "the root is the base; the suffixes are separate pieces")}With one root and a few suffixes you have several new words: ${e('gastritis')}, ${e('gastralgia')}, ${e('gastrectomy')} and ${e('gastroscopy')}.${pearl("In a case study, a 22-year-old student named David had epigastric pain and underwent gastroduodenoscopy; both terms can be worked out with these same three steps.")}`),
           M("Where do you start when translating a word?", ["suffix", "prefix", "root", "the first letter"], "Suffix first, then prefix, then root.", null, F('translate-steps', [])),
           O("Put the translation steps in order", ['suffix', 'prefix', 'word root'], "Suffix, prefix, root."),
           M(`${e('<b>gastrectomy</b>')} means…`, ["removal of the stomach", "stomach inflammation", "looking inside the stomach", "stomach pain"], "-ectomy means removal."),
@@ -2047,7 +2047,7 @@
       {
         id: 'rt5', title: "Body systems", icon: '🧭', items: [
           L("Eleven systems", `${fig('body-systems', [], "Body systems")}Each system has several organs that work together; for example, ${e('<b>musculoskeletal</b>')} means 206 bones and more than 600 muscles, and ${e('<b>gastrointestinal (GI)</b>')} means the digestive system.`),
-          L("Systems working together", `${fig('diabetic-neuropathy', ["reduced blood supply and nerve damage"], 'diabetic neuropathy')}Systems don’t work alone. In ${e('diabetic neuropathy')}, high blood sugar damages both the vessels and the nerves of the foot.${pearl("Chapter 11 of the Dummies book notes that the body systems work as a team, and a disease of one involves the others too.")}`),
+          L("Systems working together", `${fig('diabetic-neuropathy', ["reduced blood supply and nerve damage"], 'diabetic neuropathy')}Systems don’t work alone. In ${e('diabetic neuropathy')}, high blood sugar damages both the vessels and the nerves of the foot.${pearl("The standard reference notes that the body systems work as a team, and a disease of one involves the others too.")}`),
           M("What is the system of bones and muscles called?", ['musculoskeletal', 'integumentary', 'gastrointestinal', 'genitourinary'], 'muscul/o + skelet/o.', null, F('body-systems', [])),
           M(`${e('<b>integumentary</b>')} refers to the system of…`, ["the skin and its appendages", "digestion", "urine", "of the nerves"], "Skin, hair, nails and glands."),
           P("Match each system to its name", [['gastrointestinal', "of the stomach and intestines"], ['genitourinary', "genital and urinary"], ['musculoskeletal', "muscles and bones"], ['integumentary', "of the skin"]], "System names."),
@@ -2075,7 +2075,7 @@
       /* ================= سطح ۳ ================= */
       {
         id: 'rt7', title: "Colour roots", icon: '🎨', items: [
-          L("Colour palette", `${fig('color-wheel', [], "Colour roots")}${e('erythr/o')} is red, ${e('leuk/o')} white, ${e('cyan/o')} blue, ${e('melan/o')} black and ${e('xanth/o')} yellow.${fig('color-palette', ["palette of colour roots"], "The textbook palette")}`),
+          L("Colour palette", `${fig('color-wheel', [], "Colour roots")}${e('erythr/o')} is red, ${e('leuk/o')} white, ${e('cyan/o')} blue, ${e('melan/o')} black and ${e('xanth/o')} yellow.${fig('color-palette', ["palette of colour roots"], "The colour palette")}`),
           L("Colour on the skin", `${fig('cyanosis-toes', ["bluish toes"], 'cyanosis')}${e('<b>cyanosis</b>')} is bluish skin from lack of oxygen. Yellowing of the skin and eyes is called ${e('<b>jaundice</b>')}.${fig('jaundice', ["yellow skin"], 'jaundice')}${memo("Remember melan/o through melanin, the dark pigment of the skin.")}`),
           M("Which root means blue?", ['cyan/o', 'erythr/o', 'xanth/o', 'leuk/o'], "cyanosis is bluish discolouration.", null, F('color-wheel', [])),
           M(`${e('<b>melanoma</b>')} means…`, ["black tumour of pigment cells", "white blood cell", "yellow skin", "purple spot"], 'melan/o + ‎-oma‎.'),
@@ -2104,7 +2104,7 @@
       {
         id: 'rt9', title: "Bacterial shapes", icon: '🦠', items: [
           L("Round or rod-shaped", `${fig('bacteria-shapes', [], "Bacterial shapes")}A round bacterium is a ${e('<b>coccus</b>')} (plural: cocci) and a rod-shaped one is a ${e('<b>bacillus</b>')} (plural: bacilli). The prefix of the name gives the arrangement: ${e('dipl/o')} in pairs, ${e('staphyl/o')} in grape-like clusters and ${e('strept/o')} in chains.`),
-          L("Bacteria in the textbook", `${fig('bacteria', ["staphylococcus, streptococcus, bacillus…"], "Bacterial shapes")}${pearl("Chapter 3 of Stanfield notes that not all bacteria cause disease; some help us digest food and make yoghurt.")}${fig('tonsillectomy', ["an inflamed tonsil and its removal"], "inflamed tonsil, often from streptococci")}`),
+          L("Bacteria in the standard reference", `${fig('bacteria', ["staphylococcus, streptococcus, bacillus…"], "Bacterial shapes")}${pearl("The standard reference notes that not all bacteria cause disease; some help us digest food and make yoghurt.")}${fig('tonsillectomy', ["an inflamed tonsil and its removal"], "inflamed tonsil, often from streptococci")}`),
           M("A round bacterium that grows in grape-like clusters…", ['staphylococcus', 'streptococcus', 'diplococcus', 'bacillus'], "staphyl/o means cluster.", null, F('bacteria-shapes', [])),
           M(`What shape is ${e('<b>bacillus</b>')}?`, ["rod-shaped", "round", "spiral", "in clusters"], "A bacillus is a rod-shaped bacterium."),
           P("Match each prefix to its arrangement", [['dipl/o', "in pairs"], ['staphyl/o', "in clusters"], ['strept/o', "in chains"], ['bacteri/o', "bacteria"]], "Bacteria names.", F('bacteria', [])),
@@ -2286,7 +2286,7 @@
       {
         id: 'pf1', title: "One, two, three, four", icon: '🔢', items: [
           L("Number prefixes", `${fig('number-prefixes', [], "Number prefixes")}The prefixes ${e('uni-')} and ${e('mono-')} mean one, ${e('bi-')} and ${e('di-')} two, ${e('tri-')} three and ${e('quadri-')} and ${e('tetra-')} four. ${e('unilateral')} means one-sided and ${e('bilateral')} two-sided.`),
-          L("Two cusps, three cusps", `${fig('heart-valves', ["tricuspid and bicuspid valves"], "heart valves from above")}The valve on the right side of the heart has three cusps: the ${e('<b>tricuspid</b>')}. The valve on the left side has two: the ${e('<b>bicuspid</b>')}.${memo("The tri valve is on the right, with the three-lobed right lung; the bi valve is on the left, with the two-lobed left lung. A trick from the Dummies book!")}`),
+          L("Two cusps, three cusps", `${fig('heart-valves', ["tricuspid and bicuspid valves"], "heart valves from above")}The valve on the right side of the heart has three cusps: the ${e('<b>tricuspid</b>')}. The valve on the left side has two: the ${e('<b>bicuspid</b>')}.${memo("The tri valve is on the right, with the three-lobed right lung; the bi valve is on the left, with the two-lobed left lung. A handy trick!")}`),
           M(`${e('<b>bilateral</b>')} means…`, ["on both sides", "on one side", "between the two sides", "behind"], "bi- means two.", null, F('number-prefixes', [])),
           M("Which heart valve has three cusps?", ['tricuspid', 'bicuspid', 'unicuspid', 'quadricuspid'], "tri- means three.", null, F('heart-valves', [])),
           P("Match each prefix to its number", [['uni-', "one"], ['bi-', "two"], ['tri-', "three"], ['quadri-', "four"]], "Number prefixes."),
@@ -2314,7 +2314,7 @@
       {
         id: 'pf3', title: "Before and after", icon: '⏳', items: [
           L("Before, during, after", `${fig('time-prefixes', [], "Time prefixes")}The prefixes ${e('pre-')} and ${e('ante-')} mean before and ${e('post-')} means after: ${e('preoperative')} is before surgery and ${e('postoperative')} after surgery. ${e('neo-')} means new; a ${e('neonate')} is a newborn.${fig('synapse', ["presynaptic cell, synapse and postsynaptic cell"], "presynaptic and postsynaptic")}`),
-          L("before birth", `${fig('fetal-ultrasound', ["fetal ultrasound at 15 weeks"], "prenatal care with ultrasound")}${wb('pre-', 'nat/o', '-al')} → before birth${pearl("In the Cohen case study of a hip fracture, Esther received a painkiller injection before surgery (preoperative), and after surgery (postoperative) her thigh was kept in abduction.")}`),
+          L("before birth", `${fig('fetal-ultrasound', ["fetal ultrasound at 15 weeks"], "prenatal care with ultrasound")}${wb('pre-', 'nat/o', '-al')} → before birth${pearl("In a case study of a hip fracture, Esther received a painkiller injection before surgery (preoperative), and after surgery (postoperative) her thigh was kept in abduction.")}`),
           M(`${e('<b>postoperative</b>')} means…`, ["after surgery", "before surgery", "during surgery", "without surgery"], "post- means after.", null, F('time-prefixes', [])),
           M(`Who is a ${e('<b>neonate</b>')}?`, ["a baby in its first 4 weeks", "a pregnant woman", "a schoolchild", "an older adult"], "neo- means new."),
           O("Put the stages in time order", ['preoperative', 'operation', 'postoperative'], "Before, during, after."),
@@ -2343,7 +2343,7 @@
       {
         id: 'pf5', title: "Injection routes", icon: '💉', items: [
           L("Where does the needle go?", `${fig('injection-routes', [], "Injection routes")}${e('<b>intradermal (ID)</b>')} is into the skin, ${e('<b>subcutaneous</b>')} under the skin into the fat, ${e('<b>intramuscular (IM)</b>')} into the muscle and ${e('<b>intravenous (IV)</b>')} into a vein.`),
-          L("In the textbook", `${fig('injections', ["intravenous, intradermal and intramuscular injection"], "Three kinds of injection")}${e('<b>parenteral</b>')} means giving a drug by any route other than the digestive tract, usually by injection. ${e('<b>hypodermic</b>')} means under the skin; the injection needle is also called a ${e('hypodermic needle')}.${memo("Remember ven/o through “vein”, the blue vessel on the back of your hand.")}`),
+          L("In the standard reference", `${fig('injections', ["intravenous, intradermal and intramuscular injection"], "Three kinds of injection")}${e('<b>parenteral</b>')} means giving a drug by any route other than the digestive tract, usually by injection. ${e('<b>hypodermic</b>')} means under the skin; the injection needle is also called a ${e('hypodermic needle')}.${memo("Remember ven/o through “vein”, the blue vessel on the back of your hand.")}`),
           M("What is an injection into a muscle called?", ['intramuscular', 'intravenous', 'intradermal', 'subcutaneous'], 'intra- + muscul/o + ‎-ar‎.', null, F('injection-routes', [])),
           M(`${e('<b>subcutaneous</b>')} means…`, ["under the skin", "into the skin", "into the vein", "on the skin"], "sub- means below.", null, F('injections', [])),
           P("Match each abbreviation to its injection route", [['IV', "into the vein"], ['IM', "into the muscle"], ['ID', "into the skin"], ['subcut', "under the skin"]], "Injection routes."),
@@ -2462,7 +2462,7 @@
       {
         id: 'rl3', title: "Exceptions", icon: '⚠️', items: [
           L("Rule breakers", `${fig('plural-exceptions', [], "exceptions and pronunciation")}Some words don’t follow the rules: ${e('meatus')} stays ${e('meatus')}, ${e('femur')} becomes ${e('femora')} and ${e('corpus')} becomes ${e('corpora')}.${fig('femur', ["head and neck of the thigh bone"], "femur and femora")}`),
-          L("Numbers and abbreviations", `With a number, a unit of measure is not made plural, so we write ${e('7 cm')} and never ${e('7 cms')}. Capital-letter abbreviations take a small s for the plural: ${e('CVAs')}, ${e('WBCs')}.${pearl("Chapter 4 of the Dummies book notes that English plurals such as carcinomas are becoming more and more accepted.")}${memo("meatus is like “sheep” in English: one sheep, many sheep!")}`),
+          L("Numbers and abbreviations", `With a number, a unit of measure is not made plural, so we write ${e('7 cm')} and never ${e('7 cms')}. Capital-letter abbreviations take a small s for the plural: ${e('CVAs')}, ${e('WBCs')}.${pearl("The standard reference notes that English plurals such as carcinomas are becoming more and more accepted.")}${memo("meatus is like “sheep” in English: one sheep, many sheep!")}`),
           M(`What is the plural of ${e('<b>meatus</b>')}?`, ['meatus', 'meati', 'meatae', 'meatuses'], "An exception; it stays the same.", null, F('plural-exceptions', [])),
           M(`What is the plural of ${e('<b>femur</b>')}?`, ['femora', 'femurs', 'femuri', 'femurae'], "A Latin exception.", null, F('femur', [])),
           P("Match each word to its plural", [['corpus', 'corpora'], ['viscus', 'viscera'], ['iris', 'irides'], ['pons', 'pontes']], "Exceptions."),
@@ -2477,7 +2477,7 @@
       {
         id: 'rl4', title: "Abbreviations and acronyms", icon: '🔡', items: [
           L("Four kinds of short forms", `${fig('word-kinds', [], "Abbreviation, acronym, eponym and symbol")}An ${e('<b>abbreviation</b>')} is read letter by letter (${e('CBC')}). An ${e('<b>acronym</b>')} is read as one word (${e('AIDS')}). Symbols are short forms too: ${e('↑')} increase and ${e('↓')} decrease.`),
-          L("One abbreviation, several meanings", `${tbl([["abbreviation", "Meanings"], [e('AMA'), "against medical advice; American Medical Association"], [e('MS'), "multiple sclerosis; mitral valve stenosis"], [e('BM'), "bowel movement; bone marrow; breast milk…"]])}${pearl("Chapter 4 of the Dummies book notes that only the context of the sentence makes the meaning of an abbreviation clear.")}${memo("If an abbreviation has two meanings, read the context; if you’re still unsure, write it out.")}`),
+          L("One abbreviation, several meanings", `${tbl([["abbreviation", "Meanings"], [e('AMA'), "against medical advice; American Medical Association"], [e('MS'), "multiple sclerosis; mitral valve stenosis"], [e('BM'), "bowel movement; bone marrow; breast milk…"]])}${pearl("The standard reference notes that only the context of the sentence makes the meaning of an abbreviation clear.")}${memo("If an abbreviation has two meanings, read the context; if you’re still unsure, write it out.")}`),
           M(`What kind of short form is ${e('<b>AIDS</b>')}?`, ["acronym", "eponym", "symbol", "sound-alike word"], "It is read as one word.", null, F('word-kinds', [])),
           M(`In a heart patient’s chart, the abbreviation ${e('<b>MS</b>')} most likely means…`, ['mitral stenosis', 'multiple sclerosis', 'morphine sulfate', 'medical student'], "The context decides the meaning."),
           P("Match each abbreviation to its meaning", [['CBC', "complete blood count"], ['MRI', "MRI scan"], ['COPD', "chronic obstructive lung disease"], ['AMA', "against medical advice"]], "Abbreviations."),
@@ -2491,7 +2491,7 @@
       {
         id: 'rl5', title: "Eponyms", icon: '👤', items: [
           L("People’s names on diseases", `${fig('eponym-cards', [], "Eponyms")}An ${e('<b>eponym</b>')} is a disease, sign or instrument named after its discoverer or a place: ${e('Alzheimer disease')}, ${e('Parkinson disease')}, ${e('Down syndrome')} and ${e('Lyme disease')}.`),
-          L("With or without the apostrophe", `Today the apostrophe can be dropped: ${e("Alzheimer's disease")} or ${e('Alzheimer disease')}; both are accepted.${pearl("Chapter 4 of the Dummies book notes that Lyme disease is named after the town of Old Lyme, Connecticut, where it was first reported in 1975.")}${memo("eponym = epi (upon) + onyma (name): a name placed upon something.")}`),
+          L("With or without the apostrophe", `Today the apostrophe can be dropped: ${e("Alzheimer's disease")} or ${e('Alzheimer disease')}; both are accepted.${pearl("The standard reference notes that Lyme disease is named after the town of Old Lyme, Connecticut, where it was first reported in 1975.")}${memo("eponym = epi (upon) + onyma (name): a name placed upon something.")}`),
           M("An eponym is…", ["a name taken from a person or a place", "a word with the opposite meaning", "a sound-alike word", "a multi-letter abbreviation"], 'eponym.', null, F('eponym-cards', [])),
           M("What did Lyme disease get its name from?", ["a town", "a physician", "a tick", "an antibiotic"], 'Old Lyme, Connecticut.'),
           P("Match each eponym to its meaning", [['Alzheimer disease', "progressive brain decline"], ['Parkinson disease', "tremor and muscle stiffness"], ['Down syndrome', "trisomy 21"], ['Apgar score', "newborn score"]], "Eponyms."),
@@ -2534,7 +2534,7 @@
       {
         id: 'rl8', title: "Three look-alike words", icon: '🎯', items: [
           L("peri, pero or periton?", `${fig('peri-pero', [], "peritoneal, perineal, peroneal")}${e('<b>peritoneal</b>')} refers to the peritoneum, the lining inside the abdomen. ${e('<b>perineal</b>')} refers to the area between the legs and ${e('<b>peroneal</b>')} to the outer side of the lower leg.`),
-          L("The textbook trick", `${pearl("Chapter 25 of the Dummies book says: perINeal means IN, between the legs; perONeal means ON, on the lower leg. These three words are famous mix-ups among health-care staff.")}${tbl([["Term", "Location"], [e('peritoneal'), "lining inside the abdomen"], [e('perineal'), "between the legs"], [e('peroneal'), "of the outer lower leg"]])}`),
+          L("The standard reference trick", `${pearl("The standard reference says: perINeal means IN, between the legs; perONeal means ON, on the lower leg. These three words are famous mix-ups among health-care staff.")}${tbl([["Term", "Location"], [e('peritoneal'), "lining inside the abdomen"], [e('perineal'), "between the legs"], [e('peroneal'), "of the outer lower leg"]])}`),
           M(`Where does ${e('<b>peroneal</b>')} refer to?`, ["the outer side of the lower leg", "lining inside the abdomen", "the area between the legs", "around the kidney"], "perONeal: on the lower leg.", null, F('peri-pero', [])),
           M("What is dialysis using the abdominal lining called?", ['peritoneal dialysis', 'perineal dialysis', 'peroneal dialysis', 'pericardial dialysis'], "peritone/o means peritoneum."),
           P("Match each term to its location", [['peritoneal', "lining inside the abdomen"], ['perineal', "between the legs"], ['peroneal', "side of the lower leg"], ['pericardial', "around the heart"]], "Three look-alike words."),
@@ -2548,7 +2548,7 @@
       {
         id: 'rl9', title: "Spelling and long words", icon: '📏', items: [
           L("Tricky spellings", `${fig('spelling-traps', [], "Tricky spellings")}${e('tonsillectomy')} has two l’s, ${e('hemorrhage')} and ${e('diarrhea')} have two r’s and one h, and ${e('ophthalmology')} has both ph and th. The word ${e('pruritus')} is spelled with a u, not an i.`),
-          L("The longest word", `${fig('word-breaker', [], "Breaking down a long word")}Read a long word from the end and break it into pieces. ${e('pneumonoultramicroscopic silicovolcanoconiosis')} is a lung disease caused by very fine volcanic silica dust.${pearl("Chapter 27 of the Dummies book notes that this word has to be broken after microscopic to make it readable.")}${memo("For a long word, ask just three questions: What is its suffix? What is its prefix? What are its roots?")}`),
+          L("The longest word", `${fig('word-breaker', [], "Breaking down a long word")}Read a long word from the end and break it into pieces. ${e('pneumonoultramicroscopic silicovolcanoconiosis')} is a lung disease caused by very fine volcanic silica dust.${pearl("The standard reference notes that this word has to be broken after microscopic to make it readable.")}${memo("For a long word, ask just three questions: What is its suffix? What is its prefix? What are its roots?")}`),
           M("Which spelling is correct?", ['tonsillectomy', 'tonsilectomy', 'tonsilectommy', 'tonsillectommy'], "Two l’s and one m.", null, F('spelling-traps', [])),
           M("Which spelling is correct?", ['hemorrhage', 'hemorage', 'hemmorhage', 'hemorhage'], "Two r’s and one h."),
           P("Match each part to its meaning", [['ot/o', "ear"], ['rhin/o', "nose"], ['laryng/o', "voice box"], ['-logist', "specialist"]], 'otorhinolaryngologist.', F('word-breaker', [])),
@@ -2596,7 +2596,7 @@
       {
         id: 'hs2', title: "The language of notes", icon: '📝', items: [
           L("A real note", `${fig('chart-note', [], "Emergency note")}Notes are full of abbreviations: ${e('y/o')} years old, ${e('c/o')} complaining of, ${e('SOB')} shortness of breath, ${e('R/O')} rule out and ${e('CXR')} chest X-ray.`),
-          L("Parts of the history", `${tbl([["abbreviation", "Meaning"], [e('CC'), "main complaint"], [e('HPI'), "history of present illness"], [e('PMHx'), "past medical history"], [e('ROS'), "review of systems"], [e('HEENT'), "head, eyes, ears, nose, throat"], [e('WNL'), "within normal limits"]])}${pearl("In an emergency note in Stanfield, a 68-year-old man came in with chest pain and SOB, and the note says R/O pneumonia.")}`),
+          L("Parts of the history", `${tbl([["abbreviation", "Meaning"], [e('CC'), "main complaint"], [e('HPI'), "history of present illness"], [e('PMHx'), "past medical history"], [e('ROS'), "review of systems"], [e('HEENT'), "head, eyes, ears, nose, throat"], [e('WNL'), "within normal limits"]])}${pearl("In an emergency note, a 68-year-old man came in with chest pain and SOB, and the note says R/O pneumonia.")}`),
           M(`In a note, ${e('<b>c/o</b>')} means…`, ["complaining of", "caring for", "instead of", "next to"], 'complaining of.', null, F('chart-note', [])),
           M(`${e('<b>R/O pneumonia</b>')} means…`, ["pneumonia must be ruled out or confirmed", "pneumonia is certain", "pneumonia has been treated", "right-sided pneumonia"], 'rule out.'),
           P("Match each abbreviation to its meaning", [['SOB', "shortness of breath"], ['WNL', "within normal limits"], ['NKDA', "no drug allergies"], ['Hx', "history of"]], "Note abbreviations."),
@@ -2610,7 +2610,7 @@
       {
         id: 'hs3', title: "Care settings and confidentiality", icon: '🏥', items: [
           L("Where are patients treated?", `${fig('care-settings', [], "Care settings")}A general hospital (${e('acute care')}) is for short-term treatment, ${e('long-term care')} for extended care, ${e('ambulatory care')} without an overnight stay, and ${e('<b>hospice</b>')} for patients at the end of life and their families.`),
-          L("keeping patient information private", `${e('<b>confidentiality</b>')} means all patient information is private and released only with the patient’s written permission. In the United States, the ${e('HIPAA')} law protects this information.${pearl("Chapter 1 of Fremgen points out that anyone who works with medical terms must fully understand and respect confidentiality.")}${memo("The word ambulatory comes from ambulate, to walk: the patient is up and about and doesn’t stay overnight in hospital.")}`),
+          L("keeping patient information private", `${e('<b>confidentiality</b>')} means all patient information is private and released only with the patient’s written permission. In the United States, the ${e('HIPAA')} law protects this information.${pearl("The standard reference points out that anyone who works with medical terms must fully understand and respect confidentiality.")}${memo("The word ambulatory comes from ambulate, to walk: the patient is up and about and doesn’t stay overnight in hospital.")}`),
           M("Care that doesn’t require an overnight stay…", ['ambulatory care', 'acute care', 'long-term care', 'hospice'], "Outpatient.", null, F('care-settings', [])),
           M("Who is hospice for?", ["patients at the end of life and their families", "premature babies", "injured athletes", "outpatients"], "Supportive care."),
           P("Match each setting to its purpose", [['acute care hospital', "short-term treatment"], ['long-term care', "extended care"], ['rehabilitation', "restoring function after illness"], ['home health care', "care at home"]], "Care settings."),
@@ -2629,7 +2629,7 @@
           M("How many generic names does a drug have?", ["only one", "two", "one per company", "none"], "The generic name is unique.", null, F('drug-names', [])),
           M(`What kind of name is ${e('<b>Advil</b>')}?`, ["brand name", "generic name", "chemical name", "scientific name"], "A brand name of ibuprofen."),
           P("Match each term to its meaning", [['pharmacology', "study of drugs"], ['pharmacist', "expert who prepares and dispenses drugs"], ['over-the-counter', "sold without a prescription"], ['analgesic', "painkiller"]], "Drug terms.", F('pharmacy', [])),
-          T("A generic drug is usually cheaper than a brand-name drug.", true, "According to Fremgen."),
+          T("A generic drug is usually cheaper than a brand-name drug.", true, "According to standard references."),
           B("A drug sold without a prescription is marked with the abbreviation ___.", ['OTC', 'NPO', 'PRN'], 'over-the-counter.'),
           M("Schedule I drugs…", ["have the highest potential for addiction and no accepted medical use", "have the lowest potential for addiction", "are sold without a prescription", "are only vitamins"], "Such as heroin; Schedule V is the lowest."),
           S("Spell the term for a drug that relieves pain", 'analgesic', 'an- + ‎-algesia‎ + ‎-ic‎.', 'analg…'),
@@ -2645,7 +2645,7 @@
           P("Match each abbreviation to its meaning", [['po', "by mouth"], ['SL', "under the tongue"], ['gtt', "drops"], ['OS', "left eye"]], "Routes."),
           T("Disp #30 means take the drug for 30 days.", false, "It means dispense 30 to the patient."),
           B("The label-directions section begins with ___.", ['Sig', 'Rx', 'Disp'], "signa means write."),
-          O("Put the parts of the prescription in order", ['Rx', 'drug and dose', 'Sig', 'Disp', 'refill'], "In the order of the Fremgen example."),
+          O("Put the parts of the prescription in order", ['Rx', 'drug and dose', 'Sig', 'Disp', 'refill'], "In the order of a example."),
           S("Write the abbreviation for “by mouth”", 'po', 'per os.', 'p…'),
           N('ab:hs')
         ]
@@ -2653,7 +2653,7 @@
       {
         id: 'hs6', title: "How often, and what not to write", icon: '⏰', items: [
           L("Dosing frequency", `${fig('dose-clock', [], "Dosing frequency")}${e('bid')} is twice a day, ${e('tid')} three times, ${e('qid')} four times, ${e('q6h')} every 6 hours, ${e('hs')} at bedtime, ${e('ac')} before meals, ${e('pc')} after meals, ${e('prn')} as needed and ${e('stat')} immediately.`),
-          L("Do-not-use abbreviations", `${fig('do-not-use', [], "The Do Not Use list")}${e('qd')} is mistaken for ${e('qid')}, so write daily. ${e('U')} may be read as zero, so write unit. Never write a trailing zero (${e('1.0 mg')}), but a leading zero (${e('0.5 mg')}) is required.${pearl("Chapter 1 of Cohen notes that organisations such as the Joint Commission and ISMP publish lists of do-not-use abbreviations.")}`),
+          L("Do-not-use abbreviations", `${fig('do-not-use', [], "The Do Not Use list")}${e('qd')} is mistaken for ${e('qid')}, so write daily. ${e('U')} may be read as zero, so write unit. Never write a trailing zero (${e('1.0 mg')}), but a leading zero (${e('0.5 mg')}) is required.${pearl("The standard reference notes that organisations such as the Joint Commission and ISMP publish lists of do-not-use abbreviations.")}`),
           M(`${e('<b>qid</b>')} means…`, ["four times a day", "once a day", "every hour", "every other day"], 'quater in die.', null, F('dose-clock', [])),
           M(`Why shouldn’t you write ${e('qd')}?`, ["it is mistaken for qid and the dose is quadrupled", "because it is long", "because it isn’t English", "because it is only for drops"], "Write daily instead.", null, F('do-not-use', [])),
           P("Match each abbreviation to its meaning", [['bid', "twice a day"], ['hs', "at bedtime"], ['ac', "before meals"], ['prn', "as needed"]], "Dosing frequency."),
@@ -2682,7 +2682,7 @@
       {
         id: 'hs8', title: "Imaging and tests", icon: '🩺', items: [
           L("Three imaging methods", `${e('<b>ultrasonography (US)</b>')} makes images with sound waves, ${e('<b>computed tomography (CT)</b>')} with a rotating X-ray beam and ${e('<b>magnetic resonance imaging (MRI)</b>')} with a magnetic field.${fig('mri-brain', ["MRI and CT of the brain"], 'MRI')}`),
-          L("vital signs", `${e('<b>vital signs</b>')} means temperature, pulse, respiration and blood pressure (${e('TPR')} and ${e('BP')}). ${e('CBC')} is the complete blood count.${pearl("In Gary Smith’s history in Stanfield, a CBC and liver tests were ordered for a 35-year-old patient with jaundice.")}${memo("ultrasonography has three pieces: ultra- beyond, son/o sound and -graphy the recording procedure.")}`),
+          L("vital signs", `${e('<b>vital signs</b>')} means temperature, pulse, respiration and blood pressure (${e('TPR')} and ${e('BP')}). ${e('CBC')} is the complete blood count.${pearl("In Gary Smith’s history, a CBC and liver tests were ordered for a 35-year-old patient with jaundice.")}${memo("ultrasonography has three pieces: ultra- beyond, son/o sound and -graphy the recording procedure.")}`),
           M("Which method makes images with sound waves?", ['ultrasonography', 'computed tomography', 'radiography', 'mammography'], "son/o means sound."),
           M(`What are the ${e('<b>vital signs</b>')}?`, ["temperature, pulse, respiration and blood pressure", "sugar, fats and cholesterol", "weight and height", "ECG and EEG"], "TPR and BP."),
           P("Match each abbreviation to its meaning", [['US', "ultrasound scan"], ['CT', "CT scan"], ['MRI', "MRI scan"], ['CBC', "complete blood count"]], "Imaging and tests.", F('mri-brain', [])),
@@ -2695,14 +2695,14 @@
       },
       {
         id: 'hs9', title: "Read the reports", icon: '📑', items: [
-          L("Radiology report", `A radiology report in Stanfield describes 79-year-old Betty Street, who had a ${e('bone scan')} after a fall. Findings: ${e('degenerative')} changes in the lumbar vertebrae and a fracture (${e('FX')}) of the right pubic bone.`),
+          L("Radiology report", `A radiology report describes 79-year-old Betty Street, who had a ${e('bone scan')} after a fall. Findings: ${e('degenerative')} changes in the lumbar vertebrae and a fracture (${e('FX')}) of the right pubic bone.`),
           L("discharge summary", `${tbl([["Section", "Meaning"], [e('HISTORY OF PRESENT ILLNESS'), "history of present illness"], [e('PHYSICAL EXAMINATION'), "examination"], [e('HOSPITAL COURSE'), "hospital course"], [e('DISCHARGE MEDICATIONS'), "discharge medications"], [e('FOLLOW UP'), "follow-up"]])}${memo("In a discharge summary, the headings are the map; find them first, then read the details.")}`),
           M(`In a report, ${e('<b>FX</b>')} means…`, ["fracture", "history of", "finding", "test"], 'fracture.'),
           M("Which section of the discharge summary lists the drugs after the stay?", ['DISCHARGE MEDICATIONS', 'HOSPITAL COURSE', 'PHYSICAL EXAMINATION', 'FOLLOW UP'], "Discharge medications."),
-          O("Put the sections of the discharge summary in order", ['history of present illness', 'physical examination', 'hospital course', 'discharge medications', 'follow up'], "In the order used in Stanfield."),
+          O("Put the sections of the discharge summary in order", ['history of present illness', 'physical examination', 'hospital course', 'discharge medications', 'follow up'], "In the standard order."),
           P("Match each abbreviation to its meaning", [['FX', "fracture"], ['Hx', "history of"], ['ED', "emergency department"], ['IV', "intravenously"]], "Report abbreviations."),
           T("degenerative means wearing down and progressive.", true, "As in degenerative changes in the spine."),
-          B("The order “one tablet by mouth every 8 hours” on a prescription: one ___ q 8 hours.", ['p.o.', 'IV', 'SL'], "In the textbook’s discharge summary: Augmentin, one p.o. q. 8 hours."),
+          B("The order “one tablet by mouth every 8 hours” on a prescription: one ___ q 8 hours.", ['p.o.', 'IV', 'SL'], "In the standard reference’s discharge summary: Augmentin, one p.o. q. 8 hours."),
           S("Spell the term for a broken bone", 'fracture', 'Fx.', 'frac…'),
           N('ab:hs')
         ]
@@ -2977,7 +2977,7 @@
     /* ================= الفبای زبان پزشکی ================= */
     {
       id: 'r1', w: 'bs', title: "A student’s heartburn", who: "David, a 22-year-old student",
-      brief: "In a Cohen case study, David, a 22-year-old student, has had a burning pain in the middle of his chest at night for four months. The examination notes say: epigastric pain, orthopnea and occasional dysphagia. He was referred to a gastroenterologist for possible GERD and underwent EGD.",
+      brief: "In a case study, David, a 22-year-old student, has had a burning pain in the middle of his chest at night for four months. The examination notes say: epigastric pain, orthopnea and occasional dysphagia. He was referred to a gastroenterologist for possible GERD and underwent EGD.",
       chart: [['Age', '22 y/o'], ['CC', 'epigastric pain, heartburn'], ['Sx', 'orthopnea, dysphagia'], ['Referral', 'gastroenterologist'], ['Test', 'barium swallow, EGD']],
       fig: { a: 'translate-steps', l: [] },
       steps: [
@@ -2993,7 +2993,7 @@
     },
     {
       id: 'r2', w: 'bs', title: "A history with yellow skin", who: "Gary Smith, a 35-year-old man",
-      brief: "In a history and physical (H&P) in Stanfield, Gary Smith came in with fatigue, sore throat, muscle pain and itchy skin. His eyes and skin are yellow, his liver is enlarged and tender, and he is post-tonsillectomy from childhood. The physician suspected hepatitis and ordered a CBC and liver tests.",
+      brief: "In a history and physical (H&P), Gary Smith came in with fatigue, sore throat, muscle pain and itchy skin. His eyes and skin are yellow, his liver is enlarged and tender, and he is post-tonsillectomy from childhood. The physician suspected hepatitis and ordered a CBC and liver tests.",
       chart: [['Age', '35'], ['HEENT', 'eyes jaundiced; throat red'], ['GI', 'tender, enlarged liver'], ['Hx', 'post-tonsillectomy at age 10'], ['Plan', 'CBC, liver function, Hep A/B/C']],
       fig: { a: 'hepatomegaly', l: ["A big liver"] },
       steps: [
@@ -3008,7 +3008,7 @@
     },
     {
       id: 'r3', w: 'bs', title: "Follow-up at the office", who: "Maria Brown, a 64-year-old woman",
-      brief: "In an office note in Stanfield, Maria Brown came for follow-up of gastralgia and aphasia (left over from an earlier stroke). A week ago she had an EGD, and a bleeding stomach ulcer was brought to hemostasis with cautery. Her gastralgia has now resolved, and peristalsis is heard in all four quadrants of the abdomen.",
+      brief: "In an office note, Maria Brown came for follow-up of gastralgia and aphasia (left over from an earlier stroke). A week ago she had an EGD, and a bleeding stomach ulcer was brought to hemostasis with cautery. Her gastralgia has now resolved, and peristalsis is heard in all four quadrants of the abdomen.",
       chart: [['Age', '64'], ['Follow-up', 'gastralgia, aphasia'], ['EGD', 'bleeding gastric ulcer; cautery'], ['Now', 'gastralgia ceased; peristalsis present']],
       fig: { a: 'gastralgia', l: ["stomach ache"] },
       steps: [
@@ -3024,7 +3024,7 @@
     /* ================= ریشه‌ها ================= */
     {
       id: 'r4', w: 'rt', title: "Arthritic knees", who: "Greg, a 68-year-old man",
-      brief: "In Case Study 1-1 in Cohen, Greg is complaining of (c/o) bilateral knee discomfort that gets worse before rain. He takes NSAIDs prn but hasn’t improved. He tore his ACL in college, and he takes Lipitor for hyperlipidemia. His family physician referred him to an orthopedic surgeon.",
+      brief: "In Case Study 1-1, Greg is complaining of (c/o) bilateral knee discomfort that gets worse before rain. He takes NSAIDs prn but hasn’t improved. He tore his ACL in college, and he takes Lipitor for hyperlipidemia. His family physician referred him to an orthopedic surgeon.",
       chart: [['Age', '68 y/o'], ['CC', 'bilateral knee discomfort'], ['Meds', 'NSAIDs prn; Lipitor 10 mg'], ['Hx', 'torn ACL'], ['X-ray', 'joint space narrowing, R > L']],
       fig: { a: 'tissue-layers', l: [] },
       steps: [
@@ -3040,7 +3040,7 @@
     },
     {
       id: 'r5', w: 'rt', title: "A hairdresser’s difficult breathing", who: "Sally, a 54-year-old woman",
-      brief: "In Case Study 1-2 in Cohen, Sally has dyspnea that was first put down to LUL pneumonia. She didn’t improve on antibiotics, and a small pneumothorax was seen on the X-ray. Dr. Williams, a pulmonologist, performed bronchoscopy and biopsy. She is a hairdresser, and the fumes from hair and nail products make her short of breath.",
+      brief: "In Case Study 1-2, Sally has dyspnea that was first put down to LUL pneumonia. She didn’t improve on antibiotics, and a small pneumothorax was seen on the X-ray. Dr. Williams, a pulmonologist, performed bronchoscopy and biopsy. She is a hairdresser, and the fumes from hair and nail products make her short of breath.",
       chart: [['Age', '54 y/o'], ['CC', 'dyspnea'], ['CXR', 'small LUL pneumothorax'], ['Sputum', 'purulent'], ['Tests', 'bronchoscopy, biopsy (negative)']],
       fig: { a: 'trunk-roots', l: [] },
       steps: [
@@ -3056,7 +3056,7 @@
     },
     {
       id: 'r6', w: 'rt', title: "Heatstroke and a suspicious mole", who: "a 33-year-old construction worker",
-      brief: "In a dermatology consultation in Stanfield, a 33-year-old worker was admitted with heatstroke and dehydration and given IV fluids. On examination, an irregular 3 × 5 cm lesion, red to black with poorly defined borders, was seen on his right thigh. Dr. Henri Adams, a dermatologist, wrote: R/O melanoma and Bx.",
+      brief: "In a dermatology consultation, a 33-year-old worker was admitted with heatstroke and dehydration and given IV fluids. On examination, an irregular 3 × 5 cm lesion, red to black with poorly defined borders, was seen on his right thigh. Dr. Henri Adams, a dermatologist, wrote: R/O melanoma and Bx.",
       chart: [['Age', '33'], ['Admit', 'heat stroke, dehydration'], ['Allergies', 'NKA'], ['Skin', 'irregular lesion R thigh'], ['Impression', 'R/O melanoma; Bx']],
       fig: { a: 'color-wheel', l: [] },
       steps: [
@@ -3071,8 +3071,8 @@
     },
     /* ================= پسوندها ================= */
     {
-      id: 'r7', w: 'sf', title: "Word-building orders", who: "The word-building exercise in Fremgen",
-      brief: "In the “Building Medical Terms” exercise in chapter 1 of Fremgen, you must use the right root and suffix to build words for abnormal softening of the heart, a surgical opening into the stomach, repair of the nose, the study of disease, a nerve tumour and inflammation of the ear, as in the textbook example: splen/o + -megaly = splenomegaly.",
+      id: 'r7', w: 'sf', title: "Word-building orders", who: "The word-building exercise",
+      brief: "In the “Building Medical Terms” exercise, you must use the right root and suffix to build words for abnormal softening of the heart, a surgical opening into the stomach, repair of the nose, the study of disease, a nerve tumour and inflammation of the ear, as in the standard reference example: splen/o + -megaly = splenomegaly.",
       chart: [['Example', 'splenomegaly'], ['Task 1', 'softening of the heart'], ['Task 2', 'opening into the stomach'], ['Task 3', 'repair of the nose'], ['Task 4', 'nerve tumor']],
       fig: { a: 'suffix-families', l: [] },
       steps: [
@@ -3088,7 +3088,7 @@
     },
     {
       id: 'r8', w: 'sf', title: "A bone scan report", who: "Betty Street, a 79-year-old woman",
-      brief: "In a radiology report in Stanfield, Betty Street had a whole-body bone scan after a fall and low back pain. Findings: degenerative changes in the lower T and L vertebrae, no sign of metastatic disease or compression FX, and traumatic fractures of the upper and lower branches of the right pubic bone.",
+      brief: "In a radiology report, Betty Street had a whole-body bone scan after a fall and low back pain. Findings: degenerative changes in the lower T and L vertebrae, no sign of metastatic disease or compression FX, and traumatic fractures of the upper and lower branches of the right pubic bone.",
       chart: [['Age', '79'], ['Dx', 'cervical FX'], ['Study', 'bone scan, total body, A/P views'], ['Hx', 'fall and back pain'], ['Findings', 'degenerative changes; traumatic fractures']],
       fig: { a: 'spine-vertebrae', l: ["The spine"] },
       steps: [
@@ -3103,7 +3103,7 @@
     },
     {
       id: 'r9', w: 'sf', title: "A swollen finger", who: "a 28-year-old photocopier technician",
-      brief: "In a discharge summary in Stanfield, a 28-year-old man had a week of pain and swelling in the tip (distal phalanx) of his right index finger. His distal interphalangeal joint was aspirated and he was admitted for IV antibiotics. His WBC on admission was 13,600 and the C&S stayed negative. He was discharged on Augmentin, one p.o. q. 8 hours.",
+      brief: "In a discharge summary, a 28-year-old man had a week of pain and swelling in the tip (distal phalanx) of his right index finger. His distal interphalangeal joint was aspirated and he was admitted for IV antibiotics. His WBC on admission was 13,600 and the C&S stayed negative. He was discharged on Augmentin, one p.o. q. 8 hours.",
       chart: [['Age', '28'], ['HPI', 'pain, swelling R index distal phalanx'], ['PE', 'soft tissue swelling, erythema'], ['Lab', 'WBC 13,600; C&S negative'], ['D/C meds', 'Augmentin p.o. q 8 h × 7 days']],
       fig: { a: 'hand-phalanges', l: ["Finger bones"] },
       steps: [
@@ -3119,7 +3119,7 @@
     /* ================= پیشوندها ================= */
     {
       id: 'r10', w: 'pf', title: "A broken hip", who: "Esther, a 72-year-old woman",
-      brief: "In Case Study 1-3 in Cohen, Esther, who already had osteoporosis, fell on a kerb and broke the neck of her right femur. She received an analgesic before surgery (preoperative), had a bipolar hemiarthroplasty under spinal anesthesia with intravenous antibiotics, and after surgery (postoperative) her thigh was kept in abduction.",
+      brief: "In Case Study 1-3, Esther, who already had osteoporosis, fell on a kerb and broke the neck of her right femur. She received an analgesic before surgery (preoperative), had a bipolar hemiarthroplasty under spinal anesthesia with intravenous antibiotics, and after surgery (postoperative) her thigh was kept in abduction.",
       chart: [['Age', '72 y/o'], ['Hx', 'pre-existing osteoporosis'], ['Dx', 'displaced fracture, R femoral neck'], ['Surgery', 'bipolar hemiarthroplasty'], ['Postop', 'hip in abduction; PT']],
       fig: { a: 'femur', l: ["femoral neck"] },
       steps: [
@@ -3135,7 +3135,7 @@
     },
     {
       id: 'r11', w: 'pf', title: "Position the patient correctly", who: "Patient-positioning exercise",
-      brief: "Based on the “Terms for Directions and Positions” table in Stanfield, you are the operating-room technologist and must place several patients in the right position for different procedures: one supine, one prone, one half sitting, one with the head lowered and one on the left side.",
+      brief: "Based on the “Terms for Directions and Positions” table, you are the operating-room technologist and must place several patients in the right position for different procedures: one supine, one prone, one half sitting, one with the head lowered and one on the left side.",
       chart: [['Bed 1', 'supine'], ['Bed 2', 'prone'], ['Bed 3', 'Fowler'], ['Bed 4', 'Trendelenburg'], ['Bed 5', 'Sims']],
       fig: { a: 'patient-positions', l: [] },
       steps: [
@@ -3165,8 +3165,8 @@
     },
     /* ================= قواعد و تله‌ها ================= */
     {
-      id: 'r13', w: 'rl', title: "Plurals in the chart", who: "The “Making Plurals” exercise in Fremgen",
-      brief: "In the Making Plurals exercise in chapter 1 of Fremgen and the case-study questions in Cohen, you have to write the plurals of chart terms: diagnosis, diverticulum, bursa, bronchus and artery. Look at the ending of each word before you write.",
+      id: 'r13', w: 'rl', title: "Plurals in the chart", who: "The “Making Plurals” exercise",
+      brief: "In the Making Plurals exercise and the case-study questions, you have to write the plurals of chart terms: diagnosis, diverticulum, bursa, bronchus and artery. Look at the ending of each word before you write.",
       chart: [['1', 'diagnosis'], ['2', 'diverticulum'], ['3', 'bursa'], ['4', 'bronchus'], ['5', 'artery']],
       fig: { a: 'plural-rules', l: [] },
       steps: [
@@ -3181,8 +3181,8 @@
       ]
     },
     {
-      id: 'r14', w: 'rl', title: "Ambiguous abbreviations", who: "The acronym exercise in the Dummies book",
-      brief: "Chapter 4 of the Dummies book notes that one acronym can have several meanings: AMA, CAT, ECT and MRI each have two or three, and BM even more. You have to find the meaning of each from the context.",
+      id: 'r14', w: 'rl', title: "Ambiguous abbreviations", who: "The acronym exercise",
+      brief: "The standard reference notes that one acronym can have several meanings: AMA, CAT, ECT and MRI each have two or three, and BM even more. You have to find the meaning of each from the context.",
       chart: [['AMA', 'patient left AMA'], ['MS', 'cardiac murmur, MS'], ['ECT', 'severe depression, ECT'], ['BM', 'no BM since yesterday']],
       fig: { a: 'word-kinds', l: [] },
       steps: [
@@ -3197,7 +3197,7 @@
     },
     {
       id: 'r15', w: 'rl', title: "Traps in a nursing note", who: "Sound-alike exercise",
-      brief: "Based on the “Troublesome Soundalikes” table in the Dummies book, you are reviewing a nursing note in which several sound-alike words have been written wrongly. You must decide which word is correct.",
+      brief: "Based on the “Troublesome Soundalikes” table, you are reviewing a nursing note in which several sound-alike words have been written wrongly. You must decide which word is correct.",
       chart: [['Line 1', 'difficulty swallowing'], ['Line 2', 'heart pounding'], ['Line 3', 'itching of arms'], ['Line 4', 'pain at fibula side of leg']],
       fig: { a: 'soundalikes', l: [] },
       steps: [
@@ -3212,8 +3212,8 @@
     },
     /* ================= در بیمارستان ================= */
     {
-      id: 'r16', w: 'hs', title: "Four prescriptions", who: "The “Prescription Practice” exercise in Fremgen",
-      brief: "In the Prescription Practice exercise in chapter 1 of Fremgen, you have to write out four prescriptions in plain language. The drugs are Pravachol, Lanoxin, Synthroid and Norvasc, and the full text of each prescription is in the patient’s chart.",
+      id: 'r16', w: 'hs', title: "Four prescriptions", who: "The “Prescription Practice” exercise",
+      brief: "In the Prescription Practice exercise, you have to write out four prescriptions in plain language. The drugs are Pravachol, Lanoxin, Synthroid and Norvasc, and the full text of each prescription is in the patient’s chart.",
       chart: [['Rx 1', 'Pravachol 20 mg, i q noc, #30, refill 3x, no sub'], ['Rx 2', 'Lanoxin 0.125 mg, iii stat, then ii q am, #100'], ['Rx 3', 'Synthroid 0.075 mg, i daily, #100, refill x4'], ['Rx 4', 'Norvasc 5 mg, i q am, #60, 0 refills']],
       fig: { a: 'prescription-anatomy', l: [] },
       steps: [
@@ -3228,7 +3228,7 @@
     },
     {
       id: 'r17', w: 'hs', title: "A dehydrated older woman", who: "a 92-year-old woman",
-      brief: "In a progress note in Stanfield, a 92-year-old woman with dehydration is a little better. Her medications: D5W @ 100 cc/hr I.V., Biaxin 500 mg PO q12 hr for sinusitis, Omeprazole 20 mg PO daily for GERD and Xalatan drops 2 gtt in OS and OD for glaucoma. If she keeps improving, she will be D/C to LTC.",
+      brief: "In a progress note, a 92-year-old woman with dehydration is a little better. Her medications: D5W @ 100 cc/hr I.V., Biaxin 500 mg PO q12 hr for sinusitis, Omeprazole 20 mg PO daily for GERD and Xalatan drops 2 gtt in OS and OD for glaucoma. If she keeps improving, she will be D/C to LTC.",
       chart: [['Age', '92'], ['Dx', 'dehydration'], ['IV', 'D5W @ 100 cc/hr'], ['Meds', 'Biaxin PO q12 hr; Omeprazole PO daily; Xalatan 2 gtt OS/OD'], ['Plan', 'D/C to LTC']],
       fig: { a: 'route-abbr', l: [] },
       steps: [
@@ -3243,7 +3243,7 @@
     },
     {
       id: 'r18', w: 'hs', title: "A three-week cold", who: "a 68-year-old man in the emergency department",
-      brief: "In an emergency note in Stanfield, a 68-year-old man came in with angina and SOB. He has had a “cold” for three weeks with a cough producing green phlegm, fever up to 102.4, malaise and diaphoresis. A bedside EKG is normal. Impression: R/O pneumonia. Plan: CXR AP/Lateral, CBC, chem panel and cardiac enzymes three times over three hours.",
+      brief: "In an emergency note, a 68-year-old man came in with angina and SOB. He has had a “cold” for three weeks with a cough producing green phlegm, fever up to 102.4, malaise and diaphoresis. A bedside EKG is normal. Impression: R/O pneumonia. Plan: CXR AP/Lateral, CBC, chem panel and cardiac enzymes three times over three hours.",
       chart: [['Age', '68'], ['CC', 'angina, SOB'], ['T', '102.4'], ['EKG', 'normal'], ['Plan', 'CXR AP/Lat, CBC, chem panel, cardiac enzymes × 3']],
       fig: { a: 'chart-note', l: [] },
       steps: [

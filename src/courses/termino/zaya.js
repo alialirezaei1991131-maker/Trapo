@@ -1594,7 +1594,7 @@
       {
         id: 'lx1', title: 'دو دستگاه، یک هدف', icon: '🌸', items: [
           L('گنادها و گامت‌ها', `${fig('repro-overview', [], 'دستگاه تولیدمثل زنانه و مردانه')}${e('<b>gonad</b>')} (غده جنسی) هم یاخته جنسی می‌سازد و هم هورمون:<br>• زن: ${e('<b>ovary</b>')} (تخمدان) ← ${e('<b>ovum</b>')} (تخمک)<br>• مرد: ${e('<b>testis</b>')} (بیضه) ← ${e('<b>spermatozoon</b>')} (اسپرم)<br>این دو ${e('gamete')} هر کدام ۲۳ کروموزوم دارند و از پیوندشان ${e('<b>zygote</b>')} ساخته می‌شود.`),
-          L('متخصص‌ها', `${tbl([['متخصص', 'کار'], [e('gynecologist (GYN)'), 'بیماری‌های دستگاه تناسلی زنانه'], [e('obstetrician (OB)'), 'بارداری و زایمان'], [e('urologist'), 'دستگاه ادراری و تناسلی مردانه'], [e('neonatologist'), 'نوزادان']])}${memo('gynec/o یعنی زن؛ OB-GYN یعنی «زنان و زایمان».')}${pearl('در Case Study کتاب Cohen، Dexter برای BPH پیش urologist رفت و Abigail را obstetrician برای سزارین به اتاق عمل فرستاد.')}`),
+          L('متخصص‌ها', `${tbl([['متخصص', 'کار'], [e('gynecologist (GYN)'), 'بیماری‌های دستگاه تناسلی زنانه'], [e('obstetrician (OB)'), 'بارداری و زایمان'], [e('urologist'), 'دستگاه ادراری و تناسلی مردانه'], [e('neonatologist'), 'نوزادان']])}${memo('gynec/o یعنی زن؛ OB-GYN یعنی «زنان و زایمان».')}${pearl('در Case Study، Dexter برای BPH پیش urologist رفت و Abigail را obstetrician برای سزارین به اتاق عمل فرستاد.')}`),
           M('غده جنسی زنانه کدام است؟', ['ovary', 'uterus', 'testis', 'placenta'], 'gonad زن = تخمدان.', null, F('repro-overview', [])),
           M(`${e('<b>gynecologist</b>')} کیست؟`, ['متخصص بیماری‌های دستگاه تناسلی زنانه', 'متخصص زایمان', 'متخصص نوزادان', 'متخصص اورولوژی'], 'gynec/o + -logist.'),
           T('تخمک و اسپرم هر کدام ۲۳ کروموزوم دارند.', true, 'گامت‌ها نیمه‌کروموزوم دارند.'),
@@ -1651,7 +1651,7 @@
       {
         id: 'lx5', title: 'ریشه‌های مردانه', icon: '🔷', items: [
           L('نقشه ریشه‌ها', `${fig('root-map-m', [], 'ریشه‌های مردانه')}${tbl([['ریشه', 'معنی'], [e('orchi/o, orchid/o, test/o'), 'بیضه'], [e('osche/o, scrot/o'), 'کیسه بیضه'], [e('epididym/o'), 'اپیدیدیم'], [e('vas/o'), 'مجرای دفران'], [e('prostat/o'), 'پروستات'], [e('balan/o'), 'حشفه']])}`),
-          L('اسپرم و منی', `• اسپرم: ${e('spermat/o')} و ${e('sperm/o')}<br>• منی: ${e('semin/o')}<br>• کیسه منی: ${e('vesicul/o')}<br>${wb('spermat/o', '-genesis')} ← ${e('<b>spermatogenesis</b>')}: اسپرم‌سازی${memo('orchid (ارکیده) از واژه یونانی بیضه آمده؛ شکل ریشه‌اش شبیه بیضه است!')}${pearl('در پرونده Pearson، <bdi dir="ltr">“failure of the testes to descend”</bdi> یعنی cryptorchidism و <bdi dir="ltr">“surgical fixation of the testes”</bdi> یعنی orchiopexy.')}`),
+          L('اسپرم و منی', `• اسپرم: ${e('spermat/o')} و ${e('sperm/o')}<br>• منی: ${e('semin/o')}<br>• کیسه منی: ${e('vesicul/o')}<br>${wb('spermat/o', '-genesis')} ← ${e('<b>spermatogenesis</b>')}: اسپرم‌سازی${memo('orchid (ارکیده) از واژه یونانی بیضه آمده؛ شکل ریشه‌اش شبیه بیضه است!')}${pearl('در پرونده، <bdi dir="ltr">“failure of the testes to descend”</bdi> یعنی cryptorchidism و <bdi dir="ltr">“surgical fixation of the testes”</bdi> یعنی orchiopexy.')}`),
           M(`ریشه ${e('<b>orchi/o</b>')} یعنی…`, ['بیضه', 'پروستات', 'آلت', 'کیسه منی'], 'orchitis = التهاب بیضه.', null, F('root-map-m', [])),
           M('کدام ریشه یعنی «حشفه»؟', ['balan/o', 'vas/o', 'semin/o', 'osche/o'], 'balanitis.'),
           T('vas/o در vasectomy به مجرای دفران اشاره دارد.', true, 'vas deferens.'),
@@ -1708,7 +1708,7 @@
       {
         id: 'lx9', title: 'دام‌های همزاد', icon: '🪤', items: [
           L('یک حرف، دو معنی', `${fig('twins', [], 'جفت‌های فریبنده')}${vs(['men/o', 'قاعدگی'], ['metr/o', 'رحم'])}${vs(['-rrhea', 'جریان، ترشح'], ['-rrhagia', 'خونریزی شدید'])}`),
-          L('بارداری یا زایمان؟', `${vs(['gravida', 'تعداد بارداری‌ها'], ['para', 'تعداد زایمان‌های زنده‌ماندنی'])}${vs(['-tomy', 'برش'], ['-ectomy', 'برداشتن'])}${memo('حرف G را با Got pregnant (باردار شد) و حرف P را با Produced a baby (بچه به دنیا آورد) به خاطر بسپار.')}${pearl('در Chart Note کتاب Gylys، بیمار G4 P4 است؛ یعنی چهار بارداری و چهار زایمان زنده.')}`),
+          L('بارداری یا زایمان؟', `${vs(['gravida', 'تعداد بارداری‌ها'], ['para', 'تعداد زایمان‌های زنده‌ماندنی'])}${vs(['-tomy', 'برش'], ['-ectomy', 'برداشتن'])}${memo('حرف G را با Got pregnant (باردار شد) و حرف P را با Produced a baby (بچه به دنیا آورد) به خاطر بسپار.')}${pearl('در Chart Note، بیمار G4 P4 است؛ یعنی چهار بارداری و چهار زایمان زنده.')}`),
           M('menorrhagia یعنی…', ['خونریزی شدید قاعدگی', 'نبود قاعدگی', 'خونریزی بین قاعدگی‌ها', 'قاعدگی دردناک'], 'men/o + -rrhagia.', null, F('twins', [])),
           M('metrorrhagia یعنی…', ['خونریزی رحم بین قاعدگی‌ها', 'خونریزی شدید هنگام قاعدگی', 'ترشح سفید', 'نبود قاعدگی'], 'metr/o = رحم.'),
           T('G3 P2 یعنی سه بار باردار شده و دو زایمان زنده‌ماندنی داشته است.', true, 'gravida و para.'),
@@ -1755,7 +1755,7 @@
       {
         id: 'fm2', title: 'دیواره و جایگاه رحم', icon: '🧱', items: [
           L('سه لایه', `${fig('uterine-wall', [], 'دیواره رحم')}• ${e('<b>perimetrium</b>')}: لایه بیرونی<br>• ${e('<b>myometrium</b>')}: لایه عضلانی؛ انقباض‌های زایمان<br>• ${e('<b>endometrium</b>')}: لایه درونی؛ هر ماه ضخیم می‌شود و در قاعدگی می‌ریزد`),
-          L('جایگاه رحم', `${fig('uterine-positions', ['خم شدن رحم به جلو و عقب'], 'جایگاه‌های رحم')}رحم معمولاً روی مثانه به جلو خم است: ${e('anteflexion')} و ${e('anteversion')}. اگر به عقب خم شود: ${e('<b>retroversion</b>')} یا ${e('retroflexion')}.${pearl('سناریوی APPLY کتاب: به خانم Rosie McConnell گفته‌اند <bdi dir="ltr">“retroverted uterus and fibroids”</bdi> دارد؛ یعنی رحم برگشته به عقب و فیبروم.')}`),
+          L('جایگاه رحم', `${fig('uterine-positions', ['خم شدن رحم به جلو و عقب'], 'جایگاه‌های رحم')}رحم معمولاً روی مثانه به جلو خم است: ${e('anteflexion')} و ${e('anteversion')}. اگر به عقب خم شود: ${e('<b>retroversion</b>')} یا ${e('retroflexion')}.${pearl('سناریوی APPLY: به خانم Rosie McConnell گفته‌اند <bdi dir="ltr">“retroverted uterus and fibroids”</bdi> دارد؛ یعنی رحم برگشته به عقب و فیبروم.')}`),
           M('لایه عضلانی رحم کدام است؟', ['myometrium', 'endometrium', 'perimetrium', 'cervix'], 'my/o = عضله.', null, F('uterine-wall', [])),
           M('کدام لایه در قاعدگی می‌ریزد؟', ['endometrium', 'myometrium', 'perimetrium', 'ovary'], 'پوشش درونی.'),
           T('retroversion یعنی خم شدن رحم به عقب.', true, 'retro- = عقب.', F('uterine-positions', [])),
@@ -1769,7 +1769,7 @@
       {
         id: 'fm3', title: 'مقطع کناری لگن زن', icon: '🔎', items: [
           L('همسایه‌ها', `${fig('female-sagittal', [], 'مقطع لگن زن')}رحم بین ${e('<b>urinary bladder</b>')} (جلو) و ${e('<b>rectum</b>')} (عقب) است. فضای بین رحم و راست‌روده ${e('<b>rectouterine pouch</b>')} یا ${e('cul-de-sac')} نام دارد (${e('culd/o')}).`),
-          L('دهانه رحم و واژن', `${e('<b>cervix</b>')} پایین رحم است و به ${e('vagina')} باز می‌شود؛ مجرای آن ${e('cervical canal')} است. در زایمان دهانه رحم نازک (${e('effacement')}) و باز (${e('dilation')}) می‌شود.${memo('cervix یعنی «گردن»؛ گردن رحم که به واژن می‌رسد.')}${pearl('در سناریوی کتاب، پزشک برای خانم Charity Peterson <bdi dir="ltr">“culdoscopy”</bdi> خواست؛ یعنی مشاهده بن‌بست رحمی-رکتومی با اسکوپ.')}`),
+          L('دهانه رحم و واژن', `${e('<b>cervix</b>')} پایین رحم است و به ${e('vagina')} باز می‌شود؛ مجرای آن ${e('cervical canal')} است. در زایمان دهانه رحم نازک (${e('effacement')}) و باز (${e('dilation')}) می‌شود.${memo('cervix یعنی «گردن»؛ گردن رحم که به واژن می‌رسد.')}${pearl('در یک سناریوی بالینی، پزشک برای خانم Charity Peterson <bdi dir="ltr">“culdoscopy”</bdi> خواست؛ یعنی مشاهده بن‌بست رحمی-رکتومی با اسکوپ.')}`),
           M('کدام عضو جلوی رحم قرار دارد؟', ['مثانه', 'راست‌روده', 'کلیه', 'تخمدان'], 'bladder.', null, F('female-sagittal', [])),
           M('ریشه culd/o به کدام فضا اشاره دارد؟', ['بن‌بست رحمی-رکتومی', 'دهانه رحم', 'لوله رحم', 'واژن'], 'cul-de-sac.'),
           T('مثانه جلوی رحم و راست‌روده پشت آن است.', true, 'مقطع ساجیتال.'),
@@ -1811,7 +1811,7 @@
       },
       {
         id: 'fm6', title: 'یک بیمار، یک تاریخچه', icon: '📋', items: [
-          L('خواندن پرونده', `${pearl('سناریوی APPLY کتاب: خانم Pamela Kline، ۴۰ ساله، می‌گوید پنج بار باردار شده، از آخرین بارداری مایع کشیده‌اند، التهاب واژن و دهانه رحم داشته، فتق لوله رحم داشته که ترمیم شده و رحم، تخمدان‌ها و لوله‌هایش برداشته شده است.')}${tbl([['عبارت', 'واژه پزشکی'], ['پنج بارداری', e('gravida 5')], ['کشیدن مایع آمنیوتیک', e('amniocentesis')], ['التهاب واژن و دهانه رحم', e('vaginitis, cervicitis')], ['فتق لوله رحم', e('salpingocele')], ['برداشتن رحم، تخمدان‌ها و لوله‌ها', e('TAH-BSO')]])}`),
+          L('خواندن پرونده', `${pearl('سناریوی APPLY: خانم Pamela Kline، ۴۰ ساله، می‌گوید پنج بار باردار شده، از آخرین بارداری مایع کشیده‌اند، التهاب واژن و دهانه رحم داشته، فتق لوله رحم داشته که ترمیم شده و رحم، تخمدان‌ها و لوله‌هایش برداشته شده است.')}${tbl([['عبارت', 'واژه پزشکی'], ['پنج بارداری', e('gravida 5')], ['کشیدن مایع آمنیوتیک', e('amniocentesis')], ['التهاب واژن و دهانه رحم', e('vaginitis, cervicitis')], ['فتق لوله رحم', e('salpingocele')], ['برداشتن رحم، تخمدان‌ها و لوله‌ها', e('TAH-BSO')]])}`),
           L('پیشوند و پسوند جای عضو را می‌گویند', `${wb('cervic/o', '-itis')} ← ${e('cervicitis')}<br>${wb('vagin/o', '-itis')} ← ${e('vaginitis')} (یا ${e('colpitis')})<br>${wb('salping/o', '-cele')} ← ${e('salpingocele')}${memo('اول عضو را از ریشه پیدا کن، بعد اتفاق را از پسوند.')}`),
           M('«التهاب دهانه رحم» کدام است؟', ['cervicitis', 'colpitis', 'metritis', 'salpingitis'], 'cervic/o + -itis.'),
           M('«پنج بار باردار شده» در پرونده چگونه نوشته می‌شود؟', ['gravida 5', 'para 5', 'nullipara', 'primigravida'], 'gravida = تعداد بارداری.'),
@@ -1841,7 +1841,7 @@
       {
         id: 'fm8', title: 'چرخه قاعدگی', icon: '📆', items: [
           L('۲۸ روز در چهار گام', `${fig('menstrual-cycle', [], 'چرخه قاعدگی')}${tbl([['مرحله', 'روز', 'چه می‌شود'], [e('menstrual'), '۱ تا ۵', 'ریزش آندومتر و خونریزی'], [e('proliferative (follicular)'), '۶ تا ۱۳', 'استروژن آندومتر را می‌سازد'], [e('ovulation'), '۱۴', 'آزاد شدن تخمک'], [e('secretory (luteal)'), '۱۵ تا ۲۸', 'پروژسترون آندومتر را آماده نگه می‌دارد']])}`),
-          L('واژه‌ها', `${wb('men/o', '-arche')} ← ${e('<b>menarche</b>')}: اولین قاعدگی در بلوغ<br>${e('<b>menstruation</b>')} (${e('menses')}): خونریزی ماهانه<br>${e('<b>premenstrual syndrome (PMS)</b>')}: علائم جسمی و روانی چند روز پیش از قاعدگی${pearl('سناریوی APPLY کتاب: خانم Beth Meyers قرص ضدبارداری ۲۱ روزه مصرف می‌کند و چون گاهی قرص را فراموش می‌کند، breakthrough bleeding (خونریزی بین دوره) دارد.')}`),
+          L('واژه‌ها', `${wb('men/o', '-arche')} ← ${e('<b>menarche</b>')}: اولین قاعدگی در بلوغ<br>${e('<b>menstruation</b>')} (${e('menses')}): خونریزی ماهانه<br>${e('<b>premenstrual syndrome (PMS)</b>')}: علائم جسمی و روانی چند روز پیش از قاعدگی${pearl('سناریوی APPLY: خانم Beth Meyers قرص ضدبارداری ۲۱ روزه مصرف می‌کند و چون گاهی قرص را فراموش می‌کند، breakthrough bleeding (خونریزی بین دوره) دارد.')}`),
           M('تخمک‌گذاری در چرخه ۲۸ روزه معمولاً روز چندم است؟', ['۱۴', '۱', '۵', '۲۸'], 'وسط چرخه.', null, F('menstrual-cycle', [])),
           M('کدام هورمون در مرحله ترشحی (لوتئال) غالب است؟', ['progesterone', 'estrogen', 'testosterone', 'FSH'], 'از جسم زرد.'),
           T('menarche یعنی اولین قاعدگی.', true, 'men/o + -arche.'),
@@ -1855,7 +1855,7 @@
       {
         id: 'fm9', title: 'از بلوغ تا یائسگی', icon: '🌙', items: [
           L('یائسگی', `${e('<b>menopause</b>')}: پایان دائمی قاعدگی، معمولاً حدود ۵۰ سالگی. سال‌های پیش از آن ${e('<b>perimenopause</b>')} نام دارد با قاعدگی نامنظم و گرگرفتگی. ${e('<b>postmenopausal</b>')} یعنی پس از یائسگی.`),
-          L('در بالین', `${pearl('سناریوی APPLY کتاب: خانم Heidi Red Feather، ۴۷ ساله، با تعریق شبانه، خونریزی بین قاعدگی‌ها، گرگرفتگی و افسردگی آمده است؛ این‌ها نشانه‌های perimenopause هستند.')}${pearl('Chart Note کتاب Gylys: خانم ۵۲ ساله‌ای که آخرین قاعدگی‌اش در ۴۸ سالگی بوده، با <bdi dir="ltr">“postmenopausal bleeding”</bdi> برای laparoscopy و D&C بستری شد؛ خونریزی پس از یائسگی باید بررسی شود.')}${vs(['پیش‌یائسگی', 'perimenopause<br>سال‌های پیش از یائسگی'], ['پس از یائسگی', 'postmenopausal<br>پس از آخرین قاعدگی'])}`),
+          L('در بالین', `${pearl('سناریوی APPLY: خانم Heidi Red Feather، ۴۷ ساله، با تعریق شبانه، خونریزی بین قاعدگی‌ها، گرگرفتگی و افسردگی آمده است؛ این‌ها نشانه‌های perimenopause هستند.')}${pearl('Chart Note: خانم ۵۲ ساله‌ای که آخرین قاعدگی‌اش در ۴۸ سالگی بوده، با <bdi dir="ltr">“postmenopausal bleeding”</bdi> برای laparoscopy و D&C بستری شد؛ خونریزی پس از یائسگی باید بررسی شود.')}${vs(['پیش‌یائسگی', 'perimenopause<br>سال‌های پیش از یائسگی'], ['پس از یائسگی', 'postmenopausal<br>پس از آخرین قاعدگی'])}`),
           M('پایان دائمی قاعدگی چه نام دارد؟', ['menopause', 'menarche', 'amenorrhea', 'puberty'], 'یائسگی.'),
           M('علائم خانم Heidi Red Feather بیشتر نشانه کدام دوره است؟', ['perimenopause', 'menarche', 'pregnancy', 'puerperium'], 'گرگرفتگی و قاعدگی نامنظم.'),
           T('خونریزی پس از یائسگی (postmenopausal bleeding) باید بررسی شود.', true, 'رد سرطان آندومتر.'),
@@ -1902,7 +1902,7 @@
       {
         id: 'ml2', title: 'اسپرم و اسپرم‌سازی', icon: '🐟', items: [
           L('ساختار اسپرم', `${fig('sperm-cell', [], 'اسپرم')}${e('<b>spermatozoon</b>')} (جمع: ${e('spermatozoa')}؛ ریشه‌ها ${e('sperm/o, spermat/o')}) سه بخش دارد:<br>• ${e('head')}: هسته با ۲۳ کروموزوم و کلاهک ${e('<b>acrosome</b>')} که آنزیم نفوذ به تخمک دارد<br>• ${e('midpiece')}: میتوکندری‌ها برای انرژی<br>• ${e('tail (flagellum)')}: دم برای حرکت`),
-          L('اسپرم‌سازی', `${e('<b>spermatogenesis</b>')} از بلوغ آغاز می‌شود و حدود ۷۴ روز طول می‌کشد. اسپرم‌ها در اپیدیدیم بالغ می‌شوند و توانایی حرکت (${e('motility')}) پیدا می‌کنند.${wb('spermat/o', '-genesis')} ← ساخت اسپرم${pearl('در Case Study 16-2 کتاب Cohen، Ruth در آزمایشگاه IVF <bdi dir="ltr">“sperm motility”</bdi> یعنی تحرک اسپرم را در نمونه بررسی می‌کند.')}`),
+          L('اسپرم‌سازی', `${e('<b>spermatogenesis</b>')} از بلوغ آغاز می‌شود و حدود ۷۴ روز طول می‌کشد. اسپرم‌ها در اپیدیدیم بالغ می‌شوند و توانایی حرکت (${e('motility')}) پیدا می‌کنند.${wb('spermat/o', '-genesis')} ← ساخت اسپرم${pearl('در Case Study 16-2، Ruth در آزمایشگاه IVF <bdi dir="ltr">“sperm motility”</bdi> یعنی تحرک اسپرم را در نمونه بررسی می‌کند.')}`),
           M('کلاهک سر اسپرم که آنزیم نفوذ به تخمک دارد…', ['acrosome', 'flagellum', 'midpiece', 'nucleus'], 'آکروزوم.', null, F('sperm-cell', [])),
           M('میتوکندری‌های اسپرم در کدام بخش هستند؟', ['midpiece', 'head', 'tail', 'acrosome'], 'تأمین انرژی دم.'),
           T('spermatogenesis یعنی ساخته شدن اسپرم.', true, 'spermat/o + -genesis.'),
@@ -1916,7 +1916,7 @@
       {
         id: 'ml3', title: 'مسیر اسپرم', icon: '🛤️', items: [
           L('از بیضه تا بیرون', `${fig('sperm-path', [], 'مسیر اسپرم')}${e('seminiferous tubules')} ← ${e('<b>epididymis</b>')} (اپیدیدیم؛ بلوغ و ذخیره) ← ${e('<b>vas deferens</b>')} (مجرای وابران؛ ${e('vas/o')}) ← ${e('ejaculatory duct')} ← ${e('<b>urethra</b>')} (پیشابراه).`),
-          L('در بالین', `${wb('vas/o', '-ectomy')} ← ${e('<b>vasectomy</b>')}: بریدن و بستن مجرای وابران برای جلوگیری از بارداری.${pearl('در Case Study 15-1 کتاب Cohen، آقای Derek، ۴۸ ساله، همراه با ترمیم فتق اینگوینال دوطرفه، <bdi dir="ltr">“elective vasectomy”</bdi> یعنی وازکتومی انتخابی هم انجام داد.')}${memo('برای حفظ مسیر: <bdi dir="ltr">“S-E-V-E-U”</bdi>: Seminiferous، Epididymis، Vas، Ejaculatory، Urethra.')}`),
+          L('در بالین', `${wb('vas/o', '-ectomy')} ← ${e('<b>vasectomy</b>')}: بریدن و بستن مجرای وابران برای جلوگیری از بارداری.${pearl('در Case Study 15-1، آقای Derek، ۴۸ ساله، همراه با ترمیم فتق اینگوینال دوطرفه، <bdi dir="ltr">“elective vasectomy”</bdi> یعنی وازکتومی انتخابی هم انجام داد.')}${memo('برای حفظ مسیر: <bdi dir="ltr">“S-E-V-E-U”</bdi>: Seminiferous، Epididymis، Vas، Ejaculatory، Urethra.')}`),
           M('اسپرم کجا بالغ و ذخیره می‌شود؟', ['epididymis', 'prostate', 'urethra', 'seminal vesicle'], 'اپیدیدیم.', null, F('sperm-path', [])),
           M('در وازکتومی کدام مجرا بریده می‌شود؟', ['vas deferens', 'urethra', 'ejaculatory duct', 'uterine tube'], 'vas/o.'),
           T('پیشابراه مرد هم ادرار و هم منی را بیرون می‌برد.', true, 'urethra مشترک است.'),
@@ -1931,7 +1931,7 @@
       {
         id: 'ml4', title: 'مقطع کناری لگن مرد', icon: '🔎', items: [
           L('همسایه‌ها', `${fig('male-sagittal', [], 'مقطع لگن مرد')}${e('<b>prostate gland</b>')} زیر مثانه است و ابتدای پیشابراه را دور می‌زند. ${e('<b>seminal vesicles</b>')} پشت مثانه‌اند و راست‌روده پشت پروستات است؛ برای همین پزشک با ${e('<b>digital rectal examination (DRE)</b>')} پروستات را لمس می‌کند.`),
-          L('در بالین', `${pearl('در Case Study کتاب Cohen، پزشک در DRE آقای Dexter، ۶۰ ساله، پروستاتی حدود ۵۰ گرمی و بزرگ لمس کرد و تشخیص BPH مطرح شد.')}${memo('پروستات مثل حلقه‌ای دور پیشابراه است؛ اگر بزرگ شود جریان ادرار را تنگ می‌کند.')}`),
+          L('در بالین', `${pearl('در Case Study، پزشک در DRE آقای Dexter، ۶۰ ساله، پروستاتی حدود ۵۰ گرمی و بزرگ لمس کرد و تشخیص BPH مطرح شد.')}${memo('پروستات مثل حلقه‌ای دور پیشابراه است؛ اگر بزرگ شود جریان ادرار را تنگ می‌کند.')}`),
           M('پروستات نسبت به مثانه کجاست؟', ['زیر مثانه، دور ابتدای پیشابراه', 'بالای مثانه', 'درون کیسه بیضه', 'کنار کلیه'], 'زیر مثانه.', null, F('male-sagittal', [])),
           M('چرا پروستات را از راه راست‌روده معاینه می‌کنند؟', ['چون درست جلوی راست‌روده قرار دارد', 'چون درون راست‌روده است', 'چون از شکم دیده نمی‌شود', 'چون در کیسه بیضه است'], 'DRE.'),
           T('DRE یعنی معاینه پروستات با انگشت از راه راست‌روده.', true, 'digital rectal examination.'),
@@ -1959,7 +1959,7 @@
       {
         id: 'ml6', title: 'طناب اسپرماتیک و کانال اینگوینال', icon: '🪢', items: [
           L('طناب اسپرماتیک', `${e('<b>spermatic cord</b>')} مجرای وابران را همراه با سرخرگ، سیاهرگ‌ها (${e('pampiniform plexus')})، عصب و عضله ${e('cremaster')} از کیسه بیضه به لگن می‌برد. این طناب از ${e('<b>inguinal canal</b>')} (کانال کشاله ران) می‌گذرد.`),
-          L('در بالین', `جای عبور طناب نقطه ضعیف دیواره شکم است: ${e('<b>inguinal hernia</b>')} (فتق کشاله ران). ترمیم آن ${e('herniorrhaphy')} است.${pearl('سناریوی APPLY کتاب: پزشک به Rick Springs گفت شاید علاوه بر آسیب بیضه، فتق کشاله ران هم داشته باشد.')}${memo('-rrhaphy یعنی دوختن؛ herniorrhaphy یعنی دوختن و ترمیم فتق.')}`),
+          L('در بالین', `جای عبور طناب نقطه ضعیف دیواره شکم است: ${e('<b>inguinal hernia</b>')} (فتق کشاله ران). ترمیم آن ${e('herniorrhaphy')} است.${pearl('سناریوی APPLY: پزشک به Rick Springs گفت شاید علاوه بر آسیب بیضه، فتق کشاله ران هم داشته باشد.')}${memo('-rrhaphy یعنی دوختن؛ herniorrhaphy یعنی دوختن و ترمیم فتق.')}`),
           M('طناب اسپرماتیک از کدام کانال می‌گذرد؟', ['inguinal canal', 'cervical canal', 'urethra', 'femoral canal'], 'کشاله ران.'),
           M(`${e('<b>herniorrhaphy</b>')} یعنی…`, ['ترمیم فتق با دوختن', 'برداشتن بیضه', 'بریدن مجرای وابران', 'برش فتق'], '-rrhaphy = دوختن.'),
           T('طناب اسپرماتیک فقط شامل مجرای وابران است.', false, 'رگ‌ها، عصب و عضله هم دارد.'),
@@ -1974,7 +1974,7 @@
       {
         id: 'ml7', title: 'آلت تناسلی', icon: '🧬', items: [
           L('ساختار', `${fig('penis-xs', [], 'برش عرضی آلت')}${e('<b>penis</b>')} (${e('phall/o, pen/o')}) سه ستون بافت نعوظی دارد:<br>• دو ${e('<b>corpora cavernosa</b>')} در بالا<br>• یک ${e('<b>corpus spongiosum</b>')} در پایین که پیشابراه از آن می‌گذرد و سر آلت (${e('glans penis')}) را می‌سازد<br>پوست روی سر آلت ${e('<b>prepuce</b>')} (foreskin) است.`),
-          L('ختنه', `${e('<b>circumcision</b>')}: برداشتن پوست روی سر آلت (${e('prepuce')}).${pearl('سناریوی APPLY کتاب: Bob Schaeffer Jr نوزاد است و پدرش برای ختنه او و تشخیص بیضه نزول‌نکرده دوطرفه سؤال دارد.')}${wb('balan/o', '-itis')} ← ${e('balanitis')}: التهاب سر آلت`),
+          L('ختنه', `${e('<b>circumcision</b>')}: برداشتن پوست روی سر آلت (${e('prepuce')}).${pearl('سناریوی APPLY: Bob Schaeffer Jr نوزاد است و پدرش برای ختنه او و تشخیص بیضه نزول‌نکرده دوطرفه سؤال دارد.')}${wb('balan/o', '-itis')} ← ${e('balanitis')}: التهاب سر آلت`),
           M('پیشابراه از کدام ستون نعوظی می‌گذرد؟', ['corpus spongiosum', 'corpus cavernosum', 'corpus luteum', 'glans clitoris'], 'جسم اسفنجی.', null, F('penis-xs', [])),
           M('برداشتن پوست روی سر آلت چه نام دارد؟', ['circumcision', 'vasectomy', 'orchiectomy', 'balanoplasty'], 'ختنه.'),
           T('balan/o یعنی سر آلت (glans penis).', true, 'balanitis.'),
@@ -1988,7 +1988,7 @@
       {
         id: 'ml8', title: 'نعوظ و انزال', icon: '⚡', items: [
           L('نعوظ', `${e('<b>erection</b>')}: پر شدن بافت نعوظی از خون با اتساع سرخرگ‌ها؛ با پیام دستگاه عصبی پاراسمپاتیک.<br>${e('<b>ejaculation</b>')}: بیرون راندن منی با انقباض مجاری و عضلات؛ با پیام سمپاتیک.${memo('جمله Point and Shoot را به خاطر بسپار: حرف P یعنی پاراسمپاتیک برای نعوظ و حرف S یعنی سمپاتیک برای انزال.')}`),
-          L('در بالین', `${e('<b>erectile dysfunction (ED)</b>')} یا ${e('impotence')}: ناتوانی در نعوظ کافی.${pearl('در Case Study 15-2 کتاب Cohen، آقای Diego، ۶۷ ساله با سابقه BPH، از ED شکایت داشت؛ پس از رد علت‌های روانی (psychogenic)، داروی گشادکننده رگ تجویز شد.')}${vs(['ناتوانی جنسی', 'erectile dysfunction<br>ناتوانی در نعوظ'], ['نازایی', 'infertility<br>ناتوانی در باروری'])}`),
+          L('در بالین', `${e('<b>erectile dysfunction (ED)</b>')} یا ${e('impotence')}: ناتوانی در نعوظ کافی.${pearl('در Case Study 15-2، آقای Diego، ۶۷ ساله با سابقه BPH، از ED شکایت داشت؛ پس از رد علت‌های روانی (psychogenic)، داروی گشادکننده رگ تجویز شد.')}${vs(['ناتوانی جنسی', 'erectile dysfunction<br>ناتوانی در نعوظ'], ['نازایی', 'infertility<br>ناتوانی در باروری'])}`),
           M('نعوظ با پیام کدام دستگاه عصبی است؟', ['parasympathetic', 'sympathetic', 'somatic', 'central only'], 'Point.'),
           M('اختصار ED یعنی…', ['erectile dysfunction', 'ejaculatory duct', 'estimated delivery', 'endometrial disease'], 'ناتوانی در نعوظ.'),
           T('impotence نام دیگر erectile dysfunction است.', true, 'هم‌معنی.'),
@@ -2002,7 +2002,7 @@
       {
         id: 'ml9', title: 'بلوغ و تستوسترون', icon: '🧔', items: [
           L('تستوسترون', `${e('<b>testosterone</b>')} یک ${e('androgen')} است (ریشه ${e('andr/o')} یعنی مرد) که در بلوغ (${e('<b>puberty</b>')}) صفات ثانویه را می‌سازد: رشد آلت و بیضه، موی صورت و بدن، بم شدن صدا و افزایش عضله. ${e('FSH')} اسپرم‌سازی و ${e('LH')} ساخت تستوسترون را تحریک می‌کند.`),
-          L('در بالین', `${pearl('سناریوی APPLY کتاب: آقای James Cocoa برای کلاس بهداشت پسران نوجوان درباره دستگاه تناسلی مردانه، بلوغ و تستوسترون درس می‌دهد.')}${wb('an-', 'orch/o', '-ism')} ← ${e('anorchism')}: نبود بیضه<br>${e('hypogonadism')}: کم‌کاری غدد جنسی و کمبود تستوسترون`),
+          L('در بالین', `${pearl('سناریوی APPLY: آقای James Cocoa برای کلاس بهداشت پسران نوجوان درباره دستگاه تناسلی مردانه، بلوغ و تستوسترون درس می‌دهد.')}${wb('an-', 'orch/o', '-ism')} ← ${e('anorchism')}: نبود بیضه<br>${e('hypogonadism')}: کم‌کاری غدد جنسی و کمبود تستوسترون`),
           M('تستوسترون در کدام گروه هورمون‌هاست؟', ['androgen', 'estrogen', 'progestin', 'gonadotropin'], 'andr/o = مرد.'),
           M('کدام هورمون هیپوفیز ساخت تستوسترون را تحریک می‌کند؟', ['LH', 'FSH', 'prolactin', 'oxytocin'], 'روی سلول‌های Leydig.'),
           T('صدای بم و موی صورت از صفات ثانویه جنسی مردانه است.', true, 'اثر تستوسترون.'),
@@ -2078,7 +2078,7 @@
       {
         id: 'pg4', title: 'گراویدا و پارا', icon: '🔢', items: [
           L('شمارش', `${fig('gravida-para', [], 'گراویدا و پارا')}• ${e('<b>gravida (G)</b>')}: تعداد بارداری‌ها، صرف‌نظر از نتیجه (بارداری فعلی هم شمرده می‌شود)<br>• ${e('<b>para (P)</b>')}: تعداد زایمان‌ها پس از هفته ۲۰، زنده یا مرده<br>${tbl([['واژه', 'معنی'], [e('nulligravida'), 'هرگز باردار نشده'], [e('primigravida'), 'بار اول باردار'], [e('multigravida'), 'چند بار باردار'], [e('nullipara'), 'هیچ زایمانی نداشته'], [e('primipara'), 'یک زایمان'], [e('multipara'), 'چند زایمان']])}`),
-          L('در بالین', `${pearl('در Case Study کتاب Cohen، Abigail <bdi dir="ltr">“G2 P1”</bdi> است: بار دوم باردار و یک زایمان قبلی دارد.')}${pearl('در گزارش مشاوره High-Risk OB کتاب Fremgen، بیمار ۲۳ ساله <bdi dir="ltr">“multigravida, nullipara”</bdi> است: چند بار باردار شده (سه سقط) ولی هنوز زایمانی نداشته است.')}${memo('Gravida از gravid (سنگین، باردار)؛ Para از parere (زاییدن).')}`),
+          L('در بالین', `${pearl('در Case Study، Abigail <bdi dir="ltr">“G2 P1”</bdi> است: بار دوم باردار و یک زایمان قبلی دارد.')}${pearl('در گزارش مشاوره High-Risk OB، بیمار ۲۳ ساله <bdi dir="ltr">“multigravida, nullipara”</bdi> است: چند بار باردار شده (سه سقط) ولی هنوز زایمانی نداشته است.')}${memo('Gravida از gravid (سنگین، باردار)؛ Para از parere (زاییدن).')}`),
           M('زنی که سه بار سقط داشته و اکنون باردار است، گراویدای چند است؟', ['G4', 'G3', 'G1', 'G0'], 'سه سقط + بارداری فعلی.', null, F('gravida-para', [])),
           M(`${e('<b>nullipara</b>')} یعنی…`, ['زنی که زایمانی نداشته', 'زنی که هرگز باردار نشده', 'زنی که یک زایمان داشته', 'زن یائسه'], 'nulli- = هیچ.'),
           T('primigravida یعنی زنی که برای اولین بار باردار است.', true, 'primi- = اول.'),
@@ -2106,7 +2106,7 @@
       {
         id: 'pg6', title: 'مراحل زایمان', icon: '⏱️', items: [
           L('سه مرحله', `${fig('labor-stages', [], 'مراحل زایمان')}${tbl([['مرحله', 'از … تا'], ['اول', 'آغاز انقباض‌ها تا باز شدن کامل دهانه رحم (۱۰ cm)'], ['دوم', 'باز شدن کامل تا خروج نوزاد'], ['سوم', 'خروج نوزاد تا خروج جفت (afterbirth)']])}`),
-          L('واژه‌های بالینی', `• ${e('<b>effacement</b>')}: نازک شدن دهانه رحم (درصد)<br>• ${e('<b>dilation</b>')}: باز شدن دهانه رحم (سانتی‌متر)<br>• ${e('bloody show')}: ترشح خونی آغاز زایمان<br>• ${e('<b>PROM</b>')}: پارگی زودرس پرده‌ها<br>• ${e('NSVD')}: زایمان طبیعی خودبه‌خودی واژینال${pearl('در OB Delivery Note کتاب Ehrlich، دهانه رحم ۸۰٪ نازک شده (effacement) و ۴ سانتی‌متر باز (dilation) بود؛ bloody show و PROM هم داشت. بعد NSVD انجام شد، نوزاد Apgar 9/9 گرفت و حدود ۳۰۰ cc خون از دست رفت.')}`),
+          L('واژه‌های بالینی', `• ${e('<b>effacement</b>')}: نازک شدن دهانه رحم (درصد)<br>• ${e('<b>dilation</b>')}: باز شدن دهانه رحم (سانتی‌متر)<br>• ${e('bloody show')}: ترشح خونی آغاز زایمان<br>• ${e('<b>PROM</b>')}: پارگی زودرس پرده‌ها<br>• ${e('NSVD')}: زایمان طبیعی خودبه‌خودی واژینال${pearl('در OB Delivery Note، دهانه رحم ۸۰٪ نازک شده (effacement) و ۴ سانتی‌متر باز (dilation) بود؛ bloody show و PROM هم داشت. بعد NSVD انجام شد، نوزاد Apgar 9/9 گرفت و حدود ۳۰۰ cc خون از دست رفت.')}`),
           M('مرحله دوم زایمان با چه چیزی تمام می‌شود؟', ['خروج نوزاد', 'خروج جفت', 'باز شدن کامل دهانه رحم', 'آغاز انقباض'], 'تولد.', null, F('labor-stages', [])),
           M(`${e('<b>effacement</b>')} یعنی…`, ['نازک شدن دهانه رحم', 'باز شدن دهانه رحم', 'پارگی پرده‌ها', 'خروج جفت'], 'به درصد.'),
           T('در مرحله اول زایمان دهانه رحم تا ۱۰ سانتی‌متر باز می‌شود.', true, 'dilation کامل.'),
@@ -2121,7 +2121,7 @@
       {
         id: 'pg7', title: 'نمایش جنین', icon: '🔄', items: [
           L('کدام بخش اول؟', `${fig('presentations', [], 'نمایش‌های جنین')}${e('<b>presentation</b>')}: بخشی از جنین که اول وارد لگن می‌شود.<br>• ${e('<b>cephalic (vertex)</b>')}: سر؛ طبیعی و شایع‌ترین<br>• ${e('<b>breech</b>')}: باسن یا پاها<br>• ${e('<b>transverse</b>')}: شانه، جنین افقی`),
-          L('در بالین', `${fig('breech-birth', ['نمایش بریچ'], 'زایمان بریچ')}${pearl('در Case Study کتاب Cohen، جنین Abigail <bdi dir="ltr">“right occiput posterior”</bdi> بود و سر جنین با لگن مادر تناسب نداشت (CPD)؛ پس از fetal distress، سزارین اورژانسی انجام شد.')}${memo('ریشه cephal/o یعنی سر و breech یعنی باسن.')}`),
+          L('در بالین', `${fig('breech-birth', ['نمایش بریچ'], 'زایمان بریچ')}${pearl('در Case Study، جنین Abigail <bdi dir="ltr">“right occiput posterior”</bdi> بود و سر جنین با لگن مادر تناسب نداشت (CPD)؛ پس از fetal distress، سزارین اورژانسی انجام شد.')}${memo('ریشه cephal/o یعنی سر و breech یعنی باسن.')}`),
           M('شایع‌ترین و طبیعی‌ترین نمایش کدام است؟', ['cephalic (vertex)', 'breech', 'transverse', 'face'], 'سر اول.', null, F('presentations', [])),
           M('در نمایش breech کدام بخش اول وارد لگن می‌شود؟', ['باسن یا پاها', 'سر', 'شانه', 'دست'], 'بریچ.', null, F('breech-birth', [])),
           T('در نمایش transverse جنین افقی در رحم قرار دارد.', true, 'شانه اول.'),
@@ -2135,7 +2135,7 @@
       {
         id: 'pg8', title: 'پس از زایمان و شیردهی', icon: '🤱', items: [
           L('دوره نفاس', `${e('<b>puerperium</b>')} (${e('postpartum')}): حدود ۶ هفته پس از زایمان که رحم به اندازه پیشین برمی‌گردد (${e('involution')}). ترشح خونی واژن در این دوره ${e('<b>lochia</b>')} نام دارد.<br>${wb('post-', 'part/o', '-um')} ← پس از زایمان`),
-          L('شیردهی', `${e('<b>colostrum</b>')}: اولین شیر زرد و پرپادتن چند روز اول<br>${e('prolactin')} شیر را می‌سازد و ${e('<b>oxytocin</b>')} شیر را بیرون می‌راند و رحم را منقبض می‌کند.${pearl('در Case Study کتاب Cohen، Abigail پس از سزارین rooming-in (هم‌اتاقی با نوزاد) و breast-feeding داشت؛ اکسی‌توسین شیردهی به جمع شدن رحم هم کمک می‌کند.')}`),
+          L('شیردهی', `${e('<b>colostrum</b>')}: اولین شیر زرد و پرپادتن چند روز اول<br>${e('prolactin')} شیر را می‌سازد و ${e('<b>oxytocin</b>')} شیر را بیرون می‌راند و رحم را منقبض می‌کند.${pearl('در Case Study، Abigail پس از سزارین rooming-in (هم‌اتاقی با نوزاد) و breast-feeding داشت؛ اکسی‌توسین شیردهی به جمع شدن رحم هم کمک می‌کند.')}`),
           M('ترشح خونی واژن پس از زایمان چه نام دارد؟', ['lochia', 'leukorrhea', 'colostrum', 'meconium'], 'لوکیا.'),
           M('کدام هورمون شیر را بیرون می‌راند و رحم را منقبض می‌کند؟', ['oxytocin', 'prolactin', 'estrogen', 'hCG'], 'اکسی‌توسین.'),
           T('colostrum اولین شیر پس از زایمان و سرشار از پادتن است.', true, 'آغوز.'),
@@ -2149,7 +2149,7 @@
       {
         id: 'pg9', title: 'نوزاد و آپگار', icon: '🍼', items: [
           L('نمره آپگار', `${fig('apgar', [], 'نمره آپگار')}${e('<b>Apgar score</b>')} در دقیقه ۱ و ۵ پس از تولد: پنج نشانه، هر کدام ۰ تا ۲ امتیاز.${memo('هر حرف APGAR یک نشانه است: Appearance یعنی رنگ، Pulse یعنی نبض، Grimace یعنی واکنش، Activity یعنی تون عضله و Respiration یعنی تنفس.')}`),
-          L('نوزاد', `${e('<b>neonate</b>')} (${e('neo-, nat/o')}): نوزاد تا ۲۸ روز. ${e('neonatology')} شاخه مراقبت نوزادان است.<br>${e('<b>meconium</b>')}: اولین مدفوع سبز تیره نوزاد.${fig('sonogram', ['تصویر سونوگرافی جنین'], 'سونوگرافی')}${pearl('Abigail و نوزاد Ehrlich هر دو Apgar 9/9 داشتند: ۹ در دقیقه یک و ۹ در دقیقه پنج؛ یعنی حال خوب.')}`),
+          L('نوزاد', `${e('<b>neonate</b>')} (${e('neo-, nat/o')}): نوزاد تا ۲۸ روز. ${e('neonatology')} شاخه مراقبت نوزادان است.<br>${e('<b>meconium</b>')}: اولین مدفوع سبز تیره نوزاد.${fig('sonogram', ['تصویر سونوگرافی جنین'], 'سونوگرافی')}${pearl('Abigail و نوزاد هر دو Apgar 9/9 داشتند: ۹ در دقیقه یک و ۹ در دقیقه پنج؛ یعنی حال خوب.')}`),
           M('نمره آپگار معمولاً چه زمانی ثبت می‌شود؟', ['دقیقه ۱ و ۵ پس از تولد', 'پیش از زایمان', 'روز سوم', 'هفته ششم'], 'دو بار.', null, F('apgar', [])),
           M('حداکثر نمره آپگار چند است؟', ['۱۰', '۵', '۲۰', '۹'], '۵ نشانه × ۲.'),
           T('meconium اولین مدفوع نوزاد است.', true, 'سبز تیره.'),
@@ -2182,7 +2182,7 @@
       {
         id: 'ds1', title: 'اختلال‌های قاعدگی', icon: '🩸', items: [
           L('واژه‌های -rrhea و -rrhagia', `${fig('menstrual-disorders', [], 'اختلال‌های قاعدگی')}${tbl([['واژه', 'معنی'], [e('amenorrhea'), 'نبود قاعدگی'], [e('dysmenorrhea'), 'قاعدگی دردناک'], [e('menorrhagia'), 'قاعدگی بسیار زیاد یا طولانی'], [e('metrorrhagia'), 'خونریزی رحم بین قاعدگی‌ها'], [e('oligomenorrhea'), 'قاعدگی کم و دیر به دیر']])}`),
-          L('در بالین', `${pearl('سناریوی APPLY کتاب: خانم Rosie McConnell از قاعدگی بسیار زیاد (menorrhagia) و دردناک (dysmenorrhea) شکایت دارد؛ پزشک hysteroscopy خواست و فیبروم پیدا کرد.')}${pearl('سناریوی APPLY کتاب: خانم Jenni Takanado دیر قاعده شده، قاعدگی نامنظم و dyspareunia (درد هنگام آمیزش) دارد و برای infertility بررسی می‌شود.')}${memo('-rrhea جاری شدن است؛ -rrhagia فوران خون. menorrhagia یعنی خون زیاد در زمان قاعدگی؛ metrorrhagia یعنی خون از رحم در زمان نابجا.')}`),
+          L('در بالین', `${pearl('سناریوی APPLY: خانم Rosie McConnell از قاعدگی بسیار زیاد (menorrhagia) و دردناک (dysmenorrhea) شکایت دارد؛ پزشک hysteroscopy خواست و فیبروم پیدا کرد.')}${pearl('سناریوی APPLY: خانم Jenni Takanado دیر قاعده شده، قاعدگی نامنظم و dyspareunia (درد هنگام آمیزش) دارد و برای infertility بررسی می‌شود.')}${memo('-rrhea جاری شدن است؛ -rrhagia فوران خون. menorrhagia یعنی خون زیاد در زمان قاعدگی؛ metrorrhagia یعنی خون از رحم در زمان نابجا.')}`),
           M(`${e('<b>dysmenorrhea</b>')} یعنی…`, ['قاعدگی دردناک', 'نبود قاعدگی', 'قاعدگی زیاد', 'خونریزی بین قاعدگی‌ها'], 'dys- = دردناک.', null, F('menstrual-disorders', [])),
           M('خونریزی رحم بین دو قاعدگی…', ['metrorrhagia', 'menorrhagia', 'amenorrhea', 'oligomenorrhea'], 'metr/o = رحم.'),
           T('amenorrhea یعنی نبود قاعدگی.', true, 'a- = بدون.'),
@@ -2210,7 +2210,7 @@
       {
         id: 'ds3', title: 'افتادگی و سرطان‌ها', icon: '⬇️', items: [
           L('افتادگی', `${fig('prolapse', [], 'افتادگی')}${e('<b>uterine prolapse</b>')}: پایین افتادن رحم به درون واژن<br>${e('<b>cystocele</b>')}: برآمدگی مثانه به دیواره جلویی واژن<br>${e('<b>rectocele</b>')}: برآمدگی راست‌روده به دیواره پشتی واژن${fig('cystocele', ['سیستوسل'], 'سیستوسل')}${fig('uterine-prolapse', ['درجه‌های افتادگی رحم'], 'افتادگی رحم')}`),
-          L('سرطان‌ها', `• ${e('<b>cervical cancer</b>')}: اغلب از ${e('HPV')}؛ پیش از آن ${e('<b>dysplasia</b>')} (رشد نابجای سلول)<br>• ${e('<b>endometrial cancer</b>')}: با خونریزی پس از یائسگی<br>• ${e('<b>breast cancer</b>')}: توده در ماموگرافی؛ گاهی متاستاز به زیر بغل${fig('endometrial-cancer', ['سرطان آندومتر'], 'سرطان آندومتر')}${fig('mammogram-tumor', ['توده در ماموگرافی'], 'ماموگرافی')}${pearl('Chart Note کتاب Gylys: سابقه <bdi dir="ltr">“simple mastectomy”</bdi> برای سرطان پستان، و اکنون <bdi dir="ltr">“metastases to the axilla, liver and bone”</bdi>.')}`),
+          L('سرطان‌ها', `• ${e('<b>cervical cancer</b>')}: اغلب از ${e('HPV')}؛ پیش از آن ${e('<b>dysplasia</b>')} (رشد نابجای سلول)<br>• ${e('<b>endometrial cancer</b>')}: با خونریزی پس از یائسگی<br>• ${e('<b>breast cancer</b>')}: توده در ماموگرافی؛ گاهی متاستاز به زیر بغل${fig('endometrial-cancer', ['سرطان آندومتر'], 'سرطان آندومتر')}${fig('mammogram-tumor', ['توده در ماموگرافی'], 'ماموگرافی')}${pearl('Chart Note: سابقه <bdi dir="ltr">“simple mastectomy”</bdi> برای سرطان پستان، و اکنون <bdi dir="ltr">“metastases to the axilla, liver and bone”</bdi>.')}`),
           M('برآمدگی مثانه به دیواره واژن…', ['cystocele', 'rectocele', 'uterine prolapse', 'hydrocele'], 'cyst/o = مثانه.', null, F('cystocele', [])),
           M('مهم‌ترین علت سرطان دهانه رحم کدام است؟', ['HPV', 'HSV', 'HIV', 'Candida'], 'ویروس پاپیلومای انسانی.'),
           T('خونریزی پس از یائسگی می‌تواند نشانه سرطان آندومتر باشد.', true, 'باید بررسی شود.', F('endometrial-cancer', [])),
@@ -2225,7 +2225,7 @@
       {
         id: 'ds4', title: 'بیضه و کیسه بیضه', icon: '🥜', items: [
           L('بیماری‌های کیسه بیضه', `${fig('scrotal-disorders', [], 'بیماری‌های کیسه بیضه')}• ${e('<b>hydrocele</b>')}: جمع شدن مایع در کیسه بیضه<br>• ${e('<b>varicocele</b>')}: سیاهرگ‌های گشاد و پیچ‌خورده بالای بیضه؛ «کیسه کرم»<br>• ${e('<b>spermatocele</b>')}: کیست پر از اسپرم در اپیدیدیم<br>• ${e('<b>testicular torsion</b>')}: پیچ خوردن طناب اسپرماتیک؛ اورژانس${fig('scrotal-abnormalities', ['ناهنجاری‌های کیسه بیضه'], 'کیسه بیضه')}${fig('varicocele', ['واریکوسل'], 'واریکوسل')}`),
-          L('بیضه نزول‌نکرده', `${e('<b>cryptorchidism</b>')} یعنی بیضه به کیسه پایین نیامده است؛ ریشه ${e('crypt/o')} یعنی پنهان. درمان: ${e('<b>orchiopexy</b>')} (ثابت کردن بیضه در کیسه).${fig('cryptorchidism', ['مسیرهای بیضه نزول‌نکرده'], 'کریپتورکیدیسم')}${pearl('در Consult کتاب Pearson: آقای ۷۷ ساله <bdi dir="ltr">“history of cryptorchidism, corrected with orchiopexy”</bdi> داشت.')}`),
+          L('بیضه نزول‌نکرده', `${e('<b>cryptorchidism</b>')} یعنی بیضه به کیسه پایین نیامده است؛ ریشه ${e('crypt/o')} یعنی پنهان. درمان: ${e('<b>orchiopexy</b>')} (ثابت کردن بیضه در کیسه).${fig('cryptorchidism', ['مسیرهای بیضه نزول‌نکرده'], 'کریپتورکیدیسم')}${pearl('در Consult: آقای ۷۷ ساله <bdi dir="ltr">“history of cryptorchidism, corrected with orchiopexy”</bdi> داشت.')}`),
           M('جمع شدن مایع در کیسه بیضه…', ['hydrocele', 'varicocele', 'spermatocele', 'cystocele'], 'hydr/o = آب.', null, F('scrotal-abnormalities', [])),
           M('cryptorchidism یعنی…', ['بیضه نزول‌نکرده', 'نبود بیضه', 'التهاب بیضه', 'پیچ خوردن بیضه'], 'crypt/o = پنهان.', null, F('cryptorchidism', [])),
           T('testicular torsion یک اورژانس جراحی است.', true, 'خون بیضه قطع می‌شود.'),
@@ -2239,7 +2239,7 @@
       {
         id: 'ds5', title: 'پروستات', icon: '🌰', items: [
           L('بزرگی خوش‌خیم', `${fig('bph', [], 'BPH')}${e('<b>benign prostatic hyperplasia (BPH)</b>')}: بزرگ شدن خوش‌خیم پروستات در مردان مسن؛ پیشابراه تنگ می‌شود.<br>نشانه‌ها: ${e('hesitancy')} (دیر شروع شدن ادرار)، جریان ضعیف، ${e('nocturia')} (شب‌ادراری) و ${e('urinary retention')} (احتباس ادرار).${fig('bph-drawing', ['تنگ شدن پیشابراه با بزرگی پروستات'], 'بزرگی پروستات')}`),
-          L('در بالین', `${pearl('در Case Study کتاب Cohen، آقای Dexter، ۶۰ ساله، hesitancy داشت. در DRE پروستاتش حدود ۵۰ گرم بود و ۱۲۰ mL ادرار در مثانه‌اش باقی می‌ماند. تشخیص: BPH with BNO (انسداد گردن مثانه).')}${e('<b>prostatitis</b>')}: التهاب پروستات<br>${e('<b>prostate cancer</b>')}: با ${e('PSA')} بالا و ندول در DRE${vs(['BPH', 'بزرگی خوش‌خیم'], ['prostate cancer', 'تومور بدخیم'])}`),
+          L('در بالین', `${pearl('در Case Study، آقای Dexter، ۶۰ ساله، hesitancy داشت. در DRE پروستاتش حدود ۵۰ گرم بود و ۱۲۰ mL ادرار در مثانه‌اش باقی می‌ماند. تشخیص: BPH with BNO (انسداد گردن مثانه).')}${e('<b>prostatitis</b>')}: التهاب پروستات<br>${e('<b>prostate cancer</b>')}: با ${e('PSA')} بالا و ندول در DRE${vs(['BPH', 'بزرگی خوش‌خیم'], ['prostate cancer', 'تومور بدخیم'])}`),
           M('شب‌ادراری چه نام دارد؟', ['nocturia', 'dysuria', 'hematuria', 'polyuria'], 'noct/o = شب.', null, F('bph-drawing', [])),
           M('در BPH چرا جریان ادرار ضعیف می‌شود؟', ['پروستات بزرگ پیشابراه را تنگ می‌کند', 'کلیه ادرار نمی‌سازد', 'مثانه پاره می‌شود', 'بیضه بزرگ می‌شود'], 'انسداد.', null, F('bph', [])),
           T('hyperplasia یعنی افزایش تعداد سلول‌ها.', true, 'hyper- + -plasia.'),
@@ -2253,7 +2253,7 @@
       {
         id: 'ds6', title: 'آلت و باروری مردانه', icon: '🔧', items: [
           L('ناهنجاری‌های پیشابراه', `${fig('hypospadias', ['جای نابجای سوراخ پیشابراه'], 'هایپوسپادیاس')}• ${e('<b>hypospadias</b>')}: سوراخ پیشابراه در زیر آلت<br>• ${e('<b>epispadias</b>')}: سوراخ پیشابراه در روی آلت<br>• ${e('<b>phimosis</b>')}: تنگی پوست سر آلت که عقب نمی‌رود؛ درمان: ختنه${memo('پیشوند hypo- یعنی زیر و پیشوند epi- یعنی روی.')}`),
-          L('التهاب‌ها و نازایی', `${pearl('سناریوی APPLY کتاب: Jon Meriweather با التهاب سر آلت (balanitis)، التهاب بیضه (orchitis) و التهاب کیسه بیضه آمده و سابقه prostatitis دارد.')}${e('<b>male infertility</b>')}: اغلب از ${e('oligospermia')} یا ${e('azoospermia')} (نبود اسپرم در منی)؛ بررسی با ${e('semen analysis')}.`),
+          L('التهاب‌ها و نازایی', `${pearl('سناریوی APPLY: Jon Meriweather با التهاب سر آلت (balanitis)، التهاب بیضه (orchitis) و التهاب کیسه بیضه آمده و سابقه prostatitis دارد.')}${e('<b>male infertility</b>')}: اغلب از ${e('oligospermia')} یا ${e('azoospermia')} (نبود اسپرم در منی)؛ بررسی با ${e('semen analysis')}.`),
           M('سوراخ پیشابراه در زیر آلت…', ['hypospadias', 'epispadias', 'phimosis', 'priapism'], 'hypo- = زیر.', null, F('hypospadias', [])),
           M('azoospermia یعنی…', ['نبود اسپرم در منی', 'کمی اسپرم', 'اسپرم بی‌تحرک', 'خون در منی'], 'a- + zo/o + sperm/o.'),
           T('phimosis یعنی تنگی پوست روی سر آلت.', true, 'درمان: ختنه.'),
@@ -2268,7 +2268,7 @@
       {
         id: 'ds7', title: 'خارج رحمی و مشکلات جفت', icon: '⚠️', items: [
           L('بارداری خارج رحمی', `${fig('ectopic', [], 'بارداری خارج رحمی')}${e('<b>ectopic pregnancy</b>')}: لانه‌گزینی بیرون از رحم (پیشوند ${e('ec-')} یعنی بیرون و ریشه ${e('top/o')} یعنی جا)؛ بیش از ۹۵٪ در لوله رحم. پارگی لوله خونریزی کشنده می‌دهد.${fig('ectopic-sites', ['جاهای بارداری خارج رحمی'], 'جاهای خارج رحمی')}`),
-          L('مشکلات جفت و فشار خون', `${fig('placenta-problems', [], 'مشکلات جفت')}• ${e('<b>placenta previa</b>')}: جفت روی دهانه رحم؛ خونریزی بی‌درد<br>• ${e('<b>abruptio placentae</b>')}: جدا شدن زودرس جفت؛ خونریزی دردناک<br>• ${e('<b>preeclampsia</b>')}: فشار خون بالا و پروتئین در ادرار پس از هفته ۲۰؛ اگر تشنج بیاید: ${e('eclampsia')}${fig('placental-abnormalities', ['جایگاه‌های نابجای جفت'], 'ناهنجاری جفت')}${pearl('در مشاوره High-Risk OB کتاب Fremgen: بیمار <bdi dir="ltr">“placenta previa”</bdi> دارد و خطر <bdi dir="ltr">“abruptio”</bdi> هست؛ قرار شد با شروع زایمان سزارین شود.')}`),
+          L('مشکلات جفت و فشار خون', `${fig('placenta-problems', [], 'مشکلات جفت')}• ${e('<b>placenta previa</b>')}: جفت روی دهانه رحم؛ خونریزی بی‌درد<br>• ${e('<b>abruptio placentae</b>')}: جدا شدن زودرس جفت؛ خونریزی دردناک<br>• ${e('<b>preeclampsia</b>')}: فشار خون بالا و پروتئین در ادرار پس از هفته ۲۰؛ اگر تشنج بیاید: ${e('eclampsia')}${fig('placental-abnormalities', ['جایگاه‌های نابجای جفت'], 'ناهنجاری جفت')}${pearl('در مشاوره High-Risk OB: بیمار <bdi dir="ltr">“placenta previa”</bdi> دارد و خطر <bdi dir="ltr">“abruptio”</bdi> هست؛ قرار شد با شروع زایمان سزارین شود.')}`),
           M('شایع‌ترین جای بارداری خارج رحمی کجاست؟', ['لوله رحم', 'تخمدان', 'دهانه رحم', 'شکم'], 'tubal.', null, F('ectopic-sites', [])),
           M('جفتی که روی دهانه رحم قرار گرفته…', ['placenta previa', 'abruptio placentae', 'placenta accreta', 'preeclampsia'], 'previa = جلوتر.', null, F('placental-abnormalities', [])),
           T('preeclampsia با فشار خون بالا و پروتئین در ادرار همراه است.', true, 'پس از هفته ۲۰.'),
@@ -2281,7 +2281,7 @@
       },
       {
         id: 'ds8', title: 'زایمان دشوار و ژنتیک', icon: '🧬', items: [
-          L('از دست رفتن بارداری', `• ${e('<b>spontaneous abortion</b>')} (${e('miscarriage')}): از دست رفتن بارداری پیش از هفته ۲۰<br>• ${e('<b>stillbirth</b>')}: تولد نوزاد مرده پس از هفته ۲۰<br>• ${e('<b>IUFD</b>')}: مرگ جنین درون رحم<br>• ${e('fetal distress')}: نشانه‌های کمبود اکسیژن جنین${pearl('تمرین 15-9 کتاب: بیمار ۲۷ ساله G II P I؛ سونوگرافی هفته ۱۴ و آمنیوسنتز هفته ۱۵ طبیعی بود، ولی در هفته ۱۸ مرگ جنین درون رحم (IUFD) رخ داد.')}`),
+          L('از دست رفتن بارداری', `• ${e('<b>spontaneous abortion</b>')} (${e('miscarriage')}): از دست رفتن بارداری پیش از هفته ۲۰<br>• ${e('<b>stillbirth</b>')}: تولد نوزاد مرده پس از هفته ۲۰<br>• ${e('<b>IUFD</b>')}: مرگ جنین درون رحم<br>• ${e('fetal distress')}: نشانه‌های کمبود اکسیژن جنین${pearl('یک تمرین بالینی: بیمار ۲۷ ساله G II P I؛ سونوگرافی هفته ۱۴ و آمنیوسنتز هفته ۱۵ طبیعی بود، ولی در هفته ۱۸ مرگ جنین درون رحم (IUFD) رخ داد.')}`),
           L('ناهنجاری کروموزومی', `${fig('down-syndrome', ['چهره کودک مبتلا به سندروم داون'], 'سندروم داون')}${e('<b>Down syndrome</b>')} (${e('trisomy 21')}): سه نسخه از کروموزوم ۲۱؛ خطرش با سن مادر بالا می‌رود. با آمنیوسنتز یا ${e('CVS')} تشخیص داده می‌شود.${memo('پیشوند tri- یعنی سه و پسوند -somy یعنی جسم (کروموزوم).')}`),
           M('مرگ جنین پس از هفته ۲۰ و تولد او…', ['stillbirth', 'miscarriage', 'ectopic pregnancy', 'preterm birth'], 'مرده‌زایی.'),
           M('سندروم داون چه ناهنجاری‌ای است؟', ['سه نسخه از کروموزوم ۲۱', 'نبود یک کروموزوم X', 'سه نسخه از کروموزوم ۱۸', 'کمبود هورمون'], 'trisomy 21.', null, F('down-syndrome', [])),
@@ -2296,7 +2296,7 @@
       {
         id: 'ds9', title: 'عفونت‌های آمیزشی', icon: '🦠', items: [
           L('مهم‌ترین STIها', `${fig('sti', [], 'عفونت‌های آمیزشی')}${tbl([['بیماری', 'عامل', 'نشانه'], [e('chlamydia'), 'باکتری', 'اغلب بی‌علامت؛ علت مهم PID'], [e('gonorrhea'), 'باکتری', 'ترشح چرکی'], [e('syphilis'), 'باکتری', 'زخم بی‌درد (chancre)'], [e('genital herpes'), e('HSV‑2'), 'تاول‌های دردناک'], [e('genital warts'), e('HPV'), 'زگیل؛ خطر سرطان دهانه رحم'], [e('trichomoniasis'), 'انگل', 'ترشح کف‌آلود']])}`),
-          L('در بالین', `${fig('herpes-drawing', ['تاول‌های هرپس'], 'هرپس')}${fig('genital-warts', ['زگیل تناسلی'], 'زگیل')}${pearl('در Case Study کتاب Fremgen: خانم ۲۲ ساله با تب، بی‌حالی، dysuria و leukorrhea (ترشح سفید) آمد. تاول‌هایش زخم شده بود و غدد لنفاوی کشاله رانش بزرگ بود؛ تشخیص genital herpes بود.')}${memo('STI همان STD است؛ امروز «عفونت» می‌گویند چون بسیاری بی‌علامت‌اند.')}`),
+          L('در بالین', `${fig('herpes-drawing', ['تاول‌های هرپس'], 'هرپس')}${fig('genital-warts', ['زگیل تناسلی'], 'زگیل')}${pearl('در Case Study: خانم ۲۲ ساله با تب، بی‌حالی، dysuria و leukorrhea (ترشح سفید) آمد. تاول‌هایش زخم شده بود و غدد لنفاوی کشاله رانش بزرگ بود؛ تشخیص genital herpes بود.')}${memo('STI همان STD است؛ امروز «عفونت» می‌گویند چون بسیاری بی‌علامت‌اند.')}`),
           M('عامل زگیل تناسلی کدام است؟', ['HPV', 'HSV-2', 'HIV', 'chlamydia'], 'ویروس پاپیلوما.', null, F('genital-warts', [])),
           M('زخم بی‌درد سیفلیس چه نام دارد؟', ['chancre', 'vesicle', 'wart', 'pustule'], 'شانکر.'),
           T('genital herpes با تاول‌های دردناک همراه است.', true, 'HSV-2.', F('herpes-drawing', [])),
@@ -2343,7 +2343,7 @@
       {
         id: 'tx2', title: 'ماموگرافی و سونوگرافی', icon: '📡', items: [
           L('ماموگرافی', `${fig('mammography', [], 'ماموگرافی')}${wb('mamm/o', '-graphy')} ← ${e('<b>mammography</b>')}: عکس اشعه ایکس از پستان فشرده‌شده؛ غربالگری سرطان پستان. تصویر حاصل ${e('mammogram')} است.${fig('mammograms', ['دو نمای ماموگرام'], 'ماموگرام')}`),
-          L('سونوگرافی', `${e('<b>ultrasonography (sonography)</b>')}: تصویر با امواج صوتی؛ بدون اشعه و بی‌خطر برای جنین. در ${e('transvaginal ultrasound')} پروب درون واژن است.<br>${e('<b>hysterosalpingography (HSG)</b>')}: عکس رنگی از رحم و لوله‌ها برای بررسی باز بودن لوله‌ها.${pearl('سناریوی APPLY کتاب: برای Charity Peterson هم hysteroscopy و هم hysterosalpingography درخواست شد.')}`),
+          L('سونوگرافی', `${e('<b>ultrasonography (sonography)</b>')}: تصویر با امواج صوتی؛ بدون اشعه و بی‌خطر برای جنین. در ${e('transvaginal ultrasound')} پروب درون واژن است.<br>${e('<b>hysterosalpingography (HSG)</b>')}: عکس رنگی از رحم و لوله‌ها برای بررسی باز بودن لوله‌ها.${pearl('سناریوی APPLY: برای Charity Peterson هم hysteroscopy و هم hysterosalpingography درخواست شد.')}`),
           M('ماموگرافی با کدام پرتو انجام می‌شود؟', ['اشعه ایکس', 'امواج صوتی', 'میدان مغناطیسی', 'نور مرئی'], 'X-ray.', null, F('mammography', [])),
           M('کدام روش برای دیدن جنین بی‌خطرتر است؟', ['ultrasonography', 'mammography', 'CT scan', 'hysterosalpingography'], 'بدون اشعه.'),
           T('mammogram تصویر به‌دست‌آمده از mammography است.', true, '-gram = تصویر.', F('mammograms', [])),
@@ -2356,8 +2356,8 @@
       },
       {
         id: 'tx3', title: 'آزمایش‌های پیش از تولد و مردانه', icon: '🧪', items: [
-          L('پیش از تولد', `${fig('amniocentesis', [], 'آمنیوسنتز')}• ${e('<b>amniocentesis</b>')}: کشیدن مایع آمنیوتیک با سوزن، معمولاً هفته ۱۵ تا ۲۰؛ برای کروموزوم‌ها<br>• ${e('<b>chorionic villus sampling (CVS)</b>')}: نمونه از پرزهای کوریون، زودتر (هفته ۱۰ تا ۱۳)<br>• ${e('FHR monitoring')}: پایش ضربان قلب جنین${pearl('در مشاوره High-Risk OB کتاب Fremgen: <bdi dir="ltr">“amniocentesis at 20 weeks”</bdi> نتیجه طبیعی و جنین پسر نشان داد؛ FHR حدود ۱۳۰ بود.')}`),
-          L('آزمایش‌های مردانه', `• ${e('<b>PSA</b>')}: آنتی‌ژن اختصاصی پروستات در خون؛ بالا رفتنش در سرطان و BPH<br>• ${e('<b>DRE</b>')}: معاینه انگشتی راست‌روده<br>• ${e('<b>prostate biopsy</b>')}: نمونه سوزنی از پروستات با راهنمای سونوگرافی از راه راست‌روده (${e('TRUS')})${fig('prostate-biopsy', ['نمونه‌برداری سوزنی از پروستات'], 'بیوپسی پروستات')}${pearl('در Consult کتاب Pearson: در DRE ندول لمس شد، ولی بیوپسی منفی و PSA طبیعی بود؛ تشخیص BPH.')}`),
+          L('پیش از تولد', `${fig('amniocentesis', [], 'آمنیوسنتز')}• ${e('<b>amniocentesis</b>')}: کشیدن مایع آمنیوتیک با سوزن، معمولاً هفته ۱۵ تا ۲۰؛ برای کروموزوم‌ها<br>• ${e('<b>chorionic villus sampling (CVS)</b>')}: نمونه از پرزهای کوریون، زودتر (هفته ۱۰ تا ۱۳)<br>• ${e('FHR monitoring')}: پایش ضربان قلب جنین${pearl('در مشاوره High-Risk OB: <bdi dir="ltr">“amniocentesis at 20 weeks”</bdi> نتیجه طبیعی و جنین پسر نشان داد؛ FHR حدود ۱۳۰ بود.')}`),
+          L('آزمایش‌های مردانه', `• ${e('<b>PSA</b>')}: آنتی‌ژن اختصاصی پروستات در خون؛ بالا رفتنش در سرطان و BPH<br>• ${e('<b>DRE</b>')}: معاینه انگشتی راست‌روده<br>• ${e('<b>prostate biopsy</b>')}: نمونه سوزنی از پروستات با راهنمای سونوگرافی از راه راست‌روده (${e('TRUS')})${fig('prostate-biopsy', ['نمونه‌برداری سوزنی از پروستات'], 'بیوپسی پروستات')}${pearl('در Consult: در DRE ندول لمس شد، ولی بیوپسی منفی و PSA طبیعی بود؛ تشخیص BPH.')}`),
           M('کدام آزمایش زودتر در بارداری انجام می‌شود؟', ['CVS', 'amniocentesis', 'Apgar', 'Pap smear'], 'هفته ۱۰ تا ۱۳.', null, F('amniocentesis', [])),
           M('PSA چیست؟', ['آنتی‌ژن اختصاصی پروستات در خون', 'معاینه انگشتی', 'نمونه منی', 'عکس پروستات'], 'prostate-specific antigen.'),
           T('بیوپسی پروستات اغلب با راهنمای سونوگرافی از راه راست‌روده انجام می‌شود.', true, 'TRUS.', F('prostate-biopsy', [])),
@@ -2385,8 +2385,8 @@
       },
       {
         id: 'tx5', title: 'جراحی پستان و پروستات', icon: '✂️', items: [
-          L('جراحی پستان', `${fig('mastectomy', ['ماستکتومی'], 'ماستکتومی')}• ${e('<b>lumpectomy</b>')}: برداشتن فقط توده<br>• ${e('<b>simple mastectomy</b>')}: برداشتن کل پستان<br>• ${e('<b>radical mastectomy</b>')}: پستان، عضله سینه و غدد لنفاوی زیر بغل<br>• ${e('mammoplasty')}: ترمیم یا تغییر اندازه پستان؛ ${e('mastopexy')}: بالا کشیدن پستان${pearl('سناریوی APPLY کتاب: دکتر Schaefer درباره mammography، lumpectomy، mastectomy، mastopexy و mammoplasty توضیح می‌دهد.')}`),
-          L('TURP', `${fig('turp', [], 'TURP')}${e('<b>TURP (transurethral resection of the prostate)</b>')}: تراشیدن پروستات بزرگ از راه پیشابراه با ${e('resectoscope')}. پس از عمل ${e('Foley catheter')} گذاشته می‌شود.${fig('turp-drawing', ['تراشیدن پروستات از راه پیشابراه'], 'TURP')}${pearl('در Case Study کتاب Cohen: آقای Dexter با spinal anesthesia و NPO پیش از عمل، TURP شد.')}`),
+          L('جراحی پستان', `${fig('mastectomy', ['ماستکتومی'], 'ماستکتومی')}• ${e('<b>lumpectomy</b>')}: برداشتن فقط توده<br>• ${e('<b>simple mastectomy</b>')}: برداشتن کل پستان<br>• ${e('<b>radical mastectomy</b>')}: پستان، عضله سینه و غدد لنفاوی زیر بغل<br>• ${e('mammoplasty')}: ترمیم یا تغییر اندازه پستان؛ ${e('mastopexy')}: بالا کشیدن پستان${pearl('سناریوی APPLY: دکتر Schaefer درباره mammography، lumpectomy، mastectomy، mastopexy و mammoplasty توضیح می‌دهد.')}`),
+          L('TURP', `${fig('turp', [], 'TURP')}${e('<b>TURP (transurethral resection of the prostate)</b>')}: تراشیدن پروستات بزرگ از راه پیشابراه با ${e('resectoscope')}. پس از عمل ${e('Foley catheter')} گذاشته می‌شود.${fig('turp-drawing', ['تراشیدن پروستات از راه پیشابراه'], 'TURP')}${pearl('در Case Study: آقای Dexter با spinal anesthesia و NPO پیش از عمل، TURP شد.')}`),
           M('برداشتن فقط توده پستان…', ['lumpectomy', 'mastectomy', 'mastopexy', 'mammoplasty'], 'lump = توده.', null, F('mastectomy', [])),
           M('TURP از چه راهی انجام می‌شود؟', ['از راه پیشابراه', 'از راه شکم', 'از راه راست‌روده', 'از راه پرینه'], 'trans- + urethr/o.', null, F('turp', [])),
           T('mastopexy یعنی بالا کشیدن و ثابت کردن پستان.', true, '-pexy = ثابت کردن.'),
@@ -2399,8 +2399,8 @@
       },
       {
         id: 'tx6', title: 'سزارین و اپی‌زیاتومی', icon: '🩹', items: [
-          L('سزارین', `${fig('cesarean', [], 'سزارین')}${e('<b>cesarean section (C-section, CS)</b>')}: بیرون آوردن نوزاد با برش شکم و رحم. برش پوست اغلب ${e('transverse suprapubic')} (افقی بالای استخوان شرمگاهی) است.${pearl('در Case Study کتاب Cohen: Abigail به‌علت CPD و fetal distress، C-section اورژانسی با spinal anesthesia و برش عرضی بالای شرمگاهی شد؛ سپس Pitocin گرفت و به PACU رفت.')}`),
-          L('کمک به زایمان واژینال', `• ${e('<b>episiotomy</b>')}: برش پرینه برای گشاد کردن دهانه واژن<br>• ${e('<b>amniotomy</b>')}: پاره کردن کیسه آب<br>• ${e('induction of labor')}: القای زایمان با ${e('oxytocin (Pitocin)')}<br>• ${e('VBAC')}: زایمان واژینال پس از سزارین${pearl('OB Delivery Note کتاب Ehrlich: <bdi dir="ltr">“second-degree midline episiotomy”</bdi> یعنی برش میانی درجه دو.')}`),
+          L('سزارین', `${fig('cesarean', [], 'سزارین')}${e('<b>cesarean section (C-section, CS)</b>')}: بیرون آوردن نوزاد با برش شکم و رحم. برش پوست اغلب ${e('transverse suprapubic')} (افقی بالای استخوان شرمگاهی) است.${pearl('در Case Study: Abigail به‌علت CPD و fetal distress، C-section اورژانسی با spinal anesthesia و برش عرضی بالای شرمگاهی شد؛ سپس Pitocin گرفت و به PACU رفت.')}`),
+          L('کمک به زایمان واژینال', `• ${e('<b>episiotomy</b>')}: برش پرینه برای گشاد کردن دهانه واژن<br>• ${e('<b>amniotomy</b>')}: پاره کردن کیسه آب<br>• ${e('induction of labor')}: القای زایمان با ${e('oxytocin (Pitocin)')}<br>• ${e('VBAC')}: زایمان واژینال پس از سزارین${pearl('OB Delivery Note: <bdi dir="ltr">“second-degree midline episiotomy”</bdi> یعنی برش میانی درجه دو.')}`),
           M('برش پوست در سزارین معمولاً چگونه است؟', ['افقی بالای استخوان شرمگاهی', 'عمودی از ناف تا جناغ', 'روی پرینه', 'زیر بغل'], 'transverse suprapubic.', null, F('cesarean', [])),
           M('پاره کردن کیسه آب…', ['amniotomy', 'amniocentesis', 'episiotomy', 'episiorrhaphy'], '-tomy = برش.'),
           T('VBAC یعنی زایمان واژینال پس از سزارین.', true, 'vaginal birth after cesarean.'),
@@ -2415,7 +2415,7 @@
       {
         id: 'tx7', title: 'پیشگیری از بارداری', icon: '💊', items: [
           L('روش‌ها', `${fig('contraception', [], 'روش‌های پیشگیری')}${e('<b>contraception</b>')} یعنی پیشگیری از بارداری (پیشوند ${e('contra-')} یعنی ضد):<br>• هورمونی: ${e('oral contraceptive (OC)')}، چسب، تزریق، کاشت<br>• سدی: کاندوم، ${e('diaphragm')}<br>• ${e('<b>IUD</b>')}: وسیله داخل رحمی؛ مسی یا هورمونی<br>• دائمی: ${e('tubal ligation')} و ${e('vasectomy')}${fig('contraceptives', ['چند روش پیشگیری'], 'وسایل پیشگیری')}`),
-          L('IUD', `${fig('iud', ['وسیله داخل رحمی در جای خود'], 'IUD')}${e('IUD')} در حفره رحم قرار می‌گیرد و چند سال کار می‌کند.${pearl('سناریوی APPLY کتاب: Beth Meyers قرص ۲۱ روزه مصرف می‌کند ولی گاهی فراموش می‌کند؛ ممکن است IUD یا روش طولانی‌اثر برایش مناسب‌تر باشد.')}${memo('کاندوم تنها روشی است که از STI هم پیشگیری می‌کند.')}`),
+          L('IUD', `${fig('iud', ['وسیله داخل رحمی در جای خود'], 'IUD')}${e('IUD')} در حفره رحم قرار می‌گیرد و چند سال کار می‌کند.${pearl('سناریوی APPLY: Beth Meyers قرص ۲۱ روزه مصرف می‌کند ولی گاهی فراموش می‌کند؛ ممکن است IUD یا روش طولانی‌اثر برایش مناسب‌تر باشد.')}${memo('کاندوم تنها روشی است که از STI هم پیشگیری می‌کند.')}`),
           M('IUD در کجا قرار می‌گیرد؟', ['درون حفره رحم', 'درون لوله رحم', 'روی دهانه رحم', 'زیر پوست بازو'], 'intrauterine.', null, F('iud', [])),
           M('کدام روش از STI هم پیشگیری می‌کند؟', ['condom', 'IUD', 'oral contraceptive', 'tubal ligation'], 'روش سدی.', null, F('contraceptives', [])),
           T('contraception یعنی پیشگیری از بارداری.', true, 'contra- + conception.'),
@@ -2429,7 +2429,7 @@
       {
         id: 'tx8', title: 'عقیم‌سازی', icon: '🔒', items: [
           L('بستن لوله‌ها', `${fig('sterilization', [], 'عقیم‌سازی')}${e('<b>tubal ligation</b>')}: بستن یا بریدن لوله‌های رحم، اغلب با ${e('laparoscopy')}؛ تخمک به رحم نمی‌رسد.${fig('tubal-ligation', ['بستن لوله‌های رحم'], 'بستن لوله')}`),
-          L('وازکتومی', `${e('<b>vasectomy</b>')}: بریدن و بستن مجرای وابران؛ منی بدون اسپرم ساخته می‌شود ولی نعوظ و انزال تغییری نمی‌کند. بازگرداندن آن ${e('vasovasostomy')} است.${pearl('در Consult کتاب Pearson: بیمار ۷۷ ساله <bdi dir="ltr">“vasectomy at age 41”</bdi> داشت.')}${vs(['tubal ligation', 'عقیم‌سازی زن'], ['vasectomy', 'عقیم‌سازی مرد'])}`),
+          L('وازکتومی', `${e('<b>vasectomy</b>')}: بریدن و بستن مجرای وابران؛ منی بدون اسپرم ساخته می‌شود ولی نعوظ و انزال تغییری نمی‌کند. بازگرداندن آن ${e('vasovasostomy')} است.${pearl('در Consult: بیمار ۷۷ ساله <bdi dir="ltr">“vasectomy at age 41”</bdi> داشت.')}${vs(['tubal ligation', 'عقیم‌سازی زن'], ['vasectomy', 'عقیم‌سازی مرد'])}`),
           M('در tubal ligation چه چیزی بسته می‌شود؟', ['لوله‌های رحم', 'دهانه رحم', 'مجرای وابران', 'تخمدان‌ها'], 'لوله‌ها.', null, F('tubal-ligation', [])),
           M('وصل دوباره مجرای وابران…', ['vasovasostomy', 'vasectomy', 'orchiopexy', 'salpingectomy'], '-stomy = ایجاد دهانه.', null, F('sterilization', [])),
           T('پس از وازکتومی انزال ادامه دارد ولی منی اسپرم ندارد.', true, 'فقط مسیر اسپرم بسته است.'),
@@ -2775,7 +2775,7 @@
       steps: [
         M('شمارش', 'G4 P4 یعنی…', ['چهار بارداری و چهار زایمان', 'چهار سقط', 'چهار زایمان زودرس', 'چهار فرزند دوقلو'], 'گراویدا و پارا.'),
         M('علت', 'چرا خونریزی پس از یائسگی مهم است؟', ['ممکن است نشانه سرطان آندومتر باشد', 'همیشه طبیعی است', 'نشانه بارداری است', 'از کم‌خونی است'], 'رد بدخیمی.'),
-        P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['neoplasm', 'رشد تازه (تومور)'], ['laparoscopy', 'دیدن درون شکم'], ['D&C', 'گشاد کردن و تراشیدن'], ['simple mastectomy', 'برداشتن کل پستان']], 'Chart Note کتاب Gylys.'),
+        P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['neoplasm', 'رشد تازه (تومور)'], ['laparoscopy', 'دیدن درون شکم'], ['D&C', 'گشاد کردن و تراشیدن'], ['simple mastectomy', 'برداشتن کل پستان']], 'Chart Note.'),
         T('دارو', 'Premarin یک داروی استروژنی است.', true, 'هورمون‌درمانی.'),
         M('لایه', 'D&C کدام لایه رحم را می‌تراشد؟', ['endometrium', 'myometrium', 'perimetrium', 'cervix'], 'پوشش درونی.', null, { a: ['uterine-wall'], l: [] }),
         S('املا', 'املای «پس از یائسگی» (صفت) را بنویس', 'postmenopausal', 'post- + men/o + pausal.', 'postm…')
@@ -2834,7 +2834,7 @@
         M('اختصار', 'CPD یعنی…', ['عدم تناسب سر جنین و لگن مادر', 'پارگی زودرس پرده‌ها', 'جفت سرراهی', 'زایمان زودرس'], 'cephalopelvic disproportion.'),
         M('شمارش', 'G2 P1 یعنی…', ['دو بارداری و یک زایمان قبلی', 'یک بارداری و دو زایمان', 'دو سقط', 'دوقلو'], 'گراویدا و پارا.'),
         M('برش', 'برش پوست سزارین Abigail چگونه بود؟', ['عرضی بالای شرمگاهی', 'عمودی میانی', 'روی پرینه', 'زیر ناف عمودی'], 'transverse suprapubic.', null, { a: ['cesarean'], l: [] }),
-        P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['fetal distress', 'کمبود اکسیژن جنین'], ['Pitocin', 'اکسی‌توسین ساختگی'], ['PACU', 'بخش مراقبت پس از بیهوشی'], ['rooming-in', 'هم‌اتاقی با نوزاد']], 'Case Study کتاب Cohen.'),
+        P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['fetal distress', 'کمبود اکسیژن جنین'], ['Pitocin', 'اکسی‌توسین ساختگی'], ['PACU', 'بخش مراقبت پس از بیهوشی'], ['rooming-in', 'هم‌اتاقی با نوزاد']], 'Case Study.'),
         T('آپگار', 'Apgar 9/9 یعنی نوزاد در دقیقه یک و پنج حال خوبی داشت.', true, 'نزدیک به ۱۰.', { a: ['apgar'], l: [] }),
         S('املا', 'املای «نوزاد» را بنویس', 'neonate', 'neo- + nat/o.', 'neon…')
       ]
@@ -2845,7 +2845,7 @@
       chart: [['OB', 'G1 P0 → G1 P1'], ['GA', 'IUP 36 6/7 weeks'], ['Exam', '80% effaced, 4 cm'], ['Delivery', 'NSVD, epidural, 2nd-degree episiotomy'], ['EBL', '300 cc']],
       fig: { a: 'labor-stages', l: [] },
       steps: [
-        P('اختصار', 'هر اختصار را به معنی‌اش وصل کن', [['IUP', 'بارداری داخل رحمی'], ['PROM', 'پارگی زودرس پرده‌ها'], ['NSVD', 'زایمان طبیعی واژینال'], ['EBL', 'خون از دست رفته تخمینی']], 'Delivery Note کتاب Ehrlich.'),
+        P('اختصار', 'هر اختصار را به معنی‌اش وصل کن', [['IUP', 'بارداری داخل رحمی'], ['PROM', 'پارگی زودرس پرده‌ها'], ['NSVD', 'زایمان طبیعی واژینال'], ['EBL', 'خون از دست رفته تخمینی']], 'Delivery Note.'),
         M('معاینه', '80% effacement یعنی…', ['دهانه رحم ۸۰٪ نازک شده', 'دهانه رحم ۸ سانتی‌متر باز است', '۸۰٪ پرده‌ها پاره شده', 'جنین ۸۰٪ پایین آمده'], 'نازک شدن.'),
         M('سن', '۳۶ هفته و ۶ روز یعنی نوزاد…', ['preterm', 'term', 'postterm', 'stillborn'], 'پیش از ۳۷ هفته.'),
         T('شمارش', 'پس از این زایمان، بیمار G1 P1 است.', true, 'یک زایمان.'),
@@ -2859,7 +2859,7 @@
       chart: [['OB', 'multigravida, nullipara; 3 SABs'], ['GA', '175 days'], ['Tests', 'amniocentesis 20 wk: normal male'], ['Dx', 'placenta previa; risk of abruptio'], ['Plan', 'C-section at onset of labor']],
       fig: { a: 'placenta-problems', l: [] },
       steps: [
-        M('شمارش', 'multigravida, nullipara یعنی…', ['چند بار باردار شده ولی زایمانی نداشته', 'بار اول باردار است', 'چند زایمان داشته', 'هرگز باردار نشده'], 'Fremgen.'),
+        M('شمارش', 'multigravida, nullipara یعنی…', ['چند بار باردار شده ولی زایمانی نداشته', 'بار اول باردار است', 'چند زایمان داشته', 'هرگز باردار نشده'], 'طبق منابع مرجع.'),
         M('جفت', 'placenta previa یعنی…', ['جفت روی دهانه رحم', 'جدا شدن زودرس جفت', 'جفت چسبیده به عضله', 'جفت کوچک'], 'previa.', null, { a: ['placental-abnormalities'], l: [] }),
         M('خطر', 'چرا زایمان واژینال در placenta previa خطرناک است؟', ['جفت جلوی راه خروج است و خونریزی شدید می‌دهد', 'جنین بریچ می‌شود', 'فشار خون بالا می‌رود', 'نوزاد زودرس می‌شود'], 'خونریزی.'),
         P('واژه', 'هر واژه را به معنی‌اش وصل کن', [['miscarriage', 'سقط خودبه‌خودی'], ['abruptio placentae', 'جدا شدن زودرس جفت'], ['FHR', 'ضربان قلب جنین'], ['amniocentesis', 'کشیدن مایع آمنیوتیک']], 'مشاوره.'),
@@ -2870,7 +2870,7 @@
     /* ================= بیماری‌ها و عفونت‌ها ================= */
     {
       id: 'r13', w: 'ds', title: 'تاول‌هایی که زخم شدند', who: 'خانم ۲۲ ساله',
-      brief: 'Case Study کتاب Fremgen: بیمار ۲۲ ساله با تب، بی‌حالی (malaise)، ادرار دردناک و ترشح سفید واژن آمد. چند روز پیش تاول‌هایی در ناحیه تناسلی داشت که اکنون زخم شده‌اند. معاینه: قرمزی و ورم، و بزرگی غدد لنفاوی کشاله ران. تشخیص: genital herpes.',
+      brief: 'Case Study: بیمار ۲۲ ساله با تب، بی‌حالی (malaise)، ادرار دردناک و ترشح سفید واژن آمد. چند روز پیش تاول‌هایی در ناحیه تناسلی داشت که اکنون زخم شده‌اند. معاینه: قرمزی و ورم، و بزرگی غدد لنفاوی کشاله ران. تشخیص: genital herpes.',
       chart: [['Sx', 'fever, malaise, dysuria, leukorrhea'], ['Exam', 'vesicles → ulcers; erythema, edema; inguinal lymphadenopathy'], ['Dx', 'genital herpes (HSV-2)']],
       fig: { a: 'sti', l: [] },
       steps: [
@@ -2884,7 +2884,7 @@
     },
     {
       id: 'r14', w: 'ds', title: 'ادراری که دیر شروع می‌شود', who: 'Dexter، مرد ۶۰ ساله',
-      brief: 'Case Study کتاب Cohen: آقای Dexter از دیر شروع شدن ادرار و جریان ضعیف شکایت دارد. در DRE پروستاتی حدود ۵۰ گرم و بزرگ لمس شد. پس از ادرار، ۱۲۰ mL ادرار در مثانه باقی می‌ماند. تشخیص: BPH with BNO. برنامه: TURP.',
+      brief: 'Case Study: آقای Dexter از دیر شروع شدن ادرار و جریان ضعیف شکایت دارد. در DRE پروستاتی حدود ۵۰ گرم و بزرگ لمس شد. پس از ادرار، ۱۲۰ mL ادرار در مثانه باقی می‌ماند. تشخیص: BPH with BNO. برنامه: TURP.',
       chart: [['CC', 'hesitancy, weak stream'], ['DRE', 'enlarged prostate ~50 g'], ['Residual urine', '120 mL'], ['Dx', 'BPH with BNO'], ['Plan', 'TURP']],
       fig: { a: 'bph', l: [] },
       steps: [
@@ -2941,7 +2941,7 @@
     },
     {
       id: 'r18', w: 'tx', title: 'شب‌ادراری در ۷۷ سالگی', who: 'مرد ۷۷ ساله',
-      brief: 'Consultation کتاب Pearson: بیمار ۷۷ ساله از شب‌ادراری و دشواری در خروج منی شکایت دارد. در کودکی cryptorchidism داشته که با orchiopexy درمان شده و در ۴۱ سالگی vasectomy کرده است. در DRE ندول لمس شد ولی biopsy برای سرطان پروستات منفی و PSA طبیعی بود. تشخیص: BPH. برنامه: TURP.',
+      brief: 'Consultation: بیمار ۷۷ ساله از شب‌ادراری و دشواری در خروج منی شکایت دارد. در کودکی cryptorchidism داشته که با orchiopexy درمان شده و در ۴۱ سالگی vasectomy کرده است. در DRE ندول لمس شد ولی biopsy برای سرطان پروستات منفی و PSA طبیعی بود. تشخیص: BPH. برنامه: TURP.',
       chart: [['CC', 'nocturia; difficulty releasing semen'], ['Hx', 'cryptorchidism → orchiopexy; vasectomy at 41'], ['Tests', 'DRE: nodules; biopsy negative; PSA normal'], ['Dx', 'BPH'], ['Plan', 'TURP']],
       fig: { a: 'turp', l: [] },
       steps: [

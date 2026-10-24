@@ -1554,7 +1554,7 @@
       {
         id: 'lx1', title: "Central and Peripheral", icon: '🧠', items: [
           L("Two big divisions", `${fig('ns-overview', [], "Central and peripheral nervous systems")}The nervous system receives messages, analyses them and gives commands. It has two parts:<br>• ${e('<b>central nervous system (CNS)</b>')}: the brain and spinal cord<br>• ${e('<b>peripheral nervous system (PNS)</b>')}: all the nerves outside the brain and spinal cord; 12 pairs of cranial nerves and 31 pairs of spinal nerves`),
-          L("Specialists", `${tbl([["specialist", "Job"], [e('neurologist'), "diseases of the nervous system; does not operate"], [e('neurosurgeon'), "surgery on the brain, spinal cord and nerves"], [e('psychiatrist'), "physician for mental disorders; prescribes medicines"], [e('psychologist'), "psychologist; testing and psychotherapy"]])}${memo("A neurologist treats with medicines and examination; a neurosurgeon with the scalpel.")}${pearl("In William’s record (a Case Study in Cohen’s book), his care team included a pediatrician, a neurosurgeon, a neurologist and a PM&R specialist.")}`),
+          L("Specialists", `${tbl([["specialist", "Job"], [e('neurologist'), "diseases of the nervous system; does not operate"], [e('neurosurgeon'), "surgery on the brain, spinal cord and nerves"], [e('psychiatrist'), "physician for mental disorders; prescribes medicines"], [e('psychologist'), "psychologist; testing and psychotherapy"]])}${memo("A neurologist treats with medicines and examination; a neurosurgeon with the scalpel.")}${pearl("In William’s record (a Case Study), his care team included a pediatrician, a neurosurgeon, a neurologist and a PM&R specialist.")}`),
           M("What does the central nervous system (CNS) consist of?", ["the brain and spinal cord", "the brain and cranial nerves", "the spinal cord and spinal nerves", "all the nerves of the body"], 'CNS = brain + spinal cord.', null, F('ns-overview', [])),
           M(`Who is a ${e('<b>neurologist</b>')}?`, ["a specialist in diseases of the nervous system", "neurosurgeon", "psychiatrist", "anaesthesia specialist"], "neur/o (nerve) + -logist (specialist)."),
           T("Cranial and spinal nerves are part of the peripheral nervous system (PNS).", true, "Everything outside the brain and spinal cord = PNS."),
@@ -1597,7 +1597,7 @@
       {
         id: 'lx4', title: "Roots of Nerve and Spinal Cord", icon: '🧵', items: [
           L("Five common roots", `${tbl([["root", "Meaning", "Example"], [e('neur/o'), "nerve", e('neuralgia')], [e('myel/o'), "spinal cord (or bone marrow)", e('myelitis')], [e('mening/o'), "membranes of the brain", e('meningitis')], [e('gli/o'), "supporting cell", e('glioma')], [e('radicul/o'), "nerve root", e('radiculopathy')]])}`),
-          L("A few example words", `${wb('neur/o', '-algia')} → ${e('<b>neuralgia</b>')}: pain along a nerve<br>${wb('myel/o', '-itis')} → ${e('<b>myelitis</b>')}: inflammation of the spinal cord<br>${wb('mening/o', '-itis')} → ${e('<b>meningitis</b>')}: inflammation of the membranes of the brain and spinal cord<br>${wb('radicul/o', '-pathy')} → ${e('<b>radiculopathy</b>')}: disease of a spinal nerve root${pearl("In Case Study 7-1 of the book, one of the terms asked for was “inflammation of the meninges”: meningitis.")}`),
+          L("A few example words", `${wb('neur/o', '-algia')} → ${e('<b>neuralgia</b>')}: pain along a nerve<br>${wb('myel/o', '-itis')} → ${e('<b>myelitis</b>')}: inflammation of the spinal cord<br>${wb('mening/o', '-itis')} → ${e('<b>meningitis</b>')}: inflammation of the membranes of the brain and spinal cord<br>${wb('radicul/o', '-pathy')} → ${e('<b>radiculopathy</b>')}: disease of a spinal nerve root${pearl("In Case Study, one of the terms asked for was “inflammation of the meninges”: meningitis.")}`),
           M(`In the nervous system, the root ${e('<b>myel/o</b>')} means…`, ["spinal cord", "muscle", "brain", "myelin"], "myel/o = spinal cord; in bone it means bone marrow."),
           M("Which word means “pain along a nerve”?", ['neuralgia', 'neuritis', 'neuropathy', 'neurolysis'], 'neur/o + -algia.'),
           T("meningitis means inflammation of the membranes of the brain and spinal cord.", true, "mening/o = meninges."),
@@ -1702,7 +1702,7 @@
         id: 'cn1', title: "Lobes of the Cerebrum", icon: '🧠', items: [
           L("Cerebrum and the two hemispheres", `${fig('brain-lobes', [], "Lobes of the Cerebrum")}${e('<b>cerebrum</b>')} is the largest part of the brain and is divided into left and right halves, each a ${e('<b>cerebral hemisphere</b>')}. Its surface is full of folds:<br>• ${e('<b>gyrus</b>')} (plural: ${e('gyri')}): a ridge<br>• ${e('<b>sulcus</b>')} (plural: ${e('sulci')}): a shallow groove<br>• ${e('<b>fissure</b>')}: a deep cleft, like the one between the two hemispheres`),
           L("four lobes", `${tbl([["lobe", "Main job"], [e('frontal'), "voluntary movement, planning, personality, speech"], [e('parietal'), "touch, pain and temperature"], [e('temporal'), "hearing, smell, understanding speech"], [e('occipital'), "vision and interpreting images"]])}${memo("Front to back: “frontal, parietal, occipital”; and the temporal lobe is beside the ear.")}${pearl(`The ${e('corpus callosum')} is a broad band of white fibres that joins the two hemispheres.`)}`),
-          M("Which is the largest part of the brain?", ['cerebrum', 'cerebellum', 'brainstem', 'thalamus'], "Cohen’s Pretest: The largest part of the brain is the cerebrum.", null, F('brain-lobes', [])),
+          M("Which is the largest part of the brain?", ['cerebrum', 'cerebellum', 'brainstem', 'thalamus'], "Pretest: The largest part of the brain is the cerebrum.", null, F('brain-lobes', [])),
           M("In which lobe is vision processed?", ['occipital', 'frontal', 'temporal', 'parietal'], "The occipital lobe."),
           T("gyri are the ridges and sulci the grooves on the surface of the cerebrum.", true, "gyrus = raised fold."),
           O("Put the lobes in order from front to back", ['frontal', 'parietal', 'occipital'], "Frontal, parietal, occipital."),
@@ -1715,7 +1715,7 @@
       {
         id: 'cn2', title: "Each Part, One Job", icon: '🎯', items: [
           L("Centres of the cerebral cortex", `${fig('brain-functions', [], "Functions of the brain areas")}The ${e('<b>cerebral cortex</b>')} is the thin layer of grey matter covering the cerebrum. Some important centres:<br>• ${e('<b>motor area</b>')}: in front of the central sulcus; voluntary movement<br>• ${e('<b>sensory area</b>')}: behind the central sulcus; touch and pain<br>• ${e('<b>Broca area</b>')}: in the left frontal lobe; producing speech<br>• ${e('<b>Wernicke area</b>')}: in the temporal lobe; understanding speech`),
-          L("Left and right", `Each hemisphere controls the <b>opposite</b> half of the body. Damage to the left hemisphere → paralysis of the right side and often ${e('aphasia')}.${memo("Broca = Build (building sentences); Wernicke = Word meaning (understanding words).")}${pearl("The book’s APPLY scenario: after a blow to the head, Mr Robert Jones has trouble reading and is easily distracted; so the occipital lobe (reading and vision) and the frontal lobe have probably been injured.")}`),
+          L("Left and right", `Each hemisphere controls the <b>opposite</b> half of the body. Damage to the left hemisphere → paralysis of the right side and often ${e('aphasia')}.${memo("Broca = Build (building sentences); Wernicke = Word meaning (understanding words).")}${pearl("A clinical scenario: after a blow to the head, Mr Robert Jones has trouble reading and is easily distracted; so the occipital lobe (reading and vision) and the frontal lobe have probably been injured.")}`),
           M("Which is the centre for producing speech?", ['Broca area', 'Wernicke area', 'visual area', 'sensory area'], "Broca, in the left frontal lobe.", null, F('brain-functions', [])),
           M("Damage to the left hemisphere usually paralyses which side of the body?", ["right", "left", "both", "neither"], "Crossed control."),
           T("Wernicke area is involved in understanding speech.", true, "In the temporal lobe."),
@@ -1729,7 +1729,7 @@
       {
         id: 'cn3', title: "Diencephalon, Brainstem and Cerebellum", icon: '🔎', items: [
           L("The middle parts", `${fig('brain-sagittal', [], "Midline section of the brain")}The ${e('<b>diencephalon</b>')} has two parts:<br>• ${e('<b>thalamus</b>')}: a relay station for sensory messages to the cerebral cortex<br>• ${e('<b>hypothalamus</b>')}: below the thalamus; body temperature, hunger, thirst, sleep and the pituitary gland`),
-          L("Brainstem and cerebellum", `The ${e('<b>brainstem</b>')} has three parts: ${e('midbrain')}, ${e('pons')} and ${e('medulla oblongata')}. The medulla oblongata controls breathing, heart rate and blood pressure.<br>The ${e('<b>cerebellum</b>')} lies behind the brainstem and regulates balance and coordination of movement.${memo("The brainstem from top to bottom: midbrain, pons, medulla; like the stem of a flower reaching down to the spinal cord.")}${pearl("Cohen’s Pretest: the midbrain, pons and medulla oblongata together make up the brainstem.")}`),
+          L("Brainstem and cerebellum", `The ${e('<b>brainstem</b>')} has three parts: ${e('midbrain')}, ${e('pons')} and ${e('medulla oblongata')}. The medulla oblongata controls breathing, heart rate and blood pressure.<br>The ${e('<b>cerebellum</b>')} lies behind the brainstem and regulates balance and coordination of movement.${memo("The brainstem from top to bottom: midbrain, pons, medulla; like the stem of a flower reaching down to the spinal cord.")}${pearl("Pretest: the midbrain, pons and medulla oblongata together make up the brainstem.")}`),
           M("What are the midbrain, pons and medulla oblongata together called?", ['brainstem', 'cerebellum', 'diencephalon', 'spinal cord'], "The brainstem.", null, F('brain-sagittal', [])),
           M("Which part controls balance and coordination of movement?", ['cerebellum', 'thalamus', 'medulla', 'frontal lobe'], "The cerebellum."),
           T("The hypothalamus regulates body temperature, thirst and hunger.", true, "hypo- = below + thalamus."),
@@ -1772,7 +1772,7 @@
       {
         id: 'cn6', title: "Skull and Protective Barriers", icon: '🪖', items: [
           L("Layered protection", `The brain is protected by several layers: the ${e('<b>cranium</b>')} (skull), the meninges, CSF and the ${e('<b>blood-brain barrier</b>')}, a layer of brain capillaries that keeps out many harmful substances and microbes.`),
-          L("intracranial pressure", `${wb('intra-', 'crani/o', '-al')} → ${e('<b>intracranial pressure (ICP)</b>')}: pressure inside the skull. A tumour, bleeding or brain swelling raises ICP and threatens the patient’s life.${memo("The skull is a closed box; anything new inside it raises the pressure.")}${pearl("The book’s APPLY scenario: “Concerned ICP is elevated”; that is, the doctor is worried that the pressure inside the skull has risen.")}`),
+          L("intracranial pressure", `${wb('intra-', 'crani/o', '-al')} → ${e('<b>intracranial pressure (ICP)</b>')}: pressure inside the skull. A tumour, bleeding or brain swelling raises ICP and threatens the patient’s life.${memo("The skull is a closed box; anything new inside it raises the pressure.")}${pearl("A clinical scenario: “Concerned ICP is elevated”; that is, the doctor is worried that the pressure inside the skull has risen.")}`),
           M("ICP means…", ["intracranial pressure", "cerebrospinal fluid", "neurological intensive care unit", "stroke"], 'intracranial pressure.'),
           M("What does the blood–brain barrier do?", ["It keeps many harmful substances out of the brain", "It makes CSF", "It pumps blood to the brain", "It attaches the brain to the skull"], 'blood-brain barrier.'),
           T("Bleeding inside the skull can raise ICP.", true, "A closed box."),
@@ -1801,7 +1801,7 @@
       {
         id: 'cn8', title: "Levels of the Spinal Cord", icon: '📏', items: [
           L("31 pairs", `${fig('spinal-levels', [], "spinal nerves")}The spinal cord runs from the medulla oblongata down to the second lumbar vertebra (${e('L2')}). Thirty-one pairs of spinal nerves leave it:<br>8 cervical (${e('C1–C8')}), 12 thoracic (${e('T1–T12')}), 5 lumbar (${e('L1–L5')}), 5 sacral (${e('S1–S5')}) and 1 coccygeal.`),
-          L("cauda equina", `Below the end of the spinal cord, the nerve roots run down like a horse’s tail: the ${e('<b>cauda equina</b>')}.${memo("The numbers are like a working day: 8 a.m. (C8), 12 noon (T12), 5 p.m. (L5), 5 p.m. (S5)!")}${pearl("In the Discharge Summary in Fremgen’s book, an L2 fracture with spinal cord injury caused complete paraplegia at the L2 level.")}`),
+          L("cauda equina", `Below the end of the spinal cord, the nerve roots run down like a horse’s tail: the ${e('<b>cauda equina</b>')}.${memo("The numbers are like a working day: 8 a.m. (C8), 12 noon (T12), 5 p.m. (L5), 5 p.m. (S5)!")}${pearl("In the Discharge Summary, an L2 fracture with spinal cord injury caused complete paraplegia at the L2 level.")}`),
           M("How many pairs of spinal nerves are there?", ["31", "12", "33", "24"], "8 + 12 + 5 + 5 + 1.", null, F('spinal-levels', [])),
           M("What are the nerve roots below the end of the spinal cord called?", ['cauda equina', 'plexus', 'conus', 'ganglion'], "The cauda equina."),
           T("In adults the spinal cord continues to about the L2 vertebra.", true, "That is why an LP is done lower down."),
@@ -1848,7 +1848,7 @@
       {
         id: 'pn1', title: "Afferent and efferent", icon: '↔️', items: [
           L("From Stimulus to Response", `A ${e('<b>stimulus</b>')} is a change inside or outside the body, such as heat or touch. A ${e('<b>receptor</b>')} senses it and produces an ${e('<b>impulse</b>')} (nerve impulse). Finally the ${e('<b>effector</b>')} (a muscle or gland) responds.`),
-          L("two directions", `${fig('afferent-efferent', [], "Afferent and efferent")}• ${e('<b>afferent neuron</b>')}: a sensory neuron; carries the message <b>towards</b> the CNS (${e('af-')} = towards)<br>• ${e('<b>efferent neuron</b>')}: a motor neuron; carries the message <b>away from</b> the CNS to muscles and glands (${e('ef-')} = away from)<br>• ${e('<b>interneuron</b>')}: a connecting neuron within the CNS${memo("Afferent = Arrive; Efferent = Exit.")}${pearl("The book’s APPLY scenario: “Explain to the class how afferent and efferent differ”; the answer is this direction of the message.")}`),
+          L("two directions", `${fig('afferent-efferent', [], "Afferent and efferent")}• ${e('<b>afferent neuron</b>')}: a sensory neuron; carries the message <b>towards</b> the CNS (${e('af-')} = towards)<br>• ${e('<b>efferent neuron</b>')}: a motor neuron; carries the message <b>away from</b> the CNS to muscles and glands (${e('ef-')} = away from)<br>• ${e('<b>interneuron</b>')}: a connecting neuron within the CNS${memo("Afferent = Arrive; Efferent = Exit.")}${pearl("A clinical scenario: “Explain to the class how afferent and efferent differ”; the answer is this direction of the message.")}`),
           M(`Where does an ${e('<b>afferent neuron</b>')} carry the message?`, ["towards the CNS", "from the CNS to a muscle", "from a muscle to a gland", "between two muscles"], "af- = towards.", null, F('afferent-efferent', [])),
           M("What is the neuron that carries the message to a muscle called?", ['efferent (motor) neuron', 'afferent (sensory) neuron', 'interneuron', 'receptor'], "ef- = away from the CNS."),
           T("An effector is a muscle or gland that responds to a nerve command.", true, "The responding organ."),
@@ -1891,7 +1891,7 @@
       {
         id: 'pn4', title: "The 12 pairs of cranial nerves", icon: '🔢', items: [
           L("List", `${fig('cranial-nerves', [], "cranial nerves")}The ${e('<b>cranial nerves</b>')} come directly out of the brain and are numbered with Roman numerals (${e('I')} to ${e('XII')}).`),
-          L("A few important nerves", `${tbl([["nerve", "Job"], [e('II optic'), "vision"], [e('V trigeminal'), "facial sensation and chewing"], [e('VII facial'), "facial movements; damaged in Bell’s palsy"], [e('VIII vestibulocochlear'), "hearing and balance"], [e('X vagus'), "heart, lungs and digestive tract"]])}${memo("vagus means “wandering”, because it travels from the neck to the abdomen.")}${pearl("In the Practice Exercises of Fremgen’s book, you have to match all 12 nerves to their functions.")}`),
+          L("A few important nerves", `${tbl([["nerve", "Job"], [e('II optic'), "vision"], [e('V trigeminal'), "facial sensation and chewing"], [e('VII facial'), "facial movements; damaged in Bell’s palsy"], [e('VIII vestibulocochlear'), "hearing and balance"], [e('X vagus'), "heart, lungs and digestive tract"]])}${memo("vagus means “wandering”, because it travels from the neck to the abdomen.")}${pearl("In the Practice Exercises, you have to match all 12 nerves to their functions.")}`),
           M("Which is the nerve of vision?", ['optic (II)', 'olfactory (I)', 'facial (VII)', 'vagus (X)'], "optic = vision.", null, F('cranial-nerves', [])),
           M("Which nerve supplies most of the chest and abdominal organs?", ['vagus (X)', 'trigeminal (V)', 'hypoglossal (XII)', 'accessory (XI)'], "The wandering nerve."),
           T("The facial nerve controls the movements of the facial muscles.", true, "The seventh nerve."),
@@ -1905,7 +1905,7 @@
       {
         id: 'pn5', title: "Roots, Ganglia and Plexuses", icon: '🕸️', items: [
           L("From the spinal cord to the limbs", `Each spinal nerve leaves the spinal cord by a ${e('<b>nerve root</b>')}. A ${e('<b>ganglion</b>')} (plural: ${e('ganglia')}) is a cluster of cell bodies outside the CNS. Nerves join one another in a ${e('<b>plexus</b>')} (network), such as the brachial (${e('brachial')}) and lumbosacral (${e('lumbosacral')}) plexuses.`),
-          L("sciatic nerve", `The ${e('<b>sciatic nerve</b>')} is the largest nerve in the body and runs from the lower back to the back of the leg. Pain along its path is called ${e('sciatica')}.${wb('radicul/o', '-itis')} → ${e('radiculitis')}: inflammation of a nerve root${memo("A plexus is like a junction of cables; a ganglion is like a small station by the road.")}${pearl("The book’s APPLY scenario: Mr Randy Allen’s leg was injured in an accident; the surgeon must check the lumbar roots, the lumbosacral plexus and the sciatic nerve.")}`),
+          L("sciatic nerve", `The ${e('<b>sciatic nerve</b>')} is the largest nerve in the body and runs from the lower back to the back of the leg. Pain along its path is called ${e('sciatica')}.${wb('radicul/o', '-itis')} → ${e('radiculitis')}: inflammation of a nerve root${memo("A plexus is like a junction of cables; a ganglion is like a small station by the road.")}${pearl("A clinical scenario: Mr Randy Allen’s leg was injured in an accident; the surgeon must check the lumbar roots, the lumbosacral plexus and the sciatic nerve.")}`),
           M("Which is the largest nerve in the body?", ['sciatic nerve', 'vagus nerve', 'optic nerve', 'facial nerve'], "The sciatic nerve."),
           M(`${e('<b>plexus</b>')} means…`, ["nerve plexus", "ganglion", "nerve root", "axon terminal"], "Such as the brachial plexus."),
           T("A ganglion is a cluster of cell bodies outside the CNS.", true, "Plural: ganglia."),
@@ -1934,13 +1934,13 @@
       {
         id: 'pn7', title: "Reflex arc", icon: '🦵', items: [
           L("Automatic Response", `${fig('reflex-arc', [], "Knee-jerk reflex arc")}A ${e('<b>reflex</b>')} is a fast, automatic response to a stimulus that needs only a few cells. The ${e('<b>reflex arc</b>')} has five parts: receptor, sensory neuron, spinal cord, motor neuron and muscle (effector).`),
-          L("Reflexes in the examination", `${e('<b>deep tendon reflex (DTR)</b>')}: muscle contraction when the tendon is tapped, such as the knee jerk (${e('patellar')}).<br>${fig('babinski', ["Babinski sign"], 'Babinski sign')}${e('<b>Babinski sign</b>')}: when a nail is drawn along the sole, the big toe goes up and the toes fan out. It is normal in babies but in adults it is a sign of motor neuron damage.${pearl("Cohen’s Pretest: “A simple response that requires few cells is a reflex”.")}`),
-          M("What is a simple response that needs only a few cells called?", ['reflex', 'stimulus', 'sensation', 'mutation'], "Cohen’s Pretest.", null, F('reflex-arc', [])),
+          L("Reflexes in the examination", `${e('<b>deep tendon reflex (DTR)</b>')}: muscle contraction when the tendon is tapped, such as the knee jerk (${e('patellar')}).<br>${fig('babinski', ["Babinski sign"], 'Babinski sign')}${e('<b>Babinski sign</b>')}: when a nail is drawn along the sole, the big toe goes up and the toes fan out. It is normal in babies but in adults it is a sign of motor neuron damage.${pearl("Pretest: “A simple response that requires few cells is a reflex”.")}`),
+          M("What is a simple response that needs only a few cells called?", ['reflex', 'stimulus', 'sensation', 'mutation'], "Pretest.", null, F('reflex-arc', [])),
           M("What does a Babinski sign mean in an adult?", ["motor neuron damage", "it is completely normal", "vitamin deficiency", "a broken foot"], "Normal in a baby, abnormal in an adult.", null, F('babinski', [])),
           T("DTR stands for deep tendon reflex.", true, "Deep tendon reflex."),
           O("Put the parts of the reflex arc in order", ['receptor', 'sensory neuron', 'spinal cord', 'motor neuron', 'effector'], "Five parts."),
           P("Match each term to its meaning", [['reflex', "Automatic Response"], ['DTR', "deep tendon reflex"], ['patellar reflex', "knee jerk"], ['Babinski sign', "big toe going up"]], "Reflexes."),
-          B("In the book’s scenario, Dr Stanley performed several ___ tests and confirmed Parkinson’s.", ['reflex', 'sweat', 'skin'], 'reflex tests.'),
+          B("In the standard reference’s scenario, Dr Stanley performed several ___ tests and confirmed Parkinson’s.", ['reflex', 'sweat', 'skin'], 'reflex tests.'),
           S("Spell the term for a fast automatic response to a stimulus", 'reflex', "An automatic reaction.", 'refl…'),
           N('r2m:pn')
         ]
@@ -1948,7 +1948,7 @@
       {
         id: 'pn8', title: "Fight or Flight; Rest and Digest", icon: '⚖️', items: [
           L("The autonomic system", `${fig('ans', [], "Sympathetic and parasympathetic")}The ${e('<b>autonomic nervous system (ANS)</b>')} controls the involuntary work of the heart, smooth muscle and glands and has two opposing parts:<br>• ${e('<b>sympathetic</b>')}: “fight or flight”; fast heartbeat, dilated pupils, sweating<br>• ${e('<b>parasympathetic</b>')}: “rest and digest”; slow heartbeat, active digestion`),
-          L("A scenario", `${pearl("The book’s APPLY scenario: Mrs Gina Jones says that in every stressful situation her heart and breathing speed up and she sweats, and she thinks she has a mental disorder. The nurse explains that this is the normal response of the sympathetic system to stress.")}${memo("Sympathetic = Stress and Speed; Parasympathetic = Peace and Pause.")}${vs(['sympathetic', "Fight or flight"], ['parasympathetic', "rest and digest"])}`),
+          L("A scenario", `${pearl("A clinical scenario: Mrs Gina Jones says that in every stressful situation her heart and breathing speed up and she sweats, and she thinks she has a mental disorder. The nurse explains that this is the normal response of the sympathetic system to stress.")}${memo("Sympathetic = Stress and Speed; Parasympathetic = Peace and Pause.")}${vs(['sympathetic', "Fight or flight"], ['parasympathetic', "rest and digest"])}`),
           M("Which system is active in the “fight or flight” response?", ['sympathetic', 'parasympathetic', 'somatic', 'central'], "The sympathetic system.", null, F('ans', [])),
           M("What effect does the parasympathetic system have on the heart rate?", ["it slows it", "it speeds it up", "it stops it", "it has no effect"], 'rest and digest.'),
           T("Mrs Gina Jones’s fast heartbeat and sweating under stress are a normal sympathetic response.", true, "Not necessarily a mental disorder."),
@@ -1962,8 +1962,8 @@
       {
         id: 'pn9', title: "Somatic or Autonomic?", icon: '🎛️', items: [
           L("Voluntary and involuntary", `${tbl([["Section", "Control", "Target"], [e('somatic nervous system (SNS)'), "voluntary", "skeletal muscles"], [e('autonomic nervous system (ANS)'), "involuntary", "heart, smooth muscle, glands"]])}${wb('somat/o', '-ic')} → ${e('somatic')}: relating to the body`),
-          L("keeping the body’s balance", `Together with the endocrine system, the nervous system maintains ${e('<b>homeostasis</b>')}, a stable internal state (temperature, sugar, pressure). ${e('vagal')} means relating to the vagus nerve, the main arm of the parasympathetic system.${memo("somatic = soma (body) and autonomic = auto (self); one you choose to do, the other works by itself.")}${pearl("Cohen’s Pretest: “Involuntary responses are controlled by the autonomic nervous system”.")}`),
-          M("Which division controls involuntary responses?", ['autonomic nervous system', 'somatic nervous system', 'voluntary nervous system', 'cerebral cortex'], "Cohen’s Pretest."),
+          L("keeping the body’s balance", `Together with the endocrine system, the nervous system maintains ${e('<b>homeostasis</b>')}, a stable internal state (temperature, sugar, pressure). ${e('vagal')} means relating to the vagus nerve, the main arm of the parasympathetic system.${memo("somatic = soma (body) and autonomic = auto (self); one you choose to do, the other works by itself.")}${pearl("Pretest: “Involuntary responses are controlled by the autonomic nervous system”.")}`),
+          M("Which division controls involuntary responses?", ['autonomic nervous system', 'somatic nervous system', 'voluntary nervous system', 'cerebral cortex'], "Pretest."),
           M(`${e('<b>homeostasis</b>')} means…`, ["a stable internal state of the body", "a response to stress", "a type of reflex", "producing a neurotransmitter"], "homeo = same + stasis = standing still."),
           T("Moving a finger at will is the work of the somatic system.", true, "Skeletal muscles."),
           W("Build a word meaning “relating to the body”", ['somat/o', '-ic'], ['aut/o', '-ism', 'psych/o'], 'somatic.'),
@@ -1995,7 +1995,7 @@
       {
         id: 'ds1', title: "Paralysis and Weakness", icon: '♿', items: [
           L("Types of paralysis", `${fig('paralysis-types', [], "Types of paralysis")}${e('<b>paralysis</b>')} means loss of muscle function. The prefix tells where the paralysis is:<br>• ${e('<b>monoplegia</b>')}: one limb<br>• ${e('<b>hemiplegia</b>')}: one half of the body (usually after a stroke)<br>• ${e('<b>paraplegia</b>')}: both legs and the lower body (thoracic or lumbar spinal cord injury)<br>• ${e('<b>quadriplegia</b>')}: all four limbs (cervical spinal cord injury); also called ${e('tetraplegia')}`),
-          L("Floppy or stiff?", `${e('<b>flaccid</b>')}: a floppy muscle without tone<br>${e('<b>spasticity</b>')}: a stiff muscle with exaggerated reflexes${pearl("Case Study in Cohen’s book: 12-year-old William fractured C6 diving into a shallow pool; his legs were flaccid and there was a risk of quadriplegia.")}${memo("quadri = four, as in a quad bike; para = beside; the two legs side by side.")}`),
+          L("Floppy or stiff?", `${e('<b>flaccid</b>')}: a floppy muscle without tone<br>${e('<b>spasticity</b>')}: a stiff muscle with exaggerated reflexes${pearl("Case Study: 12-year-old William fractured C6 diving into a shallow pool; his legs were flaccid and there was a risk of quadriplegia.")}${memo("quadri = four, as in a quad bike; para = beside; the two legs side by side.")}`),
           M("What paralysis does a cervical spinal cord injury (such as C6) mostly cause?", ['quadriplegia', 'paraplegia', 'monoplegia', 'hemiplegia'], "The neck is above the nerves of the arms and legs.", null, F('paralysis-types', [])),
           M("What is paralysis of both legs and the lower body called?", ['paraplegia', 'quadriplegia', 'hemiparesis', 'monoplegia'], "Spinal cord injury below the neck."),
           T("flaccid means a floppy muscle without tone.", true, "Unlike spastic."),
@@ -2009,7 +2009,7 @@
       {
         id: 'ds2', title: "Speech, Sensation and Coordination", icon: '🗣️', items: [
           L("Speech and movement", `${tbl([["Term", "Meaning"], [e('aphasia'), "inability to speak or understand speech"], [e('dysarthria'), "difficult articulation from weak speech muscles"], [e('ataxia'), "lack of movement coordination (tax/o = order)"], [e('apraxia'), "inability to perform purposeful movement"], [e('agnosia'), "inability to recognise objects (gnos/o = knowing)"]])}`),
-          L("Sensation and balance", `${tbl([["Term", "Meaning"], [e('paresthesia'), "tingling and pins and needles"], [e('hyperesthesia'), "excessive sensitivity"], [e('vertigo'), "spinning dizziness"], [e('diplopia'), "double vision"], [e('syncope'), "fainting, brief loss of consciousness"]])}${pearl("Chart Note in Gylys’s book: three days ago the patient had vertigo, and with the stroke developed aphasia and diplopia.")}${vs(['aphasia', "a language problem in the brain"], ['dysarthria', "a problem of the articulation muscles"])}`),
+          L("Sensation and balance", `${tbl([["Term", "Meaning"], [e('paresthesia'), "tingling and pins and needles"], [e('hyperesthesia'), "excessive sensitivity"], [e('vertigo'), "spinning dizziness"], [e('diplopia'), "double vision"], [e('syncope'), "fainting, brief loss of consciousness"]])}${pearl("Chart Note: three days ago the patient had vertigo, and with the stroke developed aphasia and diplopia.")}${vs(['aphasia', "a language problem in the brain"], ['dysarthria', "a problem of the articulation muscles"])}`),
           M(`${e('<b>ataxia</b>')} means…`, ["lack of coordination", "complete paralysis", "tingling", "double vision"], "a- + tax/o (order)."),
           M("Which word means “double vision”?", ['diplopia', 'diplegia', 'dysphasia', 'diploidy'], 'dipl/o + -opia.'),
           T("paresthesia means a sensation of tingling and pins and needles.", true, "para- (abnormal) + -esthesia."),
@@ -2023,7 +2023,7 @@
       {
         id: 'ds3', title: "Consciousness, Memory and Pain", icon: '💤', items: [
           L("level of consciousness", `${tbl([["Term", "Meaning"], [e('lethargy'), "unusual drowsiness and sluggishness"], [e('unconscious'), "unconscious; does not respond"], [e('coma'), "deep unconsciousness without waking"], [e('amnesia'), "amnesia"], [e('dementia'), "progressive decline of memory and thinking"]])}`),
-          L("Pain and headache", `${wb('cephal/o', '-algia')} → ${e('<b>cephalalgia</b>')}: headache (${e('HA')})<br>${e('<b>migraine</b>')}: severe, usually one-sided headache with nausea; sometimes with an ${e('<b>aura</b>')} (a warning sign such as flashes of light)<br>${wb('an-', '-algesia')} → ${e('analgesia')}: absence of pain${pearl("The book’s APPLY scenario: 9-year-old Josie fell from a 14-foot slide and was “asleep” for a few moments; a brief loss of consciousness means a doctor must see her (possible concussion).")}`),
+          L("Pain and headache", `${wb('cephal/o', '-algia')} → ${e('<b>cephalalgia</b>')}: headache (${e('HA')})<br>${e('<b>migraine</b>')}: severe, usually one-sided headache with nausea; sometimes with an ${e('<b>aura</b>')} (a warning sign such as flashes of light)<br>${wb('an-', '-algesia')} → ${e('analgesia')}: absence of pain${pearl("A clinical scenario: 9-year-old Josie fell from a 14-foot slide and was “asleep” for a few moments; a brief loss of consciousness means a doctor must see her (possible concussion).")}`),
           M("What is deep unconsciousness from which the patient does not wake called?", ['coma', 'syncope', 'lethargy', 'insomnia'], "Coma."),
           M(`${e('<b>dementia</b>')} means…`, ["progressive decline of memory and thinking", "headache", "paralysis of one side", "seizure"], "de- + ment/o (mind)."),
           T("Josie was unconscious for a few moments after the fall, so she must see a doctor.", true, 'loss of consciousness.'),
@@ -2038,7 +2038,7 @@
       {
         id: 'ds4', title: "Stroke (CVA)", icon: '🚑', items: [
           L("Two types of stroke", `${fig('stroke-types', [], "Types of stroke")}A ${e('<b>cerebrovascular accident (CVA)</b>')} is brain damage caused by an interrupted blood supply:<br>• ${e('<b>ischemic stroke</b>')}: a clot blocks the vessel; ${e('thrombosis')} (a clot formed in place) or ${e('embolism')} (a travelling clot)<br>• ${e('<b>hemorrhagic stroke</b>')}: the vessel ruptures and bleeds<br>Tissue that gets no blood develops ${e('ischemia')} and then an ${e('infarct')} (tissue death).`),
-          L("Warning and treatment", `${e('<b>transient ischemic attack (TIA)</b>')}: stroke symptoms that disappear in less than 24 hours; a serious warning.${fig('ct-hemorrhage', ["Brain haemorrhage on CT"], "CT: haemorrhagic stroke")}${pearl("Case Study 7-1 in Cohen’s book: Allen, 62, reached the ED within 15 minutes with right hemiplegia and aphasia; the CT showed no bleeding, so it was an ischemic stroke and he received fibrinolytic therapy.")}`),
+          L("Warning and treatment", `${e('<b>transient ischemic attack (TIA)</b>')}: stroke symptoms that disappear in less than 24 hours; a serious warning.${fig('ct-hemorrhage', ["Brain haemorrhage on CT"], "CT: haemorrhagic stroke")}${pearl("Case Study: Allen, 62, reached the ED within 15 minutes with right hemiplegia and aphasia; the CT showed no bleeding, so it was an ischemic stroke and he received fibrinolytic therapy.")}`),
           M("What most often causes an ischaemic stroke?", ["thrombosis (a clot)", 'hemorrhage', 'hematoma', 'hemangioma'], 'Case Study 7-1: Ischemic stroke is generally caused by thrombosis.', null, F('stroke-types', [])),
           M("TIA means…", ["transient ischaemic attack; symptoms that resolve within 24 hours", "haemorrhagic stroke", "traumatic brain injury", "intracranial pressure"], 'transient ischemic attack.'),
           T("Before giving a clot-dissolving drug, bleeding must be ruled out with a CT scan.", true, "A clot-dissolving drug makes bleeding worse.", F('ct-hemorrhage', [])),
@@ -2058,7 +2058,7 @@
           T("An epidural hematoma lies between the skull and the dura.", true, "epi- = upon."),
           W("Build a word meaning “mass of blood”", ['hemat/o', '-oma'], ['hem/o', '-emia', 'thromb/o'], 'hematoma.'),
           P("Match each haematoma to its location", [['epidural', "above the dura"], ['subdural', "beneath the dura"], ['intracerebral', "within the brain tissue"], ['subarachnoid hemorrhage', "bleeding beneath the arachnoid"]], "Where the blood is."),
-          B("The correct spelling is ___.", ['aneurysm', 'aneurism', 'anurysm'], "The book’s Exercise: a localized dilation of an artery."),
+          B("The correct spelling is ___.", ['aneurysm', 'aneurism', 'anurysm'], "The standard reference’s Exercise: a localized dilation of an artery."),
           S("Spell the term for a collection of blood in tissue", 'hematoma', 'hemat/o + -oma.', 'hema…'),
           N('m2r:ds')
         ]
@@ -2066,13 +2066,13 @@
       {
         id: 'ds6', title: "Head Injury and Seizure", icon: '⚡', items: [
           L("Traumatic injuries", `${tbl([["Term", "Meaning"], [e('concussion'), "temporary brain dysfunction after a blow; often with brief unconsciousness"], [e('contusion'), "bruising of brain tissue"], [e('traumatic brain injury (TBI)'), "brain injury from an external force"], [e('spinal cord injury (SCI)'), "spinal cord injury; paralysis below the level of injury"]])}`),
-          L("Epilepsy and seizures", `${fig('seizure-types', [], "Seizures and epilepsy")}A ${e('<b>seizure</b>')} is a sudden storm of electrical activity in the brain. ${e('<b>epilepsy</b>')} means recurrent seizures.<br>• ${e('tonic-clonic')}: the body stiffens, then jerks; grand mal<br>• ${e('absence')}: staring for a few seconds; petit mal${pearl("The book’s APPLY scenario: during Mrs April Johnson’s seizure, the time of onset, duration, body movements and consciousness must be watched closely and recorded, because they identify the type of seizure.")}`),
-          M("What is a disease with recurrent seizures called?", ['epilepsy', 'cystic fibrosis', 'spina bifida', 'thyrotoxicosis'], "Cohen’s Pretest.", null, F('seizure-types', [])),
+          L("Epilepsy and seizures", `${fig('seizure-types', [], "Seizures and epilepsy")}A ${e('<b>seizure</b>')} is a sudden storm of electrical activity in the brain. ${e('<b>epilepsy</b>')} means recurrent seizures.<br>• ${e('tonic-clonic')}: the body stiffens, then jerks; grand mal<br>• ${e('absence')}: staring for a few seconds; petit mal${pearl("A clinical scenario: during Mrs April Johnson’s seizure, the time of onset, duration, body movements and consciousness must be watched closely and recorded, because they identify the type of seizure.")}`),
+          M("What is a disease with recurrent seizures called?", ['epilepsy', 'cystic fibrosis', 'spina bifida', 'thyrotoxicosis'], "Pretest.", null, F('seizure-types', [])),
           M("What is a temporary brain dysfunction after a blow to the head called?", ['concussion', 'contusion', 'aneurysm', 'neuralgia'], "Concussion."),
           T("In an absence seizure the patient stares for a few seconds.", true, "Petit mal."),
           O("Put the stages of a tonic-clonic seizure in order", ['aura', 'loss of consciousness', 'tonic stiffening', 'clonic jerking', 'drowsiness'], "From warning sign to drowsiness."),
           P("Match each abbreviation to its meaning", [['TBI', "traumatic brain injury"], ['SCI', "spinal cord injury"], ['MTBI', "mild brain injury"], ['CTE', "chronic traumatic encephalopathy"]], "Injuries."),
-          B("The correct spelling is ___.", ['seizure', 'siezure', 'seisure'], "The book’s Exercise: ei."),
+          B("The correct spelling is ___.", ['seizure', 'siezure', 'seisure'], "The standard reference’s Exercise: ei."),
           S("Spell the term for a disorder of recurrent seizures", 'epilepsy', 'epi- + -lepsy.', 'epil…'),
           N('t2f:ds')
         ]
@@ -2095,11 +2095,11 @@
       {
         id: 'ds8', title: "Degenerative diseases", icon: '🧓', items: [
           L("Five important diseases", `${fig('degenerative', [], "Degenerative diseases")}${tbl([["disease", "Main sign"], [e('Alzheimer disease (AD)'), "progressive memory loss; the most common cause of dementia"], [e('Parkinson disease (PD)'), "tremor, rigidity, slowness; dopamine deficiency"], [e('multiple sclerosis (MS)'), "myelin destruction; weakness, numbness, blurred vision"], [e('ALS'), "motor neuron degeneration; weakness and atrophy"], [e('Huntington chorea'), "hereditary; dance-like movements and dementia"]])}`),
-          L("Scenarios", `${fig('alzheimer-brain', ["Normal brain and brain in Alzheimer’s"], "Brain atrophy in Alzheimer’s")}${pearl("The book’s APPLY scenario: Jose Gutierrez has trouble buttoning his clothes and remembering things, and he limps; his blood pressure is normal. An EEG, blood tests and reflex tests confirmed the diagnosis of Parkinson disease.")}${pearl("Mrs Amy Shine, 49, tested positive for Huntington chorea; it is a hereditary, progressive disease, and treatment only controls the symptoms.")}`),
+          L("Scenarios", `${fig('alzheimer-brain', ["Normal brain and brain in Alzheimer’s"], "Brain atrophy in Alzheimer’s")}${pearl("A clinical scenario: Jose Gutierrez has trouble buttoning his clothes and remembering things, and he limps; his blood pressure is normal. An EEG, blood tests and reflex tests confirmed the diagnosis of Parkinson disease.")}${pearl("Mrs Amy Shine, 49, tested positive for Huntington chorea; it is a hereditary, progressive disease, and treatment only controls the symptoms.")}`),
           M("Dopamine deficiency causes which disease?", ['Parkinson disease', 'Alzheimer disease', 'multiple sclerosis', 'ALS'], "Tremor and slow movement.", null, F('degenerative', [])),
           M("What is destroyed in MS?", ["myelin sheath", "heart muscle", "skull", "cerebrospinal fluid"], 'demyelination.', null, F('ms-myelin', [])),
           T("Alzheimer’s is the most common cause of dementia.", true, 'AD.', F('alzheimer-brain', [])),
-          O("Put Jose Gutierrez’s findings in the order they were discovered", ['trouble buttoning shirts', 'memory problems and limp', 'EEG and reflex tests', 'diagnosis: Parkinson disease'], "The book’s scenario."),
+          O("Put Jose Gutierrez’s findings in the order they were discovered", ['trouble buttoning shirts', 'memory problems and limp', 'EEG and reflex tests', 'diagnosis: Parkinson disease'], "The standard reference’s scenario."),
           P("Match each disease to its sign", [['Alzheimer disease', "amnesia"], ['Parkinson disease', "tremor and slowness"], ['Huntington chorea', "dance-like movements"], ['ALS', "motor neuron degeneration"]], "Degenerative diseases."),
           B("Muscle weakness with early fatigue at the nerve–muscle junction is ___.", ['myasthenia gravis', 'multiple sclerosis', 'Bell palsy'], 'my/o + -asthenia.'),
           S("Spell the term for progressive loss of memory and thinking", 'dementia', 'de- + ment/o + -ia.', 'demen…'),
@@ -2108,7 +2108,7 @@
       },
       {
         id: 'ds9', title: "Infection, Nerves and Tumours", icon: '🦠', items: [
-          L("Infections and nerve diseases", `${tbl([["disease", "Meaning"], [e('meningitis'), "inflammation of the meninges; fever, headache, stiff neck"], [e('encephalitis'), "inflammation of the brain, often viral"], [e('poliomyelitis'), "inflammation of the grey matter of the spinal cord (poli/o = grey)"], [e('Bell palsy'), "sudden paralysis of the facial nerve"], [e('Guillain-Barré syndrome'), "immune attack on the peripheral nerves; ascending weakness"]])}${pearl("The book’s APPLY scenario: the doctor tells Jaime Shew’s family that he has viral meningitis and his symptoms will improve in a few days; viral meningitis is usually treated with rest, fluids and painkillers.")}`),
+          L("Infections and nerve diseases", `${tbl([["disease", "Meaning"], [e('meningitis'), "inflammation of the meninges; fever, headache, stiff neck"], [e('encephalitis'), "inflammation of the brain, often viral"], [e('poliomyelitis'), "inflammation of the grey matter of the spinal cord (poli/o = grey)"], [e('Bell palsy'), "sudden paralysis of the facial nerve"], [e('Guillain-Barré syndrome'), "immune attack on the peripheral nerves; ascending weakness"]])}${pearl("A clinical scenario: the doctor tells Jaime Shew’s family that he has viral meningitis and his symptoms will improve in a few days; viral meningitis is usually treated with rest, fluids and painkillers.")}`),
           L("Brain tumours", `${fig('mri-tumor', ["A cerebellar tumour that has pushed the brainstem forward"], "MRI: brain tumour")}• ${e('<b>glioma</b>')}: a tumour of the supporting cells<br>• ${e('<b>astrocytoma</b>')}: a tumour of the star-shaped astrocytes<br>• ${e('<b>glioblastoma</b>')}: the most malignant glioma<br>• ${e('<b>meningioma</b>')}: a usually benign tumour of the meninges${memo("In the closed skull, even a benign tumour is dangerous because of pressure (ICP); that is why the size of a tumour matters.")}`),
           M("Which is inflammation of the grey matter of the spinal cord?", ['poliomyelitis', 'meningitis', 'encephalitis', 'neuritis'], 'poli/o + myel/o + -itis.'),
           M("What is a tumour of the star-shaped brain cells called?", ['astrocytoma', 'meningioma', 'neuroma', 'myeloma'], "astro = star.", null, F('mri-tumor', [])),
@@ -2171,7 +2171,7 @@
       {
         id: 'ps3', title: "Confusion and Disorientation", icon: '🧭', items: [
           L("Delirium or dementia?", `${vs(['delirium', "sudden, temporary, from illness or medicine"], ['dementia', "gradual, progressive, such as Alzheimer’s"])}${e('<b>delirium</b>')} is a sudden disturbance with confusion and restlessness. ${e('<b>disorientation</b>')} means the patient does not know the time, place or themselves.`),
-          L("At the bedside", `${fig('elderly-woman', ["An older woman"], "an older adult")}${pearl("Case Study in Fremgen’s book: Mrs Anna Moore, 83, came to the ER with aphasia, left hemiparesis, syncope and delirium; the CT showed an infarct of the right hemisphere: a stroke (CVA) in the middle cerebral artery.")}${memo("Delirium is like a sudden storm and dementia like a slow sunset.")}`),
+          L("At the bedside", `${fig('elderly-woman', ["An older woman"], "an older adult")}${pearl("Case Study: Mrs Anna Moore, 83, came to the ER with aphasia, left hemiparesis, syncope and delirium; the CT showed an infarct of the right hemisphere: a stroke (CVA) in the middle cerebral artery.")}${memo("Delirium is like a sudden storm and dementia like a slow sunset.")}`),
           M("What is a sudden disturbance of the mind, often from illness or medicine, called?", ['delirium', 'dementia', 'depression', 'dyslexia'], "Sudden onset."),
           M("A patient who does not know where they are or what day it is has…", ['disorientation', 'insomnia', 'aphasia', 'mania'], "Disorientation."),
           T("Dementia is usually gradual and progressive.", true, "Unlike delirium."),
@@ -2186,7 +2186,7 @@
       {
         id: 'ps4', title: "Anxiety and Panic", icon: '😰', items: [
           L("The anxious body", `${fig('fight-flight', [], "fight-or-flight response")}${e('<b>anxiety</b>')} is a feeling of worry and fear with a fast heartbeat, fast breathing and sweating; the same as the sympathetic response. When it is groundless, intense and persistent, it is a disorder.`),
-          L("Two disorders", `• ${e('<b>generalized anxiety disorder (GAD)</b>')}: constant, excessive worry about everyday things for months<br>• ${e('<b>panic disorder</b>')}: sudden attacks of intense fear with palpitations, shortness of breath and chest pain${pearl("Mrs Gina Jones (the book’s scenario) has symptoms only in stressful situations; this is a normal response and not necessarily a disorder.")}${memo("GAD = worry like never-ending rain; panic = like a sudden thunderbolt.")}`),
+          L("Two disorders", `• ${e('<b>generalized anxiety disorder (GAD)</b>')}: constant, excessive worry about everyday things for months<br>• ${e('<b>panic disorder</b>')}: sudden attacks of intense fear with palpitations, shortness of breath and chest pain${pearl("Mrs Gina Jones (the standard reference’s scenario) has symptoms only in stressful situations; this is a normal response and not necessarily a disorder.")}${memo("GAD = worry like never-ending rain; panic = like a sudden thunderbolt.")}`),
           M("What is constant, excessive worry about everyday things called?", ['generalized anxiety disorder', 'panic disorder', 'bipolar disorder', 'phobia'], 'GAD.', null, F('fight-flight', [])),
           M("A sudden attack of intense fear with palpitations is a sign of what?", ['panic disorder', 'depression', 'schizophrenia', 'autism'], "A panic attack."),
           T("The fast heartbeat and sweating of anxiety are the work of the sympathetic system.", true, "Fight or flight."),
@@ -2200,8 +2200,8 @@
       {
         id: 'ps5', title: "Phobia, Obsession and PTSD", icon: '🕷️', items: [
           L("Phobia", `${fig('phobias', [], "Phobias")}A ${e('<b>phobia</b>')} is an intense, persistent, irrational fear of something specific.<br>${e('agoraphobia')}: fear of crowded, open places • ${e('claustrophobia')}: fear of enclosed spaces • ${e('photophobia')}: sensitivity to light`),
-          L("Obsession and trauma", `• ${e('<b>obsessive-compulsive disorder (OCD)</b>')}: unwanted recurring thoughts (${e('obsessions')}) and repeated acts (${e('compulsions')}), such as washing the hands again and again<br>• ${e('<b>posttraumatic stress disorder (PTSD)</b>')}: anxiety, nightmares and flashbacks after a terrifying event${memo("An Obsession is in the mind and a Compulsion is in the hands.")}${pearl("Cohen’s Pretest: “An extreme, persistent fear is a phobia”.")}`),
-          M("What is an intense, persistent fear of something specific called?", ['phobia', 'mania', 'delusion', 'paranoia'], "Cohen’s Pretest.", null, F('phobias', [])),
+          L("Obsession and trauma", `• ${e('<b>obsessive-compulsive disorder (OCD)</b>')}: unwanted recurring thoughts (${e('obsessions')}) and repeated acts (${e('compulsions')}), such as washing the hands again and again<br>• ${e('<b>posttraumatic stress disorder (PTSD)</b>')}: anxiety, nightmares and flashbacks after a terrifying event${memo("An Obsession is in the mind and a Compulsion is in the hands.")}${pearl("Pretest: “An extreme, persistent fear is a phobia”.")}`),
+          M("What is an intense, persistent fear of something specific called?", ['phobia', 'mania', 'delusion', 'paranoia'], "Pretest.", null, F('phobias', [])),
           M("Which is the fear of enclosed spaces?", ['claustrophobia', 'agoraphobia', 'acrophobia', 'photophobia'], "claustr = closed."),
           T("In OCD, repeated hand-washing is a compulsion.", true, "A repeated behaviour."),
           W("Build a word meaning “fear of open and crowded places”", ['agora', '-phobia'], ['claustro', '-mania', 'photo'], 'agoraphobia.'),
@@ -2214,7 +2214,7 @@
       {
         id: 'ps6', title: "Depression and Bipolar Disorder", icon: '🌗', items: [
           L("Mood", `${fig('mood-wave', [], "Mood swings")}• ${e('<b>depression</b>')}: lasting sadness, loss of interest, low energy and hopelessness<br>• ${e('<b>mania</b>')}: excessive excitement and elation, rapid speech and little sleep<br>• ${e('<b>bipolar disorder (BPD)</b>')}: alternating episodes of mania and depression`),
-          L("Other types", `${e('<b>seasonal affective disorder (SAD)</b>')}: depression in the dark winter months. The suffix ${e('-mania')} appears in other words too, such as ${e('megalomania')} (delusions of grandeur).${memo("bipolar means “two poles”, like a magnet with two ends: mania and depression.")}${pearl("After his spinal cord injury, William (Case Study in Cohen’s book) developed depression and anxiety and received psychological counselling.")}`),
+          L("Other types", `${e('<b>seasonal affective disorder (SAD)</b>')}: depression in the dark winter months. The suffix ${e('-mania')} appears in other words too, such as ${e('megalomania')} (delusions of grandeur).${memo("bipolar means “two poles”, like a magnet with two ends: mania and depression.")}${pearl("After his spinal cord injury, William (Case Study) developed depression and anxiety and received psychological counselling.")}`),
           M("What is a disorder with alternating episodes of mania and depression called?", ['bipolar disorder', 'GAD', 'schizophrenia', 'OCD'], "Two poles.", null, F('mood-wave', [])),
           M(`${e('<b>mania</b>')} means…`, ["excessive excitement and elation", "lasting sadness", "intense fear", "amnesia"], "Mania."),
           T("SAD is a type of depression in the dark months of the year.", true, 'seasonal affective disorder.'),
@@ -2229,7 +2229,7 @@
       {
         id: 'ps7', title: "Schizophrenia and Its Medicines", icon: '🧩', items: [
           L("schizophrenia", `${wb('schiz/o', '-phrenia')} → ${e('<b>schizophrenia</b>')}: a psychotic disorder with delusions, hallucinations, disorganised thinking and withdrawal (${e('schiz/o')} = split, ${e('phren/o')} = mind). The main treatment is an ${e('<b>antipsychotic</b>')}, also called a ${e('<b>neuroleptic</b>')}.`),
-          L("A dangerous reaction", `${e('<b>neuroleptic malignant syndrome (NMS)</b>')}: a rare, dangerous reaction to antipsychotic drugs with high fever, muscle rigidity and altered consciousness.${pearl("Case Study 7-2 in Cohen’s book: Jane came in with a fever of 104 °F, lethargy and muscular rigidity; her neuroleptic drug had been changed the week before. The drugs were stopped and she was treated with IV fluids, bromocriptine and dantrolene.")}${memo("Schizophrenia does not mean “split personality”; it means the mind splits from reality.")}`),
+          L("A dangerous reaction", `${e('<b>neuroleptic malignant syndrome (NMS)</b>')}: a rare, dangerous reaction to antipsychotic drugs with high fever, muscle rigidity and altered consciousness.${pearl("Case Study: Jane came in with a fever of 104 °F, lethargy and muscular rigidity; her neuroleptic drug had been changed the week before. The drugs were stopped and she was treated with IV fluids, bromocriptine and dantrolene.")}${memo("Schizophrenia does not mean “split personality”; it means the mind splits from reality.")}`),
           M("Which drug group is the main treatment for schizophrenia?", ['antipsychotic', 'antidepressant', 'analgesic', 'anticonvulsant'], 'neuroleptic.'),
           M("Which drugs is NMS linked to?", ["antipsychotic drugs", "steroids", "clot-dissolving drugs", "painkillers"], 'Case Study 7-2.'),
           T("A neuroleptic is the same as an antipsychotic.", true, "Haldol (haloperidol) is an example."),
@@ -2305,12 +2305,12 @@
         id: 'tx2', title: "EEG and Nerve Tests", icon: '📈', items: [
           L('EEG', `${fig('eeg', [], "EEG recording")}${wb('electr/o', 'encephal/o', '-graphy')} → ${e('<b>electroencephalography (EEG)</b>')}: recording the electrical activity of the brain with electrodes on the head. Its result is an ${e('electroencephalogram')}. In a seizure, irregular, large waves are seen.`),
           L("Other tests", `${fig('eeg-photo', ["EEG electrodes on the head"], 'EEG')}• ${e('<b>electromyography (EMG)</b>')}: recording the electrical activity of muscle<br>• ${e('<b>nerve conduction study (NCS)</b>')}: the speed at which a nerve conducts its message<br>• ${e('<b>evoked potentials</b>')}: the brain’s response to sound, light or touch, such as ${e('VEP')}${memo("-graphy is the recording method and -gram is the tracing itself.")}`),
-          M("Which is a tool for examining the electrical activity of the brain?", ['electroencephalograph', 'electrocardiograph', 'CT scanner', 'sonograph'], "Cohen’s Pretest.", null, F('eeg', [])),
+          M("Which is a tool for examining the electrical activity of the brain?", ['electroencephalograph', 'electrocardiograph', 'CT scanner', 'sonograph'], "Pretest.", null, F('eeg', [])),
           M("What does EMG record?", ["electrical activity of muscle", "brain activity", "blood flow in the brain", "CSF pressure"], "my/o = muscle."),
           T("An electroencephalogram is the recorded tracing itself.", true, "-gram = writing, record.", F('eeg-photo', [])),
           W("Build a word meaning “method of recording the brain’s electricity”", ['electr/o', 'encephal/o', '-graphy'], ['-gram', 'my/o', 'cerebr/o'], 'electroencephalography.'),
           P("Match each test to its job", [['EEG', "brain electricity"], ['EMG', "muscle electricity"], ['NCS', "nerve conduction speed"], ['VEP', "the brain’s response to light"]], "Electrical tests."),
-          B("The doctor ordered an ___ of the brain for Mr Gutierrez.", ['electroencephalogram', 'electrocardiogram', 'myelogram'], "The book’s scenario."),
+          B("The doctor ordered an ___ of the brain for Mr Gutierrez.", ['electroencephalogram', 'electrocardiogram', 'myelogram'], "The standard reference’s scenario."),
           S("Spell the term for the recorded tracing of the brain’s electrical activity", 'electroencephalogram', 'electr/o + encephal/o + -gram.', 'electro…'),
           N('f2t:tx')
         ]
@@ -2318,7 +2318,7 @@
       {
         id: 'tx3', title: "lumbar puncture", icon: '💉', items: [
           L("Drawing Spinal Fluid", `${fig('lumbar-puncture', [], "lumbar puncture")}${e('<b>lumbar puncture (LP)</b>')} or ${e('spinal tap')}: a needle is passed between the lumbar vertebrae (usually ${e('L3–L4')}) into the subarachnoid space, and CSF is taken for testing (for example in meningitis). The needle goes in below the end of the spinal cord (${e('L1–L2')}) so the cord is not injured.`),
-          L("Patient positions", `${fig('lp-position', ["Side-lying position for an LP"], "Patient positions")}The patient lies on their side and pulls the knees up to the chest to open the spaces between the vertebrae.${pearl("In the Consultation Report in Fremgen’s book, the phrase “puncture with a needle into the low back to withdraw fluid” means lumbar puncture; its result was normal.")}`),
+          L("Patient positions", `${fig('lp-position', ["Side-lying position for an LP"], "Patient positions")}The patient lies on their side and pulls the knees up to the chest to open the spaces between the vertebrae.${pearl("In the Consultation Report, the phrase “puncture with a needle into the low back to withdraw fluid” means lumbar puncture; its result was normal.")}`),
           M("Between which vertebrae is the LP needle usually inserted?", ["L3 and L4", "C1 and C2", "T6 and T7", "S1 and S2"], "Below the end of the spinal cord.", null, F('lumbar-puncture', [])),
           M("What is taken in an LP?", ["cerebrospinal fluid", "arterial blood", "bone marrow", "nerve tissue"], 'CSF.'),
           T("The LP needle goes in below the end of the spinal cord so the cord is not injured.", true, "The cord reaches about L2."),
@@ -2339,7 +2339,7 @@
           T("CT is good for quickly finding bleeding in the brain.", true, 'Case Study 7-1.', F('ct-tumor', [])),
           W("Build a word meaning “method of imaging the spinal cord”", ['myel/o', '-graphy'], ['my/o', '-gram', 'encephal/o'], 'myelography.'),
           P("Match each abbreviation to its meaning", [['CT', 'computed tomography'], ['MRI', 'magnetic resonance imaging'], ['MRA', 'magnetic resonance angiography'], ['PET', 'positron emission tomography']], "Imaging."),
-          B("In the book’s Consultation Report, “injection with radioactive isotopes” is for ___.", ['PET scan', 'EEG', 'lumbar puncture'], "A radioactive substance."),
+          B("In the standard reference’s Consultation Report, “injection with radioactive isotopes” is for ___.", ['PET scan', 'EEG', 'lumbar puncture'], "A radioactive substance."),
           S("Spell the term for imaging the spinal cord with contrast", 'myelography', 'myel/o + -graphy.', 'myelo…'),
           N('r2m:tx')
         ]
@@ -2347,11 +2347,11 @@
       {
         id: 'tx5', title: "Skull Surgery", icon: '🔪', items: [
           L("Opening the skull", `${fig('craniotomy', [], "Skull operations")}${wb('crani/o', '-tomy')} → ${e('<b>craniotomy</b>')}: cutting into the skull to reach the brain<br>${wb('crani/o', '-ectomy')} → ${e('<b>craniectomy</b>')}: removing part of the skull`),
-          L("Without open surgery", `${e('<b>stereotactic radiosurgery</b>')}: precise beams that destroy a tumour without open surgery.<br>${wb('cry/o', 'surgery')} → ${e('<b>cryosurgery</b>')}: surgery with extreme cold.${pearl("Consultation Report in Fremgen’s book: a 38-year-old woman with an astrocytoma in the cortex of the right hemisphere; a “right skull incision” (craniotomy) was performed and the tumour was destroyed with “extreme cold” (cryosurgery).")}${fig('ct-tumor', ["Malignant tumour in the left hemisphere"], "Image of a brain tumour")}`),
+          L("Without open surgery", `${e('<b>stereotactic radiosurgery</b>')}: precise beams that destroy a tumour without open surgery.<br>${wb('cry/o', 'surgery')} → ${e('<b>cryosurgery</b>')}: surgery with extreme cold.${pearl("Consultation Report: a 38-year-old woman with an astrocytoma in the cortex of the right hemisphere; a “right skull incision” (craniotomy) was performed and the tumour was destroyed with “extreme cold” (cryosurgery).")}${fig('ct-tumor', ["Malignant tumour in the left hemisphere"], "Image of a brain tumour")}`),
           M(`${e('<b>craniotomy</b>')} means…`, ["cutting into the skull", "removing skull bone", "repairing the skull", "X-ray of the skull"], 'crani/o + -tomy.', null, F('craniotomy', [])),
           M("What is destroying a tumour with extreme cold called?", ['cryosurgery', 'radiosurgery', 'craniectomy', 'neurolysis'], "cry/o = cold."),
           T("Stereotactic radiosurgery is done without opening the skull.", true, "Precise beams."),
-          O("Put the treatment of the 38-year-old woman (Consultation Report) in order", ['speech difficulty and hemiparesis', 'EEG and LP normal', 'PET shows mass', 'craniotomy', 'cryosurgery of the tumor'], "The book’s report."),
+          O("Put the treatment of the 38-year-old woman (Consultation Report) in order", ['speech difficulty and hemiparesis', 'EEG and LP normal', 'PET shows mass', 'craniotomy', 'cryosurgery of the tumor'], "The standard reference’s report."),
           P("Match each phrase in the record to its medical term", [['specialist in nervous system diseases', 'neurologist'], ['loss of motion on one side', 'hemiplegia'], ['astrocyte tumor', 'astrocytoma'], ['right skull incision', 'craniotomy']], 'Chart Note Transcription.'),
           B("Removing part of the skull is a ___.", ['craniectomy', 'craniotomy', 'cranioplasty'], "-ectomy = removal."),
           S("Spell the term for cutting into the skull to reach the brain", 'craniotomy', 'crani/o + -tomy.', 'cranio…'),
@@ -2360,7 +2360,7 @@
       },
       {
         id: 'tx6', title: "Spine and Nerve Surgery", icon: '🧵', items: [
-          L("The spine", `${wb('lamin/o', '-ectomy')} → ${e('<b>laminectomy</b>')}: removing the vertebral lamina to relieve pressure on the spinal cord or roots<br>${e('<b>spinal fusion</b>')}: joining two or more vertebrae for spinal stability${pearl("Discharge Summary in Fremgen’s book: a 23-year-old man, after a motorcycle accident, had a burst fracture of L2 with an epidural hematoma and complete paraplegia; a lumbar laminectomy with spinal fusion was performed.")}`),
+          L("The spine", `${wb('lamin/o', '-ectomy')} → ${e('<b>laminectomy</b>')}: removing the vertebral lamina to relieve pressure on the spinal cord or roots<br>${e('<b>spinal fusion</b>')}: joining two or more vertebrae for spinal stability${pearl("Discharge Summary: a 23-year-old man, after a motorcycle accident, had a burst fracture of L2 with an epidural hematoma and complete paraplegia; a lumbar laminectomy with spinal fusion was performed.")}`),
           L("nerve", `${tbl([["surgery", "Meaning"], [e('neurorrhaphy'), "nerve suture (-rrhaphy)"], [e('neuroplasty'), "nerve repair"], [e('neurectomy'), "neurectomy"], [e('neurolysis'), "freeing or destroying a nerve"], [e('rhizotomy'), "cutting a nerve root for pain or spasticity"], [e('vagotomy'), "cutting the vagus nerve"]])}${memo("-rrhaphy is suturing and -rrhexis is rupture; both begin with rrh.")}`),
           M(`${e('<b>neurorrhaphy</b>')} means…`, ["nerve suture", "neurectomy", "nerve pain", "nerve inflammation"], "-rrhaphy = suture."),
           M("To relieve pressure on the spinal cord, the vertebral lamina is removed; this operation is…", ['laminectomy', 'craniotomy', 'vagotomy', 'neuroplasty'], 'lamin/o + -ectomy.'),
@@ -2390,9 +2390,9 @@
       {
         id: 'tx8', title: "Nervous system drugs", icon: '💊', items: [
           L("Drug groups", `${fig('neuro-drugs', [], "Neuro drugs")}${tbl([["drug", "Job"], [e('analgesic'), "painkiller; reduces pain without loss of consciousness"], [e('narcotic'), "a strong painkiller with a risk of dependence, such as morphine"], [e('anesthetic'), "local anaesthesia or general anaesthesia (GA)"], [e('anticonvulsant'), "anticonvulsant, such as phenytoin and diazepam"], [e('hypnotic'), "sleep-inducing (hypn/o = sleep)"]])}`),
-          L("A few more drugs", `${tbl([["drug", "Job"], [e('sedative'), "calming"], [e('muscle relaxant'), "muscle relaxant, such as dantrolene"], [e('dopaminergic drugs'), "raising dopamine in Parkinson’s, such as levodopa"]])}${pearl("The book’s APPLY scenario: pain management is a delicate art; narcotic painkillers are strong but carry a risk of dependence and side effects.")}${vs(['analgesic', "reduces pain, consciousness remains"], ['anesthetic', "removes sensation; sometimes consciousness too"])}`),
-          M("Which drug prevents seizures?", ['anticonvulsant', 'antidepressant', 'hypnotic', 'analgesic'], "The book’s drug table: phenobarbital and diazepam.", null, F('neuro-drugs', [])),
-          M("A painkiller that reduces pain without causing euphoria is…", ['analgesic', 'narcotic', 'anesthetic', 'stimulant'], "The book’s exercise: without inducing a euphoric state."),
+          L("A few more drugs", `${tbl([["drug", "Job"], [e('sedative'), "calming"], [e('muscle relaxant'), "muscle relaxant, such as dantrolene"], [e('dopaminergic drugs'), "raising dopamine in Parkinson’s, such as levodopa"]])}${pearl("A clinical scenario: pain management is a delicate art; narcotic painkillers are strong but carry a risk of dependence and side effects.")}${vs(['analgesic', "reduces pain, consciousness remains"], ['anesthetic', "removes sensation; sometimes consciousness too"])}`),
+          M("Which drug prevents seizures?", ['anticonvulsant', 'antidepressant', 'hypnotic', 'analgesic'], "The standard reference’s drug table: phenobarbital and diazepam.", null, F('neuro-drugs', [])),
+          M("A painkiller that reduces pain without causing euphoria is…", ['analgesic', 'narcotic', 'anesthetic', 'stimulant'], "The standard reference’s exercise: without inducing a euphoric state."),
           T("A hypnotic is a sleep-inducing drug.", true, "hypn/o = sleep."),
           W("Build a word meaning “absence of pain”", ['an-', '-algesia'], ['anti-', '-esthesia', 'hyper-'], 'analgesia.'),
           P("Match each drug to its job", [['analgesic', "painkiller"], ['anesthetic', "Numbing"], ['hypnotic', "sleep-inducing drug"], ['sedative', "calming"]], "Neuro drugs."),
@@ -2404,7 +2404,7 @@
       {
         id: 'tx9', title: "Rehabilitation and Record Abbreviations", icon: '📋', items: [
           L("rehabilitation", `${e('<b>rehabilitation</b>')} is a programme to restore ability after illness or injury:<br>• ${e('<b>physical therapy (PT)</b>')}: exercise and movement for strength and walking<br>• ${e('<b>occupational therapy (OT)</b>')}: retraining everyday tasks<br>• ${e('<b>TENS</b>')}: electrical nerve stimulation through the skin to reduce pain${pearl("After three weeks of intensive rehabilitation, William was able to take a few small steps and move his shoulders, arms and fingers.")}`),
-          L("A real note", `${pearl("The book’s APPLY scenario: “Mr. Jones presents to the ED after a motor vehicle accident. Experienced TIA last week; may now have a CVA. Will evaluate for SCI and get MRI, MRA, and EEG. Concerned ICP is elevated. May have a CSF leak.”")}${tbl([["abbreviation", "Meaning"], [e('TIA'), "mini-stroke"], [e('CVA'), "stroke"], [e('SCI'), "spinal cord injury"], [e('ICP'), "intracranial pressure"], [e('CSF'), "cerebrospinal fluid"]])}`),
+          L("A real note", `${pearl("A clinical scenario: “Mr. Jones presents to the ED after a motor vehicle accident. Experienced TIA last week; may now have a CVA. Will evaluate for SCI and get MRI, MRA, and EEG. Concerned ICP is elevated. May have a CSF leak.”")}${tbl([["abbreviation", "Meaning"], [e('TIA'), "mini-stroke"], [e('CVA'), "stroke"], [e('SCI'), "spinal cord injury"], [e('ICP'), "intracranial pressure"], [e('CSF'), "cerebrospinal fluid"]])}`),
           M("Retraining everyday tasks such as dressing is the work of which therapy?", ['occupational therapy', 'physical therapy', 'psychotherapy', 'TENS'], 'OT.'),
           M("What is TENS for?", ["reducing pain by electrical nerve stimulation", "recording brain electricity", "imaging the spinal cord", "treating depression"], 'transcutaneous electrical nerve stimulation.'),
           T("In Mr Jones’s note, the doctor is worried that the pressure inside the skull is high.", true, 'Concerned ICP is elevated.'),
@@ -2709,7 +2709,7 @@
     },
     {
       id: 'r5', w: 'cn', title: "A mass in the cortex of the right hemisphere", who: "A 38-year-old woman",
-      brief: "Pearson Hospital consultation report: the patient was referred to a “specialist in diseases of the nervous system”; she has “difficulty speaking”, “loss of movement on one side of the body” and “severe involuntary muscle contractions”. “Recording of the brain’s electrical activity” and “a needle puncture in the lower back to withdraw fluid” were normal; but “an injection of radioactive isotopes” showed a mass in the “outer layer of the largest part of the brain” on the right. The diagnosis was an “astrocyte tumour”; it was treated with a “skull incision” and “extreme cold”.",
+      brief: "City Hospital consultation report: the patient was referred to a “specialist in diseases of the nervous system”; she has “difficulty speaking”, “loss of movement on one side of the body” and “severe involuntary muscle contractions”. “Recording of the brain’s electrical activity” and “a needle puncture in the lower back to withdraw fluid” were normal; but “an injection of radioactive isotopes” showed a mass in the “outer layer of the largest part of the brain” on the right. The diagnosis was an “astrocyte tumour”; it was treated with a “skull incision” and “extreme cold”.",
       chart: [['CC', 'speech difficulty, one-sided weakness, seizures'], ['EEG, LP', 'normal'], ['Scan', 'mass in right cerebral cortex'], ['Tx', 'craniotomy, cryosurgery']],
       fig: { a: 'craniotomy', l: [] },
       steps: [
@@ -2785,11 +2785,11 @@
       chart: [['Sx', 'aphasia, L hemiparesis, syncope, delirium'], ['Hx', 'HTN, atherosclerosis, DM'], ['Scan', 'infarct, right cerebral hemisphere'], ['Dx', 'CVA, middle cerebral artery']],
       fig: { a: 'elderly-woman', l: [] },
       steps: [
-        P("symptom", "Match each sign to its meaning", [['aphasia', "inability to speak"], ['hemiparesis', "weakness of one side of the body"], ['syncope', "fainting"], ['delirium', "acute mental confusion"]], "Case Study in Fremgen’s book."),
+        P("symptom", "Match each sign to its meaning", [['aphasia', "inability to speak"], ['hemiparesis', "weakness of one side of the body"], ['syncope', "fainting"], ['delirium', "acute mental confusion"]], "Case Study."),
         M("Term", "infarct means…", ["dead tissue caused by a cut-off blood supply", "tumour", "inflammation", "bleeding"], "Tissue death."),
         M("history of", "atherosclerosis means…", ["hardening and narrowing of the arteries with plaque", "diabetes", "low blood pressure", "brain inflammation"], "The groundwork for a stroke."),
         T("side", "An infarct of the right hemisphere fits with weakness of the left side of the body.", true, "Crossed control."),
-        O("Causes", "Put the four common causes of CVA from the book in this order", ['cerebral hemorrhage', 'cerebral embolism', 'cerebral thrombosis', 'compression by a tumor'], "Figure 12-10 in Fremgen’s book."),
+        O("Causes", "Put the four common causes of CVA from the standard reference in this order", ['cerebral hemorrhage', 'cerebral embolism', 'cerebral thrombosis', 'compression by a tumor'], "Teaching figure."),
         S("Spelling", "Spell the term for an area of dead tissue from lost blood supply", 'infarct', "Dead tissue.", 'infa…')
       ]
     },
@@ -2899,7 +2899,7 @@
       chart: [['CC', 'sudden stroke'], ['Sx', 'vertigo, R arm and leg paralysis, aphasia, diplopia'], ['Hx', 'adenocarcinoma of pancreas with liver metastasis'], ['Dx', 'stroke: metastatic lesion vs CVD']],
       fig: { a: 'brain-imaging', l: [] },
       steps: [
-        P("Term", "Match each term in the note to its meaning", [['vertigo', "dizziness"], ['aphasia', "loss of language"], ['deglutition', "swallowing"], ['diplopia', "double vision"]], "Chart Note Analysis in Gylys’s book."),
+        P("Term", "Match each term in the note to its meaning", [['vertigo', "dizziness"], ['aphasia', "loss of language"], ['deglutition', "swallowing"], ['diplopia', "double vision"]], "Chart Note Analysis."),
         M("paralysis", "What is paralysis of the right arm and leg called?", ['right hemiplegia', 'paraplegia', 'quadriplegia', 'right monoplegia'], "One half of the body."),
         M("abbreviation", "CVD means…", ["cerebrovascular disease", "stroke", "intracranial pressure", "heart valve disease"], 'cerebrovascular disease.'),
         M("Cause", "metastatic lesion of the brain means…", ["a brain lesion that cancer has reached from elsewhere", "a primary brain tumour", "a brain abscess", "brain inflammation"], "Metastasis."),

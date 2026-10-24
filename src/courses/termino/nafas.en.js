@@ -1664,7 +1664,7 @@
       {
         id: 'up3', title: "Nosebleeds, runny nose and polyps", icon: '🩸', items: [
           L("Nasal signs", `${tbl([["Term", "Meaning"], [e('rhinorrhea'), "runny nose"], [e('epistaxis'), "nosebleed (rhinorrhagia)"], [e('rhinitis'), "inflammation of the nasal lining"], [e('coryza'), "common cold"], [e('nasal polyps'), "benign growths of the nasal lining"], [e('deviated septum'), "deviated septum"]])}`),
-          L("Repairing the nose", `${wb('rhin/o', '-plasty')} → surgical repair of the nose<br>${wb('sept/o', '-plasty')} → repair of the nasal septum, for a ${e('deviated septum')}<br>${wb('polyp/o', '-ectomy')} → removal of a polyp${pearl("A textbook clinical note: a 45-year-old man with airway obstruction from large polyps in the right nasal cavity; a nasal snare polypectomy was done and pathology reported a low-grade papillary carcinoma.")}`),
+          L("Repairing the nose", `${wb('rhin/o', '-plasty')} → surgical repair of the nose<br>${wb('sept/o', '-plasty')} → repair of the nasal septum, for a ${e('deviated septum')}<br>${wb('polyp/o', '-ectomy')} → removal of a polyp${pearl("A clinical note: a 45-year-old man with airway obstruction from large polyps in the right nasal cavity; a nasal snare polypectomy was done and pathology reported a low-grade papillary carcinoma.")}`),
           M(`${e('<b>epistaxis</b>')} means…`, ["nosebleed", "runny nose", "sneezing", "coughing up blood"], "Also called rhinorrhagia."),
           M("What is surgery to straighten a bent nasal septum called?", ['septoplasty', 'rhinorrhea', 'polypectomy', 'sinusitis'], 'sept/o + -plasty.'),
           T("Coryza is the ordinary common cold.", true, 'common cold.'),
@@ -1811,7 +1811,7 @@
       {
         id: 'lo3', title: "Sudden narrowing of the bronchi", icon: '🌀', items: [
           L("bronchospasm", `The bronchial walls contain smooth muscle. If this muscle suddenly contracts, the airway narrows: ${e('<b>bronchospasm</b>')}. This is what happens in an asthma attack.${fig('asthma-airway', [], "A bronchiole at rest and in an asthma attack")}`),
-          L("drug", `A ${e('<b>bronchodilator</b>')} relaxes the smooth muscle and opens the airway, such as a salbutamol inhaler (${e('Proventil')}).${wb('bronch/o', '-spasm')} → sudden contraction of a bronchus${vs(['bronchospasm', "sudden narrowing of a bronchus"], ['bronchodilator', "a drug that opens the bronchi"])}${pearl("In a textbook lung consult report, a 10-year-old boy with asthma improved on Proventil and continuing it was advised “to relieve bronchospasm”.")}`),
+          L("drug", `A ${e('<b>bronchodilator</b>')} relaxes the smooth muscle and opens the airway, such as a salbutamol inhaler (${e('Proventil')}).${wb('bronch/o', '-spasm')} → sudden contraction of a bronchus${vs(['bronchospasm', "sudden narrowing of a bronchus"], ['bronchodilator', "a drug that opens the bronchi"])}${pearl("In a lung consult report, a 10-year-old boy with asthma improved on Proventil and continuing it was advised “to relieve bronchospasm”.")}`),
           M(`${e('<b>bronchospasm</b>')} means…`, ["sudden contraction of bronchial muscle", "permanent widening of a bronchus", "inflammation of a bronchus", "removal of a bronchus"], 'bronch/o + -spasm.', null, F('asthma-airway', [])),
           M("Which drug opens the bronchi?", ['bronchodilator', 'antitussive', 'decongestant', 'antihistamine'], "dilator = something that widens."),
           T("The bronchial wall contains smooth muscle.", true, 'smooth muscle.'),
@@ -1973,7 +1973,7 @@
       {
         id: 'br4', title: "lack of oxygen", icon: '🫥', items: [
           L("Oxygen and CO2 words", `${tbl([["Term", "Meaning"], [e('hypoxia'), "lack of oxygen in the tissues"], [e('hypoxemia'), "lack of oxygen in the blood"], [e('anoxia'), "complete absence of oxygen"], [e('hypercapnia'), "rise in blood CO2"], [e('asphyxia'), "suffocation: lack of O2 and build-up of CO2"]])}`),
-          L("Outward signs", `${fig('cyanosis', [], "Cyanosis and clubbing")}• ${e('<b>cyanosis</b>')}: bluish skin, lips and nail beds from lack of oxygen<br>• ${e('<b>clubbing</b>')}: rounding and widening of the fingertips in long-term oxygen shortage${pearl("In a textbook lung consult report: “cyanosis around the lips” and “ABGs indicate hypoxemia” during a severe asthma attack.")}`),
+          L("Outward signs", `${fig('cyanosis', [], "Cyanosis and clubbing")}• ${e('<b>cyanosis</b>')}: bluish skin, lips and nail beds from lack of oxygen<br>• ${e('<b>clubbing</b>')}: rounding and widening of the fingertips in long-term oxygen shortage${pearl("In a lung consult report: “cyanosis around the lips” and “ABGs indicate hypoxemia” during a severe asthma attack.")}`),
           M(`${e('<b>hypoxemia</b>')} means…`, ["lack of oxygen in the blood", "lack of oxygen in the tissues", "rise in blood CO2", "complete absence of oxygen"], "-emia = blood."),
           M("What is the bluish colour of the lips and nail beds called?", ['cyanosis', 'clubbing', 'pallor', 'jaundice'], "cyan/o = blue.", null, F('cyanosis', [])),
           T("Hypercapnia means too little carbon dioxide in the blood.", false, "False; hyper- = excessive; CO2 is high."),
@@ -1987,7 +1987,7 @@
       {
         id: 'br5', title: "Cough and sputum", icon: '😷', items: [
           L("Types of cough", `• ${e('<b>productive cough</b>')}: a cough with sputum<br>• ${e('<b>nonproductive cough</b>')}: a dry cough<br>• ${e('<b>sputum</b>')}: material coughed up from the lungs; ${e('phlegm')}: thick mucus<br>• ${e('<b>purulent</b>')}: pus-filled; yellow or green sputum<br>• ${e('<b>expectoration</b>')}: coughing up and spitting out sputum`),
-          L("Blood in the sputum", `${wb('hem/o', '-ptysis')} → ${e('<b>hemoptysis</b>')}: coughing blood from the lungs; can be a sign of TB or lung cancer.${vs(['hemoptysis', "blood coughed from the lungs"], ['epistaxis', "blood from the nose"])}${pearl("In textbook Exercise 12-9, a 30-year-old woman came in with “nonproductive cough, dyspnea and fever”: a dry cough and breathlessness.")}`),
+          L("Blood in the sputum", `${wb('hem/o', '-ptysis')} → ${e('<b>hemoptysis</b>')}: coughing blood from the lungs; can be a sign of TB or lung cancer.${vs(['hemoptysis', "blood coughed from the lungs"], ['epistaxis', "blood from the nose"])}${pearl("In a clinical exercise, a 30-year-old woman came in with “nonproductive cough, dyspnea and fever”: a dry cough and breathlessness.")}`),
           M("What is a cough that brings up sputum called?", ['productive cough', 'nonproductive cough', 'hemoptysis', 'stridor'], "productive = bringing up sputum."),
           M(`${e('<b>purulent sputum</b>')} means…`, ["pus-filled sputum", "coughing up blood", "clear sputum", "dry cough"], "purulent = containing pus."),
           T("Hemoptysis can be a sign of TB or lung cancer.", true, "Blood in the sputum is always investigated."),
@@ -2022,7 +2022,7 @@
           T("Stridor is the sound of upper airway blockage.", true, "The larynx or trachea; for example in croup."),
           P("Match each sound to its cause", [['wheeze', "narrowed airway"], ['stridor', "blocked larynx"], ['rhonchi', "mucus in a large bronchus"], ['pleural rub', "inflamed pleura"]], "Lung sounds."),
           B("The abbreviation ___ means the lungs are clear to auscultation.", ['CTA', 'CXR', 'SOB'], 'clear to auscultation.'),
-          M("In textbook Exercise 12-9, “inspiratory rales” were heard; that means…", ["crackles on breathing in", "wheeze on breathing out", "harsh laryngeal sound", "complete silence of the lung"], "rales = crackles; inspiratory = on breathing in."),
+          M("In a clinical exercise, “inspiratory rales” were heard; that means…", ["crackles on breathing in", "wheeze on breathing out", "harsh laryngeal sound", "complete silence of the lung"], "rales = crackles; inspiratory = on breathing in."),
           S("Spell the term for listening to body sounds", 'auscultation', 'listening.', 'ausc…'),
           N('t2f:br')
         ]
@@ -2077,7 +2077,7 @@
       {
         id: 'ds1', title: "asthma", icon: '🌬️', items: [
           L("An asthma attack", `${fig('asthma-airway', [], "A bronchiole in an asthma attack")}${e('<b>asthma</b>')} is a chronic disease in which three things happen in the airway during attacks:<br>1. smooth muscle contraction (${e('bronchospasm')})<br>2. inflammation and swelling of the wall<br>3. excess mucus<br>The result: wheezing (${e('wheeze')}), cough and breathlessness.`),
-          L("Treatment and monitoring", `• ${e('bronchodilator')} (such as a salbutamol inhaler) to open the airway quickly<br>• ${e('inhaled corticosteroid')} to prevent inflammation<br>• ${e('peak flow meter')} for daily monitoring at home${fig('mdi', [], "An inhaler with a spacer")}${pearl("A textbook lung consult report: a 10-year-old boy with dyspnea, cyanosis around the lips, rhonchi and hypoxemia on ABG; spirometry showed moderate to severe airway obstruction.")}`),
+          L("Treatment and monitoring", `• ${e('bronchodilator')} (such as a salbutamol inhaler) to open the airway quickly<br>• ${e('inhaled corticosteroid')} to prevent inflammation<br>• ${e('peak flow meter')} for daily monitoring at home${fig('mdi', [], "An inhaler with a spacer")}${pearl("A lung consult report: a 10-year-old boy with dyspnea, cyanosis around the lips, rhonchi and hypoxemia on ABG; spirometry showed moderate to severe airway obstruction.")}`),
           M("Which of these does not happen in an asthma attack?", ["destruction of the alveolar walls", "bronchial muscle contraction", "inflammation of the wall", "excess mucus"], "Destruction of alveoli belongs to emphysema.", null, F('asthma-airway', [])),
           M("What is the hallmark sound of asthma on auscultation?", ['wheeze', 'stridor', 'pleural rub', 'rales'], "A whistling wheeze."),
           T("A peak flow meter is used to monitor asthma at home.", true, 'PEFR.'),
@@ -2120,7 +2120,7 @@
       {
         id: 'ds4', title: "Pneumonia", icon: '🦠', items: [
           L("Lung inflammation and infection", `${fig('pneumonia', [], "Lobar pneumonia and bronchopneumonia")}In ${e('<b>pneumonia</b>')} the alveoli fill with fluid and pus. Signs: fever, productive cough, breathlessness, crackles (${e('rales')}) and an opaque patch on the ${e('CXR')}.<br>• ${e('lobar pneumonia')}: a whole lobe<br>• ${e('bronchopneumonia')}: scattered patches around the bronchioles<br>• ${e('aspiration pneumonia')}: from inhaling food or vomit`),
-          L("From the sources", `${pearl("A textbook chart note transcription: a 43-year-old woman with painful, difficult and rapid breathing, fever, crackles in the lower left chest and purulent sputum; the CXR showed an opaque patch in the left lower lobe. Diagnosis: bacterial pneumonia of the LLL; treatment: IV antibiotics and intubation.")}${wb('pneumon/o', '-ia')} → pneumonia; ${wb('pneumon/o', '-itis')} → inflammation of the lung${vs(['pneumonia', "infection and filling of the alveoli"], ['pneumonitis', "inflammation of lung tissue (not necessarily infectious)"])}`),
+          L("From the sources", `${pearl("A chart note transcription: a 43-year-old woman with painful, difficult and rapid breathing, fever, crackles in the lower left chest and purulent sputum; the CXR showed an opaque patch in the left lower lobe. Diagnosis: bacterial pneumonia of the LLL; treatment: IV antibiotics and intubation.")}${wb('pneumon/o', '-ia')} → pneumonia; ${wb('pneumon/o', '-itis')} → inflammation of the lung${vs(['pneumonia', "infection and filling of the alveoli"], ['pneumonitis', "inflammation of lung tissue (not necessarily infectious)"])}`),
           M("Which type of pneumonia involves a whole lobe?", ['lobar pneumonia', 'bronchopneumonia', 'aspiration pneumonia', 'pneumonitis'], "lob/o = lobe.", null, F('pneumonia', [])),
           M("What is pneumonia caused by inhaling food or vomit?", ['aspiration pneumonia', 'lobar pneumonia', 'pneumoconiosis', 'atelectasis'], "aspiration = breathing in foreign material."),
           T("In pneumonia the alveoli fill with fluid and pus.", true, 'consolidation.'),
@@ -2244,7 +2244,7 @@
           T("RA in an ABG report means the patient was breathing room air.", true, 'room air.'),
           W("Build a word meaning “an instrument for measuring oxygen”", ['ox/i', '-meter'], ['-metry', 'spir/o', 'capn/o'], 'ox/i + -meter = oximeter.'),
           P("Match each term to its meaning", [['ABGs', "arterial blood gases"], ['oximeter', "device measuring oxygen saturation"], ['RA', "room air"], ['hypoxemia', "low blood oxygen"]], "Blood oxygen."),
-          B("In textbook Exercise 12-9, the ABG on “room air” showed ___ oxygen.", ["low", "many", "normal"], 'low oxygen content = hypoxemia.'),
+          B("In a clinical exercise, the ABG on “room air” showed ___ oxygen.", ["low", "many", "normal"], 'low oxygen content = hypoxemia.'),
           S("Spell the term for the instrument that measures blood oxygen", 'oximeter', 'ox/i + -meter.', 'oxi…'),
           N('f2t:tx')
         ]
@@ -2295,7 +2295,7 @@
       {
         id: 'tx6', title: "Oxygen and respiratory devices", icon: '💨', items: [
           L("Ways to give oxygen", `${fig('oxygen-devices', [], "Oxygen devices and inhaled medicines")}• ${e('<b>nasal cannula</b>')}: two plastic prongs in the nose<br>• ${e('face mask')}: a mask for more oxygen<br>• ${e('<b>CPAP</b>')}: continuous positive pressure for sleep apnoea<br>• ${e('<b>IPPB</b>')}: intermittent positive pressure breathing to open the lungs${fig('nasal-cannula', [], "nasal cannula")}`),
-          L("Inhaled medicines", `• ${e('<b>MDI</b>')} (metered-dose inhaler): a spray with a set dose; reaches the lungs better with a ${e('spacer')}<br>• ${e('<b>nebulizer</b>')}: turns liquid medicine into a mist; for children and very ill patients${fig('nebulizer-photo', [], "nebuliser")}${pearl("In a textbook case study, an 88-year-old woman with pneumonia received IV antibiotics and IPPB and went home on the third day.")}`),
+          L("Inhaled medicines", `• ${e('<b>MDI</b>')} (metered-dose inhaler): a spray with a set dose; reaches the lungs better with a ${e('spacer')}<br>• ${e('<b>nebulizer</b>')}: turns liquid medicine into a mist; for children and very ill patients${fig('nebulizer-photo', [], "nebuliser")}${pearl("In a case study, an 88-year-old woman with pneumonia received IV antibiotics and IPPB and went home on the third day.")}`),
           M("With which device is oxygen given through two small prongs in the nostrils?", ['nasal cannula', 'CPAP', 'nebulizer', 'ventilator'], "cannula = a small tube.", null, F('oxygen-devices', [])),
           M("Which device turns liquid medicine into a mist?", ['nebulizer', 'MDI', 'spirometer', 'oximeter'], 'NMT = nebulized mist treatment.'),
           T("A spacer helps inhaled medicine reach the lungs better.", true, "With an MDI.", F('mdi', [], "An inhaler with a spacer")),
@@ -2338,7 +2338,7 @@
       {
         id: 'tx9', title: "Reading a respiratory chart", icon: '📋', items: [
           L("Common abbreviations", `${tbl([["abbreviation", "Meaning"], [e('SOB / DOE'), "breathlessness / on exertion"], [e('CTA'), "clear on auscultation"], [e('CXR'), "chest X-ray"], [e('ABGs'), "arterial blood gases"], [e('COPD'), "chronic obstructive lung disease"], [e('URI'), "upper respiratory infection"], [e('O2 / RA'), "oxygen / room air"], [e('TPR'), "temperature, pulse, respiration"]])}`),
-          L("A real note", `${pearl("Textbook Exercise 12-9: “HISTORY: 30-year-old female c/o nonproductive cough, dyspnea and fever of 3 days. PE: T 102°F, R 26, P 108. Tachypnea with mild cyanosis, inspiratory rales. CXR: diffuse infiltrates at the bases of both lungs. ABG on room air: low oxygen. Dx: pneumonia of unknown etiology. Plan: ICU, antibiotics and oxygen by face mask.”")}${memo("c/o means complains of: the patient complains of…")}`),
+          L("A real note", `${pearl("Clinical note: “HISTORY: 30-year-old female c/o nonproductive cough, dyspnea and fever of 3 days. PE: T 102°F, R 26, P 108. Tachypnea with mild cyanosis, inspiratory rales. CXR: diffuse infiltrates at the bases of both lungs. ABG on room air: low oxygen. Dx: pneumonia of unknown etiology. Plan: ICU, antibiotics and oxygen by face mask.”")}${memo("c/o means complains of: the patient complains of…")}`),
           M("In the note above, R 26 means…", ["26 breaths a minute; fast breathing", "a heart rate of 26", "a temperature of 26 degrees", "right lung"], "R = respiration; over 20 = tachypnea."),
           M("“c/o nonproductive cough” means…", ["complains of a dry cough", "complains of bloody sputum", "productive cough", "no cough"], 'c/o = complains of.'),
           T("Etiology means the cause of a disease.", true, "pneumonia of unknown etiology = pneumonia of unknown cause."),
@@ -2579,7 +2579,7 @@
   EA.rounds = [
     /* ================= زبان تنفس ================= */
     {
-      id: 'r1', w: 'lx', title: "Pearson Hospital emergency record", who: "A 43-year-old woman",
+      id: 'r1', w: 'lx', title: "City Hospital emergency record", who: "A 43-year-old woman",
       brief: "Her family has brought her to the emergency department. She complains of painful, difficult breathing, rapid breathing and fever. A blood oxygen test shows a very low oxygen level. Listening to the lungs, crackling sounds are heard in the lower left chest. She has plenty of purulent sputum and the chest X-ray shows a large opaque patch in the left lower lobe. You must write each phrase with its medical term.",
       chart: [["1", "painful, difficult breathing"], ["2", "rapid breathing"], ["3", "blood oxygen test"], ["4", "crackling lung sounds"], ["5", "pus-filled sputum"]],
       fig: { a: 'lung-sounds', l: [] },
@@ -2702,7 +2702,7 @@
         M("symptom", "orthopnea means…", ["breathlessness when lying flat", "fast breathing", "productive cough", "normal breathing"], 'orth/o + -pnea.'),
         M("lobe", "RUL means…", ["right upper lobe", "right lower lobe", "left upper lobe", "right middle lobe"], 'right upper lobe.'),
         M("vital signs", "A breathing rate of 24 a minute means…", ['tachypnea', 'eupnea', 'bradypnea', 'apnea'], "More than 20."),
-        P("Term", "Match each term to its meaning", [['auscultation', "listening"], ['crackles', "crackling sounds on inspiration"], ['IPPB', "intermittent positive pressure breathing"], ['CXR', "chest X-ray"]], 'Fremgen case.'),
+        P("Term", "Match each term to its meaning", [['auscultation', "listening"], ['crackles', "crackling sounds on inspiration"], ['IPPB', "intermittent positive pressure breathing"], ['CXR', "chest X-ray"]], 'A clinical case.'),
         T("vital signs", "VS means vital signs: temperature, pulse, respiration and blood pressure.", true, 'vital signs.'),
         S("Spelling", "Spell the diagnosis of an infection filling the air sacs", 'pneumonia', 'pneumon/o + -ia.', 'pneu…')
       ]

@@ -1594,7 +1594,7 @@
       {
         id: 'lx1', title: "Two systems, one goal", icon: '🌸', items: [
           L("Gonads and gametes", `${fig('repro-overview', [], "Female and male reproductive systems")}A ${e('<b>gonad</b>')} (sex gland) makes both sex cells and hormones:<br>• female: ${e('<b>ovary</b>')} → ${e('<b>ovum</b>')}<br>• male: ${e('<b>testis</b>')} → ${e('<b>spermatozoon</b>')}<br>Each of these two cells, called a ${e('gamete')}, has 23 chromosomes, and their union forms a ${e('<b>zygote</b>')}.`),
-          L("Specialists", `${tbl([["specialist", "Job"], [e('gynecologist (GYN)'), "Diseases of the female reproductive system"], [e('obstetrician (OB)'), "pregnancy and childbirth"], [e('urologist'), "Male urinary and reproductive system"], [e('neonatologist'), "Newborns"]])}${memo("gynec/o means woman; OB-GYN means “obstetrics and gynaecology”.")}${pearl("In the case study in Cohen’s textbook, Dexter went to a urologist for BPH, and Abigail’s obstetrician sent her to theatre for a caesarean.")}`),
+          L("Specialists", `${tbl([["specialist", "Job"], [e('gynecologist (GYN)'), "Diseases of the female reproductive system"], [e('obstetrician (OB)'), "pregnancy and childbirth"], [e('urologist'), "Male urinary and reproductive system"], [e('neonatologist'), "Newborns"]])}${memo("gynec/o means woman; OB-GYN means “obstetrics and gynaecology”.")}${pearl("In the case study, Dexter went to a urologist for BPH, and Abigail’s obstetrician sent her to theatre for a caesarean.")}`),
           M("Which is the female sex gland?", ['ovary', 'uterus', 'testis', 'placenta'], "The female gonad = the ovary.", null, F('repro-overview', [])),
           M(`Who is a ${e('<b>gynecologist</b>')}?`, ["specialist in diseases of the female reproductive system", "obstetrician", "newborn specialist", "urinary tract specialist"], 'gynec/o + -logist.'),
           T("The egg and sperm each have 23 chromosomes.", true, "Gametes have half the chromosomes."),
@@ -1651,7 +1651,7 @@
       {
         id: 'lx5', title: "Male roots", icon: '🔷', items: [
           L("The root map", `${fig('root-map-m', [], "Male roots")}${tbl([["root", "Meaning"], [e('orchi/o, orchid/o, test/o'), "testis"], [e('osche/o, scrot/o'), "scrotum"], [e('epididym/o'), "epididymis"], [e('vas/o'), "vas deferens"], [e('prostat/o'), "prostate"], [e('balan/o'), "glans penis"]])}`),
-          L("Sperm and semen", `• sperm: ${e('spermat/o')} and ${e('sperm/o')}<br>• semen: ${e('semin/o')}<br>• seminal vesicle: ${e('vesicul/o')}<br>${wb('spermat/o', '-genesis')} → ${e('<b>spermatogenesis</b>')}: sperm production${memo("The orchid takes its name from the Greek word for testis; the shape of its root looks like a testis!")}${pearl("In Pearson’s record, <bdi dir=\"ltr\">“failure of the testes to descend”</bdi> means cryptorchidism and <bdi dir=\"ltr\">“surgical fixation of the testes”</bdi> means orchiopexy.")}`),
+          L("Sperm and semen", `• sperm: ${e('spermat/o')} and ${e('sperm/o')}<br>• semen: ${e('semin/o')}<br>• seminal vesicle: ${e('vesicul/o')}<br>${wb('spermat/o', '-genesis')} → ${e('<b>spermatogenesis</b>')}: sperm production${memo("The orchid takes its name from the Greek word for testis; the shape of its root looks like a testis!")}${pearl("In the record, <bdi dir=\"ltr\">“failure of the testes to descend”</bdi> means cryptorchidism and <bdi dir=\"ltr\">“surgical fixation of the testes”</bdi> means orchiopexy.")}`),
           M(`The root ${e('<b>orchi/o</b>')} means…`, ["testis", "prostate", "shaft of the male organ", "seminal vesicle"], "orchitis = inflammation of the testis.", null, F('root-map-m', [])),
           M("Which root means “glans penis”?", ['balan/o', 'vas/o', 'semin/o', 'osche/o'], 'balanitis.'),
           T("vas/o in vasectomy refers to the vas deferens.", true, 'vas deferens.'),
@@ -1708,7 +1708,7 @@
       {
         id: 'lx9', title: "Look-alike Traps", icon: '🪤', items: [
           L("One letter, two meanings", `${fig('twins', [], "Tricky pairs")}${vs(['men/o', "menstruation"], ['metr/o', "uterus"])}${vs(['-rrhea', "flow, discharge"], ['-rrhagia', "heavy bleeding"])}`),
-          L("Pregnancy or birth?", `${vs(['gravida', "number of pregnancies"], ['para', "number of viable births"])}${vs(['-tomy', "incision"], ['-ectomy', "removal"])}${memo("Remember G with Got pregnant and P with Produced a baby.")}${pearl("In a chart note in Gylys’s textbook, the patient is G4 P4; that is, four pregnancies and four live births.")}`),
+          L("Pregnancy or birth?", `${vs(['gravida', "number of pregnancies"], ['para', "number of viable births"])}${vs(['-tomy', "incision"], ['-ectomy', "removal"])}${memo("Remember G with Got pregnant and P with Produced a baby.")}${pearl("In a chart note, the patient is G4 P4; that is, four pregnancies and four live births.")}`),
           M("menorrhagia means…", ["heavy periods", "absence of periods", "bleeding between periods", "painful periods"], 'men/o + -rrhagia.', null, F('twins', [])),
           M("metrorrhagia means…", ["uterine bleeding between periods", "heavy bleeding during periods", "white discharge", "absence of periods"], "metr/o = uterus."),
           T("G3 P2 means she has been pregnant three times and has had two viable births.", true, "Gravida and para."),
@@ -1755,7 +1755,7 @@
       {
         id: 'fm2', title: "Wall and position of the uterus", icon: '🧱', items: [
           L("Three layers", `${fig('uterine-wall', [], "Uterine wall")}• ${e('<b>perimetrium</b>')}: the outer layer<br>• ${e('<b>myometrium</b>')}: the muscular layer; labour contractions<br>• ${e('<b>endometrium</b>')}: the inner layer; it thickens every month and is shed in menstruation`),
-          L("Position of the uterus", `${fig('uterine-positions', ["Forward and backward tilt of the uterus"], "Positions of the uterus")}The uterus usually tilts forward over the bladder: ${e('anteflexion')} and ${e('anteversion')}. If it tilts backward: ${e('<b>retroversion</b>')} or ${e('retroflexion')}.${pearl("The textbook’s APPLY scenario: Mrs Rosie McConnell has been told she has a <bdi dir=\"ltr\">“retroverted uterus and fibroids”</bdi>; that is, a backward-tilted uterus and fibroids.")}`),
+          L("Position of the uterus", `${fig('uterine-positions', ["Forward and backward tilt of the uterus"], "Positions of the uterus")}The uterus usually tilts forward over the bladder: ${e('anteflexion')} and ${e('anteversion')}. If it tilts backward: ${e('<b>retroversion</b>')} or ${e('retroflexion')}.${pearl("A clinical scenario: Mrs Rosie McConnell has been told she has a <bdi dir=\"ltr\">“retroverted uterus and fibroids”</bdi>; that is, a backward-tilted uterus and fibroids.")}`),
           M("Which is the muscular layer of the uterus?", ['myometrium', 'endometrium', 'perimetrium', 'cervix'], "my/o = muscle.", null, F('uterine-wall', [])),
           M("Which layer is shed in menstruation?", ['endometrium', 'myometrium', 'perimetrium', 'ovary'], "the inner lining"),
           T("retroversion means a backward tilt of the uterus.", true, "retro- = backward.", F('uterine-positions', [])),
@@ -1769,7 +1769,7 @@
       {
         id: 'fm3', title: "Side section of the female pelvis", icon: '🔎', items: [
           L("Neighbours", `${fig('female-sagittal', [], "Section of the female pelvis")}The uterus lies between the ${e('<b>urinary bladder</b>')} (in front) and the ${e('<b>rectum</b>')} (behind). The space between the uterus and rectum is called the ${e('<b>rectouterine pouch</b>')} or ${e('cul-de-sac')} (${e('culd/o')}).`),
-          L("Cervix and vagina", `${e('<b>cervix</b>')} is the lower part of the uterus and opens into the ${e('vagina')}; its channel is the ${e('cervical canal')}. In labour the cervix thins (${e('effacement')}) and opens (${e('dilation')}).${memo("cervix means “neck”; the neck of the uterus that reaches the vagina.")}${pearl("In the textbook scenario, the doctor ordered a <bdi dir=\"ltr\">“culdoscopy”</bdi> for Mrs Charity Peterson; that is, viewing the rectouterine pouch with a scope.")}`),
+          L("Cervix and vagina", `${e('<b>cervix</b>')} is the lower part of the uterus and opens into the ${e('vagina')}; its channel is the ${e('cervical canal')}. In labour the cervix thins (${e('effacement')}) and opens (${e('dilation')}).${memo("cervix means “neck”; the neck of the uterus that reaches the vagina.")}${pearl("In a clinical scenario, the doctor ordered a <bdi dir=\"ltr\">“culdoscopy”</bdi> for Mrs Charity Peterson; that is, viewing the rectouterine pouch with a scope.")}`),
           M("Which organ lies in front of the uterus?", ["bladder", "the straight final section of the large bowel", "kidney", "ovary"], 'bladder.', null, F('female-sagittal', [])),
           M("Which space does the root culd/o refer to?", ["rectouterine pouch", "cervix", "fallopian tube", "birth canal"], 'cul-de-sac.'),
           T("The bladder is in front of the uterus and the rectum behind it.", true, "A sagittal section."),
@@ -1811,7 +1811,7 @@
       },
       {
         id: 'fm6', title: "One patient, one history", icon: '📋', items: [
-          L("Reading the Chart", `${pearl("The textbook’s APPLY scenario: Mrs Pamela Kline, aged 40, says she has been pregnant five times, had fluid drawn off during her last pregnancy, has had inflammation of the vagina and cervix, had a hernia of a fallopian tube that was repaired, and has had her uterus, ovaries and tubes removed.")}${tbl([["Phrase", "Medical term"], ["five pregnancies", e('gravida 5')], ["drawing off amniotic fluid", e('amniocentesis')], ["inflammation of the vagina and cervix", e('vaginitis, cervicitis')], ["hernia of a fallopian tube", e('salpingocele')], ["removal of the uterus, ovaries and tubes", e('TAH-BSO')]])}`),
+          L("Reading the Chart", `${pearl("A clinical scenario: Mrs Pamela Kline, aged 40, says she has been pregnant five times, had fluid drawn off during her last pregnancy, has had inflammation of the vagina and cervix, had a hernia of a fallopian tube that was repaired, and has had her uterus, ovaries and tubes removed.")}${tbl([["Phrase", "Medical term"], ["five pregnancies", e('gravida 5')], ["drawing off amniotic fluid", e('amniocentesis')], ["inflammation of the vagina and cervix", e('vaginitis, cervicitis')], ["hernia of a fallopian tube", e('salpingocele')], ["removal of the uterus, ovaries and tubes", e('TAH-BSO')]])}`),
           L("The prefix and suffix tell you the organ’s site", `${wb('cervic/o', '-itis')} → ${e('cervicitis')}<br>${wb('vagin/o', '-itis')} → ${e('vaginitis')} (or ${e('colpitis')})<br>${wb('salping/o', '-cele')} → ${e('salpingocele')}${memo("First find the organ from the root, then the event from the suffix.")}`),
           M("Which one is “inflammation of the cervix”?", ['cervicitis', 'colpitis', 'metritis', 'salpingitis'], 'cervic/o + -itis.'),
           M("How is “pregnant five times” written in a record?", ['gravida 5', 'para 5', 'nullipara', 'primigravida'], "gravida = number of pregnancies."),
@@ -1841,7 +1841,7 @@
       {
         id: 'fm8', title: "menstrual cycle", icon: '📆', items: [
           L("28 days in four steps", `${fig('menstrual-cycle', [], "menstrual cycle")}${tbl([["Stage", "Day", "What happens"], [e('menstrual'), "1 to 5", "shedding of the endometrium and bleeding"], [e('proliferative (follicular)'), "6 to 13", "estrogen builds the endometrium"], [e('ovulation'), "14", "release of the egg"], [e('secretory (luteal)'), "15 to 28", "progesterone keeps the endometrium ready"]])}`),
-          L("Terms", `${wb('men/o', '-arche')} → ${e('<b>menarche</b>')}: the first period at puberty<br>${e('<b>menstruation</b>')} (${e('menses')}): monthly bleeding<br>${e('<b>premenstrual syndrome (PMS)</b>')}: physical and emotional symptoms a few days before a period${pearl("The textbook’s APPLY scenario: Mrs Beth Meyers takes a 21-day contraceptive pill and, because she sometimes forgets a pill, has breakthrough bleeding (bleeding between periods).")}`),
+          L("Terms", `${wb('men/o', '-arche')} → ${e('<b>menarche</b>')}: the first period at puberty<br>${e('<b>menstruation</b>')} (${e('menses')}): monthly bleeding<br>${e('<b>premenstrual syndrome (PMS)</b>')}: physical and emotional symptoms a few days before a period${pearl("A clinical scenario: Mrs Beth Meyers takes a 21-day contraceptive pill and, because she sometimes forgets a pill, has breakthrough bleeding (bleeding between periods).")}`),
           M("On which day of a 28-day cycle does ovulation usually happen?", ["14", "1", "5", "28"], "Mid-cycle.", null, F('menstrual-cycle', [])),
           M("Which hormone dominates in the secretory (luteal) phase?", ['progesterone', 'estrogen', 'testosterone', 'FSH'], "From the corpus luteum."),
           T("menarche means the first period.", true, 'men/o + -arche.'),
@@ -1855,7 +1855,7 @@
       {
         id: 'fm9', title: "From puberty to menopause", icon: '🌙', items: [
           L("menopause", `${e('<b>menopause</b>')}: the permanent end of periods, usually around age 50. The years before it are called ${e('<b>perimenopause</b>')}, with irregular periods and hot flushes. ${e('<b>postmenopausal</b>')} means after menopause.`),
-          L("At the bedside", `${pearl("The textbook’s APPLY scenario: Mrs Heidi Red Feather, aged 47, has night sweats, bleeding between periods, hot flushes and depression; these are signs of perimenopause.")}${pearl("A chart note in Gylys’s textbook: a 52-year-old woman whose last period was at 48 was admitted for laparoscopy and D&C with <bdi dir=\"ltr\">“postmenopausal bleeding”</bdi>; bleeding after menopause must be investigated.")}${vs(["perimenopause", "perimenopause<br>the years before menopause"], ["postmenopausal", "postmenopausal<br>after the last period"])}`),
+          L("At the bedside", `${pearl("A clinical scenario: Mrs Heidi Red Feather, aged 47, has night sweats, bleeding between periods, hot flushes and depression; these are signs of perimenopause.")}${pearl("A chart note: a 52-year-old woman whose last period was at 48 was admitted for laparoscopy and D&C with <bdi dir=\"ltr\">“postmenopausal bleeding”</bdi>; bleeding after menopause must be investigated.")}${vs(["perimenopause", "perimenopause<br>the years before menopause"], ["postmenopausal", "postmenopausal<br>after the last period"])}`),
           M("What is the permanent end of periods called?", ['menopause', 'menarche', 'amenorrhea', 'puberty'], "Menopause."),
           M("Mrs Heidi Red Feather’s symptoms point mostly to which stage?", ['perimenopause', 'menarche', 'pregnancy', 'puerperium'], "Hot flushes and irregular periods."),
           T("Postmenopausal bleeding must be investigated.", true, "To rule out endometrial cancer."),
@@ -1902,7 +1902,7 @@
       {
         id: 'ml2', title: "Sperm and spermatogenesis", icon: '🐟', items: [
           L("Structure of a sperm", `${fig('sperm-cell', [], "sperm")}A ${e('<b>spermatozoon</b>')} (plural ${e('spermatozoa')}; roots ${e('sperm/o, spermat/o')}) has three parts:<br>• ${e('head')}: the nucleus with 23 chromosomes and the ${e('<b>acrosome</b>')} cap, which holds enzymes for entering the egg<br>• ${e('midpiece')}: mitochondria for energy<br>• ${e('tail (flagellum)')}: the tail for movement`),
-          L("spermatogenesis", `${e('<b>spermatogenesis</b>')} starts at puberty and takes about 74 days. Sperm mature in the epididymis and gain the ability to move (${e('motility')}).${wb('spermat/o', '-genesis')} → making sperm${pearl("In Case Study 16-2 in Cohen’s textbook, Ruth checks <bdi dir=\"ltr\">“sperm motility”</bdi>, the movement of sperm, in a sample in the IVF laboratory.")}`),
+          L("spermatogenesis", `${e('<b>spermatogenesis</b>')} starts at puberty and takes about 74 days. Sperm mature in the epididymis and gain the ability to move (${e('motility')}).${wb('spermat/o', '-genesis')} → making sperm${pearl("In Case Study, Ruth checks <bdi dir=\"ltr\">“sperm motility”</bdi>, the movement of sperm, in a sample in the IVF laboratory.")}`),
           M("The cap on the sperm head that holds enzymes for entering the egg is the…", ['acrosome', 'flagellum', 'midpiece', 'nucleus'], "The acrosome.", null, F('sperm-cell', [])),
           M("In which part of the sperm are the mitochondria?", ['midpiece', 'head', 'tail', 'acrosome'], "Supplying energy for the tail."),
           T("spermatogenesis means the making of sperm.", true, 'spermat/o + -genesis.'),
@@ -1916,7 +1916,7 @@
       {
         id: 'ml3', title: "route of sperm", icon: '🛤️', items: [
           L("From the testis to the outside", `${fig('sperm-path', [], "route of sperm")}${e('seminiferous tubules')} → ${e('<b>epididymis</b>')} (maturation and storage) → ${e('<b>vas deferens</b>')} (${e('vas/o')}) → ${e('ejaculatory duct')} → ${e('<b>urethra</b>')}.`),
-          L("At the bedside", `${wb('vas/o', '-ectomy')} → ${e('<b>vasectomy</b>')}: cutting and tying the vas deferens to prevent pregnancy.${pearl("In Case Study 15-1 in Cohen’s textbook, Mr Derek, aged 48, had an <bdi dir=\"ltr\">“elective vasectomy”</bdi>, a vasectomy by choice, along with repair of bilateral inguinal hernias.")}${memo("To remember the route: <bdi dir=\"ltr\">“S-E-V-E-U”</bdi>: Seminiferous, Epididymis, Vas, Ejaculatory, Urethra.")}`),
+          L("At the bedside", `${wb('vas/o', '-ectomy')} → ${e('<b>vasectomy</b>')}: cutting and tying the vas deferens to prevent pregnancy.${pearl("In Case Study, Mr Derek, aged 48, had an <bdi dir=\"ltr\">“elective vasectomy”</bdi>, a vasectomy by choice, along with repair of bilateral inguinal hernias.")}${memo("To remember the route: <bdi dir=\"ltr\">“S-E-V-E-U”</bdi>: Seminiferous, Epididymis, Vas, Ejaculatory, Urethra.")}`),
           M("Where do sperm mature and get stored?", ['epididymis', 'prostate', 'urethra', 'seminal vesicle'], "The epididymis.", null, F('sperm-path', [])),
           M("Which duct is cut in a vasectomy?", ['vas deferens', 'urethra', 'ejaculatory duct', 'uterine tube'], 'vas/o.'),
           T("The male urethra carries out both urine and semen.", true, "The urethra is shared."),
@@ -1931,7 +1931,7 @@
       {
         id: 'ml4', title: "Side section of the male pelvis", icon: '🔎', items: [
           L("Neighbours", `${fig('male-sagittal', [], "Section of the male pelvis")}The ${e('<b>prostate gland</b>')} lies below the bladder and surrounds the start of the urethra. The ${e('<b>seminal vesicles</b>')} lie behind the bladder, and the rectum is behind the prostate; that is why the doctor feels the prostate with a ${e('<b>digital rectal examination (DRE)</b>')}.`),
-          L("At the bedside", `${pearl("In the case study in Cohen’s textbook, on DRE of Mr Dexter, aged 60, the doctor felt an enlarged prostate of about 50 grams, and BPH was suspected.")}${memo("The prostate is like a ring around the urethra; if it enlarges, it narrows the urine stream.")}`),
+          L("At the bedside", `${pearl("In the case study, on DRE of Mr Dexter, aged 60, the doctor felt an enlarged prostate of about 50 grams, and BPH was suspected.")}${memo("The prostate is like a ring around the urethra; if it enlarges, it narrows the urine stream.")}`),
           M("Where is the prostate relative to the bladder?", ["below the bladder, around the start of the urethra", "above the bladder", "inside the scrotum", "beside the kidney"], "Below the bladder.", null, F('male-sagittal', [])),
           M("Why is the prostate examined through the rectum?", ["because it lies just in front of the rectum", "because it is inside the rectum", "because it cannot be seen from the abdomen", "because it is in the scrotum"], 'DRE.'),
           T("DRE means examining the prostate with a finger through the rectum.", true, 'digital rectal examination.'),
@@ -1959,7 +1959,7 @@
       {
         id: 'ml6', title: "Spermatic cord and inguinal canal", icon: '🪢', items: [
           L("spermatic cord", `${e('<b>spermatic cord</b>')} carries the vas deferens, along with an artery, veins (${e('pampiniform plexus')}), a nerve and the ${e('cremaster')} muscle, from the scrotum to the pelvis. This cord passes through the ${e('<b>inguinal canal</b>')} (groin canal).`),
-          L("At the bedside", `Where the cord passes is a weak point in the abdominal wall: an ${e('<b>inguinal hernia</b>')} (groin hernia). Its repair is a ${e('herniorrhaphy')}.${pearl("The textbook’s APPLY scenario: the doctor told Rick Springs that, besides the testicular injury, he might also have a groin hernia.")}${memo("-rrhaphy means suturing; herniorrhaphy means suturing and repairing a hernia.")}`),
+          L("At the bedside", `Where the cord passes is a weak point in the abdominal wall: an ${e('<b>inguinal hernia</b>')} (groin hernia). Its repair is a ${e('herniorrhaphy')}.${pearl("A clinical scenario: the doctor told Rick Springs that, besides the testicular injury, he might also have a groin hernia.")}${memo("-rrhaphy means suturing; herniorrhaphy means suturing and repairing a hernia.")}`),
           M("Which canal does the spermatic cord pass through?", ['inguinal canal', 'cervical canal', 'urethra', 'femoral canal'], "The groin."),
           M(`${e('<b>herniorrhaphy</b>')} means…`, ["hernia repair by suturing", "orchiectomy", "cutting the vas deferens", "cutting into a hernia"], "-rrhaphy = suturing."),
           T("The spermatic cord contains only the vas deferens.", false, "It also has vessels, a nerve and muscle."),
@@ -1974,7 +1974,7 @@
       {
         id: 'ml7', title: "The penis", icon: '🧬', items: [
           L("Structure", `${fig('penis-xs', [], "Cross-section of the penis")}The ${e('<b>penis</b>')} (${e('phall/o, pen/o')}) has three columns of erectile tissue:<br>• two ${e('<b>corpora cavernosa</b>')} on top<br>• one ${e('<b>corpus spongiosum</b>')} below, through which the urethra passes and which forms the head (${e('glans penis')})<br>The skin over the head is the ${e('<b>prepuce</b>')} (foreskin).`),
-          L("removal of the foreskin", `${e('<b>circumcision</b>')}: removal of the skin over the head of the penis (${e('prepuce')}).${pearl("The textbook’s APPLY scenario: Bob Schaeffer Jr is a newborn, and his father has questions about his circumcision and a diagnosis of bilateral undescended testes.")}${wb('balan/o', '-itis')} → ${e('balanitis')}: inflammation of the glans`),
+          L("removal of the foreskin", `${e('<b>circumcision</b>')}: removal of the skin over the head of the penis (${e('prepuce')}).${pearl("A clinical scenario: Bob Schaeffer Jr is a newborn, and his father has questions about his circumcision and a diagnosis of bilateral undescended testes.")}${wb('balan/o', '-itis')} → ${e('balanitis')}: inflammation of the glans`),
           M("Through which erectile column does the urethra pass?", ['corpus spongiosum', 'corpus cavernosum', 'corpus luteum', 'glans clitoris'], "The corpus spongiosum.", null, F('penis-xs', [])),
           M("What is removal of the skin over the head of the penis called?", ['circumcision', 'vasectomy', 'orchiectomy', 'balanoplasty'], "Circumcision."),
           T("balan/o means the head of the penis (glans penis).", true, 'balanitis.'),
@@ -1988,7 +1988,7 @@
       {
         id: 'ml8', title: "Erection and ejaculation", icon: '⚡', items: [
           L("erection", `${e('<b>erection</b>')}: filling of erectile tissue with blood as the arteries dilate; triggered by the parasympathetic nervous system.<br>${e('<b>ejaculation</b>')}: expulsion of semen by contraction of the ducts and muscles; triggered by the sympathetic system.${memo("Remember “Point and Shoot”: P for parasympathetic for erection and S for sympathetic for ejaculation.")}`),
-          L("At the bedside", `${e('<b>erectile dysfunction (ED)</b>')} or ${e('impotence')}: inability to achieve an adequate erection.${pearl("In Case Study 15-2 in Cohen’s textbook, Mr Diego, aged 67, with a history of BPH, complained of ED; after psychological (psychogenic) causes were ruled out, a vessel-dilating drug was prescribed.")}${vs(["impotence", "erectile dysfunction<br>inability to achieve an erection"], ["inability to conceive", "infertility<br>failure to achieve pregnancy"])}`),
+          L("At the bedside", `${e('<b>erectile dysfunction (ED)</b>')} or ${e('impotence')}: inability to achieve an adequate erection.${pearl("In Case Study, Mr Diego, aged 67, with a history of BPH, complained of ED; after psychological (psychogenic) causes were ruled out, a vessel-dilating drug was prescribed.")}${vs(["impotence", "erectile dysfunction<br>inability to achieve an erection"], ["inability to conceive", "infertility<br>failure to achieve pregnancy"])}`),
           M("Which nervous system triggers erection?", ['parasympathetic', 'sympathetic', 'somatic', 'central only'], 'Point.'),
           M("The abbreviation ED means…", ['erectile dysfunction', 'ejaculatory duct', 'estimated delivery', 'endometrial disease'], "inability to achieve an erection"),
           T("Impotence is another name for erectile dysfunction.", true, "Synonyms."),
@@ -2002,7 +2002,7 @@
       {
         id: 'ml9', title: "Puberty and testosterone", icon: '🧔', items: [
           L("testosterone", `${e('<b>testosterone</b>')} is an ${e('androgen')} (the root ${e('andr/o')} means man) that produces the secondary characteristics at ${e('<b>puberty</b>')}: growth of the penis and testes, facial and body hair, a deeper voice and more muscle. ${e('FSH')} stimulates sperm production and ${e('LH')} stimulates testosterone production.`),
-          L("At the bedside", `${pearl("The textbook’s APPLY scenario: Mr James Cocoa teaches a health class for teenage boys about the male reproductive system, puberty and testosterone.")}${wb('an-', 'orch/o', '-ism')} → ${e('anorchism')}: absence of the testes<br>${e('hypogonadism')}: underactive sex glands and a lack of testosterone`),
+          L("At the bedside", `${pearl("A clinical scenario: Mr James Cocoa teaches a health class for teenage boys about the male reproductive system, puberty and testosterone.")}${wb('an-', 'orch/o', '-ism')} → ${e('anorchism')}: absence of the testes<br>${e('hypogonadism')}: underactive sex glands and a lack of testosterone`),
           M("Which group of hormones does testosterone belong to?", ['androgen', 'estrogen', 'progestin', 'gonadotropin'], "andr/o = male."),
           M("Which pituitary hormone stimulates testosterone production?", ['LH', 'FSH', 'prolactin', 'oxytocin'], "It acts on the Leydig cells."),
           T("A deeper voice and facial hair are male secondary sex characteristics.", true, "effect of testosterone"),
@@ -2078,7 +2078,7 @@
       {
         id: 'pg4', title: "Gravida and para", icon: '🔢', items: [
           L("counting", `${fig('gravida-para', [], "Gravida and para")}• ${e('<b>gravida (G)</b>')}: the number of pregnancies, whatever the outcome (the current pregnancy is counted too)<br>• ${e('<b>para (P)</b>')}: the number of births after week 20, alive or stillborn<br>${tbl([["Term", "Meaning"], [e('nulligravida'), "never pregnant"], [e('primigravida'), "pregnant for the first time"], [e('multigravida'), "pregnant several times"], [e('nullipara'), "has had no births"], [e('primipara'), "one birth"], [e('multipara'), "several births"]])}`),
-          L("At the bedside", `${pearl("In the case study in Cohen’s textbook, Abigail is <bdi dir=\"ltr\">“G2 P1”</bdi>: pregnant for the second time with one previous birth.")}${pearl("In a high-risk OB consultation report in Fremgen’s textbook, the 23-year-old patient is <bdi dir=\"ltr\">“multigravida, nullipara”</bdi>: pregnant several times (three miscarriages) but has not yet given birth.")}${memo("Gravida comes from gravid (heavy, pregnant); para from parere (to give birth).")}`),
+          L("At the bedside", `${pearl("In the case study, Abigail is <bdi dir=\"ltr\">“G2 P1”</bdi>: pregnant for the second time with one previous birth.")}${pearl("In a high-risk OB consultation report, the 23-year-old patient is <bdi dir=\"ltr\">“multigravida, nullipara”</bdi>: pregnant several times (three miscarriages) but has not yet given birth.")}${memo("Gravida comes from gravid (heavy, pregnant); para from parere (to give birth).")}`),
           M("A woman who has had three miscarriages and is now pregnant is gravida what?", ['G4', 'G3', 'G1', 'G0'], "Three miscarriages + the current pregnancy.", null, F('gravida-para', [])),
           M(`${e('<b>nullipara</b>')} means…`, ["a woman who has not given birth", "a woman who has never been pregnant", "a woman who has had one birth", "a postmenopausal woman"], "nulli- = none."),
           T("primigravida means a woman pregnant for the first time.", true, "primi- = first."),
@@ -2106,7 +2106,7 @@
       {
         id: 'pg6', title: "stages of labour", icon: '⏱️', items: [
           L("Three stages", `${fig('labor-stages', [], "stages of labour")}${tbl([["Stage", "From … to"], ["First", "onset of contractions to full opening of the cervix (10 cm)"], ["Second", "full opening to delivery of the baby"], ["Third", "delivery of the baby to delivery of the placenta (afterbirth)"]])}`),
-          L("Clinical terms", `• ${e('<b>effacement</b>')}: thinning of the cervix (percentage)<br>• ${e('<b>dilation</b>')}: opening of the cervix (centimetres)<br>• ${e('bloody show')}: bloody discharge at the start of labour<br>• ${e('<b>PROM</b>')}: premature rupture of the membranes<br>• ${e('NSVD')}: normal spontaneous vaginal delivery${pearl("In an OB delivery note in Ehrlich’s textbook, the cervix was 80% thinned (effacement) and 4 cm open (dilation); there was also a bloody show and PROM. Then an NSVD took place, the baby scored Apgar 9/9 and about 300 cc of blood was lost.")}`),
+          L("Clinical terms", `• ${e('<b>effacement</b>')}: thinning of the cervix (percentage)<br>• ${e('<b>dilation</b>')}: opening of the cervix (centimetres)<br>• ${e('bloody show')}: bloody discharge at the start of labour<br>• ${e('<b>PROM</b>')}: premature rupture of the membranes<br>• ${e('NSVD')}: normal spontaneous vaginal delivery${pearl("In an OB delivery note, the cervix was 80% thinned (effacement) and 4 cm open (dilation); there was also a bloody show and PROM. Then an NSVD took place, the baby scored Apgar 9/9 and about 300 cc of blood was lost.")}`),
           M("What ends the second stage of labour?", ["delivery of the baby", "delivery of the placenta", "full opening of the cervix", "onset of contractions"], "Birth.", null, F('labor-stages', [])),
           M(`${e('<b>effacement</b>')} means…`, ["thinning of the cervix", "opening of the cervix", "rupture of the membranes", "delivery of the placenta"], "As a percentage."),
           T("In the first stage of labour the cervix opens to 10 cm.", true, "Full dilation."),
@@ -2121,7 +2121,7 @@
       {
         id: 'pg7', title: "fetal presentation", icon: '🔄', items: [
           L("Which part first?", `${fig('presentations', [], "Fetal presentations")}${e('<b>presentation</b>')}: the part of the fetus that enters the pelvis first.<br>• ${e('<b>cephalic (vertex)</b>')}: the head; normal and most common<br>• ${e('<b>breech</b>')}: the buttocks or feet<br>• ${e('<b>transverse</b>')}: the shoulder; the fetus lies across`),
-          L("At the bedside", `${fig('breech-birth', ["Breech presentation"], "Breech delivery")}${pearl("In the case study in Cohen’s textbook, Abigail’s fetus was <bdi dir=\"ltr\">“right occiput posterior”</bdi> and the fetal head did not fit the mother’s pelvis (CPD); after fetal distress, an emergency caesarean was done.")}${memo("The root cephal/o means head, and breech means buttocks.")}`),
+          L("At the bedside", `${fig('breech-birth', ["Breech presentation"], "Breech delivery")}${pearl("In the case study, Abigail’s fetus was <bdi dir=\"ltr\">“right occiput posterior”</bdi> and the fetal head did not fit the mother’s pelvis (CPD); after fetal distress, an emergency caesarean was done.")}${memo("The root cephal/o means head, and breech means buttocks.")}`),
           M("Which is the most common and normal presentation?", ['cephalic (vertex)', 'breech', 'transverse', 'face'], "Head first.", null, F('presentations', [])),
           M("In a breech presentation, which part enters the pelvis first?", ["the buttocks or feet", "head", "shoulder", "Hand"], "Breech.", null, F('breech-birth', [])),
           T("In a transverse presentation, the fetus lies across the uterus.", true, "Shoulder first."),
@@ -2135,7 +2135,7 @@
       {
         id: 'pg8', title: "After birth and breastfeeding", icon: '🤱', items: [
           L("puerperium", `${e('<b>puerperium</b>')} (${e('postpartum')}): about 6 weeks after birth, during which the uterus returns to its former size (${e('involution')}). The bloody vaginal discharge in this period is called ${e('<b>lochia</b>')}.<br>${wb('post-', 'part/o', '-um')} → after birth`),
-          L("breastfeeding", `${e('<b>colostrum</b>')}: the first yellow, antibody-rich milk of the first few days<br>${e('prolactin')} makes milk and ${e('<b>oxytocin</b>')} ejects milk and contracts the uterus.${pearl("In the case study in Cohen’s textbook, after her caesarean Abigail had rooming-in (staying in the same room as the baby) and breastfed; the oxytocin of breastfeeding also helps the uterus contract.")}`),
+          L("breastfeeding", `${e('<b>colostrum</b>')}: the first yellow, antibody-rich milk of the first few days<br>${e('prolactin')} makes milk and ${e('<b>oxytocin</b>')} ejects milk and contracts the uterus.${pearl("In the case study, after her caesarean Abigail had rooming-in (staying in the same room as the baby) and breastfed; the oxytocin of breastfeeding also helps the uterus contract.")}`),
           M("What is the bloody vaginal discharge after birth called?", ['lochia', 'leukorrhea', 'colostrum', 'meconium'], "Lochia."),
           M("Which hormone ejects milk and contracts the uterus?", ['oxytocin', 'prolactin', 'estrogen', 'hCG'], "Oxytocin."),
           T("Colostrum is the first milk after birth and is rich in antibodies.", true, "First milk."),
@@ -2149,7 +2149,7 @@
       {
         id: 'pg9', title: "The newborn and Apgar", icon: '🍼', items: [
           L("newborn Apgar score", `${fig('apgar', [], "newborn Apgar score")}${e('<b>Apgar score</b>')} at 1 and 5 minutes after birth: five signs, each scoring 0 to 2.${memo("Each letter of APGAR is a sign: Appearance is colour, Pulse is heart rate, Grimace is reflex response, Activity is muscle tone and Respiration is breathing.")}`),
-          L("newborn", `${e('<b>neonate</b>')} (${e('neo-, nat/o')}): a baby up to 28 days. ${e('neonatology')} is the branch of newborn care.<br>${e('<b>meconium</b>')}: the newborn’s first dark green stool.${fig('sonogram', ["Ultrasound image of a fetus"], "ultrasound scan")}${pearl("Abigail’s baby and Ehrlich’s baby both had Apgar 9/9: 9 at one minute and 9 at five minutes; that is, doing well.")}`),
+          L("newborn", `${e('<b>neonate</b>')} (${e('neo-, nat/o')}): a baby up to 28 days. ${e('neonatology')} is the branch of newborn care.<br>${e('<b>meconium</b>')}: the newborn’s first dark green stool.${fig('sonogram', ["Ultrasound image of a fetus"], "ultrasound scan")}${pearl("Abigail’s baby and baby both had Apgar 9/9: 9 at one minute and 9 at five minutes; that is, doing well.")}`),
           M("When is the Apgar score usually recorded?", ["at 1 and 5 minutes after birth", "before birth", "on the third day", "in the sixth week"], "Twice.", null, F('apgar', [])),
           M("What is the maximum Apgar score?", ["10", "5", "20", "9"], "5 signs × 2."),
           T("Meconium is the newborn’s first stool.", true, "Dark green."),
@@ -2182,7 +2182,7 @@
       {
         id: 'ds1', title: "menstrual disorders", icon: '🩸', items: [
           L("-rrhea and -rrhagia words", `${fig('menstrual-disorders', [], "menstrual disorders")}${tbl([["Term", "Meaning"], [e('amenorrhea'), "absence of periods"], [e('dysmenorrhea'), "painful periods"], [e('menorrhagia'), "very heavy or prolonged periods"], [e('metrorrhagia'), "uterine bleeding between periods"], [e('oligomenorrhea'), "scanty, infrequent periods"]])}`),
-          L("At the bedside", `${pearl("The textbook’s APPLY scenario: Mrs Rosie McConnell complains of very heavy (menorrhagia) and painful (dysmenorrhea) periods; the doctor ordered a hysteroscopy and found fibroids.")}${pearl("The textbook’s APPLY scenario: Mrs Jenni Takanado started her periods late, has irregular periods and dyspareunia (pain during intercourse) and is being investigated for infertility.")}${memo("-rrhea is flowing; -rrhagia is bursting forth of blood. menorrhagia means heavy bleeding at the time of a period; metrorrhagia means bleeding from the uterus at the wrong time.")}`),
+          L("At the bedside", `${pearl("A clinical scenario: Mrs Rosie McConnell complains of very heavy (menorrhagia) and painful (dysmenorrhea) periods; the doctor ordered a hysteroscopy and found fibroids.")}${pearl("A clinical scenario: Mrs Jenni Takanado started her periods late, has irregular periods and dyspareunia (pain during intercourse) and is being investigated for infertility.")}${memo("-rrhea is flowing; -rrhagia is bursting forth of blood. menorrhagia means heavy bleeding at the time of a period; metrorrhagia means bleeding from the uterus at the wrong time.")}`),
           M(`${e('<b>dysmenorrhea</b>')} means…`, ["painful periods", "absence of periods", "heavy periods", "bleeding between periods"], "dys- = painful.", null, F('menstrual-disorders', [])),
           M("Uterine bleeding between two periods is…", ['metrorrhagia', 'menorrhagia', 'amenorrhea', 'oligomenorrhea'], "metr/o = uterus."),
           T("amenorrhea means absence of periods.", true, "a- = without."),
@@ -2210,7 +2210,7 @@
       {
         id: 'ds3', title: "Prolapse and cancers", icon: '⬇️', items: [
           L("drooping", `${fig('prolapse', [], "drooping")}${e('<b>uterine prolapse</b>')}: the uterus dropping down into the vagina<br>${e('<b>cystocele</b>')}: the bladder bulging into the front wall of the vagina<br>${e('<b>rectocele</b>')}: the rectum bulging into the back wall of the vagina${fig('cystocele', ["cystocele"], "cystocele")}${fig('uterine-prolapse', ["Degrees of uterine prolapse"], "uterine prolapse")}`),
-          L("Cancers", `• ${e('<b>cervical cancer</b>')}: often from ${e('HPV')}; preceded by ${e('<b>dysplasia</b>')} (abnormal cell growth)<br>• ${e('<b>endometrial cancer</b>')}: with postmenopausal bleeding<br>• ${e('<b>breast cancer</b>')}: a mass on mammography; sometimes spreads to the armpit${fig('endometrial-cancer', ["endometrial cancer"], "endometrial cancer")}${fig('mammogram-tumor', ["Mass on mammography"], "breast X-ray imaging")}${pearl("A chart note in Gylys’s textbook: a history of <bdi dir=\"ltr\">“simple mastectomy”</bdi> for breast cancer, and now <bdi dir=\"ltr\">“metastases to the axilla, liver and bone”</bdi>.")}`),
+          L("Cancers", `• ${e('<b>cervical cancer</b>')}: often from ${e('HPV')}; preceded by ${e('<b>dysplasia</b>')} (abnormal cell growth)<br>• ${e('<b>endometrial cancer</b>')}: with postmenopausal bleeding<br>• ${e('<b>breast cancer</b>')}: a mass on mammography; sometimes spreads to the armpit${fig('endometrial-cancer', ["endometrial cancer"], "endometrial cancer")}${fig('mammogram-tumor', ["Mass on mammography"], "breast X-ray imaging")}${pearl("A chart note: a history of <bdi dir=\"ltr\">“simple mastectomy”</bdi> for breast cancer, and now <bdi dir=\"ltr\">“metastases to the axilla, liver and bone”</bdi>.")}`),
           M("The bladder bulging into the vaginal wall is…", ['cystocele', 'rectocele', 'uterine prolapse', 'hydrocele'], "cyst/o = bladder.", null, F('cystocele', [])),
           M("What is the most important cause of cervical cancer?", ['HPV', 'HSV', 'HIV', 'Candida'], "Human papillomavirus."),
           T("Postmenopausal bleeding can be a sign of endometrial cancer.", true, "It must be investigated.", F('endometrial-cancer', [])),
@@ -2225,7 +2225,7 @@
       {
         id: 'ds4', title: "Testis and scrotum", icon: '🥜', items: [
           L("Diseases of the scrotum", `${fig('scrotal-disorders', [], "Diseases of the scrotum")}• ${e('<b>hydrocele</b>')}: fluid collecting in the scrotum<br>• ${e('<b>varicocele</b>')}: dilated, twisted veins above the testis; a “bag of worms”<br>• ${e('<b>spermatocele</b>')}: a sperm-filled cyst in the epididymis<br>• ${e('<b>testicular torsion</b>')}: twisting of the spermatic cord; an emergency${fig('scrotal-abnormalities', ["Scrotal abnormalities"], "scrotum")}${fig('varicocele', ["varicocele"], "varicocele")}`),
-          L("undescended testis", `${e('<b>cryptorchidism</b>')} means the testis has not come down into the scrotum; the root ${e('crypt/o')} means hidden. Treatment: ${e('<b>orchiopexy</b>')} (fixing the testis in the scrotum).${fig('cryptorchidism', ["Routes of an undescended testis"], "Cryptorchidism")}${pearl("In a consult in Pearson’s textbook: a 77-year-old man had a <bdi dir=\"ltr\">“history of cryptorchidism, corrected with orchiopexy”</bdi>.")}`),
+          L("undescended testis", `${e('<b>cryptorchidism</b>')} means the testis has not come down into the scrotum; the root ${e('crypt/o')} means hidden. Treatment: ${e('<b>orchiopexy</b>')} (fixing the testis in the scrotum).${fig('cryptorchidism', ["Routes of an undescended testis"], "Cryptorchidism")}${pearl("In a consult: a 77-year-old man had a <bdi dir=\"ltr\">“history of cryptorchidism, corrected with orchiopexy”</bdi>.")}`),
           M("Fluid collecting in the scrotum is a…", ['hydrocele', 'varicocele', 'spermatocele', 'cystocele'], "hydr/o = water.", null, F('scrotal-abnormalities', [])),
           M("cryptorchidism means…", ["undescended testis", "absence of a testis", "orchitis", "twisting of the testis"], "crypt/o = hidden.", null, F('cryptorchidism', [])),
           T("Testicular torsion is a surgical emergency.", true, "The blood supply to the testis is cut off."),
@@ -2239,7 +2239,7 @@
       {
         id: 'ds5', title: "prostate", icon: '🌰', items: [
           L("Benign enlargement", `${fig('bph', [], 'BPH')}${e('<b>benign prostatic hyperplasia (BPH)</b>')}: benign enlargement of the prostate in older men; the urethra narrows.<br>Signs: ${e('hesitancy')} (a delayed start of urination), a weak stream, ${e('nocturia')} (night-time urination) and ${e('urinary retention')}.${fig('bph-drawing', ["Narrowing of the urethra as the prostate enlarges"], "enlarged prostate")}`),
-          L("At the bedside", `${pearl("In the case study in Cohen’s textbook, Mr Dexter, aged 60, had hesitancy. On DRE his prostate was about 50 grams and 120 mL of urine stayed in his bladder. Diagnosis: BPH with BNO (bladder neck obstruction).")}${e('<b>prostatitis</b>')}: inflammation of the prostate<br>${e('<b>prostate cancer</b>')}: with a raised ${e('PSA')} and a nodule on DRE${vs(['BPH', "Benign enlargement"], ['prostate cancer', "malignant tumour"])}`),
+          L("At the bedside", `${pearl("In the case study, Mr Dexter, aged 60, had hesitancy. On DRE his prostate was about 50 grams and 120 mL of urine stayed in his bladder. Diagnosis: BPH with BNO (bladder neck obstruction).")}${e('<b>prostatitis</b>')}: inflammation of the prostate<br>${e('<b>prostate cancer</b>')}: with a raised ${e('PSA')} and a nodule on DRE${vs(['BPH', "Benign enlargement"], ['prostate cancer', "malignant tumour"])}`),
           M("What is night-time urination called?", ['nocturia', 'dysuria', 'hematuria', 'polyuria'], "noct/o = night.", null, F('bph-drawing', [])),
           M("Why does the urine stream weaken in BPH?", ["the enlarged prostate narrows the urethra", "the kidney makes no urine", "the bladder ruptures", "the testis enlarges"], "Obstruction.", null, F('bph', [])),
           T("hyperplasia means an increase in the number of cells.", true, 'hyper- + -plasia.'),
@@ -2253,7 +2253,7 @@
       {
         id: 'ds6', title: "The penis and male fertility", icon: '🔧', items: [
           L("Urethral anomalies", `${fig('hypospadias', ["Misplaced urethral opening"], "Hypospadias")}• ${e('<b>hypospadias</b>')}: the urethral opening on the underside of the penis<br>• ${e('<b>epispadias</b>')}: the urethral opening on the upper side of the penis<br>• ${e('<b>phimosis</b>')}: a tight foreskin that will not pull back; treatment: circumcision${memo("The prefix hypo- means under and the prefix epi- means upon.")}`),
-          L("Inflammations and infertility", `${pearl("The textbook’s APPLY scenario: Jon Meriweather came with inflammation of the glans (balanitis), inflammation of the testis (orchitis) and inflammation of the scrotum, and has a history of prostatitis.")}${e('<b>male infertility</b>')}: often from ${e('oligospermia')} or ${e('azoospermia')} (no sperm in the semen); investigated with a ${e('semen analysis')}.`),
+          L("Inflammations and infertility", `${pearl("A clinical scenario: Jon Meriweather came with inflammation of the glans (balanitis), inflammation of the testis (orchitis) and inflammation of the scrotum, and has a history of prostatitis.")}${e('<b>male infertility</b>')}: often from ${e('oligospermia')} or ${e('azoospermia')} (no sperm in the semen); investigated with a ${e('semen analysis')}.`),
           M("A urethral opening on the underside of the penis is…", ['hypospadias', 'epispadias', 'phimosis', 'priapism'], "hypo- = under.", null, F('hypospadias', [])),
           M("azoospermia means…", ["no sperm in the semen", "too few sperm", "non-moving sperm", "blood in the semen"], 'a- + zo/o + sperm/o.'),
           T("phimosis means a tight foreskin over the head of the penis.", true, "Treatment: circumcision."),
@@ -2268,7 +2268,7 @@
       {
         id: 'ds7', title: "Ectopic pregnancy and placental problems", icon: '⚠️', items: [
           L("Ectopic pregnancy", `${fig('ectopic', [], "Ectopic pregnancy")}${e('<b>ectopic pregnancy</b>')}: implantation outside the uterus (the prefix ${e('ec-')} means out and the root ${e('top/o')} means place); more than 95% are in a fallopian tube. A ruptured tube causes life-threatening bleeding.${fig('ectopic-sites', ["Sites of ectopic pregnancy"], "Ectopic sites")}`),
-          L("Placental and blood pressure problems", `${fig('placenta-problems', [], "placental problems")}• ${e('<b>placenta previa</b>')}: the placenta over the cervix; painless bleeding<br>• ${e('<b>abruptio placentae</b>')}: early separation of the placenta; painful bleeding<br>• ${e('<b>preeclampsia</b>')}: high blood pressure and protein in the urine after week 20; if seizures occur: ${e('eclampsia')}${fig('placental-abnormalities', ["Abnormal placental positions"], "Placental abnormality")}${pearl("In a high-risk OB consultation in Fremgen’s textbook: the patient has <bdi dir=\"ltr\">“placenta previa”</bdi> and there is a risk of <bdi dir=\"ltr\">“abruptio”</bdi>; a caesarean is planned once labour starts.")}`),
+          L("Placental and blood pressure problems", `${fig('placenta-problems', [], "placental problems")}• ${e('<b>placenta previa</b>')}: the placenta over the cervix; painless bleeding<br>• ${e('<b>abruptio placentae</b>')}: early separation of the placenta; painful bleeding<br>• ${e('<b>preeclampsia</b>')}: high blood pressure and protein in the urine after week 20; if seizures occur: ${e('eclampsia')}${fig('placental-abnormalities', ["Abnormal placental positions"], "Placental abnormality")}${pearl("In a high-risk OB consultation: the patient has <bdi dir=\"ltr\">“placenta previa”</bdi> and there is a risk of <bdi dir=\"ltr\">“abruptio”</bdi>; a caesarean is planned once labour starts.")}`),
           M("Where is the most common site of an ectopic pregnancy?", ["fallopian tube", "ovary", "cervix", "abdomen"], 'tubal.', null, F('ectopic-sites', [])),
           M("A placenta lying over the cervix is…", ['placenta previa', 'abruptio placentae', 'placenta accreta', 'preeclampsia'], "previa = going before.", null, F('placental-abnormalities', [])),
           T("Preeclampsia comes with high blood pressure and protein in the urine.", true, "after week 20"),
@@ -2281,7 +2281,7 @@
       },
       {
         id: 'ds8', title: "Difficult labour and genetics", icon: '🧬', items: [
-          L("Pregnancy loss", `• ${e('<b>spontaneous abortion</b>')} (${e('miscarriage')}): loss of a pregnancy before week 20<br>• ${e('<b>stillbirth</b>')}: birth of a dead baby after week 20<br>• ${e('<b>IUFD</b>')}: death of the fetus inside the uterus<br>• ${e('fetal distress')}: signs of oxygen shortage in the fetus${pearl("Textbook exercise 15-9: a 27-year-old patient, G II P I; the ultrasound at week 14 and amniocentesis at week 15 were normal, but at week 18 an intrauterine fetal death (IUFD) occurred.")}`),
+          L("Pregnancy loss", `• ${e('<b>spontaneous abortion</b>')} (${e('miscarriage')}): loss of a pregnancy before week 20<br>• ${e('<b>stillbirth</b>')}: birth of a dead baby after week 20<br>• ${e('<b>IUFD</b>')}: death of the fetus inside the uterus<br>• ${e('fetal distress')}: signs of oxygen shortage in the fetus${pearl("A clinical exercise: a 27-year-old patient, G II P I; the ultrasound at week 14 and amniocentesis at week 15 were normal, but at week 18 an intrauterine fetal death (IUFD) occurred.")}`),
           L("Chromosomal anomaly", `${fig('down-syndrome', ["Face of a child with Down syndrome"], "Down syndrome")}${e('<b>Down syndrome</b>')} (${e('trisomy 21')}): three copies of chromosome 21; the risk rises with the mother’s age. It is diagnosed by amniocentesis or ${e('CVS')}.${memo("The prefix tri- means three and the suffix -somy means body (chromosome).")}`),
           M("Death of the fetus after week 20 and its delivery is…", ['stillbirth', 'miscarriage', 'ectopic pregnancy', 'preterm birth'], "Stillbirth."),
           M("What anomaly is Down syndrome?", ["three copies of chromosome 21", "a missing X chromosome", "three copies of chromosome 18", "a hormone deficiency"], 'trisomy 21.', null, F('down-syndrome', [])),
@@ -2296,7 +2296,7 @@
       {
         id: 'ds9', title: "sexually transmitted infections", icon: '🦠', items: [
           L("The most important STIs", `${fig('sti', [], "sexually transmitted infections")}${tbl([["disease", "Cause", "symptom"], [e('chlamydia'), "bacteria", "often without symptoms; an important cause of PID"], [e('gonorrhea'), "bacteria", "pus-like discharge"], [e('syphilis'), "bacteria", "painless ulcer (chancre)"], [e('genital herpes'), e('HSV‑2'), "painful blisters"], [e('genital warts'), e('HPV'), "warts; risk of cervical cancer"], [e('trichomoniasis'), "parasite", "frothy discharge"]])}`),
-          L("At the bedside", `${fig('herpes-drawing', ["Herpes blisters"], "Herpes")}${fig('genital-warts', ["genital warts"], "wart")}${pearl("A case study in Fremgen’s textbook: a 22-year-old woman came with fever, malaise, dysuria and leukorrhea (white discharge). Her blisters had become ulcers and the lymph nodes in her groin were enlarged; the diagnosis was genital herpes.")}${memo("STI is the same as STD; today we say “infection” because many are symptomless.")}`),
+          L("At the bedside", `${fig('herpes-drawing', ["Herpes blisters"], "Herpes")}${fig('genital-warts', ["genital warts"], "wart")}${pearl("A case study: a 22-year-old woman came with fever, malaise, dysuria and leukorrhea (white discharge). Her blisters had become ulcers and the lymph nodes in her groin were enlarged; the diagnosis was genital herpes.")}${memo("STI is the same as STD; today we say “infection” because many are symptomless.")}`),
           M("What causes genital warts?", ['HPV', 'HSV-2', 'HIV', 'chlamydia'], "The papillomavirus.", null, F('genital-warts', [])),
           M("What is the painless ulcer of syphilis called?", ['chancre', 'vesicle', 'wart', 'pustule'], "A chancre."),
           T("Genital herpes comes with painful blisters.", true, 'HSV-2.', F('herpes-drawing', [])),
@@ -2343,7 +2343,7 @@
       {
         id: 'tx2', title: "Mammography and ultrasound", icon: '📡', items: [
           L("breast X-ray imaging", `${fig('mammography', [], "breast X-ray imaging")}${wb('mamm/o', '-graphy')} → ${e('<b>mammography</b>')}: an X-ray of the compressed breast; screening for breast cancer. The image obtained is a ${e('mammogram')}.${fig('mammograms', ["Two mammogram views"], "breast X-ray image")}`),
-          L("ultrasound scan", `${e('<b>ultrasonography (sonography)</b>')}: imaging with sound waves; no radiation and safe for the fetus. In a ${e('transvaginal ultrasound')} the probe is inside the vagina.<br>${e('<b>hysterosalpingography (HSG)</b>')}: a contrast X-ray of the uterus and tubes to check that the tubes are open.${pearl("The textbook’s APPLY scenario: both hysteroscopy and hysterosalpingography were ordered for Charity Peterson.")}`),
+          L("ultrasound scan", `${e('<b>ultrasonography (sonography)</b>')}: imaging with sound waves; no radiation and safe for the fetus. In a ${e('transvaginal ultrasound')} the probe is inside the vagina.<br>${e('<b>hysterosalpingography (HSG)</b>')}: a contrast X-ray of the uterus and tubes to check that the tubes are open.${pearl("A clinical scenario: both hysteroscopy and hysterosalpingography were ordered for Charity Peterson.")}`),
           M("Which kind of radiation is mammography done with?", ["X-rays", "sound waves", "magnetic field", "visible light"], 'X-ray.', null, F('mammography', [])),
           M("Which method is safer for viewing the fetus?", ['ultrasonography', 'mammography', 'CT scan', 'hysterosalpingography'], "No radiation."),
           T("A mammogram is the image obtained by mammography.", true, "-gram = image.", F('mammograms', [])),
@@ -2356,8 +2356,8 @@
       },
       {
         id: 'tx3', title: "Prenatal and male tests", icon: '🧪', items: [
-          L("before birth", `${fig('amniocentesis', [], "amniocentesis")}• ${e('<b>amniocentesis</b>')}: drawing off amniotic fluid with a needle, usually at weeks 15 to 20; for chromosomes<br>• ${e('<b>chorionic villus sampling (CVS)</b>')}: a sample of the chorionic villi, earlier (weeks 10 to 13)<br>• ${e('FHR monitoring')}: monitoring the fetal heart rate${pearl("In a high-risk OB consultation in Fremgen’s textbook: <bdi dir=\"ltr\">“amniocentesis at 20 weeks”</bdi> showed a normal result and a male fetus; the FHR was about 130.")}`),
-          L("Male tests", `• ${e('<b>PSA</b>')}: prostate-specific antigen in the blood; raised in cancer and BPH<br>• ${e('<b>DRE</b>')}: examination of the rectum with a finger<br>• ${e('<b>prostate biopsy</b>')}: a needle sample of the prostate guided by ultrasound through the rectum (${e('TRUS')})${fig('prostate-biopsy', ["Needle sampling of the prostate"], "Prostate biopsy")}${pearl("In a consult in Pearson’s textbook: a nodule was felt on DRE, but the biopsy was negative and the PSA normal; the diagnosis was BPH.")}`),
+          L("before birth", `${fig('amniocentesis', [], "amniocentesis")}• ${e('<b>amniocentesis</b>')}: drawing off amniotic fluid with a needle, usually at weeks 15 to 20; for chromosomes<br>• ${e('<b>chorionic villus sampling (CVS)</b>')}: a sample of the chorionic villi, earlier (weeks 10 to 13)<br>• ${e('FHR monitoring')}: monitoring the fetal heart rate${pearl("In a high-risk OB consultation: <bdi dir=\"ltr\">“amniocentesis at 20 weeks”</bdi> showed a normal result and a male fetus; the FHR was about 130.")}`),
+          L("Male tests", `• ${e('<b>PSA</b>')}: prostate-specific antigen in the blood; raised in cancer and BPH<br>• ${e('<b>DRE</b>')}: examination of the rectum with a finger<br>• ${e('<b>prostate biopsy</b>')}: a needle sample of the prostate guided by ultrasound through the rectum (${e('TRUS')})${fig('prostate-biopsy', ["Needle sampling of the prostate"], "Prostate biopsy")}${pearl("In a consult: a nodule was felt on DRE, but the biopsy was negative and the PSA normal; the diagnosis was BPH.")}`),
           M("Which test is done earlier in pregnancy?", ['CVS', 'amniocentesis', 'Apgar', 'Pap smear'], "Weeks 10 to 13.", null, F('amniocentesis', [])),
           M("What is PSA?", ["prostate-specific antigen in the blood", "a finger examination", "a semen sample", "an X-ray of the prostate"], 'prostate-specific antigen.'),
           T("A prostate biopsy is often done with ultrasound guidance through the rectum.", true, 'TRUS.', F('prostate-biopsy', [])),
@@ -2385,8 +2385,8 @@
       },
       {
         id: 'tx5', title: "Breast and prostate surgery", icon: '✂️', items: [
-          L("Breast surgery", `${fig('mastectomy', ["Mastectomy"], "Mastectomy")}• ${e('<b>lumpectomy</b>')}: removing only the lump<br>• ${e('<b>simple mastectomy</b>')}: removing the whole breast<br>• ${e('<b>radical mastectomy</b>')}: the breast, chest muscle and armpit lymph nodes<br>• ${e('mammoplasty')}: repairing or resizing the breast; ${e('mastopexy')}: lifting the breast${pearl("The textbook’s APPLY scenario: Dr Schaefer explains mammography, lumpectomy, mastectomy, mastopexy and mammoplasty.")}`),
-          L('TURP', `${fig('turp', [], 'TURP')}${e('<b>TURP (transurethral resection of the prostate)</b>')}: shaving away an enlarged prostate through the urethra with a ${e('resectoscope')}. Afterwards a ${e('Foley catheter')} is placed.${fig('turp-drawing', ["Shaving the prostate through the urethra"], 'TURP')}${pearl("In the case study in Cohen’s textbook: Mr Dexter had a TURP under spinal anaesthesia after being NPO before surgery.")}`),
+          L("Breast surgery", `${fig('mastectomy', ["Mastectomy"], "Mastectomy")}• ${e('<b>lumpectomy</b>')}: removing only the lump<br>• ${e('<b>simple mastectomy</b>')}: removing the whole breast<br>• ${e('<b>radical mastectomy</b>')}: the breast, chest muscle and armpit lymph nodes<br>• ${e('mammoplasty')}: repairing or resizing the breast; ${e('mastopexy')}: lifting the breast${pearl("A clinical scenario: Dr Schaefer explains mammography, lumpectomy, mastectomy, mastopexy and mammoplasty.")}`),
+          L('TURP', `${fig('turp', [], 'TURP')}${e('<b>TURP (transurethral resection of the prostate)</b>')}: shaving away an enlarged prostate through the urethra with a ${e('resectoscope')}. Afterwards a ${e('Foley catheter')} is placed.${fig('turp-drawing', ["Shaving the prostate through the urethra"], 'TURP')}${pearl("In the case study: Mr Dexter had a TURP under spinal anaesthesia after being NPO before surgery.")}`),
           M("Removing only a breast lump is…", ['lumpectomy', 'mastectomy', 'mastopexy', 'mammoplasty'], "lump = mass.", null, F('mastectomy', [])),
           M("Which route is used for a TURP?", ["through the urethra", "through the abdomen", "through the rectum", "through the perineum"], 'trans- + urethr/o.', null, F('turp', [])),
           T("mastopexy means lifting and fixing the breast.", true, "-pexy = fixing in place."),
@@ -2399,8 +2399,8 @@
       },
       {
         id: 'tx6', title: "Caesarean section and episiotomy", icon: '🩹', items: [
-          L("caesarean section", `${fig('cesarean', [], "caesarean section")}${e('<b>cesarean section (C-section, CS)</b>')}: delivering the baby through a cut in the abdomen and uterus. The skin incision is usually ${e('transverse suprapubic')} (horizontal, above the pubic bone).${pearl("In the case study in Cohen’s textbook: because of CPD and fetal distress, Abigail had an emergency C-section under spinal anaesthesia with a transverse suprapubic incision; she then received Pitocin and went to the PACU.")}`),
-          L("Helping a vaginal birth", `• ${e('<b>episiotomy</b>')}: a cut in the perineum to widen the vaginal opening<br>• ${e('<b>amniotomy</b>')}: breaking the bag of waters<br>• ${e('induction of labor')}: starting labour with ${e('oxytocin (Pitocin)')}<br>• ${e('VBAC')}: vaginal birth after a caesarean${pearl("An OB delivery note in Ehrlich’s textbook: <bdi dir=\"ltr\">“second-degree midline episiotomy”</bdi> means a second-degree cut in the midline.")}`),
+          L("caesarean section", `${fig('cesarean', [], "caesarean section")}${e('<b>cesarean section (C-section, CS)</b>')}: delivering the baby through a cut in the abdomen and uterus. The skin incision is usually ${e('transverse suprapubic')} (horizontal, above the pubic bone).${pearl("In the case study: because of CPD and fetal distress, Abigail had an emergency C-section under spinal anaesthesia with a transverse suprapubic incision; she then received Pitocin and went to the PACU.")}`),
+          L("Helping a vaginal birth", `• ${e('<b>episiotomy</b>')}: a cut in the perineum to widen the vaginal opening<br>• ${e('<b>amniotomy</b>')}: breaking the bag of waters<br>• ${e('induction of labor')}: starting labour with ${e('oxytocin (Pitocin)')}<br>• ${e('VBAC')}: vaginal birth after a caesarean${pearl("An OB delivery note: <bdi dir=\"ltr\">“second-degree midline episiotomy”</bdi> means a second-degree cut in the midline.")}`),
           M("How is the skin incision for a caesarean usually made?", ["horizontal, above the pubic bone", "vertical, from the navel to the breastbone", "on the perineum", "armpit"], 'transverse suprapubic.', null, F('cesarean', [])),
           M("Breaking the bag of waters is…", ['amniotomy', 'amniocentesis', 'episiotomy', 'episiorrhaphy'], "-tomy = incision."),
           T("VBAC means vaginal birth after caesarean.", true, 'vaginal birth after cesarean.'),
@@ -2415,7 +2415,7 @@
       {
         id: 'tx7', title: "contraception", icon: '💊', items: [
           L("Methods", `${fig('contraception', [], "Contraceptive methods")}${e('<b>contraception</b>')} means preventing pregnancy (the prefix ${e('contra-')} means against):<br>• hormonal: the ${e('oral contraceptive (OC)')}, patch, injection, implant<br>• barrier: condom, ${e('diaphragm')}<br>• ${e('<b>IUD</b>')}: a device inside the uterus; copper or hormonal<br>• permanent: ${e('tubal ligation')} and ${e('vasectomy')}${fig('contraceptives', ["Several contraceptive methods"], "Contraceptive devices")}`),
-          L('IUD', `${fig('iud', ["An intrauterine device in place"], 'IUD')}An ${e('IUD')} sits in the uterine cavity and works for several years.${pearl("The textbook’s APPLY scenario: Beth Meyers takes a 21-day pill but sometimes forgets it; an IUD or another long-acting method might suit her better.")}${memo("The condom is the only method that also prevents STIs.")}`),
+          L('IUD', `${fig('iud', ["An intrauterine device in place"], 'IUD')}An ${e('IUD')} sits in the uterine cavity and works for several years.${pearl("A clinical scenario: Beth Meyers takes a 21-day pill but sometimes forgets it; an IUD or another long-acting method might suit her better.")}${memo("The condom is the only method that also prevents STIs.")}`),
           M("Where does an IUD sit?", ["inside the uterine cavity", "inside the fallopian tube", "over the cervix", "under the skin of the arm"], 'intrauterine.', null, F('iud', [])),
           M("Which method also prevents STIs?", ['condom', 'IUD', 'oral contraceptive', 'tubal ligation'], "A barrier method.", null, F('contraceptives', [])),
           T("contraception means preventing pregnancy.", true, 'contra- + conception.'),
@@ -2429,7 +2429,7 @@
       {
         id: 'tx8', title: "sterilization", icon: '🔒', items: [
           L("tubal ligation", `${fig('sterilization', [], "sterilization")}${e('<b>tubal ligation</b>')}: tying or cutting the fallopian tubes, often by ${e('laparoscopy')}; the egg cannot reach the uterus.${fig('tubal-ligation', ["tying the fallopian tubes"], "Tying the tubes")}`),
-          L("vasectomy", `${e('<b>vasectomy</b>')}: cutting and tying the vas deferens; semen is made without sperm, but erection and ejaculation do not change. Reversing it is a ${e('vasovasostomy')}.${pearl("In a consult in Pearson’s textbook: the 77-year-old patient had a <bdi dir=\"ltr\">“vasectomy at age 41”</bdi>.")}${vs(['tubal ligation', "female sterilization"], ['vasectomy', "male sterilization"])}`),
+          L("vasectomy", `${e('<b>vasectomy</b>')}: cutting and tying the vas deferens; semen is made without sperm, but erection and ejaculation do not change. Reversing it is a ${e('vasovasostomy')}.${pearl("In a consult: the 77-year-old patient had a <bdi dir=\"ltr\">“vasectomy at age 41”</bdi>.")}${vs(['tubal ligation', "female sterilization"], ['vasectomy', "male sterilization"])}`),
           M("What is tied in a tubal ligation?", ["the fallopian tubes", "cervix", "the vas deferens", "the ovaries"], "The tubules.", null, F('tubal-ligation', [])),
           M("Rejoining the vas deferens is…", ['vasovasostomy', 'vasectomy', 'orchiopexy', 'salpingectomy'], "-stomy = making an opening.", null, F('sterilization', [])),
           T("After a vasectomy ejaculation continues, but the semen has no sperm.", true, "Only the sperm route is closed."),
@@ -2775,7 +2775,7 @@
       steps: [
         M("counting", "G4 P4 means…", ["four pregnancies and four births", "four miscarriages", "four preterm births", "four sets of twins"], "Gravida and para."),
         M("Cause", "Why is postmenopausal bleeding important?", ["it may be a sign of endometrial cancer", "it is always normal", "it is a sign of pregnancy", "it comes from anaemia"], "Ruling out malignancy."),
-        P("Term", "Match each term to its meaning", [['neoplasm', "new growth (tumour)"], ['laparoscopy', "looking inside the abdomen"], ['D&C', "widening and scraping"], ['simple mastectomy', "removal of the whole breast"]], "A chart note in Gylys’s textbook."),
+        P("Term", "Match each term to its meaning", [['neoplasm', "new growth (tumour)"], ['laparoscopy', "looking inside the abdomen"], ['D&C', "widening and scraping"], ['simple mastectomy', "removal of the whole breast"]], "A chart note."),
         T("drug", "Premarin is an estrogen drug.", true, "Hormone therapy."),
         M("Layer", "Which layer of the uterus does a D&C scrape?", ['endometrium', 'myometrium', 'perimetrium', 'cervix'], "the inner lining", null, { a: ['uterine-wall'], l: [] }),
         S("Spelling", "Spell the adjective meaning “after menopause”", 'postmenopausal', 'post- + men/o + pausal.', 'postm…')
@@ -2834,7 +2834,7 @@
         M("abbreviation", "CPD means…", ["mismatch between the fetal head and the mother’s pelvis", "premature rupture of membranes", "placenta previa", "preterm labour"], 'cephalopelvic disproportion.'),
         M("counting", "G2 P1 means…", ["two pregnancies and one previous birth", "one pregnancy and two births", "two miscarriages", "twins"], "Gravida and para."),
         M("incision", "How was the skin incision for Abigail’s caesarean made?", ["transverse, above the pubis", "vertical, in the midline", "on the perineum", "vertical, below the navel"], 'transverse suprapubic.', null, { a: ['cesarean'], l: [] }),
-        P("Term", "Match each term to its meaning", [['fetal distress', "fetal oxygen shortage"], ['Pitocin', "synthetic oxytocin"], ['PACU', "post-anaesthesia care unit"], ['rooming-in', "keeping the baby in the mother’s room"]], "A case study in Cohen’s textbook."),
+        P("Term", "Match each term to its meaning", [['fetal distress', "fetal oxygen shortage"], ['Pitocin', "synthetic oxytocin"], ['PACU', "post-anaesthesia care unit"], ['rooming-in', "keeping the baby in the mother’s room"]], "A case study."),
         T("Apgar score", "Apgar 9/9 means the baby was doing well at one and five minutes.", true, "Close to 10.", { a: ['apgar'], l: [] }),
         S("Spelling", "Spell the term for a baby in its first four weeks", 'neonate', 'neo- + nat/o.', 'neon…')
       ]
@@ -2845,7 +2845,7 @@
       chart: [['OB', 'G1 P0 → G1 P1'], ['GA', 'IUP 36 6/7 weeks'], ['Exam', '80% effaced, 4 cm'], ['Delivery', 'NSVD, epidural, 2nd-degree episiotomy'], ['EBL', '300 cc']],
       fig: { a: 'labor-stages', l: [] },
       steps: [
-        P("abbreviation", "Match each abbreviation to its meaning", [['IUP', "intrauterine pregnancy"], ['PROM', "premature rupture of membranes"], ['NSVD', "normal vaginal delivery"], ['EBL', "estimated blood loss"]], "A delivery note in Ehrlich’s textbook."),
+        P("abbreviation", "Match each abbreviation to its meaning", [['IUP', "intrauterine pregnancy"], ['PROM', "premature rupture of membranes"], ['NSVD', "normal vaginal delivery"], ['EBL', "estimated blood loss"]], "A delivery note."),
         M("examination", "80% effacement means…", ["the cervix is 80% thinned", "the cervix is 8 cm open", "80% of the membranes have ruptured", "the fetus has descended 80%"], "Thinning."),
         M("Age", "36 weeks and 6 days means the baby is…", ['preterm', 'term', 'postterm', 'stillborn'], "Before 37 weeks."),
         T("counting", "After this delivery the patient is G1 P1.", true, "One birth."),
@@ -2859,7 +2859,7 @@
       chart: [['OB', 'multigravida, nullipara; 3 SABs'], ['GA', '175 days'], ['Tests', 'amniocentesis 20 wk: normal male'], ['Dx', 'placenta previa; risk of abruptio'], ['Plan', 'C-section at onset of labor']],
       fig: { a: 'placenta-problems', l: [] },
       steps: [
-        M("counting", "multigravida, nullipara means…", ["pregnant several times but no births", "pregnant for the first time", "has had several births", "never pregnant"], 'Fremgen.'),
+        M("counting", "multigravida, nullipara means…", ["pregnant several times but no births", "pregnant for the first time", "has had several births", "never pregnant"], 'Per standard references.'),
         M("pairs", "placenta previa means…", ["placenta over the cervix", "placental abruption", "placenta stuck to the muscle", "small placenta"], 'previa.', null, { a: ['placental-abnormalities'], l: [] }),
         M("danger", "Why is vaginal delivery dangerous in placenta previa?", ["the placenta blocks the way out and causes heavy bleeding", "the fetus turns breech", "blood pressure rises", "the baby is born early"], "Bleeding."),
         P("Term", "Match each term to its meaning", [['miscarriage', "spontaneous abortion"], ['abruptio placentae', "placental abruption"], ['FHR', "fetal heart rate"], ['amniocentesis', "drawing off amniotic fluid"]], "The consultation."),
@@ -2870,7 +2870,7 @@
     /* ================= بیماری‌ها و عفونت‌ها ================= */
     {
       id: 'r13', w: 'ds', title: "Blisters that became ulcers", who: "A 22-year-old woman",
-      brief: "A case study in Fremgen’s textbook: a 22-year-old patient came with fever, malaise, painful urination and white vaginal discharge. A few days earlier she had blisters in the genital area that have now become ulcers. Examination: redness and swelling, and enlarged lymph nodes in the groin. Diagnosis: genital herpes.",
+      brief: "A case study: a 22-year-old patient came with fever, malaise, painful urination and white vaginal discharge. A few days earlier she had blisters in the genital area that have now become ulcers. Examination: redness and swelling, and enlarged lymph nodes in the groin. Diagnosis: genital herpes.",
       chart: [['Sx', 'fever, malaise, dysuria, leukorrhea'], ['Exam', 'vesicles → ulcers; erythema, edema; inguinal lymphadenopathy'], ['Dx', 'genital herpes (HSV-2)']],
       fig: { a: 'sti', l: [] },
       steps: [
@@ -2884,7 +2884,7 @@
     },
     {
       id: 'r14', w: 'ds', title: "Urine that is slow to start", who: "Dexter, a 60-year-old man",
-      brief: "A case study in Cohen’s textbook: Mr Dexter complains that his urine is slow to start and his stream is weak. On DRE an enlarged prostate of about 50 grams was felt. After voiding, 120 mL of urine remains in his bladder. Diagnosis: BPH with BNO. Plan: TURP.",
+      brief: "A case study: Mr Dexter complains that his urine is slow to start and his stream is weak. On DRE an enlarged prostate of about 50 grams was felt. After voiding, 120 mL of urine remains in his bladder. Diagnosis: BPH with BNO. Plan: TURP.",
       chart: [['CC', 'hesitancy, weak stream'], ['DRE', 'enlarged prostate ~50 g'], ['Residual urine', '120 mL'], ['Dx', 'BPH with BNO'], ['Plan', 'TURP']],
       fig: { a: 'bph', l: [] },
       steps: [
@@ -2941,7 +2941,7 @@
     },
     {
       id: 'r18', w: 'tx', title: "Night-time urination at 77", who: "A 77-year-old man",
-      brief: "A consultation in Pearson’s textbook: a 77-year-old patient complains of night-time urination and difficulty ejaculating. As a child he had cryptorchidism, treated with orchiopexy, and at 41 he had a vasectomy. On DRE a nodule was felt, but the biopsy for prostate cancer was negative and the PSA normal. Diagnosis: BPH. Plan: TURP.",
+      brief: "A consultation: a 77-year-old patient complains of night-time urination and difficulty ejaculating. As a child he had cryptorchidism, treated with orchiopexy, and at 41 he had a vasectomy. On DRE a nodule was felt, but the biopsy for prostate cancer was negative and the PSA normal. Diagnosis: BPH. Plan: TURP.",
       chart: [['CC', 'nocturia; difficulty releasing semen'], ['Hx', 'cryptorchidism → orchiopexy; vasectomy at 41'], ['Tests', 'DRE: nodules; biopsy negative; PSA normal'], ['Dx', 'BPH'], ['Plan', 'TURP']],
       fig: { a: 'turp', l: [] },
       steps: [
