@@ -2632,22 +2632,22 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     /* ---- کدهای تخفیف ثابت (کدهای سفارشی کمپین را پنل مدیر می‌سازد) ----
      *   plans: برای سازگاری با کدهای قبلی می‌ماند؛ خرید دوره همان پلن ۲ است و کدهای A و P رویش اثر دارند */
     PROMOS: {
-      MED20: { pct: 20, plans: [1, 2, 3], fa: 'تخفیف دانشجویان پزشکی', en: 'Medical student discount' }
+      MED10: { pct: 10, plans: [1, 2, 3], fa: 'تخفیف دانشجویان پزشکی', en: 'Medical student discount' }
     },
     CURRENCY: 'تومان', CURRENCY_EN: 'Toman',
     /* ---- فروش دوره: هر دوره یک بار خریده می‌شود و برای همیشه باز است (بدون قلب، بدون اشتراک ماهانه) ----
      * قیمت هر دوره به تومان؛ دوره تازه بدون قیمت این‌جا، price خودش (در فایل دوره) یا PRICE_DEFAULT را می‌گیرد.
      * نسخه هاست قیمت را از config.php سرور می‌گیرد (prices) و همان عدد این‌جا نمایش داده می‌شود. */
     PRICE: {
-      yona: 990000,
-      homa: 1190000,
-      negar: 1090000,
-      termino: 1490000,   // هر ۱۵ حیطه ترمینو در یک خرید
-      ritma: 1290000
+      yona: 490000,
+      homa: 590000,
+      negar: 540000,
+      termino: 740000,    // هر ۱۵ حیطه ترمینو در یک خرید
+      ritma: 640000
     },
-    PRICE_DEFAULT: 990000,
-    /** تخفیف خرید هم‌زمان چند دوره (ضریب قیمت): ۲ دوره ۱۰٪، ۳ دوره ۱۵٪، ۴ دوره ۲۰٪، ۵ دوره یا بیشتر ۳۰٪ */
-    BUNDLE: { 1: 1, 2: 0.9, 3: 0.85, 4: 0.8, 5: 0.7 },
+    PRICE_DEFAULT: 490000,
+    /** تخفیف خرید هم‌زمان چند دوره (ضریب قیمت): ۲ دوره ۵٪، ۳ دوره ۸٪، ۴ دوره ۱۰٪، ۵ دوره یا بیشتر ۱۲٪ */
+    BUNDLE: { 1: 1, 2: 0.95, 3: 0.92, 4: 0.9, 5: 0.88 },
     /** پیش‌نیاز دوره‌های مجموعه‌ای (ترمینو): 'final' = قبولی امتحان نهایی حیطه مقدمه، 'lessons' = تمام کردن همه درس‌هایش */
     PREREQ_RULE: 'final',
     /* ---- راه‌های ارسال سفارش (پیام آماده خرید مستقیم به همین‌ها فرستاده می‌شود) ----
@@ -4798,7 +4798,7 @@ P — Plan: …`);
           <div class="up__promo ${pr && pr.ok ? (fits ? 'is-ok' : 'is-warn') : ''}">
             <b>🎁 ${PT('کد تخفیف', 'Discount code')}</b>
             ${pr && pr.ok ? `<div class="up__promoon"><span>✓ <b dir="ltr">${pesc(pr.code)}</b> — ${PT(`${nf(pr.pct)}٪ تخفیف`, `${nf(pr.pct)}% off`)}${pr.label ? ` <small>(${pesc(PT(pr.label, pr.labelEn || pr.label))})</small>` : ''}</span><button class="iconbtn" data-promox aria-label="${PT('حذف کد تخفیف', 'Remove discount code')}">✕</button></div>${fits ? '' : `<small class="up__promonote">${PT('این کد روی خرید دوره اثر ندارد.', 'This code doesn’t apply to course purchases.')}</small>`}`
-              : `<div class="acrow"><input class="ob__in acin" data-promo dir="ltr" autocomplete="off" spellcheck="false" value="${pesc(st.promoIn)}" placeholder="${PT('مثلاً MED20', 'e.g. MED20')}"><button class="btn btn--ghost" data-promoapply>${PT('اعمال', 'Apply')}</button></div>${st.promoErr ? `<div class="acerr">${pesc(st.promoErr)}</div>` : ''}`}
+              : `<div class="acrow"><input class="ob__in acin" data-promo dir="ltr" autocomplete="off" spellcheck="false" value="${pesc(st.promoIn)}" placeholder="${PT('مثلاً MED10', 'e.g. MED10')}"><button class="btn btn--ghost" data-promoapply>${PT('اعمال', 'Apply')}</button></div>${st.promoErr ? `<div class="acerr">${pesc(st.promoErr)}</div>` : ''}`}
           </div>` : `<div class="acok">🎉 ${PT('همه دوره‌ها را خریده‌ای؛ همه درس‌ها و ابزارها برای همیشه باز است.', 'You own every course — every lesson and tool is open for good.')}</div>`}
           <div class="up__code">
             <b>🔑 ${PT('کد فعال‌سازی داری؟', 'Have an activation code?')}</b>

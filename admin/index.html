@@ -383,7 +383,7 @@ var NACL = {};
 
   /* ================= کد تخفیف (همان قرارداد برنامه) =================
    * کدهای ثابت باید با CFG.PROMOS داخل برنامه یکی باشند. کد کمپین: NAME-PPEEEP-TTTT */
-  var BUILTIN_PROMOS = { MED20: { pct: 20, plan: 'A', fa: 'تخفیف دانشجویان پزشکی' }, VIP30: { pct: 30, plan: 'V', fa: 'تخفیف ویژه پکیج الماس' } };
+  var BUILTIN_PROMOS = { MED10: { pct: 10, plan: 'A', fa: 'تخفیف دانشجویان پزشکی' }, MED20: { pct: 20, plan: 'A', fa: 'تخفیف دانشجویان پزشکی' }, VIP30: { pct: 30, plan: 'V', fa: 'تخفیف ویژه پکیج الماس' } };
   var PLAN_FA = { A: 'همه پلن‌ها', P: 'Pro و الماس', V: 'فقط الماس' };
   async function sha256b(str) { return new Uint8Array(await crypto.subtle.digest('SHA-256', enc.encode(str))); }
   async function promoTag(name, pp, eee, p) { return b32enc(await sha256b('TRAPO-PROMO-1|' + name + '|' + pp + '|' + eee + '|' + p)).slice(0, 4); }

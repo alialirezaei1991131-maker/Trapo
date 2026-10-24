@@ -14,8 +14,8 @@ final class Shop
     /** بیت هر دوره (همان bitFlag فایل‌های دوره)؛ config.php قدیمی که ریتما را ندارد هم کار می‌کند */
     private const BITS = ['yona' => 1, 'homa' => 2, 'negar' => 4, 'termino' => 8, 'ritma' => 16];
     /** قیمت دائمی هر دوره (تومان) اگر config.php قیمت تازه نداشته باشد */
-    private const PRICES = ['yona' => 990000, 'homa' => 1190000, 'negar' => 1090000, 'termino' => 1490000, 'ritma' => 1290000];
-    private const BUNDLE = [1 => 1, 2 => 0.9, 3 => 0.85, 4 => 0.8, 5 => 0.7];
+    private const PRICES = ['yona' => 490000, 'homa' => 590000, 'negar' => 540000, 'termino' => 740000, 'ritma' => 640000];
+    private const BUNDLE = [1 => 1, 2 => 0.95, 3 => 0.92, 4 => 0.9, 5 => 0.88];
     private const NAMES = ['yona' => ['یونا', 'Yona'], 'homa' => ['هما', 'Homa'], 'negar' => ['نگار', 'Negar'], 'termino' => ['ترمینو', 'Termino'], 'ritma' => ['ریتما', 'Ritma']];
 
     private static function r10k(float $x): int { return (int) (round($x / 10000) * 10000); }
@@ -32,7 +32,7 @@ final class Shop
         $v = $P[$id] ?? null;
         if (is_numeric($v) && (int) $v > 0) return (int) $v;
         if (isset(self::PRICES[$id])) return self::PRICES[$id];
-        return is_numeric($P['_default'] ?? null) ? (int) $P['_default'] : 990000;
+        return is_numeric($P['_default'] ?? null) ? (int) $P['_default'] : 490000;
     }
     public static function bundle(): array
     {
