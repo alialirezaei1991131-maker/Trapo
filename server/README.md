@@ -61,6 +61,11 @@
    در cPanel → **MultiPHP Manager** نسخه PHP را ۸ یا بالاتر بگذارید و از **SSL/TLS Status** گواهی HTTPS بگیرید.
 4. **هر به‌روزرسانی:** بعد از `npm run build` و `npm run build:server` و push، در cPanel «Update from Remote» و
    بعد «Deploy HEAD Commit» را بزنید.
+5. **به‌روزرسانی خودکار (اختیاری):** در cPanel → **Cron Jobs** یک کار با زمان‌بندی «هر ۱۵ دقیقه» و این فرمان بسازید
+   (`USERNAME` و مسیر مخزن را همان «Repository Path» صفحه Manage بگذارید):
+   `/bin/bash /home/USERNAME/repositories/trapo/tools/cpanel-autodeploy.sh >/dev/null 2>&1`
+   اسکریپت اگر روی GitHub نسخه تازه‌ای باشد آن را می‌گیرد و منتشر می‌کند (همان Deploy HEAD Commit)، وگرنه کاری نمی‌کند.
+   گزارش در `~/trapo-autodeploy.log` است؛ `config.php` و `data/` دست نمی‌خورند.
 
 > cPanel فقط وقتی Deploy می‌کند که در مخزنِ روی هاست تغییر دستی نباشد؛ فایل‌های مخزن را روی هاست ویرایش نکنید.
 
