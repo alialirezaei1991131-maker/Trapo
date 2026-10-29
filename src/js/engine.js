@@ -3143,7 +3143,8 @@ window.ACADEMY_COURSES = window.ACADEMY_COURSES || {};
     return true;
   }
   const wantIntro = () => params.get('intro') === '1';
-  const homeURL = () => location.pathname.split('/').pop() || 'index.html';
+  // صفحه اول همان نشانی فعلی بدون پارامتر است (آفلاین: index.html؛ هاست: ریشه سایت که index.php است، نه index.html)
+  const homeURL = () => location.pathname.split('/').pop() || './';
   const ROLES_P = ['دانشجوی پزشکی', 'انترن یا رزیدنت', 'پزشک', 'پرستار', 'کارشناس تغذیه', 'داروساز', 'هوشبری / تنفس‌درمانی', 'سایر'];
   const ROLES_EN = ['Medical student', 'Intern or resident', 'Physician', 'Nurse', 'Dietitian', 'Pharmacist', 'Anesthesia / respiratory therapy', 'Other'];
   /** نقش ذخیره‌شده (فارسی) به زبان رابط؛ نقش‌های دوره‌ها هم با همین نگاشت ترجمه می‌شوند */
