@@ -63,6 +63,8 @@ html = html.replace(/<script>\s*\/\* فایل‌های جانبی دوره[\s\S]
 html = html.replace(/<title>[^<]*<\/title>/, '<title>Therapo · آکادمی آموزش بالینی</title>')
   .replace(/<meta name="description" content="[^"]*">/, '<meta name="description" content="Therapo، آکادمی آموزش بالینی: الکترولیت، گاز خون، معاینه تغذیه‌محور، ترمینولوژی پزشکی و نوار قلب با درس‌های کوتاه، بیمار واقعی‌نما و گواهی پایان دوره.">');
 html = html.replace(/<script>/g, '<script nonce="{{NONCE}}">');
+// نسخه هاست: صفحه اول تا رسیدن فایل‌های برنامه، صفحه بارگذاری با لوگو نشان می‌دهد (index.html)
+html = html.replace(/<html([^>]*)>/, '<html$1 data-srv="1">');
 const files = { data: srcs.filter(s => s !== 'js/engine.js'), engine: ['js/engine.js'] };
 if (!files.data.length || !srcs.includes('js/engine.js')) { console.error('unexpected index.html scripts', srcs); process.exit(1); }
 html = html.replace('</body>', `<script nonce="{{NONCE}}">window.TRAPO_SERVER = {{CFG}};</script>\n<script src="loader.js?v={{VER}}"></script>\n</body>`);

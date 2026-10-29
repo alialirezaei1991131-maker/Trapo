@@ -1018,6 +1018,8 @@ p, li, .bubble, .learn__body, .fb__why { text-wrap: pretty; }
 #dash { display: none; }
 body.mode-dash #dash { display: block; }
 body.mode-dash .app { display: none; }
+/* تا موتور حالت صفحه را تعیین نکرده (نسخه هاست: فایل‌ها در راه‌اند)، اسکلت خالی دوره دیده نشود */
+body:not(.mode-dash):not(.mode-course):not(.mode-calc) .app { display: none; }
 body.mode-calc .side, body.mode-calc .rail, body.mode-calc .top, body.mode-calc .bnav { display: none !important; }
 body.mode-calc .app { display: block; min-height: 0; }
 body.mode-calc .view { max-width: 100%; padding: 4px 12px 40px; }
