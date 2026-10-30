@@ -12,8 +12,8 @@ Http::securityHeaders();
 
 $a = preg_replace('/[^a-z_]/', '', (string) ($_GET['a'] ?? ''));
 $post = ($_SERVER['REQUEST_METHOD'] ?? 'GET') === 'POST';
-$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order',
-             'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle', 'm_grant', 'm_revoke'];
+$needPost = ['register', 'login', 'logout', 'password', 'redeem', 'progress_put', 'quote', 'order', 'pay',
+             'm_login', 'm_logout', 'm_paid', 'm_cancel', 'm_promo_add', 'm_promo_toggle', 'm_grant', 'm_revoke', 'm_paycheck'];
 if (in_array($a, $needPost, true) && !$post) Http::fail('method', 405);
 
 /** وضعیت کامل حساب برای برنامه */
@@ -70,6 +70,8 @@ try {
         /* ---------- خرید، تخفیف و معرف ---------- */
         case 'quote': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::json(['ok' => true] + Shop::quote($u, Http::body())); }
         case 'order': { Auth::requireCsrf(); $u = Auth::requireUser(); Http::json(['ok' => true] + Shop::createOrder($u, Http::body())); }
+        /* پرداخت آنلاین سفارش با زیبال: نشانی درگاه */
+        case 'pay': { Auth::requireCsrf(); $u = Auth::requireUser(); $b = Http::body(); Http::json(['ok' => true] + Pay::start($u, Http::str($b, 'order', 20))); }
         case 'orders': { $u = Auth::requireUser(); Http::json(['ok' => true, 'orders' => Shop::myOrders($u)]); }
         case 'referral': { $u = Auth::requireUser(); Http::json(['ok' => true] + Shop::referral($u)); }
 
@@ -88,6 +90,8 @@ try {
         case 'm_courses': { Manage::require(); Http::json(['ok' => true, 'courses' => array_map(fn($id) => ['id' => $id, 'fa' => Shop::courseName($id), 'price' => Shop::coursePrice($id)], array_keys(Shop::bits()))]); }
         case 'm_promos': { Manage::require(); Http::json(['ok' => true, 'promos' => Manage::promos()]); }
         case 'm_paid': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(['ok' => true] + Shop::markPaid(Http::str($b, 'order', 20), Http::str($b, 'note', 300))); }
+        /* کاربر پرداخت کرده ولی به سایت برنگشته: تأیید دوباره با زیبال */
+        case 'm_paycheck': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Http::json(Pay::check(Http::str($b, 'order', 20))); }
         case 'm_cancel': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Shop::cancel(Http::str($b, 'order', 20)); Http::json(['ok' => true]); }
         case 'm_promo_add': { Manage::require(); Auth::requireCsrf('admin'); Http::json(['ok' => true, 'promo' => Manage::promoAdd(Http::body())]); }
         case 'm_promo_toggle': { Manage::require(); Auth::requireCsrf('admin'); $b = Http::body(); Manage::promoToggle(Http::str($b, 'code', 24)); Http::json(['ok' => true]); }

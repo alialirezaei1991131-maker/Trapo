@@ -42,7 +42,7 @@ $cfg = [
     'csrf' => $s['csrf'], 'ck' => $s['ck'], 'files' => $files,
     'user' => ['name' => $u['name'], 'login' => $u['login'], 'dev' => $u['dev_id'], 'since' => (int) $u['created_at']],
     'codes' => License::codes((int) $u['id']), 'referral' => Shop::referral($u), 'wm' => Content::wmTag((int) $u['id']),
-    'owned' => Shop::ownedCourses((int) $u['id']), 'prices' => Shop::catalog(), 'bundle' => Shop::bundle(), 'contact' => Shop::contact(), 'enamad' => Shop::enamad(),
+    'owned' => Shop::ownedCourses((int) $u['id']), 'prices' => Shop::catalog(), 'bundle' => Shop::bundle(), 'contact' => Shop::contact(), 'enamad' => Shop::enamad(), 'pay' => Pay::enabled(),
     'ads' => Ads::forUser($u),
 ];
 $json = json_encode($cfg, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES | JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT);

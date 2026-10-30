@@ -99,12 +99,14 @@ final class Db
         self::$pdo->exec("CREATE TABLE IF NOT EXISTS purchases (id $PK, user_id $I NOT NULL, course $S NOT NULL, order_id $I NULL, source $S NOT NULL DEFAULT 'order',
             created_at $I NOT NULL, UNIQUE (user_id, course))$E");
         try { self::$pdo->exec("ALTER TABLE promos ADD COLUMN courses $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ } // کد تخفیف فقط برای این دوره‌ها (خالی = همه)
+        // پرداخت آنلاین زیبال: شناسه تراکنش درگاه و شماره پیگیری بانک
+        foreach (['pay_track', 'pay_ref'] as $col) { try { self::$pdo->exec("ALTER TABLE orders ADD COLUMN $col $S NULL"); } catch (Throwable $e) { /* ستون از قبل هست */ } }
         try {
             foreach (self::$pdo->query('SELECT id, login FROM users WHERE login_key IS NULL')->fetchAll() as $r) {
                 self::$pdo->prepare('UPDATE users SET login_key = ? WHERE id = ?')->execute([Auth::identityKey((string) $r['login']), $r['id']]);
             }
         } catch (Throwable $e) { /* */ }
-        foreach (['CREATE INDEX IF NOT EXISTS ix_lic_user ON licenses(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ord_user ON orders(user_id)',
+        foreach (['CREATE INDEX IF NOT EXISTS ix_lic_user ON licenses(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ord_user ON orders(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ord_track ON orders(pay_track)',
                   'CREATE INDEX IF NOT EXISTS ix_sess_user ON sessions(user_id)', 'CREATE INDEX IF NOT EXISTS ix_ref_referrer ON referrals(referrer_id)',
                   'CREATE INDEX IF NOT EXISTS ix_user_lkey ON users(login_key)', 'CREATE INDEX IF NOT EXISTS ix_user_ckey ON users(contact_key)'] as $ix) {
             try { self::$pdo->exec($my ? str_replace('IF NOT EXISTS ', '', $ix) : $ix); } catch (Throwable $e) { /* شاخص از قبل هست */ }

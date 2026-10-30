@@ -4239,6 +4239,10 @@ P — Plan: …`);
     bad_field: ['رشته را از فهرست انتخاب کن.', 'Choose your field from the list.'],
     bad_degree: ['مقطع را از فهرست انتخاب کن.', 'Choose your level from the list.'],
     contact_taken: ['این ایمیل یا شماره متعلق به حساب دیگری است.', 'That email or number belongs to another account.'],
+    pay_off: ['پرداخت آنلاین فعلاً فعال نیست؛ از راه پیام به پشتیبانی خرید کن.', 'Online payment is off right now — buy by messaging support.'],
+    pay_gateway: ['اتصال به درگاه پرداخت برقرار نشد؛ چند دقیقه دیگر دوباره امتحان کن.', 'Could not reach the payment gateway — try again in a few minutes.'],
+    no_order: ['این سفارش پیدا نشد؛ دوباره سفارش بده.', 'Order not found — please order again.'],
+    not_pending: ['این سفارش دیگر قابل پرداخت نیست؛ دوباره سفارش بده.', 'This order can no longer be paid — please order again.'],
   };
   const srvMsg = err => { const e = SRV_ERR[err] || ['خطایی پیش آمد؛ دوباره امتحان کن.', 'Something went wrong — please try again.']; return PT(e[0], e[1]); };
 
@@ -4268,14 +4272,60 @@ P — Plan: …`);
     showActivated(x.ok ? x : { ok: true, g: r.grant, before: summary(), after: summary() });
   }
   /** سفارش روی سرور: مبلغ نهایی، تخفیف دوست و اعتبار کیف پول را سرور حساب می‌کند */
-  async function srvOrder(req, box) {
+  const PAY = () => !!(SRV && SRV.pay);
+  async function srvOrder(req, box, payNow) {
     box.hidden = false;
     box.innerHTML = `<p class="muted">⏳ ${PT('در حال ثبت سفارش…', 'Placing your order…')}</p>`;
     const r = await api('order', Object.assign({ lang: UILANG() }, req));
     if (!r.ok) { box.innerHTML = `<div class="acerr">${pesc(srvMsg(r.err))}</div>`; return pSfx('wrong'); }
     if (r.creditUsed && SRV.referral) SRV.referral.credit = Math.max(0, SRV.referral.credit - r.creditUsed);
+    if (payNow && await payGo(r.order, box)) return;
     orderReady(box, { id: r.order, txt: r.message, base: r.base, final: r.final, pct: r.pct, credit: r.creditUsed,
       disc: r.refPct ? PT(`🤝 تخفیف دعوت دوست ${nf(r.refPct)}٪`, `🤝 friend invite ${nf(r.refPct)}% off`) : r.promo ? `🎁 ${r.promo.code} ${nf(r.pct)}${PT('٪', '%')}` : '' });
+  }
+  /** پرداخت آنلاین (زیبال): انتقال به درگاه؛ اگر نشد، false تا راه پیام به پشتیبانی نشان داده شود */
+  async function payGo(order, box) {
+    box.hidden = false;
+    box.innerHTML = `<p class="paygo">🔒 ${PT('در حال انتقال به درگاه امن پرداخت…', 'Taking you to the secure payment gateway…')}</p>`;
+    const r = await api('pay', { order });
+    if (r.ok && r.url) { location.href = r.url; return true; }
+    pSfx('wrong');
+    pToast(srvMsg(r.err), 'toast--bad');
+    return false;
+  }
+  /** برگشت از درگاه: ?pay=ok|fail&order=…&ref=…&why=… (pay.php) */
+  function payReturn() {
+    if (!SRV) return;
+    const q = new URLSearchParams(location.search), st = q.get('pay');
+    if (st !== 'ok' && st !== 'fail') return;
+    const order = (q.get('order') || '').replace(/[^0-9A-Z-]/gi, ''), ref = (q.get('ref') || '').replace(/[^0-9A-Z-]/gi, ''), why = q.get('why') || '';
+    ['pay', 'order', 'ref', 'why'].forEach(k => q.delete(k));
+    history.replaceState(null, '', location.pathname + (q.toString() ? '?' + q : '') + location.hash);
+    if (st === 'ok') {
+      pConfetti(160); pSfx('done');
+      const own = (SRV.owned || []).map(id => AC[id]).filter(Boolean);
+      pModal(`<div class="big-i">🎉</div><h3>${PT('پرداخت موفق بود!', 'Payment successful!')}</h3>
+        <div class="actable">${order ? `<div><span>${PT('کد سفارش', 'Order')}</span><b dir="ltr">${pesc(order)}</b></div>` : ''}${ref ? `<div><span>${PT('شماره پیگیری', 'Reference')}</span><b dir="ltr">${pesc(ref)}</b></div>` : ''}<div><span>${PT('دسترسی', 'Access')}</span><b>${PT('دائمی ♾️', 'Lifetime ♾️')}</b></div></div>
+        ${own.length ? `<div class="acok">✅ ${PT('دوره‌های باز روی حسابت:', 'Courses open on your account:')} ${own.map(c => cName(c)).join(PT('، ', ', '))}</div>` : ''}
+        <p class="muted">${PT('همه درس‌ها، آزمون‌ها، راندها و ابزارهای دوره‌هایی که خریدی برای همیشه باز شد. شماره پیگیری را برای خودت نگه دار.', 'Every lesson, exam, round and tool of the courses you bought is now open for good. Keep the reference number for your records.')}</p>
+        <div class="modal__btns"><button class="btn btn--brand btn--lg" data-close>${PT('شروع یادگیری 🚀', 'Start learning 🚀')}</button></div>`, { onClose: () => refreshAll() });
+      return;
+    }
+    pSfx('wrong');
+    const cancelled = why === 'cancelled';
+    const m = pModal(`<div class="big-i">${cancelled ? '↩️' : '⚠️'}</div><h3>${cancelled ? PT('پرداخت انجام نشد', 'Payment not completed') : PT('پرداخت تأیید نشد', 'Payment not confirmed')}</h3>
+      <p class="muted">${cancelled ? PT('پرداخت لغو شد یا ناموفق بود و دوره‌ای باز نشد.', 'The payment was cancelled or failed, so no course was opened.')
+        : PT('اگر مبلغی از حسابت کم شده، نگران نباش: یا پس از بررسی دوره‌ها باز می‌شوند، یا بانک حداکثر ظرف ۷۲ ساعت مبلغ را برمی‌گرداند.', 'If money left your account, don’t worry: either the courses open after a check, or the bank returns it within 72 hours.')}
+        ${order ? `<br>${PT('کد سفارش', 'Order')}: <b dir="ltr">${pesc(order)}</b>` : ''}</p>
+      <div class="acorder" hidden></div>
+      <div class="modal__btns">${order ? `<button class="btn btn--brand btn--lg" data-payretry>💳 ${PT('پرداخت دوباره', 'Try paying again')}</button>` : ''}<button class="btn btn--ghost" data-paysupport>💬 ${PT('پیام به پشتیبانی', 'Message support')}</button></div>`);
+    m.el.addEventListener('click', async e => {
+      if (e.target.closest('[data-payretry]')) await payGo(order, m.el.querySelector('.acorder'));
+      if (e.target.closest('[data-paysupport]')) {
+        const box = m.el.querySelector('.acorder');
+        orderReady(box, { id: order || '—', txt: PT(`سلام، برای سفارش ${order} پرداخت آنلاین انجام دادم ولی دوره باز نشد. لطفاً بررسی کنید. 🙏`, `Hi, I paid online for order ${order} but the course didn’t open. Please check. 🙏`), base: 0, final: 0, pct: 0, credit: 0, disc: '' });
+      }
+    });
   }
   /** بررسی کد تخفیف با سرور (کدهای کمپین فقط روی سرور معتبرند) */
   async function srvPromo(code, st, draw, list) {
@@ -4844,7 +4894,9 @@ P — Plan: …`);
             <b>${fin !== full && ids.length ? `<s>${nf(full)}</s> ` : ''}${nf(fin)} <i>${CUR()}</i></b>${full > fin && ids.length ? `<em class="up__save">${PT(`${nf(full - fin)} تومان صرفه‌جویی`, `You save ${nf(full - fin)} Toman`)}</em>` : ''}</div>
           ${SRV && SRV.referral && SRV.referral.myFriendPct ? `<p class="acsrv-note">🤝 ${PT(`تخفیف دعوت دوست (${nf(SRV.referral.myFriendPct)}٪) هنگام ثبت سفارش اعمال می‌شود (اگر از کد تخفیفت بیشتر باشد).`, `Your friend-invite discount (${nf(SRV.referral.myFriendPct)}%) is applied when you order (if it beats your promo code).`)}</p>` : ''}
           ${SRV && SRV.referral && SRV.referral.credit > 0 ? `<label class="acsrv-credit"><input type="checkbox" data-usecredit checked> 👛 ${PT(`استفاده از اعتبار کیف پول (${nf(SRV.referral.credit)} ${CUR()})`, `Use wallet credit (${nf(SRV.referral.credit)} ${CUR()})`)}</label>` : ''}
-          <button class="btn btn--gold btn--lg" data-order ${ids.length ? '' : 'disabled'}>🧾 ${PT('ثبت سفارش و ارسال پیام خرید', 'Place order & send the message')}</button>
+          ${PAY() ? `<div class="up__pay"><button class="btn btn--gold btn--lg" data-order="pay" ${ids.length ? '' : 'disabled'}>💳 ${PT('پرداخت آنلاین و باز شدن فوری', 'Pay online & unlock now')}</button>
+          <button class="btn btn--ghost btn--sm buy__alt" data-order="msg" ${ids.length ? '' : 'disabled'}>💬 ${PT('یا خرید با پیام به پشتیبانی', 'Or buy by messaging support')}</button></div>`
+          : `<button class="btn btn--gold btn--lg" data-order ${ids.length ? '' : 'disabled'}>🧾 ${PT('ثبت سفارش و ارسال پیام خرید', 'Place order & send the message')}</button>`}
         </footer>` : ''}`;
       if (keepScroll) card.querySelector('.up__b').scrollTop = y;
     }
@@ -4861,11 +4913,20 @@ P — Plan: …`);
       }
       if (e.target.closest('[data-promox]')) { st.promo = null; st.promoIn = ''; st.promoErr = ''; pSfx('tap'); return draw(true); }
       if (e.target.closest('[data-upact]')) { const inp = card.querySelector('.up__code input'); return tryRedeem(inp.value.trim(), card.querySelector('.up__code .acerr'), inp, () => m.close()); }
-      if (e.target.closest('[data-order]')) {
+      const ob = e.target.closest('[data-order]');
+      if (ob) {
         const sel = list.filter(x => st.sel[x.id] && !owned(x));
         if (!sel.length) return pToast(PT('اول یک دوره انتخاب کن', 'Pick a course first'), 'toast--bad');
         const box = card.querySelector('.acorder');
-        if (SRV) return srvOrder({ courses: sel.map(x => x.id), promo: st.promo ? st.promo.code : '', use_credit: !!(card.querySelector('[data-usecredit]') || {}).checked }, box);
+        if (SRV) {
+          card.querySelectorAll('[data-order]').forEach(b => { b.disabled = true; });
+          return srvOrder({ courses: sel.map(x => x.id), promo: st.promo ? st.promo.code : '', use_credit: !!(card.querySelector('[data-usecredit]') || {}).checked }, box, ob.dataset.order === 'pay' && PAY())
+            .then(() => {
+              // سفارش ثبت نشد (خطا): دکمه‌ها دوباره فعال؛ سفارش ثبت‌شده دوباره ثبت نشود
+              if (!box.querySelector('.buy__done')) card.querySelectorAll('[data-order]').forEach(b => { b.disabled = false; });
+              box.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+            });
+        }
         const base = price(sel.map(x => x.id)), promo = promoFits(st.promo, 2) ? st.promo : null, fin = promo ? promoPrice(base, promo) : base;
         const id = 'ORD-' + b32enc(sha256(deviceId() + Date.now() + Math.random())).slice(0, 6);
         orderReady(box, { id, txt: orderText(sel, base, promo, fin, id), base, final: fin, pct: promo ? promo.pct : 0, disc: promo ? `🎁 ${promo.code} ${nf(promo.pct)}٪` : '' });
@@ -5273,6 +5334,7 @@ ${root}[data-theme="dark"] { --brand-l: ${dk}; --brand-t: ${dkT}; }`;
     }
     banner(); fab(); expiryNotice();
     hideBoot();
+    setTimeout(() => { try { payReturn(); } catch (e) { console.error('[academy] pay return', e); } }, 400);
     setTimeout(() => { try { cacheArt(); } catch (e) { /* */ } }, 1500);
     if (location.protocol.startsWith('http') && 'serviceWorker' in navigator && !SRV) {
       window.addEventListener('load', () => { navigator.serviceWorker.register('sw.js').catch(() => { /* بدون حالت آفلاین */ }); });

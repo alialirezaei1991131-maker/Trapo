@@ -2571,6 +2571,9 @@ html[data-course="negar"] { --course-css: 1; }
 .buy__done { display: flex; flex-direction: column; gap: 10px; }
 .buy__steps { margin: 0; padding-inline-start: 22px; display: flex; flex-direction: column; gap: 4px; font-weight: 700; line-height: 1.8; }
 .buy__via { margin: 4px 0 8px; font-weight: 900; color: var(--text); }
+.up__pay { display: flex; flex-direction: column; gap: 6px; align-items: stretch; }
+.buy__alt { font-size: 13px; }
+.paygo { margin: 0; padding: 14px; border-radius: 14px; background: var(--bg2); border: 1.5px dashed var(--line); text-align: center; font-weight: 800; }
 .buy__send { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 10px; margin-bottom: 12px; }
 .sendc { --s1: #2aabee; --s2: #1c8ad1; --sd: #146ea9; position: relative; overflow: hidden; display: flex; align-items: center; gap: 12px; padding: 12px 14px; border-radius: 18px; color: #fff; text-decoration: none;
   background: linear-gradient(135deg, var(--s1), var(--s2)); box-shadow: 0 5px 0 var(--sd), 0 12px 26px -10px var(--s2); transition: transform .12s, box-shadow .12s, filter .15s; }

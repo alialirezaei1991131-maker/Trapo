@@ -49,6 +49,11 @@
       toast(j.ok ? '✅ پرداخت ثبت شد' + (j.granted && j.granted.length ? ' — باز شد: ' + j.granted.map(CN).join('، ') : '') + (j.reward ? ' — پاداش معرف: ' + nf(j.reward) + ' تومان' : '') : (ERR[j.err] || 'خطا'));
       return tab('orders', st.ost);
     }
+    if (a === 'paycheck') {
+      var pc = await api('m_paycheck', { order: id });
+      toast(pc.ok ? '✅ پرداخت در زیبال تأیید شد و دوره‌ها باز شدند' + (pc.ref ? ' — پیگیری ' + pc.ref : '') : (PAYERR[pc.err] || ERR[pc.err] || 'خطا'));
+      return tab('orders', st.ost);
+    }
     if (a === 'cancel') { if (!confirm('سفارش ' + id + ' لغو شود؟ اعتبار کیف پول کاربر برمی‌گردد.')) return; var c = await api('m_cancel', { order: id }); toast(c.ok ? 'لغو شد' : (ERR[c.err] || 'خطا')); return tab('orders', st.ost); }
     if (a === 'copy') { navigator.clipboard.writeText(b.dataset.txt).then(function () { toast('📋 کپی شد؛ در پنل آفلاین مدیر بچسبانید'); }); return; }
     if (a === 'ost') return tab('orders', id);
@@ -61,6 +66,8 @@
     }
     if (a === 'ptoggle') { await api('m_promo_toggle', { code: id }); return tab('promos'); }
   });
+  var PAYERR = { unpaid: 'زیبال این پرداخت را تأیید نکرد (پرداخت نشده یا ناموفق بوده)', pay_gateway: 'پاسخی از زیبال نیامد؛ کمی بعد دوباره امتحان کنید',
+    mismatch: 'مبلغ یا کد سفارش در زیبال با سفارش نمی‌خواند؛ دستی بررسی کنید', no_payment: 'این سفارش پرداخت آنلاین ندارد', pay_off: 'کد مرچنت زیبال در config.php نیست' };
   var st = { ost: 'pending' };
   async function tab(name, arg) {
     document.querySelectorAll('[data-tab]').forEach(function (b) { b.classList.toggle('is-on', b.dataset.tab === name); });
@@ -85,7 +92,8 @@
             (r.product ? '<p>❤️ <b>' + esc(PROD(r.product)) + '</b> <span class="mg__muted">· سفارش قلب از نسخه قبلی؛ قلب دیگر فروخته نمی‌شود (در صورت نیاز از «کاربران» دوره را دستی باز کنید)</span></p>' : '<p>📚 <b>' + esc(String(r.courses).split(',').filter(Boolean).map(CN).join('، ')) + '</b> · ♾️ دائمی <span class="mg__muted">· با «پرداخت شد» دوره‌ها خودکار روی حساب خریدار باز می‌شوند</span></p>') +
             '<p>💰 <b>' + nf(r.final_price) + '</b> تومان' + (r.base_price !== r.final_price ? ' (پایه ' + nf(r.base_price) + ')' : '') + (r.promo ? ' · 🎁 ' + esc(r.promo) + ' ' + nf(r.promo_pct) + '٪' : '') + (r.ref_pct ? ' · 🤝 دعوت ' + nf(r.ref_pct) + '٪' : '') + (r.credit_used ? ' · 👛 ' + nf(r.credit_used) : '') + (r.ref_name ? ' · معرف: ' + esc(r.ref_name) : '') + '</p>' +
             (r.note ? '<p class="mg__muted">📝 ' + esc(r.note) + '</p>' : '') +
-            '<div class="mg__btns">' + (r.status === 'pending' ? '<button class="au__go" data-act="paid" data-id="' + esc(r.order_code) + '">✅ پرداخت شد</button><button data-act="cancel" data-id="' + esc(r.order_code) + '">لغو</button>' : '') +
+            (r.pay_track ? '<p class="mg__muted">💳 پرداخت آنلاین زیبال · تراکنش <code dir="ltr">' + esc(r.pay_track) + '</code>' + (r.pay_ref ? ' · پیگیری <code dir="ltr">' + esc(r.pay_ref) + '</code>' : (r.status === 'pending' ? ' · کاربر به درگاه رفته ولی پرداخت هنوز تأیید نشده' : '')) + '</p>' : '') +
+            '<div class="mg__btns">' + (r.status === 'pending' && r.pay_track ? '<button data-act="paycheck" data-id="' + esc(r.order_code) + '">🔄 بررسی پرداخت در زیبال</button>' : '') + (r.status === 'pending' ? '<button class="au__go" data-act="paid" data-id="' + esc(r.order_code) + '">✅ پرداخت شد</button><button data-act="cancel" data-id="' + esc(r.order_code) + '">لغو</button>' : '') +
             (r.product ? '' : '<button data-act="copy" data-txt="' + esc(msg) + '">📋 پیام برای پنل آفلاین (فقط اگر کد فعال‌سازی هم بخواهد)</button>') + '</div></article>';
         }).join('') : '<p class="mg__muted">سفارشی نیست.</p>');
     }
