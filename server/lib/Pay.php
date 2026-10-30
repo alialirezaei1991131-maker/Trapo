@@ -7,12 +7,19 @@ declare(strict_types=1);
  *  ۲. کاربر در درگاه پرداخت می‌کند و زیبال او را به pay.php برمی‌گرداند
  *  ۳. back/verifyOrder: تأیید پرداخت با سرور زیبال (نه با پارامترهای نشانی) و بررسی مبلغ؛ بعد Shop::markPaid
  *     دوره‌ها را برای همیشه روی حساب باز می‌کند. تکرار برگشت یا تأیید (کد ۲۰۱) بی‌خطر است.
- * merchant خالی = پرداخت آنلاین خاموش (همان خرید با پیام تلگرام، بله یا ایمیل)؛ 'zibal' = حالت آزمایشی زیبال.
+ * کد مرچنت: config.php، و اگر آن‌جا خالی باشد کد مرچنت درگاه Therapo؛ 'off' = پرداخت آنلاین خاموش؛ 'zibal' = حالت آزمایشی زیبال.
  */
 final class Pay
 {
+    /** کد مرچنت درگاه زیبال Therapo (اگر config.php کد دیگری نداشته باشد) */
+    private const MERCHANT = '6ae319d042e2a3e4ca5e8e44';
     private static function cfg(): array { return (array) Cfg::get('zibal', []); }
-    public static function merchant(): string { return trim((string) (self::cfg()['merchant'] ?? '')); }
+    public static function merchant(): string
+    {
+        $m = trim((string) (self::cfg()['merchant'] ?? ''));
+        if ($m === '') return self::MERCHANT;
+        return strtolower($m) === 'off' ? '' : $m;
+    }
     public static function enabled(): bool { return self::merchant() !== ''; }
     private static function api(): string { return rtrim((string) (self::cfg()['api'] ?? 'https://gateway.zibal.ir'), '/'); }
 
